@@ -1,3 +1,4 @@
+"Personal vim config stuff
 set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
 syntax on
 
@@ -14,12 +15,18 @@ noremap <silent> <C-S> :update<CR>
 vnoremap <silent> <C-S> <C-C>:update<CR>
 inoremap <silent> <C-S> <C-O>:update<CR>
 
-hi MatchParen cterm=none ctermbg=green ctermfg=blue
+vnoremap <C-X> "+x
+vnoremap <C-C> "+y
+map <C-V>      "+gP
 
-autocmd VimEnter execute "redraw"
+autocmd VimEnter * execute "hi MatchParen guibg=#51a39f guifg=white gui=none"
+autocmd VimEnter * execute "redraw"
+
+set mouse=a
 
 let g:pathogen_disabled = ['vim-devicons', 'vim-nerdtree-syntax-highlight']
 
+"Syntastic
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = '-std=c++2a'
 let g:syntastic_cpp_check_header = 1"
@@ -43,7 +50,6 @@ let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asm'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['S'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lds'] = ''
 let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ld'] = ''
-
 let WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
 let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['meson.build'] = ''
 

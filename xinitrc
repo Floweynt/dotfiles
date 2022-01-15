@@ -42,6 +42,6 @@ xrandr --auto --output HDMI-0 --mode 1920x1080 --left-of eDP-1-1
 picom --backend glx & #--experimental-backends &
 dmenu &
 slstatus &
-feh --bg-center wallpaper.jpeg &
+feh --bg-center /home/flowey/.dotfiles/wallpaper.jpeg &
 #./.startup-launch-apps.sh
 dwm
