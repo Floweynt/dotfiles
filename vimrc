@@ -15,16 +15,10 @@ noremap <silent> <C-S> :update<CR>
 vnoremap <silent> <C-S> <C-C>:update<CR>
 inoremap <silent> <C-S> <C-O>:update<CR>
 
-vnoremap <C-X> "+x
-vnoremap <C-C> "+y
-map <C-V>      "+gP
-
 autocmd VimEnter * execute "hi MatchParen guibg=#51a39f guifg=white gui=none"
-autocmd VimEnter * execute "redraw"
+autocmd VimEnter,GUIEnter * call timer_start(69, { tid -> execute('redraw!')})
 
 set mouse=a
-
-let g:pathogen_disabled = ['vim-devicons', 'vim-nerdtree-syntax-highlight']
 
 "Syntastic
 let g:syntastic_cpp_compiler = 'clang++'
