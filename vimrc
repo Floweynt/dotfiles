@@ -15,16 +15,23 @@ noremap <silent> <C-S> :update<CR>
 vnoremap <silent> <C-S> <C-C>:update<CR>
 inoremap <silent> <C-S> <C-O>:update<CR>
 
-autocmd VimEnter * execute "hi MatchParen guibg=#51a39f guifg=white gui=none"
-autocmd VimEnter,GUIEnter * call timer_start(69, { tid -> execute('redraw!')})
+if has("clipboard")
+    vnoremap <C-X> "+x
+    vnoremap <C-C> "+y
+    map <C-V> "+gP
+    cmap <C-V> <C-R>+
+endif
 
+autocmd VimEnter * execute "hi MatchParen guibg=#51a39f guifg=white gui=none"
+autocmd VimEnter,GUIEnter * call timer_start(69, { tid -> execute('redraw!') })
+autocmd VimEnter,GUIEnter * call timer_start(10000, { tid -> execute('redraw!') }, {'repeat': -1})
 set mouse=a
 
 "Syntastic
 let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_cpp_compiler_options = '-std=c++2a'
+let g:syntastic_cpp_compiler_options= '-std=c++17'
 let g:syntastic_cpp_check_header = 1"
-let g:syntastic_cpp_checkers = ['check']
+let g:syntastic_cpp_checkers = ['check', 'gcc']
 let g:clang_library_path='/usr/lib/libclang.so.13.0.0'
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -34,18 +41,19 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 1
 
+set exrc
+
 "Nerdtree plugins and friends
 let g:NERDTreeStatusline = '%#NonText#'
 let g:airline_powerline_fonts = 1
 let g:webdevicons_enable_nerdtree = 1
 let g:webdevicons_enable_airline_statusline = 1
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {} " needed
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['asm'] = ''
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['S'] = ''
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lds'] = ''
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ld'] = ''
-let WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
-let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['meson.build'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {'asm': '', 'S': 'I'}
+
+"let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lds'] = ''
+"let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ld'] = ''
+"let WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
+"let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['meson.build'] = ''
 
 set guifont=JetBrains\ Mono\ Nerd\ Font\ Complete\ Mono\ 14
 
