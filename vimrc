@@ -28,11 +28,12 @@ autocmd VimEnter,GUIEnter * call timer_start(10000, { tid -> execute('redraw!') 
 set mouse=a
 
 "Syntastic
-let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_compiler_options= '-std=c++17'
 let g:syntastic_cpp_check_header = 1"
-let g:syntastic_cpp_checkers = ['check', 'gcc']
-let g:clang_library_path='/usr/lib/libclang.so.13.0.0'
+let g:syntastic_cpp_checkers = ['gcc']
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
+let g:clang_library_path='/usr/lib/libclang.so.13'
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
@@ -45,15 +46,11 @@ set exrc
 
 "Nerdtree plugins and friends
 let g:NERDTreeStatusline = '%#NonText#'
+let g:NERDTreeGlyphReadOnly = "RO"
 let g:airline_powerline_fonts = 1
 let g:webdevicons_enable_nerdtree = 1
 let g:webdevicons_enable_airline_statusline = 1
-let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {'asm': '', 'S': 'I'}
-
-"let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['lds'] = ''
-"let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols['ld'] = ''
-"let WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
-"let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['meson.build'] = ''
+let g:WebDevIconsUnicodeDecorateFileNodesExtensionSymbols = {'asm': '', 'S': '', 'lds': '', 'ld': ''}
 
 set guifont=JetBrains\ Mono\ Nerd\ Font\ Complete\ Mono\ 14
 
@@ -75,4 +72,10 @@ autocmd BufReadPre,FileReadPre,BufWritePost meson.build execute '! gen-compile-c
 autocmd BufReadPre,FileReadPre,BufWritePost CMakeLists.txt execute '! gen-compile-commands cmake %:p:h'
 
 execute pathogen#infect()
-redraw!
+let g:terminal_ansi_colors = ['#f65b5b', '#e74c4c', '#6bb05d', '#e59e67', '#5b98a9', '#b185db', '#51a39f', '#c4c4c4', '#343636', '#c26f6f', '#8dc776', '#e7ac7e', '#7ab3c3', '#bb84e5', '#6db0ad', '#cccccc']
+"Stab a boomer
+set list
+set listchars=eol:¬,space:⋅
+hi SpecialKey guifg=#343636
+hi NonText guifg=#343636 guibg=NONE
+autocmd filetype nerdtree set listchars=

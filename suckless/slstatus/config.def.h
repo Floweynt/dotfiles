@@ -65,24 +65,24 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
     /* function             format              argument */
-    { datetime,             "Time: %s | ",      "%F %T" },
+    { datetime,             " %s | ",          "%F %T" },
 
     { set_pos,              "",                 NULL    },
-    { battery_perc,         "Battery: %s%% ",   "BAT1"  },
+    { battery_perc,         "  %s%% ",         "BAT1"  },
     { battery_state,        "(%s) ",            "BAT1"  },
     { battery_remaining,    "%s",               "BAT1"  },
-    { pad_to,               "%s | ",            "24"    },
+    { pad_to,               "%s | ",            "17"    },
 
-    { wifi_essid,           "WiFi: %s",         "wlan0" },
+    { wifi_essid,           " %s",             "wlan0" },
     { wifi_stars,           " [%s] | ",         "wlan0" },
 
     { keyboard_indicators,  "K: [%s] | ",       "cn"    },
 
-    { run_command,          "Vol: %s | ",       "awk -F\"[][]\" \'/Left:/ { print $2 }\' <(amixer sget Master)"},
+    { run_command,          " %s | ",          "awk -F\"[][]\" \'/Left:/ { print $2 }\' <(amixer sget Master)"},
 
     { username,             "%s@",              NULL    },
     { hostname,             "%s ",              NULL    },
-    { ipv4,                 "| IP: %s",       "wlan0" },
+    { ipv4,                 "| IP: %s",         "wlan0" },
 
     // bottom half
     { separator,            ";",                NULL    },
@@ -91,28 +91,28 @@ static const struct arg args[] = {
     { kernel_release,       "(%s): [ ",         NULL    },
 
     { set_pos,              "",                 NULL    },
-    { cpu_perc,             "CPU: %s%%",        NULL    },
+    { cpu_perc,             " %s%%",           NULL    },
     { cpu_freq,             " (%s)",            NULL    },
     { pad_to,               "%s | ",            "19"    },
 
     { set_pos,              "",                 NULL    },
-    { ram_used,             "RAM: %s/",         NULL    },
+    { ram_used,             "M %s/",            NULL    },
     { ram_total,            "%s GiB",           NULL    },
     { ram_perc,             " (%s%%)",          NULL    },
-    { pad_to,               "%s | ",            "25"    },
+    { pad_to,               "%s | ",            "22"    },
 
     { set_pos,              "",                 NULL    },
-    { swap_used,            "Swap: %s/",        NULL    },
+    { swap_used,            "易 %s/",           NULL    },
     { swap_total,           "%s GiB",           NULL    },
     { swap_perc,            " (%s%%)",          NULL    },
-    { pad_to,               "%s | ",            "25"    },
+    { pad_to,               "%s | ",            "21"    },
 
-    { disk_free,            "Disk: %s/",        "/"     },
+    { disk_free,            " %s/",            "/"     },
     { disk_total,           "%s ",              "/"     },
     { disk_perc,            "(%s%% used) | ",   "/"     },
 
     { set_pos,              "",                 NULL    },
     { netspeed_rx,          "RX %s - ",         "wlan0" },
     { netspeed_tx,          "TX %s",            "wlan0" },
-    { pad_to,               "%s ]",            "25"    },
+    { pad_to,               "%s ]",             "25"    },
 };
