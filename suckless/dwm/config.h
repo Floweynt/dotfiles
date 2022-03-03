@@ -7,7 +7,7 @@ static const int showbar            = 1;        /* 0 means no standard bar */
 static const int topbar             = 1;        /* 0 means standard bar at bottom */
 static const int extrabar           = 1;        /* 0 means no extra bar */
 static const char statussep         = ';';      /* separator between statuses */
-static const char *fonts[]          = { "JetBrainsMono Nerd Font Mono:style=Regular:size=10" };
+static const char *fonts[]          = { "JetBrainsMono Nerd Font Mono:style=Regular:size=14" };
 static const int focusonwheel       = 0;
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
