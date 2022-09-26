@@ -1,0 +1,15 @@
+Config { overrideRedirect = False
+       , font            = "xft:CaskaydiaCove Nerd Font Mono:style=Book:size=15"
+       , bgColor         = "#2E3440"
+       , fgColor         = "#ECEFF4"
+       , alpha           = 225
+       , position        = Static { xpos=1930, ypos=1045, width=1900, height=25}
+       , commands        = [ 
+                             Run Com "/home/flowey/.dotfiles/xmobar-util/xmobar-util" 
+                               [ "bot"
+                               ] "output" 10
+                           ]
+       , sepChar         = "%"
+       , alignSep        = "}{"
+       , template        = "   %output%" 
+       }

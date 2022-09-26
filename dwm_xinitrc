@@ -40,12 +40,13 @@ xrandr --auto
 # xrandr --auto --output eDP-1-1 --right-of HDMI-0
 xbindkeys
 
-picom --backend glx --config ~/.dotfiles/picom.conf & #--experimental-backends &
+picom --backend glx & #--config ~/.dotfiles/picom.conf & #--experimental-backends &
 #slstatus &
 #feh --bg-center /home/flowey/.dotfiles/wallpaper.jpeg &
 #./.startup-launch-apps.sh
 # xrandr --auto --output eDP-1-1 --primary
 
-xmonad
 
-# dwm #>> dwm.log 
+# xmonad
+
+dwm #>> dwm.log 

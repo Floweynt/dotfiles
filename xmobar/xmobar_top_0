@@ -1,0 +1,27 @@
+Config { overrideRedirect = False
+       , font            = "xft:CaskaydiaCove Nerd Font Mono:style=Book:size=15"
+       , additionalFonts = [ "xft:CaskaydiaCove Nerd Font Mono:style=Book:size=35"
+                           , "xft:CaskaydiaCove Nerd Font Mono:style=Book:size=20"
+                           ] 
+       , bgColor         = "#2E3440"
+       , fgColor         = "#ECEFF4"
+       , alpha           = 225
+       , position        = Static { xpos=10, ypos=10, width=1900, height=25}
+       , commands        = [ Run UnsafeXPropertyLog "_XMONAD_LOG_TOP_0"
+                           , Run Com "/home/flowey/.dotfiles/xmobar-util/xmobar-util" 
+                               [ "top"
+                               ] "output" 10
+                           , Run Date "%a %Y-%m-%d <fc=#51a39f>%H:%M</fc>" "date" 10
+                           , Run Cpu
+                               [ "--template", ": <total>%"
+                               , "-L", "3"
+                               , "-H", "50"
+                               , "--high"  , "#e74c4c"
+                               , "--normal", "#6bb05d"
+                               , "--low", "#8dc776"
+                               ] 10
+                           ]
+       , sepChar         = "%"
+       , alignSep        = "}{"
+       , template        = "   %_XMONAD_LOG_TOP_0%} <fn=1><fc=#37b3f1></fc></fn> { <fc=#51a39f>|</fc> %date% <fc=#51a39f>|</fc> %cpu%%output%   " 
+       }
