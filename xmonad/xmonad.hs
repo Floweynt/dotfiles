@@ -164,7 +164,7 @@ myXmobarPP s = clickablePP (marshallPP s def {
         ppUrgent           = xmobarBorder "Bottom" "#e59e67" 3,
         ppTitleSanitize    = xmobarStrip,
         ppOrder            = \(w:_:_:strs) -> w : strs,
-        ppExtras           = [ logConst "uwu"
+        ppExtras           = [ logConst "(uwu)"
                              , foldLoggers (++) [ 
                                 logConst "<action=`xdotool key \"super+space\"` button=1>", 
                                 logLayoutOnScreen s,

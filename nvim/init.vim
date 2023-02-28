@@ -14,12 +14,6 @@ call LoadConfigScripts()
 "Terminal stuff
 command Eterm :term ++curwin 
 
-augroup remember_folds
-    autocmd!
-    autocmd BufWinLeave * silent!mkview
-    autocmd BufWinEnter * silent! loadview
-augroup END
-
 "Nerdtree plugins and friends
 let g:NERDTreeStatusline = '%#NonText#'
 let g:airline_powerline_fonts = 1
@@ -41,14 +35,21 @@ autocmd VimEnter * call vista#RunForNearestMethodOrFunction()
 
 "Plugin shit
 call plug#begin()
+Plug 'preservim/nerdtree'
+Plug 'xuyuanp/nerdtree-git-plugin'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'rhysd/vim-clang-format'
+Plug 'ryanoasis/vim-devicons'
 Plug 'liuchengxu/vista.vim'
 Plug 'mbbill/undotree'
+Plug 'leafoftree/vim-project'
 Plug 'mangeshrex/uwu.vim', { 'commit': '1d15981' }
 Plug 'tikhomirov/vim-glsl'
+Plug 'aserebryakov/vim-todo-lists'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rhysd/vim-llvm'
 call plug#end()
-execute pathogen#infect()
 
 let g:vista#renderer#icons = {
 \   "function": "\uf794",
@@ -74,7 +75,8 @@ set guioptions=
 "Projects
 let g:project_enable_welcome = 1
 let g:project_use_nerdtree = 1
-call project#rc()
 let g:coc_default_semantic_highlight_groups = 1
+call project#begin()
 
 command Reload call LoadConfigScripts()
+
