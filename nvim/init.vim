@@ -1,12 +1,13 @@
 "Personal vim config stuff
+let s:script_path = expand('<sfile>:p:h')
 
 function LoadConfigScripts()
-    so $HOME/.dotfiles/nvim/scripts/keybind.vim
-    so $HOME/.dotfiles/nvim/scripts/settings.vim
-    so $HOME/.dotfiles/nvim/scripts/autoput.vim
-    so $HOME/.dotfiles/nvim/scripts/format.vim
-    so $HOME/.dotfiles/nvim/scripts/coc_keybind.vim
-    so $HOME/.dotfiles/nvim/scripts/util.vim
+    exec 'source' s:script_path . '/scripts/keybind.vim'
+    exec 'source' s:script_path . '/scripts/settings.vim'
+    exec 'source' s:script_path . '/scripts/autoput.vim'
+    exec 'source' s:script_path . '/scripts/format.vim'
+    exec 'source' s:script_path . '/scripts/coc_keybind.vim'
+    exec 'source' s:script_path . '/scripts/util.vim'
 endfunction
 
 call LoadConfigScripts()
@@ -96,7 +97,7 @@ let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
 
 "Colorscheme
 colorscheme everblush
-so $HOME/.dotfiles/nvim/scripts/color.vim
+exec 'source' s:script_path . '/scripts/color.vim'
 
 "Filetype support
 autocmd BufNewFile,BufRead *.lds set syntax=ld
