@@ -74,7 +74,7 @@
           "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
         }
       },
-    "clangd.arguments": [ "--clang-tidy", "-j=12" ],
+    "clangd.arguments": [ "--clang-tidy", "-j=12", "--malloc-trim", "--background-index", "--pch-storage=memory" ],
     "clangd.fallbackFlags": [ "-std=c++2b", "-stdlib=libstdc++", "-Wpedantic", "-Wall" ],
     "clangd.trace.server": "verbose",
     "cSpell.userWords": [
@@ -85,8 +85,10 @@
     "highlight.colorNames.enable": false,
     "coc.preferences.jumpCommand": "split",
     "diagnostic.errorSign": "?!",
-    "diagnostic.hintSign": "H>",
-    "diagnostic.infoSign": "I>",
-    "diagnostic.warningSign": ">>"
+    "diagnostic.hintSign": "?",
+    "diagnostic.infoSign": ">>",
+    "diagnostic.warningSign": "!",
+    "diagnostic.enableHighlightLineNumber": false,
+    "inlayHint.enable":false 
 }
 

@@ -7,6 +7,7 @@ alias please='doas $(fc -ln -1)'
 alias sudo='doas'
 alias uwu='doas'
 alias cat='bat'
+alias vim='nvim'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

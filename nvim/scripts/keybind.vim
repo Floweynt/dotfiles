@@ -42,10 +42,6 @@ vnoremap <C-Up> :m '<-2<CR>gv=gv
 imap <C-L> <Esc>V
 nmap <C-L> V
 
-imap <A-Right> <Esc>$i
-imap <A-Left> <Esc>^i
-imap <C-Right> <Esc>wi
-imap <C-Left> <Esc>bi
 nnoremap <F5> :UndotreeToggle<CR>
 
-so ~/.vim/scripts/coc_keybind.vim
+so $HOME/.dotfiles/nvim/scripts/coc_keybind.vim

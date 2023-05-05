@@ -22,7 +22,7 @@ hi      CocSemNamespace         guifg=#6cd0ca
 hi link CocSemTypeParameter     CppObjType
 hi      CocSemConcept           guifg=#e5c76b
 hi      CocSemMacro             guifg=#c47fd5
-hi link CocSemModifier          StorageClass
+hi      CocSemModifier          guifg=#67b0e8
 hi      CocSemOperator          guifg=#e59e67
 hi link CocSemComment           cComment
 
@@ -33,7 +33,7 @@ hi      CocSemDeprecated        gui=strikethrough term=strikethrough cterm=strik
 "hi      CocSemDeduced           guifg=#6cd0ca gui=undercurl term=undercurl cterm=undercurl
 "hi      CocSemReadonly
 "hi      CocSemAbstract          gui=underline term=underline cterm=underline
-hi      CocSemVirtual           guifg=#e57474
+hi      CocSemVirtual           guifg=#e57474 term=underline cterm=underline
 "hi      CocSemDependentName
 "hi      CocSemDefaultLibrary
 "hi      CocSemUsedAsMutablePointer
@@ -52,3 +52,15 @@ hi CocErrorSign guifg=#e74c4c guibg=#232a2d
 hi CocInfoSign guifg=#5b98a9 guibg=#232a2d
 hi CocHintSign guifg=#6bb05d guibg=#232a2d
 hi CocWarningSign guifg=#e59e67 guibg=#232a2d
+
+hi CocGitAddedSign guifg=#8ccf7e  guibg=#232a2d
+hi CocGitChangeRemovedSign guifg=#c47fd5 guibg=#232a2d
+hi CocGitChangedSign guifg=#c47fd5 guibg=#232a2d
+hi CocGitRemovedSign guifg=#e57474 guibg=#232a2d
+hi CocGitTopRemovedSign guifg=#e57474 guibg=#232a2d
+
+hi Type gui=none
+hi Statement gui=none
+
+hi CursorLineNr gui=none guifg=#3b4244
+hi MatchParen gui=none guifg=#6bb05d guibg=#343636
