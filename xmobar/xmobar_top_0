@@ -1,6 +1,6 @@
 Config { overrideRedirect = False
-       , font            = "xft:JetBrainsMono Nerd Font Mono-11"
-       , additionalFonts = [ "xft:JetBrainsMono Nerd Font Mono:style=Book-30"
+       , font            = "JetBrainsMono Nerd Font Mono 11"
+       , additionalFonts = [ "JetBrainsMono Nerd Font Mono 25" 
                            ] 
        , bgColor         = "#2E3440"
        , fgColor         = "#ECEFF4"
@@ -22,5 +22,5 @@ Config { overrideRedirect = False
                            ]
        , sepChar         = "%"
        , alignSep        = "}{"
-       , template        = "   %_XMONAD_LOG_TOP_0%} <fn=1><fc=#37b3f1></fc></fn> { <fc=#51a39f>|</fc> %date% <fc=#51a39f>|</fc> %cpu%%output%   " 
+       , template        = "   <fn=0>%_XMONAD_LOG_TOP_0%</fn>} <fn=1><fc=#37b3f1></fc></fn> { <fc=#51a39f>|</fc> %date% <fc=#51a39f>|</fc> %cpu%%output%   " 
        }

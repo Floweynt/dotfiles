@@ -1,3 +1,5 @@
+return
+
 "Personal vim config stuff
 let s:script_path = expand('<sfile>:p:h')
 
@@ -36,8 +38,6 @@ autocmd VimEnter * call vista#RunForNearestMethodOrFunction()
 
 "Plugin shit
 call plug#begin()
-Plug 'preservim/nerdtree'
-Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'rhysd/vim-clang-format'
@@ -51,6 +51,9 @@ Plug 'aserebryakov/vim-todo-lists'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'rhysd/vim-llvm'
 Plug 'n-shift/scratch.nvim'
+Plug 'nvim-tree/nvim-web-devicons' " optional
+Plug 'nvim-tree/nvim-tree.lua'
+Plug 'folke/neodev.nvim'
 call plug#end()
 
 let g:vista#renderer#icons = {
@@ -110,3 +113,6 @@ let g:coc_default_semantic_highlight_groups = 1
 
 command Reload call LoadConfigScripts()
 
+exec 'source' s:script_path . '/a.lua'
+autocmd User CocStatusChange redraws
+autocmd User CocStatusChange redrawstatus

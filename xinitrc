@@ -33,7 +33,7 @@ xbindkeys
 
 xmonad &
 xmonad_pid=$!
-
+dunst &
 xrandr --auto --output HDMI-0 --mode 1920x1080 --left-of eDP-1-1
 feh --bg-scale 1081218.png
 xsetroot -cursor_name left_ptr

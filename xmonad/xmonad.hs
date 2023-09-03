@@ -98,6 +98,7 @@ myManageHook = composeAll [
         className =? "Gimp-2.10"      --> doFloat,
         isDialog                      --> doFloat,
         className =? "th185.exe"      --> doFloat,
+        className =? "Toplevel"       --> doFloat,
         resource  =? "desktop_window" --> doIgnore
     ]
 

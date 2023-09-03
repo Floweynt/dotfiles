@@ -34,22 +34,6 @@
             "args": ["-v=2"],
             "enable": false
         },
-        "eslint": {
-            "command": "eslint",
-            "filetypes": [
-                "js", "ts"
-            ],
-            "rootPatterns": [
-                ".vim/",
-                ".git/",
-                ".hg/"
-            ],
-            "initializationOptions": {
-                "cache": {
-                    "directory": "/tmp/eslint"
-                }
-            }
-        },
         "haskell": {
           "command": "haskell-language-server-wrapper",
           "args": [
@@ -74,13 +58,11 @@
           "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
         }
       },
-    "clangd.arguments": [ "--clang-tidy", "-j=12", "--malloc-trim", "--background-index", "--pch-storage=memory" ],
-    "clangd.fallbackFlags": [ "-std=c++2b", "-stdlib=libstdc++", "-Wpedantic", "-Wall" ],
+    "clangd.arguments": [ "--clang-tidy", "-j=12", "--malloc-trim", "--background-index", "--pch-storage=memory" , "--inlay-hints=true"],
+    "clangd.fallbackFlags": [ "-std=c++20", "-stdlib=libstdc++", "-Wpedantic", "-Wall" ],
     "clangd.trace.server": "verbose",
     "cSpell.userWords": [
-      "klog",
-      "oppertinutiy",
-      "writerriter"
+      "klog"
     ],
     "highlight.colorNames.enable": false,
     "coc.preferences.jumpCommand": "split",
@@ -89,6 +71,9 @@
     "diagnostic.infoSign": ">>",
     "diagnostic.warningSign": "!",
     "diagnostic.enableHighlightLineNumber": false,
-    "inlayHint.enable":false 
+    "inlayHint.enable": true,
+    "inlayHint.display": true,
+    "sumneko-lua.enableNvimLuaDev": true,
+    "coc.preferences.enableMessageDialog":  false
 }
 

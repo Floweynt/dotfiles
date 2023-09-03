@@ -132,3 +132,8 @@ export EDITOR='vim'
 #
 unalias ls
 alias ls='exa --color=auto --header'
+
+#export PATH=$PATH:/home/flowey/.local/bin
+#. $HOME/psi4conda/etc/profile.d/conda.sh
+#conda activate
+source /usr/share/nvm/init-nvm.sh

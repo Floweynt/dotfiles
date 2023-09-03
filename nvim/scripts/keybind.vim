@@ -7,7 +7,7 @@ inoremap <C-Y> <C-O><C-R>
 "Select all variations
 noremap <C-A> gggH<C-O>G
 inoremap <C-A> <C-O>gg<C-O>gH<C-O>G
-cnoremap <C-A> <C-C>gggH<C-O>G
+cnoremap <C-A> <C-C>gggH<C-endO>G
 onoremap <C-A> <C-C>gggH<C-O>G
 snoremap <C-A> <C-C>gggH<C-O>G
 xnoremap <C-A> <C-C>ggVG
