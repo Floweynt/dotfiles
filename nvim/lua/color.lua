@@ -48,3 +48,42 @@ for key, value in pairs({
     vim.api.nvim_set_hl(0, key, value);
 end
 
+for key, value in pairs({
+    CocSymbolArray = "CocSemVariable",
+    CocSymbolBoolean = "CocSemVariable",
+    CocSymbolClass = "CocSemClass",
+    CocSymbolComment = "CocSemComment",
+    CocSymbolConcept = "CocSemConcept",
+    CocSymbolConstant = "CocSemVariable",
+    CocSymbolConstructor = "CocSemClass",
+    CocSymbolEnumMember = "CocSemEnumMember",
+    CocSymbolEnum = "CocSemEnum",
+    CocSymbolEvent = "CocSemClass",
+    CocSymbolField = "CocSemVariable",
+    CocSymbolFunction = "CocSemFunction",
+    CocSymbolInterface = "CocSemInterface",
+    CocSymbolMacro = "CocSemMacro",
+    CocSymbolMethod = "CocSemMethod",
+    CocSymbolModifier = "CocSemModifier",
+    CocSymbolModule = "CocSemNamespace",
+    CocSymbolNamespace = "CocSemNamespace",
+    CocSymbolNull = "CocSemVariable",
+    CocSymbolNumber = "CocSemVariable",
+    CocSymbolObject = "CocSemVariable",
+    CocSymbolOperator = "CocSemOperator",
+    CocSymbolPackage = "CocSemNamespace",
+    CocSymbolParameter = "CocSemParameter",
+    CocSymbolProperty = "CocSemParameter",
+    CocSymbolStruct = "CocSemType",
+    CocSymbolTypeParameter = "CocSemTypeParameter",
+    CocSymbolType = "CocSemType",
+    CocSymbolVariable = "CocSemVariable",
+}) do
+    vim.api.nvim_set_hl(0, key, { link = value });
+end
+
+vim.api.nvim_set_hl(0, "CocSymbolStruct", { link = "CocSemType" });
+vim.api.nvim_set_hl(0, "CocSymbolField", { link = "CocSemProperty" })
+
+vim.api.nvim_set_hl(0, "Type", { fg = "#67b0e8" });
+vim.api.nvim_set_hl(0, "Statement", { fg = "#c47fd5" });

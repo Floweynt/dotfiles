@@ -17,6 +17,7 @@ return {
     cmd_callback = function(command) return function() vim.api.nvim_command(command) end end,
     inject_keys = function(keys, mode)
         return function()
+            return vim.cmd("normal " .. keys);--[[
             return vim.api.nvim_feedkeys(
                 vim.api.nvim_replace_termcodes(
                     keys,
@@ -26,7 +27,7 @@ return {
                 ),
                 mode,
                 true
-            );
+            );]]
         end;
     end,
     noremap = function(modes, lhs, rhs) map_multimode(modes, lhs, rhs, { remap = false }) end,
