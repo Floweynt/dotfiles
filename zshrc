@@ -114,6 +114,7 @@ source $ZSH/oh-my-zsh.sh
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 export EDITOR='nvim'
+export TERMINAL='kitty'
 # else
 #   export EDITOR='mvim'
 # fi
@@ -132,9 +133,13 @@ export EDITOR='nvim'
 #
 unalias ls
 alias ls='exa --color=auto --header'
-
+alias pacman='doas pacman'
+alias l='ls -lhF'
 #export PATH=$PATH:/home/flowey/.local/bin
 #. $HOME/psi4conda/etc/profile.d/conda.sh
-#conda activate
+#conda activat
+export PATH="$PATH:/home/flowey/.dotnet/tools"
 source /usr/share/nvm/init-nvm.sh
 
+# Created by `pipx` on 2024-01-10 21:45:43
+export PATH="$PATH:/home/flowey/.local/bin"

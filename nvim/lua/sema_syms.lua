@@ -1,5 +1,5 @@
 return {
-    func = "",
+    func = "f",
     variable = "",
     const = "",
     ctor = "",

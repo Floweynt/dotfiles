@@ -1,0 +1,38 @@
+{
+    "clangd.fallbackFlags": [
+      "-std=c++2b",
+      "-stdlib=libstdc++",
+      "-Wpedantic",
+      "-Wall"
+    ],
+    "Lua.workspace.library": [
+      "${3rd}/luv/library"
+    ],
+    "Lua.diagnostics.disable": [
+      "empty-block",
+      "unused-local",
+      "unused-function",
+      "redundant-parameter"
+    ],
+    "Lua.diagnostics.globals": [
+      "utils",
+      "keu",
+      "lua_utils",
+      "mdoes",
+      "retrun",
+      "map_multimode",
+      "gloabl",
+      "coc_diag_notify",
+      "reset_coc_diag_record",
+      "coc_status_notify",
+      "reset_coc_status_record",
+      "do_insert",
+      "insert_text",
+      "sema_syms",
+      "visualmode",
+      "everblush8_gui",
+      "font_dump",
+      "split",
+      "tab"
+    ]
+}

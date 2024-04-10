@@ -200,14 +200,12 @@ std::string battery()
 
     color = color_for(value, {{50, GREEN}, {20, ORANGE}, {0, RED}});
 
-    std::string mode = vread<std::string>("/sys/class/power_supply/BAT1/status");
+    std::string mode = vread<std::string>("/sys/class/power_supply/BAT1/status", '\n');
     trim(mode);
-    constexpr static std::pair<const char*, const char*> SYM_MAP[] = {{"Charging", "<fc=#b185db>+</fc>"},
-                                                                      {"Discharging", "<fc=#e59e67>-</fc>"},
-                                                                      {"Full", "<fc=#8dc776>f</fc>"},
-                                                                      {"Not Charging", " "}};
+    constexpr static std::pair<const char*, const char*> SYM_MAP[] = {
+        {"Charging", "<fc=#b185db>+</fc>"}, {"Discharging", "<fc=#e59e67>-</fc>"}, {"Full", "<fc=#8dc776>f</fc>"}, {"Not charging", " "}};
 
-    const char* mode_str = "?";
+    const char* mode_str = mode.c_str();
     for (const auto& i : SYM_MAP)
     {
         if (mode == i.first)
@@ -231,6 +229,8 @@ std::string battery()
 
     std::string color_txt = std::to_string(value);
     std::size_t padding = 17 - (color_txt.size() + 6 + charge_str.size());
+    if(padding > 10000)
+        padding = 0;
 
     return fmt::format(" <fc={}>{}</fc>% ({}) {}{:{}} ", color, color_txt, mode_str, charge_str, ' ', padding);
 }
@@ -242,10 +242,7 @@ std::string audio()
     return fmt::format(" <fc={}>{}</fc>", color, res);
 }
 
-std::string hostname()
-{
-    return fmt::format("<fc=#51a39f>{}</fc>@<fc=#b185db>{}</fc>", exec("whoami"), trim(vread<std::string>("/etc/hostname")));
-}
+std::string hostname() { return fmt::format("<fc=#51a39f>{}</fc>@<fc=#b185db>{}</fc>", exec("whoami"), trim(vread<std::string>("/etc/hostname"))); }
 auto ram_info()
 {
     intmax_t total, free, avail, buffers, cached;
@@ -291,8 +288,8 @@ std::string ram_usage()
     auto [total, free, avail, buffers, cached] = ram_info();
     int perc = 100 * ((total - free) - (buffers + cached)) / total;
     std::string color = color_for(perc, {{{75, RED}, {50, ORANGE}, {0, GREEN}}});
-    return fmt::format("M <fc={}>{:.1f}</fc>/<fc=#8dc776>{:.1f}</fc> <fc=#b185db>GiB</fc>", color,
-                       (total - free - buffers - cached) * 9.53674316e-7, total * 9.53674316e-7);
+    return fmt::format("M <fc={}>{:.1f}</fc>/<fc=#8dc776>{:.1f}</fc> <fc=#b185db>GiB</fc>", color, (total - free - buffers - cached) * 9.53674316e-7,
+                       total * 9.53674316e-7);
 }
 
 std::string swp_usage()
@@ -300,8 +297,8 @@ std::string swp_usage()
     auto [total, free, cached] = swp_info();
     int perc = 100 * ((total - free) - (cached)) / total;
     std::string color = color_for(perc, {{{75, RED}, {50, ORANGE}, {0, GREEN}}});
-    return fmt::format("S <fc={}>{:.1f}</fc>/<fc=#8dc776>{:.1f}</fc> <fc=#b185db>GiB</fc>", color,
-                       (total - free - cached) * 9.53674316e-7, total * 9.53674316e-7);
+    return fmt::format("S <fc={}>{:.1f}</fc>/<fc=#8dc776>{:.1f}</fc> <fc=#b185db>GiB</fc>", color, (total - free - cached) * 9.53674316e-7,
+                       total * 9.53674316e-7);
 }
 
 std::string disk_usage()
@@ -316,8 +313,9 @@ std::string disk_usage()
     double total = fs.f_frsize * fs.f_blocks * 9.3132257e-10;
     double used = fs.f_frsize * (fs.f_blocks - fs.f_bfree) * 9.3132257e-10;
 
-    return fmt::format("D <fc={}>{}</fc>% <fc={}>{:.1f}</fc>/<fc=#8dc776>{:.1f}</fc> <fc=#b185db>GiB</fc>", color, perc,
-                       color, used, total);
+    return fmt::format("D <fc={}>{}</fc>% <fc={}>{:.1f}</fc>/<fc=#8dc776>{:.1f}</fc> "
+                       "<fc=#b185db>GiB</fc>",
+                       color, perc, color, used, total);
 }
 
 constexpr std::string (*top[])(){ram_perc, swp_perc, battery, audio, hostname};

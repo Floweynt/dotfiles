@@ -1,4 +1,8 @@
 #!/bin/sh
+xrandr --setprovideroutputsource modesetting NVIDIA-0
+xrandr --auto
+xrandr --dpi 75
+
 userresources=$HOME/.Xresources
 usermodmap=$HOME/.Xmodmap
 sysresources=/etc/X11/xinit/.Xresources
@@ -22,31 +26,16 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-# start some nice programs
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
-if [ -d /etc/X11/xinit/xinitrc.d ] ; then
- for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
-  [ -x "$f" ] && . "$f"
- done
- unset f
-fi
+picom --backend glx --config ~/.dotfiles/picom.conf & 
+xbindkeys 
 
+dwm &
+xmonad_pid=$!
+dunst &
+xrandr --auto --output HDMI-0 --mode 1920x1080 --left-of eDP-1-1
+feh --bg-scale 1081218.png
 xsetroot -cursor_name left_ptr
 
-#xrandr --listproviders
-xrandr --setprovideroutputsource modesetting NVIDIA-0
-xrandr --auto
-# xrandr --auto --output HDMI-0 --mode 1920x1080
-# xrandr --auto --output eDP-1-1 --right-of HDMI-0
-xbindkeys
-
-picom --backend glx & #--config ~/.dotfiles/picom.conf & #--experimental-backends &
-#slstatus &
-#feh --bg-center /home/flowey/.dotfiles/wallpaper.jpeg &
-#./.startup-launch-apps.sh
-# xrandr --auto --output eDP-1-1 --primary
-
-
-# xmonad
-
-dwm #>> dwm.log 
+wait $xmonad_pid

@@ -1,0 +1,819 @@
+{
+    "@constant.builtin": {
+        "link": "BuiltinType"
+    },
+    "@constant.macro": {
+        "link": "Macro"
+    },
+    "@function.builtin": {
+        "link": "BuiltinType"
+    },
+    "@keyword.function": {
+        "link": "@keyword"
+    },
+    "@lsp.type.class": {
+        "link": "@lsp.type.type"
+    },
+    "@lsp.type.enum": {
+        "link": "@lsp.type.type"
+    },
+    "@lsp.type.enumMember": {
+        "fg": 12877781
+    },
+    "@lsp.type.interface": {
+        "link": "@lsp.type.type"
+    },
+    "@lsp.type.namespace": {
+        "link": "@lsp.type.type"
+    },
+    "@lsp.type.parameter": {
+        "link": "@variable.parameter"
+    },
+    "@lsp.type.property": {
+        "link": "@property"
+    },
+    "@lsp.type.struct": {
+        "link": "@lsp.type.type"
+    },
+    "@lsp.type.type": {
+        "link": "@type"
+    },
+    "@lsp.type.typeParameter": {
+        "link": "@lsp.type.type"
+    },
+    "@markup.link.label": {
+        "link": "@label"
+    },
+    "@module": {
+        "link": "Type"
+    },
+    "@type.builtin": {
+        "link": "BuiltinType"
+    },
+    "@type.definition": {
+        "link": "@type"
+    },
+    "@variable": {
+        "link": "Identifier"
+    },
+    "@variable.builtin": {
+        "link": "BuiltinType"
+    },
+    "@variable.member": {
+        "link": "@variable"
+    },
+    "Builtin": {
+        "link": "Special"
+    },
+    "BuiltinType": {
+        "link": "Builtin"
+    },
+    "Character": {
+        "link": "String"
+    },
+    "CocErrorSign": {
+        "bg": 2304557,
+        "fg": 15158348
+    },
+    "CocFloating": {
+        "bg": 3421750
+    },
+    "CocGitAddedSign": {
+        "bg": 2304557,
+        "fg": 9228158
+    },
+    "CocGitChangeRemovedSign": {
+        "bg": 2304557,
+        "fg": 12877781
+    },
+    "CocGitChangedSign": {
+        "bg": 2304557,
+        "fg": 12877781
+    },
+    "CocGitRemovedSign": {
+        "bg": 2304557,
+        "fg": 15037556
+    },
+    "CocGitTopRemovedSign": {
+        "bg": 2304557,
+        "fg": 15037556
+    },
+    "CocHighlightText": {
+        "bg": 3421750
+    },
+    "CocHintSign": {
+        "bg": 2304557,
+        "fg": 9228158
+    },
+    "CocInfoSign": {
+        "bg": 2304557,
+        "fg": 6795496
+    },
+    "CocInlayHint": {
+        "bg": 2304557,
+        "ctermbg": 16,
+        "ctermfg": 114,
+        "fg": 9228158
+    },
+    "CocListLine": {
+        "bg": 2501679,
+        "ctermbg": 16
+    },
+    "CocMarkdownCode": {
+        "link": "@attribute"
+    },
+    "CocMarkdownHeader": {
+        "link": "@attribute"
+    },
+    "CocMenuSel": {
+        "bg": 3421750,
+        "bold": true,
+        "cterm": {
+            "bold": true,
+            "italic": true
+        },
+        "italic": true
+    },
+    "CocPumShortcut": {
+        "fg": 11778488
+    },
+    "CocSemTypeClass": {
+        "link": "CocSemTypeType"
+    },
+    "CocSemTypeConcept": {
+        "fg": 16045690
+    },
+    "CocSemTypeModDeprecated": {
+        "link": "CocStrikeThrough"
+    },
+    "CocSemTypeFunction": {
+        "link": "Function"
+    },
+    "CocSemTypeEnum": {
+        "link": "CocSemTypeType"
+    },
+    "@constant": {
+        "link": "CocSemTypeEnumMember"
+    },
+    "CocSemTypeEnumMember": {
+        "link": "@lsp.type.enumMember"
+    },
+    "CocSemTypeInterface": {
+        "link": "CocSemTypeType"
+    },
+    "CocSemTypeMacro": {
+        "link": "Macro"
+    },
+    "CocSemTypeNamespace": {
+        "link": "@module"
+    },
+    "CocSemTypeParameter": {
+        "fg": 15066597
+    },
+    "CocSemTypeProperty": {
+        "link": "CocSemTypeVariable"
+    },
+    "CocSemTypeRegexp": {
+        "link": "CocSemTypeString"
+    },
+    "CocSemTypeStruct": {
+        "link": "CocSemTypeType"
+    },
+    "CocSemTypeTypeParameter": {
+        "link": "CocSemTypeType"
+    },
+    "CocSemTypeUnknown": {
+        "fg": 15158348
+    },
+    "CocSemTypeModVirtual": {
+        "cterm": {
+            "underline": true
+        },
+        "fg": 15037556,
+        "underline": true
+    },
+    "CocSymbolArray": {
+        "link": "CocSemTypeVariable"
+    },
+    "CocSymbolBoolean": {
+        "link": "CocSemTypeVariable"
+    },
+    "CocSymbolClass": {
+        "link": "CocSemTypeClass"
+    },
+    "CocSymbolColor": {
+        "ctermfg": 223,
+        "fg": 9228158
+    },
+    "CocSymbolConstant": {
+        "ctermfg": 223,
+        "fg": 6795496
+    },
+    "CocSymbolConstructor": {
+        "ctermfg": 223,
+        "fg": 6795496
+    },
+    "CocSymbolEnum": {
+        "link": "CocSemTypeEnum"
+    },
+    "CocSymbolEnumMember": {
+        "ctermfg": 223,
+        "fg": 15037556
+    },
+    "CocSymbolEvent": {
+        "link": "CocSemTypeEvent"
+    },
+    "CocSymbolField": {
+        "ctermfg": 223,
+        "fg": 15037556
+    },
+    "CocSymbolFile": {
+        "ctermfg": 223,
+        "fg": 12877781
+    },
+    "CocSymbolFolder": {
+        "ctermfg": 223,
+        "fg": 6802407
+    },
+    "CocSymbolFunction": {
+        "ctermfg": 223,
+        "fg": 15037556
+    },
+    "CocSymbolInterface": {
+        "link": "CocSemTypeInterface"
+    },
+    "CocSymbolKey": {
+        "ctermfg": 223,
+        "fg": 15037556
+    },
+    "CocSymbolKeyword": {
+        "link": "CocSemTypeKeyword"
+    },
+    "CocSymbolMethod": {
+        "link": "CocSemTypeMethod"
+    },
+    "CocSymbolModule": {
+        "link": "@module"
+    },
+    "CocSymbolNamespace": {
+        "link": "CocSemTypeNamespace"
+    },
+    "CocSymbolNull": {
+        "ctermfg": 223,
+        "fg": 7131338
+    },
+    "CocSymbolNumber": {
+        "ctermfg": 223,
+        "fg": 9228158
+    },
+    "CocSymbolObject": {
+        "link": "CocSemTypeVariable"
+    },
+    "CocSymbolOperator": {
+        "ctermfg": 223,
+        "fg": 15048295
+    },
+    "CocSymbolPackage": {
+        "ctermfg": 223,
+        "fg": 12877781
+    },
+    "CocSymbolProperty": {
+        "ctermfg": 223,
+        "fg": 15037556
+    },
+    "CocSymbolSnippet": {
+        "ctermfg": 223,
+        "fg": 6802407
+    },
+    "CocSymbolString": {
+        "ctermfg": 223,
+        "fg": 9228158
+    },
+    "CocSymbolStruct": {
+        "link": "CocSemTypeStruct"
+    },
+    "CocSymbolText": {
+        "ctermfg": 223,
+        "fg": 6802407
+    },
+    "CocSymbolTypeParameter": {
+        "link": "CocSemTypeTypeParameter"
+    },
+    "CocSymbolUnit": {
+        "ctermfg": 223,
+        "fg": 6802407
+    },
+    "CocSymbolValue": {
+        "ctermfg": 223,
+        "fg": 6802407
+    },
+    "CocSymbolVariable": {
+        "link": "CocSemTypeVariable"
+    },
+    "CocWarningSign": {
+        "bg": 2304557,
+        "fg": 15048295
+    },
+    "ColorColumn": {
+        "bg": 3883588
+    },
+    "Comment": {
+        "cterm": {
+            "italic": true
+        },
+        "fg": 3883588,
+        "italic": true
+    },
+    "Constant": {
+        "link": "Special"
+    },
+    "CurSearch": {
+        "bg": 15058795,
+        "fg": 3421750
+    },
+    "Cursor": {
+        "bg": 14342874,
+        "fg": 1317662
+    },
+    "CursorLine": {
+        "bg": 2304557
+    },
+    "CursorLineNr": {
+        "fg": 11778488
+    },
+    "Debug": {
+        "fg": 13535711
+    },
+    "Define": {
+        "link": "Macro"
+    },
+    "Delimiter": {
+        "fg": 11778488
+    },
+    "DiagnosticDeprecated": {
+        "link": "DiagnosticWarn"
+    },
+    "DiagnosticError": {
+        "fg": 15158348
+    },
+    "DiagnosticHint": {
+        "fg": 6795496
+    },
+    "DiagnosticInfo": {
+        "fg": 6795496
+    },
+    "DiagnosticOk": {
+        "fg": 9228158
+    },
+    "DiagnosticUnderlineError": {
+        "cterm": {
+            "underline": true
+        },
+        "sp": 15158348,
+        "underline": true
+    },
+    "DiagnosticUnderlineHint": {
+        "cterm": {
+            "underline": true
+        },
+        "sp": 6795496,
+        "underline": true
+    },
+    "DiagnosticUnderlineInfo": {
+        "cterm": {
+            "underline": true
+        },
+        "sp": 6795496,
+        "underline": true
+    },
+    "DiagnosticUnderlineOk": {
+        "cterm": {
+            "underline": true
+        },
+        "sp": 9228158,
+        "underline": true
+    },
+    "DiagnosticUnderlineWarn": {
+        "cterm": {
+            "underline": true
+        },
+        "sp": 15058795,
+        "underline": true
+    },
+    "DiagnosticWarn": {
+        "fg": 15058795
+    },
+    "DiffAdd": {
+        "bg": 1317662,
+        "fg": 9228158
+    },
+    "DiffChange": {
+        "bg": 1317662,
+        "fg": 12877781
+    },
+    "DiffDelete": {
+        "bg": 1317662,
+        "fg": 7126975
+    },
+    "DiffText": {
+        "bg": 1317662,
+        "fg": 15037556
+    },
+    "Directory": {
+        "fg": 6795496
+    },
+    "EndOfBuffer": {},
+    "Error": {
+        "fg": 15158348
+    },
+    "ErrorMsg": {
+        "bg": 3883588,
+        "fg": 15037556
+    },
+    "Exception": {
+        "link": "Keyword"
+    },
+    "Folded": {
+        "bg": 3421750,
+        "fg": 9228158
+    },
+    "Function": {
+        "fg": 15037556
+    },
+    "GitGutterAdd": {
+        "fg": 15058795
+    },
+    "GitGutterChange": {
+        "fg": 15037556
+    },
+    "GitGutterChangeDelete": {
+        "fg": 6795496
+    },
+    "GitGutterDelete": {
+        "fg": 15058795
+    },
+    "Identifier": {
+        "fg": 12895428
+    },
+    "IncSearch": {
+        "fg": 15058795
+    },
+    "Include": {
+        "fg": 15037556
+    },
+    "Keyword": {
+        "link": "Special"
+    },
+    "Label": {
+        "fg": 7453426
+    },
+    "LineNr": {
+        "fg": 3883588
+    },
+    "Macro": {
+        "fg": 12877781
+    },
+    "MatchParen": {
+        "bg": 3421750,
+        "fg": 9228158
+    },
+    "ModeMsg": {
+        "fg": 14342874
+    },
+    "MoreMsg": {
+        "fg": 6802407
+    },
+    "NonText": {
+        "fg": 3421750
+    },
+    "Normal": {
+        "bg": 1317662,
+        "fg": 14342874
+    },
+    "NormalFloat": {
+        "bg": 2304557
+    },
+    "NotifyDEBUGBorder": {
+        "fg": 14342874
+    },
+    "NotifyDEBUGIcon": {
+        "fg": 14342874
+    },
+    "NotifyDEBUGTitle": {
+        "fg": 14342874
+    },
+    "NotifyERRORBorder": {
+        "link": "NotifyERRORIcon"
+    },
+    "NotifyERRORIcon": {
+        "link": "Error"
+    },
+    "NotifyERRORTitle": {
+        "link": "NotifyERRORIcon"
+    },
+    "NotifyINFOBody2": {
+        "bg": 1317662,
+        "fg": 1844005
+    },
+    "NotifyINFOBorder": {
+        "link": "NotifyINFOTitle"
+    },
+    "NotifyINFOBorder2": {
+        "fg": 1647138
+    },
+    "NotifyINFOIcon": {
+        "link": "NotifyINFOTitle"
+    },
+    "NotifyINFOIcon2": {
+        "fg": 1647138
+    },
+    "NotifyINFOTitle": {
+        "fg": 9228158
+    },
+    "NotifyINFOTitle2": {
+        "fg": 1647138
+    },
+    "NotifyTRACEBorder": {
+        "fg": 3883588
+    },
+    "NotifyTRACEIcon": {
+        "fg": 3883588
+    },
+    "NotifyTRACETitle": {
+        "fg": 3883588
+    },
+    "NotifyWARNBody4": {
+        "bg": 1317662,
+        "fg": 14342874
+    },
+    "NotifyWARNBorder": {
+        "link": "NotifyWARNTitle"
+    },
+    "NotifyWARNBorder4": {
+        "link": "NotifyWARNBorder"
+    },
+    "NotifyWARNIcon": {
+        "link": "NotifyWARNTitle"
+    },
+    "NotifyWARNIcon4": {
+        "link": "NotifyWARNIcon"
+    },
+    "NotifyWARNTitle": {
+        "link": "DiagnosticWarn"
+    },
+    "NotifyWARNTitle4": {
+        "link": "NotifyWARNTitle"
+    },
+    "Number": {
+        "fg": 9228158
+    },
+    "Operator": {
+        "fg": 15048295
+    },
+    "Pmenu": {
+        "bg": 2304557,
+        "fg": 11778488
+    },
+    "PmenuSel": {
+        "bg": 12877781,
+        "fg": 3883588
+    },
+    "PreCondit": {
+        "fg": 12877781
+    },
+    "PreProc": {
+        "fg": 6795496
+    },
+    "PreProcGroup": {
+        "fg": 6795496
+    },
+    "Question": {
+        "fg": 7126975
+    },
+    "Repeat": {
+        "fg": 12877781
+    },
+    "Search": {
+        "bg": 3883588,
+        "fg": 6795496
+    },
+    "SignColumn": {
+        "bg": 2304557
+    },
+    "Special": {
+        "fg": 6795496
+    },
+    "SpecialComment": {
+        "cterm": {
+            "italic": true
+        },
+        "fg": 3883588,
+        "italic": true
+    },
+    "SpecialKey": {
+        "fg": 3421750
+    },
+    "SpellBad": {
+        "link": "Error"
+    },
+    "SpellCap": {
+        "bg": 3883588,
+        "fg": 15037556
+    },
+    "SpellLocal": {
+        "fg": 6795496
+    },
+    "SpellRare": {
+        "fg": 12877781
+    },
+    "Statement": {
+        "fg": 12877781
+    },
+    "StatusLine": {
+        "bg": 1317662,
+        "fg": 14342874
+    },
+    "StatusLineNC": {
+        "bg": 1317662,
+        "fg": 14342874
+    },
+    "Storage": {
+        "fg": 15695486
+    },
+    "StorageClass": {
+        "link": "Keyword"
+    },
+    "String": {
+        "fg": 9228158
+    },
+    "TSEmphasis": {
+        "cterm": {
+            "italic": true
+        },
+        "fg": 11778488,
+        "italic": true
+    },
+    "TSWarning": {
+        "bg": 15037556,
+        "fg": 2304557
+    },
+    "TabLine": {
+        "bg": 3883588,
+        "fg": 11778488
+    },
+    "TabLineFill": {
+        "bg": 3883588
+    },
+    "Tag": {
+        "fg": 12436418
+    },
+    "Title": {
+        "fg": 15058795
+    },
+    "Todo": {
+        "fg": 12877781
+    },
+    "Type": {
+        "fg": 7131338
+    },
+    "VertSplit": {
+        "bg": 2304557,
+        "fg": 3883588
+    },
+    "Visual": {
+        "bg": 2304557
+    },
+    "WarningMsg": {
+        "fg": 2304557
+    },
+    "WinSeperator": {
+        "fg": 3421750
+    },
+    "cCppBracket": {
+        "fg": 11778488
+    },
+    "cCppInElse": {
+        "fg": 11778488
+    },
+    "cCppInElse2": {
+        "fg": 11778488
+    },
+    "cCppInIf": {
+        "fg": 6795496
+    },
+    "cCppInSkip": {
+        "fg": 11778488
+    },
+    "cCppInWapper": {
+        "fg": 12877781
+    },
+    "cCppOutElse": {
+        "fg": 11778488
+    },
+    "cCppOutIf": {
+        "fg": 3883588
+    },
+    "cCppOutIf2": {
+        "fg": 3883588
+    },
+    "cCppOutInGroup": {
+        "fg": 3883588
+    },
+    "cCppOutSkip": {
+        "fg": 3883588
+    },
+    "cCppOutWrapper": {
+        "fg": 12877781
+    },
+    "cCppParen": {
+        "fg": 11778488
+    },
+    "cCurlyError": {
+        "bg": 15695486,
+        "fg": 11778488
+    },
+    "cDefine": {
+        "link": "Define"
+    },
+    "cErrInBracket": {
+        "bg": 15695486,
+        "fg": 11778488
+    },
+    "cErrInParen": {
+        "bg": 15695486,
+        "fg": 11778488
+    },
+    "cFloat": {
+        "fg": 3883588
+    },
+    "cMutli": {
+        "fg": 15058795
+    },
+    "cParen": {
+        "fg": 15058795
+    },
+    "cParenError": {
+        "bg": 15695486,
+        "fg": 11778488
+    },
+    "cSpecial": {
+        "link": "Special"
+    },
+    "cSpecialCharacter": {
+        "fg": 6795496
+    },
+    "cStructure": {
+        "link": "Keyword"
+    },
+    "cType": {
+        "link": "BuiltinType"
+    },
+    "cUserCont": {
+        "fg": 11778488
+    },
+    "cppCast": {
+        "link": "Keyword"
+    },
+    "cppConstant": {
+        "link": "cConstant"
+    },
+    "cppModifier": {
+        "link": "StorageClass"
+    },
+    "cppModule": {
+        "link": "cInclude"
+    },
+    "cppOperator": {
+        "link": "cOperator"
+    },
+    "cppStorageClass": {
+        "link": "cStorageClass"
+    },
+    "cppString": {
+        "link": "cString"
+    },
+    "cppStructure": {
+        "link": "cStructure"
+    },
+    "cppType": {
+        "link": "cType"
+    },
+    "goDecimalInt": {
+        "fg": 15058795
+    },
+    "goEscapeError": {
+        "bg": 15037556,
+        "fg": 2304557
+    },
+    "goSpaceError": {
+        "bg": 15037556,
+        "fg": 2304557
+    },
+    "lCursor": {
+        "bg": 14342874,
+        "fg": 1317662
+    },
+    "markdownLinkText": {
+        "fg": 15695486
+    }
+}

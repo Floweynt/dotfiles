@@ -14,14 +14,14 @@ function coc_status_notify(msg, level)
 end
 
 function reset_coc_status_record(window)
-    coc_status_record = {}
+        coc_status_record = {}
 end
 
 local coc_diag_record = {}
 
 function coc_diag_notify(msg, level)
     local notify_opts = { title = "coc.nvim - diagnostics", timeout = 500, on_close = reset_coc_diag_record }
-  -- if coc_diag_record is not {} then add it to notify_opts to key called "replace"
+    -- if coc_diag_record is not {} then add it to notify_opts to key called "replace"
     if coc_diag_record ~= {} then
         notify_opts["replace"] = coc_diag_record.id
     end
@@ -34,45 +34,45 @@ end
 
 vim.cmd([[
 function! s:DiagnosticNotify() abort
-  let l:info = get(b:, 'coc_diagnostic_info', {})
-  if empty(l:info) | return '' | endif
-  let l:msgs = []
-  let l:level = 'info'
-   if get(l:info, 'warning', 0)
-    let l:level = 'warn'
-  endif
-  if get(l:info, 'error', 0)
-    let l:level = 'error'
-  endif
+    let l:info = get(b:, 'coc_diagnostic_info', {})
+    if empty(l:info) | return '' | endif
+    let l:msgs = []
+    let l:level = 'info'
+     if get(l:info, 'warning', 0)
+        let l:level = 'warn'
+    endif
+    if get(l:info, 'error', 0)
+        let l:level = 'error'
+    endif
  
-  if get(l:info, 'error', 0)
-    call add(l:msgs, 'Errors: ' . l:info['error'])
-  endif
-  if get(l:info, 'warning', 0)
-    call add(l:msgs, 'Warnings: ' . l:info['warning'])
-  endif
-  if get(l:info, 'information', 0)
-    call add(l:msgs, 'Infos: ' . l:info['information'])
-  endif
-  if get(l:info, 'hint', 0)
-    call add(l:msgs, 'Hints: ' . l:info['hint'])
-  endif
-  let l:msg = join(l:msgs, "\n")
-  if empty(l:msg) | let l:msg = ' All OK' | endif
-  call v:lua.coc_diag_notify(l:msg, l:level)
+    if get(l:info, 'error', 0)
+        call add(l:msgs, 'Errors: ' . l:info['error'])
+    endif
+    if get(l:info, 'warning', 0)
+        call add(l:msgs, 'Warnings: ' . l:info['warning'])
+    endif
+    if get(l:info, 'information', 0)
+        call add(l:msgs, 'Infos: ' . l:info['information'])
+    endif
+    if get(l:info, 'hint', 0)
+        call add(l:msgs, 'Hints: ' . l:info['hint'])
+    endif
+    let l:msg = join(l:msgs, "\n")
+    if empty(l:msg) | let l:msg = ' All OK' | endif
+    call v:lua.coc_diag_notify(l:msg, l:level)
 endfunction
 
 function! s:StatusNotify() abort
-  let l:status = get(g:, 'coc_status', '')
-  let l:level = 'info'
-  if empty(l:status) | return '' | endif
-  call v:lua.coc_status_notify(l:status, l:level)
+    let l:status = get(g:, 'coc_status', '')
+    let l:level = 'info'
+    if empty(l:status) | return '' | endif
+    call v:lua.coc_status_notify(l:status, l:level)
 endfunction
 
 function! s:InitCoc() abort
-  " load overrides
-  runtime! autoload/coc/ui.vim
-  execute "lua vim.notify('Initialized coc.nvim for LSP support', 'info', { title = 'LSP Status' })"
+    " load overrides
+    runtime! autoload/coc/ui.vim
+    execute "lua vim.notify('Initialized coc.nvim for LSP support', 'info', { title = 'LSP Status' })"
 endfunction
 " notifications
 autocmd User CocNvimInit call s:InitCoc()
@@ -82,7 +82,7 @@ autocmd User CocStatusChange call s:StatusNotify()
 
 
 function coc_notify(msg, level)
-  local notify_opts = { title = "coc.nvim", timeout = 500 }
-  vim.notify(msg, level, notify_opts)
+    local notify_opts = { title = "coc.nvim", timeout = 500 }
+    vim.notify(msg, level, notify_opts)
 end
 

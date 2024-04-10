@@ -31,5 +31,12 @@ return {
         end;
     end,
     noremap = function(modes, lhs, rhs) map_multimode(modes, lhs, rhs, { remap = false }) end,
-    map = function(modes, lhs, rhs) map_multimode(modes, lhs, rhs, { remap = true }) end
+    map = function(modes, lhs, rhs) map_multimode(modes, lhs, rhs, { remap = true }) end,
+    filename = function() return vim.fn.fnamemodify(vim.api.nvim_buf_get_name(0), ':t') end,
+    merge_tab = function(a, b)
+        local c = {}
+        for k,v in pairs(a) do c[k] = v end
+        for k,v in pairs(b) do c[k] = v end
+        return c
+    end
 }

@@ -1,4 +1,4 @@
-{-# OPTIONS_GHC -Wno-deferred-out-of-scope-variables #-}
+{-# OPTIONS_GHC -Wno-deferred-out-of-scope-variables -Wno-deprecations #-}
 -- cSpell:ignore monoid ungrab ewmh modm rofi xmonad gvim nmaster mempty xmobar fullscreen unlines
 import XMonad
 import Data.Monoid

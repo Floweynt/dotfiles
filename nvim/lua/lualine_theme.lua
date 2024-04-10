@@ -13,7 +13,7 @@ local colors = {
     cyan = "#6cd0ca",
     white = "#b3b9b8",
 
-    -- different gray variants 
+    -- different gray variants
     light_gray = "#343636",
     gray = "#22292b",
 }
@@ -66,34 +66,51 @@ everblush.inactive = {
     y = { bg = colors.light_gray, fg = colors.fg },
 }
 
+
+local utils = require("lua_utils");
+local sections = {
+    lualine_a = { "mode" },
+    lualine_b = { "branch", "diff" },
+    lualine_c = {
+        {
+            "filename",
+            symbols = {
+                modified = '[+]', -- Text to show when the file is modified.
+                readonly = '[RO]', -- Text to show when the file is non-modifiable or readonly.
+                unnamed = '[No Name]', -- Text to show for unnamed buffers.
+                newfile = '[New]', -- Text to show for newly created file before first write
+            },
+            cond = function ()
+                local f = utils.filename();
+                if not f then
+                    return false;
+                end
+                return not string.find(f, "Nvim");
+            end
+        }
+    },
+
+    lualine_x = { "diagnostics" },
+    lualine_y = { "encoding", "fileformat", "filetype" },
+    lualine_z = { "progress", "location" },
+};
+
 local config = {
     options = {
         -- Disable sections and component separators
-        component_separators = { left = "", right = ""},
-        section_separators = { left = "", right = ""},
+        component_separators = { left = "", right = "" },
+        section_separators = { left = "", right = "" },
         theme = everblush,
+        globalstatus = true
     },
-    disabled_filetypes = { "packer", "NvimTree" },
-    sections = {
-        lualine_a = { "mode" },
-        lualine_b = { "branch", "diff" },
-        lualine_c = { "filename" },
-
-        lualine_x = { "diagnostics" },
-        lualine_y = { "encoding", "fileformat", "filetype" },
-        lualine_z = { "progress", "location" },
-    },
-    inactive_sections = {
-        lualine_a = { "mode"},
-        lualine_b = { "branch", "diff" },
-        lualine_c = { "filename" },
-        lualine_x = { "diagnostics" },
-        lualine_y = { "encoding", "fileformat", "filetype" },
-        lualine_z = { "progress", "location" },
-    },
+    sections = sections,
+    inactive_sections = sections,
     winbar = {
         lualine_c = { require("breadcrumbs") }
     },
+    inactive_winbar = {
+        lualine_c = { require("breadcrumbs") }
+    }
 }
 
 require("lualine").setup(config);

@@ -65,13 +65,29 @@ local hi_to_syms = {
     CocSymbolVirtual = "?"
 };
 
-function M:update_status(is_focused)
-    if not is_focused then
-        return '';
+function M:check_fname(name)
+    if name == nil then
+        return true
     end
 
+    local table = {
+        "NvimTree"
+    }
+
+    for _, value in ipairs(table) do
+        if string.find(name, value) then
+            return true;
+        end
+    end
+end
+
+function M:update_status(is_focused)
     local fg = self:get_color_fmt("#dadada");
     local filename = vim.fn.fnamemodify(vim.api.nvim_buf_get_name(0), ':t')
+
+    if self:check_fname(filename) then
+        return "";
+    end
 
     local icon, color = require('nvim-web-devicons').get_icon_color(filename);
     local result = {};
@@ -80,7 +96,7 @@ function M:update_status(is_focused)
         result = { " " .. (fg .. filename) }
     else
         local icon_color_str = self:get_color_fmt(color);
-        result = { " " .. (icon_color_str .. icon) .. " ".. (fg .. filename)};
+        result = { " " .. (icon_color_str .. icon) .. " " .. (fg .. filename) };
     end
 
     if not (vim.b.coc_nav == nil) then

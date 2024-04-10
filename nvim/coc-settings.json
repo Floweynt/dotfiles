@@ -1,37 +1,105 @@
 {
+    "cSpell.words": [
+        "println",
+        "nolintnextline",
+        "crbegin",
+        "crend"
+    ],
     "diagnostic.refreshOnInsertMode": true,
-    "colors.filetypes": ["*"],
-    "semanticTokens.filetypes": ["*"],
+    "colors.filetypes": [
+        "*"
+    ],
+    "semanticTokens.enable": true,
+    "semanticTokens.filetypes": [
+        "*"
+    ],
     "languageserver": {
+        "svlangserver": {
+            "command": "svlangserver",
+            "filetypes": [
+                "systemverilog"
+            ],
+            "settings": {
+                "systemverilog.includeIndexing": [
+                    "**/*.{sv,svh}"
+                ],
+                "systemverilog.excludeIndexing": [
+                    "test/**/*.sv*"
+                ],
+                "systemverilog.defines": [],
+                "systemverilog.launchConfiguration": "/usr/bin/verilator -sv -Wall --lint-only"
+            }
+        },
         "haskell": {
-          "command": "haskell-language-server-wrapper",
-          "args": [
-            "--lsp"
-          ],
-          "rootPatterns": [
-            ".stack.yaml",
-            ".hie-bios",
-            "BUILD.bazel",
-            "cabal.config",
-            "package.yaml"
-          ],
-          "filetypes": [
-            "hs",
-            "lhs",
-            "haskell"
-          ]
+            "command": "haskell-language-server-wrapper",
+            "args": [
+                "--lsp"
+            ],
+            "rootPatterns": [
+                ".stack.yaml",
+                ".hie-bios",
+                "BUILD.bazel",
+                "cabal.config",
+                "package.yaml"
+            ],
+            "filetypes": [
+                "hs",
+                "lhs",
+                "haskell"
+            ]
         },
         "csharp-ls": {
-          "command": "csharp-ls",
-          "filetypes": ["cs"],
-          "rootPatterns": ["*.csproj", ".vim/", ".git/", ".hg/"]
+            "command": "csharp-ls",
+            "filetypes": [
+                "cs"
+            ],
+            "rootPatterns": [
+                "*.csproj",
+                ".vim/",
+                ".git/",
+                ".hg/"
+            ],
+            "trace.server": "verbose"
+        },
+        "monumenta-mcfunction": {
+            "command": "node",
+            "trace.server": "verbose",
+            "args": [
+                "-r",
+                "ts-node/register",
+                "src/index.ts",
+                "--stdio"
+            ],
+            "filetypes": [
+                "mcfunction"
+            ],
+            "rootPatterns": [
+                "command_registration.json",
+                ".vim/",
+                ".git/"
+            ]
         }
-      },
-    "clangd.arguments": [ "--clang-tidy", "-j=12", "--malloc-trim", "--background-index", "--pch-storage=memory", "--log=verbose" ],
-    "clangd.fallbackFlags": [ "-std=c++20", "-stdlib=libstdc++", "-Wpedantic", "-Wall" ],
+    },
+    "clangd.arguments": [
+        "--clang-tidy",
+        "-j=12",
+        "--malloc-trim",
+        "--background-index",
+        "--pch-storage=memory",
+        "--log=verbose"
+    ],
+    "clangd.fallbackFlags": [
+        "-std=c++20",
+        "-stdlib=libstdc++",
+        "-Wpedantic",
+        "-Wall"
+    ],
     "clangd.trace.server": "verbose",
     "cSpell.userWords": [
-      "klog"
+      "GLFW",
+      "jsondiffpatch",
+      "klog",
+      "scoreboreboard"
     ],
     "highlight.colorNames.enable": false,
     "coc.preferences.jumpCommand": "split",
@@ -40,9 +108,36 @@
     "diagnostic.infoSign": ">>",
     "diagnostic.warningSign": "!",
     "diagnostic.enableHighlightLineNumber": false,
-    "inlayHint.enable": true,
-    "inlayHint.display": true,
     "sumneko-lua.enableNvimLuaDev": true,
-    "coc.preferences.enableMessageDialog":  false
+    "coc.preferences.enableMessageDialog": false,
+    "deno.enable": false,
+    "coc.preferences.floatActions": true,
+    "suggest.completionItemKindLabels": {
+        "method": "m",
+        "function": "fn",
+        "variable": "var",
+        "field": "fld",
+        "typeParameter": "Tp",
+        "constant": "con",
+        "class": "Cl",
+        "interface": "If",
+        "struct": "Str",
+        "event": "Ev",
+        "operator": "=",
+        "module": "{}",
+        "property": "pr",
+        "enum": "En",
+        "reference": "&",
+        "keyword": "kw",
+        "file": "file",
+        "folder": "f",
+        "color": "rbg",
+        "snippet": "snip",
+        "text": "txt",
+        "constructor": "ctor",
+        "value": "val",
+        "enumMember": "E::X"
+    },
+    "inlayHint.enable": false,
+    "zig.path": "/usr/bin/zls"
 }
-

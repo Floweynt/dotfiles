@@ -35,6 +35,10 @@ function! ShowDocumentation()
 endfunction
 ]])
 
+function visualmode()
+    return vim.api.nvim_call_function('visualmode', {});
+end
+
 for key, value in pairs({
     ["if"] = "coc-funcobj-i",
     ["af"] = "coc-funcobj-a",
@@ -54,14 +58,28 @@ for key, value in pairs({
     ["gr"] = "jumpReferences",
     ["<leader>rn"] = "rename",
     ["<leader>qf"] = "doQuickfix",
+    ["<leader>f"] = { "format", "formatted file" }
 }) do
+    local callback = function() vim.api.nvim_call_function("CocActionAsync", { value }); end
+
+    if type(value) == "table" then
+        callback = function()
+            vim.api.nvim_call_function("CocActionAsync", { value[1] });
+            vim.notify(value[2], "info", {
+                title = "coc.nvim"
+            });
+        end
+    end
+
     vim.keymap.set(
         "n",
         key,
-        function() vim.api.nvim_call_function("CocActionAsync", { value }) end,
-        { remap = true, silent = true}
+        callback,
+        { remap = true, silent = true }
     );
 end
+
+vim.keymap.set("v", "<leader>ca", function() vim.api.nvim_call_function("CocActionAsync", { "codeAction", visualmode() }) end);
 
 for key, value in pairs({
     ["<C-F>"] = "doQuickfix",
@@ -90,11 +108,10 @@ for key, value in pairs({
         "n",
         "<leader>" .. key,
         utils.cmd_callback(value),
-            {
+        {
             remap = false,
             nowait = true,
             silent = true
         }
     );
 end
-

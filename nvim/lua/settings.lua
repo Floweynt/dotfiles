@@ -19,6 +19,6 @@ vim.opt.updatetime = 300;
 vim.opt.signcolumn = "yes";
 vim.opt.cursorline = true;
 vim.opt.termguicolors = true;
-
+vim.opt.fillchars = { eob = " " };
 vim.cmd("syntax on");
 
