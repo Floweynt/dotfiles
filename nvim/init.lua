@@ -32,6 +32,12 @@ require("packer").startup(function(use)
     use "lukas-reineke/indent-blankline.nvim";
     use 'nvim-treesitter/nvim-treesitter';
     use { 'edluffy/hologram.nvim' };
+    use {
+        "NStefan002/screenkey.nvim",
+        config = function()
+            require("screenkey").setup()
+        end,
+    }
 end);
 
 vim.notify = require("notify");
@@ -64,7 +70,7 @@ require('nvim-treesitter.configs').setup({
     highlight = {
         enable = true,
         additional_vim_regex_highlighting = false,
-        disable = {"c", "cpp"},
+        disable = { "c", "cpp" },
     },
 });
 
