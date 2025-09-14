@@ -1,0 +1,105 @@
+{
+    "cSpell.words": [
+        "println",
+        "nolintnextline",
+        "crbegin",
+        "crend",
+        "nlohmann",
+        "coro",
+        "jthread",
+        "monumenta",
+        "alignas",
+        "sfml",
+        "mechs",
+        "mechthon",
+        "bukkit"
+    ],
+    "diagnostic.refreshOnInsertMode": true,
+    "colors.filetypes": [
+        "*"
+    ],
+    "semanticTokens.enable": true,
+    "semanticTokens.filetypes": [
+        "*"
+    ],
+    "languageserver": {},
+    "clangd.arguments": [
+        "--clang-tidy",
+        "-j=12",
+        "--malloc-trim",
+        "--background-index",
+        "--pch-storage=memory",
+        "--log=verbose"
+    ],
+    "clangd.fallbackFlags": [
+        "-std=c++23",
+        "-stdlib=libstdc++",
+        "-Wpedantic",
+        "-Wall"
+    ],
+    "clangd.trace.server": "verbose",
+    "cSpell.userWords": [
+        "GLFW",
+        "STRIKETHROUGH",
+        "buildscript",
+        "classloading",
+        "findeffect",
+        "jsondiffpatch",
+        "klog",
+        "microarchetectural",
+        "orthgonalization",
+        "scoreboreboard"
+    ],
+    "highlight.colorNames.enable": false,
+    "coc.preferences.jumpCommand": "split",
+    "diagnostic.errorSign": "?!",
+    "diagnostic.hintSign": "?",
+    "diagnostic.infoSign": ">>",
+    "diagnostic.warningSign": "!",
+    "diagnostic.enableHighlightLineNumber": false,
+    "sumneko-lua.enableNvimLuaDev": true,
+    "coc.preferences.enableMessageDialog": false,
+    "deno.enable": false,
+    "coc.preferences.floatActions": true,
+    "suggest.completionItemKindLabels": {
+        "method": "m",
+        "function": "fn",
+        "variable": "var",
+        "field": "fld",
+        "typeParameter": "Tp",
+        "constant": "con",
+        "class": "Cl",
+        "interface": "If",
+        "struct": "St",
+        "event": "Ev",
+        "operator": "=",
+        "module": "{}",
+        "property": "pr",
+        "enum": "En",
+        "reference": "&",
+        "keyword": "kw",
+        "file": "file",
+        "folder": "f",
+        "color": "rbg",
+        "snippet": "snip",
+        "text": "txt",
+        "constructor": "ctor",
+        "value": "val",
+        "enumMember": "E::X"
+    },
+    "inlayHint.enable": false,
+    "zig.path": "/usr/bin/zls",
+    "java.enabled": false,
+    "git.removedSign.text": "-",
+    "nix.enableLanguageServer": true,
+    "languageserver": {
+        "qml": {
+            "command": "qmlls",
+            "trace.server": "verbose",
+            "rootPatterns": [".qmlls.ini"],
+            "filetypes": [
+                "qml"
+            ]
+        }
+    }
+}
