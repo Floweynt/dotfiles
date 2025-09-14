@@ -2,6 +2,7 @@ pragma Singleton
 
 import Quickshell
 import QtQuick
+import Quickshell.Services.Notifications
 
 Singleton {
     readonly property color nord0: "#2e3440"
@@ -29,7 +30,9 @@ Singleton {
     readonly property int bottomBarHeight: 60
     readonly property int barHeight: 40
     readonly property int radius: 10
-    readonly property int notifWidth: 300
+
+    readonly property int notifBorderRadius: 3
+    readonly property int notifAppIconHeight: 40
 
     property QtObject icons: QtObject {
         readonly property var categoryIcons: ({
@@ -108,6 +111,7 @@ Singleton {
 
     property QtObject font: QtObject {
         readonly property string family: "JetBrainsMono Nerd Font Mono"
+        readonly property int smallSize: 13
         readonly property int normalSize: 17
         readonly property int bigIconSize: 29
         readonly property int iconSize: 22

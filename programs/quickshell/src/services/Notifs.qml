@@ -12,6 +12,10 @@ Singleton {
     readonly property list<Notif> list: []
     readonly property list<Notif> popups: list.filter(n => n.popup)
 
+    onPopupsChanged: {
+        print(popups)
+    }
+
     NotificationServer {
         id: server
 
@@ -36,8 +40,9 @@ Singleton {
         target: "notifs"
 
         function clear(): void {
-            for (const notif of root.list)
+            for (const notif of root.list) {
                 notif.popup = false;
+            }
         }
     }
 

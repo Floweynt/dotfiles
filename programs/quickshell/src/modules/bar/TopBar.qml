@@ -1,11 +1,9 @@
 import QtQuick
 import qs
 import qs.modules.bar.components
-import qs.components
 
 Bar {
     id: bar
-    required property PopupHolder popupHolder
     screen: screen
     y: Constants.outerPadding
     height: Constants.topBarHeight
@@ -37,12 +35,4 @@ Bar {
     Perf {
         anchors.right: clock.left
     }
-
-    /*Text {
-        id: helloText
-        text: "Hello world!"
-        y: 30
-        anchors.horizontalCenter: page.horizontalCenter
-        font.pointSize: 24; font.bold: true
-    }*/
 }
