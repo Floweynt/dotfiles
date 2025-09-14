@@ -12,10 +12,6 @@ Singleton {
     readonly property list<Notif> list: []
     readonly property list<Notif> popups: list.filter(n => n.popup)
 
-    onPopupsChanged: {
-        print(popups)
-    }
-
     NotificationServer {
         id: server
 

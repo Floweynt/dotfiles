@@ -16,7 +16,7 @@ BarRect {
     color: Constants.nord1
     implicitWidth: 500
     implicitHeight: Math.max(contents.implicitHeight, 50) + 2 * Constants.outerPadding
-    property bool expanded: true
+    property bool expanded: false
 
     Item {
         anchors.top: parent.top
