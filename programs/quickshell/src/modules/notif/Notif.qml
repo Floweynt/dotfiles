@@ -7,6 +7,7 @@ import qs
 import Quickshell.Services.Notifications
 import QtQuick.Layouts
 import Quickshell.Widgets
+import Quickshell
 
 BarRect {
     id: root
@@ -50,8 +51,8 @@ BarRect {
 
             sourceComponent: IconImage {
                 anchors.fill: parent
-                source: Qt.resolvedUrl(root.modelData.notification.appIcon)
-                implicitHeight: Constants.notifAppIconHeight
+                source: Quickshell.iconPath(root.modelData.notification.appIcon)
+                implicitHeight: 10
                 asynchronous: true
             }
         }

@@ -31,6 +31,12 @@ in
     time.timeZone = "America/Chicago";
     i18n.defaultLocale = "en_US.UTF-8";
 
+    nix.extraOptions = ''
+    experimental-features = nix-command
+    '';
+
+    programs.ccache.enable = true;
+
     services = {
         printing.enable = true;
         pipewire = {
@@ -92,6 +98,8 @@ in
             prismlauncher
             python313Packages.pip
             python313
+            ffmpeg_6-full
+            userPackages.proxy
         ];
     };
 

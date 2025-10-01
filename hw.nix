@@ -77,6 +77,19 @@ in
             enable = true;
             enable32Bit = true;
         };
+        bluetooth = {
+            enable = true;
+            powerOnBoot = true;
+            settings = {
+                General = {
+                    Experimental = true;
+                    FastConnectable = false;
+                };
+                Policy = {
+                    AutoEnable = true;
+                };
+            };
+        };
     };
 
     nixpkgs.hostPlatform = {
