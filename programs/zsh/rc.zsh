@@ -85,6 +85,12 @@ prompt_git() {
     fi
 }
 
+prompt_nix_shell() {
+    if [[ -n "$IN_NIX_SHELL" ]]; then
+        prompt_segment cyan 8 'NIX'
+    fi
+}
+
 prompt_dir() {
     prompt_segment blue 8 '%~'
 }
@@ -107,6 +113,7 @@ prompt_status() {
 build_prompt() {
     RETVAL=$?
     prompt_status
+    prompt_nix_shell
     prompt_virtualenv
     prompt_context
     prompt_dir

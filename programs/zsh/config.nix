@@ -26,6 +26,7 @@
             shellAliases = {
                 update = "sudo nixos-rebuild switch -I nixos-config=/home/${user}/dotfiles/configuration.nix";
                 cat = "bat";
+                shell = "nix-shell --run $SHELL";
             };
             initContent = lib.mkAfter (builtins.readFile ./rc.zsh);
             syntaxHighlighting = {

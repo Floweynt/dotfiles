@@ -15,6 +15,9 @@ let
             domain = true;
             file = true;
         };
+        MessageLogger = {
+            enabled = true;
+        };
         BetterSessions = {
             enabled = true;
             backgroundCheck = true;

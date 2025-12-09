@@ -21,27 +21,17 @@ require("lualine_theme");
 require("nvimtree");
 -- require("vista");
 require("color");
---[[
+
 local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
-parser_config.lexergen = {
-    install_info = {
-        url = "~/dev/cpp/tree-sitter-lexer-gen/",
-        files = { "src/parser.c" },
-        branch = "main",
-        generate_requires_npm = false,
-        requires_generate_from_grammar = false,
-    },
-    filetype = "leg",
-}
 
 require("nvim-treesitter.configs").setup({
-    ensure_installed = { "cpp", "lexergen" },
+    ensure_installed = { "cpp" },
     highlight = {
         enable = true,
         additional_vim_regex_highlighting = false,
         disable = { "c", "cpp" },
     },
-});]]
+});
 
 vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
     pattern = "*.lds",

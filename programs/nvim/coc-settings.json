@@ -96,10 +96,13 @@
         "qml": {
             "command": "qmlls",
             "trace.server": "verbose",
-            "rootPatterns": [".qmlls.ini"],
+            "rootPatterns": [
+                ".qmlls.ini"
+            ],
             "filetypes": [
                 "qml"
             ]
         }
-    }
+    },
+    "rust-analyzer.check.command": "clippy"
 }

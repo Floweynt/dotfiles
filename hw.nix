@@ -5,6 +5,7 @@ args@{
     config,
     machine,
     userPackages,
+    nixos-hardware,
     ...
 }:
 let 
@@ -15,6 +16,10 @@ let
     };
 in
 {
+    imports = [
+        (import "${nixos-hardware}/framework/16-inch/7040-amd")
+    ];
+    services.power-profiles-daemon.enable = false;
     fileSystems = {
         "/" = {
             device = "/dev/disk/by-uuid/${machine.partitions.main-id}";
@@ -104,18 +109,18 @@ in
         kernelPackages = pkgs.linuxPackages_latest;
         kernelModules = [ "kvm-amd" ];
         extraModulePackages = [
-            (userPackages.amdgpu-kernel-module.overrideAttrs (_: {
+            /* (userPackages.amdgpu-kernel-module.overrideAttrs (_: {
                 patches = [
                     amdgpu-stability-patch
                 ];
-            }))
+            }))*/
         ];
         supportedFilesystems = [ "btrfs" ];
 
         initrd = {
             compressorArgs = ["-22" "-T0" "--long" "--ultra"];
             availableKernelModules = [ "nvme" "xhci_pci" "thunderbolt" "usbhid" ];
-            kernelModules = [ "amdgpu"  ];
+            kernelModules = [ "amdgpu" ];
             luks.devices."nixos_root".device = "/dev/disk/by-uuid/${machine.partitions.main-luks-id}";
         };
     };

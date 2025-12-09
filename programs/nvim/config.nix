@@ -31,7 +31,7 @@
                 nvim-notify
                 lualine-nvim
                 indent-blankline-nvim
-                nvim-treesitter
+                nvim-treesitter.withAllGrammars
                 hologram-nvim
                 diffview-nvim
 
@@ -43,6 +43,7 @@
                 coc-spell-checker
                 coc-json
                 coc-java
+                coc-rust-analyzer
                 coc-sumneko-lua
                 # userPackages.coc-nav #TODO package this myself
                 coc-git

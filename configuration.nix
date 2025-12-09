@@ -7,7 +7,11 @@ args@{
 }:
 let
     home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
-    
+    nixos-hardware = builtins.fetchGit { 
+        url = "https://github.com/NixOS/nixos-hardware.git";
+        rev = "9154f4569b6cdfd3c595851a6ba51bfaa472d9f3";
+    };
+
     util = import ./util.nix args;
     machine = import ./machine.nix;
     clangPkgs = pkgs;
@@ -17,7 +21,7 @@ let
         kernel = config.boot.kernelPackages.kernel;
         inherit util;
     }) (util.loadDir ./packages "package");
-    importLocal = f: import f (args // { inherit user clangPkgs util userPackages machine; });
+    importLocal = f: import f (args // { inherit user clangPkgs util userPackages machine nixos-hardware; });
 in
 {
     imports = [
@@ -25,6 +29,7 @@ in
         (importLocal ./fprint.nix)
         (importLocal ./hw.nix)
         (importLocal ./persist.nix)
+        (importLocal ./power.nix)
         (modulesPath + "/installer/scan/not-detected.nix")
     ] ++ (builtins.map importLocal (builtins.attrValues (util.loadDir ./programs "config")));
 
@@ -43,20 +48,6 @@ in
             enable = true;
             pulse.enable = true;
         };
-        upower.enable = true;
-        auto-cpufreq = {
-            enable = true;
-            settings = {
-                battery = {
-                    governor = "powersave";
-                    turbo = "never";
-                };
-                charger = {
-                    governor = "performance";
-                    turbo = "auto";
-                };
-            };
-        };
     };
 
     networking = {
@@ -73,6 +64,13 @@ in
     security = {
         polkit.enable = true;
     };
+
+    # TODO: fixme
+    environment.etc."libinput/local-overrides.quirks".text = ''
+      [Never Debounce]
+      MatchUdevType=mouse
+      ModelBouncingKeys=1
+    '';
 
     environment.systemPackages = with pkgs; [
         git
@@ -100,6 +98,11 @@ in
             python313
             ffmpeg_6-full
             userPackages.proxy
+            meson
+            ninja
+            cmake
+            gdb
+            rr
         ];
     };
 
