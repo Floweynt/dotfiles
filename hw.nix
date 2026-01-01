@@ -74,6 +74,17 @@ in
                 "dmask=0022"
             ];
         };
+        "/btrfs_root" = {
+            device = "/dev/disk/by-uuid/${machine.partitions.main-id}";
+            fsType = "btrfs";
+            options = [
+                "noatime"
+                "nodiratime"
+                "discard"
+                "ro"
+                "compress=zstd"
+            ];
+        };
     };
 
     networking.useDHCP = lib.mkDefault true;

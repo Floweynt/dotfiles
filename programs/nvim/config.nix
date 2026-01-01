@@ -50,6 +50,9 @@
                 # coc-nix
                 coc-pyright
             ];
+            extraPackages = with clangPkgs; [
+                nodejs
+            ];
         };
 
         xdg.configFile."nvim/lua" = {
