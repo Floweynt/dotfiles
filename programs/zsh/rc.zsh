@@ -1,6 +1,10 @@
 if [ $(tty) = "/dev/tty1" ]; then
-    hyprland
+    start-hyprland
 fi
+
+dis() {
+    objdump -D $1 --section .text --visualize-jumps=color --disassembler-color=on --demangle
+}
 
 # status bar
 setopt PROMPT_SUBST

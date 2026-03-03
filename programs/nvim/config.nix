@@ -9,7 +9,7 @@
         programs.neovim = {
             enable = true;
             package = clangPkgs.neovim-unwrapped;
-            extraLuaConfig = builtins.readFile ./init.lua;
+            initLua = builtins.readFile ./init.lua;
             viAlias = true;
             vimAlias = true;
             defaultEditor = true;
@@ -39,12 +39,12 @@
                 coc-clangd
                 coc-highlight
                 coc-eslint
-                coc-tsserver
+                # coc-tsserver
                 coc-spell-checker
                 coc-json
                 coc-java
                 coc-rust-analyzer
-                coc-sumneko-lua
+                # coc-sumneko-lua # TODO this is broken
                 # userPackages.coc-nav #TODO package this myself
                 coc-git
                 # coc-nix
@@ -52,6 +52,9 @@
             ];
             extraPackages = with clangPkgs; [
                 nodejs
+                tree-sitter
+                nil
+                nixfmt
             ];
         };
 

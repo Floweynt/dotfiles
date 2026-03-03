@@ -22,25 +22,13 @@ require("nvimtree");
 -- require("vista");
 require("color");
 
-local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
-
-require("nvim-treesitter.configs").setup({
-    ensure_installed = { "cpp" },
-    highlight = {
-        enable = true,
-        additional_vim_regex_highlighting = false,
-        disable = { "c", "cpp" },
-    },
-});
-
-vim.api.nvim_create_autocmd({ "BufNewFile", "BufRead" }, {
-    pattern = "*.lds",
-    callback = function()
-        vim.opt.syntax = "ld";
-    end
-});
+vim.api.nvim_create_autocmd('FileType', {
+    pattern = { '*' },
+    callback = function() pcall(vim.treesitter.start) end,
+})
 
 vim.filetype.add({ extension = { leg = "leg" } })
+vim.filetype.add({ extension = { ld = "lds" } })
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true

@@ -27,6 +27,9 @@
                 update = "sudo nixos-rebuild switch -I nixos-config=/home/${user}/dotfiles/configuration.nix";
                 cat = "bat";
                 shell = "nix-shell --run $SHELL";
+                develop = "nix --extra-experimental-features flakes develop --command $SHELL";
+                env-c = "nix-shell --run $SHELL ${./env-c.nix}";
+                env-rs = "nix-shell --run $SHELL ${./env-rs.nix}";
             };
             initContent = lib.mkAfter (builtins.readFile ./rc.zsh);
             syntaxHighlighting = {

@@ -1,7 +1,6 @@
 args@{
     pkgs,
     lib,
-    modulesPath,
     config,
     ...
 }:
@@ -11,7 +10,6 @@ let
         url = "https://github.com/NixOS/nixos-hardware.git";
         rev = "9154f4569b6cdfd3c595851a6ba51bfaa472d9f3";
     };
-
     util = import ./util.nix args;
     machine = import ./machine.nix;
     clangPkgs = pkgs;
@@ -30,7 +28,6 @@ in
         (importLocal ./hw.nix)
         (importLocal ./persist.nix)
         (importLocal ./power.nix)
-        (modulesPath + "/installer/scan/not-detected.nix")
     ] ++ (builtins.map importLocal (builtins.attrValues (util.loadDir ./programs "config")));
 
     time.timeZone = "America/Chicago";
@@ -81,32 +78,41 @@ in
     ];
 
     # configure users
-    users.users.flowey = {
-        isNormalUser = true;
-        extraGroups = [ "wheel" ];
-        packages = with clangPkgs; [
-            nvtopPackages.amd
-            clang_21
-            llvmPackages_21.clang-tools
-            nil
-            wl-clipboard
-            jetbrains.idea-community
-            zip
-            unzip
-            prismlauncher
-            python313Packages.pip
-            python313
-            ffmpeg_6-full
-            userPackages.proxy
-            meson
-            ninja
-            cmake
-            gdb
-            rr
-        ];
+    users = {
+        mutableUsers = false;
+        allowNoPasswordLogin = true;
+        users.umbresp = {
+            isNormalUser = true;
+            home = "/home/umbresp";
+            hashedPassword = "$6$/rW1QoGX3Q5pcZoy$KZvak.Mvyu.IqkkoAONRMg08pB12bSexcC/4wi2wEHWNoWXq0aEX28BqxEeIKg3.lCJ8OWYliBYOInhvN.ju41";
+            uid = 1001;
+        };
+        users."${user}" = {
+            isNormalUser = true;
+            home = "/home/${user}";
+            uid = 1000;
+            extraGroups = [ "wheel" ];
+            packages = with clangPkgs; [
+                nvtopPackages.amd
+                wl-clipboard
+                jetbrains.idea-oss
+                zip
+                unzip
+                prismlauncher
+                python313Packages.pip
+                python313
+                ffmpeg_6-full
+                userPackages.proxy
+                userPackages.view-dot
+                userPackages.gen-cdb
+                clang_22
+                llvmPackages_22.clang-tools
+                ccache
+            ];
+        };
     };
 
-    home-manager.users.flowey = {
+    home-manager.users."${user}" = {
         programs = {
             librewolf = {
                 enable = true;

@@ -21,4 +21,4 @@ vim.opt.cursorline = true;
 vim.opt.termguicolors = true;
 vim.opt.fillchars = { eob = " " };
 vim.cmd("syntax on");
-
+vim.opt.wrap = false;

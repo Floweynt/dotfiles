@@ -1,12 +1,17 @@
-{ 
-    pkgs, 
-    lib, 
-    kernel ? pkgs.linuxPackages_latest.kernel,
-    ...
+{
+  pkgs,
+  lib,
+  kernel ? pkgs.linuxPackages_latest.kernel,
+  ...
 }:
 pkgs.stdenv.mkDerivation {
   pname = "amdgpu-kernel-module";
-  inherit (kernel) src version postPatch nativeBuildInputs;
+  inherit (kernel)
+    src
+    version
+    postPatch
+    nativeBuildInputs
+    ;
 
   kernel_dev = kernel.dev;
   kernelVersion = kernel.modDirVersion;
@@ -37,4 +42,3 @@ pkgs.stdenv.mkDerivation {
     license = lib.licenses.gpl3;
   };
 }
-

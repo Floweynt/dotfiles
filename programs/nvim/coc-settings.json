@@ -22,7 +22,6 @@
     "semanticTokens.filetypes": [
         "*"
     ],
-    "languageserver": {},
     "clangd.arguments": [
         "--clang-tidy",
         "-j=12",
@@ -91,7 +90,6 @@
     "zig.path": "/usr/bin/zls",
     "java.enabled": false,
     "git.removedSign.text": "-",
-    "nix.enableLanguageServer": true,
     "languageserver": {
         "qml": {
             "command": "qmlls",
@@ -102,6 +100,24 @@
             "filetypes": [
                 "qml"
             ]
+        },
+        "nix": {
+            "command": "nil",
+            "filetypes": [
+                "nix"
+            ],
+            "rootPatterns": [
+                "flake.nix"
+            ],
+            "settings": {
+                "nil": {
+                    "formatting": {
+                        "command": [
+                            "nixfmt"
+                        ]
+                    }
+                }
+            }
         }
     },
     "rust-analyzer.check.command": "clippy"

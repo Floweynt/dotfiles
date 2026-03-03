@@ -8,16 +8,11 @@ let
     ]
   );
 in
-pkgs.writers.writePython3Bin "proxy" {
+pkgs.writers.writePython3Bin "gen-cdb" {
   makeWrapperArgs = [
     "--prefix"
     "PATH"
     ":"
     path
   ];
-  flakeIgnore = [
-    "E302"
-    "E225"
-    "E501"
-  ];
-} ./proxy.py
+} ./gen-cdb.py

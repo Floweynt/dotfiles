@@ -4,8 +4,6 @@
 
     environment.etc = {
         "NetworkManager/system-connections".source = "/persist/@config/network-manager/connections";
-        passwd.source = "/persist/@config/passwd";
-        shadow.source = "/persist/@config/shadow";
     };
     
     systemd.tmpfiles.rules = [
@@ -24,7 +22,7 @@
             ".gradle/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@caches/user/${user}/gradle/";
             ".rustup/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@caches/user/${user}/rustup/";
             ".cargo/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@caches/user/${user}/cargo/";
-
+            ".config/vesktop/sessionData/Local Storage/leveldb/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@caches/user/${user}/vesktop/login_cache/";
 
             # config
             ".gitconfig".source = config.lib.file.mkOutOfStoreSymlink "/persist/@config/user/${user}/git/config";
@@ -40,6 +38,8 @@
             ".librewolf/profiles.ini".source = config.lib.file.mkOutOfStoreSymlink "/persist/@state/user/${user}/librewolf/profiles.ini";
             ".local/state/nvim/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@state/user/${user}/nvim_state/";
             ".local/share/PrismLauncher/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@state/user/${user}/prism_launcher/";
+            ".steam".source = config.lib.file.mkOutOfStoreSymlink "/persist/@state/user/${user}/steam/root";
+            ".local/share/Steam".source = config.lib.file.mkOutOfStoreSymlink "/persist/@state/user/${user}/steam/local_share";
 
             # home
             "dev/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@home/dev/";

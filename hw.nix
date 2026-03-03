@@ -18,6 +18,7 @@ in
 {
     imports = [
         (import "${nixos-hardware}/framework/16-inch/7040-amd")
+        (import ./extern/framework-lid-workaround.nix)
     ];
     services.power-profiles-daemon.enable = false;
     fileSystems = {
@@ -106,6 +107,7 @@ in
                 };
             };
         };
+        framework.wakeOnInput = "lid-open";
     };
 
     nixpkgs.hostPlatform = {
@@ -120,7 +122,7 @@ in
         kernelPackages = pkgs.linuxPackages_latest;
         kernelModules = [ "kvm-amd" ];
         extraModulePackages = [
-            /* (userPackages.amdgpu-kernel-module.overrideAttrs (_: {
+            /*(userPackages.amdgpu-kernel-module.overrideAttrs (_: {
                 patches = [
                     amdgpu-stability-patch
                 ];
@@ -136,6 +138,7 @@ in
         };
     };
 
+    hardware.enableRedistributableFirmware = true;
     hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
     nix.settings.system-features = [ "gccarch-znver4" ];
 }
