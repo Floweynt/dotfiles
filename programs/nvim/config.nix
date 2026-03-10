@@ -55,6 +55,7 @@
                 tree-sitter
                 nil
                 nixfmt
+                svls
             ];
         };
 

@@ -3,7 +3,7 @@ if [ $(tty) = "/dev/tty1" ]; then
 fi
 
 dis() {
-    objdump -D $1 --section .text --visualize-jumps=color --disassembler-color=on --demangle
+    objdump -D $@ --section .text --visualize-jumps=color --disassembler-color=on --demangle
 }
 
 # status bar
