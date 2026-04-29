@@ -117,9 +117,29 @@ in
     boot = {
         loader.limine = {
             enable = true;
+            extraConfig = ''
+                /mos-rust-kernel
+                    protocol: limine
+                    path: boot():/limine/rkernel.elf
+                    resolution: 1920x1080
+                    randomize_hhdm_base: yes
+                    cmdline: logging: { serial: { enable: false } }
+            '';
+            additionalFiles = {
+                "rkernel.elf" = /home/flowey/dev/utcs/cs378/common/target/x86_64-unknown-none/debug/kernel_common;
+            };
         };
 
-        kernelPackages = pkgs.linuxPackages_latest;
+        kernelPackages = /*pkgs.linuxPackages_zen*/ pkgs.linuxPackagesFor (pkgs.linux_latest.override {
+            argsOverride = rec {
+                src = pkgs.fetchurl {
+                        url = "mirror://kernel/linux/kernel/v6.x/linux-${version}.tar.xz";
+                        sha256 = "sha256-qtpHItuLz6C5cyhRhW1AUIK2pPouOrBnvo2xfN0RWzg=";
+                };
+                version = "6.19.8";
+                modDirVersion = version;
+            };
+        });
         kernelModules = [ "kvm-amd" ];
         extraModulePackages = [
             /*(userPackages.amdgpu-kernel-module.overrideAttrs (_: {

@@ -27,8 +27,14 @@ vim.api.nvim_create_autocmd('FileType', {
     callback = function() pcall(vim.treesitter.start) end,
 })
 
-vim.filetype.add({ extension = { leg = "leg" } })
-vim.filetype.add({ extension = { ld = "lds" } })
+vim.filetype.add({ 
+    extension = { 
+        leg = "leg",
+        lds = "ld",
+        vl = "systemverilog",
+        v = "systemverilog"
+    }
+})
 
 -- set termguicolors to enable highlight groups
 vim.opt.termguicolors = true

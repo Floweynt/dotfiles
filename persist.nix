@@ -1,6 +1,7 @@
 { user, lib, ... }:
 {
     boot.initrd.postDeviceCommands = lib.mkBefore (builtins.readFile ./darling_erasure.sh);
+    boot.initrd.systemd.enable = false;
 
     environment.etc = {
         "NetworkManager/system-connections".source = "/persist/@config/network-manager/connections";

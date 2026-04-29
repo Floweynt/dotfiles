@@ -29,7 +29,7 @@ in
         (importLocal ./persist.nix)
         (importLocal ./power.nix)
     ] ++ (builtins.map importLocal (builtins.attrValues (util.loadDir ./programs "config")));
-
+    
     time.timeZone = "America/Chicago";
     i18n.defaultLocale = "en_US.UTF-8";
 
@@ -44,6 +44,10 @@ in
         pipewire = {
             enable = true;
             pulse.enable = true;
+        };
+        usbmuxd = {
+            enable = true;
+            package = pkgs.usbmuxd2;
         };
     };
 

@@ -121,8 +121,10 @@
         },
         "svls": {
             "command": "svls",
+            "rootPatterns": [".svls.toml"],
             "filetypes": [
-                "vl"
+                "systemverilog",
+                "verilog"
             ]
         }
     },

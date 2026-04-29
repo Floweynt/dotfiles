@@ -47,6 +47,7 @@
             active_tab_font_style = "italic";
             update_check_interval = 0;
             touch_scroll_multiplier = 10.0;
+            momentum_scroll = 0;
         };
     };
 }
