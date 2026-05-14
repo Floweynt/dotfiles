@@ -33,9 +33,7 @@ in
     time.timeZone = "America/Chicago";
     i18n.defaultLocale = "en_US.UTF-8";
 
-    nix.extraOptions = ''
-    experimental-features = nix-command
-    '';
+    nix.settings.extra-experimental-features = [ "nix-command" "flakes" ];
 
     programs.ccache.enable = true;
 
@@ -99,7 +97,6 @@ in
             packages = with clangPkgs; [
                 nvtopPackages.amd
                 wl-clipboard
-                jetbrains.idea-oss
                 zip
                 unzip
                 prismlauncher

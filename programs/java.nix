@@ -9,6 +9,7 @@ let
         jdk11
         jdk17
         jdk # 21
+        jetbrains.jdk-21
         jetbrains.jdk
     ];
 in
@@ -22,7 +23,7 @@ in
             sessionPath = [ "$HOME/.jdks" ];
             file = builtins.listToAttrs (builtins.map (jdk: {
                 name = ".jdks/${jdk.name}";
-                value.source = jdk;
+                value.source = "${jdk}/lib/openjdk";
             }) jdks);
         };
 

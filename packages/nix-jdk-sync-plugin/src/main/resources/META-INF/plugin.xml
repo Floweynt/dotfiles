@@ -1,0 +1,13 @@
+<idea-plugin>
+    <id>dev.nixsdk.sync</id>
+    <name>Nix SDK Sync</name>
+    <vendor>NixOS</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.java</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <postStartupActivity
+            implementation="dev.nixsdk.SyncActivity"/>
+    </extensions>
+</idea-plugin>
