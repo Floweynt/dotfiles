@@ -24,10 +24,10 @@
                 '';
             };
             shellAliases = {
-                update = "sudo nixos-rebuild switch -I nixos-config=/home/${user}/dotfiles/configuration.nix";
+                update = "sudo nixos-rebuild switch --flake /home/${user}/dotfiles#nix-fw16";
                 cat = "bat";
                 shell = "nix-shell --run $SHELL";
-                develop = "nix --extra-experimental-features flakes develop --command $SHELL";
+                develop = "nix develop --command $SHELL";
                 env-c = "nix-shell --run $SHELL ${./env-c.nix}";
                 env-rs = "nix-shell --run $SHELL ${./env-rs.nix}";
             };

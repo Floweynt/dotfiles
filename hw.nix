@@ -125,9 +125,9 @@ in
                     randomize_hhdm_base: yes
                     cmdline: logging: { serial: { enable: false } }
             '';
-            additionalFiles = {
-                "rkernel.elf" = /home/flowey/dev/utcs/cs378/common/target/x86_64-unknown-none/debug/kernel_common;
-            };
+            # additionalFiles = {
+            #     "rkernel.elf" = /home/flowey/dev/utcs/cs378/common/target/x86_64-unknown-none/debug/kernel_common;
+            # };
         };
 
         kernelPackages = /*pkgs.linuxPackages_zen*/ pkgs.linuxPackagesFor (pkgs.linux_latest.override {

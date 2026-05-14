@@ -1,17 +1,6 @@
-args@{
-    pkgs,
-    lib,
-    config,
-    ...
-}:
+{ pkgs, lib, config, ... }:
 let
-    home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/master.tar.gz";
-    nixos-hardware = builtins.fetchGit { 
-        url = "https://github.com/NixOS/nixos-hardware.git";
-        rev = "9154f4569b6cdfd3c595851a6ba51bfaa472d9f3";
-    };
-    util = import ./util.nix args;
-    machine = import ./machine.nix;
+    util = import ./util.nix { inherit lib; };
     clangPkgs = pkgs;
     # clangPkgs = import ./clang-pkgs.nix (args // { inherit machine; });
     user = "flowey";
@@ -19,16 +8,16 @@ let
         kernel = config.boot.kernelPackages.kernel;
         inherit util;
     }) (util.loadDir ./packages "package");
-    importLocal = f: import f (args // { inherit user clangPkgs util userPackages machine nixos-hardware; });
 in
 {
     imports = [
-        (import "${home-manager}/nixos")
-        (importLocal ./fprint.nix)
-        (importLocal ./hw.nix)
-        (importLocal ./persist.nix)
-        (importLocal ./power.nix)
-    ] ++ (builtins.map importLocal (builtins.attrValues (util.loadDir ./programs "config")));
+        ./fprint.nix
+        ./hw.nix
+        ./persist.nix
+        ./power.nix
+    ] ++ builtins.attrValues (util.loadDir ./programs "config");
+
+    _module.args = { inherit user clangPkgs util userPackages; };
     
     time.timeZone = "America/Chicago";
     i18n.defaultLocale = "en_US.UTF-8";
