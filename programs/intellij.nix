@@ -2,16 +2,10 @@
   clangPkgs,
   user,
   lib,
+  nix-jetbrains-plugins,
   ...
 }:
 let
-  nix-jetbrains-plugins = import (
-    builtins.fetchGit {
-      url = "https://github.com/nix-community/nix-jetbrains-plugins";
-      ref = "refs/heads/main";
-    }
-  );
-
   idea-plugins = [
     "com.demonwav.minecraft-dev"
     "nix-idea"
