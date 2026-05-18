@@ -10,18 +10,6 @@
     };
     services = {
         upower.enable = true;
-        auto-cpufreq = {
-            enable = true;
-            settings = {
-                battery = {
-                    governor = "powersave";
-                    turbo = "never";
-                };
-                charger = {
-                    governor = "performance";
-                    turbo = "auto";
-                };
-            };
-        };
+        power-profiles-daemon.enable = true;
     };
 }

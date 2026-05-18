@@ -12,7 +12,7 @@ import Quickshell
 BarRect {
     id: root
     required property Notifs.Notif modelData
-    border.color: modelData.notification.urgency == NotificationUrgency.Critical ? Constants.nord12 : Constants.nord7
+    border.color: modelData.urgency == NotificationUrgency.Critical ? Constants.nord12 : Constants.nord7
     border.width: Constants.notifBorderRadius
     color: Constants.nord1
     implicitWidth: 500
@@ -46,12 +46,12 @@ BarRect {
 
         Loader {
             asynchronous: true
-            enabled: root.modelData.notification.appIcon != ""
+            enabled: root.modelData.appIcon != ""
             Layout.alignment: Qt.AlignVCenter
 
             sourceComponent: IconImage {
                 anchors.fill: parent
-                source: Quickshell.iconPath(root.modelData.notification.appIcon)
+                source: Quickshell.iconPath(root.modelData.appIcon)
                 implicitHeight: 10
                 asynchronous: true
             }
@@ -70,7 +70,7 @@ BarRect {
                 TextMetrics {
                     id: appNameMetrics
 
-                    text: root.modelData.notification.appName
+                    text: root.modelData.appName
                     font.family: appName.font.family
                     font.pointSize: appName.font.pointSize
                     elide: Text.ElideRight
@@ -87,7 +87,7 @@ BarRect {
                     TextMetrics {
                         id: summaryMetrics
 
-                        text: root.modelData.notification.summary
+                        text: root.modelData.summary
                         font.family: summary.font.family
                         font.pointSize: summary.font.pointSize
                         elide: Text.ElideRight
@@ -120,7 +120,7 @@ BarRect {
                     TextMetrics {
                         id: bodyMetrics
 
-                        text: root.modelData.notification.body
+                        text: root.modelData.body
                         font.family: body.font.family
                         font.pointSize: body.font.pointSize
                         elide: Text.ElideRight

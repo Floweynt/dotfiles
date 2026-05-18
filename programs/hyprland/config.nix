@@ -48,7 +48,8 @@
           in
           [
             "$mainMod SHIFT, return, exec, kitty"
-            "$mainMod, p, exec, rofi -show drun"
+            "$mainMod, p, global, floweyshell:launcher"
+            "$mainMod, d, global, floweyshell:dashboard"
             "$mainMod SHIFT, c, killactive,"
             "$mainMod SHIFT, q, exit,"
             "$mainMod, t, togglefloating,"
@@ -72,6 +73,9 @@
         ];
         monitor = ",preferred,auto,1";
         env = "AQ_DRM_DEVICES,/dev/dri/card2";
+        exec-once = [
+          # polkit agent is now handled by quickshell's built-in PolkitAuth
+        ];
       };
       package = clangPkgs.hyprland;
     };

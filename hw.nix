@@ -20,7 +20,6 @@ in
         (import "${nixos-hardware}/framework/16-inch/7040-amd")
         (import ./extern/framework-lid-workaround.nix)
     ];
-    services.power-profiles-daemon.enable = false;
     fileSystems = {
         "/" = {
             device = "/dev/disk/by-uuid/${machine.partitions.main-id}";
@@ -115,6 +114,9 @@ in
     };
 
     boot = {
+        kernelParams = [
+            "amdgpu.runpm=1"
+        ];
         loader.limine = {
             enable = true;
             extraConfig = ''

@@ -32,7 +32,12 @@ Bar {
         anchors.right: parent.right
     }
 
-    Perf {
+    Proxy {
+        id: proxy
         anchors.right: clock.left
+    }
+
+    Perf {
+        anchors.right: proxy.left
     }
 }
