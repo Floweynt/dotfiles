@@ -6,13 +6,13 @@ import QtQuick.Layouts
 import QtQuick.Controls
 import qs
 import qs.components
-import qs.sysmon 1.0
+import qs.floweyshell 1.0
 import "GraphHelpers.js" as G
 
 Item {
     id: root
 
-    // ── History arrays (maintained in QML for sparklines) ────────────────────
+    // History arrays; maintained here so sparkline canvases can read them without C++ round-trips
     property var cpuHistory: []
     property var cpuCoreHistory: []
     property var memHistory: []
@@ -30,12 +30,10 @@ Item {
 
     readonly property var sysmon: SysmonProvider
 
-    // ── React to C++ provider signals ───────────────────────────────────────
     Connections {
         target: sysmon
 
         function onCpuUpdated() {
-            if (!root.visible) return
             const hist = root.cpuHistory.slice(-59)
             hist.push(sysmon.cpuTotal)
             root.cpuHistory = hist
@@ -53,12 +51,12 @@ Item {
             th.push(sysmon.cpuTemp)
             root.cpuTempHistory = th
 
+            if (!root.visible) return
             if (cpuCard.cpuTab === 0) cpuGraph.requestPaint()
             else coreCanvas.requestPaint()
         }
 
         function onGpusUpdated() {
-            if (!root.visible) return
             const gpus = sysmon.gpus
             const tempH = root.gpuTempHistories.slice()
             const busyH = root.gpuBusyHistories.slice()
@@ -74,11 +72,12 @@ Item {
             root.gpuTempHistories = tempH
             root.gpuBusyHistories = busyH
             root.gpuVramHistories = vramH
+
+            if (!root.visible) return
             tempGraph.requestPaint()
         }
 
         function onMemUpdated() {
-            if (!root.visible) return
             const total = sysmon.memTotal
             const uh = root.memHistory.slice(-59)
             uh.push(total > 0 ? (sysmon.memUsed / total) * 100 : 0)
@@ -86,37 +85,29 @@ Item {
             const ch = root.memCachedHistory.slice(-59)
             ch.push(total > 0 ? (sysmon.memCached / total) * 100 : 0)
             root.memCachedHistory = ch
+
+            if (!root.visible) return
             memGraph.requestPaint()
             memBar.requestPaint()
         }
     }
 
-    // ── Layout ───────────────────────────────────────────────────────────────
     RowLayout {
         anchors { fill: parent; margins: Constants.innerPadding * 2 }
         spacing: Constants.innerPadding * 2
 
-        // ── Left column ──────────────────────────────────────────────────────
         ColumnLayout {
             Layout.fillWidth: true
             Layout.fillHeight: true
             spacing: Constants.innerPadding * 2
 
-            // ── CPU card (Overall / Per Core tabs) ──────────────────────────
-            Rectangle {
+            // CPU card
+            CardBox {
                 id: cpuCard
                 property int cpuTab: 0
                 onCpuTabChanged: cpuTab === 0 ? cpuGraph.requestPaint() : coreCanvas.requestPaint()
 
                 Layout.fillWidth: true
-                implicitHeight: cpuCardCol.implicitHeight + Constants.innerPadding * 2
-                radius: Constants.radius
-                color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.5)
-
-                ColumnLayout {
-                    id: cpuCardCol
-                    anchors { left: parent.left; right: parent.right; top: parent.top; margins: Constants.innerPadding }
-                    spacing: 6
 
                     // Header
                     RowLayout {
@@ -152,42 +143,17 @@ Item {
                     RowLayout {
                         Layout.fillWidth: true; spacing: 4
 
-                        Rectangle {
-                            Layout.fillWidth: true; height: 16; radius: 3
-                            color: cpuCard.cpuTab === 0
-                                ? Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b, 0.25)
-                                : Constants.nord1
-                            Behavior on color { CAnim {} }
-                            Text {
-                                anchors.centerIn: parent; text: "Overall"
-                                color: cpuCard.cpuTab === 0 ? Constants.nord8 : Constants.nord3
-                                font.family: Constants.font.family; font.pointSize: Constants.font.smallSize - 3
-                                renderType: Text.NativeRendering
-                                Behavior on color { CAnim {} }
-                            }
-                            MouseArea {
-                                anchors.fill: parent; cursorShape: Qt.PointingHandCursor
-                                onClicked: cpuCard.cpuTab = 0
-                            }
+                        ChipButton {
+                            Layout.fillWidth: true
+                            label: "Overall"
+                            active: cpuCard.cpuTab === 0
+                            onClicked: cpuCard.cpuTab = 0
                         }
-
-                        Rectangle {
-                            Layout.fillWidth: true; height: 16; radius: 3
-                            color: cpuCard.cpuTab === 1
-                                ? Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b, 0.25)
-                                : Constants.nord1
-                            Behavior on color { CAnim {} }
-                            Text {
-                                anchors.centerIn: parent; text: "Per Core"
-                                color: cpuCard.cpuTab === 1 ? Constants.nord8 : Constants.nord3
-                                font.family: Constants.font.family; font.pointSize: Constants.font.smallSize - 3
-                                renderType: Text.NativeRendering
-                                Behavior on color { CAnim {} }
-                            }
-                            MouseArea {
-                                anchors.fill: parent; cursorShape: Qt.PointingHandCursor
-                                onClicked: cpuCard.cpuTab = 1
-                            }
+                        ChipButton {
+                            Layout.fillWidth: true
+                            label: "Per Core"
+                            active: cpuCard.cpuTab === 1
+                            onClicked: cpuCard.cpuTab = 1
                         }
                     }
 
@@ -203,20 +169,12 @@ Item {
 
                             RowLayout {
                                 Layout.fillWidth: true; spacing: 6
-                                Item {
-                                    Layout.fillWidth: true; height: 6
-                                    Rectangle {
-                                        anchors.fill: parent; radius: 3; color: Constants.nord1
-                                        Rectangle {
-                                            width: parent.width * (sysmon.cpuTotal / 100)
-                                            height: parent.height; radius: parent.radius
-                                            color: sysmon.cpuTotal > 80 ? Constants.nord11
-                                                 : sysmon.cpuTotal > 50 ? Constants.nord13
-                                                 : Constants.nord14
-                                            Behavior on width { NumberAnimation { duration: 300 } }
-                                            Behavior on color { CAnim {} }
-                                        }
-                                    }
+                                StatBar {
+                                    Layout.fillWidth: true
+                                    value: sysmon.cpuTotal / 100
+                                    fillColor: sysmon.cpuTotal > 80 ? Constants.nord11
+                                             : sysmon.cpuTotal > 50 ? Constants.nord13
+                                             : Constants.nord14
                                 }
                                 Text {
                                     text: sysmon.cpuTotal.toFixed(1) + "%"
@@ -320,20 +278,11 @@ Item {
                             }
                         }
                     }
-                }
             }
 
-            // ── Memory card ──────────────────────────────────────────────────
-            Rectangle {
+            // Memory card
+            CardBox {
                 Layout.fillWidth: true
-                implicitHeight: memCardCol.implicitHeight + Constants.innerPadding * 2
-                radius: Constants.radius
-                color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.5)
-
-                ColumnLayout {
-                    id: memCardCol
-                    anchors { left: parent.left; right: parent.right; top: parent.top; margins: Constants.innerPadding }
-                    spacing: 6
 
                     RowLayout {
                         Layout.fillWidth: true
@@ -435,17 +384,11 @@ Item {
                             font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
                             Layout.minimumWidth: 32
                         }
-                        Item {
-                            Layout.fillWidth: true; height: 4
-                            Rectangle {
-                                anchors.fill: parent; radius: 2; color: Constants.nord1
-                                Rectangle {
-                                    width: sysmon.swapTotal > 0
-                                        ? parent.width * (sysmon.swapUsed / sysmon.swapTotal) : 0
-                                    height: parent.height; radius: parent.radius; color: Constants.nord9
-                                    Behavior on width { NumberAnimation { duration: 300 } }
-                                }
-                            }
+                        StatBar {
+                            Layout.fillWidth: true
+                            trackHeight: 4
+                            value: sysmon.swapTotal > 0 ? sysmon.swapUsed / sysmon.swapTotal : 0
+                            fillColor: Constants.nord9
                         }
                         Text {
                             text: sysmon.swapUsed.toFixed(1) + " / " + sysmon.swapTotal.toFixed(1) + "G"
@@ -454,21 +397,12 @@ Item {
                             horizontalAlignment: Text.AlignRight
                         }
                     }
-                }
             }
 
-            // ── Battery card ─────────────────────────────────────────────────
-            Rectangle {
+            // Battery card
+            CardBox {
                 Layout.fillWidth: true
-                implicitHeight: battCardCol.implicitHeight + Constants.innerPadding * 2
-                radius: Constants.radius
                 visible: sysmon.battPct >= 0
-                color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.5)
-
-                ColumnLayout {
-                    id: battCardCol
-                    anchors { left: parent.left; right: parent.right; top: parent.top; margins: Constants.innerPadding }
-                    spacing: 6
 
                     RowLayout {
                         Layout.fillWidth: true
@@ -501,20 +435,13 @@ Item {
 
                     RowLayout {
                         Layout.fillWidth: true; spacing: 6
-                        Item {
-                            Layout.fillWidth: true; height: 5
-                            Rectangle {
-                                anchors.fill: parent; radius: 2; color: Constants.nord1
-                                Rectangle {
-                                    width: parent.width * (sysmon.battPct / 100)
-                                    height: parent.height; radius: parent.radius
-                                    color: sysmon.battCharging ? Constants.nord14
-                                         : sysmon.battPct < 20 ? Constants.nord11
-                                         : Constants.nord8
-                                    Behavior on width { NumberAnimation { duration: 300 } }
-                                    Behavior on color { CAnim {} }
-                                }
-                            }
+                        StatBar {
+                            Layout.fillWidth: true
+                            trackHeight: 5
+                            value: sysmon.battPct / 100
+                            fillColor: sysmon.battCharging ? Constants.nord14
+                                     : sysmon.battPct < 20 ? Constants.nord11
+                                     : Constants.nord8
                         }
                         Text {
                             text: sysmon.battPct + "%"
@@ -525,10 +452,9 @@ Item {
                             Behavior on color { CAnim {} }
                         }
                     }
-                }
             }
 
-            // ── GPU cards (2-per-row) ─────────────────────────────────────────
+            // GPU cards
             // model: 2 keeps delegates alive across polls; reading sysmon.gpus[index]
             // directly as a binding avoids the destroy/recreate cycle that resets animations.
             GridLayout {
@@ -539,7 +465,7 @@ Item {
 
             Repeater {
                 model: 2
-                delegate: Rectangle {
+                delegate: CardBox {
                     id: gpuCard
                     required property int index
                     required property int modelData
@@ -547,16 +473,9 @@ Item {
 
                     Layout.fillWidth: true
                     visible: sysmon.gpus.length > index
-                    implicitHeight: gpuCardCol.implicitHeight + Constants.innerPadding * 2
-                    radius: Constants.radius
-                    color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.5)
+                    spacing: 5
                     opacity: gpuCard.gpu.active ? 1 : 0.4
                     Behavior on opacity { NumberAnimation { duration: 400 } }
-
-                    ColumnLayout {
-                        id: gpuCardCol
-                        anchors { left: parent.left; right: parent.right; top: parent.top; margins: Constants.innerPadding }
-                        spacing: 5
 
                         RowLayout {
                             Layout.fillWidth: true
@@ -597,21 +516,13 @@ Item {
                                 font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
                                 Layout.minimumWidth: 32
                             }
-                            Item {
-                                Layout.fillWidth: true; height: 6
-                                Rectangle {
-                                    anchors.fill: parent; radius: 3; color: Constants.nord1
-                                    Rectangle {
-                                        readonly property int busy: gpuCard.gpu.busy ?? 0
-                                        width: parent.width * (busy / 100)
-                                        height: parent.height; radius: parent.radius
-                                        color: busy > 80 ? Constants.nord11
-                                             : busy > 50 ? Constants.nord13
-                                             : Constants.nord7
-                                        Behavior on width { NumberAnimation { duration: 300 } }
-                                        Behavior on color { CAnim {} }
-                                    }
-                                }
+                            StatBar {
+                                Layout.fillWidth: true
+                                readonly property int _busy: gpuCard.gpu.busy ?? 0
+                                value: _busy / 100
+                                fillColor: _busy > 80 ? Constants.nord11
+                                         : _busy > 50 ? Constants.nord13
+                                         : Constants.nord7
                             }
                             Text {
                                 text: (gpuCard.gpu.busy ?? 0) + "%"
@@ -628,22 +539,14 @@ Item {
                                 font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
                                 Layout.minimumWidth: 32
                             }
-                            Item {
-                                Layout.fillWidth: true; height: 6
-                                Rectangle {
-                                    anchors.fill: parent; radius: 3; color: Constants.nord1
-                                    Rectangle {
-                                        readonly property real frac: (gpuCard.gpu.vramTotal ?? 0) > 0
-                                            ? (gpuCard.gpu.vramUsed ?? 0) / gpuCard.gpu.vramTotal : 0
-                                        width: parent.width * frac
-                                        height: parent.height; radius: parent.radius
-                                        color: frac > 0.8 ? Constants.nord11
-                                             : frac > 0.5 ? Constants.nord13
-                                             : Constants.nord9
-                                        Behavior on width { NumberAnimation { duration: 300 } }
-                                        Behavior on color { CAnim {} }
-                                    }
-                                }
+                            StatBar {
+                                Layout.fillWidth: true
+                                readonly property real _frac: (gpuCard.gpu.vramTotal ?? 0) > 0
+                                    ? (gpuCard.gpu.vramUsed ?? 0) / gpuCard.gpu.vramTotal : 0
+                                value: _frac
+                                fillColor: _frac > 0.8 ? Constants.nord11
+                                         : _frac > 0.5 ? Constants.nord13
+                                         : Constants.nord9
                             }
                             Text {
                                 text: ((gpuCard.gpu.vramUsed ?? 0) / 1073741824).toFixed(1) + " / " +
@@ -677,21 +580,12 @@ Item {
                             }
                         }
                     }
-                }
             }
             } // GridLayout
 
-            // ── Temperature graph card ───────────────────────────────────────
-            Rectangle {
+            // Temperature card
+            CardBox {
                 Layout.fillWidth: true
-                implicitHeight: tempCardCol.implicitHeight + Constants.innerPadding * 2
-                radius: Constants.radius
-                color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.5)
-
-                ColumnLayout {
-                    id: tempCardCol
-                    anchors { left: parent.left; right: parent.right; top: parent.top; margins: Constants.innerPadding }
-                    spacing: 6
 
                     RowLayout {
                         Layout.fillWidth: true
@@ -755,7 +649,6 @@ Item {
                             G.drawBorder(ctx, width, height, Constants.nord3.toString())
                         }
                     }
-                }
             }
 
             Item { Layout.fillHeight: true }

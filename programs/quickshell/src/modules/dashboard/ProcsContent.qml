@@ -6,14 +6,17 @@ import QtQuick.Layouts
 import QtQuick.Controls
 import qs
 import qs.components
-import qs.sysmon 1.0
+import qs.floweyshell 1.0
 
 Item {
     id: root
 
     readonly property var sysmon: SysmonProvider
 
-    // ── Sort / filter / pin state ───────────────────────────────────────────
+    Component.onCompleted: SysmonProvider.procsActive = visible
+    Component.onDestruction: SysmonProvider.procsActive = false
+
+    // Sort / filter / pin state
     property string filterText: ""
     property string sortCol: "cpu"   // pid | name | cpu | mem | res | thr | state
     property bool   sortAsc: false
@@ -29,14 +32,12 @@ Item {
         rebuildList()
     }
 
-    // Formatted KiB → human-readable
     function fmtKib(kib) {
         if (kib >= 1024 * 1024) return (kib / (1024 * 1024)).toFixed(1) + "G"
         if (kib >= 1024)        return (kib / 1024).toFixed(0) + "M"
         return kib + "K"
     }
 
-    // Re-sort + filter whenever data or sort params change
     ListModel { id: displayModel }
 
     function rebuildList() {
@@ -85,12 +86,12 @@ Item {
         target: sysmon
         function onProcsUpdated() { if (root.visible) root.rebuildList() }
     }
-    onVisibleChanged:    if (visible) rebuildList()
+    onVisibleChanged:    { SysmonProvider.procsActive = visible; if (visible) rebuildList() }
     onFilterTextChanged: rebuildList()
     onSortColChanged:    rebuildList()
     onSortAscChanged:    rebuildList()
 
-    // ── Column definitions ──────────────────────────────────────────────────
+    // Column definitions
     readonly property var cols: [
         { id: "pid",   label: "PID",   width: 52,  align: Text.AlignRight  },
         { id: "name",  label: "Name",  width: -1,  align: Text.AlignLeft   },
@@ -110,21 +111,21 @@ Item {
         anchors { fill: parent; margins: Constants.innerPadding * 2 }
         spacing: Constants.innerPadding
 
-        // ── Top bar: filter + count ─────────────────────────────────────────
+        // Filter bar
         RowLayout {
             Layout.fillWidth: true
             spacing: Constants.innerPadding
 
             Rectangle {
                 Layout.fillWidth: true; height: 28
-                color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.5)
+                color: Constants.alpha(Constants.nord2, 0.5)
                 radius: 4
                 border.color: filterField.activeFocus ? Constants.nord8 : Constants.nord3
                 border.width: 1
 
                 Text {
                     anchors { left: parent.left; right: parent.right; verticalCenter: parent.verticalCenter; leftMargin: 8 }
-                    text: "Filter by name or PID…"
+                    text: "Filter by name or PID..."
                     color: Constants.nord3
                     font.family: Constants.font.family
                     font.pointSize: Constants.font.smallSize
@@ -137,7 +138,7 @@ Item {
                     color: Constants.nord6
                     font.family: Constants.font.family
                     font.pointSize: Constants.font.smallSize
-                    selectionColor: Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b, 0.4)
+                    selectionColor: Constants.alpha(Constants.nord8, 0.4)
                     onTextChanged: root.filterText = text
                     Keys.onEscapePressed: { clear(); root.filterText = "" }
                 }
@@ -152,10 +153,10 @@ Item {
             }
         }
 
-        // ── Header row ──────────────────────────────────────────────────────
+        // Column headers
         Rectangle {
             Layout.fillWidth: true; height: 26
-            color: Qt.rgba(Constants.nord0.r, Constants.nord0.g, Constants.nord0.b, 0.7)
+            color: Constants.alpha(Constants.nord0, 0.7)
             radius: 4
 
             RowLayout {
@@ -171,26 +172,19 @@ Item {
                         Layout.preferredWidth: hdrItem.modelData.width > 0 ? hdrItem.modelData.width : -1
                         Layout.fillWidth: hdrItem.modelData.width < 0
 
-                        MouseArea {
-                            anchors.fill: parent
-                            cursorShape: Qt.PointingHandCursor
-                            onClicked: root.sortBy(hdrItem.modelData.id)
-                        }
-
-                        Text {
+                        ClickText {
                             anchors.fill: parent
                             text: {
                                 const label = hdrItem.modelData.label
                                 if (root.sortCol !== hdrItem.modelData.id) return label
-                                return label + (root.sortAsc ? " ▲" : " ▼")
+                                return label + (root.sortAsc ? " ^" : " v")
                             }
-                            color: root.sortCol === hdrItem.modelData.id ? Constants.nord8 : Constants.nord4
-                            font.family: Constants.font.family
+                            defaultColor: root.sortCol === hdrItem.modelData.id ? Constants.nord8 : Constants.nord4
+                            hoverColor: Constants.nord6
                             font.pointSize: Constants.font.smallSize - 1
-                            renderType: Text.NativeRendering
                             horizontalAlignment: hdrItem.modelData.align
                             verticalAlignment: Text.AlignVCenter
-                            Behavior on color { CAnim {} }
+                            onClicked: root.sortBy(hdrItem.modelData.id)
                         }
                     }
                 }
@@ -201,7 +195,7 @@ Item {
             }
         }
 
-        // ── Process list ────────────────────────────────────────────────────
+        // Process list
         ListView {
             id: procList
             Layout.fillWidth: true
@@ -210,7 +204,6 @@ Item {
             spacing: 1
             model: displayModel
 
-            // Confirmation state for kill dialog
             property int pendingKillPid: -1
             property int pendingKillSig: 15
             property string pendingKillName: ""
@@ -232,16 +225,15 @@ Item {
                 readonly property bool isPinned: root.pinnedPids.indexOf(procRow.pid) >= 0
 
                 color: procRow.isPinned
-                    ? Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b, 0.08)
+                    ? Constants.alpha(Constants.nord8, 0.08)
                     : procRow.index % 2 === 0
                         ? "transparent"
-                        : Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.18)
+                        : Constants.alpha(Constants.nord2, 0.18)
 
                 RowLayout {
                     anchors { fill: parent; leftMargin: 8; rightMargin: 8 }
                     spacing: 4
 
-                    // PID
                     Text {
                         Layout.preferredWidth: 52
                         text: procRow.pid
@@ -252,7 +244,6 @@ Item {
                         horizontalAlignment: Text.AlignRight
                     }
 
-                    // Name
                     Text {
                         Layout.fillWidth: true
                         text: procRow.name
@@ -262,7 +253,6 @@ Item {
                         renderType: Text.NativeRendering
                     }
 
-                    // CPU%
                     Text {
                         Layout.preferredWidth: 58
                         text: procRow.cpu.toFixed(1)
@@ -276,7 +266,6 @@ Item {
                         horizontalAlignment: Text.AlignRight
                     }
 
-                    // MEM%
                     Text {
                         Layout.preferredWidth: 58
                         text: procRow.mem.toFixed(1)
@@ -289,7 +278,6 @@ Item {
                         horizontalAlignment: Text.AlignRight
                     }
 
-                    // RES
                     Text {
                         Layout.preferredWidth: 64
                         text: root.fmtKib(procRow.memKib)
@@ -300,7 +288,6 @@ Item {
                         horizontalAlignment: Text.AlignRight
                     }
 
-                    // THR
                     Text {
                         Layout.preferredWidth: 40
                         text: procRow.threads
@@ -311,7 +298,6 @@ Item {
                         horizontalAlignment: Text.AlignRight
                     }
 
-                    // State
                     Text {
                         Layout.preferredWidth: 20
                         text: procRow.state
@@ -325,30 +311,21 @@ Item {
                         horizontalAlignment: Text.AlignHCenter
                     }
 
-                    // Pin button
-                    Text {
+                    ClickText {
                         width: 20
                         text: procRow.isPinned ? "󰐃" : "󰐴"
-                        color: procRow.isPinned ? Constants.nord8 : Constants.nord3
-                        font.family: Constants.font.family
-                        font.pointSize: Constants.font.smallSize
-                        renderType: Text.NativeRendering
+                        defaultColor: procRow.isPinned ? Constants.nord8 : Constants.nord3
+                        hoverColor: Constants.nord8
                         horizontalAlignment: Text.AlignHCenter
-                        Behavior on color { CAnim {} }
-                        MouseArea {
-                            anchors.fill: parent
-                            cursorShape: Qt.PointingHandCursor
-                            onClicked: root.togglePin(procRow.pid)
-                        }
+                        onClicked: root.togglePin(procRow.pid)
                     }
 
-                    // Kill button
                     Rectangle {
                         width: 52; height: 18
                         radius: 3
-                        color: killArea.pressed ? Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b, 0.6)
-                             : killArea.containsMouse ? Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b, 0.35)
-                             : Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b, 0.15)
+                        color: killArea.pressed ? Constants.alpha(Constants.nord11, 0.6)
+                             : killArea.containsMouse ? Constants.alpha(Constants.nord11, 0.35)
+                             : Constants.alpha(Constants.nord11, 0.15)
                         Behavior on color { CAnim {} }
 
                         Text {
@@ -379,15 +356,9 @@ Item {
                 }
             }
 
-            ScrollBar.vertical: ScrollBar {
-                policy: ScrollBar.AsNeeded
-                contentItem: Rectangle {
-                    implicitWidth: 4; radius: 2
-                    color: Constants.nord3; opacity: 0.6
-                }
-            }
+            ScrollBar.vertical: StyledScrollBar {}
 
-            // ── Kill confirmation popup ──────────────────────────────────────
+            // Kill confirmation popup; nested in ListView so it can read pendingKill* state
             Popup {
                 id: killConfirm
                 anchors.centerIn: parent
@@ -435,8 +406,8 @@ Item {
                         Rectangle {
                             width: 70; height: 28; radius: 4
                             color: cancelArea.containsMouse
-                                ? Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.8)
-                                : Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.4)
+                                ? Constants.alpha(Constants.nord2, 0.8)
+                                : Constants.alpha(Constants.nord2, 0.4)
                             Behavior on color { CAnim {} }
                             Text {
                                 anchors.centerIn: parent; text: "Cancel"
@@ -456,8 +427,8 @@ Item {
                         Rectangle {
                             width: 70; height: 28; radius: 4
                             color: confirmArea.containsMouse
-                                ? Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b, 0.7)
-                                : Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b, 0.45)
+                                ? Constants.alpha(Constants.nord11, 0.7)
+                                : Constants.alpha(Constants.nord11, 0.45)
                             Behavior on color { CAnim {} }
                             Text {
                                 anchors.centerIn: parent

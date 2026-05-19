@@ -6,9 +6,9 @@
     ...
 }:
 let
-    qsSysmon = clangPkgs.stdenv.mkDerivation {
-        name = "qs-sysmon";
-        src = ./sysmon;
+    floweyshellPlugin = clangPkgs.stdenv.mkDerivation {
+        name = "floweyshell-plugin";
+        src = ./plugin;
         nativeBuildInputs = [
             pkgs.cmake
             clangPkgs.kdePackages.qtbase
@@ -17,21 +17,6 @@ let
             clangPkgs.kdePackages.qtbase
             clangPkgs.kdePackages.qtdeclarative
             pkgs.liburing
-        ];
-        cmakeFlags = [ "-DCMAKE_BUILD_TYPE=Release" ];
-        dontWrapQtApps = true;
-    };
-
-    qsPolkit = clangPkgs.stdenv.mkDerivation {
-        name = "qs-polkit";
-        src = ./polkit;
-        nativeBuildInputs = [
-            pkgs.cmake
-            clangPkgs.kdePackages.qtbase
-        ];
-        buildInputs = [
-            clangPkgs.kdePackages.qtbase
-            clangPkgs.kdePackages.qtdeclarative
         ];
         cmakeFlags = [ "-DCMAKE_BUILD_TYPE=Release" ];
         dontWrapQtApps = true;
@@ -52,8 +37,7 @@ let
                     pkgs.brightnessctl
                     userPackages.proxy
                 ]} \
-                --prefix QML_IMPORT_PATH : ${qsSysmon}/lib/qt-6/qml \
-                --prefix QML_IMPORT_PATH : ${qsPolkit}/lib/qt-6/qml
+                --prefix QML_IMPORT_PATH : ${floweyshellPlugin}/lib/qt-6/qml
         '';
     };
 in

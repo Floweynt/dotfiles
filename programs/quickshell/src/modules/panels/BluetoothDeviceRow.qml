@@ -14,7 +14,7 @@ Rectangle {
 
     implicitHeight: col.implicitHeight + Constants.innerPadding * 2
     radius: Constants.radius
-    color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.5)
+    color: Constants.alpha(Constants.nord2, 0.5)
 
     readonly property bool isConnected: device?.state === BluetoothDeviceState.Connected
     readonly property bool isConnecting: device?.state === BluetoothDeviceState.Connecting
@@ -63,9 +63,9 @@ Rectangle {
                     renderType: Text.NativeRendering
                 }
                 Text {
-                    text: root.isConnecting ? "connecting…"
-                        : root.isPairing   ? "pairing…"
-                        : root.isConnected ? "● connected"
+                    text: root.isConnecting ? "connecting..."
+                        : root.isPairing   ? "pairing..."
+                        : root.isConnected ? "connected"
                         : root.device?.paired ? root.device.address
                         : "not paired  " + (root.device?.address ?? "")
                     color: root.isConnected ? Constants.nord14 : Constants.nord3
@@ -97,7 +97,7 @@ Rectangle {
             visible: !root.isConnecting && !root.isPairing
 
             // Connect / Disconnect
-            PanelChip {
+            ChipButton {
                 visible: root.device?.paired ?? false
                 label: root.isConnected ? "Disconnect" : "Connect"
                 icon: root.isConnected ? "󰂲" : "󰂱"
@@ -106,7 +106,7 @@ Rectangle {
             }
 
             // Pair / Cancel pair
-            PanelChip {
+            ChipButton {
                 visible: !(root.device?.paired ?? true)
                 label: "Pair"
                 icon: "󰌺"
@@ -115,7 +115,7 @@ Rectangle {
             }
 
             // Trust toggle
-            PanelChip {
+            ChipButton {
                 label: root.device?.trusted ?? false ? "Trusted" : "Trust"
                 icon: "󰒃"
                 active: root.device?.trusted ?? false
@@ -123,7 +123,7 @@ Rectangle {
             }
 
             // Forget
-            PanelChip {
+            ChipButton {
                 visible: root.device?.paired ?? false
                 label: "Forget"
                 icon: "󰆴"
@@ -138,7 +138,7 @@ Rectangle {
         Text {
             visible: root.isConnecting || root.isPairing
             Layout.fillWidth: true
-            text: root.isPairing ? "Pairing in progress…" : root.isConnected ? "Disconnecting…" : "Connecting…"
+            text: root.isPairing ? "Pairing in progress..." : root.isConnected ? "Disconnecting..." : "Connecting..."
             color: Constants.nord13
             font.family: Constants.font.family
             font.pointSize: Constants.font.smallSize - 2

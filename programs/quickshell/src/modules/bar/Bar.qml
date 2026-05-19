@@ -17,11 +17,4 @@ Rectangle {
         blurMax: 20
         shadowColor: Qt.alpha(Constants.nord4, 1)
     }
-    /*Text {
-        id: helloText
-        text: "Hello world!"
-        y: 30
-        anchors.horizontalCenter: page.horizontalCenter
-        font.pointSize: 24; font.bold: true
-    }*/
 }

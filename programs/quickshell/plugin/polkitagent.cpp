@@ -5,8 +5,6 @@
 
 #include <pwd.h>
 
-// ── PolkitIdentity D-Bus marshalling (sa{sv}) ─────────────────────────────────
-
 QDBusArgument& operator<<(QDBusArgument& arg, const PolkitIdentity& id) {
     arg.beginStructure();
     arg << id.kind << id.attrs;
@@ -21,16 +19,12 @@ const QDBusArgument& operator>>(const QDBusArgument& arg, PolkitIdentity& id) {
     return arg;
 }
 
-// ── Constants ─────────────────────────────────────────────────────────────────
-
 static constexpr const char* kAgentPath        = "/org/freedesktop/PolicyKit1/AuthenticationAgent";
 static constexpr const char* kAuthorityService = "org.freedesktop.PolicyKit1";
 static constexpr const char* kAuthorityPath    = "/org/freedesktop/PolicyKit1/Authority";
 static constexpr const char* kAuthorityIface   = "org.freedesktop.PolicyKit1.Authority";
 // polkit 127+ uses systemd socket activation; systemd spawns the helper as root
 static constexpr const char* kHelperSocket     = "/run/polkit/agent-helper.socket";
-
-// ── PAM string unescaping (reverse of g_strescape) ────────────────────────────
 
 QString PolkitAgent::pamUnescape(const QString& s) {
     QString out;
@@ -52,8 +46,6 @@ QString PolkitAgent::pamUnescape(const QString& s) {
     }
     return out;
 }
-
-// ── PolkitAgent ───────────────────────────────────────────────────────────────
 
 PolkitAgent::PolkitAgent(QObject* parent)
     : QObject(parent)
@@ -110,8 +102,6 @@ PolkitAgent::~PolkitAgent() {
         delete m_obj;
     }
 }
-
-// ── Helper socket connection ──────────────────────────────────────────────────
 
 void PolkitAgent::connectToHelper() {
     if (m_helper) {
@@ -224,8 +214,6 @@ void PolkitAgent::onHelperDisconnected() {
     }
 }
 
-// ── Auth flow ─────────────────────────────────────────────────────────────────
-
 void PolkitAgent::onBeginAuth(const QString& cookie, const QString& actionId,
                               const QString& message, const QString& iconName,
                               const QString& user, uint uid,
@@ -324,8 +312,6 @@ void PolkitAgent::resetState() {
     emit lastErrorChanged();
 }
 
-// ── PolkitAgentObject ─────────────────────────────────────────────────────────
-
 static constexpr const char* kAgentIface = "org.freedesktop.PolicyKit1.AuthenticationAgent";
 
 QString PolkitAgentObject::introspect(const QString&) const {
@@ -361,7 +347,7 @@ bool PolkitAgentObject::handleMessage(const QDBusMessage& msg, const QDBusConnec
         QString user;
         uint    uid = 0;
         if (args[5].canConvert<QDBusArgument>()) {
-            auto idArg = args[5].value<QDBusArgument>();
+            const QDBusArgument idArg = args[5].value<QDBusArgument>();
             idArg.beginArray();
             while (!idArg.atEnd()) {
                 PolkitIdentity id;

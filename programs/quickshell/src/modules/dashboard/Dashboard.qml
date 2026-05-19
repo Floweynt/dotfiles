@@ -125,8 +125,7 @@ PanelWindow {
                         width: tabRow.implicitWidth + Constants.innerPadding * 3
                         radius: height / 2
 
-                        color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b,
-                            tabBtn.active ? 0.9 : tabHover.containsMouse ? 0.4 : 0)
+                        color: Constants.alpha(Constants.nord2, tabBtn.active ? 0.9 : tabHover.containsMouse ? 0.4 : 0)
                         Behavior on color { CAnim {} }
 
                         Row {

@@ -34,30 +34,13 @@ Item {
 
             Repeater {
                 model: ["Output", "Input", "Streams"]
-                delegate: Rectangle {
+                delegate: ChipButton {
                     required property string modelData
                     required property int index
                     Layout.fillWidth: true
-                    height: 30
-                    radius: Constants.radius
-                    color: root.tab === index ? Constants.nord8 : Constants.nord2
-                    Behavior on color { CAnim {} }
-
-                    Text {
-                        anchors.centerIn: parent
-                        text: parent.modelData
-                        color: root.tab === parent.index ? Constants.nord0 : Constants.nord4
-                        font.family: Constants.font.family
-                        font.pointSize: Constants.font.smallSize
-                        renderType: Text.NativeRendering
-                        Behavior on color { CAnim {} }
-                    }
-
-                    MouseArea {
-                        anchors.fill: parent
-                        cursorShape: Qt.PointingHandCursor
-                        onClicked: root.tab = parent.index
-                    }
+                    label: modelData
+                    active: root.tab === index
+                    onClicked: root.tab = index
                 }
             }
         }
@@ -90,10 +73,7 @@ Item {
                 width: list.width
             }
 
-            ScrollBar.vertical: ScrollBar {
-                policy: ScrollBar.AsNeeded
-                contentItem: Rectangle { implicitWidth: 4; radius: 2; color: Constants.nord3; opacity: 0.6 }
-            }
+            ScrollBar.vertical: StyledScrollBar {}
         }
     }
 }

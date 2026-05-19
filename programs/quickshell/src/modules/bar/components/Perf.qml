@@ -2,11 +2,13 @@ import QtQuick.Layouts
 import QtQuick
 import qs
 import qs.components
-import qs.services
+import qs.floweyshell 1.0
 import Quickshell.Services.UPower
 
 BarContainer {
     id: root
+
+    readonly property var _sm: SysmonProvider
 
     width: contents.implicitWidth + 2 * Constants.innerPadding
     color: Constants.nord3
@@ -27,7 +29,8 @@ BarContainer {
         }
 
         BarText {
-            property int perc: Math.round(SystemUsage.cpuPerc * 100)
+            property int perc: Math.round(root._sm.cpuTotal)
+            renderType: Text.QtRendering
             readonly property var colorMap: [[90, Constants.nord11], [75, Constants.nord12], [50, Constants.nord13], [-1, Constants.nord14],]
             text: perc.toString().padStart(2, "0")
             color: colorMap.find(x => perc > x[0])[1]
@@ -44,9 +47,9 @@ BarContainer {
         }
 
         BarText {
-            property int perc: Math.round(SystemUsage.memPerc * 100)
+            property int perc: root._sm.memTotal > 0 ? Math.round(root._sm.memUsed / root._sm.memTotal * 100) : 0
+            renderType: Text.QtRendering
             readonly property var colorMap: [[90, Constants.nord11], [75, Constants.nord12], [50, Constants.nord13], [-1, Constants.nord14],]
-
             text: perc.toString().padStart(2, "0")
             color: colorMap.find(x => perc > x[0])[1]
         }
@@ -66,7 +69,6 @@ BarContainer {
         BarText {
             property int perc: Math.round(UPower.displayDevice.percentage * 100)
             readonly property var colorMap: [[50, Constants.nord14], [30, Constants.nord13], [20, Constants.nord12], [-1, Constants.nord11],]
-
             text: perc.toString().padStart(2, "0")
             color: colorMap.find(x => perc > x[0])[1]
         }

@@ -32,7 +32,8 @@ class SysmonProvider : public QObject {
     Q_PROPERTY(bool    battCharging READ battCharging NOTIFY battUpdated)
     Q_PROPERTY(QString battStatus   READ battStatus   NOTIFY battUpdated)
 
-    Q_PROPERTY(int interval READ interval WRITE setInterval NOTIFY intervalChanged)
+    Q_PROPERTY(int  interval    READ interval    WRITE setInterval    NOTIFY intervalChanged)
+    Q_PROPERTY(bool procsActive READ procsActive WRITE setProcsActive NOTIFY procsActiveChanged)
 
 public:
     explicit SysmonProvider(QObject* parent = nullptr);
@@ -57,8 +58,10 @@ public:
     bool    battCharging() const { return m_battCharging; }
     QString battStatus()   const { return m_battStatus;   }
 
-    int  interval() const { return m_timer.interval(); }
+    int  interval()    const { return m_timer.interval(); }
+    bool procsActive() const { return m_procsActive;      }
     void setInterval(int ms);
+    void setProcsActive(bool a);
 
 signals:
     void cpuUpdated();
@@ -67,6 +70,7 @@ signals:
     void battUpdated();
     void procsUpdated();
     void intervalChanged();
+    void procsActiveChanged();
 
 private:
     void discover();
@@ -122,4 +126,5 @@ private:
     qint64               m_memTotalKiB = 0;
     long                 m_pageSize = 4096;
     int                  m_procPollCounter = 0;
+    bool                 m_procsActive = false;
 };

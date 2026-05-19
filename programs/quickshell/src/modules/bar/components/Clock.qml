@@ -5,7 +5,9 @@ import qs.components
 import qs.services
 
 BarContainer {
-    id: root 
+    id: root
+
+    readonly property var _time: Time
 
     width: contents.implicitWidth + 2 * Constants.innerPadding
     color: Constants.nord3
@@ -16,13 +18,14 @@ BarContainer {
         anchors.margins: Constants.innerPadding
 
         BarText {
-            text: Time.format("hh:mm")
+            text: root._time.format("hh:mm")
             animate: true
             color: Constants.nord6
         }
 
         BarText {
-            text: Time.format("ss")
+            text: root._time.format("ss")
+            renderType: Text.QtRendering
             color: Constants.nord4
         }
 
@@ -38,13 +41,13 @@ BarContainer {
         }
 
         BarText {
-            text: Time.format("MM")
+            text: root._time.format("MM")
             animate: true
             color: Constants.nord6
         }
 
         BarText {
-            text: Time.format("dd")
+            text: root._time.format("dd")
             animate: true
             color: Constants.nord6
         }

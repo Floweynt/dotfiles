@@ -41,7 +41,6 @@ Item {
         anchors.margins: Constants.innerPadding
         spacing: Constants.innerPadding
 
-        // Header
         RowLayout {
             Layout.fillWidth: true
 
@@ -56,14 +55,14 @@ Item {
 
             Item { Layout.fillWidth: true }
 
-            PanelChip {
+            ChipButton {
                 label: Networking.wifiEnabled ? "WiFi On" : "WiFi Off"
                 icon: Networking.wifiEnabled ? "󰤨" : "󰤭"
                 active: Networking.wifiEnabled
                 onToggled: Networking.wifiEnabled = !Networking.wifiEnabled
             }
 
-            PanelChip {
+            ChipButton {
                 label: "Scan"
                 icon: "󰑖"
                 active: root.wifiDev?.scannerEnabled ?? false
@@ -100,8 +99,8 @@ Item {
                 implicitHeight: netRow.implicitHeight + Constants.innerPadding * 2
                 radius: Constants.radius
                 color: netDelegate.modelData.connected
-                    ? Qt.rgba(Constants.nord14.r, Constants.nord14.g, Constants.nord14.b, 0.15)
-                    : Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.5)
+                    ? Constants.alpha(Constants.nord14, 0.15)
+                    : Constants.alpha(Constants.nord2, 0.5)
                 Behavior on color { CAnim {} }
 
                 RowLayout {
@@ -140,7 +139,7 @@ Item {
                             Behavior on color { CAnim {} }
                         }
                         Text {
-                            text: (netDelegate.modelData.connected ? "● connected  " : "")
+                            text: (netDelegate.modelData.connected ? "connected  " : "")
                                 + Math.round(netDelegate.modelData.signalStrength * 100) + "%  "
                                 + root.securityLabel(netDelegate.modelData.security)
                             color: netDelegate.modelData.connected ? Constants.nord14 : Constants.nord3
@@ -151,7 +150,7 @@ Item {
                         }
                     }
 
-                    PanelChip {
+                    ChipButton {
                         label: netDelegate.modelData.connected ? "Disconnect" : "Connect"
                         icon:  netDelegate.modelData.connected ? "󰖪" : "󰖩"
                         active: netDelegate.modelData.connected
@@ -162,10 +161,7 @@ Item {
                 }
             }
 
-            ScrollBar.vertical: ScrollBar {
-                policy: ScrollBar.AsNeeded
-                contentItem: Rectangle { implicitWidth: 4; radius: 2; color: Constants.nord3; opacity: 0.6 }
-            }
+            ScrollBar.vertical: StyledScrollBar {}
         }
     }
 }

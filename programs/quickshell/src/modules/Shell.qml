@@ -21,8 +21,6 @@ Variants {
             screen: scope.modelData
             name: "bars"
             WlrLayershell.exclusionMode: ExclusionMode.Ignore
-            // TODO:
-            // WlrLayershell.keyboardFocus: visibilities.launcher || visibilities.session ? WlrKeyboardFocus.OnDemand : WlrKeyboardFocus.None
 
             mask: Region {
                 intersection: Intersection.Combine

@@ -48,18 +48,14 @@ BarContainer {
 
             Behavior on implicitWidth { NumberAnimation { duration: Constants.animDurations.normal / 2; easing.type: Easing.BezierSpline; easing.bezierCurve: Constants.animCurves.standard } }
 
-            IconText {
-                anchors.centerIn: parent
-                text: "󰜉"
-                color: restartArea.containsMouse ? Constants.nord13 : Constants.nord4
-                Behavior on color { CAnim {} }
-            }
-
-            MouseArea {
-                id: restartArea
+            ClickText {
                 anchors.fill: parent
-                hoverEnabled: true
-                cursorShape: Qt.PointingHandCursor
+                text: "󰜉"
+                defaultColor: Constants.nord4
+                hoverColor: Constants.nord13
+                font.pointSize: Constants.font.iconSize
+                horizontalAlignment: Text.AlignHCenter
+                verticalAlignment: Text.AlignVCenter
                 onClicked: ProxyState.restart()
             }
         }

@@ -18,21 +18,18 @@ Item {
         anchors.margins: Constants.innerPadding
         spacing: Constants.innerPadding
 
-        // Header controls
         RowLayout {
             Layout.fillWidth: true
             spacing: Constants.innerPadding
 
-            // Power toggle
-            PanelChip {
+            ChipButton {
                 label: root.adapter?.enabled ?? false ? "On" : "Off"
                 icon: root.adapter?.enabled ?? false ? "󰂯" : "󰂲"
                 active: root.adapter?.enabled ?? false
                 onToggled: { if (root.adapter) root.adapter.enabled = !root.adapter.enabled }
             }
 
-            // Scan toggle
-            PanelChip {
+            ChipButton {
                 label: root.adapter?.discovering ?? false ? "Stop Scan" : "Scan"
                 icon: root.adapter?.discovering ?? false ? "󰑖" : "󰐳"
                 active: root.adapter?.discovering ?? false
@@ -41,8 +38,7 @@ Item {
 
             Item { Layout.fillWidth: true }
 
-            // Pairable toggle
-            PanelChip {
+            ChipButton {
                 label: "Pairable"
                 icon: "󰌺"
                 active: root.adapter?.pairable ?? false
@@ -50,7 +46,6 @@ Item {
             }
         }
 
-        // Device list
         ListView {
             id: deviceList
             Layout.fillWidth: true
@@ -67,10 +62,7 @@ Item {
                 width: deviceList.width
             }
 
-            ScrollBar.vertical: ScrollBar {
-                policy: ScrollBar.AsNeeded
-                contentItem: Rectangle { implicitWidth: 4; radius: 2; color: Constants.nord3; opacity: 0.6 }
-            }
+            ScrollBar.vertical: StyledScrollBar {}
         }
     }
 }

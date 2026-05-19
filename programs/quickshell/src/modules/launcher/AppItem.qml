@@ -23,8 +23,8 @@ Rectangle {
     color: selected
         ? Constants.nord2
         : hover.containsMouse
-            ? Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.45)
-            : Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0)
+            ? Constants.alpha(Constants.nord2, 0.45)
+            : Constants.alpha(Constants.nord2, 0)
 
     Behavior on color { CAnim {} }
 

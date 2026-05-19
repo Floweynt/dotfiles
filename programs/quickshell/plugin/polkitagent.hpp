@@ -17,8 +17,6 @@ Q_DECLARE_METATYPE(PolkitIdentity)
 QDBusArgument&       operator<<(QDBusArgument&, const PolkitIdentity&);
 const QDBusArgument& operator>>(const QDBusArgument&, PolkitIdentity&);
 
-// ─────────────────────────────────────────────────────────────────────────────
-
 class PolkitAgentObject;
 
 class PolkitAgent : public QObject {
@@ -99,8 +97,6 @@ private:
     bool                m_fingerprintAvailable = false;
     QString             m_fingerprintStatus;
 };
-
-// ─────────────────────────────────────────────────────────────────────────────
 
 class PolkitAgentObject : public QDBusVirtualObject {
 public:

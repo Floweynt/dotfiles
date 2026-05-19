@@ -7,7 +7,7 @@ import QtQuick.Controls
 import qs
 import qs.services
 import qs.components
-import qs.sysmon 1.0
+import qs.floweyshell 1.0
 
 Item {
     id: root
@@ -29,7 +29,7 @@ Item {
             const errTail = opProc._stderr.trim()
             const msg = exitCode === 0 ? root._pendingMsg
                 : ("Operation failed (exit " + exitCode + ")" + (errTail ? ": " + errTail : ""))
-            Notifs.send("floweyshell", "Nix", msg, "system-software-update")
+            Notifs.send("floweyshell", "Nix", msg, "software-update-available")
             opProc._stderr = ""
             if (exitCode === 0) NixGenProvider.refresh()
         }
@@ -46,46 +46,6 @@ Item {
         opProc.running = true
     }
 
-    // ── Inline chip button ────────────────────────────────────────────────────
-    component Chip: Rectangle {
-        id: chip
-        property string label: ""
-        property string icon:  ""
-        property color  tint:  Constants.nord4
-        property bool   busy:  false
-        signal clicked()
-
-        implicitWidth:  chipRow.implicitWidth + 16
-        implicitHeight: 26
-        radius:         Constants.radius
-        opacity:        chip.busy ? 0.4 : 1.0
-        color:          Qt.rgba(tint.r, tint.g, tint.b, 0.12)
-        border.color:   Qt.rgba(tint.r, tint.g, tint.b, 0.35)
-        border.width:   1
-        scale:          1.0
-
-        Behavior on scale   { NumberAnimation { duration: 80; easing.type: Easing.OutCubic } }
-        Behavior on opacity { NumberAnimation { duration: 120 } }
-
-        Row {
-            id: chipRow
-            anchors.centerIn: parent
-            spacing: 4
-            Text { text: chip.icon;  color: chip.tint; font.family: Constants.font.family; font.pointSize: Constants.font.smallSize; renderType: Text.NativeRendering }
-            Text { text: chip.label; color: chip.tint; font.family: Constants.font.family; font.pointSize: Constants.font.smallSize; renderType: Text.NativeRendering }
-        }
-
-        MouseArea {
-            anchors.fill: parent
-            enabled:      !chip.busy
-            cursorShape:  Qt.PointingHandCursor
-            onPressed:    chip.scale = 0.88
-            onReleased:   chip.scale = 1.0
-            onClicked:    chip.clicked()
-        }
-    }
-
-    // ── Layout ────────────────────────────────────────────────────────────────
     ColumnLayout {
         anchors { fill: parent; margins: Constants.innerPadding * 2 }
         spacing: Constants.innerPadding
@@ -113,25 +73,25 @@ Item {
             }
             Item { Layout.fillWidth: true }
 
-            Chip {
+            ChipButton {
                 label: "Refresh"; icon: "󰜉"; tint: Constants.nord4; busy: root._busy
                 onClicked: NixGenProvider.refresh()
             }
-            Chip {
+            ChipButton {
                 label: "Delete old gens"; icon: "󰃮"; tint: Constants.nord11; busy: root._busy
                 onClicked: root._run(
                     ["pkexec", "/bin/sh", "-c",
                      root._nixEnv + " --delete-generations old --profile /nix/var/nix/profiles/system"],
                     "Old generations deleted")
             }
-            Chip {
+            ChipButton {
                 label: "Run GC"; icon: "󰃮"; tint: Constants.nord12; busy: root._busy
                 onClicked: root._run(
                     ["pkexec", "/bin/sh", "-c",
                      root._nixStore + " --gc"],
                     "Garbage collection complete")
             }
-            Chip {
+            ChipButton {
                 label: "Repair store"; icon: "󰒃"; tint: Constants.nord13; busy: root._busy
                 onClicked: root._run(
                     ["pkexec", "/bin/sh", "-c",
@@ -140,7 +100,7 @@ Item {
             }
         }
 
-        Rectangle { Layout.fillWidth: true; height: 1; color: Constants.nord3; opacity: 0.45 }
+        Divider { opacity: 0.45 }
 
         // Generations list
         ListView {
@@ -162,10 +122,10 @@ Item {
                 radius: Constants.radius
 
                 color: genCard.modelData.current
-                    ? Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b, 0.10)
-                    : Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.45)
+                    ? Constants.alpha(Constants.nord8, 0.10)
+                    : Constants.alpha(Constants.nord2, 0.45)
                 border.color: genCard.modelData.current
-                    ? Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b, 0.35)
+                    ? Constants.alpha(Constants.nord8, 0.35)
                     : "transparent"
                 border.width: 1
 
@@ -192,7 +152,7 @@ Item {
                         Rectangle {
                             visible: genCard.modelData.current
                             implicitWidth: curText.implicitWidth + 10; implicitHeight: 18; radius: 3
-                            color: Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b, 0.20)
+                            color: Constants.alpha(Constants.nord8, 0.20)
                             border.color: Constants.nord8; border.width: 1
                             Text { id: curText; anchors.centerIn: parent; text: "CURRENT"; color: Constants.nord8
                                 font.family: Constants.font.family; font.pointSize: Constants.font.smallSize - 2
@@ -202,7 +162,7 @@ Item {
                         Rectangle {
                             visible: genCard.modelData.booted
                             implicitWidth: bootText.implicitWidth + 10; implicitHeight: 18; radius: 3
-                            color: Qt.rgba(Constants.nord14.r, Constants.nord14.g, Constants.nord14.b, 0.20)
+                            color: Constants.alpha(Constants.nord14, 0.20)
                             border.color: Constants.nord14; border.width: 1
                             Text { id: bootText; anchors.centerIn: parent; text: "BOOTED"; color: Constants.nord14
                                 font.family: Constants.font.family; font.pointSize: Constants.font.smallSize - 2
@@ -211,7 +171,7 @@ Item {
 
                         Item { Layout.fillWidth: true }
 
-                        Chip {
+                        ChipButton {
                             visible: !genCard.modelData.current
                             label: "Switch to"; icon: ""; tint: Constants.nord8; busy: root._busy
                             onClicked: {
@@ -225,7 +185,7 @@ Item {
                             }
                         }
 
-                        Chip {
+                        ChipButton {
                             visible: !genCard.modelData.current
                             label: "Delete"; icon: "󰅙"; tint: Constants.nord11; busy: root._busy
                             onClicked: {
@@ -239,20 +199,19 @@ Item {
                         }
                     }
 
-                    // Row 2: version · date · store hash
                     RowLayout {
                         Layout.fillWidth: true
                         spacing: Constants.innerPadding
 
                         Text { text: genCard.modelData.nixosVersion; color: Constants.nord9
                             font.family: Constants.font.family; font.pointSize: Constants.font.smallSize; renderType: Text.NativeRendering }
-                        Text { text: "·"; color: Constants.nord3
+                        Text { text: "|"; color: Constants.nord3
                             font.family: Constants.font.family; font.pointSize: Constants.font.smallSize; renderType: Text.NativeRendering }
                         Text { text: genCard.modelData.date; color: Constants.nord4
                             font.family: Constants.font.family; font.pointSize: Constants.font.smallSize; renderType: Text.NativeRendering }
                         Item { Layout.fillWidth: true }
                         Text {
-                            text: genCard.modelData.storePath.replace("/nix/store/", "").slice(0, 16) + "…"
+                            text: genCard.modelData.storePath.replace("/nix/store/", "").slice(0, 16) + "..."
                             color: Constants.nord3; font.family: Constants.font.family
                             font.pointSize: Constants.font.smallSize - 1; renderType: Text.NativeRendering
                         }
@@ -260,10 +219,7 @@ Item {
                 }
             }
 
-            ScrollBar.vertical: ScrollBar {
-                policy: ScrollBar.AsNeeded
-                contentItem: Rectangle { implicitWidth: 4; radius: 2; color: Constants.nord3; opacity: 0.6 }
-            }
+            ScrollBar.vertical: StyledScrollBar {}
         }
     }
 }

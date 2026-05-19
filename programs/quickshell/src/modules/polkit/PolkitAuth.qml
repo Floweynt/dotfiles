@@ -7,7 +7,7 @@ import QtQuick.Layouts
 import QtQuick.Effects
 import qs
 import qs.components
-import qs.polkit 1.0
+import qs.floweyshell 1.0
 
 PanelWindow {
     id: root
@@ -76,7 +76,6 @@ PanelWindow {
             anchors { top: parent.top; left: parent.left; right: parent.right; margins: Constants.outerPadding }
             spacing: Constants.innerPadding
 
-            // ── Header ───────────────────────────────────────────────────
             Text {
                 text: "  Authentication Required"
                 color: Constants.nord8
@@ -86,9 +85,8 @@ PanelWindow {
                 renderType: Text.NativeRendering
             }
 
-            Rectangle { Layout.fillWidth: true; height: 1; color: Constants.nord3; opacity: 0.5 }
+            Divider { opacity: 0.5 }
 
-            // ── Action message ────────────────────────────────────────────
             Text {
                 Layout.fillWidth: true
                 text: PolkitAgent.message
@@ -99,7 +97,6 @@ PanelWindow {
                 renderType: Text.NativeRendering
             }
 
-            // ── Identity ──────────────────────────────────────────────────
             Text {
                 text: "Authenticate as  " + PolkitAgent.user
                 color: Constants.nord9
@@ -108,7 +105,7 @@ PanelWindow {
                 renderType: Text.NativeRendering
             }
 
-            // ── Fingerprint ───────────────────────────────────────────────
+            // Fingerprint
             Rectangle {
                 id: fpRect
                 Layout.fillWidth: true
@@ -122,11 +119,11 @@ PanelWindow {
                 }
 
                 color:        fpRect.isError
-                    ? Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b, 0.08)
-                    : Qt.rgba(Constants.nord9.r,  Constants.nord9.g,  Constants.nord9.b,  0.08)
+                    ? Constants.alpha(Constants.nord11, 0.08)
+                    : Constants.alpha(Constants.nord9, 0.08)
                 border.color: fpRect.isError
-                    ? Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b, 0.40)
-                    : Qt.rgba(Constants.nord9.r,  Constants.nord9.g,  Constants.nord9.b,  0.40)
+                    ? Constants.alpha(Constants.nord11, 0.40)
+                    : Constants.alpha(Constants.nord9, 0.40)
                 border.width: 1
                 Behavior on color        { CAnim {} }
                 Behavior on border.color { CAnim {} }
@@ -155,12 +152,11 @@ PanelWindow {
                 }
             }
 
-            // "or" divider
             RowLayout {
                 Layout.fillWidth: true
                 visible: PolkitAgent.fingerprintAvailable
                 spacing: 8
-                Rectangle { Layout.fillWidth: true; height: 1; color: Constants.nord3; opacity: 0.4 }
+                Divider {}
                 Text {
                     text: "or"
                     color: Constants.nord3
@@ -168,22 +164,22 @@ PanelWindow {
                     font.pointSize: Constants.font.smallSize
                     renderType: Text.NativeRendering
                 }
-                Rectangle { Layout.fillWidth: true; height: 1; color: Constants.nord3; opacity: 0.4 }
+                Divider {}
             }
 
-            // ── Password field ────────────────────────────────────────────
+            // Password field
             Rectangle {
                 Layout.fillWidth: true
                 height: 36
                 radius: Constants.radius
-                color: Qt.rgba(Constants.nord0.r, Constants.nord0.g, Constants.nord0.b, 0.8)
+                color: Constants.alpha(Constants.nord0, 0.8)
                 border.color: passwordField.activeFocus ? Constants.nord8 : Constants.nord3
                 border.width: 1
                 Behavior on border.color { CAnim {} }
 
                 Text {
                     anchors { left: parent.left; leftMargin: 10; verticalCenter: parent.verticalCenter }
-                    text: "Password…"
+                    text: "Password..."
                     color: Constants.nord3
                     font.family: Constants.font.family
                     font.pointSize: Constants.font.smallSize
@@ -202,11 +198,9 @@ PanelWindow {
                     enabled: PolkitAgent.active && !PolkitAgent.busy
                     Keys.onReturnPressed: if (!PolkitAgent.busy && text.length > 0)
                         PolkitAgent.authenticate(PolkitAgent.cookie, text)
-                    Keys.onEscapePressed: PolkitAgent.cancel(PolkitAgent.cookie)
                 }
             }
 
-            // ── Error ─────────────────────────────────────────────────────
             Text {
                 Layout.fillWidth: true
                 visible: PolkitAgent.lastError.length > 0
@@ -227,75 +221,37 @@ PanelWindow {
                 }
             }
 
-            // ── Buttons ───────────────────────────────────────────────────
+            // Buttons
             RowLayout {
                 Layout.fillWidth: true
                 spacing: Constants.innerPadding
                 Item { Layout.fillWidth: true }
 
                 // Cancel
-                Rectangle {
-                    implicitWidth:  cancelLabel.implicitWidth + 24
-                    implicitHeight: 30
-                    radius: Constants.radius
-                    color: Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b,
-                                   cancelArea.containsMouse ? 0.25 : 0.12)
-                    border.color: Qt.rgba(Constants.nord11.r, Constants.nord11.g, Constants.nord11.b, 0.5)
-                    border.width: 1
-                    Behavior on color { CAnim {} }
-                    Text {
-                        id: cancelLabel
-                        anchors.centerIn: parent
-                        text: "Cancel"
-                        color: Constants.nord11
-                        font.family: Constants.font.family
-                        font.pointSize: Constants.font.smallSize
-                        renderType: Text.NativeRendering
-                    }
-                    MouseArea {
-                        id: cancelArea
-                        anchors.fill: parent
-                        hoverEnabled: true
-                        cursorShape: Qt.PointingHandCursor
-                        enabled: !PolkitAgent.busy
-                        onClicked: PolkitAgent.cancel(PolkitAgent.cookie)
-                    }
+                ChipButton {
+                    label: "Cancel"
+                    tint: Constants.nord11
+                    busy: PolkitAgent.busy
+                    onClicked: PolkitAgent.cancel(PolkitAgent.cookie)
                 }
 
                 // Authenticate
-                Rectangle {
-                    implicitWidth:  authLabel.implicitWidth + 24
-                    implicitHeight: 30
-                    radius: Constants.radius
-                    opacity: (PolkitAgent.busy || passwordField.text.length === 0) ? 0.5 : 1.0
-                    Behavior on opacity { NumberAnimation { duration: 120 } }
-                    color: Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b,
-                                   authArea.containsMouse ? 0.35 : 0.20)
-                    border.color: Qt.rgba(Constants.nord8.r, Constants.nord8.g, Constants.nord8.b, 0.6)
-                    border.width: 1
-                    Behavior on color { CAnim {} }
-                    Text {
-                        id: authLabel
-                        anchors.centerIn: parent
-                        text: PolkitAgent.busy ? "Authenticating…" : "Authenticate"
-                        color: Constants.nord8
-                        font.family: Constants.font.family
-                        font.pointSize: Constants.font.smallSize
-                        renderType: Text.NativeRendering
-                    }
-                    MouseArea {
-                        id: authArea
-                        anchors.fill: parent
-                        hoverEnabled: true
-                        cursorShape: Qt.PointingHandCursor
-                        enabled: !PolkitAgent.busy && passwordField.text.length > 0
-                        onClicked: PolkitAgent.authenticate(PolkitAgent.cookie, passwordField.text)
-                    }
+                ChipButton {
+                    label: PolkitAgent.busy ? "Authenticating..." : "Authenticate"
+                    tint: Constants.nord8
+                    busy: PolkitAgent.busy || passwordField.text.length === 0
+                    onClicked: PolkitAgent.authenticate(PolkitAgent.cookie, passwordField.text)
                 }
             }
 
             Item { height: 0 } // bottom breathing room handled by outer margin
         }
+    }
+
+    Shortcut {
+        sequence: "Escape"
+        enabled: PolkitAgent.active && !PolkitAgent.busy
+        onActivated: PolkitAgent.cancel(PolkitAgent.cookie)
     }
 
     // Clear the password field whenever the dialog closes

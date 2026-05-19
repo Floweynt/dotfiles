@@ -13,8 +13,6 @@
 #include <QFile>
 #include <QRegularExpression>
 
-// ── helpers ──────────────────────────────────────────────────────────────────
-
 QString SysmonProvider::sysfsRead(const QString& path) {
     QFile f(path);
     if (!f.open(QIODevice::ReadOnly | QIODevice::Text)) return {};
@@ -109,14 +107,22 @@ void SysmonProvider::discover() {
     }
 }
 
-// ── polling ──────────────────────────────────────────────────────────────────
+void SysmonProvider::setProcsActive(bool a) {
+    if (a == m_procsActive) return;
+    m_procsActive = a;
+    if (a) {
+        m_procPollCounter = 0;
+        pollProcs();
+    }
+    emit procsActiveChanged();
+}
 
 void SysmonProvider::poll() {
     pollCpu();
     pollMem();
     pollGpus();
     pollBatt();
-    if (++m_procPollCounter >= 2) {
+    if (m_procsActive && ++m_procPollCounter >= 2) {
         m_procPollCounter = 0;
         pollProcs();
     }
@@ -381,7 +387,6 @@ void SysmonProvider::pollProcs() {
             ::io_uring_submit(&m_procRing);
         }
     } else {
-        // ── synchronous fallback (io_uring unavailable) ───────────────────────
         for (auto& e : entries) {
             int fd = ::open(e.statPath, O_RDONLY | O_CLOEXEC);
             if (fd < 0) continue;

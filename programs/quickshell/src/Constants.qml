@@ -27,7 +27,6 @@ Singleton {
     readonly property int innerPadding: 7
 
     readonly property int topBarHeight: 55
-    readonly property int bottomBarHeight: 60
     readonly property int barHeight: 40
     readonly property int radius: 10
 
@@ -96,6 +95,8 @@ Singleton {
     }
 
     // stolen
+    function alpha(c: color, a: real): color { return Qt.rgba(c.r, c.g, c.b, a) }
+
     property QtObject animCurves: QtObject {
         property list<real> emphasized: [0.05, 0, 2 / 15, 0.06, 1 / 6, 0.4, 5 / 24, 0.82, 0.25, 1, 1, 1]
         property list<real> emphasizedDecel: [0.05, 0.7, 0.1, 1, 1, 1]

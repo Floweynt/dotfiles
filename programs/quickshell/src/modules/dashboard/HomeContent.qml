@@ -16,7 +16,6 @@ Item {
 
     PwObjectTracker { objects: Pipewire.nodes.values ?? [] }
 
-    // ── Brightness ──────────────────────────────────────────────────────────
     property int brightness: 50
     property int maxBrightness: 100
     property string _backlightDev: ""
@@ -58,8 +57,8 @@ Item {
     // -------------------------------------------------------------------------
     // Weather via wttr.in
     // -------------------------------------------------------------------------
-    property string weatherTemp: "—"
-    property string weatherDesc: "Loading…"
+    property string weatherTemp: "-"
+    property string weatherDesc: "Loading..."
     property string weatherIcon: "󰖐"
     property string weatherCity: ""
 
@@ -165,7 +164,7 @@ Item {
                 Layout.fillWidth: true
                 implicitHeight: weatherRow.implicitHeight + Constants.innerPadding * 2
                 radius: Constants.radius
-                color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.6)
+                color: Constants.alpha(Constants.nord2, 0.6)
 
                 RowLayout {
                     id: weatherRow
@@ -191,7 +190,7 @@ Item {
                             renderType: Text.NativeRendering
                         }
                         Text {
-                            text: root.weatherDesc + (root.weatherCity ? " · " + root.weatherCity : "")
+                            text: root.weatherDesc + (root.weatherCity ? " - " + root.weatherCity : "")
                             color: Constants.nord4
                             font.family: Constants.font.family
                             font.pointSize: Constants.font.smallSize
@@ -199,14 +198,12 @@ Item {
                         }
                     }
 
-                    Text {
+                    ClickText {
                         text: "󰑖"
-                        color: refreshWeatherArea.containsMouse ? Constants.nord8 : Constants.nord3
-                        font.family: Constants.font.family
+                        defaultColor: Constants.nord3
+                        hoverColor: Constants.nord8
                         font.pointSize: Constants.font.iconSize
-                        renderType: Text.NativeRendering
-                        Behavior on color { CAnim {} }
-                        MouseArea { id: refreshWeatherArea; anchors.fill: parent; hoverEnabled: true; cursorShape: Qt.PointingHandCursor; onClicked: root.fetchWeather() }
+                        onClicked: root.fetchWeather()
                     }
                 }
             }
@@ -216,7 +213,7 @@ Item {
                 Layout.fillWidth: true
                 implicitHeight: nowPlayingCol.implicitHeight + Constants.innerPadding * 2
                 radius: Constants.radius
-                color: Qt.rgba(Constants.nord2.r, Constants.nord2.g, Constants.nord2.b, 0.6)
+                color: Constants.alpha(Constants.nord2, 0.6)
                 visible: root._player !== null
 
                 ColumnLayout {
@@ -228,11 +225,10 @@ Item {
                         Layout.fillWidth: true
                         spacing: Constants.innerPadding
 
-                        // Album art or fallback glyph
                         Rectangle {
                             width: 48; height: 48
                             radius: 6
-                            color: Qt.rgba(Constants.nord1.r, Constants.nord1.g, Constants.nord1.b, 0.8)
+                            color: Constants.alpha(Constants.nord1, 0.8)
                             clip: true
 
                             Text {
@@ -289,7 +285,6 @@ Item {
                         }
                     }
 
-                    // Controls
                     RowLayout {
                         Layout.alignment: Qt.AlignHCenter
                         spacing: Constants.innerPadding
@@ -300,23 +295,19 @@ Item {
                                 { icon: root._player?.playbackState === MprisPlaybackState.Playing ? "󰏤" : "󰐊", action: () => root._player?.playbackState === MprisPlaybackState.Playing ? root._player?.pause() : root._player?.play() },
                                 { icon: "󰒬", action: () => root._player?.next() },
                             ]
-                            delegate: Text {
+                            delegate: ClickText {
                                 required property var modelData
                                 text: modelData.icon
-                                color: ctrlArea.containsMouse ? Constants.nord8 : Constants.nord4
-                                font.family: Constants.font.family
+                                hoverColor: Constants.nord8
                                 font.pointSize: Constants.font.iconSize
-                                renderType: Text.NativeRendering
-                                Behavior on color { CAnim {} }
-                                MouseArea { id: ctrlArea; anchors.fill: parent; hoverEnabled: true; cursorShape: Qt.PointingHandCursor; onClicked: parent.modelData.action() }
+                                onClicked: modelData.action()
                             }
                         }
                     }
                 }
             }
 
-            // Divider
-            Rectangle { Layout.fillWidth: true; height: 1; color: Constants.nord3; opacity: 0.35 }
+            Divider { opacity: 0.35 }
 
             // Brightness
             ColumnLayout {
@@ -335,40 +326,13 @@ Item {
 
                     Text { text: "󰃞"; color: Constants.nord3; font.family: Constants.font.family; font.pointSize: Constants.font.iconSize; renderType: Text.NativeRendering }
 
-                    Rectangle {
-                        id: brTrack
-                        Layout.fillWidth: true; height: 8; radius: 4; color: Constants.nord2
-
-                        Rectangle {
-                            width: brTrack.width * (root.brightness / Math.max(root.maxBrightness, 1))
-                            height: parent.height; radius: parent.radius; color: Constants.nord13
-                            Behavior on width { NumberAnimation { duration: 80 } }
-                        }
-
-                        MouseArea {
-                            anchors.fill: parent; cursorShape: Qt.SizeHorCursor; preventStealing: true
-                            onClicked:         mouse => root.setBrightness(Math.round(Math.max(0, Math.min(1, mouse.x / brTrack.width)) * root.maxBrightness))
-                            onPositionChanged: mouse => { if (pressed) root.setBrightness(Math.round(Math.max(0, Math.min(1, mouse.x / brTrack.width)) * root.maxBrightness)) }
-                        }
-
-                        Rectangle {
-                            width: 16; height: 16; radius: 8
-                            x: Math.max(0, Math.min(brTrack.width - width, brTrack.width * (root.brightness / Math.max(root.maxBrightness, 1)) - width / 2))
-                            y: (brTrack.height - height) / 2
-                            color: brHandleMA.pressed ? Constants.nord8 : Constants.nord6
-                            border.color: brHandleMA.pressed ? Constants.nord8 : Constants.nord3; border.width: 1
-                            Behavior on color { CAnim {} }
-                            Behavior on border.color { CAnim {} }
-                            MouseArea {
-                                id: brHandleMA; anchors.fill: parent; cursorShape: Qt.SizeHorCursor; preventStealing: true
-                                onPositionChanged: mouse => {
-                                    if (pressed) {
-                                        const pt = mapToItem(brTrack, mouse.x, mouse.y)
-                                        root.setBrightness(Math.round(Math.max(0, Math.min(1, pt.x / brTrack.width)) * root.maxBrightness))
-                                    }
-                                }
-                            }
-                        }
+                    HSlider {
+                        Layout.fillWidth: true
+                        value: root.brightness / Math.max(root.maxBrightness, 1)
+                        fillColor: Constants.nord13
+                        trackHeight: 8
+                        handleSize: 16
+                        onMoved: v => root.setBrightness(Math.round(v * root.maxBrightness))
                     }
 
                     Text { text: "󰃠"; color: Constants.nord13; font.family: Constants.font.family; font.pointSize: Constants.font.iconSize; renderType: Text.NativeRendering }
@@ -385,11 +349,12 @@ Item {
                     Layout.fillWidth: true; spacing: 4
                     Repeater {
                         model: [10, 25, 50, 75, 100]
-                        PanelChip {
+                        ChipButton {
                             required property int modelData
-                            label: modelData + "%"; icon: ""
-                            active: Math.round(root.brightness / Math.max(root.maxBrightness, 1) * 100) === modelData
-                            onToggled: root.setBrightness(Math.round(modelData / 100 * root.maxBrightness))
+                            label: modelData + "%"
+                            tint: Math.round(root.brightness / Math.max(root.maxBrightness, 1) * 100) === modelData
+                                  ? Constants.nord8 : Constants.nord4
+                            onClicked: root.setBrightness(Math.round(modelData / 100 * root.maxBrightness))
                         }
                     }
                 }
@@ -408,13 +373,12 @@ Item {
                         font.pointSize: Constants.font.smallSize; renderType: Text.NativeRendering
                     }
                     Item { Layout.fillWidth: true }
-                    Text {
-                        text: "more →"
-                        color: moreArea.containsMouse ? Constants.nord8 : Constants.nord3
-                        font.family: Constants.font.family; font.pointSize: Constants.font.smallSize - 2
-                        renderType: Text.NativeRendering
-                        Behavior on color { CAnim {} }
-                        MouseArea { id: moreArea; anchors.fill: parent; hoverEnabled: true; cursorShape: Qt.PointingHandCursor; onClicked: DashboardState.switchTab("audio") }
+                    ClickText {
+                        text: "more >"
+                        defaultColor: Constants.nord3
+                        hoverColor: Constants.nord8
+                        font.pointSize: Constants.font.smallSize - 2
+                        onClicked: DashboardState.switchTab("audio")
                     }
                 }
 
@@ -441,14 +405,11 @@ Item {
                 Layout.fillWidth: true
                 spacing: Constants.innerPadding
 
-                Text {
+                ClickText {
                     text: "󰅁"
-                    color: prevArea.containsMouse ? Constants.nord8 : Constants.nord4
-                    font.family: Constants.font.family; font.pointSize: Constants.font.iconSize
-                    renderType: Text.NativeRendering
-                    Behavior on color { CAnim {} }
-                    MouseArea { id: prevArea; anchors.fill: parent; hoverEnabled: true; cursorShape: Qt.PointingHandCursor
-                        onClicked: root._calDate = new Date(root._calYear, root._calMonth - 1, 1) }
+                    hoverColor: Constants.nord8
+                    font.pointSize: Constants.font.iconSize
+                    onClicked: root._calDate = new Date(root._calYear, root._calMonth - 1, 1)
                 }
 
                 Text {
@@ -460,14 +421,11 @@ Item {
                     renderType: Text.NativeRendering
                 }
 
-                Text {
+                ClickText {
                     text: "󰅂"
-                    color: nextArea.containsMouse ? Constants.nord8 : Constants.nord4
-                    font.family: Constants.font.family; font.pointSize: Constants.font.iconSize
-                    renderType: Text.NativeRendering
-                    Behavior on color { CAnim {} }
-                    MouseArea { id: nextArea; anchors.fill: parent; hoverEnabled: true; cursorShape: Qt.PointingHandCursor
-                        onClicked: root._calDate = new Date(root._calYear, root._calMonth + 1, 1) }
+                    hoverColor: Constants.nord8
+                    font.pointSize: Constants.font.iconSize
+                    onClicked: root._calDate = new Date(root._calYear, root._calMonth + 1, 1)
                 }
             }
 

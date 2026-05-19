@@ -60,7 +60,7 @@ Item {
         id: nixGcProc
         command: ["pkexec", "/bin/sh", "-c", root._nixStoreBin + " --gc"]
         onExited: {
-            notifyProc.command = ["notify-send", "-a", "floweyshell", "-i", "system-software-update",
+            notifyProc.command = ["notify-send", "-a", "floweyshell", "-i", "software-update-available",
                 "Nix", nixGcProc.exitCode === 0 ? "Garbage collection complete" : "Garbage collection failed"]
             notifyProc.running = true
         }
@@ -69,7 +69,7 @@ Item {
         id: nixRepairProc
         command: ["pkexec", "/bin/sh", "-c", root._nixStoreBin + " --verify --check-contents --repair"]
         onExited: {
-            notifyProc.command = ["notify-send", "-a", "floweyshell", "-i", "system-software-update",
+            notifyProc.command = ["notify-send", "-a", "floweyshell", "-i", "software-update-available",
                 "Nix", nixRepairProc.exitCode === 0 ? "Store repair complete" : "Store repair failed"]
             notifyProc.running = true
         }
@@ -79,7 +79,7 @@ Item {
         command: ["pkexec", "/bin/sh", "-c",
                   root._nixosBin + " switch --flake /persist/@home/dotfiles#nix-fw16"]
         onExited: {
-            notifyProc.command = ["notify-send", "-a", "floweyshell", "-i", "system-software-update",
+            notifyProc.command = ["notify-send", "-a", "floweyshell", "-i", "software-update-available",
                 "NixOS", updateProc.exitCode === 0 ? "System updated successfully" : "Update failed (exit " + updateProc.exitCode + ")"]
             notifyProc.running = true
         }
@@ -139,7 +139,6 @@ Item {
         { name: "bluetooth", description: "Bluetooth devices",        icon: "󰂯", keepOpen: true, run: () => DashboardState.switchTab("bluetooth") },
         { name: "perf",      description: "Performance monitor",      icon: "󰄬", keepOpen: true, run: () => DashboardState.switchTab("perf") },
         { name: "sys",       description: "System information",       icon: "󰍛", keepOpen: true, run: () => DashboardState.switchTab("sys") },
-        { name: "menu",      description: "Quick settings",           icon: "󰒓", keepOpen: true, run: () => DashboardState.switchTab("menu") },
         { name: "dashboard", description: "Go to home",               icon: "󰋜", keepOpen: true, run: () => DashboardState.switchTab("home") },
         { name: "update",    description: "Rebuild NixOS flake",      icon: "󱄅",
           run: () => {
@@ -406,9 +405,6 @@ Item {
             onLaunched: DashboardState.close()
         }
 
-        ScrollBar.vertical: ScrollBar {
-            policy: ScrollBar.AsNeeded
-            contentItem: Rectangle { implicitWidth: 4; radius: 2; color: Constants.nord3; opacity: 0.6 }
-        }
+        ScrollBar.vertical: StyledScrollBar {}
     }
 }
