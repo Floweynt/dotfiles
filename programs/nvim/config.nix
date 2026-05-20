@@ -9,6 +9,8 @@
         programs.neovim = {
             enable = true;
             package = clangPkgs.neovim-unwrapped;
+            withRuby = true;
+            withPython3 = true;
             initLua = builtins.readFile ./init.lua;
             viAlias = true;
             vimAlias = true;
