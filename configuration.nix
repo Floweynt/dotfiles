@@ -125,7 +125,6 @@ in
                 enable = true;
                 package = clangPkgs.fastfetch;
             };
-            rofi.enable = true;
             bat = {
                 enable = true;
                 package = clangPkgs.bat;
