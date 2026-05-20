@@ -101,7 +101,7 @@ Item {
                     MouseArea {
                         anchors.fill: parent
                         onClicked: {
-                            Hypr.dispatch(`workspace ${entry.index + 1}`);
+                            Hypr.dispatch(`hl.dsp.focus({ workspace = "${entry.index + 1}" })`);
                         }
                     }
                 }
