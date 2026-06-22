@@ -8,13 +8,6 @@ args@{
     nixos-hardware,
     ...
 }:
-let 
-    amdgpu-stability-patch = pkgs.fetchpatch {
-        name = "amdgpu-stability-patch";
-        url = "https://github.com/torvalds/linux/compare/ffd294d346d185b70e28b1a28abe367bbfe53c04...SeryogaBrigada:linux:4c55a12d64d769f925ef049dd6a92166f7841453.diff";
-        hash = "sha256-q/gWUPmKHFBHp7V15BW4ixfUn1kaeJhgDs0okeOGG9c=";
-    };
-in
 {
     imports = [
         (import "${nixos-hardware}/framework/16-inch/7040-amd")
@@ -95,7 +88,7 @@ in
         };
         bluetooth = {
             enable = true;
-            powerOnBoot = true;
+            powerOnBoot = false;
             settings = {
                 General = {
                     Experimental = true;
@@ -115,7 +108,6 @@ in
 
     boot = {
         kernelParams = [
-            "amdgpu.runpm=1"
         ];
         loader.limine = {
             enable = true;
@@ -132,7 +124,7 @@ in
             # };
         };
 
-        kernelPackages = /*pkgs.linuxPackages_zen*/ pkgs.linuxPackagesFor (pkgs.linux_latest.override {
+        kernelPackages = pkgs.linuxPackages_latest; /* pkgs.linuxPackagesFor (pkgs.linux_latest.override {
             argsOverride = rec {
                 src = pkgs.fetchurl {
                         url = "mirror://kernel/linux/kernel/v6.x/linux-${version}.tar.xz";
@@ -141,14 +133,9 @@ in
                 version = "6.19.8";
                 modDirVersion = version;
             };
-        });
+        });*/
         kernelModules = [ "kvm-amd" ];
         extraModulePackages = [
-            /*(userPackages.amdgpu-kernel-module.overrideAttrs (_: {
-                patches = [
-                    amdgpu-stability-patch
-                ];
-            }))*/
         ];
         supportedFilesystems = [ "btrfs" ];
 

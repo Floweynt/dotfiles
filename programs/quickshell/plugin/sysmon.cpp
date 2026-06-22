@@ -58,27 +58,27 @@ void SysmonProvider::discover()
     if (m_pageSize <= 0)
         m_pageSize = 4096;
 
-    // Identify k10temp and amdgpu hwmon instances
+    // Identify k10temp hwmon
     QDir hwmonDir("/sys/class/hwmon");
     QStringList entries = hwmonDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
     entries.sort();
     for (const QString& e : entries)
     {
         const QString base = "/sys/class/hwmon/" + e;
-        const QString name = sysfsRead(base + "/name");
-        if (name == "k10temp")
+        if (sysfsRead(base + "/name") == "k10temp")
+        {
             m_k10tempPath = base + "/temp1_input";
-        else if (name == "amdgpu")
-            m_amdgpuHwmons.append(base);
+            break;
+        }
     }
 
-    // Find amdgpu DRM cards; match to hwmons by enumeration order
+    // Find amdgpu DRM cards; read hwmon directly from each card's device dir
+    // (avoids the fragile assumption that hwmon sort order matches card sort order)
     QDir drmDir("/sys/class/drm");
     QStringList cards = drmDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
     cards.sort();
     static const QRegularExpression cardRe("^card\\d+$");
     static const QRegularExpression slotRe("PCI_SLOT_NAME=([^\n]+)");
-    int gpuIdx = 0;
     for (const QString& card : cards)
     {
         if (!cardRe.match(card).hasMatch())
@@ -96,10 +96,10 @@ void SysmonProvider::discover()
 
         GpuEntry gpu;
         gpu.card = card;
-        gpu.hwmon = gpuIdx < m_amdgpuHwmons.size() ? m_amdgpuHwmons[gpuIdx] : QString();
         gpu.name = name;
+        const QStringList hwmons = QDir(base + "/hwmon").entryList(QDir::Dirs | QDir::NoDotAndDotDot);
+        gpu.hwmon = hwmons.isEmpty() ? QString() : (base + "/hwmon/" + hwmons.first());
         m_gpuEntries.append(gpu);
-        gpuIdx++;
     }
 
     // Enumerate per-core cpufreq paths
@@ -120,8 +120,13 @@ void SysmonProvider::discover()
     {
         if (!ps.startsWith("BAT"))
             continue;
-        m_battCapPath = "/sys/class/power_supply/" + ps + "/capacity";
-        m_battStatusPath = "/sys/class/power_supply/" + ps + "/status";
+        const QString base = "/sys/class/power_supply/" + ps;
+        m_battCapPath        = base + "/capacity";
+        m_battStatusPath     = base + "/status";
+        m_battCurrentPath    = base + "/current_now";
+        m_battVoltagePath    = base + "/voltage_now";
+        m_battChargeNowPath  = base + "/charge_now";
+        m_battChargeFullPath = base + "/charge_full";
         break;
     }
 }
@@ -144,6 +149,7 @@ void SysmonProvider::poll()
     pollCpu();
     pollMem();
     pollGpus();
+    pollNets();
     pollBatt();
     if (m_procsActive && ++m_procPollCounter >= 2)
     {
@@ -261,10 +267,19 @@ void SysmonProvider::pollGpus()
     for (GpuEntry& gpu : m_gpuEntries)
     {
         const QString cardBase = "/sys/class/drm/" + gpu.card + "/device";
-        gpu.active = (sysfsRead(cardBase + "/power/runtime_status") == "active");
+        // Only read stats when a real client holds the GPU (usage > 0).
+        // DRM sysfs reads call pm_runtime_get_sync internally, resetting the
+        // autosuspend timer; polling with usage=0 prevents the GPU from ever idling.
+        const qint64 usage = sysfsInt(cardBase + "/power/runtime_usage");
+        const QString pwrStatus = sysfsRead(cardBase + "/power/runtime_status");
+        gpu.suspended = (pwrStatus == "suspended");
+        gpu.active = (usage > 0);
 
         if (gpu.active)
         {
+            // Only read sysfs stats when a real client holds the GPU.
+            // These reads call pm_runtime_get_sync internally; polling with
+            // usage=0 would reset the autosuspend timer and prevent idling.
             gpu.busy = int(sysfsInt(cardBase + "/gpu_busy_percent"));
             gpu.vramUsed = sysfsInt(cardBase + "/mem_info_vram_used");
             gpu.vramTotal = sysfsInt(cardBase + "/mem_info_vram_total");
@@ -278,6 +293,11 @@ void SysmonProvider::pollGpus()
                 gpu.freq = int(sysfsInt(gpu.hwmon + "/freq1_input") / 1000000);  // Hz → MHz
             }
         }
+        else if (gpu.suspended)
+        {
+            // Clear stale stats so history drops to 0 on suspension.
+            gpu.busy = 0; gpu.power = 0; gpu.temp = 0; gpu.freq = 0; gpu.vramUsed = 0;
+        }
 
         QVariantMap m;
         m["name"] = gpu.name;
@@ -289,9 +309,56 @@ void SysmonProvider::pollGpus()
         m["temp"] = gpu.temp;   // °C
         m["freq"] = gpu.freq;   // MHz
         m["active"] = gpu.active;
+        m["suspended"] = gpu.suspended;
         m_gpus.append(m);
     }
     emit gpusUpdated();
+}
+
+void SysmonProvider::pollNets()
+{
+    QFile f("/proc/net/dev");
+    if (!f.open(QIODevice::ReadOnly))
+        return;
+
+    const double dt = m_timer.interval() / 1000.0;
+
+    QVariantList result;
+    for (const QString& line : QString::fromUtf8(f.readAll()).split('\n'))
+    {
+        const int colon = line.indexOf(':');
+        if (colon < 0)
+            continue;
+        const QString iface = line.left(colon).trimmed();
+        if (iface.isEmpty() || iface == "lo")
+            continue;
+
+        if (sysfsRead("/sys/class/net/" + iface + "/operstate") != "up")
+            continue;
+
+        const QStringList parts = line.mid(colon + 1).split(' ', Qt::SkipEmptyParts);
+        if (parts.size() < 9)
+            continue;
+
+        const qint64 rx = parts[0].toLongLong();
+        const qint64 tx = parts[8].toLongLong();
+
+        const bool known = m_prevNets.contains(iface);
+        const NetState prev = m_prevNets.value(iface);
+        m_prevNets[iface] = {rx, tx};
+
+        if (!known)
+            continue;
+
+        QVariantMap m;
+        m["name"]   = iface;
+        m["rxRate"] = std::max(0.0, (rx - prev.rx) / dt); // bytes/s
+        m["txRate"] = std::max(0.0, (tx - prev.tx) / dt);
+        result.append(m);
+    }
+
+    m_nets = result;
+    emit netsUpdated();
 }
 
 void SysmonProvider::pollBatt()
@@ -305,12 +372,32 @@ void SysmonProvider::pollBatt()
         }
         return;
     }
+
     bool ok;
-    m_battPct = sysfsRead(m_battCapPath).toDouble(&ok);
-    if (!ok)
-        m_battPct = -1;
-    m_battStatus = sysfsRead(m_battStatusPath);
+    m_battPct      = sysfsRead(m_battCapPath).toDouble(&ok);
+    if (!ok) m_battPct = -1;
+    m_battStatus   = sysfsRead(m_battStatusPath);
     m_battCharging = (m_battStatus == "Charging" || m_battStatus == "Full");
+
+    const qint64 currentMicroA  = sysfsInt(m_battCurrentPath);
+    const qint64 voltageMicroV  = sysfsInt(m_battVoltagePath);
+    const qint64 chargeNow      = sysfsInt(m_battChargeNowPath);
+    const qint64 chargeFull     = sysfsInt(m_battChargeFullPath);
+
+    m_battWatts = (voltageMicroV / 1e6) * (currentMicroA / 1e6);
+
+    if (currentMicroA > 0) {
+        if (!m_battCharging)
+            m_battMinRemaining = int(double(chargeNow) / currentMicroA * 60.0);
+        else
+            m_battMinRemaining = (chargeFull > chargeNow)
+                ? int(double(chargeFull - chargeNow) / currentMicroA * 60.0) : 0;
+    } else {
+        m_battMinRemaining = -1;
+    }
+
+    m_platformProfile = sysfsRead("/sys/firmware/acpi/platform_profile");
+
     emit battUpdated();
 }
 

@@ -1,10 +1,7 @@
 { pkgs, lib, ... }:
 let
   path = lib.makeBinPath (
-    with pkgs;
     [
-      sshuttle
-      iproute2
     ]
   );
 in

@@ -102,3 +102,26 @@ function drawBorder(ctx, width, height, color) {
     ctx.lineWidth = 0.5
     ctx.strokeRect(0.5, 0.5, width - 1, height - 1)
 }
+
+// Format a bytes/s rate to a human-readable string.
+function formatRate(bps) {
+    if (bps >= 1e9) return (bps / 1e9).toFixed(2) + " GB/s"
+    if (bps >= 1e6) return (bps / 1e6).toFixed(1) + " MB/s"
+    if (bps >= 1e3) return (bps / 1e3).toFixed(0) + " KB/s"
+    return bps.toFixed(0) + " B/s"
+}
+
+// Snap a max value up to the nearest stable threshold so the Y axis doesn't jitter.
+function snapNetMax(val) {
+    const thresholds = [100*1024, 1024*1024, 10*1024*1024, 100*1024*1024, 1024*1024*1024]
+    for (const t of thresholds)
+        if (val <= t) return t
+    return val * 2
+}
+
+function snapPowerMax(watts) {
+    const thresholds = [5, 10, 15, 20, 30, 50, 75, 100]
+    for (const t of thresholds)
+        if (watts <= t) return t
+    return Math.ceil(watts / 25) * 25
+}

@@ -47,7 +47,7 @@
                 coc-java
                 coc-rust-analyzer
                 # coc-sumneko-lua # TODO this is broken
-                # userPackages.coc-nav #TODO package this myself
+                userPackages.coc-nav
                 coc-git
                 # coc-nix
                 coc-pyright
@@ -58,6 +58,7 @@
                 nil
                 nixfmt
                 svls
+                texlab
             ];
         };
 

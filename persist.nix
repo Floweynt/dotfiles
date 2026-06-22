@@ -1,16 +1,7 @@
-{ user, lib, pkgs, ... }:
+{ user, lib, ... }:
 {
-    boot.initrd.systemd.enable = true;
-    boot.initrd.systemd.services.darling-erasure = {
-        description = "Darling erasure - rollback root btrfs subvolume";
-        wantedBy = [ "initrd.target" ];
-        before = [ "sysroot.mount" ];
-        after = [ "systemd-cryptsetup@nixos_root.service" ];
-        path = [ pkgs.btrfs-progs ];
-        unitConfig.DefaultDependencies = "no";
-        serviceConfig.Type = "oneshot";
-        script = builtins.readFile ./darling_erasure.sh;
-    };
+    boot.initrd.postDeviceCommands = lib.mkBefore (builtins.readFile ./darling_erasure.sh);
+    boot.initrd.systemd.enable = false;
 
     environment.etc = {
         "NetworkManager/system-connections".source = "/persist/@config/network-manager/connections";

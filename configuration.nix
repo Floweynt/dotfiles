@@ -78,6 +78,12 @@ in
             hashedPassword = "$6$/rW1QoGX3Q5pcZoy$KZvak.Mvyu.IqkkoAONRMg08pB12bSexcC/4wi2wEHWNoWXq0aEX28BqxEeIKg3.lCJ8OWYliBYOInhvN.ju41";
             uid = 1001;
         };
+        users.autumn = {
+            isNormalUser = true;
+            home = "/home/autumn";
+            hashedPassword = "$6$/rW1QoGX3Q5pcZoy$KZvak.Mvyu.IqkkoAONRMg08pB12bSexcC/4wi2wEHWNoWXq0aEX28BqxEeIKg3.lCJ8OWYliBYOInhvN.ju41";
+            uid = 1002;
+        };
         users."${user}" = {
             isNormalUser = true;
             home = "/home/${user}";
@@ -95,6 +101,7 @@ in
                 userPackages.proxy
                 userPackages.view-dot
                 userPackages.gen-cdb
+                userPackages.claude-sandboxed
                 clang_22
                 llvmPackages_22.clang-tools
                 ccache

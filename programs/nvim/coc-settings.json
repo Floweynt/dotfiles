@@ -126,6 +126,18 @@
                 "systemverilog",
                 "verilog"
             ]
+        },
+        "texlab": {
+            "command": "texlab",
+            "filetypes": [
+                "tex",
+                "bib",
+                "plaintex"
+            ],
+            "rootPatterns": [
+                ".git",
+                "*.tex"
+            ]
         }
     },
     "rust-analyzer.check.command": "clippy"

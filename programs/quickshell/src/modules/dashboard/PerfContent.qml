@@ -21,6 +21,17 @@ Item {
     property var gpuTempHistories: [[], []]
     property var gpuBusyHistories: [[], []]
     property var gpuVramHistories: [[], []]
+    property var netRxHistories: ({})
+    property var netTxHistories: ({})
+    property var netIfaceOrder: []
+    property var battWattsHistory: []
+
+    function formatMinutes(mins) {
+        if (mins <= 0) return ""
+        const h = Math.floor(mins / 60)
+        const m = mins % 60
+        return h > 0 ? (h + "h " + m + "m") : (m + "m")
+    }
 
     // 8 accent colors, cycled for 16 cores
     readonly property var _coreColors: [
@@ -89,6 +100,31 @@ Item {
             if (!root.visible) return
             memGraph.requestPaint()
             memBar.requestPaint()
+        }
+
+        function onBattUpdated() {
+            const wh = root.battWattsHistory.slice(-59)
+            wh.push(sysmon.battWatts)
+            root.battWattsHistory = wh
+            if (!root.visible) return
+            battPowerGraph.requestPaint()
+        }
+
+        function onNetsUpdated() {
+            const nets = sysmon.nets
+            const rxH = Object.assign({}, root.netRxHistories)
+            const txH = Object.assign({}, root.netTxHistories)
+            for (const net of nets) {
+                const n = net.name
+                const rx = (rxH[n] ?? []).slice(-59); rx.push(net.rxRate); rxH[n] = rx
+                const tx = (txH[n] ?? []).slice(-59); tx.push(net.txRate); txH[n] = tx
+            }
+            root.netRxHistories = rxH
+            root.netTxHistories = txH
+            root.netIfaceOrder = nets.map(n => n.name)
+
+            if (!root.visible) return
+            netCanvas.requestPaint()
         }
     }
 
@@ -425,6 +461,31 @@ Item {
                         }
                         Item { Layout.fillWidth: true }
                         Text {
+                            visible: sysmon.platformProfile.length > 0
+                            text: sysmon.platformProfile
+                            color: sysmon.platformProfile === "low-power"   ? Constants.nord14
+                                 : sysmon.platformProfile === "performance" ? Constants.nord13
+                                 : Constants.nord7
+                            font.family: Constants.font.family
+                            font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
+                            Behavior on color { CAnim {} }
+                        }
+                        Text {
+                            visible: sysmon.battWatts > 0
+                            text: (sysmon.battCharging ? "+" : "−") + sysmon.battWatts.toFixed(1) + "W"
+                            color: sysmon.battCharging ? Constants.nord14 : Constants.nord13
+                            font.family: Constants.font.family
+                            font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
+                            Behavior on color { CAnim {} }
+                        }
+                        Text {
+                            visible: sysmon.battMinRemaining > 0
+                            text: root.formatMinutes(sysmon.battMinRemaining)
+                            color: Constants.nord3
+                            font.family: Constants.font.family
+                            font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
+                        }
+                        Text {
                             text: sysmon.battStatus
                             color: sysmon.battCharging ? Constants.nord14 : Constants.nord3
                             font.family: Constants.font.family
@@ -452,6 +513,23 @@ Item {
                             Behavior on color { CAnim {} }
                         }
                     }
+
+                    Canvas {
+                        id: battPowerGraph
+                        Layout.fillWidth: true
+                        height: 40
+                        onPaint: {
+                            const ctx = getContext("2d")
+                            ctx.clearRect(0, 0, width, height)
+                            const hist = root.battWattsHistory
+                            let maxW = 10
+                            for (const v of hist) if (v > maxW) maxW = v
+                            maxW = G.snapPowerMax(maxW)
+                            const c = (sysmon.battCharging ? Constants.nord14 : Constants.nord13).toString().slice(1)
+                            G.drawSparkline(ctx, hist, width, height, maxW, "#CC" + c, "#33" + c)
+                            G.drawBorder(ctx, width, height, Constants.nord3.toString())
+                        }
+                    }
             }
 
             // GPU cards
@@ -474,7 +552,7 @@ Item {
                     Layout.fillWidth: true
                     visible: sysmon.gpus.length > index
                     spacing: 5
-                    opacity: gpuCard.gpu.active ? 1 : 0.4
+                    opacity: !(gpuCard.gpu.suspended ?? false) ? 1 : 0.4
                     Behavior on opacity { NumberAnimation { duration: 400 } }
 
                         RowLayout {
@@ -487,6 +565,14 @@ Item {
                             }
                             Item { Layout.fillWidth: true }
                             Text {
+                                visible: gpuCard.gpu.suspended ?? false
+                                text: "suspended"
+                                color: Constants.nord3
+                                font.family: Constants.font.family
+                                font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
+                            }
+                            Text {
+                                visible: !(gpuCard.gpu.suspended ?? false)
                                 text: (gpuCard.gpu.temp ?? 0) + "°C"
                                 color: (gpuCard.gpu.temp ?? 0) > 80 ? Constants.nord11
                                      : (gpuCard.gpu.temp ?? 0) > 60 ? Constants.nord13
@@ -496,12 +582,14 @@ Item {
                                 Behavior on color { CAnim {} }
                             }
                             Text {
+                                visible: !(gpuCard.gpu.suspended ?? false)
                                 text: ((gpuCard.gpu.power ?? 0) / 1000).toFixed(1) + "W"
                                 color: Constants.nord13
                                 font.family: Constants.font.family
                                 font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
                             }
                             Text {
+                                visible: !(gpuCard.gpu.suspended ?? false)
                                 text: (gpuCard.gpu.freq ?? 0) + " MHz"
                                 color: Constants.nord7
                                 font.family: Constants.font.family
@@ -582,6 +670,81 @@ Item {
                     }
             }
             } // GridLayout
+
+            // Network card
+            CardBox {
+                Layout.fillWidth: true
+                visible: sysmon.nets.length > 0
+
+                    RowLayout {
+                        Layout.fillWidth: true
+                        Text {
+                            text: "Network"
+                            color: Constants.nord4; font.family: Constants.font.family
+                            font.pointSize: Constants.font.smallSize; renderType: Text.NativeRendering
+                        }
+                        Item { Layout.fillWidth: true }
+                        Repeater {
+                            model: sysmon.nets
+                            delegate: RowLayout {
+                                required property var modelData
+                                spacing: 6
+                                Text {
+                                    text: modelData.name
+                                    color: Constants.nord3; font.family: Constants.font.family
+                                    font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
+                                }
+                                Text {
+                                    text: G.formatRate(modelData.rxRate) + " ↓"
+                                    color: Constants.nord14; font.family: Constants.font.family
+                                    font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
+                                }
+                                Text {
+                                    text: G.formatRate(modelData.txRate) + " ↑"
+                                    color: Constants.nord13; font.family: Constants.font.family
+                                    font.pointSize: Constants.font.smallSize - 2; renderType: Text.NativeRendering
+                                }
+                            }
+                        }
+                    }
+
+                    Canvas {
+                        id: netCanvas
+                        Layout.fillWidth: true
+                        height: 56
+
+                        onPaint: {
+                            const ctx = getContext("2d")
+                            ctx.clearRect(0, 0, width, height)
+
+                            let maxVal = 100 * 1024
+                            for (const iface of root.netIfaceOrder) {
+                                for (const v of (root.netRxHistories[iface] ?? []))
+                                    if (v > maxVal) maxVal = v
+                                for (const v of (root.netTxHistories[iface] ?? []))
+                                    if (v > maxVal) maxVal = v
+                            }
+                            maxVal = G.snapNetMax(maxVal)
+
+                            const nord14 = Constants.nord14.toString().slice(1)
+                            const nord13 = Constants.nord13.toString().slice(1)
+
+                            for (const iface of root.netIfaceOrder) {
+                                G.drawSparkline(ctx, root.netTxHistories[iface] ?? [],
+                                    width, height, maxVal, null, "#44" + nord13)
+                                G.drawSparkline(ctx, root.netRxHistories[iface] ?? [],
+                                    width, height, maxVal, null, "#44" + nord14)
+                            }
+                            for (const iface of root.netIfaceOrder) {
+                                G.drawSparkline(ctx, root.netTxHistories[iface] ?? [],
+                                    width, height, maxVal, "#CC" + nord13, null)
+                                G.drawSparkline(ctx, root.netRxHistories[iface] ?? [],
+                                    width, height, maxVal, "#CC" + nord14, null)
+                            }
+                            G.drawBorder(ctx, width, height, Constants.nord3.toString())
+                        }
+                    }
+            }
 
             // Temperature card
             CardBox {

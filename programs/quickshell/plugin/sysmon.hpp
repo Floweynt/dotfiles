@@ -24,13 +24,17 @@ class SysmonProvider : public QObject {
     Q_PROPERTY(double swapUsed  READ swapUsed  NOTIFY memUpdated)
 
     Q_PROPERTY(QVariantList gpus      READ gpus      NOTIFY gpusUpdated)
+    Q_PROPERTY(QVariantList nets      READ nets      NOTIFY netsUpdated)
     Q_PROPERTY(QVariantList processes READ processes NOTIFY procsUpdated)
 
     Q_INVOKABLE bool killProcess(int pid, int sig = 15);
 
-    Q_PROPERTY(double  battPct      READ battPct      NOTIFY battUpdated)
-    Q_PROPERTY(bool    battCharging READ battCharging NOTIFY battUpdated)
-    Q_PROPERTY(QString battStatus   READ battStatus   NOTIFY battUpdated)
+    Q_PROPERTY(double  battPct          READ battPct          NOTIFY battUpdated)
+    Q_PROPERTY(bool    battCharging     READ battCharging     NOTIFY battUpdated)
+    Q_PROPERTY(QString battStatus       READ battStatus       NOTIFY battUpdated)
+    Q_PROPERTY(double  battWatts        READ battWatts        NOTIFY battUpdated)
+    Q_PROPERTY(int     battMinRemaining READ battMinRemaining NOTIFY battUpdated)
+    Q_PROPERTY(QString platformProfile  READ platformProfile  NOTIFY battUpdated)
 
     Q_PROPERTY(int  interval    READ interval    WRITE setInterval    NOTIFY intervalChanged)
     Q_PROPERTY(bool procsActive READ procsActive WRITE setProcsActive NOTIFY procsActiveChanged)
@@ -52,11 +56,15 @@ public:
     double swapUsed()  const { return m_swapUsed;  }
 
     QVariantList gpus()      const { return m_gpus;      }
+    QVariantList nets()      const { return m_nets;      }
     QVariantList processes() const { return m_processes; }
 
-    double  battPct()      const { return m_battPct;      }
-    bool    battCharging() const { return m_battCharging; }
-    QString battStatus()   const { return m_battStatus;   }
+    double  battPct()          const { return m_battPct;          }
+    bool    battCharging()     const { return m_battCharging;     }
+    QString battStatus()       const { return m_battStatus;       }
+    double  battWatts()        const { return m_battWatts;        }
+    int     battMinRemaining() const { return m_battMinRemaining; }
+    QString platformProfile()  const { return m_platformProfile;  }
 
     int  interval()    const { return m_timer.interval(); }
     bool procsActive() const { return m_procsActive;      }
@@ -67,6 +75,7 @@ signals:
     void cpuUpdated();
     void memUpdated();
     void gpusUpdated();
+    void netsUpdated();
     void battUpdated();
     void procsUpdated();
     void intervalChanged();
@@ -78,6 +87,7 @@ private:
     void pollCpu();
     void pollMem();
     void pollGpus();
+    void pollNets();
     void pollBatt();
     void pollProcs();
 
@@ -104,17 +114,25 @@ private:
         int    busy = 0;
         qint64 vramUsed = 0, vramTotal = 1;
         int    power = 0, temp = 0, freq = 0;
-        bool   active = true;
+        bool   active = false;
+        bool   suspended = false;
     };
 
     QVector<GpuEntry> m_gpuEntries;
-    QVector<QString>  m_amdgpuHwmons;
     QVariantList      m_gpus;
 
-    QString m_battCapPath, m_battStatusPath;
+    struct NetState { qint64 rx = 0, tx = 0; };
+    QHash<QString, NetState> m_prevNets;
+    QVariantList             m_nets;
+
+    QString m_battCapPath, m_battStatusPath, m_battCurrentPath, m_battVoltagePath,
+            m_battChargeNowPath, m_battChargeFullPath;
     double  m_battPct = -1;
     bool    m_battCharging = false;
     QString m_battStatus;
+    double  m_battWatts = 0;
+    int     m_battMinRemaining = -1;
+    QString m_platformProfile;
 
     struct ProcTick { qint64 ticks = 0; };
     QHash<int, ProcTick> m_prevProcTicks;
