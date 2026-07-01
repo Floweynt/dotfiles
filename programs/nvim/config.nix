@@ -36,6 +36,7 @@
                 nvim-treesitter.withAllGrammars
                 hologram-nvim
                 diffview-nvim
+                vimtex
 
                 # lsp
                 coc-clangd
@@ -59,6 +60,9 @@
                 nixfmt
                 svls
                 texlab
+                zathura
+                neovim-remote
+                (texlive.combine { inherit (texlive) scheme-small latexmk minted fvextra; })
             ];
         };
 

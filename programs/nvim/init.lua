@@ -19,12 +19,18 @@ require("util");
 require("coc_notify");
 require("lualine_theme");
 require("nvimtree");
--- require("vista");
+require("symview");
+require("latex");
 require("color");
 
 vim.api.nvim_create_autocmd('FileType', {
     pattern = { '*' },
-    callback = function() pcall(vim.treesitter.start) end,
+    callback = function()
+        -- vimtex owns tex syntax (needed for concealment); skip treesitter for it
+        if vim.bo.filetype ~= 'tex' then
+            pcall(vim.treesitter.start)
+        end
+    end,
 })
 
 vim.filetype.add({ 

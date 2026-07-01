@@ -124,7 +124,7 @@ args@{
             # };
         };
 
-        kernelPackages = pkgs.linuxPackages_latest; /* pkgs.linuxPackagesFor (pkgs.linux_latest.override {
+        kernelPackages = pkgs.linuxPackages_6_18; /*pkgs.linuxPackages_latest; /* pkgs.linuxPackagesFor (pkgs.linux_latest.override {
             argsOverride = rec {
                 src = pkgs.fetchurl {
                         url = "mirror://kernel/linux/kernel/v6.x/linux-${version}.tar.xz";

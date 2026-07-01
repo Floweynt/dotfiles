@@ -173,6 +173,9 @@
     "CocSemTypeParameter": {
         "fg": 15066597
     },
+    "CocSemTypeField": {
+        "link": "CocSemTypeVariable"
+    },
     "CocSemTypeProperty": {
         "link": "CocSemTypeVariable"
     },
@@ -227,8 +230,7 @@
         "link": "CocSemTypeEvent"
     },
     "CocSymbolField": {
-        "ctermfg": 223,
-        "fg": 15037556
+        "link": "CocSemTypeField"
     },
     "CocSymbolFile": {
         "ctermfg": 223,
