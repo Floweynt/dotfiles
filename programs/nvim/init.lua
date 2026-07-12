@@ -21,7 +21,6 @@ require("lualine_theme");
 require("nvimtree");
 require("symview");
 require("latex");
-require("color");
 
 vim.api.nvim_create_autocmd('FileType', {
     pattern = { '*' },
@@ -33,14 +32,11 @@ vim.api.nvim_create_autocmd('FileType', {
     end,
 })
 
-vim.filetype.add({ 
-    extension = { 
+vim.filetype.add({
+    extension = {
         leg = "leg",
         lds = "ld",
         vl = "systemverilog",
         v = "systemverilog"
     }
 })
-
--- set termguicolors to enable highlight groups
-vim.opt.termguicolors = true

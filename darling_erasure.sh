@@ -3,7 +3,7 @@ mkdir -p /mnt
 echo "--- erasing system state begin ---"
 # We first mount the btrfs root to /mnt
 # so we can manipulate btrfs subvolumes.
-mount -o subvol=/ /dev/mapper/nixos_root /mnt
+mount -o subvol=/ "$_ERASURE_MAPPER_DEVICE" /mnt
 
 # back up the old root (important!!)
 BOOTID=$(date +"@boot-%Y_%m_%d-%H_%M_%S-%s")

@@ -58,7 +58,6 @@ void SysmonProvider::discover()
     if (m_pageSize <= 0)
         m_pageSize = 4096;
 
-    // Identify k10temp hwmon
     QDir hwmonDir("/sys/class/hwmon");
     QStringList entries = hwmonDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
     entries.sort();
@@ -72,8 +71,6 @@ void SysmonProvider::discover()
         }
     }
 
-    // Find amdgpu DRM cards; read hwmon directly from each card's device dir
-    // (avoids the fragile assumption that hwmon sort order matches card sort order)
     QDir drmDir("/sys/class/drm");
     QStringList cards = drmDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot);
     cards.sort();
@@ -102,7 +99,6 @@ void SysmonProvider::discover()
         m_gpuEntries.append(gpu);
     }
 
-    // Enumerate per-core cpufreq paths
     QDir cpuDir("/sys/devices/system/cpu");
     static const QRegularExpression cpuRe("^cpu\\d+$");
     for (const QString& e : cpuDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot))
@@ -114,7 +110,6 @@ void SysmonProvider::discover()
             m_cpuFreqPaths.append(p);
     }
 
-    // Find first battery
     QDir psDir("/sys/class/power_supply");
     for (const QString& ps : psDir.entryList(QDir::Dirs | QDir::NoDotAndDotDot))
     {
@@ -487,10 +482,6 @@ void SysmonProvider::pollProcs()
 
     if (m_procRingReady)
     {
-        // ── io_uring path: process in chunks of 2048 (ring capacity) ─────────
-        // Each chunk: submit opens → wait → submit reads → wait → fire closes.
-        // For typical process counts (~300) this is one chunk = ~5 roundtrips
-        // instead of 3×N individual syscalls.
         constexpr int CHUNK = 2048;
 
         for (int base = 0; base < N; base += CHUNK)

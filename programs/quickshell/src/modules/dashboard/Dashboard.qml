@@ -142,7 +142,6 @@ PanelWindow {
                                 renderType: Text.NativeRendering
                                 Behavior on color { CAnim {} }
                             }
-                            // accelerator char – underlined, always highlighted
                             Text {
                                 text: tabBtn.modelData.label[tabBtn.modelData.keyIdx]
                                 color: tabBtn.active ? Constants.nord8 : Constants.nord9
@@ -181,7 +180,6 @@ PanelWindow {
             height: 1; color: Constants.nord3; opacity: 0.3
         }
 
-        // Content area – loaders stay alive once created to avoid flicker on re-entry
         Item {
             anchors { top: tabBar.bottom; topMargin: 1; left: parent.left; right: parent.right; bottom: parent.bottom }
 

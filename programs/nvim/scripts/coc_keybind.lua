@@ -1,4 +1,4 @@
-utils = require("lua_utils");
+local utils = require("lua_utils");
 
 vim.cmd([[
 inoremap <silent><expr> <TAB>
@@ -35,7 +35,7 @@ function! ShowDocumentation()
 endfunction
 ]])
 
-function visualmode()
+local function visualmode()
     return vim.api.nvim_call_function('visualmode', {});
 end
 

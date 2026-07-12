@@ -65,16 +65,14 @@ local hi_to_syms = {
     CocSymbolVirtual = "?"
 };
 
+local excluded_names = { "NvimTree" }
+
 function M:check_fname(name)
     if name == nil then
         return true
     end
 
-    local table = {
-        "NvimTree"
-    }
-
-    for _, value in ipairs(table) do
+    for _, value in ipairs(excluded_names) do
         if string.find(name, value) then
             return true;
         end

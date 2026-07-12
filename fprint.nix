@@ -1,16 +1,15 @@
 {
-    clangPkgs,
-    ...
+  clangPkgs,
+  ...
 }:
 {
-    systemd.services.fprintd = {
-        wantedBy = [ "multi-user.target" ];
-        serviceConfig.Type = "simple";
-    };
+  systemd.services.fprintd = {
+    wantedBy = [ "multi-user.target" ];
+    serviceConfig.Type = "simple";
+  };
 
-    services.fprintd = {
-        enable = true;
-        package = clangPkgs.fprintd;
-    };
+  services.fprintd = {
+    enable = true;
+    package = clangPkgs.fprintd;
+  };
 }
-

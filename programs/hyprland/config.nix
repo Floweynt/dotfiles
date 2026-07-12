@@ -3,6 +3,7 @@
   lib,
   user,
   util,
+  machine,
   ...
 }:
 {
@@ -28,7 +29,9 @@
       enable = true;
       configType = "lua";
       settings = {
-        mainMod = { _var = "SUPER"; };
+        mainMod = {
+          _var = "SUPER";
+        };
 
         config = {
           xwayland.force_zero_scaling = true;
@@ -52,25 +55,91 @@
             desktops = builtins.genList (x: builtins.toString (x + 1)) 9;
           in
           [
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + SHIFT + return"'') (lib.generators.mkLuaInline ''hl.dsp.exec_cmd("kitty")'') ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + p"'') (lib.generators.mkLuaInline ''hl.dsp.global("floweyshell:launcher")'') ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + d"'') (lib.generators.mkLuaInline ''hl.dsp.global("floweyshell:dashboard")'') ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + SHIFT + c"'') (lib.generators.mkLuaInline "hl.dsp.window.close()") ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + SHIFT + q"'') (lib.generators.mkLuaInline "hl.dsp.exit()") ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + t"'') (lib.generators.mkLuaInline ''hl.dsp.window.float({ action = "toggle" })'') ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + f"'') (lib.generators.mkLuaInline "hl.dsp.window.fullscreen()") ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + mouse:272"'') (lib.generators.mkLuaInline "hl.dsp.window.drag()") { mouse = true; } ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + mouse:273"'') (lib.generators.mkLuaInline "hl.dsp.window.resize()") { mouse = true; } ]; }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + SHIFT + return"'')
+                (lib.generators.mkLuaInline ''hl.dsp.exec_cmd("kitty")'')
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + p"'')
+                (lib.generators.mkLuaInline ''hl.dsp.global("floweyshell:launcher")'')
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + d"'')
+                (lib.generators.mkLuaInline ''hl.dsp.global("floweyshell:dashboard")'')
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + SHIFT + c"'')
+                (lib.generators.mkLuaInline "hl.dsp.window.close()")
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + SHIFT + q"'')
+                (lib.generators.mkLuaInline "hl.dsp.exit()")
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + t"'')
+                (lib.generators.mkLuaInline ''hl.dsp.window.float({ action = "toggle" })'')
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + f"'')
+                (lib.generators.mkLuaInline "hl.dsp.window.fullscreen()")
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + mouse:272"'')
+                (lib.generators.mkLuaInline "hl.dsp.window.drag()")
+                { mouse = true; }
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + mouse:273"'')
+                (lib.generators.mkLuaInline "hl.dsp.window.resize()")
+                { mouse = true; }
+              ];
+            }
           ]
           ++ (util.fMap desktops (id: [
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + ${id}"'') (lib.generators.mkLuaInline ''hl.dsp.focus({ workspace = ${id} })'') ]; }
-            { _args = [ (lib.generators.mkLuaInline ''mainMod .. " + SHIFT + ${id}"'') (lib.generators.mkLuaInline ''hl.dsp.window.move({ workspace = ${id} })'') ]; }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + ${id}"'')
+                (lib.generators.mkLuaInline "hl.dsp.focus({ workspace = ${id} })")
+              ];
+            }
+            {
+              _args = [
+                (lib.generators.mkLuaInline ''mainMod .. " + SHIFT + ${id}"'')
+                (lib.generators.mkLuaInline "hl.dsp.window.move({ workspace = ${id} })")
+              ];
+            }
           ]));
 
         window_rule = [
-          { match.class = "^(kitty)$"; opacity = "0.96 0.6"; }
-          { match.class = "^(vesktop)$"; opacity = "0.90 0.6"; }
-          { match.class = "^Minecraft.+"; tile = true; }
+          {
+            match.class = "^(kitty)$";
+            opacity = "0.96 0.6";
+          }
+          {
+            match.class = "^(vesktop)$";
+            opacity = "0.90 0.6";
+          }
+          {
+            match.class = "^Minecraft.+";
+            tile = true;
+          }
         ];
 
         monitor = {
@@ -81,7 +150,10 @@
         };
 
         env = {
-          _args = [ "AQ_DRM_DEVICES" "/dev/dri/card2" ];
+          _args = [
+            "AQ_DRM_DEVICES"
+            machine.drmDevice
+          ];
         };
       };
       package = clangPkgs.hyprland;

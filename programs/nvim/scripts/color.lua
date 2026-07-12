@@ -1,5 +1,3 @@
-utils = require("lua_utils");
-
 local function read_all(file)
     local f = assert(io.open(file, "rb"))
     local content = f:read("*all")

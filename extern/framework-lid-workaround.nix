@@ -1,4 +1,9 @@
-{ lib, pkgs, config, ... }:
+{
+  lib,
+  pkgs,
+  config,
+  ...
+}:
 let
   realpath = "${pkgs.coreutils}/bin/realpath";
 
@@ -37,7 +42,11 @@ in
     '';
 
     default = "always";
-    type = lib.types.enum [ "always" "lid-open" "never" ];
+    type = lib.types.enum [
+      "always"
+      "lid-open"
+      "never"
+    ];
   };
 
   config = lib.mkIf (cfg != "always") {
@@ -66,11 +75,7 @@ in
       # If "always", run once during boot. If "lid-open", run before every
       # suspend to check the lid state. NixOS doesn't have a good equivalent
       # for /usr/lib/systemd/system-sleep, so we have to fake it.
-      wantedBy =
-        if cfg == "lid-open" then
-          [ "sleep.target" ]
-        else
-          [ "multi-user.target" ];
+      wantedBy = if cfg == "lid-open" then [ "sleep.target" ] else [ "multi-user.target" ];
       before = lib.mkIf (cfg == "lid-open") [ "sleep.target" ];
 
       unitConfig.StopWhenUnneeded = true;

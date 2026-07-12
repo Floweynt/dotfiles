@@ -21,7 +21,10 @@ in
       in
       [
         (jetbrains.plugins.addPlugins idea (
-          (lib.attrValues plugins) ++ [/* (userPackages.nix-jdk-sync-plugin jdks) */]
+          (lib.attrValues plugins)
+          ++ [
+            # (userPackages.nix-jdk-sync-plugin jdks)
+          ]
         ))
       ];
   };

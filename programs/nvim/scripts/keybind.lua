@@ -1,4 +1,4 @@
-utils = require("lua_utils");
+local utils = require("lua_utils");
 
 utils.noremap("in", "<C-Z>", utils.cmd_callback("undo"));
 utils.noremap("in", "<C-Y>", utils.cmd_callback("redo"));

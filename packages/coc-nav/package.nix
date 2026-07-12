@@ -10,6 +10,6 @@ pkgs.vimUtils.buildVimPlugin {
 
   postPatch = ''
     substituteInPlace lib/index.js \
-      --replace-fail '"CursorHold"' '"CursorMoved"'
+      --replace-fail '"CursorHold"' '["CursorMoved","CursorMovedI","TextChangedI"]'
   '';
 }

@@ -26,7 +26,6 @@ function roundedRect(ctx, x, y, w, h, r) {
 //
 // segments: [{color: str, frac: 0..1}, ...] drawn left-to-right, later entries on top.
 function drawRoundedBar(ctx, width, height, r, bgColor, segments, borderColor) {
-    // Background (full rounded rect — transparent corners, visible bar interior)
     roundedRect(ctx, 0, 0, width, height, r)
     ctx.fillStyle = bgColor
     ctx.fill()
@@ -35,7 +34,6 @@ function drawRoundedBar(ctx, width, height, r, bgColor, segments, borderColor) {
         if (s.frac <= 0) continue
         const fw = Math.min(s.frac * width, width)
         if (fw >= width - r) {
-            // Fill reaches the right corner region — use a full rounded rect.
             roundedRect(ctx, 0, 0, fw, height, r)
         } else if (fw >= 2 * r) {
             // Common case: rounded left corners, straight right edge.
@@ -49,7 +47,6 @@ function drawRoundedBar(ctx, width, height, r, bgColor, segments, borderColor) {
             ctx.arc(r, r, r, Math.PI, Math.PI * 1.5)
             ctx.closePath()
         } else {
-            // Very thin fill — radius would overlap; plain rect.
             ctx.beginPath()
             ctx.rect(0, 0, fw, height)
         }

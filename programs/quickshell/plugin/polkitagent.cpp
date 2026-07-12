@@ -234,7 +234,6 @@ void PolkitAgent::onHelperDisconnected()
         m_helper->deleteLater();
         m_helper = nullptr;
     }
-    // Unexpected disconnect (no SUCCESS/FAILURE) while auth in progress — abort it
     if (!m_cookie.isEmpty() && m_busy)
     {
         if (m_lastError.isEmpty())
@@ -251,7 +250,7 @@ void PolkitAgent::onBeginAuth(
 {
     if (!m_cookie.isEmpty())
     {
-        qWarning() << "PolkitAgent: rejecting BeginAuth — another auth in progress";
+        qWarning() << "PolkitAgent: rejecting BeginAuth; another auth in progress";
         conn.send(msg.createErrorReply(QDBusError::Failed, QStringLiteral("Another authentication is in progress")));
         return;
     }
@@ -302,7 +301,6 @@ void PolkitAgent::authenticate(const QString& cookie, const QString& password)
     }
     else
     {
-        // Socket closed after a FAILURE — reconnect for retry
         m_pendingResponse = password;
         connectToHelper();
     }

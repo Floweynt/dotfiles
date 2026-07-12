@@ -47,7 +47,6 @@ void NixGenProvider::readGenerations()
         const QString storePath = fi.symLinkTarget();
         const QString ver = readFile(storePath + "/nixos-version");
 
-        // lstat the symlink itself — store paths have mtime 0 for reproducibility
         struct stat st{};
         QString date;
         if (lstat(fi.absoluteFilePath().toUtf8().constData(), &st) == 0)

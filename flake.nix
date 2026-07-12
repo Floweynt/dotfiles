@@ -9,16 +9,41 @@
     nix-jetbrains-plugins.url = "github:nix-community/nix-jetbrains-plugins";
   };
 
-  outputs = { self, nixpkgs, home-manager, nixos-hardware, nix-jetbrains-plugins, ... }:
-  let
-    machine = import ./machine.nix;
-  in {
-    nixosConfigurations.nix-fw16 = nixpkgs.lib.nixosSystem {
-      specialArgs = { inherit nixos-hardware machine nix-jetbrains-plugins; };
-      modules = [
-        home-manager.nixosModules.home-manager
-        ./configuration.nix
-      ];
+  outputs =
+    {
+      self,
+      nixpkgs,
+      home-manager,
+      nixos-hardware,
+      nix-jetbrains-plugins,
+      ...
+    }:
+    let
+      lib = nixpkgs.lib;
+      hwDir = builtins.readDir ./hw;
+      hwNames = builtins.filter (n: lib.hasSuffix ".nix" n) (builtins.attrNames hwDir);
+      hwList = map (n: import ./hw/${n}) hwNames;
+      mkSystem =
+        hw:
+        nixpkgs.lib.nixosSystem {
+          specialArgs = {
+            inherit nixos-hardware nix-jetbrains-plugins;
+            machine = hw.machine;
+          };
+          modules = [
+            home-manager.nixosModules.home-manager
+            hw.nixosModule
+            ./hw.nix
+            ./configuration.nix
+          ];
+        };
+    in
+    {
+      nixosConfigurations = builtins.listToAttrs (
+        map (hw: {
+          name = hw.machine.hostname;
+          value = mkSystem hw;
+        }) hwList
+      );
     };
-  };
 }

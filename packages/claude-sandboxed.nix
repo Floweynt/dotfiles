@@ -8,8 +8,8 @@ let
 
     ## Filesystem you can see
     - The current project directory (read-write).
-    - /nix (read-only) — full Nix store, daemon socket.
-    - /run/current-system, /run/booted-system (read-only) — NixOS profile.
+    - /nix (read-only) - full Nix store, daemon socket.
+    - /run/current-system, /run/booted-system (read-only) - NixOS profile.
     - A fresh empty $HOME (writable tmpfs, discarded on exit).
     - A handful of /etc files needed for DNS, certs, user lookup.
     - /tmp is a private tmpfs.

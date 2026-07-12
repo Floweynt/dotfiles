@@ -1,7 +1,7 @@
 { pkgs, lib, ... }:
 jdks:
 let
-  gradle2nix = import (fetchTarball "https://github.com/tadfisher/gradle2nix/archive/v2.tar.gz") {};
+  gradle2nix = import (fetchTarball "https://github.com/tadfisher/gradle2nix/archive/v2.tar.gz") { };
 
   gradleDist = pkgs.fetchurl {
     url = "https://services.gradle.org/distributions/gradle-9.0.0-bin.zip";

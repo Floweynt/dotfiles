@@ -76,11 +76,8 @@ Singleton {
             return `${h}h`;
         }
 
-        // D-Bus notification object — null for internally-sent notifications
         property var notification: null
 
-        // Flat display fields, populated from `notification` for D-Bus ones
-        // or set directly via Notifs.send() for internal ones
         property string appName:  ""
         property string appIcon:  ""
         property string summary:  ""

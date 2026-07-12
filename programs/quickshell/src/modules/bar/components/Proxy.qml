@@ -39,7 +39,6 @@ BarContainer {
             }
         }
 
-        // Restart — only visible when active
         Item {
             implicitHeight: parent.height
             implicitWidth: ProxyState.active ? implicitHeight : 0
