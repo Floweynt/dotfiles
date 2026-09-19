@@ -1,0 +1,109 @@
+{
+  "slug": "gunpowder-recipe-mod",
+  "projectId": "vr011Hac",
+  "versions": {
+    "EkCV4UK3": {
+      "filename": "craftable_gunpowder-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vr011Hac/versions/EkCV4UK3/craftable_gunpowder-1.0.0.jar",
+      "hash": "sha512-q9HIPQYo9DdUIUk/XWYptL0cs7l3aEUZlsBf3XYe8UGUBHn7/r3pTfrSOpSsZqnQv0II35iKDgQs8I4ghKMfDg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WO2z6l88": {
+      "filename": "craftable_gunpowder_fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vr011Hac/versions/WO2z6l88/craftable_gunpowder_fabric-1.1.0.jar",
+      "hash": "sha512-Q0xNlR+xUpN4Jq/syk43+xshgaT871Q+l4XJr6YT08MXB9L3YobxAXhBwIQqZSebUgHV8N+9Q0sJn/TstcRQtg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "m5cCneI2": {
+      "filename": "craftable_gunpowder_forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vr011Hac/versions/m5cCneI2/craftable_gunpowder_forge-1.1.0.jar",
+      "hash": "sha512-hGgRYuoitfbkbVdnGm3k03mJGDCX/CHBuvapYD3O0wPHGdEdn/DFf0aqaiBnaIFXb9mXgw21OT/VKvTog26m4Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "WO2z6l88",
+      "EkCV4UK3"
+    ],
+    "1.20+forge": [
+      "m5cCneI2"
+    ],
+    "1.20.1+fabric": [
+      "WO2z6l88",
+      "EkCV4UK3"
+    ],
+    "1.20.1+forge": [
+      "m5cCneI2"
+    ],
+    "1.20.2+fabric": [
+      "WO2z6l88",
+      "EkCV4UK3"
+    ],
+    "1.20.2+forge": [
+      "m5cCneI2"
+    ],
+    "1.20.3+fabric": [
+      "WO2z6l88",
+      "EkCV4UK3"
+    ],
+    "1.20.3+forge": [
+      "m5cCneI2"
+    ],
+    "1.20.4+fabric": [
+      "WO2z6l88",
+      "EkCV4UK3"
+    ],
+    "1.20.4+forge": [
+      "m5cCneI2"
+    ]
+  }
+}

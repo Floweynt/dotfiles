@@ -1,0 +1,440 @@
+{
+  "slug": "loadresourcepackfromserver",
+  "projectId": "QUcOF7ZJ",
+  "versions": {
+    "4pSvJnik": {
+      "filename": "LoadResourcepackFromServer-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/QUcOF7ZJ/versions/4pSvJnik/LoadResourcepackFromServer-1.1.1.jar",
+      "hash": "sha512-H/xNFsml6vj0mRT4t0tSLoJzYwIfMcrg5edQryRwUtIM/DTVmR8H2yI+fBTCBPWutXrO6bfEapZ0CmDTkDuCGg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "paper"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "mesh-lib",
+          "projectId": "6HncyfPB",
+          "type": "required"
+        }
+      ]
+    },
+    "QwWifs9q": {
+      "filename": "LoadResourcepackFromServer-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/QUcOF7ZJ/versions/QwWifs9q/LoadResourcepackFromServer-1.2.0.jar",
+      "hash": "sha512-tjpuIvWyvYNrZ5QkHSoe1vE5maGJOPKXuSpztE5p2O75+6FV59bS4yL1IYmQBR/hmRt75l7yIB49hK0Bc89IDw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "paper",
+        "purpur"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "lnWt7Xov": {
+      "filename": "LoadResourcepackFromServer-paper-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QUcOF7ZJ/versions/lnWt7Xov/LoadResourcepackFromServer-paper-1.1.0.jar",
+      "hash": "sha512-QFC/VEeCc6YFr9eW+wvRDrN0Lckfa1bAg8vyjL3I5HSu1Im+IIWO/TN4Ghc0btGkLznNbJ1dR7bbq1iRiqdc3g==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "paper"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "mesh-lib",
+          "projectId": "6HncyfPB",
+          "type": "required"
+        }
+      ]
+    },
+    "ydpAdsJr": {
+      "filename": "LoadResourcepackFromServer-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QUcOF7ZJ/versions/ydpAdsJr/LoadResourcepackFromServer-1.1.0.jar",
+      "hash": "sha512-l//esCYZbEn5dF7qh3UafKQngRL27t0P03bcg5Q44b8fQmqxaKNRZaZ/gmO1ub9KB/v+9vJw5Voj0wg1NrmMdw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "mesh-lib",
+          "projectId": "6HncyfPB",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.19+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.19+purpur": [
+      "QwWifs9q"
+    ],
+    "1.19.1+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.19.1+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.19.1+purpur": [
+      "QwWifs9q"
+    ],
+    "1.19.2+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.19.2+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.19.2+purpur": [
+      "QwWifs9q"
+    ],
+    "1.19.3+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.19.3+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.19.3+purpur": [
+      "QwWifs9q"
+    ],
+    "1.19.4+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.19.4+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.19.4+purpur": [
+      "QwWifs9q"
+    ],
+    "1.20+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.20+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.20+purpur": [
+      "QwWifs9q"
+    ],
+    "1.20.1+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.20.1+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.20.1+purpur": [
+      "QwWifs9q"
+    ],
+    "1.20.2+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.20.2+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.20.2+purpur": [
+      "QwWifs9q"
+    ],
+    "1.20.3+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.20.3+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.20.3+purpur": [
+      "QwWifs9q"
+    ],
+    "1.20.4+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.20.4+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.20.4+purpur": [
+      "QwWifs9q"
+    ],
+    "1.20.5+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.20.5+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.20.5+purpur": [
+      "QwWifs9q"
+    ],
+    "1.20.6+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.20.6+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.20.6+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.21+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.21+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.1+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.21.1+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.21.1+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.10+fabric": [
+      "QwWifs9q"
+    ],
+    "1.21.10+paper": [
+      "QwWifs9q"
+    ],
+    "1.21.10+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.11+fabric": [
+      "QwWifs9q"
+    ],
+    "1.21.11+paper": [
+      "QwWifs9q"
+    ],
+    "1.21.11+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.2+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.21.2+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.21.2+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.3+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.21.3+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.21.3+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.4+fabric": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "ydpAdsJr"
+    ],
+    "1.21.4+paper": [
+      "QwWifs9q",
+      "4pSvJnik",
+      "lnWt7Xov"
+    ],
+    "1.21.4+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.5+fabric": [
+      "QwWifs9q"
+    ],
+    "1.21.5+paper": [
+      "QwWifs9q"
+    ],
+    "1.21.5+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.6+fabric": [
+      "QwWifs9q"
+    ],
+    "1.21.6+paper": [
+      "QwWifs9q"
+    ],
+    "1.21.6+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.7+fabric": [
+      "QwWifs9q"
+    ],
+    "1.21.7+paper": [
+      "QwWifs9q"
+    ],
+    "1.21.7+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.8+fabric": [
+      "QwWifs9q"
+    ],
+    "1.21.8+paper": [
+      "QwWifs9q"
+    ],
+    "1.21.8+purpur": [
+      "QwWifs9q"
+    ],
+    "1.21.9+fabric": [
+      "QwWifs9q"
+    ],
+    "1.21.9+paper": [
+      "QwWifs9q"
+    ],
+    "1.21.9+purpur": [
+      "QwWifs9q"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "zefiroptimizations",
+  "projectId": "IGy6WPhs",
+  "versions": {
+    "KFFrIZ0x": {
+      "filename": "zefiroptimizations-0.0.1-alpha2.jar",
+      "url": "https://cdn.modrinth.com/data/IGy6WPhs/versions/KFFrIZ0x/zefiroptimizations-0.0.1-alpha2.jar",
+      "hash": "sha512-/b/suHbLNGacklgmLDAGNGvRONeoFSBbyHEOM7uzgLEdfoZeB5+A7a0orTcX0OsRRCHvZg7WYgKY0RlhRGe1ug==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "lithium",
+          "projectId": "gvQqBUqZ",
+          "type": "required"
+        },
+        {
+          "slug": "scalable-cats-force",
+          "projectId": "zr0QMQMo",
+          "type": "required"
+        }
+      ]
+    },
+    "cPdfFO5u": {
+      "filename": "zefiroptimizations-0.0.1-alpha1.jar",
+      "url": "https://cdn.modrinth.com/data/IGy6WPhs/versions/cPdfFO5u/zefiroptimizations-0.0.1-alpha1.jar",
+      "hash": "sha512-SIt0yLmWoFQGSqzAfjj170EuGwhOl246qhvSidtGqGIwBWMzHy1FrE3IIm7zqIWbzaVszcLD+HbaNwWnrmOxlw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "lithium",
+          "projectId": "gvQqBUqZ",
+          "type": "required"
+        },
+        {
+          "slug": "scalable-cats-force",
+          "projectId": "zr0QMQMo",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "KFFrIZ0x",
+      "cPdfFO5u"
+    ],
+    "1.21.1+fabric": [
+      "KFFrIZ0x",
+      "cPdfFO5u"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "tidal-enchancement",
+  "projectId": "sFoM14Vf",
+  "versions": {
+    "814cfPp9": {
+      "filename": "enchanced_tides-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sFoM14Vf/versions/814cfPp9/enchanced_tides-1.0.0.jar",
+      "hash": "sha512-P951KsMwbno8LR1koVDL8XuzjXBZp8X1o6NZCJ+5SVbXItHK7KzDkxl+gA0s/j9QzKooMvW/r3MXovmBko/ciw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enchancement",
+          "projectId": "6hN1V6wJ",
+          "type": "required"
+        },
+        {
+          "slug": "tide",
+          "projectId": "die1AF7i",
+          "type": "required"
+        }
+      ]
+    },
+    "mSiLQghf": {
+      "filename": "enchanced_tides-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/sFoM14Vf/versions/mSiLQghf/enchanced_tides-1.0.2.jar",
+      "hash": "sha512-VJ4yBo6b1EkMKd6ZGwhG6m4aB+9LMfvcpoxvfl+979BokCRtH6tIygVZCPzGUeAnLUACxSAORlvdA1eh9JKK6A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enchancement",
+          "projectId": "6hN1V6wJ",
+          "type": "required"
+        },
+        {
+          "slug": "tide",
+          "projectId": "die1AF7i",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "mSiLQghf",
+      "814cfPp9"
+    ]
+  }
+}

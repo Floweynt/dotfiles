@@ -1,0 +1,75 @@
+{
+  "slug": "legacy",
+  "projectId": "ue3F7sba",
+  "versions": {
+    "B7SaigEI": {
+      "filename": "legacymc-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ue3F7sba/versions/B7SaigEI/legacymc-1.0.0.jar",
+      "hash": "sha512-2boVGcuUqE92m6EhAdK/uqtOOSyWa5o62n/i/LiooQfQR8m8SM9wk9CBBUgCfq2OEkIDYPskzqeizuUy4B1pfw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "japi",
+          "projectId": "gEyzz2kw",
+          "type": "required"
+        }
+      ]
+    },
+    "piH79SBY": {
+      "filename": "legacymc-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ue3F7sba/versions/piH79SBY/legacymc-1.2.0.jar",
+      "hash": "sha512-JEiBBx5T+clFYCBC/f0+mfG7Z4gao73YJ+/Lr35tgSqzNZrc1jzRd7Oqv7DK05DZ2Z7P0vMW4jyqJ214NugMtQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "japi",
+          "projectId": "gEyzz2kw",
+          "type": "required"
+        }
+      ]
+    },
+    "rv7RhpqU": {
+      "filename": "legacymc-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ue3F7sba/versions/rv7RhpqU/legacymc-1.1.0.jar",
+      "hash": "sha512-7kqrpRj8Q665ZGD5/X/UuKG+6F8KDoEg5KwBXHnhI1Ig8YKSocyQQNd09ftM1Ifr88HRoe6f0/rskM+9bqgDRQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "japi",
+          "projectId": "gEyzz2kw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "rv7RhpqU",
+      "B7SaigEI"
+    ],
+    "1.20.2+fabric": [
+      "piH79SBY"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "boundless-building",
+  "projectId": "xVbIvP4Z",
+  "versions": {
+    "8JtuXaTV": {
+      "filename": "boundlessbuilding-0.0.0-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/xVbIvP4Z/versions/8JtuXaTV/boundlessbuilding-0.0.0-1.20.4.jar",
+      "hash": "sha512-Xe0ujd68elHp6iNE7WczKRXyVgwEAG8MgDbkPJz3TuzsPqmRIxeHatROqXtqtFH1y5K/gThd7Q1aaItF5evFqQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UeRfTKaL": {
+      "filename": "boundlessbuilding-0.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/xVbIvP4Z/versions/UeRfTKaL/boundlessbuilding-0.0.0-1.20.1.jar",
+      "hash": "sha512-Ax7EpMzm+gZ6R5cL2PnnRs42W2pAyed7Zs7UcLbMKg2NKR7taQldv7MVHxudJKLsWXrPYW2a9IdYz+0X2QxQ5w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "UeRfTKaL"
+    ],
+    "1.20.4+fabric": [
+      "8JtuXaTV"
+    ]
+  }
+}

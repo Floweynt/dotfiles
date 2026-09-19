@@ -1,0 +1,88 @@
+{
+  "slug": "crypt-mimic",
+  "projectId": "HpZy7yoR",
+  "versions": {
+    "6A8BIjxW": {
+      "filename": "Mimic-0.1.0-alpha.2.jar",
+      "url": "https://cdn.modrinth.com/data/HpZy7yoR/versions/6A8BIjxW/Mimic-0.1.0-alpha.2.jar",
+      "hash": "sha512-3ClTcriGe5GClPwbu5ULRBOXjrfbX5z0c6P15DmICDe0AxfGwTF40/57fYjpAzlIvKNbb8E0PgCzYDYYUaoqrQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "8H54kVP0": {
+      "filename": "Mimic-0.1.0-alpha.1.jar",
+      "url": "https://cdn.modrinth.com/data/HpZy7yoR/versions/8H54kVP0/Mimic-0.1.0-alpha.1.jar",
+      "hash": "sha512-ifqoIZFXrJXdwlIfl5Cty149cNNVM+C/7su2P/p5RTA3wPmwR9+VmNjKfrGsckDWX8kzWRGnxm//MYRENXB72g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "UVk7oEtu": {
+      "filename": "Mimic-0.1.0-alpha.0.jar",
+      "url": "https://cdn.modrinth.com/data/HpZy7yoR/versions/UVk7oEtu/Mimic-0.1.0-alpha.0.jar",
+      "hash": "sha512-Sr2AjImjDXS81AUzPL8ez+p4r9XfGnioFg+LvisCPLXBvCvHGo8UrMn3GvyqFZQJ4jMRg4erk2fvXKgZtgtBmw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "6A8BIjxW",
+      "8H54kVP0",
+      "UVk7oEtu"
+    ]
+  }
+}

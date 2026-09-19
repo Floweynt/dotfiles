@@ -1,0 +1,48 @@
+{
+  "slug": "attribute-swap-fix-ss",
+  "projectId": "k7gGaedX",
+  "versions": {
+    "IGj6FfUg": {
+      "filename": "attribute-swap-fixes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/k7gGaedX/versions/IGj6FfUg/attribute-swap-fixes-1.0.0.jar",
+      "hash": "sha512-ePaGJfHN748ZiiIELI5CGR7q7WMVWAbzbyCR8yRexnBQOV5WFTXKaBHfGsIxwCYmogQD/gtIbEy5JNAGys5yQA==",
+      "gameVersions": [
+        "26.2-pre-2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MlAs4TIU": {
+      "filename": "attribute-swap-fixes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/k7gGaedX/versions/MlAs4TIU/attribute-swap-fixes-1.0.0.jar",
+      "hash": "sha512-BP7EpVK4CrLxxElM7Y3CJxahG22SLSAWSPKlNchYC157RRMkClNLzUAtfZVvKGHOBzifx9n1JjeNy7ILaYcyqw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "MlAs4TIU"
+    ],
+    "26.2-pre-2+fabric": [
+      "IGj6FfUg"
+    ]
+  }
+}

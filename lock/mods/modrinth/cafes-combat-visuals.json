@@ -1,0 +1,48 @@
+{
+  "slug": "cafes-combat-visuals",
+  "projectId": "fDeOuyKn",
+  "versions": {
+    "Pl0gpsss": {
+      "filename": "combat-visuals-1.21.11-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fDeOuyKn/versions/Pl0gpsss/combat-visuals-1.21.11-1.0.jar",
+      "hash": "sha512-vfklVyTCEq70K6lWsOsjAm4StuGboE1kTcQb4U+Ldi2Munr8TO3rR33tjB1+AKTcCjqceo3L+zigEfUBHBz/Eg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "x9FVBrMx": {
+      "filename": "combat-visuals-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fDeOuyKn/versions/x9FVBrMx/combat-visuals-1.21.1-1.0.jar",
+      "hash": "sha512-bfI6n2wxVmkqdVMytR3f+9GEfzq2HCBHjKuMwLQOr724RrBL8tzLWoEf5eU2XOC/t9mCPPYWDpQ6B/7CQwhLag==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "x9FVBrMx"
+    ],
+    "1.21.11+fabric": [
+      "Pl0gpsss"
+    ]
+  }
+}

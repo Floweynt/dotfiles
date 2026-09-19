@@ -1,0 +1,97 @@
+{
+  "slug": "throwable-dye",
+  "projectId": "bjoZhxHA",
+  "versions": {
+    "9PwqVqtD": {
+      "filename": "throwabledye-1.0.0-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/bjoZhxHA/versions/9PwqVqtD/throwabledye-1.0.0-1.20.jar",
+      "hash": "sha512-niDOTaFE73YstFaz1Qk8UsZbQEMKWmQp07mQuKYDhcc01zIlY/Y/Iy4vxLrQtMKmNKpJQaF/LPF+S5KplTMzpA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NSonJRIm": {
+      "filename": "throwabledye-1.0.0-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/bjoZhxHA/versions/NSonJRIm/throwabledye-1.0.0-1.19.jar",
+      "hash": "sha512-G/3PH/r25GyEGiiYrGCcC9/WCACwlnBTmARru5p7UDZlMQUD+F0x9a+W86QopqcPTa8ChmMPeS/C8TU4zgx9TQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QDFJLfAq": {
+      "filename": "throwabledye-1.0.0-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/bjoZhxHA/versions/QDFJLfAq/throwabledye-1.0.0-1.19.3.jar",
+      "hash": "sha512-IlanLDE3pPV8IyxgiSnim+XlhiGNBZdWCdxcS+ZYsDqILZX9S0PWfzsmKwKJXXM4tzTT26C35V3Gku7SmTmibw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "NSonJRIm"
+    ],
+    "1.19.1+fabric": [
+      "NSonJRIm"
+    ],
+    "1.19.2+fabric": [
+      "NSonJRIm"
+    ],
+    "1.19.3+fabric": [
+      "QDFJLfAq"
+    ],
+    "1.19.4+fabric": [
+      "QDFJLfAq"
+    ],
+    "1.20+fabric": [
+      "9PwqVqtD"
+    ],
+    "1.20.1+fabric": [
+      "9PwqVqtD"
+    ],
+    "1.20.2+fabric": [
+      "9PwqVqtD"
+    ]
+  }
+}

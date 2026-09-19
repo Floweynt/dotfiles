@@ -1,0 +1,92 @@
+{
+  "slug": "voicelib",
+  "projectId": "ns91qQYT",
+  "versions": {
+    "OT0F4bv0": {
+      "filename": "voicelib-neoforge-1.21.1-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ns91qQYT/versions/OT0F4bv0/voicelib-neoforge-1.21.1-2.0.jar",
+      "hash": "sha512-C3KVKkiEo0LVkbuslr6q+VoPgAHSXUthUs26mhgfxYop7Ksh55IJeAWWt9e5wGKVoaj94EZ12zo4SqtYJ2NqIA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QfpP2L70": {
+      "filename": "voicelib-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ns91qQYT/versions/QfpP2L70/voicelib-fabric-1.0.1.jar",
+      "hash": "sha512-H2hAwAE8wHlS453Vy8LBtvt6LCPh9Ny5cobf0FWqyA2VFQeIYhm5HkoEXbaA8wcLZSTyP2ExrUZuaeBm9yZb9A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "a8yguiiS": {
+      "filename": "voicelib-fabric-1.21.1-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ns91qQYT/versions/a8yguiiS/voicelib-fabric-1.21.1-2.0.jar",
+      "hash": "sha512-v8srs18vuKyDTVkfZbS85E1+k7Ywfvf98M/p5/kZ/CnqvrNqVSm+lklrUr7TpT4A05BJIDHbYUeqJwfs+fDWAQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "iDXafKal": {
+      "filename": "voicelib-neoforge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ns91qQYT/versions/iDXafKal/voicelib-neoforge-1.0.1.jar",
+      "hash": "sha512-ZstMTZLl6gqiDbBButdRwgOKMMenub1UOmztNkCqwEELhlzoAB0J/pPZ9gDAaCWESTMk7hCEaNf46kTeIB4cYg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "QfpP2L70"
+    ],
+    "1.21+neoforge": [
+      "iDXafKal"
+    ],
+    "1.21.1+fabric": [
+      "a8yguiiS",
+      "QfpP2L70"
+    ],
+    "1.21.1+neoforge": [
+      "OT0F4bv0",
+      "iDXafKal"
+    ]
+  }
+}

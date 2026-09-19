@@ -1,0 +1,101 @@
+{
+  "slug": "vampiric-strike-enchantment",
+  "projectId": "XogZq4L9",
+  "versions": {
+    "4Sg9tjzD": {
+      "filename": "vampiric-strike-enchantment-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XogZq4L9/versions/4Sg9tjzD/vampiric-strike-enchantment-fabric-1.0.0.jar",
+      "hash": "sha512-xQhmkCg+/YvV1uWeiXXIwdof79Pr1aHoc5M+CZhlWA143gVyenZ+9UWyB5fYGVSqvoO+i1BsyfHG7KX0KPsa9A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Kmwh2DQD": {
+      "filename": "vampiric-strike-enchantment-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XogZq4L9/versions/Kmwh2DQD/vampiric-strike-enchantment-neoforge-1.0.0.jar",
+      "hash": "sha512-Z49wxd/7KXiQCuMydgtryVKnLs+5k303PMhHOp2acetj8NKMqDuSHooaSelJUqJ/jpNUWqCD7wKw1WO0AU1w2Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ZYNBOOD9": {
+      "filename": "vampiric-strike-enchantment-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/XogZq4L9/versions/ZYNBOOD9/vampiric-strike-enchantment-fabric-1.0.1.jar",
+      "hash": "sha512-9hqiqFvg0rxgR0gv/ybAdlarC524mB4x74iizny5LcDww3JPj8caxB7SNEu6cFsO+xeiaGRlYqUQ91967P8RCA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        }
+      ]
+    },
+    "kCV7HMmt": {
+      "filename": "vampiric-strike-enchantment-neoforge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/XogZq4L9/versions/kCV7HMmt/vampiric-strike-enchantment-neoforge-1.0.1.jar",
+      "hash": "sha512-3rAX+nERD7IEMvFKePOG7hI67W56CDFO7qu0B89a4OfDtOKMUackTMLBz9vA93f2KYrrmuJbyJorftl8ciuvkw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "ZYNBOOD9",
+      "4Sg9tjzD"
+    ],
+    "1.21.1+neoforge": [
+      "kCV7HMmt",
+      "Kmwh2DQD"
+    ]
+  }
+}

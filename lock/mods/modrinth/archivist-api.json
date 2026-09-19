@@ -1,0 +1,128 @@
+{
+  "slug": "archivist-api",
+  "projectId": "svTEwQMq",
+  "versions": {
+    "2SqLdUE6": {
+      "filename": "archivist-forge-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/svTEwQMq/versions/2SqLdUE6/archivist-forge-1.20.1-1.0.2.jar",
+      "hash": "sha512-Ncc0Ybbh2OHekkFtximyZ85H7LZ3xT8YoH8gKrweCi3yhIarXbNssb63VOwbZAwwtBpJq0kPJjciv1g7Ay/kKw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "DemPHUBN": {
+      "filename": "archivist-fabric-1.20.1-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/svTEwQMq/versions/DemPHUBN/archivist-fabric-1.20.1-1.0.4.jar",
+      "hash": "sha512-YG4p0RRBCvxxk8kWk9IBP/cf+7+iUnVRo1ReyhWcTQq8Y6IG6bw/dLhP6hsGTujQfy5TiHZk9yzaTln+vyuqqA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Qqzv2yFY": {
+      "filename": "archivist-fabric-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/svTEwQMq/versions/Qqzv2yFY/archivist-fabric-1.20.1-1.0.2.jar",
+      "hash": "sha512-05GA/utTqS0ZitKikFgnyiF4Jl5P690Swss2F9f2lwke7ijSJXRDTlXSrPVR13FkKgMZkkeBYgJbx+L0T2/Gzw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "h4pQKrh7": {
+      "filename": "archivist-forge-1.20.1-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/svTEwQMq/versions/h4pQKrh7/archivist-forge-1.20.1-1.0.4.jar",
+      "hash": "sha512-VDB0o+OnmBn7gUWUg/gDGQYh8mkooA+9XVoFMEMRtaMYB72oVydMpKrI2ekdpkGUT9YOkGb3jrNTrsF3CMv0Dw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jZr8aTOF": {
+      "filename": "archivist-forge-1.20.1-1.1.12.jar",
+      "url": "https://cdn.modrinth.com/data/svTEwQMq/versions/jZr8aTOF/archivist-forge-1.20.1-1.1.12.jar",
+      "hash": "sha512-pMI0MZ7q+TMmsZRVEGc4ye08/w4hJxzG6T0S1SzDe2UdFKLvNv6QIi8Kz/2J1My8dbeGiNjSH+Uro0V1PN8Mew==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "z0XU8hDm": {
+      "filename": "archivist-fabric-1.20.1-1.1.12.jar",
+      "url": "https://cdn.modrinth.com/data/svTEwQMq/versions/z0XU8hDm/archivist-fabric-1.20.1-1.1.12.jar",
+      "hash": "sha512-Jsgl7BWIs2QZks+GqjlyHj0hO0EKUo8MOfum0nZqc6JQVMd0yc3EIxVA9QmbzYJ/emuLME35xByq3mIFSSGmWg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "z0XU8hDm",
+      "DemPHUBN",
+      "Qqzv2yFY"
+    ],
+    "1.20.1+forge": [
+      "jZr8aTOF",
+      "h4pQKrh7",
+      "2SqLdUE6"
+    ],
+    "1.20.1+quilt": [
+      "z0XU8hDm",
+      "DemPHUBN",
+      "Qqzv2yFY"
+    ]
+  }
+}

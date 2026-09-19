@@ -1,0 +1,105 @@
+{
+  "slug": "weirdchat",
+  "projectId": "pk2h9mf6",
+  "versions": {
+    "Nu7gaf2m": {
+      "filename": "weirdchat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pk2h9mf6/versions/Nu7gaf2m/weirdchat-1.0.0.jar",
+      "hash": "sha512-FR2g8dVSiMbYk6CGCXnkKPQ0s7JSFPUnIMTmUrPM+FzbNbkadE0Kdt9t6pG7GV2+L6Z6mu3eUDgX+6M7qGjBFg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "morechatsuggestions",
+          "projectId": "zqkGIQsF",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "XheYHv7r": {
+      "filename": "WeirdChat-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pk2h9mf6/versions/XheYHv7r/WeirdChat-1.0.1.jar",
+      "hash": "sha512-JyBzDdsL1wR9wR6NjzozqeZRc9owXpVGC6icMDyjH/SvL2CP2qLFRT6miy8SfOfNkbvNhMwKc4uPvvdQZATydQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "morechatsuggestions",
+          "projectId": "zqkGIQsF",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "yIX1W3xT": {
+      "filename": "WeirdChat-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/pk2h9mf6/versions/yIX1W3xT/WeirdChat-1.0.2.jar",
+      "hash": "sha512-8s2WmWGFVVgNS0C/ZTkdWdxBjFOI46IRoUwDNoDN7ANLdtWcs7+9mesZMkDfZU8ycH9ZsfgPlx3Gbp3k/xYbVw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "morechatsuggestions",
+          "projectId": "zqkGIQsF",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "Nu7gaf2m"
+    ],
+    "1.19.4+fabric": [
+      "yIX1W3xT",
+      "XheYHv7r"
+    ]
+  }
+}

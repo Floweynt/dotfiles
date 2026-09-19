@@ -1,0 +1,62 @@
+{
+  "slug": "dio-origin",
+  "projectId": "5n5GxUUi",
+  "versions": {
+    "lT9h7BN6": {
+      "filename": "Dio-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5n5GxUUi/versions/lT9h7BN6/Dio-forge-1.0.0.jar",
+      "hash": "sha512-UnticCtbQ/55XMRIkFj4GIaknh+IxMsFlS7w0hSNT1viZf1p7HqaLqKtRrtgCD0s+IxWcOaF8oczBbmaEsLi/A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        }
+      ]
+    },
+    "xrpTmLlC": {
+      "filename": "Dio-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5n5GxUUi/versions/xrpTmLlC/Dio-fabric-1.0.0.jar",
+      "hash": "sha512-IyVVFzq7dKXYa4HX7i6+3irtdndG9bZM2G2bPOVdUumfNe/aiXpyoAd8QWk+li9ujWrK5ImQ07la5qJvMLd9Qw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "xrpTmLlC"
+    ],
+    "1.20+forge": [
+      "lT9h7BN6"
+    ],
+    "1.20.1+fabric": [
+      "xrpTmLlC"
+    ],
+    "1.20.1+forge": [
+      "lT9h7BN6"
+    ]
+  }
+}

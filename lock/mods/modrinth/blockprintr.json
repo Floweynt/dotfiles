@@ -1,0 +1,87 @@
+{
+  "slug": "blockprintr",
+  "projectId": "FR2inWJY",
+  "versions": {
+    "EktGWctk": {
+      "filename": "BlockPrintr-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/FR2inWJY/versions/EktGWctk/BlockPrintr-0.2.jar",
+      "hash": "sha512-WqM1z4VAY6XWSKpua8zYXiPRr3QzRty00rd5W24zJnJRipaBXIi4Vtr6P0FcGntvT9ZVPx9glWV/ICvMaHwVjg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Oqzaip6T": {
+      "filename": "BlockPrintr-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/FR2inWJY/versions/Oqzaip6T/BlockPrintr-1.21.4.jar",
+      "hash": "sha512-H9GruHC8xDTKpSeBKglWtp4z/w8PooVE06zaqmGBx7fzTt3SLFXL6s6svlQtQI8dRJx/kmz2JWoh+yFVnDh9PA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ivXqNvLw": {
+      "filename": "BlockPrintr-v0.2.jar",
+      "url": "https://cdn.modrinth.com/data/FR2inWJY/versions/ivXqNvLw/BlockPrintr-v0.2.jar",
+      "hash": "sha512-YFlgVIn+W33Lvu/xXYccAq27g1V8qfhV1hUy0GDW2PRLuv2NgW8DY0AIdyZ+8F5CNuSw+H9jcgJMBETzPoRnLA==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "EktGWctk"
+    ],
+    "1.21.1+fabric": [
+      "EktGWctk"
+    ],
+    "1.21.2+fabric": [
+      "ivXqNvLw"
+    ],
+    "1.21.3+fabric": [
+      "ivXqNvLw"
+    ],
+    "1.21.4+fabric": [
+      "ivXqNvLw",
+      "Oqzaip6T"
+    ]
+  }
+}

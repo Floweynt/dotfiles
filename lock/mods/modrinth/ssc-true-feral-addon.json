@@ -1,0 +1,118 @@
+{
+  "slug": "ssc-true-feral-addon",
+  "projectId": "lHpuDyrB",
+  "versions": {
+    "NakNAUdr": {
+      "filename": "true-feral-addon-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/lHpuDyrB/versions/NakNAUdr/true-feral-addon-1.0.2.jar",
+      "hash": "sha512-qn+P3mxkkh8J+HxcgZFjHaw+UTbnIPZexv8JKY/AABC+5gBJVglQfmNg6p2afhskAOpkY3OmjA9v5uAAgov/+w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shape-shifter-curse",
+          "projectId": "aqhZDcov",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WfvvQSAY": {
+      "filename": "true-feral-addon-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/lHpuDyrB/versions/WfvvQSAY/true-feral-addon-1.0.1.jar",
+      "hash": "sha512-5JeCeS9I4ZDJhcUkP7zQImWwGVpIg/qbOOn7+fc8Gq9+LfeQzdePiey2QHTIPq6c/Nhy1aZ83UmL9x9qiDLANg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ddbu43Lz": {
+      "filename": "true-feral-addon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lHpuDyrB/versions/ddbu43Lz/true-feral-addon-1.0.0.jar",
+      "hash": "sha512-7VT12d+sGSL5tC6eW3hckBJX8i60t0W7tpPpgzGDOEphbU9yjDYfT3UYlcQ16vfMMgC9xuk2GJVtN7LsqmkLhA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "shape-shifter-curse",
+          "projectId": "aqhZDcov",
+          "type": "required"
+        }
+      ]
+    },
+    "ifIMTNDz": {
+      "filename": "true-feral-addon-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/lHpuDyrB/versions/ifIMTNDz/true-feral-addon-1.0.3.jar",
+      "hash": "sha512-Rh8JPNtXYOnmLr7hFbC80kPoMfGY6AKY4MhUBi2+763SJ4jGkK6biMIDbeexODWVJgOhwe3DXnysTDOQiyNjbQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ouScerv7": {
+      "filename": "true-feral-addon-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/lHpuDyrB/versions/ouScerv7/true-feral-addon-1.1.0.jar",
+      "hash": "sha512-3HvKpSCumIvVJ4Z6ZdEc5XX0Op6z6Xrs/TH7kR0Cveo7gOkxYcCqi9rYp4+MtCKzyGNpk8AqqZoy/koZNFE9ow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shape-shifter-curse",
+          "projectId": "aqhZDcov",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ouScerv7",
+      "ifIMTNDz",
+      "NakNAUdr",
+      "WfvvQSAY",
+      "ddbu43Lz"
+    ]
+  }
+}

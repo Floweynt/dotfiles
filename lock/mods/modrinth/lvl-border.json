@@ -1,0 +1,54 @@
+{
+  "slug": "lvl-border",
+  "projectId": "cu1ZAdp4",
+  "versions": {
+    "51bwQWQb": {
+      "filename": "lvl--border-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cu1ZAdp4/versions/51bwQWQb/lvl--border-1.0.0.jar",
+      "hash": "sha512-wLUvnhrxrGgIGXc8rd+Cvle+2KL/LW6jOpVMPlZkl9IJilob27sBbC8yezLx0bLlTuJXfZUwuX5CX/RHBcB+Hg==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DgbfdF5B": {
+      "filename": "lvl--border-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/cu1ZAdp4/versions/DgbfdF5B/lvl--border-1.0.1.jar",
+      "hash": "sha512-B/bM4QC6CAC1zUPKCgc8JDNMmJQV6EwbNnPEnGfwX6OUy8JTjBRQZf0FJ7YZ2TOazbJopX0yZWbqo2mohHnHRA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.3+fabric": [
+      "51bwQWQb"
+    ],
+    "1.21.4+fabric": [
+      "DgbfdF5B"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "gavin-and-terry",
+  "projectId": "2Ro4xRXK",
+  "versions": {
+    "Cw0E6TwQ": {
+      "filename": "gavinandterry-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/2Ro4xRXK/versions/Cw0E6TwQ/gavinandterry-1.2.2.jar",
+      "hash": "sha512-kVFCSStozoFefZfI9yRWaWnnpOggTEJb4wuYmiPUlcXg/YqJU71KK98oUjLniR0SRBA0ZO7oG5zKvyOjlEMtoA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "oGkie8AJ": {
+      "filename": "gavinandterry-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/2Ro4xRXK/versions/oGkie8AJ/gavinandterry-1.2.1.jar",
+      "hash": "sha512-wmLQoPOjYymfuANed8kChZ2783c+0jAEIsAYKe8EDICIBV4QTRkhOvWgNXE6IfQGTQEnVDrvHRqmyqqMxACCnA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Cw0E6TwQ"
+    ],
+    "1.20.1+fabric": [
+      "Cw0E6TwQ",
+      "oGkie8AJ"
+    ],
+    "1.20.2+fabric": [
+      "Cw0E6TwQ"
+    ],
+    "1.20.3+fabric": [
+      "Cw0E6TwQ"
+    ],
+    "1.20.4+fabric": [
+      "Cw0E6TwQ"
+    ]
+  }
+}

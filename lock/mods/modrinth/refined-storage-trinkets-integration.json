@@ -1,0 +1,41 @@
+{
+  "slug": "refined-storage-trinkets-integration",
+  "projectId": "EkNHO3Uw",
+  "versions": {
+    "G9QXGkZR": {
+      "filename": "refinedstorage-trinkets-integration-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EkNHO3Uw/versions/G9QXGkZR/refinedstorage-trinkets-integration-1.0.0.jar",
+      "hash": "sha512-EtloyUFaxtI75V7hRYU6KrGsUwhr4LGsgPK9/lLwZujU7pa5KWxybkobjhV81kntF0apj+cN8GPht1T+fG3pSg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "refined-storage",
+          "projectId": "KDvYkUg3",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "G9QXGkZR"
+    ]
+  }
+}

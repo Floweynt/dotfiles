@@ -1,0 +1,54 @@
+{
+  "slug": "ad-astra-ashes-of-luyten",
+  "projectId": "UsmPBboF",
+  "versions": {
+    "LLoK1r8i": {
+      "filename": "Ad Astra Ashes of Luyten 0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UsmPBboF/versions/LLoK1r8i/Ad%20Astra%20Ashes%20of%20Luyten%200.1.jar",
+      "hash": "sha512-UIm2skwGFdKwzsBP2Hmqdpd01yn7rr1sP9AT/aRHmoQwxz49W4BBmn/Hn75arQxHLerlRaoExdP4T5aOQI/iEQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    },
+    "zLL2mw20": {
+      "filename": "Ad Astra Ashes of Luyten.jar",
+      "url": "https://cdn.modrinth.com/data/UsmPBboF/versions/zLL2mw20/Ad%20Astra%20Ashes%20of%20Luyten.jar",
+      "hash": "sha512-wuZ2Ojzno/lW+ZsxqluXI7UrZHEcTdXEipoy/I1EFqTD12mXaCjjQb+Qq9xcfcmD9HzSU4ce8oUp8LLfSlPbzA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "zLL2mw20"
+    ],
+    "1.20.1+forge": [
+      "LLoK1r8i"
+    ]
+  }
+}

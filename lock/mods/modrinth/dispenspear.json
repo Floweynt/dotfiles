@@ -1,0 +1,66 @@
+{
+  "slug": "dispenspear",
+  "projectId": "cs5LMrl3",
+  "versions": {
+    "4jFTivbj": {
+      "filename": "dispenspear-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/cs5LMrl3/versions/4jFTivbj/dispenspear-2.1.jar",
+      "hash": "sha512-cFqX5eONpnTHCtR9kcURss4x1hriG6wOqGVNrfN8PlhAK+KMMrQ9dwAHdnYGXqqGWzmpgd51Jh41DWQGXh5o6w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "OfEQUxch": {
+      "filename": "dispenspear-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/cs5LMrl3/versions/OfEQUxch/dispenspear-2.0.jar",
+      "hash": "sha512-83UQDdR17iI9+W7+I8olYkgGqRbiAEUeqC0ingSMFd+aQx/nRqkRLdV8Sdp4YYMuqPa5SGzJyY8a+j5fJjy5ug==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "urMxLt4B": {
+      "filename": "dispenspear-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cs5LMrl3/versions/urMxLt4B/dispenspear-1.0.jar",
+      "hash": "sha512-ULIeMoTbAdbhZ6QqNeBRTyqBJ8ps2Mrs/G6AI2J6qxJwK+261iMu7u+HuQU8oee1V6HsrU3ZtWUFup3qRfKp7Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "4jFTivbj",
+      "OfEQUxch",
+      "urMxLt4B"
+    ]
+  }
+}

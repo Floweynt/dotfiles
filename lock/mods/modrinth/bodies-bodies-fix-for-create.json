@@ -1,0 +1,56 @@
+{
+  "slug": "bodies-bodies-fix-for-create",
+  "projectId": "WrJYCAvf",
+  "versions": {
+    "MK6SXnnr": {
+      "filename": "bodies-bodies-fix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WrJYCAvf/versions/MK6SXnnr/bodies-bodies-fix-1.0.0.jar",
+      "hash": "sha512-gElUhdxVeg92QJ3dbHil9uO66qfM70bbtPdjkvMwpSmxwPDKWToxU6JwQBxCSI9kVmzzirLgxdV/QWpyYDmU2Q==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "bodies-bodies",
+          "projectId": "t3rZrJqo",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "MK6SXnnr"
+    ],
+    "1.20.2+fabric": [
+      "MK6SXnnr"
+    ],
+    "1.20.3+fabric": [
+      "MK6SXnnr"
+    ],
+    "1.20.4+fabric": [
+      "MK6SXnnr"
+    ],
+    "1.20.5+fabric": [
+      "MK6SXnnr"
+    ],
+    "1.20.6+fabric": [
+      "MK6SXnnr"
+    ]
+  }
+}

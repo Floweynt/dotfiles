@@ -1,0 +1,107 @@
+{
+  "slug": "armordurability",
+  "projectId": "3WIaHCFn",
+  "versions": {
+    "1QMzOTrM": {
+      "filename": "armordurability-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/3WIaHCFn/versions/1QMzOTrM/armordurability-1.21.11.jar",
+      "hash": "sha512-k5FVNDTnFMKbpSZwhoDFc6H/DESl9Yirtaqeroj45j6BXrhMqMc6t4z3cI9eCRJUfCTYRXQvZ+2s3qhc+PLY+A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JuMTEGEt": {
+      "filename": "armordurability-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/3WIaHCFn/versions/JuMTEGEt/armordurability-1.21.4.jar",
+      "hash": "sha512-qm4QjegJbl+qMYRBYhZYIjE2C2tBBwPkpyuUojBghNukJHR160kPNKCuIN+btMWShSudkbp4NB7yjCL3uvCopQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "O6czhVh1": {
+      "filename": "armordurability-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3WIaHCFn/versions/O6czhVh1/armordurability-1.20.1.jar",
+      "hash": "sha512-/vDkLjnaxTODAfRiwB7JPWnr/Cl8oGcFqEc7XQetjGbAvFK0tIbtVjCNgEPf7maCyPjdOY8szbwuDTfin7gAzg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "O6czhVh1"
+    ],
+    "1.21.11+fabric": [
+      "1QMzOTrM"
+    ],
+    "1.21.4+fabric": [
+      "JuMTEGEt"
+    ]
+  }
+}

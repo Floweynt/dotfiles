@@ -1,0 +1,36 @@
+{
+  "slug": "excorrelation-book",
+  "projectId": "57Hpcxza",
+  "versions": {
+    "q79jsuqI": {
+      "filename": "Ebook.jar",
+      "url": "https://cdn.modrinth.com/data/57Hpcxza/versions/q79jsuqI/Ebook.jar",
+      "hash": "sha512-L1YDCR/AIgLKUNDkVN73hXxGLCvCFBa6mp5h1pvgM+IrqAH4LovlPbw1VHlVi72KhOhpFzzQFq+tRK1q7f4iag==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        },
+        {
+          "slug": "excorrelation",
+          "projectId": "jqnzGtnW",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "q79jsuqI"
+    ]
+  }
+}

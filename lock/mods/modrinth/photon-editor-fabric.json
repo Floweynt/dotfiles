@@ -1,0 +1,41 @@
+{
+  "slug": "photon-editor-fabric",
+  "projectId": "uY7AsRR7",
+  "versions": {
+    "pwkKM5C4": {
+      "filename": "photon-1.6.jar",
+      "url": "https://cdn.modrinth.com/data/uY7AsRR7/versions/pwkKM5C4/photon-1.6.jar",
+      "hash": "sha512-QPoemTfhCGT9pCduwGluZUPhci0jOJMJuVHbMLBNv1w5IFwBrviFubyp1SCMW52Wbbe7Sz44heK7iaiHS4fmlw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "special-model-loader",
+          "projectId": "ajFw7VkX",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "ldlib-fabric",
+          "projectId": "WjS2w7Q6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "pwkKM5C4"
+    ]
+  }
+}

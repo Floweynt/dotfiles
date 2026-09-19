@@ -1,0 +1,54 @@
+{
+  "slug": "super-firework",
+  "projectId": "uzEkAXnN",
+  "versions": {
+    "3MsiXFd5": {
+      "filename": "SuperFirework-forge-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/uzEkAXnN/versions/3MsiXFd5/SuperFirework-forge-1.0.2.jar",
+      "hash": "sha512-711rqbkXG9681E/6M1nX5ffDPNgLAVnCU3vqk20vt0J2Mx9LMUOEsEkhZwwRgcAWX2L+Fd07NLBus/Uh/Z28+w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "7ZJndv94": {
+      "filename": "SuperFirework-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/uzEkAXnN/versions/7ZJndv94/SuperFirework-fabric-1.0.2.jar",
+      "hash": "sha512-wn1jYi80+aBR0eb5c6lqDzexJmhjj64b0blFaGFHco+aoeVkbughNlo9/LcD2Cku8ooWV1Lg+l7Kou2plZutiw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "7ZJndv94"
+    ],
+    "1.20.1+forge": [
+      "3MsiXFd5"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "holdyourbreath",
+  "projectId": "LxfmtZJG",
+  "versions": {
+    "VwZUBlGt": {
+      "filename": "holdyourbreath-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LxfmtZJG/versions/VwZUBlGt/holdyourbreath-0.1.0.jar",
+      "hash": "sha512-oTRkoks86qQBp8Ky8nfYrA1gyrn6rZerm0zTUd34PEKy8wcizgbdYpHruXSzK0yvlOhHr7TmUJdXNFMvr4gH7Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gajVCVRq": {
+      "filename": "holdyourbreath-0.1.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/LxfmtZJG/versions/gajVCVRq/holdyourbreath-0.1.1%2B1.21.jar",
+      "hash": "sha512-dIXrCvx+Lw5nt2vPMZ20zKK2FErFnp62fdqcRpQEIkTdndRJLW1EyAMUo9u+Eq/IvvR5QaY4XJpsJHJqAZOHyw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kMf0g9NG": {
+      "filename": "holdyourbreath-0.1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LxfmtZJG/versions/kMf0g9NG/holdyourbreath-0.1.1%2B1.20.1.jar",
+      "hash": "sha512-XkbfwQ92VIvupnFkTSw4bYPPlLxIS9yWwWOwTAgx/EbJtgSDj6+gzKc6taRpxULm7VH1a3ShbQE8pqzlV9WuGQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kMf0g9NG",
+      "VwZUBlGt"
+    ],
+    "1.20.2+fabric": [
+      "kMf0g9NG"
+    ],
+    "1.20.3+fabric": [
+      "kMf0g9NG"
+    ],
+    "1.20.4+fabric": [
+      "kMf0g9NG"
+    ],
+    "1.20.5+fabric": [
+      "kMf0g9NG"
+    ],
+    "1.20.6+fabric": [
+      "kMf0g9NG"
+    ],
+    "1.21+fabric": [
+      "gajVCVRq"
+    ]
+  }
+}

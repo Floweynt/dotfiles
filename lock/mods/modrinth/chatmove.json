@@ -1,0 +1,79 @@
+{
+  "slug": "chatmove",
+  "projectId": "8OpRgkht",
+  "versions": {
+    "n7MKHzvd": {
+      "filename": "chatmove-1.1-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/8OpRgkht/versions/n7MKHzvd/chatmove-1.1-1.19.3.jar",
+      "hash": "sha512-FOk1DyHBQVVj+TwE+PCT+0xvWlAHpat9ZMEGEKh6Ik2oy0nJMCeoFHGvtm5dCaeEHvxSUw0y6DY53gxcKpR1IQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oxbJ2OSw": {
+      "filename": "chatmove-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/8OpRgkht/versions/oxbJ2OSw/chatmove-1.2.jar",
+      "hash": "sha512-QHjF66waKS7iJOU2r8S5UUSUuUZGLtEpPhfCmt6kHI4PVaDpJtxEAP6DQQOfzLXTKDtEK2AhKcxEdxvhkJzFzQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "n7MKHzvd"
+    ],
+    "1.20.1+fabric": [
+      "oxbJ2OSw"
+    ],
+    "1.20.1+quilt": [
+      "oxbJ2OSw"
+    ],
+    "1.20.2+fabric": [
+      "oxbJ2OSw"
+    ],
+    "1.20.2+quilt": [
+      "oxbJ2OSw"
+    ],
+    "1.20.3+fabric": [
+      "oxbJ2OSw"
+    ],
+    "1.20.3+quilt": [
+      "oxbJ2OSw"
+    ],
+    "1.20.4+fabric": [
+      "oxbJ2OSw"
+    ],
+    "1.20.4+quilt": [
+      "oxbJ2OSw"
+    ]
+  }
+}

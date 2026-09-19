@@ -1,0 +1,83 @@
+{
+  "slug": "countereds-accurate-hitboxes",
+  "projectId": "qhu43Hbe",
+  "versions": {
+    "14H9gFwu": {
+      "filename": "countereds-accurate-hitboxes-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/qhu43Hbe/versions/14H9gFwu/countereds-accurate-hitboxes-1.0.1.jar",
+      "hash": "sha512-HanRH52+e7RmYYMUovvc3j/TAiUwJ/WB1+x+gI5T7e/QMKrb0HJ+iGeA0T+SGsSp2AURCr8TWzMJUyDkLYkPoA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "BZOkVJBC": {
+      "filename": "countereds-accurate-hitboxes-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/qhu43Hbe/versions/BZOkVJBC/countereds-accurate-hitboxes-1.0.1.jar",
+      "hash": "sha512-PT3bII4ynzs24cPFpi0uqJnJL+SysIzv+HwXhnj+/IMQdMWDx9c+yl3weyP1/aVLUDNrDOOY44Nl6aI/rCOgUA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    },
+    "Sw2reK53": {
+      "filename": "countereds-accurate-hitboxes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qhu43Hbe/versions/Sw2reK53/countereds-accurate-hitboxes-1.0.0.jar",
+      "hash": "sha512-6U8GGDY0Smr3uBlsjzrwjefaA9x0Zxh0as5MIQWhccBmsBQ/3fcB2hXcGDw/14WMI5elqWL/djSi13nZjrTSWA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "V4wSwKXM": {
+      "filename": "countereds-accurate-hitboxes-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/qhu43Hbe/versions/V4wSwKXM/countereds-accurate-hitboxes-0.1.0.jar",
+      "hash": "sha512-FYdrt/CAHrueL2fBR+DQSkJzZWK0v5Gk0V3aZq/Mk91w4G607CUeryuHwo5ubuM4FL2ZJzbGYk353tat3HJdAw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "14H9gFwu",
+      "Sw2reK53",
+      "V4wSwKXM"
+    ],
+    "1.21.1+neoforge": [
+      "BZOkVJBC"
+    ]
+  }
+}

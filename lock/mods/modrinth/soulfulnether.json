@@ -1,0 +1,84 @@
+{
+  "slug": "soulfulnether",
+  "projectId": "kVLbclwX",
+  "versions": {
+    "6AJMmKuS": {
+      "filename": "soulfulnether-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kVLbclwX/versions/6AJMmKuS/soulfulnether-1.0.0.jar",
+      "hash": "sha512-yjbmu/IBUPBiOnfyVD/tI8ZQWTFmRfjzu+XQtWbdkbIkDU/uwhlBuJXgsER1m4G2faMfxkK4ts+EFG9cK5SNUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "KGvSTp3T": {
+      "filename": "soulfulnether-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kVLbclwX/versions/KGvSTp3T/soulfulnether-1.0.1.jar",
+      "hash": "sha512-QSQS9KC02Ppx5AocjW/0jSzXG6sMlpIoQ7fYJfH8cRFnvG8D6t5EGx9c3otQqFQ89+WAsiK0fnjakyt578OAxw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "elysium-api",
+          "projectId": "6YTvv3aI",
+          "type": "required"
+        }
+      ]
+    },
+    "Y1aCAlo8": {
+      "filename": "soulfulnether-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/kVLbclwX/versions/Y1aCAlo8/soulfulnether-1.0.2.jar",
+      "hash": "sha512-cSTbrVFfoVpuEQZoiQMNEbFTtb13AmQMuCo1R7FQZMyBX4Twd26Igf/Trb0zIvwtmPIk+YGww8VbRK14W29neA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "pwzxszQT": {
+      "filename": "soulful_nether-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kVLbclwX/versions/pwzxszQT/soulful_nether-1.0.0.jar",
+      "hash": "sha512-07QPe7WHR8Dng7yFmEnAh3wMqekmoE0MoCvob5t+gCiL+d5ST/kD2mUqbVPQg/R/b6fMli1UlJbNUhktTfTJtQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pwzxszQT"
+    ],
+    "1.20.1+forge": [
+      "Y1aCAlo8",
+      "KGvSTp3T",
+      "6AJMmKuS"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "let",
+  "projectId": "Ta96h8jB",
+  "versions": {
+    "BomCtXKJ": {
+      "filename": "let-1.20-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ta96h8jB/versions/BomCtXKJ/let-1.20-2.1.0.jar",
+      "hash": "sha512-MPoi9cQw8RHQmyG/kEWk7Z/90lrXPfV955O6pJaVesV3cVWR8u0s5xj+kKU6GZkYWc1VFJZ3SGyCv5NNK2NqbQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PnBtMSy3": {
+      "filename": "let-1.20-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ta96h8jB/versions/PnBtMSy3/let-1.20-2.0.0.jar",
+      "hash": "sha512-sim5Vwz16lKvA6p5vBPAxQf91WrajFAkuEhODTKXuArg/jOar909+7yK+QOBfWwhEH4wUtOI7CQpFgXHagy0QA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "BomCtXKJ",
+      "PnBtMSy3"
+    ],
+    "1.20+quilt": [
+      "BomCtXKJ",
+      "PnBtMSy3"
+    ],
+    "1.20.1+fabric": [
+      "BomCtXKJ",
+      "PnBtMSy3"
+    ],
+    "1.20.1+quilt": [
+      "BomCtXKJ",
+      "PnBtMSy3"
+    ],
+    "1.20.2+fabric": [
+      "BomCtXKJ",
+      "PnBtMSy3"
+    ],
+    "1.20.2+quilt": [
+      "BomCtXKJ",
+      "PnBtMSy3"
+    ]
+  }
+}

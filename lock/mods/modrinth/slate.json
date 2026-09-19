@@ -1,0 +1,68 @@
+{
+  "slug": "slate",
+  "projectId": "g4EwBnja",
+  "versions": {
+    "UQ4bQgWm": {
+      "filename": "slate-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/g4EwBnja/versions/UQ4bQgWm/slate-1.0.jar",
+      "hash": "sha512-uH0BPtqJROH2ApkB/tHovIz1ubKheFDBC3SFxhUtCFGJuBs4g/40BiBcfkJVrXKrlLG0wa3zkvo98iprZ+8N0Q==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "iNNyyjQ1": {
+      "filename": "slate-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/g4EwBnja/versions/iNNyyjQ1/slate-1.0.1.jar",
+      "hash": "sha512-q19gpw49RlUzzXXqXsTP/ET/X8qMBDEDwu3LlB23CXftgUctlfLf/Bh6XZ00HC9wdfFrPtsNkwG3s1bPTL3l0Q==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.3+fabric": [
+      "iNNyyjQ1",
+      "UQ4bQgWm"
+    ],
+    "1.21.4+fabric": [
+      "iNNyyjQ1",
+      "UQ4bQgWm"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "ultimate-chess",
+  "projectId": "CXKUu3x4",
+  "versions": {
+    "HLS08iHl": {
+      "filename": "chessmod-forge-1.1.4-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/CXKUu3x4/versions/HLS08iHl/chessmod-forge-1.1.4-1.20.jar",
+      "hash": "sha512-NejIBD+ovYYUR44q05+TD/x4X8IQUtep00JHH6vRl994mB3HRCN0CMgq1eAEGFWOZxHL7E0rJJirzBexs2jVaA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Vgs0Ogkf": {
+      "filename": "chessmod-fabric-1.1.3-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/CXKUu3x4/versions/Vgs0Ogkf/chessmod-fabric-1.1.3-1.20.jar",
+      "hash": "sha512-KIJz4C8ffgsd0MV3uuXaTkFWSQqWLNA81OCDLUbw7pbs1QuMBB+5SiRJaoe39igE/OAV5rmt9AdNyPycxsSFKQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jEhwMSJS": {
+      "filename": "chessmod-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/CXKUu3x4/versions/jEhwMSJS/chessmod-1.1.2.jar",
+      "hash": "sha512-DSObMPblRVF983EXfnVsQ3X7aUci87Y54oUvGsUrGYmY5mxD5tT/Q16MDTgl5i8XlTl8tMFUx9Cl52Tv7pIIPA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "jEhwMSJS"
+    ],
+    "1.19.1+fabric": [
+      "jEhwMSJS"
+    ],
+    "1.19.2+fabric": [
+      "jEhwMSJS"
+    ],
+    "1.19.3+fabric": [
+      "jEhwMSJS"
+    ],
+    "1.19.4+fabric": [
+      "jEhwMSJS"
+    ],
+    "1.20+fabric": [
+      "Vgs0Ogkf"
+    ],
+    "1.20+forge": [
+      "HLS08iHl"
+    ],
+    "1.20.1+fabric": [
+      "Vgs0Ogkf"
+    ],
+    "1.20.1+forge": [
+      "HLS08iHl"
+    ]
+  }
+}

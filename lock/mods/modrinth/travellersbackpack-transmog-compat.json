@@ -1,0 +1,36 @@
+{
+  "slug": "travellersbackpack-transmog-compat",
+  "projectId": "A1AYC7WC",
+  "versions": {
+    "sF5UdZQ6": {
+      "filename": "tbtransmog_compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/A1AYC7WC/versions/sF5UdZQ6/tbtransmog_compat-1.0.0.jar",
+      "hash": "sha512-JleDrFX/9YTEs8znWWaPwfv/gSiVYqwlcMgX/tmO1szSU9xnQ89b1xdUgJrQt+eef2JPreEuow75aqEYJ6VVZA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "transmog",
+          "projectId": "Th33t82F",
+          "type": "required"
+        },
+        {
+          "slug": "travelersbackpack",
+          "projectId": "rlloIFEV",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sF5UdZQ6"
+    ]
+  }
+}

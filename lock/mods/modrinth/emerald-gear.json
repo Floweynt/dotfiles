@@ -1,0 +1,42 @@
+{
+  "slug": "emerald-gear",
+  "projectId": "37AByVhl",
+  "versions": {
+    "UAcUeAMD": {
+      "filename": "Emerald Gear.jar",
+      "url": "https://cdn.modrinth.com/data/37AByVhl/versions/UAcUeAMD/Emerald%20Gear.jar",
+      "hash": "sha512-Hm5el6ZFUJouRj3ujFqhWNzibLhRXrBuDQaQwqHrY1CHoKF+3eBgLP1krLX88IPu4MDgUHxCkTTWNb2Fhrs/jQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "kGgxEbFh": {
+      "filename": "Emerald Gear Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/37AByVhl/versions/kGgxEbFh/Emerald%20Gear%20Fabric.jar",
+      "hash": "sha512-A+QsRx5UXqCyIORszpC+NmHOhfW7NLL71a7gH71Q35PzowRFC7tFyV00/j9LFsouJKgpSbWVY1CHooOzPxihmA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+forge": [
+      "UAcUeAMD"
+    ],
+    "1.20.1+fabric": [
+      "kGgxEbFh"
+    ]
+  }
+}

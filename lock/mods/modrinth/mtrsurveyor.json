@@ -1,0 +1,111 @@
+{
+  "slug": "mtrsurveyor",
+  "projectId": "teVLe5GO",
+  "versions": {
+    "BaOR6XFS": {
+      "filename": "mtrsurveyor-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/teVLe5GO/versions/BaOR6XFS/mtrsurveyor-1.0.0.jar",
+      "hash": "sha512-BWiICPOe3fkXZ+IUx/UzsYc7av3SuSAR1QB43vN0y3CNfH6n7qozgKgBJQaDALy/fCHQCH2h4J1E0vyrYxUvdQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "mcqoy",
+          "projectId": "tNmWwdI2",
+          "type": "required"
+        }
+      ]
+    },
+    "aPCGCFPj": {
+      "filename": "mtrsurveyor-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/teVLe5GO/versions/aPCGCFPj/mtrsurveyor-0.1.0.jar",
+      "hash": "sha512-rxXJgPIzNnAp3pN//T+0ghoSGPdN1eWPHOvgIWNeif0FtkCqOff2B9fNs/jqD2rvlN2BKot6Chpx4xSHaz0kGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "minecraft-transit-railway",
+          "projectId": "XKPAmI6u",
+          "type": "required"
+        },
+        {
+          "slug": "surveyor",
+          "projectId": "4KjqhPc9",
+          "type": "required"
+        }
+      ]
+    },
+    "srpT3Zdw": {
+      "filename": "mtrsurveyor-2.0.0-beta.1.jar",
+      "url": "https://cdn.modrinth.com/data/teVLe5GO/versions/srpT3Zdw/mtrsurveyor-2.0.0-beta.1.jar",
+      "hash": "sha512-UVqpxOUDQPfJGxzGP2Y0FCAF81O/wd6VO8tLVIDM1G/HdrKzCxlSMxEkBUXKrdvhqk0HuBThXVRhZixO/KN9lg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "minecraft-transit-railway",
+          "projectId": "XKPAmI6u",
+          "type": "required"
+        },
+        {
+          "slug": "surveyor",
+          "projectId": "4KjqhPc9",
+          "type": "required"
+        }
+      ]
+    },
+    "v5shcT5b": {
+      "filename": "mtrsurveyor-0.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/teVLe5GO/versions/v5shcT5b/mtrsurveyor-0.9.0.jar",
+      "hash": "sha512-+xoMcspeUkYxdbWMoga0XOa+njpYv+S8QORFMaNUyKnHtcMgUxqWgz6kqSRY7Ui1fV3bpF3zooV/IttZ7qo84Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "mcqoy",
+          "projectId": "tNmWwdI2",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "BaOR6XFS",
+      "v5shcT5b",
+      "aPCGCFPj"
+    ],
+    "1.21.1+fabric": [
+      "srpT3Zdw"
+    ]
+  }
+}

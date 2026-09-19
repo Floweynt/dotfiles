@@ -1,0 +1,52 @@
+{
+  "slug": "book-of-unlearning",
+  "projectId": "GjUvngQl",
+  "versions": {
+    "d73klUq1": {
+      "filename": "book-of-unlearning-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GjUvngQl/versions/d73klUq1/book-of-unlearning-1.0.0.jar",
+      "hash": "sha512-5vnCKQ2CykXc8iLoF/AkqXfh23LrvpIwkPZxzTrdSugdnG5i97V4AfiaE8p2bnoULtWbb3G6qFWe2K0p7HF/OQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "skills",
+          "projectId": "hqQqvaa4",
+          "type": "required"
+        }
+      ]
+    },
+    "oKRWYcpN": {
+      "filename": "book-of-unlearning-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GjUvngQl/versions/oKRWYcpN/book-of-unlearning-1.0.1.jar",
+      "hash": "sha512-c6aHFua2fiRg9aMEm0C3Nup2XTWcDWKK1TDBXKA9TzUde+DQFr7ERmjPqwYJwtj471ndRStT1Hfdn8v3m3bmDA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "skills",
+          "projectId": "hqQqvaa4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "oKRWYcpN",
+      "d73klUq1"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "inexorable-origins",
+  "projectId": "JgwCq7S0",
+  "versions": {
+    "c5OmVczw": {
+      "filename": "inexorable_origins-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/JgwCq7S0/versions/c5OmVczw/inexorable_origins-fabric.jar",
+      "hash": "sha512-SgjKiTCypnTCAxI7yG8lqXPf+AhuOlhHwl6wHyNQSg+ZZAX/VRtSWeA/E4YwLg7h7ey9d2tFOp+6GTyCSd7YgQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "spectrum",
+          "projectId": "3rc31Hgo",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "c5OmVczw"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "ore-apples",
+  "projectId": "a6qrZtz5",
+  "versions": {
+    "GCvUaybe": {
+      "filename": "ore_apples-1.0.0forge.jar",
+      "url": "https://cdn.modrinth.com/data/a6qrZtz5/versions/GCvUaybe/ore_apples-1.0.0forge.jar",
+      "hash": "sha512-wegtsKhDf2ULij7WE5xfye4XW1nxaG+txK8z9StpBCCiv0c0C568V5enA2Ki1HUspGSvwedwUxQ9r+SnipjA9A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VorhxkXc": {
+      "filename": "ore_apples-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6qrZtz5/versions/VorhxkXc/ore_apples-1.0.0.jar",
+      "hash": "sha512-+z4qZ9tASiJHPWX36UYAu3boJxJOYkWwevpn7Eav3WeOxz3VSxMocmqtPw+9UCV4u+ESKmRKJCoeDELFzmK2Jw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VorhxkXc"
+    ],
+    "1.20.1+forge": [
+      "GCvUaybe"
+    ]
+  }
+}

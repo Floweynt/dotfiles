@@ -1,0 +1,112 @@
+{
+  "slug": "roses",
+  "projectId": "uOf2rpu7",
+  "versions": {
+    "5z1pG1Kc": {
+      "filename": "roses-6.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uOf2rpu7/versions/5z1pG1Kc/roses-6.0.0.jar",
+      "hash": "sha512-kvBMRzS+t0JTtsTn0p8owOdv9rbH88BnRNk/GU4nlrY9SUhg6z/RoZIj9hWGJD8h5D8+hqDiZtn1iyOAh8exRg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "AxGXJ8vK": {
+      "filename": "roses-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uOf2rpu7/versions/AxGXJ8vK/roses-5.0.0.jar",
+      "hash": "sha512-hIYIut7LFcqYDItjfHD89pc9btYCWkxACpxK/7DF/VxxCW3nvjsyRl3WPFc6S4BOHQA0EZ9GzRYaijhxzhz8dQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "EiGmiKi5": {
+      "filename": "roses-6.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/uOf2rpu7/versions/EiGmiKi5/roses-6.0.1.jar",
+      "hash": "sha512-c4yJpES5ufCXtXcHWi1ch8bXgiWYT5j+D3LD6BIdgYOIF7BmTKIDh71LwTux+w0mkxNVDfqE8t6V0Sp/FE8bzw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QbYsc52M": {
+      "filename": "roses-v5.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/uOf2rpu7/versions/QbYsc52M/roses-v5.1.0.jar",
+      "hash": "sha512-udFw0GbvltU0zCLzbAdvw57tXFPLMM81WujSPQOEv8yiWT2B4spzZKct5Kgg7w8wQqIslCgnMNfU/lq9NsKq5A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "m6rD5heN": {
+      "filename": "roses-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/uOf2rpu7/versions/3.2.0/roses-3.2.0.jar",
+      "hash": "sha512-XU7GfhsMs62uOhXlwA8Im4Iqm/MBBjQth6asxLgpxTpnpzpS9Lq99ZuTdg8YMX3sk7/wRP4d8GeurrSv1DV5BA==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.1+forge": [
+      "m6rD5heN"
+    ],
+    "1.20.1+forge": [
+      "QbYsc52M",
+      "AxGXJ8vK"
+    ],
+    "1.20.1+neoforge": [
+      "QbYsc52M"
+    ],
+    "1.20.2+forge": [
+      "QbYsc52M"
+    ],
+    "1.20.2+neoforge": [
+      "QbYsc52M"
+    ],
+    "1.20.4+fabric": [
+      "EiGmiKi5",
+      "5z1pG1Kc"
+    ]
+  }
+}

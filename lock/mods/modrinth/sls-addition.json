@@ -1,0 +1,54 @@
+{
+  "slug": "sls-addition",
+  "projectId": "6RTWtDUb",
+  "versions": {
+    "RaqlHBkz": {
+      "filename": "Carpet-SLS-Addition-0.23.0.jar",
+      "url": "https://cdn.modrinth.com/data/6RTWtDUb/versions/RaqlHBkz/Carpet-SLS-Addition-0.23.0.jar",
+      "hash": "sha512-8m7tG960TqZsYF+lJuGuWwlU0GhgSju1hQhITCku3/n08S+4kxyWEyT3dCcfGDsnqNCj7LcJ2i60xkleYJI/SQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "gNcV2hsp": {
+      "filename": "CarpetSLSAddition-0.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/6RTWtDUb/versions/gNcV2hsp/CarpetSLSAddition-0.21.1.jar",
+      "hash": "sha512-3O3dnEQCZR4af5SQTu6Tm6yT30Put69qA5wDMd9JotXmaFTVuvUqzZ2Gtl7/duq5wuSDV2GsgXoe6VvmyJoZ+A==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "gNcV2hsp"
+    ],
+    "1.21.1+fabric": [
+      "RaqlHBkz"
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "slug": "archers-helicopter",
+  "projectId": "BRq2uv8b",
+  "versions": {
+    "3OMM2uev": {
+      "filename": "archers_helicopter-0.2.1-0315.1024+hotfix02-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/BRq2uv8b/versions/3OMM2uev/archers_helicopter-0.2.1-0315.1024%2Bhotfix02-BETA.jar",
+      "hash": "sha512-5BOVo4cRF6ez8tA8xeA4ZsS3CwY1NRA1w1dhRNilVTRIOgq6OXorw/P8LOEZEHquQYdLY1O2MxrStpz/BnpNnw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XXH0ph21": {
+      "filename": "archers_helicopter-forge-0.0.1-0327.1221-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/BRq2uv8b/versions/XXH0ph21/archers_helicopter-forge-0.0.1-0327.1221-BETA.jar",
+      "hash": "sha512-nw0W7m+9mL+hpg/YfSGx/WJXMOtUwuJT8k3zWAfXE6n1eU1cV5s5AI7KX3+qErS14UWU+dP08hiHet/pdqeQlw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rrKKHN7d": {
+      "filename": "archers_helicopter-0.1-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/BRq2uv8b/versions/rrKKHN7d/archers_helicopter-0.1-BETA.jar",
+      "hash": "sha512-iFkRGXewwvU+plog5/JM1s1hbX4+x+BbS3L4JX9xaedgOqqVR8C+fAzesVlOF/arpS665RzcTUcWC6x3gfl45w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tLUYpAwm": {
+      "filename": "archers_helicopter-forge-0.0.2-0328.1851-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/BRq2uv8b/versions/tLUYpAwm/archers_helicopter-forge-0.0.2-0328.1851-BETA.jar",
+      "hash": "sha512-VIkbITz9KeAqp0370mFAHPsRdw9oQw2ysXMCnH64in08lNZ9V6byiybBzgLiJhXMEWpu0nw83pytlPlLWGAa1A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "3OMM2uev",
+      "rrKKHN7d"
+    ],
+    "1.20.1+forge": [
+      "tLUYpAwm",
+      "XXH0ph21"
+    ],
+    "1.20.2+forge": [
+      "tLUYpAwm",
+      "XXH0ph21"
+    ],
+    "1.20.3+forge": [
+      "tLUYpAwm",
+      "XXH0ph21"
+    ],
+    "1.20.4+forge": [
+      "tLUYpAwm",
+      "XXH0ph21"
+    ],
+    "1.20.5+forge": [
+      "tLUYpAwm",
+      "XXH0ph21"
+    ],
+    "1.20.6+forge": [
+      "tLUYpAwm",
+      "XXH0ph21"
+    ]
+  }
+}

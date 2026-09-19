@@ -1,0 +1,36 @@
+{
+  "slug": "lunali",
+  "projectId": "aR0NZfkp",
+  "versions": {
+    "eFJLBdNK": {
+      "filename": "lunali-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/aR0NZfkp/versions/eFJLBdNK/lunali-0.0.1.jar",
+      "hash": "sha512-UIaxz03cxP7Fzuv1Q/Fi4G3yMYB4gjp0Ba3h6X5d2E7mh2ULISdsMgIVMek3z7cf6MqiO+OvT8MVSOaxhvIVwQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eFJLBdNK"
+    ]
+  }
+}

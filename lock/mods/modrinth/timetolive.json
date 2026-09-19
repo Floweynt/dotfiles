@@ -1,0 +1,54 @@
+{
+  "slug": "timetolive",
+  "projectId": "rCeI5tOW",
+  "versions": {
+    "iwjGKqrk": {
+      "filename": "Time To Live 0.4 (1.19.2).jar",
+      "url": "https://cdn.modrinth.com/data/rCeI5tOW/versions/iwjGKqrk/Time%20To%20Live%200.4%20%281.19.2%29.jar",
+      "hash": "sha512-fDAeM3j8CpA8UJLva5W1wI+yRhTRq1EJbt2NklZoBq+ozUja7ev+2BCpOpCepOFJFPUC7I6kpm5zVoBo5UOpxQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rDY6ESjE": {
+      "filename": "Time To Live 0.5 (1.19.4)-0.5.jar",
+      "url": "https://cdn.modrinth.com/data/rCeI5tOW/versions/rDY6ESjE/Time%20To%20Live%200.5%20%281.19.4%29-0.5.jar",
+      "hash": "sha512-1xryBFo93prmbaYs2i6rWSE+bFY+rY/SFtlb3be5rsKchIc9KVZyLrhsj45L9hThrUcXAu0frVD2+ZzQ6/+zYQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "iwjGKqrk"
+    ],
+    "1.19.4+fabric": [
+      "rDY6ESjE"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "just-a-third-person-camera-mod",
+  "projectId": "kpPLExYI",
+  "versions": {
+    "HX34E5G8": {
+      "filename": "just-a-third-person-camera-mod-1.0.0-26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/kpPLExYI/versions/HX34E5G8/just-a-third-person-camera-mod-1.0.0-26.1.2.jar",
+      "hash": "sha512-6meP2qdjPI8TpeH3Jl//jqD5epLKXuZIi+/bGwkq5/NV960S9/JN8tZbp9YBb9ctOsNaaoSMeN7PkqqpzrdQQQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "OPDNAj8E": {
+      "filename": "just-a-third-person-camera-mod-1.0.0-26.2.jar",
+      "url": "https://cdn.modrinth.com/data/kpPLExYI/versions/OPDNAj8E/just-a-third-person-camera-mod-1.0.0-26.2.jar",
+      "hash": "sha512-ZtapUyBoK73Jfhv3VJRMqC+i/WMl4wXZjjb13d5Ue9SEijBfsXVZfB4rZHk69LBCyMHMjE7K4BGRQ2PRPz/RDA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "HX34E5G8"
+    ],
+    "26.2+fabric": [
+      "OPDNAj8E"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "playernamehider",
+  "projectId": "NPjWPB9F",
+  "versions": {
+    "YEJvW6uL": {
+      "filename": "PlayerNameHider-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NPjWPB9F/versions/YEJvW6uL/PlayerNameHider-1.0.0.jar",
+      "hash": "sha512-nk+CmKRIMQdB49tuBEb92DtFHG7zxIU0/3ZAdfjYB7kX3VggcWHNifswkrjOBrFA+iSlnH4EUecedgnToS8gXA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "YEJvW6uL"
+    ],
+    "1.21.1+fabric": [
+      "YEJvW6uL"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "cobblemon-wild-extras",
+  "projectId": "HasBFHl0",
+  "versions": {
+    "FLMKMbXR": {
+      "filename": "cobblemon_wild_extras-fabric-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/HasBFHl0/versions/FLMKMbXR/cobblemon_wild_extras-fabric-1.1.1.jar",
+      "hash": "sha512-V01UFv4gOfRhM/4TAb1pLAyR/KvtNGo2M9izaXU++/BLZCh6+LYx8P0C9SXbNSiHAZ+MrJC3V68N9FBrXvh3RA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wild-battle-api",
+          "projectId": "v7VZE8kh",
+          "type": "required"
+        }
+      ]
+    },
+    "H47zgfNP": {
+      "filename": "cobblemon_wild_extras-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HasBFHl0/versions/H47zgfNP/cobblemon_wild_extras-fabric-1.0.0.jar",
+      "hash": "sha512-NE2F9flxe7j3tZBsuAH+q0+QDQFf255L8e1iDROqUtCehcwyzOGaviTaF3+s3njlDtBLRuRXpYPt/FVHcrsPxw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wild-battle-api",
+          "projectId": "v7VZE8kh",
+          "type": "required"
+        }
+      ]
+    },
+    "Q4hxV7fD": {
+      "filename": "cobblemon_wild_extras-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HasBFHl0/versions/Q4hxV7fD/cobblemon_wild_extras-neoforge-1.0.0.jar",
+      "hash": "sha512-Ju5RC07YcAQJTErWAMvuWynUb5TQr4dAj/cYkY2Mx3sXkHc25inMntuPwV+Kd6xqhovKQv0sKCNb5soBYx+Ggw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wild-battle-api",
+          "projectId": "v7VZE8kh",
+          "type": "required"
+        }
+      ]
+    },
+    "VeUH55nl": {
+      "filename": "cobblemon_wild_extras-neoforge-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/HasBFHl0/versions/VeUH55nl/cobblemon_wild_extras-neoforge-1.1.1.jar",
+      "hash": "sha512-2OPMKsAVDuL6QHIIv8UjHv8Z4ulMB1mOTURQoGh7RB/VoAGLeVFH2/9bQIDqvtMHGKbsb8wi7Y3wst411DeSOg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wild-battle-api",
+          "projectId": "v7VZE8kh",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "FLMKMbXR",
+      "H47zgfNP"
+    ],
+    "1.21.1+neoforge": [
+      "VeUH55nl",
+      "Q4hxV7fD"
+    ]
+  }
+}

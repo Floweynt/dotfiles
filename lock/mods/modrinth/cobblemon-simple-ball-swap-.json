@@ -1,0 +1,54 @@
+{
+  "slug": "cobblemon-simple-ball-swap-",
+  "projectId": "aQgvk3QD",
+  "versions": {
+    "b1gc1CAp": {
+      "filename": "simpleballswap-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aQgvk3QD/versions/b1gc1CAp/simpleballswap-fabric-1.0.0.jar",
+      "hash": "sha512-MAh+x5PZ/7LGUi19xU1IxVdOYvhB6d2KGAqEO0dZg2Z21KbXBQ4nqQySmAkmtM97H8Z0s6fU5kNa5j9YpZ8S7Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "u2u35NA9": {
+      "filename": "simpleballswap-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aQgvk3QD/versions/u2u35NA9/simpleballswap-neoforge-1.0.0.jar",
+      "hash": "sha512-lbA1HmXB/2iG5vGp9sTGDnmRCpSlJfwk9bFrAHcFLLosOlbRDhorImoPEx7Ft72OLXUZedv5YWKt/dt3PEmq/Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "b1gc1CAp"
+    ],
+    "1.21.1+neoforge": [
+      "u2u35NA9"
+    ]
+  }
+}

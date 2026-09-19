@@ -1,0 +1,108 @@
+{
+  "slug": "paintbrush-mod",
+  "projectId": "4x1BLrza",
+  "versions": {
+    "EgvyZlBO": {
+      "filename": "paint-brush-1.0.2+1.21.9-rc1.jar",
+      "url": "https://cdn.modrinth.com/data/4x1BLrza/versions/EgvyZlBO/paint-brush-1.0.2%2B1.21.9-rc1.jar",
+      "hash": "sha512-Qd7ZAOXR6u2rVqcuYcp6Sykvexu8IJjfguCexwQ798DcqbvUTeWzJjF3b8MypEOfS6DKrd9nnVVXBfY0auc1qw==",
+      "gameVersions": [
+        "1.21.9-rc1",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "ldwzC9hW": {
+      "filename": "paint-brush-1.0.3+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/4x1BLrza/versions/ldwzC9hW/paint-brush-1.0.3%2B26.1.jar",
+      "hash": "sha512-lIJUsT/WKtcdF1oHe76bCFYEiB0JJhAWl3BIp1nKWNIMKhCQttLhKfzi5Tpf7djE9a/Z04ipltWlnIvvkIgmug==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "rHw4vTiW": {
+      "filename": "paint-brush-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/4x1BLrza/versions/rHw4vTiW/paint-brush-1.0.1.jar",
+      "hash": "sha512-wQxNYhmH2YTQrlcc0eD1dJI0ksbzQyuQvbe9VQ/VsR8/orsOFLBzlQe7EQJDLHn9H7ikVbjzgOAPBOTb2piY4Q==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "s7OgtTwv": {
+      "filename": "paint-brush-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4x1BLrza/versions/s7OgtTwv/paint-brush-1.0.0.jar",
+      "hash": "sha512-/TutORTNwSvxuKJrc4mZ9VAPBXAbUoJZRTiJLsoXQVhZh5dvsE2xYGEygNupFcJllpoMe6C/jAoPkNsCI3W7cA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "EgvyZlBO"
+    ],
+    "1.21.8+fabric": [
+      "rHw4vTiW",
+      "s7OgtTwv"
+    ],
+    "1.21.9+fabric": [
+      "EgvyZlBO"
+    ],
+    "1.21.9-rc1+fabric": [
+      "EgvyZlBO"
+    ],
+    "26.1+fabric": [
+      "ldwzC9hW"
+    ],
+    "26.1.1+fabric": [
+      "ldwzC9hW"
+    ],
+    "26.1.2+fabric": [
+      "ldwzC9hW"
+    ]
+  }
+}

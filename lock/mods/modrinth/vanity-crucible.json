@@ -1,0 +1,81 @@
+{
+  "slug": "vanity-crucible",
+  "projectId": "nBQRGCUs",
+  "versions": {
+    "6V26C2cF": {
+      "filename": "vanity_crucible-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/nBQRGCUs/versions/6V26C2cF/vanity_crucible-1.1.jar",
+      "hash": "sha512-t4FKy7O0cR9V6xvQgP1ff0yvZrolZojwG6hhiysZ3o+Q8wLhe7bneG7ZJO9MR9ERvgtuoJBW1w3dBu01amkduA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    },
+    "Ak1OcatS": {
+      "filename": "vanity_crucible-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/nBQRGCUs/versions/Ak1OcatS/vanity_crucible-1.0.jar",
+      "hash": "sha512-L4c1GlIQzUB8yGqay811Zp5b99OSZ6Z0UkB8457+WXzFJvBlfh5O+0Ze7mBR+vVkdxEpw603Zlbaw92yxJtA3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    },
+    "axkfYerw": {
+      "filename": "vanity_crucible-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/nBQRGCUs/versions/axkfYerw/vanity_crucible-1.2.jar",
+      "hash": "sha512-7QD7ysMnMY3m59BuvB918xJdNn1AHDb9Yl7UFpledl0TPOD0a7pOuaRliovkN9OEA+VjYMZebtmdP7rqdI+75A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "axkfYerw",
+      "6V26C2cF",
+      "Ak1OcatS"
+    ],
+    "1.20.1+forge": [
+      "axkfYerw",
+      "6V26C2cF",
+      "Ak1OcatS"
+    ]
+  }
+}

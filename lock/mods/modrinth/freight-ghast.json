@@ -1,0 +1,90 @@
+{
+  "slug": "freight-ghast",
+  "projectId": "eGsxiKjX",
+  "versions": {
+    "5WX3hVJc": {
+      "filename": "freight-ghast-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eGsxiKjX/versions/5WX3hVJc/freight-ghast-fabric-1.1.0.jar",
+      "hash": "sha512-bt2IsK7RSneFVsvNShQC57nBsHHRskvBuY79VmuRP7hHRjPEidWoh+h2PIwRJRx/orkhkmzJU9GL91QZr/v7Sw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LuRfBPce": {
+      "filename": "freight-ghast-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/eGsxiKjX/versions/LuRfBPce/freight-ghast-fabric-1.0.1.jar",
+      "hash": "sha512-RF6AQOAh2Vo68L5xKm+ZBVMsqAoROYnJ6ffJqAjgZqSoH1EA0m1S4AtnbtrUUfcmnoc+TUTTtUv3veEd8N+fXw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "VsXAGqCc": {
+      "filename": "freight-ghast-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eGsxiKjX/versions/VsXAGqCc/freight-ghast-fabric-1.0.0.jar",
+      "hash": "sha512-K+j4ptwAfnw8QxbELekmEiwsIr2Pyx+/EaC9tCLkCcssqI9s/6aocX5YWWwixaaE1IkSPkrKuP0Q2Egym6p4dQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "5WX3hVJc"
+    ],
+    "1.21.8+fabric": [
+      "LuRfBPce",
+      "VsXAGqCc"
+    ]
+  }
+}

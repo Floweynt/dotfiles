@@ -1,0 +1,52 @@
+{
+  "slug": "spear-effects",
+  "projectId": "EGAnNC6p",
+  "versions": {
+    "C1nhArdA": {
+      "filename": "SpearEffects-1.0.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/EGAnNC6p/versions/C1nhArdA/SpearEffects-1.0.0%2B1.21.11.jar",
+      "hash": "sha512-dlorgQR8+OGTaWPwXn2HB4S6R8Gz5rZaWoQ/XJXK4KdXNwSeGDFkZ27wwkLINdNkDzyCWQ9iWZ6fPaL6vN/whg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "walksylib",
+          "projectId": "7P86n6Vg",
+          "type": "required"
+        }
+      ]
+    },
+    "ZvanGOQH": {
+      "filename": "SpearEffects-1.0.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/EGAnNC6p/versions/ZvanGOQH/SpearEffects-1.0.1%2B1.21.11.jar",
+      "hash": "sha512-Z95MfvUHXAwsPMpkSlSqaet5Uj0vYsbma8SkhEmqmBNgm+xiklD8fX49kChmlZDTl9e6XhPBZnsMMwardA64Ew==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "walksylib",
+          "projectId": "7P86n6Vg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "ZvanGOQH",
+      "C1nhArdA"
+    ]
+  }
+}

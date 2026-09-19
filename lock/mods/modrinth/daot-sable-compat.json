@@ -1,0 +1,53 @@
+{
+  "slug": "daot-sable-compat",
+  "projectId": "1N9YvlyW",
+  "versions": {
+    "FndqOhnm": {
+      "filename": "DaotSableFabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1N9YvlyW/versions/FndqOhnm/DaotSableFabric-1.0.0.jar",
+      "hash": "sha512-sZOl36soRTCmSdSGWzWLszPN6qOWHDx+qeI4Kzmic3Ono3JK1FLL7LKi4NIyBEXPnnGb8C3x8rGC+Df/iuymhg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "dannys-aot",
+          "projectId": "7x3oDLDY",
+          "type": "required"
+        },
+        {
+          "slug": "sable",
+          "projectId": "T9PomCSv",
+          "type": "required"
+        }
+      ]
+    },
+    "yYlXu2pF": {
+      "filename": "DaotSableCompat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1N9YvlyW/versions/yYlXu2pF/DaotSableCompat-1.0.0.jar",
+      "hash": "sha512-8nc38KTWMP81vv1/Z1WUEwdjLx2PlSdks37tgSp911mjt8k9RwBmv9nesrFb8cQXAK69cLdlv2cQM3pUYzdU0Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "FndqOhnm"
+    ],
+    "1.21.1+neoforge": [
+      "yYlXu2pF"
+    ]
+  }
+}

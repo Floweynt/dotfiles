@@ -1,0 +1,78 @@
+{
+  "slug": "couples-mod",
+  "projectId": "lmaKgtxP",
+  "versions": {
+    "hFXMkUtv": {
+      "filename": "couplesmod-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/lmaKgtxP/versions/hFXMkUtv/couplesmod-1.0.2.jar",
+      "hash": "sha512-LEEel7fB/sbaGHOI/o2s2Y1XB8HT+81fF+IPM3K4O1UQJaf2XtyQ4u1WeGx7yy0i9vHDKTYDO+jGGpezJyQaAA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "o6nyqdS5": {
+      "filename": "couplesmod-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/lmaKgtxP/versions/o6nyqdS5/couplesmod-1.0.3.jar",
+      "hash": "sha512-GeOoqP4BKGiNiGz7Bjy20+n8P7u5C+crOH4I7gwALGBGs7HHz05ICGcddA7DfbLmN8tL2a6joCom0Wsw8O208w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "oryBYJAL": {
+      "filename": "couplesmod-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/lmaKgtxP/versions/oryBYJAL/couplesmod-1.0.3.jar",
+      "hash": "sha512-G9UUNHvzYsBLq0zZyszLoJMr4p6lqE5gVdTsnidS/NkVCiIDKzUfDCh1tDdwbmIvnYoCOIb1P6w0FjgiVsFTfA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "t1SHA73p": {
+      "filename": "couplesmod-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/lmaKgtxP/versions/t1SHA73p/couplesmod-1.0.1.jar",
+      "hash": "sha512-PeGZZIbEEFpqj6NKNgEUE3nhs/pZjhAvvoTPvvUgNxBiA81Zn3Xkrf5ToJj5NTm6GGDUYlHjkxjaD2bAkaE+vQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "oryBYJAL",
+      "t1SHA73p"
+    ],
+    "1.21.1+neoforge": [
+      "o6nyqdS5",
+      "hFXMkUtv"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "create-wrenchable-shulker-boxes",
+  "projectId": "hpgszTNx",
+  "versions": {
+    "1DFUffVQ": {
+      "filename": "Wrenchable Shulker Boxes.zip",
+      "url": "https://cdn.modrinth.com/data/hpgszTNx/versions/1DFUffVQ/Wrenchable%20Shulker%20Boxes.zip",
+      "hash": "sha512-ooE63/eU6aUMbIXWnSBGpEipG6w2o6c/LnpTEBvQJFKlct2cL2NwNeKOjApOp2z5xjC0Ti8GoliPdIEIi8KdUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "IDlxSBWk": {
+      "filename": "create-wrenchable-shulker-boxes-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hpgszTNx/versions/IDlxSBWk/create-wrenchable-shulker-boxes-1.0.jar",
+      "hash": "sha512-Udss5xZnyLCz3vRc3cdAZsXh1AsOvxrxhjDoYCrns4RyrCFqFGZLr/dC7DZK07CC3Y5QM3hu4E/GX/Zbgp8ZyQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "1DFUffVQ"
+    ],
+    "1.20.1+fabric": [
+      "IDlxSBWk"
+    ],
+    "1.20.1+forge": [
+      "IDlxSBWk"
+    ],
+    "1.20.1+neoforge": [
+      "IDlxSBWk"
+    ],
+    "1.20.1+quilt": [
+      "IDlxSBWk"
+    ]
+  }
+}

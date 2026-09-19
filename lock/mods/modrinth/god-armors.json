@@ -1,0 +1,46 @@
+{
+  "slug": "god-armors",
+  "projectId": "18sXbWpq",
+  "versions": {
+    "YAfuCto8": {
+      "filename": "god-set-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/18sXbWpq/versions/YAfuCto8/god-set-1.1.0.jar",
+      "hash": "sha512-Ow+rBWCJ0BYonD4Pg6d7t8JN9KP1l3d0WJ0HlMk9S1jcrdcsRqfvgsCwtdQ7sYO2B0ed+EvU7JmrKkjv2Zmi9A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qoZFI0JL": {
+      "filename": "god-set-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/18sXbWpq/versions/qoZFI0JL/god-set-1.0.0.jar",
+      "hash": "sha512-L++dvquft3C8jDFXka185b/SgIEPbcleLDLHpCpQMyrNGzORXRDn/c2k56xv4jqNt2cH/dTzxKGuf4tWKm9QOg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "YAfuCto8",
+      "qoZFI0JL"
+    ]
+  }
+}

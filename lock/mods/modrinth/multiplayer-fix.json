@@ -1,0 +1,46 @@
+{
+  "slug": "multiplayer-fix",
+  "projectId": "WD8q5Wod",
+  "versions": {
+    "cXJ7loZw": {
+      "filename": "[1.16.5]MultiPlayerFix-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/WD8q5Wod/versions/cXJ7loZw/%5B1.16.5%5DMultiPlayerFix-1.1.jar",
+      "hash": "sha512-npq37XKeCT613wbXZ/wxVd0aqIs8VyNTXVjyRxOVN2y8aZlXEkd758iKM/ahnntBMgmcrSO7TdBl8v5W90XDZw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cjBidvEL": {
+      "filename": "[1.16.5-fabric]MultiplayerFIX-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/WD8q5Wod/versions/cjBidvEL/%5B1.16.5-fabric%5DMultiplayerFIX-1.0.jar",
+      "hash": "sha512-mE4+/J6kRsJfSb8v8vRruuE74TO70VcVxLGAG2MyZPxarHxd/HQfIhNZ1WDjfoJvtyq0ty/A56XYQOS28ULERw==",
+      "gameVersions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.4+fabric": [
+      "cjBidvEL"
+    ],
+    "1.16.5+fabric": [
+      "cjBidvEL"
+    ],
+    "1.16.5+forge": [
+      "cXJ7loZw"
+    ]
+  }
+}

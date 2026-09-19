@@ -1,0 +1,52 @@
+{
+  "slug": "gods-of-olympus",
+  "projectId": "bPwHzQW1",
+  "versions": {
+    "ApCuzPaA": {
+      "filename": "gofo-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/bPwHzQW1/versions/ApCuzPaA/gofo-1.1.jar",
+      "hash": "sha512-qgTUkKF/H0JASKwr6m4lPkmuVNzcB7lllPQxBLlPs9um6rLz06bqTl17ldXFyKFMTcj5u1RrPjaK7GtxRnCU8g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Xn2UTgH0": {
+      "filename": "gofo-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bPwHzQW1/versions/Xn2UTgH0/gofo-1.0.jar",
+      "hash": "sha512-wHzSQx/cmJ/4ZB0q8QpPjOhl7DNp2nCNFRSk45nLdGvUjTi1srhGpHiNEOR8Mfi1QGJjV0xxejWhhOk+QAiTMg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "ApCuzPaA",
+      "Xn2UTgH0"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "jewelry-reforged-rpg-series-addon",
+  "projectId": "QZJ6GVAi",
+  "versions": {
+    "9wiCIsVN": {
+      "filename": "jewelry_reforged-fabric-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/QZJ6GVAi/versions/9wiCIsVN/jewelry_reforged-fabric-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-Qcc48iI9HbPjy890n4vKiurxz7tJ+rYdwAK7GYDi4vZXzO85+kwClMuPcwapKYMEKYJztuE36KHr4T1k47aaEg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ranged-weapon-api",
+          "projectId": "AqaIIO6D",
+          "type": "required"
+        },
+        {
+          "slug": "spell-power",
+          "projectId": "8ooWzSQP",
+          "type": "required"
+        },
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        }
+      ]
+    },
+    "NfDIqB4I": {
+      "filename": "jewelry_reforged-neoforge-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/QZJ6GVAi/versions/NfDIqB4I/jewelry_reforged-neoforge-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-msXS5RkN/wsgx04o+q9eaK70Fp0rLsHm7Z2O+HqmQhw1IeU4elrdnozQdvayMFSAIWSPrWYygYFhP38QsV2/VQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "spell-power",
+          "projectId": "8ooWzSQP",
+          "type": "required"
+        },
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        },
+        {
+          "slug": "ranged-weapon-api",
+          "projectId": "AqaIIO6D",
+          "type": "required"
+        }
+      ]
+    },
+    "rOx7sGSK": {
+      "filename": "jewelry_reforged-fabric-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/QZJ6GVAi/versions/rOx7sGSK/jewelry_reforged-fabric-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-TLrvHGs+pfQLczQJfYqn+osOOSt2nr72QEkqz/EcAqALywczAzIN13agWidsWuHA8KuOTD3o7HVBeQe0+2FAQw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        },
+        {
+          "slug": "ranged-weapon-api",
+          "projectId": "AqaIIO6D",
+          "type": "required"
+        },
+        {
+          "slug": "spell-power",
+          "projectId": "8ooWzSQP",
+          "type": "required"
+        }
+      ]
+    },
+    "ub1JWznj": {
+      "filename": "jewelry_reforged-neoforge-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/QZJ6GVAi/versions/ub1JWznj/jewelry_reforged-neoforge-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-V+60MowMKew1c6d88KrZGbBCfbnXDvO8JNNmMbNfwsmZVBrKVyb/xKJ1thaxiK3G4sjvKnnml2I8sRBAxdS6nA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "spell-power",
+          "projectId": "8ooWzSQP",
+          "type": "required"
+        },
+        {
+          "slug": "ranged-weapon-api",
+          "projectId": "AqaIIO6D",
+          "type": "required"
+        },
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "9wiCIsVN",
+      "rOx7sGSK"
+    ],
+    "1.21.1+neoforge": [
+      "ub1JWznj",
+      "NfDIqB4I"
+    ]
+  }
+}

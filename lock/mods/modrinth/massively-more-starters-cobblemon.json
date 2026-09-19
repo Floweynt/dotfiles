@@ -1,0 +1,66 @@
+{
+  "slug": "massively-more-starters-cobblemon",
+  "projectId": "v4Q14Yl1",
+  "versions": {
+    "F6LoyCRh": {
+      "filename": "massivelymorestarters.zip",
+      "url": "https://cdn.modrinth.com/data/v4Q14Yl1/versions/F6LoyCRh/massivelymorestarters.zip",
+      "hash": "sha512-9GlpYw8VN9SYWdxgpd9++xGvCP4da5c8mZTqUCSB0pn1+BuKrIYGBF+zqTFyfMkC59yA7PI8iiButmQH/s3MwA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "KB6hGQGV": {
+      "filename": "massively-more-starters-cobblemon-1.jar",
+      "url": "https://cdn.modrinth.com/data/v4Q14Yl1/versions/KB6hGQGV/massively-more-starters-cobblemon-1.jar",
+      "hash": "sha512-GWNpz+ZrYfGiRmbca6nFEnac2vvyprrMx8NaJ1AFa/JqTH4M3LyoVUjZAFazUleuKN7ahWUMonm1Z79NEw6akw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "F6LoyCRh"
+    ],
+    "1.21.1+fabric": [
+      "KB6hGQGV"
+    ],
+    "1.21.1+forge": [
+      "KB6hGQGV"
+    ],
+    "1.21.1+neoforge": [
+      "KB6hGQGV"
+    ],
+    "1.21.1+quilt": [
+      "KB6hGQGV"
+    ]
+  }
+}

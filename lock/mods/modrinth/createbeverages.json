@@ -1,0 +1,35 @@
+{
+  "slug": "createbeverages",
+  "projectId": "KU3KcqXf",
+  "versions": {
+    "Mmda8MxE": {
+      "filename": "createbeverages-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/KU3KcqXf/versions/Mmda8MxE/createbeverages-1.0.1.jar",
+      "hash": "sha512-/Ds0S8/xAiUhxe3EOS65TEQavY4IzE1uOry7dBZzknD+ScK9C50hU4bWN6aV8HzahMl5hS4YXGMwHCTeaS54rA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Mmda8MxE"
+    ],
+    "1.20.1+quilt": [
+      "Mmda8MxE"
+    ]
+  }
+}

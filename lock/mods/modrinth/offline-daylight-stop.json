@@ -1,0 +1,35 @@
+{
+  "slug": "offline-daylight-stop",
+  "projectId": "6Aqr97mA",
+  "versions": {
+    "tZZ9ojgi": {
+      "filename": "offline-daylight-stop-1.0.0+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6Aqr97mA/versions/tZZ9ojgi/offline-daylight-stop-1.0.0%2Bmc1.20.1.jar",
+      "hash": "sha512-t1PGnQQ3hpEvBGnn5laUmKNlhkEHdsouhCyCiygL+MViXdfApD36kNMSiDU3bNE6UtZxyF6yqWwWa2JXUtGJmA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "tZZ9ojgi"
+    ],
+    "1.20.1+fabric": [
+      "tZZ9ojgi"
+    ]
+  }
+}

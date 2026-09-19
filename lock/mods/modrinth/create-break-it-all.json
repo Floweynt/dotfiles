@@ -1,0 +1,134 @@
+{
+  "slug": "create-break-it-all",
+  "projectId": "3FM50h3n",
+  "versions": {
+    "7kekefkf": {
+      "filename": "create-break-it-all-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3FM50h3n/versions/7kekefkf/create-break-it-all-1.0.0.jar",
+      "hash": "sha512-g4rh8Q6+B1J9OpJp6sfLq0EjGL1w9OtGpUz3/yjZL3DAlwyBPlLBoiFfZSlHDHXNlRU1vZb1djDM5y33UhMbSw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "MOrXnGs2": {
+      "filename": "create_break_it_all_2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3FM50h3n/versions/MOrXnGs2/create_break_it_all_2.0.0.jar",
+      "hash": "sha512-VbJ4HVio0hctP7EStm5j1N7eWmBUFFu94TW7THmRV59ixzmSOYx/FtvI/XUuEZsKiMKvcBLWg/c/LrwSc/OSiQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "NLEH2sRN": {
+      "filename": "create_break_it_all_2.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/3FM50h3n/versions/NLEH2sRN/create_break_it_all_2.0.0.zip",
+      "hash": "sha512-aKoJMiuuHNrAj2+A/v+o4nxENaG3/D7MSUFTMcEttzlSwo5S3sjwGhloiLcgR/28vAnDCmkn21roHtibAK9oNw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "jsR46wqM": {
+      "filename": "create_break_it_all_1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/3FM50h3n/versions/jsR46wqM/create_break_it_all_1.0.0.zip",
+      "hash": "sha512-9V1JzEKvRNmMUoUJl4+SYj1w+iHZkuZ4iGietcsiETCfq7zlghkKmp2bNACwP0LHGtLfanI4O8aebDLPlox9bQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "NLEH2sRN",
+      "jsR46wqM"
+    ],
+    "1.21.1+fabric": [
+      "MOrXnGs2",
+      "7kekefkf"
+    ],
+    "1.21.1+forge": [
+      "MOrXnGs2",
+      "7kekefkf"
+    ],
+    "1.21.1+neoforge": [
+      "MOrXnGs2",
+      "7kekefkf"
+    ],
+    "1.21.1+quilt": [
+      "MOrXnGs2",
+      "7kekefkf"
+    ]
+  }
+}

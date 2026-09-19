@@ -1,0 +1,50 @@
+{
+  "slug": "no-anvil-(name)-limits",
+  "projectId": "gWNSo7TG",
+  "versions": {
+    "Cn9ZUfkG": {
+      "filename": "NoAnvilLimits-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/gWNSo7TG/versions/Cn9ZUfkG/NoAnvilLimits-1.1.jar",
+      "hash": "sha512-dLQ3er2uW2IM68/kplP8AYtoW/akWAdu4nC06AoTYuldcn2iwRy9ph59JyyLZpD7ZdTjN9yWpZUT772TypsnAA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "X3l1VCDt": {
+      "filename": "NoAnvilLimits-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/gWNSo7TG/versions/X3l1VCDt/NoAnvilLimits-1.0.jar",
+      "hash": "sha512-/6DJ+h0vHgtLmAx6jELXl8rN22YZEjD2TxsnirDX7LkWonYyY4NMUa8NSfm2HSf/oFgtv1SpZCQ64MNwNKznIg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "X3l1VCDt"
+    ],
+    "1.20.1+quilt": [
+      "X3l1VCDt"
+    ],
+    "1.21.11+fabric": [
+      "Cn9ZUfkG"
+    ],
+    "1.21.11+quilt": [
+      "Cn9ZUfkG"
+    ]
+  }
+}

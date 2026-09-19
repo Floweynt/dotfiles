@@ -1,0 +1,185 @@
+{
+  "slug": "shield-blocks-fall-damage",
+  "projectId": "9vO9Dchd",
+  "versions": {
+    "LlPZKWvZ": {
+      "filename": "shield_blocks_fall.zip",
+      "url": "https://cdn.modrinth.com/data/9vO9Dchd/versions/LlPZKWvZ/shield_blocks_fall.zip",
+      "hash": "sha512-axdLH8mjjTRK2Gm9+0Hsf+T5KpVspZgVQ3muFUDCksklcD6Y5BihGFbszfxM6/3MeyQpeLgxv0qksTNfMzRHsA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "bOiQnSgu": {
+      "filename": "shield_blocks_fall+bounce.zip",
+      "url": "https://cdn.modrinth.com/data/9vO9Dchd/versions/bOiQnSgu/shield_blocks_fall%2Bbounce.zip",
+      "hash": "sha512-Xn8g55/AVuRrVHT7BJiZBA1nXtMao5mUz+uSRpr8YvDT1HdCZFWMQ+0vVmUwzP66RpoXRY3xOwfdLfx0fen/Gg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "player_motion",
+          "projectId": "oDhxdGVZ",
+          "type": "required"
+        }
+      ]
+    },
+    "iyv9Z1un": {
+      "filename": "shield-blocks-fall-damage-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/9vO9Dchd/versions/iyv9Z1un/shield-blocks-fall-damage-1.0.jar",
+      "hash": "sha512-lwvs+rWKQxm5yRdOBC5kZFeYq56a4O9QghxyzTEhcoL74JMdM9cpQ1zCzV0SHC7/4lGvN1XwePR9T25eZQBGPQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zytyqEtj": {
+      "filename": "shield-blocks-fall-damage-1.0+bounce.jar",
+      "url": "https://cdn.modrinth.com/data/9vO9Dchd/versions/zytyqEtj/shield-blocks-fall-damage-1.0%2Bbounce.jar",
+      "hash": "sha512-dYiwAdhSaHt0JUoGTt46iy05XLIebrwmJvWp/NQI26O5SMjjpi5H050QB3ByI/poge6aCvcmR1zPZ4duV3WKVw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "player_motion",
+          "projectId": "oDhxdGVZ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "bOiQnSgu",
+      "LlPZKWvZ"
+    ],
+    "1.21+fabric": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21+forge": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21+neoforge": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21+quilt": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.1+datapack": [
+      "bOiQnSgu",
+      "LlPZKWvZ"
+    ],
+    "1.21.1+fabric": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.1+forge": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.1+neoforge": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.1+quilt": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.2+datapack": [
+      "bOiQnSgu",
+      "LlPZKWvZ"
+    ],
+    "1.21.2+fabric": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.2+forge": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.2+neoforge": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.2+quilt": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.3+datapack": [
+      "bOiQnSgu",
+      "LlPZKWvZ"
+    ],
+    "1.21.3+fabric": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.3+forge": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.3+neoforge": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ],
+    "1.21.3+quilt": [
+      "zytyqEtj",
+      "iyv9Z1un"
+    ]
+  }
+}

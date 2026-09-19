@@ -1,0 +1,101 @@
+{
+  "slug": "full-bundle-tooltip",
+  "projectId": "VhT3vFnZ",
+  "versions": {
+    "5hMXblOY": {
+      "filename": "bundle_fixes-1.1+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/VhT3vFnZ/versions/5hMXblOY/bundle_fixes-1.1%2B26.1.2.jar",
+      "hash": "sha512-bQ3RBJovLm8FbkAfPAmzS0OwJcF3u/0xjaep5+oOP6Pi/8FQ/4q+XHWq9pfdho9iI07o5Teo/HdVZHxsQ7nILA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "92TMOmeC": {
+      "filename": "bundle_fixes-1.1+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/VhT3vFnZ/versions/92TMOmeC/bundle_fixes-1.1%2B26.2.jar",
+      "hash": "sha512-rxV8PQK7vrtsNHtYfUKd6HTyKLMBrZNJCioLpSrR0xOQzIlpu3ulfanXRe3y6r2+KtW5BrQgR18OG5cA8IM7yw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FgrxxsYe": {
+      "filename": "bundle_fixes-1.2+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/VhT3vFnZ/versions/FgrxxsYe/bundle_fixes-1.2%2B26.2.jar",
+      "hash": "sha512-Xj/mGC4Qj5ftF+IqKAkRIirwZSdleitowxHAoIq7EgNphpSxBltYoclgk/s5Zs1e0KgYQ7kAbSm3+fVMJD/m+g==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hUSKXaGS": {
+      "filename": "bundle_fixes-1.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/VhT3vFnZ/versions/hUSKXaGS/bundle_fixes-1.0%2B1.21.11.jar",
+      "hash": "sha512-bK+w5ajKC7XBWgnCdsXQYrMRWh9qkULj3D/TG8nXWJP2mZj+4wcjkps+puyYSAdiR+ZaYIm9V+I7MCB2iX2ecw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kQjg1gai": {
+      "filename": "bundle_fixes-1.0+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/VhT3vFnZ/versions/kQjg1gai/bundle_fixes-1.0%2B26.1.2.jar",
+      "hash": "sha512-s2fZIXaBMCt0QjVFTBE4iZ6VS3IZdvxq0rBW84bRkX+FPrUilJo6IpBavGchNmsvJYQrMd/AwuRUWr7xXYHllg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "hUSKXaGS"
+    ],
+    "26.1.2+fabric": [
+      "5hMXblOY",
+      "kQjg1gai"
+    ],
+    "26.2+fabric": [
+      "FgrxxsYe",
+      "92TMOmeC"
+    ]
+  }
+}

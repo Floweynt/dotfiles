@@ -1,0 +1,31 @@
+{
+  "slug": "distinct-shields",
+  "projectId": "dL3q6MFZ",
+  "versions": {
+    "V8EgLcqj": {
+      "filename": "distinctshields-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dL3q6MFZ/versions/V8EgLcqj/distinctshields-1.0.0.jar",
+      "hash": "sha512-dXvD+VQi34VBD0Ij7Meyvs0rXBEmallocX3Lb48i3H734JyG9W1V+t/E5mIBNXnLivRHXQ5DZm/3D4ZISGeAvQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shieldlib",
+          "projectId": "7SDalH12",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "V8EgLcqj"
+    ]
+  }
+}

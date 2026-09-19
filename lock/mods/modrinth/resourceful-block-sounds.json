@@ -1,0 +1,35 @@
+{
+  "slug": "resourceful-block-sounds",
+  "projectId": "RCFV0N2y",
+  "versions": {
+    "6g9hrce4": {
+      "filename": "resourcefulblocksounds-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RCFV0N2y/versions/6g9hrce4/resourcefulblocksounds-1.0.0.jar",
+      "hash": "sha512-TylT2PfmamBjKwODzqCtU5Bz3Z7L17ttpDwG89NgG9fcA+rEXdj72E3TzzDT/KYRtQZ/6VBisgF1721DOz+UVA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "6g9hrce4"
+    ],
+    "1.20.1+quilt": [
+      "6g9hrce4"
+    ]
+  }
+}

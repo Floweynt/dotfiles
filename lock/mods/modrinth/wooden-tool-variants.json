@@ -1,0 +1,118 @@
+{
+  "slug": "wooden-tool-variants",
+  "projectId": "prYGLLEx",
+  "versions": {
+    "EAhmOdbV": {
+      "filename": "WoodenToolVariants-1.0.6+1.20.2-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/prYGLLEx/versions/EAhmOdbV/WoodenToolVariants-1.0.6%2B1.20.2-Fabric.jar",
+      "hash": "sha512-ErGU7URur+qewHGsqWlO/hfoS/E17yNhcO+TRtQCadIHNChKddUSRUU9PSYZArUZ2vPLnuOAw4gEpcKR+dEJSw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quad",
+          "projectId": "7jzrCiK0",
+          "type": "required"
+        }
+      ]
+    },
+    "SpMYKF4s": {
+      "filename": "WoodenToolsVaraints-1.0.5+1.20.2-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/prYGLLEx/versions/SpMYKF4s/WoodenToolsVaraints-1.0.5%2B1.20.2-Fabric.jar",
+      "hash": "sha512-sDSrMR5xztn3IQrwSVYJP3/nrUo6muJVHiCSTM6TH5WqLfhcCVYubqmldB7sknL7qV33tWA7jke4lhoRWq9DgQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "e5rrDSzW": {
+      "filename": "woodentoolvariants-1.0.0+1.20.2-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/prYGLLEx/versions/e5rrDSzW/woodentoolvariants-1.0.0%2B1.20.2-Forge.jar",
+      "hash": "sha512-Ol0zR+kYgGl24EdLqzfcMPq4dasDKOvj3PJf7Rg1MKNQjyxKwt7KgEVcGbBJekSvTzyNSgGxMGM01g15YB77qw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "pvZvNra8": {
+      "filename": "WoodenToolVariants-1.0.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/prYGLLEx/versions/pvZvNra8/WoodenToolVariants-1.0.1-Forge.jar",
+      "hash": "sha512-Wt2qv/7/RpX4cWfXFfIWmC5lx5j+D4IkfCNahoVAoqR6Xv94zfe7CGu5T3toeJgiFCF3di16f9+7MSZOzGTeEQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quad",
+          "projectId": "7jzrCiK0",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "EAhmOdbV",
+      "SpMYKF4s"
+    ],
+    "1.20+quilt": [
+      "EAhmOdbV"
+    ],
+    "1.20.1+fabric": [
+      "EAhmOdbV",
+      "SpMYKF4s"
+    ],
+    "1.20.1+forge": [
+      "pvZvNra8",
+      "e5rrDSzW"
+    ],
+    "1.20.1+quilt": [
+      "EAhmOdbV"
+    ],
+    "1.20.2+fabric": [
+      "EAhmOdbV",
+      "SpMYKF4s"
+    ],
+    "1.20.2+forge": [
+      "pvZvNra8",
+      "e5rrDSzW"
+    ],
+    "1.20.2+quilt": [
+      "EAhmOdbV"
+    ]
+  }
+}

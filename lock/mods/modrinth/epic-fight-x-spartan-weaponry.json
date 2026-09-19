@@ -1,0 +1,68 @@
+{
+  "slug": "epic-fight-x-spartan-weaponry",
+  "projectId": "I3M6rIMM",
+  "versions": {
+    "V9BoTaFc": {
+      "filename": "epic-fight-x-spartan-weaponry-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/I3M6rIMM/versions/V9BoTaFc/epic-fight-x-spartan-weaponry-1.0.0.jar",
+      "hash": "sha512-XGP4qMDVCkL3cBvocMP0NWh/NlZdOrykZzfY1p62N3KD9blzrKSPvWokIhn2T4GRasZ+zxAXT11xkpOXW9oJsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "spartan-weaponry",
+          "projectId": "icU5P2Mk",
+          "type": "required"
+        },
+        {
+          "slug": "epic-fight",
+          "projectId": "vu3NZ5Ma",
+          "type": "required"
+        }
+      ]
+    },
+    "xCazLulZ": {
+      "filename": "Spartan Weapons x Epic.zip",
+      "url": "https://cdn.modrinth.com/data/I3M6rIMM/versions/xCazLulZ/Spartan%20Weapons%20x%20Epic.zip",
+      "hash": "sha512-Z+r6tLTLbmqHJ0/qjlejqKQs+scBFhrj5JYbzjzWsox+u4NphSCfyQnzCtB65XX8iSBObqWwNvDC1S8IAVDNYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "epic-fight",
+          "projectId": "vu3NZ5Ma",
+          "type": "required"
+        },
+        {
+          "slug": "spartan-weaponry",
+          "projectId": "icU5P2Mk",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "xCazLulZ"
+    ],
+    "1.20.1+fabric": [
+      "V9BoTaFc"
+    ],
+    "1.20.1+forge": [
+      "V9BoTaFc"
+    ]
+  }
+}

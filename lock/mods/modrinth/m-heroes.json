@@ -1,0 +1,127 @@
+{
+  "slug": "m-heroes",
+  "projectId": "aDGIzFIR",
+  "versions": {
+    "77QX4y87": {
+      "filename": "MomosHeroesRelease.jar",
+      "url": "https://cdn.modrinth.com/data/aDGIzFIR/versions/77QX4y87/MomosHeroesRelease.jar",
+      "hash": "sha512-/vp/aU6/bX4H1s4dzeTbmIPIE0K6CrZXtrrGu+S37YuRUNnNlfeBya5YRx5RoaXe6SIOiu11eL+Sfa0Rr4CB1Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gravestone-core",
+          "projectId": "jKzIQ1it",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        }
+      ]
+    },
+    "hANpsmYK": {
+      "filename": "MomosHeroesBeta.jar",
+      "url": "https://cdn.modrinth.com/data/aDGIzFIR/versions/hANpsmYK/MomosHeroesBeta.jar",
+      "hash": "sha512-fYqGISvdCc+WOyD/nBi0bEYKQQ4DAYES9TK1q0ugasHRT1Z6XbsDm5/ZKbTr55f5u/JHh/wAKKjHhHbO+qkQlg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "curios",
+          "projectId": "vvuO3ImH",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "gravestone-core",
+          "projectId": "jKzIQ1it",
+          "type": "required"
+        }
+      ]
+    },
+    "wYtVQmdv": {
+      "filename": "MomosHeroesBeta.jar",
+      "url": "https://cdn.modrinth.com/data/aDGIzFIR/versions/wYtVQmdv/MomosHeroesBeta.jar",
+      "hash": "sha512-VJ2T73xv2LrJ7Lcv1bOVQnGhs/eYotss6U8/s4c+++rTE1G9BFzDygBTj6bsBZiRG3hitbhNGtSGrd4gAPU2WA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gravestone-core",
+          "projectId": "jKzIQ1it",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "curios",
+          "projectId": "vvuO3ImH",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "77QX4y87"
+    ],
+    "1.20.1+forge": [
+      "77QX4y87",
+      "hANpsmYK",
+      "wYtVQmdv"
+    ]
+  }
+}

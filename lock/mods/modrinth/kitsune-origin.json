@@ -1,0 +1,54 @@
+{
+  "slug": "kitsune-origin",
+  "projectId": "xrqZTJpF",
+  "versions": {
+    "fN55THl6": {
+      "filename": "Kitsune-1.1.8.jar",
+      "url": "https://cdn.modrinth.com/data/xrqZTJpF/versions/fN55THl6/Kitsune-1.1.8.jar",
+      "hash": "sha512-JZDvW/pieqxxkN/y3er1JlCUj/mlVJG2FNbI/VMZcJxNNypmNopGqzv62gidQgtnFBY+QKL4dcD60772BvQepg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "hZyt64Mc": {
+      "filename": "Kitsune-1.1.9.jar",
+      "url": "https://cdn.modrinth.com/data/xrqZTJpF/versions/hZyt64Mc/Kitsune-1.1.9.jar",
+      "hash": "sha512-3c1PBN8PTfkXUl4gg9mr4aGV4OPpL1xcN6n0ewSdM+nEUCrEXsZ9AYnPmHrrunz35sOZDfvf4CEPlcoXINJSMQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "fN55THl6"
+    ],
+    "1.19+fabric": [
+      "hZyt64Mc"
+    ]
+  }
+}

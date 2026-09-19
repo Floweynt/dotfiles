@@ -1,0 +1,88 @@
+{
+  "slug": "soxy",
+  "projectId": "zubQEC9R",
+  "versions": {
+    "LFAsFZ6i": {
+      "filename": "soxy-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/zubQEC9R/versions/LFAsFZ6i/soxy-1.0.2.jar",
+      "hash": "sha512-qLIFGkVrf2eK/M8r7a+TLVPpRaKZa/o2xsWhUeJ7fGwoWoTFRTsTKFbsO+MzXxT41mdprkfjsuprCi8UAtiTKA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        }
+      ]
+    },
+    "OWzynliL": {
+      "filename": "soxy-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/zubQEC9R/versions/OWzynliL/soxy-1.0.1.jar",
+      "hash": "sha512-n06WOFEdBx3NPXw5Sj7WqcvS3RhyH6OxDw8W5bmmknII83e2sZAH15VtZPl6Kv2oOoiktLObVR4RBxMgpoc0OQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zEOVoD7O": {
+      "filename": "soxy-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zubQEC9R/versions/zEOVoD7O/soxy-1.0.0.jar",
+      "hash": "sha512-IGW+hj3JhpYafGfeXce8EJM4CIBCsNWEa55JfELbH5wAdEZwIswa1t5tXdeZtFBqo+GFjhxBkkDGQUZa4WJ3RQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "LFAsFZ6i",
+      "OWzynliL",
+      "zEOVoD7O"
+    ]
+  }
+}

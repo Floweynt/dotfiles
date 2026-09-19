@@ -1,0 +1,54 @@
+{
+  "slug": "bannerhunt",
+  "projectId": "EcA6jnWX",
+  "versions": {
+    "6cc3zHs9": {
+      "filename": "bannerhunt-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EcA6jnWX/versions/6cc3zHs9/bannerhunt-1.0.jar",
+      "hash": "sha512-KbeuUXSoOfDPZOFtb6OwEk42FVYdy2zPaNjqNR7lOzE3iZUUbrnvwqOC2Rs1ctE39TpjHEGe1NHZIE4S3cQhMQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "SOiwdTw2": {
+      "filename": "BannerHunt-1.20.1-v1.0.zip",
+      "url": "https://cdn.modrinth.com/data/EcA6jnWX/versions/SOiwdTw2/BannerHunt-1.20.1-v1.0.zip",
+      "hash": "sha512-CEepd7DZXYAg0gNF3mTgihWO5JqpERHUsjlxKtl9M0kevdM6/IPowZXr3kHKmZVIcV6vGZzzgwmM5iAbPk1zFw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "SOiwdTw2"
+    ],
+    "1.20.1+fabric": [
+      "6cc3zHs9"
+    ],
+    "1.20.1+forge": [
+      "6cc3zHs9"
+    ],
+    "1.20.1+neoforge": [
+      "6cc3zHs9"
+    ],
+    "1.20.1+quilt": [
+      "6cc3zHs9"
+    ]
+  }
+}

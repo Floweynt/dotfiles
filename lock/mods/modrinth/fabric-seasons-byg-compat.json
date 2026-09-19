@@ -1,0 +1,36 @@
+{
+  "slug": "fabric-seasons-byg-compat",
+  "projectId": "EkEzjF3t",
+  "versions": {
+    "zEP3KLn5": {
+      "filename": "fabric-seasons-byg-2.0.1.1-compat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EkEzjF3t/versions/zEP3KLn5/fabric-seasons-byg-2.0.1.1-compat-1.0.jar",
+      "hash": "sha512-YOSXbaCf2rfJYwJ3Qr4CkeG3PRCyc1ow1nv0ZAELYGfju5PMEmSElkt4SEve1VVqVSdChphKGFF0m2W29mfT8Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-seasons",
+          "projectId": "KJe6y9Eu",
+          "type": "required"
+        },
+        {
+          "slug": "biomesyougo",
+          "projectId": "uE1WpIAk",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "zEP3KLn5"
+    ]
+  }
+}

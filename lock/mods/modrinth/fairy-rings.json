@@ -1,0 +1,58 @@
+{
+  "slug": "fairy-rings",
+  "projectId": "eIGAb5rB",
+  "versions": {
+    "7oFOJ1OI": {
+      "filename": "fairy-rings-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eIGAb5rB/versions/7oFOJ1OI/fairy-rings-1.0.0.jar",
+      "hash": "sha512-oEuLt5N+Hixq34QOmbCnKsPtgkFRVrNPM1GZhy+PD2SVTNYWSgDr4Bg+s7FAImbI4yM/hoOzTZ2UJtgoysg/Qw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sSTwSQdI": {
+      "filename": "fairy-rings-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eIGAb5rB/versions/sSTwSQdI/fairy-rings-1.1.0.jar",
+      "hash": "sha512-TmEedbInlW9Q0TCoWUZhyo1FM84BlI8NCKu0fsLuLsOqxtuSeW905aOHLUZZcF3L/IOYfewvGFPf34tAyk2qRA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "7oFOJ1OI"
+    ],
+    "1.20.2+fabric": [
+      "7oFOJ1OI"
+    ],
+    "1.21.5+fabric": [
+      "sSTwSQdI"
+    ]
+  }
+}

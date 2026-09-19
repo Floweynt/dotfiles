@@ -1,0 +1,76 @@
+{
+  "slug": "blaze-rod-vendor",
+  "projectId": "HM4UXYcU",
+  "versions": {
+    "QYy9bHnX": {
+      "filename": "blazerodvendor-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/HM4UXYcU/versions/QYy9bHnX/blazerodvendor-1.2.2.jar",
+      "hash": "sha512-1Eqr2bguL1pW/dDmPZaMmIfzWvTemzXXFyZc+cjTIzzVisYui7F9+LbigR49B4KY3BAuTVSpcJvICpGSvUmNWw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VCjOY1Qm": {
+      "filename": "blazerodvendor-0.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/HM4UXYcU/versions/VCjOY1Qm/blazerodvendor-0.1.4.jar",
+      "hash": "sha512-eWeM6hi6b2FNrXl9vqi9ouGCqfRMbRmK2T9/wjlsePTS5H8axrP/beht202NLFv1FNScsdf6wdpurk7AlIWhMA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "QYy9bHnX",
+      "VCjOY1Qm"
+    ],
+    "1.20.1+fabric": [
+      "QYy9bHnX",
+      "VCjOY1Qm"
+    ],
+    "1.20.2+fabric": [
+      "QYy9bHnX",
+      "VCjOY1Qm"
+    ],
+    "1.20.3+fabric": [
+      "QYy9bHnX",
+      "VCjOY1Qm"
+    ],
+    "1.20.4+fabric": [
+      "QYy9bHnX",
+      "VCjOY1Qm"
+    ]
+  }
+}

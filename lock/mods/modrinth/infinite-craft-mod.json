@@ -1,0 +1,73 @@
+{
+  "slug": "infinite-craft-mod",
+  "projectId": "L3PSWK2b",
+  "versions": {
+    "T1Lf1KW8": {
+      "filename": "infinite-craft-0.2.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/L3PSWK2b/versions/T1Lf1KW8/infinite-craft-0.2.0-SNAPSHOT.jar",
+      "hash": "sha512-2gXdx5ujBlZQRa8UmERrVosj/0+q/q1oaBdAckqm4VltESxLt1AHr+iEcFMZcp4Z3zo88EHmtqeOEKAMr5OBXg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "h5LWqs4f": {
+      "filename": "infinite-craft-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L3PSWK2b/versions/h5LWqs4f/infinite-craft-1.0.jar",
+      "hash": "sha512-6Rq0Jj7vszGQa6GTl0/hk4diqxKmiG2tl97hnT3qg7XuAAnTuU28JRAiM88AsDcKiD59C5vo2OTudJfzjvymeA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qwz0ThRy": {
+      "filename": "infinite-craft-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/L3PSWK2b/versions/qwz0ThRy/infinite-craft-1.1.jar",
+      "hash": "sha512-466P8yFj20b/jrUYi6ev66p01xdVPqI6sK39qKQzi/kEML7mPAcoIZxkyWfGDpBjVetI7b2NYDtCnors81yz5w==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "qwz0ThRy",
+      "h5LWqs4f",
+      "T1Lf1KW8"
+    ]
+  }
+}

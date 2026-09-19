@@ -1,0 +1,53 @@
+{
+  "slug": "baablu-natural-disasters",
+  "projectId": "6CfIInTi",
+  "versions": {
+    "gs5AtqIy": {
+      "filename": "BaabluNaturalDisasters-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6CfIInTi/versions/gs5AtqIy/BaabluNaturalDisasters-1.20.1-1.1.0.jar",
+      "hash": "sha512-zJQAh5Xg4/ttjVLBuflelpejQb0HQ76iCB37Eiet7MZoL0YJE3wsaNYXsF1fzvzGIud80A1zlgnCz7mhRai0PA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hkZuhubj": {
+      "filename": "BaabluNaturalDisasters-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6CfIInTi/versions/hkZuhubj/BaabluNaturalDisasters-2.0.0.jar",
+      "hash": "sha512-/jojHvWzwN0E6meqm+l8Jw9LG0hKfeR7E+7ML8yZGvMN8gr/R64HL7z/2nP4VqtYAaHW5okaDWAH6LwRpUCyTQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gs5AtqIy"
+    ],
+    "26.2+fabric": [
+      "hkZuhubj"
+    ]
+  }
+}

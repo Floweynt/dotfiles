@@ -1,0 +1,52 @@
+{
+  "slug": "fabricplaceholderapi-parser",
+  "projectId": "NHW6fy0n",
+  "versions": {
+    "jeYpjbG4": {
+      "filename": "FabricPlaceholderAPI-Parser-1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/NHW6fy0n/versions/jeYpjbG4/FabricPlaceholderAPI-Parser-1.0%2B1.21.jar",
+      "hash": "sha512-6kGaaNQPV6nUCK0nidpCAu7Efkz215elsqZ8XBN4o2R4LB/fmB6HshqGXg7VJAr1ZbukFD+wuBhwyVpfJLwdtw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "yj3CZMkU": {
+      "filename": "FabricPlaceholderAPI-Parser-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/NHW6fy0n/versions/yj3CZMkU/FabricPlaceholderAPI-Parser-1.0.jar",
+      "hash": "sha512-Xs6h3oLxg1/4vT0IqOQ6fzu4raPJ/hhrWglJDTY5FnmJZA99fBEkdnDytObHtu3DAQMPbwTOeq/mvFBlL6TU0Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "placeholder-api",
+          "projectId": "eXts2L7r",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yj3CZMkU"
+    ],
+    "1.21+fabric": [
+      "jeYpjbG4"
+    ],
+    "1.21.1+fabric": [
+      "jeYpjbG4"
+    ]
+  }
+}

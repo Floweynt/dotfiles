@@ -1,0 +1,36 @@
+{
+  "slug": "create-bronze",
+  "projectId": "fWrEikB1",
+  "versions": {
+    "7VYhoKQZ": {
+      "filename": "create_bronze-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fWrEikB1/versions/7VYhoKQZ/create_bronze-1.0.0.jar",
+      "hash": "sha512-FxJaRgB+KRbqGmfy45a8/EUNZAEJdrV9qH58PPQpwoxd4H+rXgin2hR6h614f7X7StPBGYvDTJZPexdlOa88LQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "7VYhoKQZ"
+    ]
+  }
+}

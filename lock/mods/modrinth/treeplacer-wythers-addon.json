@@ -1,0 +1,102 @@
+{
+  "slug": "treeplacer-wythers-addon",
+  "projectId": "BPhOreRX",
+  "versions": {
+    "cA4NIZR7": {
+      "filename": "treeplacer-wythers-addon-1.jar",
+      "url": "https://cdn.modrinth.com/data/BPhOreRX/versions/cA4NIZR7/treeplacer-wythers-addon-1.jar",
+      "hash": "sha512-fi+YVJSztMib1lm7zElgQGvUHAYp+UF2PNaNtLjy2SexQAiKEiLrmu3pixHDhOhsOpZVdLJaLtdSE4A0PTFptg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "treeplacer",
+          "projectId": "4im8hCxA",
+          "type": "required"
+        }
+      ]
+    },
+    "iaDRoj7A": {
+      "filename": "Treeplacer-Wyther's-Addon-1.0-datapack.zip",
+      "url": "https://cdn.modrinth.com/data/BPhOreRX/versions/iaDRoj7A/Treeplacer-Wyther%27s-Addon-1.0-datapack.zip",
+      "hash": "sha512-6mNz7k66O01h3f+1YEwR9+t2lglPFcjfg23QmxusU4BXQXjTGznple6L+2BQWzVVPb3KIrXJFvxkppl7N8bEAg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "treeplacer",
+          "projectId": "4im8hCxA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+datapack": [
+      "iaDRoj7A"
+    ],
+    "1.19+fabric": [
+      "cA4NIZR7"
+    ],
+    "1.19+forge": [
+      "cA4NIZR7"
+    ],
+    "1.19.1+datapack": [
+      "iaDRoj7A"
+    ],
+    "1.19.1+fabric": [
+      "cA4NIZR7"
+    ],
+    "1.19.1+forge": [
+      "cA4NIZR7"
+    ],
+    "1.19.2+datapack": [
+      "iaDRoj7A"
+    ],
+    "1.19.2+fabric": [
+      "cA4NIZR7"
+    ],
+    "1.19.2+forge": [
+      "cA4NIZR7"
+    ],
+    "1.19.3+datapack": [
+      "iaDRoj7A"
+    ],
+    "1.19.3+fabric": [
+      "cA4NIZR7"
+    ],
+    "1.19.3+forge": [
+      "cA4NIZR7"
+    ],
+    "1.19.4+datapack": [
+      "iaDRoj7A"
+    ],
+    "1.19.4+fabric": [
+      "cA4NIZR7"
+    ],
+    "1.19.4+forge": [
+      "cA4NIZR7"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "fiber-api",
+  "projectId": "VrFQFjT3",
+  "versions": {
+    "Vq5bVBBu": {
+      "filename": "fiber-api-1.0.0-beta.1.jar",
+      "url": "https://cdn.modrinth.com/data/VrFQFjT3/versions/Vq5bVBBu/fiber-api-1.0.0-beta.1.jar",
+      "hash": "sha512-LEgI9ycEhv3zIIgrPEbC4xS8MaOIM5k1MBN9cZPCE1qQP6Z6UGt9VNLRCkXuojtSd1ivJcDtuDrI/h/n8RJ17g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "Ydnjg6xj": {
+      "filename": "fiber-api-1.0.0-alpha.2.jar",
+      "url": "https://cdn.modrinth.com/data/VrFQFjT3/versions/Ydnjg6xj/fiber-api-1.0.0-alpha.2.jar",
+      "hash": "sha512-/DjrDDXmEvirSsIMtJgs10yQleYv0YqznBcTd8TgjRSXZneVLZKr5Kz5YrRXxAdZuC51v14nTZgjLcBRFUKxKw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pWKuWnSn": {
+      "filename": "fiber-api-1.0.0-alpha.3.jar",
+      "url": "https://cdn.modrinth.com/data/VrFQFjT3/versions/pWKuWnSn/fiber-api-1.0.0-alpha.3.jar",
+      "hash": "sha512-VfGWSrhIxu/RSVs9kxZdqE1LOBauSruR1SBBVyBua0YCahkunR8ruGdjXnAYm3rbimBwzCAukyFiEV1tyBnX+A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "td0nnnSA": {
+      "filename": "fiber-api-1.0.0-alpha.1.jar",
+      "url": "https://cdn.modrinth.com/data/VrFQFjT3/versions/td0nnnSA/fiber-api-1.0.0-alpha.1.jar",
+      "hash": "sha512-JdTIOMxJcBbJa6JErliv2kN6/fHZE2AWPp/RthP3jD7vzDGBQN8kZwvaTiH9s53dJhnyAiGSmcMaCXkWRa9Dpg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "Vq5bVBBu",
+      "pWKuWnSn",
+      "Ydnjg6xj",
+      "td0nnnSA"
+    ],
+    "1.21+neoforge": [
+      "Vq5bVBBu"
+    ],
+    "1.21+quilt": [
+      "Vq5bVBBu"
+    ],
+    "1.21.1+fabric": [
+      "Vq5bVBBu",
+      "pWKuWnSn",
+      "Ydnjg6xj",
+      "td0nnnSA"
+    ],
+    "1.21.1+neoforge": [
+      "Vq5bVBBu"
+    ],
+    "1.21.1+quilt": [
+      "Vq5bVBBu"
+    ]
+  }
+}

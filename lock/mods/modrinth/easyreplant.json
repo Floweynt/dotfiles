@@ -1,0 +1,95 @@
+{
+  "slug": "easyreplant",
+  "projectId": "RzzGW489",
+  "versions": {
+    "bLVTr5Hc": {
+      "filename": "easyreplant-1.21.2-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/RzzGW489/versions/bLVTr5Hc/easyreplant-1.21.2-1.21.4.jar",
+      "hash": "sha512-REfWBIRz+so2DN5qMQ5oCayu7Y0GpoIlAJxwcBKmJYq8muHT75qzMf9fMB2o1Kqizm0f6ElEZ5YeK9kwJsUQ/A==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "wX8Z1NdM": {
+      "filename": "easyreplant-1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/RzzGW489/versions/wX8Z1NdM/easyreplant-1.21-1.21.1.jar",
+      "hash": "sha512-j2fSAmqWZxd6cWFuJ/iBMuw5eoDonbaVCnKtMyPcsXTp6jAnypuEhjh19Uvi/5Z+MV25g/fwqcbIJ2EnDT0Tmw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yJ8mTtlB": {
+      "filename": "easyreplant-1.21.5-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/RzzGW489/versions/yJ8mTtlB/easyreplant-1.21.5-1.21.8.jar",
+      "hash": "sha512-/ncINoAEqEaPKLTOXPSELi/RyjyXaPgu4yqfyMUtexvl0XLFAsVDSC/xyg7mtUsgzxXOp0IameCQrrnphxgziQ==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "wX8Z1NdM"
+    ],
+    "1.21.1+fabric": [
+      "wX8Z1NdM"
+    ],
+    "1.21.2+fabric": [
+      "bLVTr5Hc"
+    ],
+    "1.21.3+fabric": [
+      "bLVTr5Hc"
+    ],
+    "1.21.4+fabric": [
+      "bLVTr5Hc"
+    ],
+    "1.21.5+fabric": [
+      "yJ8mTtlB"
+    ],
+    "1.21.6+fabric": [
+      "yJ8mTtlB"
+    ],
+    "1.21.7+fabric": [
+      "yJ8mTtlB"
+    ],
+    "1.21.8+fabric": [
+      "yJ8mTtlB"
+    ]
+  }
+}

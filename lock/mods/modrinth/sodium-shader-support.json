@@ -1,0 +1,74 @@
+{
+  "slug": "sodium-shader-support",
+  "projectId": "8joDCBGc",
+  "versions": {
+    "emPtr2Hj": {
+      "filename": "sodium-shader-support-mc1.19.4-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8joDCBGc/versions/emPtr2Hj/sodium-shader-support-mc1.19.4-0.1.0.jar",
+      "hash": "sha512-MpAgAhgQFku7A2LteXnQT3N//FBsmrul2tf77XicHFtOJ5yYRVuq7av2vWjSrn9plkUZ3nRgTeaHtQdtfeoVWA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "kjjRACX4": {
+      "filename": "sodium-shader-support-0.1.0-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/8joDCBGc/versions/kjjRACX4/sodium-shader-support-0.1.0-mc1.20.1.jar",
+      "hash": "sha512-4hBMw8GAbfgjjk3rubzAo0WZw+A3lESt82Ai54YRg23MIgoHQ6OQOAdbIYACne8KoFBm/wEKIBpg/hBjiISeLA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "emPtr2Hj"
+    ],
+    "1.19.1+fabric": [
+      "emPtr2Hj"
+    ],
+    "1.19.2+fabric": [
+      "emPtr2Hj"
+    ],
+    "1.19.3+fabric": [
+      "emPtr2Hj"
+    ],
+    "1.19.4+fabric": [
+      "emPtr2Hj"
+    ],
+    "1.20+fabric": [
+      "kjjRACX4"
+    ],
+    "1.20.1+fabric": [
+      "kjjRACX4"
+    ]
+  }
+}

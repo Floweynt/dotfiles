@@ -1,0 +1,100 @@
+{
+  "slug": "create-mod-tools",
+  "projectId": "u7M7QKOB",
+  "versions": {
+    "cWBVMGCk": {
+      "filename": "create-mod-tools-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/u7M7QKOB/versions/cWBVMGCk/create-mod-tools-1.0.0.jar",
+      "hash": "sha512-XCs8EphiGw8EZiZaATNt83FqUFzZ1PlAjf0aFvFBkmXGJP23RMjMo1rTj6iGlLJ8GF3Sh1oW1mM3IWiMSk/ATw==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "o9xUSmpq": {
+      "filename": "create-tools.zip",
+      "url": "https://cdn.modrinth.com/data/u7M7QKOB/versions/o9xUSmpq/create-tools.zip",
+      "hash": "sha512-1SZEtHALy1Cgb+Bf2ObGccQw9QRzU/U9sKAq4camAJ7wZJ7rZOphPvW1IHzf0ljsyDzmxEGXX2ALt7T/HkutJg==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+datapack": [
+      "o9xUSmpq"
+    ],
+    "1.18.2+fabric": [
+      "cWBVMGCk"
+    ],
+    "1.18.2+forge": [
+      "cWBVMGCk"
+    ],
+    "1.18.2+neoforge": [
+      "cWBVMGCk"
+    ],
+    "1.18.2+quilt": [
+      "cWBVMGCk"
+    ],
+    "1.19.2+datapack": [
+      "o9xUSmpq"
+    ],
+    "1.19.2+fabric": [
+      "cWBVMGCk"
+    ],
+    "1.19.2+forge": [
+      "cWBVMGCk"
+    ],
+    "1.19.2+neoforge": [
+      "cWBVMGCk"
+    ],
+    "1.19.2+quilt": [
+      "cWBVMGCk"
+    ],
+    "1.20.1+datapack": [
+      "o9xUSmpq"
+    ],
+    "1.20.1+fabric": [
+      "cWBVMGCk"
+    ],
+    "1.20.1+forge": [
+      "cWBVMGCk"
+    ],
+    "1.20.1+neoforge": [
+      "cWBVMGCk"
+    ],
+    "1.20.1+quilt": [
+      "cWBVMGCk"
+    ]
+  }
+}

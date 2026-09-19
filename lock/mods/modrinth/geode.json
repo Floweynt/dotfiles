@@ -1,0 +1,93 @@
+{
+  "slug": "geode",
+  "projectId": "dagn9GpO",
+  "versions": {
+    "SBMgK412": {
+      "filename": "Geode-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/dagn9GpO/versions/SBMgK412/Geode-1.1.jar",
+      "hash": "sha512-5Q1iUM9CWWUXlSwukG48hv3MBonfzH57Kl9nLoDxaTh0zX74oFrWVjLGBCjhI0624UxqzPuJZ3YW6fCgSCBrmQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "U4o9vfpy": {
+      "filename": "Geode-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/dagn9GpO/versions/U4o9vfpy/Geode-1.2.1.jar",
+      "hash": "sha512-jnTPXganxAH1uckQl0aFeBtQy2sFVVx/8jY6rln1NlsMHEKQgdA1z5m1bIMfNjtvui+gWVrw7Rwv+K0BozG4AQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "kfiRRHFC": {
+      "filename": "Geode-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/dagn9GpO/versions/kfiRRHFC/Geode-1.0.jar",
+      "hash": "sha512-cDn0qnXkWaYnoJOqyZoVL9HwVvofS1g9jLk3asP7TTgHKmutdfkXh1ancEOWEgCqeFSXiaCDrMV3kjoQx5OPNA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "vwVyKjFJ": {
+      "filename": "Geode-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/dagn9GpO/versions/vwVyKjFJ/Geode-1.2.jar",
+      "hash": "sha512-KdWABDCZACrYSQjU3V/RHJa3ZEQoq9IIfmkvv521WiVXUvuq7cHiKknKOyV5TmUM8ecmieJw2VyIS0QTNcxHrA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "U4o9vfpy",
+      "vwVyKjFJ",
+      "SBMgK412",
+      "kfiRRHFC"
+    ]
+  }
+}

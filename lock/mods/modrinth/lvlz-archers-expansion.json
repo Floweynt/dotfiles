@@ -1,0 +1,94 @@
+{
+  "slug": "lvlz-archers-expansion",
+  "projectId": "MqRyp7Xt",
+  "versions": {
+    "5jpyEPb0": {
+      "filename": "lvlz_archers_expansion-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/MqRyp7Xt/versions/5jpyEPb0/lvlz_archers_expansion-2.0.jar",
+      "hash": "sha512-5k6rQdBB4s597MuzHqa8EekNpCsvnznGh2P7UpHxV1BU8FqmH4LiNMdNdD3zfe2G3MZwWkrwzf0VZ8PNS3JT1A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "archers-expansion",
+          "projectId": "1BHIIm4m",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "SpzuYiUo": {
+      "filename": "lvlz_archers_expansion-1.21.1-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/MqRyp7Xt/versions/SpzuYiUo/lvlz_archers_expansion-1.21.1-1.1.jar",
+      "hash": "sha512-sO8CnK2xex8G2rFquioNZ3cugExkBYU332vtMIql4eR3apkakrHv6JHIEBSR1YsGR444AqThAIXv/rNAPT7XnA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "archers-expansion",
+          "projectId": "1BHIIm4m",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "aDnEke4w": {
+      "filename": "lvlz-archers-expansion-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/MqRyp7Xt/versions/aDnEke4w/lvlz-archers-expansion-1.0.jar",
+      "hash": "sha512-RVqiMGzfVhp72pwC+ko+nzXlyfZ42l12Nc3jBKcjc/Po6s8Hh5KzSgyTmishP6IsbVII+SYooFwCJ7HdtQ9o4A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "archers-expansion",
+          "projectId": "1BHIIm4m",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "aDnEke4w"
+    ],
+    "1.21.1+fabric": [
+      "SpzuYiUo",
+      "5jpyEPb0"
+    ],
+    "1.21.1+quilt": [
+      "SpzuYiUo"
+    ]
+  }
+}

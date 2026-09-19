@@ -1,0 +1,77 @@
+{
+  "slug": "autoattributeswap",
+  "projectId": "uAyn2Lea",
+  "versions": {
+    "6qyl9BSi": {
+      "filename": "attributeswap-1.21.6-v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uAyn2Lea/versions/6qyl9BSi/attributeswap-1.21.6-v1.0.0.jar",
+      "hash": "sha512-6EcbfUjG3OUBPsY3B+16JhTgHZNQMiGutbSM86+BG6wjsSYVqM0+OXFRZSWQOhlJf13aXwATVbFU5KRO4aX1Rw==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QHpUoPeo": {
+      "filename": "attributeswap-26.2-v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uAyn2Lea/versions/QHpUoPeo/attributeswap-26.2-v1.0.0.jar",
+      "hash": "sha512-FzQBjfY3Djz/8YbJqFBIuZ6dl9l8V85xqGOcsa4w6bJFyqdFCL7tvj6Xsd3Req2U0/shmhmebawuOHxGcMyzIQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zoqcH2k4": {
+      "filename": "attributeswap-1.21.11-v1.0.0 2.jar",
+      "url": "https://cdn.modrinth.com/data/uAyn2Lea/versions/zoqcH2k4/attributeswap-1.21.11-v1.0.0%202.jar",
+      "hash": "sha512-+9RJJHKyc6jPcACgY6xwZY+V3AniAXJ42CAcVNQNoWqd9RtTpurMttik+HAx5e83oqiY20dxRwThl/t+9Y/FYA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "zoqcH2k4"
+    ],
+    "1.21.6+fabric": [
+      "6qyl9BSi"
+    ],
+    "26.2+fabric": [
+      "QHpUoPeo"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "potato-crimes",
+  "projectId": "8oF2H53B",
+  "versions": {
+    "E4aWwFZk": {
+      "filename": "potato-crime-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8oF2H53B/versions/E4aWwFZk/potato-crime-1.0.0.jar",
+      "hash": "sha512-rb7ubR6B6wMDS1FmmS00n8xDPaqPpfifO0vzZLMP/w71KCgzW9UXt/Wd81Zdpq/6zI8TehWmRwHZmerRiaWtyA==",
+      "gameVersions": [
+        "24w14potato"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "24w14potato+fabric": [
+      "E4aWwFZk"
+    ]
+  }
+}

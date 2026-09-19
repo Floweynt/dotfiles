@@ -1,0 +1,129 @@
+{
+  "slug": "chiseled-lib",
+  "projectId": "3O3LGnmR",
+  "versions": {
+    "DzklOruW": {
+      "filename": "chiseled_lib-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/3O3LGnmR/versions/DzklOruW/chiseled_lib-2.0.1.jar",
+      "hash": "sha512-I0O5WFCq4hbXovOPq5hfxGtIgpWFQ04pyXtYWtJ36/36cVBysPNdPCLWOBAvQVbS6lhawEc5S/OVxYSHGZPTbw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ETJVITDI": {
+      "filename": "chiseled_lib-2.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/3O3LGnmR/versions/ETJVITDI/chiseled_lib-2.0.2.jar",
+      "hash": "sha512-kp/WqkZiPLbVZNCzt8LrPU2/dmNtfKgmf7c+0kLYWhQpklsDhErliEDZW7dxWIIPohsEn8IZQEkCgA3806rKLw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Tgk99OsW": {
+      "filename": "chiseled_lib-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3O3LGnmR/versions/Tgk99OsW/chiseled_lib-2.0.0.jar",
+      "hash": "sha512-fgvBC8lH6fhbbjv7u/r2vH8CgyzQfAySd1fdTWELuJ3Dl6SLxU4+IxRg+H3FPzrBCky2FzxYESAhK4P5X62SrQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VDC5CtUZ": {
+      "filename": "chiseled_lib-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3O3LGnmR/versions/VDC5CtUZ/chiseled_lib-1.0.0.jar",
+      "hash": "sha512-CTDbHVYqGXaMV9QVN7fw/k+LtWkaDEu7StFbTSdQdt2np8XxFXMWaCNAj4v6x6HmcosybhnVbnc+oCXXloj5Gg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "mgmwjJld": {
+      "filename": "chiseled_lib-2.0.2-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/3O3LGnmR/versions/mgmwjJld/chiseled_lib-2.0.2-26.1.jar",
+      "hash": "sha512-fE5ArcVbW+ekMyf4K3TyCwhebkgVTGKxZTTH1U/29c2sqQVyGz89SS6xHGOMT86ReJqYv2j5TLlwlfB8AdXj3w==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "upv8ssvs": {
+      "filename": "chiseled_lib-2.0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/3O3LGnmR/versions/upv8ssvs/chiseled_lib-2.0.1.1.jar",
+      "hash": "sha512-LDeZD4+OYcNGK8i7LOOgYX3QVTmf9jcRLH8oz9VRyYyGrT/3Ew/2x9lkjnqM2/kUvPJluzXGipYj0+uv+cMd0A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "ETJVITDI",
+      "upv8ssvs",
+      "DzklOruW",
+      "Tgk99OsW"
+    ],
+    "1.21.5+fabric": [
+      "VDC5CtUZ"
+    ],
+    "26.1+fabric": [
+      "mgmwjJld"
+    ],
+    "26.1.1+fabric": [
+      "mgmwjJld"
+    ],
+    "26.1.2+fabric": [
+      "mgmwjJld"
+    ]
+  }
+}

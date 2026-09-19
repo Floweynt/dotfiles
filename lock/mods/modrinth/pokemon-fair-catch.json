@@ -1,0 +1,96 @@
+{
+  "slug": "pokemon-fair-catch",
+  "projectId": "R1TnXhGc",
+  "versions": {
+    "eYylV8dQ": {
+      "filename": "cbmnfaircatch-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1TnXhGc/versions/eYylV8dQ/cbmnfaircatch-neoforge-1.0.0.jar",
+      "hash": "sha512-HMkU+cL4jcagxyIyC6KD/sPM5UO2qD1RuDv4MADu7uJTyv3/V/c32MoaxdLNWF6W4RU9RKmHrhlhyG0nbIeHwA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "hyZwkEZu": {
+      "filename": "cbmnfaircatch-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1TnXhGc/versions/hyZwkEZu/cbmnfaircatch-fabric-1.1.0.jar",
+      "hash": "sha512-kHz9fsrcZr7x2tH+2MNjHviugqm1b96hda4ntfHJxNSofEEr39iCWEboEVsHdlBtLfxP3ldaR03LnMvKFhdA9w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "lbDu0qi4": {
+      "filename": "cbmnfaircatch-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1TnXhGc/versions/lbDu0qi4/cbmnfaircatch-fabric-1.0.0.jar",
+      "hash": "sha512-e2nPXunaPrQqSD2h7yJeMImxE+uJg/34Nz50AZGsvK34iMD+Zi3siJoiI+feNPUYGnjhSi/5ZwyS1bZ9MmYz9A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "sgk1qdS0": {
+      "filename": "cbmnfaircatch-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1TnXhGc/versions/sgk1qdS0/cbmnfaircatch-neoforge-1.1.0.jar",
+      "hash": "sha512-6iWZIPvvwbw7bZWMDTpMwTD8TLKK0iQSAnHTBwb+TudWk4JlUeipoYZupVw1Q8V3s9PJ9+E0/OT2MRZwevXrqg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "hyZwkEZu",
+      "lbDu0qi4"
+    ],
+    "1.21.1+neoforge": [
+      "sgk1qdS0",
+      "eYylV8dQ"
+    ]
+  }
+}

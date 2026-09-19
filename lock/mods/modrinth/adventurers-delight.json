@@ -1,0 +1,39 @@
+{
+  "slug": "adventurers-delight",
+  "projectId": "E4G07bjD",
+  "versions": {
+    "wVNAhy6N": {
+      "filename": "advdelight-mod-0.0.1-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/E4G07bjD/versions/wVNAhy6N/advdelight-mod-0.0.1-1.19.2.jar",
+      "hash": "sha512-E6c5Tq/JhSe4hPqSoCGiKwsWb5rrvmFyrVkhIQl71V6oTjNJg0mqckVKfslMiQz0HfgqVMzK0U5SPWN5S1BRPA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "wVNAhy6N"
+    ],
+    "1.19.3+fabric": [
+      "wVNAhy6N"
+    ],
+    "1.19.4+fabric": [
+      "wVNAhy6N"
+    ]
+  }
+}

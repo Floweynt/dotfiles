@@ -1,0 +1,62 @@
+{
+  "slug": "cobblemon-simpledexrewards",
+  "projectId": "p8mlZKxv",
+  "versions": {
+    "3PNIucHS": {
+      "filename": "SimpleDexRewards-1.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/p8mlZKxv/versions/3PNIucHS/SimpleDexRewards-1.1.4.jar",
+      "hash": "sha512-3okHB4Ro0JPbEnXHwpV8CLtFxjYKRDAjd4QE/rQsSklpgiCDEdCxzKgmrMO2fwnXRdV9RRSTWlCJBXq09zSoxQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "youwkItE": {
+      "filename": "SimpleDexRewards-1.1.8.jar",
+      "url": "https://cdn.modrinth.com/data/p8mlZKxv/versions/youwkItE/SimpleDexRewards-1.1.8.jar",
+      "hash": "sha512-vkKxV6LJDkaj6eXTKd/DnLdCah0rRxVk9CJRel5SRW8cPfc9NO3OlOadY/twaZcZCJ6gsAdtZsPSGC80VUdAoA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "youwkItE",
+      "3PNIucHS"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "carry-on-throw-addon",
+  "projectId": "udAYKe1m",
+  "versions": {
+    "AjTXhw4l": {
+      "filename": "carryon-throw-addon-mc1.20.1-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/udAYKe1m/versions/AjTXhw4l/carryon-throw-addon-mc1.20.1-1.20.1-1.0.2.jar",
+      "hash": "sha512-Vu4WdRjpUU4muvQzu1eIdtNUBAMM5KDbFi88UA9aI9aAX0hqdqhBT2cjIZCO5/4cAaRnGoAhG+qPVbSO+JfhOw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "carry-on",
+          "projectId": "joEfVgkn",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GJBCdLxi": {
+      "filename": "carryon-throw-addon-mc1.21.1-1.21.1-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/udAYKe1m/versions/GJBCdLxi/carryon-throw-addon-mc1.21.1-1.21.1-1.0.3.jar",
+      "hash": "sha512-kpGIH52JNPFO+Hcjvr2aG06/ukK8vHOTZDjoTO2f0liF4CE6hjz8iGTnXM2evEj0bLH6UpUfMP6o7IymYEVg0w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "AjTXhw4l"
+    ],
+    "1.21.1+fabric": [
+      "GJBCdLxi"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "slug": "cobblemon-darkrai",
+  "projectId": "ObH1JZK9",
+  "versions": {
+    "P1NlogXf": {
+      "filename": "cobblemon-darkrai-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ObH1JZK9/versions/P1NlogXf/cobblemon-darkrai-1.1.1.jar",
+      "hash": "sha512-1ho1RYgf/j6agR1sLrjXosL9X3cuwx6Ivzcg7WYrdEtnKbb2v0R7i+N09Xkdwy0q2/R3Q2CHF8D4HBHEC7T4/A==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "RjVYpdMv": {
+      "filename": "Overgrown's Cobblemon - Darkrai (1.1.1).zip",
+      "url": "https://cdn.modrinth.com/data/ObH1JZK9/versions/RjVYpdMv/Overgrown%27s%20Cobblemon%20-%20Darkrai%20%281.1.1%29.zip",
+      "hash": "sha512-7ttxje19mxwF20XeuOvDP/52CLtondox9i8ZLmiQ5QnIQViRlQk8j+f4GQECJDj7H2epB/UN+HIsFoycwWCw5g==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "pUcAY2DS": {
+      "filename": "cobblemon-darkrai-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ObH1JZK9/versions/pUcAY2DS/cobblemon-darkrai-1.1.1.jar",
+      "hash": "sha512-TR5xwEEUnnDSgQWllt7NleivtRI1Pihv9xP08UMX5GNgq/u/2S2eHiNHHKzlKcg9PtEigxjdOotcQgcGsVedSg==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "RjVYpdMv"
+    ],
+    "1.19.2+fabric": [
+      "pUcAY2DS"
+    ],
+    "1.19.2+forge": [
+      "P1NlogXf"
+    ],
+    "1.19.2+neoforge": [
+      "P1NlogXf"
+    ],
+    "1.19.2+quilt": [
+      "pUcAY2DS"
+    ],
+    "1.20.1+datapack": [
+      "RjVYpdMv"
+    ],
+    "1.20.1+fabric": [
+      "pUcAY2DS"
+    ],
+    "1.20.1+forge": [
+      "P1NlogXf"
+    ],
+    "1.20.1+neoforge": [
+      "P1NlogXf"
+    ],
+    "1.20.1+quilt": [
+      "pUcAY2DS"
+    ],
+    "1.21.1+datapack": [
+      "RjVYpdMv"
+    ],
+    "1.21.1+fabric": [
+      "pUcAY2DS"
+    ],
+    "1.21.1+forge": [
+      "P1NlogXf"
+    ],
+    "1.21.1+neoforge": [
+      "P1NlogXf"
+    ],
+    "1.21.1+quilt": [
+      "pUcAY2DS"
+    ]
+  }
+}

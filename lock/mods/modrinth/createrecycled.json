@@ -1,0 +1,120 @@
+{
+  "slug": "createrecycled",
+  "projectId": "wvT6MWRC",
+  "versions": {
+    "1onYwCOv": {
+      "filename": "createrecycled-1.0.0-1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/wvT6MWRC/versions/1onYwCOv/createrecycled-1.0.0-1.20.1.zip",
+      "hash": "sha512-ywF6NOBsZG734Pa4z+mWubXm1vwNZZi71o1I7Glq6yHGEKrLlUYbOL9E/p6TTiZknnoAB1wwG/H95NEB9zzbnw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "oL58vR5D": {
+      "filename": "createrecycled-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/wvT6MWRC/versions/oL58vR5D/createrecycled-1.0.0-1.20.1.jar",
+      "hash": "sha512-/nukLf4I8Y9976qBXP9sjcvaNxI/ZovtgLd5tu8ig0TcPdxAj1iZjFebv7EvBcWDXZlUcNIvwKOVOEYtqbJyIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "rOAbages": {
+      "filename": "createrecycled-1.0.0-1.21.zip",
+      "url": "https://cdn.modrinth.com/data/wvT6MWRC/versions/rOAbages/createrecycled-1.0.0-1.21.zip",
+      "hash": "sha512-jN83dqK1ibFpd2JWtFXhNXYP4JQ5peWHghUnUSB8HEVkUGKlQrbXI49jvereq3to7IRd+T5tP6xNMrlGfInh0A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "t2rUiUZI": {
+      "filename": "createrecycled-1.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/wvT6MWRC/versions/t2rUiUZI/createrecycled-1.0.0-1.21.jar",
+      "hash": "sha512-Ex5XuwDusgSqHVY33DeoP1u4Oqj47ityNrsIs1nQ0CvkNl6TWnhJ675nL/iZ4QsypGAONfQV1+VW+oizcFJRxA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "1onYwCOv"
+    ],
+    "1.20.1+datapack": [
+      "1onYwCOv"
+    ],
+    "1.20.1+fabric": [
+      "oL58vR5D"
+    ],
+    "1.20.1+forge": [
+      "oL58vR5D"
+    ],
+    "1.20.1+neoforge": [
+      "oL58vR5D"
+    ],
+    "1.21+datapack": [
+      "rOAbages"
+    ],
+    "1.21+neoforge": [
+      "t2rUiUZI"
+    ],
+    "1.21.1+datapack": [
+      "rOAbages"
+    ],
+    "1.21.1+neoforge": [
+      "t2rUiUZI"
+    ]
+  }
+}

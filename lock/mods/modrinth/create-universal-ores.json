@@ -1,0 +1,67 @@
+{
+  "slug": "create-universal-ores",
+  "projectId": "VljjXhsu",
+  "versions": {
+    "5y2RDwi9": {
+      "filename": "create-universal-ores-1.1.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VljjXhsu/versions/5y2RDwi9/create-universal-ores-1.1.0-fabric-1.20.1.jar",
+      "hash": "sha512-D/oedvSrNAXYqE3/O0C/mDzdHTdVEaX+ZTClNc3KrpnhrUo97Q9IOVCAMz5uaF2jLcbKhHg7zww7gcTwr5j9MA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "MF9rATlA": {
+      "filename": "create-universal-ores-1.1.1-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VljjXhsu/versions/MF9rATlA/create-universal-ores-1.1.1-fabric-1.20.1.jar",
+      "hash": "sha512-UT7HReIruzm/HiS/caL8DDAe/oea+wXz7oLMUtwEgMe8cmrwWVGyKGxYcnHGKTnfLFgT7MkTVAJhEizoFuKhow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qo25H2cW": {
+      "filename": "create_universal_ores-1.0.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VljjXhsu/versions/qo25H2cW/create_universal_ores-1.0.0-fabric-1.20.1.jar",
+      "hash": "sha512-8jLJsyEj+c++ezLCHefs0TqWVmFwFXq0MibDsYoovJEGpgQpFcp/joxN+1uGMKoYH5lf4DRbIPrGe8kfMJT83A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "MF9rATlA",
+      "5y2RDwi9",
+      "qo25H2cW"
+    ]
+  }
+}

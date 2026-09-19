@@ -1,0 +1,120 @@
+{
+  "slug": "moonmare",
+  "projectId": "2mo9OHRJ",
+  "versions": {
+    "dnSytWmF": {
+      "filename": "moonmare-1.0.zip",
+      "url": "https://cdn.modrinth.com/data/2mo9OHRJ/versions/dnSytWmF/moonmare-1.0.zip",
+      "hash": "sha512-ofK3CCXQm9WcXfRGGnFFa3ttVFjKrbn4Y7PTwx0S2VvTrWKrL448vUkyx9O1sYz6AqPBJ7sPY1Y43tEQ4Zvvow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "f2V8dRVW": {
+      "filename": "moonmare-1.1-BETA.zip",
+      "url": "https://cdn.modrinth.com/data/2mo9OHRJ/versions/f2V8dRVW/moonmare-1.1-BETA.zip",
+      "hash": "sha512-lSe8MrKCSC6UISSo0pP2QfOtUv+rx/sOTwxAHayLAFkdkrQgvsFB1zwzME2cjsBWxNP4EnlaoF3CGy/VtofKPg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "sVbu3p2D": {
+      "filename": "moonmare-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2mo9OHRJ/versions/sVbu3p2D/moonmare-1.0.jar",
+      "hash": "sha512-tlti0OU3n+5NFeodcaAEmgEiMYZm1P8wDjpZ1kRCrV6xF/GB7ZBAlsCxkLl9VK7Zyi8pDrZvn7Li7xYquJOntw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "tluXGSIi": {
+      "filename": "moonmare-1.1-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/2mo9OHRJ/versions/tluXGSIi/moonmare-1.1-BETA.jar",
+      "hash": "sha512-fGsQOj0lhmUV7rMN9c/IB1Z/ZC5YGQWEvzWLuLVtlwO6EAoQuhMej9yJMEBfDxSo7owvgh3nGDfoPGDy9VwioA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "dnSytWmF"
+    ],
+    "1.20.1+fabric": [
+      "sVbu3p2D"
+    ],
+    "1.20.2+datapack": [
+      "f2V8dRVW"
+    ],
+    "1.20.2+fabric": [
+      "tluXGSIi"
+    ]
+  }
+}

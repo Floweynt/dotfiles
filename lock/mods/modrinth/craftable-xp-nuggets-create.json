@@ -1,0 +1,31 @@
+{
+  "slug": "craftable-xp-nuggets-create",
+  "projectId": "JQtP3uBe",
+  "versions": {
+    "jTeuchv0": {
+      "filename": "craftable_xp_nugget-1.0.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JQtP3uBe/versions/jTeuchv0/craftable_xp_nugget-1.0.0-fabric-1.20.1.jar",
+      "hash": "sha512-/gQFCfqBh4QCK7slAIixo0QKGX8h+0Ic+X2oLlBe8Xw1jQz/JJ47DxDP1lGRhkVRfHtZMPHJZqAaemlueLkx8A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "jTeuchv0"
+    ]
+  }
+}

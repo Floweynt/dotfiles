@@ -1,0 +1,115 @@
+{
+  "slug": "ice-and-fire-dragon-finder",
+  "projectId": "6jH64T6j",
+  "versions": {
+    "W7d3gdr9": {
+      "filename": "dragonfinder-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6jH64T6j/versions/W7d3gdr9/dragonfinder-1.20.1-1.0.0.jar",
+      "hash": "sha512-F6JHreLfaOWRZ/NmgmZSmK9HG6tSLRstf4voDQjCLqMUqOpVJHThBST0gZvaV94CEX9ERrD6cII8LrmBBnzoew==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ice-and-fire-dragons",
+          "projectId": "LVnvHVBp",
+          "type": "required"
+        }
+      ]
+    },
+    "bVMKWHKG": {
+      "filename": "dragon-finder-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6jH64T6j/versions/bVMKWHKG/dragon-finder-1.0.0-1.20.1.jar",
+      "hash": "sha512-WBHeFXXJTiualTsByCTwsZN4zhwDwgK/Gq15/nEZcc9tm909J4oBtgQNWJ9sOO+Q8pIEKhVbe0XhsXSR3osTKQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "iceandfire-ce",
+          "projectId": "VpmCsizY",
+          "type": "required"
+        }
+      ]
+    },
+    "ihRhXnxc": {
+      "filename": "dragonfinder-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6jH64T6j/versions/ihRhXnxc/dragonfinder-1.20.1-1.0.0.jar",
+      "hash": "sha512-Ec/ePDS1iW/e5sSvqYT1sC4vb5jGE8LC6Zu006a3sD2BBUZGxdrEmHPauLHWIOnF7Z2bZRKKm4R5MIruLE6jAg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ice-and-fire-dragons",
+          "projectId": "LVnvHVBp",
+          "type": "required"
+        }
+      ]
+    },
+    "jKhcz0nJ": {
+      "filename": "dragon-finder-1.1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6jH64T6j/versions/jKhcz0nJ/dragon-finder-1.1.0-1.20.1.jar",
+      "hash": "sha512-VAtlBLEXpmclKanE6QEuhTkQpQBU0T3g2HPjORN9R3QVqBgduos0zOOk3I5nwMMRR8K+MS8SS81CxxYFoZ33VQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "iceandfire-ce",
+          "projectId": "VpmCsizY",
+          "type": "required"
+        }
+      ]
+    },
+    "wU9sVZDm": {
+      "filename": "dragonfinder-1.18.2-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/6jH64T6j/versions/wU9sVZDm/dragonfinder-1.18.2-1.0.2.jar",
+      "hash": "sha512-E+K5DECPAXRp0Tx1nNnkDJBNWAAuE7bZDUKdBAOZ3u5U47WojqMff9IMj6D64s054hw68zCQyeQyNW36Q/dJHg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "wU9sVZDm"
+    ],
+    "1.20.1+fabric": [
+      "jKhcz0nJ",
+      "bVMKWHKG"
+    ],
+    "1.20.1+forge": [
+      "W7d3gdr9"
+    ],
+    "1.20.1+neoforge": [
+      "ihRhXnxc"
+    ]
+  }
+}

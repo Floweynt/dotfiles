@@ -1,0 +1,130 @@
+{
+  "slug": "potted-delight",
+  "projectId": "RinYJZvD",
+  "versions": {
+    "9QUB7q3B": {
+      "filename": "potteddelight-1.21.1-fabric-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/RinYJZvD/versions/9QUB7q3B/potteddelight-1.21.1-fabric-1.1.jar",
+      "hash": "sha512-SNabDxaUypVytNQZa9E+vujFpV6Pwx4agWgNMpYtVqNJBVt6fuCd0vlxC3UpRDYwyT7JCvicJKY9a+zB/hUUDA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "BhexoOzo": {
+      "filename": "potteddelight-1.21.1-neoforge-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/RinYJZvD/versions/BhexoOzo/potteddelight-1.21.1-neoforge-1.1.jar",
+      "hash": "sha512-8LzSts8cup1hhAYgz6T9shzRICM932cNZ5PXHy3z5BjNCOV4SbsZDJoA+CgI4/QdvavffEMrm/21+c+qrXvI4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "S56jMtBI": {
+      "filename": "potteddelight-1.21.1-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RinYJZvD/versions/S56jMtBI/potteddelight-1.21.1-fabric-1.0.jar",
+      "hash": "sha512-u3mrdVwdKPHrjZWfE2ySevhDphXiIV5X/DkhdO2X4KRUAN6LLyQAhDg6py1Mr5Z48mAh35etHlHK5IplreDtdg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "not-enough-pots",
+          "projectId": "KICpzgMG",
+          "type": "required"
+        }
+      ]
+    },
+    "lJ8qMF1T": {
+      "filename": "potteddelight-1.21.1-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RinYJZvD/versions/lJ8qMF1T/potteddelight-1.21.1-neoforge-1.0.jar",
+      "hash": "sha512-6rFg5lOgGCD0adObNehmvUz3u0CoexwFqo/d69G5/mRZhadrZxu4IYj/jp+Wc/Ma/00FWKQ+4s8MRt9QwbQDCA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "not-enough-pots",
+          "projectId": "KICpzgMG",
+          "type": "required"
+        }
+      ]
+    },
+    "sMLds6fl": {
+      "filename": "potteddelight-1.21.1-fabric-1.0-sources.jar",
+      "url": "https://cdn.modrinth.com/data/RinYJZvD/versions/sMLds6fl/potteddelight-1.21.1-fabric-1.0-sources.jar",
+      "hash": "sha512-AdE8d0EZaPM76khpbE7CfjD7chvUQIqf/9BH+4M722FsDgXYL1wBx9ouKCkgB06CkYF+47VJc4CGAqciSXdpKQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "not-enough-pots",
+          "projectId": "KICpzgMG",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "9QUB7q3B",
+      "S56jMtBI",
+      "sMLds6fl"
+    ],
+    "1.21.1+neoforge": [
+      "BhexoOzo",
+      "lJ8qMF1T"
+    ]
+  }
+}

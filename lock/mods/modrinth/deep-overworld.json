@@ -1,0 +1,117 @@
+{
+  "slug": "deep-overworld",
+  "projectId": "ri9U45nO",
+  "versions": {
+    "TaS9hW3H": {
+      "filename": "DeepOverworld 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ri9U45nO/versions/TaS9hW3H/DeepOverworld%201.0.0.jar",
+      "hash": "sha512-1/5800Ph8Un9+CJ0Y6TZhvKuiFfhGf89m/27ESNhop9YyMb4KPhXiCKRlV8LmLzR56KfIibafQ8SZM/9/UBHWg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "gbsAp1VR": {
+      "filename": "deepoverworld-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ri9U45nO/versions/gbsAp1VR/deepoverworld-1.1.0.jar",
+      "hash": "sha512-8tOFxUygZRByO9vlA+8lEo6mbEQyp56rhOmBOdN+J63aV0f8yHzLCRHgWjPSYxaye5O/+UI7FJL88rGUsaLdlQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "skvVLGcf": {
+      "filename": "deepoverworld-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ri9U45nO/versions/skvVLGcf/deepoverworld-1.1.0.jar",
+      "hash": "sha512-jZZU/lk42N8E+egvVPlF7qaMQsdOVIbDeFx5tJLUiSCsMxA901BMKF2y2vkxFNTZEae2lxgm44c4p+2KACgPpQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "gbsAp1VR",
+      "TaS9hW3H"
+    ],
+    "1.21+quilt": [
+      "gbsAp1VR",
+      "TaS9hW3H"
+    ],
+    "1.21.1+fabric": [
+      "gbsAp1VR",
+      "TaS9hW3H"
+    ],
+    "1.21.1+quilt": [
+      "gbsAp1VR",
+      "TaS9hW3H"
+    ],
+    "1.21.10+fabric": [
+      "skvVLGcf"
+    ],
+    "1.21.10+quilt": [
+      "skvVLGcf"
+    ],
+    "1.21.9+fabric": [
+      "skvVLGcf"
+    ],
+    "1.21.9+quilt": [
+      "skvVLGcf"
+    ]
+  }
+}

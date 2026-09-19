@@ -1,0 +1,98 @@
+{
+  "slug": "visible-barrier-blocks",
+  "projectId": "5aovgp4x",
+  "versions": {
+    "MLJKSTrZ": {
+      "filename": "VisibleBarrierBlocks-1.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/5aovgp4x/versions/MLJKSTrZ/VisibleBarrierBlocks-1.0%2B1.21.4.jar",
+      "hash": "sha512-cQwEVbO8IpaD+GSiLibtdvqe9e1UoSPhf15vsIroy+DBY3+6iMVbS4ikHmY1hI8DcUN8jw1D2bSJuSjJ2mffxw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "WJhxH9hv": {
+      "filename": "VisibleBarrierBlocks-1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/5aovgp4x/versions/WJhxH9hv/VisibleBarrierBlocks-1.0%2B1.21.jar",
+      "hash": "sha512-2lZrVvgxRry11dCTaWed+v7StrX6ld7o+9Hq/j+5M5nNb6diB36rqmgmKtfmBI/j7E0ipq/9NemKnTILSCDV/A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Xnprm9Qr": {
+      "filename": "VisibleBarrierBlocks-1.0+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/5aovgp4x/versions/Xnprm9Qr/VisibleBarrierBlocks-1.0%2B1.21.3.jar",
+      "hash": "sha512-p1Sy6EOgfvQ3h+iY6uZHdRjHtQHjdh0IgcpNYdAPR1RMpEgRF4CUgTfY0N191UW/LKh4n24Un/HQjLBwPO027A==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rWhPtfAm": {
+      "filename": "VisibleBarrierBlocks-1.0+1.21.2.jar",
+      "url": "https://cdn.modrinth.com/data/5aovgp4x/versions/rWhPtfAm/VisibleBarrierBlocks-1.0%2B1.21.2.jar",
+      "hash": "sha512-Zi/TG+TKlS92E8jMY1Hdwc26NQC4tMLVS9wa7SkWr9Vg5iMXk6PXUjN/bSt4puQXx/a5amCmsNngqiyMsfooUg==",
+      "gameVersions": [
+        "1.21.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "WJhxH9hv"
+    ],
+    "1.21.1+fabric": [
+      "WJhxH9hv"
+    ],
+    "1.21.2+fabric": [
+      "rWhPtfAm"
+    ],
+    "1.21.3+fabric": [
+      "Xnprm9Qr"
+    ],
+    "1.21.4+fabric": [
+      "MLJKSTrZ"
+    ]
+  }
+}

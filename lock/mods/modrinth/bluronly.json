@@ -1,0 +1,48 @@
+{
+  "slug": "bluronly",
+  "projectId": "hdr5toxY",
+  "versions": {
+    "mY917stN": {
+      "filename": "bluronly-1.21.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hdr5toxY/versions/mY917stN/bluronly-1.21.4-1.0.0.jar",
+      "hash": "sha512-hmQCDyWmx5PPF15EfLqK3fsCBYEsGZ/9Iau0TlVXeHo0wtD7CETSHBN5k7rRIB7yFi5WPRWW6o6EyV4Z23Z/Pw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rBW3BTdj": {
+      "filename": "bluronly-1.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/hdr5toxY/versions/rBW3BTdj/bluronly-1.0.1-fabric.jar",
+      "hash": "sha512-UQKrNEMItnarAGPkyfp1I4R/zC5ayP5cGMHD2oysBVT5qpUaNGqmHP7afS6QnBLLoi1eholCcyr5ebDgdaZq6Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "virtual-library",
+          "projectId": "3kuIlUL0",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "rBW3BTdj"
+    ],
+    "1.21.4+fabric": [
+      "mY917stN"
+    ]
+  }
+}

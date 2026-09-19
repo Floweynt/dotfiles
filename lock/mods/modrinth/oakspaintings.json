@@ -1,0 +1,111 @@
+{
+  "slug": "oakspaintings",
+  "projectId": "6hnaFUD7",
+  "versions": {
+    "4kNKx6uJ": {
+      "filename": "oaks_painting_v1.0 (Forge 1.19.2).jar",
+      "url": "https://cdn.modrinth.com/data/6hnaFUD7/versions/4kNKx6uJ/oaks_painting_v1.0%20%28Forge%201.19.2%29.jar",
+      "hash": "sha512-gHGHQ83Lgrks9fPIcWXBf8Z4YKmVd/hqJofXSjwR8d/B89RRwRKGRN5BC4c2jEe532FLnZQpoQnIa3IGfKHizQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ALetHNK0": {
+      "filename": "oaks_painting_v1.0 (Fabric 1.20.1).jar",
+      "url": "https://cdn.modrinth.com/data/6hnaFUD7/versions/ALetHNK0/oaks_painting_v1.0%20%28Fabric%201.20.1%29.jar",
+      "hash": "sha512-uG0nTwAngC3PN8/QrFZcRvsCjpLjglUPAoXMY+d2Hze9OkoNTdcEdrsVvXPPae0R/rN4bZ8QMBfHcR37dfhh5g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NmgPpRwH": {
+      "filename": "oaks_painting_v1.0 Fabric 1.19.2).jar",
+      "url": "https://cdn.modrinth.com/data/6hnaFUD7/versions/NmgPpRwH/oaks_painting_v1.0%20Fabric%201.19.2%29.jar",
+      "hash": "sha512-3gB0KvWQ/mvmtYRqsXAkvPW9lttyQlwE/6GP1HIbiOrsc2/Wi6QBVfn9nJGh4XSyTzb62IWOv5g/4HJEE4doDw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "W6AeBO85": {
+      "filename": "oaks_painting_v1.0 (Forge 1.19.4).jar",
+      "url": "https://cdn.modrinth.com/data/6hnaFUD7/versions/W6AeBO85/oaks_painting_v1.0%20%28Forge%201.19.4%29.jar",
+      "hash": "sha512-Bp3JSKEbRMS+klXN5ibu5HKopiQDx/kMbBXDtwTKruNeGdY8SQZjRVksmGa9idwoXIEfiBNM3jrAK/X5reKL8w==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "vxEN30A5": {
+      "filename": "oaks_painting_v1.0 (Fabric 1.18.2).jar",
+      "url": "https://cdn.modrinth.com/data/6hnaFUD7/versions/vxEN30A5/oaks_painting_v1.0%20%28Fabric%201.18.2%29.jar",
+      "hash": "sha512-tTnegfmsfUR3VrF1iprHF0yMWFhVetNoFwerawgRZACYlages44soGB7WrqLgR/t05kOBhtmbrBMJc9mJIFOxA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "vxEN30A5"
+    ],
+    "1.19.2+forge": [
+      "4kNKx6uJ"
+    ],
+    "1.19.4+fabric": [
+      "NmgPpRwH"
+    ],
+    "1.19.4+forge": [
+      "W6AeBO85"
+    ],
+    "1.20.1+fabric": [
+      "ALetHNK0"
+    ]
+  }
+}

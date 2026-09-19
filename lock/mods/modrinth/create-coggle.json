@@ -1,0 +1,78 @@
+{
+  "slug": "create-coggle",
+  "projectId": "RbZ82HwK",
+  "versions": {
+    "k76KOtvc": {
+      "filename": "create-cogglewoggle-0.1.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RbZ82HwK/versions/k76KOtvc/create-cogglewoggle-0.1.2%2B1.20.1.jar",
+      "hash": "sha512-YmQLoNwyjGqqVN9CPUCG2Gn8N574m4NUdLjh4Mc6W/ZRS+6JXnau/QcjH/H6cD4fm9dh6dXl5ENF4wWliUxV+Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "pSq2mqoM": {
+      "filename": "create-cogglewoggle-0.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RbZ82HwK/versions/pSq2mqoM/create-cogglewoggle-0.1.0%2B1.20.1.jar",
+      "hash": "sha512-ix2pT8VKVCsn37scNdo3dxvvbG58sWph87NJ6MWAiYbOUl2n9RxnbintMhlSp/sxvdXQ8FQwebyzouI+AZHfYw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "k76KOtvc",
+      "pSq2mqoM"
+    ],
+    "1.20.1+quilt": [
+      "k76KOtvc",
+      "pSq2mqoM"
+    ]
+  }
+}

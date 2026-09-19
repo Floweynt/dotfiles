@@ -1,0 +1,40 @@
+{
+  "slug": "mcmtfabric",
+  "projectId": "VfOCsN15",
+  "versions": {
+    "zquVPJIy": {
+      "filename": "mcmtfabric-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/VfOCsN15/versions/zquVPJIy/mcmtfabric-1.4.0.jar",
+      "hash": "sha512-n67iEVo5GiJ1js7NY6wYKqvlAy9j5v7XaoaHfqtrOdIpb4RFv7r+7Ml1Mum5OBspumkaLKlqRQtdvRYoZxKMRQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "zquVPJIy"
+    ],
+    "1.19.3+quilt": [
+      "zquVPJIy"
+    ]
+  }
+}

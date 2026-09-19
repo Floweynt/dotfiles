@@ -1,0 +1,62 @@
+{
+  "slug": "healthnfoodtweaker",
+  "projectId": "iuHg0CvG",
+  "versions": {
+    "O9tdM8iz": {
+      "filename": "HealthNFoodTweaker-1.20.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/iuHg0CvG/versions/O9tdM8iz/HealthNFoodTweaker-1.20.1-1.0.jar",
+      "hash": "sha512-piQacI316TRXT4VgmUCV0sNDo3yylphCEuHQVQniIas8hCx8siK59M3r7zjK5w6KI6qoZPguzEJyaf9j0xgcMA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "hUyTF4cO": {
+      "filename": "HealthNFoodTweaker-1.20.1-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/iuHg0CvG/versions/hUyTF4cO/HealthNFoodTweaker-1.20.1-1.1.jar",
+      "hash": "sha512-/x7JFc1f3K/bHQXM3Q9MUselKnMPybLXWhkktDpnIvg4/2zu7SIHkRul75suaQZQp+qZ1sRPNuP9ULJ76/MA2w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hUyTF4cO",
+      "O9tdM8iz"
+    ]
+  }
+}

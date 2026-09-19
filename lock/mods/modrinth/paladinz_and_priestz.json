@@ -1,0 +1,90 @@
+{
+  "slug": "paladinz_and_priestz",
+  "projectId": "RQcxiLDx",
+  "versions": {
+    "FW5w74g6": {
+      "filename": "paladinz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RQcxiLDx/versions/FW5w74g6/paladinz-1.0.jar",
+      "hash": "sha512-xJMXAFN/pbZaU5MIxu3Wp3jji210Mq99d/ZzEQqbkjrzHUmC+lwpwKDJHERCBGFt1xGsCI/FTb/4xE9BwcQ2Kg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        }
+      ]
+    },
+    "QDcXtpBN": {
+      "filename": "lvlz_paladins-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RQcxiLDx/versions/QDcXtpBN/lvlz_paladins-2.0.jar",
+      "hash": "sha512-UQDYwSSQbTO0Ke7zD39PysDPraD1iUUyPZV8/JB+n8QELK8SrWlStCIQ/o2+kllnNkQLUOKT04g6NxDJI9F3Pw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "nuwPo3cu": {
+      "filename": "paladinz-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/RQcxiLDx/versions/nuwPo3cu/paladinz-1.1.jar",
+      "hash": "sha512-qQEfYOGn5vSCnMCJC/UqVplsezTR/gwnLVaAXW9LH+09sn5Eydsw7cvxZa0XoGw2lgKKd7t+VUnIfWAcpdX2/Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nuwPo3cu",
+      "FW5w74g6"
+    ],
+    "1.21.1+fabric": [
+      "QDcXtpBN"
+    ]
+  }
+}

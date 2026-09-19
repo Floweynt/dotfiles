@@ -1,0 +1,66 @@
+{
+  "slug": "f5-begone",
+  "projectId": "1zGNtEx5",
+  "versions": {
+    "Q2RgM9MC": {
+      "filename": "f5begone-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1zGNtEx5/versions/1.0.0/f5begone-1.0.0.jar",
+      "hash": "sha512-KznLDGag1SYVt0PBtjO0oiHXzXB48LgUfegzykvULeRUMG1H5lxLS2Q26Uh210W54CqQr+6ca6Xg3GeQH/04zA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mddGnnUj": {
+      "filename": "f5begone-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/1zGNtEx5/versions/mddGnnUj/f5begone-1.0.1.jar",
+      "hash": "sha512-TQrptMD+FMvzAjriEPhQQYUTCS5YzSmAwA0BnY6g6vy2byHUOI3bxrXFdEH5py9csvy9M0/Ux2xyhRP6IiWvWw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "Q2RgM9MC"
+    ],
+    "1.19+fabric": [
+      "mddGnnUj"
+    ],
+    "1.19.1+fabric": [
+      "mddGnnUj"
+    ],
+    "1.19.2+fabric": [
+      "mddGnnUj"
+    ],
+    "1.19.3+fabric": [
+      "mddGnnUj"
+    ]
+  }
+}

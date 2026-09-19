@@ -1,0 +1,35 @@
+{
+  "slug": "vanilla-parts",
+  "projectId": "XS82iwVa",
+  "versions": {
+    "LNSzLTcV": {
+      "filename": "VanillaParts-2.1.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/XS82iwVa/versions/LNSzLTcV/VanillaParts-2.1.0%2B1.19.2.jar",
+      "hash": "sha512-RhcRfLhm637qn95cuFhertkRTrQ1/y/a1VL/Xv5gP4DplKuzy0kmwc6qZX7O8mtJwnO08Uhfnhr8oZbU4YHMdw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "LNSzLTcV"
+    ],
+    "1.19.2+quilt": [
+      "LNSzLTcV"
+    ]
+  }
+}

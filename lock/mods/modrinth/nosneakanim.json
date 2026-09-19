@@ -1,0 +1,102 @@
+{
+  "slug": "nosneakanim",
+  "projectId": "7WKpB3Al",
+  "versions": {
+    "DZQGgh6t": {
+      "filename": "nosneakanim-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7WKpB3Al/versions/DZQGgh6t/nosneakanim-1.1.0.jar",
+      "hash": "sha512-ftPkOnyfvWG8K0AS7BleqsbTo8du8BJKhkP5a6ziQOIZoHH6FdXebx8+ydskvbMmMQI91+HiTjx4agefJ8bo9w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mpmBmrqE": {
+      "filename": "nosneakanim-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7WKpB3Al/versions/mpmBmrqE/nosneakanim-1.0.0.jar",
+      "hash": "sha512-zKx2bgEaEksWsHJ7wQ1vfr0ykCXQS1B0lvSwaDHQE1hNmFb1GcUfC+Hbt00ZKv1tZpAOHfZXCZNOWaRWT9e0gQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "DZQGgh6t",
+      "mpmBmrqE"
+    ],
+    "1.21+quilt": [
+      "mpmBmrqE"
+    ],
+    "1.21.1+fabric": [
+      "DZQGgh6t",
+      "mpmBmrqE"
+    ],
+    "1.21.1+quilt": [
+      "mpmBmrqE"
+    ],
+    "1.21.2+fabric": [
+      "DZQGgh6t",
+      "mpmBmrqE"
+    ],
+    "1.21.2+quilt": [
+      "mpmBmrqE"
+    ],
+    "1.21.3+fabric": [
+      "DZQGgh6t",
+      "mpmBmrqE"
+    ],
+    "1.21.3+quilt": [
+      "mpmBmrqE"
+    ],
+    "1.21.4+fabric": [
+      "DZQGgh6t",
+      "mpmBmrqE"
+    ],
+    "1.21.4+quilt": [
+      "mpmBmrqE"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "gamemode-detector",
+  "projectId": "o5L9gsOU",
+  "versions": {
+    "S6lwW9zl": {
+      "filename": "GamemodeDetector-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/o5L9gsOU/versions/S6lwW9zl/GamemodeDetector-1.3.jar",
+      "hash": "sha512-0mKD15BN+J/fc8XNQDj8yt8clWoeCDmFNSzpHWexnebahs5cXziv4wc4eeyVR7MT29jOkOHvLb7M0y2DMj53/g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Z8IJqAcf": {
+      "filename": "GamemodeDetector-fabric-v1.0-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/o5L9gsOU/versions/Z8IJqAcf/GamemodeDetector-fabric-v1.0-1.19.3.jar",
+      "hash": "sha512-lkKc2kQ7uJNuCmBQsOfNa20tPdhWu3JokGm03CcAwkAeah4EYXk2YuT9IVTwqePPGGbb/BFuQVzHoZ/JaxpYOw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "boyp5AXH": {
+      "filename": "GamemodeDetector-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/o5L9gsOU/versions/boyp5AXH/GamemodeDetector-1.1.jar",
+      "hash": "sha512-f5cBrzvy6Z25Yz7CrOUAekl7FEmznprJBVJfSWuvu5D1g/Y6Yi9PrfNBf3ouA5yxGqtKho+QGv+2qE31QHtjdw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dQNG654i": {
+      "filename": "GamemodeDetector-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/o5L9gsOU/versions/dQNG654i/GamemodeDetector-1.2.jar",
+      "hash": "sha512-8WdEEqXr5n3DMfRKVxdlpPrTWvdhaKdv5Y1lc0CEbtAUv4EhA6ZNhf1B9pIDbY3ES9UJ19smkvDSy1bg7FxfuA==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "boyp5AXH"
+    ],
+    "1.19.1+fabric": [
+      "boyp5AXH"
+    ],
+    "1.19.2+fabric": [
+      "boyp5AXH"
+    ],
+    "1.19.3+fabric": [
+      "boyp5AXH",
+      "Z8IJqAcf"
+    ],
+    "1.19.4+fabric": [
+      "boyp5AXH"
+    ],
+    "1.20+fabric": [
+      "S6lwW9zl",
+      "dQNG654i"
+    ],
+    "1.20.1+fabric": [
+      "S6lwW9zl"
+    ]
+  }
+}

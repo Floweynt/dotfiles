@@ -1,0 +1,77 @@
+{
+  "slug": "force-beacon-load",
+  "projectId": "tVWKciHz",
+  "versions": {
+    "SUazv3XX": {
+      "filename": "force-beacon-load-1.0.2+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/tVWKciHz/versions/SUazv3XX/force-beacon-load-1.0.2%2Bmc1.20.1.jar",
+      "hash": "sha512-2U9J7vB2rgAbLTzU8n72wMlCQiYnSGVBzMZcG1kfPplKpOpmddZR+MmLl5V6cDrs6djjNRYtPC+BkwWnXcnpIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "oT7Izv7q": {
+      "filename": "force-beacon-load-1.0.2+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/tVWKciHz/versions/oT7Izv7q/force-beacon-load-1.0.2%2Bmc1.21.jar",
+      "hash": "sha512-wL3lHcMaxhGrZgaFKhzWkP4h80DQyhp72/noPVZciiWjymeL6xSEqLOlP/YC2NSArQP518oBCMvWH2EZXvR4VA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "zPIVdBvf": {
+      "filename": "force-beacon-load-1.0.2+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/tVWKciHz/versions/zPIVdBvf/force-beacon-load-1.0.2%2Bmc1.21.1.jar",
+      "hash": "sha512-iFTcd1iW6FgOA10XzSRs8OqNRiS8fv9G8Hrg15p2fvX/midYVHr3oQaCG5vi6MBtUpuRB1IhmqtQ4w7u1u7Feg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "SUazv3XX"
+    ],
+    "1.21+fabric": [
+      "oT7Izv7q"
+    ],
+    "1.21.1+fabric": [
+      "zPIVdBvf"
+    ]
+  }
+}

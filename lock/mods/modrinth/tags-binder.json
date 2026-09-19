@@ -1,0 +1,106 @@
+{
+  "slug": "tags-binder",
+  "projectId": "KmtBSM2H",
+  "versions": {
+    "6bT92OAk": {
+      "filename": "tags-binder-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/KmtBSM2H/versions/6bT92OAk/tags-binder-0.1.1.jar",
+      "hash": "sha512-t0VC3J2v5NShz00945g4Ud3+yG6N4FxKWayQMTV3JEnSS51/K7ZU6aMVfgEYKJd42R7fEA3OHdNBg/JqWLmeLQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aRqpLPlm": {
+      "filename": "tags-binder-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/KmtBSM2H/versions/aRqpLPlm/tags-binder-0.3.jar",
+      "hash": "sha512-00zG2zBptva/sI9gsikbQMnPLFZfEC1uqHAaxEJu1PLOC88+E0lF/wIQ7jyxom7gzrhdJumrmxQuKyQ/esq/eg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "c2zIT2WJ": {
+      "filename": "tags-binder-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KmtBSM2H/versions/c2zIT2WJ/tags-binder-0.1.0.jar",
+      "hash": "sha512-w+iBzQFcs4Fu+cxTM/yRM5tBCa2BvvpwvZon30FwA5RFwmSE9p5ItuWhDJA7gKLriaP8lnQY65kpaKgCRKOEAg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "gvzTkiSX": {
+      "filename": "tags-binder-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/KmtBSM2H/versions/gvzTkiSX/tags-binder-0.2.jar",
+      "hash": "sha512-QzV49MJRWMs8R9rBwFeCtBrfanfekmD4aTUar+fOesBDnEnnyAn31KgrR0gnIDbxoAgldbM+TlABwTaU78trbg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "6bT92OAk",
+      "c2zIT2WJ"
+    ],
+    "1.18.2+quilt": [
+      "6bT92OAk",
+      "c2zIT2WJ"
+    ],
+    "1.19.3+fabric": [
+      "gvzTkiSX"
+    ],
+    "1.19.3+quilt": [
+      "gvzTkiSX"
+    ],
+    "1.20.1+fabric": [
+      "aRqpLPlm"
+    ],
+    "1.20.1+quilt": [
+      "aRqpLPlm"
+    ]
+  }
+}

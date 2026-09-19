@@ -1,0 +1,102 @@
+{
+  "slug": "podium-port",
+  "projectId": "ftyr3eve",
+  "versions": {
+    "1vJYqzIW": {
+      "filename": "podium-neoforge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ftyr3eve/versions/1vJYqzIW/podium-neoforge-2.0.0.jar",
+      "hash": "sha512-ibxw1UIMtqg8sx1Do10yNAZW+H4U4f2RHmkX8oIWAL3oUBGiV0NWwwichd9dOEXFdnIMutALPrYwK7AGCGfmCA==",
+      "gameVersions": [
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "BXE5PvpK": {
+      "filename": "podium-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ftyr3eve/versions/BXE5PvpK/podium-fabric-2.0.0.jar",
+      "hash": "sha512-4qUYwp/ttf1GqFTjZCTkf0FkzqKuhBzoZKIxg4LEgOpEGvbZCP406wx0syNtYCOk/nzM7Zguk863e+4i2DtwIA==",
+      "gameVersions": [
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "BXE5PvpK"
+    ],
+    "1.21.11+neoforge": [
+      "1vJYqzIW"
+    ],
+    "1.21.11+quilt": [
+      "BXE5PvpK"
+    ],
+    "26.1+fabric": [
+      "BXE5PvpK"
+    ],
+    "26.1+neoforge": [
+      "1vJYqzIW"
+    ],
+    "26.1+quilt": [
+      "BXE5PvpK"
+    ],
+    "26.1.1+fabric": [
+      "BXE5PvpK"
+    ],
+    "26.1.1+neoforge": [
+      "1vJYqzIW"
+    ],
+    "26.1.1+quilt": [
+      "BXE5PvpK"
+    ],
+    "26.1.2+fabric": [
+      "BXE5PvpK"
+    ],
+    "26.1.2+neoforge": [
+      "1vJYqzIW"
+    ],
+    "26.1.2+quilt": [
+      "BXE5PvpK"
+    ],
+    "26.2+fabric": [
+      "BXE5PvpK"
+    ],
+    "26.2+neoforge": [
+      "1vJYqzIW"
+    ],
+    "26.2+quilt": [
+      "BXE5PvpK"
+    ]
+  }
+}

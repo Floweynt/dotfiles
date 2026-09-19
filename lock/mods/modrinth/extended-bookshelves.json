@@ -1,0 +1,42 @@
+{
+  "slug": "extended-bookshelves",
+  "projectId": "BoxXR6F2",
+  "versions": {
+    "aRRaVzMc": {
+      "filename": "extendedbookshelves-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BoxXR6F2/versions/2.0.1/extendedbookshelves-2.0.1.jar",
+      "hash": "sha512-EwayUi0uLp86lWPgMXEGFfX0o3ZT+9F3CyRkLYaPpYFTXAXWMSroMVM6ZJVzyYhhCYfuyjY1hVgQz3TELgRdXg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vOmqXHuv": {
+      "filename": "extendedbookshelves-1.0.0.jar",
+      "url": "https://cdn.modrinth.com//data/BoxXR6F2/versions/1.0.0/extendedbookshelves-1.0.0.jar",
+      "hash": "sha512-YxS119iXyk89y+HH0EHbMQJo1ANsrCW5SD4eSz3QDxIYrWPcfBfQ3IrCZedI+jn2HB/19tjjR0W1yuGywAf/jA==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17.1+fabric": [
+      "vOmqXHuv"
+    ],
+    "1.18.2+fabric": [
+      "aRRaVzMc"
+    ]
+  }
+}

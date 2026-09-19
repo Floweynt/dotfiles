@@ -1,0 +1,52 @@
+{
+  "slug": "hexthingy",
+  "projectId": "V8CtcUdE",
+  "versions": {
+    "5sWqrHSa": {
+      "filename": "hexthingy-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/V8CtcUdE/versions/5sWqrHSa/hexthingy-1.0.0.jar",
+      "hash": "sha512-HUpP0XsI1yF1PfdpYPEL3yUAzwKdWeGISYO0KbDr8qZr7s6CtYrlEVSpCSeM8F9/r+7JvFN+1dR//7eijoip+w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "JBl5qpJu": {
+      "filename": "hexthingy-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/V8CtcUdE/versions/JBl5qpJu/hexthingy-1.0.1.jar",
+      "hash": "sha512-Vj2gZso1KITHjWpqsQH6iwjxgFX5VKuXk/XJ/TQ9wXnT0P7UbTOmKXrmoWApHtkG9V2FoZCHS29wlOchUiylgw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "JBl5qpJu",
+      "5sWqrHSa"
+    ]
+  }
+}

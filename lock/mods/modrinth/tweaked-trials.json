@@ -1,0 +1,126 @@
+{
+  "slug": "tweaked-trials",
+  "projectId": "cO1mcpQz",
+  "versions": {
+    "GPpgjK3R": {
+      "filename": "tweaked_trials-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cO1mcpQz/versions/GPpgjK3R/tweaked_trials-1.0.0.jar",
+      "hash": "sha512-qdHSC4nMXHWz94ZOUQNIzVJ4XLowIxjnrhJv8zs1GL7QfoLnaKXm6TPU8ufxFJ4ixLGBjSHKNe05ke1Fw5Qt6w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        }
+      ]
+    },
+    "Nl6MZ2F8": {
+      "filename": "tweaked_trials-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/cO1mcpQz/versions/Nl6MZ2F8/tweaked_trials-1.0.3.jar",
+      "hash": "sha512-ur58smwfy5Hz+RlMZMOT6+A8eDXzwctI56vGxdB0NsAzC543kUydJSy+TusBNQlZ/9l0TEahRQiy7zBaER6lcA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kOZTgTI6": {
+      "filename": "tweaked_trials-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/cO1mcpQz/versions/kOZTgTI6/tweaked_trials-1.0.1.jar",
+      "hash": "sha512-cAbWw4uPjuHGCRJhnaAnAPPIdc6eaZX7wFnzx8i958F9x+M/vPU5vRPpkbv7KUPb4mDA4ArGZnve5HhPpm0hsg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zYm7hZUA": {
+      "filename": "tweaked_trials-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/cO1mcpQz/versions/zYm7hZUA/tweaked_trials-1.0.2.jar",
+      "hash": "sha512-CO0uL6WeCbYPOULJZRXjEEuNEHU4ebO05Viyu9HA3LAFMcSUcJjHxoo4c775DCK9bCZDmwK0XYCzDTjmceqtTQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "zYm7hZUA",
+      "kOZTgTI6",
+      "GPpgjK3R"
+    ],
+    "1.21.1+fabric": [
+      "Nl6MZ2F8",
+      "zYm7hZUA",
+      "kOZTgTI6",
+      "GPpgjK3R"
+    ]
+  }
+}

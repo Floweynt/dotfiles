@@ -1,0 +1,48 @@
+{
+  "slug": "creeperconsent",
+  "projectId": "Mp9B9kJR",
+  "versions": {
+    "3NlIN1AN": {
+      "filename": "creeperconset-fabric-1.4.3.jar",
+      "url": "https://cdn.modrinth.com/data/Mp9B9kJR/versions/3NlIN1AN/creeperconset-fabric-1.4.3.jar",
+      "hash": "sha512-ir/4+tiQoKt+oPYcXaghOmWu68UW7YLn1ADy+u+sADTqgbbx/RoBVlqz4vVyDp9eP0IfADAN9U/TqJfnXRQUzA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "P0SJIejI": {
+      "filename": "creeperconset-neoforge-1.4.3.jar",
+      "url": "https://cdn.modrinth.com/data/Mp9B9kJR/versions/P0SJIejI/creeperconset-neoforge-1.4.3.jar",
+      "hash": "sha512-KhE8oY3q4F0SHqh5Y91CxzxlL6CrVWV5tTg4wMJwB6I7hYjcIxpjphaYRQMM8nBq+7rZ59Qrj6vdShpo5KnSGw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "3NlIN1AN"
+    ],
+    "26.1.2+neoforge": [
+      "P0SJIejI"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "waxed-icons",
+  "projectId": "Le4aPVeE",
+  "versions": {
+    "FfkCDQp8": {
+      "filename": "WaxedIcons-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Le4aPVeE/versions/FfkCDQp8/WaxedIcons-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-TBUs5ua7lwnUMXU5nXMhHpwUhRHw661DXHNWkKq0Ih0AT8h9//Bgojq+ID40gacUl4/4MvbphyP7rMgci2q1Bg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "trimmed",
+          "projectId": "q8k4zHw5",
+          "type": "required"
+        }
+      ]
+    },
+    "XlXyg9A0": {
+      "filename": "WaxedIcons-neo-1.21-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Le4aPVeE/versions/XlXyg9A0/WaxedIcons-neo-1.21-2.0.0.jar",
+      "hash": "sha512-3DWHi2XQS6KgXrgmUGHbmcZyFRbKKdNPmTvwf9XoON1XJ3JAdwt19rUm6Gg+O0Ph9g3Tfl6vOo09c9Eq1RPiqw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "trimmed",
+          "projectId": "q8k4zHw5",
+          "type": "required"
+        }
+      ]
+    },
+    "qD7RmKXd": {
+      "filename": "WaxedIcons-fabric-1.21-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Le4aPVeE/versions/qD7RmKXd/WaxedIcons-fabric-1.21-2.0.0.jar",
+      "hash": "sha512-GixbkCazx7iU3i+P8dQPfecJMAVgy8kVjqmJPR6oUTUarOwrKFmceQqNtTrHITumJblsXnq+8QoYKY3l8yFaNg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "trimmed",
+          "projectId": "q8k4zHw5",
+          "type": "required"
+        }
+      ]
+    },
+    "tesRX9cj": {
+      "filename": "WaxedIcons-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Le4aPVeE/versions/tesRX9cj/WaxedIcons-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-nSgpeebEVepXpQ9nsG0DTHiQu5Ow4YFhHfAf4idOfqSAWDxGbamXr4XS5c8DpTR9fGRt1C2nYcdqmyZxDGRVOQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "trimmed",
+          "projectId": "q8k4zHw5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "tesRX9cj"
+    ],
+    "1.20+forge": [
+      "FfkCDQp8"
+    ],
+    "1.20.1+fabric": [
+      "tesRX9cj"
+    ],
+    "1.20.1+forge": [
+      "FfkCDQp8"
+    ],
+    "1.21+fabric": [
+      "qD7RmKXd"
+    ],
+    "1.21+neoforge": [
+      "XlXyg9A0"
+    ],
+    "1.21+quilt": [
+      "qD7RmKXd"
+    ]
+  }
+}

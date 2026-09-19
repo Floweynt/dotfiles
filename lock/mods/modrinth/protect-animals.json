@@ -1,0 +1,94 @@
+{
+  "slug": "protect-animals",
+  "projectId": "B1Ykdy1D",
+  "versions": {
+    "AINkJ85z": {
+      "filename": "save-animals-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/B1Ykdy1D/versions/AINkJ85z/save-animals-1.0.0.jar",
+      "hash": "sha512-eXJ8kQBTxn++UIo9PQ4oqSYbCRh3lbi+TdvX4bSckDVLkS9m+/Asr/5lj5QqAYp8upzJxzJrwFcKhBzHVi+ITg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "BTo5x8k5": {
+      "filename": "protect-animals-1.2.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/B1Ykdy1D/versions/BTo5x8k5/protect-animals-1.2.1%2B26.1.jar",
+      "hash": "sha512-Xe/SYTKDCmlP7gZxD15mkxQ9RcRMqO8ilPPS4Q3Iw7lEhJmcsHaQPMJcmnLePnNPmcbB7SzJYeFQGzmKyPKg/A==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XAUNycG3": {
+      "filename": "protect-animals-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/B1Ykdy1D/versions/XAUNycG3/protect-animals-1.0.0.jar",
+      "hash": "sha512-RernKr+6EUAGCk2wW4akzdpzgrHnSY+CRxP/dm44lhfv7V0yahTIxZtwjIjHfH/Ybkj4706LfISuLqK9jqsFZA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "gvIJdMyC": {
+      "filename": "protect-animals-1.2.0+1.21.3-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/B1Ykdy1D/versions/gvIJdMyC/protect-animals-1.2.0%2B1.21.3-1.21.4.jar",
+      "hash": "sha512-+E4yGYTx8jrbWW8Xn7MuY+vYJGKJ2kzmf3yL1x3pfn47rxtKobidjKt5lH8ZyL7VyyzLyMUqQHt+8wp0eiWegg==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "AINkJ85z"
+    ],
+    "1.21+fabric": [
+      "XAUNycG3"
+    ],
+    "1.21.3+fabric": [
+      "gvIJdMyC"
+    ],
+    "1.21.4+fabric": [
+      "gvIJdMyC"
+    ],
+    "26.1+fabric": [
+      "BTo5x8k5"
+    ],
+    "26.1.1+fabric": [
+      "BTo5x8k5"
+    ],
+    "26.1.2+fabric": [
+      "BTo5x8k5"
+    ]
+  }
+}

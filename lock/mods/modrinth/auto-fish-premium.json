@@ -1,0 +1,46 @@
+{
+  "slug": "auto-fish-premium",
+  "projectId": "tF5DvCSF",
+  "versions": {
+    "74zIgmPi": {
+      "filename": "autofish-1.0.0-sources.jar",
+      "url": "https://cdn.modrinth.com/data/tF5DvCSF/versions/74zIgmPi/autofish-1.0.0-sources.jar",
+      "hash": "sha512-VdPAxrgKIm1RzagjjYFxFXeub/pat1GzHOY50ZKvnq+38kBuxXTX6nOkglwnIawDmbQHvShrBmgz2zmrrG3fkg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zi1Il1M4": {
+      "filename": "autofishpremium-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/tF5DvCSF/versions/zi1Il1M4/autofishpremium-1.1.0.jar",
+      "hash": "sha512-b4w3a4OrduVUymGEAe3dh/cJ4G+/VEKHq7NTw2M8VMV0vX0rK0ayW8qruKcMfl+puy0NvzlfVr/Q6U1lNvMRpA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "zi1Il1M4",
+      "74zIgmPi"
+    ]
+  }
+}

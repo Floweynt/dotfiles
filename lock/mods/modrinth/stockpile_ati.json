@@ -1,0 +1,99 @@
+{
+  "slug": "stockpile_ati",
+  "projectId": "6atAGTzi",
+  "versions": {
+    "BV8kIXEu": {
+      "filename": "Stockpile-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/6atAGTzi/versions/BV8kIXEu/Stockpile-0.2.jar",
+      "hash": "sha512-9CKS6xL4gDRA20b0sP0h8CpyOLNMsH90gHJLcT28UAF+3r01C4IGXF4hQJaB8nZUS9G2cuiROPOaJVWfdviVMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "arsenal",
+          "projectId": "SQhWMwht",
+          "type": "required"
+        }
+      ]
+    },
+    "CFo9HmNe": {
+      "filename": "Stockpile-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/6atAGTzi/versions/CFo9HmNe/Stockpile-0.3.jar",
+      "hash": "sha512-m1kpHd8P1LYMpHzKjExdHSdbma8PeVRLQft5BeKSAwD90pKcua4SQVBB4rJ0s4gVKfUnxthb3/adFAmeCzIZaw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "arsenal",
+          "projectId": "SQhWMwht",
+          "type": "required"
+        }
+      ]
+    },
+    "OO4z2G6C": {
+      "filename": "Stockpile-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/6atAGTzi/versions/OO4z2G6C/Stockpile-0.1.jar",
+      "hash": "sha512-udu/uQMF/hWCOiHgcwMyYKLK6l1IEFmcwr0/2fss3wgKbGnoRHZh/6yEzHEvkXJMMYn88mCttnte2EyugOI9bw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "arsenal",
+          "projectId": "SQhWMwht",
+          "type": "required"
+        }
+      ]
+    },
+    "gEEECRs7": {
+      "filename": "Stockpile-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/6atAGTzi/versions/gEEECRs7/Stockpile-0.2.1.jar",
+      "hash": "sha512-OqVRhyLUKMpWnNDJM0G4AvvXR9aB+/6+zP0xwm+7U0gQVrIOykk4ojgwjn15FC8eBpLwvQxuRidDDULpZLpnLQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "arsenal",
+          "projectId": "SQhWMwht",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "CFo9HmNe",
+      "gEEECRs7",
+      "BV8kIXEu",
+      "OO4z2G6C"
+    ]
+  }
+}

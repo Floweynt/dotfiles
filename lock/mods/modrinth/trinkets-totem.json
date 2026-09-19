@@ -1,0 +1,78 @@
+{
+  "slug": "trinkets-totem",
+  "projectId": "LW5Wamev",
+  "versions": {
+    "HyQuUzTf": {
+      "filename": "trinkets_totem-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/LW5Wamev/versions/HyQuUzTf/trinkets_totem-1.0.0.jar",
+      "hash": "sha512-HWpqz8uRKaZ6/1tTvqN5bE0lFrNDNKNtb/v7xQ3gNnOHjsBRKTxd/wESDSSd5PK70Z3FzWnUxVnv4m8aimfEfw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "trinkets-updated",
+          "projectId": "XaT8sLP6",
+          "type": "required"
+        }
+      ]
+    },
+    "X7EXIoTT": {
+      "filename": "trinkets_totem-1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/LW5Wamev/versions/X7EXIoTT/trinkets_totem-1.0.0.zip",
+      "hash": "sha512-BKqwRKQwW694CDLK5urelB/GTBnIYA5DxzSmMZhi9Aj+px0j+bxPe5gwZjx8LkQFIWvBsnbbzYxl56NAEaxITw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "trinkets-updated",
+          "projectId": "XaT8sLP6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+datapack": [
+      "X7EXIoTT"
+    ],
+    "26.1+fabric": [
+      "HyQuUzTf"
+    ],
+    "26.1.1+datapack": [
+      "X7EXIoTT"
+    ],
+    "26.1.1+fabric": [
+      "HyQuUzTf"
+    ],
+    "26.1.2+datapack": [
+      "X7EXIoTT"
+    ],
+    "26.1.2+fabric": [
+      "HyQuUzTf"
+    ],
+    "26.2+datapack": [
+      "X7EXIoTT"
+    ],
+    "26.2+fabric": [
+      "HyQuUzTf"
+    ]
+  }
+}

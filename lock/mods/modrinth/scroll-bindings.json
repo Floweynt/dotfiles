@@ -1,0 +1,68 @@
+{
+  "slug": "scroll-bindings",
+  "projectId": "LML6IbHO",
+  "versions": {
+    "QQRLmsGK": {
+      "filename": "scroll_bindings-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/LML6IbHO/versions/QQRLmsGK/scroll_bindings-1.0.0.jar",
+      "hash": "sha512-Fkc0gjlH0c2wBB+xgNDKlRQohiFIMnnbYG1MNPFtbFL6BweLw0pymDHF7t5FnuHgrdwC0NNnKIv9oAchqtG3+w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "lF1UsBRz": {
+      "filename": "scroll_bindings-1.0 26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/LML6IbHO/versions/lF1UsBRz/scroll_bindings-1.0%2026.1.2.jar",
+      "hash": "sha512-Kt6TQWgBR3OYkc1r+TYAStvXvkb2u+k3ms1W8Htp7LKZuR1vLsJ6Fni/6KiMO8BFQ0mBoQWCcuK3FM97X+MBpA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "pBZtymCA": {
+      "filename": "scroll_bindings.jar",
+      "url": "https://cdn.modrinth.com/data/LML6IbHO/versions/pBZtymCA/scroll_bindings.jar",
+      "hash": "sha512-H9IUhH0U/IOpZz3CsqLaFGGGVChcUz0hMCuPaiZ7NjnSwxYGwAJlm0MTV7vhzymsPm/0MnSEtP63sMcGeDpL6A==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "QQRLmsGK"
+    ],
+    "26.1.2+fabric": [
+      "pBZtymCA",
+      "lF1UsBRz"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "resource-trees",
+  "projectId": "eFWf8AQJ",
+  "versions": {
+    "d86wUln9": {
+      "filename": "resource_trees-0.0.1-1.18.2-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/eFWf8AQJ/versions/d86wUln9/resource_trees-0.0.1-1.18.2-FORGE.jar",
+      "hash": "sha512-x8LxGTQYgC1jr0tlIuo54VzsZbmvLRcwrLmRhtXZNlnV+d1HSH4VmW5y9ZqE1pQpaObGJnNr4KuYaa3UhBEcGA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mxkFEuby": {
+      "filename": "resource_trees-0.1.5-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/eFWf8AQJ/versions/mxkFEuby/resource_trees-0.1.5-1.20.1-fabric.jar",
+      "hash": "sha512-wzFP5GiQ4f2Il9oykekSAsbOn0P/K01BnZ7c3WaV+bg6zCemeVt1gOYYz7hfLSrZwUByMNH/vmTmqazGatfqJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tbKYOcMi": {
+      "filename": "resource_trees-0.1.5-1.20.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/eFWf8AQJ/versions/tbKYOcMi/resource_trees-0.1.5-1.20.3-fabric.jar",
+      "hash": "sha512-YzMHcQxNr32VcXjciCX5568iyJNXsKuki7kTMx4jlLV9p+kKmSwXFAIdySu6Ne7UUowJFXrPavm947MoDKFgoQ==",
+      "gameVersions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xwbplSiQ": {
+      "filename": "resource_trees-0.1.5-1.20.1a-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/eFWf8AQJ/versions/xwbplSiQ/resource_trees-0.1.5-1.20.1a-fabric.jar",
+      "hash": "sha512-WjdvZPHI/Q94MpdaF8dgxEBb/YLEqzpGtXTmiIu6umtVO5GvsSvPaTF/Z6BaHV8XSqO+FAyGNbkZJA6Mp9HB3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "d86wUln9"
+    ],
+    "1.20.1+fabric": [
+      "xwbplSiQ",
+      "mxkFEuby"
+    ],
+    "1.20.3+fabric": [
+      "tbKYOcMi"
+    ]
+  }
+}

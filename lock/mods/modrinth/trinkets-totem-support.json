@@ -1,0 +1,91 @@
+{
+  "slug": "trinkets-totem-support",
+  "projectId": "c17Rhdsy",
+  "versions": {
+    "JmEEY6S8": {
+      "filename": "trinkets-totem-support-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c17Rhdsy/versions/JmEEY6S8/trinkets-totem-support-1.0.0.jar",
+      "hash": "sha512-cf4iNX3yO6RPz3xy7kTfnqAF+MlMG/L2PIF7nMbdXnDSfslGAePHpID+nUIdTIa8287jDaygbTXy8NIPLNNNAQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "trinkets-updated",
+          "projectId": "XaT8sLP6",
+          "type": "required"
+        }
+      ]
+    },
+    "ysltmkb9": {
+      "filename": "trinkets_totem.zip",
+      "url": "https://cdn.modrinth.com/data/c17Rhdsy/versions/ysltmkb9/trinkets_totem.zip",
+      "hash": "sha512-8Pow9VN6/WgsrgaNIXf57eJerDEG1i8RV2QHtX/8nRpADcMnBJgj+AoHKzBFXqXuMA+lY9qf0a0QOw5J+DZVBA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "trinkets-updated",
+          "projectId": "XaT8sLP6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+datapack": [
+      "ysltmkb9"
+    ],
+    "26.1+fabric": [
+      "JmEEY6S8"
+    ],
+    "26.1+neoforge": [
+      "JmEEY6S8"
+    ],
+    "26.1.1+datapack": [
+      "ysltmkb9"
+    ],
+    "26.1.1+fabric": [
+      "JmEEY6S8"
+    ],
+    "26.1.1+neoforge": [
+      "JmEEY6S8"
+    ],
+    "26.1.2+datapack": [
+      "ysltmkb9"
+    ],
+    "26.1.2+fabric": [
+      "JmEEY6S8"
+    ],
+    "26.1.2+neoforge": [
+      "JmEEY6S8"
+    ],
+    "26.2+datapack": [
+      "ysltmkb9"
+    ],
+    "26.2+fabric": [
+      "JmEEY6S8"
+    ],
+    "26.2+neoforge": [
+      "JmEEY6S8"
+    ]
+  }
+}

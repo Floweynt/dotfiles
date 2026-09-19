@@ -1,0 +1,31 @@
+{
+  "slug": "terracraft",
+  "projectId": "nKYADgsA",
+  "versions": {
+    "niKb6ZVA": {
+      "filename": "terracraft-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/nKYADgsA/versions/0.1.0/terracraft-0.1.0.jar",
+      "hash": "sha512-pcurd7TXj4Eca/fsMaiprIWHI4aD4YRTdX35eyO2spwJVtlsUBCiO7wrwBPUF/bivDfa7QkyefqWREtCPcoHjg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "niKb6ZVA"
+    ]
+  }
+}

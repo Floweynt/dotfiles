@@ -1,0 +1,96 @@
+{
+  "slug": "create-crystallized",
+  "projectId": "YiHKehNS",
+  "versions": {
+    "CuVb4dSX": {
+      "filename": "crystallized-v1-1631+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/YiHKehNS/versions/CuVb4dSX/crystallized-v1-1631%2B1.20.1.jar",
+      "hash": "sha512-lFjtfNlZSUjYXHwEuW5HH4xAOkTNy93yFlpY90DjwrRrWz+A2VV7r9p495m+cqA4KrfFxy0DkU1O9HYhyJyqlw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "P2fXEDyj": {
+      "filename": "crystallized-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/YiHKehNS/versions/P2fXEDyj/crystallized-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-QooD9uqBnirRp78UlQR7I82xtBsLv0fDpNziJU98Yk/MhJAg3jBj0q7TxN30kUhVdyvW1GufxRqqZBtH15qX0g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "XryqZCYF": {
+      "filename": "crystallized-v1.1-1631+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/YiHKehNS/versions/XryqZCYF/crystallized-v1.1-1631%2B1.20.1.jar",
+      "hash": "sha512-ykWD5lhD31JT1j846bqeNWTFGm4XSXqy/9Y55Ma+38GbshG3fnJMuBCBkYxcuL2Lwx50lumtwEkuumpixiQ2Og==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "YOBRUG8l": {
+      "filename": "crystallized-1.1-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/YiHKehNS/versions/YOBRUG8l/crystallized-1.1-FORGE.jar",
+      "hash": "sha512-+OLb9pFNWFUOUOU4gRip86prVRJxPvWD+ftWqNHdHCSW7hn2p9L/zytD6DQww4HUxXjaOlD3IbaxLRNvfB67qg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "XryqZCYF",
+      "CuVb4dSX",
+      "P2fXEDyj"
+    ],
+    "1.20.1+forge": [
+      "YOBRUG8l"
+    ]
+  }
+}

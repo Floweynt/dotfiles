@@ -1,0 +1,31 @@
+{
+  "slug": "leather-bundle-recipe",
+  "projectId": "CIliKZMA",
+  "versions": {
+    "WLmylONj": {
+      "filename": "leather-bundle-recipe-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CIliKZMA/versions/WLmylONj/leather-bundle-recipe-1.0.0.jar",
+      "hash": "sha512-zCzoFV4p2FlLDgnPlGdJIyP3UwSPYrrJEI2KpJJ3mUf7aM8C7lyj6Uw8cVszIyg2sc9wg8UzOumyzR7FgSVFqw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "WLmylONj"
+    ]
+  }
+}

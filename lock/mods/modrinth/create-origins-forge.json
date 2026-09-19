@@ -1,0 +1,62 @@
+{
+  "slug": "create-origins-forge",
+  "projectId": "G17Yrkds",
+  "versions": {
+    "CMj1RmfV": {
+      "filename": "createorigins-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/G17Yrkds/versions/CMj1RmfV/createorigins-1.1.0.jar",
+      "hash": "sha512-BLzq/Wxq6v8iMcvyoMnkKCmLYQQH71Ii0rBdkxyPCeVQ1Lr14axp6fK0/OVQX4Q8fMztyJ4Bd5eVQwWrdNf8Pg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        }
+      ]
+    },
+    "Htv1XAh7": {
+      "filename": "createorigins-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/G17Yrkds/versions/Htv1XAh7/createorigins-1.0.0.jar",
+      "hash": "sha512-pj08ZL8Dkmkq8sdEbcHdQIe28nW/3Zqf9ZoaauVcIau67Jm68abPMW2jUktvsQy3J66EkHFscZTdS1C30HrPLA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "CMj1RmfV",
+      "Htv1XAh7"
+    ]
+  }
+}

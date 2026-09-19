@@ -1,0 +1,66 @@
+{
+  "slug": "create-smorestuff",
+  "projectId": "arzbqbFZ",
+  "versions": {
+    "1xtGTpM0": {
+      "filename": "smorestuff-0.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/arzbqbFZ/versions/1xtGTpM0/smorestuff-0.0.1%2B1.20.1.jar",
+      "hash": "sha512-noB9F9Hsh2pGZ7icvLmFl+2qJgfV8rh4CXnYoTL8v3ul7cbPak+TWLBkL4z2ORb8BDjp2DuBZ6+P6t19qMqV4A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "a1mEZAt4": {
+      "filename": "smorestuff-0.0.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/arzbqbFZ/versions/a1mEZAt4/smorestuff-0.0.2%2B1.20.1.jar",
+      "hash": "sha512-NW0DBb60xx+Aj4Ha9DdGihwkVKR4yJQIHSzBi/ABFtwg+p7mHFaA/mX7j2diZMn2Oi0uIblW3ChoeYoTlOGRHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "a1mEZAt4",
+      "1xtGTpM0"
+    ],
+    "1.20.1+quilt": [
+      "a1mEZAt4"
+    ]
+  }
+}

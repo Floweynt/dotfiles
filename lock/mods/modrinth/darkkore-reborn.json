@@ -1,0 +1,94 @@
+{
+  "slug": "darkkore-reborn",
+  "projectId": "5SesFmyd",
+  "versions": {
+    "NHJhAPJy": {
+      "filename": "darkkore-reborn-1.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/5SesFmyd/versions/NHJhAPJy/darkkore-reborn-1.0.0-1.21.jar",
+      "hash": "sha512-Qxtgx6qXEbF00meC+YvQIA3sAJJEfQVivxO/1hRlbVeyYD0n2e9lQqV/d3VDFvkmDER41y4WyqmiAzn+zagnBA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VmVEIqVE": {
+      "filename": "darkkore-reborn-1.0.0-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/5SesFmyd/versions/VmVEIqVE/darkkore-reborn-1.0.0-1.20.6.jar",
+      "hash": "sha512-FF2MAk/CF5G/YLRC5t/Ck7mZTefRGnJwsvjzCeHAOdNjPsE6vVzVqfIRavU/Zy8KGLGfW3JE3guFB/y12O0RPg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fVDeUyeZ": {
+      "filename": "darkkore-reborn-1.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/5SesFmyd/versions/fVDeUyeZ/darkkore-reborn-1.0.0-1.21.jar",
+      "hash": "sha512-Qxtgx6qXEbF00meC+YvQIA3sAJJEfQVivxO/1hRlbVeyYD0n2e9lQqV/d3VDFvkmDER41y4WyqmiAzn+zagnBA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zrSwntXc": {
+      "filename": "DarkKore-0.4.0-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/5SesFmyd/versions/zrSwntXc/DarkKore-0.4.0-1.20.6.jar",
+      "hash": "sha512-3RcXj8OweRjI9B5gCRWYN5ivSEXqgR8pcsORiNIMdeRLBAwd74ESFaHtszhWcQHJbCAmbnYvsgZW0ieNAbdkPg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.5+fabric": [
+      "zrSwntXc"
+    ],
+    "1.20.6+fabric": [
+      "VmVEIqVE",
+      "zrSwntXc"
+    ],
+    "1.21+fabric": [
+      "fVDeUyeZ",
+      "NHJhAPJy"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "wood-you-dye-companion",
+  "projectId": "JVm24yzP",
+  "versions": {
+    "WvM2pTi0": {
+      "filename": "woodyoudyecompanion-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JVm24yzP/versions/WvM2pTi0/woodyoudyecompanion-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-kDevZM1YkTzxV7YAezrdeymOW1+3Sf2Qqwdd5cLK+xczsl8Zuw20fw+EcrbNwnJczGBv9QCUvV7CdcBvvtYktw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "p7M5ikXn": {
+      "filename": "woodyoudyecompanion-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JVm24yzP/versions/p7M5ikXn/woodyoudyecompanion-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-boFkF2gcvx5giTEOyLcJZp+K+JHRUZNtkPHRXnZOU9BDy1yWj5czioKCV3uqBB26558JS3GUZtaA1avbPYb82w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "wyd",
+          "projectId": "lROGvk9y",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "WvM2pTi0",
+      "p7M5ikXn"
+    ],
+    "1.20.1+fabric": [
+      "WvM2pTi0",
+      "p7M5ikXn"
+    ]
+  }
+}

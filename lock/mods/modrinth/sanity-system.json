@@ -1,0 +1,40 @@
+{
+  "slug": "sanity-system",
+  "projectId": "hmS1uIae",
+  "versions": {
+    "ExYT1iiQ": {
+      "filename": "sanity-system-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/hmS1uIae/versions/ExYT1iiQ/sanity-system-1.0.1.jar",
+      "hash": "sha512-R/sDMCJjAt3O7MNT4BWYJUAkeqSRaSgbP8b8iaCrwEPM5gLDcl1MMXnOf98k556cP3rdcf8NVON8BiJue+XTww==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qkEDUuFz": {
+      "filename": "sanity-system-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hmS1uIae/versions/qkEDUuFz/sanity-system-2.1.0.jar",
+      "hash": "sha512-FzAWBsCyFxN9yHsCS7M3YY4YObqSvT688D2p8jHXRIs2PHvy2QsxxSE//IgyW44bddanwcoW1cKJrHsO+HtrOw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "qkEDUuFz",
+      "ExYT1iiQ"
+    ]
+  }
+}

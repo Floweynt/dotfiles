@@ -1,0 +1,67 @@
+{
+  "slug": "cobblemon-customizables",
+  "projectId": "wOweuFsE",
+  "versions": {
+    "pkDjykfS": {
+      "filename": "CobblemonCustomizables-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wOweuFsE/versions/pkDjykfS/CobblemonCustomizables-1.0.0.jar",
+      "hash": "sha512-4j2ShR2cdb5fsQ/Cs8cSG1etsU0CCboeayE4q0Rp1abiSdCX0CiOIGndhPvP+h/ud27gZFQeLM88Zkwsb/OPNg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "yRNjGFdL": {
+      "filename": "CobblemonCustomizables-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wOweuFsE/versions/yRNjGFdL/CobblemonCustomizables-2.0.0.jar",
+      "hash": "sha512-4j2ShR2cdb5fsQ/Cs8cSG1etsU0CCboeayE4q0Rp1abiSdCX0CiOIGndhPvP+h/ud27gZFQeLM88Zkwsb/OPNg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zJXbs4nt": {
+      "filename": "Fabric-Java-1.0.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/wOweuFsE/versions/zJXbs4nt/Fabric-Java-1.0.0-SNAPSHOT.jar",
+      "hash": "sha512-RhzItdTu9JGNmMZHJs+s9vcPQzfSe8zNyEXmqICuSp9ljbW1K7OkIieQXKA7jOi3dpLiI2CAPoCa/ftClQ150A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "yRNjGFdL",
+      "pkDjykfS",
+      "zJXbs4nt"
+    ]
+  }
+}

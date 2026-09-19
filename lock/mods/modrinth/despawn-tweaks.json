@@ -1,0 +1,118 @@
+{
+  "slug": "despawn-tweaks",
+  "projectId": "ahQrpeXp",
+  "versions": {
+    "AL5vFSzb": {
+      "filename": "despawntweaks-forge-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ahQrpeXp/versions/AL5vFSzb/despawntweaks-forge-1.0.0-1.20.1.jar",
+      "hash": "sha512-b701kj45X3rjmL8/HZf6h1QRn223Rj/B5u+oHUD9fuxriRHmtsvD0OrwNZV0+xZd1CICJVkE2U8AXBvraCxQGg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "DaaZAwXC": {
+      "filename": "despawntweaks-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ahQrpeXp/versions/DaaZAwXC/despawntweaks-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-wV137hu12EjRgUArGnCFba1+wlTuwHmPIC1p1BzW3bp0reDGTgSLVLBMUScrTWKQFpBK86Zi39xBitbl/uCZtQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "DhT841V9": {
+      "filename": "despawntweaks-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ahQrpeXp/versions/DhT841V9/despawntweaks-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-gZgJO7IDxapx36KB5MGHTCsrRcCjyVujLn96xvuAVBeNf/4fCvGzj3E8Za2r/Z9aYaT6PNXrBpaN3tgd0qMHTQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tKu2fTKc": {
+      "filename": "despawntweaks-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ahQrpeXp/versions/tKu2fTKc/despawntweaks-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-FSpwd8FK5Ngjx0BIlag8CKJrnx5YsCSAUdURUc1BZGSFEoAIkv8Jum5kPC7NU19I0CaIytt3DgW2levuHR6liw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "DaaZAwXC"
+    ],
+    "1.20+forge": [
+      "AL5vFSzb"
+    ],
+    "1.20.1+fabric": [
+      "DaaZAwXC"
+    ],
+    "1.20.1+forge": [
+      "AL5vFSzb"
+    ],
+    "1.21.1+fabric": [
+      "DhT841V9"
+    ],
+    "1.21.1+neoforge": [
+      "tKu2fTKc"
+    ]
+  }
+}

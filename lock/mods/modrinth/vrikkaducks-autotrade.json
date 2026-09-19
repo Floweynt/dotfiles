@@ -1,0 +1,64 @@
+{
+  "slug": "vrikkaducks-autotrade",
+  "projectId": "KgZ2miAY",
+  "versions": {
+    "bBLFYqo1": {
+      "filename": "vrikkaducks-autotrade-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/KgZ2miAY/versions/bBLFYqo1/vrikkaducks-autotrade-1.0.1.jar",
+      "hash": "sha512-3/U5P/6BIgqvb4z6kmEB1YAG3KyHuVirAgzHjiDIP4znOHumjwUm9Ulc90QbaDPQpH5srooBmptItCjxlzH2yg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        }
+      ]
+    },
+    "nwwDgzKd": {
+      "filename": "vrikkaducks-autotrade-1.20.x-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/KgZ2miAY/versions/nwwDgzKd/vrikkaducks-autotrade-1.20.x-1.0.1.jar",
+      "hash": "sha512-D3kKZzNNSl0KRPUw1+dbeCdI593Vpi+y194vUoLNkNzVNKaPATZau9iX9pgOIBzcUR4a6ohVFCEPDKBTA7gAjQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "bBLFYqo1",
+      "nwwDgzKd"
+    ],
+    "1.20.1+fabric": [
+      "bBLFYqo1",
+      "nwwDgzKd"
+    ],
+    "1.20.2+fabric": [
+      "bBLFYqo1"
+    ],
+    "1.20.3+fabric": [
+      "bBLFYqo1"
+    ],
+    "1.20.4+fabric": [
+      "bBLFYqo1"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "nethers-delight",
+  "projectId": "Vv0RM7WN",
+  "versions": {
+    "MTDQhZd2": {
+      "filename": "nethersdelight-1.20.1-4.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vv0RM7WN/versions/MTDQhZd2/nethersdelight-1.20.1-4.0.jar",
+      "hash": "sha512-MUa5Q4yqxeFIdIvu1+fxpeRGxAyoJuR25G+2IxdbK9WMH0p0yrSgjdF0mt1dCIRAIXrWjdC4ANGsiThYLS6BuQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "coysmu7U": {
+      "filename": "NethersDelight-1.19-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vv0RM7WN/versions/coysmu7U/NethersDelight-1.19-3.0.jar",
+      "hash": "sha512-tFVUxNQTN9/ofexhRd+WhCt4Y+D/LMhGtV4SAY3Y7LzFH3sgW4jdWwQpPGK5sVcaAEdJQWBITg8wqyoDReuTLA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    },
+    "uBwPuAms": {
+      "filename": "nethersdelight-1.20.1-4.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vv0RM7WN/versions/uBwPuAms/nethersdelight-1.20.1-4.0.jar",
+      "hash": "sha512-Kpvc6E5+B1nDxqxSseHy0lQNQdcHW5pwvga/QodRLoCtI9HIo4688TUwquR4Pkl2i67SOVwTREnKcHWGA+P5Mg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+forge": [
+      "coysmu7U"
+    ],
+    "1.20+forge": [
+      "MTDQhZd2",
+      "uBwPuAms"
+    ],
+    "1.20.1+forge": [
+      "MTDQhZd2",
+      "uBwPuAms"
+    ]
+  }
+}

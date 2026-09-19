@@ -1,0 +1,182 @@
+{
+  "slug": "tpa++",
+  "projectId": "QuPbmyCQ",
+  "versions": {
+    "jf6ttTgp": {
+      "filename": "TPA++ - 1.6.0-1.20.x-RELEASE-CANDIDATE-2.jar",
+      "url": "https://cdn.modrinth.com/data/QuPbmyCQ/versions/jf6ttTgp/TPA%2B%2B%20-%201.6.0-1.20.x-RELEASE-CANDIDATE-2.jar",
+      "hash": "sha512-wHMkufcCWzKBM0jN7NEy9TOoFfhCreRwWf3Vm+/TgKTekkf//aUXuTileZVBd6B9tW/lk5M4JjwHBxLxM4Up1w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "mMuGsYkx": {
+      "filename": "superricky-1.6.0-1.20.x-RELEASE-CANDIDATE-1.jar",
+      "url": "https://cdn.modrinth.com/data/QuPbmyCQ/versions/mMuGsYkx/superricky-1.6.0-1.20.x-RELEASE-CANDIDATE-1.jar",
+      "hash": "sha512-xr+x+prdTfLJ+fLENc5vKYFnoPlPMC/5TwRj13K3bChlJmC337gHHQWOr8+YHjb8LWxvwzDFjvPHs+1uznSJtA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "mRuNJ4RO": {
+      "filename": "TPA++ - 1.6.0-1.20.x-UNTESTED-BETA-3.jar",
+      "url": "https://cdn.modrinth.com/data/QuPbmyCQ/versions/mRuNJ4RO/TPA%2B%2B%20-%201.6.0-1.20.x-UNTESTED-BETA-3.jar",
+      "hash": "sha512-MCrItsrQq8j8+1vYlEV2JSG7R9QlIGzLlB39lRTQSKMinenzSxxHazAf8BGnCQXsdwM/W41fY2Rsxl1iMidTvQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20+forge": [
+      "mRuNJ4RO",
+      "jf6ttTgp",
+      "mMuGsYkx"
+    ],
+    "1.20+neoforge": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20+quilt": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.1+fabric": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.1+forge": [
+      "mRuNJ4RO",
+      "jf6ttTgp",
+      "mMuGsYkx"
+    ],
+    "1.20.1+neoforge": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.1+quilt": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.2+fabric": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.2+forge": [
+      "mRuNJ4RO",
+      "jf6ttTgp",
+      "mMuGsYkx"
+    ],
+    "1.20.2+neoforge": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.2+quilt": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.3+fabric": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.3+forge": [
+      "mRuNJ4RO",
+      "jf6ttTgp",
+      "mMuGsYkx"
+    ],
+    "1.20.3+neoforge": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.3+quilt": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.4+fabric": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.4+forge": [
+      "mRuNJ4RO",
+      "jf6ttTgp",
+      "mMuGsYkx"
+    ],
+    "1.20.4+neoforge": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.4+quilt": [
+      "mRuNJ4RO",
+      "mMuGsYkx"
+    ],
+    "1.20.5+forge": [
+      "jf6ttTgp"
+    ],
+    "1.20.6+forge": [
+      "jf6ttTgp"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "nethers-trial",
+  "projectId": "XxhXtild",
+  "versions": {
+    "5G24zxfg": {
+      "filename": "Nethers Trial-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/XxhXtild/versions/5G24zxfg/Nethers%20Trial-1.21.1.jar",
+      "hash": "sha512-XfKEGPmqyH8N+tYnHb7dLURD4RdJSnkbGmZ9tcz/xmhfnyd/XBJMaRqkYkzQw5lzPxNDMulEkkt1Ht8SmARdsQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "dungeonz",
+          "projectId": "11jwniuC",
+          "type": "required"
+        }
+      ]
+    },
+    "O17jQ5sH": {
+      "filename": "Nethers Trial-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/XxhXtild/versions/O17jQ5sH/Nethers%20Trial-1.21.jar",
+      "hash": "sha512-Or0AabydeiYp1pMPe/nNjturS3y5x3s6F8GKtTjEjMbC8RCkwQPmh6nboyL9romsBIVVbm3dAvfxf9WYE1IXJw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "dungeonz",
+          "projectId": "11jwniuC",
+          "type": "required"
+        }
+      ]
+    },
+    "r9mwz2Kc": {
+      "filename": "Nethers Trial-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/XxhXtild/versions/r9mwz2Kc/Nethers%20Trial-1.21.jar",
+      "hash": "sha512-hY+PgHJfNfP+CdJ6DH00pUVJiPLshTu8nLMOneqFMsiB1yZKn3GUjaBRkdrJBlPb9ui8V/FfNis3+5nJ1n4nwQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "dungeonz",
+          "projectId": "11jwniuC",
+          "type": "required"
+        }
+      ]
+    },
+    "xHbz1rlD": {
+      "filename": "Nethers Trial-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/XxhXtild/versions/xHbz1rlD/Nethers%20Trial-1.20.1.jar",
+      "hash": "sha512-MRbtmChkX866JgDHFpfleqEBBErWAmFu8VVZ/nrnO1R/A4zPSgoxNdMYX11zlpOBDICq781n8wslZ3GU84EZLA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "dungeonz",
+          "projectId": "11jwniuC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "xHbz1rlD"
+    ],
+    "1.21+fabric": [
+      "O17jQ5sH",
+      "r9mwz2Kc"
+    ],
+    "1.21.1+fabric": [
+      "5G24zxfg",
+      "r9mwz2Kc"
+    ]
+  }
+}

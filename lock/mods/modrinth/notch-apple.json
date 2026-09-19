@@ -1,0 +1,35 @@
+{
+  "slug": "notch-apple",
+  "projectId": "6XNP4rMF",
+  "versions": {
+    "LSPJEfEm": {
+      "filename": "Notch Apple.jar",
+      "url": "https://cdn.modrinth.com/data/6XNP4rMF/versions/LSPJEfEm/Notch%20Apple.jar",
+      "hash": "sha512-uEbCKZDBe1wK1VRBS7YQ/CYmOpBITKC3/3vgdKvs5+2kxveUggiH1XwhqYBJILo/sJ246owLC4bZgHANgjmjsQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "LSPJEfEm"
+    ],
+    "1.20.1+fabric": [
+      "LSPJEfEm"
+    ]
+  }
+}

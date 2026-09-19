@@ -1,0 +1,77 @@
+{
+  "slug": "compressor",
+  "projectId": "Np7s41ut",
+  "versions": {
+    "8VjfZMiQ": {
+      "filename": "Compressor-Fabric-0.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/Np7s41ut/versions/8VjfZMiQ/Compressor-Fabric-0.3.2.jar",
+      "hash": "sha512-4PbxuVHARW99YQld7xxc2t41it/PtAkVUFGxvnzWa+oTDL2OmqWjqhd2sgBx2sr8NROWscUN3GcmtfEARs6XRQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "chassis",
+          "projectId": "KzYZSCSR",
+          "type": "required"
+        }
+      ]
+    },
+    "PpLnqPur": {
+      "filename": "Compressor-Fabric-0.3.3+01.jar",
+      "url": "https://cdn.modrinth.com/data/Np7s41ut/versions/PpLnqPur/Compressor-Fabric-0.3.3%2B01.jar",
+      "hash": "sha512-vpWXnImTnSzG8a9YNVGz2neNqA93xa89QBf2Y0N8lbei6258gOVvWDmMuIwjdqgqZhBI39LGdxce+RU+TSyh4Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "chassis",
+          "projectId": "KzYZSCSR",
+          "type": "required"
+        }
+      ]
+    },
+    "wY1AARCK": {
+      "filename": "Compressor-Fabric-0.3.3+02.jar",
+      "url": "https://cdn.modrinth.com/data/Np7s41ut/versions/wY1AARCK/Compressor-Fabric-0.3.3%2B02.jar",
+      "hash": "sha512-Nes6rcxQh5ms3SPuGAbC8ScQdF5sd5ryRlDWunjn/6xFghxGjsou4b/+30jmOytcvaV8T1YXTwfxAzuHmW2LEQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "chassis",
+          "projectId": "KzYZSCSR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "8VjfZMiQ"
+    ],
+    "1.20.1+fabric": [
+      "PpLnqPur"
+    ],
+    "1.20.2+fabric": [
+      "wY1AARCK"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "dragonloot-advanced-netherite-progression",
+  "projectId": "U2YRrI2o",
+  "versions": {
+    "DkZPERV1": {
+      "filename": "dragon_loot_advanced_netherite_patch-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/U2YRrI2o/versions/DkZPERV1/dragon_loot_advanced_netherite_patch-1.0.0.jar",
+      "hash": "sha512-9GB5+RmzY0csRQott3IGJ0ChHatM+0fvd1yo7r2iNSIoTcAWPZbZpLDPiwJTr8Xl04Y2Q2tCElu2KZ6VGIbVWQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "advanced-netherite",
+          "projectId": "CFX9ftUJ",
+          "type": "required"
+        },
+        {
+          "slug": "dragonloot",
+          "projectId": "EldwHO4Z",
+          "type": "required"
+        }
+      ]
+    },
+    "kRkrAkCZ": {
+      "filename": "dragon_loot_advanced_netherite_patch-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/U2YRrI2o/versions/kRkrAkCZ/dragon_loot_advanced_netherite_patch-1.0.1.jar",
+      "hash": "sha512-5XbTcIUfPsVWibRRo0B1lJklqRUZYwkFo05LSpkGfiT+UiJO1QABvEPpj1JRXcvdDY/HmPLlzyCO34bn6cn9GQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s0nfZMdq": {
+      "filename": "dragon_loot_advanced_netherite_patch-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/U2YRrI2o/versions/s0nfZMdq/dragon_loot_advanced_netherite_patch-1.0.2.jar",
+      "hash": "sha512-IuOA4bI/UcU5dNAGTd0vxHXFDrqrsrc4r46/CT1LUBQYkSIM8k/xQVThG/zqD0pEuuW+GyPyDdqaAbqF3RRRMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dragonloot",
+          "projectId": "EldwHO4Z",
+          "type": "required"
+        },
+        {
+          "slug": "advanced-netherite",
+          "projectId": "CFX9ftUJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "s0nfZMdq",
+      "kRkrAkCZ",
+      "DkZPERV1"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "pokebuilder",
+  "projectId": "u10flUrF",
+  "versions": {
+    "HigLKt1x": {
+      "filename": "pokebuilder-v1_db.jar",
+      "url": "https://cdn.modrinth.com/data/u10flUrF/versions/HigLKt1x/pokebuilder-v1_db.jar",
+      "hash": "sha512-i+sTGkuwOzVAGv7Qnhv2AJVcaxPj8vEpwDITq5zAU0CVloHXF9pfsV4gWwzFA5XsFRA4fip7pkaZSUgvXl6+Kg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    },
+    "TYPlPqOr": {
+      "filename": "pokebuilder-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/u10flUrF/versions/TYPlPqOr/pokebuilder-1.0.0.jar",
+      "hash": "sha512-30sjDn02muIC+yj9vhSkajWpBpiKK1/LpsYjfxaXllbHcxLZy3v7VdD/ceawl3fQ9MqGOm+d34LQMOdxtDTuaQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "XJdNgUvK": {
+      "filename": "pokebuilder-v1.jar",
+      "url": "https://cdn.modrinth.com/data/u10flUrF/versions/XJdNgUvK/pokebuilder-v1.jar",
+      "hash": "sha512-2yFNlrBp1cBFyx8jr3A0sCcrgoddyoiWYs4SjGGHFgKPSK7eCdnY8yDmkAmoUxSJApUIgebz7u+YjXwhz9djXw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "XJdNgUvK",
+      "HigLKt1x",
+      "TYPlPqOr"
+    ]
+  }
+}

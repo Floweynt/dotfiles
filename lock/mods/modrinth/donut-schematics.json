@@ -1,0 +1,51 @@
+{
+  "slug": "donut-schematics",
+  "projectId": "2JqfEOGG",
+  "versions": {
+    "8JZpzeCd": {
+      "filename": "donut-schematics-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/2JqfEOGG/versions/8JZpzeCd/donut-schematics-1.21.11.jar",
+      "hash": "sha512-DjLKxh9sHRj4kBDAvkKDSf2TvWiBXB0WFxR781rQGuNPc5ZEKbZpjTy2tITWiF3WRUIrbgVfl+/x43M/Mm9pRw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wGdK1zPz": {
+      "filename": "donut-schematics-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/2JqfEOGG/versions/wGdK1zPz/donut-schematics-1.21.11.jar",
+      "hash": "sha512-Jvm54bOLibQgDsKJkbzOALHXNYmx8DWkoge/WZhlKnwQlg5KVndIZTbi4aAZU0lRvw0f99CprNVLo4pkBlLjbQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "wGdK1zPz",
+      "8JZpzeCd"
+    ]
+  }
+}

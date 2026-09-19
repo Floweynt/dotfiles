@@ -1,0 +1,56 @@
+{
+  "slug": "larsens-minecart-trains",
+  "projectId": "ZDGlOexE",
+  "versions": {
+    "4OiUa1ct": {
+      "filename": "minecart-trains-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZDGlOexE/versions/4OiUa1ct/minecart-trains-1.0.0.jar",
+      "hash": "sha512-hjCwDZwLUli9Kij52pa9/CgEXS+ZjdFj8fDRvnpx+0NJR1w3duPApzD08Evv3pt09LRa8LhdEL9oSi8HFUWNVQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QJpZw0Ek": {
+      "filename": "minecart-trains-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZDGlOexE/versions/QJpZw0Ek/minecart-trains-1.0.0.jar",
+      "hash": "sha512-SvXJoNf9oI5MLDJEjTH6k9sFFkuPPx0kzPzU8NGlcr4e70bLXOQXYvJnICEWjwGmnkwCnaIC7jqsApOSKJYeeg==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.7+fabric": [
+      "QJpZw0Ek"
+    ],
+    "1.21.8+fabric": [
+      "QJpZw0Ek",
+      "4OiUa1ct"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "sceneblocks",
+  "projectId": "xjdeFxEb",
+  "versions": {
+    "JocJijol": {
+      "filename": "sceneblocks-0.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/xjdeFxEb/versions/JocJijol/sceneblocks-0.2.3.jar",
+      "hash": "sha512-h4XfHRTelX3uF2wPPuEXfP5D0GXY0u6ofDEIG2Vebn5bHWQ0dHfVhYwQqyPQqNWOwsy17g8mETsT0zLXo+tyAA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "aFf5vFEe": {
+      "filename": "sceneblocks-0.2.4.jar",
+      "url": "https://cdn.modrinth.com/data/xjdeFxEb/versions/aFf5vFEe/sceneblocks-0.2.4.jar",
+      "hash": "sha512-cLkp8/W8/6Dvlw1V5GLuLXZh/q5/h6AcM7GtcUEIMf6nXbxpLHm+9tpHNPx7xBl0asMTn3VtZhPIAmJAroIxUw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "aFf5vFEe",
+      "JocJijol"
+    ]
+  }
+}

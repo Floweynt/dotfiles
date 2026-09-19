@@ -1,0 +1,64 @@
+{
+  "slug": "cc-tieredz-dragonloot",
+  "projectId": "aPLbD4W2",
+  "versions": {
+    "BpQiXN54": {
+      "filename": "tieredz-dragonloot_compat.zip",
+      "url": "https://cdn.modrinth.com/data/aPLbD4W2/versions/BpQiXN54/tieredz-dragonloot_compat.zip",
+      "hash": "sha512-bYniLYmTSiA7ErvYyDSl1uzEBLHON0kHiVUUY6tAmZIQ5qXray62xnFTR31kItSn1qe/gAHP12kx9RCChTUasw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "tieredz",
+          "projectId": "z6sMEexp",
+          "type": "required"
+        },
+        {
+          "slug": "dragonloot",
+          "projectId": "EldwHO4Z",
+          "type": "required"
+        }
+      ]
+    },
+    "XJeMUoM3": {
+      "filename": "cc-tieredz-dragonloot-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aPLbD4W2/versions/XJeMUoM3/cc-tieredz-dragonloot-1.0.0.jar",
+      "hash": "sha512-1BVAsALtwdtq4PCTzFU5Y9p25qhmnMDgiPqYenqLU9GdVl+EyKuTKNkDGC8Dr85dT5zAOkAc9NEubWtrDHz/XA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "tieredz",
+          "projectId": "z6sMEexp",
+          "type": "required"
+        },
+        {
+          "slug": "dragonloot",
+          "projectId": "EldwHO4Z",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "BpQiXN54"
+    ],
+    "1.20.1+fabric": [
+      "XJeMUoM3"
+    ]
+  }
+}

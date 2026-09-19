@@ -1,0 +1,115 @@
+{
+  "slug": "chatscreen",
+  "projectId": "byIp8S9t",
+  "versions": {
+    "333UJkBe": {
+      "filename": "chatscreen-forge-1.20.1-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/byIp8S9t/versions/333UJkBe/chatscreen-forge-1.20.1-0.1.2.jar",
+      "hash": "sha512-1jEw/5vs850h/nUuI4U7t9KKh1eAJdvHgvGI97VEifoDQolMhvh0avPOY+mKbTosll1etei2vddhsUYyiH/3KA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "4ErwtHbl": {
+      "filename": "chatscreen-fabric-1.20.1-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/byIp8S9t/versions/4ErwtHbl/chatscreen-fabric-1.20.1-0.1.2.jar",
+      "hash": "sha512-BGyVqH5wygjD8oHl8QswtP3RsdHKR22NKN3WKuQf2XEoV9cIII9gspo58vCLBh2TMlG+6MYT2ktJPgP+PAqw3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Cwfq7nzn": {
+      "filename": "chatscreen-neoforge-1.21.1-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/byIp8S9t/versions/Cwfq7nzn/chatscreen-neoforge-1.21.1-0.1.2.jar",
+      "hash": "sha512-RsHFl4uKXKoveAvIQCBOmiN5/cL+vrH+IbG+KmwbJveLcVWngj2IHFdwBvYyj/P6c+qy803n4rEFSWEr/mMNcA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "PW3jG7k5": {
+      "filename": "chatscreen-fabric-1.21.10-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/byIp8S9t/versions/PW3jG7k5/chatscreen-fabric-1.21.10-0.1.2.jar",
+      "hash": "sha512-hRm89PdeZSCvdw9VnmqNogehc0RUPIG98FIEXAszlEldGcIQcSvO3Qpq9PQ1Ck1acucB8DDi459cGSAJ7xJbOw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aai95AuZ": {
+      "filename": "chatscreen-fabric-1.21.1-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/byIp8S9t/versions/aai95AuZ/chatscreen-fabric-1.21.1-0.1.2.jar",
+      "hash": "sha512-U0JOUsrGasTEzhQzc6KlmLzlIuc38BYWrIW+TgIf6jX5QdeSKO28DvvLtArpUiCLUOJ6JvYf/immjT7htFbQjw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "4ErwtHbl"
+    ],
+    "1.20.1+forge": [
+      "333UJkBe"
+    ],
+    "1.20.1+neoforge": [
+      "333UJkBe"
+    ],
+    "1.21.1+fabric": [
+      "aai95AuZ"
+    ],
+    "1.21.1+neoforge": [
+      "Cwfq7nzn"
+    ],
+    "1.21.10+fabric": [
+      "PW3jG7k5"
+    ]
+  }
+}

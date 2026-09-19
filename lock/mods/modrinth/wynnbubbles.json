@@ -1,0 +1,87 @@
+{
+  "slug": "wynnbubbles",
+  "projectId": "eACdwdU7",
+  "versions": {
+    "BXL5tStn": {
+      "filename": "wynnbubbles-0.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/eACdwdU7/versions/BXL5tStn/wynnbubbles-0.4.0.jar",
+      "hash": "sha512-ch4NJgvCLbUc7qnlExYlM6RXkgcwyKFCEWUuZ6v9tvqD3Dnhk6Ht5VNJelPIvvqIC8rNS9tp7M5jU8NmcCnSAg==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FGWUW2ws": {
+      "filename": "wynnbubbles-0.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/eACdwdU7/versions/FGWUW2ws/wynnbubbles-0.3.3.jar",
+      "hash": "sha512-9QD2rRSJ86nqvod4ClOakoiGMwlhrOp8Thnhj3SMQilRLL0tLRL+wzsqtSyzZa0j07Mw17T2u4266YLmBlEf2A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FsuIJfdL": {
+      "filename": "wynnbubbles-0.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/eACdwdU7/versions/FsuIJfdL/wynnbubbles-0.3.2.jar",
+      "hash": "sha512-m5k/mamjqTpr6EKxsL1iUK9gH+PHsT6+iTSAzRqvEVVDr/LnwTHOqyMznnQ1q1RwWBFF0wqyvdvp8U8BboA+RQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "FsuIJfdL"
+    ],
+    "1.21.1+fabric": [
+      "FGWUW2ws",
+      "FsuIJfdL"
+    ],
+    "1.21.4+fabric": [
+      "BXL5tStn"
+    ],
+    "1.21.5+fabric": [
+      "BXL5tStn"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "croptosis",
+  "projectId": "9WJVOa29",
+  "versions": {
+    "3LyWJ1Ql": {
+      "filename": "wraith-croptosis-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/9WJVOa29/versions/1.2.0/wraith-croptosis-1.2.0.jar",
+      "hash": "sha512-maaD4q4ugOogig9ua9EjCES9kseKh46GoSNXGNdAh7F7j6MB6057NqHc5xtXMwgQt/DUgPXGbKNGpBvNZzPnRQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "IC9fgMpL": {
+      "filename": "wraith-croptosis-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/9WJVOa29/versions/1.5.0/wraith-croptosis-1.5.0.jar",
+      "hash": "sha512-AoIjEy05sgyP2CJAdg0UREpfxfWaKGbg6SVmByAHL9lmmLSCoRYL2VHpUJ2iRZSnq75QrcGKuzMNaXQF4Yel2g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YRPr7lQS": {
+      "filename": "wraith-croptosis-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/9WJVOa29/versions/1.3.0/wraith-croptosis-1.3.0.jar",
+      "hash": "sha512-28tpvK+YuOVe5ysIcgKgoKPnQqhDTRKibK6QNfNQGn/pghaUdNRjQgwYWU5T9bPBbsKrMcDhYchSZB04v6UQCQ==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "b8xOI3Et": {
+      "filename": "wraith-croptosis-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/9WJVOa29/versions/1.5.1/wraith-croptosis-1.5.1.jar",
+      "hash": "sha512-GoXMWESAqkFggfqlw7oRQpeslH5jrLt5Ff2vLoHiLvjMg9cQqEsW0Gz6tDrAyeHx0OuaUPRKHtb8/tlmc1Nxqg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17.1+fabric": [
+      "3LyWJ1Ql"
+    ],
+    "1.18.1+fabric": [
+      "YRPr7lQS"
+    ],
+    "1.18.2+fabric": [
+      "IC9fgMpL"
+    ],
+    "1.19+fabric": [
+      "b8xOI3Et"
+    ]
+  }
+}

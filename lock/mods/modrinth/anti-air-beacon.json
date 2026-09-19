@@ -1,0 +1,134 @@
+{
+  "slug": "anti-air-beacon",
+  "projectId": "1x6TP6Yx",
+  "versions": {
+    "GNQq97oT": {
+      "filename": "aabeacon-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1x6TP6Yx/versions/GNQq97oT/aabeacon-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-eFIJQxJs7IWrt6QqLTAwXDa75jVvRrIw0OZD+vO7Zt7semUl3KrAGXUqPmR3qachHAqx+uuuriPVrzVHiyrzug==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "IlGyrKpr": {
+      "filename": "aabeacon-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1x6TP6Yx/versions/IlGyrKpr/aabeacon-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-iXHzbUdu08nuFyPT9Njq08CB6GZrA2pA7ueKJSeRAWqPj6oGeErYE5jh6XXBYYGtKPlmSHtGa5kQCD5Y96WK0A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ku12BAgG": {
+      "filename": "aabeacon-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1x6TP6Yx/versions/Ku12BAgG/aabeacon-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-XRHuENs3qP14+MEvODx0tGpG+H7uDRu4zo6MQECc/WM/n8PjR/gZTwOKpi5/Gogx2aDKJ66wlMQdHqazGNmmKA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VVCV83U8": {
+      "filename": "aabeacon-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1x6TP6Yx/versions/VVCV83U8/aabeacon-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-yNiDCEC5auDHkDLxbaAQw4sKidKtwYMB6ZckKKxGqa3R7LRozFydS073U6B8i+rbDrUljyPVRQ4dH4Tc+HrO9A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IlGyrKpr"
+    ],
+    "1.20.1+forge": [
+      "GNQq97oT"
+    ],
+    "1.20.1+neoforge": [
+      "GNQq97oT"
+    ],
+    "1.20.1+quilt": [
+      "IlGyrKpr"
+    ],
+    "1.20.2+fabric": [
+      "IlGyrKpr"
+    ],
+    "1.20.2+forge": [
+      "GNQq97oT"
+    ],
+    "1.20.2+neoforge": [
+      "GNQq97oT"
+    ],
+    "1.20.2+quilt": [
+      "IlGyrKpr"
+    ],
+    "1.20.4+fabric": [
+      "IlGyrKpr"
+    ],
+    "1.20.4+forge": [
+      "GNQq97oT"
+    ],
+    "1.20.4+neoforge": [
+      "GNQq97oT"
+    ],
+    "1.20.4+quilt": [
+      "IlGyrKpr"
+    ],
+    "1.21.1+fabric": [
+      "Ku12BAgG"
+    ],
+    "1.21.1+neoforge": [
+      "VVCV83U8"
+    ]
+  }
+}

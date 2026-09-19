@@ -1,0 +1,101 @@
+{
+  "slug": "iron-chests-stapi",
+  "projectId": "JuUU6txo",
+  "versions": {
+    "6mf7FZnr": {
+      "filename": "IronChests-StationAPI-0.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/JuUU6txo/versions/6mf7FZnr/IronChests-StationAPI-0.4.0.jar",
+      "hash": "sha512-dbQxnPKonrqSKTKfNeLp1UifoUT//z+CfjhghpPhOGN2hyKHQ2zZe2ImKxs/avSSYzFlXrOJWrwTRVi672Tl3g==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    },
+    "aaPTk3Xy": {
+      "filename": "iron-chest-0.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/JuUU6txo/versions/aaPTk3Xy/iron-chest-0.5.0.jar",
+      "hash": "sha512-3d3dF+FGEIo2utISZUozyqtdH6yizyAIbiuA1W9fRIt9CAFoHW+AZFjekZXtrX07ION0uKyezdqOO4b8AVNvvQ==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        },
+        {
+          "slug": "terminal-stapi",
+          "projectId": "YnjcSaRF",
+          "type": "required"
+        }
+      ]
+    },
+    "sn7wZnUL": {
+      "filename": "IronChests-StationAPI-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/JuUU6txo/versions/sn7wZnUL/IronChests-StationAPI-0.3.0.jar",
+      "hash": "sha512-Qx9rxm7iaDnYQ89hsWw2ufpaM00SA9Y1g4cIXzqHt/WI1YfZTuYJ+TKcxHhV7ST+Qgkwe0zfWXidugGZ8D4PnA==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "aaPTk3Xy",
+      "6mf7FZnr",
+      "sn7wZnUL"
+    ],
+    "b1.7.3+fabric": [
+      "aaPTk3Xy",
+      "6mf7FZnr",
+      "sn7wZnUL"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "nitor",
+  "projectId": "AqVfGqcr",
+  "versions": {
+    "6OpsOOkT": {
+      "filename": "Nitor-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AqVfGqcr/versions/6OpsOOkT/Nitor-0.1.0.jar",
+      "hash": "sha512-Sekz4HNAqkaCxw8tbNYNLPjc2eqMrxa38ejPUmRrfuLNjkpHNKx9Zj7RZJmifMNcZ3dD5QEl/x/Tx+M4+8SjZg==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "EQo10MIc": {
+      "filename": "Nitor-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/AqVfGqcr/versions/EQo10MIc/Nitor-0.2.0.jar",
+      "hash": "sha512-Q1j4j/XvHmZOhfVXfzCQN3WWVvcXpszfigMa2HBCOE1y7aGPDYGpLg3uPyHzZVBSJhM57XGMnQxPuF6q5e1cJg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "6OpsOOkT"
+    ],
+    "1.20.1+fabric": [
+      "EQo10MIc"
+    ]
+  }
+}

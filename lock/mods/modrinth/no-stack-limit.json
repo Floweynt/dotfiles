@@ -1,0 +1,63 @@
+{
+  "slug": "no-stack-limit",
+  "projectId": "KusPwGME",
+  "versions": {
+    "IbCVNV8t": {
+      "filename": "no_stack_limit-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KusPwGME/versions/IbCVNV8t/no_stack_limit-1.1.0.jar",
+      "hash": "sha512-ZewSF7H5Q0SaZ4VQOJYIuI9D0ueokQtgkcZp0zx0KqAgyeD4yzo5Dfp4CmX232kN02iX1Pp0lxpncmIUHME5Bw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NCl5bmvE": {
+      "filename": "no_stack_limit-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/KusPwGME/versions/NCl5bmvE/no_stack_limit-1.2.0.jar",
+      "hash": "sha512-yp07XFjS4hJkpRJg+7KmjA1FRh59Ghp63h3z/rb0jcFZDPatJYZTj2uCaMwWsxjrViTo2WCcy4J0Jjwhh8ARMA==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sBajWRqC": {
+      "filename": "no_stack_limit-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KusPwGME/versions/sBajWRqC/no_stack_limit-1.0.0.jar",
+      "hash": "sha512-wvaYmSSmLmLWK4/NDxduaFFvbU/uiR0hfZswDv+TUTnHdb0f7lMXlhryHvXNDp7uwGIA8HS1HF9McULlF7KgOw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "IbCVNV8t",
+      "sBajWRqC"
+    ],
+    "26.1+fabric": [
+      "NCl5bmvE"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "rch",
+  "projectId": "bpx5PN1B",
+  "versions": {
+    "Ujrir3KO": {
+      "filename": "simple-right-click-harvest-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/bpx5PN1B/versions/1.1/simple-right-click-harvest-1.1.jar",
+      "hash": "sha512-3Lxslx5QBhhM8wmsRdTIDVIcAukchsm2E/PRkEBMDHY+vJQ4e8xZLktAY30jYjWhiXQA0IFaumE1QDvdX0gVOg==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Xhz2sZMR": {
+      "filename": "simple-right-click-harvest-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bpx5PN1B/versions/1.0.0/simple-right-click-harvest-1.0.0.jar",
+      "hash": "sha512-utKVB04rnkmwxE9jssH8h47yFbZ9O39hQl6oFa+VpTsunXWoAO1ob1jYaiEh4vMRqAmZYrP2FapTO7qdKnM5vQ==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1-pre1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "Ujrir3KO",
+      "Xhz2sZMR"
+    ],
+    "1.17.1+fabric": [
+      "Ujrir3KO"
+    ],
+    "1.17.1-pre1+fabric": [
+      "Xhz2sZMR"
+    ],
+    "1.18+fabric": [
+      "Ujrir3KO"
+    ],
+    "1.18.1+fabric": [
+      "Ujrir3KO"
+    ]
+  }
+}

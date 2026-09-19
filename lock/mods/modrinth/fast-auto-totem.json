@@ -1,0 +1,84 @@
+{
+  "slug": "fast-auto-totem",
+  "projectId": "qMQMAZh1",
+  "versions": {
+    "CUqesYZ9": {
+      "filename": "AutoTotem-2.0.0+mc26.1(1).jar",
+      "url": "https://cdn.modrinth.com/data/qMQMAZh1/versions/CUqesYZ9/AutoTotem-2.0.0%2Bmc26.1%281%29.jar",
+      "hash": "sha512-3Zqp8iIdE3aGUBo+qQ4YH1s2x3gkmvGuZG9ZnjmxMH1LYGsQEnIDbGPJQyhglbJmU1D9TOWWn7OlFxqb8o6fyQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kC7KtjwE": {
+      "filename": "AutoTotem-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qMQMAZh1/versions/kC7KtjwE/AutoTotem-1.0.0.jar",
+      "hash": "sha512-P8CsnkGGFRd1m8mkzGdy1RDk/FKndnqJQXms4+ObQ4kmxvHfSGt/uyjMqkXgEbjA7JplWUz/XohkuYGKhnZiiw==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "kC7KtjwE"
+    ],
+    "1.21.11+fabric": [
+      "kC7KtjwE"
+    ],
+    "1.21.4+fabric": [
+      "kC7KtjwE"
+    ],
+    "1.21.5+fabric": [
+      "kC7KtjwE"
+    ],
+    "1.21.6+fabric": [
+      "kC7KtjwE"
+    ],
+    "1.21.7+fabric": [
+      "kC7KtjwE"
+    ],
+    "1.21.8+fabric": [
+      "kC7KtjwE"
+    ],
+    "1.21.9+fabric": [
+      "kC7KtjwE"
+    ],
+    "26.1+fabric": [
+      "CUqesYZ9"
+    ],
+    "26.1.1+fabric": [
+      "CUqesYZ9"
+    ],
+    "26.1.2+fabric": [
+      "CUqesYZ9"
+    ]
+  }
+}

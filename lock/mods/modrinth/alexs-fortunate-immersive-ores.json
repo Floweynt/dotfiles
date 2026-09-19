@@ -1,0 +1,66 @@
+{
+  "slug": "alexs-fortunate-immersive-ores",
+  "projectId": "jBFKK8RP",
+  "versions": {
+    "Z1uHweew": {
+      "filename": "Alex's Fortunate Immersive Ores.zip",
+      "url": "https://cdn.modrinth.com/data/jBFKK8RP/versions/Z1uHweew/Alex%27s%20Fortunate%20Immersive%20Ores.zip",
+      "hash": "sha512-I9T16iOaVLjPC7V9W+E/gUpmbruvmfcCTMigpCJd0J2w59gwGOVv9UK74pn2zyVr8iGTsSc9grohs0nGnHsHJw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "immersive-ores",
+          "projectId": "F9Vuwq3S",
+          "type": "required"
+        }
+      ]
+    },
+    "hmnDGVOx": {
+      "filename": "Alex's Fortunate Immersive Ores.jar",
+      "url": "https://cdn.modrinth.com/data/jBFKK8RP/versions/hmnDGVOx/Alex%27s%20Fortunate%20Immersive%20Ores.jar",
+      "hash": "sha512-voXEppA3YWHyD4H54xBsFWIpC3L2tfhhcgzffe++YaFZFVGcqm7rCXZ7/eEImQms3Vdrydyo9lRdoK2vtAds+Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "immersive-ores",
+          "projectId": "F9Vuwq3S",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "Z1uHweew"
+    ],
+    "1.20.1+fabric": [
+      "hmnDGVOx"
+    ],
+    "1.20.1+forge": [
+      "hmnDGVOx"
+    ],
+    "1.20.1+neoforge": [
+      "hmnDGVOx"
+    ],
+    "1.20.1+quilt": [
+      "hmnDGVOx"
+    ]
+  }
+}

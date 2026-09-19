@@ -1,0 +1,41 @@
+{
+  "slug": "no-wasting-rockets",
+  "projectId": "mO64p0Sx",
+  "versions": {
+    "Cdpcvi82": {
+      "filename": "no-wasting-rockets-2.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/mO64p0Sx/versions/Cdpcvi82/no-wasting-rockets-2.1.1.jar",
+      "hash": "sha512-KBST/eyDYxmzAL8Nk+Z3E+z2tDtGDIjY6t7J38wb5fxYRKac2ArrnyeZ3Bcz7l8CXle8LrKpGsO95KnZwBgS5A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Cdpcvi82"
+    ]
+  }
+}

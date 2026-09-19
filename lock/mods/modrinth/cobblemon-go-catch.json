@@ -1,0 +1,88 @@
+{
+  "slug": "cobblemon-go-catch",
+  "projectId": "GmCAYaEK",
+  "versions": {
+    "IuCLgxEK": {
+      "filename": "cobblemon-go-catch-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/GmCAYaEK/versions/IuCLgxEK/cobblemon-go-catch-1.0.2.jar",
+      "hash": "sha512-q5AJM+mYERliH01LgmFXWBFu9fRLpxy40teYysZXkN8D//kTbhu5l8UWUUm9f5BRqPVY1XmpIv88S+njGXt7Mg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "KkGvsLm6": {
+      "filename": "cobblemon-go-catch-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GmCAYaEK/versions/KkGvsLm6/cobblemon-go-catch-1.0.1.jar",
+      "hash": "sha512-DKbTiIvsb0qJmBaWPrToADdn4AzeWhgLjnyWyvL1x+zc5Y0/NzAQn8+P75JS4CG2Hy1YgTtM+e5N3srok/mFGw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "aASrNY2p": {
+      "filename": "cobblemongocatch-v1.jar",
+      "url": "https://cdn.modrinth.com/data/GmCAYaEK/versions/aASrNY2p/cobblemongocatch-v1.jar",
+      "hash": "sha512-x9/3SL/KwVKWlggV0VO49u0fYJXM395XE0/ikm/fbFngLDskVVRFbagGXKKQOlZS7+QipoYMJ9m6NKwpNIex4g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "i9OU6poo": {
+      "filename": "cobblemon-go-catch-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/GmCAYaEK/versions/i9OU6poo/cobblemon-go-catch-1.2.jar",
+      "hash": "sha512-YJoHm1dQ3hdYJwKFyiJFZXKBGt+KzYm3BoxNHNAeIKv9hZSqptZrvOOKvo0VpnRPZULDKGl9uooyMqeDM3tpXQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "i9OU6poo",
+      "IuCLgxEK",
+      "KkGvsLm6",
+      "aASrNY2p"
+    ]
+  }
+}

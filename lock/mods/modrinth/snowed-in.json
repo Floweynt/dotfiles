@@ -1,0 +1,58 @@
+{
+  "slug": "snowed-in",
+  "projectId": "jr28V8kk",
+  "versions": {
+    "1Ez1CikA": {
+      "filename": "SnowedIn-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jr28V8kk/versions/1Ez1CikA/SnowedIn-0.1.jar",
+      "hash": "sha512-x+C5bX8hZxuNPlRZVYhEIeXFPbPf3LTDqIMGywIbl9MhkI5ICC80MUsyXntMZ/BTPd3RqzBl7MLSUCLXmWC++w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZC0cTzxs": {
+      "filename": "SnowedIn-0.1a.jar",
+      "url": "https://cdn.modrinth.com/data/jr28V8kk/versions/ZC0cTzxs/SnowedIn-0.1a.jar",
+      "hash": "sha512-FLspomE7eYLZ+O9DXsB6DIMJUvx+Qw3DslYYOlbyuSHR/ESSDsLVl6MfOwmPD8RSO5EYDd3VRmEUtIlnhVJNsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ZC0cTzxs",
+      "1Ez1CikA"
+    ],
+    "1.20.1+quilt": [
+      "ZC0cTzxs",
+      "1Ez1CikA"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "betterweapons",
+  "projectId": "6jGXJkhA",
+  "versions": {
+    "PAJI2YtN": {
+      "filename": "betterweapons-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6jGXJkhA/versions/PAJI2YtN/betterweapons-1.1.0.jar",
+      "hash": "sha512-JiYaqB7sWB/ZN9zgHj/5Fdp8hRUeRFVJm3tuXjGt/1IwIC5nYysBfHcdOxQyR+XvPfLQRjZuhQdDTwCKWXBkNg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PY6C6fcx": {
+      "filename": "betterweapons-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6jGXJkhA/versions/PY6C6fcx/betterweapons-1.0.0.jar",
+      "hash": "sha512-ZyRAcgkS0uPL+T/XowNsL4PCT2TAM0DJdfWdYPwNtBTIbfjbQFp1Zr9bq9TQm07iMEfHunEYILiYynUXIH4HAA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    },
+    "cfqcVARa": {
+      "filename": "betterweapons-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/6jGXJkhA/versions/cfqcVARa/betterweapons-1.0.1.jar",
+      "hash": "sha512-7pKndUj8C7W6w5Wg6MqFBQHY9EabHImehwj8vQj8w/LyeXcODxSSqMkxEhGhbSOeafbecA0ThQ2TKSUvMiFzzg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "PAJI2YtN",
+      "cfqcVARa"
+    ],
+    "1.20.1+fabric": [
+      "PAJI2YtN",
+      "cfqcVARa",
+      "PY6C6fcx"
+    ]
+  }
+}

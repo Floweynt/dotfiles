@@ -1,0 +1,54 @@
+{
+  "slug": "configurable-difficulty",
+  "projectId": "G5rqWF1V",
+  "versions": {
+    "VOpDIWsv": {
+      "filename": "configurable-difficulty-neoforge-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/G5rqWF1V/versions/VOpDIWsv/configurable-difficulty-neoforge-1.2.0.jar",
+      "hash": "sha512-IMzMIaz5dm6VCkgq0wmId2yL2HLXRW8fZcxsTr0j34FYJ7gJciMXFS8wlkLPLaZk3mWBj74uShhGsIXNZCs/lA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "nEy5XFzJ": {
+      "filename": "configurable-difficulty-fabric-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/G5rqWF1V/versions/nEy5XFzJ/configurable-difficulty-fabric-1.2.0.jar",
+      "hash": "sha512-7EVev1++9YKnF4PR+F+bJkWZv4kLK038mUGJpap1fz7L+5LXg9QTfo6p5vpra2KHrqeOQ4sykc++18GNxCd7Cw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "nEy5XFzJ"
+    ],
+    "1.21.1+neoforge": [
+      "VOpDIWsv"
+    ]
+  }
+}

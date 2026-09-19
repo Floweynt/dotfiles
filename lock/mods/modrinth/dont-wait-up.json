@@ -1,0 +1,31 @@
+{
+  "slug": "dont-wait-up",
+  "projectId": "ncJnFyLw",
+  "versions": {
+    "pSCRGxfG": {
+      "filename": "dont-wait-up-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ncJnFyLw/versions/pSCRGxfG/dont-wait-up-1.0.0.jar",
+      "hash": "sha512-QEpmQZyXsr7l4RMK8MlAVeL+430NQSMu3uZMzTKB+2vLxjhoqXtrwO0Xi+9CTmoRz19DsY8uwoZeEm1/Bu5/xg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "pSCRGxfG"
+    ]
+  }
+}

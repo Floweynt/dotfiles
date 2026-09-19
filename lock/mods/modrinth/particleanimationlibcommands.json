@@ -1,0 +1,173 @@
+{
+  "slug": "particleanimationlibcommands",
+  "projectId": "2DnN6Vyy",
+  "versions": {
+    "2rM7Cy2w": {
+      "filename": "palcommands-0.1.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/2DnN6Vyy/versions/2rM7Cy2w/palcommands-0.1.2%2B1.21.jar",
+      "hash": "sha512-EcaQykR9J54/hUomheIq9o+ijBxiMj2CXV6E4lTKaLNmgzYJUKmaoNSuhWhQruM5523wVDeGfRkQTRZog+11Dg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "particleanimationlib",
+          "projectId": "IdWS3kJ8",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OArP1FCz": {
+      "filename": "palcommands-0.1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/2DnN6Vyy/versions/OArP1FCz/palcommands-0.1.0%2B1.21.jar",
+      "hash": "sha512-sLdhxha3Z3VQU7nN5/We9xd9SQSb3tEcWQHEPtBKC8v66pVmPde9hxIrlErkr84tDvgJmbO/xHvrRHmXHN2v0Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "particleanimationlib",
+          "projectId": "IdWS3kJ8",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RHg6ryGW": {
+      "filename": "palcommands-0.1.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2DnN6Vyy/versions/RHg6ryGW/palcommands-0.1.2%2B1.20.1.jar",
+      "hash": "sha512-IE4maxO2W8mVsBwVWPghGleE4gtZ0It1qnY+GFSivcfrEoekF8cEpfw5p+YP58Vb2ta6m5+wiToNIjMN1/SxUQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "particleanimationlib",
+          "projectId": "IdWS3kJ8",
+          "type": "required"
+        }
+      ]
+    },
+    "fQza6LaX": {
+      "filename": "palcommands-0.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2DnN6Vyy/versions/fQza6LaX/palcommands-0.1.0%2B1.20.1.jar",
+      "hash": "sha512-x40+LUtC30NpdWyPec/AXM7aO+06zP1nkdRxDmtjIrVlGoPHyhHj3K7QuTdvcS7ajiYayCOJWtXF5rzBjyVJ/w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "particleanimationlib",
+          "projectId": "IdWS3kJ8",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "RHg6ryGW",
+      "fQza6LaX"
+    ],
+    "1.20+quilt": [
+      "RHg6ryGW"
+    ],
+    "1.20.1+fabric": [
+      "RHg6ryGW",
+      "fQza6LaX"
+    ],
+    "1.20.1+quilt": [
+      "RHg6ryGW"
+    ],
+    "1.21+fabric": [
+      "2rM7Cy2w",
+      "OArP1FCz"
+    ],
+    "1.21+quilt": [
+      "2rM7Cy2w",
+      "OArP1FCz"
+    ],
+    "1.21.1+fabric": [
+      "2rM7Cy2w",
+      "OArP1FCz"
+    ],
+    "1.21.1+quilt": [
+      "2rM7Cy2w",
+      "OArP1FCz"
+    ],
+    "1.21.2+fabric": [
+      "OArP1FCz"
+    ],
+    "1.21.2+quilt": [
+      "OArP1FCz"
+    ],
+    "1.21.3+fabric": [
+      "OArP1FCz"
+    ],
+    "1.21.3+quilt": [
+      "OArP1FCz"
+    ],
+    "1.21.4+fabric": [
+      "OArP1FCz"
+    ],
+    "1.21.4+quilt": [
+      "OArP1FCz"
+    ],
+    "1.21.5+fabric": [
+      "OArP1FCz"
+    ],
+    "1.21.5+quilt": [
+      "OArP1FCz"
+    ]
+  }
+}

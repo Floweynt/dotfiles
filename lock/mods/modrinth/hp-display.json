@@ -1,0 +1,31 @@
+{
+  "slug": "hp-display",
+  "projectId": "Cd6QQtGM",
+  "versions": {
+    "tEXjq67E": {
+      "filename": "hp_display-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Cd6QQtGM/versions/tEXjq67E/hp_display-1.0.0.jar",
+      "hash": "sha512-prEcn6UMxwoMD3toCvqDEqikaTDDiDQYpm/jD+RYnRcEWgtgoTfnfFaIMIyR8dtKeNI1JQD+400pIVxiC76zvA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "magiclib",
+          "projectId": "mv1zH6ln",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "tEXjq67E"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "hulk",
+  "projectId": "OqKrMtLd",
+  "versions": {
+    "x7LKObny": {
+      "filename": "hulk-mod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OqKrMtLd/versions/x7LKObny/hulk-mod-1.0.0.jar",
+      "hash": "sha512-g0EeXTDNsJSGmtoDtZQgrO9oNnhWyCVdDdxQc29H9j/Ubbl5uTgRYVBEKo9QRTGH1Xc/L/N2oT4wdAij4rY3GA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "x7LKObny"
+    ],
+    "1.20+quilt": [
+      "x7LKObny"
+    ],
+    "1.20.1+fabric": [
+      "x7LKObny"
+    ],
+    "1.20.1+quilt": [
+      "x7LKObny"
+    ],
+    "1.20.2+fabric": [
+      "x7LKObny"
+    ],
+    "1.20.2+quilt": [
+      "x7LKObny"
+    ]
+  }
+}

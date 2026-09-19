@@ -1,0 +1,112 @@
+{
+  "slug": "overpowered",
+  "projectId": "7cC2GGQb",
+  "versions": {
+    "ALR8NDZ2": {
+      "filename": "overpowered-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7cC2GGQb/versions/ALR8NDZ2/overpowered-1.1.0.jar",
+      "hash": "sha512-GabO72mkDPkH7DFeNsHPoxCjpbk+zgWG5SHMQBx+bHG7Xq3g97DHXZbxw1tuQ2O85jtxmmzKv/MwfGPFFewSzQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "NoPYQfkd": {
+      "filename": "overpowered-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7cC2GGQb/versions/NoPYQfkd/overpowered-1.0.0.jar",
+      "hash": "sha512-2UtkMB6yYXB9WpSfYNsWZ0oB2TeZ80RUcJKP2HMt6jJ/FcEwWTF8bXdPk3n6fJ8t+Fy916mEOWwH4ay/hdZCjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UlDr3WrO": {
+      "filename": "overpowered-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/7cC2GGQb/versions/UlDr3WrO/overpowered-1.0.1.jar",
+      "hash": "sha512-LTaSGVe+l9lOf4ZnHwhSlMVEgwGPGT7DiVDBboaqJY9K02yrEFY5pmgfoAMDxlhCmkfFHSa/G7sXv4Y1jMh+sA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "euDbi4ok": {
+      "filename": "overpowered-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/7cC2GGQb/versions/euDbi4ok/overpowered-1.2.0.jar",
+      "hash": "sha512-OdwJTEs8jNrnStjowZEOX48BDEdlBcGNjy5TDIZa01/3DOqLiUMZpTRsMyyMaw/UDdOSXXxKmyLMgc2DV7YzDg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "euDbi4ok",
+      "ALR8NDZ2",
+      "UlDr3WrO",
+      "NoPYQfkd"
+    ],
+    "1.20.1+quilt": [
+      "NoPYQfkd"
+    ],
+    "1.20.2+fabric": [
+      "ALR8NDZ2"
+    ],
+    "1.20.3+fabric": [
+      "ALR8NDZ2"
+    ],
+    "1.20.4+fabric": [
+      "ALR8NDZ2"
+    ],
+    "1.20.5+fabric": [
+      "ALR8NDZ2"
+    ],
+    "1.20.6+fabric": [
+      "ALR8NDZ2"
+    ]
+  }
+}

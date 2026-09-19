@@ -1,0 +1,124 @@
+{
+  "slug": "tan-compat-pack",
+  "projectId": "U1b0lF34",
+  "versions": {
+    "EHDTQbxx": {
+      "filename": "tan-compat-pack-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/U1b0lF34/versions/EHDTQbxx/tan-compat-pack-1.0.0.jar",
+      "hash": "sha512-y7aGhSOpNqq94ocLTxh8+txTO38WJjqguVFdx+ipqnJ9BrmP1BSu8vc9fimjQvUnQDjlcmyWFM0lSFbBeZikxg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "expanded-delight",
+          "projectId": "e9V6wFcR",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        }
+      ]
+    },
+    "MDtsCwaU": {
+      "filename": "tan_compat-1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/U1b0lF34/versions/MDtsCwaU/tan_compat-1.0.0.zip",
+      "hash": "sha512-+PgX8A3cGvotwN9wSZnIG0ke4MTK4l/B3Lf6+5VfmcxHLEuTeXfziaC8hpieAecFeBK1UaGUgjA2P7g/8pQFzQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        },
+        {
+          "slug": "expanded-delight",
+          "projectId": "e9V6wFcR",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "MDtsCwaU"
+    ],
+    "1.21+fabric": [
+      "EHDTQbxx"
+    ],
+    "1.21+neoforge": [
+      "EHDTQbxx"
+    ],
+    "1.21+quilt": [
+      "EHDTQbxx"
+    ],
+    "1.21.1+datapack": [
+      "MDtsCwaU"
+    ],
+    "1.21.1+fabric": [
+      "EHDTQbxx"
+    ],
+    "1.21.1+neoforge": [
+      "EHDTQbxx"
+    ],
+    "1.21.1+quilt": [
+      "EHDTQbxx"
+    ],
+    "1.21.2+datapack": [
+      "MDtsCwaU"
+    ],
+    "1.21.2+fabric": [
+      "EHDTQbxx"
+    ],
+    "1.21.2+neoforge": [
+      "EHDTQbxx"
+    ],
+    "1.21.2+quilt": [
+      "EHDTQbxx"
+    ],
+    "1.21.3+datapack": [
+      "MDtsCwaU"
+    ],
+    "1.21.3+fabric": [
+      "EHDTQbxx"
+    ],
+    "1.21.3+neoforge": [
+      "EHDTQbxx"
+    ],
+    "1.21.3+quilt": [
+      "EHDTQbxx"
+    ]
+  }
+}

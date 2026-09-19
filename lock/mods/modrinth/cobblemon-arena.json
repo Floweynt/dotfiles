@@ -1,0 +1,111 @@
+{
+  "slug": "cobblemon-arena",
+  "projectId": "yGilkOeo",
+  "versions": {
+    "IrIq7m9d": {
+      "filename": "cobblemon_arena-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/yGilkOeo/versions/IrIq7m9d/cobblemon_arena-fabric-1.0.1.jar",
+      "hash": "sha512-7m/6xuv7M3CPfMBLHmYDwMKt9j90MalKw9F1Zjkp+zX1RTnss9NOLDXvoedbtA25E054EVXazCydS8X3I8J0mA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "KIwQf9gL": {
+      "filename": "cobblemon_arena-neoforge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/yGilkOeo/versions/KIwQf9gL/cobblemon_arena-neoforge-1.0.1.jar",
+      "hash": "sha512-I4GGRibVUYv3hXnG4fj9JmXu9M1a4Cc6C8t9N1y/GHP0W8NKLNx6rjW+vgwpCHaSSshSAV8fas6gpl56SgCDrQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "RBXJ0E2k": {
+      "filename": "cobblemon_arena-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yGilkOeo/versions/RBXJ0E2k/cobblemon_arena-fabric-1.0.0.jar",
+      "hash": "sha512-lkdsMmzmVDt/rQXVb/U3fD3gVadLUguO351opLrv/4Dk4TGhxILf5oeY/uRxkkQ+hMezw88kxqW5noofPHZUMA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "UJNAXDWZ": {
+      "filename": "cobblemon_arena-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yGilkOeo/versions/UJNAXDWZ/cobblemon_arena-neoforge-1.0.0.jar",
+      "hash": "sha512-pmuJa7tvjn6tirkv1fSxptU2Pp6nD92YLKFtgoRuonZy31TlXeareCQ+QoAP040iCzIOHTlenizQ6/2nu9tPLg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "IrIq7m9d",
+      "RBXJ0E2k"
+    ],
+    "1.21.1+neoforge": [
+      "KIwQf9gL",
+      "UJNAXDWZ"
+    ]
+  }
+}

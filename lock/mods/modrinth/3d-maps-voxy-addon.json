@@ -1,0 +1,116 @@
+{
+  "slug": "3d-maps-voxy-addon",
+  "projectId": "2buz9qh3",
+  "versions": {
+    "6tnMINIX": {
+      "filename": "VoxyMap-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/2buz9qh3/versions/6tnMINIX/VoxyMap-1.1.2.jar",
+      "hash": "sha512-ZOWNTHQOe8dco1kLslH+gXgKnLqGXotppuNBHDHMMmwSepAHo/boiQmzu3QSEV028+yXS2h+tsQ7UifL1hRERQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MfjPjH4k": {
+      "filename": "VoxyMap-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/2buz9qh3/versions/MfjPjH4k/VoxyMap-1.1.1.jar",
+      "hash": "sha512-eF6DuMna6ck4Gls4W+3H5ONiXIl1LUREoHs4cKLNAzCzs6Fm/tPdG3N/77oT9TBB6S6aSZ//hrklJ0endXE8aA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        }
+      ]
+    },
+    "TQXpgVWM": {
+      "filename": "VoxyMap-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/2buz9qh3/versions/TQXpgVWM/VoxyMap-1.1.2.jar",
+      "hash": "sha512-6YA8b8UCdZK767tCxxM1zv7foxIe6nAQ326hod3bJeSzj075KSwhk1S7RT9UWpayNZQAi/DSZc8hoMsTn0W2fQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "b9iX1l6m": {
+      "filename": "VoxyMap-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2buz9qh3/versions/b9iX1l6m/VoxyMap-1.1.0.jar",
+      "hash": "sha512-Ys5YXUamui1+Ep931oHQIP3iW0s//qSBei5w/rv7IZZ4wafkzLjDyW4+Ij5aGfsy/WTlfzuWpchrWj7eJ5Sz3Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "TQXpgVWM",
+      "MfjPjH4k",
+      "b9iX1l6m"
+    ],
+    "26.1.2+fabric": [
+      "6tnMINIX"
+    ]
+  }
+}

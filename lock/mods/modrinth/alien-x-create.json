@@ -1,0 +1,146 @@
+{
+  "slug": "alien-x-create",
+  "projectId": "7vlNBh2x",
+  "versions": {
+    "EHxCoRtn": {
+      "filename": "alienxcreate-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7vlNBh2x/versions/EHxCoRtn/alienxcreate-1.0.0.jar",
+      "hash": "sha512-cXWTtp1D2h3de8OlBcnQdsPBpjLBYmoI0ifv1SWRoDrRT8/C2RmRR5r3ZcgDLua8nURKfOfOc2Z4OdcJy4W0cA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "gr1knGrh": {
+      "filename": "alienxcreate-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7vlNBh2x/versions/gr1knGrh/alienxcreate-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-zoCGIfPFLsa10f/qEeDYcZEYb0/CXX9jDUwQ3xX3zDfVEvyUAhJz5OhKLyecWKP6H8vDo/C3C+ULEd8vwkXJkg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "nhzeOUXg": {
+      "filename": "alienxcreate-fabric-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7vlNBh2x/versions/nhzeOUXg/alienxcreate-fabric-1.20.1-1.1.0.jar",
+      "hash": "sha512-WFFTWPno5Yhws/Osfs0pdqa6e69Li0MR3auRH7w4zJSASUKmm7D5NLGMJDE9n+gAiP0J3U5jo+UmJw9x22FdfQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "rHzwik9Q": {
+      "filename": "alienxcreate-forge-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7vlNBh2x/versions/rHzwik9Q/alienxcreate-forge-1.20.1-1.1.0.jar",
+      "hash": "sha512-RsexG9UJNQjFjYE8b8Z+kEv8MHCt09vqJNqA0UuVSVnfSjQ27s+8aEcHBuh4JkzGTKrfC7yCVaFqZqZ/yWMxRQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "nhzeOUXg",
+      "gr1knGrh"
+    ],
+    "1.20+forge": [
+      "rHzwik9Q"
+    ],
+    "1.20.1+fabric": [
+      "nhzeOUXg",
+      "gr1knGrh"
+    ],
+    "1.20.1+forge": [
+      "rHzwik9Q",
+      "EHxCoRtn"
+    ],
+    "1.20.2+forge": [
+      "EHxCoRtn"
+    ],
+    "1.20.3+forge": [
+      "EHxCoRtn"
+    ],
+    "1.20.4+forge": [
+      "EHxCoRtn"
+    ],
+    "1.20.5+forge": [
+      "EHxCoRtn"
+    ],
+    "1.20.6+forge": [
+      "EHxCoRtn"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "slowmo-lib",
+  "projectId": "rDDA3ZMB",
+  "versions": {
+    "CZ67r6Qg": {
+      "filename": "slowmo-lib-1.0.5+1.19.1.jar",
+      "url": "https://cdn.modrinth.com/data/rDDA3ZMB/versions/1.0.0/slowmo-lib-1.0.5%2B1.19.1.jar",
+      "hash": "sha512-Rx8aIQDx791+MbVgttwd7+1eIljUxN91uHchVv4DpW6CecdQLEC3MBY2xb30Ce/KaQL3FC35bMBWpHUNKwB6aQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jkF4CTdI": {
+      "filename": "slowmo-lib-1.0.6+1.19.x.jar",
+      "url": "https://cdn.modrinth.com/data/rDDA3ZMB/versions/jkF4CTdI/slowmo-lib-1.0.6%2B1.19.x.jar",
+      "hash": "sha512-5V8F0PUx/zhKNTzkupRbvI69sV8zVVTiHDdCQ+KywAUGXF+IFEpJp7SfLhbiRUdcjvawUHMeXysw79lVW+T0IA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "jkF4CTdI",
+      "CZ67r6Qg"
+    ],
+    "1.19.1+fabric": [
+      "jkF4CTdI",
+      "CZ67r6Qg"
+    ],
+    "1.19.2+fabric": [
+      "jkF4CTdI",
+      "CZ67r6Qg"
+    ]
+  }
+}

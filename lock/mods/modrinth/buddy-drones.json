@@ -1,0 +1,106 @@
+{
+  "slug": "buddy-drones",
+  "projectId": "5NYdYLm1",
+  "versions": {
+    "4adkG2BK": {
+      "filename": "drones-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/5NYdYLm1/versions/4adkG2BK/drones-fabric-1.1.0.jar",
+      "hash": "sha512-9uJodPYfa93XvBOQxlvIZgkyqwt0nm2R6Z28bWs3JV10VAM0zEE8yalRkXpFR25e5u/uFSUATq2fRqc399hK2Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "EfH1X1Lo": {
+      "filename": "drones-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/5NYdYLm1/versions/EfH1X1Lo/drones-neoforge-1.1.0.jar",
+      "hash": "sha512-jJDpcpTGBfW3F7a+9fi0Vl2bwfW4Omci8INqOVYVX5btAcPlGZtt5Ek/ABWzHHLwpXbYsEPuMEYmQjQEH2EDBg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "TkC2P7ir": {
+      "filename": "drones-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5NYdYLm1/versions/TkC2P7ir/drones-fabric-1.0.0.jar",
+      "hash": "sha512-BJpIlNx5tQ6T2WCDIVtDvJEj8iSBuM+sORvoiH0clie2fOOVAUVM8GZfcj/+UutlB2aQZDhikkFDE60hRAlarQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qTug7pUY": {
+      "filename": "drones-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5NYdYLm1/versions/qTug7pUY/drones-neoforge-1.0.0.jar",
+      "hash": "sha512-2UlvVux/V+pphRA6UJCSF3Y0CnMGdEtnINByocLaxvIU9ypPLw6VrqLeGxYcS8DMihjKc1K5rZcO5fpvJcOxPg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "4adkG2BK",
+      "TkC2P7ir"
+    ],
+    "1.21.1+neoforge": [
+      "EfH1X1Lo",
+      "qTug7pUY"
+    ]
+  }
+}

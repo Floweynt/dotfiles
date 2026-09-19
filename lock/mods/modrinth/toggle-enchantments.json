@@ -1,0 +1,218 @@
+{
+  "slug": "toggle-enchantments",
+  "projectId": "OzKqGHgZ",
+  "versions": {
+    "8KSgEVEA": {
+      "filename": "togenc-forge-1.18.x-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/8KSgEVEA/togenc-forge-1.18.x-v1.0.jar",
+      "hash": "sha512-AcujBRl2NaFEOhohxQmbyy8RKH4ps3VCbQ23W4e4ErGOCiuQb3fzJYCcZ7CM3K2NfEHM4p+QwsYxV/njWkRw7Q==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "FTiNWQP2": {
+      "filename": "togenc-forge-1.19.x-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/FTiNWQP2/togenc-forge-1.19.x-v1.0.jar",
+      "hash": "sha512-Q3r8PhrUGdtt3or6x+hugbjfFPz7QncuMQvoqZcINON1/8SPEb0rUxnpAyefg2xi2dzA7gVVBAcagsZALPhOUg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PAdcBNqA": {
+      "filename": "togenc-fabric-1.20.x-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/PAdcBNqA/togenc-fabric-1.20.x-v1.0.jar",
+      "hash": "sha512-3CggNMtRVFvFBwf70fhNkqBnCiE/fYDZdJlWHm7sHnNMDqO63aYVzMFM8MGi0WoxR1hdNrWUikdQeZyBnf/lJw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VxsIGLmM": {
+      "filename": "togenc-forge-1.20.x-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/VxsIGLmM/togenc-forge-1.20.x-v1.0.jar",
+      "hash": "sha512-TnTW3tMb8++VAwoeiO53B+7KAdMBhy+rzu6H7pay2h+iceQn5Ji/FnpKq4KRP2YjJfFJv64YIPgRQDK4sdVMJw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qM4wuH2V": {
+      "filename": "togenc-fabric-1.19.x-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/qM4wuH2V/togenc-fabric-1.19.x-v1.0.jar",
+      "hash": "sha512-/QU58uB1hQG1XV7RIuR553gqYPpbRhBraP4A1SzV9CVAh1o7sjqiFRSZ79NPDwMQTUDvXMWzZTdyE/n995c8IA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "u7aWqntK": {
+      "filename": "togenc-fabric-1.18.x-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OzKqGHgZ/versions/u7aWqntK/togenc-fabric-1.18.x-v1.0.jar",
+      "hash": "sha512-PobvKdpaXRrhRrpT7d8tpH43uhhVdNglcA9IYM5kkwAHhVy7FfX8SC0BhRHC5zdBRHu4ihXjFjC8umO+pLB4tg==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "u7aWqntK"
+    ],
+    "1.17+quilt": [
+      "u7aWqntK"
+    ],
+    "1.17.1+fabric": [
+      "u7aWqntK"
+    ],
+    "1.17.1+quilt": [
+      "u7aWqntK"
+    ],
+    "1.18+fabric": [
+      "u7aWqntK"
+    ],
+    "1.18+forge": [
+      "8KSgEVEA"
+    ],
+    "1.18+quilt": [
+      "u7aWqntK"
+    ],
+    "1.18.1+fabric": [
+      "u7aWqntK"
+    ],
+    "1.18.1+forge": [
+      "8KSgEVEA"
+    ],
+    "1.18.1+quilt": [
+      "u7aWqntK"
+    ],
+    "1.18.2+fabric": [
+      "u7aWqntK"
+    ],
+    "1.18.2+forge": [
+      "8KSgEVEA"
+    ],
+    "1.18.2+quilt": [
+      "u7aWqntK"
+    ],
+    "1.19+fabric": [
+      "qM4wuH2V"
+    ],
+    "1.19+forge": [
+      "FTiNWQP2"
+    ],
+    "1.19+quilt": [
+      "qM4wuH2V"
+    ],
+    "1.19.1+fabric": [
+      "qM4wuH2V"
+    ],
+    "1.19.1+forge": [
+      "FTiNWQP2"
+    ],
+    "1.19.1+quilt": [
+      "qM4wuH2V"
+    ],
+    "1.19.2+fabric": [
+      "qM4wuH2V"
+    ],
+    "1.19.2+forge": [
+      "FTiNWQP2"
+    ],
+    "1.19.2+quilt": [
+      "qM4wuH2V"
+    ],
+    "1.19.3+fabric": [
+      "PAdcBNqA"
+    ],
+    "1.19.3+forge": [
+      "VxsIGLmM"
+    ],
+    "1.19.4+fabric": [
+      "PAdcBNqA"
+    ],
+    "1.19.4+forge": [
+      "VxsIGLmM"
+    ],
+    "1.20+fabric": [
+      "PAdcBNqA"
+    ],
+    "1.20+forge": [
+      "VxsIGLmM"
+    ],
+    "1.20.1+fabric": [
+      "PAdcBNqA"
+    ],
+    "1.20.1+forge": [
+      "VxsIGLmM"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "fps-on-screen",
+  "projectId": "LAdtsqVZ",
+  "versions": {
+    "aJg3d74F": {
+      "filename": "fps-shower 1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LAdtsqVZ/versions/aJg3d74F/fps-shower%201.20.1.jar",
+      "hash": "sha512-ayvYbKA+Aa9+P7fdhGW+nUq9SoTLa1PzA7yVJ28vsCVSUe6NzAKMj1Kgz+MIM9mejbPeJ4T7sHSKGhM/lEFbHg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "iUXFAsvR": {
+      "filename": "fps-display-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/LAdtsqVZ/versions/iUXFAsvR/fps-display-1.0.0.jar",
+      "hash": "sha512-82mtfqw82vnd+Oh0d6Q57m25MWB+PHSyZK0Ua8rKYb6BRf1vv9t5sbakPTAYiwN/kOnGX/rNXtDgBClSTzOFSQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "aJg3d74F"
+    ],
+    "1.20.2+forge": [
+      "aJg3d74F"
+    ],
+    "26.1.2+fabric": [
+      "iUXFAsvR"
+    ]
+  }
+}

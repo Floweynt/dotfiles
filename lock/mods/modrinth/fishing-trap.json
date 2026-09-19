@@ -1,0 +1,31 @@
+{
+  "slug": "fishing-trap",
+  "projectId": "q9dOLuRw",
+  "versions": {
+    "ozctjs3f": {
+      "filename": "fishingtrap-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/q9dOLuRw/versions/ozctjs3f/fishingtrap-1.0.0.jar",
+      "hash": "sha512-BvnkRlDDys3sUm9G47DvTGTbxe0gu4FVTnLBvmPD4c1QrvIHEJOgBkaYygNVsxLO9tdtKpDAw7tdYiRjui3jHA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "ozctjs3f"
+    ]
+  }
+}

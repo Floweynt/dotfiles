@@ -1,0 +1,57 @@
+{
+  "slug": "projectile-ding",
+  "projectId": "INLXGXFI",
+  "versions": {
+    "ib2oDXXx": {
+      "filename": "projectileding-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/INLXGXFI/versions/ib2oDXXx/projectileding-neoforge-1.0.0.jar",
+      "hash": "sha512-vh2kK8oScObJ/b+xfVGTabZG7Kf05x9540rPZvkXsbq/JpmkfbI0lh7Y0Yugkt9lHXQ+9BZEc3ce6HfDM+VnnQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "oZeTpNGH": {
+      "filename": "projectileding-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/INLXGXFI/versions/oZeTpNGH/projectileding-fabric-1.0.0.jar",
+      "hash": "sha512-8soFPIPc754xE5BNN3c6UJCRt7ZOOBBNMRP24qn/u2nWGrK30ulVHpKhAf2SV/R6V6Ej0f7v0t5tGSjId5KGWQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "oZeTpNGH"
+    ],
+    "1.21+neoforge": [
+      "ib2oDXXx"
+    ],
+    "1.21+quilt": [
+      "oZeTpNGH"
+    ],
+    "1.21.1+fabric": [
+      "oZeTpNGH"
+    ],
+    "1.21.1+neoforge": [
+      "ib2oDXXx"
+    ],
+    "1.21.1+quilt": [
+      "oZeTpNGH"
+    ]
+  }
+}

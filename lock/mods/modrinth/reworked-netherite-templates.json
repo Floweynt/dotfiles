@@ -1,0 +1,83 @@
+{
+  "slug": "reworked-netherite-templates",
+  "projectId": "tjp6tIAR",
+  "versions": {
+    "Uh4NYGHE": {
+      "filename": "ReworkedNetheriteV2.jar",
+      "url": "https://cdn.modrinth.com/data/tjp6tIAR/versions/Uh4NYGHE/ReworkedNetheriteV2.jar",
+      "hash": "sha512-ylurSdOKYJmuxnSUaVkNXO0CTVzINbzmRrHP8hPifpvmmEkiXTSqpoYaIbj82o1+0Y/GshcJGCVhLicGpfjGSw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fz8cX39s": {
+      "filename": "reworked_netherite1.0.0-neoforge-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/tjp6tIAR/versions/fz8cX39s/reworked_netherite1.0.0-neoforge-1.20.6.jar",
+      "hash": "sha512-bX3hAmsSRoqeNvsD+VBaQHzGIZeZZXIpDs3ue2b3fj1U1Wc0N+y5A5ACxSvNIuevlM4KAeCyi27vH8r/F4CW4A==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "gIPUQ5vm": {
+      "filename": "ReworkedNetherite[FABRIC].jar",
+      "url": "https://cdn.modrinth.com/data/tjp6tIAR/versions/gIPUQ5vm/ReworkedNetherite%5BFABRIC%5D.jar",
+      "hash": "sha512-z4ckpKyqOIX6lDPItcKN5BOJa/yg4PxIsO0A0mqAB2g8fDjvcga9QT+jDzl3neZ3jQ+H2tAxZpiieKGu4IsFyw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "gIPUQ5vm"
+    ],
+    "1.20.1+fabric": [
+      "gIPUQ5vm"
+    ],
+    "1.20.1+forge": [
+      "Uh4NYGHE"
+    ],
+    "1.20.2+fabric": [
+      "gIPUQ5vm"
+    ],
+    "1.20.3+fabric": [
+      "gIPUQ5vm"
+    ],
+    "1.20.4+fabric": [
+      "gIPUQ5vm"
+    ],
+    "1.20.5+fabric": [
+      "gIPUQ5vm"
+    ],
+    "1.20.6+fabric": [
+      "gIPUQ5vm"
+    ],
+    "1.20.6+neoforge": [
+      "fz8cX39s"
+    ]
+  }
+}

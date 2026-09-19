@@ -1,0 +1,36 @@
+{
+  "slug": "blankpack-fabricated",
+  "projectId": "xO2FtWhM",
+  "versions": {
+    "ks4Wn1AB": {
+      "filename": "Blankpack Fabricated.jar",
+      "url": "https://cdn.modrinth.com/data/xO2FtWhM/versions/ks4Wn1AB/Blankpack%20Fabricated.jar",
+      "hash": "sha512-BoluCap1M1d2/+fguKzG03mbAQZyUHiWU73A+SvaHqOd+mMaMkSsPDMvkOT1p5OD8QO9YXWiUWUpaUFSqrWkBQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "ks4Wn1AB"
+    ]
+  }
+}

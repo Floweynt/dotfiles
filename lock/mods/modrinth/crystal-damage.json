@@ -1,0 +1,54 @@
+{
+  "slug": "crystal-damage",
+  "projectId": "3qwRfQGl",
+  "versions": {
+    "sbQSoRwp": {
+      "filename": "crystaldamageestimator-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3qwRfQGl/versions/sbQSoRwp/crystaldamageestimator-1.0.0.jar",
+      "hash": "sha512-n4oTqE3IGISTqZ0LH0azt+1UJlpgRMHDu+P0+8pYa97NyekUcemH9it25Xw5r9s5GM8uzpT9Ho+l8IjnSwoU5Q==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yqvwmTXO": {
+      "filename": "crystaldamageestimator-1.0.0-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/3qwRfQGl/versions/yqvwmTXO/crystaldamageestimator-1.0.0-1.21.4.jar",
+      "hash": "sha512-B4k4z2KWf+GhXlnenRNixPCfRSSM26gHDkinl0vNgm2ync7PO9JaVoPf2XR0U7+CEnvGtWvWjdsCiKCB8L1vcw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "yqvwmTXO"
+    ],
+    "1.21.5+fabric": [
+      "sbQSoRwp"
+    ]
+  }
+}

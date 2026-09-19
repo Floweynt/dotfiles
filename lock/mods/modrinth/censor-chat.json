@@ -1,0 +1,175 @@
+{
+  "slug": "censor-chat",
+  "projectId": "YjIFuH6y",
+  "versions": {
+    "5hvPUqar": {
+      "filename": "Censor-Chat-2.2-1.20-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/YjIFuH6y/versions/5hvPUqar/Censor-Chat-2.2-1.20-1.20.4.jar",
+      "hash": "sha512-edR0edb8zvoaKWMV1X591/mXvsCJHk8DnvN42d3WwLSoePc95QlLxdVDygbBdVQJHYY8CFbmq4lwNZgtEaZ42A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "E7mX8QWW": {
+      "filename": "censor_chat-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/YjIFuH6y/versions/E7mX8QWW/censor_chat-2.1.jar",
+      "hash": "sha512-cTch00EaSAsNoN9oloqJqheNZ5UcZff2Ip+CJlczHb0q0BXviYjA7BxiF+Okt+FPY9Ccrtmizi6uzOkgv4/lSw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "hphA0qa8": {
+      "filename": "censor_chat-1.2+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/YjIFuH6y/versions/hphA0qa8/censor_chat-1.2%2B1.20.4.jar",
+      "hash": "sha512-ZAUEp4xDWFj0TsicoV4y4DBYUAhoXnqHXmV7Nuz/4jCgfukTwD3xjE1U0BXlVq1X4T7kO1nzB3/PUyOQ9lQ2wg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "sPn86Zdt": {
+      "filename": "Censor-Chat-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/YjIFuH6y/versions/sPn86Zdt/Censor-Chat-1.2.jar",
+      "hash": "sha512-jIfpNybdUN5GbOfSmnFnZGEwdtZxB5vLWyTnVtgy8ZoatRro8NwE0XSDxXJEvc5vk69exiv9IwKfeQAYbITq7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "w3eoqQRc": {
+      "filename": "Censor-Chat-2.1-1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/YjIFuH6y/versions/w3eoqQRc/Censor-Chat-2.1-1.20-1.20.1.jar",
+      "hash": "sha512-CKhysiwcV7PsWu0E8cG097xv+oNPz7lh5RoG+iIBsf64LkZTc9N4mAvoI4Wsm/Ah9WXDeNmLzEIH83UqCvKPxA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "5hvPUqar",
+      "w3eoqQRc"
+    ],
+    "1.20+forge": [
+      "E7mX8QWW"
+    ],
+    "1.20+quilt": [
+      "hphA0qa8"
+    ],
+    "1.20.1+fabric": [
+      "5hvPUqar",
+      "w3eoqQRc",
+      "sPn86Zdt"
+    ],
+    "1.20.1+forge": [
+      "E7mX8QWW"
+    ],
+    "1.20.1+quilt": [
+      "hphA0qa8"
+    ],
+    "1.20.2+fabric": [
+      "5hvPUqar",
+      "w3eoqQRc"
+    ],
+    "1.20.2+forge": [
+      "E7mX8QWW"
+    ],
+    "1.20.2+quilt": [
+      "hphA0qa8"
+    ],
+    "1.20.3+fabric": [
+      "5hvPUqar",
+      "w3eoqQRc"
+    ],
+    "1.20.3+forge": [
+      "E7mX8QWW"
+    ],
+    "1.20.3+quilt": [
+      "hphA0qa8"
+    ],
+    "1.20.4+fabric": [
+      "5hvPUqar",
+      "w3eoqQRc"
+    ],
+    "1.20.4+forge": [
+      "E7mX8QWW"
+    ],
+    "1.20.4+quilt": [
+      "hphA0qa8"
+    ],
+    "1.20.5+fabric": [
+      "5hvPUqar",
+      "w3eoqQRc"
+    ],
+    "1.20.6+fabric": [
+      "5hvPUqar"
+    ],
+    "1.20.6+forge": [
+      "E7mX8QWW"
+    ],
+    "1.21+fabric": [
+      "5hvPUqar"
+    ]
+  }
+}

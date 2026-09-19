@@ -1,0 +1,90 @@
+{
+  "slug": "simple-server-links",
+  "projectId": "U9MXG9UI",
+  "versions": {
+    "LdRUojjV": {
+      "filename": "simple-server-links-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/U9MXG9UI/versions/LdRUojjV/simple-server-links-2.0.0.jar",
+      "hash": "sha512-ToWV6Zfrd5wy7j4jD3+xYkkHBGghN8e+UoB0azk4B2JbYFgusXRvF2hB0pzbUBzgnZsUwCVQxrJGx9iekmubjA==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RcN0nFaz": {
+      "filename": "simple-server-links-v1.0.0-fabric-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/U9MXG9UI/versions/RcN0nFaz/simple-server-links-v1.0.0-fabric-1.21.jar",
+      "hash": "sha512-0ouPWZoYuKA9mAECGdD9Jg13Qg4aTfZsi73IxH/Hp+VN3qmD6IicHu1OKtF+DNFNMe//ehMUP+cGlTZbfVJmKw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "RcN0nFaz"
+    ],
+    "1.21+quilt": [
+      "RcN0nFaz"
+    ],
+    "1.21.1+fabric": [
+      "RcN0nFaz"
+    ],
+    "1.21.1+quilt": [
+      "RcN0nFaz"
+    ],
+    "1.21.5+fabric": [
+      "LdRUojjV"
+    ],
+    "1.21.5+quilt": [
+      "LdRUojjV"
+    ],
+    "1.21.6+fabric": [
+      "LdRUojjV"
+    ],
+    "1.21.6+quilt": [
+      "LdRUojjV"
+    ],
+    "1.21.7+fabric": [
+      "LdRUojjV"
+    ],
+    "1.21.7+quilt": [
+      "LdRUojjV"
+    ],
+    "1.21.8+fabric": [
+      "LdRUojjV"
+    ],
+    "1.21.8+quilt": [
+      "LdRUojjV"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "hotcmds",
+  "projectId": "BrUb7paY",
+  "versions": {
+    "9B37lq36": {
+      "filename": "CommandHotkeys-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/BrUb7paY/versions/9B37lq36/CommandHotkeys-1.0.2.jar",
+      "hash": "sha512-24SNxGDrN2paqzyifs+L02HycP4l8Iu5V+ptjue+hdd+xXJV4CFlCFjBt35REutpLwonC2+EK0aJU2cMp74BWg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "H3Z7UpIM": {
+      "filename": "CommandHotkeys-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BrUb7paY/versions/H3Z7UpIM/CommandHotkeys-1.0.1.jar",
+      "hash": "sha512-+okFoGh2+xBLfFKhw101yOAN7wkJ3SJuN8BqeDWGAt4semod9L+n+EW8sWR61lTeoZSTd6wVoBMlBasvJoV8ig==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PFIusgAn": {
+      "filename": "CommandHotkeys-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/BrUb7paY/versions/PFIusgAn/CommandHotkeys-1.0.2.jar",
+      "hash": "sha512-q7vDUHOlF47aTMU6fenDRQPdbMBQ7kk6pG7PzbzrWVw+ZSKetAdOvt6hJbs1iqyxO/VuKSDGZc3ZYnQCmnnWrw==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "SQSWDIiA": {
+      "filename": "CommandHotkeys-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/BrUb7paY/versions/SQSWDIiA/CommandHotkeys-1.0.2.jar",
+      "hash": "sha512-kbASLBJ4U1JuD1xL9cqTIV/qur50OzmER21duVB6n7+SItzNnyzSNirIwVMSnpkgzSfN6rbAWufhZ/0vqXm78g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XZNYsFkF": {
+      "filename": "CommandHotkeys-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BrUb7paY/versions/XZNYsFkF/CommandHotkeys-1.0.1.jar",
+      "hash": "sha512-RQw9oRWmkupQ/vQizYSMB7Nbx/HYSswZwEEA4Rnv++j6XV1QbIewMwaYoCWBGK31EjkgFUlTfAIY59d5qAnf3A==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wnfZKWT5": {
+      "filename": "CommandHotkeys-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BrUb7paY/versions/wnfZKWT5/CommandHotkeys-1.0.1.jar",
+      "hash": "sha512-fz/UCXtTVUq22dF0i9OA7eWt1YLRKHmJbCDEuWQpvhvaB2AwR4LFeWcf3L1CpKocMPnLCOf9kON2SfVcuZIziA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "PFIusgAn",
+      "XZNYsFkF"
+    ],
+    "1.21.11+fabric": [
+      "PFIusgAn",
+      "XZNYsFkF"
+    ],
+    "1.21.5+fabric": [
+      "wnfZKWT5"
+    ],
+    "1.21.8+fabric": [
+      "H3Z7UpIM"
+    ],
+    "26.1+fabric": [
+      "SQSWDIiA"
+    ],
+    "26.1.1+fabric": [
+      "SQSWDIiA"
+    ],
+    "26.1.2+fabric": [
+      "SQSWDIiA"
+    ],
+    "26.2+fabric": [
+      "9B37lq36"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "bewitchmentz",
+  "projectId": "GqNYuGCU",
+  "versions": {
+    "OocUwDPx": {
+      "filename": "BewitchmentZ.jar",
+      "url": "https://cdn.modrinth.com/data/GqNYuGCU/versions/OocUwDPx/BewitchmentZ.jar",
+      "hash": "sha512-c+WJBShKx3AZLLyICskR3bKNIwxM2Dz8IgwfzulyD92sqylpR5yfxbxd+xVII+bVmXilIYXpuPJ4aX87HN5ncQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "bewitchment",
+          "projectId": "AKbBSvuC",
+          "type": "required"
+        }
+      ]
+    },
+    "UE5clOwS": {
+      "filename": "BewitchmentZ.zip",
+      "url": "https://cdn.modrinth.com/data/GqNYuGCU/versions/UE5clOwS/BewitchmentZ.zip",
+      "hash": "sha512-epntC7WyVtif7+xMnDOPT3+VsJjboF5YXmx26MovoymbnZGEeKSSEXml5MIkewm2/hBHhoWdubQQ1JD2qDQMNg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "bewitchment",
+          "projectId": "AKbBSvuC",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "UE5clOwS"
+    ],
+    "1.20.1+fabric": [
+      "OocUwDPx"
+    ],
+    "1.20.1+quilt": [
+      "OocUwDPx"
+    ]
+  }
+}

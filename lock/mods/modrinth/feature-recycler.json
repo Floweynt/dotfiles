@@ -1,0 +1,126 @@
+{
+  "slug": "feature-recycler",
+  "projectId": "IAzu52kG",
+  "versions": {
+    "3FYH4FtT": {
+      "filename": "Feature-Recycler-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IAzu52kG/versions/3FYH4FtT/Feature-Recycler-forge-1.0.0.jar",
+      "hash": "sha512-r0jZ9W1bIIJdrHvyD/TOXWkAYZuFL1+Mj7y/40JZGHAVPe0l9WS5lnj+PDgmDs0sZ3m4lMU1IMTJQBDSMrqwfg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "J1CFeCPN": {
+      "filename": "Feature-Recycler-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IAzu52kG/versions/J1CFeCPN/Feature-Recycler-fabric-2.0.0.jar",
+      "hash": "sha512-NygJic3dpPUb2YKecziC2wMjqYaA41Qna6iZ4dacjoDnf9hppk005V95glsVcOETOPOJO5aaPPS+IDqjE5lOFw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TsMXDaL7": {
+      "filename": "Feature-Recycler-neoforge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IAzu52kG/versions/TsMXDaL7/Feature-Recycler-neoforge-2.0.0.jar",
+      "hash": "sha512-CQnznB7G9DXrKlG5W9xNSLKzwxRmAC8ONq7B4TFfVAefrtCEpEDh75GsJn/c7cMTvU5t0OrIGv3Up6bhbbFi6Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "UsqlGt3I": {
+      "filename": "Feature-Recycler-fabric-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/IAzu52kG/versions/UsqlGt3I/Feature-Recycler-fabric-2.0.1.jar",
+      "hash": "sha512-Lqjun6ktnKkzK3KpRTOSLKuNXGv+1sG5VBaslMsYOoAvecBWICgtcp1pZvLpNUNpX+l+vaTYtwwpw4Jo9pgijw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "npT9Qjvb": {
+      "filename": "Feature-Recycler-forge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IAzu52kG/versions/npT9Qjvb/Feature-Recycler-forge-2.0.0.jar",
+      "hash": "sha512-VLQebQ5h9sE5KMU9gJzgZXc7HQH8w+yMi1JwTTPci+uwTVSP09S6+DijGfbP4Ey5G0m0BtbsA/lYz+mFRysTyA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "w7xDVLS5": {
+      "filename": "Feature-Recycler-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IAzu52kG/versions/w7xDVLS5/Feature-Recycler-fabric-1.0.0.jar",
+      "hash": "sha512-rnk1yflPZlwu1d4JmS0UXSA8vFmmFV52+p96Q4aaLQIiA9LtQhfkqNKBJigvmbUR5bcKU8B0F7Ph/gR2C9zm+g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "w7xDVLS5"
+    ],
+    "1.20.1+forge": [
+      "3FYH4FtT"
+    ],
+    "1.21.1+fabric": [
+      "UsqlGt3I",
+      "J1CFeCPN"
+    ],
+    "1.21.1+forge": [
+      "npT9Qjvb"
+    ],
+    "1.21.1+neoforge": [
+      "TsMXDaL7"
+    ],
+    "1.21.1+quilt": [
+      "UsqlGt3I",
+      "J1CFeCPN"
+    ]
+  }
+}

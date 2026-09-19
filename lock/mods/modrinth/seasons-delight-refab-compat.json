@@ -1,0 +1,64 @@
+{
+  "slug": "seasons-delight-refab-compat",
+  "projectId": "zymiVH65",
+  "versions": {
+    "O7NtTM7N": {
+      "filename": "fabric-seasons-delight-refabricated-1.20.1-2.2.0+refabricated-compat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zymiVH65/versions/O7NtTM7N/fabric-seasons-delight-refabricated-1.20.1-2.2.0%2Brefabricated-compat-1.0.jar",
+      "hash": "sha512-iGI52gSiqZM0pmIeAqH2Ir9B0jSjMwG2Q5/2bXGkaJS6xCs9o/ll+gtOSCHUjQePPSZksh170XasvgRYM70rsw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-seasons",
+          "projectId": "KJe6y9Eu",
+          "type": "required"
+        }
+      ]
+    },
+    "vKBFG6EG": {
+      "filename": "fabric-seasons-delight-refabricated-1.21.1-2.2.2+refabricated-compat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zymiVH65/versions/vKBFG6EG/fabric-seasons-delight-refabricated-1.21.1-2.2.2%2Brefabricated-compat-1.0.jar",
+      "hash": "sha512-92ZLLJ6mXei/oRh7SuWBel3mylkmNry4DvRt/BsBdW6PEwrqb2hz4K+WBNb24qd+uzy+6ffGPACEDw/TZ+8jOg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-seasons",
+          "projectId": "KJe6y9Eu",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "O7NtTM7N"
+    ],
+    "1.21.1+fabric": [
+      "vKBFG6EG"
+    ]
+  }
+}

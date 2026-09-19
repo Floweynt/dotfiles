@@ -1,0 +1,92 @@
+{
+  "slug": "server-specific-skins",
+  "projectId": "zUbZGZjh",
+  "versions": {
+    "HkSobdR4": {
+      "filename": "ServerSpecificSkins-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/zUbZGZjh/versions/HkSobdR4/ServerSpecificSkins-0.2.1.jar",
+      "hash": "sha512-ke6LccJvBbzxBrbU5eo+FlHEDbYt7TNY0bVM2QLpDzJfIIN0VkREzxGOsyvMRZ6s+lO4Te+yFKOFSc7d06fZdw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ajJV1rZm": {
+      "filename": "ServerSpecificSkins-0.3.0a.jar",
+      "url": "https://cdn.modrinth.com/data/zUbZGZjh/versions/ajJV1rZm/ServerSpecificSkins-0.3.0a.jar",
+      "hash": "sha512-C6q6+oVATivA3BjL1dznCUkUIRSy9X2AP0ORX2WnI84hprDDqlK+27avmvgTrX5f/Jk+aHbgYz8rNxki9Slarw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qa134wA5": {
+      "filename": "ServerSpecificSkins-0.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/zUbZGZjh/versions/qa134wA5/ServerSpecificSkins-0.2.2.jar",
+      "hash": "sha512-L0BdPlKUvz6yoZyRuDUr6yVlxQH+CitceddpELA2/bM0A7wPX637zxooXwLJy8ilIzUAP5SlET9jL1C5dT58oQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zvsH0kVU": {
+      "filename": "ServerSpecificSkins-0.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/zUbZGZjh/versions/zvsH0kVU/ServerSpecificSkins-0.2.3.jar",
+      "hash": "sha512-snRFiauNrSl51ccPFWaXA/pla1fdoE24iBS/MgnySmtzJ3mxQrOFr+xmrOBzUWwiKH7f94roZTk1UzM/tE2l3g==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "qa134wA5",
+      "HkSobdR4"
+    ],
+    "1.19.3+fabric": [
+      "zvsH0kVU"
+    ],
+    "1.20.1+fabric": [
+      "ajJV1rZm"
+    ]
+  }
+}

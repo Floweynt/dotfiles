@@ -1,0 +1,78 @@
+{
+  "slug": "elemental-effects-badges-(elebadges)-cobblemon-addon",
+  "projectId": "42LGbusa",
+  "versions": {
+    "K6kau5vQ": {
+      "filename": "ElementalBadges-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/42LGbusa/versions/K6kau5vQ/ElementalBadges-1.0.jar",
+      "hash": "sha512-JPUMMzJGNM2l3ttf3e9rZy9wRfe+DiZmkA9atP336B7SufwbScrP6t2+ZGO/QinYg3tqtmyIovs8y5GMAXfF6w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "aF5T8BWQ": {
+      "filename": "ElementalBadges-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/42LGbusa/versions/aF5T8BWQ/ElementalBadges-1.1.0.jar",
+      "hash": "sha512-v/RpvzW2osT/cGekVAj+zXXih5Fhu51wLUkAOJBk+l6L5pbBrxI3r0KtUnfUdL01v175RsM9mValQVNCsfyAqQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-badgebox",
+          "projectId": "8J7TR166",
+          "type": "required"
+        }
+      ]
+    },
+    "cCVQkVPj": {
+      "filename": "ElementalBadges-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/42LGbusa/versions/cCVQkVPj/ElementalBadges-1.0.1.jar",
+      "hash": "sha512-ktlUTcALuC2d4dSwnQ/RYFEwIbNuIIsJPpyVflLclj/Z2zCbisQG/7nqFTjGseAQrCKshvs08xAUpHLJAl/sgA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "aF5T8BWQ",
+      "cCVQkVPj",
+      "K6kau5vQ"
+    ]
+  }
+}

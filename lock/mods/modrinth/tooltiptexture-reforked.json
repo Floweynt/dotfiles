@@ -1,0 +1,64 @@
+{
+  "slug": "tooltiptexture-reforked",
+  "projectId": "28Dhldkp",
+  "versions": {
+    "FXaR1sbO": {
+      "filename": "TooltipTexture-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/28Dhldkp/versions/FXaR1sbO/TooltipTexture-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-tm4aAsbHhndq76sj4aFNyxKdr1VK4jxs1dmAqFA7WcYC5qlPZUUs1pSirHC7zT7Jbo4TUfuaPYhc5BtT2Ow8vw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "oyg0V7QK": {
+      "filename": "TooltipTexture-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/28Dhldkp/versions/oyg0V7QK/TooltipTexture-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-43G+yOb6F0PxO6ydbiydFGQU7iMARG7jwffDoNC+YHz/stgE8L1ri6d4/17uUNL6Tn9DvfIegxsqpDrVO/Yvpw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "oyg0V7QK"
+    ],
+    "1.20+forge": [
+      "FXaR1sbO"
+    ],
+    "1.20+neoforge": [
+      "FXaR1sbO"
+    ],
+    "1.20+quilt": [
+      "oyg0V7QK"
+    ],
+    "1.20.1+fabric": [
+      "oyg0V7QK"
+    ],
+    "1.20.1+forge": [
+      "FXaR1sbO"
+    ],
+    "1.20.1+neoforge": [
+      "FXaR1sbO"
+    ],
+    "1.20.1+quilt": [
+      "oyg0V7QK"
+    ]
+  }
+}

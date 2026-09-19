@@ -1,0 +1,133 @@
+{
+  "slug": "carved",
+  "projectId": "3I4tGUOC",
+  "versions": {
+    "4Oa9JYEt": {
+      "filename": "carved-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3I4tGUOC/versions/4Oa9JYEt/carved-5.0.0.jar",
+      "hash": "sha512-qNR2ufkmQrP6aODjfEabnxP8wK6VnW6EzzBnxA8MIIDcCVE5aYelPTOnvUhU06spi8Mzl7+ni/NDLBdij3r74w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "LElNHVrG": {
+      "filename": "carved-2.2.0.public.jar",
+      "url": "https://cdn.modrinth.com/data/3I4tGUOC/versions/LElNHVrG/carved-2.2.0.public.jar",
+      "hash": "sha512-Y++dvUV3qyLQ7ZUnjrolIe3q26x2a61HR2XrauVzMLX8tYdHQ+u2zxKHz8tsVBnMGUzBrEpKXXNJfFU88nQN5w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "egx1U5U3": {
+      "filename": "carved-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3I4tGUOC/versions/egx1U5U3/carved-3.0.0.jar",
+      "hash": "sha512-gIMEuYg7prXkFQoTKmvDBnpJIlFtsLM2X1d6ZgM/ywlDop1/odrRxwVSDv2tZyLhUbYaHnG6tPPvKUfLqC0MMg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ftDeqYq7": {
+      "filename": "carved-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3I4tGUOC/versions/ftDeqYq7/carved-1.0.0.jar",
+      "hash": "sha512-JDJ8qWiVyktyK4HxlXxDmSOtpYx/NwRdAwCO2JipCDECGrftR6zIe3hrO4alNfkJUb3qzwL8bOsebYTyuTCCnQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jJaPZt7F": {
+      "filename": "carved-4.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/3I4tGUOC/versions/jJaPZt7F/carved-4.0.4.jar",
+      "hash": "sha512-ReESFWEAjTMf874jhZyuNYLvFLls8HarmUnmo5kYwhEz32MWuTXqVGCCGnD+oyAuIcbllwKuCFysBJi8f0MCQA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "n923C5Ui": {
+      "filename": "carved-2.2.1.public.jar",
+      "url": "https://cdn.modrinth.com/data/3I4tGUOC/versions/n923C5Ui/carved-2.2.1.public.jar",
+      "hash": "sha512-K/otnufmKw7/wlZ33o/HrnBfvAK+eus9hoFHr3VR3qCkm2135R6oMSe13JpZ5MF2Vo+ejXwG2FhlmSa89pMc3g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uZdtnq3E": {
+      "filename": "carved-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3I4tGUOC/versions/uZdtnq3E/carved-4.0.0.jar",
+      "hash": "sha512-QrF7NQHqQJRNlhO4E9cfvwKYPFvns7T1gfdcJHYZ0oKVQCVDc3VVDyTsGIOP8Q5kr9f2BgUcV3cwZozY+C95QQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "egx1U5U3",
+      "n923C5Ui",
+      "LElNHVrG",
+      "ftDeqYq7"
+    ],
+    "1.19.2+quilt": [
+      "egx1U5U3",
+      "n923C5Ui"
+    ],
+    "1.20.1+fabric": [
+      "4Oa9JYEt",
+      "jJaPZt7F",
+      "uZdtnq3E"
+    ],
+    "1.20.1+quilt": [
+      "jJaPZt7F"
+    ]
+  }
+}

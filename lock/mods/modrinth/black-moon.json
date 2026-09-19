@@ -1,0 +1,80 @@
+{
+  "slug": "black-moon",
+  "projectId": "EPh8Asnq",
+  "versions": {
+    "KXTz2jmm": {
+      "filename": "BlackMoon-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EPh8Asnq/versions/KXTz2jmm/BlackMoon-1.0.jar",
+      "hash": "sha512-NSnLbt36xs+s4Cbou7K3InFAOHm6V3suY5B/wwUSncMkoF663PuBIBbhsRLkvUj7ZS1bCulcTkRAaquo28Ep6A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "kByOs3Dl": {
+      "filename": "BlackMoon-1.20-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/EPh8Asnq/versions/kByOs3Dl/BlackMoon-1.20-1.0.1.jar",
+      "hash": "sha512-mp2T0cL4O6PxPGmJoij0GQXC+YPPRqtFtgTU/mVL5Jh2vX4vu/VwnKlh7Qqkkul9FoGiYOWCQLGNGNkFo48nrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mmhcCe2u": {
+      "filename": "BlackMoon-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/EPh8Asnq/versions/mmhcCe2u/BlackMoon-1.20.1-1.0.2.jar",
+      "hash": "sha512-3OmbWy7qmspoBAuTaj0IfFjTrtmjgVCnoMBQWZ6uOnSfqMfxtktUklEWXX7AQnBdAcNra5oB8b8j+kBrka3Eig==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qlDuS7Je": {
+      "filename": "BlackMoon-fabric-1.20-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/EPh8Asnq/versions/qlDuS7Je/BlackMoon-fabric-1.20-1.0.2.jar",
+      "hash": "sha512-jPBvub0Mw03nchMdIBsE0G7l1F9vnAYSAc8icJQyT8YClmKukBMbdUOw5s89FsAUYW5/MEcTqDmPiE4lxnpUEQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "KXTz2jmm"
+    ],
+    "1.20.1+fabric": [
+      "qlDuS7Je"
+    ],
+    "1.20.1+forge": [
+      "mmhcCe2u",
+      "kByOs3Dl"
+    ]
+  }
+}

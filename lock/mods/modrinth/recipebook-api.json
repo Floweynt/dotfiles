@@ -1,0 +1,56 @@
+{
+  "slug": "recipebook-api",
+  "projectId": "gnzB3MDe",
+  "versions": {
+    "C0pjNTsT": {
+      "filename": "RecipeBookAPI-neoforge-1.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/gnzB3MDe/versions/C0pjNTsT/RecipeBookAPI-neoforge-1.0.0-1.21.jar",
+      "hash": "sha512-ARVNqrkdOKnAPmtAKA1hiGWe4eZDQeWkULnM9c6R/1/Fy17BDwLhJofNKEoPkfBpg9KZkv4RW91p+5gsh2UVjA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "F9vrFBHZ": {
+      "filename": "RecipeBookAPI-fabric-1.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/gnzB3MDe/versions/F9vrFBHZ/RecipeBookAPI-fabric-1.0.0-1.21.jar",
+      "hash": "sha512-i0er/N6P55C10vWoCpdPynBeVh48onUlFFoiHeNtAM9CUx1YM8lbHqKGKKBizOanBvfBt4Dh4RT1zGoWMTIeTg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "F9vrFBHZ"
+    ],
+    "1.21+neoforge": [
+      "C0pjNTsT"
+    ],
+    "1.21.1+fabric": [
+      "F9vrFBHZ"
+    ],
+    "1.21.1+neoforge": [
+      "C0pjNTsT"
+    ]
+  }
+}

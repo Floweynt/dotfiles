@@ -1,0 +1,65 @@
+{
+  "slug": "final-cut",
+  "projectId": "kkUH0L14",
+  "versions": {
+    "xwE4cjyP": {
+      "filename": "FinalCut-1.1.7.jar",
+      "url": "https://cdn.modrinth.com/data/kkUH0L14/versions/xwE4cjyP/FinalCut-1.1.7.jar",
+      "hash": "sha512-tKpg5/bVFpvhJg3g9M0FJC4v3J/TWNbE+0Ef3vpNlt1m/u52pLnkUAOHcGHOBOxRaNdf1fdv3lYmKUGfhp/YkA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "xwE4cjyP"
+    ],
+    "1.20.1+forge": [
+      "xwE4cjyP"
+    ]
+  }
+}

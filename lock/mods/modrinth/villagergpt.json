@@ -1,0 +1,124 @@
+{
+  "slug": "villagergpt",
+  "projectId": "HQ2FTKZf",
+  "versions": {
+    "XSiFWK5y": {
+      "filename": "VillagerGPT-fabric-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/HQ2FTKZf/versions/XSiFWK5y/VillagerGPT-fabric-2.1.jar",
+      "hash": "sha512-biYsItY/Wc0UInbC+aNfgccE/EKMD0CAYaMwKAUUELXrVQDDKaAriKGAH0S3kaHSW2Aam1x6QXCF3Pd7UgMoeg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "hl2y5tbj": {
+      "filename": "VillagerGPT-2.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/HQ2FTKZf/versions/hl2y5tbj/VillagerGPT-2.0-all.jar",
+      "hash": "sha512-VL/fD0SnnKuzh0CDeXg+wjnIBRbEyKT8UqgbZM2IjsP5a4KsW3CvdTpowULrCkdhhXSmicDvOqFuRWhRbA66Ng==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "paper"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "jwXnr4vi": {
+      "filename": "VillagerGPT-1.1-all.jar",
+      "url": "https://cdn.modrinth.com/data/HQ2FTKZf/versions/jwXnr4vi/VillagerGPT-1.1-all.jar",
+      "hash": "sha512-sKrXWiNchuijsdMod2O1nmxMBSfhSD1FitQnOVTVzrmEIM1lpMrlHOrYbF/DamxY3Hr9VZ743l1VQZ7gCbwjpg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "paper"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "xSLb09ml": {
+      "filename": "VillagerGPT-paper-2.1-all.jar",
+      "url": "https://cdn.modrinth.com/data/HQ2FTKZf/versions/xSLb09ml/VillagerGPT-paper-2.1-all.jar",
+      "hash": "sha512-hr+aIp3bCfD/IVOkSYwd3XV7jGuBOq9vOI0ttNYseVUHC9xeYOhSKPEicl/kLzDGmWQVoMQRNgrtVSOtQoBdYQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "paper"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "zO7flIy6": {
+      "filename": "VillagerGPT-1.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/HQ2FTKZf/versions/zO7flIy6/VillagerGPT-1.0-all.jar",
+      "hash": "sha512-RPCHKSDdNU9o2+GqIv0WIcblRIxm01lMb9LczMbJF8l+c+9J8S6FXzhBsIMdVN2kLTt3/Glx3a03M91dLCRbIQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "paper"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+paper": [
+      "jwXnr4vi",
+      "zO7flIy6"
+    ],
+    "1.19.1+paper": [
+      "jwXnr4vi",
+      "zO7flIy6"
+    ],
+    "1.19.2+paper": [
+      "jwXnr4vi",
+      "zO7flIy6"
+    ],
+    "1.19.3+paper": [
+      "jwXnr4vi",
+      "zO7flIy6"
+    ],
+    "1.19.4+paper": [
+      "jwXnr4vi",
+      "zO7flIy6"
+    ],
+    "26.2+fabric": [
+      "XSiFWK5y"
+    ],
+    "26.2+paper": [
+      "xSLb09ml",
+      "hl2y5tbj"
+    ]
+  }
+}

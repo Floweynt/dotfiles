@@ -1,0 +1,78 @@
+{
+  "slug": "ice-cream-and-popsicles",
+  "projectId": "nw0B0WkH",
+  "versions": {
+    "fBg6IgCx": {
+      "filename": "Ice Cream and Popsicles 1.21 .jar",
+      "url": "https://cdn.modrinth.com/data/nw0B0WkH/versions/fBg6IgCx/Ice%20Cream%20and%20Popsicles%201.21%20.jar",
+      "hash": "sha512-yndSgRfdKeVN4EAxKoqsmfzT/gzWOb6bjGtKMxN1RLdz8NnBWKGxOszCAPjA1T5oKg9lKvcHugkIJQDDmlBpAQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tZgCD4bb": {
+      "filename": "Ice Cream and Popsicles (1.20.x).jar",
+      "url": "https://cdn.modrinth.com/data/nw0B0WkH/versions/tZgCD4bb/Ice%20Cream%20and%20Popsicles%20%281.20.x%29.jar",
+      "hash": "sha512-u1VryaWj/yj2ibnKd5ZZ+iZmKYFg9qIp3qCuK69tD/Ij/Xz/IFlKzPRHwL2vWdmGhmun0WpsEh5xN4Y0iPlNAg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tZgCD4bb"
+    ],
+    "1.20.2+fabric": [
+      "tZgCD4bb"
+    ],
+    "1.20.3+fabric": [
+      "tZgCD4bb"
+    ],
+    "1.20.4+fabric": [
+      "tZgCD4bb"
+    ],
+    "1.20.5+fabric": [
+      "tZgCD4bb"
+    ],
+    "1.20.6+fabric": [
+      "tZgCD4bb"
+    ],
+    "1.21+fabric": [
+      "fBg6IgCx"
+    ],
+    "1.21.1+fabric": [
+      "fBg6IgCx"
+    ]
+  }
+}

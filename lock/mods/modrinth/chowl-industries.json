@@ -1,0 +1,41 @@
+{
+  "slug": "chowl-industries",
+  "projectId": "jGsYR8av",
+  "versions": {
+    "62miBuXE": {
+      "filename": "chowl-industries-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/jGsYR8av/versions/62miBuXE/chowl-industries-1.0.0%2B1.20.jar",
+      "hash": "sha512-ZrQCHU+C95XXAfr7My7lUTjGI3erpFM8kybejsXbxKRUIlmlxbgvfqHTmSqI5z17t0m5ODQFp0JYrdwrbcvuFQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lavender",
+          "projectId": "D5h9NKNI",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "62miBuXE"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "sodium-low-fire-shield",
+  "projectId": "WLQTdGr6",
+  "versions": {
+    "bNgZ0FBR": {
+      "filename": "sodium_low_fire_shield-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WLQTdGr6/versions/bNgZ0FBR/sodium_low_fire_shield-1.0.0.jar",
+      "hash": "sha512-KVEkvWflXb2ZtZkXuaZ5BDtNa7WYQ5CuS+BjRkTDP8LcJUsu66BGCU0wqk4Kwt8LD/HgmHc32b5Q0Fb8oX0ySA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "bNgZ0FBR"
+    ]
+  }
+}

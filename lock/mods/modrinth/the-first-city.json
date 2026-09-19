@@ -1,0 +1,41 @@
+{
+  "slug": "the-first-city",
+  "projectId": "82nEyXEm",
+  "versions": {
+    "rGEdx6pw": {
+      "filename": "TheFirstCity-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/82nEyXEm/versions/rGEdx6pw/TheFirstCity-1.0.2.jar",
+      "hash": "sha512-50l7MzOYlRpb9OPjKpKaOEza5xUAV66/inzkCTwdNEMfw3mwcHiI5OwLOn3k3DN0rp3FaGT1J+erCT7JF1GzIQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "rGEdx6pw"
+    ]
+  }
+}

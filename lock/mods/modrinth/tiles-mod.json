@@ -1,0 +1,42 @@
+{
+  "slug": "tiles-mod",
+  "projectId": "4g1bM9E1",
+  "versions": {
+    "c8zu1qtL": {
+      "filename": "tilesmod-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/4g1bM9E1/versions/c8zu1qtL/tilesmod-1.0.0-1.21.1.jar",
+      "hash": "sha512-bcENISW8Il4T8smN9paYe6BA2JLOhR4RX668Uui18a86tQV2AiIW97JYzcxCYx0TsoKZ+Y6LneEUgyKm82VUvA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nLUb1SrJ": {
+      "filename": "tilesmod-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/4g1bM9E1/versions/nLUb1SrJ/tilesmod-1.0.0-1.20.1.jar",
+      "hash": "sha512-ot0dLwRqOR37BUoPfTZ2xwVaupOg6rbzwYgLHFO0+m1izrU22GmV2BMOLh+HgHyVJj+W7bmmNpCOCmhTJhJnSg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nLUb1SrJ"
+    ],
+    "1.21.1+fabric": [
+      "c8zu1qtL"
+    ]
+  }
+}

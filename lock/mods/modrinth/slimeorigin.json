@@ -1,0 +1,86 @@
+{
+  "slug": "slimeorigin",
+  "projectId": "XzJWPW69",
+  "versions": {
+    "NqPOXbDM": {
+      "filename": "slimeorigin-2.0.2-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/XzJWPW69/versions/NqPOXbDM/slimeorigin-2.0.2-1.19.2.jar",
+      "hash": "sha512-BHko4lxC4/P7Nhsz1Kh//uWiHNWcKYX77GjSct5wac3wfVOqfFpBLd8YUz+wg84z7yir/ctdfViy8V1eZN8EKQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "yQzTujqg": {
+      "filename": "slimeorigin-2.0.2-1.20.0.jar",
+      "url": "https://cdn.modrinth.com/data/XzJWPW69/versions/yQzTujqg/slimeorigin-2.0.2-1.20.0.jar",
+      "hash": "sha512-LFCmLfO73FNJX6I/7+J3q+ai0O98TRIfAZqHo2nj9RjbEcCdxw0EUGZiZgK+10up6HWwEJJQUbIpXNpDvwXCwQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "NqPOXbDM"
+    ],
+    "1.19.1+fabric": [
+      "NqPOXbDM"
+    ],
+    "1.19.2+fabric": [
+      "NqPOXbDM"
+    ],
+    "1.20+fabric": [
+      "yQzTujqg"
+    ],
+    "1.20.1+fabric": [
+      "yQzTujqg"
+    ]
+  }
+}

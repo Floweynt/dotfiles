@@ -1,0 +1,54 @@
+{
+  "slug": "dreconnect",
+  "projectId": "m4rRg6tN",
+  "versions": {
+    "bvhmSOr4": {
+      "filename": "dreconnect-forge-1.0-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/m4rRg6tN/versions/bvhmSOr4/dreconnect-forge-1.0-ALPHA.jar",
+      "hash": "sha512-cPjkljQm92Amm84gqRq1pao9ErGbbPHkdvahar7IPHQE8wL3vP9XGJmb8ki7SaRgmEZEp14r1lLaUDBXnMWiRg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "tUEdPo1C": {
+      "filename": "dreconnect-fabric-1.0-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/m4rRg6tN/versions/tUEdPo1C/dreconnect-fabric-1.0-ALPHA.jar",
+      "hash": "sha512-iLTBoXd31z2OQH6CDMJjgD65BrUmLe9ZI9AtoWENcbnLu9V3eEtYl8uYBxgqBoEaqxhhqXaUOlDxJ/rprvFnJQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tUEdPo1C"
+    ],
+    "1.20.1+forge": [
+      "bvhmSOr4"
+    ]
+  }
+}

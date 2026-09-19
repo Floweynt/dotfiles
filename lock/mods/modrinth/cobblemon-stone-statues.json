@@ -1,0 +1,96 @@
+{
+  "slug": "cobblemon-stone-statues",
+  "projectId": "MTdmpNqd",
+  "versions": {
+    "LF6tZjol": {
+      "filename": "cobblemonstonestatues-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MTdmpNqd/versions/LF6tZjol/cobblemonstonestatues-neoforge-1.0.0.jar",
+      "hash": "sha512-HVtU85FTBkujSfQ0JoiC8AQQ8H/b3I8L9/AXLsvyOLicy+3wwf/75uyIt5b8LLdygCHG4F/HEvlJaEpHMq+JoA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "Tcq1kSaa": {
+      "filename": "cobblemonstonestatues-fabric-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/MTdmpNqd/versions/Tcq1kSaa/cobblemonstonestatues-fabric-1.1.jar",
+      "hash": "sha512-yP3uFG/XkbLMerjCHeQgC7GXuXIo0HDFK1VXZFNKgbU4iDQEk//v2wQ3RSe5WwkfUKtzzy32D8Ud8C2v5Zmk4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "fjmqrivb": {
+      "filename": "cobblemonstonestatues-neoforge-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/MTdmpNqd/versions/fjmqrivb/cobblemonstonestatues-neoforge-1.1.jar",
+      "hash": "sha512-wOj0CqhRXJquGqhymg8xtRj9c10xmQYbOI4gEV4Z+vNRamWymWKKQPZ5pzMb/GNJQBX3KsiieE6OguM+41/roQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "xaBEMlrn": {
+      "filename": "cobblemonstonestatues-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MTdmpNqd/versions/xaBEMlrn/cobblemonstonestatues-fabric-1.0.0.jar",
+      "hash": "sha512-MOmOwoMoa5KdI5yZO7zbTK0ZNsi1JbQeRIAX6rXtfN2WEd23zXU8kFtkIbyuo5Vi7xWWexmMdz98n2JzWfifHg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Tcq1kSaa",
+      "xaBEMlrn"
+    ],
+    "1.21.1+neoforge": [
+      "fjmqrivb",
+      "LF6tZjol"
+    ]
+  }
+}

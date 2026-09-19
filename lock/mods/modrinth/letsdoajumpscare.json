@@ -1,0 +1,65 @@
+{
+  "slug": "letsdoajumpscare",
+  "projectId": "IBWZnRBJ",
+  "versions": {
+    "hOxPlyDq": {
+      "filename": "letsdoajumpscare-1.1+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/IBWZnRBJ/versions/hOxPlyDq/letsdoajumpscare-1.1%2B1.20.2.jar",
+      "hash": "sha512-RrcVvNdvqPQ2INAKEWi+P4DJeFqLcP3fP7BRDbP09HJxEPeleTS4muEAM2iC9JccrxH9NwfF58o+9vcjFS2yLA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "hQl1qZOt": {
+      "filename": "letsdoajumpscare-1.0+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/IBWZnRBJ/versions/hQl1qZOt/letsdoajumpscare-1.0%2B1.20.2.jar",
+      "hash": "sha512-Vu9nlzolJYIZjevUreka7MFod0f1cWcrElE6M0lijtsSVoIQa4mVz0JS+91JwAIelLhuzLHch69pOUHIMTpQKQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hOxPlyDq",
+      "hQl1qZOt"
+    ],
+    "1.20.2+fabric": [
+      "hOxPlyDq",
+      "hQl1qZOt"
+    ],
+    "1.20.3+fabric": [
+      "hOxPlyDq"
+    ],
+    "1.20.4+fabric": [
+      "hOxPlyDq"
+    ]
+  }
+}

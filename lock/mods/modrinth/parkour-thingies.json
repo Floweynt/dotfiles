@@ -1,0 +1,63 @@
+{
+  "slug": "parkour-thingies",
+  "projectId": "AWbsefVu",
+  "versions": {
+    "AxX55leQ": {
+      "filename": "parkour_thingies-1.0.0+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AWbsefVu/versions/AxX55leQ/parkour_thingies-1.0.0%2Bmc1.20.1.jar",
+      "hash": "sha512-rAgLGsSp/hoiyxI/+8okizIyq2NxC3d7Jz8SOWKrmSvTGnMTsbGfSTYZM6//57Uc1gxrKoB5ChH2duIUFNgVow==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vUrZVMlW": {
+      "filename": "parkour_thingies-0.0.2+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AWbsefVu/versions/vUrZVMlW/parkour_thingies-0.0.2%2Bmc1.20.1.jar",
+      "hash": "sha512-gCoU4usWoDJnZa2qNtm039dcw9+ULN7jjMw01hw1XczTTtlSMd7etLfykg0PBFT+AJwSSwQOGnVLc4+Zguh/tA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "AxX55leQ",
+      "vUrZVMlW"
+    ],
+    "1.20.1+quilt": [
+      "AxX55leQ"
+    ],
+    "1.20.2+fabric": [
+      "AxX55leQ"
+    ],
+    "1.20.2+quilt": [
+      "AxX55leQ"
+    ]
+  }
+}

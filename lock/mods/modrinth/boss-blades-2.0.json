@@ -1,0 +1,125 @@
+{
+  "slug": "boss-blades-2.0",
+  "projectId": "HWTzL9KT",
+  "versions": {
+    "BiEZlN1N": {
+      "filename": "BossBlades-Fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HWTzL9KT/versions/BiEZlN1N/BossBlades-Fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-auS6ExF3evnrMdXwf3/ThlbtkYrD9VTQBJrYbWsDWeUKD7OImJo2Ce2Iv0oOqqSwF9ztgF2iB6uyIol07gmU8Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CMxn0oeG": {
+      "filename": "BossBlades-Forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HWTzL9KT/versions/CMxn0oeG/BossBlades-Forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-+H8WZ8wNXlZH9+QBgaOLHXnJULWdfa0JtLJrsDedtykwhJ4PQPgdFttMhvJWW+5mxhlOEnCTZ6+hlhBVvcbZ4w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cs5cqm7G": {
+      "filename": "Boss Blades-1.20.1-Fabric-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/HWTzL9KT/versions/cs5cqm7G/Boss%20Blades-1.20.1-Fabric-1.0.4.jar",
+      "hash": "sha512-ERqxCGRH0AGjnK8c6WnTwieMjDDy8nTax0jpx4eN8kGbl3PH0X+VLH32GioI96iPuiSNJm4HBW95OrpC0nKcPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iDEH2c5W": {
+      "filename": "BossBlades-1.20.1-Fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HWTzL9KT/versions/iDEH2c5W/BossBlades-1.20.1-Fabric-1.0.1.jar",
+      "hash": "sha512-z05ufq4WqpFtJcX2zZ0E/F1YhuFxoXFg26QjnanCek4oFzSLKDflsajjLwt98/drMpotplwlAxJ4kL7KzUl5mA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tVaginnD": {
+      "filename": "BossBlades-1.20.1-Fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/HWTzL9KT/versions/tVaginnD/BossBlades-1.20.1-Fabric-1.0.2.jar",
+      "hash": "sha512-PF50z4vtxKLsQQHJcWc6LcNhYGdRQ1XeQnPSd/InJxSDHm5zaTNw63do50obj4fKMxRhPKapoJ5wLab/+g2SzA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "cs5cqm7G",
+      "tVaginnD",
+      "iDEH2c5W",
+      "BiEZlN1N"
+    ],
+    "1.20.1+forge": [
+      "CMxn0oeG"
+    ],
+    "1.20.1+quilt": [
+      "cs5cqm7G",
+      "tVaginnD",
+      "iDEH2c5W"
+    ]
+  }
+}

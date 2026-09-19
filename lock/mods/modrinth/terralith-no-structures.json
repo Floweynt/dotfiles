@@ -1,0 +1,596 @@
+{
+  "slug": "terralith-no-structures",
+  "projectId": "AVxrmCCE",
+  "versions": {
+    "GF3AKjQs": {
+      "filename": "Terralith_No_Structures_v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AVxrmCCE/versions/GF3AKjQs/Terralith_No_Structures_v1.0.jar",
+      "hash": "sha512-xFf1ZPL3wNGZyuwXj6KIhQ6NIV+5KD1NBpP9DZAQesb3ifyK5uFiviTeVMCrXqdcyao8Zie53QtCGl47VCyUSw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "YBjMgOVJ": {
+      "filename": "Terralith_No_Structures_v1.1.zip",
+      "url": "https://cdn.modrinth.com/data/AVxrmCCE/versions/YBjMgOVJ/Terralith_No_Structures_v1.1.zip",
+      "hash": "sha512-ArszfK/h2GC2Hr4vNTuexa/i4r5qHR9/EyvPHQeLDkWNWtolBS68bORnV4nfkoD836nuefvpo22Z8f9fm6wNmA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "gHEBqjS9": {
+      "filename": "Terralith_No_Structures_v1.1.jar",
+      "url": "https://cdn.modrinth.com/data/AVxrmCCE/versions/gHEBqjS9/Terralith_No_Structures_v1.1.jar",
+      "hash": "sha512-grzr8K77+eMHz67L/QEs3aXSjjLZwNMg6jfgDrjzSK8RMkU6HNCwykbL/HhUVcyeZ3lNJ7kSF+d5y5A74c9t1A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "v6Uhv9oJ": {
+      "filename": "Terralith_No_Structures_v1.0.zip",
+      "url": "https://cdn.modrinth.com/data/AVxrmCCE/versions/v6Uhv9oJ/Terralith_No_Structures_v1.0.zip",
+      "hash": "sha512-gJGclPbi58AENHcSNvAEjEUuiPHHHOvGtec/asSjwAwYe55SdL3FlEY/LRwcI/3Umi9Z3nbxkUq8hiOztYdciQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "terralith",
+          "projectId": "8oi3bsk5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.20+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.1+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.20.1+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.1+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.1+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.1+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.2+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.20.2+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.2+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.2+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.2+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.3+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.20.3+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.3+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.3+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.3+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.4+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.20.4+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.4+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.4+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.4+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.5+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.20.5+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.5+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.5+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.5+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.6+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.20.6+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.6+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.6+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.20.6+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.1+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.1+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.1+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.1+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.1+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.10+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.10+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.10+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.10+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.10+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.11+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.11+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.11+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.11+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.11+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.2+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.2+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.2+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.2+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.2+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.3+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.3+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.3+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.3+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.3+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.4+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.4+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.4+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.4+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.4+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.5+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.5+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.5+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.5+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.5+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.6+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.6+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.6+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.6+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.6+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.7+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.7+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.7+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.7+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.7+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.8+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.8+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.8+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.8+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.8+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.9+datapack": [
+      "YBjMgOVJ",
+      "v6Uhv9oJ"
+    ],
+    "1.21.9+fabric": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.9+forge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.9+neoforge": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "1.21.9+quilt": [
+      "gHEBqjS9",
+      "GF3AKjQs"
+    ],
+    "26.1+datapack": [
+      "YBjMgOVJ"
+    ],
+    "26.1+fabric": [
+      "gHEBqjS9"
+    ],
+    "26.1+forge": [
+      "gHEBqjS9"
+    ],
+    "26.1+neoforge": [
+      "gHEBqjS9"
+    ],
+    "26.1+quilt": [
+      "gHEBqjS9"
+    ],
+    "26.1.1+datapack": [
+      "YBjMgOVJ"
+    ],
+    "26.1.1+fabric": [
+      "gHEBqjS9"
+    ],
+    "26.1.1+forge": [
+      "gHEBqjS9"
+    ],
+    "26.1.1+neoforge": [
+      "gHEBqjS9"
+    ],
+    "26.1.1+quilt": [
+      "gHEBqjS9"
+    ],
+    "26.1.2+datapack": [
+      "YBjMgOVJ"
+    ],
+    "26.1.2+fabric": [
+      "gHEBqjS9"
+    ],
+    "26.1.2+forge": [
+      "gHEBqjS9"
+    ],
+    "26.1.2+neoforge": [
+      "gHEBqjS9"
+    ],
+    "26.1.2+quilt": [
+      "gHEBqjS9"
+    ],
+    "26.2+datapack": [
+      "YBjMgOVJ"
+    ],
+    "26.2+fabric": [
+      "gHEBqjS9"
+    ],
+    "26.2+forge": [
+      "gHEBqjS9"
+    ],
+    "26.2+neoforge": [
+      "gHEBqjS9"
+    ],
+    "26.2+quilt": [
+      "gHEBqjS9"
+    ]
+  }
+}

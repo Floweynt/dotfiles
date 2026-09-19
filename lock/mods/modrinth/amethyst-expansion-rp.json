@@ -1,0 +1,82 @@
+{
+  "slug": "amethyst-expansion-rp",
+  "projectId": "BiPtPULk",
+  "versions": {
+    "iS9fngmU": {
+      "filename": "AE Required RP.zip",
+      "url": "https://cdn.modrinth.com/data/BiPtPULk/versions/iS9fngmU/AE%20Required%20RP.zip",
+      "hash": "sha512-ZQOXViCBYkns2Bk+mQB6T/gH2uJNTYvnSK4NVr6C3+wXtyFr85HlDuCFuNZ68J0PlCcVWMzfDQkbCXPJ8NdNFw==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "jBwbcfD4": {
+      "filename": "Amethyst Expansion Resources.zip",
+      "url": "https://cdn.modrinth.com/data/BiPtPULk/versions/jBwbcfD4/Amethyst%20Expansion%20Resources.zip",
+      "hash": "sha512-75p7M9T4WxmmVK/iu3Yba0CBcc1x1eetFHzMZ7Bipd1mbZJJxLvcSnjA+RoPmkkd+1gDUCavLax/jfZB0bwA/w==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "amethyst-expansion-dp",
+          "projectId": "zVG2op5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+minecraft": [
+      "iS9fngmU",
+      "jBwbcfD4"
+    ],
+    "1.21.11+minecraft": [
+      "iS9fngmU"
+    ],
+    "1.21.4+minecraft": [
+      "jBwbcfD4"
+    ],
+    "1.21.5+minecraft": [
+      "jBwbcfD4"
+    ],
+    "1.21.6+minecraft": [
+      "iS9fngmU",
+      "jBwbcfD4"
+    ],
+    "1.21.7+minecraft": [
+      "iS9fngmU",
+      "jBwbcfD4"
+    ],
+    "1.21.8+minecraft": [
+      "iS9fngmU",
+      "jBwbcfD4"
+    ],
+    "1.21.9+minecraft": [
+      "iS9fngmU",
+      "jBwbcfD4"
+    ]
+  }
+}

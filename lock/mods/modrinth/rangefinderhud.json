@@ -1,0 +1,124 @@
+{
+  "slug": "rangefinderhud",
+  "projectId": "Izqaftw9",
+  "versions": {
+    "1gwainpI": {
+      "filename": "rangefinderhud-1.2.1-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/Izqaftw9/versions/1gwainpI/rangefinderhud-1.2.1-1.20.jar",
+      "hash": "sha512-MS1kMiQj1rAJfbvmM56MEV+nR7X17ay96MHcrdRmjM67B+8JQz896NgO0Gs2Q3RCuFw6sqCU7q9uzB2s+94pZQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "6iJsV0Jw": {
+      "filename": "rangefinderhud-1.1.1-1.19.1.jar",
+      "url": "https://cdn.modrinth.com/data/Izqaftw9/versions/1.1.1-1.19.1/rangefinderhud-1.1.1-1.19.1.jar",
+      "hash": "sha512-6Z3+3OfKCzrEt19FTIMREVOHrlW/HyDUHXOLC8x5f69y4hJcASnlIOrRlO2hj3UWkCQiPfaDww/a2srLtsmLeA==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "EpG4EN5m": {
+      "filename": "rangefinderhud-1.2.0-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/Izqaftw9/versions/EpG4EN5m/rangefinderhud-1.2.0-1.20.jar",
+      "hash": "sha512-KUwgEfDZirbexE2DNWepxCTdgKK2Xt09SfAFbpuyyDZ948gldTgplvuJ2gkXvjjsD5/1xyywaRsd8STsx4i/4g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "HRGhRsgu": {
+      "filename": "rangefinderhud-1.2.1-1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/Izqaftw9/versions/HRGhRsgu/rangefinderhud-1.2.1-1.20.2.jar",
+      "hash": "sha512-ulvS9CKRhubKfzqIxOpkLmxZ7cRE9oNOEQnyGtwshPqROPxuMkesmb2wuV1t5SoZsuG1k27cKswhyavzknP3iA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "UkcMnNdO": {
+      "filename": "rangefinderhud-1.1.0-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/Izqaftw9/versions/1.1.0-1.18.2/rangefinderhud-1.1.0-1.18.2.jar",
+      "hash": "sha512-5yff+eBueHRWUHFJormYWlZD19CXZYcD4zgQvPrXRE4GQ5UElyPITjDeayslyIUA4YTUy2CjL0Tl4DoED7USNA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "UkcMnNdO"
+    ],
+    "1.19.1+fabric": [
+      "6iJsV0Jw"
+    ],
+    "1.19.2+fabric": [
+      "6iJsV0Jw"
+    ],
+    "1.20+fabric": [
+      "1gwainpI",
+      "EpG4EN5m"
+    ],
+    "1.20.1+fabric": [
+      "1gwainpI",
+      "EpG4EN5m"
+    ],
+    "1.20.2+fabric": [
+      "HRGhRsgu"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "projectilesbreakdripstone",
+  "projectId": "euNLQxpF",
+  "versions": {
+    "XjAL2Dvo": {
+      "filename": "projectilesbreakdripstone-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/euNLQxpF/versions/XjAL2Dvo/projectilesbreakdripstone-1.0.0.jar",
+      "hash": "sha512-ouAYSvPEGWrXYfXqsiQxxK8SgF51jM9Ah4LYxKCsI110KUbl5MDXIZSjN+0e3SZNYzz0rOI7tIlqm5fTwHPtaw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rRVO4VJq": {
+      "filename": "projectilesbreakdripstone-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/euNLQxpF/versions/rRVO4VJq/projectilesbreakdripstone-1.0.1.jar",
+      "hash": "sha512-377QjemnUvaQrT7IhV+g8kjR2ZJBHSTzJU4Ts4SVmGocDKXp7Yxvr1bHE8e75Lr7LuOj28vcbd6jtMuKeNLEuw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "rRVO4VJq",
+      "XjAL2Dvo"
+    ],
+    "1.21.1+fabric": [
+      "rRVO4VJq"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "aspectratio-fabric",
+  "projectId": "7r7bsHx7",
+  "versions": {
+    "P0h4xirz": {
+      "filename": "aspectratio-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7r7bsHx7/versions/P0h4xirz/aspectratio-1.0.jar",
+      "hash": "sha512-TSvp/B+MG7tt21ECIloihjZy2dbYtfH13UcATDhG5ebacirpB2PYea1SqlPmzgIJYsmfen7Eei0bClJ8Xbzvzw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "P0h4xirz"
+    ]
+  }
+}

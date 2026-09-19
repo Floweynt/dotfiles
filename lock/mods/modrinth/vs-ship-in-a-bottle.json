@@ -1,0 +1,121 @@
+{
+  "slug": "vs-ship-in-a-bottle",
+  "projectId": "hWzcJMlo",
+  "versions": {
+    "29oV3Wbv": {
+      "filename": "ship_in_a_bottle-1.20.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hWzcJMlo/versions/29oV3Wbv/ship_in_a_bottle-1.20.1-2.0.0.jar",
+      "hash": "sha512-6b8rMn03yFj/w4CDIkxLXZkbo3ZV33BEbkEdZCdUwByr4L3woEM4mGDF9U+VoctmC7m+LRudLpd0oQColgIwSg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "vlib",
+          "projectId": "V1UmcEMX",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    },
+    "ggy9jRfB": {
+      "filename": "ship-in-a-bottle-1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/hWzcJMlo/versions/ggy9jRfB/ship-in-a-bottle-1.1-1.20.1.jar",
+      "hash": "sha512-RPJTtSYBiO+N25uHsrG29HJe1ldL7ac+9ZLDCzW548mZFG8TtJZs6p8/S4d4HWRmK95eQWynRXVWfP8Cts0LFA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "hIPssm08": {
+      "filename": "ship_in_a_bottle-1.20.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hWzcJMlo/versions/hIPssm08/ship_in_a_bottle-1.20.1-2.0.0.jar",
+      "hash": "sha512-B4DM3c2avWKkjrnAMvnsvZzjSE5Uxy64QSPz7QBo97UMxH643ZhQHNAB4f4iTN7DrTlhyItinYLN46oQUyVFag==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "vlib",
+          "projectId": "V1UmcEMX",
+          "type": "required"
+        }
+      ]
+    },
+    "r7uC8KjW": {
+      "filename": "ship-in-a-bottle-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/hWzcJMlo/versions/r7uC8KjW/ship-in-a-bottle-1.0-1.20.1.jar",
+      "hash": "sha512-CBWEM8TpoPlX3x/GFOgFxku1F0/Pn0x4vyRgXJMhskaEtU3nqLifxkMqeFZ8H0s94s2arxGr7MEZUKXRZLSAhA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hIPssm08",
+      "ggy9jRfB",
+      "r7uC8KjW"
+    ],
+    "1.20.1+forge": [
+      "29oV3Wbv"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "hypixel-sky-block",
+  "projectId": "vUfww66P",
+  "versions": {
+    "5GJrtGe5": {
+      "filename": "Sky-Block-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vUfww66P/versions/5GJrtGe5/Sky-Block-1.0.1.jar",
+      "hash": "sha512-JNrrCxWkg7ZKXwA9jxcOm4yai1xOTX008U4u0Zs2lW+qcdLz9EXuAx4fc6VVFgblNzW7N46deVgwO/4RKgKVuw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "hypixel-mod-api",
+          "projectId": "1A2mKfBx",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "k5ldltxi": {
+      "filename": "Sky-Block-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vUfww66P/versions/k5ldltxi/Sky-Block-1.0.0.jar",
+      "hash": "sha512-buHcJiovHN+my2Z1TVax90R7eIUw26g9C5ACjvSG+nF1S/goH/n+gotCzkvC7OGy+bGczifX8vPy3O8l8YTpeA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "hypixel-mod-api",
+          "projectId": "1A2mKfBx",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "5GJrtGe5",
+      "k5ldltxi"
+    ],
+    "1.21.4+quilt": [
+      "k5ldltxi"
+    ]
+  }
+}

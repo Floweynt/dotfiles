@@ -1,0 +1,96 @@
+{
+  "slug": "vanilla-copper-plus",
+  "projectId": "AD2xdYhY",
+  "versions": {
+    "DkalTdO2": {
+      "filename": "vanilla-copper-plus-1.0.1-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/AD2xdYhY/versions/DkalTdO2/vanilla-copper-plus-1.0.1-1.21.jar",
+      "hash": "sha512-Q8ptqm93Qb5aJf01XG7m/B5Q1ijCPKg4dLjjJuD3m6yYZgWhwjoDjnthGKdqReE8mEH7Uhn0viKu2FcOmYocWg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eX3ePRLl": {
+      "filename": "vanilla-copper-plus-1.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/AD2xdYhY/versions/eX3ePRLl/vanilla-copper-plus-1.0.0-1.21.jar",
+      "hash": "sha512-FT0nqXDXZ8HpQwYD8Gju3TazJK0ujJNloPUVr6xMevyDAvxwZo3hDi7nmm3cPZXOsgMyKkXvhhuh4SzMkGakVg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "wdMaRIbj": {
+      "filename": "vanilla-copper-plus-1.0.2-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/AD2xdYhY/versions/wdMaRIbj/vanilla-copper-plus-1.0.2-1.21.jar",
+      "hash": "sha512-z/9J8JI+w0xtBbPcpqgI9qV1tRwKOPNQ/t1gLN+aax+tAPoZjlWyDbUbXYrblbhjuSqTLFVF5tdYWkX/4qOZWQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "wdMaRIbj",
+      "DkalTdO2",
+      "eX3ePRLl"
+    ],
+    "1.21.1+fabric": [
+      "wdMaRIbj",
+      "DkalTdO2",
+      "eX3ePRLl"
+    ]
+  }
+}

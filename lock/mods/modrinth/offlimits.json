@@ -1,0 +1,96 @@
+{
+  "slug": "offlimits",
+  "projectId": "ZAha224N",
+  "versions": {
+    "FV95lCXJ": {
+      "filename": "offlimits-Forge-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZAha224N/versions/FV95lCXJ/offlimits-Forge-1.1.1.jar",
+      "hash": "sha512-O8XlukfkktlA8zI9UhimXwIbzuBkKJY8yID6PgZFSC7HZMiNkI3cit/J/e3conhI4zzKwa5TLgb8ZYmbtXv/Rg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "platform",
+          "projectId": "i6fiqm5y",
+          "type": "required"
+        }
+      ]
+    },
+    "OxDQNVMB": {
+      "filename": "offlimits-Forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZAha224N/versions/OxDQNVMB/offlimits-Forge-1.1.0.jar",
+      "hash": "sha512-yS2B4qBS9F2p7q0pjU1Rqt2+oXPyIJq8C+IYmEXEMTQ5pA+Lgebvv62DI0DcaYeIgWPF50+SMt+5GgdoNXMGBw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "platform",
+          "projectId": "i6fiqm5y",
+          "type": "required"
+        }
+      ]
+    },
+    "bgc62Ct5": {
+      "filename": "offlimits-Fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZAha224N/versions/bgc62Ct5/offlimits-Fabric-1.1.0.jar",
+      "hash": "sha512-Ic+VosAvewj9IYi6g+En0Mq2jKHbAVxyEd+sFuKLcWs3kSQ8O7/Lv4mEqkYTqWjkLbeImVSILUeR9HkOqCcgpg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "platform",
+          "projectId": "i6fiqm5y",
+          "type": "required"
+        }
+      ]
+    },
+    "mGVxx5gT": {
+      "filename": "offlimits-Fabric-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZAha224N/versions/mGVxx5gT/offlimits-Fabric-1.1.1.jar",
+      "hash": "sha512-NY8aeseRMuVNSHauU+OIKXRD2Xy8JwXWgN8nR5rj+Q9EzepUU9whAaBEOG2ag+G26VTITUQpz+Fb3dyTh1u1Tg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "platform",
+          "projectId": "i6fiqm5y",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "mGVxx5gT",
+      "bgc62Ct5"
+    ],
+    "1.16.5+forge": [
+      "FV95lCXJ",
+      "OxDQNVMB"
+    ]
+  }
+}

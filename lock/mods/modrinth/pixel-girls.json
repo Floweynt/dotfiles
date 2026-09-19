@@ -1,0 +1,31 @@
+{
+  "slug": "pixel-girls",
+  "projectId": "6Vxu2glD",
+  "versions": {
+    "OLg0puTy": {
+      "filename": "pixel-girls-pr1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6Vxu2glD/versions/OLg0puTy/pixel-girls-pr1.0.jar",
+      "hash": "sha512-qLmimO7uIHW0RM9xo7WsqlfiScOEqDGbTiuzyp5Vt+Znwymbb2z3BPOEIriEBPw4jMWmgai2xfu9mcGa5TVEow==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+fabric": [
+      "OLg0puTy"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "cave-survey",
+  "projectId": "tjrUvbJd",
+  "versions": {
+    "P5B90sV2": {
+      "filename": "cave-survey-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tjrUvbJd/versions/P5B90sV2/cave-survey-1.0.0.jar",
+      "hash": "sha512-DHkwjoXp/FceHlhIGHShP3m8q5aG4d81/UqZgLbCFrFrWhOKrTQtY9dfnAfkb6naGC9rBV+E1dMB3m00fE4ZBA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UXIR1Beo": {
+      "filename": "cave-survey-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/tjrUvbJd/versions/UXIR1Beo/cave-survey-1.1.0.jar",
+      "hash": "sha512-PZXiSEGSjPJwgDZMnsqO3GylRM93spSHB8A5Gkb8QWA2cn3ICR5EpuVX5AEAaNrh6miAUNHODfpL2Ng5r38WJg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uWGnWPRN": {
+      "filename": "cave-survey-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/tjrUvbJd/versions/uWGnWPRN/cave-survey-1.0.1.jar",
+      "hash": "sha512-2zG32xnPg/Mtg/xhk5rVI35VEsgYNpn3meVKWB/C8Zg37UEvaTanqZtqfz4T7gxNEjpLHR8KbsOs2VPPNDdoWw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "uWGnWPRN",
+      "P5B90sV2"
+    ],
+    "1.20+fabric": [
+      "UXIR1Beo"
+    ],
+    "1.20.1+fabric": [
+      "UXIR1Beo"
+    ]
+  }
+}

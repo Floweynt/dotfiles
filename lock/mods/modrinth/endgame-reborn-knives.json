@@ -1,0 +1,122 @@
+{
+  "slug": "endgame-reborn-knives",
+  "projectId": "6A4nrLeH",
+  "versions": {
+    "271qcq3J": {
+      "filename": "endgame-reborn-knives-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/6A4nrLeH/versions/271qcq3J/endgame-reborn-knives-1.2.1.jar",
+      "hash": "sha512-C/R+pT/qrUVFC6J6oxNSRIf05LsD2Q6Esu/NLmcmvN11GurOmJu74FEooadh+aG6/wNnHtTtFzr9ZWhLAbIxYw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "4lBeQ5eh": {
+      "filename": "endgame-reborn-knives-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/6A4nrLeH/versions/4lBeQ5eh/endgame-reborn-knives-1.2.0.jar",
+      "hash": "sha512-DGZWr1To+ozGEq9250fE/f4B0qwTg59TmyDjMvu+X6IFJjlnQ2kC/PVLj9B26iEXnwKYOY4gAHJbunRr1eqy+w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "endgame-reborn",
+          "projectId": "B0Fm7Yqw",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        }
+      ]
+    },
+    "6QL4wyjy": {
+      "filename": "endgame-reborn-knives-v1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/6A4nrLeH/versions/6QL4wyjy/endgame-reborn-knives-v1.0.1.jar",
+      "hash": "sha512-NKHl7xzpsG4K4RFrvqOOFQbdFDemcSkenNtEmfUxlYiPM5qwr1RREvddpN83zeQ/rs6lIpUnJnXzvHyC67INng==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        },
+        {
+          "slug": "endgame-reborn",
+          "projectId": "B0Fm7Yqw",
+          "type": "required"
+        }
+      ]
+    },
+    "D5V1lfBm": {
+      "filename": "endgame-reborn-knives-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6A4nrLeH/versions/D5V1lfBm/endgame-reborn-knives-1.1.0.jar",
+      "hash": "sha512-mT6IdvTszmSmLIRO2C8uK77Mwo6He112KJyW+sp4R620FvfjGkaHIKqn+clT+2V2YSsZ2mkOVdEIBXhjZO7cxQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "endgame-reborn",
+          "projectId": "B0Fm7Yqw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "D5V1lfBm",
+      "6QL4wyjy"
+    ],
+    "1.19.1+fabric": [
+      "D5V1lfBm",
+      "6QL4wyjy"
+    ],
+    "1.19.2+fabric": [
+      "D5V1lfBm",
+      "6QL4wyjy"
+    ],
+    "1.20+fabric": [
+      "271qcq3J",
+      "4lBeQ5eh"
+    ],
+    "1.20.1+fabric": [
+      "271qcq3J",
+      "4lBeQ5eh"
+    ],
+    "1.20.2+fabric": [
+      "271qcq3J"
+    ]
+  }
+}

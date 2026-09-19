@@ -1,0 +1,81 @@
+{
+  "slug": "better-laddering",
+  "projectId": "IoW84iQR",
+  "versions": {
+    "BABMgqIV": {
+      "filename": "BetterLaddering-1.1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IoW84iQR/versions/BABMgqIV/BetterLaddering-1.1.0-1.20.1.jar",
+      "hash": "sha512-BP70RIq9dQp9a7MYKvzJarEFZTc8ug2gMlb5k6szDjx9ZI+jVOQ6Dl4MjzE2xx8jO76vDWBC1Si2iPVObjYSOw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WKYryW9x": {
+      "filename": "BetterLaddering-1.2.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IoW84iQR/versions/WKYryW9x/BetterLaddering-1.2.0-1.20.1.jar",
+      "hash": "sha512-5lZm0OrCB9E/uZXxu2gzFj2OuyLaz23k93zEmdhTsG0U0fRykEhGSpD4i5wCgyBVt0Fggk5ntWL+9nhlMDqcDg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "w69TJfLF": {
+      "filename": "BetterLaddering-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IoW84iQR/versions/w69TJfLF/BetterLaddering-1.0.0-1.20.1.jar",
+      "hash": "sha512-fi8CLpOFlzPF83odWVPzuMsnfTp26cI6ASVz8E0aNQcYJOrzvhow0YhCD39I/Kki+oY4KS68ShenJ/hSaHthBQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "WKYryW9x",
+      "BABMgqIV",
+      "w69TJfLF"
+    ],
+    "1.20.1+fabric": [
+      "WKYryW9x",
+      "BABMgqIV",
+      "w69TJfLF"
+    ]
+  }
+}

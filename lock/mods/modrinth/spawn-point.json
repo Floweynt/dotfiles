@@ -1,0 +1,56 @@
+{
+  "slug": "spawn-point",
+  "projectId": "D4y6AJ5H",
+  "versions": {
+    "UuVi1Nye": {
+      "filename": "spawn_point-neoforge-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/D4y6AJ5H/versions/UuVi1Nye/spawn_point-neoforge-1.21-1.0.0.jar",
+      "hash": "sha512-l8at8+bTOE+zS+jvRHeXk00zVHkR6+YFGEH4yFmDSt9BwfqSvdg72Lae7CdOmIGLRyOM9sYN7O/HuqhSm/y99A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cT1zYGBq": {
+      "filename": "spawn_point-fabric-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/D4y6AJ5H/versions/cT1zYGBq/spawn_point-fabric-1.21-1.0.0.jar",
+      "hash": "sha512-3YD6q6nXSFImctIQOsCHAgt502B/S7EsOCqI58XpXYYiD9de5Pbo7+/b3brhi6dGXiRROW9DSU0kxOTxZK55Ig==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "cT1zYGBq"
+    ],
+    "1.21+neoforge": [
+      "UuVi1Nye"
+    ],
+    "1.21.1+fabric": [
+      "cT1zYGBq"
+    ],
+    "1.21.1+neoforge": [
+      "UuVi1Nye"
+    ]
+  }
+}

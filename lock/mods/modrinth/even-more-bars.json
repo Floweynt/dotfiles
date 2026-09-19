@@ -1,0 +1,41 @@
+{
+  "slug": "even-more-bars",
+  "projectId": "TtX9o5Rz",
+  "versions": {
+    "7LOBwE1O": {
+      "filename": "evenmorebars-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TtX9o5Rz/versions/7LOBwE1O/evenmorebars-1.0.0.jar",
+      "hash": "sha512-JkUz3WkuE9/TweySY3LBT6u/t2Vs29vHYfQwhcVZHbukegX0MuyCe3YFbgHVjSGhR8TvfBUEYPuqjAxVhkKpug==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "zine",
+          "projectId": "LKEoCBc7",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "7LOBwE1O"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "redstonepp",
+  "projectId": "NkYRinPN",
+  "versions": {
+    "eSbIvL74": {
+      "filename": "redstonepp-fabric-0.3.3-beta-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/NkYRinPN/versions/eSbIvL74/redstonepp-fabric-0.3.3-beta-1.21.11.jar",
+      "hash": "sha512-20b7abc6VzoV7onteNpSBJXxHroO90noH7I8R0ESZywNIyxhiHl0PhwxhRGgWpNo93tEYRq+UCleqy7hfdGHow==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wLcAlHXn": {
+      "filename": "redstonepp-fabric-0.3.3-beta-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/NkYRinPN/versions/wLcAlHXn/redstonepp-fabric-0.3.3-beta-1.21.10.jar",
+      "hash": "sha512-FlrBirY57euV73qELjPPTwDnDfIJBIu0sKz61yDkWDBjwcUe/tzGHkLco7gWKAYTyMXCWiOy0xS8dbHF2/zTVw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "wLcAlHXn"
+    ],
+    "1.21.11+fabric": [
+      "eSbIvL74"
+    ]
+  }
+}

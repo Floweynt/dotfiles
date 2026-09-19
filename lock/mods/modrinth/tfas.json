@@ -1,0 +1,41 @@
+{
+  "slug": "tfas",
+  "projectId": "BTAJkDUv",
+  "versions": {
+    "2XkugZqZ": {
+      "filename": "tokenablefurnaces-2.0.2-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/BTAJkDUv/versions/2XkugZqZ/tokenablefurnaces-2.0.2-1.19.2.jar",
+      "hash": "sha512-gBkFxIbv5zVUoean3EjpaSC3CHJTJU5UHShq/DXGjjY63JS1PUK9QkE46Wh+RcpSfMqLbpagZ1xCIf6kivm4hw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "skylib",
+          "projectId": "SXYcZO3i",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "2XkugZqZ"
+    ]
+  }
+}

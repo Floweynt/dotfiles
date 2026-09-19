@@ -1,0 +1,100 @@
+{
+  "slug": "create-brass-recipe",
+  "projectId": "XY5x6cz7",
+  "versions": {
+    "79dih2us": {
+      "filename": "create-brass-recipe-1.1-data-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/XY5x6cz7/versions/79dih2us/create-brass-recipe-1.1-data-1.21.1.jar",
+      "hash": "sha512-wSCpYJ+B7ztHyinO8utiqvkxwvVC7PXoZsSh8afCdvXBqR6GdLskdmHhp/CqMGUnztPuYw1vG9Zi2aDQDDcD5Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "CFGNKR6B": {
+      "filename": "create-brass-recipe-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XY5x6cz7/versions/CFGNKR6B/create-brass-recipe-1.0.jar",
+      "hash": "sha512-y8bwCkF/0vSw58KxzA7+plP4Hn3D12v0MBtpLMVQrDvtcx8U9QxbEpT6KteZp87cGwLsR6l9Ne28G5jV5eps1g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "UfAU7deQ": {
+      "filename": "Create-Brass-Recipe1.1.zip",
+      "url": "https://cdn.modrinth.com/data/XY5x6cz7/versions/UfAU7deQ/Create-Brass-Recipe1.1.zip",
+      "hash": "sha512-KjisXPEJI8ddzpF585zoKMX0lUSVSzDkMK1mX+NHwURJhZa9CwsvGA71DcJms4MXHy9tkrwjC9n8UZfwq7AUng==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "yTVhTTDk": {
+      "filename": "Create-Brass-Recipe1.0.zip",
+      "url": "https://cdn.modrinth.com/data/XY5x6cz7/versions/yTVhTTDk/Create-Brass-Recipe1.0.zip",
+      "hash": "sha512-UOQiDE7S4FNx4pbaHllptLolF4ZEbJ3CRJPlw8/aWQR9HwoA5lgZxagK7LIu76kHzx1zp56MYK8VOI0KCVSFLw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "yTVhTTDk"
+    ],
+    "1.20.1+fabric": [
+      "CFGNKR6B"
+    ],
+    "1.20.1+forge": [
+      "CFGNKR6B"
+    ],
+    "1.20.1+neoforge": [
+      "CFGNKR6B"
+    ],
+    "1.20.1+quilt": [
+      "CFGNKR6B"
+    ],
+    "1.21.1+datapack": [
+      "UfAU7deQ"
+    ],
+    "1.21.1+neoforge": [
+      "79dih2us"
+    ]
+  }
+}

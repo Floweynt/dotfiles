@@ -1,0 +1,113 @@
+{
+  "slug": "switchy-status",
+  "projectId": "kURcBH5t",
+  "versions": {
+    "CaSBSWFy": {
+      "filename": "switchy-status-1.0.0+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/kURcBH5t/versions/CaSBSWFy/switchy-status-1.0.0%2B1.19.jar",
+      "hash": "sha512-TkADwrqHN7AF3SJpeCoft07IBgCR6twDT6cRZxqmGRfIU5CtSetpZlnZALM5lBzkTnUjIB4SKCFtpQtRHMmZ6w==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "switchy",
+          "projectId": "ss0QuCRx",
+          "type": "required"
+        }
+      ]
+    },
+    "lWFkxjsX": {
+      "filename": "switchy-status-1.0.1+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/kURcBH5t/versions/lWFkxjsX/switchy-status-1.0.1%2B1.19.jar",
+      "hash": "sha512-p7eIUqggVGshKG5lOUGlTR3GnbIo8v6i/aGybJAkWvWU0iX1yrzqcdHczFoDttLHsCp67EEtteATJOPOvb7hdg==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "switchy",
+          "projectId": "ss0QuCRx",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "lWFkxjsX"
+    ],
+    "1.19.2+forge": [
+      "lWFkxjsX"
+    ],
+    "1.19.2+quilt": [
+      "lWFkxjsX",
+      "CaSBSWFy"
+    ],
+    "1.19.3+fabric": [
+      "lWFkxjsX"
+    ],
+    "1.19.3+forge": [
+      "lWFkxjsX"
+    ],
+    "1.19.3+quilt": [
+      "lWFkxjsX",
+      "CaSBSWFy"
+    ],
+    "1.19.4+fabric": [
+      "lWFkxjsX"
+    ],
+    "1.19.4+forge": [
+      "lWFkxjsX"
+    ],
+    "1.19.4+quilt": [
+      "lWFkxjsX",
+      "CaSBSWFy"
+    ],
+    "1.20+fabric": [
+      "lWFkxjsX"
+    ],
+    "1.20+forge": [
+      "lWFkxjsX"
+    ],
+    "1.20+quilt": [
+      "lWFkxjsX",
+      "CaSBSWFy"
+    ],
+    "1.20.1+fabric": [
+      "lWFkxjsX"
+    ],
+    "1.20.1+forge": [
+      "lWFkxjsX"
+    ],
+    "1.20.1+quilt": [
+      "lWFkxjsX",
+      "CaSBSWFy"
+    ]
+  }
+}

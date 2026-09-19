@@ -1,0 +1,116 @@
+{
+  "slug": "botanypotstweaker",
+  "projectId": "SaAdpLPV",
+  "versions": {
+    "1789Au9c": {
+      "filename": "BotanyPotsTweaker-fabric-1.20.1-4.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/SaAdpLPV/versions/1789Au9c/BotanyPotsTweaker-fabric-1.20.1-4.0.4.jar",
+      "hash": "sha512-6IO7YXTXzfFoadNaRzThrltRmrraPe7X79rfxcDPdyRp1gHXwB0/2UgFvuroQmIF7Rd/N8Cj8YS4VZOvuHn75A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "crafttweaker",
+          "projectId": "Xg35A4rS",
+          "type": "required"
+        },
+        {
+          "slug": "botany-pots",
+          "projectId": "U6BUTZ7K",
+          "type": "required"
+        },
+        {
+          "slug": "bookshelf-lib",
+          "projectId": "uy4Cnpcm",
+          "type": "required"
+        }
+      ]
+    },
+    "3GP6agof": {
+      "filename": "BotanyPotsTweaker-forge-1.20.1-4.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/SaAdpLPV/versions/3GP6agof/BotanyPotsTweaker-forge-1.20.1-4.0.3.jar",
+      "hash": "sha512-SNM9+quTEd0OMqlo0lBtRVMfe6aUkPiCWLk8Yr16G2iZt0MJvdLw0frpaoLQ/KmKc+TOpgWyVA7fA7CktGFdnw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "crafttweaker",
+          "projectId": "Xg35A4rS",
+          "type": "required"
+        }
+      ]
+    },
+    "7tT0VJmJ": {
+      "filename": "BotanyPotsTweaker-forge-1.20.1-4.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/SaAdpLPV/versions/7tT0VJmJ/BotanyPotsTweaker-forge-1.20.1-4.0.4.jar",
+      "hash": "sha512-A5ui47l8nfy4fIKDgHA2Tpi6gc5rhaQGqWwSoa7pH2S0Lw1wUZp6AXwUvYdf9QDscjrCJGPYNuwOY58f6uSZDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bookshelf-lib",
+          "projectId": "uy4Cnpcm",
+          "type": "required"
+        },
+        {
+          "slug": "botany-pots",
+          "projectId": "U6BUTZ7K",
+          "type": "required"
+        },
+        {
+          "slug": "crafttweaker",
+          "projectId": "Xg35A4rS",
+          "type": "required"
+        }
+      ]
+    },
+    "9mbCs8YX": {
+      "filename": "BotanyPotsTweaker-fabric-1.20.1-4.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/SaAdpLPV/versions/9mbCs8YX/BotanyPotsTweaker-fabric-1.20.1-4.0.3.jar",
+      "hash": "sha512-fBBgeo5FAx54OLPQ8UXL4ihX5FItdb8+phCVXZ5A+/eW+ERCCyGh4qLP+jGfoeq0BX4cOET6mZ5nDfSuOv4mwA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "crafttweaker",
+          "projectId": "Xg35A4rS",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1789Au9c",
+      "9mbCs8YX"
+    ],
+    "1.20.1+forge": [
+      "7tT0VJmJ",
+      "3GP6agof"
+    ]
+  }
+}

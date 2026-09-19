@@ -1,0 +1,143 @@
+{
+  "slug": "pride-fishing-line",
+  "projectId": "HiIHGwTX",
+  "versions": {
+    "QWE2whq0": {
+      "filename": "pridefishinglines-1.1.0+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/HiIHGwTX/versions/QWE2whq0/pridefishinglines-1.1.0%2B1.19.4.jar",
+      "hash": "sha512-ZfywMJOSJ+9bYRS8WPPDFZXu52XCiPpbxaBCiX3owDPpL5QTae2xla14pHCJUH5PhqffY4uGm92tbuLj6RV5BA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Rrp9o6Q9": {
+      "filename": "pridefishinglines-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HiIHGwTX/versions/Rrp9o6Q9/pridefishinglines-3.0.0.jar",
+      "hash": "sha512-NnbcclXTUqAMjMXPnaz58RuHMIvrFf5V+5lg9tXvhSLTVOaQLu/k4jr5U0EmPr9IhTi/twh5sJhPQ7v0u3YKeQ==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "j0nwsgKH": {
+      "filename": "pridefishinglines-1.0.1+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/HiIHGwTX/versions/j0nwsgKH/pridefishinglines-1.0.1%2B1.19.4.jar",
+      "hash": "sha512-BM1uP2PE/oJUV4Oj+D8Hwm8HtJ87F/0t5ctMPx84JfwcD0P7kSkG7bub8EceX9rGiDFVkBHFamiUIieBdwHEQw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "nKYm9ZnM": {
+      "filename": "pridefishinglines-2.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/HiIHGwTX/versions/nKYm9ZnM/pridefishinglines-2.0.0%2B1.20.jar",
+      "hash": "sha512-IkNWIKrJtWPV+EdAo2WJ+9/AVvJmL7C+ONX/S9QNKVr1Et3qZ80GH2QrHNZvJKif21HF3FvygLdhT/dloH1/yQ==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "rOvo2KtK": {
+      "filename": "pridefishinglines-2.0.1+1.20.x.jar",
+      "url": "https://cdn.modrinth.com/data/HiIHGwTX/versions/rOvo2KtK/pridefishinglines-2.0.1%2B1.20.x.jar",
+      "hash": "sha512-iAjCejCiA5x7ibZixhMAg59CGm3PCP8G6SaCmasxuH2nwwC3PP7Q3remxYoiIrDB63+v5A6mAJSQraGqxz3cWA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "QWE2whq0",
+      "j0nwsgKH"
+    ],
+    "1.20+fabric": [
+      "rOvo2KtK",
+      "nKYm9ZnM"
+    ],
+    "1.20+quilt": [
+      "rOvo2KtK"
+    ],
+    "1.20.1+fabric": [
+      "rOvo2KtK"
+    ],
+    "1.20.1+quilt": [
+      "rOvo2KtK"
+    ],
+    "1.21.3+fabric": [
+      "Rrp9o6Q9"
+    ],
+    "1.21.4+fabric": [
+      "Rrp9o6Q9"
+    ]
+  }
+}

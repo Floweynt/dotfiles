@@ -1,0 +1,79 @@
+{
+  "slug": "controllablecarts",
+  "projectId": "scnqO9jG",
+  "versions": {
+    "5SSCjazy": {
+      "filename": "controllablecarts-1.0.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/scnqO9jG/versions/5SSCjazy/controllablecarts-1.0.0%2B1.21.11.jar",
+      "hash": "sha512-H62/leqb1b75+8yOQYVQFSrZcnuybjcUG4lPUenMMLwBxmn5HEcHKyYnyfZOYY/s9GqBv4XUL0steTDu37uKlg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Dp5ZQV1U": {
+      "filename": "controllablecarts-1.0.0+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/scnqO9jG/versions/Dp5ZQV1U/controllablecarts-1.0.0%2B26.1.jar",
+      "hash": "sha512-VcGIp4DFJU3p2mQSIEjliZrBHN3vlXOTMq1Ns2PYAw1eOcL6RYCa5NlV1MvV7CZkeWQbXMCkLUUjh0vOuPpHNg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "lafCIAy3": {
+      "filename": "controllablecarts-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/scnqO9jG/versions/lafCIAy3/controllablecarts-1.0.0.jar",
+      "hash": "sha512-Qx2RfpIWwtvMTd/LeduwXxSWw2k4kKN505JfkjZVznqnDaFQIfiXqwDKuGWNDdj5aY3b63XZCEU01XC6luuebA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "lafCIAy3"
+    ],
+    "1.21.11+fabric": [
+      "5SSCjazy"
+    ],
+    "26.1+fabric": [
+      "Dp5ZQV1U"
+    ],
+    "26.1.1+fabric": [
+      "Dp5ZQV1U"
+    ],
+    "26.1.2+fabric": [
+      "Dp5ZQV1U"
+    ]
+  }
+}

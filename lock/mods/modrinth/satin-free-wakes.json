@@ -1,0 +1,52 @@
+{
+  "slug": "satin-free-wakes",
+  "projectId": "7y4lnTPk",
+  "versions": {
+    "fEOpac97": {
+      "filename": "wakes-0.2.2-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/7y4lnTPk/versions/fEOpac97/wakes-0.2.2-1.21.jar",
+      "hash": "sha512-7o7xHkV7XZFp0Db85JJXNBM70jFg+axNRZO7vrE8SFY7HhRI5imU0IeHpv535eV0AQjMta+8WTk6Upokb+bnIA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "k4yyVQb8": {
+      "filename": "wakes-0.2.2-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/7y4lnTPk/versions/k4yyVQb8/wakes-0.2.2-1.21.4.jar",
+      "hash": "sha512-3GytQcLXtqjBTxMWwVgYQTxeCOxabR+zGUGtKe2gk+PhxvEQIux/LpRABPGxsR/Vk09epZeXj/s+u1+EH6OHKA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "fEOpac97"
+    ],
+    "1.21.1+fabric": [
+      "fEOpac97"
+    ],
+    "1.21.4+fabric": [
+      "k4yyVQb8"
+    ]
+  }
+}

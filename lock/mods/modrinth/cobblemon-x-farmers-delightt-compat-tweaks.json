@@ -1,0 +1,62 @@
+{
+  "slug": "cobblemon-x-farmers-delightt-compat-tweaks",
+  "projectId": "V8EsWoth",
+  "versions": {
+    "MDkiEtg1": {
+      "filename": "cobblemon-farmers-delight-compat-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/V8EsWoth/versions/MDkiEtg1/cobblemon-farmers-delight-compat-1.1.0.jar",
+      "hash": "sha512-3icNIindhOX5voAe3Hd6Thj1rIkBqkD1RMXoAKjwUXPpLDiq4F6iVHkE3rmk+0Do5A5dLnL5uiC1tx71kAnLgQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "NcbL8F4R": {
+      "filename": "cobblemon-farmers-delight-compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/V8EsWoth/versions/NcbL8F4R/cobblemon-farmers-delight-compat-1.0.0.jar",
+      "hash": "sha512-xw/6VBWF8eOdxzWMl6qLn/xQCvOgShUi+xEUdRXZ7Us84YU1mD77tUibUz+XW0WAig/8ZgLCVj0GIFTmJumz5g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "MDkiEtg1",
+      "NcbL8F4R"
+    ]
+  }
+}

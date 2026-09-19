@@ -1,0 +1,85 @@
+{
+  "slug": "tough-glass",
+  "projectId": "e9Jq2nL8",
+  "versions": {
+    "AJNHE3eE": {
+      "filename": "toughglass-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/e9Jq2nL8/versions/2.0.0/toughglass-2.0.0.jar",
+      "hash": "sha512-LFMVkb+uGFUI+qabGAXJWt3IJTISjj/zbAiiO4XIS5R38xRy2Rd8lkU89V6gG6e1vRkr8Okf9b2O3wRgMKWA0w==",
+      "gameVersions": [
+        "1.18.2",
+        "22w11a",
+        "22w12a",
+        "22w13a",
+        "22w14a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hCuhvxpW": {
+      "filename": "toughglass-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/e9Jq2nL8/versions/hCuhvxpW/toughglass-3.0.0.jar",
+      "hash": "sha512-OvEJBqqx0AIl4fmWFP4GCEmhuyn4eYjIf3Ugn34AmOSkbM7C03bP3PYZheCjLIHzQN3vFjGgpqOfys94Mc3hbw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "si72cOWE": {
+      "filename": "toughglass-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/e9Jq2nL8/versions/si72cOWE/toughglass-3.0.1.jar",
+      "hash": "sha512-YWlCWGpB9zAaMED+MMdWskx7yuEKkSAx2nC8CH2kpCD+DPxGJB3vO1eABF8yA4rYxXtiINUgeWHhAipPT4xl5A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "AJNHE3eE"
+    ],
+    "1.20.1+fabric": [
+      "si72cOWE",
+      "hCuhvxpW"
+    ],
+    "1.20.1+quilt": [
+      "si72cOWE",
+      "hCuhvxpW"
+    ],
+    "22w11a+fabric": [
+      "AJNHE3eE"
+    ],
+    "22w12a+fabric": [
+      "AJNHE3eE"
+    ],
+    "22w13a+fabric": [
+      "AJNHE3eE"
+    ],
+    "22w14a+fabric": [
+      "AJNHE3eE"
+    ]
+  }
+}

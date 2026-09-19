@@ -1,0 +1,131 @@
+{
+  "slug": "netherite-beacons",
+  "projectId": "bkzQk249",
+  "versions": {
+    "SyQnSClE": {
+      "filename": "netheritebeacons-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/bkzQk249/versions/SyQnSClE/netheritebeacons-1.2.1.jar",
+      "hash": "sha512-g8kwfiN9NxDm/Xs3UCVCoH4X+oU1i5Ag5fBAulZHCxWLhkFhAE7nN/Wt6Y0F+HxaffKeLlhi9WQLnLBhjj4prA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "f3WoEvlQ": {
+      "filename": "netheritebeacons-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/bkzQk249/versions/1.2.0-forge/netheritebeacons-1.2.0.jar",
+      "hash": "sha512-XbdQS9JLKwHpqNvRbzVAxiTbvd9QRVjzfGy+cJ/4wpPD3YsBj94pT8XxWoivrCzktC4fJokBQUjd4BGPgnzejg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "fqhjGTV9": {
+      "filename": "netheritebeacons-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bkzQk249/versions/1.1.0/netheritebeacons-1.1.0.jar",
+      "hash": "sha512-kBbdql9hEzi03JWq7md3dWWQ8Y56upzPLBU6fM4huLbKMl0G1GAbfHuAFpX1xyt8JBoZtRPvA6gZXCw8tWKGiA==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "jji34OTa": {
+      "filename": "netheritebeacons-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/bkzQk249/versions/1.2.0/netheritebeacons-1.2.0.jar",
+      "hash": "sha512-obdFmaI5UzfxXl9KJGmPJIaEhFo1eacWK2Rvkt6EL2lEdIc4q8FIMLzzW1AA047mr3skAAlSpAdD5LUiguXVZA==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.1+fabric": [
+      "jji34OTa",
+      "fqhjGTV9"
+    ],
+    "1.18.2+fabric": [
+      "jji34OTa",
+      "fqhjGTV9"
+    ],
+    "1.18.2+forge": [
+      "f3WoEvlQ"
+    ],
+    "1.19+fabric": [
+      "SyQnSClE",
+      "jji34OTa"
+    ],
+    "1.19.1+fabric": [
+      "SyQnSClE",
+      "jji34OTa"
+    ],
+    "1.19.2+fabric": [
+      "SyQnSClE"
+    ],
+    "1.19.3+fabric": [
+      "SyQnSClE"
+    ],
+    "1.19.4+fabric": [
+      "SyQnSClE"
+    ],
+    "1.20+fabric": [
+      "SyQnSClE"
+    ],
+    "1.20.1+fabric": [
+      "SyQnSClE"
+    ],
+    "1.20.2+fabric": [
+      "SyQnSClE"
+    ],
+    "1.20.3+fabric": [
+      "SyQnSClE"
+    ],
+    "1.20.4+fabric": [
+      "SyQnSClE"
+    ]
+  }
+}

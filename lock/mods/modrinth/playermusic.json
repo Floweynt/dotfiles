@@ -1,0 +1,117 @@
+{
+  "slug": "playermusic",
+  "projectId": "OoEEpiEG",
+  "versions": {
+    "7CAzLMz8": {
+      "filename": "playermusic-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/OoEEpiEG/versions/7CAzLMz8/playermusic-1.0.1.jar",
+      "hash": "sha512-bVsZrEUTpUoIJ80WIcg4kHhvb/r11SZ5vXLxISDR7dpKMUvuSrlZetlFOmb0aB3oqC5IXh/pjd+MOFim5ZLzxg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NENU1rnJ": {
+      "filename": "playermusic-4.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/OoEEpiEG/versions/NENU1rnJ/playermusic-4.2.0.jar",
+      "hash": "sha512-cFyD0W25BI5Ba12vg/kEKLo6TV83zuHYzRWDiok/1j7wbJ09k5Yt9FFDrzBBO+rA5I7qUZvEK46bJlITNf62Ug==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "creativecore",
+          "projectId": "OsZiaDHq",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        }
+      ]
+    },
+    "gr64kQ7m": {
+      "filename": "playermusic-FABRIC-mc1.21.1-v3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OoEEpiEG/versions/gr64kQ7m/playermusic-FABRIC-mc1.21.1-v3.0.0.jar",
+      "hash": "sha512-L6zmkOkwOBmXZUThqMrNILo11BO5pjwbKkmsd4BDUrchLzXQ3PBUIralfZ+LrJxhz8HQ2d/ViPUMb8F2ciIypw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "creativecore",
+          "projectId": "OsZiaDHq",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia-yt-plugin",
+          "projectId": "P0w3IrnX",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        }
+      ]
+    },
+    "lJgvhFTx": {
+      "filename": "playermusic-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OoEEpiEG/versions/lJgvhFTx/playermusic-1.0.0.jar",
+      "hash": "sha512-Ze78A7/xFCCyYWQ+SZ/AU+vJkdU4bU2U9Mna4X9EzjOsK6XDzqTPHp4TyzivMboJyYqxgwz1TS3tlG4miAx35Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia-yt-plugin",
+          "projectId": "P0w3IrnX",
+          "type": "required"
+        },
+        {
+          "slug": "creativecore",
+          "projectId": "OsZiaDHq",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "NENU1rnJ"
+    ],
+    "1.21.1+fabric": [
+      "gr64kQ7m"
+    ],
+    "1.21.1+neoforge": [
+      "7CAzLMz8",
+      "lJgvhFTx"
+    ]
+  }
+}

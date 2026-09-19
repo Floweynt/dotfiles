@@ -1,0 +1,128 @@
+{
+  "slug": "flat-cats",
+  "projectId": "2fmgDei0",
+  "versions": {
+    "1c0FjErR": {
+      "filename": "flatcat-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2fmgDei0/versions/1c0FjErR/flatcat-0.0.1.jar",
+      "hash": "sha512-ZE9/DrayjyGGnBIcNdXigwB1hfT+c+MLWFyNp9BewAzpqn4Pb983RiOoWWE6Y9efbXZu1oOsc2NNwZEMiQTpGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "3R8pCxQm": {
+      "filename": "flatcat-neoforge-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/2fmgDei0/versions/3R8pCxQm/flatcat-neoforge-0.1.1.jar",
+      "hash": "sha512-EcwH2+f3HvbcTNoEbGJbWzYFuCoJw/VEpp6wOcv7lrMM5g1KA+gQGnrteni8sWYAGSDjVKCUlXcv3fwN89hKbg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "6Y5SOqGm": {
+      "filename": "flatcat-0.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/2fmgDei0/versions/6Y5SOqGm/flatcat-0.0.5.jar",
+      "hash": "sha512-Gsg9QCI5hwh7yvqrF8mka8KUaoApezQEXCaTpGIxPKa8JP3hHdJC88/H68mxJ2Td9sUboim+p6W4I78k5qr5aQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "6sgjYaEp": {
+      "filename": "flatcat-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2fmgDei0/versions/6sgjYaEp/flatcat-fabric-0.1.0.jar",
+      "hash": "sha512-Bh617mv0TjD9+VyZeDows182NaZEBRqQ8a4401VuC9qUNd+4Kjs6yGpinujj3C12QAkYehsRAbH9gRqIDwMJUA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "NBjwfyaK": {
+      "filename": "flatcat-neoforge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2fmgDei0/versions/NBjwfyaK/flatcat-neoforge-0.1.0.jar",
+      "hash": "sha512-9aGWaPFGOeXAF3+EQYdn+mMJRzhYHCYwSI2nS2Pn65xJIVgBKZTEQJWH6CXUlOAlMIHBoE59/p0+QeSUNdc2AQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "nQpCedqt": {
+      "filename": "flatcat-fabric-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/2fmgDei0/versions/nQpCedqt/flatcat-fabric-0.1.1.jar",
+      "hash": "sha512-PQo9xsSu8PpyZofKDNot6ZO1m6s28iqvqPwtOPTMlQMyR4s7vDtPsUuE/9JZ3qwMLn3xrj98zxNlYzwfBY2h9w==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "6Y5SOqGm",
+      "1c0FjErR"
+    ],
+    "1.21.4+fabric": [
+      "nQpCedqt",
+      "6sgjYaEp"
+    ],
+    "1.21.4+neoforge": [
+      "3R8pCxQm",
+      "NBjwfyaK"
+    ]
+  }
+}

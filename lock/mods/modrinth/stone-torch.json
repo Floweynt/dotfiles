@@ -1,0 +1,87 @@
+{
+  "slug": "stone-torch",
+  "projectId": "8mCmkCjy",
+  "versions": {
+    "1ZH8anhh": {
+      "filename": "stonetorch-1.0.0-quilt.jar",
+      "url": "https://cdn.modrinth.com/data/8mCmkCjy/versions/1ZH8anhh/stonetorch-1.0.0-quilt.jar",
+      "hash": "sha512-shZ/v0bKbMgT7Z5wRleTKsNVrKWeQ3RmouTuYEfXnrs9V8WSnf09Nntn50+sZHjKLIaL7ue7Os7W+Q0Hd3PI7A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Cq218xl5": {
+      "filename": "stonetorch-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/8mCmkCjy/versions/Cq218xl5/stonetorch-1.0.0-forge.jar",
+      "hash": "sha512-f5B5+yaZLPxo7FaRIxO5seUsaHgToZFVebZjmCpdpBF9JgtUk0OqZY81YZ/uUp4jP2Euw0qlKYYC7qbuT/lcFg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ymlbIAJ5": {
+      "filename": "stonetorch-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/8mCmkCjy/versions/ymlbIAJ5/stonetorch-1.0.0-fabric.jar",
+      "hash": "sha512-9YCAp6d0L2UjkK6vTfKxSLMZxbua19vx4KQmktHRWI65ps8npxXFMO8sW1uwB3XAhmKBNKa5KvdOMlSY417WvA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ymlbIAJ5"
+    ],
+    "1.20.1+forge": [
+      "Cq218xl5"
+    ],
+    "1.20.1+quilt": [
+      "1ZH8anhh"
+    ]
+  }
+}

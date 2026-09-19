@@ -1,0 +1,145 @@
+{
+  "slug": "cannon-destroying-block",
+  "projectId": "M8ZxqzPx",
+  "versions": {
+    "QFqtCM9y": {
+      "filename": "cdb-1.0.1-1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/M8ZxqzPx/versions/QFqtCM9y/cdb-1.0.1-1.21.1-neoforge.jar",
+      "hash": "sha512-V+ZWA8j0waHCb9XeoJ7xI8w7e8xej1AM9lJEGWIMR4WionYr0n4IG1NWboT++AUlklscukNvSVKH4Ohc1XSX7A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "W0eK4q60": {
+      "filename": "cdb-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/M8ZxqzPx/versions/W0eK4q60/cdb-1.0.0.jar",
+      "hash": "sha512-s6F1gEiQuM16b5FQP1eVvy4fa/DBTfmtTPBcyl1HqasVMhHI20w6zAxCjn4pFwy3jiFa9HZistwqycmibVFfvA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "YCTsz7Np": {
+      "filename": "cdb-1.0.1-26.x-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/M8ZxqzPx/versions/YCTsz7Np/cdb-1.0.1-26.x-fabric.jar",
+      "hash": "sha512-GBWs4w+zgPV3wXSBpeQbj2/fNug+pfGkK7HlCHpBJ3x7S+ZnWrw8+71vzKN6zEkDreQw0vTAH1AxNMpQ1i2dSg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        }
+      ]
+    },
+    "jvYcgsr4": {
+      "filename": "cdb-1.0.2-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/M8ZxqzPx/versions/jvYcgsr4/cdb-1.0.2-neoforge.jar",
+      "hash": "sha512-ieza1T29Z/nsxB3LJ30AI/VpZkD3rOVPRRAEoMdCqmoXJk4KxYxEijzZhaLLB4tFiL2dRmJTD2KpCqGoHAPAyA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "ucbbGKtX": {
+      "filename": "cdb-1.0.2-26.x-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/M8ZxqzPx/versions/ucbbGKtX/cdb-1.0.2-26.x-fabric.jar",
+      "hash": "sha512-NQ34GB1D6JDtW7FeY5R+3YWxeWBrGkflJQ73c5F/Q4h58P+Q1zPyyUXtuH8HV3y6mHD/FthGuDKUX4Xv3So4Iw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+neoforge": [
+      "jvYcgsr4",
+      "QFqtCM9y",
+      "W0eK4q60"
+    ],
+    "26.1+fabric": [
+      "ucbbGKtX",
+      "YCTsz7Np"
+    ],
+    "26.1.1+fabric": [
+      "ucbbGKtX",
+      "YCTsz7Np"
+    ],
+    "26.1.2+fabric": [
+      "ucbbGKtX",
+      "YCTsz7Np"
+    ],
+    "26.2+fabric": [
+      "ucbbGKtX",
+      "YCTsz7Np"
+    ]
+  }
+}

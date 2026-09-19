@@ -1,0 +1,57 @@
+{
+  "slug": "pillager-raids-are-craftable",
+  "projectId": "y2ou6NFB",
+  "versions": {
+    "fZo2JPTB": {
+      "filename": "PillagerRaidsAreCraftable.zip",
+      "url": "https://cdn.modrinth.com/data/y2ou6NFB/versions/fZo2JPTB/PillagerRaidsAreCraftable.zip",
+      "hash": "sha512-EUnguSQMZrLFScU/WtJ9ogXKYZ3FNxTYKXhLNE6d/0/nXpBxPvTeHs/jczHjL9L3sBNUlBtmogTYf10q5T3PLg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "fdg7XxrE": {
+      "filename": "pillager-raids-are-craftable-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/y2ou6NFB/versions/fdg7XxrE/pillager-raids-are-craftable-1.0.0.jar",
+      "hash": "sha512-6Qe2Skry1aVNg7fnRw1QStstRMRmHNten3u9hCv6Av0U2pW7joYDEsW+77BYbUwmW6PFVSRWdEmCGJ1jk7mkvQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "fZo2JPTB"
+    ],
+    "1.20+fabric": [
+      "fdg7XxrE"
+    ],
+    "1.20+quilt": [
+      "fdg7XxrE"
+    ],
+    "1.20.1+datapack": [
+      "fZo2JPTB"
+    ],
+    "1.20.1+fabric": [
+      "fdg7XxrE"
+    ],
+    "1.20.1+quilt": [
+      "fdg7XxrE"
+    ]
+  }
+}

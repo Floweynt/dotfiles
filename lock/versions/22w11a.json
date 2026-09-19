@@ -1,0 +1,1207 @@
+{
+  "id": "22w11a",
+  "type": "snapshot",
+  "mainClass": "net.minecraft.client.main.Main",
+  "javaMajor": 17,
+  "client": {
+    "url": "https://piston-data.mojang.com/v1/objects/ae97182a5d2b1f1244c529d0a3b29b33c23ed49c/client.jar",
+    "hash": "sha1-rpcYKl0rHxJExSnQo7KbM8I+1Jw="
+  },
+  "libraries": [
+    {
+      "name": "com.mojang:logging:1.0.0",
+      "url": "https://libraries.minecraft.net/com/mojang/logging/1.0.0/logging-1.0.0.jar",
+      "hash": "sha1-9so7Lu4LgLOE6O2T02j67Lgt+5s=",
+      "native": false
+    },
+    {
+      "name": "com.mojang:blocklist:1.0.10",
+      "url": "https://libraries.minecraft.net/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar",
+      "hash": "sha1-XGhcX/qUxM05SWxxhMHRIuUV7O8=",
+      "native": false
+    },
+    {
+      "name": "com.mojang:patchy:2.2.10",
+      "url": "https://libraries.minecraft.net/com/mojang/patchy/2.2.10/patchy-2.2.10.jar",
+      "hash": "sha1-2gWXGwfLs3nQAs9+rsaiBIIR/vw=",
+      "native": false
+    },
+    {
+      "name": "com.github.oshi:oshi-core:5.8.5",
+      "url": "https://libraries.minecraft.net/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar",
+      "hash": "sha1-HQ7GVNggdBMn9akinVE3MqS3zlA=",
+      "native": false
+    },
+    {
+      "name": "net.java.dev.jna:jna:5.10.0",
+      "url": "https://libraries.minecraft.net/net/java/dev/jna/jna/5.10.0/jna-5.10.0.jar",
+      "hash": "sha1-fPTIfdgC21ByHbZpR6ojfXrQlBg=",
+      "native": false
+    },
+    {
+      "name": "net.java.dev.jna:jna-platform:5.10.0",
+      "url": "https://libraries.minecraft.net/net/java/dev/jna/jna-platform/5.10.0/jna-platform-5.10.0.jar",
+      "hash": "sha1-++19lmnbpHcUrQ1PRFQpCpl67mk=",
+      "native": false
+    },
+    {
+      "name": "org.slf4j:slf4j-api:1.8.0-beta4",
+      "url": "https://libraries.minecraft.net/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar",
+      "hash": "sha1-g7A1nYR+4FPXRb5+wNjp6KRDBLQ=",
+      "native": false
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-slf4j18-impl:2.17.0",
+      "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-slf4j18-impl/2.17.0/log4j-slf4j18-impl-2.17.0.jar",
+      "hash": "sha1-vX9sC5Ik3SFK+05oSVfiNJtSmo0=",
+      "native": false
+    },
+    {
+      "name": "com.ibm.icu:icu4j:70.1",
+      "url": "https://libraries.minecraft.net/com/ibm/icu/icu4j/70.1/icu4j-70.1.jar",
+      "hash": "sha1-36Oh+8Vb9duMbnn8CTWserEgKVA=",
+      "native": false
+    },
+    {
+      "name": "com.mojang:javabridge:1.2.24",
+      "url": "https://libraries.minecraft.net/com/mojang/javabridge/1.2.24/javabridge-1.2.24.jar",
+      "hash": "sha1-DIdnliKbLvUSDxhuq1rMhwaZ07k=",
+      "native": false
+    },
+    {
+      "name": "net.sf.jopt-simple:jopt-simple:5.0.4",
+      "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
+      "hash": "sha1-T9rC++kt+thqpukwFzb2tDQqP1w=",
+      "native": false
+    },
+    {
+      "name": "io.netty:netty-all:4.1.68.Final",
+      "url": "https://libraries.minecraft.net/io/netty/netty-all/4.1.68.Final/netty-all-4.1.68.Final.jar",
+      "hash": "sha1-uCZqPJPBwFEQn3HTRJ5dzV1gszM=",
+      "native": false
+    },
+    {
+      "name": "com.google.guava:failureaccess:1.0.1",
+      "url": "https://libraries.minecraft.net/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar",
+      "hash": "sha1-Hc8d44Kgv5Wj2LCElUbIi6wSksk=",
+      "native": false
+    },
+    {
+      "name": "com.google.guava:guava:31.0.1-jre",
+      "url": "https://libraries.minecraft.net/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar",
+      "hash": "sha1-EZ6isrwgWxOJdNNRd3sg8CuScEs=",
+      "native": false
+    },
+    {
+      "name": "org.apache.commons:commons-lang3:3.12.0",
+      "url": "https://libraries.minecraft.net/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar",
+      "hash": "sha1-xoQshnkv8DufHR/iqrjcI6psbw4=",
+      "native": false
+    },
+    {
+      "name": "commons-io:commons-io:2.11.0",
+      "url": "https://libraries.minecraft.net/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar",
+      "hash": "sha1-olA/MCsR695+vD30Ha6+Dk7qNok=",
+      "native": false
+    },
+    {
+      "name": "commons-codec:commons-codec:1.15",
+      "url": "https://libraries.minecraft.net/commons-codec/commons-codec/1.15/commons-codec-1.15.jar",
+      "hash": "sha1-SdlIBrbj3JM9rL2Kyw/bq469Hl0=",
+      "native": false
+    },
+    {
+      "name": "com.mojang:brigadier:1.0.18",
+      "url": "https://libraries.minecraft.net/com/mojang/brigadier/1.0.18/brigadier-1.0.18.jar",
+      "hash": "sha1-we8SNCgnFkg8khg/Sb70exqJv6k=",
+      "native": false
+    },
+    {
+      "name": "com.mojang:datafixerupper:4.1.27",
+      "url": "https://libraries.minecraft.net/com/mojang/datafixerupper/4.1.27/datafixerupper-4.1.27.jar",
+      "hash": "sha1-CgLEOCTOV8P3p9fnRPDZmgQDmLU=",
+      "native": false
+    },
+    {
+      "name": "com.google.code.gson:gson:2.8.9",
+      "url": "https://libraries.minecraft.net/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar",
+      "hash": "sha1-ikMsHWgleB4hoC2y4sM8X94oM7k=",
+      "native": false
+    },
+    {
+      "name": "com.mojang:authlib:3.3.39",
+      "url": "https://libraries.minecraft.net/com/mojang/authlib/3.3.39/authlib-3.3.39.jar",
+      "hash": "sha1-KJQF5wwJF+rqwBf3+6mttEJ7qjY=",
+      "native": false
+    },
+    {
+      "name": "org.apache.commons:commons-compress:1.21",
+      "url": "https://libraries.minecraft.net/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar",
+      "hash": "sha1-TslbYNToa1yVoOkZyxcqCvmAEe8=",
+      "native": false
+    },
+    {
+      "name": "org.apache.httpcomponents:httpclient:4.5.13",
+      "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar",
+      "hash": "sha1-5fbK5cp+yqwewoJ6ni1lrihpyto=",
+      "native": false
+    },
+    {
+      "name": "commons-logging:commons-logging:1.2",
+      "url": "https://libraries.minecraft.net/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+      "hash": "sha1-S/wSrf5IQr8HtlfwNpxMtSKVVoY=",
+      "native": false
+    },
+    {
+      "name": "org.apache.httpcomponents:httpcore:4.4.14",
+      "url": "https://libraries.minecraft.net/org/apache/httpcomponents/httpcore/4.4.14/httpcore-4.4.14.jar",
+      "hash": "sha1-ndGmMcCC2S7NS9j9TPVQJscgqME=",
+      "native": false
+    },
+    {
+      "name": "it.unimi.dsi:fastutil:8.5.6",
+      "url": "https://libraries.minecraft.net/it/unimi/dsi/fastutil/8.5.6/fastutil-8.5.6.jar",
+      "hash": "sha1-dvlXAEGKaPvErAUFJSYfBdxoHKE=",
+      "native": false
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-api:2.17.0",
+      "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-api/2.17.0/log4j-api-2.17.0.jar",
+      "hash": "sha1-u9eR6cjJQh5FM3xP4KEIUcCG42w=",
+      "native": false
+    },
+    {
+      "name": "org.apache.logging.log4j:log4j-core:2.17.0",
+      "url": "https://libraries.minecraft.net/org/apache/logging/log4j/log4j-core/2.17.0/log4j-core-2.17.0.jar",
+      "hash": "sha1-/m56MsEiiIS5aRp0T5U6VdDdjq0=",
+      "native": false
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.1/lwjgl-3.2.1.jar",
+      "hash": "sha1-K7UU5ESZTG/s6Zoh924MkEOON38=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar",
+      "hash": "sha1-itYpRAfhV4C0PoSSnEDkxemXly4=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.1/lwjgl-jemalloc-3.2.1.jar",
+      "hash": "sha1-egxYP8vsMrFXhPhG31NuGDfYNmY=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar",
+      "hash": "sha1-7o5Xp5MA94KUV22HxKWH+MmUAuI=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.1/lwjgl-openal-3.2.1.jar",
+      "hash": "sha1-3H/y2rtAoUHum/LjJtmxsZ8yePs=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar",
+      "hash": "sha1-K3cqECsKEe5fIQmlsTb03HxjCCc=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.1/lwjgl-opengl-3.2.1.jar",
+      "hash": "sha1-VwCMI3TFvENLGK3+8/NlPuRQ7hg=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar",
+      "hash": "sha1-asW7iLRMQ+oZWlcKqwWfY9oATNg=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.1/lwjgl-glfw-3.2.1.jar",
+      "hash": "sha1-Anq7f2SJS2HK0WN5Gs2BE/CyEpY=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar",
+      "hash": "sha1-061N845AC4r7od5j+EM4gJOZ31s=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.1/lwjgl-stb-3.2.1.jar",
+      "hash": "sha1-MfXrX843kdWOyJi8XBhn1214G6E=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar",
+      "hash": "sha1-O45uvFhR3T0X435crc4u/ypCnw8=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1.jar",
+      "hash": "sha1-JZ8dvduSHifgGzJFjW9YTri7oTo=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar",
+      "hash": "sha1-/L5gbI+Npvj5oF4sVA6x7oYysOk=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.1/lwjgl-3.2.1-natives-macos.jar",
+      "hash": "sha1-WkwnHRUJBoWNR1YD3LlHlFPGBVU=",
+      "native": true,
+      "os": "osx",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.1/lwjgl-3.2.1.jar",
+      "hash": "sha1-K7UU5ESZTG/s6Zoh924MkEOON38=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2-natives-linux.jar",
+      "hash": "sha1-rnl2gnyio3Qfa5qEOom6zWN681A=",
+      "native": true,
+      "os": "linux",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2-natives-windows.jar",
+      "hash": "sha1-BTWfOqUNNjUoFfxmLqc+HADSIXA=",
+      "native": true,
+      "os": "windows",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl/3.2.2/lwjgl-3.2.2.jar",
+      "hash": "sha1-itYpRAfhV4C0PoSSnEDkxemXly4=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.1/lwjgl-jemalloc-3.2.1-natives-macos.jar",
+      "hash": "sha1-Q5q50CZBZ6lJzHvM5nNwQyK6r1A=",
+      "native": true,
+      "os": "osx",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.1/lwjgl-jemalloc-3.2.1.jar",
+      "hash": "sha1-egxYP8vsMrFXhPhG31NuGDfYNmY=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2-natives-linux.jar",
+      "hash": "sha1-JowIoVA0fgTkS6VuNZ1iybeGad8=",
+      "native": true,
+      "os": "linux",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2-natives-windows.jar",
+      "hash": "sha1-M4sluZ2jul9EH2SS8s4qnGCIYO0=",
+      "native": true,
+      "os": "windows",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-jemalloc:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-jemalloc/3.2.2/lwjgl-jemalloc-3.2.2.jar",
+      "hash": "sha1-7o5Xp5MA94KUV22HxKWH+MmUAuI=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.1/lwjgl-openal-3.2.1-natives-macos.jar",
+      "hash": "sha1-k1fr/IKg1vZOFwk92WMhk2fNb6I=",
+      "native": true,
+      "os": "osx",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.1/lwjgl-openal-3.2.1.jar",
+      "hash": "sha1-3H/y2rtAoUHum/LjJtmxsZ8yePs=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2-natives-linux.jar",
+      "hash": "sha1-A2T59cOUc5MIOrXzelcfVgOq3Qs=",
+      "native": true,
+      "os": "linux",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2-natives-windows.jar",
+      "hash": "sha1-7CCn1CokOFKPyofmCxcF8eIznds=",
+      "native": true,
+      "os": "windows",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-openal:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-openal/3.2.2/lwjgl-openal-3.2.2.jar",
+      "hash": "sha1-K3cqECsKEe5fIQmlsTb03HxjCCc=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.1/lwjgl-opengl-3.2.1-natives-macos.jar",
+      "hash": "sha1-3KmtnlmocXIUTVMeCO9/aYgHPbA=",
+      "native": true,
+      "os": "osx",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.1/lwjgl-opengl-3.2.1.jar",
+      "hash": "sha1-VwCMI3TFvENLGK3+8/NlPuRQ7hg=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2-natives-linux.jar",
+      "hash": "sha1-M40zOHkZyz9M26FDwrc4pxzP2mA=",
+      "native": true,
+      "os": "linux",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2-natives-windows.jar",
+      "hash": "sha1-2NzckQZsri0tgnnLSp+fBdlSWCY=",
+      "native": true,
+      "os": "windows",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-opengl:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-opengl/3.2.2/lwjgl-opengl-3.2.2.jar",
+      "hash": "sha1-asW7iLRMQ+oZWlcKqwWfY9oATNg=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.1/lwjgl-glfw-3.2.1-natives-macos.jar",
+      "hash": "sha1-cv5tq2EQpaHNSDPxGEDu97Lq3OU=",
+      "native": true,
+      "os": "osx",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.1/lwjgl-glfw-3.2.1.jar",
+      "hash": "sha1-Anq7f2SJS2HK0WN5Gs2BE/CyEpY=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-natives-linux.jar",
+      "hash": "sha1-CVdzPyamZh1Ig9oDNffvRtO7vX0=",
+      "native": true,
+      "os": "linux",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2-natives-windows.jar",
+      "hash": "sha1-3Ggm1ja/eWszpJA4w1QhDmYb/Bc=",
+      "native": true,
+      "os": "windows",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-glfw:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-glfw/3.2.2/lwjgl-glfw-3.2.2.jar",
+      "hash": "sha1-061N845AC4r7od5j+EM4gJOZ31s=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.1/lwjgl-stb-3.2.1-natives-macos.jar",
+      "hash": "sha1-H1YVyVJFHDCvr7pKbjuk4c2ef1w=",
+      "native": true,
+      "os": "osx",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.1/lwjgl-stb-3.2.1.jar",
+      "hash": "sha1-MfXrX843kdWOyJi8XBhn1214G6E=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-linux.jar",
+      "hash": "sha1-OeNbFhwTBjXZyJGM4E6IejDFtoc=",
+      "native": true,
+      "os": "linux",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2-natives-windows.jar",
+      "hash": "sha1-6RFZWHc2ROhjMypqBkiNJvnh/J8=",
+      "native": true,
+      "os": "windows",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.2/lwjgl-tinyfd-3.2.2.jar",
+      "hash": "sha1-/L5gbI+Npvj5oF4sVA6x7oYysOk=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1-natives-macos.jar",
+      "hash": "sha1-dZwv2cxcbOC1t693rIIASDt/tmA=",
+      "native": true,
+      "os": "osx",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-tinyfd:3.2.1",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-tinyfd/3.2.1/lwjgl-tinyfd-3.2.1.jar",
+      "hash": "sha1-JZ8dvduSHifgGzJFjW9YTri7oTo=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-linux.jar",
+      "hash": "sha1-FyxS5Yb+z0P3WbxPcKd4wB9v3ME=",
+      "native": true,
+      "os": "linux",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2-natives-windows.jar",
+      "hash": "sha1-gR9wXLsp6K6NYL34/dOMDBI60+8=",
+      "native": true,
+      "os": "windows",
+      "exclude": [
+        "META-INF/"
+      ],
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "org.lwjgl:lwjgl-stb:3.2.2",
+      "url": "https://libraries.minecraft.net/org/lwjgl/lwjgl-stb/3.2.2/lwjgl-stb-3.2.2.jar",
+      "hash": "sha1-O45uvFhR3T0X435crc4u/ypCnw8=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow"
+        },
+        {
+          "action": "disallow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    },
+    {
+      "name": "com.mojang:text2speech:1.13.9",
+      "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar",
+      "hash": "sha1-X046bvhssCH3yofKGSzdtQwm61k=",
+      "native": false
+    },
+    {
+      "name": "com.mojang:text2speech:1.13.9",
+      "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-linux.jar",
+      "hash": "sha1-bGPss7ZAjc/d5kQMnuYsBgVCrzM=",
+      "native": true,
+      "os": "linux",
+      "exclude": [
+        "META-INF/"
+      ]
+    },
+    {
+      "name": "com.mojang:text2speech:1.13.9",
+      "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9-natives-windows.jar",
+      "hash": "sha1-epCJiynlxy+Qum6+hvp4pq/X0+s=",
+      "native": true,
+      "os": "windows",
+      "exclude": [
+        "META-INF/"
+      ]
+    },
+    {
+      "name": "com.mojang:text2speech:1.13.9",
+      "url": "https://libraries.minecraft.net/com/mojang/text2speech/1.13.9/text2speech-1.13.9.jar",
+      "hash": "sha1-X046bvhssCH3yofKGSzdtQwm61k=",
+      "native": false
+    },
+    {
+      "name": "ca.weblite:java-objc-bridge:1.1",
+      "url": "https://libraries.minecraft.net/ca/weblite/java-objc-bridge/1.1/java-objc-bridge-1.1.jar",
+      "hash": "sha1-Eif54GZjFPneQUd+PsJ35ULtf3s=",
+      "native": false,
+      "rules": [
+        {
+          "action": "allow",
+          "os": {
+            "name": "osx"
+          }
+        }
+      ]
+    }
+  ],
+  "assetIndex": {
+    "id": "1.19",
+    "url": "https://piston-meta.mojang.com/v1/packages/a9c8b05a8082a65678beda6dfa2b8f21fa627bce/1.19.json",
+    "hash": "sha1-qciwWoCCplZ4vtpt+iuPIfpie84=",
+    "kind": "standard"
+  },
+  "logging": {
+    "argument": "-Dlog4j.configurationFile=${path}",
+    "url": "https://piston-data.mojang.com/v1/objects/bd65e7d2e3c237be76cfbef4c2405033d7f91521/client-1.12.xml",
+    "hash": "sha1-vWXn0uPCN752z770wkBQM9f5FSE="
+  },
+  "args": {
+    "game": [
+      "--username",
+      "${auth_player_name}",
+      "--version",
+      "${version_name}",
+      "--gameDir",
+      "${game_directory}",
+      "--assetsDir",
+      "${assets_root}",
+      "--assetIndex",
+      "${assets_index_name}",
+      "--uuid",
+      "${auth_uuid}",
+      "--accessToken",
+      "${auth_access_token}",
+      "--clientId",
+      "${clientid}",
+      "--xuid",
+      "${auth_xuid}",
+      "--userType",
+      "${user_type}",
+      "--versionType",
+      "${version_type}",
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "is_demo_user": true
+            }
+          }
+        ],
+        "value": [
+          "--demo"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "features": {
+              "has_custom_resolution": true
+            }
+          }
+        ],
+        "value": [
+          "--width",
+          "${resolution_width}",
+          "--height",
+          "${resolution_height}"
+        ]
+      }
+    ],
+    "jvm": [
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "osx"
+            }
+          }
+        ],
+        "value": [
+          "-XstartOnFirstThread"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows"
+            }
+          }
+        ],
+        "value": [
+          "-XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "name": "windows",
+              "version": "^10\\."
+            }
+          }
+        ],
+        "value": [
+          "-Dos.name=Windows 10",
+          "-Dos.version=10.0"
+        ]
+      },
+      {
+        "rules": [
+          {
+            "action": "allow",
+            "os": {
+              "arch": "x86"
+            }
+          }
+        ],
+        "value": [
+          "-Xss1M"
+        ]
+      },
+      "-Djava.library.path=${natives_directory}",
+      "-Dminecraft.launcher.brand=${launcher_name}",
+      "-Dminecraft.launcher.version=${launcher_version}",
+      "-cp",
+      "${classpath}"
+    ]
+  }
+}

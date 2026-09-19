@@ -1,0 +1,125 @@
+{
+  "slug": "signoddities",
+  "projectId": "qFUgTUoW",
+  "versions": {
+    "IXPeFnFR": {
+      "filename": "szoddities-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qFUgTUoW/versions/IXPeFnFR/szoddities-1.0.0.jar",
+      "hash": "sha512-l3Xp8Bwu/0IaYSIzwi7cwJvnHNiPv6yqRoHoJDBCJrjFlIfaZUaHdNB5325NhrYg8MriWv4Je9Vy9GO9bx8N+A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OvNJkWYu": {
+      "filename": "szoddities-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/qFUgTUoW/versions/OvNJkWYu/szoddities-1.0.2.jar",
+      "hash": "sha512-pNmTyhnhnkp+LnVIEjXJDE/2Kf3kLaEmMrjDZ5vaYGrZbtEP/YwwlzdrgjiykCUcOVZs5+q6NFXmbHESZcNufw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZCRev4AQ": {
+      "filename": "szoddities-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/qFUgTUoW/versions/ZCRev4AQ/szoddities-1.1.0.jar",
+      "hash": "sha512-0yf7ZO396brxk+zmFFTnBqK1IXlBjTBhOEMiAboW4xqUDzWf/uCy88UFbgPRWP2bl1Sj7gWWdqpq/tSNYBaVnA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pWOQX8C6": {
+      "filename": "szoddities-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/qFUgTUoW/versions/pWOQX8C6/szoddities-1.0.1.jar",
+      "hash": "sha512-EWYlPvSj9hubmJv6Nh4shwLLrFiFw6lXn+pglEg9gVSHgHTcMBiStkHiL4F3M0vmQpv5x/Z0Ojh1zQ2+C1ROLg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ZCRev4AQ",
+      "OvNJkWYu",
+      "pWOQX8C6",
+      "IXPeFnFR"
+    ],
+    "1.20.1+quilt": [
+      "ZCRev4AQ"
+    ],
+    "1.20.2+fabric": [
+      "ZCRev4AQ",
+      "OvNJkWYu",
+      "pWOQX8C6",
+      "IXPeFnFR"
+    ],
+    "1.20.2+quilt": [
+      "ZCRev4AQ"
+    ],
+    "1.20.3+fabric": [
+      "ZCRev4AQ",
+      "OvNJkWYu",
+      "pWOQX8C6",
+      "IXPeFnFR"
+    ],
+    "1.20.3+quilt": [
+      "ZCRev4AQ"
+    ],
+    "1.20.4+fabric": [
+      "ZCRev4AQ",
+      "OvNJkWYu",
+      "pWOQX8C6",
+      "IXPeFnFR"
+    ],
+    "1.20.4+quilt": [
+      "ZCRev4AQ"
+    ]
+  }
+}

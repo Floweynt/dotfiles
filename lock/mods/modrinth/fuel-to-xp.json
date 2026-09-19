@@ -1,0 +1,62 @@
+{
+  "slug": "fuel-to-xp",
+  "projectId": "7APZcsFL",
+  "versions": {
+    "1SdXnUDr": {
+      "filename": "fuel_to_xp-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/7APZcsFL/versions/1SdXnUDr/fuel_to_xp-0.3.0.jar",
+      "hash": "sha512-8EiRf0mAWYfsloik/sQFrzdkhq8c/Y/j5vud3G3qCKO7tZercfYX06cyTv1P58otKbF4kJmPka0TcEZhoFl7vg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "Guk7gTFr": {
+      "filename": "fuel_to_xp-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/7APZcsFL/versions/Guk7gTFr/fuel_to_xp-0.2.1.jar",
+      "hash": "sha512-Wy4t62sAvuV/s59XrTzm5Fr11ZMJPk94xvRcHYJzRvKIu2bmH/STWIovDZhflnEyrLWoTrFUtS7O/N+uG2l/ZA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1SdXnUDr",
+      "Guk7gTFr"
+    ]
+  }
+}

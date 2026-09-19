@@ -1,0 +1,92 @@
+{
+  "slug": "removeambientfov",
+  "projectId": "u3WdpPOw",
+  "versions": {
+    "9FrMvafK": {
+      "filename": "unobtrusivefov-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/u3WdpPOw/versions/9FrMvafK/unobtrusivefov-1.3.jar",
+      "hash": "sha512-+8+B+8nFw0bU2Y0ugN4JsnNadmXsOCLx5jgG+Gp+4tq80Q39lK2AFe8g8E/BBO5zDmG3LRIwW3D3sfjExGulHg==",
+      "gameVersions": [
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "rose-bush",
+          "projectId": "WpCaRM4Y",
+          "type": "required"
+        }
+      ]
+    },
+    "A2v4LuO5": {
+      "filename": "removeambientfov-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/u3WdpPOw/versions/A2v4LuO5/removeambientfov-1.3.1.jar",
+      "hash": "sha512-z2dNq82zY7Lj0Wu0EYmVCzdcGlL0ToJ4GvpiHyUaxJcu0FqyG6c03Vnmtgdj1utp4sIPEXojY/iVV/TOpIF1aQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "rose-bush",
+          "projectId": "WpCaRM4Y",
+          "type": "required"
+        }
+      ]
+    },
+    "SM6qTO1M": {
+      "filename": "unobtrusivefov-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/u3WdpPOw/versions/SM6qTO1M/unobtrusivefov-1.0.0.jar",
+      "hash": "sha512-lVWtlHwj+AxXad+VMeQadU1eHbeoUpikN+Ge98mESBMGC4QgsWYVdfTqUwSRckxoP67vO/k9fWOLYpcuCJTAkw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "rose-bush",
+          "projectId": "WpCaRM4Y",
+          "type": "required"
+        }
+      ]
+    },
+    "t4qW1J1F": {
+      "filename": "removeambientfov-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/u3WdpPOw/versions/t4qW1J1F/removeambientfov-1.1.jar",
+      "hash": "sha512-IO85lC5BOQHdFOgmS2Hx+LSARGEDUrvY7tCtkz9cR9YoVuJcAXoxrfZnQ6q8ipTxMaeSd7hTqYgTE6HzpLIQmg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "t4qW1J1F",
+      "SM6qTO1M"
+    ],
+    "26.1.1+fabric": [
+      "9FrMvafK"
+    ],
+    "26.2+fabric": [
+      "A2v4LuO5"
+    ]
+  }
+}

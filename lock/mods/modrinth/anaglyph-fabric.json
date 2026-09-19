@@ -1,0 +1,52 @@
+{
+  "slug": "anaglyph-fabric",
+  "projectId": "KLgeM4fm",
+  "versions": {
+    "S1ww9Kdr": {
+      "filename": "anaglyph-fabric-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/KLgeM4fm/versions/S1ww9Kdr/anaglyph-fabric-0.1.1.jar",
+      "hash": "sha512-ocpjzhIDvJ7qAo7rSAvcxzH1sQxz3aQjPnItUKjp/j7v7m+eeopuKcBv9ZUEcZ/khQsf9Hp8X/ZP5+NGpGYfZA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "S1ww9Kdr"
+    ],
+    "1.20.1+fabric": [
+      "S1ww9Kdr"
+    ],
+    "1.20.2+fabric": [
+      "S1ww9Kdr"
+    ],
+    "1.20.3+fabric": [
+      "S1ww9Kdr"
+    ],
+    "1.20.4+fabric": [
+      "S1ww9Kdr"
+    ]
+  }
+}

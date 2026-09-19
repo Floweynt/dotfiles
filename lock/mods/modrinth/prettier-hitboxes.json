@@ -1,0 +1,100 @@
+{
+  "slug": "prettier-hitboxes",
+  "projectId": "olB3UYFW",
+  "versions": {
+    "2EpiJ0pR": {
+      "filename": "prettier_hitboxes-1.3.0+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/olB3UYFW/versions/2EpiJ0pR/prettier_hitboxes-1.3.0%2B1.21.7.jar",
+      "hash": "sha512-E3VERKQDydmvc6ykUusAf1rS1DbMnHTDOefOYiorfo51AuhZGYXumktmESwj2q3pRJHssI3ZcCUExFPChSGrHw==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "8BHM2apW": {
+      "filename": "prettier_hitboxes-1.3.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/olB3UYFW/versions/8BHM2apW/prettier_hitboxes-1.3.0%2B1.21.1.jar",
+      "hash": "sha512-twBrxEBM3w2w757gnoXg9bFy6qgmOifkCZq5GMlsbJCS6NGoa/Aupj7H8NEBJEEnlwq+5GwhbWIKc2uRRBjdDw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        }
+      ]
+    },
+    "Rgs3GO2F": {
+      "filename": "prettier_hitboxes-1.3.1+1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/olB3UYFW/versions/Rgs3GO2F/prettier_hitboxes-1.3.1%2B1.21.9.jar",
+      "hash": "sha512-asj/aMD45Tv7hGBPc/kM2LJhSl9tyCE0m1ZMmmde5gCz1Lne+aBgpzC4MsgVWTOWihVtdTWlJe8PksuOb8jpFg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "8BHM2apW"
+    ],
+    "1.21.1+quilt": [
+      "8BHM2apW"
+    ],
+    "1.21.10+fabric": [
+      "Rgs3GO2F"
+    ],
+    "1.21.7+fabric": [
+      "2EpiJ0pR"
+    ],
+    "1.21.7+quilt": [
+      "2EpiJ0pR"
+    ],
+    "1.21.8+fabric": [
+      "2EpiJ0pR"
+    ],
+    "1.21.8+quilt": [
+      "2EpiJ0pR"
+    ],
+    "1.21.9+fabric": [
+      "Rgs3GO2F"
+    ]
+  }
+}

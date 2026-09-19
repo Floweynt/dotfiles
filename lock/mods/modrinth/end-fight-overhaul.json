@@ -1,0 +1,120 @@
+{
+  "slug": "end-fight-overhaul",
+  "projectId": "6el4mAsn",
+  "versions": {
+    "mMS5EstD": {
+      "filename": "endfightoverhaul-1.0.0-1.20.5.jar",
+      "url": "https://cdn.modrinth.com/data/6el4mAsn/versions/mMS5EstD/endfightoverhaul-1.0.0-1.20.5.jar",
+      "hash": "sha512-CHvv+VbBAK86THQ4pw5AATYF8HGHnuANfJrUhH+JnquMX3w2sSEswbVyn6oGDn+7VGsqdmZ/vj0S6XYqehKHFA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "tmg7zTLz": {
+      "filename": "endfightoverhaul-1.3.4-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/6el4mAsn/versions/tmg7zTLz/endfightoverhaul-1.3.4-1.21.4.jar",
+      "hash": "sha512-ithnI32id8WY2y5Grj0z+MxBx0zk/JbwWGJhouE60tCRqvCNP3NSlh5oqRmvHwn7DBxnJPlJpRcRLWM6UuBRGg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "z9cBqYgE": {
+      "filename": "endfightoverhaul-1.3.4-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/6el4mAsn/versions/z9cBqYgE/endfightoverhaul-1.3.4-1.20.jar",
+      "hash": "sha512-Q3paBTPActHfbPdZ5THZp+LKjb+06+cQgzhPAdeyc5NMHf483KjL2oNs3ybtY+8fXZgXf9B7yZq9mHixIfptsg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "z9cBqYgE"
+    ],
+    "1.20.1+fabric": [
+      "z9cBqYgE"
+    ],
+    "1.20.2+fabric": [
+      "z9cBqYgE"
+    ],
+    "1.20.3+fabric": [
+      "z9cBqYgE"
+    ],
+    "1.20.4+fabric": [
+      "z9cBqYgE"
+    ],
+    "1.20.5+fabric": [
+      "mMS5EstD"
+    ],
+    "1.20.6+fabric": [
+      "mMS5EstD"
+    ],
+    "1.21+fabric": [
+      "mMS5EstD"
+    ],
+    "1.21.1+fabric": [
+      "mMS5EstD"
+    ],
+    "1.21.4+fabric": [
+      "tmg7zTLz"
+    ]
+  }
+}

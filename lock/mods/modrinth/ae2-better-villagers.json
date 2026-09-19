@@ -1,0 +1,103 @@
+{
+  "slug": "ae2-better-villagers",
+  "projectId": "9fG5wAkl",
+  "versions": {
+    "Zncet7Lw": {
+      "filename": "ae-better-villagers-1.16.1.c-Fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/9fG5wAkl/versions/Zncet7Lw/ae-better-villagers-1.16.1.c-Fabric-1.20.1.jar",
+      "hash": "sha512-CINH/T/GoOIBzaZXfMNwvxqxuLh1r1JOVFHV7uJiL1DkgyflIBCvgHKW/eVwpE8KMx+Pz0X8TB7wRLIAqFQ8DQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        }
+      ]
+    },
+    "qdCdDx1i": {
+      "filename": "ae_better_villagers-1.15.1.a.jar",
+      "url": "https://cdn.modrinth.com/data/9fG5wAkl/versions/qdCdDx1i/ae_better_villagers-1.15.1.a.jar",
+      "hash": "sha512-H89A0zCQI4SMfPZeSG4kuUsZxHAoyD/TYBti3UTG2lORwYEgfO/ATs/5PCoth7vbQiX7nznKAo96cg9WjXJw6Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        }
+      ]
+    },
+    "vAcDTDIZ": {
+      "filename": "ae_better_villagers-1.15.1.b.jar",
+      "url": "https://cdn.modrinth.com/data/9fG5wAkl/versions/vAcDTDIZ/ae_better_villagers-1.15.1.b.jar",
+      "hash": "sha512-cuOBX5EW5sFata4ds5ylO6sIRp5i844zPmchk5uVaFqoWnddbjOTlx4q0oOhg1BGLO6umIsvNNDIKWUpxD/LAQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        }
+      ]
+    },
+    "zGtFeuB8": {
+      "filename": "ae_better_villagers-1.15.0.a.jar",
+      "url": "https://cdn.modrinth.com/data/9fG5wAkl/versions/zGtFeuB8/ae_better_villagers-1.15.0.a.jar",
+      "hash": "sha512-iCoVcvT39U0PQu+BYDDKQcinekwnqMddWbc4kAVd9/S25WSb+fATH/pULorI7VTRUF1XO05sCkoyI5d6/y0TUg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        },
+        {
+          "slug": "underground-village,-stoneholm",
+          "projectId": "KmyhssPl",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Zncet7Lw"
+    ],
+    "1.20.1+forge": [
+      "qdCdDx1i",
+      "zGtFeuB8"
+    ],
+    "1.21.1+neoforge": [
+      "vAcDTDIZ"
+    ]
+  }
+}

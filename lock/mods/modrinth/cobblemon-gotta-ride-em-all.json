@@ -1,0 +1,31 @@
+{
+  "slug": "cobblemon-gotta-ride-em-all",
+  "projectId": "IL2pgAkR",
+  "versions": {
+    "3VCeWVWj": {
+      "filename": "gotta-ride-em-all.jar",
+      "url": "https://cdn.modrinth.com/data/IL2pgAkR/versions/3VCeWVWj/gotta-ride-em-all.jar",
+      "hash": "sha512-2jAINbkY5DKsDtIC2C+b0pIpi2S6lO0sYP57fHed3rBW5rEMsAqZc9s17UltZEmEfo2CQZfhWR0dBZvBnzCYfA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon-ride-on",
+          "projectId": "vXREhDPP",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "3VCeWVWj"
+    ]
+  }
+}

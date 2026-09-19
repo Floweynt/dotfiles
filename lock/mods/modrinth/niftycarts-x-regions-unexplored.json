@@ -1,0 +1,76 @@
+{
+  "slug": "niftycarts-x-regions-unexplored",
+  "projectId": "SUxgYFgZ",
+  "versions": {
+    "V0e4Q62Q": {
+      "filename": "NiftyCarts x Regions Unexplored.zip",
+      "url": "https://cdn.modrinth.com/data/SUxgYFgZ/versions/V0e4Q62Q/NiftyCarts%20x%20Regions%20Unexplored.zip",
+      "hash": "sha512-7Wis01JUnv36coFyD4f7i1BYerPpmbzDxgSMBvcbCUnZEYpPMIEEICCkN/CJalIn5dXlho5sgijK4seBfn51dA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "niftycarts",
+          "projectId": "CXd6g9xp",
+          "type": "required"
+        },
+        {
+          "slug": "regions-unexplored",
+          "projectId": "Tkikq67H",
+          "type": "required"
+        }
+      ]
+    },
+    "nN9J1K6b": {
+      "filename": "niftycarts-x-regions-unexplored-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/SUxgYFgZ/versions/nN9J1K6b/niftycarts-x-regions-unexplored-1.0.jar",
+      "hash": "sha512-CUBU2Iyb7Z4OxsuBmrF3XqSMnhdaFN+BImWQNYTkGIYMcxvtmWtJJ5rep7oAcW8XGu+QEeJGacwwkxmfexpPHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "niftycarts",
+          "projectId": "CXd6g9xp",
+          "type": "required"
+        },
+        {
+          "slug": "regions-unexplored",
+          "projectId": "Tkikq67H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "V0e4Q62Q"
+    ],
+    "1.20.1+fabric": [
+      "nN9J1K6b"
+    ],
+    "1.20.1+forge": [
+      "nN9J1K6b"
+    ],
+    "1.20.1+neoforge": [
+      "nN9J1K6b"
+    ],
+    "1.20.1+quilt": [
+      "nN9J1K6b"
+    ]
+  }
+}

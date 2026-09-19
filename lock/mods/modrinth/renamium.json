@@ -1,0 +1,44 @@
+{
+  "slug": "renamium",
+  "projectId": "YlREPXpc",
+  "versions": {
+    "UtOTSApr": {
+      "filename": "Renamium-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/YlREPXpc/versions/UtOTSApr/Renamium-1.0.5.jar",
+      "hash": "sha512-P1+qh8COlG2FKTuE5/Z0cyKE1ZTMUltQqhBsboGcFIs6btHeI4KXRg6/mJUb0cBaQgS++ZIGRxQ+xuCVhTv4Zg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "UtOTSApr"
+    ],
+    "1.21.11+fabric": [
+      "UtOTSApr"
+    ],
+    "1.21.9+fabric": [
+      "UtOTSApr"
+    ]
+  }
+}

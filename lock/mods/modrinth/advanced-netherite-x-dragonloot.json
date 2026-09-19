@@ -1,0 +1,40 @@
+{
+  "slug": "advanced-netherite-x-dragonloot",
+  "projectId": "MS7lM1i5",
+  "versions": {
+    "1TQwFzNj": {
+      "filename": "Adv_Neth-X-DragonLoot.zip",
+      "url": "https://cdn.modrinth.com/data/MS7lM1i5/versions/1TQwFzNj/Adv_Neth-X-DragonLoot.zip",
+      "hash": "sha512-FBsZ4qly1J+jznDSUiz1mIxVfhUlAyO/uQ7KGn5ZC4ppS9RjY2BUsB6K+M6XyF5si7A21YtAylrXLinUlNhkMQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "advanced-netherite",
+          "projectId": "CFX9ftUJ",
+          "type": "required"
+        },
+        {
+          "slug": "dragonloot",
+          "projectId": "EldwHO4Z",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "1TQwFzNj"
+    ],
+    "1.21.1+fabric": [
+      "1TQwFzNj"
+    ]
+  }
+}

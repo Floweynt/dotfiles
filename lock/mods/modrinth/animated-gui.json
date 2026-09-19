@@ -1,0 +1,48 @@
+{
+  "slug": "animated-gui",
+  "projectId": "izggyvgM",
+  "versions": {
+    "2mn8G2BG": {
+      "filename": "animated-gui-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/izggyvgM/versions/2mn8G2BG/animated-gui-1.0.0.jar",
+      "hash": "sha512-4x2The/3cuUk4KZxmYh/VHc/mYSKxUbPtuoaclLCPFkqK8IwvM7X/0fK+aeFaf63MZZIJL7aFjA3/dUyq7bhPw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "4eE0WX8s": {
+      "filename": "animated-gui-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/izggyvgM/versions/4eE0WX8s/animated-gui-1.1.0.jar",
+      "hash": "sha512-UXIeil+Qj9mL1Ogm+GmKIvTT34cN5pstdkjEdEal49FDFPr8JjVBaOWxL7u47K4U0H+X7VxqIsbO9FHWWGoPTw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "2mn8G2BG"
+    ],
+    "26.2+fabric": [
+      "4eE0WX8s"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "puppy-paws",
+  "projectId": "9tXZjotZ",
+  "versions": {
+    "8eYCAB2s": {
+      "filename": "puppypaws-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/9tXZjotZ/versions/8eYCAB2s/puppypaws-1.20.1-1.0.2.jar",
+      "hash": "sha512-3+vLBMxCbp7KCIi6ZWza7AEM5iyD2cXr8l9wPMysOeiidBlTiFuIStb66qsAkwGy8jYevYHB7hEmW4zwlRh4gA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "u5WnKvq0": {
+      "filename": "puppypaws-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9tXZjotZ/versions/u5WnKvq0/puppypaws-1.0.0.jar",
+      "hash": "sha512-ronLKng/nj3GKzKvUQdgJ/f3oiENVO8wK4O3SkKPNKIxTjmp4c54tFXbWwSY60WpGpBwfC8NCNssbNaFQAVohA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "u5WnKvq0"
+    ],
+    "1.20.1+forge": [
+      "8eYCAB2s"
+    ]
+  }
+}

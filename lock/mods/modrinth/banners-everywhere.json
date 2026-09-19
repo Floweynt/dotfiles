@@ -1,0 +1,52 @@
+{
+  "slug": "banners-everywhere",
+  "projectId": "L6F6IisZ",
+  "versions": {
+    "J5Tlt4so": {
+      "filename": "bannerseverywhere-1.21.1-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L6F6IisZ/versions/J5Tlt4so/bannerseverywhere-1.21.1-fabric-1.1.0.jar",
+      "hash": "sha512-eFOqIvjfW6Qo0KNtm36nPUCEUv4Vri/QrelANRPOjpuLkTOwjOaYcWAyzkM1UQB65LLvAEQB6H9QI2HcjBL+bA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vs0LeUr6": {
+      "filename": "bannerseverywhere-1.21.1-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/L6F6IisZ/versions/vs0LeUr6/bannerseverywhere-1.21.1-fabric-1.0.0.jar",
+      "hash": "sha512-NNkpeWKyCHmcl3j8jAmW7a7xPD4I3OG0Jt6amFGIhVnyHbENwRs2JzRUKlkhHXHQ41m7uo33P5zCqLwVGEf7SQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "J5Tlt4so",
+      "vs0LeUr6"
+    ]
+  }
+}

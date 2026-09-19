@@ -1,0 +1,99 @@
+{
+  "slug": "nyfs-genetics",
+  "projectId": "cXncX8HH",
+  "versions": {
+    "5AbRKdEE": {
+      "filename": "nyfsgenetics-forge-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/cXncX8HH/versions/5AbRKdEE/nyfsgenetics-forge-1.20.1-1.0.2.jar",
+      "hash": "sha512-Cv+8a24CePcSzESDJ03m+tGfkbTFmmGlYRJ1TQGtgriIiXCmLH4NEN4KgMtfzLSIM76lzCcJkKfMV3KU50i8Yg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "IUGv9y8B": {
+      "filename": "nyfsgenetics-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cXncX8HH/versions/IUGv9y8B/nyfsgenetics-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-IR2AESR1Kl2p7VLxoRk6MAa6uyY68Y+pBRkHsuNmJzcXvgej2UeJsljdBTSKPab75J0NLn78OhCV9QPG+wyDYg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "MuXDsMYq": {
+      "filename": "nyfsgenetics-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cXncX8HH/versions/MuXDsMYq/nyfsgenetics-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-r4QFPADb4V40qwHFUYuJqPrypglHz8bYSt+zU7RPpib2UojL1sB/bJEifhTR266X6tAFWKHOXz2SRQA1FrEQsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lSTd3g8F": {
+      "filename": "nyfsgenetics-forge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/cXncX8HH/versions/lSTd3g8F/nyfsgenetics-forge-1.20.1-1.0.1.jar",
+      "hash": "sha512-u1R/umpuZJ/nWC9UaGcIgSK+A/h+CbN7SyRtzwEW4uyzi8cT2wMPCTo0yZ0YUjutKBuXYP9MewVWadbHxpALCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sGgUEuDx": {
+      "filename": "nyfsgenetics-fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/cXncX8HH/versions/sGgUEuDx/nyfsgenetics-fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-RqPDvvFqD0KUgNNB43TrcUtyV3+jipclDTg4cZIWTVuDWiEJi6DrxLbL9mBCcuhnfT2bGQmdoFUmHXifu7LRNw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sGgUEuDx",
+      "MuXDsMYq"
+    ],
+    "1.20.1+forge": [
+      "5AbRKdEE",
+      "lSTd3g8F",
+      "IUGv9y8B"
+    ]
+  }
+}

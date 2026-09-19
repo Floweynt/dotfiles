@@ -1,0 +1,131 @@
+{
+  "slug": "vulpine",
+  "projectId": "kAckHNrf",
+  "versions": {
+    "CNifVihA": {
+      "filename": "vulpine-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kAckHNrf/versions/CNifVihA/vulpine-1.0.0.jar",
+      "hash": "sha512-4lqWbFm10MMTjm8SPfvN1/sldUy0d6dxfVY+1jthEqYos45d+PsbYZuWVL6oGQ19fC4qNUpEI8gDT2w5dNlxJA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CYbo48un": {
+      "filename": "vulpine-2.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/kAckHNrf/versions/CYbo48un/vulpine-2.2.1.jar",
+      "hash": "sha512-vhg9vkrTezodkgibwiO4LqnWCQqqkh003L0mNXSe6O9rY2VvKRp9XGbvA2uTfFa/idZFrEMPhOli5QGrhw8Lpg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "J7hmuAvW": {
+      "filename": "vulpine-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kAckHNrf/versions/J7hmuAvW/vulpine-1.0.1.jar",
+      "hash": "sha512-33VDCMH83XHdEg0G9pJTd/9RR2jQXwSjM84fTvZlU0ZcEIZyrQfgr5qT3IocvMX8AUWt9DGkze3Jr7K+2H1vnw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hG5xCm3N": {
+      "filename": "vulpine-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kAckHNrf/versions/hG5xCm3N/vulpine-2.1.0.jar",
+      "hash": "sha512-PPTYIRwoZhpWALpWuXI0w/jZFVeFrOt8JFo3koK5j6Gh3v9WeUSRh35eR616j8tVe3FZ+qNmJqHdYaJvXM7/+w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iNrDDpfK": {
+      "filename": "vulpine-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kAckHNrf/versions/iNrDDpfK/vulpine-2.2.0.jar",
+      "hash": "sha512-CgEmsgcAVFCxSkdb5jdYDBg4hpdgJSNMWQaiMWT0N1rz7g7bVuhtS9Kd/CNotqCkfBwu7priw49U4t/ZtfhfDQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "CNifVihA"
+    ],
+    "1.20.1+fabric": [
+      "J7hmuAvW",
+      "CNifVihA"
+    ],
+    "1.21.1+fabric": [
+      "CYbo48un",
+      "iNrDDpfK",
+      "hG5xCm3N"
+    ]
+  }
+}

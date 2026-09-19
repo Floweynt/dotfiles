@@ -1,0 +1,59 @@
+{
+  "slug": "cavebiomeapi",
+  "projectId": "1eaBmqkd",
+  "versions": {
+    "ZXQ3W6Ye": {
+      "filename": "CaveBiomeAPI-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1eaBmqkd/versions/ZXQ3W6Ye/CaveBiomeAPI-fabric-2.0.0.jar",
+      "hash": "sha512-CHAgBs48XkyIlTWnfiHz3+0j49Ay0gE1FYKAXlLdYmsw/SRakcHI662MqFaiEbQzf1ciE8IsFQQkaa1XQ22TTw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "platform",
+          "projectId": "i6fiqm5y",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xcKTuaNL": {
+      "filename": "CaveBiomeAPI-forge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1eaBmqkd/versions/xcKTuaNL/CaveBiomeAPI-forge-2.0.0.jar",
+      "hash": "sha512-edpdw+A8jniGjXjyZk9Qx6F0pm89oBRzYmnyDeC3sxUaAWZMLDpLN58eQgIHiRINMesjqTFKo0X2CHBgenpi7g==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "platform",
+          "projectId": "i6fiqm5y",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "ZXQ3W6Ye"
+    ],
+    "1.16.5+forge": [
+      "xcKTuaNL"
+    ]
+  }
+}

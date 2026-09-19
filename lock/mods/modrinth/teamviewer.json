@@ -1,0 +1,150 @@
+{
+  "slug": "teamviewer",
+  "projectId": "LG9GwGm5",
+  "versions": {
+    "6AK3RJxp": {
+      "filename": "Teamviewer-1.4-release+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/LG9GwGm5/versions/6AK3RJxp/Teamviewer-1.4-release%2B1.21.11.jar",
+      "hash": "sha512-7Od9DYUsmnMvLmJogedx4ZC0PnwhjPjr+5sIruRxAXuUfiA7pAcLbnZZa2wOkbaaeH1nZsaci5ss8WNK94CcHQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "V4N7msPa": {
+      "filename": "Teamviewer-1.1-release+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/LG9GwGm5/versions/V4N7msPa/Teamviewer-1.1-release%2B1.21.8.jar",
+      "hash": "sha512-DgcFoK2RlNYa1DDABEHOIftdus1z5kJHM1ufCEiktjpFt/sZ+UZYhP1DHs+jPyQW6dW/mKoBrz7E1gzy8cegsw==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "W8zY16TA": {
+      "filename": "Teamviewer-1.3-release+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/LG9GwGm5/versions/W8zY16TA/Teamviewer-1.3-release%2B1.21.8.jar",
+      "hash": "sha512-4PkM/qkNlGphw6UMjS56Sp7QlnjJ1DxtEVPMRcoEXi+eRFbhLjYPS9Z7tB8QVXyk077hdtAY0oD2Ib/2B1cwUw==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Yqu4MgNp": {
+      "filename": "Teamviewer-1.2-release+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/LG9GwGm5/versions/Yqu4MgNp/Teamviewer-1.2-release%2B1.21.8.jar",
+      "hash": "sha512-E+R8/zmwM0xcRPZqDeCiWpzpZ/1+Ul7h1cV6hsStMegCkBkaL8GKD7cG4SOOuRr0AT+6MZ4e9dyGeV4xkzefOA==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "bq1MK2kb": {
+      "filename": "Teamviewer-1.0-release+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/LG9GwGm5/versions/bq1MK2kb/Teamviewer-1.0-release%2B1.21.8.jar",
+      "hash": "sha512-FXHbKUnxkHbVFfWwrYQ/9C1lmx3jk7r07dlopjXGz1uwzmOryOZFcTrZSxWOymZg5wT8Mhd99LGASGDFVhJ6Ng==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "6AK3RJxp"
+    ],
+    "1.21.6+fabric": [
+      "W8zY16TA",
+      "Yqu4MgNp",
+      "V4N7msPa",
+      "bq1MK2kb"
+    ],
+    "1.21.7+fabric": [
+      "W8zY16TA",
+      "Yqu4MgNp",
+      "V4N7msPa",
+      "bq1MK2kb"
+    ],
+    "1.21.8+fabric": [
+      "W8zY16TA",
+      "Yqu4MgNp",
+      "V4N7msPa",
+      "bq1MK2kb"
+    ]
+  }
+}

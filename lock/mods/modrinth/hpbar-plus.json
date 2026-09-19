@@ -1,0 +1,90 @@
+{
+  "slug": "hpbar-plus",
+  "projectId": "O1lYbB3W",
+  "versions": {
+    "fGdOnx1O": {
+      "filename": "HPBarPlus-0.2.0B+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/O1lYbB3W/versions/fGdOnx1O/HPBarPlus-0.2.0B%2B1.21.10.jar",
+      "hash": "sha512-gjEW9yBcIEXaZX1t4J1tm1uKOIPFsfy2gli7rI1x4UhKlizisMrnOrYhFrlFQPmapVVrFC9r32yhVgNbreiJdQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lLh6jIzw": {
+      "filename": "HPBarPlus-1.0.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/O1lYbB3W/versions/lLh6jIzw/HPBarPlus-1.0.1%2B1.21.11.jar",
+      "hash": "sha512-e2FsOD3zSzx6Q4FVDNd7uzyYNEa3QP4piWvY90iCQrKaEoWd1fuW4bczhPIs73NKDlm97dBy9XOGYD009i0aCA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rWaxzVba": {
+      "filename": "HPBarPlus-0.3.0B+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/O1lYbB3W/versions/rWaxzVba/HPBarPlus-0.3.0B%2B1.21.10.jar",
+      "hash": "sha512-bYBGiJsFcFo9RxQSH5I/sYHmRpzLjQdjEijPe43ovlYmxtOdLCmVY4qg27UL/OpY8YTyKEePXo8RWUOKQIKCMQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ut1CSc9H": {
+      "filename": "HPBarPlus-1.0.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/O1lYbB3W/versions/ut1CSc9H/HPBarPlus-1.0.0%2B1.21.10.jar",
+      "hash": "sha512-Zx9AMGSCvune7TS7PJNw0n7DFf0Va17OnnBgALlKFY6hxYWtSQPvuqrCyUXxY16VqjY2y3ZCCGwu6qx8bRu1vA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "ut1CSc9H",
+      "rWaxzVba",
+      "fGdOnx1O"
+    ],
+    "1.21.11+fabric": [
+      "lLh6jIzw"
+    ]
+  }
+}

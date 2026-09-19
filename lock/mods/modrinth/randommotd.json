@@ -1,0 +1,46 @@
+{
+  "slug": "randommotd",
+  "projectId": "CxpJP3Wd",
+  "versions": {
+    "8XjbNrWH": {
+      "filename": "random-motd-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/CxpJP3Wd/versions/8XjbNrWH/random-motd-1.1.0.jar",
+      "hash": "sha512-rnGnU3wsNGNPLYg9OGTQ5gfpaEVmpwQcA8vBEFK6No0A5Oc+Q/b5jZCwRGHaC91dDn8Y/5PYmCp6cRplCZ203A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "fo1ADwHj": {
+      "filename": "random-motd-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CxpJP3Wd/versions/1.0.0/random-motd-1.0.0.jar",
+      "hash": "sha512-IY1Edg6jIxeGf50W6VPHr4mJm+qUf++zWCx9uFpTPEPDRb74vTlwD2NWAsWOqVI5vKlAJSQ2dmHofVEwk/a67g==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "fo1ADwHj"
+    ],
+    "1.20+fabric": [
+      "8XjbNrWH"
+    ],
+    "1.20.1+fabric": [
+      "8XjbNrWH"
+    ]
+  }
+}

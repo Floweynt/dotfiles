@@ -1,0 +1,121 @@
+{
+  "slug": "vse-gamepad-lite",
+  "projectId": "o5w41Sp3",
+  "versions": {
+    "2ux7gbNu": {
+      "filename": "vsegamepadlite-1.0.0.lt-1.20.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/o5w41Sp3/versions/2ux7gbNu/vsegamepadlite-1.0.0.lt-1.20.1-Fabric.jar",
+      "hash": "sha512-CfESn6aD8NGKtunA26ZAxC0z+3EnE1VGDIS6Bimg7h7fvdZUnETJoUj9bZFUreewTtSles8hMpkLedkiz5H9vg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "3rugpV8y": {
+      "filename": "vsegamepadlite-1.0.0.lt-1.18.2-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/o5w41Sp3/versions/3rugpV8y/vsegamepadlite-1.0.0.lt-1.18.2-Fabric.jar",
+      "hash": "sha512-lw6V+2gTflyAnaAUyAPDug7Dwbt7jip6k1Io4Kg+a8EQbyadK4AHISc749/Fi3VhWCpsYevnn9jZXCaL7juBEQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FKf3rUqA": {
+      "filename": "vsegamepadlite-1.0.0.lt-1.19.2-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/o5w41Sp3/versions/FKf3rUqA/vsegamepadlite-1.0.0.lt-1.19.2-Fabric.jar",
+      "hash": "sha512-uWEoH/TqPXbalu51GDFN0YmB8Id10OvukLmCpJorR1erTmFt1av5+kzSq2X5BdvsitlK136UKD62XynZIM25Vg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Lr727IFV": {
+      "filename": "vsegamepadlite-1.0.0.lt-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/o5w41Sp3/versions/Lr727IFV/vsegamepadlite-1.0.0.lt-1.20.1-Forge.jar",
+      "hash": "sha512-t9KUndhPoS2Mt404XWO8ThFHbleVVsyoLsJteu4zaO+xIhTrcg4EmT8rMBlMf++a0u8C0u3AznZx8LVa4JKktw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "evJyTF62": {
+      "filename": "vsegamepadlite-1.0.0.lt-1.19.2-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/o5w41Sp3/versions/evJyTF62/vsegamepadlite-1.0.0.lt-1.19.2-Forge.jar",
+      "hash": "sha512-uawnNdw9ELHr/l2A3hkaDhvKxMZCGlGraO8xOoH8WIrd7EOZMbrn8YMOGfnNX/Te0j5qPHrQdtptwVW8ZK2VBA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ti3el34k": {
+      "filename": "vsegamepadlite-1.0.0.lt-1.18.2-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/o5w41Sp3/versions/ti3el34k/vsegamepadlite-1.0.0.lt-1.18.2-Forge.jar",
+      "hash": "sha512-bfFzPd4D1Hk4xL0ZoMNf5IWQtfyzigSctCXNAdxPlHB2WP0gC/FyoTkMtR0QPlUTiZg6guWfth3qJVBdZoS2zQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "eureka",
+          "projectId": "EO8aSHxh",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "3rugpV8y"
+    ],
+    "1.18.2+forge": [
+      "ti3el34k"
+    ],
+    "1.19.2+fabric": [
+      "FKf3rUqA"
+    ],
+    "1.19.2+forge": [
+      "evJyTF62"
+    ],
+    "1.20.1+fabric": [
+      "2ux7gbNu"
+    ],
+    "1.20.1+forge": [
+      "Lr727IFV"
+    ]
+  }
+}

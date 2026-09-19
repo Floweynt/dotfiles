@@ -1,0 +1,116 @@
+{
+  "slug": "dura-view",
+  "projectId": "v1pwgXge",
+  "versions": {
+    "AP3yHK0z": {
+      "filename": "duraview-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/v1pwgXge/versions/AP3yHK0z/duraview-1.1.0.jar",
+      "hash": "sha512-LNUMOO0gR9b4k+NYIzENeDZQkZBlDxKos09THDuWd4KFfE/nA74fBOCBcEJiftrdaiqYWNTSY8pwoscJaJZ0Gg==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "lTWV6JMV": {
+      "filename": "duraview-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/v1pwgXge/versions/lTWV6JMV/duraview-1.0.4.jar",
+      "hash": "sha512-xjj5dWWRxPZRwudbcTOZh4oQEw5Np9ZdV2eZqpxXSiyv/tOm2EiUjVxkEq+Z+zuz8yqSasLUEOcNtswn+4HJ5g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "oQ4QeHSz": {
+      "filename": "duraview-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/v1pwgXge/versions/oQ4QeHSz/duraview-1.1.1.jar",
+      "hash": "sha512-hKn7hVQuBg5p1ktP80cqXjaUcjTdFHuO+K4c4OWKUokpLP8jK9Hms3wl3NiSexsc2khPp9MdjWyDEY9TqgLW+Q==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rSgRvlgn": {
+      "filename": "duraview-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/v1pwgXge/versions/rSgRvlgn/duraview-1.0.3.jar",
+      "hash": "sha512-92zlypV0mMHYocS+bKl4O552MbfOtbT3It8SrtcatukOPWslp2HO14c8DCZrn7zPDuV+MM+lPVypTsvWTXE2wg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "lTWV6JMV",
+      "rSgRvlgn"
+    ],
+    "1.21.1+fabric": [
+      "lTWV6JMV"
+    ],
+    "1.21.2+fabric": [
+      "lTWV6JMV"
+    ],
+    "1.21.3+fabric": [
+      "AP3yHK0z"
+    ],
+    "1.21.4+fabric": [
+      "oQ4QeHSz",
+      "AP3yHK0z"
+    ],
+    "1.21.5+fabric": [
+      "oQ4QeHSz"
+    ]
+  }
+}

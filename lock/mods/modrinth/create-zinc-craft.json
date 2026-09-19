@@ -1,0 +1,54 @@
+{
+  "slug": "create-zinc-craft",
+  "projectId": "FzXYTRQO",
+  "versions": {
+    "WNAhgljm": {
+      "filename": "create-zinc-craft-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/FzXYTRQO/versions/WNAhgljm/create-zinc-craft-1.20.1.jar",
+      "hash": "sha512-RTM3NjbTTsG4xVdvUCZMlLdSm55ATs3vZNN0Kwc3UDVDy0tPuu6ngkxbU91bZCHjF25SOEtFStn849waUtgD1g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fFZ2XksI": {
+      "filename": "Create-zinc-craft 1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/FzXYTRQO/versions/fFZ2XksI/Create-zinc-craft%201.20.1.zip",
+      "hash": "sha512-Q7LwNfT4FfJsgST3AEqeEjs72VcMzUADWJzdwYCRQ8D6BTcbOCOC1UI4huzcdTVhoO2DY12Mae7kpU+lrF2vUw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "fFZ2XksI"
+    ],
+    "1.20.1+fabric": [
+      "WNAhgljm"
+    ],
+    "1.20.1+forge": [
+      "WNAhgljm"
+    ],
+    "1.20.1+neoforge": [
+      "WNAhgljm"
+    ],
+    "1.20.1+quilt": [
+      "WNAhgljm"
+    ]
+  }
+}

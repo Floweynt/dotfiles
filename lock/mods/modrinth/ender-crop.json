@@ -1,0 +1,70 @@
+{
+  "slug": "ender-crop",
+  "projectId": "3oLf6Wyp",
+  "versions": {
+    "X06QHxuF": {
+      "filename": "endercrop-1.20.1-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/3oLf6Wyp/versions/X06QHxuF/endercrop-1.20.1-1.7.0.jar",
+      "hash": "sha512-p0m0E9T4lN7piw61Kw+GmV46MkS0pKMYVQ80knlgziHfOxlMDMoDceSlq6KZKrdUh8+u9tb6imqNF7YpaInGQg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "h19Azsm0": {
+      "filename": "endercrop-1.19.2-1.7.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/3oLf6Wyp/versions/h19Azsm0/endercrop-1.19.2-1.7.0-beta.jar",
+      "hash": "sha512-dz1EQ3KuRv8W/soyUr9WmsbFzQ9n+YWjNvwCdxUqR2v/h0QwtFU9721XD7yboYDa7BADCvzzFiLcZ8G6jZx0Mw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rGiltb2I": {
+      "filename": "endercrop-1.20.1-2.0.0-alpha-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/3oLf6Wyp/versions/rGiltb2I/endercrop-1.20.1-2.0.0-alpha-fabric.jar",
+      "hash": "sha512-UxWFDuev2vscxf3+2P7/hhIswCp96491JmJFndGdPp/ph0v2FlBCIPxupedDV7PgF197AIlrU2CqNzgA986PfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "h19Azsm0"
+    ],
+    "1.20.1+fabric": [
+      "rGiltb2I"
+    ],
+    "1.20.1+neoforge": [
+      "X06QHxuF"
+    ]
+  }
+}

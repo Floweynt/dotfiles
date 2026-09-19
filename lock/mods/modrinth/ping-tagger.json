@@ -1,0 +1,31 @@
+{
+  "slug": "ping-tagger",
+  "projectId": "dAfgJH6c",
+  "versions": {
+    "JhitbC3h": {
+      "filename": "pingtagger-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/dAfgJH6c/versions/JhitbC3h/pingtagger-1.0.jar",
+      "hash": "sha512-juK0sc/dFK3j3uUaTPTjPi/h342UccTuEUoXRJMeVlqHbyW1mnz+x8cHcqzR8/H40JXTz4liGcN6Bz3DPnxqIg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "JhitbC3h"
+    ]
+  }
+}

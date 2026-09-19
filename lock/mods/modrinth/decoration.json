@@ -1,0 +1,52 @@
+{
+  "slug": "decoration",
+  "projectId": "zREYLNDU",
+  "versions": {
+    "L1Kcvb0Y": {
+      "filename": "decoration-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zREYLNDU/versions/L1Kcvb0Y/decoration-0.1.0.jar",
+      "hash": "sha512-HsSoG9SyUkLih9/6ulYKWKOGtbunCsAuKDjyUdlcU2YQbQVF+GTaqYgw/AxvHYyBie+2IyQya/zLgSoQXo7/XQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eOfI5cGo": {
+      "filename": "decoration-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/zREYLNDU/versions/eOfI5cGo/decoration-0.1.1.jar",
+      "hash": "sha512-Di0aWAN+dZieDbb24LYL0XKFiIfUXuq6Qdd39uCjOB5t9K65nhmuPRbb/SGURosRjsqgYZ1RjZGXCl2Edg2k2g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eOfI5cGo",
+      "L1Kcvb0Y"
+    ]
+  }
+}

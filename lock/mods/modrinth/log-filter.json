@@ -1,0 +1,71 @@
+{
+  "slug": "log-filter",
+  "projectId": "SXktzrGl",
+  "versions": {
+    "DNRAjhw4": {
+      "filename": "Log Filter-forge-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SXktzrGl/versions/DNRAjhw4/Log%20Filter-forge-1.21-1.0.0.jar",
+      "hash": "sha512-EEOdNB1KlbVIPL0nSQljNe7jw9RnpOw15+huhvcQk7vktmw3/hPlXEy1usNPPFKwQvwARPfd5bzzuKD5D8Grfw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "fcBMsPdo": {
+      "filename": "log_filter-neoforge-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SXktzrGl/versions/fcBMsPdo/log_filter-neoforge-1.21-1.0.0.jar",
+      "hash": "sha512-c2FbQe7UYFHavLNkLCqvJ4HZOEdY9HZarCJ+CRrbNO96mPvT6CSyPWy0tjc29kifk8fGYs5771Zvfi5uRWB8/A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "ztYhsnvl": {
+      "filename": "log_filter-fabric-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SXktzrGl/versions/ztYhsnvl/log_filter-fabric-1.21-1.0.0.jar",
+      "hash": "sha512-ht2yU5M6TI5kGfeU8okBVM0q3jfhSY3OTkGEiNKplJcmz7ZQwUuMGVZS1Tcs2rFpJkHVcQ8nPGveHFlYOUYWQw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "ztYhsnvl"
+    ],
+    "1.21+forge": [
+      "DNRAjhw4"
+    ],
+    "1.21+neoforge": [
+      "fcBMsPdo"
+    ],
+    "1.21.1+fabric": [
+      "ztYhsnvl"
+    ],
+    "1.21.1+forge": [
+      "DNRAjhw4"
+    ],
+    "1.21.1+neoforge": [
+      "fcBMsPdo"
+    ]
+  }
+}

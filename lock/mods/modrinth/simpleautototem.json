@@ -1,0 +1,43 @@
+{
+  "slug": "simpleautototem",
+  "projectId": "T2wO364d",
+  "versions": {
+    "BWEJg3iW": {
+      "filename": "autototem-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/T2wO364d/versions/BWEJg3iW/autototem-1.0.jar",
+      "hash": "sha512-fUfd45jihicz2+oL/LTRhPT7/BBlEaKkARMkImROXTxZ/gfx/ljfnxgAO2aI7HJrlr9zoUtMb8DV5f11wsCFig==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "BWEJg3iW"
+    ],
+    "1.21.2+fabric": [
+      "BWEJg3iW"
+    ],
+    "1.21.3+fabric": [
+      "BWEJg3iW"
+    ],
+    "1.21.4+fabric": [
+      "BWEJg3iW"
+    ]
+  }
+}

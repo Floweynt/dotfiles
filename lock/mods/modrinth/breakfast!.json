@@ -1,0 +1,42 @@
+{
+  "slug": "breakfast!",
+  "projectId": "DOPwoSbn",
+  "versions": {
+    "6y6ppast": {
+      "filename": "breakfast-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DOPwoSbn/versions/6y6ppast/breakfast-1.0.0.jar",
+      "hash": "sha512-1uh6jj8CoCUwb+K0+xQ/UxQokyqAZQdunsLA83rKy8ONOqqecKHRgb34Tw5mUY3Jg9fMjHyGsOzszk6zK85kIw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "6y6ppast"
+    ],
+    "1.20+quilt": [
+      "6y6ppast"
+    ],
+    "1.20.1+fabric": [
+      "6y6ppast"
+    ],
+    "1.20.1+quilt": [
+      "6y6ppast"
+    ]
+  }
+}

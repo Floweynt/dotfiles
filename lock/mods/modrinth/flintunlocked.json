@@ -1,0 +1,56 @@
+{
+  "slug": "flintunlocked",
+  "projectId": "cMbrUqtV",
+  "versions": {
+    "EOhXdI8n": {
+      "filename": "§fLeaf§7's§8_§6Flint§eUnlocked§8_§eDATAPACK§8_§aV§2.§a1§8.zip",
+      "url": "https://cdn.modrinth.com/data/cMbrUqtV/versions/EOhXdI8n/%C2%A7fLeaf%C2%A77%27s%C2%A78_%C2%A76Flint%C2%A7eUnlocked%C2%A78_%C2%A7eDATAPACK%C2%A78_%C2%A7aV%C2%A72.%C2%A7a1%C2%A78.zip",
+      "hash": "sha512-oEV/7Px0OxaydX8QMr43xHVEnYCWO0AhJXJVq5K4f6Kpwz8l9eqDslFrzxE0f6ZzoljYC+UT5WXGUMLW0CnELQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "WqL9Lpmx": {
+      "filename": "flintunlocked-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/cMbrUqtV/versions/WqL9Lpmx/flintunlocked-1.1.jar",
+      "hash": "sha512-pe5UZMvaCXYnjcByD5hln0otvRu+zma1A3qlPJUsvahQLtVP1M3U9cT5tWI25QZnYcu7W5PXEhWygHa9Ul0jzQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "EOhXdI8n"
+    ],
+    "1.20.1+fabric": [
+      "WqL9Lpmx"
+    ],
+    "1.20.1+forge": [
+      "WqL9Lpmx"
+    ],
+    "1.20.1+quilt": [
+      "WqL9Lpmx"
+    ]
+  }
+}

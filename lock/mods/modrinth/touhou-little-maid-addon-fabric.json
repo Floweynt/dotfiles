@@ -1,0 +1,41 @@
+{
+  "slug": "touhou-little-maid-addon-fabric",
+  "projectId": "sOO2VWSm",
+  "versions": {
+    "CkYSUQoB": {
+      "filename": "touhou_tasks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sOO2VWSm/versions/CkYSUQoB/touhou_tasks-1.0.0.jar",
+      "hash": "sha512-2qvZuY3KWoZIAyycortry/1YDSJoKi+96Ygk6Kv0xsetCrC8miSNc0PrbrPKkPfK7cPltxEW+enrgaP6W2P6Ow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        },
+        {
+          "slug": "touhoulittlemaid-orihime",
+          "projectId": "Tv58SCnQ",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "CkYSUQoB"
+    ]
+  }
+}

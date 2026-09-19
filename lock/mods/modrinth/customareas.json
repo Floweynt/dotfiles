@@ -1,0 +1,83 @@
+{
+  "slug": "customareas",
+  "projectId": "3UShy0MO",
+  "versions": {
+    "cQ2UKT3g": {
+      "filename": "FunctionalAreas-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3UShy0MO/versions/cQ2UKT3g/FunctionalAreas-2.0.0.jar",
+      "hash": "sha512-x/MaWXADCI/TjfpGFP5FEYq0GpC1V962LflD11hGk2vPlnwaPmWnhKz4wOBzEZa828oxw/Pb7ZylPJaCBZ7Bzg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dCDiIFS1": {
+      "filename": "CustomAreas-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3UShy0MO/versions/dCDiIFS1/CustomAreas-3.0.0.jar",
+      "hash": "sha512-Tq8GevD6rzwV14gPUkYGZ4SNS62+lDzHXBnXgZgVuS4UTeimICM2OVoCuo3WpyfK/jpGZeT2G/vmX1lL3M03aw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        },
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xvIUDTXA": {
+      "filename": "FunctionalAreas-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3UShy0MO/versions/xvIUDTXA/FunctionalAreas-1.0.0.jar",
+      "hash": "sha512-0kKXy47SBrbi3v+lTa1AsEJVHq/1WZCGtqe5rX6MkClAg/mMOgqAaQzkmcLRIsOF6ilsMZyutpUXZXPLgwKbvg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "dCDiIFS1",
+      "cQ2UKT3g",
+      "xvIUDTXA"
+    ]
+  }
+}

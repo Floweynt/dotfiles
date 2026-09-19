@@ -1,0 +1,165 @@
+{
+  "slug": "darkzoom",
+  "projectId": "SjgNXoDr",
+  "versions": {
+    "57bRiwtD": {
+      "filename": "darkzoom-forge-1.20.4-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/SjgNXoDr/versions/57bRiwtD/darkzoom-forge-1.20.4-1.0.2.jar",
+      "hash": "sha512-fwEXmxcPihcK90NdiosfNIyHk6KAT6prngIbMlXM8aurBtbuB7JhTsv+7JUAtcE9zT4+fY7ne+pW9bi9t4aWIQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Cd7LjTKu": {
+      "filename": "darkzoom-forge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/SjgNXoDr/versions/Cd7LjTKu/darkzoom-forge-1.20.1-1.0.1.jar",
+      "hash": "sha512-er5xUXD+qoiTF01opiuGRHat8hRQud2WKAGM51VHwWocim7MAAeHthMDbRjgiimdBg6MpkztkoDnhe/4Y5+J2Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "H4D1ovOp": {
+      "filename": "darkzoom-forge-26.1-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/SjgNXoDr/versions/H4D1ovOp/darkzoom-forge-26.1-1.1.2.jar",
+      "hash": "sha512-RDMWvM8NLMk1zHV+1uUUhgdw41rPJyc4UsuA/R7sU8PX+cxelk5Pev6xYz3YyX8WRU9BWssRh6PDIDiVbASXPg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "IR4VUQFD": {
+      "filename": "darkzoom-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SjgNXoDr/versions/IR4VUQFD/darkzoom-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-zRSoaGtzTp04q9vpCDRPEaNAqLT8107QK83kBpTaMZR0zYQdKVy7FtQDMfHDJRT4LFSh/ZlRROxyJSuSnNsUIg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iUPr1Wo8": {
+      "filename": "darkzoom-fabric-26.1-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/SjgNXoDr/versions/iUPr1Wo8/darkzoom-fabric-26.1-1.1.2.jar",
+      "hash": "sha512-9NwVpTPqC/IsO4cgM1X95QQoFNueK52FcdJv3LS7oufjUQD6LDIlmJOp7MfuhQpe74xfcJLRUZN3DVlIqbcigA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "oQfB2ssV": {
+      "filename": "darkzoom-neoforge-26.1-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/SjgNXoDr/versions/oQfB2ssV/darkzoom-neoforge-26.1-1.1.2.jar",
+      "hash": "sha512-UkK+HeE6lXil+LDGIA6Lb2P09uWGnIRfPElMkzzKlsfcatc+IA/dNtYRKk48QfGt4E2sHBKcmXpHDWJGEg1k5g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IR4VUQFD"
+    ],
+    "1.20.1+forge": [
+      "Cd7LjTKu"
+    ],
+    "1.20.1+quilt": [
+      "IR4VUQFD"
+    ],
+    "1.20.2+fabric": [
+      "IR4VUQFD"
+    ],
+    "1.20.2+quilt": [
+      "IR4VUQFD"
+    ],
+    "1.20.3+fabric": [
+      "IR4VUQFD"
+    ],
+    "1.20.3+quilt": [
+      "IR4VUQFD"
+    ],
+    "1.20.4+fabric": [
+      "IR4VUQFD"
+    ],
+    "1.20.4+forge": [
+      "57bRiwtD"
+    ],
+    "1.20.4+quilt": [
+      "IR4VUQFD"
+    ],
+    "26.1+fabric": [
+      "iUPr1Wo8"
+    ],
+    "26.1+forge": [
+      "H4D1ovOp"
+    ],
+    "26.1+neoforge": [
+      "oQfB2ssV"
+    ],
+    "26.1.1+fabric": [
+      "iUPr1Wo8"
+    ],
+    "26.1.1+forge": [
+      "H4D1ovOp"
+    ],
+    "26.1.1+neoforge": [
+      "oQfB2ssV"
+    ],
+    "26.1.2+fabric": [
+      "iUPr1Wo8"
+    ],
+    "26.1.2+forge": [
+      "H4D1ovOp"
+    ],
+    "26.1.2+neoforge": [
+      "oQfB2ssV"
+    ]
+  }
+}

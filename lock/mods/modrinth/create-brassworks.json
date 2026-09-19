@@ -1,0 +1,140 @@
+{
+  "slug": "create-brassworks",
+  "projectId": "8mTu8O7W",
+  "versions": {
+    "6R2v0nOW": {
+      "filename": "create_brassworks-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8mTu8O7W/versions/6R2v0nOW/create_brassworks-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-n4ll2eGe7gRx7upKhzqK0RnMqnJbi6TfIqzT9m0TwmVd6WUlr1V97lCqtyNHRD11B8xArES6oR3Ek/NEW2fRsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "7BKCHES6": {
+      "filename": "create_brassworks-datapack-1.21.1.zip",
+      "url": "https://cdn.modrinth.com/data/8mTu8O7W/versions/7BKCHES6/create_brassworks-datapack-1.21.1.zip",
+      "hash": "sha512-odqPS1V3G7yCofcx5NdWYcEIJraYhu0+ZFmAxkXMfou7xTfopYNh7IFddNhKIiX47/ab2gN1ErRV39i9pQgcFA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "7BuS1hBm": {
+      "filename": "create_brassworks-datapack-1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/8mTu8O7W/versions/7BuS1hBm/create_brassworks-datapack-1.20.1.zip",
+      "hash": "sha512-ZpuL6x3hbymSC710wv5MqEiDtJ5hQVBp9m5V3QSXWL6XB0c2xjcCsVOEvjRarOiJ9pgO02t94ou8wSjYQPXiQA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "7NU4XrEa": {
+      "filename": "create_brassworks-neoforge-1.20.1-compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8mTu8O7W/versions/7NU4XrEa/create_brassworks-neoforge-1.20.1-compat-1.0.0.jar",
+      "hash": "sha512-n4ll2eGe7gRx7upKhzqK0RnMqnJbi6TfIqzT9m0TwmVd6WUlr1V97lCqtyNHRD11B8xArES6oR3Ek/NEW2fRsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "F99HMfSs": {
+      "filename": "create_brassworks-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8mTu8O7W/versions/F99HMfSs/create_brassworks-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-BGUKxQcOmiWCctAYMBtr5cwLwNpqOO/1qgSoKTF9Tj7y9yzLQVuLrlygN2gwiz/GLQf/359fi01RjctdA8Jn2g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "FSFwNVIR": {
+      "filename": "create_brassworks-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8mTu8O7W/versions/FSFwNVIR/create_brassworks-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-TMaNqiDN+8fpA3Gn0b7zNgIRDJLxnlXoFoKL73YBUVmiTyvr8T0p8YWo2gSC5QM4vOScGVFv9uCYv5znNhlxEA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "7BuS1hBm"
+    ],
+    "1.20.1+fabric": [
+      "F99HMfSs"
+    ],
+    "1.20.1+forge": [
+      "6R2v0nOW"
+    ],
+    "1.20.1+neoforge": [
+      "7NU4XrEa"
+    ],
+    "1.21.1+datapack": [
+      "7BKCHES6"
+    ],
+    "1.21.1+neoforge": [
+      "FSFwNVIR"
+    ]
+  }
+}

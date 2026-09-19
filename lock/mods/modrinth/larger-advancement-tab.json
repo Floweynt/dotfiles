@@ -1,0 +1,81 @@
+{
+  "slug": "larger-advancement-tab",
+  "projectId": "5DFByU5L",
+  "versions": {
+    "Bm7lKTeT": {
+      "filename": "largeradvancementtab-1.21.11-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5DFByU5L/versions/Bm7lKTeT/largeradvancementtab-1.21.11-0.1.jar",
+      "hash": "sha512-cpOPo7Ez9xcOzigNQAicwjx1npcmA9pGQfc7qKXaxJ72bU+2UZhzz3dmuAJNN4VEZ9Z7F0sSfJOqYKwzbrn7PQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "UKbajUCE": {
+      "filename": "largeradvancementtab-1.21.9-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5DFByU5L/versions/UKbajUCE/largeradvancementtab-1.21.9-0.1.jar",
+      "hash": "sha512-zSt45R/xXi107u18+ifV9BLCgljLdwFrb8xDfEdRO5KMNesd6TGQzj359kw9x6MMP5bWcnlII0rgXDZgoJ0Rpw==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "n3MQzGEe": {
+      "filename": "largeradvancementtab-1.21.10-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5DFByU5L/versions/n3MQzGEe/largeradvancementtab-1.21.10-0.1.jar",
+      "hash": "sha512-thQ74FJ+EFkjLb7q01YhVBDd04/a35foYWr14/yjnAmJaK2FY1g8LdlK6zMSaJtg0zQCU4Ehg9vsUxDRbLSiFQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "n3MQzGEe"
+    ],
+    "1.21.11+fabric": [
+      "Bm7lKTeT"
+    ],
+    "1.21.9+fabric": [
+      "UKbajUCE"
+    ]
+  }
+}

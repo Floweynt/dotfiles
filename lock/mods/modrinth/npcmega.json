@@ -1,0 +1,36 @@
+{
+  "slug": "npcmega",
+  "projectId": "oG0Rqgyj",
+  "versions": {
+    "RMvwRhfR": {
+      "filename": "npcmega-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oG0Rqgyj/versions/RMvwRhfR/npcmega-1.0.0.jar",
+      "hash": "sha512-+9pNPIqDt15Y2qStgWepFBjX6jSsHDuRd/bn2JQL2S3+EomqSLRUV6JTCOHFsiyrSjcBs46swRrFWOp4UvUHPA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "RMvwRhfR"
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "slug": "crate-delight-polymer",
+  "projectId": "kUw12L2C",
+  "versions": {
+    "7wYSGCn0": {
+      "filename": "cratedelight-patch-25.08.08-1.21.7+.jar",
+      "url": "https://cdn.modrinth.com/data/kUw12L2C/versions/7wYSGCn0/cratedelight-patch-25.08.08-1.21.7%2B.jar",
+      "hash": "sha512-qccrardkjo3UUolb/VBhjn7otYerF7C93p7Q79DPyesGol9saKPaT28C1Br/Le4mAIUbBiAO1FlzNpgBuVI7fw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "crate-delight",
+          "projectId": "9rlXSyLg",
+          "type": "required"
+        }
+      ]
+    },
+    "RMvPZ1F7": {
+      "filename": "cratedelight-patch-25.09.22-1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/kUw12L2C/versions/RMvPZ1F7/cratedelight-patch-25.09.22-1.21.7.jar",
+      "hash": "sha512-gTjK+4JgLgMbVTMuf6HP5ymi3XX/w+dGTNf7LdlNEz++2mE5sJBGyHy3mbD71s0QQ8DuibbrGW3PRAVFtkvnIQ==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "crate-delight",
+          "projectId": "9rlXSyLg",
+          "type": "required"
+        }
+      ]
+    },
+    "vs364eU3": {
+      "filename": "cratedelight-patch-25.07.26-1.21.7+.jar",
+      "url": "https://cdn.modrinth.com/data/kUw12L2C/versions/vs364eU3/cratedelight-patch-25.07.26-1.21.7%2B.jar",
+      "hash": "sha512-xMbIuJK6hH/PdouSY0BiSpGWydLRz8xySxZHUknedIkOpEK/qeJyo3KJHPp0SH2RX61Z9tZbqOf3qmaEAsMrgg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "crate-delight",
+          "projectId": "9rlXSyLg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "RMvPZ1F7"
+    ],
+    "1.21.10+quilt": [
+      "RMvPZ1F7"
+    ],
+    "1.21.7+fabric": [
+      "RMvPZ1F7"
+    ],
+    "1.21.7+quilt": [
+      "RMvPZ1F7"
+    ],
+    "1.21.8+fabric": [
+      "RMvPZ1F7",
+      "7wYSGCn0",
+      "vs364eU3"
+    ],
+    "1.21.8+quilt": [
+      "RMvPZ1F7",
+      "7wYSGCn0",
+      "vs364eU3"
+    ],
+    "1.21.9+fabric": [
+      "RMvPZ1F7"
+    ],
+    "1.21.9+quilt": [
+      "RMvPZ1F7"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "mythlib",
+  "projectId": "wbnK4jFc",
+  "versions": {
+    "tsJeOmf5": {
+      "filename": "MythLib-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wbnK4jFc/versions/tsJeOmf5/MythLib-fabric-1.0.0.jar",
+      "hash": "sha512-p0qo9jm/JP47+1uXY4zTvA7cQ+DAF+WyqlVEYwbJRfB3YNTRmvtF1m5KQoaaRVoXRgHHnxo0Y5qknt7KJo+VRw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "u0FqErX5": {
+      "filename": "MythLib-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wbnK4jFc/versions/u0FqErX5/MythLib-forge-1.0.0.jar",
+      "hash": "sha512-A5GQMY39Qhmqd7E32j9QEFG2Si2ijJwShpXi6EN8+mcWgP2FwWKMSZ6yWFLnMq3j5xvP8g7LErn58vh9LirEXg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tsJeOmf5"
+    ],
+    "1.20.1+forge": [
+      "u0FqErX5"
+    ],
+    "1.20.1+neoforge": [
+      "u0FqErX5"
+    ],
+    "1.20.1+quilt": [
+      "tsJeOmf5"
+    ]
+  }
+}

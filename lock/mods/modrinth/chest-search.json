@@ -1,0 +1,40 @@
+{
+  "slug": "chest-search",
+  "projectId": "KtHApfiD",
+  "versions": {
+    "8hDmexp4": {
+      "filename": "chest-search-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KtHApfiD/versions/0.0.1/chest-search-1.0.0.jar",
+      "hash": "sha512-6v4v366KUgfIswXv25pxPLdhy7nDDNHptCGC/Wsm98ySzYUiSvPj4lWduLH2/0xEFlvZ90PZh7DXc2DWQ8v5tA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dsg1PgcN": {
+      "filename": "chest-search-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KtHApfiD/versions/0.1.0/chest-search-0.1.0.jar",
+      "hash": "sha512-SX/5liK9uv6LePD+QQFV5wb4qlpZ+dNO8xn0mXIhW53s+XI+4Gij5GSH5eQiXfPBWef4YhDbedRTBg0uLP3MZQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "dsg1PgcN",
+      "8hDmexp4"
+    ]
+  }
+}

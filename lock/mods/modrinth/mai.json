@@ -1,0 +1,68 @@
+{
+  "slug": "mai",
+  "projectId": "4xjy8gQr",
+  "versions": {
+    "jh0YvShp": {
+      "filename": "mai-forge.jar",
+      "url": "https://cdn.modrinth.com/data/4xjy8gQr/versions/jh0YvShp/mai-forge.jar",
+      "hash": "sha512-eRA1M5OYbK2L2C2YV5WumaLzM3IGp1LhtxEdK+6kAqacUuzGwkICX+YZg0dnihgFE93/OHIVEGwviuE7BuEV9g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "q7jyUnmG": {
+      "filename": "mai-1.(18-19).2-v2.jar",
+      "url": "https://cdn.modrinth.com/data/4xjy8gQr/versions/q7jyUnmG/mai-1.%2818-19%29.2-v2.jar",
+      "hash": "sha512-gpx+aFPZfiCawzvCy5boWhE1BtBUr85T5on6KPWccFaqRwtSJUhZEpGfOd9yu6lXnaQqLPpVz+J/IKzVOapUnA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "wUP2wBLL": {
+      "filename": "mai-fabric-1.21.1-v3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/4xjy8gQr/versions/wUP2wBLL/mai-fabric-1.21.1-v3.0.1.jar",
+      "hash": "sha512-ZSKGy1ED8QsEEePfHYd5GvaM06wDOXPkHwQGAAOid/O7oFFCZdwA9XWfz2mxt5Iin4E8bbAueC5loRwwHARxVw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "q7jyUnmG",
+      "jh0YvShp"
+    ],
+    "1.21.1+fabric": [
+      "wUP2wBLL"
+    ]
+  }
+}

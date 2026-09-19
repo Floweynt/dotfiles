@@ -1,0 +1,44 @@
+{
+  "slug": "adapted-origins",
+  "projectId": "Ld5F150B",
+  "versions": {
+    "n3Va4UAu": {
+      "filename": "adaptedorigins-1.19-2.3.0-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/Ld5F150B/versions/n3Va4UAu/adaptedorigins-1.19-2.3.0-FABRIC.jar",
+      "hash": "sha512-4MuMDwMBQ7355ZgZ0iJCo7iI3It1145vViSxDMNruk2UEJm85bk5Uhb6cN/NIFNwLYb4AlLpDOfcggUAyPlTlA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "n3Va4UAu"
+    ],
+    "1.19.1+fabric": [
+      "n3Va4UAu"
+    ],
+    "1.19.2+fabric": [
+      "n3Va4UAu"
+    ]
+  }
+}

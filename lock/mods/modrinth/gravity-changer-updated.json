@@ -1,0 +1,36 @@
+{
+  "slug": "gravity-changer-updated",
+  "projectId": "vQA8MxVE",
+  "versions": {
+    "oRPYcRpj": {
+      "filename": "gravity-changer-1.3.7.jar",
+      "url": "https://cdn.modrinth.com/data/vQA8MxVE/versions/oRPYcRpj/gravity-changer-1.3.7.jar",
+      "hash": "sha512-rmRJGrpjz7fq6MsiGxxUPVZnBLI0S9RY9t5i1LEuqThlnqANB0MakHVxB+O4eobEYwHykt+7euSy/PVDQxRU4Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "oRPYcRpj"
+    ]
+  }
+}

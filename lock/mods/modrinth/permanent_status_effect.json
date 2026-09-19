@@ -1,0 +1,111 @@
+{
+  "slug": "permanent_status_effect",
+  "projectId": "HD9htLMi",
+  "versions": {
+    "YYuuTIGM": {
+      "filename": "PermanentStatusEffect-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/HD9htLMi/versions/YYuuTIGM/PermanentStatusEffect-0.1.1.jar",
+      "hash": "sha512-pZP8ZNT6S9bNRrT0cmtf6UTbi6vbJODv06d6Fj0yFCH45Hz0zVzwA87scX5ClZGqO1Vu4qnsh3RtunZwioDHtA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "jb7j36qa": {
+      "filename": "PermanentStatusEffect-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/HD9htLMi/versions/jb7j36qa/PermanentStatusEffect-0.2.1.jar",
+      "hash": "sha512-4mB840oQpw/+wZSei/xdmvchbqTGq5louFy0qRLRz5kStysGV9Bbjx3h53z9IUbXPZAL7zEPiibRV2WklEcQ1g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "sMbC35vB": {
+      "filename": "PermanentStatusEffect-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/HD9htLMi/versions/sMbC35vB/PermanentStatusEffect-0.2.0.jar",
+      "hash": "sha512-a+AoDGZyfYQ/p9ezMfSjgcWb9MfNchwT4YtMC4u/OFujMULBErxC3UKNOOUgSOhnDldQ2/EzfJX0VR5Nkt0UPQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "jb7j36qa",
+      "sMbC35vB",
+      "YYuuTIGM"
+    ],
+    "1.20.1+fabric": [
+      "jb7j36qa",
+      "sMbC35vB",
+      "YYuuTIGM"
+    ]
+  }
+}

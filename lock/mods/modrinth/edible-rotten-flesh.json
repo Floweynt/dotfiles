@@ -1,0 +1,67 @@
+{
+  "slug": "edible-rotten-flesh",
+  "projectId": "WwLQ4nbF",
+  "versions": {
+    "8pl2dMiD": {
+      "filename": "edible-rotten-flesh-mod-1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/WwLQ4nbF/versions/8pl2dMiD/edible-rotten-flesh-mod-1.1-1.20.1.jar",
+      "hash": "sha512-df8agcBiOxoxSCI5Z+IIB+SU23hwopDSeT0FI52mtPmbHnUnotCuV3+vQsN0wknhjmkWdPb2CckVLLUV5RiEAg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "9viILWFY": {
+      "filename": "edible-rotten-flesh-mod-1.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/WwLQ4nbF/versions/9viILWFY/edible-rotten-flesh-mod-1.0-1.21.jar",
+      "hash": "sha512-rr8p1u/CcvI04Ol7ybYk3HGY7DDJnEC2OlpdbaJmAKSXPjQJisNHvcw5TDnIIyXWdo//0V+8OFab4r07hPXGog==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GowLNN7y": {
+      "filename": "edible-rotten-flesh-mod-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/WwLQ4nbF/versions/GowLNN7y/edible-rotten-flesh-mod-1.0-1.20.1.jar",
+      "hash": "sha512-7jmfFqL2RPi9wFTcIh4FxH+9jYuYkIDWqOjlxYyA7g3Kd1fBxB5dr82RAkDGqgq/miG/QAut+32FV8jNadiTfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8pl2dMiD",
+      "GowLNN7y"
+    ],
+    "1.21+fabric": [
+      "9viILWFY"
+    ],
+    "1.21.1+fabric": [
+      "9viILWFY"
+    ]
+  }
+}

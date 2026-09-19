@@ -1,0 +1,36 @@
+{
+  "slug": "goggle-trinket-slot",
+  "projectId": "H9tVki0G",
+  "versions": {
+    "SqoQfcGh": {
+      "filename": "goggle-trinket-slot-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/H9tVki0G/versions/SqoQfcGh/goggle-trinket-slot-1.0.4.jar",
+      "hash": "sha512-4T598mdDd3xkYR9poTlwksoFyxBhd3q2GSZXXyEtuovz2EedcTrxgGu5KsP5/2Cn2JgWf5GMpLV7wiOUkMXMMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "SqoQfcGh"
+    ]
+  }
+}

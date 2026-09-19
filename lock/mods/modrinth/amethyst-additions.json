@@ -1,0 +1,77 @@
+{
+  "slug": "amethyst-additions",
+  "projectId": "znFFYmTU",
+  "versions": {
+    "PT0ASfAq": {
+      "filename": "amethystadds-0.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/znFFYmTU/versions/PT0ASfAq/amethystadds-0.1.5.jar",
+      "hash": "sha512-Idm15Q6hnfpq5WQ+is5+twcwdbSeFqToh3DCdpaowqr5zQHMzRGMtKX/V2yYR/NMjhJ7t9V953RJrLr/uuQsXg==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "shieldlib",
+          "projectId": "7SDalH12",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "nY8EHljA": {
+      "filename": "amethystadds-0.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/znFFYmTU/versions/nY8EHljA/amethystadds-0.1.5.jar",
+      "hash": "sha512-fOGfqStsPyQ6G7GZqVlIwQH4bFODiDbZQupe34SL3tZQiIE/amPcmxrEX0y4mA00f1qsIHBDzv/DVuQ+vse7gw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "shieldlib",
+          "projectId": "7SDalH12",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nY8EHljA"
+    ],
+    "1.20.2+fabric": [
+      "PT0ASfAq"
+    ],
+    "1.20.3+fabric": [
+      "PT0ASfAq"
+    ],
+    "1.20.4+fabric": [
+      "PT0ASfAq"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "audition",
+  "projectId": "HMeGkqZ7",
+  "versions": {
+    "1JUG62Lr": {
+      "filename": "audition-2.0.0+mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/HMeGkqZ7/versions/1JUG62Lr/audition-2.0.0%2Bmc26.2.jar",
+      "hash": "sha512-67IMiMCPwg0xdFbO1utWfq672q1aNOHK37mF4hlRej19vTJWAaI1UGpHsuOKGMVxA2S1ZEVFQGLzaJWpaKC/Hg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nvD1jcZO": {
+      "filename": "audition-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HMeGkqZ7/versions/nvD1jcZO/audition-1.0.0.jar",
+      "hash": "sha512-Dh3gMAj95kE9OEoPVJWmAut//3Oh29Kc5X3DGg3hpNuIqsj7kpPuhunOvNh58KFn2dTYt5X+8D34q8K1geVuOw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vybEVZPT": {
+      "filename": "audition-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/HMeGkqZ7/versions/vybEVZPT/audition-1.0.1-1.20.1.jar",
+      "hash": "sha512-jivafCGB2hYItke7RTvwWbgN//ruz4n7hwDQUOcVtRtBhJIfR5nNHaohgihPYrsg5Es+act3FRSG4yW//drwmg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xm8tDlM4": {
+      "filename": "audition-1.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/HMeGkqZ7/versions/xm8tDlM4/audition-1.0.1-1.21.1.jar",
+      "hash": "sha512-wbCR7qx4mNxlaZJhK/mNNSosj8RCsR34S9KUZKOlnksB3QN3G7qlu3hrhm6WhhadUFflnb0+Ub5zrNJUs8W/zw==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "vybEVZPT"
+    ],
+    "1.20.2+fabric": [
+      "vybEVZPT"
+    ],
+    "1.20.3+fabric": [
+      "vybEVZPT"
+    ],
+    "1.20.4+fabric": [
+      "vybEVZPT"
+    ],
+    "1.20.5+fabric": [
+      "vybEVZPT"
+    ],
+    "1.20.6+fabric": [
+      "vybEVZPT"
+    ],
+    "1.21+fabric": [
+      "nvD1jcZO"
+    ],
+    "1.21.1+fabric": [
+      "xm8tDlM4",
+      "nvD1jcZO"
+    ],
+    "1.21.2+fabric": [
+      "xm8tDlM4",
+      "nvD1jcZO"
+    ],
+    "1.21.3+fabric": [
+      "xm8tDlM4",
+      "nvD1jcZO"
+    ],
+    "1.21.4+fabric": [
+      "xm8tDlM4",
+      "nvD1jcZO"
+    ],
+    "1.21.5+fabric": [
+      "xm8tDlM4"
+    ],
+    "26.2+fabric": [
+      "1JUG62Lr"
+    ]
+  }
+}

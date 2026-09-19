@@ -1,0 +1,57 @@
+{
+  "slug": "thunderstorms-armor",
+  "projectId": "UUme2wOL",
+  "versions": {
+    "C2U3xqFI": {
+      "filename": "thunderstormsarmor-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UUme2wOL/versions/C2U3xqFI/thunderstormsarmor-1.1.0.jar",
+      "hash": "sha512-FtDb7X6BoklAkU1rRGLLI0dZ81hyE6LBx7kyg5oExtiO7nd/H4lJx5Pp556bfsEdxXTQQzOYVSAPwS/Hb+f/aw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "aEguahyF": {
+      "filename": "thunderstormsarmor-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UUme2wOL/versions/aEguahyF/thunderstormsarmor-1.0.0.jar",
+      "hash": "sha512-sm0wZBktxQ9F0GpAyARqqr9TLVNQSzWMG6iPTYP5bVUs2/iTEfCBfHf8YGRF4Mblgw/IPZ0YGK8rKNqRW5y7NA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sf9Fdi3O": {
+      "filename": "thunderstormsarmor-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UUme2wOL/versions/sf9Fdi3O/thunderstormsarmor-1.0.1.jar",
+      "hash": "sha512-fQIoMNtu8AIjso2wFLB/ae7zz2m7NnJHWQezsa6V+l80y3zzQyf0zOZ6K1jaGxO+Hv4gi+ivY1kk5wtF4b9e2g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "sf9Fdi3O",
+      "aEguahyF"
+    ],
+    "1.21+fabric": [
+      "C2U3xqFI"
+    ]
+  }
+}

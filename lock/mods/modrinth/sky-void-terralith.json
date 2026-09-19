@@ -1,0 +1,172 @@
+{
+  "slug": "sky-void-terralith",
+  "projectId": "1WpZwMPS",
+  "versions": {
+    "84lOpp3d": {
+      "filename": "sky-void-terralith-2.5.5.jar",
+      "url": "https://cdn.modrinth.com/data/1WpZwMPS/versions/84lOpp3d/sky-void-terralith-2.5.5.jar",
+      "hash": "sha512-uBF2WM9laaWGcEmqFhP24jABVm9dYP5pgkws/Iy6W7nBHV+GrHSY1iPDU0VhyIHH2m032JDjsuZm5SZGyWPCrA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "terralith",
+          "projectId": "8oi3bsk5",
+          "type": "required"
+        }
+      ]
+    },
+    "BhsN93yu": {
+      "filename": "skyvoid_compat_terralith_v2_5_5-MC_1_21.zip",
+      "url": "https://cdn.modrinth.com/data/1WpZwMPS/versions/BhsN93yu/skyvoid_compat_terralith_v2_5_5-MC_1_21.zip",
+      "hash": "sha512-Dv52I5Olm7F655FrHDHkZfoGsXVGHPJPAUN04plv6Foc4/rts8i+r2L5hMEmotPCbUkTyts2rNy/uR4KrQfQgg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "terralith",
+          "projectId": "8oi3bsk5",
+          "type": "required"
+        }
+      ]
+    },
+    "JpkCRgTe": {
+      "filename": "skyvoid_compat_terralith_v1_0_2+terralith-2_5_5-MC_1_21.zip",
+      "url": "https://cdn.modrinth.com/data/1WpZwMPS/versions/JpkCRgTe/skyvoid_compat_terralith_v1_0_2%2Bterralith-2_5_5-MC_1_21.zip",
+      "hash": "sha512-K/G/5dTNV9RdbM/k2bh8GGPDIPLS1+dzAQJWrqcb7nz06m8cGeE2w7dA5Cjm1TvT39dJs0pFQDtSjz6pcBrpxg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "terralith",
+          "projectId": "8oi3bsk5",
+          "type": "required"
+        }
+      ]
+    },
+    "XOcZZJTg": {
+      "filename": "sky-void-terralith-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/1WpZwMPS/versions/XOcZZJTg/sky-void-terralith-1.0.2.jar",
+      "hash": "sha512-j5R0IU/n4NeYaD6MunlgmF3MF9Sdze7rSHcxozZl7CVf/ivh/g1VzNBG4tAvGuVC/8CaDNGYivfFajTDKvosvA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "terralith",
+          "projectId": "8oi3bsk5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "JpkCRgTe",
+      "BhsN93yu"
+    ],
+    "1.21+fabric": [
+      "XOcZZJTg",
+      "84lOpp3d"
+    ],
+    "1.21+forge": [
+      "XOcZZJTg",
+      "84lOpp3d"
+    ],
+    "1.21+neoforge": [
+      "XOcZZJTg",
+      "84lOpp3d"
+    ],
+    "1.21+quilt": [
+      "XOcZZJTg",
+      "84lOpp3d"
+    ],
+    "1.21.1+datapack": [
+      "JpkCRgTe",
+      "BhsN93yu"
+    ],
+    "1.21.1+fabric": [
+      "XOcZZJTg",
+      "84lOpp3d"
+    ],
+    "1.21.1+forge": [
+      "XOcZZJTg",
+      "84lOpp3d"
+    ],
+    "1.21.1+neoforge": [
+      "XOcZZJTg",
+      "84lOpp3d"
+    ],
+    "1.21.1+quilt": [
+      "XOcZZJTg",
+      "84lOpp3d"
+    ],
+    "1.21.2+datapack": [
+      "JpkCRgTe"
+    ],
+    "1.21.2+fabric": [
+      "XOcZZJTg"
+    ],
+    "1.21.2+forge": [
+      "XOcZZJTg"
+    ],
+    "1.21.2+neoforge": [
+      "XOcZZJTg"
+    ],
+    "1.21.2+quilt": [
+      "XOcZZJTg"
+    ],
+    "1.21.3+datapack": [
+      "JpkCRgTe"
+    ],
+    "1.21.3+fabric": [
+      "XOcZZJTg"
+    ],
+    "1.21.3+forge": [
+      "XOcZZJTg"
+    ],
+    "1.21.3+neoforge": [
+      "XOcZZJTg"
+    ],
+    "1.21.3+quilt": [
+      "XOcZZJTg"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "elemental-wizardz",
+  "projectId": "ELtGUy8z",
+  "versions": {
+    "Y15pD2ON": {
+      "filename": "lvlz_elemental_wizards-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ELtGUy8z/versions/Y15pD2ON/lvlz_elemental_wizards-2.0.jar",
+      "hash": "sha512-+TjlmMiWzDHRmvnfzqgtZTUqEY4YL1c0wdd+eETIkEIpV4OSuy8YWTKZ7z6FyqOeUq/AN9Cfugf9HaVGxWtymQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "elemental-wizards-rpg",
+          "projectId": "PeZ4h4i0",
+          "type": "required"
+        }
+      ]
+    },
+    "yE835dmu": {
+      "filename": "elemental_wizardz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ELtGUy8z/versions/yE835dmu/elemental_wizardz-1.0.jar",
+      "hash": "sha512-tx8ig0BSMdU4Uj0s30/z3QZheOQzFlS9/saGmYEHcwq44+v+ENDlFF6Oda7SSutNm4Y2SkEOgsQl2VO5GcBvcQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "elemental-wizards-rpg",
+          "projectId": "PeZ4h4i0",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yE835dmu"
+    ],
+    "1.21.1+fabric": [
+      "Y15pD2ON"
+    ]
+  }
+}

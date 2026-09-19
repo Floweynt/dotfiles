@@ -1,0 +1,72 @@
+{
+  "slug": "potato-paintings",
+  "projectId": "4kzxtaXs",
+  "versions": {
+    "5SYbazxn": {
+      "filename": "Potato Painting Datapack.zip",
+      "url": "https://cdn.modrinth.com/data/4kzxtaXs/versions/5SYbazxn/Potato%20Painting%20Datapack.zip",
+      "hash": "sha512-uh07mPZI3RHoEs5zfsznVyPWe8PZ+zt1imX66p7OIx2+3lbq4gJSW2+4bzY9JVyDTFxQnPT9aqFzDZJVu4hUFw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "potato-paintings-resources-pack",
+          "projectId": "iB3bi0qh",
+          "type": "required"
+        }
+      ]
+    },
+    "CtY2NFjv": {
+      "filename": "Potato Painting Datapack + resource pack.zip",
+      "url": "https://cdn.modrinth.com/data/4kzxtaXs/versions/CtY2NFjv/Potato%20Painting%20Datapack%20%2B%20resource%20pack.zip",
+      "hash": "sha512-0VIOBcEyAnbECIfsXi2YaVVdqJRItnf1cZGkrJSnepHRK3C5CLcacMeFiy4M8WFZe+JymrlRBiuEwGvUJsOmIw==",
+      "gameVersions": [
+        "24w18a",
+        "24w19a",
+        "24w19b",
+        "24w20a",
+        "24w21a",
+        "24w21b"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "5SYbazxn"
+    ],
+    "1.21+fabric": [
+      "5SYbazxn"
+    ],
+    "24w18a+datapack": [
+      "CtY2NFjv"
+    ],
+    "24w19a+datapack": [
+      "CtY2NFjv"
+    ],
+    "24w19b+datapack": [
+      "CtY2NFjv"
+    ],
+    "24w20a+datapack": [
+      "CtY2NFjv"
+    ],
+    "24w21a+datapack": [
+      "CtY2NFjv"
+    ],
+    "24w21b+datapack": [
+      "CtY2NFjv"
+    ]
+  }
+}

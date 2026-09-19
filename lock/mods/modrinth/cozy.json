@@ -1,0 +1,137 @@
+{
+  "slug": "cozy",
+  "projectId": "Bg6Ed4OL",
+  "versions": {
+    "1TFnO6eH": {
+      "filename": "cozy-1.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Bg6Ed4OL/versions/1TFnO6eH/cozy-1.1.0-fabric.jar",
+      "hash": "sha512-ru8G6sKrisMzBkP/O/ziByRi5g2VswcJv+HXn6ni51UBUlSvxu0F/WQWZVEAiuv6kXpXvuD4JcvaZ0jeJnGswQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "D6K9NNUr": {
+      "filename": "cozy-1.1.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/Bg6Ed4OL/versions/D6K9NNUr/cozy-1.1.1-forge.jar",
+      "hash": "sha512-cSl1MB7/HgcDdFctNc+UR0qo2FsPdt3rEy4CC/u1U5ZUrmDA9S7rW3XO1Wfce83vwdPRwoc0vfEXjvN6OCzCzw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-lib",
+          "projectId": "G1hIVOrD",
+          "type": "required"
+        }
+      ]
+    },
+    "E5KbCPLa": {
+      "filename": "cozy-1.1.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Bg6Ed4OL/versions/E5KbCPLa/cozy-1.1.1-fabric.jar",
+      "hash": "sha512-xQ03hQ0lkVBM6i+Rt+aBtarzIUzuXg3qmjsTRSOKj6CGMHe8YhvjfIWVBt1uR7CaReSmSTafbUs9OcWpGKLUvQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-lib",
+          "projectId": "G1hIVOrD",
+          "type": "required"
+        }
+      ]
+    },
+    "W3wB7VUW": {
+      "filename": "cozy-1.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Bg6Ed4OL/versions/W3wB7VUW/cozy-1.1.0-fabric.jar",
+      "hash": "sha512-NXWtDgINu53TmmQ73mUwJGY14IxMJ1UPgsLsi0/DHPJu9o+5MWroe8epdskxD8WHEOLIxndehaDa97hzP4o1bA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wEYIiLik": {
+      "filename": "cozy-1.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/Bg6Ed4OL/versions/wEYIiLik/cozy-1.1.0-forge.jar",
+      "hash": "sha512-zv9CAlFqYZxkgjJQ7zTmmr1PGlD3a9b5+TGHQDYqK+81Ng8iWPiXxONtJr8M03Lb4NAXAJfNZBqihroa6BoYmw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "z0rkSy3h": {
+      "filename": "cozy-1.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/Bg6Ed4OL/versions/z0rkSy3h/cozy-1.1.0-forge.jar",
+      "hash": "sha512-OfsyMyF8bl2EmiQYIBwloyVl4LfVZTB/h9zyBv3W+gxUnZZ9Ql1dvdVsmu14Sy2rhUFh2EBFcFuNprO+QGZ6PA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "1TFnO6eH"
+    ],
+    "1.19.2+forge": [
+      "wEYIiLik"
+    ],
+    "1.20+fabric": [
+      "E5KbCPLa",
+      "W3wB7VUW"
+    ],
+    "1.20+forge": [
+      "D6K9NNUr",
+      "z0rkSy3h"
+    ],
+    "1.20+neoforge": [
+      "D6K9NNUr"
+    ],
+    "1.20.1+fabric": [
+      "E5KbCPLa",
+      "W3wB7VUW"
+    ],
+    "1.20.1+forge": [
+      "D6K9NNUr",
+      "z0rkSy3h"
+    ],
+    "1.20.1+neoforge": [
+      "D6K9NNUr"
+    ]
+  }
+}

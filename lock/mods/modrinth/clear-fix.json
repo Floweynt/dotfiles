@@ -1,0 +1,104 @@
+{
+  "slug": "clear-fix",
+  "projectId": "n13xynaE",
+  "versions": {
+    "1PBOeLFc": {
+      "filename": "clear-fix-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/n13xynaE/versions/1PBOeLFc/clear-fix-1.0.jar",
+      "hash": "sha512-7frWxgpHrzi9nNk7qZCiJunZkEA2qDp1N9N5rgQzdvq4wNhZ0FC14eQAxim0bivnkbjxJD+dNs6BycRd2R/7Ug==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Qmis6a6i": {
+      "filename": "clear-fix-1.2.1+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/n13xynaE/versions/Qmis6a6i/clear-fix-1.2.1%2Bmc1.21.jar",
+      "hash": "sha512-VfAxspCfTAAFRWBWBbBhntGJJ+ty2qBao9fWyADxQxbsnCwCFXeZUe9fd/9d2rF1/wENDLLF/SsBHQ1AV7S0yw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eIHNKuqQ": {
+      "filename": "clear-fix-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/n13xynaE/versions/eIHNKuqQ/clear-fix-1.2.jar",
+      "hash": "sha512-oxgfziLw2WvaQMcvo08B9PBwA6mo+RfGHI28vjJMdli242sh5sVfRwomWZdjmgVRW/+OGM3J1g4esXGUiAhxHQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hzvixfIM": {
+      "filename": "clear-fix-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/n13xynaE/versions/hzvixfIM/clear-fix-1.1.jar",
+      "hash": "sha512-yswc5rfowNWZDvBld0XtHtqJ/mG9BVVjNKWz8hwmfxIkUzMCpOe5669+F3DGaViJg3ClYZn9o3EKEfWhIQsV3g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1PBOeLFc"
+    ],
+    "1.20.1+quilt": [
+      "1PBOeLFc"
+    ],
+    "1.21+fabric": [
+      "Qmis6a6i",
+      "eIHNKuqQ",
+      "hzvixfIM"
+    ],
+    "1.21.1+fabric": [
+      "Qmis6a6i"
+    ]
+  }
+}

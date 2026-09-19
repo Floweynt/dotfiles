@@ -1,0 +1,79 @@
+{
+  "slug": "block-n-zapping",
+  "projectId": "R86Du9H7",
+  "versions": {
+    "3SfL37tQ": {
+      "filename": "Create-Block-n-Zapping-1.20.1-1.1a.Release.jar",
+      "url": "https://cdn.modrinth.com/data/R86Du9H7/versions/3SfL37tQ/Create-Block-n-Zapping-1.20.1-1.1a.Release.jar",
+      "hash": "sha512-lCILR4O8HG7PgeHNKkFf2quNbHyS25wCikJyWW9lpBZrDbHaxgB981pNciGXLC5sbSPYqWt+NO1Wn1rCfnwnOw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "60qDZXm7": {
+      "filename": "Create-Block-n-Zapping-1.20.1-1.0a.Release.jar",
+      "url": "https://cdn.modrinth.com/data/R86Du9H7/versions/60qDZXm7/Create-Block-n-Zapping-1.20.1-1.0a.Release.jar",
+      "hash": "sha512-OYS/yr6JaemGIGfgOmh/GfGkacTaS+/4Dnnu1+h+gPYjmhw3C9Mja7tJz97+IJdHOwtYAHHA0jIbDha1L530mw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "HiyaS0fX": {
+      "filename": "Create-Block-n-Zapping-1.20.1-1.0a.Release.jar",
+      "url": "https://cdn.modrinth.com/data/R86Du9H7/versions/HiyaS0fX/Create-Block-n-Zapping-1.20.1-1.0a.Release.jar",
+      "hash": "sha512-DuDgoFU0g7xER9VaD+wnMOOge3nqLTnRmGZXkflYkeZAN2YjZ53q6Sjma25DALy+FoZzWXqXlrOWs5WhBrSOsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HiyaS0fX"
+    ],
+    "1.20.1+forge": [
+      "3SfL37tQ",
+      "60qDZXm7"
+    ],
+    "1.20.1+quilt": [
+      "HiyaS0fX"
+    ]
+  }
+}

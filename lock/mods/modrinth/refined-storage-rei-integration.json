@@ -1,0 +1,69 @@
+{
+  "slug": "refined-storage-rei-integration",
+  "projectId": "RGAJWsc3",
+  "versions": {
+    "LSiWqkiI": {
+      "filename": "refinedstorage-rei-integration-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGAJWsc3/versions/LSiWqkiI/refinedstorage-rei-integration-fabric-1.0.0.jar",
+      "hash": "sha512-eO1jDuIjj8UEQdDeqg/vSnYKjjAv4PkMKciweSbAzjq6Gl/Q1qGKGUx0sGnKSJoXH7txjszEkI9n+6QCF44UQA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "refined-storage",
+          "projectId": "KDvYkUg3",
+          "type": "required"
+        },
+        {
+          "slug": "rei",
+          "projectId": "nfn13YXA",
+          "type": "required"
+        }
+      ]
+    },
+    "yXirT7N4": {
+      "filename": "refinedstorage-rei-integration-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGAJWsc3/versions/yXirT7N4/refinedstorage-rei-integration-neoforge-1.0.0.jar",
+      "hash": "sha512-15AiFQww3v/mvraJG9bBlkTTdbMnjuegNezoHEY31guNCoaEPEC6tauSfFCi2YXj34w6o1lu/Dd1LuIBv9UHlg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "rei",
+          "projectId": "nfn13YXA",
+          "type": "required"
+        },
+        {
+          "slug": "refined-storage",
+          "projectId": "KDvYkUg3",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "LSiWqkiI"
+    ],
+    "1.21.1+neoforge": [
+      "yXirT7N4"
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "client-backpack",
+  "projectId": "Tefxsl93",
+  "versions": {
+    "2N5MZODR": {
+      "filename": "client_backpack-forge-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Tefxsl93/versions/2N5MZODR/client_backpack-forge-1.21.1-1.1.0.jar",
+      "hash": "sha512-I7IKXvjXjQCx4Ic5XxoiyDnacuEhnvqOxDHml7+2U1DepNlMbdenCX7K2mCNvwReR3VMqTVO1YOO2z1YFpT1Qg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "faewulfslib",
+          "projectId": "q4N9H96q",
+          "type": "required"
+        }
+      ]
+    },
+    "8wZrDg7h": {
+      "filename": "client_backpack-fabric-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Tefxsl93/versions/8wZrDg7h/client_backpack-fabric-1.21.1-1.1.0.jar",
+      "hash": "sha512-1KU2nsV2KkNfQXePGVre3RStmJqq/U20GYp69hiPrhNVmXM/tU+UtvhYesSmWROQzyd4fCI3VYJpJXd8l5v7+w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "faewulfslib",
+          "projectId": "q4N9H96q",
+          "type": "required"
+        }
+      ]
+    },
+    "K1TYQEHe": {
+      "filename": "client_backpack-neoforge-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Tefxsl93/versions/K1TYQEHe/client_backpack-neoforge-1.21.1-1.1.0.jar",
+      "hash": "sha512-y3LEy509a71qJTmiMZHwe6vwShs4dxaAun1Gb5nsB6AcsVXa/ZEdv+7OZumCPmXC+FwvS9Dl2EPLIlXo5tfN1w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "faewulfslib",
+          "projectId": "q4N9H96q",
+          "type": "required"
+        }
+      ]
+    },
+    "KAY4vI76": {
+      "filename": "client_backpack-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Tefxsl93/versions/KAY4vI76/client_backpack-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-+tSnXHMTMH99R1BQ5x9MijR4M1toj7H1B5Iqah6aGZxot7eewPNzmWIgh38V/tStEb7sgxta/4wHSKycfyRNCw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "faewulfslib",
+          "projectId": "q4N9H96q",
+          "type": "required"
+        }
+      ]
+    },
+    "g9OTVWSa": {
+      "filename": "client_backpack-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Tefxsl93/versions/g9OTVWSa/client_backpack-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-8jU0Xl3jYQeZxvhZmaGpxD+xN8Z/PFeKze2bUSdpz2C2H3z9lUIy49vZDSirs6h1miSHGXHsVXpHOqyAndrMzg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "faewulfslib",
+          "projectId": "q4N9H96q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "8wZrDg7h",
+      "g9OTVWSa"
+    ],
+    "1.21.1+forge": [
+      "2N5MZODR"
+    ],
+    "1.21.1+neoforge": [
+      "K1TYQEHe",
+      "KAY4vI76"
+    ],
+    "1.21.1+quilt": [
+      "8wZrDg7h",
+      "g9OTVWSa"
+    ]
+  }
+}

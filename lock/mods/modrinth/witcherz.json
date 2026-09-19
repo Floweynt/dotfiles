@@ -1,0 +1,94 @@
+{
+  "slug": "witcherz",
+  "projectId": "bZ8bjYEt",
+  "versions": {
+    "5qj8dgVK": {
+      "filename": "witcherz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bZ8bjYEt/versions/5qj8dgVK/witcherz-1.0.jar",
+      "hash": "sha512-nJoqCx/d1Q/L2lTe1fKXV2swU08g7zUqh3idyk8CCnN0nj066qCwXPJnXCEPr04Nb8WJ7yBdnpFEHp7KIDoB8A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "witcher-rpg-class",
+          "projectId": "4eW1c7Gj",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "bZfDNZjJ": {
+      "filename": "lvlz_witcher-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bZ8bjYEt/versions/bZfDNZjJ/lvlz_witcher-1.21.1-1.0.jar",
+      "hash": "sha512-IkPw02ik9ImTLJdWmoiyLXWFLQeeCWuEZmWE5oVEYGFfgRmU2zHug6rBmhVSYqS25bSSJIn9csEQJqeFXGE4Iw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "witcher-rpg-class",
+          "projectId": "4eW1c7Gj",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "qKn9UHse": {
+      "filename": "witcherz-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/bZ8bjYEt/versions/qKn9UHse/witcherz-1.1.jar",
+      "hash": "sha512-9vjEDIr3maszaeD7UyQjF/pqqSWHCBoQnqnCXENvBIYVp/Nl2ZaPbvC+RGEDX/YZ/YxKMLB0UZmwL5WiZkUmfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "witcher-rpg-class",
+          "projectId": "4eW1c7Gj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "qKn9UHse",
+      "5qj8dgVK"
+    ],
+    "1.21.1+fabric": [
+      "bZfDNZjJ"
+    ],
+    "1.21.1+quilt": [
+      "bZfDNZjJ"
+    ]
+  }
+}

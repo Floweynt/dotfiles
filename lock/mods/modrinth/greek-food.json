@@ -1,0 +1,106 @@
+{
+  "slug": "greek-food",
+  "projectId": "7v8mgPun",
+  "versions": {
+    "BMaIaAjk": {
+      "filename": "Greek_Food-fabric-0.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/7v8mgPun/versions/BMaIaAjk/Greek_Food-fabric-0.1.4.jar",
+      "hash": "sha512-tRaIQBgkqPoUag+/yqbnBcw9BYAXoAhUWnNuTnovCGA7aVrs/gyjVEdN81+bA0mYZA7fMF3iaIZeyo/x9J5QKg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "Bn2hJKqS": {
+      "filename": "greek_food-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/7v8mgPun/versions/Bn2hJKqS/greek_food-0.1.3.jar",
+      "hash": "sha512-TJbvFj/bdcXswaxrJuC7tQlfjswbo/2TR4cy5isGNCrTFRM79TUUwPNswdKU48ad1jLvHorsRwTBA/P5fYuLYg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    },
+    "VhfJACF2": {
+      "filename": "greek_food-0.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/7v8mgPun/versions/VhfJACF2/greek_food-0.1.4.jar",
+      "hash": "sha512-aI3iNB260/DsoL0jNzj7en62J6+ozGacRXec++rIT21Eo1HnZ0OnqAKiA9tCvxIVvAIt1rLuLleeY/gzAsjK0g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    },
+    "aRJKwmoY": {
+      "filename": "greek_food-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/7v8mgPun/versions/aRJKwmoY/greek_food-0.2.0.jar",
+      "hash": "sha512-6mx2dd6WGuOMXwHEDhPv+y4AT7N+v3MJfKWoUOSeypwUyRmETF1fsj2U6cDVvBofqOZaoIEfB6oNicjC19WD5A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "BMaIaAjk"
+    ],
+    "1.21.1+neoforge": [
+      "aRJKwmoY",
+      "VhfJACF2",
+      "Bn2hJKqS"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "dashboard",
+  "projectId": "Q0XHpuQz",
+  "versions": {
+    "FANNbGp8": {
+      "filename": "dashboard-3.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/Q0XHpuQz/versions/FANNbGp8/dashboard-3.0.0-forge.jar",
+      "hash": "sha512-zxwLajqE4sq6FLjm3c6z5B17yiGgNR/8MPoGL7lwSPI+R8Ve0F1VVRlG/PE9wyAC6jEMOyggDRtt4x+gW4qdXA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kQJB3hIp": {
+      "filename": "dashboard-universal-1.20.1-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Q0XHpuQz/versions/kQJB3hIp/dashboard-universal-1.20.1-4.0.0.jar",
+      "hash": "sha512-sxz7N073E933wFx/SfmvP7TE7kESXD4vwEP497CflDqcjNe2i5L1xh5PKL4zUkbkuPKkQJSCijCvjmXnMolv1Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ysN7RQPh": {
+      "filename": "dashboard-3.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Q0XHpuQz/versions/ysN7RQPh/dashboard-3.0.0-fabric.jar",
+      "hash": "sha512-cRHTqH76oWZtthM/p0qrE12ozKyooQBVBidljy0GQ6QnoA7pMIh2p27zXA+G9aUVxmmkdM4QodXXKUoaUq7P+g==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "ysN7RQPh"
+    ],
+    "1.19.4+forge": [
+      "FANNbGp8"
+    ],
+    "1.20+fabric": [
+      "kQJB3hIp"
+    ],
+    "1.20+forge": [
+      "kQJB3hIp"
+    ],
+    "1.20+neoforge": [
+      "kQJB3hIp"
+    ],
+    "1.20.1+fabric": [
+      "kQJB3hIp"
+    ],
+    "1.20.1+forge": [
+      "kQJB3hIp"
+    ],
+    "1.20.1+neoforge": [
+      "kQJB3hIp"
+    ]
+  }
+}

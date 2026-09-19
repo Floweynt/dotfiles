@@ -1,0 +1,40 @@
+{
+  "slug": "squished",
+  "projectId": "cybCjO4r",
+  "versions": {
+    "THGCJz5A": {
+      "filename": "Squished-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/cybCjO4r/versions/THGCJz5A/Squished-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-116o/6C1ain8ZgTwLz+Woe6XHeEkW4rWid6U6GnD8SkJo+Vv6wpKOyxHWJKNcRK7xEHcnjZyIDsV+F+Rgkvqcw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "THGCJz5A"
+    ],
+    "1.20.1+quilt": [
+      "THGCJz5A"
+    ]
+  }
+}

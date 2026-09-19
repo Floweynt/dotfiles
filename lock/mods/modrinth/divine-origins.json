@@ -1,0 +1,119 @@
+{
+  "slug": "divine-origins",
+  "projectId": "jrA18Qdg",
+  "versions": {
+    "2mly7TYb": {
+      "filename": "divine_origins-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/jrA18Qdg/versions/2mly7TYb/divine_origins-1.3.0.jar",
+      "hash": "sha512-5Fe4yz2aF/qthFfHtK0cutpR5Tu+1Rqq58c8OPfWJ7Ex96/O6AILu8r5CvYLWFmwumL3uwzCUYPpoCwL9GsYyw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "BDnhsznR": {
+      "filename": "divine_origins-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jrA18Qdg/versions/1.0.0/divine_origins-1.0.0.jar",
+      "hash": "sha512-Er9DU9qTg0zJCB0mg+2hHfliboFd2C2dfc08NNlEJE8PwwBkJnkTsEK/H87siQ7iYqcoWoQVfxg9JzMyFnp0+A==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GZl0pkuk": {
+      "filename": "divine_origins-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jrA18Qdg/versions/1.1.0/divine_origins-1.1.0.jar",
+      "hash": "sha512-pNqldYAuhWfGTEEl7hLXwr+Rqopru6rj/Pyet3+EqgJ0lmGQUqqGBrZaeaCLGj704XDALxL2CH5YfFLRJqoBLg==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RtNXMp0P": {
+      "filename": "divine_origins-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jrA18Qdg/versions/1.2.0/divine_origins-1.2.0.jar",
+      "hash": "sha512-wKxlCdstXWgilPlc+2KDm4Zs5r9cNKEDJTrZ4zivrRJgpD0DMTfzZpw+rNrmhV/y2F+76yGQLGM3U1taNe48Qg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "ciZxnL4S": {
+      "filename": "divine_origins-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/jrA18Qdg/versions/ciZxnL4S/divine_origins-1.4.0.jar",
+      "hash": "sha512-Z27iy7CcBoSJ5xBfSedumSQ8b75icGYk1j+vYHEVUqz9i0uC5kLsD2fib7pT+nscl0zRYIR1/0HYsupC9bYzPQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "GZl0pkuk",
+      "BDnhsznR"
+    ],
+    "1.17.1+fabric": [
+      "GZl0pkuk",
+      "BDnhsznR"
+    ],
+    "1.19+fabric": [
+      "RtNXMp0P"
+    ],
+    "1.19.2+fabric": [
+      "2mly7TYb"
+    ],
+    "1.19.2+quilt": [
+      "2mly7TYb"
+    ],
+    "1.20.1+fabric": [
+      "ciZxnL4S"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "bewitchmentjei",
+  "projectId": "crCTnaxN",
+  "versions": {
+    "GrQ1OK62": {
+      "filename": "BewitchmentJEI-20.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/crCTnaxN/versions/GrQ1OK62/BewitchmentJEI-20.1.0.jar",
+      "hash": "sha512-8UFW5s9J1EwlfGdpGXbxKw68Ug0aC6OfEhiQGzNdncERaJgWpZ3FFpGG1vm3PHS/3gk0phB1nr72ay/tCLQU5w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "bewitchment",
+          "projectId": "AKbBSvuC",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    },
+    "XIIDN0My": {
+      "filename": "BewitchmentJEI-18.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/crCTnaxN/versions/XIIDN0My/BewitchmentJEI-18.2.0.jar",
+      "hash": "sha512-PnD1r2wHH6uAw2+fmgjnNwZJ4w4Su5ZHs7pOidBcYopS9k2ncO2O8sEEwqORX4kgXC8v0W/p9cMuj26kH1LbMw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "bewitchment",
+          "projectId": "AKbBSvuC",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    },
+    "Zqq4GVJ6": {
+      "filename": "BewitchmentJEI-19.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/crCTnaxN/versions/Zqq4GVJ6/BewitchmentJEI-19.2.0.jar",
+      "hash": "sha512-0FJxQbtYlkNOa8yN7Qy7bzOo2XnMJE8ZIKxFNG+nY1nmVXfOtLEGU8C7Z8UMDCN9Eqbaz1uAdo4lVSpRWag1Kg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "bewitchment",
+          "projectId": "AKbBSvuC",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "XIIDN0My"
+    ],
+    "1.19.2+fabric": [
+      "Zqq4GVJ6"
+    ],
+    "1.20.1+fabric": [
+      "GrQ1OK62"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "codelib",
+  "projectId": "XWtypImT",
+  "versions": {
+    "g9FOfUch": {
+      "filename": "codelib-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/XWtypImT/versions/g9FOfUch/codelib-1.0.0%2B1.20.jar",
+      "hash": "sha512-ZP2igDvR2+7n66rvK5a5jvtb2E0yjxLXTkba1WetzcwaLR8hTeafrPy2+J7XzoPI8W98av7Uvr8MBEBzTlCdkQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "hGsioGnP": {
+      "filename": "codelib-1.0.1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/XWtypImT/versions/hGsioGnP/codelib-1.0.1%2B1.20.jar",
+      "hash": "sha512-k2dHoCjXqc9lqYruCPyEUBNG0YPHl0mrS0gmZ3azrAU6FeW1WDAcMRRvToLD5USRUgWR8M5I3sN6eX3c9tSWKQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "hGsioGnP",
+      "g9FOfUch"
+    ],
+    "1.20+quilt": [
+      "hGsioGnP",
+      "g9FOfUch"
+    ],
+    "1.20.1+fabric": [
+      "hGsioGnP",
+      "g9FOfUch"
+    ],
+    "1.20.1+quilt": [
+      "hGsioGnP",
+      "g9FOfUch"
+    ],
+    "1.20.2+fabric": [
+      "hGsioGnP"
+    ],
+    "1.20.2+quilt": [
+      "hGsioGnP"
+    ]
+  }
+}

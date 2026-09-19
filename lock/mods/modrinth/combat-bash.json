@@ -1,0 +1,116 @@
+{
+  "slug": "combat-bash",
+  "projectId": "eYOJnfc4",
+  "versions": {
+    "8FSEl7uA": {
+      "filename": "CombatBash-1.20.1-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/eYOJnfc4/versions/8FSEl7uA/CombatBash-1.20.1-1.3.jar",
+      "hash": "sha512-bkExoK5WJWtaiLmoj6w8Xq+ZEjZZ/W12e+IKaGCCEsGyW2u0tHJaIoqxlg1Ou/vEYeZt8sM4OfzdD5UVEwAHaw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        }
+      ]
+    },
+    "GuKJKRYh": {
+      "filename": "CombatBash-1.20.1-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/eYOJnfc4/versions/GuKJKRYh/CombatBash-1.20.1-1.2.1.jar",
+      "hash": "sha512-og0h9Fw86JfYztQmjhT/3JqR35FWtiR56igg5XiTVKGkGBAuP/yog064wQCyTAqpTvLPxu2fYjBCtMckbRlaIw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        }
+      ]
+    },
+    "cexYVReF": {
+      "filename": "CombatBash-1.19.2-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/eYOJnfc4/versions/cexYVReF/CombatBash-1.19.2-1.2.1.jar",
+      "hash": "sha512-JWx+/bQU3SmbSnCYa3BhJTn9RrosqZdF3uDEkMqPAy8YeLtEaOGGK+WsAeWpZompOnxzGCoCimTmXY5vN5LltQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        }
+      ]
+    },
+    "d0tBNkFr": {
+      "filename": "CombatBash-1.19.2-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/eYOJnfc4/versions/d0tBNkFr/CombatBash-1.19.2-1.3.jar",
+      "hash": "sha512-qG7QE28PucLuXjmpryOznNGQ1A1fw+JSFLIrEbHFTZEesc9gJFV3TixAVrT2fz2xvZTe2FdPqJ7lDUrHuiupSg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "d0tBNkFr",
+      "cexYVReF"
+    ],
+    "1.19.3+forge": [
+      "cexYVReF"
+    ],
+    "1.19.4+forge": [
+      "cexYVReF"
+    ],
+    "1.20.1+fabric": [
+      "8FSEl7uA",
+      "GuKJKRYh"
+    ],
+    "1.20.2+fabric": [
+      "GuKJKRYh"
+    ],
+    "1.20.3+fabric": [
+      "GuKJKRYh"
+    ],
+    "1.20.4+fabric": [
+      "GuKJKRYh"
+    ]
+  }
+}

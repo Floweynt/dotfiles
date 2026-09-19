@@ -1,0 +1,52 @@
+{
+  "slug": "superman",
+  "projectId": "SyQTwx3i",
+  "versions": {
+    "LLgUMVPf": {
+      "filename": "superman-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SyQTwx3i/versions/LLgUMVPf/superman-1.0.0.jar",
+      "hash": "sha512-et3bnn0pP1J0Z+lT26Otn8D2pIQgkOrxudkjc2Dma3QEHIqzBYPBeBT8+kSxXG7JeeY2+OvMMy7EGD0T6FrBcg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "LLgUMVPf"
+    ],
+    "1.20+quilt": [
+      "LLgUMVPf"
+    ],
+    "1.20.1+fabric": [
+      "LLgUMVPf"
+    ],
+    "1.20.1+quilt": [
+      "LLgUMVPf"
+    ]
+  }
+}

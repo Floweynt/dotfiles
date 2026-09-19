@@ -1,0 +1,176 @@
+{
+  "slug": "persistent-creative-inventory",
+  "projectId": "b6Drmxwj",
+  "versions": {
+    "EkR0F9LV": {
+      "filename": "PersistentCreativeInventory-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/b6Drmxwj/versions/EkR0F9LV/PersistentCreativeInventory-1.0.0.jar",
+      "hash": "sha512-il1PPCjfNF/sRoGV4QVnZwDb9+kDzKoC/U6BOqj7j4H685VDN6guJU3VujSPT6sTkH3r5bmUObnjv1tY+iZ1RA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kiwi",
+          "projectId": "ufdDoWPd",
+          "type": "required"
+        }
+      ]
+    },
+    "RM2Z7TIm": {
+      "filename": "PersistentCreativeInventory-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/b6Drmxwj/versions/RM2Z7TIm/PersistentCreativeInventory-1.0.1.jar",
+      "hash": "sha512-SYk3IlClB7UUiJSkwJivJaYylPg6LG+no71fdrlCXxCswUKgsvsdH2IKzYAsEKLKm4+QjuoUmV5w3kONog8ltg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kiwi",
+          "projectId": "ufdDoWPd",
+          "type": "required"
+        }
+      ]
+    },
+    "rDOzvtn1": {
+      "filename": "PersistentCreativeInventory-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/b6Drmxwj/versions/rDOzvtn1/PersistentCreativeInventory-0.0.2.jar",
+      "hash": "sha512-SnHQaKpp6vtTfbxoP6lpv+BAg0G6PhX+VfkqoSMsDH3qUM/sAZ7TOVtJFNIqo/fvmz3z8Zssk12iWXTouNKP1g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kiwi",
+          "projectId": "ufdDoWPd",
+          "type": "required"
+        }
+      ]
+    },
+    "wiW6wZ5p": {
+      "filename": "PersistentCreativeInventory-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/b6Drmxwj/versions/wiW6wZ5p/PersistentCreativeInventory-0.0.1.jar",
+      "hash": "sha512-FuXYT9EWZ3hWZ7TNskwSGy77Atif6AokBqWiDXhlp0KAfbZKyiBAtJI42JIqCXuKrD9j4Dnv51qZi9JVSHZFCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kiwi",
+          "projectId": "ufdDoWPd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "rDOzvtn1"
+    ],
+    "1.20+forge": [
+      "rDOzvtn1"
+    ],
+    "1.20+neoforge": [
+      "rDOzvtn1"
+    ],
+    "1.20+quilt": [
+      "rDOzvtn1"
+    ],
+    "1.20.1+fabric": [
+      "rDOzvtn1"
+    ],
+    "1.20.1+forge": [
+      "rDOzvtn1",
+      "wiW6wZ5p"
+    ],
+    "1.20.1+neoforge": [
+      "rDOzvtn1",
+      "wiW6wZ5p"
+    ],
+    "1.20.1+quilt": [
+      "rDOzvtn1"
+    ],
+    "1.21+fabric": [
+      "RM2Z7TIm",
+      "EkR0F9LV"
+    ],
+    "1.21+neoforge": [
+      "RM2Z7TIm"
+    ],
+    "1.21+quilt": [
+      "RM2Z7TIm",
+      "EkR0F9LV"
+    ],
+    "1.21.1+fabric": [
+      "RM2Z7TIm",
+      "EkR0F9LV"
+    ],
+    "1.21.1+neoforge": [
+      "RM2Z7TIm"
+    ],
+    "1.21.1+quilt": [
+      "RM2Z7TIm",
+      "EkR0F9LV"
+    ],
+    "26.1+fabric": [
+      "RM2Z7TIm"
+    ],
+    "26.1+neoforge": [
+      "RM2Z7TIm"
+    ],
+    "26.1+quilt": [
+      "RM2Z7TIm"
+    ],
+    "26.1.1+fabric": [
+      "RM2Z7TIm"
+    ],
+    "26.1.1+neoforge": [
+      "RM2Z7TIm"
+    ],
+    "26.1.1+quilt": [
+      "RM2Z7TIm"
+    ],
+    "26.1.2+fabric": [
+      "RM2Z7TIm"
+    ],
+    "26.1.2+neoforge": [
+      "RM2Z7TIm"
+    ],
+    "26.1.2+quilt": [
+      "RM2Z7TIm"
+    ]
+  }
+}

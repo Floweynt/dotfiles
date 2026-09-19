@@ -1,0 +1,42 @@
+{
+  "slug": "mixed-vertical-slabs",
+  "projectId": "EL6iF0vw",
+  "versions": {
+    "hUg0RvXQ": {
+      "filename": "mixed-vertical-slabs-fabric-1-21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EL6iF0vw/versions/hUg0RvXQ/mixed-vertical-slabs-fabric-1-21-1.0.0.jar",
+      "hash": "sha512-Fw3n6GoXYhL/pAcyRYRdxps9I8sbwsfwZ/6ia+24TXxFJe26GZ6MdDZIh3tFt2nNYntGeOHmAfTQbzvCCWgvuA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vertical-slabs-",
+          "projectId": "L7xZMcyy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "hUg0RvXQ"
+    ],
+    "1.21+quilt": [
+      "hUg0RvXQ"
+    ],
+    "1.21.1+fabric": [
+      "hUg0RvXQ"
+    ],
+    "1.21.1+quilt": [
+      "hUg0RvXQ"
+    ]
+  }
+}

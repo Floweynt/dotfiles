@@ -1,0 +1,31 @@
+{
+  "slug": "unfun",
+  "projectId": "jwchjBmQ",
+  "versions": {
+    "2gPyRlmK": {
+      "filename": "unfun-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jwchjBmQ/versions/2gPyRlmK/unfun-1.0.1.jar",
+      "hash": "sha512-zpgS+nGaKkUOCwBzG/1y3/xRqWZGNEbPznrlwJ+7dGWYdArPWgPyaX+CLegnMdc3Fk1E5U6r6BoxwtIbnNCB9g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "2gPyRlmK"
+    ]
+  }
+}

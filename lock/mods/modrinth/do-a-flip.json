@@ -1,0 +1,696 @@
+{
+  "slug": "do-a-flip",
+  "projectId": "S23ik8wV",
+  "versions": {
+    "1GfofE30": {
+      "filename": "DoAFlip-forge-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/1GfofE30/DoAFlip-forge-1.20.1-1.1.0.jar",
+      "hash": "sha512-2hTgweElSNZ72/AC4n/BOFseGuEtl2eC874sf3zt3ySYspUDR7OeEUrIYNBEtBBVux99nr4o85Qy/YRsieH0nA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "2W4G680B": {
+      "filename": "DoAFlip-fabric-1.21.11-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/2W4G680B/DoAFlip-fabric-1.21.11-11.0.0.jar",
+      "hash": "sha512-dVxqYUKr3/i95bUYnfxTsXSmejq4MIxhyM9pRFC9vyC4Yggdkjg/NF4eOpG7dxhdIV6kUz7cidz8yJAfdiCsBw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "8yYEBs50": {
+      "filename": "DoAFlip-neoforge-1.20.6-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/8yYEBs50/DoAFlip-neoforge-1.20.6-3.0.0.jar",
+      "hash": "sha512-+84/JbRQFqXLSo3P/qC3R7PeFWYqrHpGiqToPJ39rK4U1p4j2ueUJOb1/egyMgXeY/OQN+OdbAVsEBBraLpwoQ==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ArhaAUni": {
+      "filename": "DoAFlip-forge-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/ArhaAUni/DoAFlip-forge-1.20.1-1.2.0.jar",
+      "hash": "sha512-PEo2d6lFojvoTq/QX5GACpMDLzFXLGW0L7ErBEhcmq29HVnpkx4ZG/06EE5Z20zXxYWKWNd1j524yXyrZrjJBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "BduYprls": {
+      "filename": "DoAFlip-fabric-1.21.10-10.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/BduYprls/DoAFlip-fabric-1.21.10-10.0.0.jar",
+      "hash": "sha512-ulXK3mazZJCP49yORB1Ebh34I+rZDeNm/WqLxtjIb3H6ar2ClD7356xlLLTEnc83mfbgAe1O46A9LcpcbwMgNQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "E7IoNaQ3": {
+      "filename": "DoAFlip-neoforge-1.21.1-4.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/E7IoNaQ3/DoAFlip-neoforge-1.21.1-4.1.0.jar",
+      "hash": "sha512-9wx58hZJzLxihAtwFOfr6H3Zyoeyd2pO0OPCM7VxW7fTZI0CYyhjE8gRMvOkX48o68Emmpi7du5bZASiegvxiQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "GVTsPfTL": {
+      "filename": "DoAFlip-fabric-26.1.2-12.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/GVTsPfTL/DoAFlip-fabric-26.1.2-12.0.0.jar",
+      "hash": "sha512-YJqLbLM4hSrfVME+IudoHYSoL3JBzrdpSG2dVfuY2ijPZfYAFPfCXZBymGcMyyE+3z1u9gDB5oV8Ic54XQJKdA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "I1mJvG9Z": {
+      "filename": "DoAFlip-fabric-1.21.7-9.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/I1mJvG9Z/DoAFlip-fabric-1.21.7-9.0.0.jar",
+      "hash": "sha512-nBhcp4RuNRL22CgkGY3+iJ78Eie6JzmYnlRosiO5pAKH9Dlrq2XTy9OXlhcyV07NT/KQZqZZMurAnPjCWG8GDA==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "I7mvBI4t": {
+      "filename": "DoAFlip-fabric-1.21-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/I7mvBI4t/DoAFlip-fabric-1.21-4.0.0.jar",
+      "hash": "sha512-UxyMo11ZEfBfr9+EESTsAaFpl7dOrcO9TWF/LUpHoJw3gPMff/nI2sbqGdk4D7qkXNblw+gQa+MX85koiS3rBw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ILgKBlPL": {
+      "filename": "DoAFlip-neoforge-1.21.4-6.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/ILgKBlPL/DoAFlip-neoforge-1.21.4-6.0.0.jar",
+      "hash": "sha512-t9JUcFUFo4c39OrrODIl7VFneamBFx3fBAMNicMH2j+2kTIcQePSfR3O0PHl0KSE3jJYadu9tk+/JbJR3vd4Zw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "JeW56ZFb": {
+      "filename": "DoAFlip-fabric-1.21.6-8.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/JeW56ZFb/DoAFlip-fabric-1.21.6-8.0.0.jar",
+      "hash": "sha512-oucrxTwITP/1mqS8DSy1xpmrfX/ftm9BMWAZlKMlMNweKIZHB7GvoL5kzuaLvpJ3q9R+aEyKpsFz5WuMJ7Oh6A==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MfYDzSEe": {
+      "filename": "DoAFlip-fabric-1.21.4-6.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/MfYDzSEe/DoAFlip-fabric-1.21.4-6.0.0.jar",
+      "hash": "sha512-zSXFg7LaG0h35Ns6XTQ8i54B+XRTiYmI6NWQ3zrsQ1HnwFXKtStMvpTxpPIH1R4c1Vpc5MOB+G1phIe0V5gZ+A==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "NvPgDlin": {
+      "filename": "DoAFlip-neoforge-1.20.4-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/NvPgDlin/DoAFlip-neoforge-1.20.4-2.0.0.jar",
+      "hash": "sha512-Q1k1b80CIcNWBMfsCze0zsFXDfxLtITuQE4uOixsyJr0Iau7/JY0eTQbh2F0FP8t/uA+QxheruO9Mp36WC9NOw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VaNzDmkG": {
+      "filename": "DoAFlip-fabric-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/VaNzDmkG/DoAFlip-fabric-1.20.1-1.2.0.jar",
+      "hash": "sha512-qjo9y0prmbv5ZXpjlucHv6Rq9K+li9zk8A1cQ1ZlcotRyWVNmd3333xmsRLGQhZvE4KtkMHrzOvSEUsLgv91gA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YNRHNxss": {
+      "filename": "DoAFlip-fabric-1.20.6-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/YNRHNxss/DoAFlip-fabric-1.20.6-3.0.0.jar",
+      "hash": "sha512-Tk51X5rDv0qQbgoKOCv6oOBbIf3TqEfy/rE2CUduT5VoktutukPraRe3M+NQJUGCJPcFdhxF71sACAeHpaLiCw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bV3DuoiO": {
+      "filename": "DoAFlip-neoforge-1.21.3-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/bV3DuoiO/DoAFlip-neoforge-1.21.3-5.0.0.jar",
+      "hash": "sha512-9h1wreFSaAUWwf+q0Wm3IwMb4WkJchTg4CeHM8bfw6hnprbOG5l8jHf3eMpzwHpxG+hRmm1KZxLXnQJRObZABA==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cnMxkHek": {
+      "filename": "DoAFlip-fabric-1.21.8-9.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/cnMxkHek/DoAFlip-fabric-1.21.8-9.1.0.jar",
+      "hash": "sha512-RfAITtG2cZqImp1ZEtp+AompNnEJXGRAWQGEBOuQL9x8e2VAzqJl1cdRFAnW4q/9149Bnmk0WzOqZSse57aHHQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ec7oQ0cb": {
+      "filename": "DoAFlip-fabric-1.20.4-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/ec7oQ0cb/DoAFlip-fabric-1.20.4-2.0.0.jar",
+      "hash": "sha512-ab4qRuUML4g0zmk4sy6lOdpZeOCfelnb/eDSI3wO0X6iRZeFqVpFxzYjYphWLuP3sGVUSjyDrtKRGbMN7K1J/g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "fwFEKcxu": {
+      "filename": "DoAFlip-neoforge-1.21.7-9.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/fwFEKcxu/DoAFlip-neoforge-1.21.7-9.0.0.jar",
+      "hash": "sha512-ByfmgmE5XwDgQALfyDoB8GaWW+jhbIVbMMot7FZglpNro/wSspkD1i28EDpE1Cg/+NPaUY85JJWF2BPtsDT/Iw==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "g7UBbTZH": {
+      "filename": "DoAFlip-neoforge-26.1.2-12.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/g7UBbTZH/DoAFlip-neoforge-26.1.2-12.0.0.jar",
+      "hash": "sha512-Ef+wDRB3bo9q/UhkDoMNjyGXInTc4qp2s6Jetvyeayu8jGaiQJ8Z6Eko3JvBITyEJt3H97qpp7osXG6OjmXJfA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "hnDWgLE8": {
+      "filename": "DoAFlip-neoforge-1.21.8-9.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/hnDWgLE8/DoAFlip-neoforge-1.21.8-9.1.0.jar",
+      "hash": "sha512-Zo923uXapvZDYMC8x8est9fUvjhWsqVIKj/i+3PUgKsD6nGTjUMxObTQbPjUyppAZiRhyR6xs/LLWoxmDzZmtw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "hyq3AIs4": {
+      "filename": "DoAFlip-neoforge-1.21.10-10.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/hyq3AIs4/DoAFlip-neoforge-1.21.10-10.0.0.jar",
+      "hash": "sha512-O7Indy7BsHyJs/u61iyjINSSbHpiCeO/CuJ9sZ82fAQMWbc00wQlqqAHIYSV5CRfM7MGM34r2GMuc2SVhhfFsw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "jg2dCtdy": {
+      "filename": "DoAFlip-fabric-1.21.3-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/jg2dCtdy/DoAFlip-fabric-1.21.3-5.0.0.jar",
+      "hash": "sha512-z6irtD8YEM4KuYHTI1oYlYTmzodaHnaadavM31hvSD/PKUKHLlvBsqRoxq8u4T/0CBsBLHc/EIXmURzxX4yYqA==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ltNQMLaS": {
+      "filename": "DoAFlip-fabric-1.21.1-4.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/ltNQMLaS/DoAFlip-fabric-1.21.1-4.1.0.jar",
+      "hash": "sha512-gKfFhk+oxq4ANFvbn2OgjYkPzCspt5NzzWxybQB9IbjbYdAsZSSf25C2v35eH0ZZWjScFNrJd66l91NgrbgHvg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "mJuxjU8B": {
+      "filename": "DoAFlip-fabric-1.21.5-7.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/mJuxjU8B/DoAFlip-fabric-1.21.5-7.0.0.jar",
+      "hash": "sha512-PNLsQ+JKM5fBylwjgAsYKzVBh39qeSu0uRpTIZT8bhsLBnKxNmOzDo/jIXySMDOUH0+XjotnWcPTRNr4KeGG0Q==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "nuxtKuvf": {
+      "filename": "DoAFlip-neoforge-1.21.6-8.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/nuxtKuvf/DoAFlip-neoforge-1.21.6-8.0.0.jar",
+      "hash": "sha512-DTopQjRIvvW9sz1NHoDzxwTC51ZScoCzqeK5bB22IJ10DCOyoe1KFeIyl1geQSpNU5KETFWAKu5IIBBqx5+8RA==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nxEm6z4p": {
+      "filename": "DoAFlip-fabric-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/nxEm6z4p/DoAFlip-fabric-1.20.1-1.1.0.jar",
+      "hash": "sha512-dUGetKWq2Tg495zbgE6KnK4JYib15Nt8wEA1/iMghRWFMU/kC6bcsDiRYtaQHOAGownxdRsmbtE2cfUhxWq4nQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oUiJZgWq": {
+      "filename": "DoAFlip-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/oUiJZgWq/DoAFlip-1.20.1-1.0.0.jar",
+      "hash": "sha512-cBW1JeVDuQT1k2LX6fytmb9XKf5LjjxtuqhunmeedgJnuF134j2KjKw1nYIminazEJJfzjFes88LCMb9s9meXA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "pQEiACWy": {
+      "filename": "DoAFlip-neoforge-1.21.5-7.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/pQEiACWy/DoAFlip-neoforge-1.21.5-7.0.0.jar",
+      "hash": "sha512-BgfDREXZKYY/chflihLk7lYeU3jLV98NkWmczU4aPO8KnhJdK+jXIALAHcayLyILXG1GP1vhb1YNGpC4RIbMsg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "siV1z1gI": {
+      "filename": "DoAFlip-neoforge-1.21-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/siV1z1gI/DoAFlip-neoforge-1.21-4.0.0.jar",
+      "hash": "sha512-tYIsJRFNX8puMDmHtoDBkVIrXMqYBwsm2x2nwAMSAOjlh4VKCFz0venCQAUvdgJ2TFhDHKXmg+gIa5DqxK5epg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "tro5q20f": {
+      "filename": "DoAFlip-neoforge-1.21.11-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S23ik8wV/versions/tro5q20f/DoAFlip-neoforge-1.21.11-11.0.0.jar",
+      "hash": "sha512-b4FUATHAIMq8QO5AtbYR0JjxWZ0dTfUfxJcZY9lF3waxj3URFf1DG4y9Tvv8mjRehLjoXOCVtqe/GVTEpJ6Sqw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nxEm6z4p"
+    ],
+    "1.20.1+forge": [
+      "VaNzDmkG",
+      "ArhaAUni",
+      "1GfofE30",
+      "oUiJZgWq"
+    ],
+    "1.20.1+neoforge": [
+      "VaNzDmkG",
+      "ArhaAUni",
+      "1GfofE30"
+    ],
+    "1.20.4+fabric": [
+      "ec7oQ0cb"
+    ],
+    "1.20.4+neoforge": [
+      "NvPgDlin"
+    ],
+    "1.20.6+fabric": [
+      "YNRHNxss"
+    ],
+    "1.20.6+neoforge": [
+      "8yYEBs50"
+    ],
+    "1.21+fabric": [
+      "I7mvBI4t"
+    ],
+    "1.21+neoforge": [
+      "siV1z1gI"
+    ],
+    "1.21.1+fabric": [
+      "ltNQMLaS",
+      "I7mvBI4t"
+    ],
+    "1.21.1+neoforge": [
+      "E7IoNaQ3",
+      "siV1z1gI"
+    ],
+    "1.21.10+fabric": [
+      "BduYprls"
+    ],
+    "1.21.10+neoforge": [
+      "hyq3AIs4"
+    ],
+    "1.21.11+fabric": [
+      "2W4G680B"
+    ],
+    "1.21.11+neoforge": [
+      "tro5q20f"
+    ],
+    "1.21.3+fabric": [
+      "jg2dCtdy"
+    ],
+    "1.21.3+neoforge": [
+      "bV3DuoiO"
+    ],
+    "1.21.4+fabric": [
+      "MfYDzSEe"
+    ],
+    "1.21.4+neoforge": [
+      "ILgKBlPL"
+    ],
+    "1.21.5+fabric": [
+      "mJuxjU8B"
+    ],
+    "1.21.5+neoforge": [
+      "pQEiACWy"
+    ],
+    "1.21.6+fabric": [
+      "JeW56ZFb"
+    ],
+    "1.21.6+neoforge": [
+      "nuxtKuvf"
+    ],
+    "1.21.7+fabric": [
+      "I1mJvG9Z"
+    ],
+    "1.21.7+neoforge": [
+      "fwFEKcxu"
+    ],
+    "1.21.8+fabric": [
+      "cnMxkHek"
+    ],
+    "1.21.8+neoforge": [
+      "hnDWgLE8"
+    ],
+    "26.1.2+fabric": [
+      "GVTsPfTL"
+    ],
+    "26.1.2+neoforge": [
+      "g7UBbTZH"
+    ]
+  }
+}

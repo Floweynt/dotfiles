@@ -1,0 +1,48 @@
+{
+  "slug": "cpvp-utilities",
+  "projectId": "AbPn7f4Q",
+  "versions": {
+    "QDsJdKlN": {
+      "filename": "S4nnT1-Utilities-1.21.4-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/AbPn7f4Q/versions/QDsJdKlN/S4nnT1-Utilities-1.21.4-1.0.1.jar",
+      "hash": "sha512-e9mr0BSrEHNfkCt7D7qHEI3ywckgH42qHvVvvbHBvWq8e9830wHm8fIY4KsfDF5Rkhg7c4N+b1DedO3bvw1VWg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mvR4JqET": {
+      "filename": "S4nnT1-Utilities-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/AbPn7f4Q/versions/mvR4JqET/S4nnT1-Utilities-1.21.1-1.0.1.jar",
+      "hash": "sha512-7Y5wWbajKSC55VvIvymTabUe2E+VWypTWl14PbRoGlzHP4OzdtB3i8Btt/UShD7BkJinm6/Pu7tfehEME6nR0g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "mvR4JqET"
+    ],
+    "1.21.4+fabric": [
+      "QDsJdKlN"
+    ]
+  }
+}

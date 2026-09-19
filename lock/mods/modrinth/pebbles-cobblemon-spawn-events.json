@@ -1,0 +1,148 @@
+{
+  "slug": "pebbles-cobblemon-spawn-events",
+  "projectId": "p2sZFuwO",
+  "versions": {
+    "8u8MhP1m": {
+      "filename": "pebbles-spawnevents-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/p2sZFuwO/versions/8u8MhP1m/pebbles-spawnevents-fabric-1.0.0.jar",
+      "hash": "sha512-30rB7DP7IQMLSE45L/VoTvB25FeDDGLD0Y9Z1VadS/WTb5qWV50O/ku7ns24SY9ofKRBKYS7UMJrSMfkcBUGIQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "9DQB1yMr": {
+      "filename": "pebbles-spawn-event-1.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/p2sZFuwO/versions/9DQB1yMr/pebbles-spawn-event-1.0.1-1.21.1.jar",
+      "hash": "sha512-nx1A5mWvtTCpn1DHJP+VL97YtWO900oi8bICiMBv2exWlTOP6hpNMHf2oOUX9H5cH4U+WqPTU1C6L9HWBUMNxw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RaX9cYDD": {
+      "filename": "pebbles-spawnevents-1.0.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/p2sZFuwO/versions/RaX9cYDD/pebbles-spawnevents-1.0.1-forge.jar",
+      "hash": "sha512-D2NYR2cFm7ZzZNrzSQjAvhp0UNmj7DliCa5JJu9UEt5YEeO+YN746N1/Sc0jrSwEYqPe4hDHYK+bKvMk0zvRSQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Z0raU6TO": {
+      "filename": "pebbles-spawnevents-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/p2sZFuwO/versions/Z0raU6TO/pebbles-spawnevents-1.0.0-forge.jar",
+      "hash": "sha512-0RrkQA//QiA3xWoD3x8IQrw04wYgThao4FuvhG8zmGsgCAnC1mhKms2BVnbYOFDu6R0JC7bCFKmTPHFh3vdDYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "kxAMvhBv": {
+      "filename": "pebbles-spawnevents-1.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/p2sZFuwO/versions/kxAMvhBv/pebbles-spawnevents-1.0.1-fabric.jar",
+      "hash": "sha512-UAoAZXkKJWLNpIoSgq4jnMfxbcTewTQpttsHYEdJklsFRRO1pmyrt1xsV/eLOVcwal1hSTAmy6tYhcms5mxhYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kxAMvhBv",
+      "8u8MhP1m"
+    ],
+    "1.20.1+forge": [
+      "RaX9cYDD",
+      "Z0raU6TO"
+    ],
+    "1.21.1+fabric": [
+      "9DQB1yMr"
+    ]
+  }
+}

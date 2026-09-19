@@ -1,0 +1,77 @@
+{
+  "slug": "authcore",
+  "projectId": "qs5rvacf",
+  "versions": {
+    "CocuPqE5": {
+      "filename": "authcore-1.0.0-26.1.2-alpha.2.jar",
+      "url": "https://cdn.modrinth.com/data/qs5rvacf/versions/CocuPqE5/authcore-1.0.0-26.1.2-alpha.2.jar",
+      "hash": "sha512-dmiVHugcnEl+QNq8H4GRl5EB6sOeYce13+qK9fnFPBauAoZPqidvy7E6ydJs6gFBIpVYhadBbnNEsNZhKBfr0Q==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LY3wz8SI": {
+      "filename": "authcore-1.0.0-alpha.1.jar",
+      "url": "https://cdn.modrinth.com/data/qs5rvacf/versions/LY3wz8SI/authcore-1.0.0-alpha.1.jar",
+      "hash": "sha512-nqMGY+Y064Bb0HI84yjON3Qc6TVeBZG7syK+jX5bRn/G9Giip0mcpZkIkl5b1dErGZRApEIqtyqWAtKsvN+Xqg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RRNQcFWw": {
+      "filename": "authcore-1.0.0-26.2-alpha.2.jar",
+      "url": "https://cdn.modrinth.com/data/qs5rvacf/versions/RRNQcFWw/authcore-1.0.0-26.2-alpha.2.jar",
+      "hash": "sha512-8FfBstMRt5c97b3Cm2ZpdRGNJ80gzGgZGmyDoGvYXdda/a6syC3mUNhUm1pDfUJBTjaMg2urdaG0JHPsHxNUqQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "LY3wz8SI"
+    ],
+    "26.1.2+fabric": [
+      "CocuPqE5"
+    ],
+    "26.2+fabric": [
+      "RRNQcFWw"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "treefell",
+  "projectId": "nUmZxXAW",
+  "versions": {
+    "BbsTUTNA": {
+      "filename": "treefell-1.0.0+26.2-Beta.2.jar",
+      "url": "https://cdn.modrinth.com/data/nUmZxXAW/versions/BbsTUTNA/treefell-1.0.0%2B26.2-Beta.2.jar",
+      "hash": "sha512-AxhQGcJKklRBD7C7+WfdDZpKLIhWkFmmgjDlSGix2B30yrXAdJWJeBXrOMi3vwB6ZBa8hfII+8dPdsDP4iiK0w==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "DDxxn2Qc": {
+      "filename": "treefell-1.0.0+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/nUmZxXAW/versions/DDxxn2Qc/treefell-1.0.0%2B26.2.jar",
+      "hash": "sha512-dOpgMFQ5NMg8tw5lzqMLwtQGwT4deeWe7ETfy7Q0bFslz0HHBL74qttkCYugf83CYrhQED7hUdOFP2nvMoFW0w==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FWIJNnaS": {
+      "filename": "treefell-1.0.0+26.2-Beta.1.jar",
+      "url": "https://cdn.modrinth.com/data/nUmZxXAW/versions/FWIJNnaS/treefell-1.0.0%2B26.2-Beta.1.jar",
+      "hash": "sha512-5iBNfTSs5iwjh2xQfAyNtdplqZX06/RXHfH11s8CU1t7LCAD1692psYkhveeA3NtUz4Y9t4/kOUkbEDaKsZ/8w==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "DDxxn2Qc",
+      "BbsTUTNA",
+      "FWIJNnaS"
+    ]
+  }
+}

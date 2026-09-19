@@ -1,0 +1,64 @@
+{
+  "slug": "auto-clutch",
+  "projectId": "CRF5hw7D",
+  "versions": {
+    "JWAve8Qk": {
+      "filename": "Auto Clutcher 1.20-1.20.1 1.0.zip",
+      "url": "https://cdn.modrinth.com/data/CRF5hw7D/versions/JWAve8Qk/Auto%20Clutcher%201.20-1.20.1%201.0.zip",
+      "hash": "sha512-4bKz+OPdcj08lGwnPvw2QE/6CAN4EEcNDFo78uoi6GduJERdUqiHZNPM3EhzaXeWoGL2GvhmM9FHiGscCM0y4A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "Tsfc8pkb": {
+      "filename": "auto-clutch-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/CRF5hw7D/versions/Tsfc8pkb/auto-clutch-1.0.jar",
+      "hash": "sha512-p34V4h0A9h6Uqhpm8BBwLkezIn/x4bz3qiVFPSZIDKq9gZzRAaoiyEbbVEhJda9YtORfocOVxILLN/cHXbbiqQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "JWAve8Qk"
+    ],
+    "1.20+fabric": [
+      "Tsfc8pkb"
+    ],
+    "1.20+forge": [
+      "Tsfc8pkb"
+    ],
+    "1.20+quilt": [
+      "Tsfc8pkb"
+    ],
+    "1.20.1+datapack": [
+      "JWAve8Qk"
+    ],
+    "1.20.1+fabric": [
+      "Tsfc8pkb"
+    ],
+    "1.20.1+forge": [
+      "Tsfc8pkb"
+    ],
+    "1.20.1+quilt": [
+      "Tsfc8pkb"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "mining-gadgets-fabric",
+  "projectId": "fh8A9BgU",
+  "versions": {
+    "FD6gNROU": {
+      "filename": "mininggadgets-1.11.0.jar",
+      "url": "https://cdn.modrinth.com/data/fh8A9BgU/versions/1.11.0/mininggadgets-1.11.0.jar",
+      "hash": "sha512-qU6w4OCZsZP6NyJLZPUjaOxJ5NI0k+PlepGdHX+IjCsOHEQS1HlRwTdR8SjYEUUwMYuSHFQsjjF96c6TEW3l9g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "T8F8tR1M": {
+      "filename": "mininggadgets-1.13.0.jar",
+      "url": "https://cdn.modrinth.com/data/fh8A9BgU/versions/T8F8tR1M/mininggadgets-1.13.0.jar",
+      "hash": "sha512-y8OZ1a0Bcmy0pnynffbF2/5gX+VB5jII08wDt4OzPzZy/tbkGXoaVu4AhfM8pJBzUCWCZmOdNHbQx9wNuqAz/A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "FD6gNROU"
+    ],
+    "1.18.2+quilt": [
+      "FD6gNROU"
+    ],
+    "1.19.2+fabric": [
+      "T8F8tR1M"
+    ],
+    "1.19.2+quilt": [
+      "T8F8tR1M"
+    ]
+  }
+}

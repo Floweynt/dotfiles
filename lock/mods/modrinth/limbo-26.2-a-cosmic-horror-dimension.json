@@ -1,0 +1,50 @@
+{
+  "slug": "limbo-26.2-a-cosmic-horror-dimension",
+  "projectId": "BT1t1ayp",
+  "versions": {
+    "Iv4QcDmn": {
+      "filename": "Limbo 26.2 prod V1.6.jar",
+      "url": "https://cdn.modrinth.com/data/BT1t1ayp/versions/Iv4QcDmn/Limbo%2026.2%20prod%20V1.6.jar",
+      "hash": "sha512-1DBg8Ro4YhiaEdzbEuUqdxmgnrVtnlwxAlh1DZTPmvHIprZqV6dWD0aRlYaQ9iCcnEwkeClaQnh+Pt0ijJ/P5A==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "f1BfSz71": {
+      "filename": "Limbo 26.2 prod V1.6.zip",
+      "url": "https://cdn.modrinth.com/data/BT1t1ayp/versions/f1BfSz71/Limbo%2026.2%20prod%20V1.6.zip",
+      "hash": "sha512-MuItYBoEgAtJzfkLocE+Jr4cin5DCsZAsGnTZPugpaubgIEsUIfxB8bX+DtPvBOCeAHY3OLD/whkS0/knsYCKQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.2+datapack": [
+      "f1BfSz71"
+    ],
+    "26.2+fabric": [
+      "Iv4QcDmn"
+    ],
+    "26.2+neoforge": [
+      "Iv4QcDmn"
+    ],
+    "26.2+quilt": [
+      "Iv4QcDmn"
+    ]
+  }
+}

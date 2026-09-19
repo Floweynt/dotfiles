@@ -1,0 +1,123 @@
+{
+  "slug": "defile",
+  "projectId": "DfvI9QGt",
+  "versions": {
+    "fcGEQCfX": {
+      "filename": "defile-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/DfvI9QGt/versions/fcGEQCfX/defile-1.0.0-1.20.1.jar",
+      "hash": "sha512-CJOH01zcMou3pbA8zjh1hUdpPyW3RUlB87uz5YjPKWb9W21Xi/eRYpbv/Rb/crnKXihmY+dqVLSsrhmj1vyKkQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ratatouille",
+          "projectId": "yufdeaJg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lxt2QwZh": {
+      "filename": "defile-1.0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/DfvI9QGt/versions/lxt2QwZh/defile-1.0.2-1.20.1.jar",
+      "hash": "sha512-ZN5zcLMKR+2RaRxU2HBrmzbfFqYukw8gIRXJs5RCegxyfmEWAnPnq0VOpFfVuBmSjpYohMBS8H/n9n0xKxxpZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ratatouille",
+          "projectId": "yufdeaJg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qEj3gRy9": {
+      "filename": "defile-0.0.1-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/DfvI9QGt/versions/qEj3gRy9/defile-0.0.1-1.19.2.jar",
+      "hash": "sha512-iwo9WlT3cdelpNSustp2kymNDThLkICcuoTDAt/7kIklevZ10VSTNdBj1V7++77l1YT2dlx7bhvkVQbx0k454Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sd8D1Rq7": {
+      "filename": "defile-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/DfvI9QGt/versions/sd8D1Rq7/defile-1.0.1-1.20.1.jar",
+      "hash": "sha512-0au0FqoIVJkzJ0GrHhFE4Qqtde9m1942cq0AxkpScrLsaNGCoOiE+J8+bXfEd24n8FcfbULr4IezGlNWsdLkFQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "ratatouille",
+          "projectId": "yufdeaJg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "qEj3gRy9"
+    ],
+    "1.19.2+quilt": [
+      "qEj3gRy9"
+    ],
+    "1.20.1+fabric": [
+      "lxt2QwZh",
+      "sd8D1Rq7",
+      "fcGEQCfX"
+    ],
+    "1.20.1+quilt": [
+      "lxt2QwZh",
+      "sd8D1Rq7",
+      "fcGEQCfX"
+    ]
+  }
+}

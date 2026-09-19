@@ -1,0 +1,145 @@
+{
+  "slug": "hotbar-lag-fixer",
+  "projectId": "rrWdhjP0",
+  "versions": {
+    "3SkLkN4h": {
+      "filename": "hotbarlagfixer-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/rrWdhjP0/versions/3SkLkN4h/hotbarlagfixer-1.0.2.jar",
+      "hash": "sha512-Oap3MVQnfrh0TxW/DJs6T87sW7mPNrf+chuGa10gaW2UfTr6uP8YPAVwR6b0exNpsSilyeIGhpOeDKiFWbyEVg==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "8svhijFc": {
+      "filename": "hotbarlagfixer-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/rrWdhjP0/versions/8svhijFc/hotbarlagfixer-1.0.3.jar",
+      "hash": "sha512-3MTx5gEhbmGvdnneAby6Q6FR8ry/nOfKzxaD26LxU/5T1oijxKVkXUNSFvGGy7Kpg/bzB0T4AzJBuLLC7LUtQA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "EIIDFjFu": {
+      "filename": "hotbarlagfixer-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/rrWdhjP0/versions/EIIDFjFu/hotbarlagfixer-1.0.3.jar",
+      "hash": "sha512-Eqaj0et8ZWkHl0jDWjAW8WgaclJZUEkDhMWHkMAtCsG2XJWapBHvofJ5P/ufOM6Li/sAMHgQi9PyPuANyl+Lag==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "HGfZFflg": {
+      "filename": "hotbarlagfixer-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/rrWdhjP0/versions/HGfZFflg/hotbarlagfixer-1.1.0.jar",
+      "hash": "sha512-KFTAuLdr6aHlxQRb4xItfyVWTSfXtUD5g8UiHmnXsysrCl7gfpjlltXwJ1mOvbta8Boo5qrdbEpJVCTzig5K2g==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "juGrgHZN": {
+      "filename": "hotbarlagfixer-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/rrWdhjP0/versions/juGrgHZN/hotbarlagfixer-1.1.1.jar",
+      "hash": "sha512-tACx0C0qbsgvnn0Z4avL8QwAxJV/UQMCYfMZFM7tMtutYHd8Z6IiO6hWwR9wnkMCtfrmxuWCLPABx+IZ0f5+BQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lv6QEmOf": {
+      "filename": "hotbarlagfixer-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/rrWdhjP0/versions/lv6QEmOf/hotbarlagfixer-1.0.1.jar",
+      "hash": "sha512-1XIvZSuVUzRDI8wo0ErVndMKXeraiIfnCpmD9LEu5Y7WPpwo/pirj0IhpLqEHUoqIUHs05UF0NZslnUQMJFz4g==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "sfNLjH6G": {
+      "filename": "hotbarlagfixer-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/rrWdhjP0/versions/sfNLjH6G/hotbarlagfixer-1.1.1.jar",
+      "hash": "sha512-aAjpjudPpOShD0X2Z0WTrB1CdjrGguow7uva2rXayHi8KMAlz6aI6/VdC94jFMKsC6p1tH16XOeuPgItXg5dHw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "HGfZFflg",
+      "8svhijFc",
+      "EIIDFjFu"
+    ],
+    "1.21.11+fabric": [
+      "HGfZFflg",
+      "8svhijFc"
+    ],
+    "1.21.5+fabric": [
+      "lv6QEmOf"
+    ],
+    "1.21.6+fabric": [
+      "lv6QEmOf",
+      "3SkLkN4h"
+    ],
+    "1.21.7+fabric": [
+      "lv6QEmOf"
+    ],
+    "26.1+fabric": [
+      "juGrgHZN"
+    ],
+    "26.1.1+fabric": [
+      "juGrgHZN"
+    ],
+    "26.2+fabric": [
+      "sfNLjH6G"
+    ]
+  }
+}

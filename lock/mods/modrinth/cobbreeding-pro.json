@@ -1,0 +1,84 @@
+{
+  "slug": "cobbreeding-pro",
+  "projectId": "ziG1t9l5",
+  "versions": {
+    "5GLojhAm": {
+      "filename": "Cobbreeding-fabric-1.7.2.jar",
+      "url": "https://cdn.modrinth.com/data/ziG1t9l5/versions/5GLojhAm/Cobbreeding-fabric-1.7.2.jar",
+      "hash": "sha512-T065mz0XCcHxMibp+e+/6k5px2HCND7rUWXqJDGg25EaLdK35R7qx8vPLsvlxZG9zAABNfmhf87RDm8ZkHVaGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "5jkxZabT": {
+      "filename": "Cobbreeding-forge-1.7.2.jar",
+      "url": "https://cdn.modrinth.com/data/ziG1t9l5/versions/5jkxZabT/Cobbreeding-forge-1.7.2.jar",
+      "hash": "sha512-Ur6L+rmDukuDGrS2rVCZg9n2aZ+zh1nvBiVVPViKjBUtUmuJhEfGwHDu9Z6eFIhhV7A6XVKHf2hkEQeJwP0XMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "6XO3dHrk": {
+      "filename": "Cobbreeding-fabric-1.7.3.jar",
+      "url": "https://cdn.modrinth.com/data/ziG1t9l5/versions/6XO3dHrk/Cobbreeding-fabric-1.7.3.jar",
+      "hash": "sha512-7pNiTRvWq5k9oCEaumNJJt7xJ+SkJH/o5BA42LNiyh+IbclrSlCq1/AgFZ2qGG4OlYeRO72qY0dGk1TQlqlIbA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ohpPcwBF": {
+      "filename": "Cobbreeding-forge-1.7.3.jar",
+      "url": "https://cdn.modrinth.com/data/ziG1t9l5/versions/ohpPcwBF/Cobbreeding-forge-1.7.3.jar",
+      "hash": "sha512-ktmj16BXLAD9rk/jLq3ga4xuk8e30xGD0E3Fv1RAGhAtYgeva11Lk0zS7PY646f4h4XEjlkmMUn7usc81Jjabw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "6XO3dHrk",
+      "5GLojhAm"
+    ],
+    "1.20.1+forge": [
+      "ohpPcwBF",
+      "5jkxZabT"
+    ]
+  }
+}

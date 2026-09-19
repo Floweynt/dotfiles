@@ -1,0 +1,68 @@
+{
+  "slug": "more-extra-shield-variants",
+  "projectId": "CmZjtdkT",
+  "versions": {
+    "PMq5QzDy": {
+      "filename": "MoreExtraShieldVariants-1.0.1+1.21.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/CmZjtdkT/versions/PMq5QzDy/MoreExtraShieldVariants-1.0.1%2B1.21.1-Fabric.jar",
+      "hash": "sha512-kwxyy1OgbE2fzawgeqwSXVQuIXBNp9ANooZTGzxXyxrPVoWQDh6oMsqxUUqw1aiNgNlnky9vQUv2ppvg68stMQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "more-shield-variants",
+          "projectId": "CW2WWDUy",
+          "type": "required"
+        },
+        {
+          "slug": "shields",
+          "projectId": "GPVR65Ju",
+          "type": "required"
+        }
+      ]
+    },
+    "Qsypomti": {
+      "filename": "MoreExtraShieldVariants-1.0.0+1.21.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/CmZjtdkT/versions/Qsypomti/MoreExtraShieldVariants-1.0.0%2B1.21.1-Fabric.jar",
+      "hash": "sha512-zfHkmSogO4jaZdVE0L7G5mNcr9K14BPyt3HxpfYEICOZR3qCM9LA8St6GJn2Vwxw0oB4GM8BzC4J4Pk3309YHA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shields",
+          "projectId": "GPVR65Ju",
+          "type": "required"
+        },
+        {
+          "slug": "more-shield-variants",
+          "projectId": "CW2WWDUy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "PMq5QzDy",
+      "Qsypomti"
+    ],
+    "1.21.1+fabric": [
+      "PMq5QzDy",
+      "Qsypomti"
+    ]
+  }
+}

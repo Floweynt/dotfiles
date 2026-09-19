@@ -1,0 +1,48 @@
+{
+  "slug": "easyminer",
+  "projectId": "3Q6Jc8gj",
+  "versions": {
+    "OpmvV6GP": {
+      "filename": "easyminer-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/3Q6Jc8gj/versions/OpmvV6GP/easyminer-1.0.1.jar",
+      "hash": "sha512-j0nveOZ6BwxBSFF/hCus7kbMhQwxxKVK1GQQaYo0XL9FJeahSr+qOWAH9swCvZzcUzHrkdIJUy5egTYTx+etMg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "dBOKj8BL": {
+      "filename": "easyminer-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3Q6Jc8gj/versions/dBOKj8BL/easyminer-1.0.0.jar",
+      "hash": "sha512-gB/H40rOGUM0juaOZtXv120eHczBdqgfvHJKP+CzU8fSqmdK1J2DddtMW83L4rIRV6OYXpruRQAN9udQl/mMSg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "dBOKj8BL"
+    ],
+    "1.21.11+fabric": [
+      "OpmvV6GP"
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "slug": "allmusic-modified-client",
+  "projectId": "EOZTh8ff",
+  "versions": {
+    "8UPng5qM": {
+      "filename": "[forge-1.20]AllMusic-2.6.12.jar",
+      "url": "https://cdn.modrinth.com/data/EOZTh8ff/versions/8UPng5qM/%5Bforge-1.20%5DAllMusic-2.6.12.jar",
+      "hash": "sha512-lavYhr/lcBjLso4upoUk0kJ/OQogbRCPnZZNFq8pzqxaxkxgKUNdEtIcyyNqw8wQDFYxMnQ81UfUnM3knyUbvQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "R4J4dQPq": {
+      "filename": "[fabric-1.20]AllAnimeMusic-Client-2.6.11.jar",
+      "url": "https://cdn.modrinth.com/data/EOZTh8ff/versions/R4J4dQPq/%5Bfabric-1.20%5DAllAnimeMusic-Client-2.6.11.jar",
+      "hash": "sha512-eb4Rl7+dSv9ks2jCFHg2nyxbjkkr2c9F48jWFlcvMKLBkkKhTwOiDv3xoBp4DHPHELMUS2VeE1hmF+gsPH7YUA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "V6gcZorf": {
+      "filename": "[fabric-1.20]AllAnimeMusic-Client-2.6.12.jar",
+      "url": "https://cdn.modrinth.com/data/EOZTh8ff/versions/V6gcZorf/%5Bfabric-1.20%5DAllAnimeMusic-Client-2.6.12.jar",
+      "hash": "sha512-k2nDzMtj0LsZDUQfnfu8dLh4F51d1wNDOEflBr5GK9Nd09SGAwOtDoP7+t7QUZyQ/2kzX6wG7H1UkxICqQ1G9w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "x5zOlcUB": {
+      "filename": "[fabric-1.20]AllAnimeMusic-Client-2.6.9.jar",
+      "url": "https://cdn.modrinth.com/data/EOZTh8ff/versions/x5zOlcUB/%5Bfabric-1.20%5DAllAnimeMusic-Client-2.6.9.jar",
+      "hash": "sha512-YRZxgThwlMtEB3a7kDOgqZzMGuRccd0fEMBXxD5oOgQb2vgLV6hhH2Iki/DvyOalMMfmjhGoO1OLdVMm1MLO8A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "z65vAYI9": {
+      "filename": "[fabric-1.20]AllAnimeMusic-Client-2.6.10.jar",
+      "url": "https://cdn.modrinth.com/data/EOZTh8ff/versions/z65vAYI9/%5Bfabric-1.20%5DAllAnimeMusic-Client-2.6.10.jar",
+      "hash": "sha512-0485qHxwoJkFYENJZrFkzL7Qap8fiRC7TVFGsm4gEgKWHGjHe4fL+UGxCOg3i/w6zJku2kTtwyhYOx7lFUPZ6A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "V6gcZorf",
+      "R4J4dQPq",
+      "z65vAYI9",
+      "x5zOlcUB"
+    ],
+    "1.20+forge": [
+      "8UPng5qM"
+    ],
+    "1.20+neoforge": [
+      "8UPng5qM"
+    ],
+    "1.20+quilt": [
+      "V6gcZorf",
+      "R4J4dQPq",
+      "z65vAYI9",
+      "x5zOlcUB"
+    ],
+    "1.20.1+fabric": [
+      "V6gcZorf",
+      "R4J4dQPq",
+      "z65vAYI9",
+      "x5zOlcUB"
+    ],
+    "1.20.1+forge": [
+      "8UPng5qM"
+    ],
+    "1.20.1+neoforge": [
+      "8UPng5qM"
+    ],
+    "1.20.1+quilt": [
+      "V6gcZorf",
+      "R4J4dQPq",
+      "z65vAYI9",
+      "x5zOlcUB"
+    ]
+  }
+}

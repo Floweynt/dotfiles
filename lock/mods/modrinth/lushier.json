@@ -1,0 +1,132 @@
+{
+  "slug": "lushier",
+  "projectId": "XMloINtN",
+  "versions": {
+    "dwOrMfP4": {
+      "filename": "Lushier-1.21.1-1.0.0 [Quark Compat].jar",
+      "url": "https://cdn.modrinth.com/data/XMloINtN/versions/dwOrMfP4/Lushier-1.21.1-1.0.0%20%5BQuark%20Compat%5D.jar",
+      "hash": "sha512-4qj/EcRqbKj9azZBkW9MmySHKFQoBPYLi0oEIBzFWkElLZg/BtZTvz8+jzJNVlSX4yNBJAx3YZMAMdNU1R+fyw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "quark",
+          "projectId": "qnQsVE2z",
+          "type": "required"
+        },
+        {
+          "slug": "lithostitched",
+          "projectId": "XaDC71GB",
+          "type": "required"
+        }
+      ]
+    },
+    "jF1z7OWr": {
+      "filename": "Lushier-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XMloINtN/versions/jF1z7OWr/Lushier-1.21.1-1.0.0.jar",
+      "hash": "sha512-9kxjYYYjDjv8JtUmKt93fPMFtANmqs1kNb32AnkeHr2ozH8jwcdjS7XNK0za8+LHV1yl0AavHxEY1rYa7eBWeA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "lithostitched",
+          "projectId": "XaDC71GB",
+          "type": "required"
+        }
+      ]
+    },
+    "rfQipH6E": {
+      "filename": "Lushier-1.21.1-1.0.0 [C&C Compat].jar",
+      "url": "https://cdn.modrinth.com/data/XMloINtN/versions/rfQipH6E/Lushier-1.21.1-1.0.0%20%5BC%26C%20Compat%5D.jar",
+      "hash": "sha512-KpBslhFm/VVbyXPlhPTUk72eZMihP0nFsktoai3b5+rKbJwVtirtPeoXUJe8RxJiCj3I3vKmeP2IXp12LRi71g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "caverns-and-chasms",
+          "projectId": "tfjmPSbI",
+          "type": "required"
+        },
+        {
+          "slug": "lithostitched",
+          "projectId": "XaDC71GB",
+          "type": "required"
+        }
+      ]
+    },
+    "sm8Yr269": {
+      "filename": "Lushier-1.21.1-1.0.0 [DP].zip",
+      "url": "https://cdn.modrinth.com/data/XMloINtN/versions/sm8Yr269/Lushier-1.21.1-1.0.0%20%5BDP%5D.zip",
+      "hash": "sha512-3etqKsGBot8u5SvmHHL1AkP9GE2v4BW+1+VqW/EIqsKto69P3yYFBykhjgxQkOpdqnntRJntKGNxwxKnWO1b+w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "lithostitched",
+          "projectId": "XaDC71GB",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "sm8Yr269"
+    ],
+    "1.21+fabric": [
+      "jF1z7OWr"
+    ],
+    "1.21+forge": [
+      "jF1z7OWr"
+    ],
+    "1.21+neoforge": [
+      "dwOrMfP4",
+      "rfQipH6E",
+      "jF1z7OWr"
+    ],
+    "1.21.1+datapack": [
+      "sm8Yr269"
+    ],
+    "1.21.1+fabric": [
+      "jF1z7OWr"
+    ],
+    "1.21.1+forge": [
+      "jF1z7OWr"
+    ],
+    "1.21.1+neoforge": [
+      "dwOrMfP4",
+      "rfQipH6E",
+      "jF1z7OWr"
+    ]
+  }
+}

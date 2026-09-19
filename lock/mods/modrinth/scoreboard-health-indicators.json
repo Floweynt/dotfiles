@@ -1,0 +1,50 @@
+{
+  "slug": "scoreboard-health-indicators",
+  "projectId": "s9E0DliG",
+  "versions": {
+    "BifEnZHI": {
+      "filename": "scoreboard-health-indicators-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/s9E0DliG/versions/BifEnZHI/scoreboard-health-indicators-1.1.2.jar",
+      "hash": "sha512-dVm8O8pJjS8DjOg5PjzOAJXzUmReK9aPQzGzU5ZM6Az12mzloIuwvZDJvHhPQZO2FcjvpcD1DxzwEQ7jcGqXqw==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VPh4azLr": {
+      "filename": "scoreboard-health-indicators-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/s9E0DliG/versions/VPh4azLr/scoreboard-health-indicators-1.1.1.jar",
+      "hash": "sha512-oKshtRMCaIVEOdleqkZuycsZlIdhDIfCT7tG1/IJplKWWxhQo6acBLCVBPayhgDaCx5pUvkhWKhZOnwRmibNiw==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "BifEnZHI",
+      "VPh4azLr"
+    ],
+    "1.21.11+fabric": [
+      "BifEnZHI",
+      "VPh4azLr"
+    ],
+    "1.21.9+fabric": [
+      "BifEnZHI"
+    ]
+  }
+}

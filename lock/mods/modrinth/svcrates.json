@@ -1,0 +1,76 @@
+{
+  "slug": "svcrates",
+  "projectId": "n3jtE8Wo",
+  "versions": {
+    "2ZgP0fU1": {
+      "filename": "svcrates-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/n3jtE8Wo/versions/2ZgP0fU1/svcrates-1.0.0.jar",
+      "hash": "sha512-6AYp2Qcw1V+oBjAiA5Fe08zkN1YWQK5e5yD3cofrrPkH1nf3M/jJl5+T7VjG+GPDlXVWH2VYcNgCY1whhPKC5A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "aWAgy6E5": {
+      "filename": "svcrates-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/n3jtE8Wo/versions/aWAgy6E5/svcrates-1.0.2.jar",
+      "hash": "sha512-OrF8uOeKKNELWCDKCckKmfmUC2NA/GYB7KTw6Gwy8Ax0at2ill++hO44UOksMAIYJkPYX41CAG+l1O8PBc6ZEg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tjNvQh2F": {
+      "filename": "svcrates-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/n3jtE8Wo/versions/tjNvQh2F/svcrates-1.0.3.jar",
+      "hash": "sha512-Ezc+YL0Y6vtLAX3qy1ZXDuB9aGw1g5EzRouOjJ2XnjDMpvsZMEugWEw72o4Gx8qKwHbHztD8dCYkzF8pBtz1iA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wEymrrgT": {
+      "filename": "svcrates-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/n3jtE8Wo/versions/wEymrrgT/svcrates-1.0.1.jar",
+      "hash": "sha512-i35fjKMJ6IVylK1JKEpdWVUqMhUeXSczqgpd99ZDk5F1eSOF9pkZcQoU5ktDk/GSgMD3jHB6wotbIqB2fgnEew==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "tjNvQh2F",
+      "aWAgy6E5",
+      "wEymrrgT",
+      "2ZgP0fU1"
+    ]
+  }
+}

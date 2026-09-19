@@ -1,0 +1,88 @@
+{
+  "slug": "create-backtank-jetpack-curios-compatibility",
+  "projectId": "fbAcD82l",
+  "versions": {
+    "XlnvqI7l": {
+      "filename": "create_backtank_jetpack_curios_compat_1.19.2--v1.0.zip",
+      "url": "https://cdn.modrinth.com/data/fbAcD82l/versions/XlnvqI7l/create_backtank_jetpack_curios_compat_1.19.2--v1.0.zip",
+      "hash": "sha512-y3x4F0X2hpfedjkklDO1y2JSU+6R3M75rIT0OOIrAwjXqUupDcSTTOODraAlQvSYCiQewiUq9C4kYxTqUwQ/KA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "sgN5C63G": {
+      "filename": "create-backtank-jetpack-curios-compatibility-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/fbAcD82l/versions/sgN5C63G/create-backtank-jetpack-curios-compatibility-1.1.jar",
+      "hash": "sha512-JKC5Zrunm5+3ttLJGn8LtxFlsgvHPYRUlXXkPF2sSiPjSFOe9hkTJq8RVyRnvmT57WoL7tOfcs6fNl+D3SGCsg==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "told8qYQ": {
+      "filename": "create_backtank_jetpack_curios_compat_1.19.2--v1.1.zip",
+      "url": "https://cdn.modrinth.com/data/fbAcD82l/versions/told8qYQ/create_backtank_jetpack_curios_compat_1.19.2--v1.1.zip",
+      "hash": "sha512-bn6RrtQKpBeaS3hYI7FLCcH1AUIOnHGBsrekGk7zw3QzFQtld+74i+NdeDFflOpGx1lFSrQSUqTkEE8MHSVJOA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "told8qYQ",
+      "XlnvqI7l"
+    ],
+    "1.19.2+fabric": [
+      "sgN5C63G"
+    ],
+    "1.19.2+forge": [
+      "sgN5C63G"
+    ],
+    "1.19.2+neoforge": [
+      "sgN5C63G"
+    ],
+    "1.19.2+quilt": [
+      "sgN5C63G"
+    ],
+    "1.20.1+datapack": [
+      "told8qYQ",
+      "XlnvqI7l"
+    ],
+    "1.20.1+fabric": [
+      "sgN5C63G"
+    ],
+    "1.20.1+forge": [
+      "sgN5C63G"
+    ],
+    "1.20.1+neoforge": [
+      "sgN5C63G"
+    ],
+    "1.20.1+quilt": [
+      "sgN5C63G"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "waila-stapi",
+  "projectId": "wD9kH2Et",
+  "versions": {
+    "ES949yb7": {
+      "filename": "waila_stapi_1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wD9kH2Et/versions/ES949yb7/waila_stapi_1.0.jar",
+      "hash": "sha512-CINUYqNBfZMfIeVWzDbBx+ftYCu2sJVxjxcqmTVfKKWPTda3oyi9GUex029HeU2adSnXVlIcJ90NUk3AHaHelw==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+fabric": [
+      "ES949yb7"
+    ]
+  }
+}

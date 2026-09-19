@@ -1,0 +1,54 @@
+{
+  "slug": "xibaoxx",
+  "projectId": "1qOmnLlT",
+  "versions": {
+    "5BcRis6L": {
+      "filename": "xibaoxx-fabric-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/1qOmnLlT/versions/5BcRis6L/xibaoxx-fabric-1.2.3.jar",
+      "hash": "sha512-Wk52qhk9b+J33pQORa+QmmH2diXVok7oVwqRuRIlRcSe7Yw+OLY/tpb9L1/AwTM8sNEepbxMZ+CRrKoh3d2WnA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "HXnh61xn": {
+      "filename": "xibaoxx-neoforge-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/1qOmnLlT/versions/HXnh61xn/xibaoxx-neoforge-1.2.3.jar",
+      "hash": "sha512-l9V80CbFT3VMQgdm94ngWKKIQLucs9VrafOmWVlz9ZFJH+5b9y7KbH8K370Nd9QTEHwDt94oSKAqajRRBdef5w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "5BcRis6L"
+    ],
+    "1.21.1+neoforge": [
+      "HXnh61xn"
+    ]
+  }
+}

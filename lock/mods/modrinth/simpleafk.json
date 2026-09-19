@@ -1,0 +1,586 @@
+{
+  "slug": "simpleafk",
+  "projectId": "bI9lnAFH",
+  "versions": {
+    "5GcfJPyA": {
+      "filename": "simpleafk-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/5GcfJPyA/simpleafk-1.4.0.jar",
+      "hash": "sha512-dviQUufe/S6jOOu1vbYOqS3WY6qIVwzRVoF2gx/0VC3D++8IullirdOc4eoI1qkK5AofAjN40W0JSBt4D3EO8w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "5XjnGSmL": {
+      "filename": "simpleafk-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/5XjnGSmL/simpleafk-1.1.1.jar",
+      "hash": "sha512-3j2RVOf4myyjyCbVKcSTFQjNAecevpsNDlalJULBBUFk4JaVInonDk8jsd4wskZ6NW7fjBbakUns2GeCZNHC+w==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "5dkrGlqI": {
+      "filename": "simpleafk-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/5dkrGlqI/simpleafk-1.1.0.jar",
+      "hash": "sha512-8M3zCPzrTtqtLwh4U2sZIob2ZQDZsLlFvoSS2bKDlgJILAB+M/GDHXazwzkROQqESwTjuaWNia5U2gIJZP114g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "An3w0PbP": {
+      "filename": "simpleafk-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/An3w0PbP/simpleafk-1.1.0.jar",
+      "hash": "sha512-GcbglIxQud58S9u+4j5nhm5SB40w8QQeMrQjLXBlwGZcyWwXFG6iqj1TnL99VeYh8HTU6EGP3AkSgAfomX4ubw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "BOLyO1SD": {
+      "filename": "simpleafk-fabric-26.1-1.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/BOLyO1SD/simpleafk-fabric-26.1-1.5.2.jar",
+      "hash": "sha512-lBn418wMEJbwhcD8g9j8v2PeKclXHwgDg2BxwsNBINvEg3ukF4OOaskT4U/yGvwq9qVSnj/XbKQRl0gTsZWO3g==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DYkKtB3l": {
+      "filename": "simpleafk-neoforge-1.21.11-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/DYkKtB3l/simpleafk-neoforge-1.21.11-1.5.1.jar",
+      "hash": "sha512-EBmuYqlQHY8Vh+nhvBGkaarTT3J0Hsth3brbTfP5E3SW8yEhwTY0fB+ltYrP+ezqXsZCy2d94mk5eTZoZ2LCsA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "LHjTNWIV": {
+      "filename": "simpleafk-fabric-1.20.1-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/LHjTNWIV/simpleafk-fabric-1.20.1-1.5.0.jar",
+      "hash": "sha512-uCFYgiH4U0DnN9RFyQcKm+Oqe+ybYBh1Tytw3pBGLuxa0caTKaLDxiFeOPwNvay2c5+lJfuJpgrtmLlCKBsdNA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Lnq1Dcai": {
+      "filename": "simpleafk-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/Lnq1Dcai/simpleafk-1.1.2.jar",
+      "hash": "sha512-USxzWYfhH6+awPCwLOeXzZAlwdtKNVteDb6zIPAkePbwi7FvF1zemcW/Ojpu2uoylFmDrlnLYmEyDxfjTd5olA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "N3JeQqUN": {
+      "filename": "simpleafk-neoforge-1.21.1-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/N3JeQqUN/simpleafk-neoforge-1.21.1-1.5.1.jar",
+      "hash": "sha512-Zjq/Sj1VNgFe+8mZ6jI2InZz64ojVsLfGm5q7fBSlpgSYwqW0CcR2XBYly6tocl3jAFn5uNpty/ZfVILNVZwGw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "OMEsU0yP": {
+      "filename": "simpleafk-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/OMEsU0yP/simpleafk-1.0.0.jar",
+      "hash": "sha512-QQ/JaMnsgSSU4ZgQIi1NArtarcrLu2O+IC5ZDDe7P0zp3OOTFubSBsj0sM6O/eCdNWifnkIsxFfkIxkOon8D+Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "RUgPBNbc": {
+      "filename": "simpleafk-fabric-1.21.1-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/RUgPBNbc/simpleafk-fabric-1.21.1-1.5.0.jar",
+      "hash": "sha512-LB9baJZNwLMdnSYOB7mEZE6VVt6RpSIRx9ZRDQiCKmKYSRmnJLeAu65gzNgQI4AH91UaqibGBFyjAs+rI3ZWMQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "UAjdG5mF": {
+      "filename": "simpleafk-fabric-1.20.1-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/UAjdG5mF/simpleafk-fabric-1.20.1-1.5.1.jar",
+      "hash": "sha512-jeLbrP0CUmD5Bnt8yR59GMMjX+YzUAGluUA2p9TFeTAkcrR131QeeH0EcOvT9WQnyLA6z+oqSoCaYKYlQFP1JQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Z2Vbx5Cc": {
+      "filename": "simpleafk-neoforge-1.21.1-1.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/Z2Vbx5Cc/simpleafk-neoforge-1.21.1-1.5.2.jar",
+      "hash": "sha512-lN2LWu4T0l1aLAE+5BPLZIvrSXar7D10FYvOHyjIn3sbGjAS/NrNgGBefN++dBNGjhgEzr1r4jKyh469MWBxOg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "aTebbFuT": {
+      "filename": "simpleafk-fabric-1.21.1-1.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/aTebbFuT/simpleafk-fabric-1.21.1-1.5.2.jar",
+      "hash": "sha512-3wX0SS2LdBPv37o0vNkMKZFmXrR0ybBTsgr1vXSAwmUFFPt4HhitXrtVrZPe7VbRHWFsr4ke1Pru0TBxzg0dRA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "axf3aSaI": {
+      "filename": "simpleafk-fabric-26.1-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/axf3aSaI/simpleafk-fabric-26.1-1.5.1.jar",
+      "hash": "sha512-gwv37hFY249eheDIN3IqIYaRelZtrfw4J2T5dUWKI2IrUo/wXbX6dfrjyAO0p3c6DssMnVKfyk+5jBd7quHvGQ==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bkvePqJ6": {
+      "filename": "simpleafk-neoforge-26.1-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/bkvePqJ6/simpleafk-neoforge-26.1-1.5.1.jar",
+      "hash": "sha512-CQh4e7VadhGvqyJrUWcWq2NbWCT4Lz9QkZAwoNw6dEcSvChThNwLMF94ZbR/YzNTUg3swZAQqoCZGdvJXxUPRA==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "bwpqoQaz": {
+      "filename": "simpleafk-fabric-1.21.1-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/bwpqoQaz/simpleafk-fabric-1.21.1-1.5.1.jar",
+      "hash": "sha512-EbA1gcy/KJFFTAM2qRZcIabTQzc7YK4W5P/7ff01sqiGgFXoB0v3rnFnjo2ionnuKfZQd7AaMwlyLzbbN2xMfw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "cQ0Eg49o": {
+      "filename": "simpleafk-fabric-1.21.11-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/cQ0Eg49o/simpleafk-fabric-1.21.11-1.5.1.jar",
+      "hash": "sha512-Bj4RrIVLdh58txKYIHIngq8+NFZ5H72eDC+7H/a/QtPUcSI6IjiKsG1EFS3lCySZmlTZSwlaT0AweDXjbn0K+A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d1AuKnBl": {
+      "filename": "simpleafk-neoforge-26.1-1.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/d1AuKnBl/simpleafk-neoforge-26.1-1.5.2.jar",
+      "hash": "sha512-5nfq1JcCx218FveePeNhHG3yB96huIBhYOlJg2XamU2lb/b/eR+B03IiJMYEqfF3UL0/RoDxXEQim0KwPO4yGQ==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "eAKLZDrE": {
+      "filename": "simpleafk-neoforge-1.21.1-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/eAKLZDrE/simpleafk-neoforge-1.21.1-1.5.0.jar",
+      "hash": "sha512-ABE2P5/5c4qxZc/f2AUnorkb9wcn+3p/LPeLf811MFV9Rp8kz+bjJasUfLd60Iabb78Sho076LRXzmM0zUQIsA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "exuuagWY": {
+      "filename": "simpleafk-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/exuuagWY/simpleafk-1.3.1.jar",
+      "hash": "sha512-E/m1S74CEfAvMmRq+Gz8pxKLXkSYN75Vy0iQf2ifyDZ7yOP9bnSO6eAStnQUoVAUZBlvFAy3ZyOph/FzTQr6fA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "fS1JeXX0": {
+      "filename": "simpleafk-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/fS1JeXX0/simpleafk-1.2.0.jar",
+      "hash": "sha512-P0Zbesu7Am7SH2KeNPUvaeVuOwszWmmhSlvM3pt4zvTXqkYdXAcie73Y42PaNjhfKjyesF3eFIf9BRSxt2L6Rw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "qunRznfC": {
+      "filename": "simpleafk-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/qunRznfC/simpleafk-1.1.1.jar",
+      "hash": "sha512-X3JR0NH5h7S+dvUErFaPCoyoeCXzhv8k2pPOLxbTJ6qL0ZDSui4pFqPrYfTFLcrFymCZIGPX9mYAgBOgiMUqRQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "xkS09DSw": {
+      "filename": "simpleafk-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/xkS09DSw/simpleafk-1.2.0.jar",
+      "hash": "sha512-VlG48Zh2txO0Lvtgw+iVcbfM8qWQdahk3WNuLCuHTcog4YicdZ9HTcYUY5g1ooGflcBcnilyLxDPg5aj1XRPGw==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "y6apb5VZ": {
+      "filename": "simpleafk-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/y6apb5VZ/simpleafk-1.2.0.jar",
+      "hash": "sha512-b8+Tb+yyMCypZBfRu5DPTJvIjKAAi8a40fAN5xknW5qs+F68WjT8OTJJ3J2erlqBibkfvcT5VwXPFt+dnuum9g==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "ziHyht2E": {
+      "filename": "simpleafk-forge-1.20.1-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/bI9lnAFH/versions/ziHyht2E/simpleafk-forge-1.20.1-1.5.1.jar",
+      "hash": "sha512-ezfFm4q1cxsjgLU2tl1z59/8vpWG0DvnfMdIRgS4kT8TIKbvDAhq+EOfq0x1LFG5N/iG/3uWW/eUMXvnGyxANQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18+forge": [
+      "xkS09DSw"
+    ],
+    "1.18.1+forge": [
+      "xkS09DSw"
+    ],
+    "1.18.2+forge": [
+      "xkS09DSw"
+    ],
+    "1.19+forge": [
+      "y6apb5VZ",
+      "5XjnGSmL",
+      "An3w0PbP"
+    ],
+    "1.19.1+forge": [
+      "y6apb5VZ",
+      "5XjnGSmL",
+      "An3w0PbP"
+    ],
+    "1.19.2+forge": [
+      "y6apb5VZ",
+      "5XjnGSmL",
+      "An3w0PbP"
+    ],
+    "1.20+forge": [
+      "5GcfJPyA",
+      "exuuagWY",
+      "fS1JeXX0",
+      "Lnq1Dcai",
+      "qunRznfC",
+      "5dkrGlqI",
+      "OMEsU0yP"
+    ],
+    "1.20+neoforge": [
+      "5GcfJPyA",
+      "exuuagWY",
+      "fS1JeXX0",
+      "Lnq1Dcai",
+      "qunRznfC",
+      "5dkrGlqI",
+      "OMEsU0yP"
+    ],
+    "1.20.1+fabric": [
+      "UAjdG5mF",
+      "LHjTNWIV"
+    ],
+    "1.20.1+forge": [
+      "ziHyht2E",
+      "5GcfJPyA",
+      "exuuagWY",
+      "fS1JeXX0",
+      "Lnq1Dcai",
+      "qunRznfC",
+      "5dkrGlqI",
+      "OMEsU0yP"
+    ],
+    "1.20.1+neoforge": [
+      "5GcfJPyA",
+      "exuuagWY",
+      "fS1JeXX0",
+      "Lnq1Dcai",
+      "qunRznfC",
+      "5dkrGlqI",
+      "OMEsU0yP"
+    ],
+    "1.20.2+fabric": [
+      "UAjdG5mF",
+      "LHjTNWIV"
+    ],
+    "1.20.2+forge": [
+      "ziHyht2E",
+      "5dkrGlqI"
+    ],
+    "1.20.2+neoforge": [
+      "5dkrGlqI"
+    ],
+    "1.20.3+fabric": [
+      "UAjdG5mF",
+      "LHjTNWIV"
+    ],
+    "1.20.3+forge": [
+      "ziHyht2E"
+    ],
+    "1.21.1+fabric": [
+      "aTebbFuT",
+      "bwpqoQaz",
+      "RUgPBNbc"
+    ],
+    "1.21.1+neoforge": [
+      "Z2Vbx5Cc",
+      "N3JeQqUN",
+      "eAKLZDrE"
+    ],
+    "1.21.11+fabric": [
+      "cQ0Eg49o"
+    ],
+    "1.21.11+neoforge": [
+      "DYkKtB3l"
+    ],
+    "26.1+fabric": [
+      "BOLyO1SD",
+      "axf3aSaI"
+    ],
+    "26.1+neoforge": [
+      "d1AuKnBl",
+      "bkvePqJ6"
+    ]
+  }
+}

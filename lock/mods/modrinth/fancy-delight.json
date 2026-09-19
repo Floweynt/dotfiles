@@ -1,0 +1,70 @@
+{
+  "slug": "fancy-delight",
+  "projectId": "bRAjxqA5",
+  "versions": {
+    "e3IAu1X5": {
+      "filename": "fancydelight-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bRAjxqA5/versions/e3IAu1X5/fancydelight-0.1-1.20.1.jar",
+      "hash": "sha512-hPzChk1xaIpPOhdVYk1q3Gqp/g7FW+nqHaWR5B2TGJ937apOVNHPI7Bxh4MCZyDW6ky9/lZZWPJ9SRpgiWL9kQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        }
+      ]
+    },
+    "q9aufRsR": {
+      "filename": "fancydelight-1.21x-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bRAjxqA5/versions/q9aufRsR/fancydelight-1.21x-1.0.0.jar",
+      "hash": "sha512-5XIlPP/2JRzt1mmDknTits5ID5cZT8JRbTDchZ3l1QQ58M8K1MYLfqppNMNcx2fU/vRHI5zoYsvkZej7DBAFWA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "e3IAu1X5"
+    ],
+    "1.20.2+fabric": [
+      "e3IAu1X5"
+    ],
+    "1.20.3+fabric": [
+      "e3IAu1X5"
+    ],
+    "1.20.4+fabric": [
+      "e3IAu1X5"
+    ],
+    "1.21+fabric": [
+      "q9aufRsR"
+    ],
+    "1.21.1+fabric": [
+      "q9aufRsR"
+    ]
+  }
+}

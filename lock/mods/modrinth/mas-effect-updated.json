@@ -1,0 +1,48 @@
+{
+  "slug": "mas-effect-updated",
+  "projectId": "698W07Kj",
+  "versions": {
+    "Ey8gcxdj": {
+      "filename": "maseffects-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/698W07Kj/versions/Ey8gcxdj/maseffects-1.0.0.jar",
+      "hash": "sha512-pve9raQ47V+R5TjYYVOkFxX12f8lPKAXCUWRhyJm1fY3LwmwmlGv104GhUsPdEqdxGXzRvCaOtEzsRVXSQlaug==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "Ncpfodmn": {
+      "filename": "maseffects-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/698W07Kj/versions/Ncpfodmn/maseffects-1.0.0.jar",
+      "hash": "sha512-nctzzuGNaQ9MpsArN5LmNL10VimQbpATxE79nVA1fAkBfIEXx8pA7earMvxZb6VdjZQhELci00MvrZGv0bYm7g==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "Ey8gcxdj"
+    ],
+    "1.21.8+fabric": [
+      "Ncpfodmn"
+    ]
+  }
+}

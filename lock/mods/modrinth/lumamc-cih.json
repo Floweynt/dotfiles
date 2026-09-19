@@ -1,0 +1,100 @@
+{
+  "slug": "lumamc-cih",
+  "projectId": "57dJdvhY",
+  "versions": {
+    "GckXGaVv": {
+      "filename": "custom-item-highlighter-mc1.21.11-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/57dJdvhY/versions/GckXGaVv/custom-item-highlighter-mc1.21.11-1.2.0.jar",
+      "hash": "sha512-hae7JjpUfxAtjeNViS4dus4za5QONe6zlVv3ca61EvoI6uDbhaNchg7bq3I2ESZnbJ/hEg+Z9BVpgvBx0Helmw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "UAPAZhLt": {
+      "filename": "custom-item-highlighter-mc26.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/57dJdvhY/versions/UAPAZhLt/custom-item-highlighter-mc26.1-1.2.0.jar",
+      "hash": "sha512-TxeCjduCN7czq5f1NAH1QB1GaW7OOsK02SQ2Q0/DBI4TmKQZR3EMjyzTz+9WORKm0aZ6fHT74/RF7V7sfKXwKw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dCJMjy8A": {
+      "filename": "custom-item-highlighter-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/57dJdvhY/versions/dCJMjy8A/custom-item-highlighter-1.0.0.jar",
+      "hash": "sha512-IbAmFCSDc+8dsqSEtdYz+r88MAe9DtsvUEumIhmx/f6Vhaf3QBNzi7t3kKvxfEF+ZC93gvcxZKl3AnlWEV1Xng==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "w1y3fbq5": {
+      "filename": "custom-item-highlighter-mc26.2-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/57dJdvhY/versions/w1y3fbq5/custom-item-highlighter-mc26.2-1.2.1.jar",
+      "hash": "sha512-D/+LdvwV/BfGUM89j3Qb8ir/3raRGkkn/tFCajhcaIWHadFX6NZ489XaqT2I7Bex7g2ThEDskv3jNxCcyJbiow==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "GckXGaVv",
+      "dCJMjy8A"
+    ],
+    "26.1+fabric": [
+      "UAPAZhLt"
+    ],
+    "26.1.1+fabric": [
+      "UAPAZhLt"
+    ],
+    "26.1.2+fabric": [
+      "UAPAZhLt"
+    ],
+    "26.2+fabric": [
+      "w1y3fbq5"
+    ]
+  }
+}

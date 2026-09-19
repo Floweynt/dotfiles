@@ -1,0 +1,167 @@
+{
+  "slug": "towelette",
+  "projectId": "bnesqDoc",
+  "versions": {
+    "H6ibYxyq": {
+      "filename": "Towelette-5.0.1+1.14.4-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/bnesqDoc/versions/H6ibYxyq/Towelette-5.0.1%2B1.14.4-1.20.4.jar",
+      "hash": "sha512-W3FmY8FcOT+/ET2RWbnBslkZxsvfkPJeTeA5SwbVnEcrt3Nw60Aon03DRMmwvAq/c6oCsda1KSiLzFrG9YeLJg==",
+      "gameVersions": [
+        "1.14.4",
+        "1.15.2",
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.2",
+        "1.19.4",
+        "1.20.1",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "statement",
+          "projectId": "a9AsUNGn",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Mq6lkV5U": {
+      "filename": "Towelette-4.2.2+1.14.4-1.17.1.jar",
+      "url": "https://cdn.modrinth.com/data/bnesqDoc/versions/4.2.2%2B1.14.4-1.17.1/Towelette-4.2.2%2B1.14.4-1.17.1.jar",
+      "hash": "sha512-4Ua2Fqv0SYddUfVEGokuIC56/g9nO+8HkpG2uBMfx0VHJGRjgJ2adtgChUMQB9njLzTA+bCgiPOBN3NuHWYV1w==",
+      "gameVersions": [
+        "1.14.4",
+        "1.15.2",
+        "1.16.5",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "WuaaEGRn": {
+      "filename": "Towelette-5.0.0+1.14.4-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/bnesqDoc/versions/WuaaEGRn/Towelette-5.0.0%2B1.14.4-1.19.3.jar",
+      "hash": "sha512-QbgB2LPnKi1isyl7oulGHVRjXLehKWedo7n/72xdrdcNXL0hRUI4fFvL8HEs98PscWmByEMQBwXkHP3GbUhwWQ==",
+      "gameVersions": [
+        "1.14.4",
+        "1.15.2",
+        "1.16.5",
+        "1.17.1",
+        "1.18.2",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "statement",
+          "projectId": "a9AsUNGn",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.14.4+fabric": [
+      "H6ibYxyq",
+      "WuaaEGRn",
+      "Mq6lkV5U"
+    ],
+    "1.14.4+quilt": [
+      "H6ibYxyq",
+      "WuaaEGRn"
+    ],
+    "1.15.2+fabric": [
+      "H6ibYxyq",
+      "WuaaEGRn",
+      "Mq6lkV5U"
+    ],
+    "1.15.2+quilt": [
+      "H6ibYxyq",
+      "WuaaEGRn"
+    ],
+    "1.16.5+fabric": [
+      "H6ibYxyq",
+      "WuaaEGRn",
+      "Mq6lkV5U"
+    ],
+    "1.16.5+quilt": [
+      "H6ibYxyq",
+      "WuaaEGRn"
+    ],
+    "1.17.1+fabric": [
+      "H6ibYxyq",
+      "WuaaEGRn",
+      "Mq6lkV5U"
+    ],
+    "1.17.1+quilt": [
+      "H6ibYxyq",
+      "WuaaEGRn"
+    ],
+    "1.18.2+fabric": [
+      "H6ibYxyq",
+      "WuaaEGRn"
+    ],
+    "1.18.2+quilt": [
+      "H6ibYxyq",
+      "WuaaEGRn"
+    ],
+    "1.19.2+fabric": [
+      "H6ibYxyq",
+      "WuaaEGRn"
+    ],
+    "1.19.2+quilt": [
+      "H6ibYxyq",
+      "WuaaEGRn"
+    ],
+    "1.19.3+fabric": [
+      "WuaaEGRn"
+    ],
+    "1.19.3+quilt": [
+      "WuaaEGRn"
+    ],
+    "1.19.4+fabric": [
+      "H6ibYxyq"
+    ],
+    "1.19.4+quilt": [
+      "H6ibYxyq"
+    ],
+    "1.20.1+fabric": [
+      "H6ibYxyq"
+    ],
+    "1.20.1+quilt": [
+      "H6ibYxyq"
+    ],
+    "1.20.4+fabric": [
+      "H6ibYxyq"
+    ],
+    "1.20.4+quilt": [
+      "H6ibYxyq"
+    ]
+  }
+}

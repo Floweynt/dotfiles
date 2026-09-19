@@ -1,0 +1,90 @@
+{
+  "slug": "crazy-diamond-jcraft-addon",
+  "projectId": "Dik3V2ut",
+  "versions": {
+    "6Kl9shaC": {
+      "filename": "jcraft_crazy_diamond_addon-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Dik3V2ut/versions/6Kl9shaC/jcraft_crazy_diamond_addon-fabric-1.0.2.jar",
+      "hash": "sha512-1BmsiKhSBjghLvy/TW336u6XfK0dbsEUE2WcT5VTgxbn5f6bEABAwevovu2N1UgfeltjiQyV8M8XlF9KyZlWIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jojo-eyes-of-ender",
+          "projectId": "Hcpu2FXm",
+          "type": "required"
+        }
+      ]
+    },
+    "Hyri3YEk": {
+      "filename": "jcraft_crazy_diamond_addon-forge-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Dik3V2ut/versions/Hyri3YEk/jcraft_crazy_diamond_addon-forge-1.0.2.jar",
+      "hash": "sha512-bODMcYdj8Ur4lM9El4BgPZi2cJ1+9ndHo8gYyyxRc0V2PGlt8EiQpE1oQ1igoUA9fFoicNLDXC8QAWjIIpgJsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jcraft-additions",
+          "projectId": "kjWHJg7F",
+          "type": "required"
+        }
+      ]
+    },
+    "soGmRMww": {
+      "filename": "jcraft_crazy_diamond_addon-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Dik3V2ut/versions/soGmRMww/jcraft_crazy_diamond_addon-fabric-1.0.0.jar",
+      "hash": "sha512-7QNeFZE/areAWuXVUsIaporHFBO57ai+7V5Jc/1Y10qWGjB4ut4w585fQTxmMQWmAEPKHSRRKKzRU06Kt2ZSJw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uWbvD5Tp": {
+      "filename": "jcraft_crazy_diamond_addon-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Dik3V2ut/versions/uWbvD5Tp/jcraft_crazy_diamond_addon-forge-1.0.0.jar",
+      "hash": "sha512-woqwIFtVXNfDGP64PRVWFoIUdbILJNjXfjsDjddsp+w0xyFjELGE94a0frCkhm5AeLk1FN7lzkS+AEgEl97X5Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jcraft-additions",
+          "projectId": "kjWHJg7F",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "6Kl9shaC",
+      "soGmRMww"
+    ],
+    "1.20.1+forge": [
+      "Hyri3YEk",
+      "uWbvD5Tp"
+    ]
+  }
+}

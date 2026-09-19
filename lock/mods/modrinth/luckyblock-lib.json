@@ -1,0 +1,54 @@
+{
+  "slug": "luckyblock-lib",
+  "projectId": "xFQgABtP",
+  "versions": {
+    "IWqGRFLI": {
+      "filename": "lbl-1.0.0-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/xFQgABtP/versions/IWqGRFLI/lbl-1.0.0-1.20.1-forge.jar",
+      "hash": "sha512-QFlQ+CN4AD8dSWFZE2m2bNjkLHKlhRdXfEBP9h54ILI/Upt2bJyAYFxMP5VVH0/udVW5iyXIkcX4DwD8LiBQJQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "sombNqLz": {
+      "filename": "lbl-1.0.0-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/xFQgABtP/versions/sombNqLz/lbl-1.0.0-1.20.1-fabric.jar",
+      "hash": "sha512-e8aogeQqTm4U749L/XvvvBMUM6qGBb71kw1wOcmR16xhRJIqvVl1pylLW5+ZZD4Xh5SrzQuu+7bxU6fnqTE9uw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sombNqLz"
+    ],
+    "1.20.1+forge": [
+      "IWqGRFLI"
+    ]
+  }
+}

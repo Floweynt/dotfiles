@@ -1,0 +1,54 @@
+{
+  "slug": "tickspeed",
+  "projectId": "kCqJY7Y3",
+  "versions": {
+    "UmVbfq0l": {
+      "filename": "tickspeed-v1-1.21.4.zip",
+      "url": "https://cdn.modrinth.com/data/kCqJY7Y3/versions/UmVbfq0l/tickspeed-v1-1.21.4.zip",
+      "hash": "sha512-xFX+Hnzq2DKndmze84KuZGBjkUJOXYdxOXxwtOstNBejr1bbHW5qazl7u1/lQC3BSZsiqZgAOcI1Xv35xwvmZw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "eVfwhOUU": {
+      "filename": "tickspeed-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kCqJY7Y3/versions/eVfwhOUU/tickspeed-1.0.0.jar",
+      "hash": "sha512-YZZNzv3p95RVQF8949DPCoJwR30FYVcIsrjQ3zkRfE4S/IxGH2+XsYmdlmzcPtKpzgKCMnr7Tyzeg043ZF2O0A==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+datapack": [
+      "UmVbfq0l"
+    ],
+    "1.21.4+fabric": [
+      "eVfwhOUU"
+    ],
+    "1.21.4+forge": [
+      "eVfwhOUU"
+    ],
+    "1.21.4+neoforge": [
+      "eVfwhOUU"
+    ],
+    "1.21.4+quilt": [
+      "eVfwhOUU"
+    ]
+  }
+}

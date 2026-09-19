@@ -1,0 +1,138 @@
+{
+  "slug": "immersive-damage-indicators",
+  "projectId": "tTKSJOdG",
+  "versions": {
+    "8Y4l7Z41": {
+      "filename": "immersivedamageindicators-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/tTKSJOdG/versions/8Y4l7Z41/immersivedamageindicators-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-WO6kRAzY498EMJnDSiBrZ2sGzQXk/fUkRRbL9oxsvjS1fxvYjidMpe5UZBwn4eeF6wt+3bZ1zTpRvpV3ks08sw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "immersive-messages-api",
+          "projectId": "6xvrmbjn",
+          "type": "required"
+        },
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gZg7V1Sn": {
+      "filename": "immersivedamageindicators-forge-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/tTKSJOdG/versions/gZg7V1Sn/immersivedamageindicators-forge-1.0.0-1.20.1.jar",
+      "hash": "sha512-vgPrFyw/MvTx+1saR/XjMIKeXXPTLXXsURYNKZzVrNAgLX2D05uDHfPGcykrL0zutZICG84Cg24staAGE/HzVQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "immersive-messages-api",
+          "projectId": "6xvrmbjn",
+          "type": "required"
+        },
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "pGTwkb3r": {
+      "filename": "immersivedamageindicators-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/tTKSJOdG/versions/pGTwkb3r/immersivedamageindicators-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-Mzs5XncXYWf+kAwXutSGKwq3utyJwi4wIv4HOixByp6RvmFyTL+MSDNm2vad/Etswf5zA+M/l+v2JIPaKGG/AA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-messages-api",
+          "projectId": "6xvrmbjn",
+          "type": "required"
+        }
+      ]
+    },
+    "szHVCzy1": {
+      "filename": "immersivedamageindicators-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/tTKSJOdG/versions/szHVCzy1/immersivedamageindicators-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-wj89ekrKi5tflmxRzIQ3kDALksp75+3tSUxwZIbE/VhmoOLG6IG/MrxA2UmJoY0UzHwVf5eC9zpJWDL47ErdjQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-messages-api",
+          "projectId": "6xvrmbjn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "8Y4l7Z41"
+    ],
+    "1.20+forge": [
+      "gZg7V1Sn"
+    ],
+    "1.20.1+fabric": [
+      "8Y4l7Z41"
+    ],
+    "1.20.1+forge": [
+      "gZg7V1Sn"
+    ],
+    "1.21.1+fabric": [
+      "szHVCzy1"
+    ],
+    "1.21.1+neoforge": [
+      "pGTwkb3r"
+    ]
+  }
+}

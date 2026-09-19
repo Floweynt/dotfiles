@@ -1,0 +1,68 @@
+{
+  "slug": "big-globe-eternal-starlight-compatibility",
+  "projectId": "EbJwJ6NC",
+  "versions": {
+    "AmOQtHIi": {
+      "filename": "Big Globe - Eternal Starlight Compatibility 1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EbJwJ6NC/versions/AmOQtHIi/Big%20Globe%20-%20Eternal%20Starlight%20Compatibility%201.0.jar",
+      "hash": "sha512-6Vlksw56AZOrNplbSdMLGpiK9LRQGu96HhwUK1A1x60t2r4NLQKSaUU/02RhHO+oeAR1VFgZg5Z1FUdAH4yFrA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        },
+        {
+          "slug": "eternal-starlight",
+          "projectId": "XvcfUGfB",
+          "type": "required"
+        }
+      ]
+    },
+    "IONhH0cQ": {
+      "filename": "Big Globe - Eternal Starlight Compatibility 1.1.jar",
+      "url": "https://cdn.modrinth.com/data/EbJwJ6NC/versions/IONhH0cQ/Big%20Globe%20-%20Eternal%20Starlight%20Compatibility%201.1.jar",
+      "hash": "sha512-PpcQMu/DTPrqtY05uKT4iw2DopUPd59A6g6D4A/CGFTWQGwtcVqxYCuIXN8jeZD9TeQCE61MdWhlZ5iPabAtUw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        },
+        {
+          "slug": "eternal-starlight",
+          "projectId": "XvcfUGfB",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "IONhH0cQ",
+      "AmOQtHIi"
+    ],
+    "1.21.1+fabric": [
+      "IONhH0cQ",
+      "AmOQtHIi"
+    ]
+  }
+}

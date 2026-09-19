@@ -1,0 +1,40 @@
+{
+  "slug": "ryoamium",
+  "projectId": "trDlR4uW",
+  "versions": {
+    "g4HEWrIN": {
+      "filename": "ryoamium-1.20.6-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/trDlR4uW/versions/g4HEWrIN/ryoamium-1.20.6-1.0.0.jar",
+      "hash": "sha512-K4V+Q+TevGrbU+oM16Jt8MeNLx2xCTzvEC5e8bUWE7lDNutH73fH7pl/CA6A0+zWrqkHIw8U66AQHJCHlS3qjg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "embeddium",
+          "projectId": "sk9rgfiA",
+          "type": "required"
+        },
+        {
+          "slug": "ryoamiclights",
+          "projectId": "reCfnRvJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "g4HEWrIN"
+    ],
+    "1.20.6+neoforge": [
+      "g4HEWrIN"
+    ]
+  }
+}

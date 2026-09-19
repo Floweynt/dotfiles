@@ -1,0 +1,211 @@
+{
+  "slug": "effective-regalia",
+  "projectId": "ArV2M16R",
+  "versions": {
+    "K5jCJXfP": {
+      "filename": "effective-regalia-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ArV2M16R/versions/K5jCJXfP/effective-regalia-0.2.0.jar",
+      "hash": "sha512-LGN9nX6IYayxq8dBVY7X686QB0M9LrTWqm0z3EHKSUNCKScDFnay+GoZGmScf6NiSTWqGAPlG2CjOzPuCvMaFA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MBPUi4uB": {
+      "filename": "effective-regalia-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/ArV2M16R/versions/MBPUi4uB/effective-regalia-0.3.0.jar",
+      "hash": "sha512-SD8OUKXGbAayKRKxM4Kclckw1TSAS04V0CoDX0ZvhV/FoTA1m6yLHsitX6xFqwnoP7Z8TUfAXubVtLXVYwefPg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "P7HdYUTg": {
+      "filename": "effective-regalia-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/ArV2M16R/versions/P7HdYUTg/effective-regalia-0.3.0.jar",
+      "hash": "sha512-xQAHRDf7uCU1r+gzQqoPUSycQbEfYtvdwhImbFIJzbQ5TOaTrmFzP9UHn6LreNz5GBhITVHnGIAr8/QgG3qhaA==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "UbWOZosg": {
+      "filename": "effective-regalia-0.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/ArV2M16R/versions/UbWOZosg/effective-regalia-0.3.1.jar",
+      "hash": "sha512-txgUrCEk/Fe0IH7FQSdibyoqKapt7wnuhyQW7toxuVewxfutd5uu0Jh3+5nNQOJwnHMY2yAwOBBYq5IbjAcClg==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "pLUH9rbb": {
+      "filename": "effective-regalia-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ArV2M16R/versions/pLUH9rbb/effective-regalia-0.1.0.jar",
+      "hash": "sha512-oU6MiXoufA90vFkeCGAGm1Sy8HZhyeIv9nKrZBaBYQoo5h2h0KEqBKNOevIl79z/TqQ+BXROUp8zl/8gB0CLDg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "MBPUi4uB"
+    ],
+    "1.19+quilt": [
+      "MBPUi4uB"
+    ],
+    "1.19.1+fabric": [
+      "MBPUi4uB"
+    ],
+    "1.19.1+quilt": [
+      "MBPUi4uB"
+    ],
+    "1.19.2+fabric": [
+      "MBPUi4uB",
+      "K5jCJXfP",
+      "pLUH9rbb"
+    ],
+    "1.19.2+quilt": [
+      "MBPUi4uB",
+      "K5jCJXfP",
+      "pLUH9rbb"
+    ],
+    "1.19.3+fabric": [
+      "UbWOZosg",
+      "P7HdYUTg"
+    ],
+    "1.19.3+quilt": [
+      "UbWOZosg",
+      "P7HdYUTg"
+    ],
+    "1.19.4+fabric": [
+      "UbWOZosg",
+      "P7HdYUTg"
+    ],
+    "1.19.4+quilt": [
+      "UbWOZosg",
+      "P7HdYUTg"
+    ],
+    "1.20+fabric": [
+      "UbWOZosg",
+      "P7HdYUTg"
+    ],
+    "1.20+quilt": [
+      "UbWOZosg",
+      "P7HdYUTg"
+    ],
+    "1.20.1+fabric": [
+      "UbWOZosg",
+      "P7HdYUTg"
+    ],
+    "1.20.1+quilt": [
+      "UbWOZosg",
+      "P7HdYUTg"
+    ],
+    "1.20.2+fabric": [
+      "UbWOZosg"
+    ],
+    "1.20.2+quilt": [
+      "UbWOZosg"
+    ],
+    "1.20.3+fabric": [
+      "UbWOZosg"
+    ],
+    "1.20.3+quilt": [
+      "UbWOZosg"
+    ],
+    "1.20.4+fabric": [
+      "UbWOZosg"
+    ],
+    "1.20.4+quilt": [
+      "UbWOZosg"
+    ]
+  }
+}

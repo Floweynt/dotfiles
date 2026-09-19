@@ -1,0 +1,54 @@
+{
+  "slug": "fps-drop-when-you-hurt",
+  "projectId": "gn18JAdz",
+  "versions": {
+    "C4NIBs8q": {
+      "filename": "fpsdropwhenyouhurt-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gn18JAdz/versions/C4NIBs8q/fpsdropwhenyouhurt-1.0.0.jar",
+      "hash": "sha512-+wy8kb8UPzH8Zhg71fqqFChaJrNBsCsg5vaXFX8GX9Vz3D0TNwoc8HZa8QdXcjdkvXhFoPVETzVTlG5OOLFEPg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bpN1kAZf": {
+      "filename": "fpsdropwhenyouhurt-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gn18JAdz/versions/bpN1kAZf/fpsdropwhenyouhurt-1.0.0.jar",
+      "hash": "sha512-MJ6Syi6cELqau6eg1zAxObSu29ZGLarCR5YdziUdv2K4/5WepUGCRxNTGEqX+Ai55yBA52quCkhpe6Ew9Voq+g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "C4NIBs8q"
+    ],
+    "1.21.4+fabric": [
+      "bpN1kAZf"
+    ]
+  }
+}

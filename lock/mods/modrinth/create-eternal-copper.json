@@ -1,0 +1,42 @@
+{
+  "slug": "create-eternal-copper",
+  "projectId": "HepcaAbd",
+  "versions": {
+    "15ruP2Pn": {
+      "filename": "create_eternal_copper-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HepcaAbd/versions/15ruP2Pn/create_eternal_copper-1.0.jar",
+      "hash": "sha512-IFVbaH8LwxIiG8sK+AxnAwaZV7TmtOlJcM2GBol2QCDPkBy4iDjmGdRuvFVAQdS5M4mPL7GZa3phILbo28xMJQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "W9vdUOlt": {
+      "filename": "create_eternal_copper-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/HepcaAbd/versions/W9vdUOlt/create_eternal_copper-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-nZIO50Lav2vQmqCLOzD19L/zf4Q/rJjEXHNjsdZblZgwkAXP+lMss39ZFPnXaic1dIUl2sjPm2DOaIiAn1y6fw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "15ruP2Pn"
+    ],
+    "1.20.1+forge": [
+      "W9vdUOlt"
+    ]
+  }
+}

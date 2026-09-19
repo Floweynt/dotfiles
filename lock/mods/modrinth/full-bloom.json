@@ -1,0 +1,125 @@
+{
+  "slug": "full-bloom",
+  "projectId": "T7MJcjFR",
+  "versions": {
+    "I4CBMsep": {
+      "filename": "full_bloom-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/T7MJcjFR/versions/I4CBMsep/full_bloom-1.0.1.jar",
+      "hash": "sha512-F4FRXtlYhkBReQTPoVvOdM8x2RBuqjq8qu5BvVpozhF0liXL8qUz/oIuHI51uuYsPRocIVUJZqbz66vmCxI22Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "WSHnIijW": {
+      "filename": "full_bloom-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/T7MJcjFR/versions/WSHnIijW/full_bloom-1.0.0-1.20.1.jar",
+      "hash": "sha512-L5InUwVHbhBDpSlsMOK14Q3gbc0ozq6J/Knpup4yXhH0jWHuM+N6UPUQ1GrjdS8r2kEQ7w9ohdiXipYEsPc7Kw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "X0cD5Ije": {
+      "filename": "full_bloom-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/T7MJcjFR/versions/X0cD5Ije/full_bloom-1.0.1.jar",
+      "hash": "sha512-2kvLCx7P5U/xlU3B9ziq4Vdg6YvCDItpIs2K6yZ6jl0lx6ML3kwGHvb6KvgIxoEChY+rGVTnG3YmFug3W7zPYg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mC1LAVC8": {
+      "filename": "full_bloom-1.0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/T7MJcjFR/versions/mC1LAVC8/full_bloom-1.0.2-1.20.1.jar",
+      "hash": "sha512-3nSi1JfcUYXXNCFYBoPdh4H/bn7mQufW3fXJywyHlgsUENhlC55UKKv3hf/7OpKxMCehijyEioH2d+nsrhyR2g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "sJKbxKUq": {
+      "filename": "full_bloom-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/T7MJcjFR/versions/sJKbxKUq/full_bloom-1.0.2.jar",
+      "hash": "sha512-ZT2HYRypzRZuhPH7inHjR0LFiST4q4zj21zwHZbmdTm8FfJhS48Aj5VWbzhc2F2Np4pFY9J99ne7ZuvqGLR8Rg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xtMb72Bl": {
+      "filename": "full_bloom-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/T7MJcjFR/versions/xtMb72Bl/full_bloom-1.0.0-1.20.1.jar",
+      "hash": "sha512-zZauLDQ/R1Pl3BRtvZ6lzlnFKFWuTIAoxf6GfDNS9Y516+0flOsG1r1bX5PXpu7BLzXJRNc7Ra/kt1wa1u62Kw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-enchantment-industry-fabric-legacy",
+          "projectId": "AEZO385x",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "mC1LAVC8",
+      "WSHnIijW",
+      "xtMb72Bl"
+    ],
+    "1.21.1+neoforge": [
+      "sJKbxKUq",
+      "I4CBMsep",
+      "X0cD5Ije"
+    ]
+  }
+}

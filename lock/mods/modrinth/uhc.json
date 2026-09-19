@@ -1,0 +1,115 @@
+{
+  "slug": "uhc",
+  "projectId": "jWgoSg0B",
+  "versions": {
+    "AwbEtLwT": {
+      "filename": "uhc-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jWgoSg0B/versions/AwbEtLwT/uhc-2.1.0.jar",
+      "hash": "sha512-OtGCDgduP+MOClq8dj7AvsBKniluuKWBgabOu7aKMXOW7HgYtZ4ahSoppI1iLNlh9z6Yjhf124dlFfC4UMisVw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "plasmid",
+          "projectId": "xUvfRSZh",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Gofbol47": {
+      "filename": "uhc-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jWgoSg0B/versions/Gofbol47/uhc-2.2.0.jar",
+      "hash": "sha512-+1JD+E+q4kT87wLxdJrRE3p+JUv5r/q6cNl3JR4XrMb2+RLNkkKxDfmcnQUaymi49uY3p0npHlhA6sho7P5eTw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "plasmid",
+          "projectId": "xUvfRSZh",
+          "type": "required"
+        }
+      ]
+    },
+    "njBf5k45": {
+      "filename": "uhc-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jWgoSg0B/versions/njBf5k45/uhc-3.0.0.jar",
+      "hash": "sha512-Bwwa0fbZn/wMUNYl3gyClqE26PbEu/dMkPHop/e9zFDbbiJSw94AzEKCn0YqMqxbkZpJLyajfbS+4KgnTqM85g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "plasmid",
+          "projectId": "xUvfRSZh",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "AwbEtLwT"
+    ],
+    "1.19.4+fabric": [
+      "AwbEtLwT"
+    ],
+    "1.20+fabric": [
+      "Gofbol47",
+      "AwbEtLwT"
+    ],
+    "1.20+quilt": [
+      "Gofbol47"
+    ],
+    "1.20.1+fabric": [
+      "Gofbol47",
+      "AwbEtLwT"
+    ],
+    "1.20.1+quilt": [
+      "Gofbol47"
+    ],
+    "1.21.4+fabric": [
+      "njBf5k45"
+    ],
+    "1.21.4+quilt": [
+      "njBf5k45"
+    ]
+  }
+}

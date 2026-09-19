@@ -1,0 +1,110 @@
+{
+  "slug": "item-filters",
+  "projectId": "1KLyhGRz",
+  "versions": {
+    "ADkZnrz3": {
+      "filename": "item-filters-fabric-1902.2.9-build.51.jar",
+      "url": "https://cdn.modrinth.com/data/1KLyhGRz/versions/ADkZnrz3/item-filters-fabric-1902.2.9-build.51.jar",
+      "hash": "sha512-tk/fa8q+PTwhdVX9l0X4VFK9K30fcNSUStGXjQWGGCd2Y8qZhFeG6axS+rSsWEPhDGxcOFhtYYEL3EScE/8tag==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "FMUX4THT": {
+      "filename": "item-filters-forge-2001.1.0-build.53.jar",
+      "url": "https://cdn.modrinth.com/data/1KLyhGRz/versions/FMUX4THT/item-filters-forge-2001.1.0-build.53.jar",
+      "hash": "sha512-S+0Q2SOmtrA2FKAZpQpWdvTciSE7YUOnf1r0x1n6f5lA5FqBGS4HcX77s8kXMksuMzQ8HbOm7WEXHM67SwmDLw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "LoyNhXfF": {
+      "filename": "item-filters-fabric-2001.1.0-build.53.jar",
+      "url": "https://cdn.modrinth.com/data/1KLyhGRz/versions/LoyNhXfF/item-filters-fabric-2001.1.0-build.53.jar",
+      "hash": "sha512-lDEZvsVE3CwvMN2wVbsRro4jMoTv9vbfBV/+o2c1c5k+fpuWKAulfg/bWSwbsZAN7WHMJV+WI3vuW6MPrK7Rpg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pG1yr0GB": {
+      "filename": "item-filters-forge-1902.2.9-build.51.jar",
+      "url": "https://cdn.modrinth.com/data/1KLyhGRz/versions/pG1yr0GB/item-filters-forge-1902.2.9-build.51.jar",
+      "hash": "sha512-9xWCb30zqe5H3CSJTpmeDqtaWWM1bHbfvxzPInLgEbiKbKwTnFEZCvR1sVh9RAXJITNpsyZmN0ffCzKrr823TA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "ADkZnrz3"
+    ],
+    "1.19.2+forge": [
+      "pG1yr0GB"
+    ],
+    "1.20.1+fabric": [
+      "LoyNhXfF"
+    ],
+    "1.20.1+forge": [
+      "FMUX4THT"
+    ]
+  }
+}

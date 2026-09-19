@@ -1,0 +1,42 @@
+{
+  "slug": "miners-enchant",
+  "projectId": "GCmzRH4e",
+  "versions": {
+    "ca0lancJ": {
+      "filename": "minerenchant-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GCmzRH4e/versions/ca0lancJ/minerenchant-2.0.0.jar",
+      "hash": "sha512-5alyuZ+hhEcb/dJAPQB9KGkEecq3oPPHx5zEjrn2HOrXEYydzUnCL4cLEjuEmU7/WdI1bvQpfE34ioOcSTWXJA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "myYF2oDb": {
+      "filename": "minerenchant-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GCmzRH4e/versions/myYF2oDb/minerenchant-1.0.0.jar",
+      "hash": "sha512-GJUyNgccc/6BWTmEtWZctNXGsDVYqXo718Erm//+jKiTlZ+H798i58W3sEmrX3QhqvGTGCL0xL3HM2r1jeOWSg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "myYF2oDb"
+    ],
+    "1.21.1+neoforge": [
+      "ca0lancJ"
+    ]
+  }
+}

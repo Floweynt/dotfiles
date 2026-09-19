@@ -1,0 +1,107 @@
+{
+  "slug": "boss-checklist-stellarity-compatibility",
+  "projectId": "lYAyBaBK",
+  "versions": {
+    "1Ta5PaXS": {
+      "filename": "Boss Checklist - Stellarity Compatibility 1.21.1 1.0.0 NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/lYAyBaBK/versions/1Ta5PaXS/Boss%20Checklist%20-%20Stellarity%20Compatibility%201.21.1%201.0.0%20NeoForge.jar",
+      "hash": "sha512-NtAO9H3t5hYbIAuudABawO2PlBIUf+Hb5QxLS+QeaV59am4c/QD12kMNQN9vS5p3PbUSzlnTGmRiyG0CO5p+bQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        },
+        {
+          "slug": "stellarity",
+          "projectId": "bZgeDzN8",
+          "type": "required"
+        }
+      ]
+    },
+    "3YEYKnfG": {
+      "filename": "Boss Checklist - Stellarity Compatibility 1.20.1 1.0.0 Fabric & Quilt.jar",
+      "url": "https://cdn.modrinth.com/data/lYAyBaBK/versions/3YEYKnfG/Boss%20Checklist%20-%20Stellarity%20Compatibility%201.20.1%201.0.0%20Fabric%20%26%20Quilt.jar",
+      "hash": "sha512-v7Ljt3DsJiV9y183Y0uqC6qISg2yBxbQn8HpUDgJuKtxWyUATjna+M9RvekbSbhMbT2g4ziVApcK5BxErKI+Zw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        },
+        {
+          "slug": "stellarity",
+          "projectId": "bZgeDzN8",
+          "type": "required"
+        }
+      ]
+    },
+    "V1v5sVg4": {
+      "filename": "Boss Checklist - Stellarity Compatibility 1.20.1 1.0.0 Forge & NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/lYAyBaBK/versions/V1v5sVg4/Boss%20Checklist%20-%20Stellarity%20Compatibility%201.20.1%201.0.0%20Forge%20%26%20NeoForge.jar",
+      "hash": "sha512-Lx3QcSrUXvTTzfPVyAlqZEUGXMGLQN2vbAqpKlqkxHehtEMjALj+Kx7HEbUAxOwkGpDEz9Wn38M5Uf0HXAmaKw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        },
+        {
+          "slug": "stellarity",
+          "projectId": "bZgeDzN8",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "3YEYKnfG"
+    ],
+    "1.20+quilt": [
+      "3YEYKnfG"
+    ],
+    "1.20.1+fabric": [
+      "3YEYKnfG"
+    ],
+    "1.20.1+forge": [
+      "V1v5sVg4"
+    ],
+    "1.20.1+neoforge": [
+      "V1v5sVg4"
+    ],
+    "1.20.1+quilt": [
+      "3YEYKnfG"
+    ],
+    "1.21.1+neoforge": [
+      "1Ta5PaXS"
+    ]
+  }
+}

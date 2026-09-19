@@ -1,0 +1,82 @@
+{
+  "slug": "insomnia-notifier",
+  "projectId": "zXjYdXLX",
+  "versions": {
+    "5mPqMkUO": {
+      "filename": "insomnia-notifier-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zXjYdXLX/versions/5mPqMkUO/insomnia-notifier-1.0.0.jar",
+      "hash": "sha512-paPut+wyQ/hmkfEeJiV5iPqLHeVlE5xs309BgM+S5XwiDSvyNj300fQ4TQcJ2Uzc+JDkLuywOPdTfZb8i4ysgg==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KGerU9ou": {
+      "filename": "insomnia-notifier-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/zXjYdXLX/versions/KGerU9ou/insomnia-notifier-1.0.1.jar",
+      "hash": "sha512-NJys++3TzuZpIyFwica5ThXNV3/lexnSZuQAh11c3g7xVv3G9+xyFACgm2DhBR6zFMoaK6g7IeHWmzMUaz4NgA==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.3+fabric": [
+      "KGerU9ou",
+      "5mPqMkUO"
+    ],
+    "1.21.4+fabric": [
+      "KGerU9ou",
+      "5mPqMkUO"
+    ],
+    "1.21.5+fabric": [
+      "KGerU9ou",
+      "5mPqMkUO"
+    ],
+    "1.21.6+fabric": [
+      "KGerU9ou",
+      "5mPqMkUO"
+    ],
+    "1.21.7+fabric": [
+      "KGerU9ou",
+      "5mPqMkUO"
+    ],
+    "1.21.8+fabric": [
+      "KGerU9ou",
+      "5mPqMkUO"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "ancient-beginnings",
+  "projectId": "Vc4NyHcF",
+  "versions": {
+    "GLIGfdZk": {
+      "filename": "ancientbeginnings-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vc4NyHcF/versions/GLIGfdZk/ancientbeginnings-1.0.0.jar",
+      "hash": "sha512-dnmM/t46kZWR7JvsItyOWLAD64dHvnMrnlW1o2iJ6DotUMNRy5n2FT7IB6s7dy7wi3GRwm7UIiN2Bv0XQGE4wQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "SmIGXgRP": {
+      "filename": "ancientbeginnings-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vc4NyHcF/versions/SmIGXgRP/ancientbeginnings-1.0.0.jar",
+      "hash": "sha512-UGguhsnTSsImNv9jVDvgIa+KvkKteRjaGf1NOEOSA+6rrDIHmOeeeiqFM9Kb7swXmbbs1UXfBRAIGKgUMskoKg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "jldv8orf": {
+      "filename": "ancientbeginnings-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vc4NyHcF/versions/jldv8orf/ancientbeginnings-1.0.0.jar",
+      "hash": "sha512-h2p89HF1ucU652pt0m0JLLfJeBdJX9XErjl16XRb4duO2PRLJmOIOB8bPNKAjWtNn3xZoz+xrAF/oPTCut3pjA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rPQ1LXYO": {
+      "filename": "ancientbeginnings-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vc4NyHcF/versions/rPQ1LXYO/ancientbeginnings-1.0.0.jar",
+      "hash": "sha512-A/8i8eAjB5aRDsrhYEO/ZrxOmxr6ZjIp/n/sjWcw7Zwi9k16UPvm5Rpx1/kRE0tlaEfKKZQH9ja6DssunVufMw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "jldv8orf"
+    ],
+    "1.20.1+forge": [
+      "GLIGfdZk"
+    ],
+    "1.21.1+fabric": [
+      "rPQ1LXYO"
+    ],
+    "1.21.1+neoforge": [
+      "SmIGXgRP"
+    ]
+  }
+}

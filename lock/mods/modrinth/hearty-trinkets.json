@@ -1,0 +1,92 @@
+{
+  "slug": "hearty-trinkets",
+  "projectId": "lLoSS8hZ",
+  "versions": {
+    "IPqQ360o": {
+      "filename": "heartytrinkets-1.20.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lLoSS8hZ/versions/IPqQ360o/heartytrinkets-1.20.2-1.0.0.jar",
+      "hash": "sha512-dIFF4cDsCi5vGP5NRp94NoF9cVq9NXZngPYBD2vCMvaUUCO5N20+OKHubBZyKIXXLwqCSTrdBkwyJMoIiprQZw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "L78AJu5r": {
+      "filename": "heartytrinkets-1.20.1-1.1.0-sources.jar",
+      "url": "https://cdn.modrinth.com/data/lLoSS8hZ/versions/L78AJu5r/heartytrinkets-1.20.1-1.1.0-sources.jar",
+      "hash": "sha512-UF8kWV9BI7bx5HyWcNWD1Tq3PlkH52ZUaPM1irUdNc6fxuensbaa31yHFROTdbbb9zMNNVBX5tJjgSXArM1bjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SBXqFQpO": {
+      "filename": "heartytrinkets-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/lLoSS8hZ/versions/SBXqFQpO/heartytrinkets-1.20.1-1.2.0.jar",
+      "hash": "sha512-HWw8DHvSg1equrP0ulvxdUTe8KBfClrtKMEPxPRO/hve+m5xtUfkcoNO1M2ovhvMwUn9G+YwJeFep3znhS90HQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "l8fX78Rn": {
+      "filename": "heartytrinkets-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lLoSS8hZ/versions/l8fX78Rn/heartytrinkets-1.20.1-1.0.0.jar",
+      "hash": "sha512-cglDsFAuXye3sXMXrHBTr8Vbty7RYCScw6bcj9WlrNyWMfVNnKyhgSMYcOyTZ0bCrRoBW7VCImQCqitgpypJdg==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "l8fX78Rn"
+    ],
+    "1.20+fabric": [
+      "l8fX78Rn"
+    ],
+    "1.20.1+fabric": [
+      "SBXqFQpO",
+      "L78AJu5r",
+      "l8fX78Rn"
+    ],
+    "1.20.2+fabric": [
+      "IPqQ360o"
+    ]
+  }
+}

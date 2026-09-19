@@ -1,0 +1,61 @@
+{
+  "slug": "echolocation",
+  "projectId": "ALrBZP0M",
+  "versions": {
+    "kByCOC5f": {
+      "filename": "echolocation-1.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/ALrBZP0M/versions/kByCOC5f/echolocation-1.6.0.jar",
+      "hash": "sha512-d/nhX18jLCkTzBKFpVmEGDGsVjuvedIm6N+UhRMak7fOBlPFJlx+zEGk/wKxjrPc1vE4+6WTvKP0Xa9gxMcm8Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rPC694UP": {
+      "filename": "echolocation-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/ALrBZP0M/versions/rPC694UP/echolocation-1.5.0.jar",
+      "hash": "sha512-SQorW/CdCIMqjJLl0HlhsnaFBMazgx8q9e5Wt3+8AGqLahnuC9dbDrr8gqnaVjLNzCm3ZzN4BPrxpLJAd+qFsA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vhtkwxw9": {
+      "filename": "echolocation-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/ALrBZP0M/versions/vhtkwxw9/echolocation-1.7.0.jar",
+      "hash": "sha512-pTqo480PLyQdM9c2HkYnCjyk+ru860PZwpZTaeUNm90pYY93wuHpVAi7KgXRMCxoNH4SHFftG/doiw0JZzWDJg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "vhtkwxw9",
+      "kByCOC5f",
+      "rPC694UP"
+    ]
+  }
+}

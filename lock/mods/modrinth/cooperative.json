@@ -1,0 +1,42 @@
+{
+  "slug": "cooperative",
+  "projectId": "94hLUcZj",
+  "versions": {
+    "Cr56aKC1": {
+      "filename": "cooperative-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/94hLUcZj/versions/Cr56aKC1/cooperative-1.0.0.jar",
+      "hash": "sha512-/eJwfdQupKo7CRynaDuFxUo1bidaaxPPrgYgXiRG3EDJmR+M+cslMISt7yimVmXBIRsof0t59mZjJ5xLpqR1nQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Cr56aKC1"
+    ],
+    "1.20+quilt": [
+      "Cr56aKC1"
+    ],
+    "1.20.1+fabric": [
+      "Cr56aKC1"
+    ],
+    "1.20.1+quilt": [
+      "Cr56aKC1"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "arst-motion-blur",
+  "projectId": "9zt1KRcY",
+  "versions": {
+    "1k0w2FJH": {
+      "filename": "arst-motion-blur-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/9zt1KRcY/versions/1k0w2FJH/arst-motion-blur-0.1.0.jar",
+      "hash": "sha512-C0VUno56Hx84wI5k9IuGtBMVuIl4bBg7Ufi57XsT5Q/5lnmXjTCbSfRoToEXsV+S0yK7x0l6gzR/fswCusvycw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "Bn2v1uZ8": {
+      "filename": "arst-motion-blur-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/9zt1KRcY/versions/Bn2v1uZ8/arst-motion-blur-0.1.1.jar",
+      "hash": "sha512-RyfO0eBNiDLZfqGd9vznYOgLItxebx1B9IzlQ6YSPd4MP6zck+RE1pTTy0PX9TKP4KJxfKJvy8g4eEpdZAzNsQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Bn2v1uZ8",
+      "1k0w2FJH"
+    ],
+    "1.20+quilt": [
+      "1k0w2FJH"
+    ],
+    "1.20.1+fabric": [
+      "Bn2v1uZ8",
+      "1k0w2FJH"
+    ],
+    "1.20.1+quilt": [
+      "1k0w2FJH"
+    ],
+    "1.20.2+fabric": [
+      "Bn2v1uZ8",
+      "1k0w2FJH"
+    ],
+    "1.20.2+quilt": [
+      "1k0w2FJH"
+    ],
+    "1.20.3+fabric": [
+      "Bn2v1uZ8",
+      "1k0w2FJH"
+    ],
+    "1.20.3+quilt": [
+      "1k0w2FJH"
+    ],
+    "1.20.4+fabric": [
+      "Bn2v1uZ8",
+      "1k0w2FJH"
+    ],
+    "1.20.4+quilt": [
+      "1k0w2FJH"
+    ]
+  }
+}

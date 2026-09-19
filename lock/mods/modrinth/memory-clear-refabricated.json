@@ -1,0 +1,74 @@
+{
+  "slug": "memory-clear-refabricated",
+  "projectId": "b6pWZB37",
+  "versions": {
+    "8oeYao3a": {
+      "filename": "memory_clear-1.0.0-fabric-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/b6pWZB37/versions/8oeYao3a/memory_clear-1.0.0-fabric-1.19.2.jar",
+      "hash": "sha512-ksncn1HWh8+aQHOSwqb1Xi5vG4pRkzp+eQmvAr/SkUFTQDcXqn/WyV57+kl64UQi01KTqMEAz6uYzW3/grBFaw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "Lez9ROCo": {
+      "filename": "memory_clear_refabricated-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/b6pWZB37/versions/Lez9ROCo/memory_clear_refabricated-1.18.2.jar",
+      "hash": "sha512-6D+FVNkD7TeVeQ6L9i1D9+Vq1K8GbF8eE/TkpZlzWYvc20CipCHPLDWwztC5gnrVtWYF9GCa7irzdgikGIy/Xw==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "Lez9ROCo"
+    ],
+    "1.18.1+fabric": [
+      "Lez9ROCo"
+    ],
+    "1.18.2+fabric": [
+      "Lez9ROCo"
+    ],
+    "1.19+fabric": [
+      "8oeYao3a"
+    ],
+    "1.19.1+fabric": [
+      "8oeYao3a"
+    ],
+    "1.19.2+fabric": [
+      "8oeYao3a"
+    ],
+    "1.19.3+fabric": [
+      "8oeYao3a"
+    ]
+  }
+}

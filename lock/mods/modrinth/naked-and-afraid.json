@@ -1,0 +1,52 @@
+{
+  "slug": "naked-and-afraid",
+  "projectId": "umYgP1HD",
+  "versions": {
+    "9vBweL9T": {
+      "filename": "naked-and-afraid-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/umYgP1HD/versions/9vBweL9T/naked-and-afraid-1.0.0.jar",
+      "hash": "sha512-2kcVkjOYkXjZhIBcdgi9Cpfhm4uGpL9nR7e/I5IhslD2np7n8Yg1Nh/ZzlMuHewV8cExXJdoyjKqnVjrgGdveQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kxcsvTih": {
+      "filename": "naked-and-afraid-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/umYgP1HD/versions/kxcsvTih/naked-and-afraid-1.0.1.jar",
+      "hash": "sha512-KWSUCwAd3//iO4/cAmPV2CoCC9Bg50pweb1OtWnP2Q4lsY0iUQFt3mgCvVBbDt40UTOc0hiddW6jq1mGgvXpHA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "kxcsvTih",
+      "9vBweL9T"
+    ]
+  }
+}

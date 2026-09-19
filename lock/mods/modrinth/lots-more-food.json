@@ -1,0 +1,104 @@
+{
+  "slug": "lots-more-food",
+  "projectId": "U2QZYFHC",
+  "versions": {
+    "PSZr2JZ2": {
+      "filename": "morefood-1.20.1-v0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/U2QZYFHC/versions/PSZr2JZ2/morefood-1.20.1-v0.0.2.jar",
+      "hash": "sha512-c9BDczRJ/uFTAeYJhvXkSTM5H+eFiU/q8z9njSZh5IAGaRY2tG2AiZxuIc21SRyNGb9Gu4/WlX4ZDR4NSMeQmw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RmZFcgJd": {
+      "filename": "morefood-1.20.2-0.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/U2QZYFHC/versions/RmZFcgJd/morefood-1.20.2-0.0.3.jar",
+      "hash": "sha512-UkScel4sHllmLB2nFPndzj7ZHDHFhBgCKJFtHRdrh2cltgGKhCMq1oraJDMqsGsFnYNuvQiebiQEBioMDn9U5g==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "r6bF0ftZ": {
+      "filename": "LotsMoreFood-1.16.4-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/U2QZYFHC/versions/r6bF0ftZ/LotsMoreFood-1.16.4-1.2.0.jar",
+      "hash": "sha512-zuKzEYiaUU9F3S5Z6UBWDU3ylUs0MUxvCAbCtTAK76NOen+AAjBtBH9je7mXR1JIIJa50ewkAEyVHIfPgeL4tA==",
+      "gameVersions": [
+        "1.16.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "t3NQfq9A": {
+      "filename": "LotsMoreFood-1.20.1-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/U2QZYFHC/versions/t3NQfq9A/LotsMoreFood-1.20.1-0.0.1.jar",
+      "hash": "sha512-+wfz5B7jpm7VVF5A5F2EUQNXVvs/hFGJYMRO+xiZToCOK2qz5UesGc9xVNmZ5lb38FyIlnYcyF9RXu+4gE1fGQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.4+forge": [
+      "r6bF0ftZ"
+    ],
+    "1.20+fabric": [
+      "PSZr2JZ2",
+      "t3NQfq9A"
+    ],
+    "1.20.1+fabric": [
+      "PSZr2JZ2",
+      "t3NQfq9A"
+    ],
+    "1.20.2+fabric": [
+      "RmZFcgJd"
+    ]
+  }
+}

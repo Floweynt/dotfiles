@@ -1,0 +1,64 @@
+{
+  "slug": "useless-coins",
+  "projectId": "gW4lwByG",
+  "versions": {
+    "2T9QApuU": {
+      "filename": "useless_coins-0.0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/gW4lwByG/versions/2T9QApuU/useless_coins-0.0.2-1.20.1.jar",
+      "hash": "sha512-HRXt09r3/aog6gphHQ1I53778DK8QbqWnOLfqs+B599rhj9/bVxNE4VN0kzQj1hVP1uAA5eZdEfsH/SifLHLmQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dbBaTay8": {
+      "filename": "useless_coins-0.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/gW4lwByG/versions/dbBaTay8/useless_coins-0.0.1-1.20.1.jar",
+      "hash": "sha512-rhP66ax0l089voiI8X6hIZtZr3axZgvodNSUfYFEiaD3C8pdUm7dO4mX6b15LmyCFoSRuZ+HEe3M9EA/dnE25w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2T9QApuU",
+      "dbBaTay8"
+    ],
+    "1.20.2+fabric": [
+      "2T9QApuU"
+    ],
+    "1.20.3+fabric": [
+      "2T9QApuU"
+    ],
+    "1.20.4+fabric": [
+      "2T9QApuU"
+    ]
+  }
+}

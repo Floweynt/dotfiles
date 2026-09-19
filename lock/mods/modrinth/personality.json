@@ -1,0 +1,72 @@
+{
+  "slug": "personality",
+  "projectId": "am4MaYZG",
+  "versions": {
+    "C1b0NNve": {
+      "filename": "personality-0.1.0.indev2+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/am4MaYZG/versions/C1b0NNve/personality-0.1.0.indev2%2B1.19.2.jar",
+      "hash": "sha512-XuraoUB/E1fKuImYQJ1RufnB7dw4DFAjoCPiEGj8DbgGjYTLzOSxsQokGx2qZCdXA6jXmWIFzmih22vMh8+9rQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "rKEBJYRm": {
+      "filename": "personality-0.2.2+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/am4MaYZG/versions/rKEBJYRm/personality-0.2.2%2B1.19.2.jar",
+      "hash": "sha512-m+oZRjRaPl75nMArkbjVHsKVbYXpvBb9f3TRKRR0+IrSsAGVgndiLolRpFdtKRuqUdh5yzRF7DzNrLvkJxb8GA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "rKEBJYRm",
+      "C1b0NNve"
+    ]
+  }
+}

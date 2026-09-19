@@ -1,0 +1,67 @@
+{
+  "slug": "reachplus",
+  "projectId": "eQoIjK4C",
+  "versions": {
+    "MH4orxcR": {
+      "filename": "ReachPLUS-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/eQoIjK4C/versions/MH4orxcR/ReachPLUS-1.1.jar",
+      "hash": "sha512-Zpsjv25m3S5P6TWdRcmjcFOM3IDOtcaK1jymU3ANdMA+ZGeAMfdwuy/maTIKdH1aLvmwOprVhAxqJpHEFDj3mw==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nYYLKzuR": {
+      "filename": "ReachPLUS-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/eQoIjK4C/versions/nYYLKzuR/ReachPLUS-1.2.jar",
+      "hash": "sha512-KB7BhYu4/kYd9+jMHc765xthFEyEeeWv017Qm1C9VY0c/fNwUa+yh71nnsYn+eKrHqUK51XPukiP+G0uxb9llg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "zVbpyUlC": {
+      "filename": "ReachPLUS-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eQoIjK4C/versions/zVbpyUlC/ReachPLUS-1.0.jar",
+      "hash": "sha512-X+v/R4y8ccvKFLt09LnihK2lPx+1oXRYdDewMN//oTXCrdVAi2hyRpu09qW9vZ/2KX2p1Ahlq2PSRY0eBunKrA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "MH4orxcR",
+      "zVbpyUlC"
+    ],
+    "1.21.11+fabric": [
+      "MH4orxcR"
+    ],
+    "1.21.9+fabric": [
+      "MH4orxcR",
+      "zVbpyUlC"
+    ],
+    "26.1.2+fabric": [
+      "nYYLKzuR"
+    ]
+  }
+}

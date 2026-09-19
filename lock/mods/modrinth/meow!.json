@@ -1,0 +1,82 @@
+{
+  "slug": "meow!",
+  "projectId": "xE4vWy6F",
+  "versions": {
+    "B510JxGz": {
+      "filename": "meow-1.0.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/xE4vWy6F/versions/B510JxGz/meow-1.0.0-neoforge-1.21.1.jar",
+      "hash": "sha512-6eTBgBjpnW6kOhIZourRO/8MftXZVgDMe30TIGHSyFQuCp6bbdlacF2qscFUJ9gY8XTs5/WIN+O1ECDv+aWUBQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ItvGmZG2": {
+      "filename": "fabric-meow_keybind-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xE4vWy6F/versions/ItvGmZG2/fabric-meow_keybind-1.0.0.jar",
+      "hash": "sha512-PBmoWAnhQGceyo01z8OS9R5KW4E5qRk4G0KFFblpcNr7CN93v8Y9XA+gd1vQxQfUB1zlXmvuT1CmhoqHNWaKUw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ORZJrnZO": {
+      "filename": "meow-1.0.0-neoforge-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/xE4vWy6F/versions/ORZJrnZO/meow-1.0.0-neoforge-1.21.4.jar",
+      "hash": "sha512-d/dPR3HIFn006Lopss8H8Ti4t9zTGTJ25rk4MxzVaYhth83tglpVLTKFYhaY0jrVfZ7R6Xjak1AxqqHm8V9LGQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cL6L1GPY": {
+      "filename": "meow_keybind-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xE4vWy6F/versions/cL6L1GPY/meow_keybind-1.0.0.jar",
+      "hash": "sha512-rdETPTU0iQtSmPkb700IJoe89E/RbcvKuoVzLUad5b81vw6XEiGyKhL9Uju+61neGuKTaf2fHJxay1EyFXz8uQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ItvGmZG2"
+    ],
+    "1.20.1+forge": [
+      "cL6L1GPY"
+    ],
+    "1.21.1+neoforge": [
+      "B510JxGz"
+    ],
+    "1.21.4+neoforge": [
+      "ORZJrnZO"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "pswg-addon-clonewars",
+  "projectId": "IAnTtFDY",
+  "versions": {
+    "D5m2zIYe": {
+      "filename": "pswg-addon-clonewars-0.0.14.jar",
+      "url": "https://cdn.modrinth.com/data/IAnTtFDY/versions/D5m2zIYe/pswg-addon-clonewars-0.0.14.jar",
+      "hash": "sha512-xdYIv20sMfYUoVuQHbYHvhRkthXN0CGFNAAyVs0H+WR2hoDmPsvy01sSdEHPYvp16cU6XrhPaxi9pccCdRhgCw==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pswg",
+          "projectId": "9rBI0wQz",
+          "type": "required"
+        }
+      ]
+    },
+    "RWDjUprF": {
+      "filename": "pswg-addon-clonewars-0.0.13.jar",
+      "url": "https://cdn.modrinth.com/data/IAnTtFDY/versions/RWDjUprF/pswg-addon-clonewars-0.0.13.jar",
+      "hash": "sha512-ap9q8Ah/L+l9aUyDDfV2Lap+NJpKm8mCZyZUOdaTkXbiBSENv/6UHKCvvpLHm4QzeDqXpiqSvQ8o5dsgaJ07Zw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pswg",
+          "projectId": "9rBI0wQz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "D5m2zIYe",
+      "RWDjUprF"
+    ],
+    "1.20+fabric": [
+      "D5m2zIYe"
+    ],
+    "1.20.1+fabric": [
+      "D5m2zIYe"
+    ],
+    "1.20.2+fabric": [
+      "D5m2zIYe"
+    ]
+  }
+}

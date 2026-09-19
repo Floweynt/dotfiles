@@ -1,0 +1,35 @@
+{
+  "slug": "draconic-archers-moon-bundle",
+  "projectId": "ay7BmJIa",
+  "versions": {
+    "kbI1pOHh": {
+      "filename": "Moon-Bundle-1.21.1-NeoForge-fabric-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/ay7BmJIa/versions/kbI1pOHh/Moon-Bundle-1.21.1-NeoForge-fabric-1.0.3.jar",
+      "hash": "sha512-hPVkHQSA2OnitOyFpup+Kjiyo17W9G8wWO15UDckmtMS1WAk35z1TNr8yrzq8RK8sXK+bomVqqTRUbZ1Wfqlrg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "kbI1pOHh"
+    ],
+    "1.21.1+neoforge": [
+      "kbI1pOHh"
+    ]
+  }
+}

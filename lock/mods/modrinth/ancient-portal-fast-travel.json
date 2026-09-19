@@ -1,0 +1,59 @@
+{
+  "slug": "ancient-portal-fast-travel",
+  "projectId": "XsmsLI9v",
+  "versions": {
+    "68MzKZlf": {
+      "filename": "ancient-portal-fast-travel-0.1.4-Sinytra.jar",
+      "url": "https://cdn.modrinth.com/data/XsmsLI9v/versions/68MzKZlf/ancient-portal-fast-travel-0.1.4-Sinytra.jar",
+      "hash": "sha512-ZMW+YLshWAfPDjKx43ToSlLn2YOASMYGF1+uGQq9wDCcTGlERlFV+1j7LBSuuZEQRysNNKoRhwpPcUawXF8fQw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        },
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        }
+      ]
+    },
+    "zmSDWIZ8": {
+      "filename": "ancient-portal-fast-travel-0.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/XsmsLI9v/versions/zmSDWIZ8/ancient-portal-fast-travel-0.1.4.jar",
+      "hash": "sha512-hThBFITitcNxxoCAC+JTojgL1xkiegt5OJLBZ6JemNfM3z+fP+i+Jt/U2O4CJ0XgWxIaqxYtGMEBCEhEXemxZg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "zmSDWIZ8"
+    ],
+    "1.20.1+forge": [
+      "68MzKZlf"
+    ]
+  }
+}

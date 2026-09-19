@@ -1,0 +1,124 @@
+{
+  "slug": "zombies-guns",
+  "projectId": "Ci2A8nYv",
+  "versions": {
+    "9B50DPqH": {
+      "filename": "zombies-guns-V1.0.1-data.jar",
+      "url": "https://cdn.modrinth.com/data/Ci2A8nYv/versions/9B50DPqH/zombies-guns-V1.0.1-data.jar",
+      "hash": "sha512-8HslYoZp7LaSmPjZZ0efTezSRoUA7XhdGgSJ4mynkzbG3zAXVEGsH0GtrwCjs3nzy9xZMIHPwh8cl092m2wlJw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "gun-core",
+          "projectId": "Ti7LgRXJ",
+          "type": "required"
+        }
+      ]
+    },
+    "R1PplR1G": {
+      "filename": "zombies-guns-V1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ci2A8nYv/versions/R1PplR1G/zombies-guns-V1.0.jar",
+      "hash": "sha512-8DwUGEYjGSenRHnYwH/fPSmrq1TIPs1FyDhqGdJSVNCUZZujrqPronWOuR3Sj1zZbDqCJnn4Lu31z0lFma+LEw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "gun-core",
+          "projectId": "Ti7LgRXJ",
+          "type": "required"
+        }
+      ]
+    },
+    "VFF0RZMb": {
+      "filename": "Zombies Guns V1.0.1.zip",
+      "url": "https://cdn.modrinth.com/data/Ci2A8nYv/versions/VFF0RZMb/Zombies%20Guns%20V1.0.1.zip",
+      "hash": "sha512-frAHTfb1HeS6g8e3s5M/ltzlA1ZUenFedB7gEGyqvoUu1ScIP6X9WiDaapzRrJppDJI6evwARNtLChC/CEHsgg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "gun-core",
+          "projectId": "Ti7LgRXJ",
+          "type": "required"
+        }
+      ]
+    },
+    "veE1yJGW": {
+      "filename": "Zombies Guns V1.0.zip",
+      "url": "https://cdn.modrinth.com/data/Ci2A8nYv/versions/veE1yJGW/Zombies%20Guns%20V1.0.zip",
+      "hash": "sha512-+GdPi9rO+ARZkOGBrPPQqf7EBvoe8VNm8QIFFuQu0aKifebgK806mF2f+JTnbGpYnCN2fuhRZOxNPrfQez7gig==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "gun-core",
+          "projectId": "Ti7LgRXJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+datapack": [
+      "veE1yJGW"
+    ],
+    "1.21.4+fabric": [
+      "R1PplR1G"
+    ],
+    "1.21.4+forge": [
+      "R1PplR1G"
+    ],
+    "1.21.4+neoforge": [
+      "R1PplR1G"
+    ],
+    "1.21.4+quilt": [
+      "R1PplR1G"
+    ],
+    "1.21.5+datapack": [
+      "VFF0RZMb"
+    ],
+    "1.21.5+fabric": [
+      "9B50DPqH"
+    ],
+    "1.21.5+forge": [
+      "9B50DPqH"
+    ],
+    "1.21.5+neoforge": [
+      "9B50DPqH"
+    ],
+    "1.21.5+quilt": [
+      "9B50DPqH"
+    ]
+  }
+}

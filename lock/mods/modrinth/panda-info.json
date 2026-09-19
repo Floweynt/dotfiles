@@ -1,0 +1,104 @@
+{
+  "slug": "panda-info",
+  "projectId": "K8iUn9o9",
+  "versions": {
+    "1Ih0pUq4": {
+      "filename": "PandaInfo-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/K8iUn9o9/versions/1Ih0pUq4/PandaInfo-1.0.1.jar",
+      "hash": "sha512-8/5Hi17j0vewH8X3LsxOwTy3J+hiDr/Jtk9fc9mkT9u5hQX6qKwHkiyNuwLv7/7i8w2CdtjjOr7mamFyBdMhqQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "BRVi7al2": {
+      "filename": "PandaInfo-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/K8iUn9o9/versions/1.0.0/PandaInfo-1.0.0.jar",
+      "hash": "sha512-c5ygYkJsj3wTd82tofoFejVBjcho3eFzfp/gMcoJetOkhZOc767uYPcjFZOAkwzg0xczLjolxrPuRpUweYEtSg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UldUTomA": {
+      "filename": "PandaInfo-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/K8iUn9o9/versions/UldUTomA/PandaInfo-1.0.2.jar",
+      "hash": "sha512-+9xQpgRIpftDxpPAQzdvtl45ArLPkm5KgBtphSmgmKdwi3NaaAMNIiX3g20cEzg6RkGmOR7q0HTsCm+VD4h2tg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jR0aTNLS": {
+      "filename": "PandaInfo-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/K8iUn9o9/versions/jR0aTNLS/PandaInfo-1.0.1.jar",
+      "hash": "sha512-LvwqgNPggvasgHX1sZVjdVzhYyIKt9c6SuoB+VDOMTtZh6xsFEDoAwNGvl/YJsbdAVtltj6Ox1Je2iOtMnsKdw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "BRVi7al2"
+    ],
+    "1.19.2+fabric": [
+      "1Ih0pUq4"
+    ],
+    "1.20+fabric": [
+      "UldUTomA",
+      "jR0aTNLS"
+    ],
+    "1.20.1+fabric": [
+      "UldUTomA",
+      "jR0aTNLS"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "combat-hitboxes-plus",
+  "projectId": "jhIMhAcy",
+  "versions": {
+    "labGGMlD": {
+      "filename": "combat-hitbox+-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/jhIMhAcy/versions/labGGMlD/combat-hitbox%2B-1.0.3.jar",
+      "hash": "sha512-7nbxvEQvdlrBM35h2t3g+CaFT7a20vURR3pSGXfANfxx21OmtrMRAkgkTQWXeuukmWNg4hzGx6xxSw0WVEGP+g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "labGGMlD"
+    ]
+  }
+}

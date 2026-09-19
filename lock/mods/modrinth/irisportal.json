@@ -1,0 +1,45 @@
+{
+  "slug": "irisportal",
+  "projectId": "EzP3uk54",
+  "versions": {
+    "TLjrnrlc": {
+      "filename": "irisportal-0.0.1-mc1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/EzP3uk54/versions/TLjrnrlc/irisportal-0.0.1-mc1.20.1-fabric.jar",
+      "hash": "sha512-ExDwbaa6690jIoKK6HPcs/DA77wywokXZe5vdQ2Paw7yOrdMtb9n6m0Dzg1/ctTcanJXAD8mTtInIMhC9Z1z9g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "TLjrnrlc"
+    ],
+    "1.20.1+fabric": [
+      "TLjrnrlc"
+    ]
+  }
+}

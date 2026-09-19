@@ -1,0 +1,75 @@
+{
+  "slug": "render-distance-command",
+  "projectId": "N9HTX4A4",
+  "versions": {
+    "Tuk6tFRo": {
+      "filename": "Render Distance Command [CLIENT, v1.0.1, MC 1.21.3].jar",
+      "url": "https://cdn.modrinth.com/data/N9HTX4A4/versions/Tuk6tFRo/Render%20Distance%20Command%20%5BCLIENT%2C%20v1.0.1%2C%20MC%201.21.3%5D.jar",
+      "hash": "sha512-nu2q3kDlN3aLBLdUL4F141m1rTIWmQ0jpRoVwTZN+LyqmFL1D/skl8MCfz/gMdNpEJsTk7D9vo/RcLXH2aVgxw==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qh6QYD11": {
+      "filename": "Render Distance Command [CLIENT, v1.0.0, MC 1.21.3].jar",
+      "url": "https://cdn.modrinth.com/data/N9HTX4A4/versions/qh6QYD11/Render%20Distance%20Command%20%5BCLIENT%2C%20v1.0.0%2C%20MC%201.21.3%5D.jar",
+      "hash": "sha512-m1hSU/J0W6enCS65clcNt6QDohVTsEfiGx/Bq2TjO2431cZxQUhIqcny8nrW5tBXX/7F3QqAYv2Z5hZjHml33Q==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uJBIB5Mp": {
+      "filename": "Render Distance Command [v1.0.0, CLIENT].jar",
+      "url": "https://cdn.modrinth.com/data/N9HTX4A4/versions/uJBIB5Mp/Render%20Distance%20Command%20%5Bv1.0.0%2C%20CLIENT%5D.jar",
+      "hash": "sha512-IhimvE1WXKvVIv8BcSaV9cqelLOowiROlqEi+ksL+3CEoCZE5u6oPGHGI6bkGJWUAgAHX2j/IsAlTipZIzq7+w==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "uJBIB5Mp"
+    ],
+    "1.21.3+fabric": [
+      "Tuk6tFRo",
+      "qh6QYD11"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "snorlax-boss",
+  "projectId": "YRl6luUk",
+  "versions": {
+    "K1Zpmhkh": {
+      "filename": "snorlax-boss-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YRl6luUk/versions/K1Zpmhkh/snorlax-boss-1.0.0.jar",
+      "hash": "sha512-Eu/uK9lJ6XFDn8mKVwViPV6INENVfet9GZwpQgdnoi1DjPf1Dm9WAV5QcLd+n6GMdjRFeayuuWVV6qzIwam38w==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "a02C6HdU": {
+      "filename": "snorlax-boss-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YRl6luUk/versions/a02C6HdU/snorlax-boss-1.0.1.jar",
+      "hash": "sha512-EsmrbwUlf/DIYSjFZrJUWisYqD8apM2N9NOuw9RlXOqsmz0bLaTFMAa+jG4KntB3O+7Dpgv6iISgjXqklrvw8w==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "a02C6HdU",
+      "K1Zpmhkh"
+    ],
+    "1.19.3+quilt": [
+      "a02C6HdU",
+      "K1Zpmhkh"
+    ]
+  }
+}

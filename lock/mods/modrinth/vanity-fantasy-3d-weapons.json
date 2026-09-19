@@ -1,0 +1,98 @@
+{
+  "slug": "vanity-fantasy-3d-weapons",
+  "projectId": "VJ3aKU0v",
+  "versions": {
+    "VcNLmk9e": {
+      "filename": "Vanity_fantasy_3d_weapons.jar",
+      "url": "https://cdn.modrinth.com/data/VJ3aKU0v/versions/VcNLmk9e/Vanity_fantasy_3d_weapons.jar",
+      "hash": "sha512-QLhxMHASxcxa7O1A+DN2qi83V1UexEfs8HJvSH1ko9OhICT8wOoO5XMBKY6qRZ/XkUR8KPwLLVEmE4D0gJOVEg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ravens-vanity-tags",
+          "projectId": "E9plot8p",
+          "type": "required"
+        },
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    },
+    "pxywBwQu": {
+      "filename": "Vanity_fantasy_3d_weapons.jar",
+      "url": "https://cdn.modrinth.com/data/VJ3aKU0v/versions/pxywBwQu/Vanity_fantasy_3d_weapons.jar",
+      "hash": "sha512-rU+OgHSmmudVW2Kk1OQb9ZxGtYfgeqcECc43bHoT0wpCfLgd+Wy+QK7AChgKin/1IrDaxYcT8Iuf9ZKYv2c2ow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        },
+        {
+          "slug": "ravens-vanity-tags",
+          "projectId": "E9plot8p",
+          "type": "required"
+        }
+      ]
+    },
+    "v3Tsw6Z9": {
+      "filename": "Vanity_fantasy_3d_weapons-1.16_1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VJ3aKU0v/versions/v3Tsw6Z9/Vanity_fantasy_3d_weapons-1.16_1.1.0.jar",
+      "hash": "sha512-EYCe8+27sU/4glRX4p2icvwrf367UegbOgHItKjyj9kRZE24NWEzx3a2HvwCQcXVDgn1u84vuaWKaBcLOSGX5g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        },
+        {
+          "slug": "ravens-vanity-tags",
+          "projectId": "E9plot8p",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "v3Tsw6Z9",
+      "VcNLmk9e",
+      "pxywBwQu"
+    ],
+    "1.20.1+forge": [
+      "v3Tsw6Z9",
+      "VcNLmk9e"
+    ],
+    "1.20.1+neoforge": [
+      "v3Tsw6Z9"
+    ]
+  }
+}

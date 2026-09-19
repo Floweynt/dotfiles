@@ -1,0 +1,112 @@
+{
+  "slug": "botools",
+  "projectId": "8RLRm8Fb",
+  "versions": {
+    "DCygTvY9": {
+      "filename": "Botools-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8RLRm8Fb/versions/DCygTvY9/Botools-1.0.jar",
+      "hash": "sha512-j5s0TtJaQlTBdzgEwew4ZPFEna399o6/XeLw7AnB6a+s7yBd3sVO4WPclhjKbfBUtLX0D29RwkNqA+YNA4qsVQ==",
+      "gameVersions": [
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "JMmctEV5": {
+      "filename": "Botools-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/8RLRm8Fb/versions/JMmctEV5/Botools-1.2.jar",
+      "hash": "sha512-SSLeWn1FodftFp/MMJxMXoxrapSS8WXqb2cWEDlIqGOec9GenPVNQCE1V3H1unCiWjupcUXZy0RWOdJIldq6Yg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "UEhfcxww": {
+      "filename": "Botools-0.9.jar",
+      "url": "https://cdn.modrinth.com/data/8RLRm8Fb/versions/UEhfcxww/Botools-0.9.jar",
+      "hash": "sha512-8j5RbON5uOupeVTd92OmXqGnfMufk8xh98LoJY98+FsjLd3tzZVQgowIHPylPnvFG+2iqXOjvDfxoF9J0pAm0g==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "aopiJumT": {
+      "filename": "Botools-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8RLRm8Fb/versions/aopiJumT/Botools-1.1.jar",
+      "hash": "sha512-pPt3BpnA4Z54HkcgOZhErgx+RsIAa1A3Upc4Xzn8p7UfSdIds+AeKk+aKNZwhusFfeEJE6FwzPA83ECji+uaoA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "UEhfcxww"
+    ],
+    "1.17.1+fabric": [
+      "DCygTvY9"
+    ],
+    "1.18+fabric": [
+      "DCygTvY9"
+    ],
+    "1.18.1+fabric": [
+      "DCygTvY9"
+    ],
+    "1.18.2+fabric": [
+      "DCygTvY9"
+    ],
+    "1.19.2+fabric": [
+      "aopiJumT"
+    ],
+    "1.19.3+fabric": [
+      "JMmctEV5"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "cobblestructures",
+  "projectId": "zjuWhjTY",
+  "versions": {
+    "VChQzbUp": {
+      "filename": "cobblestructures-1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/zjuWhjTY/versions/VChQzbUp/cobblestructures-1.0.0.zip",
+      "hash": "sha512-nIbHRWaf4jcKmEyKF2qDrQviYt9fVr0IKR80sHgpY7D2LmVy1HofEdMc6SfP3D50hk8qASaNJEBo8bVGnupeww==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobbledollars",
+          "projectId": "s7N7AsqL",
+          "type": "required"
+        },
+        {
+          "slug": "another-furniture",
+          "projectId": "ulloLmqG",
+          "type": "required"
+        }
+      ]
+    },
+    "g7V4TGOs": {
+      "filename": "cobblestructures-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zjuWhjTY/versions/g7V4TGOs/cobblestructures-1.1.0.jar",
+      "hash": "sha512-xWr71igZuKXOF3KiQUHwJKBM8JSmKFIeHvL85bVoPxkKzoGa2YVUe6TVGB7w09tt8pEE8+SSDgCb8hSjj0dVkw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "another-furniture",
+          "projectId": "ulloLmqG",
+          "type": "required"
+        },
+        {
+          "slug": "cobbledollars",
+          "projectId": "s7N7AsqL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "qyaHZYx7": {
+      "filename": "cobblestructures-1.1.0.zip",
+      "url": "https://cdn.modrinth.com/data/zjuWhjTY/versions/qyaHZYx7/cobblestructures-1.1.0.zip",
+      "hash": "sha512-lj33hvFNwdBs0RMBULNBbLCccOAMkinV0ZIXfgqvwfnphojBhtDhG56oaM6Q5U0XmiPbhAheWcqyiQkUXfbkHg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "another-furniture",
+          "projectId": "ulloLmqG",
+          "type": "required"
+        },
+        {
+          "slug": "cobbledollars",
+          "projectId": "s7N7AsqL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "qyaHZYx7",
+      "VChQzbUp"
+    ],
+    "1.21.1+fabric": [
+      "g7V4TGOs"
+    ],
+    "1.21.1+neoforge": [
+      "g7V4TGOs"
+    ]
+  }
+}

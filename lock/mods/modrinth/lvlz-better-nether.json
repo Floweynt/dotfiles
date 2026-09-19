@@ -1,0 +1,64 @@
+{
+  "slug": "lvlz-better-nether",
+  "projectId": "7MGE9e7t",
+  "versions": {
+    "SK3UC0QH": {
+      "filename": "lvlz_better_nether-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7MGE9e7t/versions/SK3UC0QH/lvlz_better_nether-1.21.1-1.0.jar",
+      "hash": "sha512-XuMP1hJwsdeUqlU0rWmcLf1GhI1RrTvxXNTrpxwDkw7T2+9ZpV1e6Pl7pAIHGwTjdwdTqjd8iIdLXucQwP83nw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "betternether",
+          "projectId": "MpzVLzy5",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "pesMh5D5": {
+      "filename": "better_netherz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7MGE9e7t/versions/pesMh5D5/better_netherz-1.0.jar",
+      "hash": "sha512-Ueo3XvwRXiXD+ppjfrb+vonDVmhQ9647nlVevhDE7LsVY8LIoio9OZC8AyTfA73fakjxI+j7hjk4CWi7dZdM0g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "betternether",
+          "projectId": "MpzVLzy5",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pesMh5D5"
+    ],
+    "1.21.1+fabric": [
+      "SK3UC0QH"
+    ]
+  }
+}

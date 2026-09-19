@@ -1,0 +1,35 @@
+{
+  "slug": "immortal-snail",
+  "projectId": "oojq932d",
+  "versions": {
+    "JJxMVbRo": {
+      "filename": "immortal-snail-v1.jar",
+      "url": "https://cdn.modrinth.com/data/oojq932d/versions/JJxMVbRo/immortal-snail-v1.jar",
+      "hash": "sha512-5591ggMldapl5eeNjJbqSnzCn8ZXBXryhFxztNwJn6179O0l5B9pmyNP8sUmhoc7sy0ZDMWiFC64M6pkYpvCUQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "JJxMVbRo"
+    ],
+    "1.21.1+fabric": [
+      "JJxMVbRo"
+    ]
+  }
+}

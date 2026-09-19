@@ -1,0 +1,58 @@
+{
+  "slug": "betterend-crashed-ships-tweaks",
+  "projectId": "QmTVMKNG",
+  "versions": {
+    "B2344Hnl": {
+      "filename": "betterend-crashed-ships-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QmTVMKNG/versions/B2344Hnl/betterend-crashed-ships-1.1.0.jar",
+      "hash": "sha512-o6KbklGVUcwpt4UcFOR3s0GveNPafXjlXB2abpBi5suYyZQRbiOxMoCaupsBdYls609FQPrQoWLIxe9znS8K5w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "betterend",
+          "projectId": "gc8OEnCC",
+          "type": "required"
+        }
+      ]
+    },
+    "E4nLamkA": {
+      "filename": "betterend-crashed-ships-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QmTVMKNG/versions/E4nLamkA/betterend-crashed-ships-1.0.0.jar",
+      "hash": "sha512-/O80kQeWEOY1dnaBqxz117KGQRL1r7Zr5jiZNgKQmgSCYNBiDJKokEhXmsBWhzzU5PzvzIR/VHUu/HVUH8fGvQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "betterend",
+          "projectId": "gc8OEnCC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "E4nLamkA"
+    ],
+    "1.21+fabric": [
+      "B2344Hnl"
+    ],
+    "1.21.1+fabric": [
+      "B2344Hnl"
+    ]
+  }
+}

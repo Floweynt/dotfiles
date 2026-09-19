@@ -1,0 +1,108 @@
+{
+  "slug": "create-fastfood",
+  "projectId": "eAKlqy1K",
+  "versions": {
+    "I908Etmb": {
+      "filename": "createfastfood-0.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/eAKlqy1K/versions/I908Etmb/createfastfood-0.3-fabric.jar",
+      "hash": "sha512-yXM8KDouNKWEeVRix0K6Qz/SDt6Y7IZNu9//iRWuH1Id1uDQyq6g2vrpUEYM0kyMm+/1CH5ku+mlYfgK1n6kqA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "VKYQa6ym": {
+      "filename": "CreateFastFood-0.2-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/eAKlqy1K/versions/VKYQa6ym/CreateFastFood-0.2-1.20.jar",
+      "hash": "sha512-6z7o/ccg3jW3gOH3ws5GxzCvtCA4qdfSZKagDYkdpOC/QIHoZzHlJleE0ajjS7uWZa1h9zb8HqmhXiPH8O5eDw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hldIId7N": {
+      "filename": "CreateFastFood-0.1-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/eAKlqy1K/versions/hldIId7N/CreateFastFood-0.1-1.20.jar",
+      "hash": "sha512-AIbjo748+Q85FXDlmpVHpHGHMa0wn4fKTc+z5vKf4LjrMLD0/HROpixY9Hsv8HLTU81KlQ47uBHprgccsapU/A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "I908Etmb",
+      "VKYQa6ym",
+      "hldIId7N"
+    ],
+    "1.20.1+fabric": [
+      "I908Etmb",
+      "VKYQa6ym",
+      "hldIId7N"
+    ],
+    "1.20.2+fabric": [
+      "I908Etmb",
+      "VKYQa6ym",
+      "hldIId7N"
+    ],
+    "1.20.3+fabric": [
+      "I908Etmb",
+      "VKYQa6ym",
+      "hldIId7N"
+    ],
+    "1.20.4+fabric": [
+      "I908Etmb",
+      "VKYQa6ym",
+      "hldIId7N"
+    ],
+    "1.20.5+fabric": [
+      "I908Etmb"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "icebreak",
+  "projectId": "dossS7yO",
+  "versions": {
+    "1blBoCvZ": {
+      "filename": "icebreak-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dossS7yO/versions/1blBoCvZ/icebreak-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-jqVzFxoNJ35mePb602xrvgnXgTTpfAnqo3svjKdd4IoJ1pzutQfJYqcIa3+UwS88WNlJhYep5gzvyNnbTOYghg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "npTa19rt": {
+      "filename": "icebreak-1.0.0+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/dossS7yO/versions/npTa19rt/icebreak-1.0.0%2B26.1.2.jar",
+      "hash": "sha512-H5OP2tBmw6F/FrbPtUrZU1KdNC9F7j1PViz7RwXP1G+k+Wwt6DltJzViqrfC36iJdCv3Z6Y7OP+VQSXM5VEIlw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "x1wZ61OV": {
+      "filename": "icebreak-1.0.1+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/dossS7yO/versions/x1wZ61OV/icebreak-1.0.1%2B26.1.2.jar",
+      "hash": "sha512-yIfQ/0v8XggQbsV3V7nfKkRDewxDBMd9TRnUAkHezMN2kPL7M62lDr+UVJJ7JTDTiTI1L/tDUbTJAEOrIZF/ZA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2-rc-2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yX87mprd": {
+      "filename": "icebreak-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dossS7yO/versions/yX87mprd/icebreak-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-zDsuZ1z/A1nN9MgRUf9JNkxZVJP2neXdRUNt76L5ya7KPZVxMX5fp6UAKPsHG9WOq7QYpXWZ4pXCLtK09oBDIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yX87mprd"
+    ],
+    "1.21.1+fabric": [
+      "1blBoCvZ"
+    ],
+    "26.1+fabric": [
+      "x1wZ61OV"
+    ],
+    "26.1.1+fabric": [
+      "x1wZ61OV"
+    ],
+    "26.1.2+fabric": [
+      "x1wZ61OV",
+      "npTa19rt"
+    ],
+    "26.2+fabric": [
+      "x1wZ61OV"
+    ],
+    "26.2-rc-2+fabric": [
+      "x1wZ61OV"
+    ]
+  }
+}

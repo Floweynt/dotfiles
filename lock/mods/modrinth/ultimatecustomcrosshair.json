@@ -1,0 +1,129 @@
+{
+  "slug": "ultimatecustomcrosshair",
+  "projectId": "XmmyKnah",
+  "versions": {
+    "UPnxsBUS": {
+      "filename": "ultimatecustomcrosshair-1.21.9-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/XmmyKnah/versions/UPnxsBUS/ultimatecustomcrosshair-1.21.9-1.21.11.jar",
+      "hash": "sha512-MB4gzmzuxCxqqEL0DXxEZ8ozN/d1xYsVO/LzDTo/bzLMlXu260nOiQzsdl/Cwfp5RRNOZj82MltyRGjXv7XlcQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "fr5z7Uze": {
+      "filename": "ultimatecustomcrosshair-1.21-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XmmyKnah/versions/fr5z7Uze/ultimatecustomcrosshair-1.21-1.1.0.jar",
+      "hash": "sha512-Shkr2qcbHNGgwAAHD4Rq53Gv2333OQ4frjbqH1QkGK/sJhMUqVW6DxPE4hnMxZFmg7bFx5C2APQyo6HeHcHpQA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "yKLGeEEd": {
+      "filename": "ultimatecustomcrosshair-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XmmyKnah/versions/yKLGeEEd/ultimatecustomcrosshair-1.21-1.0.0.jar",
+      "hash": "sha512-unZCigOgnofbc4Q7p5eHxAc/dZKCIzVHYkim2FJeQE0tq7xhOyPvubru2o4YFnmnPUDDb8XYun0FtpcCW4fZpQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "fr5z7Uze",
+      "yKLGeEEd"
+    ],
+    "1.21.10+fabric": [
+      "UPnxsBUS"
+    ],
+    "1.21.11+fabric": [
+      "UPnxsBUS"
+    ],
+    "1.21.2+fabric": [
+      "fr5z7Uze",
+      "yKLGeEEd"
+    ],
+    "1.21.3+fabric": [
+      "fr5z7Uze",
+      "yKLGeEEd"
+    ],
+    "1.21.4+fabric": [
+      "fr5z7Uze",
+      "yKLGeEEd"
+    ],
+    "1.21.5+fabric": [
+      "fr5z7Uze",
+      "yKLGeEEd"
+    ],
+    "1.21.6+fabric": [
+      "fr5z7Uze",
+      "yKLGeEEd"
+    ],
+    "1.21.7+fabric": [
+      "fr5z7Uze",
+      "yKLGeEEd"
+    ],
+    "1.21.8+fabric": [
+      "fr5z7Uze",
+      "yKLGeEEd"
+    ],
+    "1.21.9+fabric": [
+      "UPnxsBUS"
+    ]
+  }
+}

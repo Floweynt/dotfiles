@@ -1,0 +1,42 @@
+{
+  "slug": "quiet-fishing",
+  "projectId": "7HW1rLKI",
+  "versions": {
+    "FLfftXHd": {
+      "filename": "quietfishing-1.20.2-3.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/7HW1rLKI/versions/FLfftXHd/quietfishing-1.20.2-3.0.3.jar",
+      "hash": "sha512-f0dUp8fbYR6Z8WrsBSdgPEH4IImolXbrJ+JMAiZ+knKwdUanGhAtLDrZwLMYgdTROQZDLO0PteHfTvrOjvUu5A==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "hiRnV31D": {
+      "filename": "quietfishing-3.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/7HW1rLKI/versions/hiRnV31D/quietfishing-3.0.2.jar",
+      "hash": "sha512-dtREpjymO68JNOGuVG1jISDJqqdhNN1RqBSCHvR4t6dQjTGk9JC1F3Lf9GHGhBWDQ1l+t9Uhc0ZVSKeEKrV9cQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hiRnV31D"
+    ],
+    "1.20.2+fabric": [
+      "FLfftXHd"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "novas-library",
+  "projectId": "jCbLiWqb",
+  "versions": {
+    "IjvSz9Qp": {
+      "filename": "novaslibrary-fabric-1.18.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jCbLiWqb/versions/IjvSz9Qp/novaslibrary-fabric-1.18.2-1.0.0.jar",
+      "hash": "sha512-egv2CN15OtDO1ajGuPGv6QuYEeVG/sjMFnMp6Ymo9t9y58n4tCX8tbfOxNgB1uBWqSFCrbri6D5RzvPijHKaow==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "L9Qqnb5K": {
+      "filename": "novaslibrary-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jCbLiWqb/versions/L9Qqnb5K/novaslibrary-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-jT7R4kUMXNW9BBcEg7AmGqFBBTVjCiPjaXd0S3e+RtmdX+Emh7UWVQGjSO3LHin3jxg2UUwX3H1nBO2+imchHw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "dvhcYHVJ": {
+      "filename": "novaslibrary-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jCbLiWqb/versions/dvhcYHVJ/novaslibrary-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-FIflogyeTXTymOB8QulqYb4Rt6dow/vBme4TjNaOH8ImfRz+PxHyiKzAXfdVMVNE0FLMX291HxJqtP4cqlEl6g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "o4eY8XFA": {
+      "filename": "novaslibrary-forge-1.18.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jCbLiWqb/versions/o4eY8XFA/novaslibrary-forge-1.18.2-1.0.0.jar",
+      "hash": "sha512-u25uhn2J+hMyXwHpyF2Eb67+kB3B83wbYDPMRWB3eBBlblwM7fYRxrI6zd4mEI9mCEE+g5Bdg1UT/ha7BWCdyQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "IjvSz9Qp"
+    ],
+    "1.18.2+forge": [
+      "o4eY8XFA"
+    ],
+    "1.20.1+fabric": [
+      "dvhcYHVJ"
+    ],
+    "1.20.1+forge": [
+      "L9Qqnb5K"
+    ]
+  }
+}

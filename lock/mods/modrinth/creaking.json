@@ -1,0 +1,40 @@
+{
+  "slug": "creaking",
+  "projectId": "hL2Q7djv",
+  "versions": {
+    "r4OoTbTt": {
+      "filename": "EarlyCreaking-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hL2Q7djv/versions/r4OoTbTt/EarlyCreaking-1.0.0.jar",
+      "hash": "sha512-KRhmETKE7C23vHRlTxRECxsN+udlvv9VKOgJCszbzreeqrqM8lnDLmHASyHXL8MTkAj+c0ubPXwfSwLvk8etBw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "r4OoTbTt"
+    ],
+    "1.21.1+fabric": [
+      "r4OoTbTt"
+    ]
+  }
+}

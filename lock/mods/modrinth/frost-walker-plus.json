@@ -1,0 +1,71 @@
+{
+  "slug": "frost-walker-plus",
+  "projectId": "nrwl52c3",
+  "versions": {
+    "2Nq7QeNu": {
+      "filename": "frost-walker-plus-21.8.0.0-neoforge-v21.8.0.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/nrwl52c3/versions/2Nq7QeNu/frost-walker-plus-21.8.0.0-neoforge-v21.8.0.0-neoforge.jar",
+      "hash": "sha512-YT2bia26KcbfSHOlgO0JTAUhMkJ/eENs4skqF4JQswGNA3UmQ9ggL3700FtBIJxmMoQoQI5JrGYtdAzeUPDM+g==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "jvMC0DIT": {
+      "filename": "frost-walker-plus-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nrwl52c3/versions/jvMC0DIT/frost-walker-plus-1.0.0.jar",
+      "hash": "sha512-s9BUKOMDk/frDXptE30gO8bUdJCbOfx0gCV/ZiEx3z3o2y9qdr9EZ78N7dnPrJiA7vXLoik3sBFsMorh517E3w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "trpsWQXf": {
+      "filename": "frost-walker-plus-21.8.0.0-fabric-v21.8.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/nrwl52c3/versions/trpsWQXf/frost-walker-plus-21.8.0.0-fabric-v21.8.0.0-fabric.jar",
+      "hash": "sha512-kyyXFw3Znql4v6eWyEylJ7iCumvRHW8qt8imhjfsirQ0xsrBKtszcpanl0PMHlDEchU4dVKgwQVjv5aUP+j+iA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "jvMC0DIT"
+    ],
+    "1.21.8+fabric": [
+      "trpsWQXf"
+    ],
+    "1.21.8+neoforge": [
+      "2Nq7QeNu"
+    ]
+  }
+}

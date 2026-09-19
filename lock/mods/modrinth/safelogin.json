@@ -1,0 +1,51 @@
+{
+  "slug": "safelogin",
+  "projectId": "pcTIw4RZ",
+  "versions": {
+    "CMMhudnY": {
+      "filename": "safelogin-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pcTIw4RZ/versions/CMMhudnY/safelogin-1.0.0.jar",
+      "hash": "sha512-XHLRWwSpXhQ8nqnMP02JhhYtBWDOl+qw9gzIxNOW0U81zwUAAzTC9sHh+1xMgbA9dKN0yf+I9W3yQ4KHsGzu2Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "KwSOPcXz": {
+      "filename": "safelogin-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/pcTIw4RZ/versions/KwSOPcXz/safelogin-1.1.2.jar",
+      "hash": "sha512-MzsNf7Bz2N4z8ahpNxTPK9C9q83crgm3YvLNmqlS2uNusQS6ui05DvAI1BT6loxa5XD6NPqDiGoNTYpNKsQw+A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "KwSOPcXz",
+      "CMMhudnY"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "cobblemon-cobble-it",
+  "projectId": "HzO6N0jB",
+  "versions": {
+    "GDUmwVRG": {
+      "filename": "cobbleit-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HzO6N0jB/versions/GDUmwVRG/cobbleit-1.0.0.jar",
+      "hash": "sha512-qgymGR0yKJAw5tA3b9UkMf/ILMnLxxLpEEKYqSvnpMCtOiKRSjKtyUIUOs9omsCins9ZVWSTa56NFyNqJITXJg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "Q4pORBzQ": {
+      "filename": "Cobbleit-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HzO6N0jB/versions/Q4pORBzQ/Cobbleit-1.0.0.jar",
+      "hash": "sha512-i2Z5+Z6JsVRkHMVPkAgsktq7Ml+SwORCsZCJedmDkW7lH0u7AgNbdq7upDOHheZ8PHkW2gXgE6RphWBvxEESiw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "ziQ6zhCu": {
+      "filename": "Cobbleit-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HzO6N0jB/versions/ziQ6zhCu/Cobbleit-0.0.1.jar",
+      "hash": "sha512-Y6PyB3vPjAV45o7Reznw3X/Q24NgYXMvz0J/JxBoZRHZmBLl/2Qp70Sgvm1SY+aHhzrm8ySVZZqZKRDYNy1QKQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ziQ6zhCu"
+    ],
+    "1.21.1+fabric": [
+      "Q4pORBzQ"
+    ],
+    "1.21.1+neoforge": [
+      "GDUmwVRG"
+    ]
+  }
+}

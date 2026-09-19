@@ -1,0 +1,56 @@
+{
+  "slug": "better-advancement-info",
+  "projectId": "F7YTr9rH",
+  "versions": {
+    "BkCXs2Lu": {
+      "filename": "advancementinfo-1.21.11-fabric0.140.2-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/F7YTr9rH/versions/BkCXs2Lu/advancementinfo-1.21.11-fabric0.140.2-1.3.2.jar",
+      "hash": "sha512-6D2uN3+7smX5mYPtFrdeoiwd8WOoo7qBRIWStzSMZ430hSJJQ5YwcWgsjVbgXBuKJnn08NIEjBha0h1j2QeOSQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "zsGVOg9S": {
+      "filename": "advancementinfo-1.3.2-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/F7YTr9rH/versions/zsGVOg9S/advancementinfo-1.3.2-1.21.11.jar",
+      "hash": "sha512-+GZy6lrPhN9lPWJX/UhlVz7HJWTwAsaHNBn5u4m83+bMXbn/U1vBuRrGdQReUN7xcXLLF3KXJmwtmXAgIQbcGw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "zsGVOg9S",
+      "BkCXs2Lu"
+    ]
+  }
+}

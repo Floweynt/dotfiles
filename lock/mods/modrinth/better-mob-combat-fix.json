@@ -1,0 +1,116 @@
+{
+  "slug": "better-mob-combat-fix",
+  "projectId": "5kLNgKXJ",
+  "versions": {
+    "1W8loJwj": {
+      "filename": "bmcfix-forge-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/5kLNgKXJ/versions/1W8loJwj/bmcfix-forge-1.0.2.jar",
+      "hash": "sha512-5eG5s975hWL0XF4slm7wHjv4kCmc9gyDFs+qAgosvGWBEzgBZWnpvr0tNX9+lVi0Ld9IhdTbbEKe3qk+d940sA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-mob-combat",
+          "projectId": "KU8N7kPc",
+          "type": "required"
+        },
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    },
+    "Fy7IrpTc": {
+      "filename": "bmcfix-forge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5kLNgKXJ/versions/Fy7IrpTc/bmcfix-forge-1.0.1.jar",
+      "hash": "sha512-DWAwiers+sqAe7853vtCeKu1hSaRSPvHFp26s5K54lIDDBAuKnguIlp+v7l0OlVEV8lY12FNxdkOCxJk+5JYkQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "better-mob-combat",
+          "projectId": "KU8N7kPc",
+          "type": "required"
+        }
+      ]
+    },
+    "RCf66FYB": {
+      "filename": "bmcfix-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5kLNgKXJ/versions/RCf66FYB/bmcfix-forge-1.0.0.jar",
+      "hash": "sha512-9Ryt1HF1ZigjfV9DTSnyk5o3Qfgv3oXsmGc2oM5t6TdOo9tyFHIU4136N4U7y4wHodO6Flp+YaHrFoLQHQh+FQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "better-mob-combat",
+          "projectId": "KU8N7kPc",
+          "type": "required"
+        }
+      ]
+    },
+    "kT9mFSNY": {
+      "filename": "bmcfix-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/5kLNgKXJ/versions/kT9mFSNY/bmcfix-fabric-1.0.2.jar",
+      "hash": "sha512-2dpjeyXoRlBETnWBK3uyfcaWP0t3KTPttD8XeX55Xbdj+QCf9vTTJIrDSlspU94R+43TBJrRmfT4xsA71zolZg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-mob-combat",
+          "projectId": "KU8N7kPc",
+          "type": "required"
+        },
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kT9mFSNY"
+    ],
+    "1.20.1+forge": [
+      "1W8loJwj",
+      "Fy7IrpTc",
+      "RCf66FYB"
+    ]
+  }
+}

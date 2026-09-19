@@ -1,0 +1,42 @@
+{
+  "slug": "bedwars-tracker",
+  "projectId": "bUaK6jUq",
+  "versions": {
+    "NBtUHbCZ": {
+      "filename": "Bedwars Tracker 4.0 (1.8.9).jar",
+      "url": "https://cdn.modrinth.com/data/bUaK6jUq/versions/NBtUHbCZ/Bedwars%20Tracker%204.0%20%281.8.9%29.jar",
+      "hash": "sha512-60AytrEaVfobF1aqaO0IBXGb0I30HembMgD5INdVDOEaXnyQ7KemYQXYbPfz+JyqjX4SsKRDlZh1Owe6sBhfiw==",
+      "gameVersions": [
+        "1.8.9"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "mfMjZYYJ": {
+      "filename": "bedwarstracker-3.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/bUaK6jUq/versions/mfMjZYYJ/bedwarstracker-3.1.1.jar",
+      "hash": "sha512-fSJa9DolmPqJY1Ow/D9GspQAA4nW17ZpUW0rUnKg2aANCO/4YytDjOHhgAli5gIbMXTCqOioKx4zw+k3nvIoEA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "mfMjZYYJ"
+    ],
+    "1.8.9+forge": [
+      "NBtUHbCZ"
+    ]
+  }
+}

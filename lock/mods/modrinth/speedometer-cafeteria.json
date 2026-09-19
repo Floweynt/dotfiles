@@ -1,0 +1,57 @@
+{
+  "slug": "speedometer-cafeteria",
+  "projectId": "5oQbnclm",
+  "versions": {
+    "ZFpm7EDr": {
+      "filename": "speedometer-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/5oQbnclm/versions/ZFpm7EDr/speedometer-1.3.0.jar",
+      "hash": "sha512-YsYHfb/Z/zOC0u87cTSWmx5MRrm651Z0v2AaHE2iUhnwkq9BywfZKHMisjZaDa+NXswThzAUny79m2e7GfBeOg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bRZwxBZS": {
+      "filename": "speedometer-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/5oQbnclm/versions/bRZwxBZS/speedometer-1.3.1.jar",
+      "hash": "sha512-yyQulSAuBx628QlIquTXx4I/Dms2r4+k/2lsqo0gxwcP+sh2ny5V+CVD7zGu6dwG0oh7+FxH67e3SmaL+koA2Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "bRZwxBZS",
+      "ZFpm7EDr"
+    ],
+    "1.20.1+fabric": [
+      "bRZwxBZS",
+      "ZFpm7EDr"
+    ]
+  }
+}

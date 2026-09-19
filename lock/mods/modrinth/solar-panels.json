@@ -1,0 +1,68 @@
+{
+  "slug": "solar-panels",
+  "projectId": "daMGUeCq",
+  "versions": {
+    "BS5wOcii": {
+      "filename": "SolarPanels-1.0.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/daMGUeCq/versions/BS5wOcii/SolarPanels-1.0.0%2B1.19.2.jar",
+      "hash": "sha512-rxRbul2/lPYPqBDnbKMC4tjU66RmeRA6KAY/Qftu7tZJVLHiXGHS50d59zDLz/1Aw7udnPtuEL8O5R1/kA3JmQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "cWvmlN7Z": {
+      "filename": "SolarPanels-1.0.0+1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/daMGUeCq/versions/cWvmlN7Z/SolarPanels-1.0.0%2B1.20-1.20.1.jar",
+      "hash": "sha512-SetHWeSe4pzjrCUdUtIniJtx/NCCZzA5i+nz7oLtbZfK2vdgZoD0gXt2HTW4UU2PcSzvsL4XvlIAwlPqYN3bjQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "BS5wOcii"
+    ],
+    "1.20+fabric": [
+      "cWvmlN7Z"
+    ],
+    "1.20.1+fabric": [
+      "cWvmlN7Z"
+    ]
+  }
+}

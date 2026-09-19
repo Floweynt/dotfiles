@@ -1,0 +1,54 @@
+{
+  "slug": "amethyst-caves",
+  "projectId": "eb75Aw1Y",
+  "versions": {
+    "WRmZUMEC": {
+      "filename": "Amethyst cavesDATAPACK.zip",
+      "url": "https://cdn.modrinth.com/data/eb75Aw1Y/versions/WRmZUMEC/Amethyst%20cavesDATAPACK.zip",
+      "hash": "sha512-oU9TpoLELyQ3C05FUpMI0hG8EQrUCiGE7gwn5InxoIlHf9LO00Gd991nsvU0eyhot+rE7O2iQCH0z4eeFlUVyA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "hrQFwYIn": {
+      "filename": "amethyst-caves-1.jar",
+      "url": "https://cdn.modrinth.com/data/eb75Aw1Y/versions/hrQFwYIn/amethyst-caves-1.jar",
+      "hash": "sha512-5M6CFgXG9UOCnbFTqRMThisU9/Dpa1dy/t6VKJ95SVdWJIj2z3RIj1dwv4JNaix5qLvDCIS6N6nHOh5kM8UOcA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.5+datapack": [
+      "WRmZUMEC"
+    ],
+    "1.21.5+fabric": [
+      "hrQFwYIn"
+    ],
+    "1.21.5+forge": [
+      "hrQFwYIn"
+    ],
+    "1.21.5+neoforge": [
+      "hrQFwYIn"
+    ],
+    "1.21.5+quilt": [
+      "hrQFwYIn"
+    ]
+  }
+}

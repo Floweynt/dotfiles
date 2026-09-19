@@ -1,0 +1,35 @@
+{
+  "slug": "vanity-create",
+  "projectId": "PpvwNllk",
+  "versions": {
+    "ocv3SPVu": {
+      "filename": "vanity_create-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PpvwNllk/versions/ocv3SPVu/vanity_create-1.0.0.jar",
+      "hash": "sha512-b/iHIfB01BaWnDO1uSSdjUb13PGxbWfOtq4sH+FKyphaErJcnVJS1SRD79KyGviu9tueLFB5bFAjeNdhiI0tnQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ocv3SPVu"
+    ],
+    "1.20.4+fabric": [
+      "ocv3SPVu"
+    ]
+  }
+}

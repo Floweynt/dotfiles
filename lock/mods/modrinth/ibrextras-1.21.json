@@ -1,0 +1,41 @@
+{
+  "slug": "ibrextras-1.21",
+  "projectId": "RWEvKQ1l",
+  "versions": {
+    "5KfrzGJK": {
+      "filename": "ibrextras-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RWEvKQ1l/versions/5KfrzGJK/ibrextras-1.2.0.jar",
+      "hash": "sha512-flG8+5MSypaaHWOn9htTjoddr4g1TQCd3hyeI32VRQlyxxxfzHxBQZeV5xllnNcR0zc46PcSxFLI2ucYH9xR6A==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "5KfrzGJK"
+    ]
+  }
+}

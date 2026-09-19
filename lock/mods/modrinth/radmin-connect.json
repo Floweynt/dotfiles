@@ -1,0 +1,48 @@
+{
+  "slug": "radmin-connect",
+  "projectId": "rOymIFHy",
+  "versions": {
+    "cs2DBI8h": {
+      "filename": "radminconnect-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/rOymIFHy/versions/cs2DBI8h/radminconnect-3.0.1.jar",
+      "hash": "sha512-iiU/mGBkQaZhSBVKM9ioVCfwRlaDki4RiooKEIClHZKm+wWnGo2R05wiK/bP4tEVNb0Dj/rlVK7bC3hiGZG/uQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "xyuYCVoh": {
+      "filename": "radminconnect-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/rOymIFHy/versions/xyuYCVoh/radminconnect-3.0.1.jar",
+      "hash": "sha512-09dr58c+0lbM/c/eRrhoIg/U7+7jcaO1gE+ycFy5pwHt263YwQ0hxF/taetzcriv4Cf2Nx18g0KfRVavCoRWcA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "xyuYCVoh"
+    ],
+    "1.20.1+forge": [
+      "cs2DBI8h"
+    ]
+  }
+}

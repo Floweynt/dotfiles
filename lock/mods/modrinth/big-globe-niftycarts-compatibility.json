@@ -1,0 +1,72 @@
+{
+  "slug": "big-globe-niftycarts-compatibility",
+  "projectId": "VdL347x6",
+  "versions": {
+    "JbvnB4uw": {
+      "filename": "Big Globe-NiftyCarts Compat.zip",
+      "url": "https://cdn.modrinth.com/data/VdL347x6/versions/JbvnB4uw/Big%20Globe-NiftyCarts%20Compat.zip",
+      "hash": "sha512-bfASOrCBhob+PrkKLVu5rzK6jmokdugmEfhw4StjpiDDcZTd80uygcybkuhhsB7WqSPXPLxbQ3hTEGSuReaJPw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "niftycarts",
+          "projectId": "CXd6g9xp",
+          "type": "required"
+        },
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        }
+      ]
+    },
+    "dt6EjMGA": {
+      "filename": "big-globe-niftycarts-compatibility-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VdL347x6/versions/dt6EjMGA/big-globe-niftycarts-compatibility-1.0.jar",
+      "hash": "sha512-uSYx9soX10oeCQbIGKulC6TXpL7B3kuvgPR6sQxUvv9nygLa73SD+rZ25lIbnR9V2FRydpVsNwhVaMHIceW3eQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "niftycarts",
+          "projectId": "CXd6g9xp",
+          "type": "required"
+        },
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "JbvnB4uw"
+    ],
+    "1.20+fabric": [
+      "dt6EjMGA"
+    ],
+    "1.20.1+datapack": [
+      "JbvnB4uw"
+    ],
+    "1.20.1+fabric": [
+      "dt6EjMGA"
+    ]
+  }
+}

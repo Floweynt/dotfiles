@@ -1,0 +1,145 @@
+{
+  "slug": "localizedweather",
+  "projectId": "YnpwPXVk",
+  "versions": {
+    "1S6DBNwH": {
+      "filename": "localweather-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YnpwPXVk/versions/1S6DBNwH/localweather-1.0.0.jar",
+      "hash": "sha512-Y+JlEv1FT58lpU0C2oWeUl+OAEYLqPVC2TSjl7X0KuZjgE+F4n0AjsXoCnttlEe+bsrJ0V6nlWTAKAqxC6LhuA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "better-clouds",
+          "projectId": "5srFLIaK",
+          "type": "required"
+        }
+      ]
+    },
+    "2nf2nFLX": {
+      "filename": "localweather-1.1.9.jar",
+      "url": "https://cdn.modrinth.com/data/YnpwPXVk/versions/2nf2nFLX/localweather-1.1.9.jar",
+      "hash": "sha512-Ms8xfBSJdg2+0mJ+ACCcdmYjFx/Bb+JDhKIL8tJRynnV4EMQZQxwmsGPxHZPhWbOBlgJg3kaBaiihB2VPxrzfQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "DyHT70vz": {
+      "filename": "localweather-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/YnpwPXVk/versions/DyHT70vz/localweather-1.2.1.jar",
+      "hash": "sha512-U2AYR16Alua+2vJllyWHmJ9sS1PahkDxEblN8ufZBX7ngZ57XlwShHV3CEQiGOGyjogPjm2/y5Wl25Lyfki+Qw==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GZWFIKgH": {
+      "filename": "localweather-1.3.0-quilt.jar",
+      "url": "https://cdn.modrinth.com/data/YnpwPXVk/versions/GZWFIKgH/localweather-1.3.0-quilt.jar",
+      "hash": "sha512-xQCfow0rKDObZFVub1rfW6xizNqr7ztaEhACkAgy3WB+5Bvypi3RaoorW0LFRUr+05baqKHqvR999B6bWxWWdg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "YKhhqE12": {
+      "filename": "localweather-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/YnpwPXVk/versions/YKhhqE12/localweather-1.3.0.jar",
+      "hash": "sha512-XHnJ7nPvZIqfUN1fkoZZesWD703lKp8ODtvDrXHFclpw49VXRnq25J55kSoLQVHOAo64Hmw8yOHXK7dPxLAO5w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fPHmCmaV": {
+      "filename": "localweather-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/YnpwPXVk/versions/fPHmCmaV/localweather-1.1.2.jar",
+      "hash": "sha512-2Z8AXY3RtEYDP0ZT/bp5gc1OJDq6ARTn9fo+1ycnqeWMSqIXbaPoZvBl1T24Rih8DW6Ocz3BnEKZXmDN1hekuA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "DyHT70vz",
+      "2nf2nFLX",
+      "fPHmCmaV",
+      "1S6DBNwH"
+    ],
+    "1.21.11+fabric": [
+      "YKhhqE12",
+      "DyHT70vz",
+      "2nf2nFLX",
+      "fPHmCmaV",
+      "1S6DBNwH"
+    ],
+    "1.21.11+quilt": [
+      "GZWFIKgH"
+    ],
+    "1.21.9+fabric": [
+      "DyHT70vz",
+      "2nf2nFLX",
+      "fPHmCmaV",
+      "1S6DBNwH"
+    ],
+    "26.1+fabric": [
+      "fPHmCmaV"
+    ],
+    "26.1.1+fabric": [
+      "fPHmCmaV"
+    ],
+    "26.1.2+fabric": [
+      "fPHmCmaV"
+    ]
+  }
+}

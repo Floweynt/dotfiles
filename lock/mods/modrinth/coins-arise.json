@@ -1,0 +1,88 @@
+{
+  "slug": "coins-arise",
+  "projectId": "E3j7uXh3",
+  "versions": {
+    "bObTO7I1": {
+      "filename": "coins_arise-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/E3j7uXh3/versions/bObTO7I1/coins_arise-1.0.0.jar",
+      "hash": "sha512-LuXHrjZpkrf4WvSzNDecb3slVpCJYtTaYKKwJw2UVAgQSr2m71SNVO0pdkZ1SnF6Wthj+BPVwJi78FK+7y1jIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "numismatics",
+          "projectId": "Jdbbtt0i",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "jkF7D5Xv": {
+      "filename": "coins_arise-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/E3j7uXh3/versions/jkF7D5Xv/coins_arise-1.0.1.jar",
+      "hash": "sha512-NlWQAY2GL9FATW+FP2d+zUy9ueneG9qcsR8LgNElg1/zH8/td/aHkkqF4ehrpwz+hFfOPySJafN3yaUtS50fRw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "numismatics",
+          "projectId": "Jdbbtt0i",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "yMF1xNuh": {
+      "filename": "coins_arise-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/E3j7uXh3/versions/yMF1xNuh/coins_arise-1.0.2.jar",
+      "hash": "sha512-7ao4x3Clw05DLQBsxEdTretwhs/e9jB+i64DUDjm0SaHDgwEhIhwLIJVUs/uVe9FOZeRJnQE3hK5yRaqHQk/CA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "numismatics",
+          "projectId": "Jdbbtt0i",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yMF1xNuh",
+      "jkF7D5Xv",
+      "bObTO7I1"
+    ]
+  }
+}

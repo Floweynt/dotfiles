@@ -1,0 +1,48 @@
+{
+  "slug": "emized-botany-pots",
+  "projectId": "IhMKi1nq",
+  "versions": {
+    "8zvSgkjC": {
+      "filename": "emized-botany-pots-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IhMKi1nq/versions/8zvSgkjC/emized-botany-pots-1.0.0.jar",
+      "hash": "sha512-ESNxwm4jc11Ysbp7sT5OTVPR6jq4V2JYNTz4r6pzZGayN+UT5EK/pwuDm/uJFiLSIljfyo8VMjKVeBPXD30qpA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "botany-pots",
+          "projectId": "U6BUTZ7K",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8zvSgkjC"
+    ],
+    "1.20.2+fabric": [
+      "8zvSgkjC"
+    ],
+    "1.20.3+fabric": [
+      "8zvSgkjC"
+    ],
+    "1.20.4+fabric": [
+      "8zvSgkjC"
+    ]
+  }
+}

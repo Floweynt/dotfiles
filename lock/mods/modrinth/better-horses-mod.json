@@ -1,0 +1,92 @@
+{
+  "slug": "better-horses-mod",
+  "projectId": "cnZjxS9g",
+  "versions": {
+    "543YJ8Pp": {
+      "filename": "Better Horses-forge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cnZjxS9g/versions/543YJ8Pp/Better%20Horses-forge-1.21.1-1.0.0.jar",
+      "hash": "sha512-6Z9HK7YyEYjsJci0fMTiztv5dlbFY/zsoW8ZUUspi7/UCDxUYECJl3u76/k7KBX/etPWIkqggMtfMZrX21KAAw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "common-network",
+          "projectId": "HIuqnQpi",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "JYyJJ9j1": {
+      "filename": "betterhorses-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cnZjxS9g/versions/JYyJJ9j1/betterhorses-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-2onfF7br9DSCWhLHNdw8yH0YM8ePieBMDF9JHFYzqF/OvWR5R7a9U3sjX4d/0CCIFSZtEWyasxt5yheCcaY3hg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "common-network",
+          "projectId": "HIuqnQpi",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "KRZJjI0A": {
+      "filename": "betterhorses-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cnZjxS9g/versions/KRZJjI0A/betterhorses-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-EqtcJmxcMifJgEivsS/n/FwkRurkmViMZJborZp9aMtDe64IFhKhe+zH1Zy1mrXcxNViIFc4ozt9rlVni8K14w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "common-network",
+          "projectId": "HIuqnQpi",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "JYyJJ9j1"
+    ],
+    "1.21.1+forge": [
+      "543YJ8Pp"
+    ],
+    "1.21.1+neoforge": [
+      "KRZJjI0A"
+    ]
+  }
+}

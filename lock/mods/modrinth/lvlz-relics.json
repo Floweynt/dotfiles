@@ -1,0 +1,36 @@
+{
+  "slug": "lvlz-relics",
+  "projectId": "WnHQBzAA",
+  "versions": {
+    "XY67pD7A": {
+      "filename": "lvlz_relics-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/WnHQBzAA/versions/XY67pD7A/lvlz_relics-1.21.1-1.0.jar",
+      "hash": "sha512-asLdZCiLFu7l8H7sgqrYN5D6H9Ii4et78vrNKUlrABntEXBrcZuEBtc4vEZzVy6L+8puhiw82t2Q+pwBvzubRw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "relics-rpg",
+          "projectId": "BDQucwF0",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "XY67pD7A"
+    ]
+  }
+}

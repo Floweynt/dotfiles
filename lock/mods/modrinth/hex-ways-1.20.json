@@ -1,0 +1,62 @@
+{
+  "slug": "hex-ways-1.20",
+  "projectId": "QrBdNgv5",
+  "versions": {
+    "MjREb5fH": {
+      "filename": "hexways-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QrBdNgv5/versions/MjREb5fH/hexways-1.0.0.jar",
+      "hash": "sha512-T43raIkPClsiSSqX/izhlksrkToA/mkcJ1gsr7YSric4ALiGRGgp4XIP47ljtkZleVegBHjMXBMXxuKS4gnKFg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        },
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "Sh8wRYxi": {
+      "filename": "hexways-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QrBdNgv5/versions/Sh8wRYxi/hexways-1.0.1.jar",
+      "hash": "sha512-6QEcSybA5Vgt61Ji4GTyypQkmwFJWw6LjidPdCmAqCqQiplWNqulBjI/iPRNxYLV5Hhh7y18cVyQnA7Tc2Tqgg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        },
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Sh8wRYxi",
+      "MjREb5fH"
+    ]
+  }
+}

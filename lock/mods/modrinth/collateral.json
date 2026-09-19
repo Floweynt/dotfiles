@@ -1,0 +1,57 @@
+{
+  "slug": "collateral",
+  "projectId": "I5cuZmtx",
+  "versions": {
+    "fx1loEnx": {
+      "filename": "collateral-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/I5cuZmtx/versions/fx1loEnx/collateral-1.0.0.jar",
+      "hash": "sha512-7cck07fa7UsPASIu8TwWvXoP5LAdEiuIso4HGS86kpVmdGuZBL3/yZEKkIPrbsWqYo1YezKMGNXq/HOD5otXiQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nDApRIGK": {
+      "filename": "collateral-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/I5cuZmtx/versions/nDApRIGK/collateral-1.1.0.jar",
+      "hash": "sha512-lQfzTpo4Iipqo+pQ/Yvj+ehWYagTlCth81grq/wRBs6A7uJYFN2LER9bT5f1tTjAm51USHUwfoP4puuGdQhFdQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "nDApRIGK",
+      "fx1loEnx"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "thingamabobs",
+  "projectId": "Z1sDByLs",
+  "versions": {
+    "NNWFteYL": {
+      "filename": "Thingamabobs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z1sDByLs/versions/NNWFteYL/Thingamabobs-1.0.0.jar",
+      "hash": "sha512-3+SgDBXPa3CuPF11VKKqMCBMHKo/S5J3PJd0h5owXzPAusm5HtutR1s0um54A34KRLQ+oLPoR1f8xbxpbEvFiw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "NNWFteYL"
+    ]
+  }
+}

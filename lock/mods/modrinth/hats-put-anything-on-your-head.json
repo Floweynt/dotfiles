@@ -1,0 +1,42 @@
+{
+  "slug": "hats-put-anything-on-your-head",
+  "projectId": "RQ4ysWV5",
+  "versions": {
+    "2eL9wmRw": {
+      "filename": "hats-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RQ4ysWV5/versions/2eL9wmRw/hats-1.0.0.jar",
+      "hash": "sha512-4jHXH9pphLpSuvby08tkCOO2eslsGdFDSE7vuCN3wTgllAd8teuWP7A+U7IfbUweddU7jaWK3EoMdopVlJTaaA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "2eL9wmRw"
+    ],
+    "1.21+quilt": [
+      "2eL9wmRw"
+    ],
+    "1.21.1+fabric": [
+      "2eL9wmRw"
+    ],
+    "1.21.1+quilt": [
+      "2eL9wmRw"
+    ]
+  }
+}

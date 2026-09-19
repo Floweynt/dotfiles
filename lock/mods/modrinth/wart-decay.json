@@ -1,0 +1,86 @@
+{
+  "slug": "wart-decay",
+  "projectId": "sZbpiFiF",
+  "versions": {
+    "52yRbjk5": {
+      "filename": "wartdecay-fabric-1.20.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sZbpiFiF/versions/52yRbjk5/wartdecay-fabric-1.20.1-2.0.0.jar",
+      "hash": "sha512-7ZoAma8T3ovuE84ziM4zaGiKkAMTbGHutChW0Z6xOv+lQWijSQe157k1pusodXOmT2EUkdXHEYLWqkeVjksvnQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "statement",
+          "projectId": "a9AsUNGn",
+          "type": "required"
+        }
+      ]
+    },
+    "qhCP4zh8": {
+      "filename": "wartdecay-forge-1.20.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sZbpiFiF/versions/qhCP4zh8/wartdecay-forge-1.20.1-2.0.0.jar",
+      "hash": "sha512-P0DbeoP+VmSXlFyfoThN58N+SJcQwO0OcfmDlVHj/tnbN8aQ7u7tm1TcprGpACO4LGCNfvaQoQ9tw8EPQuSrpA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "statement",
+          "projectId": "a9AsUNGn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "52yRbjk5"
+    ],
+    "1.20+forge": [
+      "qhCP4zh8"
+    ],
+    "1.20+neoforge": [
+      "qhCP4zh8"
+    ],
+    "1.20+quilt": [
+      "52yRbjk5"
+    ],
+    "1.20.1+fabric": [
+      "52yRbjk5"
+    ],
+    "1.20.1+forge": [
+      "qhCP4zh8"
+    ],
+    "1.20.1+neoforge": [
+      "qhCP4zh8"
+    ],
+    "1.20.1+quilt": [
+      "52yRbjk5"
+    ]
+  }
+}

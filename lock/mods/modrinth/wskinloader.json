@@ -1,0 +1,161 @@
+{
+  "slug": "wskinloader",
+  "projectId": "4gLXu1aJ",
+  "versions": {
+    "Jazg8wuB": {
+      "filename": "wskinloader-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/4gLXu1aJ/versions/Jazg8wuB/wskinloader-1.4.0.jar",
+      "hash": "sha512-X4Qp1uRk61KSuMUp/neJcJqwmBo+VqB+UHJegkLH/7x3rNPki3qUEdPzpTpEzVjoQ4HRDy0vA+rju2eOGckZlg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Sri3zCc5": {
+      "filename": "wskinloader-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/4gLXu1aJ/versions/Sri3zCc5/wskinloader-1.5.0.jar",
+      "hash": "sha512-/PXxemlGS8urn4KCmWLo7HVWJ1licC0hoJj6EH1k9qXvGUxHZVmgO5Vo3UQjmbvWEzLxM6MWtoFPkviGHXDDEA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XjEgo9NR": {
+      "filename": "wskinloader-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/4gLXu1aJ/versions/XjEgo9NR/wskinloader-1.0-SNAPSHOT.jar",
+      "hash": "sha512-cfHeZkvAOM1fcpiij45ZNvIY7vKkZmBdpFcKwqLI38fftvtOSWPdloePJkXO5exogCTI5hrSBVAhhRFWqofTxA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "jxuJtsuj": {
+      "filename": "wskinloader-1.2-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/4gLXu1aJ/versions/jxuJtsuj/wskinloader-1.2-SNAPSHOT.jar",
+      "hash": "sha512-LwdxUYunmpUoGn2kSMIrzyU1vkVt0lLeTSM7xgd6e3fgykdBAtzbdVnyAgzpTAkx+ts1ghO2Vb50XBC9CEymaA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kvQaompW": {
+      "filename": "wskinloader-1.3.1-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/4gLXu1aJ/versions/kvQaompW/wskinloader-1.3.1-SNAPSHOT.jar",
+      "hash": "sha512-97wwLtklz26u0mb0mVDGMihOy0uYJ5I1RuccqxiPMb4TXjQ0mmauvsztfZonHMJeyn7nLmllSZ4D5vw+4HU2Yw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rUtBNSj9": {
+      "filename": "wskinloader-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/4gLXu1aJ/versions/rUtBNSj9/wskinloader-1.0-SNAPSHOT.jar",
+      "hash": "sha512-El8lvLfT3oMFFFmbemtm5kBTSPGPAaKquxRoJpyGmwB19jCGBDlkn2h1/2BgcfmLR0I4YU6K9of+QktXxaExrw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "rUtBNSj9"
+    ],
+    "26.1+fabric": [
+      "Jazg8wuB",
+      "kvQaompW",
+      "jxuJtsuj",
+      "XjEgo9NR"
+    ],
+    "26.1.1+fabric": [
+      "Jazg8wuB",
+      "kvQaompW",
+      "jxuJtsuj",
+      "XjEgo9NR"
+    ],
+    "26.1.2+fabric": [
+      "Jazg8wuB",
+      "kvQaompW",
+      "jxuJtsuj"
+    ],
+    "26.2+fabric": [
+      "Sri3zCc5"
+    ]
+  }
+}

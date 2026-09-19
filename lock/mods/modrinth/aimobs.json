@@ -1,0 +1,75 @@
+{
+  "slug": "aimobs",
+  "projectId": "mRMaHI0k",
+  "versions": {
+    "HrFYev91": {
+      "filename": "aimobs-1.19.3-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/mRMaHI0k/versions/HrFYev91/aimobs-1.19.3-1.0.1.jar",
+      "hash": "sha512-0u/0kg/O2ZS6GefntpzjEM8/02AD6ed/x63p/DfVuwnT+ZBgPFgAIEFet3VpB2jBg2/UqvgQkAQfxUptFNrbzg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JXUg53Hb": {
+      "filename": "aimobs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mRMaHI0k/versions/JXUg53Hb/aimobs-1.0.0.jar",
+      "hash": "sha512-tIx3c2GaumrTdjac4LFSPdiVVWYgHNWyo11krh23N5vGcJXoseRYsjPy8lCLUHPw11TjntpfE04/W+a6C5wlrA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "upTFR4sH": {
+      "filename": "aimobs-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/mRMaHI0k/versions/upTFR4sH/aimobs-1.0.1.jar",
+      "hash": "sha512-ywihgp/5576prjtmCH++rC6pQH7lnEA2WqSLFzE4RwwzhzE360Nn80AkMd75krn+mMAEJ+AIh/8VzAgEBYv13Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "upTFR4sH",
+      "JXUg53Hb"
+    ],
+    "1.19.3+fabric": [
+      "HrFYev91"
+    ]
+  }
+}

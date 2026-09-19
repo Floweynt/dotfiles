@@ -1,0 +1,3899 @@
+{
+  "slug": "adaptive-performance-tweaks",
+  "projectId": "kLawTYXp",
+  "versions": {
+    "1Sf3Z3eV": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/1Sf3Z3eV/adaptive_performance_tweaks-forge-1.20.1-12.3.0.jar",
+      "hash": "sha512-blu+FxAB2aoQztQlr9la1Xsu73lJGUt+cYmBrxDzkfVXOfG5GXBKm3rv0TDpy0h+oUJeI2v+5fu2mypsCsBXWg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "2EdYwUDz": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/2EdYwUDz/adaptive_performance_tweaks-fabric-1.20.1-12.2.0.jar",
+      "hash": "sha512-vXyyJPPbvl9yo6lCXLr7DkWAgLbYQ6don0L3wzxSWMhEL8MB0FbIAKNMnCzFxpEnHhQpwoU1YPadl+1nxwrkKQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "2iTmnbK3": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/2iTmnbK3/adaptive_performance_tweaks-fabric-1.20.1-12.7.0.jar",
+      "hash": "sha512-stQ+q5IO6xUOefuKJFSaxsR0o43QMsNQA7PE8XUyIzafdWyDIxgKzSrHoZ/bcdjtInhEcvVEaiP6NX76QKCc4A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "2tw6KdjV": {
+      "filename": "adaptive_performance_tweaks-fabric-26.1.2-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/2tw6KdjV/adaptive_performance_tweaks-fabric-26.1.2-12.5.0.jar",
+      "hash": "sha512-FtqXa0E1+zQ789KKccneaq+UKlNz2ZzTmmgCRYcZs/FX8B/kLfRZRDGGYqpJZGI13kxthS8cZYk+1NOqFTjuSw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "2y0TR8eA": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.1-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/2y0TR8eA/adaptive_performance_tweaks-neoforge-1.21.1-12.7.0.jar",
+      "hash": "sha512-Pxe6r/+mwTblGCxzJvD8kYEu+PLL4ohr6t4GIVQKXLWdavKBWpVJ3QzDnPNsrQNNGMr7nCfoRXv41xiO4DoGdg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "3NYc9MDX": {
+      "filename": "adaptive_performance_tweaks_1.18.2-11.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/3NYc9MDX/adaptive_performance_tweaks_1.18.2-11.2.0.jar",
+      "hash": "sha512-Dh9vOhJntxvtwrK1oXpWjSaot7RNVM9eyO7AusgZYKg+B2ygBbl9OobY/yseCVWJy70dVWCh5BU1V8NvQ+jmaQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        }
+      ]
+    },
+    "3PH8u6g6": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.1-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/3PH8u6g6/adaptive_performance_tweaks-fabric-1.21.1-12.7.0.jar",
+      "hash": "sha512-ebgPui5M3j/gjxd6HFUU+yHEsP51RnZ5jl1pWKRpuTSVYGPk+cK0hBy8sChuR5o1vOpd/kT3j/5VmxOU+t45Hw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "3WDGAWCL": {
+      "filename": "adaptive_performance_tweaks_1.21-11.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/3WDGAWCL/adaptive_performance_tweaks_1.21-11.2.0.jar",
+      "hash": "sha512-bh7qBawIGLdourLAuSGKFGUQGcFMbxOhDKeaoCgXhWuD5RoBxqKuxY8phewhEoRsN9kq/qQ9jhEp8rT0TUyxbQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "3mvviepo": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.1-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/3mvviepo/adaptive_performance_tweaks-neoforge-1.21.1-12.4.0.jar",
+      "hash": "sha512-ERQYEMI1LBL38PthfMVK7tgdWIdjuu8v4YneWsSpy3JrYavRuy71cNbqIHjqJEyndiS6LztX+SS1meLP60Vihg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "4EoP4rLF": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.1.2-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/4EoP4rLF/adaptive_performance_tweaks-neoforge-26.1.2-12.4.0.jar",
+      "hash": "sha512-RF6gPMnzBIuPMc5I8gYSdv3TQy4PvOI7PmAxJbuYpyJQfCnfQTeNpjWiIDcTX5w46Yee91bjZXmvIhCWapGGMw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "4QVwUFiL": {
+      "filename": "adaptive_performance_tweaks_1.20.2-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/4QVwUFiL/adaptive_performance_tweaks_1.20.2-11.0.0.jar",
+      "hash": "sha512-A48fjllBYBH6th1JvWRxh5yIwM3GKQ4Imau1+OQwMxSVVtG1Y3ZDm84CULAZy6kMDqvoUv68ISfpylBUlcyNRg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "56Z2hA6a": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/56Z2hA6a/adaptive_performance_tweaks-fabric-1.20.1-12.5.0.jar",
+      "hash": "sha512-N0xXmrzU88Z/rn3idKktqv4O/2ISIIzRl7fZeU6AmtU9T6m1NgvNy+DJIEoRa6tG43FpZNqHZeZ0Uso7p+T40A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "5E4FMnUm": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.1-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/5E4FMnUm/adaptive_performance_tweaks-fabric-1.21.1-12.8.0.jar",
+      "hash": "sha512-oSVvtreU0X0W2TgZ0TLMR/DwrglT3PkSfvzfGmtw1RFcelGnnSKzKX20mWz8AhGWTtL50DMeKuTGCWS+TiEzfg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "5HhYMrQY": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.1-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/5HhYMrQY/adaptive_performance_tweaks-fabric-1.21.1-12.6.0.jar",
+      "hash": "sha512-WpUtOU220ml9SYIJkXEL6YvLynwsUr/T7yz1FDodtQJd2zhEpYw09O++iocewJTtIOIr7DI3rQPVQzztDTPHgg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "5MmI5sJX": {
+      "filename": "adaptive_performance_tweaks_1.18.2-11.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/5MmI5sJX/adaptive_performance_tweaks_1.18.2-11.1.0.jar",
+      "hash": "sha512-nfpN/nfZI5TmxyL39/sTnU6J1vVvfVnWfKav+atWiglp7ZErqG9UlbGjCTgQPG3PwxGclfwdQ4CDszk5qGHG8g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "5bywXYOx": {
+      "filename": "adaptive_performance_tweaks_1.19.2-11.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/5bywXYOx/adaptive_performance_tweaks_1.19.2-11.5.0.jar",
+      "hash": "sha512-cmari6DF8HBYXnSPt8pJkSRA6q0xkCmClovRpb+O/ZDgEYQVJVj4fcVG3b/JHYSaqf8RCu0Pa+jWE417B/Zv9w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        }
+      ]
+    },
+    "5lxzJZQv": {
+      "filename": "adaptive_performance_tweaks_1.19.2-11.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/5lxzJZQv/adaptive_performance_tweaks_1.19.2-11.2.0.jar",
+      "hash": "sha512-8+txs1zDsC2ZFtoYmG2++Fo78xg3c04Wl1eCwemoKLj1OnOtpVztouFNMcJyh5FFDdn80OXBICXvlhuUPeiVng==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "6PPOlRFP": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.1-12.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/6PPOlRFP/adaptive_performance_tweaks-forge-1.21.1-12.2.0.jar",
+      "hash": "sha512-GIh4tjxbfF33FLm4kfIHvM7UyiWofP2cqfT0wAv511OXtgZJkBosOFKTvKbKnV1CdIjLA/18KV9INFXF6ZkMcA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "7K8XvpMB": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.11-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/7K8XvpMB/adaptive_performance_tweaks-neoforge-1.21.11-12.9.0.jar",
+      "hash": "sha512-asOHry9VSUsMAf+R28/kSJ96OEU951yngpJP7YRr15fDEmylt7ieul7lYkYt14tAceSNEStvI5nsyu0Zk94zSA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "7rfA4YeC": {
+      "filename": "adaptive_performance_tweaks-fabric-26.1.2-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/7rfA4YeC/adaptive_performance_tweaks-fabric-26.1.2-12.8.0.jar",
+      "hash": "sha512-g2EJWimuXX3QLilwjlWj50+bUrEJ9hqu7ilbvvdwH9GlltB5JS0UAc7sDPuJjt0bqpZAQ1AwKArJTXsHME/MOA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "7tZtLtNp": {
+      "filename": "adaptive_performance_tweaks-fabric-26.2-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/7tZtLtNp/adaptive_performance_tweaks-fabric-26.2-12.6.0.jar",
+      "hash": "sha512-yyN88/g8RGlSm8iA9dPAb8GICBYh+p6KVa89G3IFyPTcRICwQ+QY/sKfGowFpKL9ej+7QYbgKCW69KNn2Z8Obw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "80KoKelR": {
+      "filename": "adaptive_performance_tweaks_1.19.2-11.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/80KoKelR/adaptive_performance_tweaks_1.19.2-11.6.1.jar",
+      "hash": "sha512-FgvS/MmKZxXMan94E1O+4wU6iJhIJrAnX1J94hyqAVK+B9cqy8ofBE0LWJJnM9PdWk416HEuMbhFvx/cHXANhg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "81zirVkN": {
+      "filename": "adaptive_performance_tweaks_1.20.1-11.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/81zirVkN/adaptive_performance_tweaks_1.20.1-11.1.0.jar",
+      "hash": "sha512-ZwKHaA+Jyxvqff8ZvE/d4s+rhj/LJFhR3XvsaIN/CO+rg3QKuub1V3XYDe6mAqrOQucxyh2HLrdSdeRHfyjzYA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "9HScATyJ": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.11-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/9HScATyJ/adaptive_performance_tweaks-neoforge-1.21.11-12.6.0.jar",
+      "hash": "sha512-agghgYfOjRYEDANNAZzvyKLK3clVOO8r52u+/GxuUlf2zBzvbXl1c6FD7vZlMJy9ntmpdr5jxxS/LfYfi5+xqw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "9YkkqUVg": {
+      "filename": "adaptive_performance_tweaks_1.18.2-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/9YkkqUVg/adaptive_performance_tweaks_1.18.2-11.0.0.jar",
+      "hash": "sha512-BVIDmGoGriQaf6PmUQEhFU+fjIXlQlkTG89jxe9cqUa30VU+8nrXlqUW6coyl/IzWlKFDB6/bkeXq7+Ag3Lt5A==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "9nhD3M5f": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.11-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/9nhD3M5f/adaptive_performance_tweaks-fabric-1.21.11-12.3.0.jar",
+      "hash": "sha512-x8sWLDkkbVa3ZNXp2C332OTU6e/K/XKZYqPRP5MviOYWhS2tR33GnbKKdEiPfowPZWdpCSyEu1v0P09ivhqWYQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9zNyReWU": {
+      "filename": "adaptive_performance_tweaks-fabric-26.2-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/9zNyReWU/adaptive_performance_tweaks-fabric-26.2-12.8.0.jar",
+      "hash": "sha512-xrWkrh8gken9DaZHycK2CtuYGxafM3J+kYb/9metX8roRQGBeHpnhQTSog34XIu0neKAAgUNOSwsEXgGlXzXGQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "A2jrtFn0": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.1-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/A2jrtFn0/adaptive_performance_tweaks-neoforge-1.21.1-12.6.0.jar",
+      "hash": "sha512-qdbkNUGIBYCPx1pKLMfKWfGO2EK3Go17J+u24vkQPsiLAUyA2iLH6/dHDKV0WTPAT8shxE/GGG8Q5TIWDvxiJg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ACYckoVW": {
+      "filename": "adaptive_performance_tweaks_1.18.2-11.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/ACYckoVW/adaptive_performance_tweaks_1.18.2-11.4.0.jar",
+      "hash": "sha512-RaKnw61Q9IHQbiwlSW7VNdUe2X62Pslo9qIv7YwH5cLhs93yujfHHSrVpGjqNhW7PAFX4IxBqy68MpoOsP870Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "AYUGBKe9": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.1.2-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/AYUGBKe9/adaptive_performance_tweaks-neoforge-26.1.2-12.6.0.jar",
+      "hash": "sha512-jMW9he195NGEbRF8YgQ24QiK93u0CMbViloHyw4zwRs1r+aFrpqrj58p+Oec76q8UDaB3M7KLTYe1JcuF/HbaQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "AZLCMtHe": {
+      "filename": "adaptive_performance_tweaks-forge-26.1.2-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/AZLCMtHe/adaptive_performance_tweaks-forge-26.1.2-12.3.0.jar",
+      "hash": "sha512-yu5+h2Rf4+ukvqZfNnqM9DGk59NQJ2YUkf+o7OXX6pEZBMUv1ZDn/q3yQLaqBBVLDXszj86d6uL+xYBTQm0Vkw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "B0MpRX8J": {
+      "filename": "adaptive_performance_tweaks-forge-26.2-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/B0MpRX8J/adaptive_performance_tweaks-forge-26.2-12.5.0.jar",
+      "hash": "sha512-Dz2m3FhqWT0ZO0WlE/L/cHkiUq4JkhfItG1aMgd5JCyYXR0IpGuTuoKBgXqBsPtCQr52QjdmQ0eCvExgeGzRlA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "B7XFuxRQ": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.11-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/B7XFuxRQ/adaptive_performance_tweaks-fabric-1.21.11-12.9.0.jar",
+      "hash": "sha512-moNvuJdcD2XuxDBPLhcjOoJz9olB5i3djZI0uH15DzZIlpatQxOYp/F55xFT4omThyDgJYyig3OO0npSL4ljQg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "BAZsNCK2": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.1-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/BAZsNCK2/adaptive_performance_tweaks-forge-1.21.1-12.8.0.jar",
+      "hash": "sha512-HAeLlQXu3ycwOAPpP+VqjKYXJftpc/Xo9XD4B0y5QYyZs31/F+cd5TCr4k2jA+kGX47llggCMLrc0oW5jWb5Ng==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "BRRlFiPg": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.1-12.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/BRRlFiPg/adaptive_performance_tweaks-fabric-1.21.1-12.2.0.jar",
+      "hash": "sha512-z/ndnEqFay/qDNT72Pk1vd/LPqJbjJ+u9d4fx97IAz1KFf1tO4vpp9ovtE+3R7h77qSZRupZVT+KFN9WX0eDww==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CEjtaST9": {
+      "filename": "adaptive_performance_tweaks_1.20.6-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/CEjtaST9/adaptive_performance_tweaks_1.20.6-11.0.0.jar",
+      "hash": "sha512-NDZcWg3UGRahQO6qtfaW1jGT8x0GkZyT22EVhDrnhR/M2PwauPuUsRU50KTONZ5toR8ZibOuz8OWMT6BCxC7Gw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "CJOf4ixw": {
+      "filename": "adaptive_performance_tweaks-fabric-26.1.2-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/CJOf4ixw/adaptive_performance_tweaks-fabric-26.1.2-12.6.0.jar",
+      "hash": "sha512-+Jfx3yMpah/2kd8dwNRM7uS3WYv1AIUC8JTfHb+2BHm3Bj5ReSSijIyuF1G9bl8nGvPhdhiprAsjKpXpR3TRkw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CjpbTvrO": {
+      "filename": "adaptive_performance_tweaks-forge-26.2-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/CjpbTvrO/adaptive_performance_tweaks-forge-26.2-12.6.0.jar",
+      "hash": "sha512-rNwES4D0T6Jt/u9BqsOD945ns6Al8ESIdgrSMOjiWqPHdw8/MdliDdxwiiINZWMLxEeXLWz50DCepoSbHbdFjg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Co1aQvBK": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.2-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Co1aQvBK/adaptive_performance_tweaks-neoforge-26.2-12.7.0.jar",
+      "hash": "sha512-c9mdtitk30jwK5UYRlB5amJewVlhGtfA0DElPCx3nuD1p04LC7MJa1QlZu3Zey2bC79soWoVPsr88agat+G/Lg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "DBV9Zu8q": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.11-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/DBV9Zu8q/adaptive_performance_tweaks-forge-1.21.11-12.3.0.jar",
+      "hash": "sha512-J51wHp6edvMnjvfFl8na2/EiqCGV9wEDDIfNacgwmpJ3Xfrds2JgNBTIupAaVniaF70klciP2KCPLISWP6L4HA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Dd2Ghc9x": {
+      "filename": "adaptive_performance_tweaks-fabric-26.2-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Dd2Ghc9x/adaptive_performance_tweaks-fabric-26.2-12.7.0.jar",
+      "hash": "sha512-JO/mCS842xXDhY/uQOVLOqsqKiwsMTJG8MOx1C3T6+66uwzVsOIwPaQINr/OMVemKKUTQ9ht1BvJDGgqe6VIMg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DiP3887x": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.11-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/DiP3887x/adaptive_performance_tweaks-fabric-1.21.11-12.5.0.jar",
+      "hash": "sha512-qHWyA6lF8PrOcpEHHZFTiH5ykTu63dtSY0GlXn3ZdqPlaSjDaImQqIjER95nk9UBtJJ7EGdiDXmECAnJhG8fNg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DjzEJwk1": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/DjzEJwk1/adaptive_performance_tweaks-forge-1.20.1-12.2.0.jar",
+      "hash": "sha512-wBSBkJwxgVrTGKFhpZG+sZqVKLtDE91Y9qYi3ciiM+x7AmQz5dAN2MHX/BDCnkdu6CdoRDCQ8c4tBxJGFBtYVg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "E62idOYe": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.1.2-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/E62idOYe/adaptive_performance_tweaks-neoforge-26.1.2-12.5.0.jar",
+      "hash": "sha512-E2RBxphoH0AIAt382jlqhvIAlVdr3Tp4buOyRYR2v1UAdjYcCiYAFDsaABESAwVjCRUQif8sVb2tbC3/ZIfG6A==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "EX6O5clW": {
+      "filename": "adaptive_performance_tweaks_1.19.1-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/EX6O5clW/adaptive_performance_tweaks_1.19.1-11.0.0.jar",
+      "hash": "sha512-BsBqGiO0t+s3dxJP0IQL5HbnDZW49kPgB4QnkZeDiptR8rOk16DJrjx8qSbvem0pJZmPg3qGHDya4FEhhrFjag==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "Eq0leXbZ": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.11-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Eq0leXbZ/adaptive_performance_tweaks-forge-1.21.11-12.5.0.jar",
+      "hash": "sha512-RhRGYcSosEKSqcrnGN3fY6AO3DBejLIzybYizWzWVii7wjnwmB+BnjSP2wy4dKbLkSpZSas0fyjXI1mas4AbMQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "FOujj3d3": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.1-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/FOujj3d3/adaptive_performance_tweaks-forge-1.21.1-12.4.0.jar",
+      "hash": "sha512-9skndY3aiKfy73P8KaAz86YkTnfGl+SKBJ3ZhVcARj+JUpS/N0uhj/fQH50e6R8m3g1QLvIxMAuwWeK5/GmBMQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "GCrehzHb": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.11-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/GCrehzHb/adaptive_performance_tweaks-neoforge-1.21.11-12.5.0.jar",
+      "hash": "sha512-cDtB12gYqhsT2neRg1/BPHM2PB3QPXjM8Rjlr1KtUHMc56M/dFfHrx18NhofQRG0xSYUpOlK8kqcbB2Iy6hP+Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "GY71kZZI": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.11-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/GY71kZZI/adaptive_performance_tweaks-fabric-1.21.11-12.4.0.jar",
+      "hash": "sha512-iKlVz3OH4PRf2M31WJUXQ12QZFhIiKcE5nayRHB2Mxa89lhd4jhnr/Iq/p8aneXY9Wk4XHGZlxOi7zWUv/wViw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GtbxiTWq": {
+      "filename": "adaptive_performance_tweaks_1.20.6-11.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/GtbxiTWq/adaptive_performance_tweaks_1.20.6-11.2.0.jar",
+      "hash": "sha512-FxIE5v1o84rC9ruaFNFhSMY35SPo4h/rPeV4pDtf3PvtIGHiuLLWMc/6ZFK8Lw3DqkQu4+rvRzgPFWJzozvCkw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        }
+      ]
+    },
+    "Gx5z2one": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.2-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Gx5z2one/adaptive_performance_tweaks-neoforge-26.2-12.6.0.jar",
+      "hash": "sha512-zKVhvN+dknljJDbPUSJeEXvU1JuL7BS43ighFRRMW4KlarUjJ1rbH9vH9pb8lA4f/ppwgSvP7KL04k8pyUXFAg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "GzBk6rVN": {
+      "filename": "adaptive_performance_tweaks_1.21.1-11.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/GzBk6rVN/adaptive_performance_tweaks_1.21.1-11.3.0.jar",
+      "hash": "sha512-kxZ0WUm6umSvevVwAuPtqILPAxBoiceKj3+gPwNXrH9roGtn6FR47d+M52ZmjLUY/nlUrlVyZ80UoiLjDS5htQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        }
+      ]
+    },
+    "H1Sw9O7a": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.1-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/H1Sw9O7a/adaptive_performance_tweaks-neoforge-1.21.1-12.8.0.jar",
+      "hash": "sha512-KPgMnK0jRPUvr2gUQvJaz3PF3Pj+SCr1dDdg85/ZuhSkVVGjSzFqtxZScIAQaqEijdNxXeGwdq/NFcU1JO1VoQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "I6QZmrPF": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.1.2-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/I6QZmrPF/adaptive_performance_tweaks-neoforge-26.1.2-12.3.0.jar",
+      "hash": "sha512-IC2tsQui5aIapRuIqUxKQ5RAQpNuTeeKzLBwi6G0W/Oa2Dp5/TZ+KgSlxIGTUgQWOLB3LTEJRtsvJ6zdjTqN6g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "IldPS6cI": {
+      "filename": "adaptive_performance_tweaks-fabric-26.1.2-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/IldPS6cI/adaptive_performance_tweaks-fabric-26.1.2-12.9.0.jar",
+      "hash": "sha512-HRtRWoVvCfpBDMPmS7e2M0MvxHYZvWPdNesqfOCYKe/ZGT6hYzBVOTZv6BpBIzt8de6Za7UiNZJ2x6Xih7+wcA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JKmsaHB8": {
+      "filename": "adaptive_performance_tweaks_1.19.2-11.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/JKmsaHB8/adaptive_performance_tweaks_1.19.2-11.3.0.jar",
+      "hash": "sha512-DhRE0bppClJxdVzKmjgCWLKqaWaQZDFrrZIPbnpiZKG3AesjAT6DUfyXDT+RcVrR1OzO6kxyItu8k9u1rzKHrA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        }
+      ]
+    },
+    "K6EnWffk": {
+      "filename": "adaptive_performance_tweaks-fabric-26.1.2-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/K6EnWffk/adaptive_performance_tweaks-fabric-26.1.2-12.3.0.jar",
+      "hash": "sha512-MRpOkSWKWzmnNE4JrC+8tlqkUiiYpNnfab0QBPv+QAaAWkr+zzbzTMiMru+5iuLxOs9m9HQP3QY0Iw7jH7Pr4g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "K7q6Nzwp": {
+      "filename": "adaptive_performance_tweaks_1.18.2-11.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/K7q6Nzwp/adaptive_performance_tweaks_1.18.2-11.6.1.jar",
+      "hash": "sha512-arWF8jRtQtI/TSX/vHgJOr0DTrFaGEBLv4yZFibBWK0NBYA1AsGaGFNTdMfPOw12ViMUSeGFwQkqKpZbPvaDtg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "KbwggVvE": {
+      "filename": "adaptive_performance_tweaks_1.19-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/KbwggVvE/adaptive_performance_tweaks_1.19-11.0.0.jar",
+      "hash": "sha512-5Xnlk645wArCBCEKLcLXBt+2LS8Ej/O76lPbefxdtBiSjh4dTFNHm/RpNn8iFCJH4aznGoxr66ogwRbA7chVTg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        }
+      ]
+    },
+    "Kfu3CLuh": {
+      "filename": "adaptive_performance_tweaks-forge-26.2-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Kfu3CLuh/adaptive_performance_tweaks-forge-26.2-12.8.0.jar",
+      "hash": "sha512-qLKJGxHPsrEjgyJ39s81aP1Ekg03WueN27nDvX0ufMxf+gZT+vTFCALpaW4gjexzIYhQEzBeDLZE/2QDVQomew==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "L152vSPo": {
+      "filename": "adaptive_performance_tweaks_1.20.1-11.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/L152vSPo/adaptive_performance_tweaks_1.20.1-11.4.0.jar",
+      "hash": "sha512-g6K4q13hdnhhns+3JIsGauRMeiJzOGI5YLQsJ+m2OaqlEdAmijZq6fJfXjDn2t6sk7B4YiXxTbJf6yfCYN/piQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        }
+      ]
+    },
+    "LAmejgKG": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.1-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/LAmejgKG/adaptive_performance_tweaks-fabric-1.21.1-12.5.0.jar",
+      "hash": "sha512-FUv3ZMkbyTeZ9HPor0fYrH3lKXmB66cWa5rTa4Vue2YX3Owtm7k7bErsew7la9llUIAQmAzuGQOeeqPOxAbdMA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LmRqmxqL": {
+      "filename": "adaptive_performance_tweaks-forge-26.1.2-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/LmRqmxqL/adaptive_performance_tweaks-forge-26.1.2-12.4.0.jar",
+      "hash": "sha512-UKBk/lFsH93YkRIjMDq1U458aPJtwZ1kNwi4+80C1hLOa39YPQrWO534Ywiyn8hKQSd/3GmLLkiZP5wVM2BYdw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "MumwZzbU": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.1-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/MumwZzbU/adaptive_performance_tweaks-forge-1.21.1-12.3.0.jar",
+      "hash": "sha512-mbj4XGEQ5i/KlDywdk1HK2aYrm5IcKjEy3tXGOAJVQ6ZRNRLDCBBUC8lArcWQhhhse44k8Yjj22cJfjQspexzA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "N2SnkzIq": {
+      "filename": "adaptive_performance_tweaks_1.21.1-11.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/N2SnkzIq/adaptive_performance_tweaks_1.21.1-11.2.0.jar",
+      "hash": "sha512-/GM7MJDLXkLGqWRnM59Nuw2XrpQ5Rwgp07h7O0ubgD0Kd+ebPXLKufWlueJHr1W82jvJ18S0P3W+k4BTb+06wA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "N6P97k4m": {
+      "filename": "adaptive_performance_tweaks_1.19.2-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/N6P97k4m/adaptive_performance_tweaks_1.19.2-11.0.0.jar",
+      "hash": "sha512-XCwU6XAjYnnR/NngtZ3OyNH14O1QfV0F45HR/rUCELG1SsgAgMoilSuxfLh4bQ1MLUx8dwRJtmQK0F7xlY3iEQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "OyIB0mmO": {
+      "filename": "adaptive_performance_tweaks_1.19.2-11.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/OyIB0mmO/adaptive_performance_tweaks_1.19.2-11.1.0.jar",
+      "hash": "sha512-FTqYArIQKgy3j71WjwY5r5WCxoMltO604qbvLQl0NjbT6m/RP7va6BxF3sViAOJ5+hprx0sF3p+mahN6Ckxidg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "P7vn4tfR": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.11-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/P7vn4tfR/adaptive_performance_tweaks-neoforge-1.21.11-12.7.0.jar",
+      "hash": "sha512-vDe8Nb2XYXGIbYrb9y4vzNUTFRZBYc3L8E/PGBj3xN5FCQkAqS+caiQrMIiq9gqtSqSVBPZ01ZyMeKXxd8Asug==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "PAJPsF3x": {
+      "filename": "adaptive_performance_tweaks-forge-26.1.2-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/PAJPsF3x/adaptive_performance_tweaks-forge-26.1.2-12.5.0.jar",
+      "hash": "sha512-LiUQDHVf1HwDzBz1v+n0Qr4ULfWAbdy9zxauOthEhHCVOGTtUTFG/jwYqOlm6cYzTztdBV0f/2DGo8Y8NYMhRg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "PfPnJqp3": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/PfPnJqp3/adaptive_performance_tweaks-forge-1.20.1-12.1.0.jar",
+      "hash": "sha512-QVCl1DXA7nNaQ+q1r14xk/sk4qjTVeFRvDi6aLwc2e/zKRJlPEmUQ/I+TlG3RYLV+rZRAa1BguRpTE9K6F0dDg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Q1Ey0TJc": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Q1Ey0TJc/adaptive_performance_tweaks-forge-1.20.1-12.7.0.jar",
+      "hash": "sha512-QYoqHXGOVPhE7q7L9bPHOtSFBzraqu3PcyVQS9aAoyPPXTBilK4l3ZHWckk2FSW5cvwjKZAMZexjeZqcSmEjzA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Q7SshYwN": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.1-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Q7SshYwN/adaptive_performance_tweaks-neoforge-1.21.1-12.5.0.jar",
+      "hash": "sha512-bsPsl+NH5ZOgpOFzTKU+KTTuSa99y/kslOooVB5fdO/BrprWWUzhsSUoZhQCjjnq1EX5MCLjo8RMEaQ5NO/Zjg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Q8VSbYD3": {
+      "filename": "adaptive_performance_tweaks_1.20.6-11.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Q8VSbYD3/adaptive_performance_tweaks_1.20.6-11.1.0.jar",
+      "hash": "sha512-VX5YT0ACnQTiAY9tUF/nzEQOXYdp0EqSvkxxGLfQp+0BOqFUgUGg+rjEamTlPObNRHDJhb8Avy+m29VMoGg4bg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "QGtuF2BB": {
+      "filename": "adaptive_performance_tweaks_1.21.1-11.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/QGtuF2BB/adaptive_performance_tweaks_1.21.1-11.6.0.jar",
+      "hash": "sha512-c0GdoT4Ud7fpKXGFC7UbJBZO9PPnacrQsGom9Jq00uMLjv2SL6Bcinch+1eBU2fsP+FkoitD2gibJbgyxfgGPA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        }
+      ]
+    },
+    "QiSHm5Pr": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/QiSHm5Pr/adaptive_performance_tweaks-forge-1.20.1-12.9.0.jar",
+      "hash": "sha512-Eo0No6Y497zWvtPMm0VUG9Y5QTqhaZJMv83XG4H1CuzfMewcumt+MBHx3pQFlhCQqNicloWcOF5c/qqzftxgZw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "R1TrEKzZ": {
+      "filename": "adaptive_performance_tweaks_1.19.4-11.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/R1TrEKzZ/adaptive_performance_tweaks_1.19.4-11.1.0.jar",
+      "hash": "sha512-UzZ9OZhBMIriz4U5fSCjNwJnUR6VTxYfKvai+G6HBaow8g+zxeiQLUbs9Zjb6HU2JZJaQRak5r26dNaLEkI8dw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "R3gRusnz": {
+      "filename": "adaptive_performance_tweaks_1.20.4-11.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/R3gRusnz/adaptive_performance_tweaks_1.20.4-11.2.0.jar",
+      "hash": "sha512-VtQdgkttxQPWNj7YQxOgGOCIHnpv/iilUXqjMaWvs48IdGpqdEjDUjCm/2Mtu7YUDAl9WSZMVJqoCtVNMKNh8Q==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "SUFwngZ2": {
+      "filename": "adaptive_performance_tweaks-forge-26.1.2-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/SUFwngZ2/adaptive_performance_tweaks-forge-26.1.2-12.9.0.jar",
+      "hash": "sha512-RQXq4EaigXq2vzN3f5v7pQXK45HTKLwL8ssxEUn3jje2/zvHheAV9zR4+dzkggvJMBkCYhcllUmw0zigoA71yw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "SmB3VcnI": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.11-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/SmB3VcnI/adaptive_performance_tweaks-neoforge-1.21.11-12.3.0.jar",
+      "hash": "sha512-k5LRU+GRX5645lkwTx43izM7CcAZIlsSKll3KRngKrgBUAl+KlWoWQaYflE7ElnQuSpX6X+qOXRC/FQE6JKudw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "T2ApyNVh": {
+      "filename": "adaptive_performance_tweaks_1.18.2-11.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/T2ApyNVh/adaptive_performance_tweaks_1.18.2-11.6.0.jar",
+      "hash": "sha512-jBVBlcmJA47UamCft94yHRn91Zd5qmW99fp4Fj4Wm4L3hD0JazAx2fypvYsL+GkQkwAv2fNaiY0kpuyY3E7Xmg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        }
+      ]
+    },
+    "TbaSGElb": {
+      "filename": "adaptive_performance_tweaks_1.18.2-11.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/TbaSGElb/adaptive_performance_tweaks_1.18.2-11.3.0.jar",
+      "hash": "sha512-oSWEzS7D/G7M5zC1nz7xp8vZytm86JL6THkQJ9nVaKKW6CXXceZqgtpAmDBDHHwNQRFep+Vnh0pX5KaNvmYMRg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        }
+      ]
+    },
+    "UIs7xTaK": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/UIs7xTaK/adaptive_performance_tweaks-forge-1.20.1-12.0.0.jar",
+      "hash": "sha512-HnUaarZUxeyutlP0nniAhL5pFemVx9K2PRXmmiENmsfnS7y+LlRDh/r2GlxEcfAE/LW+ZGeLhP4UOrq4sMdFTw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "UhiW0Abs": {
+      "filename": "adaptive_performance_tweaks_1.19.2-11.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/UhiW0Abs/adaptive_performance_tweaks_1.19.2-11.4.0.jar",
+      "hash": "sha512-1f6gJx6VskECmb6O1VlO1HXLNXazuEAQFv0dEujJqhpIy0bu04Uh9vRGt4XLe0adRMI9bvOTrzRfIT9OSMlaDA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "VqDWniw3": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/VqDWniw3/adaptive_performance_tweaks-forge-1.20.1-12.6.0.jar",
+      "hash": "sha512-mZelFluZykJW9/Ne3LJii7dtF4nC17oJN1xcS1icwhJeHv6pfNTnelJsWFBccZ39EK2c+DovJYjYLZ6G7VF+6A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "WXrQR0dQ": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.11-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/WXrQR0dQ/adaptive_performance_tweaks-neoforge-1.21.11-12.4.0.jar",
+      "hash": "sha512-P01p6AB/0WicokNxzX3cGGUNvW3AuR/uHzN9wyBtSJELd+n+jsCOUi6b1fHNKMOPO1VOWdEAL1E/I+HuqOGZhQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "WuBEEMDE": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.1.2-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/WuBEEMDE/adaptive_performance_tweaks-neoforge-26.1.2-12.8.0.jar",
+      "hash": "sha512-40jlmRQXqHzSJVPWIoW0y5mmaCQBK2JaghEhU0x6l11217YcWDIoBKMUXOd1AuzcRs/wCPKai4FmCHrSeWEUBQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "XoZ4QOUg": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.1-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/XoZ4QOUg/adaptive_performance_tweaks-forge-1.21.1-12.7.0.jar",
+      "hash": "sha512-vqyKq5gpX+DC+Ub6MEzLTWctInF/X7DY9gkFhx5y9VvCYVqexHqWZQSCArmYLlVePdSDaLZO2qFOgm6wzYIuRg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Z7qx1VQl": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Z7qx1VQl/adaptive_performance_tweaks-fabric-1.20.1-12.3.0.jar",
+      "hash": "sha512-FZ+1FfFPKh27KaaleHPrEOopLVuhMcKs391CN1jOmwrx0YvKk3CVp/CxHTd8eQzfSmRUzesJzGlcd+m0ndXcMQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZfRPaxO3": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/ZfRPaxO3/adaptive_performance_tweaks-forge-1.20.1-12.5.0.jar",
+      "hash": "sha512-OHwviWOMhoznND5VSPdPK4Tijgid1+PGaQ6uRtry77X8dWX9ik/ybVu40cofXFfxmYkiXSbUbpGg5Sway4Th0A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ZjwJjNi2": {
+      "filename": "adaptive_performance_tweaks-fabric-26.1.2-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/ZjwJjNi2/adaptive_performance_tweaks-fabric-26.1.2-12.7.0.jar",
+      "hash": "sha512-kdhgUoxnrzVhAivX6zypbK9RRbWJC8wrc7TvSTCvQQjOZbCyP5zfBujKAyIgiyzaPibWhmsrsZ9wpazfveZBFA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZlMdL4PQ": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/ZlMdL4PQ/adaptive_performance_tweaks-forge-1.20.1-12.4.0.jar",
+      "hash": "sha512-aVDFo7wc8SnC6QWd6F86ntwbfgM9Z6btK9E93k7NNyBBOyIMuZBpMQdfuBLUdqjQUnIp8rXt2mk1H3ZB+TeOog==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Zv4bcfzZ": {
+      "filename": "adaptive_performance_tweaks_1.21.1-11.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/Zv4bcfzZ/adaptive_performance_tweaks_1.21.1-11.6.1.jar",
+      "hash": "sha512-u/A5FXIz+HFuCzn/gSVUFGJ8f2HMZgxNDHwlOKzuUy3SO0DqehmL0oUF2lxUq9oLHmjIvXafHPcjt9jrb5/pfA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "a3L1l2Gj": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/a3L1l2Gj/adaptive_performance_tweaks-fabric-1.20.1-12.9.0.jar",
+      "hash": "sha512-fNgIKA3HT9lF85+7Rp2GqLbc43HxXojIiVG8O/2xQ6tAlaV3HPFKSDEBhrLITvmcFqfOUP0L/63bC6mWEUTHGA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aIQ4OQZH": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.1.2-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/aIQ4OQZH/adaptive_performance_tweaks-neoforge-26.1.2-12.9.0.jar",
+      "hash": "sha512-GBNfdkQwFdB6I4HWSd/IkHyEvCRkVimmB2ffSdYiTnEmI8mQLBXosaaNhpUp3vwJSnG0AQCb4EikTLhtGLXxuA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "aVdjQYIa": {
+      "filename": "adaptive_performance_tweaks-fabric-26.1.2-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/aVdjQYIa/adaptive_performance_tweaks-fabric-26.1.2-12.3.0.jar",
+      "hash": "sha512-MRpOkSWKWzmnNE4JrC+8tlqkUiiYpNnfab0QBPv+QAaAWkr+zzbzTMiMru+5iuLxOs9m9HQP3QY0Iw7jH7Pr4g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "azp44rHC": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.1.2-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/azp44rHC/adaptive_performance_tweaks-neoforge-26.1.2-12.3.0.jar",
+      "hash": "sha512-IC2tsQui5aIapRuIqUxKQ5RAQpNuTeeKzLBwi6G0W/Oa2Dp5/TZ+KgSlxIGTUgQWOLB3LTEJRtsvJ6zdjTqN6g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "bnNO5AQG": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.2-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/bnNO5AQG/adaptive_performance_tweaks-neoforge-26.2-12.5.0.jar",
+      "hash": "sha512-/x8k3YA5AM5uTDVEbPRxIK7twsl6xegE9enD97tnDe3r3bxUKqg4+VitphET6M326ZpZFSVtv5Hnnsvi21oyoA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "bstaYSl3": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.2-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/bstaYSl3/adaptive_performance_tweaks-neoforge-26.2-12.8.0.jar",
+      "hash": "sha512-oxbNGSRRK16W9DBj2kZvFrLIqrvmy52zIocFek2hJEb074nMpvNPa3Pi6/EGjlhG9vfjSnZ/zrtnOM2tuHpzRw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "buUcS8rF": {
+      "filename": "adaptive_performance_tweaks-neoforge-26.1.2-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/buUcS8rF/adaptive_performance_tweaks-neoforge-26.1.2-12.7.0.jar",
+      "hash": "sha512-DlvDVkuX/xZSyqEJMGyoYhURPjwwo+RWR7neSE7ZmAxI6u2rxcn6ffa756ng4omtoAUFhqrRSF/UUCAVQdQolg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "dAJIDrPe": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.1-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/dAJIDrPe/adaptive_performance_tweaks-fabric-1.21.1-12.4.0.jar",
+      "hash": "sha512-glWEeh6MESQd7TOQMQ7vS8M3ib6ZDnLF+bUUNZDFoK1mNKZBseVoUdaLfo6GlUa1BcdiA2mcI0hqyWsXR4O9dw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dX0bEEeW": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/dX0bEEeW/adaptive_performance_tweaks-fabric-1.20.1-12.0.0.jar",
+      "hash": "sha512-Bnm6ji8jit7ifK3wPvm9UYN9aXQmLS7kIrT5fLwtJS//ZX8cI1+pmhvB9TWNyN6WUwYZQO6ZA6tseYkjkMSoqw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ePPNLu7Z": {
+      "filename": "adaptive_performance_tweaks_1.20.1-11.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/ePPNLu7Z/adaptive_performance_tweaks_1.20.1-11.3.0.jar",
+      "hash": "sha512-bnhXadDOvaYx+UzHqzMG+NIzhQ3fLWLr6NaZfCtTJn8pV2tQkLcSarWFsfO2DtVE9qVNA5IJuy9T/bC+lzO+sQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        }
+      ]
+    },
+    "g6Z2NnKz": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.11-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/g6Z2NnKz/adaptive_performance_tweaks-fabric-1.21.11-12.6.0.jar",
+      "hash": "sha512-tgVH0kbirBbOl8IgQofdVPs+CBzClmPjPA3gF5lJAAuLj0bzkNeOgNWI2SU7SHQxYmJxgRql6B2A0Dr6wL/LFA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gGEpMjdN": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/gGEpMjdN/adaptive_performance_tweaks-fabric-1.20.1-12.6.0.jar",
+      "hash": "sha512-EcxwPWdMssqVOibqo5KXgsrSKWaIM/Xn6gD3JHfPdVXruhznVEPokvNxaCrcMqLpa7VCOy9uZvyTMmEQw9gmxA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gTrTnbkg": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.11-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/gTrTnbkg/adaptive_performance_tweaks-forge-1.21.11-12.6.0.jar",
+      "hash": "sha512-Kof4t3pYmJ8uG+3schwPo0FQFP0rhrMnVnf18adUgByf4KJuArFfX0nRd4Hqk0rZFgU1v+cb57yA1OQbWh0Flw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "grkRfoRH": {
+      "filename": "adaptive_performance_tweaks_1.20.1-11.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/grkRfoRH/adaptive_performance_tweaks_1.20.1-11.6.1.jar",
+      "hash": "sha512-x/GKFzaYweJFcEclqE/jIIWMfic6pRwVtPn7tAMWqE89/E2oAdprBzusChGNO2RThGCYDbQNniv2ORALj8e90g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "hAHxILd4": {
+      "filename": "adaptive_performance_tweaks_1.21.1-11.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/hAHxILd4/adaptive_performance_tweaks_1.21.1-11.4.0.jar",
+      "hash": "sha512-3oFzWxXUq0wO4/GaIOmTX3dgUXykOVBUyiWfkpQvCFMkMzj0q8NnQy0ZkEWKaU3s7zeOameSDzJdkfhOt9kxKA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "hH9x5fPC": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.11-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/hH9x5fPC/adaptive_performance_tweaks-fabric-1.21.11-12.8.0.jar",
+      "hash": "sha512-x6/fFHC+CNKPib2xgPkxVpk98iif+9zUFpFELNnHVrtDqqGKRZrc6RZ+grkqcf0cTyWLt8YSz+wVKVt+7chttA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iA4947ta": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.11-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/iA4947ta/adaptive_performance_tweaks-neoforge-1.21.11-12.8.0.jar",
+      "hash": "sha512-hGrSqhXIHoOqB0LruPGDsLMt2Ii+RLk0/NK6233WgpBwwoM1VftZQyl2pCO7QM8SG7gQbvU80Ca6+Uu6xxiIEg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "iIfudI1s": {
+      "filename": "adaptive_performance_tweaks_1.19.2-11.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/iIfudI1s/adaptive_performance_tweaks_1.19.2-11.6.0.jar",
+      "hash": "sha512-Lu7+QSRFvzlHQxtTDltJE+Ys4fEJ9V1056zVjklYETFsBeqwPlTPV1m/Jbkul0wl+3JSfdcDePQjIDDhKLr+6Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "iKLvmTcU": {
+      "filename": "adaptive_performance_tweaks-fabric-26.2-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/iKLvmTcU/adaptive_performance_tweaks-fabric-26.2-12.5.0.jar",
+      "hash": "sha512-RwET3NFtixMN/UsXvcygnyUf2NuDGZ3/iZVIs+KHM/M3ZxMWbULACkr5oJvxzfTGH5hAhQa7FtMJlMo6HsMaaw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "idP4rWjA": {
+      "filename": "adaptive_performance_tweaks-forge-26.1.2-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/idP4rWjA/adaptive_performance_tweaks-forge-26.1.2-12.3.0.jar",
+      "hash": "sha512-9SoSqa/zanJWVNQ9lLLEcOpdbCN5AayP2IaZ1v+Qoy6EGtRsSePt2hxyALHHu7JLT2bZp/VjQMuse0BDfWKNUw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ikZqOuzS": {
+      "filename": "adaptive_performance_tweaks_1.20.1-11.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/ikZqOuzS/adaptive_performance_tweaks_1.20.1-11.2.0.jar",
+      "hash": "sha512-FepDpeVM6xtovguuKqrzafLS1WmVcg2MDNpGRAHFmqE/nNOc2LXHCCs8mbWf+8XD/7hpIuJpygR7i3SfUQ08zQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        }
+      ]
+    },
+    "kLQQX9gJ": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.1-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/kLQQX9gJ/adaptive_performance_tweaks-neoforge-1.21.1-12.3.0.jar",
+      "hash": "sha512-8d5cLQqxibpiPf8QASV+37WlgqnHYKhSy6ErS33mYA/Dk2PJKn7HYZvH7Kq/m6p5PmPwOgRTV3My9Q6HVsu6sA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "kcJxas4c": {
+      "filename": "adaptive_performance_tweaks_1.20.4-11.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/kcJxas4c/adaptive_performance_tweaks_1.20.4-11.1.0.jar",
+      "hash": "sha512-XlQ8XvTKoEtKCxY2Mrk5OVGNQCM01bY5heRii5TiJ3Q1cGCQXzY2gNXFcJfAb257BAbf0NkWJ3nGzqgpUb2tiw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        }
+      ]
+    },
+    "l29Cij5q": {
+      "filename": "adaptive_performance_tweaks_1.20.1-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/l29Cij5q/adaptive_performance_tweaks_1.20.1-11.0.0.jar",
+      "hash": "sha512-eQsPmqkHMjni5vUT7t0S4W1MiJmZ+SZ2xuVKItMw4JjJDfeaOqxAFSWn5S2GmJ4NOYiQzJ1ch/ZvJsrYCKgUbA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "lDTnljuR": {
+      "filename": "adaptive_performance_tweaks-forge-26.1.2-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/lDTnljuR/adaptive_performance_tweaks-forge-26.1.2-12.7.0.jar",
+      "hash": "sha512-6FnE+fIFJZjY/ZH4WF0li0CFCCB+DItBy25QwHr2sk1JOEyBuLB6Mm7Ouh4Ti9EoMtZjf7oxTt17n9OyFnvt3g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "lYot3gz0": {
+      "filename": "adaptive_performance_tweaks_1.19.4-11.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/lYot3gz0/adaptive_performance_tweaks_1.19.4-11.1.0.jar",
+      "hash": "sha512-kRTjrrqpdxWCrh8R4BjyTW9NclLkahBTsYIeb5r5PBlAEClsaMEgOYot/xHjrryc3Xb7/D2hoG0wfsCISZDUaw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "n7zvigb5": {
+      "filename": "adaptive_performance_tweaks_1.20.1-11.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/n7zvigb5/adaptive_performance_tweaks_1.20.1-11.5.0.jar",
+      "hash": "sha512-tpSMVj5Ntlj1WEjPeQH9E/1I5E/M3eVCRdziv0uM3YFx79Xuya3yxWPASArYcCBF1Tq8cPg96YfpUafnkXoxVA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "nZzTnyuu": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.11-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/nZzTnyuu/adaptive_performance_tweaks-fabric-1.21.11-12.7.0.jar",
+      "hash": "sha512-9WVJpPumw5hjC2CI32MmhT6Vc1DeHKD2lukDVD7y6a8RL25/rBygR77mu1eiMN65xpJrGlQ1m4lxByP6haHTlg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oGbuC9FI": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.1-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/oGbuC9FI/adaptive_performance_tweaks-forge-1.21.1-12.6.0.jar",
+      "hash": "sha512-Dg6OVTRppXLHTXvblFjyTuLaOVa21jfulmFmGmEuK6zlzP/F7lZMgB6+ax/y4FjzA7lnSlBE6k1OumnfuJLyVw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "oLHXQx7S": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.1-12.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/oLHXQx7S/adaptive_performance_tweaks-forge-1.21.1-12.5.0.jar",
+      "hash": "sha512-MD7PqjepFseCLzurexM6qqHTqF46epjeLK4v35XhQGO+zuozBiqEjOSCZBPx3KPtPv710z+8rugC25hJWNdhfQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "oo6s5xUZ": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.1-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/oo6s5xUZ/adaptive_performance_tweaks-fabric-1.21.1-12.9.0.jar",
+      "hash": "sha512-Z9aVo0/7155wx2kqW+2EjghxxLOC6opFRL2SzgkL0gO2WXcrvMqJ96dCjNlVKrNEFU/RntL7ShjkKup8UASlTg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "p4TEnM86": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.1-12.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/p4TEnM86/adaptive_performance_tweaks-neoforge-1.21.1-12.2.0.jar",
+      "hash": "sha512-QC6ayd/nNF46NKFuyRbcf9cwVSMFJ+NETDdi8Y9Ym1lEGlOreGZiYhbwszyyjb7mDxbjMYMwlGclac3CIibnNQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "pJN1CFYT": {
+      "filename": "adaptive_performance_tweaks-forge-26.1.2-12.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/pJN1CFYT/adaptive_performance_tweaks-forge-26.1.2-12.6.0.jar",
+      "hash": "sha512-o3klH0pcgC4SPX1/2EodGcET3i0uRMIQqa4NUovPWoX4rIZAdt5+GQ4x69KmaLTU7vHW9gT1oHerWWjHPV+e4w==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "pWK694ES": {
+      "filename": "adaptive_performance_tweaks_1.20-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/pWK694ES/adaptive_performance_tweaks_1.20-11.0.0.jar",
+      "hash": "sha512-h3paZ0wH70x4RYj5klstTEmyKQObw3M7PJzDaPPfFwJFCWPCgy+zIxdyW6Sx6Oawn9iGxuf6YV6AHtH/SmadAA==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "qO20APNX": {
+      "filename": "adaptive_performance_tweaks_1.18.2-11.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/qO20APNX/adaptive_performance_tweaks_1.18.2-11.5.0.jar",
+      "hash": "sha512-YYgrpt9SZ3Vf5W5ZBTedhj+ffITR37Vh8DKiWCm651InymkUtigEkDW+5KPq4raCRpk3LAXi9od4K5gydPHl2w==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "qqSeM7X4": {
+      "filename": "adaptive_performance_tweaks_1.19.4-11.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/qqSeM7X4/adaptive_performance_tweaks_1.19.4-11.2.0.jar",
+      "hash": "sha512-zu+9PxG8RVPNtolMuU1iNvRyndBOQ3mLJ78QY6HiaGbxLeDc6UDaELeOmpepT7l8oBJo1sL/yaHH++FOTSTnYg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "rEjn77qh": {
+      "filename": "adaptive_performance_tweaks-neoforge-1.21.1-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/rEjn77qh/adaptive_performance_tweaks-neoforge-1.21.1-12.9.0.jar",
+      "hash": "sha512-srZWeUvC0ZoYZ2RQAXHL/JBVnTBQD+9kDH9oDhC25dbM9KDhali965cl7b7cp3SoX6zYN15n3+WH/yuUtL/B5g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "rJgYXmec": {
+      "filename": "adaptive_performance_tweaks-forge-1.20.1-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/rJgYXmec/adaptive_performance_tweaks-forge-1.20.1-12.8.0.jar",
+      "hash": "sha512-cdHPT1mKbIMSb1B11S4JsuwL0J7VnzCvHQzbql7xMd2AGPtukVNl6dPUd4FwiVWOalDEdHCgQpw2y3CLevwpag==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "rZJPgV7T": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.11-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/rZJPgV7T/adaptive_performance_tweaks-forge-1.21.11-12.4.0.jar",
+      "hash": "sha512-iGE9dmLkqcZUrFVMJz6De8t40qu+kRQL4QQk+63c47Uo4cHNiIChhYUufZm+3EOiHWnmVpGvMXb+4x98ibCknQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "rbDBHkTe": {
+      "filename": "adaptive_performance_tweaks_1.20.3-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/rbDBHkTe/adaptive_performance_tweaks_1.20.3-11.0.0.jar",
+      "hash": "sha512-mwjuB55JEzsGRxuwHwzWf+2X+MEKJ4m3QkHrJfPc+jNhLzUfjWdotmHKgIQXBoNiirjBCyXFCyMvhbmKY2XXsg==",
+      "gameVersions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        }
+      ]
+    },
+    "rpbvF2Kv": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.11-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/rpbvF2Kv/adaptive_performance_tweaks-forge-1.21.11-12.9.0.jar",
+      "hash": "sha512-BdUvQXsD4afTyQMtwQXZnMQuJNtF/xN8HHIfdhdlGyQ+UX3KpBaLWf4XGheRmPR3+cuzLPqM4mgsizvGEtxJMQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ruxH73gt": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.1-12.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/ruxH73gt/adaptive_performance_tweaks-forge-1.21.1-12.9.0.jar",
+      "hash": "sha512-CgKqklZzlt2rU+a0+ijU9HJg0y9EuOsg9cF4Y5GPtsM5X0UnCTxs35yMloRzMkoilafjva1uRulELiDuTWCU9A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "s3YhZQQT": {
+      "filename": "adaptive_performance_tweaks_1.21.1-11.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/s3YhZQQT/adaptive_performance_tweaks_1.21.1-11.5.0.jar",
+      "hash": "sha512-IHFr/3hzqcXtOevZ6wJiuKE+1c/TsepPcDsJ5ZgO+NCn9FM5Ok7/n3bzizrCkB2/Vz/zzU7kEkr1ph4S5Nywfw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        }
+      ]
+    },
+    "tprKOwV6": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/tprKOwV6/adaptive_performance_tweaks-fabric-1.20.1-12.4.0.jar",
+      "hash": "sha512-bwo75Kq41mZDFTdfOkuevxWkTlxCqji0mLIHXW8rT1AfcL8wLP43lc+ObeLfRb8fERMtWO9LqQK7gUDTdOjr/Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "twdPT4qO": {
+      "filename": "adaptive_performance_tweaks_1.20.1-11.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/twdPT4qO/adaptive_performance_tweaks_1.20.1-11.6.0.jar",
+      "hash": "sha512-G196+dZ3aFjZaIAc6p61rRZEncN5aebORVEBtdryfIROoG9q3SOQBPk0uz3IlkHGKxy8Sot6fuy0S1tAAsf2NQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    },
+    "uEn8pHyV": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.11-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/uEn8pHyV/adaptive_performance_tweaks-forge-1.21.11-12.7.0.jar",
+      "hash": "sha512-ZJxJV9GG+R8md+EbjJoEfxt2fCnm/YZLQvxZta3mOP6nxMd8EZm4Ytoy/CYw3DgD0eHbaoN3lDLGcvn5wJdNGQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "uRhap8sV": {
+      "filename": "adaptive_performance_tweaks_1.19.3-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/uRhap8sV/adaptive_performance_tweaks_1.19.3-11.0.0.jar",
+      "hash": "sha512-T8+pRIsLBW+/B9TrJOj1M0n61MlPSaiXayIqXNskbeI4deg1m/iW17nnJuQFaLIwOfwb2MseQfKDcg3Js2WQJA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        }
+      ]
+    },
+    "uVkVaM1m": {
+      "filename": "adaptive_performance_tweaks_1.21-11.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/uVkVaM1m/adaptive_performance_tweaks_1.21-11.1.0.jar",
+      "hash": "sha512-HFRWwfSQkd+5CcW+Oh2RWVSMEqWa181/7hSBn9zZxj3O4lYCvHn+Q8Pf4QFmhHqI9LIJNu8RR2+fyNBJgcWdCA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "ua4yz93E": {
+      "filename": "adaptive_performance_tweaks-forge-26.2-12.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/ua4yz93E/adaptive_performance_tweaks-forge-26.2-12.7.0.jar",
+      "hash": "sha512-ip/Q39Y+ZUb/ErMMLbagQl6SnA3aTd3AuzvHDcaXzCdfFQI2Fml6tz5nFXj3fcMhPjuqX+0yVQHMimB9syOcsw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "vQ7aVtof": {
+      "filename": "adaptive_performance_tweaks_1.20.4-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/vQ7aVtof/adaptive_performance_tweaks_1.20.4-11.0.0.jar",
+      "hash": "sha512-xFEwFHN0m5B/fkOheC0lz5oRC1DYx+e8VUHToM8fKG360Cyh/zPri5afV8diEu35r5ZaAu6VTjlakR67rsaYEA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        }
+      ]
+    },
+    "vXuQigoJ": {
+      "filename": "adaptive_performance_tweaks-forge-26.1.2-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/vXuQigoJ/adaptive_performance_tweaks-forge-26.1.2-12.8.0.jar",
+      "hash": "sha512-xSNJxPVlU2UlUMV7eSpS2NsJq+xy9X+n+NC+jn4tfAZm5AfBSrTK5maFYAKBsD98UGf3vioOPU/DfrMRpphT2A==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "vxmNsdVA": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/vxmNsdVA/adaptive_performance_tweaks-fabric-1.20.1-12.8.0.jar",
+      "hash": "sha512-wX9qwIW98ahnlY3IpTftOUAy9HsSZMJb3tYUqErn03xMioxciUgmr0r5jnFl0wIdONjpSL0v1WjeQqhftTp5sQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "x3w2K5Bz": {
+      "filename": "adaptive_performance_tweaks-fabric-1.21.1-12.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/x3w2K5Bz/adaptive_performance_tweaks-fabric-1.21.1-12.3.0.jar",
+      "hash": "sha512-5J+zqBWv7A4D/w7hucWG9p2TGb6ymdet4PZ9XSRVF2WqjX5ro9IjFFU2zThsZ+kiI7Naptt/2MQOcFdoRSbipA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xElB3bSE": {
+      "filename": "adaptive_performance_tweaks-forge-1.21.11-12.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/xElB3bSE/adaptive_performance_tweaks-forge-1.21.11-12.8.0.jar",
+      "hash": "sha512-cpCCKysxK9R0qi0grVqPYY47nVpeF8OrcsNa7gWlSNPS3hRsTPK6HIeSDS9ptzbAzTnw7Ln2cE8hfyBD+9mc7w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "y0KDloah": {
+      "filename": "adaptive_performance_tweaks-fabric-26.1.2-12.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/y0KDloah/adaptive_performance_tweaks-fabric-26.1.2-12.4.0.jar",
+      "hash": "sha512-KOH2ihgL7HF5+RWVOB/ERt9WVQqH/yOdlyWdLmdEXnQBthQzn0IQulIhMXd2sqyuLCeJy15nAeNd8s+PjN6/ow==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yLNbaM0C": {
+      "filename": "adaptive_performance_tweaks-fabric-1.20.1-12.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/yLNbaM0C/adaptive_performance_tweaks-fabric-1.20.1-12.1.0.jar",
+      "hash": "sha512-kq/k7mmtw+dyE1QcEnLf0/EXUnCh97vZ1Sk2352nfZCoySfm5lZ09xm2IXdsPzwje/BKK4B497pOfoaDIQZDYw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zEUAYVfc": {
+      "filename": "adaptive_performance_tweaks_1.19.4-11.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kLawTYXp/versions/zEUAYVfc/adaptive_performance_tweaks_1.19.4-11.0.0.jar",
+      "hash": "sha512-2Agj6OV8nyJdjgZZ6wNzI/iFS7/ZAV0NNO1q+1AfaKvv2JysWq72yS8pMoYPws9a2lJVkUWxf9nmhekkWjw/Rg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "adaptive-performance-tweaks-player",
+          "projectId": "jr5nzfKv",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-items",
+          "projectId": "z3TjJLQ0",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-spawn",
+          "projectId": "217PsbJI",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-gamerules",
+          "projectId": "Rd89yO7d",
+          "type": "required"
+        },
+        {
+          "slug": "adaptive-performance-tweaks-core",
+          "projectId": "L5xaBiBb",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "K7q6Nzwp",
+      "T2ApyNVh",
+      "qO20APNX",
+      "ACYckoVW",
+      "TbaSGElb",
+      "3NYc9MDX",
+      "5MmI5sJX",
+      "9YkkqUVg"
+    ],
+    "1.19+forge": [
+      "KbwggVvE"
+    ],
+    "1.19.1+forge": [
+      "EX6O5clW"
+    ],
+    "1.19.2+forge": [
+      "80KoKelR",
+      "iIfudI1s",
+      "5bywXYOx",
+      "UhiW0Abs",
+      "JKmsaHB8",
+      "5lxzJZQv",
+      "OyIB0mmO",
+      "N6P97k4m"
+    ],
+    "1.19.3+forge": [
+      "uRhap8sV"
+    ],
+    "1.19.4+forge": [
+      "qqSeM7X4",
+      "R1TrEKzZ",
+      "lYot3gz0",
+      "zEUAYVfc"
+    ],
+    "1.20+forge": [
+      "pWK694ES"
+    ],
+    "1.20.1+fabric": [
+      "a3L1l2Gj",
+      "vxmNsdVA",
+      "2iTmnbK3",
+      "gGEpMjdN",
+      "56Z2hA6a",
+      "tprKOwV6",
+      "Z7qx1VQl",
+      "2EdYwUDz",
+      "yLNbaM0C",
+      "dX0bEEeW"
+    ],
+    "1.20.1+forge": [
+      "QiSHm5Pr",
+      "rJgYXmec",
+      "Q1Ey0TJc",
+      "VqDWniw3",
+      "ZfRPaxO3",
+      "ZlMdL4PQ",
+      "1Sf3Z3eV",
+      "DjzEJwk1",
+      "PfPnJqp3",
+      "UIs7xTaK",
+      "grkRfoRH",
+      "twdPT4qO",
+      "n7zvigb5",
+      "L152vSPo",
+      "ePPNLu7Z",
+      "ikZqOuzS",
+      "81zirVkN",
+      "l29Cij5q"
+    ],
+    "1.20.1+neoforge": [
+      "QiSHm5Pr",
+      "rJgYXmec",
+      "Q1Ey0TJc",
+      "VqDWniw3",
+      "ZfRPaxO3",
+      "ZlMdL4PQ",
+      "1Sf3Z3eV",
+      "DjzEJwk1",
+      "PfPnJqp3",
+      "UIs7xTaK",
+      "grkRfoRH",
+      "twdPT4qO",
+      "n7zvigb5",
+      "L152vSPo",
+      "ePPNLu7Z",
+      "ikZqOuzS",
+      "81zirVkN",
+      "l29Cij5q"
+    ],
+    "1.20.1+quilt": [
+      "a3L1l2Gj",
+      "vxmNsdVA",
+      "2iTmnbK3",
+      "gGEpMjdN",
+      "56Z2hA6a",
+      "tprKOwV6",
+      "Z7qx1VQl",
+      "2EdYwUDz",
+      "yLNbaM0C",
+      "dX0bEEeW"
+    ],
+    "1.20.2+forge": [
+      "4QVwUFiL"
+    ],
+    "1.20.3+forge": [
+      "rbDBHkTe"
+    ],
+    "1.20.4+forge": [
+      "R3gRusnz",
+      "kcJxas4c",
+      "vQ7aVtof"
+    ],
+    "1.20.6+forge": [
+      "GtbxiTWq",
+      "Q8VSbYD3",
+      "CEjtaST9"
+    ],
+    "1.21+forge": [
+      "3WDGAWCL",
+      "uVkVaM1m"
+    ],
+    "1.21.1+fabric": [
+      "oo6s5xUZ",
+      "5E4FMnUm",
+      "3PH8u6g6",
+      "5HhYMrQY",
+      "LAmejgKG",
+      "dAJIDrPe",
+      "x3w2K5Bz",
+      "BRRlFiPg"
+    ],
+    "1.21.1+forge": [
+      "ruxH73gt",
+      "BAZsNCK2",
+      "XoZ4QOUg",
+      "oGbuC9FI",
+      "oLHXQx7S",
+      "FOujj3d3",
+      "MumwZzbU",
+      "6PPOlRFP",
+      "Zv4bcfzZ",
+      "QGtuF2BB",
+      "s3YhZQQT",
+      "hAHxILd4",
+      "GzBk6rVN",
+      "N2SnkzIq"
+    ],
+    "1.21.1+neoforge": [
+      "rEjn77qh",
+      "H1Sw9O7a",
+      "2y0TR8eA",
+      "XoZ4QOUg",
+      "A2jrtFn0",
+      "oGbuC9FI",
+      "Q7SshYwN",
+      "oLHXQx7S",
+      "3mvviepo",
+      "FOujj3d3",
+      "kLQQX9gJ",
+      "MumwZzbU",
+      "p4TEnM86",
+      "6PPOlRFP"
+    ],
+    "1.21.1+quilt": [
+      "oo6s5xUZ",
+      "5E4FMnUm",
+      "3PH8u6g6",
+      "5HhYMrQY",
+      "LAmejgKG",
+      "dAJIDrPe",
+      "x3w2K5Bz",
+      "BRRlFiPg"
+    ],
+    "1.21.11+fabric": [
+      "B7XFuxRQ",
+      "hH9x5fPC",
+      "nZzTnyuu",
+      "g6Z2NnKz",
+      "DiP3887x",
+      "GY71kZZI",
+      "9nhD3M5f"
+    ],
+    "1.21.11+forge": [
+      "rpbvF2Kv",
+      "xElB3bSE",
+      "uEn8pHyV",
+      "gTrTnbkg",
+      "Eq0leXbZ",
+      "rZJPgV7T",
+      "DBV9Zu8q"
+    ],
+    "1.21.11+neoforge": [
+      "7K8XvpMB",
+      "iA4947ta",
+      "P7vn4tfR",
+      "9HScATyJ",
+      "GCrehzHb",
+      "WXrQR0dQ",
+      "SmB3VcnI"
+    ],
+    "1.21.11+quilt": [
+      "B7XFuxRQ",
+      "hH9x5fPC",
+      "nZzTnyuu",
+      "g6Z2NnKz",
+      "DiP3887x",
+      "GY71kZZI",
+      "9nhD3M5f"
+    ],
+    "26.1.2+fabric": [
+      "IldPS6cI",
+      "7rfA4YeC",
+      "ZjwJjNi2",
+      "CJOf4ixw",
+      "2tw6KdjV",
+      "y0KDloah",
+      "K6EnWffk",
+      "aVdjQYIa"
+    ],
+    "26.1.2+forge": [
+      "SUFwngZ2",
+      "vXuQigoJ",
+      "lDTnljuR",
+      "pJN1CFYT",
+      "PAJPsF3x",
+      "LmRqmxqL",
+      "AZLCMtHe",
+      "idP4rWjA"
+    ],
+    "26.1.2+neoforge": [
+      "aIQ4OQZH",
+      "WuBEEMDE",
+      "buUcS8rF",
+      "AYUGBKe9",
+      "E62idOYe",
+      "4EoP4rLF",
+      "azp44rHC",
+      "I6QZmrPF"
+    ],
+    "26.1.2+quilt": [
+      "IldPS6cI",
+      "7rfA4YeC",
+      "ZjwJjNi2",
+      "CJOf4ixw",
+      "2tw6KdjV",
+      "y0KDloah",
+      "K6EnWffk",
+      "aVdjQYIa"
+    ],
+    "26.2+fabric": [
+      "9zNyReWU",
+      "Dd2Ghc9x",
+      "7tZtLtNp",
+      "iKLvmTcU"
+    ],
+    "26.2+forge": [
+      "Kfu3CLuh",
+      "ua4yz93E",
+      "CjpbTvrO",
+      "B0MpRX8J"
+    ],
+    "26.2+neoforge": [
+      "bstaYSl3",
+      "Co1aQvBK",
+      "Gx5z2one",
+      "bnNO5AQG"
+    ],
+    "26.2+quilt": [
+      "9zNyReWU",
+      "Dd2Ghc9x",
+      "7tZtLtNp",
+      "iKLvmTcU"
+    ]
+  }
+}

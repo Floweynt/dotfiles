@@ -1,0 +1,108 @@
+{
+  "slug": "oceans-delight-polymer-port",
+  "projectId": "ceMWRYd7",
+  "versions": {
+    "GQGKREFI": {
+      "filename": "oceansdelight-port-0.1.1+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/ceMWRYd7/versions/GQGKREFI/oceansdelight-port-0.1.1%2B1.21.10.jar",
+      "hash": "sha512-AcThPOEXc1O4lN/GgxRxITD9EhSr1RclUb29tdP8FwwyeurzHe9wIAVdSXwcLYbgKgPUTB6Szy7CMP6SVpCefg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "S9VJ7fQi": {
+      "filename": "oceansdelight-port-0.1.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/ceMWRYd7/versions/S9VJ7fQi/oceansdelight-port-0.1.0%2B1.21.10.jar",
+      "hash": "sha512-b3mHpOjsISQBQ+OvgVaH31RyJfJ3FkBEYXDOmnwVIdGnxcz+Ws2K8RUgV37hLSpskc69n2gyyVx52MqEY5ZxPA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "yR5NqiJ3": {
+      "filename": "oceansdelight-port-0.1.0+1.21.6.jar",
+      "url": "https://cdn.modrinth.com/data/ceMWRYd7/versions/yR5NqiJ3/oceansdelight-port-0.1.0%2B1.21.6.jar",
+      "hash": "sha512-IiUIcLP1hy6KzwD+VMe+COu8vT2MyuFaCIfTJjz7b83dqnpJx/sva9WZqGpW47uu0YkarCnc12ERhnOzMmYLPQ==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "GQGKREFI",
+      "S9VJ7fQi"
+    ],
+    "1.21.11+fabric": [
+      "S9VJ7fQi"
+    ],
+    "1.21.6+fabric": [
+      "yR5NqiJ3"
+    ],
+    "1.21.7+fabric": [
+      "yR5NqiJ3"
+    ],
+    "1.21.8+fabric": [
+      "yR5NqiJ3"
+    ],
+    "1.21.9+fabric": [
+      "GQGKREFI",
+      "S9VJ7fQi"
+    ]
+  }
+}

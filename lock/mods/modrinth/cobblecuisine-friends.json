@@ -1,0 +1,74 @@
+{
+  "slug": "cobblecuisine-friends",
+  "projectId": "aOk5AlFb",
+  "versions": {
+    "DvLFrvXq": {
+      "filename": "cobblecuisine-friends-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aOk5AlFb/versions/DvLFrvXq/cobblecuisine-friends-1.0.0.jar",
+      "hash": "sha512-9A7jS1HBeqWqK/q3qbTAVH/Ftth67uMo31AiyCoAYxo2JhXvaxnAxzpgL1Y6iPHrvdjzDf9mRIJzwCEeKX/HHA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblecuisine",
+          "projectId": "dlx62Wp3",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-friends-forever",
+          "projectId": "Ar7Z8upI",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "zdgSVvoD": {
+      "filename": "cobblecuisine_friends_forever_1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/aOk5AlFb/versions/zdgSVvoD/cobblecuisine_friends_forever_1.0.0.zip",
+      "hash": "sha512-CpGp6cQdM95dQwPNv+Zw41JPKuLg+BsTBrqHRw9BP/LgZdDpQxaBC2L4BiPM4SUTsOwXnoW7CUR3AFesCbrtYA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblecuisine",
+          "projectId": "dlx62Wp3",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-friends-forever",
+          "projectId": "Ar7Z8upI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "zdgSVvoD"
+    ],
+    "1.21.1+fabric": [
+      "DvLFrvXq"
+    ]
+  }
+}

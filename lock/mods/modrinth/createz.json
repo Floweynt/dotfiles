@@ -1,0 +1,36 @@
+{
+  "slug": "createz",
+  "projectId": "py6IRdZ8",
+  "versions": {
+    "t0KB6D6q": {
+      "filename": "createz_1.0.jar",
+      "url": "https://cdn.modrinth.com/data/py6IRdZ8/versions/t0KB6D6q/createz_1.0.jar",
+      "hash": "sha512-oIRn9Q8oi+IAIb7mcn6NqvqpEqUUyseRHV9p6GbaOV2S5nGXr3pwx+2IERLAsPjyurgStwsc4lhNDIdxXYm2JA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "t0KB6D6q"
+    ]
+  }
+}

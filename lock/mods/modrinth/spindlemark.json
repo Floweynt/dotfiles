@@ -1,0 +1,94 @@
+{
+  "slug": "spindlemark",
+  "projectId": "u1qiGWU0",
+  "versions": {
+    "2OmYcsTk": {
+      "filename": "spindlemark-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/u1qiGWU0/versions/2OmYcsTk/spindlemark-1.0.jar",
+      "hash": "sha512-6660FlXDg8w2iNhOiitrERTcjkEztWUS2oipR+WjGwcl0hpnXzv2iUctjqOr18Dh0Pyex9NoFEF8XkUQKkDdOQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FlPkN9UG": {
+      "filename": "spindlemark-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/u1qiGWU0/versions/FlPkN9UG/spindlemark-1.0.1.jar",
+      "hash": "sha512-wQNsG7t/7Gt+weQGiRnZlin2tOoghfaAy7LGvd0RfnzH+/8Q7P2fxya7PTlVEZTK2sDRkD2WsCz+b6hjKdcALQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "scaChaDh": {
+      "filename": "spindlemark-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/u1qiGWU0/versions/scaChaDh/spindlemark-1.1.0.jar",
+      "hash": "sha512-QFuNQYTV8UjlxpqovjYaw9Czdfr1Yp3xj7qtk+G+2GJ29JeyznAmsnKaTF8YNcdj166OfG1UelTOYrr+WR67uA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "scaChaDh",
+      "FlPkN9UG",
+      "2OmYcsTk"
+    ],
+    "1.20+quilt": [
+      "scaChaDh",
+      "FlPkN9UG",
+      "2OmYcsTk"
+    ],
+    "1.20.1+fabric": [
+      "scaChaDh",
+      "FlPkN9UG",
+      "2OmYcsTk"
+    ],
+    "1.20.1+quilt": [
+      "scaChaDh",
+      "FlPkN9UG",
+      "2OmYcsTk"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "filled-map-coordinates",
+  "projectId": "2SRiBKfr",
+  "versions": {
+    "SSb0bbIO": {
+      "filename": "FilledMapCoordinates-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/2SRiBKfr/versions/SSb0bbIO/FilledMapCoordinates-0.2.1.jar",
+      "hash": "sha512-joBVWCe2lHz0PxtyNF0Xc5a36Ulzwc1yHRkgArtj9v2MkMj8RFFatmN3Pl/SgIuQ1c4qDIMu9vs86ecC5G71cQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "V9WN6pKz": {
+      "filename": "FilledMapCoordinates-0.2.0-sources.jar",
+      "url": "https://cdn.modrinth.com/data/2SRiBKfr/versions/V9WN6pKz/FilledMapCoordinates-0.2.0-sources.jar",
+      "hash": "sha512-0Ta8Jh1pGBA9Cfd9A/dmtnyPRMAPHv8lIzjMAbimjGCvG0213A1M7z6gyvlx7cTA8BbrQKvIoMAx3fOcFnK/dg==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kuqNwfIx": {
+      "filename": "FilledMapCoordinates-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2SRiBKfr/versions/kuqNwfIx/FilledMapCoordinates-0.1.jar",
+      "hash": "sha512-HzP8AVJE15wlpSEps0vRn9Gbwi9Ce00BQDkt78u2Twr6WCe18eRyC+DzGcXWI+4k+4teE2OxW6jlSMc5q3VhHg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "kuqNwfIx"
+    ],
+    "1.21+quilt": [
+      "kuqNwfIx"
+    ],
+    "1.21.1+fabric": [
+      "kuqNwfIx"
+    ],
+    "1.21.1+quilt": [
+      "kuqNwfIx"
+    ],
+    "1.21.2+fabric": [
+      "V9WN6pKz"
+    ],
+    "1.21.2+quilt": [
+      "V9WN6pKz"
+    ],
+    "1.21.3+fabric": [
+      "V9WN6pKz"
+    ],
+    "1.21.3+quilt": [
+      "V9WN6pKz"
+    ],
+    "1.21.4+fabric": [
+      "SSb0bbIO",
+      "V9WN6pKz"
+    ],
+    "1.21.4+quilt": [
+      "SSb0bbIO",
+      "V9WN6pKz"
+    ]
+  }
+}

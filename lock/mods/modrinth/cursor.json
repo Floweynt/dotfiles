@@ -1,0 +1,39 @@
+{
+  "slug": "cursor",
+  "projectId": "EJA9MjWv",
+  "versions": {
+    "jWGJXbFG": {
+      "filename": "cursortweaks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EJA9MjWv/versions/jWGJXbFG/cursortweaks-1.0.0.jar",
+      "hash": "sha512-TT8e9+rnpqqnMYxAxO/EycpEE1C8Snb7PMT8GnXXO7NrtFv7szU4CExB/ot3R9qDKyq8s9Ii7YiVrkfohuGj2Q==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "jWGJXbFG"
+    ],
+    "1.21.11+fabric": [
+      "jWGJXbFG"
+    ],
+    "1.21.9+fabric": [
+      "jWGJXbFG"
+    ]
+  }
+}

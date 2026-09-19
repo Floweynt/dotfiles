@@ -1,0 +1,139 @@
+{
+  "slug": "peaceful-moon",
+  "projectId": "cYAo8OnA",
+  "versions": {
+    "6oDmWuSq": {
+      "filename": "PeacefulMoon-fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/cYAo8OnA/versions/6oDmWuSq/PeacefulMoon-fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-a7arxXU5Alyovdwjgk3hDfyBcbLKDJDy1lYWAOaGWwaOTIKuMvrn7VX9gPo+c20F5v5tRaP4GA62EDXMPCEoww==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VHQGASRs": {
+      "filename": "PeacefulMoon-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/cYAo8OnA/versions/VHQGASRs/PeacefulMoon-1.20.1-1.0.1.jar",
+      "hash": "sha512-5+l+jADNF+i0ev7pulm8ABiTAqyUaMWNaRixTtFGptHFeihPAKExq29i0pZncAfks/5JBdUIVMb5vWFt+mrBGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ejQz5GRc": {
+      "filename": "PeacefulMoon-1.21.1-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/cYAo8OnA/versions/ejQz5GRc/PeacefulMoon-1.21.1-1.0.3.jar",
+      "hash": "sha512-pXlVep8IlosYuWK1GzRL4WdA/VoLD5UftqxB5snKYiwZr6nnlBciKPS0JJjpqRrUe1xDwe14Ed/6itwrek/NeA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "pPtojjZU": {
+      "filename": "PeacefulMoon-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cYAo8OnA/versions/pPtojjZU/PeacefulMoon-1.0.jar",
+      "hash": "sha512-HvftIY1/i55Pm/rH2MnCnzzjH0lcGe+Xf7lrQ3uC/CICXTVBDVt9UZt9AFwk5tvjy0JvGaWIbYsTEhf2c9opQA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "r8LCHlOv": {
+      "filename": "PeacefulMoon-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/cYAo8OnA/versions/r8LCHlOv/PeacefulMoon-1.20.jar",
+      "hash": "sha512-PN8Fr/KwL/6KISQIvP3IyQWHxuWothW9bzhpw9nyCWFRRpwu4scHLszVZcJZZY5h1rQ2CR5gR/XtVz4yZmbxnQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "v8PWODbA": {
+      "filename": "PeacefulMoon-1.21.1-Neoforge-Fabric-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/cYAo8OnA/versions/v8PWODbA/PeacefulMoon-1.21.1-Neoforge-Fabric-1.0.4.jar",
+      "hash": "sha512-IpSjPUVeby4k3TD7KXylqYgIv1MR8gGM4FWngovh+ZTLoWvkZdtqYmrfle4o89qCPeEm+lfOo2rC3XzCx1+Zfg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "pPtojjZU"
+    ],
+    "1.20+forge": [
+      "r8LCHlOv"
+    ],
+    "1.20+neoforge": [
+      "r8LCHlOv"
+    ],
+    "1.20.1+fabric": [
+      "6oDmWuSq"
+    ],
+    "1.20.1+forge": [
+      "VHQGASRs",
+      "r8LCHlOv"
+    ],
+    "1.20.1+neoforge": [
+      "ejQz5GRc",
+      "r8LCHlOv"
+    ],
+    "1.21.1+fabric": [
+      "v8PWODbA"
+    ],
+    "1.21.1+neoforge": [
+      "v8PWODbA"
+    ]
+  }
+}

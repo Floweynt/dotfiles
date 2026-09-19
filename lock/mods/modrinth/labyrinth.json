@@ -1,0 +1,47 @@
+{
+  "slug": "labyrinth",
+  "projectId": "3PNfCiRJ",
+  "versions": {
+    "MSoO7Fzh": {
+      "filename": "labyrinth-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3PNfCiRJ/versions/MSoO7Fzh/labyrinth-1.0.0.jar",
+      "hash": "sha512-wCWJ3C4Rx/fhu8omrLiVdyMTYtKSzreSK26g1gKrvE2RlEXSVbLG1Vmwyu2db2Bdw6dsBq1tuHoyOe65JwZyNw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "nexusframe",
+          "projectId": "Dk0J1riW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "MSoO7Fzh"
+    ],
+    "1.20+quilt": [
+      "MSoO7Fzh"
+    ],
+    "1.20.1+fabric": [
+      "MSoO7Fzh"
+    ],
+    "1.20.1+quilt": [
+      "MSoO7Fzh"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "nounkownlogs",
+  "projectId": "Ok1voh7d",
+  "versions": {
+    "NxicRCpz": {
+      "filename": "nounknownlogs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ok1voh7d/versions/NxicRCpz/nounknownlogs-1.0.0.jar",
+      "hash": "sha512-RVJmEYge+s1LAgHobNkbSOv785AjSCG1zwBf+ec8do3iLCmSX1OXLKlQ0JR3P65EyIPn3L4wLF5ES38/nK+kYw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "NxicRCpz"
+    ],
+    "1.20.2+fabric": [
+      "NxicRCpz"
+    ]
+  }
+}

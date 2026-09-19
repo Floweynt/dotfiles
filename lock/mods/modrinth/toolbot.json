@@ -1,0 +1,54 @@
+{
+  "slug": "toolbot",
+  "projectId": "ZwFFs5o7",
+  "versions": {
+    "2QDAm2e2": {
+      "filename": "toolbot-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZwFFs5o7/versions/2QDAm2e2/toolbot-1.1.0.jar",
+      "hash": "sha512-ObinmfQWSkjOlHkzCIqnXCd/FoC27h8BcxwABItv5qSICJmriaCYp/gJit3NNE8+MUURZi6vHeObVq/g8SQaDA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Dow4mRzI": {
+      "filename": "toolbot-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/ZwFFs5o7/versions/Dow4mRzI/toolbot-1.0.8.jar",
+      "hash": "sha512-HHDokBCRquXr5ZeiXdi023V7MhAZspkJdJywa31J+SLgfQHJiCt+TC8Hmb01PCd/X6ZXW8vj/AMM+DobwOm1kQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "Dow4mRzI"
+    ],
+    "26.2+fabric": [
+      "2QDAm2e2"
+    ]
+  }
+}

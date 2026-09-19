@@ -1,0 +1,146 @@
+{
+  "slug": "nochangethegame",
+  "projectId": "rlI9VwdT",
+  "versions": {
+    "ImwW6WPx": {
+      "filename": "nochangethegame-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/rlI9VwdT/versions/ImwW6WPx/nochangethegame-1.0.2.jar",
+      "hash": "sha512-mibUhf5O0h/ZV16OsK/W5DWtxwA0d16GKY0c/ap5FsEEA6QvxiS0zIoxjv/kMbIkfZwtLxreerg6toRfm/r//A==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "MV8M77Lo": {
+      "filename": "NoChangeTheGame-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/rlI9VwdT/versions/MV8M77Lo/NoChangeTheGame-1.1.0.jar",
+      "hash": "sha512-UO2NVD9acywmg6ckAvTWj/W+55bI8fshZbLLEpH7pRaFO9Q8mNxBZwITfwfkmLam6wY3JPyqiQmCX6vRNJq3zw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "d7dIxbio": {
+      "filename": "nochangethegame-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/rlI9VwdT/versions/d7dIxbio/nochangethegame-1.0.0.jar",
+      "hash": "sha512-dtEw7TcfxXsrDEP7aiyhfMA5np3cLZiQqNnwVE8a637m9XuN4ZLWFs4QH2gLGlK0FEx/VT5iD7rT+HCPIIMuMA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "drimNsqx": {
+      "filename": "nochangethegame-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/rlI9VwdT/versions/drimNsqx/nochangethegame-1.0.1.jar",
+      "hash": "sha512-0WmHQg2lJmDdvPO/AvbY9DtTbXlW36sUvFjBc4QxQuDvWYIh27Oy/yEkkJRjj690rMb47+dQes3szZgXta3G7Q==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "drimNsqx",
+      "d7dIxbio"
+    ],
+    "1.20.5+fabric": [
+      "ImwW6WPx"
+    ],
+    "1.20.6+fabric": [
+      "ImwW6WPx"
+    ],
+    "1.21+fabric": [
+      "MV8M77Lo"
+    ],
+    "1.21.1+fabric": [
+      "MV8M77Lo"
+    ]
+  }
+}

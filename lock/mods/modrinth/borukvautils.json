@@ -1,0 +1,76 @@
+{
+  "slug": "borukvautils",
+  "projectId": "5H58P3t2",
+  "versions": {
+    "Wsg8EURq": {
+      "filename": "borukvautils-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/5H58P3t2/versions/Wsg8EURq/borukvautils-0.1.0.jar",
+      "hash": "sha512-alSgth5x+sQUHHIKkycbSPnAlB7v4i/2R8Yk6BcahK/gP6vHG3TkLWIMwNnykEl3QJ2gRdhkvYBpQq4CxGmQxA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "WuIGhnyv": {
+      "filename": "borukvautils-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/5H58P3t2/versions/WuIGhnyv/borukvautils-0.1.2.jar",
+      "hash": "sha512-TXf4cOwaNbuCfrfxc1KBfy5Kdk0Z+wjh5yo3aR7K6+cfpmsdOHzv4Ab3KCgH44nqOisqnoMiVGwyTN9yeGXSJA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "claSfu0l": {
+      "filename": "borukvautils-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/5H58P3t2/versions/claSfu0l/borukvautils-0.1.1.jar",
+      "hash": "sha512-gzk8UXBLNTThXS8dz+keLKWZYTkjB1j8TNQLcuLYAGnNvkmwjTk7kp3aSEcV0kau8rBp99TGwCl8JAFqYMh7+Q==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "WuIGhnyv",
+      "claSfu0l",
+      "Wsg8EURq"
+    ],
+    "1.21.1+fabric": [
+      "WuIGhnyv"
+    ]
+  }
+}

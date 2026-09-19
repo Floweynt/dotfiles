@@ -1,0 +1,89 @@
+{
+  "slug": "spleef-toys",
+  "projectId": "GTNhQH0z",
+  "versions": {
+    "6f9NGQ6Q": {
+      "filename": "spleef_toys-1.0.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/GTNhQH0z/versions/6f9NGQ6Q/spleef_toys-1.0.2%2B1.21.jar",
+      "hash": "sha512-h5tSnhMg4nhIAnkOfy4hI7r/Py+uGQkMEutlwglCFoLQGHnit/Mua+cIKyN8iIl6XFDeJEhHG4TqELMs/IFNmQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "8GQaEWmj": {
+      "filename": "spleef_toys-1.0.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/GTNhQH0z/versions/8GQaEWmj/spleef_toys-1.0.1%2B1.21.jar",
+      "hash": "sha512-FNQSxIMrSY1qKXWtdvF5gsr7OG+hjfuVacGlPbeLPt5X9s2+xT/M46CE/xSuGWBHC0/GKc8gkceyZxUAKdF+cw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jFa7RTvN": {
+      "filename": "spleef_toys-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/GTNhQH0z/versions/jFa7RTvN/spleef_toys-1.0.0%2B1.21.jar",
+      "hash": "sha512-/zt+AicvPmAmiOeZ0Ka/iJ2TwKPPG7Obm1ioCsA5v6pfVp8P6/cf4PgL5ZP6lQIsIdjYwSU91SQA1q6YKTocLg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "6f9NGQ6Q",
+      "8GQaEWmj",
+      "jFa7RTvN"
+    ],
+    "1.21.1+fabric": [
+      "6f9NGQ6Q",
+      "8GQaEWmj",
+      "jFa7RTvN"
+    ],
+    "1.21.2+fabric": [
+      "jFa7RTvN"
+    ],
+    "1.21.3+fabric": [
+      "jFa7RTvN"
+    ]
+  }
+}

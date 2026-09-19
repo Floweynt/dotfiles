@@ -1,0 +1,110 @@
+{
+  "slug": "old-recording",
+  "projectId": "2i2o5Ogp",
+  "versions": {
+    "AFEyJcJt": {
+      "filename": "1.1.0+1.20.1forge.jar",
+      "url": "https://cdn.modrinth.com/data/2i2o5Ogp/versions/AFEyJcJt/1.1.0%2B1.20.1forge.jar",
+      "hash": "sha512-j0LNWppqFTCDJe6Ap3wAoYf2Xg9wrTn/ULftls1in7v+V6tW/4prjLIzXBYatUny+WCdSSE3HQtGHY2VaMC/6A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "AZ9KxL5D": {
+      "filename": "mod-1.20.1-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2i2o5Ogp/versions/AZ9KxL5D/mod-1.20.1-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-rolKf77Dk1lYT6NYhLbmTEyu9nBOpU0jxPMLWrjreRGNFmROl42Rt1OBz61aALBBUR499Kqe3wjkie9dCn41BQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "LSM84EnO": {
+      "filename": "1.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2i2o5Ogp/versions/LSM84EnO/1.1.0%2B1.20.1.jar",
+      "hash": "sha512-YF+LDH1Dx8diuOJXJ98zXYQS5MO5jbjDDokk+hWO0164K4dtoVpwhRf0ux0szJ69E3LmAzCZ7R5AF0KbmynxLg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "j1aJf6ak": {
+      "filename": "old-recording-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2i2o5Ogp/versions/j1aJf6ak/old-recording-1.0.0.jar",
+      "hash": "sha512-Dq9tei+ih/+JK44D4CaiROtP5jikTD4VvLLk4Mq2e3jyHZABrTy7hDaMleHmG5ATNk0908ZTp8kI3h2dj5O+yQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "s6DVdkPB": {
+      "filename": "old-recording-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2i2o5Ogp/versions/s6DVdkPB/old-recording-1.1.0.jar",
+      "hash": "sha512-t4QC6G68e13WLCNbCgOm1qxqNKn3w6QU1JOgBpdeTBL5Xi6pSnuNAe6nkybcl9g/eeWsUxqMm3p6Fu3WFrwC7A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "uAlDonOO": {
+      "filename": "1.1.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/2i2o5Ogp/versions/uAlDonOO/1.1.1%2B1.21.11.jar",
+      "hash": "sha512-8FOm76MDYgX9XS7+DE2t+NQKDfrKgxFm9kHY55Eg4M6PzoFyn51QXoP83HB5Xl4jwBMTZ+ILiXRZ/sDSw0szvw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "LSM84EnO",
+      "AZ9KxL5D"
+    ],
+    "1.20.1+forge": [
+      "AFEyJcJt"
+    ],
+    "1.21.11+fabric": [
+      "uAlDonOO",
+      "s6DVdkPB",
+      "j1aJf6ak"
+    ]
+  }
+}

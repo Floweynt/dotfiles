@@ -1,0 +1,85 @@
+{
+  "slug": "better_dogs_x_doggy_talents_next",
+  "projectId": "JT2UVYcB",
+  "versions": {
+    "Wi5TzRVs": {
+      "filename": "Better_Dogs_X_Doggy_Talents_Next_v1.2.2 [Fabric] - [1.20-1.20.1].jar",
+      "url": "https://cdn.modrinth.com/data/JT2UVYcB/versions/Wi5TzRVs/Better_Dogs_X_Doggy_Talents_Next_v1.2.2%20%5BFabric%5D%20-%20%5B1.20-1.20.1%5D.jar",
+      "hash": "sha512-gfeQwHSAaYsXDuhHc6K9oF7zBfG0J2WXEzT+8waIenCLgEATPG4ezbewPvuWGX39P6COFcWkyfryppz4YA1izw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "doggy-talents-next",
+          "projectId": "oXgmplvv",
+          "type": "required"
+        }
+      ]
+    },
+    "kIpvGqx4": {
+      "filename": "Better_Dogs_X_Doggy_Talents_Next_v1.2.2 [NeoForge]-[1.21].jar",
+      "url": "https://cdn.modrinth.com/data/JT2UVYcB/versions/kIpvGqx4/Better_Dogs_X_Doggy_Talents_Next_v1.2.2%20%5BNeoForge%5D-%5B1.21%5D.jar",
+      "hash": "sha512-lSNJijDzKTsfXy/DhS59MCObrUVhs7/zLkCxD0H8qPxqRGMGxoqB2q9gqJLn3YehKS8GDxL1+5QnUT9c9glYig==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "doggy-talents-next",
+          "projectId": "oXgmplvv",
+          "type": "required"
+        }
+      ]
+    },
+    "xCX3nwsX": {
+      "filename": "Better_Dogs_X_Doggy_Talents_Next_v1.2.2 [Forge] - [1.20-1.20.1].jar",
+      "url": "https://cdn.modrinth.com/data/JT2UVYcB/versions/xCX3nwsX/Better_Dogs_X_Doggy_Talents_Next_v1.2.2%20%5BForge%5D%20-%20%5B1.20-1.20.1%5D.jar",
+      "hash": "sha512-27puq50SdrlU9HR7ZMr0elWbIqlMC4mjF/LJrvlMCrKfG/B6n8rzI12ukuSxuRhs5+ImDjCZZBYLJ+eOfkakWw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "doggy-talents-next",
+          "projectId": "oXgmplvv",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Wi5TzRVs"
+    ],
+    "1.20+forge": [
+      "xCX3nwsX"
+    ],
+    "1.20.1+fabric": [
+      "Wi5TzRVs"
+    ],
+    "1.20.1+forge": [
+      "xCX3nwsX"
+    ],
+    "1.21+neoforge": [
+      "kIpvGqx4"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "carnivoluem",
+  "projectId": "vSsJxjCS",
+  "versions": {
+    "IUIQPu70": {
+      "filename": "carnivoleum-1.0.0 (1).jar",
+      "url": "https://cdn.modrinth.com/data/vSsJxjCS/versions/IUIQPu70/carnivoleum-1.0.0%20%281%29.jar",
+      "hash": "sha512-fMknZLvI5YpqoSakgPIu3fj3Ol3PsRjJjPRs3PFozeIJBekLGwWalyqsT2SDT1blkzZ2IrtvRvnydRr0ZjlLlA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "IxDIUrAf": {
+      "filename": "carnivoleum-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vSsJxjCS/versions/IxDIUrAf/carnivoleum-1.0.1.jar",
+      "hash": "sha512-1aYgfXkB3aBLmmpXyy2FWpPTOVvKACrUNgeQ0aYyJ7FK8LDvM8D6NdlCw4Up3WLM9RUgdyG7vmqGrDgRh48AMg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IxDIUrAf",
+      "IUIQPu70"
+    ],
+    "1.20.2+fabric": [
+      "IxDIUrAf"
+    ],
+    "1.20.3+fabric": [
+      "IxDIUrAf"
+    ],
+    "1.20.4+fabric": [
+      "IxDIUrAf"
+    ],
+    "1.20.5+fabric": [
+      "IxDIUrAf"
+    ],
+    "1.20.6+fabric": [
+      "IxDIUrAf"
+    ]
+  }
+}

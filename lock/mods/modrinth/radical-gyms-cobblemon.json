@@ -1,0 +1,162 @@
+{
+  "slug": "radical-gyms-cobblemon",
+  "projectId": "3sLJoaQH",
+  "versions": {
+    "Y7vYDjhk": {
+      "filename": "Radical Gyms & Structures - RGS.zip",
+      "url": "https://cdn.modrinth.com/data/3sLJoaQH/versions/Y7vYDjhk/Radical%20Gyms%20%26%20Structures%20-%20RGS.zip",
+      "hash": "sha512-iNhVSQrp4HHIuoFFzNjjy8QjKwjtOWLArzMdtLGl3bP1AMRJHSykp8rxbEXY4eYP3bMv2R8uCu5AAaijpOvKYg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblefurnies",
+          "projectId": "AXY1OO9m",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        }
+      ]
+    },
+    "Yco13gMV": {
+      "filename": "Radical Gyms & Structures - RGS.jar",
+      "url": "https://cdn.modrinth.com/data/3sLJoaQH/versions/Yco13gMV/Radical%20Gyms%20%26%20Structures%20-%20RGS.jar",
+      "hash": "sha512-jabQN4Wl2cdU85cGrINlgSBC3YVWvhI4FC2DqF1qRL7FpK6JjLOZqCH/3Mt/Y4C1FyInwtdQOm1++JgHDMI0XQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblefurnies",
+          "projectId": "AXY1OO9m",
+          "type": "required"
+        },
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "dHCCzL0f": {
+      "filename": "Radical Gyms & Structures - RGS.zip",
+      "url": "https://cdn.modrinth.com/data/3sLJoaQH/versions/dHCCzL0f/Radical%20Gyms%20%26%20Structures%20-%20RGS.zip",
+      "hash": "sha512-lvtwcB0m09EsOxL/GVseA8BYcf73C5WVgS08Fb+ijzz1w5llXFrMZ96pqAjUlJcNgt6Vkli1Z//+KzmwO8GFFA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblefurnies",
+          "projectId": "AXY1OO9m",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "mk1teRxf": {
+      "filename": "Radical Gyms & Structures - RGS.jar",
+      "url": "https://cdn.modrinth.com/data/3sLJoaQH/versions/mk1teRxf/Radical%20Gyms%20%26%20Structures%20-%20RGS.jar",
+      "hash": "sha512-JSDwxCflQqee0GZJlEpJT8dJselMEHuqi7mWdTB/6V/BxUnipsUl7ABnAVFd9SzjSw/g77PtfSCS6e5PoofWvg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        },
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblefurnies",
+          "projectId": "AXY1OO9m",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "Y7vYDjhk",
+      "dHCCzL0f"
+    ],
+    "1.21.1+fabric": [
+      "mk1teRxf",
+      "Yco13gMV"
+    ],
+    "1.21.1+neoforge": [
+      "mk1teRxf",
+      "Yco13gMV"
+    ]
+  }
+}

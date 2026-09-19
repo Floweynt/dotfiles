@@ -1,0 +1,116 @@
+{
+  "slug": "carryon-vs-compat",
+  "projectId": "VdZ1CoT5",
+  "versions": {
+    "AnFgA2UR": {
+      "filename": "CarryOnVSCompat-Forge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/VdZ1CoT5/versions/AnFgA2UR/CarryOnVSCompat-Forge-1.20.1-1.0.1.jar",
+      "hash": "sha512-gd1Sdhr7sNA/97l9LgCvO1XmCShu6Kht/lCblaXeDLgMWZnjCTk95aQruLm0TXoH/hxSVreIh0OAhPJW1viqXg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carry-on",
+          "projectId": "joEfVgkn",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "HTQCChfT": {
+      "filename": "CarryOnVSCompat-Fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VdZ1CoT5/versions/HTQCChfT/CarryOnVSCompat-Fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-QqGXzXA1CeoDqjWQOqe/HqRTSPfBuJS5w/jfUIztGYNwK3f3Fzr/sLYsgXoc2VbV4Oh+IOHE+72C5BgnNKezcg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carry-on",
+          "projectId": "joEfVgkn",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "aAzEaE8p": {
+      "filename": "CarryOnVSCompat-Forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VdZ1CoT5/versions/aAzEaE8p/CarryOnVSCompat-Forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-w/IsOlw2FYZiWJ8V4i7Ucj2RKy2Vl3c6sz7ySi2N5KkhBWaq6q6AehZP/7O5eA+qO5rFX2OpkZc8UAQ/xH6smg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "carry-on",
+          "projectId": "joEfVgkn",
+          "type": "required"
+        }
+      ]
+    },
+    "r7I7BrEw": {
+      "filename": "CarryOnVSCompat-Fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/VdZ1CoT5/versions/r7I7BrEw/CarryOnVSCompat-Fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-F45YbcSEFfpLJ2nL4cc5eTIBxeoQarYwgULPU2CKYXJtzo1FMuvC5O4KLXKTu0pMIU5luZI3mE9KJgYNhX/ftQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "carry-on",
+          "projectId": "joEfVgkn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "r7I7BrEw",
+      "HTQCChfT"
+    ],
+    "1.20.1+forge": [
+      "AnFgA2UR",
+      "aAzEaE8p"
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "better-lightmap",
+  "projectId": "L1B3XKrg",
+  "versions": {
+    "2GMyJFMD": {
+      "filename": "better-lightmap-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/L1B3XKrg/versions/2GMyJFMD/better-lightmap-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-yutAOVAIA3674ivVCspBfcRcPxiiVBqhxT/nSa4ECCTphP5r3fHb4NWELGelEL9JSaBjjzd9VSU9IYI0X0umvA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ITbakNY3": {
+      "filename": "better-lightmap-2.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/L1B3XKrg/versions/ITbakNY3/better-lightmap-2.0.0%2B1.20.1.jar",
+      "hash": "sha512-Gxc/7qN0dIq7SBRh7KRR8n5FN0MedchsR8MbsgJ4iN/XZMbK7ZQzboE5WBhTs0gjixbQukyz+JlS2gjNsnk2nA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "TSTmJlg5": {
+      "filename": "betterlightmap-a3.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/L1B3XKrg/versions/TSTmJlg5/betterlightmap-a3.0-1.21.1.jar",
+      "hash": "sha512-93tIGmFvpLINayO0ghwodyg3AppP7ekyBbkjcC1p4ODvz2WSZU/o+zhzv4X2crIuorWrH2hmMgVD2zkDe/PWtg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "eNxHPApg": {
+      "filename": "better-lightmap-2.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/L1B3XKrg/versions/eNxHPApg/better-lightmap-2.0.0%2B1.21.1.jar",
+      "hash": "sha512-UZ6uKjoBnHzznI0EpYM+NTssjyniCn6oH9hIdOONNgkWIku86hf+BYSh7fiEkfGDBT39oD6ormp9m3BPd+UhPQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "kkDFIgoo": {
+      "filename": "better-lightmap-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/L1B3XKrg/versions/kkDFIgoo/better-lightmap-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-bwrgtdNeZJUKRbk9jbx1xj/N50SnRvirR2KgrLni1pnb3c3rbQZgbweNwL92sEmz7j0W7e/b/B0hOM+FTv5oYQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "zz0FcXfQ": {
+      "filename": "better-lightmap-1.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/L1B3XKrg/versions/zz0FcXfQ/better-lightmap-1.1.0%2B1.20.1.jar",
+      "hash": "sha512-DQQX6/CrQ7+PkziQOpz4c0kL0u2fujg1GGtq1VkjIOsNpEXcJTClQbQ9opP8W7YLwQBAxR6+gu6if4GBsROZzQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ITbakNY3",
+      "zz0FcXfQ",
+      "2GMyJFMD"
+    ],
+    "1.21.1+fabric": [
+      "TSTmJlg5",
+      "eNxHPApg",
+      "kkDFIgoo"
+    ]
+  }
+}

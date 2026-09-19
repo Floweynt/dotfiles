@@ -1,0 +1,35 @@
+{
+  "slug": "i-know-what-im-doing!",
+  "projectId": "ZKRizlkf",
+  "versions": {
+    "SX4sgkg1": {
+      "filename": "ikwid-1.0_1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ZKRizlkf/versions/SX4sgkg1/ikwid-1.0_1.21.jar",
+      "hash": "sha512-RUA7vb41wnub2b63IPApnWUhRKmahBsgX9wSPcVHXXB+x6jJ4hNSp/EGT9+8wW4Lg4yFS9l81IdxYjyJlcmiHg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "SX4sgkg1"
+    ],
+    "1.21.1+fabric": [
+      "SX4sgkg1"
+    ]
+  }
+}

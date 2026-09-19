@@ -1,0 +1,75 @@
+{
+  "slug": "zombie-survival-mod-zsm",
+  "projectId": "Z0jDD0oF",
+  "versions": {
+    "C4lGxve4": {
+      "filename": "zsm-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Z0jDD0oF/versions/C4lGxve4/zsm-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-57enKx1XpV/RSmWvFhVKfgTj64EEhbnA5lWYlW2Au3Bnfha3gy7Lf5pW57OJjEUsT4PlK0QrHvDjp1HzxHPY5g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "nIAqZooY": {
+      "filename": "zsm-1.0.1+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/Z0jDD0oF/versions/nIAqZooY/zsm-1.0.1%2B1.21.4.jar",
+      "hash": "sha512-LRaQLzFRC0+S2uxuNi7NAxcnC4I9jrOEsE/Luk+I6lJEmFeEz8z4LhnT9ojVvDnLFYxnZHM6rk/bsUTtvkzafQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "tDTd0WyI": {
+      "filename": "zsm-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0jDD0oF/versions/tDTd0WyI/zsm-1.0.0.jar",
+      "hash": "sha512-6nNdNaqxkI5gcfT2gKDHh7Yjjtx+UOfeaWWk3w7dThyEI9EpdVErkNEngerewSFyzXXeorTKL+ko5zsiEI4z9g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "C4lGxve4",
+      "tDTd0WyI"
+    ],
+    "1.21.4+fabric": [
+      "nIAqZooY"
+    ]
+  }
+}

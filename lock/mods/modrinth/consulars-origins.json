@@ -1,0 +1,78 @@
+{
+  "slug": "consulars-origins",
+  "projectId": "FsTSqAf0",
+  "versions": {
+    "ATZCQwOo": {
+      "filename": "consularsorigins-1.11.1.jar",
+      "url": "https://cdn.modrinth.com/data/FsTSqAf0/versions/ATZCQwOo/consularsorigins-1.11.1.jar",
+      "hash": "sha512-m8MYZ+KyibXFKehwiwkYyod0Kz6abIwiPN+V7J7598cyG5biyKEC7du2/Yp5vHKc2DbnSDmEtnwzuM4luqEtVQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wVoSyvJK": {
+      "filename": "consularsorigins-1.10.1.jar",
+      "url": "https://cdn.modrinth.com/data/FsTSqAf0/versions/wVoSyvJK/consularsorigins-1.10.1.jar",
+      "hash": "sha512-eAEh3J9+K5WINSImSnHz3x+mohBizYCAeEqlQlnMZ6p1e2i7eJV6YTnVulM30pxpPaAIbHI7zwINpRSjrCLZIg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "wVoSyvJK"
+    ],
+    "1.20.1+fabric": [
+      "wVoSyvJK"
+    ],
+    "1.20.2+fabric": [
+      "ATZCQwOo"
+    ]
+  }
+}

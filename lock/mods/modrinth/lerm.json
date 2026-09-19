@@ -1,0 +1,42 @@
+{
+  "slug": "lerm",
+  "projectId": "J3OnJRRX",
+  "versions": {
+    "2tSlCuwR": {
+      "filename": "ruby-mod-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/J3OnJRRX/versions/2tSlCuwR/ruby-mod-1.20.1-forge.jar",
+      "hash": "sha512-u4CVUd7VkxsDdnCAw32EuCwskBpjwSE0Rj/Gti0ZmzgdG+pfeSYbVrbOs6Nw9wGZYRb637HopNmr/JB9ROBBVQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    },
+    "dgb5uxbh": {
+      "filename": "ruby-mod-1-20-1.jar",
+      "url": "https://cdn.modrinth.com/data/J3OnJRRX/versions/dgb5uxbh/ruby-mod-1-20-1.jar",
+      "hash": "sha512-KPPtV/NH7Osxz147ud5xq7HJ2J/BcBU59qczukD5E/STiCFg6bUPNbej+rCz03FQdQMk8ocVGNpyzJl927R76w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "dgb5uxbh"
+    ],
+    "1.20.1+forge": [
+      "2tSlCuwR"
+    ]
+  }
+}

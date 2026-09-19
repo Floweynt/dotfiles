@@ -1,0 +1,77 @@
+{
+  "slug": "legacy-world-sizes",
+  "projectId": "ATANFEww",
+  "versions": {
+    "8Joat4wT": {
+      "filename": "LWS-26.1.2-0.0.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/ATANFEww/versions/8Joat4wT/LWS-26.1.2-0.0.1-neoforge.jar",
+      "hash": "sha512-QEQ/ZYcjmmyYgkt6j6Q+J9nbZ4+jWg1xx2KX8f3kTJ2iZcdRd2QebuF7ZE91eEwpYS8tsZu4nDOJSX4ZqNxR6g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "factory-api",
+          "projectId": "nkTZHOLD",
+          "type": "required"
+        }
+      ]
+    },
+    "HurQw6Xa": {
+      "filename": "LWS-26.1.2-0.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ATANFEww/versions/HurQw6Xa/LWS-26.1.2-0.0.1-fabric.jar",
+      "hash": "sha512-lzIO4byIie+bsC/YrW4HLLJlsxdioUkcEmSVNjXRFxR/Si0pSIYxFlZB3xphcpCyiMMhTUjjOaqBh2Wk1v7Tig==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "factory-api",
+          "projectId": "nkTZHOLD",
+          "type": "required"
+        }
+      ]
+    },
+    "tTd4mllH": {
+      "filename": "LWS-26.1.2-0.0.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/ATANFEww/versions/tTd4mllH/LWS-26.1.2-0.0.1-forge.jar",
+      "hash": "sha512-lyPEG1lnNVPKE/JmNWsIzwE0C0v5j4d7FpxqlGPWLMr+3xheaY9NDdI91IQekWhfJygSsmUh1lRKJ79ETKdTFg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "factory-api",
+          "projectId": "nkTZHOLD",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "HurQw6Xa"
+    ],
+    "26.1.2+forge": [
+      "tTd4mllH"
+    ],
+    "26.1.2+neoforge": [
+      "8Joat4wT"
+    ]
+  }
+}

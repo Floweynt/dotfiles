@@ -1,0 +1,50 @@
+{
+  "slug": "registry-library",
+  "projectId": "nPRrvbTb",
+  "versions": {
+    "envwmSH3": {
+      "filename": "registry-lib-1.19.2-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/nPRrvbTb/versions/envwmSH3/registry-lib-1.19.2-1.0.1.jar",
+      "hash": "sha512-08M5b/2oCMK+H64vmnM74mJh+fh9pXX5DxmmOMUXePEcNXoj/j5lWcBlIfMWpMXLzkrB/DUZkUlOyMMRUWfxbw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "h6w0H7Py": {
+      "filename": "registry-lib-1.20.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nPRrvbTb/versions/h6w0H7Py/registry-lib-1.20.2-1.0.0.jar",
+      "hash": "sha512-uh0hnqWy1B139yGRqBW2QlNhW0VZwhiNFiWmgclIuZn2E/X7ALCuj9bsBGZwFJEXp99rcyD5eKBngijbA9iJFg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "envwmSH3"
+    ],
+    "1.20+fabric": [
+      "h6w0H7Py"
+    ],
+    "1.20.1+fabric": [
+      "h6w0H7Py"
+    ],
+    "1.20.2+fabric": [
+      "h6w0H7Py"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "grapplemod-skybound",
+  "projectId": "tHHGzOFQ",
+  "versions": {
+    "XahMTxfh": {
+      "filename": "grapplemod-1.1+1.21.1.fabric.jar",
+      "url": "https://cdn.modrinth.com/data/tHHGzOFQ/versions/XahMTxfh/grapplemod-1.1%2B1.21.1.fabric.jar",
+      "hash": "sha512-VhjxunjOGIZW0ePS1BzcdsymmF+gUXL0D8bAOA8YIlsAjZDRmYGCe5Gn6zAsmttbtqDWG+JK9udPQRjM+dP1Vw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "ejlIzfJ8": {
+      "filename": "grapplemod-1.1+1.21.1.neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/tHHGzOFQ/versions/ejlIzfJ8/grapplemod-1.1%2B1.21.1.neoforge.jar",
+      "hash": "sha512-wwgcCo1i6QOIx9LCgdRZw7S2H0KoPRgqGg3C+hVZn/oQrskVKLpoWYA0GgB6YZw4rKktda1nR87w5fgU1E/byw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "h1rjuFjl": {
+      "filename": "grapplemod-1.0+1.21.1.fabric.jar",
+      "url": "https://cdn.modrinth.com/data/tHHGzOFQ/versions/h1rjuFjl/grapplemod-1.0%2B1.21.1.fabric.jar",
+      "hash": "sha512-8suzOkiW5/kCJL4+T5H/YbOCEbO7MG86vxABZoIJ5zhOY/2pQT0T9yxQsca95Y/idzLEFfFIWgKf4vmCKqqo4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "XahMTxfh",
+      "h1rjuFjl"
+    ],
+    "1.21.1+neoforge": [
+      "ejlIzfJ8"
+    ]
+  }
+}

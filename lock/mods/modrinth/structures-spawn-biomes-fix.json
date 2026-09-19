@@ -1,0 +1,530 @@
+{
+  "slug": "structures-spawn-biomes-fix",
+  "projectId": "F9UQ3ryA",
+  "versions": {
+    "gJMhLeGc": {
+      "filename": "structures-spawn-biomes-fix-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/F9UQ3ryA/versions/gJMhLeGc/structures-spawn-biomes-fix-1.0.jar",
+      "hash": "sha512-ho9wBY0BPw/r7/qDp3Vl6N7M0Eopf0aEhzgy2EWSVwSQIoJ5iE4LFP1xR0UWWaWQtD0PJx70hQ48Qd/c8MO/rA==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "zBEiGobi": {
+      "filename": "structures-spawn-biomes-1.0.zip",
+      "url": "https://cdn.modrinth.com/data/F9UQ3ryA/versions/zBEiGobi/structures-spawn-biomes-1.0.zip",
+      "hash": "sha512-AwMz5s/L6EwmOeLLg9+ip/2HcxzSy0h/Dei8Y+kFkVm38J7uWoTytNUr1szRwzppxVJpbHisXxEaQAXFPrW1LQ==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+datapack": [
+      "zBEiGobi"
+    ],
+    "1.18.2+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.18.2+forge": [
+      "gJMhLeGc"
+    ],
+    "1.18.2+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.18.2+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.19+datapack": [
+      "zBEiGobi"
+    ],
+    "1.19+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.19+forge": [
+      "gJMhLeGc"
+    ],
+    "1.19+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.19+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.19.1+datapack": [
+      "zBEiGobi"
+    ],
+    "1.19.1+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.19.1+forge": [
+      "gJMhLeGc"
+    ],
+    "1.19.1+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.19.1+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.19.2+datapack": [
+      "zBEiGobi"
+    ],
+    "1.19.2+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.19.2+forge": [
+      "gJMhLeGc"
+    ],
+    "1.19.2+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.19.2+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.19.3+datapack": [
+      "zBEiGobi"
+    ],
+    "1.19.3+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.19.3+forge": [
+      "gJMhLeGc"
+    ],
+    "1.19.3+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.19.3+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.19.4+datapack": [
+      "zBEiGobi"
+    ],
+    "1.19.4+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.19.4+forge": [
+      "gJMhLeGc"
+    ],
+    "1.19.4+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.19.4+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.20+datapack": [
+      "zBEiGobi"
+    ],
+    "1.20+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.20+forge": [
+      "gJMhLeGc"
+    ],
+    "1.20+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.20+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.20.1+datapack": [
+      "zBEiGobi"
+    ],
+    "1.20.1+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.20.1+forge": [
+      "gJMhLeGc"
+    ],
+    "1.20.1+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.20.1+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.20.2+datapack": [
+      "zBEiGobi"
+    ],
+    "1.20.2+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.20.2+forge": [
+      "gJMhLeGc"
+    ],
+    "1.20.2+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.20.2+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.20.3+datapack": [
+      "zBEiGobi"
+    ],
+    "1.20.3+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.20.3+forge": [
+      "gJMhLeGc"
+    ],
+    "1.20.3+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.20.3+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.20.4+datapack": [
+      "zBEiGobi"
+    ],
+    "1.20.4+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.20.4+forge": [
+      "gJMhLeGc"
+    ],
+    "1.20.4+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.20.4+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.20.5+datapack": [
+      "zBEiGobi"
+    ],
+    "1.20.5+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.20.5+forge": [
+      "gJMhLeGc"
+    ],
+    "1.20.5+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.20.5+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.20.6+datapack": [
+      "zBEiGobi"
+    ],
+    "1.20.6+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.20.6+forge": [
+      "gJMhLeGc"
+    ],
+    "1.20.6+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.20.6+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.1+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.1+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.1+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.1+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.1+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.10+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.10+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.10+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.10+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.10+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.11+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.11+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.11+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.11+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.11+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.2+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.2+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.2+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.2+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.2+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.3+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.3+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.3+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.3+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.3+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.4+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.4+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.4+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.4+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.4+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.5+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.5+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.5+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.5+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.5+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.6+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.6+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.6+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.6+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.6+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.7+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.7+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.7+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.7+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.7+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.8+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.8+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.8+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.8+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.8+quilt": [
+      "gJMhLeGc"
+    ],
+    "1.21.9+datapack": [
+      "zBEiGobi"
+    ],
+    "1.21.9+fabric": [
+      "gJMhLeGc"
+    ],
+    "1.21.9+forge": [
+      "gJMhLeGc"
+    ],
+    "1.21.9+neoforge": [
+      "gJMhLeGc"
+    ],
+    "1.21.9+quilt": [
+      "gJMhLeGc"
+    ],
+    "26.1+datapack": [
+      "zBEiGobi"
+    ],
+    "26.1+fabric": [
+      "gJMhLeGc"
+    ],
+    "26.1+forge": [
+      "gJMhLeGc"
+    ],
+    "26.1+neoforge": [
+      "gJMhLeGc"
+    ],
+    "26.1+quilt": [
+      "gJMhLeGc"
+    ],
+    "26.1.1+datapack": [
+      "zBEiGobi"
+    ],
+    "26.1.1+fabric": [
+      "gJMhLeGc"
+    ],
+    "26.1.1+forge": [
+      "gJMhLeGc"
+    ],
+    "26.1.1+neoforge": [
+      "gJMhLeGc"
+    ],
+    "26.1.1+quilt": [
+      "gJMhLeGc"
+    ],
+    "26.1.2+datapack": [
+      "zBEiGobi"
+    ],
+    "26.1.2+fabric": [
+      "gJMhLeGc"
+    ],
+    "26.1.2+forge": [
+      "gJMhLeGc"
+    ],
+    "26.1.2+neoforge": [
+      "gJMhLeGc"
+    ],
+    "26.1.2+quilt": [
+      "gJMhLeGc"
+    ],
+    "26.2+datapack": [
+      "zBEiGobi"
+    ],
+    "26.2+fabric": [
+      "gJMhLeGc"
+    ],
+    "26.2+forge": [
+      "gJMhLeGc"
+    ],
+    "26.2+neoforge": [
+      "gJMhLeGc"
+    ],
+    "26.2+quilt": [
+      "gJMhLeGc"
+    ]
+  }
+}

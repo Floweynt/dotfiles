@@ -1,0 +1,58 @@
+{
+  "slug": "milked-koil",
+  "projectId": "Oty56uth",
+  "versions": {
+    "PjaWcy40": {
+      "filename": "milked-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Oty56uth/versions/PjaWcy40/milked-0.0.1.jar",
+      "hash": "sha512-LcGHiH0qfL4KrCyVmmzlYh3XPQCtyIXX5McinQkVhKyEgZjYsFRVAE3UfU5PGn6o51yfsOd8hWA7xK9qQ7o92g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "koil",
+          "projectId": "DHcxhlKl",
+          "type": "required"
+        }
+      ]
+    },
+    "aDndVaqq": {
+      "filename": "milked-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Oty56uth/versions/aDndVaqq/milked-0.0.2.jar",
+      "hash": "sha512-pqDPa94b65iguQyisewoavPFe2YI/jG55zXHuUblXkqRjgFk0FFzMnaTIf149kdMb3mVGvPQr27cdMVV6PxLqQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "koil",
+          "projectId": "DHcxhlKl",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "aDndVaqq",
+      "PjaWcy40"
+    ],
+    "1.20.1+quilt": [
+      "aDndVaqq",
+      "PjaWcy40"
+    ]
+  }
+}

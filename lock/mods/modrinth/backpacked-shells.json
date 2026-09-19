@@ -1,0 +1,99 @@
+{
+  "slug": "backpacked-shells",
+  "projectId": "TKAMHvcV",
+  "versions": {
+    "7xpR8Ggh": {
+      "filename": "backpacked-shells-1.0.0+mc1.21.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/TKAMHvcV/versions/7xpR8Ggh/backpacked-shells-1.0.0%2Bmc1.21.1%2B1.21.11.jar",
+      "hash": "sha512-lW40ylYXURx8oXnQU+6uGx+n2axDueqjvYemSCgwJtgp4sQxNSU5LnEoakWW1rjMaUO+sMQQPLVoZYlVqsT4fQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wqD0NoTo": {
+      "filename": "backpacked-shells-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/TKAMHvcV/versions/wqD0NoTo/backpacked-shells-1.0.1.jar",
+      "hash": "sha512-G0CCP954Utqjej9j9j7Tg+pqty3z0HD9YAe20/Bn0P3TgSd6VwClJCSED8q46S04Hixty8ie0vBV8SiXiLnN/w==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1",
+        "1.21.11",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wqD0NoTo"
+    ],
+    "1.20.1+forge": [
+      "wqD0NoTo"
+    ],
+    "1.20.1+neoforge": [
+      "wqD0NoTo"
+    ],
+    "1.21.1+fabric": [
+      "wqD0NoTo",
+      "7xpR8Ggh"
+    ],
+    "1.21.1+forge": [
+      "wqD0NoTo"
+    ],
+    "1.21.1+neoforge": [
+      "wqD0NoTo",
+      "7xpR8Ggh"
+    ],
+    "1.21.11+fabric": [
+      "wqD0NoTo",
+      "7xpR8Ggh"
+    ],
+    "1.21.11+forge": [
+      "wqD0NoTo"
+    ],
+    "1.21.11+neoforge": [
+      "wqD0NoTo",
+      "7xpR8Ggh"
+    ],
+    "26.1.1+fabric": [
+      "wqD0NoTo"
+    ],
+    "26.1.1+forge": [
+      "wqD0NoTo"
+    ],
+    "26.1.1+neoforge": [
+      "wqD0NoTo"
+    ],
+    "26.1.2+fabric": [
+      "wqD0NoTo"
+    ],
+    "26.1.2+forge": [
+      "wqD0NoTo"
+    ],
+    "26.1.2+neoforge": [
+      "wqD0NoTo"
+    ]
+  }
+}

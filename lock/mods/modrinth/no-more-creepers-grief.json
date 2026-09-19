@@ -1,0 +1,40 @@
+{
+  "slug": "no-more-creepers-grief",
+  "projectId": "2G5vKOlk",
+  "versions": {
+    "JLS25T10": {
+      "filename": "nomorecreepersgrief-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2G5vKOlk/versions/JLS25T10/nomorecreepersgrief-1.0.0.jar",
+      "hash": "sha512-wI7IYHFngd03dCNTLCHJbcf+Ass5oChsI5JXeGw5Ce2BJDxcNexWUlGFsxVYw9BbfQkYrj9oN/9shCY7cjocdw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "JLS25T10"
+    ],
+    "1.20.1+fabric": [
+      "JLS25T10"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "titleworlds",
+  "projectId": "y64qfzfX",
+  "versions": {
+    "6WOv4QrG": {
+      "filename": "titleworlds-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/y64qfzfX/versions/0.1.0-1.19/titleworlds-0.1.0.jar",
+      "hash": "sha512-CToiAUO21a23C4Fw2ucrNu+IuPHtRjKkIIImzBKUWwEfRdhOWw5y+pMR6kDocAJbEBVWxCthhXGS9xYMLiB1dA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "JvjJZoz4": {
+      "filename": "titleworlds-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/y64qfzfX/versions/0.1.0/titleworlds-0.1.0.jar",
+      "hash": "sha512-w9TP/XpnOVC6w2w0Y9M4IjwVHOaMFu2cHMLz9hR+dYCf4SRkPp74FYPyA8ySWiq0FKx/M+mub9w6oVLZ5LmP8g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "wZPCscth": {
+      "filename": "titleworlds-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/y64qfzfX/versions/0.1.1/titleworlds-0.1.1.jar",
+      "hash": "sha512-C14RHEtAiQsF7gS9vRg3zMAWSz7nNYgKwTkT/gT9kgIzTmK8z/mwRWsOAs/xsHojxU5NQHjBJZfrX7QEraqNlw==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "JvjJZoz4"
+    ],
+    "1.19+fabric": [
+      "6WOv4QrG"
+    ],
+    "1.19.1+fabric": [
+      "wZPCscth"
+    ],
+    "1.19.1+quilt": [
+      "wZPCscth"
+    ]
+  }
+}

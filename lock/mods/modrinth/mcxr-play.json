@@ -1,0 +1,150 @@
+{
+  "slug": "mcxr-play",
+  "projectId": "9jVyqpHR",
+  "versions": {
+    "4hvAj6F1": {
+      "filename": "mcxr-play-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/9jVyqpHR/versions/0.2.0/mcxr-play-0.2.0.jar",
+      "hash": "sha512-8egkE7hbtzx92fouwjj16Ur7Wl5xraf/MmR3lxXUdeQJEQZEDChhwo8ADmRXMEkkE75Op9/qW4JOb/lKJ1RBCw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "mcxr-core",
+          "projectId": "hcEWWGik",
+          "type": "required"
+        }
+      ]
+    },
+    "7kc6D0Ab": {
+      "filename": "mcxr-play-0.3.0+mc1.19.jar",
+      "url": "https://cdn.modrinth.com/data/9jVyqpHR/versions/0.3.0/mcxr-play-0.3.0%2Bmc1.19.jar",
+      "hash": "sha512-GAh++vY9+q96JoPtLP2QP/LYgNiKG2ErsclJM52CG4mQ40CHpCUTdLNqqrojyHApIMWiwMYXrC/DC/F4BMwg2w==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "mcxr-core",
+          "projectId": "hcEWWGik",
+          "type": "required"
+        }
+      ]
+    },
+    "gEzXv4HO": {
+      "filename": "mcxr-play-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/9jVyqpHR/versions/0.2.1/mcxr-play-0.2.1.jar",
+      "hash": "sha512-cMZHmN5akmYzuNqxbvleGVdkQ52zEBXZOs5yL8PzFS8lw44yT9TN5Cmkv2cIZqXTvlzA9YQVaCYN1hHwVOpZcg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "mcxr-core",
+          "projectId": "hcEWWGik",
+          "type": "required"
+        }
+      ]
+    },
+    "hav2AA1i": {
+      "filename": "mcxr-play-0.3.2+mc1.19.jar",
+      "url": "https://cdn.modrinth.com/data/9jVyqpHR/versions/0.3.2/mcxr-play-0.3.2%2Bmc1.19.jar",
+      "hash": "sha512-bnNEXqY0O98KYJlyTHi3o1ZZCvIJzypEgbbZIEerhwX88H+zK+M/hBbfXfzkB7sGePoLD8TN+9K6bj9Oydsrjw==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "mcxr-core",
+          "projectId": "hcEWWGik",
+          "type": "required"
+        }
+      ]
+    },
+    "iz4Tf09W": {
+      "filename": "mcxr-play-0.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/9jVyqpHR/versions/0.2.2/mcxr-play-0.2.2.jar",
+      "hash": "sha512-R+f6y+ixHWvHF3zfc1x39gtgmeQVxQRM7mf8JUjC6iatEMFtsg0rI5DIdEqxwIcevl/ckudxXrhOTLPucXs97Q==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "mcxr-core",
+          "projectId": "hcEWWGik",
+          "type": "required"
+        }
+      ]
+    },
+    "w21vQXd5": {
+      "filename": "mcxr-play-0.3.1+mc1.19.jar",
+      "url": "https://cdn.modrinth.com/data/9jVyqpHR/versions/0.3.1/mcxr-play-0.3.1%2Bmc1.19.jar",
+      "hash": "sha512-q2m1Y6At33pPlfsLZ+d/MspCD6YJKly2tF8IOTIVPdu73jWJG2RZPuyZYi1zlLY1tn/rFaMddlOIuJE3FTAc2A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "mcxr-core",
+          "projectId": "hcEWWGik",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "gEzXv4HO",
+      "4hvAj6F1"
+    ],
+    "1.19+fabric": [
+      "w21vQXd5",
+      "7kc6D0Ab",
+      "iz4Tf09W"
+    ],
+    "1.19+quilt": [
+      "w21vQXd5",
+      "7kc6D0Ab"
+    ],
+    "1.19.1+fabric": [
+      "hav2AA1i"
+    ],
+    "1.19.1+quilt": [
+      "hav2AA1i"
+    ]
+  }
+}

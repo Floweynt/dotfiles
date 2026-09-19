@@ -1,0 +1,113 @@
+{
+  "slug": "vr-combat",
+  "projectId": "XpGUobxt",
+  "versions": {
+    "SNVHmbYk": {
+      "filename": "VR-Combat_v1.0.1_Fabric_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/XpGUobxt/versions/SNVHmbYk/VR-Combat_v1.0.1_Fabric_1.20.1.jar",
+      "hash": "sha512-WORQ/1WBN2A2913fuVGSnGo/E3LIk/u6VhslXeVCLHpL1viv6q+bta5+QS8S/1ZjN0iLTSRjWfzF8XJz7H3YSw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XhLbU83w": {
+      "filename": "VR-Combat_v1.0.0_Fabric_1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/XpGUobxt/versions/XhLbU83w/VR-Combat_v1.0.0_Fabric_1.19.2.jar",
+      "hash": "sha512-Yv4UaKy8pyAPiCZwdnGHPKAL8ds56Uq6V7n2tqa9hEzqR8R+qPPqgrPy7a1ZeYP+5s7qFv8g5eIQvk3BgzIYRw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "vivecraft",
+          "projectId": "wGoQDPN5",
+          "type": "required"
+        }
+      ]
+    },
+    "mW4eHntZ": {
+      "filename": "VR-Combat_v1.0.2_Fabric_ALL.jar",
+      "url": "https://cdn.modrinth.com/data/XpGUobxt/versions/mW4eHntZ/VR-Combat_v1.0.2_Fabric_ALL.jar",
+      "hash": "sha512-DAmq5V3MgKwGXVuOO8rMXiwk60VL5DBZFdEpSmYAGf0ouzbonHc5XbL7+NnmuDN30hgnymxc0cmmoEi8IPd5QQ==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "vivecraft",
+          "projectId": "wGoQDPN5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "mW4eHntZ"
+    ],
+    "1.19+fabric": [
+      "mW4eHntZ",
+      "XhLbU83w"
+    ],
+    "1.19.1+fabric": [
+      "mW4eHntZ",
+      "XhLbU83w"
+    ],
+    "1.19.2+fabric": [
+      "mW4eHntZ",
+      "XhLbU83w"
+    ],
+    "1.19.3+fabric": [
+      "mW4eHntZ",
+      "XhLbU83w"
+    ],
+    "1.19.4+fabric": [
+      "mW4eHntZ",
+      "XhLbU83w"
+    ],
+    "1.20+fabric": [
+      "mW4eHntZ"
+    ],
+    "1.20.1+fabric": [
+      "mW4eHntZ",
+      "SNVHmbYk"
+    ]
+  }
+}

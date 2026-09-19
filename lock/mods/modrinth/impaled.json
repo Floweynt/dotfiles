@@ -1,0 +1,60 @@
+{
+  "slug": "impaled",
+  "projectId": "AiHAhIP5",
+  "versions": {
+    "az4OVWsb": {
+      "filename": "impaled-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/AiHAhIP5/versions/az4OVWsb/impaled-1.2.0.jar",
+      "hash": "sha512-4cpHZinWjRtPW9zs2XYPx4wPC4mtJ6WnXrHwMw5JhGvnstp+vRkJJaeOY8S8pE7BAGlVTTByvM8PVDAUZzZRxA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ytnQGLu6": {
+      "filename": "impaled-1.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/AiHAhIP5/versions/ytnQGLu6/impaled-1.1.4.jar",
+      "hash": "sha512-r1DrtrmHTOSqtYWJrl9ByviOy52R+NuBf69G+jMDflOMzuK/eNhPP72nMP84BxcF6KS/LBTjZx4bA32DgNndGQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "ytnQGLu6"
+    ],
+    "1.19.1+fabric": [
+      "ytnQGLu6"
+    ],
+    "1.19.2+fabric": [
+      "ytnQGLu6"
+    ],
+    "1.19.3+fabric": [
+      "az4OVWsb"
+    ],
+    "1.19.3+quilt": [
+      "az4OVWsb"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "cobbletcg-resorcepack3",
+  "projectId": "lhSzYVlA",
+  "versions": {
+    "9SGGykfX": {
+      "filename": "CobbleTCG_ResourcePack3.zip",
+      "url": "https://cdn.modrinth.com/data/lhSzYVlA/versions/9SGGykfX/CobbleTCG_ResourcePack3.zip",
+      "hash": "sha512-zIOvRscByJ5uO/Spq9j1x3jrknm40O3ZIZ0fWIGRG55BNgfPOOjEvTRm7DhzNjL+FOhnh/O3Oy5FQ9mmHzqTyw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobbletcg",
+          "projectId": "MoZJE0bI",
+          "type": "required"
+        },
+        {
+          "slug": "cobbletcg-resorcepack4",
+          "projectId": "VgXAeyhr",
+          "type": "required"
+        },
+        {
+          "slug": "cobbletcg-resorcepack2",
+          "projectId": "FfSpw7du",
+          "type": "required"
+        },
+        {
+          "slug": "cobbletcg-resourcepacks",
+          "projectId": "ajEJaCCf",
+          "type": "required"
+        }
+      ]
+    },
+    "GCqDCfak": {
+      "filename": "CobbleTCG_ResourcePack33.zip",
+      "url": "https://cdn.modrinth.com/data/lhSzYVlA/versions/GCqDCfak/CobbleTCG_ResourcePack33.zip",
+      "hash": "sha512-+So0M8rKMXFMQlPM/BcDXLoiyH94vccmRljH5Xs7gCnyyq9Si8ci/+TNfYD1vden+bXCOLERkQNAcg1l/Az/eQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobbletcg",
+          "projectId": "MoZJE0bI",
+          "type": "required"
+        }
+      ]
+    },
+    "N26V3ZAr": {
+      "filename": "CobbleTCG_ResourcePack3.zip",
+      "url": "https://cdn.modrinth.com/data/lhSzYVlA/versions/N26V3ZAr/CobbleTCG_ResourcePack3.zip",
+      "hash": "sha512-akmxpEzQezU5CSVsSny+TEejwXzBVcrrjyVtDyS17JY/yxREJlV9Bml+2t8tJ8I3KmeM17Ix01HCTSUbHbguzw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "eN7VlONr": {
+      "filename": "CobbleTCG_ResourcePack3.zip",
+      "url": "https://cdn.modrinth.com/data/lhSzYVlA/versions/eN7VlONr/CobbleTCG_ResourcePack3.zip",
+      "hash": "sha512-W2tQA5zEvNCqc5u+8Lzc9mynOmy33mx5RLUBXu4S2uQ06PA1u2CWRytODC7ULQbOnFsimXW887Wbwpc9Gf2nuw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+minecraft": [
+      "N26V3ZAr"
+    ],
+    "1.21.1+minecraft": [
+      "eN7VlONr",
+      "N26V3ZAr",
+      "9SGGykfX",
+      "GCqDCfak"
+    ]
+  }
+}

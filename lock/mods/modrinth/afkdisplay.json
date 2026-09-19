@@ -1,0 +1,100 @@
+{
+  "slug": "afkdisplay",
+  "projectId": "kJwABmWp",
+  "versions": {
+    "4mIEhZFO": {
+      "filename": "afkdisplay-1.0.0+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/kJwABmWp/versions/1.0.0%2B1.18.2/afkdisplay-1.0.0%2B1.18.2.jar",
+      "hash": "sha512-75qC9yHOuUnu+QEZr0fR4dC9lW4cWw3yYLdvcKWiK5fK847xxmoeJTnvyapoNGUYdClPZ0RzeKJ4wQbUPLrpqA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "90E1tyCq": {
+      "filename": "afkdisplay-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kJwABmWp/versions/90E1tyCq/afkdisplay-1.1.0.jar",
+      "hash": "sha512-q5PGlHLa8mRe654JIwjoeqy8Xq40wJWWUlWkXEr33aZAL0C3KGSs5+rMnW/yRdea2oIszc4SaI+pAo9gGxDiTg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9HavuEWn": {
+      "filename": "afkdisplay-1.0.2+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/kJwABmWp/versions/9HavuEWn/afkdisplay-1.0.2%2B1.19.3.jar",
+      "hash": "sha512-Eiz7eFpyNDdV1GfMqq+Y7R8qThwH7x0O7nl/w+ajUycc/VjYZEmiid40Pbhq4x7tYDHYaU63fs8z1kl39/RN5Q==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "yDzJod71": {
+      "filename": "afkdisplay-1.0.1+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/kJwABmWp/versions/1.0.1%2B1.19/afkdisplay-1.0.1%2B1.19.jar",
+      "hash": "sha512-eB0gErn+zUb/l5LifBVdrQky9ZCF1Sn5aibdOd8Vb7aN0QtgaKUdo5vyGoh/B5NFaWEZf0yNM5ydAZ5uUnqiEg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "4mIEhZFO"
+    ],
+    "1.19+fabric": [
+      "90E1tyCq",
+      "yDzJod71"
+    ],
+    "1.19.1+fabric": [
+      "90E1tyCq",
+      "yDzJod71"
+    ],
+    "1.19.2+fabric": [
+      "90E1tyCq",
+      "yDzJod71"
+    ],
+    "1.19.3+fabric": [
+      "90E1tyCq",
+      "9HavuEWn"
+    ],
+    "1.19.4+fabric": [
+      "90E1tyCq",
+      "9HavuEWn"
+    ]
+  }
+}

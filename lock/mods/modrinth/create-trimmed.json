@@ -1,0 +1,62 @@
+{
+  "slug": "create-trimmed",
+  "projectId": "zvaHXgQz",
+  "versions": {
+    "P1pdTwvn": {
+      "filename": "create_trimmed.jar",
+      "url": "https://cdn.modrinth.com/data/zvaHXgQz/versions/P1pdTwvn/create_trimmed.jar",
+      "hash": "sha512-vB4lFZdRIvqIhZVCfKA4GhpPbxF7iNFLTTwmCk5rHPwPgRPAEHTkcvtSo1za+LurRev4m6pM5J/0JWfCWkPAyw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Uwi3mNBj": {
+      "filename": "create_trimmed.jar",
+      "url": "https://cdn.modrinth.com/data/zvaHXgQz/versions/Uwi3mNBj/create_trimmed.jar",
+      "hash": "sha512-VrYoXALAVyOp7dyQWWGY1YZ4m7rkFPyAUx99ul0e3hTsGauJCP5CfeJMyCAiN0Z95BFdngFb09jBmllUGFjvlw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Uwi3mNBj"
+    ],
+    "1.20.1+forge": [
+      "Uwi3mNBj"
+    ],
+    "1.20.1+quilt": [
+      "Uwi3mNBj"
+    ],
+    "1.21.1+fabric": [
+      "P1pdTwvn"
+    ],
+    "1.21.1+forge": [
+      "P1pdTwvn"
+    ],
+    "1.21.1+neoforge": [
+      "P1pdTwvn"
+    ],
+    "1.21.1+quilt": [
+      "P1pdTwvn"
+    ]
+  }
+}

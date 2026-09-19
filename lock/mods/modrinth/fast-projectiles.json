@@ -1,0 +1,42 @@
+{
+  "slug": "fast-projectiles",
+  "projectId": "BJ5CGIP8",
+  "versions": {
+    "FXxnF9Ie": {
+      "filename": "fastprojectile-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BJ5CGIP8/versions/FXxnF9Ie/fastprojectile-1.0.0.jar",
+      "hash": "sha512-tJE/fdnVwq14a9nt/NGjfAJckScXJw+5x8BtB/RoSF7av61AYEHGWhIDagSN/tlMeCtm+xM5Iu7duniXhbraUg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "GAVA8dif": {
+      "filename": "faster-projectiles-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BJ5CGIP8/versions/GAVA8dif/faster-projectiles-1.0.0.jar",
+      "hash": "sha512-gnc6k344lI956LmaQ39cOkNSyPIrr8MFsh2yjzXta0XJ0G2B6RT0fJTrcNv2nJPlNS7gG8XH6GLwRlnJQrJZdA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "GAVA8dif"
+    ],
+    "1.21.4+fabric": [
+      "FXxnF9Ie"
+    ]
+  }
+}

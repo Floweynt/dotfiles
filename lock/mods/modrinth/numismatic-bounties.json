@@ -1,0 +1,102 @@
+{
+  "slug": "numismatic-bounties",
+  "projectId": "lpAhb7VK",
+  "versions": {
+    "4khTvLGP": {
+      "filename": "Numismatic-Bounties-universal.jar",
+      "url": "https://cdn.modrinth.com/data/lpAhb7VK/versions/4khTvLGP/Numismatic-Bounties-universal.jar",
+      "hash": "sha512-YQl+RJ8JOfd67T2rI3KmExEhe5WiIGvO+tVpNkBaPtIiEMH09rx5cJ3j2t9zG91rF8JMo0MRI0E7t/98pBv07g==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mbrP99x3": {
+      "filename": "Numismatic-Bounties-universal.jar",
+      "url": "https://cdn.modrinth.com/data/lpAhb7VK/versions/mbrP99x3/Numismatic-Bounties-universal.jar",
+      "hash": "sha512-O/ujd5sTjcbW9hXIPpDWbfzQoDyqiBJayDVxMDZcJEw/pZU9Eln3Z/CFStvxI7qOwN5PAoMQdxZ+O48f0HvJ7A==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "numismatic-overhaul",
+          "projectId": "ZXm8hVxN",
+          "type": "required"
+        },
+        {
+          "slug": "bountiful",
+          "projectId": "BpwWFOVM",
+          "type": "required"
+        }
+      ]
+    },
+    "zUtAGhyU": {
+      "filename": "Numismatic-Bounties-universal.jar",
+      "url": "https://cdn.modrinth.com/data/lpAhb7VK/versions/zUtAGhyU/Numismatic-Bounties-universal.jar",
+      "hash": "sha512-N9NizLSTv23w45ms/chV9TYIuHLKISeIPwqU3Wf418bPTDykv0UAgKQhI36TZTrzdXFCwjdQXP1hqlVL29Erwg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "4khTvLGP",
+      "mbrP99x3"
+    ],
+    "1.19.4+forge": [
+      "4khTvLGP",
+      "mbrP99x3"
+    ],
+    "1.19.4+neoforge": [
+      "4khTvLGP",
+      "mbrP99x3"
+    ],
+    "1.20.1+fabric": [
+      "4khTvLGP",
+      "mbrP99x3"
+    ],
+    "1.20.1+forge": [
+      "4khTvLGP",
+      "mbrP99x3"
+    ],
+    "1.20.1+neoforge": [
+      "4khTvLGP",
+      "mbrP99x3"
+    ],
+    "1.21.1+fabric": [
+      "zUtAGhyU"
+    ],
+    "1.21.1+forge": [
+      "zUtAGhyU"
+    ],
+    "1.21.1+neoforge": [
+      "zUtAGhyU"
+    ]
+  }
+}

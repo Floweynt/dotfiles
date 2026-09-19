@@ -1,0 +1,62 @@
+{
+  "slug": "hts-treechop-continued",
+  "projectId": "fhoTEJzN",
+  "versions": {
+    "8xosM9Qs": {
+      "filename": "TreeChop-1.21.11-fabric-0.19.3a.jar",
+      "url": "https://cdn.modrinth.com/data/fhoTEJzN/versions/8xosM9Qs/TreeChop-1.21.11-fabric-0.19.3a.jar",
+      "hash": "sha512-iotMCw8AKT/Ya4oqUEhgFsPwGuwpPkz8df3lFFuEtdFKXHTPUYlReg8NXfQaNHUE7M3cMRSyG5+uFI8ah1sBqA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "LDtoWym2": {
+      "filename": "TreeChop-1.21.11-fabric-0.19.3a.jar",
+      "url": "https://cdn.modrinth.com/data/fhoTEJzN/versions/LDtoWym2/TreeChop-1.21.11-fabric-0.19.3a.jar",
+      "hash": "sha512-FeICqbgvXhCOFJLNM7d7DOAzDb4NSRoHfMAa9mwagAhAVuJ6I+4cQLKhUThKdrtg3tj63daW6x0kXw69ixlG/w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "LDtoWym2",
+      "8xosM9Qs"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "insignia",
+  "projectId": "cpUMDDmt",
+  "versions": {
+    "fgVT76F3": {
+      "filename": "insignia-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cpUMDDmt/versions/fgVT76F3/insignia-1.0.0.jar",
+      "hash": "sha512-ZihT/3FGks/tQo7+s2pGdEXoCT9nPFl1pzDMkRilg+TkehjBqkd3pMJv9/cBsNzr3FJMTNN0UECkWFchv2GJcg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "fgVT76F3"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "do-not-say-the-name-of-this-block",
+  "projectId": "uvFDbqAG",
+  "versions": {
+    "84rEJe3B": {
+      "filename": "dnstnotb-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uvFDbqAG/versions/84rEJe3B/dnstnotb-1.0.0.jar",
+      "hash": "sha512-1P5svvakyShA4vPfeVlx/JqIYjXmBmsRAU54sxOiv44KPgpwPdBShHNxb7OXDIjRqULq+scDMbAlHDJmxkh1rA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "84rEJe3B"
+    ]
+  }
+}

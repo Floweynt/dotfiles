@@ -1,0 +1,62 @@
+{
+  "slug": "shulker-raise",
+  "projectId": "MXxD5qa2",
+  "versions": {
+    "gdV2YGVy": {
+      "filename": "shulkerraise-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MXxD5qa2/versions/gdV2YGVy/shulkerraise-1.0.0.jar",
+      "hash": "sha512-QcdXZKn7qrkhGZneDM3VesrybSsrJhm7FhfcUp9C4O6TaBVQ4FOk3Y9RxeLPQcJ/ptIQ2UjqxQXlKx7Ss9ottQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "zE2VSGeV": {
+      "filename": "shulkerraise-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MXxD5qa2/versions/zE2VSGeV/shulkerraise-1.0.0.jar",
+      "hash": "sha512-OtJuKvm0lMgPPoyAbVtO50B2DCRM+q7HKlaxTfEnqZ00fzHu4PLZuDglA7AAtfsXUJb96qc95KrN1Hw/dA9EcQ==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.3+fabric": [
+      "zE2VSGeV"
+    ],
+    "1.20.4+fabric": [
+      "zE2VSGeV"
+    ],
+    "1.21+fabric": [
+      "gdV2YGVy"
+    ],
+    "1.21.1+fabric": [
+      "gdV2YGVy"
+    ]
+  }
+}

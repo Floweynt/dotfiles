@@ -1,0 +1,41 @@
+{
+  "slug": "mini-miner",
+  "projectId": "n1pLkLvj",
+  "versions": {
+    "Lbd5iTO3": {
+      "filename": "miniminer-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/n1pLkLvj/versions/Lbd5iTO3/miniminer-1.0.1.jar",
+      "hash": "sha512-DTKjZkdYWAwIWWBoOCSBoeBmguOHbmF8NZ0CXEk8AQt6+YVIYgUwgnlrark3lsWJPNiGjg4iWxHHPJWEDX/Nog==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "skylib",
+          "projectId": "SXYcZO3i",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "Lbd5iTO3"
+    ]
+  }
+}

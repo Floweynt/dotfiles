@@ -1,0 +1,41 @@
+{
+  "slug": "cobbledollars-ticket",
+  "projectId": "KetjvbDZ",
+  "versions": {
+    "HULpJRTe": {
+      "filename": "cobbledollars_ticket-1.4.8.jar",
+      "url": "https://cdn.modrinth.com/data/KetjvbDZ/versions/HULpJRTe/cobbledollars_ticket-1.4.8.jar",
+      "hash": "sha512-VPZFz7z5zlATEJCYG24JtG4SHgSGfp9G6yQXDcEoq8N26AERNDSzDwCp7zB5/mzsWnbYrSJN6ajaYmQQ0Aun6w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobbledollars",
+          "projectId": "s7N7AsqL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "HULpJRTe"
+    ]
+  }
+}

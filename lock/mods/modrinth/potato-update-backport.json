@@ -1,0 +1,46 @@
+{
+  "slug": "potato-update-backport",
+  "projectId": "nRsq3DKx",
+  "versions": {
+    "1vFYdfzI": {
+      "filename": "potato_update-1.0.1-modrinth.jar",
+      "url": "https://cdn.modrinth.com/data/nRsq3DKx/versions/1vFYdfzI/potato_update-1.0.1-modrinth.jar",
+      "hash": "sha512-Vj2FT55NuLxXDTswW8pFJhvAd4ZLFE4Ebvn52A/u0nXPPMh8i4mg5xZ5ejSS5zeaqC2gZoiKJBth2DtTVEk7ow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tfLVajyD": {
+      "filename": "potato_update-1.0.0-modrinth.jar",
+      "url": "https://cdn.modrinth.com/data/nRsq3DKx/versions/tfLVajyD/potato_update-1.0.0-modrinth.jar",
+      "hash": "sha512-Dp4dCXcAHTQ00yLovE+piLC5Q3S4GqwUJV8NWcKO4pvHNB/P7wWIIBeeJYA7n75DHUu8sPRSp3ZXINQGCUfzQw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1vFYdfzI",
+      "tfLVajyD"
+    ],
+    "1.20.1+quilt": [
+      "1vFYdfzI",
+      "tfLVajyD"
+    ]
+  }
+}

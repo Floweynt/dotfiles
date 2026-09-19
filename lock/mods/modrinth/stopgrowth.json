@@ -1,0 +1,96 @@
+{
+  "slug": "stopgrowth",
+  "projectId": "DM3vJQGn",
+  "versions": {
+    "2IooI68S": {
+      "filename": "StopGrowth-neoforge-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/DM3vJQGn/versions/2IooI68S/StopGrowth-neoforge-2.0.jar",
+      "hash": "sha512-cN8hEBC6kOovmJrct3ggCPulMM291cxKPUomBDO4isteUHpoePr3rXw794KLq9sIDkD+stZUE17zvLD7BBpqGw==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "HEVeWRYG": {
+      "filename": "StopGrowth-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DM3vJQGn/versions/HEVeWRYG/StopGrowth-fabric-1.0.jar",
+      "hash": "sha512-fa3+Q6qH2e5D7BFDqDK9ghmYDXpacEXAzDzA0pXwp00Xc+oX52vv9eP9cdSjFJs5eDOKHqiNbZ5PCAzoAKkeNQ==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "bpUVvVQI": {
+      "filename": "StopGrowth-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DM3vJQGn/versions/bpUVvVQI/StopGrowth-neoforge-1.0.jar",
+      "hash": "sha512-wsc7AK136yq4YxbHGFe5RtNXS+qZ9r46rZVXLVEGYfXJ+twEnrOPS24oV974GbWHXRLNDMEco6C7z/+QMYU5Ug==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "cgRlVN2L": {
+      "filename": "StopGrowth-fabric-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/DM3vJQGn/versions/cgRlVN2L/StopGrowth-fabric-2.0.jar",
+      "hash": "sha512-CbF6ggpvL2L2yMwGFSF+wW/xEWD6ohg9Se2Th6QZ8aeq1oMU1cXUM49vocvQ05Pa8nM+HQcca7FNQLNdfbkTjw==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.6+fabric": [
+      "cgRlVN2L",
+      "HEVeWRYG"
+    ],
+    "1.21.6+neoforge": [
+      "2IooI68S",
+      "bpUVvVQI"
+    ]
+  }
+}

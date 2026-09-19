@@ -1,0 +1,267 @@
+{
+  "slug": "serene-seasons-gen-fix",
+  "projectId": "26LRjUh8",
+  "versions": {
+    "1vEYMFJG": {
+      "filename": "sereneseasonsgenfix-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/26LRjUh8/versions/1vEYMFJG/sereneseasonsgenfix-1.0.5.jar",
+      "hash": "sha512-iPTApOteiCqlkeCMU3PE5hm17OEKuJZql6gnUZvQlPQqGAPHy4ue83/tzINkkPDwD2vtBF2eslSp6ymqf5qq2A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "serene-seasons",
+          "projectId": "e0bNACJD",
+          "type": "required"
+        }
+      ]
+    },
+    "G1cdtfcD": {
+      "filename": "seasonsfix-fabric-1.21.1-2.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/26LRjUh8/versions/G1cdtfcD/seasonsfix-fabric-1.21.1-2.1.2.jar",
+      "hash": "sha512-rwdCyiSjvHs0LRdP+Tk1duqoKlwOUls9JK1aj0saJgmFrD+7BIvw6xRCAC7vc0vSTVxsPOMHwH2cCHxVjuosjg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "serene-seasons",
+          "projectId": "e0bNACJD",
+          "type": "required"
+        }
+      ]
+    },
+    "ODT30is0": {
+      "filename": "seasonsfix-neoforge-1.21.1-2.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/26LRjUh8/versions/ODT30is0/seasonsfix-neoforge-1.21.1-2.1.2.jar",
+      "hash": "sha512-81SNvviZXhH647fSiQK0dch2j1F0fphGrKDGhtAkIL7n5XkkGcvR8Lg12RRXhIm/3aFuzBXt+5miCChvYeYrNQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "serene-seasons",
+          "projectId": "e0bNACJD",
+          "type": "required"
+        }
+      ]
+    },
+    "mglcoBeE": {
+      "filename": "sereneseasonsgenfix-1.2.4.jar",
+      "url": "https://cdn.modrinth.com/data/26LRjUh8/versions/mglcoBeE/sereneseasonsgenfix-1.2.4.jar",
+      "hash": "sha512-d8BFs0pXgL1AbATLGQswhpEAlvdylxN8pX73V4UbSZTaCd6t3IrknITnbnD6pRdGOx9uT6emdIE5e3bb2h43lQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "mhNXEWDV": {
+      "filename": "seasonsfix-forge-1.21.1-2.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/26LRjUh8/versions/mhNXEWDV/seasonsfix-forge-1.21.1-2.1.2.jar",
+      "hash": "sha512-N1xczwLHqEWdCrRzMHFsfXvi5/JIG4ud+uNtt2mY+EsGuMfeETN5cB/B28szgJV59/pc7DUbJrmbumxInaGv3g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "serene-seasons",
+          "projectId": "e0bNACJD",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.1+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.1+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.1+neoforge": [
+      "ODT30is0",
+      "mglcoBeE",
+      "1vEYMFJG"
+    ],
+    "1.21.10+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.10+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.10+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.11+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.11+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.11+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.2+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.2+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.2+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.3+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.3+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.3+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.4+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.4+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.4+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.5+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.5+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.5+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.6+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.6+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.6+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.7+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.7+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.7+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.8+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.8+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.8+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ],
+    "1.21.9+fabric": [
+      "G1cdtfcD"
+    ],
+    "1.21.9+forge": [
+      "mhNXEWDV"
+    ],
+    "1.21.9+neoforge": [
+      "ODT30is0",
+      "mglcoBeE"
+    ]
+  }
+}

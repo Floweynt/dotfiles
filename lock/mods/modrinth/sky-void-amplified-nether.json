@@ -1,0 +1,172 @@
+{
+  "slug": "sky-void-amplified-nether",
+  "projectId": "P3nMObBl",
+  "versions": {
+    "6FMGMt0V": {
+      "filename": "skyvoid_compat_amplified_nether_v1_2_5-MC_1_21.zip",
+      "url": "https://cdn.modrinth.com/data/P3nMObBl/versions/6FMGMt0V/skyvoid_compat_amplified_nether_v1_2_5-MC_1_21.zip",
+      "hash": "sha512-1zwx+Iq27DTyIVD60eCwwCG20cwKtYNQKDZrI0m93VrSIyIWD0DGJAJyzul9IJJRER5pzcw5spQRXAdi7lEvUw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "amplified-nether",
+          "projectId": "wXiGiyGX",
+          "type": "required"
+        }
+      ]
+    },
+    "ibGNUu9Q": {
+      "filename": "skyvoid_compat_amplified_nether_v1_0_1+amplified_nether-1_2_5-MC_1_21.zip",
+      "url": "https://cdn.modrinth.com/data/P3nMObBl/versions/ibGNUu9Q/skyvoid_compat_amplified_nether_v1_0_1%2Bamplified_nether-1_2_5-MC_1_21.zip",
+      "hash": "sha512-OkUR+vqbujSzzraqGzhb+CHSGy29jldLY+DITXJV/rW/nQD4uBVCaEg73Vao200sBqGBKE5ugNks0UXHdm+J9w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "amplified-nether",
+          "projectId": "wXiGiyGX",
+          "type": "required"
+        }
+      ]
+    },
+    "kEGacSMQ": {
+      "filename": "sky-void-amplified-nether-1.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/P3nMObBl/versions/kEGacSMQ/sky-void-amplified-nether-1.2.5.jar",
+      "hash": "sha512-gsExqiTyt4TTvBAN1QyqojwSL5lpSBx6PjtivAQV5rMaJX40WG4hd/uIaFX6+feLVz3w/zVwPEAD3JmUCwt9Tw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "amplified-nether",
+          "projectId": "wXiGiyGX",
+          "type": "required"
+        }
+      ]
+    },
+    "txKwBRol": {
+      "filename": "sky-void-amplified-nether-1.0.1+amplified_nether-1.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/P3nMObBl/versions/txKwBRol/sky-void-amplified-nether-1.0.1%2Bamplified_nether-1.2.5.jar",
+      "hash": "sha512-SzSzJRL39QwyhDQzmJ/Zhp1ziVkEW00AmYgJhGW2AjoC6yjR5QkKiD+K9SbFNlLqoVa4NY1CUW2F51SGim7Gjw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "amplified-nether",
+          "projectId": "wXiGiyGX",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "ibGNUu9Q",
+      "6FMGMt0V"
+    ],
+    "1.21+fabric": [
+      "txKwBRol",
+      "kEGacSMQ"
+    ],
+    "1.21+forge": [
+      "txKwBRol",
+      "kEGacSMQ"
+    ],
+    "1.21+neoforge": [
+      "txKwBRol",
+      "kEGacSMQ"
+    ],
+    "1.21+quilt": [
+      "txKwBRol",
+      "kEGacSMQ"
+    ],
+    "1.21.1+datapack": [
+      "ibGNUu9Q",
+      "6FMGMt0V"
+    ],
+    "1.21.1+fabric": [
+      "txKwBRol",
+      "kEGacSMQ"
+    ],
+    "1.21.1+forge": [
+      "txKwBRol",
+      "kEGacSMQ"
+    ],
+    "1.21.1+neoforge": [
+      "txKwBRol",
+      "kEGacSMQ"
+    ],
+    "1.21.1+quilt": [
+      "txKwBRol",
+      "kEGacSMQ"
+    ],
+    "1.21.2+datapack": [
+      "ibGNUu9Q"
+    ],
+    "1.21.2+fabric": [
+      "txKwBRol"
+    ],
+    "1.21.2+forge": [
+      "txKwBRol"
+    ],
+    "1.21.2+neoforge": [
+      "txKwBRol"
+    ],
+    "1.21.2+quilt": [
+      "txKwBRol"
+    ],
+    "1.21.3+datapack": [
+      "ibGNUu9Q"
+    ],
+    "1.21.3+fabric": [
+      "txKwBRol"
+    ],
+    "1.21.3+forge": [
+      "txKwBRol"
+    ],
+    "1.21.3+neoforge": [
+      "txKwBRol"
+    ],
+    "1.21.3+quilt": [
+      "txKwBRol"
+    ]
+  }
+}

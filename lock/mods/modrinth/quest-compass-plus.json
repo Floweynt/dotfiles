@@ -1,0 +1,100 @@
+{
+  "slug": "quest-compass-plus",
+  "projectId": "mawllr4g",
+  "versions": {
+    "6TmBeUDq": {
+      "filename": "quest-compass-plus-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/mawllr4g/versions/6TmBeUDq/quest-compass-plus-0.1.1.jar",
+      "hash": "sha512-0A05EEdte5XZXFL6OCyf4tLBX07HamK/SJNUiSFHhMQa78guwpCz2S9zeEp2v0Ib1UNohCClBkVU5/5XCnsKeA==",
+      "gameVersions": [
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FCGU7hcq": {
+      "filename": "quest-compass-plus-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/mawllr4g/versions/FCGU7hcq/quest-compass-plus-0.2.0.jar",
+      "hash": "sha512-aYZ2rWx94IuJBsVOLF2MhnT+U3EHlB6+E8oPJHZYWySbu8hX/7G9O23IwWfrNNvxTpVk03wRr3PnmiXUHv3w3g==",
+      "gameVersions": [
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "Fi0YKO6s": {
+      "filename": "quest-compass-plus-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/mawllr4g/versions/Fi0YKO6s/quest-compass-plus-0.1.0.jar",
+      "hash": "sha512-B7hV6LWd9aVl4noQg1JX0dbjH/dTlTlr9pfcGEcJDuTOHe70ugiQJNG5RoFKAKhajK1k2xGPy46MG3dpWtwadw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dCpxpJxU": {
+      "filename": "quest-compass-plus-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/mawllr4g/versions/dCpxpJxU/quest-compass-plus-0.2.1.jar",
+      "hash": "sha512-mjo/Pi21llNeQVJ6vHyFwPefNeDaQTYL2F5qncQ1guPo7yDydFyB/SlGWFmOJgUINuMbQD0XaQSHx+ulMkSSjw==",
+      "gameVersions": [
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "Fi0YKO6s"
+    ],
+    "1.20.4+fabric": [
+      "dCpxpJxU",
+      "FCGU7hcq",
+      "6TmBeUDq"
+    ],
+    "1.20.5+fabric": [
+      "dCpxpJxU",
+      "FCGU7hcq",
+      "6TmBeUDq"
+    ],
+    "1.20.6+fabric": [
+      "dCpxpJxU",
+      "FCGU7hcq",
+      "6TmBeUDq"
+    ]
+  }
+}

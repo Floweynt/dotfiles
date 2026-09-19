@@ -1,0 +1,48 @@
+{
+  "slug": "dimlib",
+  "projectId": "WECKae1F",
+  "versions": {
+    "gr53g2LS": {
+      "filename": "dimlib-1.0.2+mc1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/WECKae1F/versions/gr53g2LS/dimlib-1.0.2%2Bmc1.20.4.jar",
+      "hash": "sha512-0Qejjby9NdGBcdxftKyy9yI2kw7QHTX3BdLjbdrqqUCZWm8Eh0314aUcjay5ZcsdtcukKk8quhigzlYcedIhmQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "joVLYWfG": {
+      "filename": "dimlib-1.1.0+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/WECKae1F/versions/joVLYWfG/dimlib-1.1.0%2Bmc1.21.1.jar",
+      "hash": "sha512-SNBVa3tttagCP5JDqswwFeFy6aVYiAFw1/KnsKZpXJMdKNU4bxAmkYble7yGMiwt5IXrJ5kFAIxGLKXpoeff8A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "gr53g2LS"
+    ],
+    "1.21.1+fabric": [
+      "joVLYWfG"
+    ]
+  }
+}

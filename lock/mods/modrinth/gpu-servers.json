@@ -1,0 +1,82 @@
+{
+  "slug": "gpu-servers",
+  "projectId": "oiiiq2LQ",
+  "versions": {
+    "6zrevywm": {
+      "filename": "gpumod-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/oiiiq2LQ/versions/6zrevywm/gpumod-1.21.10.jar",
+      "hash": "sha512-Hrgnt42oezO0brrOMXXP3i+dVfIONX0imIhRTcu6sWDyJMKtR7d/ZIYdYyhmhQtcA86rX216lXM59r3tD3uJ3g==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "FTgZyS0A": {
+      "filename": "gpumod-1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/oiiiq2LQ/versions/FTgZyS0A/gpumod-1.21.9.jar",
+      "hash": "sha512-i7Ad7VBmMCKJpkqHOaeODON+GFj59oR3scRgUzZ1tNGC9TJX9MWevc4sfNqtz3qNoOO0NtMI49VbsD8FEoO6vg==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "WvuLXF8k": {
+      "filename": "gpumod-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/oiiiq2LQ/versions/WvuLXF8k/gpumod-1.21.11.jar",
+      "hash": "sha512-IjDtQScsnqU6xOj5rWV6Yb+tauD21kjFG8fGi6y7WOxQdToNaoRmAD2de55QGmWwFxj9RBMFMTOIinrI53Te+A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "YtWtQwES": {
+      "filename": "gpumod-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/oiiiq2LQ/versions/YtWtQwES/gpumod-1.21.8.jar",
+      "hash": "sha512-xXWlOWXJVPNs/djXx7ryq5BZ2h8Ec1ry+lbooaOWIgqxCF3YaJKnKC8Mj4OTO+wQ+TN2MStClaW2C4dw5mfx5Q==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "6zrevywm"
+    ],
+    "1.21.11+fabric": [
+      "WvuLXF8k"
+    ],
+    "1.21.8+fabric": [
+      "YtWtQwES"
+    ],
+    "1.21.9+fabric": [
+      "FTgZyS0A"
+    ]
+  }
+}

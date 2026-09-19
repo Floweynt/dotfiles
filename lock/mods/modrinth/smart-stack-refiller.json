@@ -1,0 +1,92 @@
+{
+  "slug": "smart-stack-refiller",
+  "projectId": "wriU1hQA",
+  "versions": {
+    "IcEnwDJy": {
+      "filename": "smart-stack-refiller-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wriU1hQA/versions/IcEnwDJy/smart-stack-refiller-1.1.0.jar",
+      "hash": "sha512-xi/i53sTCj2jcd5/AhuBCeJ0wMAUS6WQ9A6Nkp3hHbm/ZqwW8kilV8uTAabvWWfL02RLHrmHz/FQdBWgy6Oi4w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "OOjrG0Uy": {
+      "filename": "smart-stack-refiller-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/wriU1hQA/versions/OOjrG0Uy/smart-stack-refiller-1.0.1.jar",
+      "hash": "sha512-vWR09DxzbZZ3uVYIFefpK2htBQO2T7YUtZ8NcA0I5QRepgMWCpAkn2NLBIG8dGXkZEKA99WyhAL6Ke6MrfU1nQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Xr03fb1O": {
+      "filename": "smart-stack-refiller-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wriU1hQA/versions/Xr03fb1O/smart-stack-refiller-1.0.0.jar",
+      "hash": "sha512-9dY4c3gV6OGIR0dpUdd9wTnKZytYU8uXOCW8oEHGqkLsWmw4Hjn4s5nPD980PAppJarmL4Ei9ugQ9kYh2CD1Gw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fAxSCnhc": {
+      "filename": "smart-stack-refiller-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wriU1hQA/versions/fAxSCnhc/smart-stack-refiller-1.1.0.jar",
+      "hash": "sha512-hNorsBQDVCQms26lxfqp64FhKjTY4kex/RVt2GoS/t+H0GP1pRpuURYoGpBDAbKGG4k93+uU13LhKKUpDWqCvQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "IcEnwDJy",
+      "OOjrG0Uy",
+      "Xr03fb1O"
+    ],
+    "26.1+fabric": [
+      "fAxSCnhc"
+    ],
+    "26.1.1+fabric": [
+      "fAxSCnhc"
+    ],
+    "26.1.2+fabric": [
+      "fAxSCnhc"
+    ]
+  }
+}

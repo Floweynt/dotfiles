@@ -1,0 +1,103 @@
+{
+  "slug": "blockgame-tooltips",
+  "projectId": "ugpoZi3U",
+  "versions": {
+    "JCWrEU0N": {
+      "filename": "blockgametooltips-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/ugpoZi3U/versions/JCWrEU0N/blockgametooltips-0.1.2.jar",
+      "hash": "sha512-nhkZZv+yjCqWpcIOr9LrmjKifzw9GxYElc8idKGgJlOKp1+mNBFOrUiBqn2J07agrMATwNg/qRComHc+cO1qCg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bm0ovdXi": {
+      "filename": "blockgametooltips-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/ugpoZi3U/versions/bm0ovdXi/blockgametooltips-0.1.3.jar",
+      "hash": "sha512-Vkpd/g+8Blws6KlkG5cTa+eTqiQZQKX+v3nLOYO332qV0a5LhTBHHvT94Jb2mGcBzo1qWywfcil9AF9TJJ8D0w==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eC0dyMC7": {
+      "filename": "blockgametooltips-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ugpoZi3U/versions/eC0dyMC7/blockgametooltips-0.1.1.jar",
+      "hash": "sha512-CqgRsdotFcq8qSI1i7LTOhBoubCJ70FJdiNGdfG5hcX9dcSMHFZxU426KXlXJ6Atx+Ua15QkvNNkw5pxcQntiQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "bm0ovdXi",
+      "JCWrEU0N",
+      "eC0dyMC7"
+    ]
+  }
+}

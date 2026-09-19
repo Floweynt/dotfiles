@@ -1,0 +1,52 @@
+{
+  "slug": "durabilitytooltip",
+  "projectId": "BourW9Nc",
+  "versions": {
+    "U2VsJTAy": {
+      "filename": "durability-tooltip-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BourW9Nc/versions/U2VsJTAy/durability-tooltip-1.0.0.jar",
+      "hash": "sha512-O9QNKVb8QLeLS7ekNdEgOKPfIY8vv/BJNZOZvr/GXaTSbfLipK15EYwCaiyUsXhPUbB/TrbuVAzbBPiwBW35ww==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sNaBWurI": {
+      "filename": "durability-tooltip-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BourW9Nc/versions/sNaBWurI/durability-tooltip-1.0.1.jar",
+      "hash": "sha512-6LKEyfZoZXL9B7iyJfHsbwwg1geou1CFvNYNzW0k2N+/CyUiaR8+XNop0S4y2YZyrrekaWIXDNBDPRAAfblfoQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "sNaBWurI",
+      "U2VsJTAy"
+    ]
+  }
+}

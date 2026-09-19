@@ -1,0 +1,136 @@
+{
+  "slug": "locked-in-slots",
+  "projectId": "y2Xn63zs",
+  "versions": {
+    "4zz8eSV9": {
+      "filename": "LockedInSlots-v26.2.0-mc26.2.x-NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/y2Xn63zs/versions/4zz8eSV9/LockedInSlots-v26.2.0-mc26.2.x-NeoForge.jar",
+      "hash": "sha512-ZOUQdgRDvLdOPmHQaevC9pnkRECm5PI7cp62eYccL6O3OJ4YcHXEJj/KPRHcarUFOqKS08b+V4oEr3T1wJTrZg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "puzzles-lib",
+          "projectId": "QAGBst4M",
+          "type": "required"
+        }
+      ]
+    },
+    "AoWXnmIE": {
+      "filename": "LockedInSlots-v26.1.0-mc26.1.x-NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/y2Xn63zs/versions/AoWXnmIE/LockedInSlots-v26.1.0-mc26.1.x-NeoForge.jar",
+      "hash": "sha512-X5OsDLuokEf6+u0OjRCHcdkI9n3RpurBN9vX7uO94hX7AGOS95o/hny+kCNFQbYZGVWTXylGeihEZ59NPFvqcg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "puzzles-lib",
+          "projectId": "QAGBst4M",
+          "type": "required"
+        }
+      ]
+    },
+    "ZUeRFSig": {
+      "filename": "LockedInSlots-v26.2.0-mc26.2.x-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/y2Xn63zs/versions/ZUeRFSig/LockedInSlots-v26.2.0-mc26.2.x-Fabric.jar",
+      "hash": "sha512-6XGXFtKjqmTP74AXzdjPs+f2s7Z8JpCQGGLxr2iHkJ/9+nCsN7MLl/+5ksLCNf1C+GbrDfEIIzyfL2sK8f8kQA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "puzzles-lib",
+          "projectId": "QAGBst4M",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uppi5W78": {
+      "filename": "LockedInSlots-v26.1.0-mc26.1.x-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/y2Xn63zs/versions/uppi5W78/LockedInSlots-v26.1.0-mc26.1.x-Fabric.jar",
+      "hash": "sha512-QUYRaty3hAr1K9R+mIqt2zyisDvg8RdLi8yBe+55Lpcbi2c5CJu35cUMOTtmvhdSWx5XG45NDOEBf9BrCSEVBw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "puzzles-lib",
+          "projectId": "QAGBst4M",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "uppi5W78"
+    ],
+    "26.1+neoforge": [
+      "AoWXnmIE"
+    ],
+    "26.1.1+fabric": [
+      "uppi5W78"
+    ],
+    "26.1.1+neoforge": [
+      "AoWXnmIE"
+    ],
+    "26.1.2+fabric": [
+      "uppi5W78"
+    ],
+    "26.1.2+neoforge": [
+      "AoWXnmIE"
+    ],
+    "26.2+fabric": [
+      "ZUeRFSig"
+    ],
+    "26.2+neoforge": [
+      "4zz8eSV9"
+    ]
+  }
+}

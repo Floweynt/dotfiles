@@ -1,0 +1,53 @@
+{
+  "slug": "happiness-mod",
+  "projectId": "NxMubksl",
+  "versions": {
+    "Qrh2ehlQ": {
+      "filename": "happiness-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NxMubksl/versions/Qrh2ehlQ/happiness-1.0.0.jar",
+      "hash": "sha512-x6iloob+ReMiRXkPlEgSyznMsvzGIFdQGIVOG6HcAakuvcf4H6YqwilExe6K8SHYYbKRfbYIYfPdB67FgyoX4A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ZASaRCfj": {
+      "filename": "happiness-mod-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NxMubksl/versions/ZASaRCfj/happiness-mod-fabric-1.0.0.jar",
+      "hash": "sha512-rFvvVVDGVFpjzZNQocqcu7hADCaIuGGBgPzdJ5OD/bJbFhzJp0gigLpEnaEaIZ0jd1u1DFYJwbJkIcLfsL8Jng==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "Qrh2ehlQ"
+    ],
+    "1.21.1+fabric": [
+      "ZASaRCfj"
+    ]
+  }
+}

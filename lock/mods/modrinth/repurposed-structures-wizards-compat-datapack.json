@@ -1,0 +1,124 @@
+{
+  "slug": "repurposed-structures-wizards-compat-datapack",
+  "projectId": "hl0bs6jf",
+  "versions": {
+    "Ib4AEeOv": {
+      "filename": "Repurposed_Structures-Wizards_v2.zip",
+      "url": "https://cdn.modrinth.com/data/hl0bs6jf/versions/Ib4AEeOv/Repurposed_Structures-Wizards_v2.zip",
+      "hash": "sha512-Me1DrsPoCrXoyrIKPGTET3jo3VylUcDdTNxqrDF8VDyudZEnPx8hJPUkwqR+BtA/g7B8HD8GdicwRTEsTD9Hrg==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        }
+      ]
+    },
+    "NtV8IULo": {
+      "filename": "Repurposed_Structures-Wizards_v1.zip",
+      "url": "https://cdn.modrinth.com/data/hl0bs6jf/versions/NtV8IULo/Repurposed_Structures-Wizards_v1.zip",
+      "hash": "sha512-FHxEE1PXCQnqpZtNiFbPjTrqwEBUX/xIuG/J2e9SMwC2zCOcxgzfjQzKoNFLwFtXx/vnmQ4YidlgLBgcZkuHNg==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        }
+      ]
+    },
+    "a7gKiyWc": {
+      "filename": "repurposed_structures_wizards_compat_v4.jar",
+      "url": "https://cdn.modrinth.com/data/hl0bs6jf/versions/a7gKiyWc/repurposed_structures_wizards_compat_v4.jar",
+      "hash": "sha512-Ztl4yWqafSLYEHKKmR9Rpj+KmnHuPLGw/lNJw95jGXLJcuw29a+tmWcSI7MHRL7YJ01wmU/jhwJPrpgl85l0ig==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        },
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        }
+      ]
+    },
+    "eBJE89zS": {
+      "filename": "Repurposed_Structures-Wizards_v3.zip",
+      "url": "https://cdn.modrinth.com/data/hl0bs6jf/versions/eBJE89zS/Repurposed_Structures-Wizards_v3.zip",
+      "hash": "sha512-8GTVHITXHvmXYb8ts6IfXI1mGAe6L5RHC39draR8rG+H4/Gd7yaAzm8eL0bsFYZtRDMSNXh34uRmvLf93Q/g0w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "Ib4AEeOv",
+      "NtV8IULo"
+    ],
+    "1.19.3+datapack": [
+      "Ib4AEeOv",
+      "NtV8IULo"
+    ],
+    "1.20.1+datapack": [
+      "eBJE89zS"
+    ],
+    "1.21.1+fabric": [
+      "a7gKiyWc"
+    ]
+  }
+}

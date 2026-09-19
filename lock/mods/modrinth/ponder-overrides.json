@@ -1,0 +1,36 @@
+{
+  "slug": "ponder-overrides",
+  "projectId": "7OjiOtyR",
+  "versions": {
+    "GKyB5G7V": {
+      "filename": "ponder_overrides-0.0.2+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/7OjiOtyR/versions/GKyB5G7V/ponder_overrides-0.0.2%2B1.18.2.jar",
+      "hash": "sha512-8QQ/SUEmmfv24CZU3DOoM/vGJidebE8GT8XHEUKFMHbsBzsra6fIe493hTzDGGlST16GqKVAAaBK0VI11geYkQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "GKyB5G7V"
+    ]
+  }
+}

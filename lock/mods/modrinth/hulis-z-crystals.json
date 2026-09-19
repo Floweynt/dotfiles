@@ -1,0 +1,63 @@
+{
+  "slug": "hulis-z-crystals",
+  "projectId": "qdPszuPS",
+  "versions": {
+    "QWFhqIDj": {
+      "filename": "HulisZCrystals-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/qdPszuPS/versions/QWFhqIDj/HulisZCrystals-1.1.jar",
+      "hash": "sha512-US8gZd5bzZ5YaSvOd98XVo5VST59eBb9VO9lXCqURA+P0KLwyqpZZmLx0fsK1NYYJOkm33EInkvNYGWUtF/ONw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "e4yPv5F0": {
+      "filename": "HulisZCrystals-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/qdPszuPS/versions/e4yPv5F0/HulisZCrystals-1.2.jar",
+      "hash": "sha512-EQe74kZvudPndtgKBeK74b0aIFU0/4iuNamztrjfjPj/sphnCdSaSIwp4NRPzsTLgh2lrbc8PEM2ZUdYtr6Qiw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "raIMJXOz": {
+      "filename": "HulisZCrystals-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/qdPszuPS/versions/raIMJXOz/HulisZCrystals-1.0.jar",
+      "hash": "sha512-3SP0C7Nm+cTAFh5KepcRPIwXcRnbuc7+l/ZP0r+ME24Qo1bxoZuW4g1SZTejWtmJVSQ9RWWzflrE3sK3u49QRw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "QWFhqIDj",
+      "raIMJXOz"
+    ],
+    "1.21.1+fabric": [
+      "e4yPv5F0"
+    ]
+  }
+}

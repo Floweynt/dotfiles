@@ -1,0 +1,63 @@
+{
+  "slug": "compasshud",
+  "projectId": "ozueK4em",
+  "versions": {
+    "24As6NQH": {
+      "filename": "compasshud-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ozueK4em/versions/24As6NQH/compasshud-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-JszKVo2R3T/iIMtJ3hVJh9/rvOmfu6mJ2iAPzyEHG3mA/4uOdGxW6yLmjDeuYloorFFh1polnoKwkag0OXOvYw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "2VNC0yXQ": {
+      "filename": "compasshud-neoforge-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ozueK4em/versions/2VNC0yXQ/compasshud-neoforge-1.21-1.0.0.jar",
+      "hash": "sha512-qJSlvjq/7j7ET3GAYsRdtdyDx923h3Q9IzvMlalOd1icSG1V2X7jRRy3w8aLrmufvjLZYhYC0fuUF9c4UU9b9g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vrGJrVLu": {
+      "filename": "compasshud-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ozueK4em/versions/vrGJrVLu/compasshud-1.0.jar",
+      "hash": "sha512-WQliiws6/837gg0LErN+ZcUboH48Siuq1VGO496KDea5z9jtS2vF+Gh/oGjCnbeBXEMnKiog3LzpcB/tyfpbug==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "24As6NQH"
+    ],
+    "1.20.1+neoforge": [
+      "24As6NQH"
+    ],
+    "1.21+fabric": [
+      "vrGJrVLu"
+    ],
+    "1.21+neoforge": [
+      "2VNC0yXQ"
+    ]
+  }
+}

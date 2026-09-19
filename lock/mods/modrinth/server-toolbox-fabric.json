@@ -1,0 +1,63 @@
+{
+  "slug": "server-toolbox-fabric",
+  "projectId": "79H3yRqB",
+  "versions": {
+    "V17e9T1s": {
+      "filename": "server-toolbox-1.0.0+1.20.x.jar",
+      "url": "https://cdn.modrinth.com/data/79H3yRqB/versions/V17e9T1s/server-toolbox-1.0.0%2B1.20.x.jar",
+      "hash": "sha512-0tbfPdv6HFgYg2KEIzBZyW95Qyr1xNmHA0Ydb6CpC/e7/T9PIOunVUAxE8SG974NAxTqfCF3BALmsj57xsJ1FA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "q55IuYft": {
+      "filename": "server-toolbox-1.0.0+1.20.x.jar",
+      "url": "https://cdn.modrinth.com/data/79H3yRqB/versions/q55IuYft/server-toolbox-1.0.0%2B1.20.x.jar",
+      "hash": "sha512-LjKd2Tjfc2Ox+QcXIsNW9ZxbH0Rj4TGT67g28uVdA4xmYjsvwo6HZUVuZ/mdavSt9b9imuNz9m5FGWDYHIAd8A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "V17e9T1s",
+      "q55IuYft"
+    ],
+    "1.20.1+fabric": [
+      "V17e9T1s",
+      "q55IuYft"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "speed-trading",
+  "projectId": "nFpvJBAp",
+  "versions": {
+    "2I17hfm3": {
+      "filename": "speedtrading-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/nFpvJBAp/versions/2.0.1/speedtrading-2.0.1.jar",
+      "hash": "sha512-lmJuWIy1TTGRpGLmgpGuGfM7mORNuDutV6kdVCIruyNJH39BtFCfysZet+67b+RCit8GGLMnOMujBe/WhoGjCQ==",
+      "gameVersions": [
+        "1.16.2",
+        "1.16.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "9FJf6pIk": {
+      "filename": "speedtrading-2.1.0+1.18.jar",
+      "url": "https://cdn.modrinth.com/data/nFpvJBAp/versions/v2.1.0%2B1.18/speedtrading-2.1.0%2B1.18.jar",
+      "hash": "sha512-jdFLx6rRuaOrrqIqMlOD0S578JnPXkgPFDgiPu9KUp7zhEu1yQvrLcnE133mZ77ebCaPtG0az+B+T4d36Ni1Lg==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "a7OPOMlS": {
+      "filename": "speedtrading-2.1.0+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/nFpvJBAp/versions/v2.1.0%2B1.19/speedtrading-2.1.0%2B1.19.jar",
+      "hash": "sha512-nKM1ddbjcYo9lqaJOSyM5hT95SFskQ2vGS23daZEQimfIDKumpxp+7bUdfAG0Es/mXTDfPWaY62lb1wHT1tszw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cmCoLFxk": {
+      "filename": "speedtrading-2.1.0+1.17.jar",
+      "url": "https://cdn.modrinth.com/data/nFpvJBAp/versions/v2.1.0%2B1.17/speedtrading-2.1.0%2B1.17.jar",
+      "hash": "sha512-VcX4xGbJ5OEZLP80xMjjNfnCg9DPzwGiTW3Ivu8JWTMEwxWJ1/Q96deI1eZfYzUO4t3gOmVwa8Idvc/19b9dfQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.2+fabric": [
+      "2I17hfm3"
+    ],
+    "1.16.3+fabric": [
+      "2I17hfm3"
+    ],
+    "1.17.1+fabric": [
+      "cmCoLFxk"
+    ],
+    "1.18.1+fabric": [
+      "9FJf6pIk"
+    ],
+    "1.19+fabric": [
+      "a7OPOMlS"
+    ],
+    "1.19+quilt": [
+      "a7OPOMlS"
+    ],
+    "1.19.1+fabric": [
+      "a7OPOMlS"
+    ],
+    "1.19.1+quilt": [
+      "a7OPOMlS"
+    ]
+  }
+}

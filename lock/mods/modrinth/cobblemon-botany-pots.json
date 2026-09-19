@@ -1,0 +1,64 @@
+{
+  "slug": "cobblemon-botany-pots",
+  "projectId": "CeowHsxL",
+  "versions": {
+    "kh5Ke6nB": {
+      "filename": "cobblemon_pots-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CeowHsxL/versions/kh5Ke6nB/cobblemon_pots-fabric-1.0.0.jar",
+      "hash": "sha512-UPqWb4fB4SOJ6AMhuzbb5s6z+LIFvKInNV0zqMwnSZejSDf9g7ERfK3Z9xJZxBQtqVibuwGbkb8LiUhHZavv2Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "botany-pots",
+          "projectId": "U6BUTZ7K",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "sGB5kY4X": {
+      "filename": "cobblemon_pots-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CeowHsxL/versions/sGB5kY4X/cobblemon_pots-neoforge-1.0.0.jar",
+      "hash": "sha512-PL6ooFVjtQlAla1w34YjswD+rNunaNcXIXbioYpRtHX4dR5/iUt6emiD8A3pb/KxzyxmhL7LpF4SnPb30dhHpg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "botany-pots",
+          "projectId": "U6BUTZ7K",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "kh5Ke6nB"
+    ],
+    "1.21.1+neoforge": [
+      "sGB5kY4X"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "yet-another-nametag-recipe",
+  "projectId": "vlH4QiZo",
+  "versions": {
+    "SNfqXOrp": {
+      "filename": "yantr-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vlH4QiZo/versions/SNfqXOrp/yantr-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-g8VSd/gBAyys/E2qSk/rxq+aAteyFbYg2NGHnXbTD6gT/3wBy67k22uWmBA9ED2x6x8B5b4skfEiS6dCMMb0DA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "roDxPs6A": {
+      "filename": "yantr-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vlH4QiZo/versions/roDxPs6A/yantr-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-Jh9bRn5Yve5uO6yVOHe3RajzXxyl92FmOFMkx8N8kS0lZAt732ZEAbXNmkJeP1S46kVtCa3RBrC2xFhD6U2bfg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "roDxPs6A",
+      "SNfqXOrp"
+    ],
+    "1.20.1+fabric": [
+      "roDxPs6A",
+      "SNfqXOrp"
+    ]
+  }
+}

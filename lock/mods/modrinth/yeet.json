@@ -1,0 +1,96 @@
+{
+  "slug": "yeet",
+  "projectId": "oJBq6bNW",
+  "versions": {
+    "Ejzjz2CH": {
+      "filename": "yeet-1.1.0-build.23+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/oJBq6bNW/versions/Ejzjz2CH/yeet-1.1.0-build.23%2Bmc1.20.1.jar",
+      "hash": "sha512-AmiX0IJUNaGprKfh+KCFTuQrU/k53+VKC9p3QjshRpbN0+xrp+sr+Sttnp6ZfLBZeo1hLOdpi8K6HcIjYvsXgw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "UybfoNN4": {
+      "filename": "yeet-1.0.0-build.19+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/oJBq6bNW/versions/UybfoNN4/yeet-1.0.0-build.19%2Bmc1.20.1.jar",
+      "hash": "sha512-gvwqhV9i0g09T4aMiUfgD8tJASKvEz5veDkYqM2MwDknlBD4xhD0YJ2IAQo1Mdkn418PeDWjvHgrXlEE+CD/7A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "h4xJgiG6": {
+      "filename": "yeet-1.1.0+build.29-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/oJBq6bNW/versions/h4xJgiG6/yeet-1.1.0%2Bbuild.29-mc1.21.1.jar",
+      "hash": "sha512-oV9uuHGSxo1ILITH/+CO0LleGxSBUU0SVzgUYth84ZSCyTRpRSYI8azxJ7YjRK8zt4j5s4oDjVhtTGtR2FpcIA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jy9id5FF": {
+      "filename": "yeet-1.1.1+build.30-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/oJBq6bNW/versions/jy9id5FF/yeet-1.1.1%2Bbuild.30-mc1.21.1.jar",
+      "hash": "sha512-oiXGiWAwUpVO+RTESr6wvv9Iyvxb1C8QH82piLWv1CuSxONcwwcvOcHqEEZnzOJQ5ibSB6BU6k06/I3FW3dEyg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+quilt": [
+      "Ejzjz2CH",
+      "UybfoNN4"
+    ],
+    "1.21.1+fabric": [
+      "jy9id5FF",
+      "h4xJgiG6"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "seeinvisplayers",
+  "projectId": "EUM5Xs8z",
+  "versions": {
+    "4p63JMYu": {
+      "filename": "sip-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/EUM5Xs8z/versions/4p63JMYu/sip-1.1.jar",
+      "hash": "sha512-IcdMv0wYlcsDqWY4saZLoNLo40EYnEV/W5jmBJv+BmHZ1jA2qqfHpUgM0gJYsXGB+AzKLw8E4T9BzoT/dl6Iqg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "4p63JMYu"
+    ]
+  }
+}

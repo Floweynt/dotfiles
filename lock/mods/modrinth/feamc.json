@@ -1,0 +1,98 @@
+{
+  "slug": "feamc",
+  "projectId": "bCwmy9Xj",
+  "versions": {
+    "8loaBnLb": {
+      "filename": "feamc-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bCwmy9Xj/versions/8loaBnLb/feamc-1.0.0.jar",
+      "hash": "sha512-HQNRiVr3aFC14gWdX8WjnBrh2ry6vrlF2E8nDQzzr9nS3md3h/Q01pHb1FJriSZ6hy+4sKnhS8ZCk1T5HxA97g==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "9PUgFI5T": {
+      "filename": "Feamc-1.0+1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/bCwmy9Xj/versions/9PUgFI5T/Feamc-1.0%2B1.21.x.jar",
+      "hash": "sha512-bDTxPBssAoHbxR3iy2l/sX1FNTAP7YySVIfd/mQ3MjgxH4/ydbvB60vnYKG0wIHIl0aZQwPue0SSNDHhD7cG/Q==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "NkYuKhZw": {
+      "filename": "Feamc-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/bCwmy9Xj/versions/NkYuKhZw/Feamc-1.0.1.jar",
+      "hash": "sha512-qicJp0YW3m2wubLincafWpvpOff4SeFgGD/sqqUhOtOA+6QfcBxOn+VDVZj5QfQVlJ4S51yzpgdrDmr5z4dakQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nTK1rWY6": {
+      "filename": "feamc-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bCwmy9Xj/versions/nTK1rWY6/feamc-1.0.0.jar",
+      "hash": "sha512-f/JK0ankrKmmmZFlcUIliIskUnmysqLK0H2xLAGH2P//nT3E7oXapGRqz83rJQ278TagPWK5lhenre5QfOtwWQ==",
+      "gameVersions": [
+        "1.21.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "NkYuKhZw",
+      "9PUgFI5T"
+    ],
+    "1.21.10+neoforge": [
+      "8loaBnLb"
+    ],
+    "1.21.11+fabric": [
+      "NkYuKhZw",
+      "9PUgFI5T"
+    ],
+    "1.21.2+fabric": [
+      "nTK1rWY6"
+    ],
+    "1.21.9+fabric": [
+      "NkYuKhZw",
+      "9PUgFI5T"
+    ]
+  }
+}

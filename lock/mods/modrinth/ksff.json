@@ -1,0 +1,81 @@
+{
+  "slug": "ksff",
+  "projectId": "1vP374rM",
+  "versions": {
+    "DwWaXVqF": {
+      "filename": "kotlinscript-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/1vP374rM/versions/DwWaXVqF/kotlinscript-1.3.jar",
+      "hash": "sha512-qDE/c/UKUqghYmPCrXUAw12u56XoY85VqzsEQSsNnuwT3pkzynJvtCJDsx+QkhbMkyQSMY/BbG+LVQhLaFX4Wg==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "HxPXP3CL": {
+      "filename": "kotlinscript-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1vP374rM/versions/HxPXP3CL/kotlinscript-1.0.jar",
+      "hash": "sha512-Fz5uxP/klZfrzwAZR+s6q5AZNXprHxjbyc/qSfQPnzFhYgn+ZT8v++H7yxMRTSkbDCxqRr5RDM51h7uiz67rqw==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "hollowcore",
+          "projectId": "XMd2cJSg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+forge": [
+      "DwWaXVqF",
+      "HxPXP3CL"
+    ],
+    "1.18.1+forge": [
+      "DwWaXVqF",
+      "HxPXP3CL"
+    ],
+    "1.18.2+forge": [
+      "DwWaXVqF",
+      "HxPXP3CL"
+    ],
+    "1.19+forge": [
+      "DwWaXVqF",
+      "HxPXP3CL"
+    ],
+    "1.19.1+forge": [
+      "DwWaXVqF",
+      "HxPXP3CL"
+    ],
+    "1.19.2+forge": [
+      "DwWaXVqF",
+      "HxPXP3CL"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "sol-valheim-updated",
+  "projectId": "2W6u5Fih",
+  "versions": {
+    "PpvBKK6Z": {
+      "filename": "sol_valheim-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/2W6u5Fih/versions/PpvBKK6Z/sol_valheim-1.2.1.jar",
+      "hash": "sha512-NLd3hH/o+BgluYsBpbakVYMZ4I/F8XJ+sXIjwvKwQbj14eXHsSfwYCNFSGQVU9Vk2obwP/bvAySbkL2hsdJsgA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "nwWQXdis": {
+      "filename": "sol_valheim-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/2W6u5Fih/versions/nwWQXdis/sol_valheim-1.2.1.jar",
+      "hash": "sha512-dBBVmSJeODYrZXmV1t9Vi77QfvTkgnojmbQcksMgEczWVRmjAmfQZ9sJJMi/Tm14PQHX+M9qowB1MJ7j/xtVUg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nwWQXdis"
+    ],
+    "1.20.1+forge": [
+      "PpvBKK6Z"
+    ]
+  }
+}

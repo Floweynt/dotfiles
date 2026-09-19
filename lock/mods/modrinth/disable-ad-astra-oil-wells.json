@@ -1,0 +1,117 @@
+{
+  "slug": "disable-ad-astra-oil-wells",
+  "projectId": "EuuIRUEF",
+  "versions": {
+    "2HVdajc5": {
+      "filename": "disable-ad-astra-oil-wells-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EuuIRUEF/versions/2HVdajc5/disable-ad-astra-oil-wells-1.0.jar",
+      "hash": "sha512-CmnTC6Zfw3u1wDUNkvWsHN9Y+mDX7QTUxk5/aAjY+HPlQ2Jwss/ik4m/ODfXxSXUmEbVTo1vU/UpC/af+yVTYw==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    },
+    "hTNuR0c6": {
+      "filename": "disable_ad_astra_oil_wells.zip",
+      "url": "https://cdn.modrinth.com/data/EuuIRUEF/versions/hTNuR0c6/disable_ad_astra_oil_wells.zip",
+      "hash": "sha512-08xnexgnySsYEslY+5MZC8UTM8X/ivnRxm0o2HI5hrvBxVUIeh/WgKP4Nb2uEJwdJu5BLg2/2yzNactCVIh+tg==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2",
+        "1.19.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    },
+    "jvzURrdq": {
+      "filename": "oil_well_remove_1.20.x.zip",
+      "url": "https://cdn.modrinth.com/data/EuuIRUEF/versions/jvzURrdq/oil_well_remove_1.20.x.zip",
+      "hash": "sha512-UPPdfGpJY2s9q53fLV4WdEsgLRQRUSfl6f+7wZF8CI/xAX4lIAFE9g5HyWW8iwEAkcIIRLdOBvu5gV5NjEqHrg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+datapack": [
+      "hTNuR0c6"
+    ],
+    "1.18.2+fabric": [
+      "2HVdajc5"
+    ],
+    "1.18.2+forge": [
+      "2HVdajc5"
+    ],
+    "1.18.2+quilt": [
+      "2HVdajc5"
+    ],
+    "1.19.2+datapack": [
+      "hTNuR0c6"
+    ],
+    "1.19.2+fabric": [
+      "2HVdajc5"
+    ],
+    "1.19.2+forge": [
+      "2HVdajc5"
+    ],
+    "1.19.2+quilt": [
+      "2HVdajc5"
+    ],
+    "1.19.4+datapack": [
+      "hTNuR0c6"
+    ],
+    "1.19.4+fabric": [
+      "2HVdajc5"
+    ],
+    "1.19.4+forge": [
+      "2HVdajc5"
+    ],
+    "1.19.4+quilt": [
+      "2HVdajc5"
+    ],
+    "1.20.1+datapack": [
+      "jvzURrdq"
+    ],
+    "1.20.4+datapack": [
+      "jvzURrdq"
+    ]
+  }
+}

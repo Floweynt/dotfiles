@@ -1,0 +1,75 @@
+{
+  "slug": "advanced-classroom-furniture",
+  "projectId": "2B2ITxoC",
+  "versions": {
+    "SjGbYdfE": {
+      "filename": "classroomfurniture-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2B2ITxoC/versions/SjGbYdfE/classroomfurniture-1.0.0.jar",
+      "hash": "sha512-cTbIRZOL7GNwIq4EXtTFlFvzpevNk0md5QtfhgMlkvWmqgeYh6yOcSBcI7QuIXPJyhAZXtCT8E49U1pW4hCN5g==",
+      "gameVersions": [
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "oFulhkBm": {
+      "filename": "classroomfurniture-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2B2ITxoC/versions/oFulhkBm/classroomfurniture-1.0.1.jar",
+      "hash": "sha512-wwkSKb9LzWmwn/B+v4AiCbCccTKvrjujColavX4sn6cQb+v3kQBTRqK1C3mDsxj3eacNyfx0BgVPg/u2nGcujA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xW0Wa3jc": {
+      "filename": "classroomfurniture-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/2B2ITxoC/versions/xW0Wa3jc/classroomfurniture-1.0.2.jar",
+      "hash": "sha512-CC5CS9e5EFC7vfEpY6o4171g0BCvDl8cOf7D7GMF7ZbUK3W3A5g21yOChuFuNVT+vcUYoSxD0QG0Lo+A2Bx7qw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "xW0Wa3jc",
+      "oFulhkBm"
+    ],
+    "26.1.1+fabric": [
+      "xW0Wa3jc",
+      "oFulhkBm",
+      "SjGbYdfE"
+    ],
+    "26.1.2+fabric": [
+      "xW0Wa3jc",
+      "oFulhkBm",
+      "SjGbYdfE"
+    ]
+  }
+}

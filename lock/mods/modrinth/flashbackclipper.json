@@ -1,0 +1,77 @@
+{
+  "slug": "flashbackclipper",
+  "projectId": "wHp6yfU7",
+  "versions": {
+    "VLJ2idgC": {
+      "filename": "FlashBackClipper-1.0.0+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/wHp6yfU7/versions/VLJ2idgC/FlashBackClipper-1.0.0%2B26.2.jar",
+      "hash": "sha512-QIFu4OIBMg60FRDASMs3h0WzaLJFJCLUGSecyw7+2sgakwb1SNyqYuYiBvHFXGSRVhafG0Gi9yPFiEye8b+hlw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "flashback",
+          "projectId": "4das1Fjq",
+          "type": "required"
+        }
+      ]
+    },
+    "XEYvMJI9": {
+      "filename": "FlashBackClipper-1.0.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/wHp6yfU7/versions/XEYvMJI9/FlashBackClipper-1.0.0%2B1.21.11.jar",
+      "hash": "sha512-psnnI/qqNg8QgX1xoMi3Cq2hj/CbVRhKDjOTwbN0gmjnfw8Toa3RAlWJBXDCDVaE17n6dMubNc3Afw/+MomE2Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "flashback",
+          "projectId": "4das1Fjq",
+          "type": "required"
+        }
+      ]
+    },
+    "gPfIEsjc": {
+      "filename": "FlashBackClipper-1.0.0+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/wHp6yfU7/versions/gPfIEsjc/FlashBackClipper-1.0.0%2B26.1.2.jar",
+      "hash": "sha512-iCrZL1kQnqsc2GKdPKWDe9j4JLZdtIzEgQ736dcHu4DCro9Q25M6VHx9oEcR3P57/asxICQogjjAAlFjX9JvZA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "flashback",
+          "projectId": "4das1Fjq",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "XEYvMJI9"
+    ],
+    "26.1.2+fabric": [
+      "gPfIEsjc"
+    ],
+    "26.2+fabric": [
+      "VLJ2idgC"
+    ]
+  }
+}

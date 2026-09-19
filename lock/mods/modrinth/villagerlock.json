@@ -1,0 +1,79 @@
+{
+  "slug": "villagerlock",
+  "projectId": "73OZv1xv",
+  "versions": {
+    "1ELXGteB": {
+      "filename": "villager-lock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/73OZv1xv/versions/1ELXGteB/villager-lock-1.0.0.jar",
+      "hash": "sha512-ouCTm6ZLKX0jiQBBs80zl+0lyMcfWL+scOiHr0inxEJOoDYFQMcxMNNckoI+pNBVBiCvIpiEbhoZQKftzDIgAg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "H4yc3TGB": {
+      "filename": "villager-lock-1.0.1+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/73OZv1xv/versions/H4yc3TGB/villager-lock-1.0.1%2B26.2.jar",
+      "hash": "sha512-3g2lq8J1XYzrcY6kyiAJJ11DN+3d20k2dBM0yLWcV9hAKQ+EiKuqAd02q22wEjXHfiMIbd4aWZOxiRi2TlrvSA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RcMB78Dl": {
+      "filename": "villager-lock-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/73OZv1xv/versions/RcMB78Dl/villager-lock-1.0.1.jar",
+      "hash": "sha512-fJRjyGKKrFyoGA4mBPoXXl1NnX9U0QHCoQQd0uJV65v//SSpqFoOcbUiewMx10BABu86T3GfpsP5l3xCwjXZQQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "1ELXGteB"
+    ],
+    "26.1+fabric": [
+      "RcMB78Dl"
+    ],
+    "26.1.1+fabric": [
+      "RcMB78Dl"
+    ],
+    "26.1.2+fabric": [
+      "RcMB78Dl"
+    ],
+    "26.2+fabric": [
+      "H4yc3TGB"
+    ]
+  }
+}

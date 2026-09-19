@@ -1,0 +1,82 @@
+{
+  "slug": "aegis",
+  "projectId": "lvoPSZfR",
+  "versions": {
+    "Kc2Rniqu": {
+      "filename": "aegis-3.2.4.jar",
+      "url": "https://cdn.modrinth.com/data/lvoPSZfR/versions/3.2.4/aegis-3.2.4.jar",
+      "hash": "sha512-GIF9KsYTvpVt4PjJxbHTfpu8Tr0DYMfE79DkBBALCm2oTdjBtvliqIwI947aie5eJToyC/03sxwELponj5Dj/Q==",
+      "gameVersions": [
+        "1.16.5",
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ULYaQnAs": {
+      "filename": "aegis-runtime-3.2.6.jar",
+      "url": "https://cdn.modrinth.com/data/lvoPSZfR/versions/3.2.6/aegis-runtime-3.2.6.jar",
+      "hash": "sha512-D72jC8xeF+VZv56jFM4hebL6Hh/Nge176fIlJXLpPQWj+OmZLvRmrF5NTSDSeesSYoSDj+FcrF7SH/Ix7Z+vvQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "mpThr01p": {
+      "filename": "aegis-runtime-3.2.7.jar",
+      "url": "https://cdn.modrinth.com/data/lvoPSZfR/versions/3.2.7/aegis-runtime-3.2.7.jar",
+      "hash": "sha512-9mE8HHo9KwphSlYbyYNXp6bsK3hp/UfepT8TX8CmVX+t78qcH+c6e3D6AFWrtOslxxmWFpBj82A/7Oxps7spbg==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "plIJONhJ": {
+      "filename": "aegis-3.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/lvoPSZfR/versions/3.2.5/aegis-3.2.5.jar",
+      "hash": "sha512-tFybR24wug4UuAARjWCcrSkOk15Pn3KuhgXZ4irmGvkcseK9+zs8zieaFFtU4AKVbQ7EGz+LXGlR3VNRjq7uQg==",
+      "gameVersions": [
+        "1.16.5",
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "plIJONhJ",
+      "Kc2Rniqu"
+    ],
+    "1.17+fabric": [
+      "plIJONhJ",
+      "Kc2Rniqu"
+    ],
+    "1.17.1+fabric": [
+      "mpThr01p",
+      "ULYaQnAs",
+      "plIJONhJ",
+      "Kc2Rniqu"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "ion-tree-fall",
+  "projectId": "J2i9OGg6",
+  "versions": {
+    "1i29wn14": {
+      "filename": "treefall-neoforge-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/J2i9OGg6/versions/1i29wn14/treefall-neoforge-1.3.2.jar",
+      "hash": "sha512-gPTwdEF1t7YlFAisrGMjhv9s+stjHbpdQhYteybCWV8sgxOSGG7wGjGFcdjsRsUEZ78EdHbLeJJVcJaVYTblZQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "HCa6DUEv": {
+      "filename": "treefall-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/J2i9OGg6/versions/HCa6DUEv/treefall-1.0.0.jar",
+      "hash": "sha512-mhULgjNjVHiRyQRZQVGw5iVs6/c58DkBUCj7b5Z/PaASbH6qUfcNAW04GRWx+0ggzkA9LR/1HPFzans4mncg3w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "eSbo9PQK": {
+      "filename": "treefall-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/J2i9OGg6/versions/eSbo9PQK/treefall-1.3.0.jar",
+      "hash": "sha512-x65cMoWcDwF3gQgqQUuH9+j1OFq9Rj1bslPJAc/Xu1Pi2D0iYA70UzzuADVHgQrSxQmfuEXmdEr+GxYy9R/Crw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gAr2TLvo": {
+      "filename": "treefall-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/J2i9OGg6/versions/gAr2TLvo/treefall-1.0.0.jar",
+      "hash": "sha512-9+oHQ+/1RdonYkh9Esk4RvtEnJkX0gzbREeSA1HhUgedx+h0H5u5Nbh4FXn5ihipQfVy7S930filpPTOMoRk5g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mFAzG6TS": {
+      "filename": "treefall-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/J2i9OGg6/versions/mFAzG6TS/treefall-1.0.0.jar",
+      "hash": "sha512-X1q0hou7u+gPHlovwjz/IIwACnKWJsV7IKPR5++8C5fMgK7Slwt/JnBWhe3aaa+NTjRjm2LT7vlbJlV381mTaw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "t3N86jsu": {
+      "filename": "treefall-fabric-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/J2i9OGg6/versions/t3N86jsu/treefall-fabric-1.3.2.jar",
+      "hash": "sha512-ugcUTT3vdf5GX1lQWdqnVsTt+VaMrxB/ctAoOKjGTT8n0+gqyejJtOx4Hpc+zaI9kPGG/SMkamhsccuJczp0uA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "HCa6DUEv",
+      "gAr2TLvo"
+    ],
+    "26.1+fabric": [
+      "mFAzG6TS"
+    ],
+    "26.1.1+fabric": [
+      "mFAzG6TS"
+    ],
+    "26.1.2+fabric": [
+      "eSbo9PQK",
+      "mFAzG6TS"
+    ],
+    "26.2+fabric": [
+      "t3N86jsu"
+    ],
+    "26.2+neoforge": [
+      "1i29wn14"
+    ]
+  }
+}

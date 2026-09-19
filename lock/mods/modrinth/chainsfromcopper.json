@@ -1,0 +1,66 @@
+{
+  "slug": "chainsfromcopper",
+  "projectId": "AmpFlB6c",
+  "versions": {
+    "BaFed3qx": {
+      "filename": "copperchains.zip",
+      "url": "https://cdn.modrinth.com/data/AmpFlB6c/versions/BaFed3qx/copperchains.zip",
+      "hash": "sha512-tBx/JYsYmAI6+3GQpBPswMAateBCLujJQFHsem3y3bTjVn4gBrlif+8c/D+gqo59DFNH5Imc5mCgw5323lR3Tg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "wyPHRpIq": {
+      "filename": "create-chains-from-copper-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AmpFlB6c/versions/wyPHRpIq/create-chains-from-copper-1.0.0.jar",
+      "hash": "sha512-cKbxvpk5gWa/36yTixnBxjhv8QQc9cOHxeHqx43aXvpEFM8J570Umsf6CCUM4A3jSkXDX7yvZ5gV9RLkZvWjlw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "BaFed3qx"
+    ],
+    "1.20.1+fabric": [
+      "wyPHRpIq"
+    ],
+    "1.20.1+forge": [
+      "wyPHRpIq"
+    ],
+    "1.20.1+neoforge": [
+      "wyPHRpIq"
+    ],
+    "1.20.1+quilt": [
+      "wyPHRpIq"
+    ]
+  }
+}

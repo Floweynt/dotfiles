@@ -1,0 +1,122 @@
+{
+  "slug": "tame-tools",
+  "projectId": "u0ER8z2O",
+  "versions": {
+    "AqEhqLc6": {
+      "filename": "TameTools-0.2-forge.jar",
+      "url": "https://cdn.modrinth.com/data/u0ER8z2O/versions/AqEhqLc6/TameTools-0.2-forge.jar",
+      "hash": "sha512-Tw5LAlfBpZ7qDBPfObxBo6i4Z0oWG3zHe1B5XBh1xn7UQotYOpye8nJRnfDrp86uwAwoje30/Dz4gT21X6dn/w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "tameable",
+          "projectId": "jJkK19x7",
+          "type": "required"
+        }
+      ]
+    },
+    "IutbnGSw": {
+      "filename": "TameTools-0.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/u0ER8z2O/versions/IutbnGSw/TameTools-0.1-forge.jar",
+      "hash": "sha512-P2B1kNhwsEZm0XRbqDzx/Rj9hYfR+nSPFSPmLbMXPdeONAJO5UYuKIAz8cCKjYLpvhS42plKqJWTwAblIUGhsw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "tameable",
+          "projectId": "jJkK19x7",
+          "type": "required"
+        }
+      ]
+    },
+    "W00d1uQQ": {
+      "filename": "TameTools-0.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/u0ER8z2O/versions/W00d1uQQ/TameTools-0.2-fabric.jar",
+      "hash": "sha512-bgj02VH/7U28iVePlf2LNbpgiySztp/ffBmmxevbiI/nGS9fqLnTf7U2w0ZPiw9jCc5GV1LZLr+g6PCYoR6u1Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "tameable",
+          "projectId": "jJkK19x7",
+          "type": "required"
+        }
+      ]
+    },
+    "lKa1CMxc": {
+      "filename": "TameTools-0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/u0ER8z2O/versions/lKa1CMxc/TameTools-0.1-fabric.jar",
+      "hash": "sha512-yRBd8gcSAud868G+aSuu8Yp3Urww7NX/jhMpkB9Hu8qyN/zjKJVBjK/IVpWSQlVJ6YApCnPxcEnbJctzqFzANA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "tameable",
+          "projectId": "jJkK19x7",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "W00d1uQQ",
+      "lKa1CMxc"
+    ],
+    "1.20.1+forge": [
+      "AqEhqLc6",
+      "IutbnGSw"
+    ],
+    "1.20.1+neoforge": [
+      "AqEhqLc6",
+      "IutbnGSw"
+    ]
+  }
+}

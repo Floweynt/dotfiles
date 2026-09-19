@@ -1,0 +1,63 @@
+{
+  "slug": "auto-lan",
+  "projectId": "MpJfqdMf",
+  "versions": {
+    "BI78t9LW": {
+      "filename": "auto-lan-1.0.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/MpJfqdMf/versions/BI78t9LW/auto-lan-1.0.0%2B1.21.10.jar",
+      "hash": "sha512-HvQUL2oc+q5z9nsVsgY2TkP/p017GoCFSLt3k9mvmUvtdrSoo1RBAg1KXhZLmez84h1ubI42j/nU+PUxYuj1XQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qVlUWau9": {
+      "filename": "auto-lan-1.0.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/MpJfqdMf/versions/qVlUWau9/auto-lan-1.0.1%2B26.1.jar",
+      "hash": "sha512-fPaS2q6MXmAwAcSSnMTfW0TZffxYMQU7ci36403YtmIPGsETV4PmsE2eJOesP7Is1DfW5BFJkCA62RofW9Zjfg==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "BI78t9LW"
+    ],
+    "1.21.10+quilt": [
+      "BI78t9LW"
+    ],
+    "1.21.11+fabric": [
+      "BI78t9LW"
+    ],
+    "1.21.11+quilt": [
+      "BI78t9LW"
+    ],
+    "26.1+fabric": [
+      "qVlUWau9"
+    ],
+    "26.1+quilt": [
+      "qVlUWau9"
+    ]
+  }
+}

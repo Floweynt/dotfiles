@@ -1,0 +1,48 @@
+{
+  "slug": "pvpcrosshair",
+  "projectId": "yTllJwyd",
+  "versions": {
+    "XD0lJXLU": {
+      "filename": "pvpcrosshair-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yTllJwyd/versions/XD0lJXLU/pvpcrosshair-1.0.0.jar",
+      "hash": "sha512-jWF6qxtwPfi/rxznsn2eXLaxW1gX/qWVrG6PEacvLmgcCU06BW03Su0iG2ZfxIMXQgnWo8NwduTcbeGj4NFcjg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hqC8ZOrg": {
+      "filename": "pvp-crosshair-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yTllJwyd/versions/hqC8ZOrg/pvp-crosshair-1.0.0.jar",
+      "hash": "sha512-jbrjNzZ3vJbSineP8O8LFID80qqNyjYE3ESo3gAgi6JSXwo+bfygzuRms8KMWlZKZFRvuM13WzAtm/+Db6m7JQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "hqC8ZOrg"
+    ],
+    "26.2+fabric": [
+      "XD0lJXLU"
+    ]
+  }
+}

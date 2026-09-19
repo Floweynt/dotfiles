@@ -1,0 +1,85 @@
+{
+  "slug": "themetip",
+  "projectId": "ggOHbDrC",
+  "versions": {
+    "BiGXMRuA": {
+      "filename": "themetip-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ggOHbDrC/versions/BiGXMRuA/themetip-1.0.1.jar",
+      "hash": "sha512-UsoFLtf2bj1OWsFlU0G0/2mt8EQtpVqp816qMYQNfveAIete7K+Dj+w47IFran53vCanUwx+KBcZqYld+lSPhw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "nqOUltUx": {
+      "filename": "themetip-u0.6.jar",
+      "url": "https://cdn.modrinth.com/data/ggOHbDrC/versions/nqOUltUx/themetip-u0.6.jar",
+      "hash": "sha512-6pwvseBvdBLqK+TlDF8/IrxpFw5D9bW2FeJf1GiRYz5uB2GGBL+zWDowM4R+M7JNz0V/PRcD10aN+G4bg8uJzw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "nqOUltUx"
+    ],
+    "1.20+quilt": [
+      "nqOUltUx"
+    ],
+    "1.20.1+fabric": [
+      "nqOUltUx",
+      "BiGXMRuA"
+    ],
+    "1.20.1+quilt": [
+      "nqOUltUx",
+      "BiGXMRuA"
+    ],
+    "1.20.2+fabric": [
+      "nqOUltUx",
+      "BiGXMRuA"
+    ],
+    "1.20.2+quilt": [
+      "nqOUltUx",
+      "BiGXMRuA"
+    ]
+  }
+}

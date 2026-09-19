@@ -1,0 +1,72 @@
+{
+  "slug": "itemrendertweaks",
+  "projectId": "hn4TemV7",
+  "versions": {
+    "Jtj08wUZ": {
+      "filename": "ItemRenderTweaks-1.1.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/hn4TemV7/versions/Jtj08wUZ/ItemRenderTweaks-1.1.0%2B1.21.4.jar",
+      "hash": "sha512-biMDxi2qX61t6My5Oea3weawMzZgoi/4ljtJGIcatFg3hjO9AwIrfj1Z057WZjlMerkL5W1tYdKotH19fXLn/w==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "O0lvK29p": {
+      "filename": "ItemRenderTweaks-1.0.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/hn4TemV7/versions/O0lvK29p/ItemRenderTweaks-1.0.0%2B1.21.4.jar",
+      "hash": "sha512-e7Gsi77JyBP/QgSaywfYESIEvzFv22Wj3Dkte72bMG2qFbaY1NiQMiA5aPf407M0UhsOSFVKbHHGH2bcqVqSuA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "Jtj08wUZ",
+      "O0lvK29p"
+    ]
+  }
+}

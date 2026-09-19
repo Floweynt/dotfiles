@@ -1,0 +1,42 @@
+{
+  "slug": "particular-patches",
+  "projectId": "Wk0Sq3Ea",
+  "versions": {
+    "mKwgIThY": {
+      "filename": "particular-patches-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Wk0Sq3Ea/versions/mKwgIThY/particular-patches-1.0.0.jar",
+      "hash": "sha512-fp8LiBBPbWZWchpv8jgHMSC7NTMGx15eP4xW1UBerqp+X79nrPmjnw0joF0u1H/ZzxleHrnrLhhCAJtSOvpFYA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "particular",
+          "projectId": "B1CcCd9h",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "mKwgIThY"
+    ],
+    "1.20.1+quilt": [
+      "mKwgIThY"
+    ],
+    "1.21.1+fabric": [
+      "mKwgIThY"
+    ],
+    "1.21.1+quilt": [
+      "mKwgIThY"
+    ]
+  }
+}

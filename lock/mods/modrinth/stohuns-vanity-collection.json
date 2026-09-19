@@ -1,0 +1,40 @@
+{
+  "slug": "stohuns-vanity-collection",
+  "projectId": "efWNOYII",
+  "versions": {
+    "qNXKP5uB": {
+      "filename": "stohuns_vanity_collection-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/efWNOYII/versions/qNXKP5uB/stohuns_vanity_collection-1.0.0.jar",
+      "hash": "sha512-X64+RwWkSkmHtSUli/w62T7jmmHl/8tf1p06OMOrDMyWRJOV8kC/lUagvzNJGq4b/UxL5MatcRtJHGLar9zDZA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "qNXKP5uB"
+    ],
+    "1.21.1+neoforge": [
+      "qNXKP5uB"
+    ]
+  }
+}

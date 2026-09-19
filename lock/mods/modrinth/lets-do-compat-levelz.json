@@ -1,0 +1,52 @@
+{
+  "slug": "lets-do-compat-levelz",
+  "projectId": "gYeJFXyI",
+  "versions": {
+    "n3kYMYvv": {
+      "filename": "letsdocompatlevelz-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/gYeJFXyI/versions/n3kYMYvv/letsdocompatlevelz-1.0.1.jar",
+      "hash": "sha512-b7FsajbF3T38E6CBUMcPK/wEJMU+0si9Fjtmy8YJw6zrMme4mARnhQ7q/LKPFbEim3VyLoLjYXWBd0obciZF9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "obMeXuc7": {
+      "filename": "letsdocompatlevelz-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gYeJFXyI/versions/obMeXuc7/letsdocompatlevelz-1.0.0.jar",
+      "hash": "sha512-MHUVeNIWMTxNnAgHT1L40NswW90x77hOD1x5GNpHF8HvO/D6jZV+12DR6lzezu1wmpkNyT4Uvha5AQ/LmC2YjQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "n3kYMYvv",
+      "obMeXuc7"
+    ]
+  }
+}

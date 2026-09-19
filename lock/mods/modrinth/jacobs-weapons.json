@@ -1,0 +1,40 @@
+{
+  "slug": "jacobs-weapons",
+  "projectId": "wPaDtmWE",
+  "versions": {
+    "Nm5oLCXg": {
+      "filename": "jweapons-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wPaDtmWE/versions/Nm5oLCXg/jweapons-1.0.0.jar",
+      "hash": "sha512-O+o6/1GBqIhH3wmKhqqxE/BGogbVTzxRWitTpnBu+hvJH+aCWvcwQc4HMTksS0qBEFCTvMoeUf/+BjeOpdJBVA==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "japi",
+          "projectId": "gEyzz2kw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.3+fabric": [
+      "Nm5oLCXg"
+    ],
+    "1.20.4+fabric": [
+      "Nm5oLCXg"
+    ]
+  }
+}

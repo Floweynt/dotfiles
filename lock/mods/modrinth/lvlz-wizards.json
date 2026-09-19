@@ -1,0 +1,36 @@
+{
+  "slug": "lvlz-wizards",
+  "projectId": "Gw6NAhvI",
+  "versions": {
+    "1140cAMr": {
+      "filename": "lvlz_wizards-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Gw6NAhvI/versions/1140cAMr/lvlz_wizards-2.0.jar",
+      "hash": "sha512-9VTnPFGqE3cSfCPd0n3Q3qblcn+ySv/iGnzqHBHVhAmtEU3xEe/4x2c6nHVW1CroqZ9AkrkVitM9aTtxkzoXAw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "1140cAMr"
+    ]
+  }
+}

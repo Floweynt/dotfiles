@@ -1,0 +1,70 @@
+{
+  "slug": "mob-fight-utils",
+  "projectId": "tzGsmM6C",
+  "versions": {
+    "QfP8hweC": {
+      "filename": "MobFightUtils-1.0.0+mc.1.19.1.jar",
+      "url": "https://cdn.modrinth.com/data/tzGsmM6C/versions/1.0.0%2Bmc.1.19.1/MobFightUtils-1.0.0%2Bmc.1.19.1.jar",
+      "hash": "sha512-shnVd6361lA7IscXb6Jhscf9x113xrNkecojQ5fKXlJx1ApXjK8H0QRiaHgMfBgHqf1sBEUlwlujsjvYGlj0qQ==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tcWCzSeu": {
+      "filename": "MobFightUtils-1.0.0+mc.1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/tzGsmM6C/versions/tcWCzSeu/MobFightUtils-1.0.0%2Bmc.1.20.1.jar",
+      "hash": "sha512-ZCiLiHA6498CrLwZwLNj4T1beyr2PYy8RK7IrHeq416gEOu3WVHxYrmVbIlZ6C5sUW0nCWBjbg4gYkHoe0IXyQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.1+fabric": [
+      "QfP8hweC"
+    ],
+    "1.19.1+quilt": [
+      "QfP8hweC"
+    ],
+    "1.20.1+fabric": [
+      "tcWCzSeu"
+    ],
+    "1.20.2+fabric": [
+      "tcWCzSeu"
+    ],
+    "1.20.3+fabric": [
+      "tcWCzSeu"
+    ],
+    "1.20.4+fabric": [
+      "tcWCzSeu"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "more-waystones",
+  "projectId": "pAlNq7Q0",
+  "versions": {
+    "6fsw7IcG": {
+      "filename": "MoreWaystones-Fabric-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/pAlNq7Q0/versions/6fsw7IcG/MoreWaystones-Fabric-1.2.0.jar",
+      "hash": "sha512-X+2EawfGNc+nNz5ngM08tqcf8w2EqF28BvPKjpIgyjfayxfmh7jN0DUaXg7cxxTJCp2z+e5HhwSoB8m26vTmzA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fwaystones",
+          "projectId": "sTZr7NVo",
+          "type": "required"
+        }
+      ]
+    },
+    "AVQMM77i": {
+      "filename": "MoreWaystones-Fabric-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/pAlNq7Q0/versions/AVQMM77i/MoreWaystones-Fabric-1.3.0.jar",
+      "hash": "sha512-b3bn9oT7R8OW1wqim4WLh3J2uwk3xueNpidM2LiHymrkwCXVfoeo7MPCau07liqma3hJPHv4HtBQpJQakiH7cA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fwaystones",
+          "projectId": "sTZr7NVo",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "AVQMM77i",
+      "6fsw7IcG"
+    ]
+  }
+}

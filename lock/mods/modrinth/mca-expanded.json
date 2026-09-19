@@ -1,0 +1,90 @@
+{
+  "slug": "mca-expanded",
+  "projectId": "3xZjvkQF",
+  "versions": {
+    "eHIfNdYA": {
+      "filename": "mca-expanded-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/3xZjvkQF/versions/eHIfNdYA/mca-expanded-1.0.1.jar",
+      "hash": "sha512-irtoi32YXWGAj6ZnHhiwK4Coya0jfASD0XpDMNOJfen6HtSDUs3k1KdYso2Zx9wkQntpTd8hdPzmSalp5Z9OSA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "minecraft-comes-alive-reborn",
+          "projectId": "1W98a849",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "gjfRhCkl": {
+      "filename": "mca-expanded-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3xZjvkQF/versions/gjfRhCkl/mca-expanded-1.0.0.jar",
+      "hash": "sha512-FmkRRsaMc1mtkk4Zg9CBZqSnMcDAiUdmA8jmCya/rWMa+CTNeGLX/WiWPauV/h3MYk48N+4nSEtrtMybQjPsHg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "minecraft-comes-alive-reborn",
+          "projectId": "1W98a849",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eHIfNdYA",
+      "gjfRhCkl"
+    ],
+    "1.20.2+fabric": [
+      "eHIfNdYA",
+      "gjfRhCkl"
+    ],
+    "1.20.3+fabric": [
+      "eHIfNdYA",
+      "gjfRhCkl"
+    ],
+    "1.20.4+fabric": [
+      "eHIfNdYA",
+      "gjfRhCkl"
+    ]
+  }
+}

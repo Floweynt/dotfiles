@@ -1,0 +1,42 @@
+{
+  "slug": "trailsandtweaks",
+  "projectId": "OPGlhXX9",
+  "versions": {
+    "dKB9ocwb": {
+      "filename": "trailier-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OPGlhXX9/versions/dKB9ocwb/trailier-1.0.0.jar",
+      "hash": "sha512-NveF/WniG88/a3eBOY3wSfeb8Y6hJYNN9y9DLLAWvOg4xL7Ozs41hNerERV4amuJTnL4lxcgl4cQKKrfyu8XAw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "dKB9ocwb"
+    ],
+    "1.20+quilt": [
+      "dKB9ocwb"
+    ],
+    "1.20.1+fabric": [
+      "dKB9ocwb"
+    ],
+    "1.20.1+quilt": [
+      "dKB9ocwb"
+    ]
+  }
+}

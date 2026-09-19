@@ -1,0 +1,31 @@
+{
+  "slug": "sbeto",
+  "projectId": "jffOBV5l",
+  "versions": {
+    "ai2yih5E": {
+      "filename": "sbeto-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jffOBV5l/versions/ai2yih5E/sbeto-1.0.0.jar",
+      "hash": "sha512-PuuJkayQXke9oSa6Nm9eMtZsyhtXKS8Oyqhcgf2jnSw1v+gtaEwk7MJSHsSW+8cOLJp2AP2cOzti2UZqzaZWJA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "ai2yih5E"
+    ]
+  }
+}

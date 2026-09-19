@@ -1,0 +1,94 @@
+{
+  "slug": "shiny-pots",
+  "projectId": "Od9mdnl7",
+  "versions": {
+    "8h6J5Gnw": {
+      "filename": "shinypots-1.0.1+mc1.21onwards.jar",
+      "url": "https://cdn.modrinth.com/data/Od9mdnl7/versions/8h6J5Gnw/shinypots-1.0.1%2Bmc1.21onwards.jar",
+      "hash": "sha512-p897M+347+NzToLdesLqzoRoOHh+8uDP2v50BEWUztzGK53btQ1G+RUWtKrUuxXtNT6O10NS7mLm2xEjdzTtKA==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Iwz6UEBU": {
+      "filename": "shinypots-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Od9mdnl7/versions/Iwz6UEBU/shinypots-1.0.0.jar",
+      "hash": "sha512-SLYv963fx4pnE3wYzugSAP9noQqRr3YCn+uqQFJiw+MKicfmqGuJDVho8TDG6ucQieTLvDc0RGRMhKgFMEThAg==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vJq9b9iT": {
+      "filename": "shinypots-1.0.1+mc1.21.10-11.jar",
+      "url": "https://cdn.modrinth.com/data/Od9mdnl7/versions/vJq9b9iT/shinypots-1.0.1%2Bmc1.21.10-11.jar",
+      "hash": "sha512-9KrSU+dBYYB6BHOoZYixNJCbMW3Llucs1BeXLjIhcoioQmJhQkWMAWPGhOZ1/d0sUpChIxffUPL7+6d3CQMvGw==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ytx61S0g": {
+      "filename": "shinypots-1.0.1+mc1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/Od9mdnl7/versions/ytx61S0g/shinypots-1.0.1%2Bmc1.21.8.jar",
+      "hash": "sha512-oYuHDMUUE/dwQHhbQRqrAbydkKJCKeZkNrZjqtLZ9qICNrjZxOtesNn1j/6ouq9YJ4JVIbeUTU8GI9VkxQl2vQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "vJq9b9iT"
+    ],
+    "1.21.11+fabric": [
+      "vJq9b9iT"
+    ],
+    "1.21.5+fabric": [
+      "8h6J5Gnw",
+      "Iwz6UEBU"
+    ],
+    "1.21.6+fabric": [
+      "8h6J5Gnw",
+      "Iwz6UEBU"
+    ],
+    "1.21.7+fabric": [
+      "8h6J5Gnw"
+    ],
+    "1.21.8+fabric": [
+      "ytx61S0g"
+    ]
+  }
+}

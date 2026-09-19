@@ -1,0 +1,98 @@
+{
+  "slug": "forager-bow-enchantment",
+  "projectId": "vJcKDd8R",
+  "versions": {
+    "JlDHRGSH": {
+      "filename": "forager-bow-ench-1.0.0+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/vJcKDd8R/versions/JlDHRGSH/forager-bow-ench-1.0.0%2B1.19.4.jar",
+      "hash": "sha512-N1D8J5hz3yMZCFvphIt20Ty0ysK8jgG31SvFRTeYYuaE28LV6i5RQrkfZTIz3pqJKtFV9iQYgdxTUPjJ2ZNfvg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vWedtxhl": {
+      "filename": "forager-bow-ench-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/vJcKDd8R/versions/vWedtxhl/forager-bow-ench-1.0.2.jar",
+      "hash": "sha512-npCRQrZM5jjgxHp3ZP6hWbuLXJKdoH2qRVLLF8Yy3urxPRdXHX0UTF6ncS0N0rweXJUHgzeY0FJRlDeN39m5LA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ymDfqwE6": {
+      "filename": "forager-bow-ench-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/vJcKDd8R/versions/ymDfqwE6/forager-bow-ench-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-SHvD3KvqA1D6j6ttoWl4RxybAF1vzDRXOTnEHj+XJ2geTvKx2QYmXHFKFopu9LXvs/ZZbzFhDjnfswlADLcskA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "JlDHRGSH"
+    ],
+    "1.20+fabric": [
+      "vWedtxhl",
+      "ymDfqwE6"
+    ],
+    "1.20.1+fabric": [
+      "vWedtxhl",
+      "ymDfqwE6"
+    ],
+    "1.20.2+fabric": [
+      "vWedtxhl"
+    ],
+    "1.20.3+fabric": [
+      "vWedtxhl"
+    ],
+    "1.20.4+fabric": [
+      "vWedtxhl"
+    ]
+  }
+}

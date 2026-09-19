@@ -1,0 +1,130 @@
+{
+  "slug": "attribute-swap-indicator",
+  "projectId": "HweV4wCh",
+  "versions": {
+    "2Qj2zSRw": {
+      "filename": "attribute-swap-indicator-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HweV4wCh/versions/2Qj2zSRw/attribute-swap-indicator-1.0.1.jar",
+      "hash": "sha512-MG6BoQz3PLo/Zv3dwAkYuBNdevlfOSAiT27E7XFnYP9THT80FoQ0ENEPbcGrzBHHK/V5Ao+5IN+dKxZ1WFw+eQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FQO1KcvG": {
+      "filename": "attribute-swap-indicator-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/HweV4wCh/versions/FQO1KcvG/attribute-swap-indicator-1.0.3.jar",
+      "hash": "sha512-J7EUNXhDnfcAPMNv9X/Kd+t9k5LiVX2+3NQ2JA6PSQSKMsJWF8pd789hvCb5xLz+2sKk9H/kx6yT/Gfeb62yfA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "GcS6Fmt7": {
+      "filename": "attribute-swap-indicator-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/HweV4wCh/versions/GcS6Fmt7/attribute-swap-indicator-1.0.2.jar",
+      "hash": "sha512-HGpJwsi/QJyTJ88fPluBor8sjUSNvFzmUIuN4ZXeHlM0RXnmvhdbWjC8pKPkQFTYvjJSofU6U3+4dDm/EQGxTA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "Q3pP2pMw": {
+      "filename": "attribute-swap-indicator-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HweV4wCh/versions/Q3pP2pMw/attribute-swap-indicator-1.0.0.jar",
+      "hash": "sha512-S7Jr8TScHPX/zOBjGWfWIRCOOhfGLeDq46qKz8wGwmyMzQbDGQk4BbWv26H602FZD8K1Rcldj7u0CeDc/1z/dw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "2Qj2zSRw"
+    ],
+    "26.1+fabric": [
+      "GcS6Fmt7",
+      "Q3pP2pMw"
+    ],
+    "26.1.1+fabric": [
+      "GcS6Fmt7"
+    ],
+    "26.1.2+fabric": [
+      "GcS6Fmt7"
+    ],
+    "26.2+fabric": [
+      "FQO1KcvG"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "ubl",
+  "projectId": "VHtN7u8P",
+  "versions": {
+    "6GOqO8tu": {
+      "filename": "UnlimitedBannerLayers-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VHtN7u8P/versions/6GOqO8tu/UnlimitedBannerLayers-1.1.0.jar",
+      "hash": "sha512-NLQJf/LdlDTDq6HSwVv+gtPDAgp4Nma2GZvdkAsrhkjtv51s1ZWUeGtmgw3Pf+UXeK+3EYtnv9m4irV4mIr3Dg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VtMaZAxi": {
+      "filename": "UnlimitedBannerLayers-1.0.0-dev.jar",
+      "url": "https://cdn.modrinth.com/data/VHtN7u8P/versions/VtMaZAxi/UnlimitedBannerLayers-1.0.0-dev.jar",
+      "hash": "sha512-IMpsofTrMzSIfUk82h69sMVq1te0H+krhQ+LbEa2XKU4WYG3DlVJQOPswSjZkZdRct8jsE+T1A+TOlqnRP1WPA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "6GOqO8tu",
+      "VtMaZAxi"
+    ],
+    "1.20.1+quilt": [
+      "VtMaZAxi"
+    ]
+  }
+}

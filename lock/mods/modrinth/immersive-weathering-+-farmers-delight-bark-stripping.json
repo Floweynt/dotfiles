@@ -1,0 +1,80 @@
+{
+  "slug": "immersive-weathering-+-farmers-delight-bark-stripping",
+  "projectId": "pTyR3rHq",
+  "versions": {
+    "Jd06oseB": {
+      "filename": "farmersdelight_immersive_weathering_cutting_compat.zip",
+      "url": "https://cdn.modrinth.com/data/pTyR3rHq/versions/Jd06oseB/farmersdelight_immersive_weathering_cutting_compat.zip",
+      "hash": "sha512-pPzfcY1gwfjpiO349DBmjCYdbpMJ9pvdfWh8EpqBQlzSnoVYO73EpTPefEaN52ibPN/XahyOBqwpqDx7K6nuxg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "gNvSZ1WQ": {
+      "filename": "farmersdelight_immersive_weathering_cutting_compat.zip",
+      "url": "https://cdn.modrinth.com/data/pTyR3rHq/versions/gNvSZ1WQ/farmersdelight_immersive_weathering_cutting_compat.zip",
+      "hash": "sha512-MePP9aIdxOOQHVXjSYUYnC3W/x1PGmXoqVVNRVpqSiugrcr62pVzDYMjm1/G9B4/A97uKJW6WMmwXRb9OkJEVg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-weathering",
+          "projectId": "jkskOO9i",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "Jd06oseB"
+    ],
+    "1.20+fabric": [
+      "Jd06oseB"
+    ],
+    "1.20+forge": [
+      "Jd06oseB"
+    ],
+    "1.20+neoforge": [
+      "Jd06oseB"
+    ],
+    "1.20.1+datapack": [
+      "Jd06oseB",
+      "gNvSZ1WQ"
+    ],
+    "1.20.1+fabric": [
+      "Jd06oseB",
+      "gNvSZ1WQ"
+    ],
+    "1.20.1+forge": [
+      "Jd06oseB",
+      "gNvSZ1WQ"
+    ],
+    "1.20.1+neoforge": [
+      "Jd06oseB"
+    ]
+  }
+}

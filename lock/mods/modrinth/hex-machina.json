@@ -1,0 +1,57 @@
+{
+  "slug": "hex-machina",
+  "projectId": "uQ6K0yH1",
+  "versions": {
+    "FEkNBdoN": {
+      "filename": "hex_machina-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/uQ6K0yH1/versions/FEkNBdoN/hex_machina-1.0.1.jar",
+      "hash": "sha512-yl+69K2i8n4uVU7hVyygrTE0q85a+lWfQesMbx4YJSjw/YizQ/hpH6zj6yMQKTny/k3wogsc22e0lj2kFRi8Ew==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fMzst34r": {
+      "filename": "hex_machina-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uQ6K0yH1/versions/fMzst34r/hex_machina-1.0.0.jar",
+      "hash": "sha512-qX9c6cbY/51gTAuE/jIdPQCVyvekMHx4q2JK/A6BKqkaYkIxOp1ncj5fmXgbpGNGCN83Poae6B14YdmlMrfNkA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FEkNBdoN",
+      "fMzst34r"
+    ]
+  }
+}

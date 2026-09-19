@@ -1,0 +1,31 @@
+{
+  "slug": "cubliminal-mod",
+  "projectId": "Ebxv6Uow",
+  "versions": {
+    "ffJHKR7i": {
+      "filename": "cubliminal-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ebxv6Uow/versions/ffJHKR7i/cubliminal-1.0.jar",
+      "hash": "sha512-bmuPXpZ5bRPZVquVZh3Fk22ERJudX8Eo+XBTvGDLSHnuIJ3QXi0UfTnNNclHKqPo38MpZTJAvlJ8kMtWecewag==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.3+fabric": [
+      "ffJHKR7i"
+    ]
+  }
+}

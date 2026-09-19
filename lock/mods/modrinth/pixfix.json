@@ -1,0 +1,54 @@
+{
+  "slug": "pixfix",
+  "projectId": "rOF3FsjQ",
+  "versions": {
+    "Xg23smfS": {
+      "filename": "pixie-fix-v1.jar",
+      "url": "https://cdn.modrinth.com/data/rOF3FsjQ/versions/Xg23smfS/pixie-fix-v1.jar",
+      "hash": "sha512-fX9981PZS02DJtOBAsu78Rw/0lRGlvugww+biUaJm0RL8sj3DTr64p59JLw+xgBAHb4hZ8p3JH9eOi4atDF1Yg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "iceandfire-ce",
+          "projectId": "VpmCsizY",
+          "type": "required"
+        }
+      ]
+    },
+    "tz84I7pK": {
+      "filename": "Pixie Fix v1.zip",
+      "url": "https://cdn.modrinth.com/data/rOF3FsjQ/versions/tz84I7pK/Pixie%20Fix%20v1.zip",
+      "hash": "sha512-Vlbny4VBKJEz1p+/BbA/6h2hCUeQIhz2hL7DYvQo0FEIeGIFB1MsybcboQNDmd3pNAEvw0EtjCGD4r0sn8NWeQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "iceandfire-ce",
+          "projectId": "VpmCsizY",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "tz84I7pK"
+    ],
+    "1.20.1+fabric": [
+      "Xg23smfS"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "trigger-happy",
+  "projectId": "XKZVYHER",
+  "versions": {
+    "4W0etJbO": {
+      "filename": "TriggerHappy-v1.0.4-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/XKZVYHER/versions/4W0etJbO/TriggerHappy-v1.0.4-1.20.1.jar",
+      "hash": "sha512-I/WdVYMgH3h2Ix30rL+UnmaXRoRKyDvU5Q5B6ABSyshydpEqDw4kITUIAKZbWkrP1dUmaCSHG0XaYzaYLVc3qQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "M0jTsUUL": {
+      "filename": "Trigger-Happy-1.20.1-v1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/XKZVYHER/versions/M0jTsUUL/Trigger-Happy-1.20.1-v1.0.3.jar",
+      "hash": "sha512-J31Wjnk4iB0MwivcUE6+fUZina0hF4pkvm8z3j522ZPrQVqIujsXjCT7ZttH7Sf3byNrbUXYL80FWiYTeoxBEQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Moabp0N9": {
+      "filename": "Trigger-Happy-v1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/XKZVYHER/versions/Moabp0N9/Trigger-Happy-v1.0.2.jar",
+      "hash": "sha512-QgRxe6Kv7JhM2sIuHCg2VEcqljJKTaJgetHTiuuvI/wkLBCGtQs2BZOChQz8qlMu4ASzo26xxjOpxbtMQb5EBQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ssvCptQk": {
+      "filename": "TriggerHappy-v1.0.3-1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/XKZVYHER/versions/ssvCptQk/TriggerHappy-v1.0.3-1.19.4.jar",
+      "hash": "sha512-S5TseYw43Kd0lvpVHxxCcXSyQz5f8RTgZXS9lJTCMTdvOtvfn6JOCA+y4tfLZTYu4WArQK8XBGjH7vzLOr/3lg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "ssvCptQk",
+      "Moabp0N9"
+    ],
+    "1.20.1+fabric": [
+      "4W0etJbO",
+      "M0jTsUUL"
+    ]
+  }
+}

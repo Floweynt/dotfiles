@@ -1,0 +1,116 @@
+{
+  "slug": "damage-tint",
+  "projectId": "HNLSku3h",
+  "versions": {
+    "8s868J2g": {
+      "filename": "damage-tint-forge-1.16.5-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HNLSku3h/versions/1.1.0/damage-tint-forge-1.16.5-1.1.0.jar",
+      "hash": "sha512-ytzc5JP2w8q2aJeAp89syt+nYKRgJbVxnC7Kdg+kUsl2h3GKtR7EExHIYhuh9VAniMvEyARVM/w4Io2U/GMI2Q==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FjivBUl1": {
+      "filename": "damagetint-neoforge-1.2.0+mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/HNLSku3h/versions/FjivBUl1/damagetint-neoforge-1.2.0%2Bmc26.2.jar",
+      "hash": "sha512-QXMXqHacdE34ZbnTBop/Oc1usjEYZDsT66KtzyyEHgaNZ3uMPtuliXrLXAfP+cpo/e6N6OwC1PFZpMMkIse+Lg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "JBJkKjGd": {
+      "filename": "damage-tint-fabric-1.16.5-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HNLSku3h/versions/1.1.0/damage-tint-fabric-1.16.5-1.1.0.jar",
+      "hash": "sha512-oPXkoZrlyVSsRRI8g3Hdi0b3M+SOLPS2llDT1GDdM+bKyU9G/F0tIpaiHIUR2auz+OIEA5bngtDqJ+GN41RUrA==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "WKVgK5de": {
+      "filename": "damagetint-fabric-1.2.0+mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/HNLSku3h/versions/WKVgK5de/damagetint-fabric-1.2.0%2Bmc26.2.jar",
+      "hash": "sha512-GGDMOYE3Xq0SDaTavyXmYM1tr4ULSyLoqBFAkfbydUI5AwgtPYFKFqXteDMKz9ijW0ak0SUu865S22KFxJSMiQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aUMtZG46": {
+      "filename": "damage-tint-forge-1.17.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HNLSku3h/versions/1.1.0-forge/damage-tint-forge-1.17.1-1.1.0.jar",
+      "hash": "sha512-7X1IKckaISHpF/jLNgpsgUGdx66tsYkO8gSAniqniE0/gTSjJOvK3R4hEmPLupiFj0/XA93h4TPwQmJmeudFIg==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "m87W4lfV": {
+      "filename": "damage-tint-fabric-1.17.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HNLSku3h/versions/1.1.0/damage-tint-fabric-1.17.1-1.1.0.jar",
+      "hash": "sha512-cdwytCmBt1K57+3PtvXpiYUB/ucNHA8kC5uo/QrtliQXLbJe+p3TdVgb5gweP/dl54o77xi30vQTOQsoOJXXMQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "JBJkKjGd"
+    ],
+    "1.16.5+forge": [
+      "8s868J2g"
+    ],
+    "1.17.1+fabric": [
+      "m87W4lfV"
+    ],
+    "1.17.1+forge": [
+      "aUMtZG46"
+    ],
+    "26.2+fabric": [
+      "WKVgK5de"
+    ],
+    "26.2+neoforge": [
+      "FjivBUl1"
+    ]
+  }
+}

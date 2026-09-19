@@ -1,0 +1,64 @@
+{
+  "slug": "cobble-too-hot",
+  "projectId": "gh3Ljc1f",
+  "versions": {
+    "SP3NTihB": {
+      "filename": "cobbletoohot-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gh3Ljc1f/versions/SP3NTihB/cobbletoohot-1.0.0.jar",
+      "hash": "sha512-hQyHwlkRQOuUDCsSTMbBYVOiN5KOVFatNXqwpVYtgD5lpoveaw/+Upk4CGEnXZ2R6IUcwSNiSDtjrYCM1LMWGw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        }
+      ]
+    },
+    "X5cZ8DwS": {
+      "filename": "cobbletoohot-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gh3Ljc1f/versions/X5cZ8DwS/cobbletoohot-neoforge-1.0.0.jar",
+      "hash": "sha512-EaJLsAnIvmkpCkzT+MRYAHSzmmfN2BvH0SRxI3SFmU25VAE2/QLv+jKTsSHa/SoFxUwxWqtOHLqPDV/XKkQwfg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "SP3NTihB"
+    ],
+    "1.21.1+neoforge": [
+      "X5cZ8DwS"
+    ]
+  }
+}

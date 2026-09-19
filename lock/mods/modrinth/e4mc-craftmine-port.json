@@ -1,0 +1,31 @@
+{
+  "slug": "e4mc-craftmine-port",
+  "projectId": "R88iF7Se",
+  "versions": {
+    "mQDRMKxv": {
+      "filename": "e4mc-craftmine-port-5.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/R88iF7Se/versions/mQDRMKxv/e4mc-craftmine-port-5.3.0.jar",
+      "hash": "sha512-xEjj+UQ1JnHqeOkc54MNoDhrwyyWHxPilknT987/FTI90JF+g1ZzQtfe2VeekxOCaGYI/+0K5ukq50jROy5EXA==",
+      "gameVersions": [
+        "25w14craftmine"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "25w14craftmine+fabric": [
+      "mQDRMKxv"
+    ]
+  }
+}

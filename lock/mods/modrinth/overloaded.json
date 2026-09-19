@@ -1,0 +1,168 @@
+{
+  "slug": "overloaded",
+  "projectId": "xLF168Wf",
+  "versions": {
+    "LMprZnlh": {
+      "filename": "overloaded-1.1.1+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/xLF168Wf/versions/LMprZnlh/overloaded-1.1.1%2B1.19.3.jar",
+      "hash": "sha512-RkdB+OZ5CO8olU3eg5DXvh1Iq7k8tMlr6tKd7YgWUQm8j4qdX610+P8McUliKOnQHZUXcCubjMYi8EanLiHoIA==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TpZWcT0v": {
+      "filename": "overloaded-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xLF168Wf/versions/TpZWcT0v/overloaded-1.1.0.jar",
+      "hash": "sha512-Q1dEWn2koMAWDuD0zpxBw/j8ZVKLJaeXvDYQpvaBDs/Y8z0EnxV4G1mY0oQGNG0UolO98oWotyjjXsOmNxThkw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hyc7Makc": {
+      "filename": "overloaded-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xLF168Wf/versions/hyc7Makc/overloaded-1.0.0.jar",
+      "hash": "sha512-jEDaS2VpbXnFnTUfNeeHwzYDuYbIRgGpX8EfKhNSa9Lx+IS29vkyiy+cTD1TSVzVU44Elrp0bdk/BJjRKpptQw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qPvaPVhV": {
+      "filename": "overloaded-1.2.0+1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/xLF168Wf/versions/qPvaPVhV/overloaded-1.2.0%2B1.21.5.jar",
+      "hash": "sha512-+9cGno7vW94Cky3Kmrj+7Tu7wPQk1b4+r9NVAX+9POszt6ZObTPp+L+SYGiCsH50CXovMSeM6h5CtjvWkCi9Cw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "TpZWcT0v",
+      "hyc7Makc"
+    ],
+    "1.19+quilt": [
+      "TpZWcT0v"
+    ],
+    "1.19.1+fabric": [
+      "TpZWcT0v",
+      "hyc7Makc"
+    ],
+    "1.19.1+quilt": [
+      "TpZWcT0v"
+    ],
+    "1.19.2+fabric": [
+      "TpZWcT0v",
+      "hyc7Makc"
+    ],
+    "1.19.2+quilt": [
+      "TpZWcT0v"
+    ],
+    "1.19.3+fabric": [
+      "LMprZnlh",
+      "hyc7Makc"
+    ],
+    "1.19.3+quilt": [
+      "LMprZnlh"
+    ],
+    "1.19.4+fabric": [
+      "LMprZnlh"
+    ],
+    "1.19.4+quilt": [
+      "LMprZnlh"
+    ],
+    "1.20+fabric": [
+      "LMprZnlh"
+    ],
+    "1.20+quilt": [
+      "LMprZnlh"
+    ],
+    "1.20.1+fabric": [
+      "LMprZnlh"
+    ],
+    "1.20.1+quilt": [
+      "LMprZnlh"
+    ],
+    "1.20.2+fabric": [
+      "LMprZnlh"
+    ],
+    "1.20.2+quilt": [
+      "LMprZnlh"
+    ],
+    "1.20.3+fabric": [
+      "LMprZnlh"
+    ],
+    "1.20.3+quilt": [
+      "LMprZnlh"
+    ],
+    "1.20.4+fabric": [
+      "LMprZnlh"
+    ],
+    "1.20.4+quilt": [
+      "LMprZnlh"
+    ],
+    "1.21.5+fabric": [
+      "qPvaPVhV"
+    ]
+  }
+}

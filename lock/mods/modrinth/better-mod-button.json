@@ -1,0 +1,77 @@
+{
+  "slug": "better-mod-button",
+  "projectId": "5Mh4sZiU",
+  "versions": {
+    "6vN1imbK": {
+      "filename": "[1.15]bettermodbutton-1.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/5Mh4sZiU/versions/v1.1.4%2B1.15.2/[1.15]bettermodbutton-1.1.4.jar",
+      "hash": "sha512-rE74PhuAPRPDarZKiyNudFrdNV1LxBdGSHKC+ycuEI1809fvuCDAnoeO202mLSzkia8/tlVAkExDdFwhRqnXCA==",
+      "gameVersions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "gXJjqvbt": {
+      "filename": "[1.16]bettermodbutton-1.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/5Mh4sZiU/versions/v1.1.4%2B1.16/[1.16]bettermodbutton-1.1.4.jar",
+      "hash": "sha512-SBThU036gDZdtBRSVRN7D/YJBPiQQ00WriB9p6NFbA58yZYdbfq/y91LOFvisfsUDixkrd1bRG1dnteRnjxAxQ==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "uzLjik9a": {
+      "filename": "[1.16.2-4]bettermodbutton-1.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/5Mh4sZiU/versions/v1.1.4%2B1.16.2/[1.16.2-4]bettermodbutton-1.1.4.jar",
+      "hash": "sha512-a1PyOU44A7CcYtJHKwy2T+wXj86w0RClX2zHBhXwcFCwVOhtMmqicxHdAau0cYrMMyt/b6D4qlHiuylp9Et8Bw==",
+      "gameVersions": [
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.15.2+fabric": [
+      "6vN1imbK"
+    ],
+    "1.16+fabric": [
+      "gXJjqvbt"
+    ],
+    "1.16.1+fabric": [
+      "uzLjik9a",
+      "gXJjqvbt"
+    ],
+    "1.16.2+fabric": [
+      "uzLjik9a"
+    ],
+    "1.16.3+fabric": [
+      "uzLjik9a"
+    ],
+    "1.16.4+fabric": [
+      "uzLjik9a"
+    ],
+    "1.16.5+fabric": [
+      "uzLjik9a"
+    ]
+  }
+}

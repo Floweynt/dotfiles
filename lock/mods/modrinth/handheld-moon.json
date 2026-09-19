@@ -1,0 +1,140 @@
+{
+  "slug": "handheld-moon",
+  "projectId": "pKlHQBvX",
+  "versions": {
+    "6S70zJEM": {
+      "filename": "HandheldMoon-neoforge-1.21.1-1.1.0-fix.jar",
+      "url": "https://cdn.modrinth.com/data/pKlHQBvX/versions/6S70zJEM/HandheldMoon-neoforge-1.21.1-1.1.0-fix.jar",
+      "hash": "sha512-dvRViwWGaygW+GXl+d1NKhMpt7MoxdyRki3eorEa+WkPZ5gQjiLZOnnj4nGaOSEd8hJ4qciOTniu86kuSwtV5w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lambdynamiclights",
+          "projectId": "yBW8D80W",
+          "type": "required"
+        }
+      ]
+    },
+    "NkkFfeWD": {
+      "filename": "HandheldMoon-neoforge-26.1-1.2.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/pKlHQBvX/versions/NkkFfeWD/HandheldMoon-neoforge-26.1-1.2.0-beta.jar",
+      "hash": "sha512-pKHEHJ+//KtcgtFda6Njul2nv3mLR7sfKtShyCwSsKYzeMP8HDKz7g/PdrZ2NE2j0VGIPFo8R7HKgD7wSz1umA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lambdynamiclights",
+          "projectId": "yBW8D80W",
+          "type": "required"
+        },
+        {
+          "slug": "oelib",
+          "projectId": "7ODqOXka",
+          "type": "required"
+        }
+      ]
+    },
+    "eckm0Uev": {
+      "filename": "HandheldMoon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pKlHQBvX/versions/eckm0Uev/HandheldMoon-1.0.0.jar",
+      "hash": "sha512-KUNaDQAUKELvcwwJkQy8FYsbF2FBOp5FMQU5RCgS4tay2rzSvAIeP1J5C83QHG6pwBaSvtJ7ynxeLafXLC/O1w==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tU6iLtp4": {
+      "filename": "HandheldMoon-fabric-26.1-1.2.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/pKlHQBvX/versions/tU6iLtp4/HandheldMoon-fabric-26.1-1.2.0-beta.jar",
+      "hash": "sha512-CZUxKVFr3eM2YB/6LDPeoi6dUwvIsjlMatXUick08HjmkfyC47KuruABZIOZ/DcyaCDQU5FMGjnp8nbwaPfLZA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "oelib",
+          "projectId": "7ODqOXka",
+          "type": "required"
+        },
+        {
+          "slug": "lambdynamiclights",
+          "projectId": "yBW8D80W",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "eckm0Uev"
+    ],
+    "1.20.2+forge": [
+      "eckm0Uev"
+    ],
+    "1.20.3+forge": [
+      "eckm0Uev"
+    ],
+    "1.20.4+forge": [
+      "eckm0Uev"
+    ],
+    "1.20.5+forge": [
+      "eckm0Uev"
+    ],
+    "1.20.6+forge": [
+      "eckm0Uev"
+    ],
+    "1.21.1+neoforge": [
+      "6S70zJEM"
+    ],
+    "26.1+fabric": [
+      "tU6iLtp4"
+    ],
+    "26.1+neoforge": [
+      "NkkFfeWD"
+    ],
+    "26.1.1+fabric": [
+      "tU6iLtp4"
+    ],
+    "26.1.1+neoforge": [
+      "NkkFfeWD"
+    ],
+    "26.1.2+fabric": [
+      "tU6iLtp4"
+    ],
+    "26.1.2+neoforge": [
+      "NkkFfeWD"
+    ]
+  }
+}

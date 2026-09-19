@@ -1,0 +1,46 @@
+{
+  "slug": "natures-compass-immersive",
+  "projectId": "A4vqQkdi",
+  "versions": {
+    "6LR3CH0j": {
+      "filename": "naturescompass-1.20.1-2.2.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/A4vqQkdi/versions/6LR3CH0j/naturescompass-1.20.1-2.2.3-fabric.jar",
+      "hash": "sha512-dBk+JSnZ+LRrcMr0SlYNOQGyQ5gRZGRqYfJstY38KLPMX4wpuvclsINhW/kkIVQyvhijYCFBnbSi/DmkHoAoVQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RbAFROjj": {
+      "filename": "naturescompass-1.20.1-2.3.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/A4vqQkdi/versions/RbAFROjj/naturescompass-1.20.1-2.3.0-fabric.jar",
+      "hash": "sha512-lJ/Bv+uyGl8GdG8ksXRA8VCgvaZ8ty3LOyJlbjuj9nJ1Q8EXEBbXwG7w72oEzF3PP9nXo3FwtG7px3jBXmgMgg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "RbAFROjj",
+      "6LR3CH0j"
+    ]
+  }
+}

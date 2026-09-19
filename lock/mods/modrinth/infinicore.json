@@ -1,0 +1,39 @@
+{
+  "slug": "infinicore",
+  "projectId": "aNl6LapA",
+  "versions": {
+    "tjet779X": {
+      "filename": "infinicore-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aNl6LapA/versions/tjet779X/infinicore-1.0.0.jar",
+      "hash": "sha512-5639Am88eGs4WPJjFz8LkxGUUqJvzApwpa27E1sSOH+UK8tlNnXgOviuIgcSjbNWGBkTE+L4Ce5dE1JwRMzmwA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "tjet779X"
+    ],
+    "1.20.1+fabric": [
+      "tjet779X"
+    ],
+    "1.20.2+fabric": [
+      "tjet779X"
+    ]
+  }
+}

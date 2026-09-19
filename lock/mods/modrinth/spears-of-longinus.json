@@ -1,0 +1,88 @@
+{
+  "slug": "spears-of-longinus",
+  "projectId": "kTFY0EhR",
+  "versions": {
+    "M71RuNVQ": {
+      "filename": "SpearsOfLonginus 3+1 first release 1.19.2 Forge.jar",
+      "url": "https://cdn.modrinth.com/data/kTFY0EhR/versions/M71RuNVQ/SpearsOfLonginus%203%2B1%20first%20release%201.19.2%20Forge.jar",
+      "hash": "sha512-hbSGTtLwB1HD0z3FH/Hm6/x6eCzryeh4WSjhJLnaCntJLXM6ceipyrUE1hazIOfYML+IGomrFl2nTKhcISLUew==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "WxAnMuFw": {
+      "filename": "SpearsOfLonginus 3+1 first release 1.18.2 Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/kTFY0EhR/versions/WxAnMuFw/SpearsOfLonginus%203%2B1%20first%20release%201.18.2%20Fabric.jar",
+      "hash": "sha512-YFXDVZHAxR9aDG+b6yjQAwcStkw79nAzRXwRuLj34KZcWtPaypbZfEKSSSn8rody8RtzrZtL84ZSaizcDdhPzQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XvgndWov": {
+      "filename": "SpearsOfLonginus 3+1 first release 1.18.2 Forge.jar",
+      "url": "https://cdn.modrinth.com/data/kTFY0EhR/versions/XvgndWov/SpearsOfLonginus%203%2B1%20first%20release%201.18.2%20Forge.jar",
+      "hash": "sha512-yzBNolfbioKgZxF3bJAJnNpCULYcM1i0dgBQSGegaj8lUnBjKSN32i/N+UtKQ049QIUKrnoSpJA0niKM7XqxQA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "dFXXo6YO": {
+      "filename": "SpearsOfLonginus 3+1 first release 1.19.2 Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/kTFY0EhR/versions/dFXXo6YO/SpearsOfLonginus%203%2B1%20first%20release%201.19.2%20Fabric.jar",
+      "hash": "sha512-Ljg0niAp/nkCTxJJrp9Fd2vgQgSuy7OOb44TjYJhfeEj2xBTavNtSY9wknuy46MEzaLmwStv2CwEkkWvxLJDFg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "WxAnMuFw"
+    ],
+    "1.18.2+forge": [
+      "XvgndWov"
+    ],
+    "1.19.2+fabric": [
+      "dFXXo6YO"
+    ],
+    "1.19.2+forge": [
+      "M71RuNVQ"
+    ]
+  }
+}

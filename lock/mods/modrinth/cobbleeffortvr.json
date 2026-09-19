@@ -1,0 +1,42 @@
+{
+  "slug": "cobbleeffortvr",
+  "projectId": "ZdjFWDoH",
+  "versions": {
+    "fW0gz9Mn": {
+      "filename": "cobbleeffortvr-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZdjFWDoH/versions/fW0gz9Mn/cobbleeffortvr-neoforge-1.0.jar",
+      "hash": "sha512-8FESSZE/Ro0LHlHXYqR6z2+HJoaqy0OXpjcQCI76DFMh9uYLV9lTroU4P9a96bPYZYtuZaPQPmXc+CFZEJLtZQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rDng7YG9": {
+      "filename": "cobbleeffortvr-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZdjFWDoH/versions/rDng7YG9/cobbleeffortvr-fabric-1.0.jar",
+      "hash": "sha512-fNJ8VEYQb9826VYKQ8vq2+l9Xr6msTckjkrbyHy5RHtyvIh6Zz2dZOVFmqnr6Ro7/iw+VPAuJ/6CJU5xtEs+6g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "rDng7YG9"
+    ],
+    "1.21.1+neoforge": [
+      "fW0gz9Mn"
+    ]
+  }
+}

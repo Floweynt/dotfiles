@@ -1,0 +1,48 @@
+{
+  "slug": "potion-of-armor",
+  "projectId": "ROv0hBM4",
+  "versions": {
+    "Oo3MetQW": {
+      "filename": "potionofarmor-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ROv0hBM4/versions/Oo3MetQW/potionofarmor-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-F9Z5/Yd2iUXH9bt0BiQz+wu12UgH+ewKnhjr92XhgZG6DyWcKXs56GpdxGCx7aW2nsdiR/XLLW3RNr1JgxDw0Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "V0Ndv672": {
+      "filename": "potionofarmor-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ROv0hBM4/versions/V0Ndv672/potionofarmor-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-BZbsMp2K5Te4lJqU6wbv2BgM1gmDhm7OoR2fFqXK0fXVKY3/iW+WopgUeKWy/CUA8nkfswtjsTn/WIDB32GuWA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "V0Ndv672"
+    ],
+    "1.20.1+forge": [
+      "Oo3MetQW"
+    ]
+  }
+}

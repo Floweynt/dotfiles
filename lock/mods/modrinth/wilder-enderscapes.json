@@ -1,0 +1,36 @@
+{
+  "slug": "wilder-enderscapes",
+  "projectId": "6J7P0p70",
+  "versions": {
+    "iI8UlBFR": {
+      "filename": "enderwild-1.0.0-1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/6J7P0p70/versions/iI8UlBFR/enderwild-1.0.0-1.21.5.jar",
+      "hash": "sha512-C5sOzT6w2+KA72oBVEhUUMdmXcW0JoCElTlX8WOut2Y/z3PlzlU9S2eMtb5M53ZBwB8w9KZr67IXFmdBawBNoA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wilder-wild",
+          "projectId": "AtHRJSUW",
+          "type": "required"
+        },
+        {
+          "slug": "enderscape",
+          "projectId": "btCrWvHr",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "iI8UlBFR"
+    ]
+  }
+}

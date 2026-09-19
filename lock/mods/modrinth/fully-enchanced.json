@@ -1,0 +1,114 @@
+{
+  "slug": "fully-enchanced",
+  "projectId": "ZwqMp1J0",
+  "versions": {
+    "HXa1e9IZ": {
+      "filename": "fullyenchanced-1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZwqMp1J0/versions/HXa1e9IZ/fullyenchanced-1.1-1.20.1.jar",
+      "hash": "sha512-uv+gK2vxR5hOqMR0cGQ3LJg0mHrA6y2VQJq+xQQh/xTzhekGikWUPNHGW+ouD8MltRcHQMzjsYx1pB8TWldU+g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "KKT69cUH": {
+      "filename": "fullyenchanced-0.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZwqMp1J0/versions/KKT69cUH/fullyenchanced-0.5-1.20.1.jar",
+      "hash": "sha512-j9+qP72sUEYt0hF7QLMmg/QNRb7c2GznuNrGewJpU2uvGajQlttRHLwWvfJNHU1Q4sMyyEq1QDQhZYVoY1qTpg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XTUxBNVn": {
+      "filename": "fullyenchanced-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZwqMp1J0/versions/XTUxBNVn/fullyenchanced-1.0-1.20.1.jar",
+      "hash": "sha512-ffnpMhd2Sj9f2MectmRKGpd9yQIvITARGSv5J2Z27oK9TlHB4cO1N7Xid1fNKYnhHaikcYTf6cNvrDpi1+JJEw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enchancement",
+          "projectId": "6hN1V6wJ",
+          "type": "required"
+        }
+      ]
+    },
+    "mYIYbZTe": {
+      "filename": "fullyenchanced-1.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZwqMp1J0/versions/mYIYbZTe/fullyenchanced-1.2-1.21.1.jar",
+      "hash": "sha512-pDindQ2iU1r/LoYY73KWGvljgmYiQGKbxCf9TjrotTCe+DvbgEuIC9Vm3qU1/+ACK5hs37lrA1WyokGOkwg/pg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enchancement",
+          "projectId": "6hN1V6wJ",
+          "type": "required"
+        }
+      ]
+    },
+    "n0IBzqlQ": {
+      "filename": "fullyenchanced-0.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZwqMp1J0/versions/n0IBzqlQ/fullyenchanced-0.3-1.20.1.jar",
+      "hash": "sha512-7E+gCcPjFyOJoBLRzdbzX2cAnQuuqqw/zHM7M+uHDwERFECb4kTb9Gd9D1rq2AOWnklUu3gpSSqHs42kPdzz3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yB2qaoed": {
+      "filename": "fullyenchanced-0.7-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZwqMp1J0/versions/yB2qaoed/fullyenchanced-0.7-1.20.1.jar",
+      "hash": "sha512-ummjQZwfwuXUEmA5xSrUyT29FnQxL8RFIXG+UF6FGAn7MFJw7o+JVz0iVUdhSkm2wVzevboJIkOKTDeD816bHw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HXa1e9IZ",
+      "XTUxBNVn",
+      "yB2qaoed",
+      "KKT69cUH",
+      "n0IBzqlQ"
+    ],
+    "1.21.1+fabric": [
+      "mYIYbZTe"
+    ]
+  }
+}

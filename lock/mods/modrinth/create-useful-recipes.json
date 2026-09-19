@@ -1,0 +1,86 @@
+{
+  "slug": "create-useful-recipes",
+  "projectId": "K2zV8gTP",
+  "versions": {
+    "SrxR3kbr": {
+      "filename": "usefulrecipes-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/K2zV8gTP/versions/SrxR3kbr/usefulrecipes-0.0.2.jar",
+      "hash": "sha512-KXxRTm41t6BbQgLNGsfWdRaBbH6MzRyT5tL3I/M3xA0vRYXaOCyNlB01Fj77mSgSN/qKPqZ1M/Li7RjwuwRP/g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        }
+      ]
+    },
+    "VslRZQAi": {
+      "filename": "create_useful_recipes_1.21.10_0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/K2zV8gTP/versions/VslRZQAi/create_useful_recipes_1.21.10_0.0.1.jar",
+      "hash": "sha512-WfakYLCsTOkQhdHzNkei3wu14o2pUW3InJB0uICaJOofNCKOlkd2zXpdP8i1KWYYSUSf1/mpNPE0Idiq6GEgqw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "bzi8cnpv": {
+      "filename": "create_useful_recipes_1.21.11_0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/K2zV8gTP/versions/bzi8cnpv/create_useful_recipes_1.21.11_0.0.1.jar",
+      "hash": "sha512-RACbF3GJxNwv9vFE2VvA8h5JWm0+MYFTRB5ahQ74I2DpwKfpFg6iaxIqEBeILHCF1E+aFy7pIC8EQV1i8Wi2Tg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ngpm0Abh": {
+      "filename": "usefulrecipes-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/K2zV8gTP/versions/ngpm0Abh/usefulrecipes-0.0.2.jar",
+      "hash": "sha512-vXRh0f1UxjdGeVJNv98HFtLChBNwoSn789jrm3JoWBKDy9yl64Jd2w0wqvOMmgFhf67KnMsNd+ao5Hab9hp1AA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "VslRZQAi"
+    ],
+    "1.21.11+fabric": [
+      "ngpm0Abh",
+      "bzi8cnpv"
+    ],
+    "26.1.2+fabric": [
+      "SrxR3kbr"
+    ]
+  }
+}

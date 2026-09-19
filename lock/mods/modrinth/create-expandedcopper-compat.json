@@ -1,0 +1,36 @@
+{
+  "slug": "create-expandedcopper-compat",
+  "projectId": "C72Ct0l9",
+  "versions": {
+    "zymywNbL": {
+      "filename": "create-expandedcopper-compat-1.0.0-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/C72Ct0l9/versions/zymywNbL/create-expandedcopper-compat-1.0.0-mc1.20.1.jar",
+      "hash": "sha512-IuO7nZS1aiZnEC6d4bECcTDhnvKxACJvePIoXVv7KuvrRaokTG5eq5AHKgs3o/INXRfFbBil+KkbDrPL3bRGZw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "expanded-copper",
+          "projectId": "kJ08cVvv",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "zymywNbL"
+    ]
+  }
+}

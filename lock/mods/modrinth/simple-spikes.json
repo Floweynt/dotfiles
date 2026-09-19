@@ -1,0 +1,131 @@
+{
+  "slug": "simple-spikes",
+  "projectId": "O7nYnkoe",
+  "versions": {
+    "9rG7cCJ5": {
+      "filename": "simple_spikes-neoforge-1.21.5-21.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/O7nYnkoe/versions/9rG7cCJ5/simple_spikes-neoforge-1.21.5-21.5.0.jar",
+      "hash": "sha512-hHscT2X6utyALwUS3kqx5nfQCzGrs21xxm26fxI9Weo+X+cAQDfC4pBjEjlP0gruLmpDD1OvWL+Ca4EiftgTQQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "balm",
+          "projectId": "MBAkmtvl",
+          "type": "required"
+        }
+      ]
+    },
+    "CwPWtC85": {
+      "filename": "simple_spikes-1.18.2-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/O7nYnkoe/versions/CwPWtC85/simple_spikes-1.18.2-1.1.0.jar",
+      "hash": "sha512-BTRtbbDek1czCDyTBrmpnQohXh0OZlLdvoPlainQDcVBJpf8Ydn8qRa1C5NX3oq7h7h55u5qWDgp7p7LBTeMwA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "KBmTcXy6": {
+      "filename": "simple_spikes-1.19.2-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/O7nYnkoe/versions/KBmTcXy6/simple_spikes-1.19.2-1.2.0.jar",
+      "hash": "sha512-TapiydD65CEkMkQCVCurvQ+NwOQm4OkFoln0yDtoPF9b+juJjq05smSv0nQMpu7d74zZ9blWvYn6gV1/KX3Kyg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "MEEavdz1": {
+      "filename": "simple_spikes-forge-1.21.5-21.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/O7nYnkoe/versions/MEEavdz1/simple_spikes-forge-1.21.5-21.5.0.jar",
+      "hash": "sha512-oyKj62yEnpYvyW4cvg1Us6rDc3Y6vLXpdq2Tl/H/333A/aZ8eC0vj1yzLmn7G/aPzIgHfe5utSyhraHW/qf7/g==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "balm",
+          "projectId": "MBAkmtvl",
+          "type": "required"
+        }
+      ]
+    },
+    "bmwSjo3e": {
+      "filename": "simple_spikes-fabric-1.21.5-21.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/O7nYnkoe/versions/bmwSjo3e/simple_spikes-fabric-1.21.5-21.5.0.jar",
+      "hash": "sha512-gfdit/MM/5CwbFlGCqS/96HuKNzxkYp5sOZlk3qk3Tax8v9uWk1y/SFjtMcKPUTzrQtTpfpL5h6L1pAdkF3zdg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "balm",
+          "projectId": "MBAkmtvl",
+          "type": "required"
+        }
+      ]
+    },
+    "c4zd36wS": {
+      "filename": "simple_spikes-1.19.2-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/O7nYnkoe/versions/c4zd36wS/simple_spikes-1.19.2-1.1.0.jar",
+      "hash": "sha512-25MbrKofUWMs8jtxST3HR7oRsnwGxpAmhXe1ioLP9BAniBtpgJc8Di+14Y4KwIAmaEnJ3uCYs7z/5PYAN1Gr8w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "CwPWtC85"
+    ],
+    "1.19.2+forge": [
+      "KBmTcXy6",
+      "c4zd36wS"
+    ],
+    "1.21.5+fabric": [
+      "bmwSjo3e"
+    ],
+    "1.21.5+forge": [
+      "MEEavdz1"
+    ],
+    "1.21.5+neoforge": [
+      "9rG7cCJ5"
+    ]
+  }
+}

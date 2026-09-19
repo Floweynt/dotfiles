@@ -1,0 +1,68 @@
+{
+  "slug": "suits-extended",
+  "projectId": "5id7GHQp",
+  "versions": {
+    "AMNDIGEb": {
+      "filename": "suits_extendedV4.1.jar",
+      "url": "https://cdn.modrinth.com/data/5id7GHQp/versions/AMNDIGEb/suits_extendedV4.1.jar",
+      "hash": "sha512-zC+SExSNnS5MdkrcsPWzwyxADoEafKEs/I5CgceQF86FVYucV3esBJehUhncybtxJzFGb8IBZAI9x3i/Ufo7RQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "fsang18s-heropack",
+          "projectId": "nwqZcj5e",
+          "type": "required"
+        }
+      ]
+    },
+    "tz6vzDja": {
+      "filename": "suits_extendedV4.3.jar",
+      "url": "https://cdn.modrinth.com/data/5id7GHQp/versions/tz6vzDja/suits_extendedV4.3.jar",
+      "hash": "sha512-TJ0eSl95IvrLyI4jcho0DUf6PGz62nbqAOLPPj/MNcwI5TQSShkKGj6vskh4LarBT1IMfPAExlCkNh17E24XsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "fsang18s-heropack",
+          "projectId": "nwqZcj5e",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tz6vzDja",
+      "AMNDIGEb"
+    ],
+    "1.20.1+forge": [
+      "tz6vzDja",
+      "AMNDIGEb"
+    ]
+  }
+}

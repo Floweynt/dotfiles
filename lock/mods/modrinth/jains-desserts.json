@@ -1,0 +1,64 @@
+{
+  "slug": "jains-desserts",
+  "projectId": "wRVJTuFS",
+  "versions": {
+    "BMCe3k0g": {
+      "filename": "1.21-jains-desserts-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wRVJTuFS/versions/BMCe3k0g/1.21-jains-desserts-2.0.0.jar",
+      "hash": "sha512-xWdkQCm+r0VmA5Px2S8JOrzku6jEo8KZ+g3GJ5/4H5bsgjR62fiDYOkVNkOvEKnTEpYE72+1FG9RTgJxVqQYbg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kFhzlvYm": {
+      "filename": "1.20-jains-desserts-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wRVJTuFS/versions/kFhzlvYm/1.20-jains-desserts-2.0.0.jar",
+      "hash": "sha512-PR5kDN6ithdCM3c7jRygC5m/DmKgtQ+kXsH2/lp9orCfPr9kqgwjaY+qmowflTdlxttY/I9zYz3KGqj/0zULHg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "kFhzlvYm"
+    ],
+    "1.20.1+fabric": [
+      "kFhzlvYm"
+    ],
+    "1.20.2+fabric": [
+      "kFhzlvYm"
+    ],
+    "1.20.3+fabric": [
+      "kFhzlvYm"
+    ],
+    "1.20.4+fabric": [
+      "kFhzlvYm"
+    ],
+    "1.21+fabric": [
+      "BMCe3k0g"
+    ]
+  }
+}

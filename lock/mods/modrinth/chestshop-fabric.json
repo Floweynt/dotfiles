@@ -1,0 +1,140 @@
+{
+  "slug": "chestshop-fabric",
+  "projectId": "7p03nTDH",
+  "versions": {
+    "AT7gFXdJ": {
+      "filename": "ChestShopFabric-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/7p03nTDH/versions/AT7gFXdJ/ChestShopFabric-1.2.1.jar",
+      "hash": "sha512-jmFsDZcswBcr1ZKWkgRtpdosn24MwAA2cxXCN9lrboS+9fcyKTYnUZaxq4RRS0iK3HX/XwPVd0Il1QgPDgvWdQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "economy",
+          "projectId": "YzKIAlij",
+          "type": "required"
+        }
+      ]
+    },
+    "NKH8bztk": {
+      "filename": "ChestShopFabric-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/7p03nTDH/versions/NKH8bztk/ChestShopFabric-1.3.2.jar",
+      "hash": "sha512-F5aCoiLKKLvi/MCe2zn5sLqPqHlwjdBRDSI00p6YijWbd7uKTYQxo8ImoIk38zEOSIHgCdCME0d5l+Vdgfwhig==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "economy",
+          "projectId": "YzKIAlij",
+          "type": "required"
+        }
+      ]
+    },
+    "TL6k2LG3": {
+      "filename": "ChestShopFabric-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/7p03nTDH/versions/TL6k2LG3/ChestShopFabric-1.2.jar",
+      "hash": "sha512-wNJGBjcH49MkYGbqozA5ddJHzyL7GJHbrlY2vRd68FFPpViBpaVS/AZe+fs4iKB6LoP2p4WCCFvi0P/mwcBRaQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "economy",
+          "projectId": "YzKIAlij",
+          "type": "required"
+        }
+      ]
+    },
+    "hypcOERF": {
+      "filename": "ChestShopFabric-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/7p03nTDH/versions/hypcOERF/ChestShopFabric-1.3.1.jar",
+      "hash": "sha512-Y4aRtx2mJ6GWr0ScMxCg3DBxSLAtIDns47BvWARqZI67e2sSdlEHeadyNKueo8672syQEc87lGqfY/7muLf6UQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "economy",
+          "projectId": "YzKIAlij",
+          "type": "required"
+        }
+      ]
+    },
+    "p4FzH7ek": {
+      "filename": "ChestShopFabric-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/7p03nTDH/versions/p4FzH7ek/ChestShopFabric-1.2.2.jar",
+      "hash": "sha512-0dmoYfSz99N7Xj+h9tdV28An2dFCPsVTNONk5lgRy1+NuOepXVyWrdBnNQ0uOBlEXxcxmQD6yi0xXHk5mKBahA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "economy",
+          "projectId": "YzKIAlij",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "p4FzH7ek",
+      "AT7gFXdJ",
+      "TL6k2LG3"
+    ],
+    "1.19.2+fabric": [
+      "NKH8bztk",
+      "hypcOERF"
+    ],
+    "1.19.3+fabric": [
+      "NKH8bztk"
+    ],
+    "1.19.4+fabric": [
+      "NKH8bztk"
+    ]
+  }
+}

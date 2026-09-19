@@ -1,0 +1,134 @@
+{
+  "slug": "arise-no-more",
+  "projectId": "yojFYB40",
+  "versions": {
+    "12o3qTgQ": {
+      "filename": "arisenomore-1.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/yojFYB40/versions/12o3qTgQ/arisenomore-1.1.0-forge.jar",
+      "hash": "sha512-dx5CLGmoAKGx1qSBaEyT/KIRqMBA5GcRS8QABw5u69HgRxy3i2RbdeOWiJXE0loyAmBr6zVAhesHN+G4FmooSw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "3Mv0qRCn": {
+      "filename": "arisenomore-1.0.0-quilt.jar",
+      "url": "https://cdn.modrinth.com/data/yojFYB40/versions/3Mv0qRCn/arisenomore-1.0.0-quilt.jar",
+      "hash": "sha512-tne/RSs7SPa9k1uQjEfc4gfn4XAyi7gu7x3l3hYVpk3W8+y4zWGfuXt/8y2y8B6aWFF2N0VejTd+prOTjjfWmQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "ZBh5O3Yi": {
+      "filename": "arisenomore-1.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/yojFYB40/versions/ZBh5O3Yi/arisenomore-1.1.0-fabric.jar",
+      "hash": "sha512-tSL4KGPTg9vwTAqBZOYxFF494GRQoZyfDI/WETEAzpgMKyqHu+0W6Gl6udXU6c7Dx7sQAM5h79+nZtBOG02xDg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iMaA1HN6": {
+      "filename": "arisenomore-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/yojFYB40/versions/iMaA1HN6/arisenomore-1.0.0-fabric.jar",
+      "hash": "sha512-WrYE8hE0soe3iDAlxCAI6f25J4k+sHd9Le3HgN4tl22NgpMBtmuf5ZPgKPYcbJM60GOiBT+Suh4BDkIxweAeXQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rSU0IbQN": {
+      "filename": "arisenomore-1.1.0-quilt.jar",
+      "url": "https://cdn.modrinth.com/data/yojFYB40/versions/rSU0IbQN/arisenomore-1.1.0-quilt.jar",
+      "hash": "sha512-1rADDwS6BOwyIZO87+xVxgiIUTplWYYsT1k7hI/PQG8i/m+ia0w55Li5/5QV3yEaEzLlmlVBZ/EeT6GK8bByYA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "yBVZfqPF": {
+      "filename": "arisenomore-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/yojFYB40/versions/yBVZfqPF/arisenomore-1.0.0-forge.jar",
+      "hash": "sha512-YG/16TsJKUCZh+QrPymWw+05ZCZU4Q/0E8oe1+nTDVv1XZotATQyKy1h0KklbPIbsEbkZuVQeIVQeWzCtipiOQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "iMaA1HN6"
+    ],
+    "1.18.2+forge": [
+      "yBVZfqPF"
+    ],
+    "1.18.2+quilt": [
+      "3Mv0qRCn"
+    ],
+    "1.19.3+fabric": [
+      "ZBh5O3Yi"
+    ],
+    "1.19.3+forge": [
+      "12o3qTgQ"
+    ],
+    "1.19.3+quilt": [
+      "rSU0IbQN"
+    ]
+  }
+}

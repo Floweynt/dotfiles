@@ -1,0 +1,118 @@
+{
+  "slug": "redirected",
+  "projectId": "hhnR8xqU",
+  "versions": {
+    "9G5lyDuT": {
+      "filename": "redirected-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hhnR8xqU/versions/9G5lyDuT/redirected-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-v7P1EEA86OuPKOHvCLuC86QAESi+KINWM215vh1Mol8PSaThT25bRjJQIc49gE0jRxsdu1wvWd7iJnRpeBBTzg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "B9DLRbbX": {
+      "filename": "redirected-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hhnR8xqU/versions/B9DLRbbX/redirected-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-ApQ57tcqy4UB8G/ZNNokpKcSkFAL8nVM0dSX7Z//OAsK/394sHampE+6rjH6IxMQHqYiqDw/r7p0jbcMjeelMA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "QkgWbSnA": {
+      "filename": "redirected-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/hhnR8xqU/versions/QkgWbSnA/redirected-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-84IstvIzew0L3M3nTMyCP8Rq8JhHJlzkPhhOf+ifYXa0FdSQ0lABvZcyRQDIuq1mXNyDAev2Cmuo32QJeJOd4w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cJBVuClJ": {
+      "filename": "redirected-forge-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/hhnR8xqU/versions/cJBVuClJ/redirected-forge-1.0.0-1.20.1.jar",
+      "hash": "sha512-TxNiscCkYgtP2xKCrk+gNt+EP/70sMEUbYh6Mk8lF7QzFpHbQt4Jx8pnKdrSmT/wbM04tvID6WI9JeF5Ubj93w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "QkgWbSnA"
+    ],
+    "1.20+forge": [
+      "cJBVuClJ"
+    ],
+    "1.20.1+fabric": [
+      "QkgWbSnA"
+    ],
+    "1.20.1+forge": [
+      "cJBVuClJ"
+    ],
+    "1.21.1+fabric": [
+      "9G5lyDuT"
+    ],
+    "1.21.1+neoforge": [
+      "B9DLRbbX"
+    ]
+  }
+}

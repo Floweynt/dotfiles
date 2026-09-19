@@ -1,0 +1,83 @@
+{
+  "slug": "elytra-durability-warning",
+  "projectId": "sGNNnKcZ",
+  "versions": {
+    "10yeAvVC": {
+      "filename": "elytradurabilitywarning-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/sGNNnKcZ/versions/10yeAvVC/elytradurabilitywarning-2.0.jar",
+      "hash": "sha512-FMhBrw/HKNm/eEwnieYKOig8P+47LQv25BAM5tzSJo4lzSZNqnwOkp0hNCkhnrtlTPLTr4cJhZZaWhxGB8H5PA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "1P6WOkUh": {
+      "filename": "elytradurabilitywarning-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/sGNNnKcZ/versions/1P6WOkUh/elytradurabilitywarning-2.2.jar",
+      "hash": "sha512-nBS+8OU6TzlwHGSl8ezKwpDYJBSGWKIyL9KapQvtqMR1Qzf8ZkMnppkusAOInbUSwZ1prkTYbQSPKnVhXrB7MQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bHXZpVnS": {
+      "filename": "elytradurabilitywarning-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/sGNNnKcZ/versions/bHXZpVnS/elytradurabilitywarning-2.1.jar",
+      "hash": "sha512-kgsCQ6x32UWjfmKIl59ZsnOzLUeQK2mB3ZLWjYJg3xS0vYOfh6bPnRVgxdOzQyZxAQL/EnF/Q7GL3KBF+2SWgA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "uvRnnanj": {
+      "filename": "elytradurabilitywarning-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sGNNnKcZ/versions/uvRnnanj/elytradurabilitywarning-1.0.0.jar",
+      "hash": "sha512-6JMhrT4qdMYNHzB7JW4gyWKuYrEB4gpbAKo524bIYEpSLKtfW766Zhc9ub7jBTbPEVa0jsG2x9sbD4UkrDOVIw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "1P6WOkUh",
+      "bHXZpVnS",
+      "10yeAvVC"
+    ],
+    "1.21.4+fabric": [
+      "uvRnnanj"
+    ]
+  }
+}

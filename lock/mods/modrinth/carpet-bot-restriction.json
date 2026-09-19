@@ -1,0 +1,108 @@
+{
+  "slug": "carpet-bot-restriction",
+  "projectId": "3C2Lvprs",
+  "versions": {
+    "GYsUiKkK": {
+      "filename": "carpet-bot-restriction-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/3C2Lvprs/versions/GYsUiKkK/carpet-bot-restriction-1.0.2.jar",
+      "hash": "sha512-QDQCmGwSXEoWTbNggF9/vSOz9Ic1oR/Dm10FAUnd17/c+rmaQ/itR1E2D050RBw6zFLBsMwcCDUmmzYlqiHVPQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "Pjf1Nn0M": {
+      "filename": "carpet-bot-restriction-1.1.1-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/3C2Lvprs/versions/Pjf1Nn0M/carpet-bot-restriction-1.1.1-1.21.4.jar",
+      "hash": "sha512-YV5Xm584lHULiQqTmBRMeA/AW3WkBq1/bYKNYeOBSpY3CjbvFxpyrX4zZdq1suDlXtgEh84flI1rG3eCkgpiZQ==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "f5pStnv1": {
+      "filename": "carpet-bot-restriction-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3C2Lvprs/versions/f5pStnv1/carpet-bot-restriction-1.0.0.jar",
+      "hash": "sha512-l70gFv/6ymBkTIYbouiN4RytWrOX7fduRIitgAh5jtYlLraXc62vLliDptv25Gva8XYeWV9LnXNUJCNYkbJQCA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "yT3HOJz7": {
+      "filename": "carpet-bot-restriction-1.1.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/3C2Lvprs/versions/yT3HOJz7/carpet-bot-restriction-1.1.1-1.21.1.jar",
+      "hash": "sha512-hyB1j55daPkGvUaYnKhTajGfi8s563NBAf3qjlwBceh34fRQ7gsfryD2IrAENLcZ4Q9JLdo7p2AL42o9OUHZzg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "yT3HOJz7"
+    ],
+    "1.21.1+fabric": [
+      "yT3HOJz7"
+    ],
+    "1.21.2+fabric": [
+      "Pjf1Nn0M"
+    ],
+    "1.21.3+fabric": [
+      "Pjf1Nn0M"
+    ],
+    "1.21.4+fabric": [
+      "Pjf1Nn0M",
+      "GYsUiKkK",
+      "f5pStnv1"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "rays-levelz-compat",
+  "projectId": "MMUK55BL",
+  "versions": {
+    "4cBlw0y7": {
+      "filename": "rayslevelzcompat-v2.jar",
+      "url": "https://cdn.modrinth.com/data/MMUK55BL/versions/4cBlw0y7/rayslevelzcompat-v2.jar",
+      "hash": "sha512-evMHqAO/HxNDscPogebrioFXfDfBAcppDMdT+hCXa5wM7NCtrmL4KrCKxTRmjs3ugvJtiD4qEZWRQnEmM4vOig==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "x9MjkMeV": {
+      "filename": "rayslevelzcompat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MMUK55BL/versions/x9MjkMeV/rayslevelzcompat-1.0.0.jar",
+      "hash": "sha512-p7UKJP0Aj8ULO7MJE9aRc5yp+GyVHD9qLAHJYwNTdVFQatAlQ1xDp9A4NsHrOuOCfy1rcO9o4P0VvjM9gpgVhw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "4cBlw0y7",
+      "x9MjkMeV"
+    ]
+  }
+}

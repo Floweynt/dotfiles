@@ -1,0 +1,89 @@
+{
+  "slug": "mini-chat-translator-to-chinese",
+  "projectId": "7U9CYlr6",
+  "versions": {
+    "79MIdzTO": {
+      "filename": "mini-chat-translator-fabric-1.21.8-1.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/7U9CYlr6/versions/79MIdzTO/mini-chat-translator-fabric-1.21.8-1.4.1.jar",
+      "hash": "sha512-yrfjLuPDgE2sRoWCZ1ehSoR4cRFygbi3TuHDcL46gcKafEPWWb+Bub7USeFANFG4Qqwldz8RPjiZ0OYlUHarrA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "8z08WW5X": {
+      "filename": "mini-chat-translator-fabric-1.21.11-1.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/7U9CYlr6/versions/8z08WW5X/mini-chat-translator-fabric-1.21.11-1.4.1.jar",
+      "hash": "sha512-dbZjgwd/+ats8+rz/L1BEPzH5CDxIo4ztElGqnSdr9W5jruk/xZ3b2cf3SUha5oIG37G7KbFDayO3hLjOFgutg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "opokALdp": {
+      "filename": "mini-chat-translator-fabric-26.1-1.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/7U9CYlr6/versions/opokALdp/mini-chat-translator-fabric-26.1-1.5.2.jar",
+      "hash": "sha512-sDFMJ97Pt9zjA4/jzFNrAO6oytgZiKBlGipXpJbDxYaUTzUWiGiwSufb8kf9ZDcbhLcwnVBAxMl2fSy/5RPySA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "8z08WW5X"
+    ],
+    "1.21.8+fabric": [
+      "79MIdzTO"
+    ],
+    "26.1+fabric": [
+      "opokALdp"
+    ],
+    "26.1.1+fabric": [
+      "opokALdp"
+    ],
+    "26.1.2+fabric": [
+      "opokALdp"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "archerz_",
+  "projectId": "ToBk71Zw",
+  "versions": {
+    "3wIGRVFA": {
+      "filename": "archerz-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ToBk71Zw/versions/3wIGRVFA/archerz-1.20.1.jar",
+      "hash": "sha512-6JgREA6DSrQnWyw+eWcIInrcO73vugdyrK9O3UYhOP9ZaQmXFeRYJK/MlWPGuYE5hivho/hs8M7MYwyD/b/SmQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "archers",
+          "projectId": "QgooUXAJ",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "BuCHBNJ0": {
+      "filename": "archerz-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ToBk71Zw/versions/BuCHBNJ0/archerz-1.1.jar",
+      "hash": "sha512-sK8bsaarF46IMp9wVsAE6tburelIYwayzJO0TqtuaknuEeInT3NsJ2fj55ivrFDiQFpwMryZhCEG/64HZVccDg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "archers",
+          "projectId": "QgooUXAJ",
+          "type": "required"
+        }
+      ]
+    },
+    "KUhGgmR6": {
+      "filename": "lvlz-archers-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ToBk71Zw/versions/KUhGgmR6/lvlz-archers-2.0.jar",
+      "hash": "sha512-Kwamni8gTRVoKaZWm6sIRYsd45JIvGd8gMCW8XQBlCF5MlI/MkueM6IPL72vdXBgGpIZDde3LA/OT2Kyw6B0pw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "archers",
+          "projectId": "QgooUXAJ",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "xI7lETkp": {
+      "filename": "archerz-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/ToBk71Zw/versions/xI7lETkp/archerz-1.2.jar",
+      "hash": "sha512-ZLH7v9zUKG6jH1IHuowGh/NYkSY15QXWuyLLNjkXop0DZGQP8Aan33H3hNSuIRgjwa4BGr/GW8vhG68PuWdhcw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "archers",
+          "projectId": "QgooUXAJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "xI7lETkp",
+      "BuCHBNJ0",
+      "3wIGRVFA"
+    ],
+    "1.21.1+fabric": [
+      "KUhGgmR6"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "immersive-animals",
+  "projectId": "87F3C8QL",
+  "versions": {
+    "2ossMieW": {
+      "filename": "ImmersiveAnimals-1.0.0-Fabric-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/87F3C8QL/versions/2ossMieW/ImmersiveAnimals-1.0.0-Fabric-1.21.4.jar",
+      "hash": "sha512-PUJrZDaoNtcdSUv18pzGhCq/HVBKuAey/plu2IW5vJNJe4ysq8yQIEOWafBmguCReWuttQS4QrM0w9WjQIilCw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Fyj2h2A8": {
+      "filename": "ImmersiveAnimals-1.0.0-Fabric-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/87F3C8QL/versions/Fyj2h2A8/ImmersiveAnimals-1.0.0-Fabric-1.21.1.jar",
+      "hash": "sha512-J97Zhn9dx16YlyQVIXYW5AzLrIkXRyON8ok+rFgj7ppdTrkKOTjYsLQp/nLVR4WvHw9zVwCTdCAEXTvPrNV1lw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ogqvH55Y": {
+      "filename": "ImmersiveAnimals-1.0.0-Fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/87F3C8QL/versions/ogqvH55Y/ImmersiveAnimals-1.0.0-Fabric-1.20.1.jar",
+      "hash": "sha512-8xSN/oC+seCmv0E7NfD+uXAklSFDCoJxPQ7PEeEgq6g9JrN9q1+UWJzbDUV6GlsTb5gz1eJMPFS7iD8QEHpNow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ogqvH55Y"
+    ],
+    "1.21.1+fabric": [
+      "Fyj2h2A8"
+    ],
+    "1.21.4+fabric": [
+      "2ossMieW"
+    ]
+  }
+}

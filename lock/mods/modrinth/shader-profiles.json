@@ -1,0 +1,136 @@
+{
+  "slug": "shader-profiles",
+  "projectId": "EbE1nRoM",
+  "versions": {
+    "8mlzM5bT": {
+      "filename": "shader-profiles-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EbE1nRoM/versions/8mlzM5bT/shader-profiles-1.1.0.jar",
+      "hash": "sha512-5blERvEw8NdbMAPZoR2/Gv67ONX+d3qKK1Ze+wMNgu0AzBUE7DSESQNSiYlU5sxKMEtPddk8y085Os4xNbRk1w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "C8mcyG7U": {
+      "filename": "shader-profiles-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EbE1nRoM/versions/C8mcyG7U/shader-profiles-1.1.0.jar",
+      "hash": "sha512-AXfltAz29R0j7Zgf2BvCXr3MQkTbEtt6cic+g384De/ToJLCkDrRBbAguhxf0XXP4G/7zuiH/qOcf7QKyyZPjw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        }
+      ]
+    },
+    "aTq9OS7r": {
+      "filename": "shader-profiles-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EbE1nRoM/versions/aTq9OS7r/shader-profiles-1.1.0.jar",
+      "hash": "sha512-QQL41WMKZL/KwKMxtSVkxT6L8kfSev5mM8PLCw+cgILouyzaqiCL+VXH9zCmo0usPcf7qVJolEYQUpHjWXZHhA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qctdFXoE": {
+      "filename": "shader-profiles-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EbE1nRoM/versions/qctdFXoE/shader-profiles-1.0.0.jar",
+      "hash": "sha512-OOWi8a2ckFnFkYY8wHmtAAJ00OQUXth/nURkacHgWlPc9LMHuXLrIk5OnH00eMWAvc27uHzFBhw/huT9Hfyf3Q==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        }
+      ]
+    },
+    "vQawLVqZ": {
+      "filename": "shader-profiles-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EbE1nRoM/versions/vQawLVqZ/shader-profiles-1.1.0.jar",
+      "hash": "sha512-GZhtUA0NI90EhVwQmEkEovBwTd9aaDlyMGjsBS7rTuNqlPgYAu5304fSjJ5ccqSodCtDBgkvcyn1gPgiUrBwVA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "C8mcyG7U"
+    ],
+    "1.21.10+fabric": [
+      "vQawLVqZ"
+    ],
+    "1.21.11+fabric": [
+      "8mlzM5bT"
+    ],
+    "26.1+fabric": [
+      "aTq9OS7r",
+      "qctdFXoE"
+    ],
+    "26.1.1+fabric": [
+      "aTq9OS7r",
+      "qctdFXoE"
+    ],
+    "26.1.2+fabric": [
+      "aTq9OS7r",
+      "qctdFXoE"
+    ]
+  }
+}

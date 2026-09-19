@@ -1,0 +1,69 @@
+{
+  "slug": "trial-chamber-generation-adjustment-eternal_starlight",
+  "projectId": "5KvFwson",
+  "versions": {
+    "LMA2Bppp": {
+      "filename": "trail_chambers_in_eternal_starlight v1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/5KvFwson/versions/LMA2Bppp/trail_chambers_in_eternal_starlight%20v1.0.0.zip",
+      "hash": "sha512-Lp/ieCTY+oZHdHsi+iV5+SgdAP05VuDnF8QvRjyRsYF6T270mOaafMIdX6L4WAKxUEZfOuM8PAn9EeErh8zJqA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "eternal-starlight",
+          "projectId": "XvcfUGfB",
+          "type": "required"
+        }
+      ]
+    },
+    "dtRNdMan": {
+      "filename": "trial-chamber-eternal_starlight-1.21_1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5KvFwson/versions/dtRNdMan/trial-chamber-eternal_starlight-1.21_1.21.1-1.0.0.jar",
+      "hash": "sha512-xFlegvuBkoclM1TqQc97lr4g0ck35VANfEl7PvZbDepiuwM84dJN0krHAB55n5SgnsMD5SUnfnJX4ilcg9JX7g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "eternal-starlight",
+          "projectId": "XvcfUGfB",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "LMA2Bppp"
+    ],
+    "1.21+fabric": [
+      "dtRNdMan"
+    ],
+    "1.21+neoforge": [
+      "dtRNdMan"
+    ],
+    "1.21.1+datapack": [
+      "LMA2Bppp"
+    ],
+    "1.21.1+fabric": [
+      "dtRNdMan"
+    ],
+    "1.21.1+neoforge": [
+      "dtRNdMan"
+    ]
+  }
+}

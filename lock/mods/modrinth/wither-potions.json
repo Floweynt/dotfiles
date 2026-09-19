@@ -1,0 +1,115 @@
+{
+  "slug": "wither-potions",
+  "projectId": "ObZRwo56",
+  "versions": {
+    "4Ij3KYEq": {
+      "filename": "witherpotionmod-1.1.0+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/ObZRwo56/versions/4Ij3KYEq/witherpotionmod-1.1.0%2B1.20.6.jar",
+      "hash": "sha512-XDGs3egIAbJUtsIPL/xiccz+thFg8k3yrjSdgNkH9NWphzWYdeeiyG2PLyVAAMhOKK3WeK5uZ8e7liexhzkEWg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "80NjPNtz": {
+      "filename": "witherpotionmod-1.1.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ObZRwo56/versions/80NjPNtz/witherpotionmod-1.1.1%2B1.21.jar",
+      "hash": "sha512-RQKFxSMuEiQHXnaM69BizCbHvT2VWfORdt2tsCG6W4fWNtCHTkE4BguHgNNGGGh2sstEuR3X8PJDdKtCBN2k0A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "registry-helper-lib",
+          "projectId": "zQvAgPT6",
+          "type": "required"
+        }
+      ]
+    },
+    "AxT10WDg": {
+      "filename": "witherpotionmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ObZRwo56/versions/AxT10WDg/witherpotionmod-1.0.0.jar",
+      "hash": "sha512-wFvDUV/k1BTH3uji/1PkKCCjYVa0BkipilPbxUZ+RnBOI4SbO5KmD0y9iZMGh3a5SmBYWC0SOvObanmBXPzmYw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NOtdRy9s": {
+      "filename": "witherpotionmod-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ObZRwo56/versions/NOtdRy9s/witherpotionmod-1.1.0.jar",
+      "hash": "sha512-sLPpuwRHrmXJwI3f8WCXia9d6TVELTTT5hcn3wsCRvWmfkRTPYAyRS0TIStuocaQYeFywFzN7XB0pz+CVjvRmg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XK4zoMkw": {
+      "filename": "witherpotionmod-1.1.1+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/ObZRwo56/versions/XK4zoMkw/witherpotionmod-1.1.1%2B1.20.6.jar",
+      "hash": "sha512-qvTaTt00Yy7NmulfOuCLzBJc3UOm6agCYEGB/qtLoqwVt68t+q923IcvsygjY8ol1zx8HkPvL2N21nhRTHDFVw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "registry-helper-lib",
+          "projectId": "zQvAgPT6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "XK4zoMkw",
+      "4Ij3KYEq"
+    ],
+    "1.21+fabric": [
+      "80NjPNtz",
+      "NOtdRy9s",
+      "AxT10WDg"
+    ],
+    "1.21.1+fabric": [
+      "80NjPNtz"
+    ],
+    "1.21.2+fabric": [
+      "80NjPNtz"
+    ],
+    "1.21.3+fabric": [
+      "80NjPNtz"
+    ],
+    "1.21.4+fabric": [
+      "80NjPNtz"
+    ]
+  }
+}

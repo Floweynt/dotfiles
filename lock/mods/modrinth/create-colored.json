@@ -1,0 +1,118 @@
+{
+  "slug": "create-colored",
+  "projectId": "qNpwRYsF",
+  "versions": {
+    "ETZIbisk": {
+      "filename": "create-colored-1.1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/qNpwRYsF/versions/ETZIbisk/create-colored-1.1.1%2B1.20.1.jar",
+      "hash": "sha512-7inGAMQ7r1/0vgC1PDNBwrIlQETy6Y0+9E8MKksTjPYU24bH3wsiP5NdoleDxP1np5evb2crfDAp47tY7dCfFA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Z02hyH5u": {
+      "filename": "create-colored-1.1.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/qNpwRYsF/versions/Z02hyH5u/create-colored-1.1.2%2B1.20.1.jar",
+      "hash": "sha512-4K936WRtH78norN20fKcGV6LMIhZHH4DCStgUgJuD8k+oS1AEkCZMlBjul0WVX4k05HWdz3ywheDPcoeqzpPog==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "qwz4IvKU": {
+      "filename": "create-colored-1.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/qNpwRYsF/versions/qwz4IvKU/create-colored-1.1.0%2B1.20.1.jar",
+      "hash": "sha512-YEbfpJ6t0gS6pX20VprorgDZuL81XEx9i98u68rh9N0mNJab5wKTz9Ii3EAEsKkaBQfuO7T6DT0onTpNVQ44Wg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "wCEBNYF1": {
+      "filename": "create-colored-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/qNpwRYsF/versions/wCEBNYF1/create-colored-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-BkZ13GeSOiqtI/K/+wPF2eJ5rjBLx4dOA+wibbefRFmn9n+pIvjjiZra6U8yGogGjP8ArkTJLWQTRtq2uoYdQw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Z02hyH5u",
+      "ETZIbisk",
+      "qwz4IvKU",
+      "wCEBNYF1"
+    ],
+    "1.20.2+fabric": [
+      "qwz4IvKU",
+      "wCEBNYF1"
+    ],
+    "1.20.3+fabric": [
+      "qwz4IvKU",
+      "wCEBNYF1"
+    ],
+    "1.20.4+fabric": [
+      "qwz4IvKU",
+      "wCEBNYF1"
+    ],
+    "1.20.5+fabric": [
+      "qwz4IvKU",
+      "wCEBNYF1"
+    ],
+    "1.20.6+fabric": [
+      "qwz4IvKU",
+      "wCEBNYF1"
+    ]
+  }
+}

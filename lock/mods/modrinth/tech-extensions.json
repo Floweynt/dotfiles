@@ -1,0 +1,98 @@
+{
+  "slug": "tech-extensions",
+  "projectId": "So3gzRK5",
+  "versions": {
+    "aG9NlR0B": {
+      "filename": "techextensions-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/So3gzRK5/versions/aG9NlR0B/techextensions-1.0.0.jar",
+      "hash": "sha512-pm/hmhWax96ALgkGwwM/dyfJOziO4oNThGupFFA5bZ6oXpPjOMnKGqsroh0w/3nXa2VCxhxJc9UePHKWIBVD1w==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "techreborn",
+          "projectId": "3eMENr4V",
+          "type": "required"
+        }
+      ]
+    },
+    "eB1Jx8sQ": {
+      "filename": "techextensions-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/So3gzRK5/versions/eB1Jx8sQ/techextensions-2.0.0.jar",
+      "hash": "sha512-fTBLdPZ47mIu8X2REJ8zeCjU4FB+XzMO7k9sPpGzOFRssuvM4dreJ/fuBKy+y/1W1NDiuRDhSxtd7jsdrm0Arw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "techreborn",
+          "projectId": "3eMENr4V",
+          "type": "required"
+        }
+      ]
+    },
+    "rtAjV7x0": {
+      "filename": "techextensions-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/So3gzRK5/versions/rtAjV7x0/techextensions-1.1.0.jar",
+      "hash": "sha512-5lJFNDtqGIdWMX5UEKkKOZpwG0FugwBHKvK3nlM9X8jKC42XDro0etzzXURYGT7xAGRVx+G2Ng6s1PytJzURFQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "techreborn",
+          "projectId": "3eMENr4V",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "rtAjV7x0",
+      "aG9NlR0B"
+    ],
+    "26.1+fabric": [
+      "eB1Jx8sQ"
+    ],
+    "26.1.1+fabric": [
+      "eB1Jx8sQ"
+    ],
+    "26.1.2+fabric": [
+      "eB1Jx8sQ"
+    ]
+  }
+}

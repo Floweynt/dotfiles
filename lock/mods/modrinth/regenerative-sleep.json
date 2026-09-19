@@ -1,0 +1,129 @@
+{
+  "slug": "regenerative-sleep",
+  "projectId": "JkvAVJIX",
+  "versions": {
+    "DmjbcyW1": {
+      "filename": "regenerativesleep-1.1+1.20.5.jar",
+      "url": "https://cdn.modrinth.com/data/JkvAVJIX/versions/DmjbcyW1/regenerativesleep-1.1%2B1.20.5.jar",
+      "hash": "sha512-1fXXpOwpHQItAMdOk3o+4ArJ5oyoJhfGjwK5n9ggRptUS3bNNpbKNe2xQk9XmKnP4+FgftJcbJribaa7EWSisg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "DvpEyBfN": {
+      "filename": "regenerative-sleep-1.2+1.20.5.jar",
+      "url": "https://cdn.modrinth.com/data/JkvAVJIX/versions/DvpEyBfN/regenerative-sleep-1.2%2B1.20.5.jar",
+      "hash": "sha512-csPTL65zZ474kbG5Jme1bmjW3tTYVZT6ngqpB69puDMHSNLRiBrjO7UfK0s00Wx3yML56QNhiWweB/i1VtDRBQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tALjBjeR": {
+      "filename": "regenerative-sleep-1.2+1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/JkvAVJIX/versions/tALjBjeR/regenerative-sleep-1.2%2B1.21.9.jar",
+      "hash": "sha512-7QXxIgcqb9cAY+UQW8MR8M1cxfNNL1/hzL0cDRSVaX4in81PnqHnZT35C/jEWEITpQuKiF6BDrfov76MPI8Tag==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.5+fabric": [
+      "DvpEyBfN",
+      "DmjbcyW1"
+    ],
+    "1.20.6+fabric": [
+      "DvpEyBfN",
+      "DmjbcyW1"
+    ],
+    "1.21+fabric": [
+      "DvpEyBfN",
+      "DmjbcyW1"
+    ],
+    "1.21.1+fabric": [
+      "DvpEyBfN",
+      "DmjbcyW1"
+    ],
+    "1.21.10+fabric": [
+      "tALjBjeR"
+    ],
+    "1.21.11+fabric": [
+      "tALjBjeR"
+    ],
+    "1.21.2+fabric": [
+      "DvpEyBfN",
+      "DmjbcyW1"
+    ],
+    "1.21.3+fabric": [
+      "DvpEyBfN",
+      "DmjbcyW1"
+    ],
+    "1.21.4+fabric": [
+      "DvpEyBfN",
+      "DmjbcyW1"
+    ],
+    "1.21.5+fabric": [
+      "DvpEyBfN"
+    ],
+    "1.21.6+fabric": [
+      "DvpEyBfN"
+    ],
+    "1.21.7+fabric": [
+      "DvpEyBfN"
+    ],
+    "1.21.8+fabric": [
+      "DvpEyBfN"
+    ],
+    "1.21.9+fabric": [
+      "tALjBjeR"
+    ]
+  }
+}

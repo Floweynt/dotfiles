@@ -1,0 +1,61 @@
+{
+  "slug": "railworld",
+  "projectId": "UCI1lfKJ",
+  "versions": {
+    "B2J0qjSA": {
+      "filename": "railworld-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/UCI1lfKJ/versions/B2J0qjSA/railworld-1.20.1-1.0.2.jar",
+      "hash": "sha512-8G8/7Ji9I4wKUiCEg4sTXSNdz0a34lCpH5pfTcO48yLmdkT9G23IFVbmDlDEbVfGvqJaYggFNr0LshDgFQvlUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "FvzoaMj8": {
+      "filename": "railworld-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UCI1lfKJ/versions/FvzoaMj8/railworld-1.20.1-1.0.1.jar",
+      "hash": "sha512-FdE3T55hGgvBN41P+mINX8RigjJIcbog6z2PWtKdnnbPcd/NbM2la02EZT4h8SXvh1g9tXV7y7aBSNg5VvOZFg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fcpXSnBV": {
+      "filename": "railworld-1.20.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UCI1lfKJ/versions/fcpXSnBV/railworld-1.20.1-1.0.jar",
+      "hash": "sha512-Vx9nD+cS/0Z/Y9rsn6HQKT3n2Hz16BwZ1b2dSjU88D/ildyo2FgRW3ieTHd43SUaZBzaWGqnCpvIlr1Hk6PANw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "B2J0qjSA",
+      "FvzoaMj8",
+      "fcpXSnBV"
+    ]
+  }
+}

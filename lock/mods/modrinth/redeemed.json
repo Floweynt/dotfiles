@@ -1,0 +1,126 @@
+{
+  "slug": "redeemed",
+  "projectId": "9yqewEUe",
+  "versions": {
+    "BVSWBxUi": {
+      "filename": "Redeemed-fabric-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/9yqewEUe/versions/BVSWBxUi/Redeemed-fabric-1.21.1-1.1.0.jar",
+      "hash": "sha512-nfZ+1sXJ7M4VLCUPFJOyJR/hv9Guy9Tke0b+I5u990f1DybI6tz3JFlOF9d6Ch7vvWICpxh9/95Cpm/YCtP24Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "m7Z4IXIz": {
+      "filename": "Redeemed-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9yqewEUe/versions/m7Z4IXIz/Redeemed-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-kWvfjkIecuzmLJi3ltBXwQ39ErewQn5vWbZkqM15JCgz5/U6M/7kkWMR2VhhI0jY2XskEYHexhMYnaniKXmtwA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "pctq8w9X": {
+      "filename": "Redeemed-fabric-1.21.1-1.1.0-BETA1.jar",
+      "url": "https://cdn.modrinth.com/data/9yqewEUe/versions/pctq8w9X/Redeemed-fabric-1.21.1-1.1.0-BETA1.jar",
+      "hash": "sha512-VHwgnkUsN9O5eP0jqdH2b7dkR6OaRsz4F2NqLOqQcCoT00zSnE+S8A2ulU4Ma1Gm2TriEAUNhHN7J5YsypT74A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "m7Z4IXIz"
+    ],
+    "1.20.2+fabric": [
+      "m7Z4IXIz"
+    ],
+    "1.20.3+fabric": [
+      "m7Z4IXIz"
+    ],
+    "1.20.4+fabric": [
+      "m7Z4IXIz"
+    ],
+    "1.20.5+fabric": [
+      "m7Z4IXIz"
+    ],
+    "1.20.6+fabric": [
+      "m7Z4IXIz"
+    ],
+    "1.21+fabric": [
+      "m7Z4IXIz"
+    ],
+    "1.21.1+fabric": [
+      "BVSWBxUi",
+      "pctq8w9X",
+      "m7Z4IXIz"
+    ]
+  }
+}

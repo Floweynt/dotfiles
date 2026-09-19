@@ -1,0 +1,41 @@
+{
+  "slug": "mega-chicken",
+  "projectId": "SNukMOpA",
+  "versions": {
+    "jQb8Li80": {
+      "filename": "megachicken-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/SNukMOpA/versions/jQb8Li80/megachicken-1.0.3.jar",
+      "hash": "sha512-sZ0gt7cLMe8wl6i2fMlOrmNmeYej9SQ9Zs+kURzViliht8mBOkt6DrSYQ2pUmMter+5Qrl/jfRQcDVYK8jXk3A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "skylib",
+          "projectId": "SXYcZO3i",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "jQb8Li80"
+    ]
+  }
+}

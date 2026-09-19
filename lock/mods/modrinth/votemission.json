@@ -1,0 +1,111 @@
+{
+  "slug": "votemission",
+  "projectId": "dz62Vixc",
+  "versions": {
+    "DiIPxHeh": {
+      "filename": "votemission-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/dz62Vixc/versions/DiIPxHeh/votemission-1.1.jar",
+      "hash": "sha512-cmVvaAulVzYjTJbR/FwAqng1GesC8fKKUzSEDXeNbvwzkBWLhBkk6P43I2ejBTxcdMMdFBCN/GeLVTbZPpkoGw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "votifier-for-fabric",
+          "projectId": "8k8d2Dbx",
+          "type": "required"
+        },
+        {
+          "slug": "missions",
+          "projectId": "KN33kvHF",
+          "type": "required"
+        }
+      ]
+    },
+    "aImkbvh5": {
+      "filename": "votemission-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/dz62Vixc/versions/aImkbvh5/votemission-1.3.jar",
+      "hash": "sha512-AujH/dRixhfXp9w5TTxn90GCMPX+hKyBGiREANdsOQKYVLcSvg/ro4V1ytIIDIqCq5mJSrN5CoDUNyBBUFsg7Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "uVcigFtI": {
+      "filename": "votemission-1.4.jar",
+      "url": "https://cdn.modrinth.com/data/dz62Vixc/versions/uVcigFtI/votemission-1.4.jar",
+      "hash": "sha512-dt3GVIl8xaI5f+CDjmJkhjTODWPocUyQyGY/+q+EmDnq5expn8q6yh4M4Pc0oZ562g+bh3wfXmpM3Jn3SXiAlA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "votifier-for-fabric",
+          "projectId": "8k8d2Dbx",
+          "type": "required"
+        },
+        {
+          "slug": "missions",
+          "projectId": "KN33kvHF",
+          "type": "required"
+        }
+      ]
+    },
+    "xsf5d1a2": {
+      "filename": "votemission-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/dz62Vixc/versions/xsf5d1a2/votemission-1.2.jar",
+      "hash": "sha512-y9PhINduhv5HftWObvgp8iDxA+SkeGYSrg8HjXUabu04YeEbRrDLsGPpzkSaoM5qiHlQQMybUGUr6DX+wnRkKg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "missions",
+          "projectId": "KN33kvHF",
+          "type": "required"
+        },
+        {
+          "slug": "votifier-for-fabric",
+          "projectId": "8k8d2Dbx",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "uVcigFtI",
+      "aImkbvh5",
+      "xsf5d1a2",
+      "DiIPxHeh"
+    ],
+    "1.20.1+quilt": [
+      "uVcigFtI",
+      "xsf5d1a2",
+      "DiIPxHeh"
+    ]
+  }
+}

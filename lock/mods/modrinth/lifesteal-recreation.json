@@ -1,0 +1,61 @@
+{
+  "slug": "lifesteal-recreation",
+  "projectId": "VWMbv7kT",
+  "versions": {
+    "LrTvllr5": {
+      "filename": "lifesteal-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VWMbv7kT/versions/LrTvllr5/lifesteal-1.1.0.jar",
+      "hash": "sha512-9WeDPARTaMKRlV3ATmX9gZj7S2PqMBJxlT4kC6Qa+VYg4BLBDwZH9ngrLrhjhN5LF/kLKdyxof1ZPaVLvqcmIg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cmDXzErm": {
+      "filename": "lifesteal-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VWMbv7kT/versions/cmDXzErm/lifesteal-4.0.0.jar",
+      "hash": "sha512-h8YQSfpJFNFvG8ZPNLfeTf9BQsTyXaPSahIvB7sO7twMhAPCxZWsUfTGx7KL9HiOztBNabWPRyOcs/h76O4cXg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fBLz1XGR": {
+      "filename": "lifesteal-3.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/VWMbv7kT/versions/fBLz1XGR/lifesteal-3.0.5.jar",
+      "hash": "sha512-Cv+ukMKoS7mE7Jjrri9n+wofASSOUW3ti/Sq7CULgGGoU7s2OtUrR2hoszsqZLwRPtk5pvvYVF4vf/ruVTc0KQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "cmDXzErm",
+      "fBLz1XGR",
+      "LrTvllr5"
+    ]
+  }
+}

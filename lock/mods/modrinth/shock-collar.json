@@ -1,0 +1,76 @@
+{
+  "slug": "shock-collar",
+  "projectId": "ipnOvdIr",
+  "versions": {
+    "4Ywezxuw": {
+      "filename": "Shock remote.zip",
+      "url": "https://cdn.modrinth.com/data/ipnOvdIr/versions/4Ywezxuw/Shock%20remote.zip",
+      "hash": "sha512-wi0fklyBP/RXHhwV0OgfDC6P/nJauyuAT4KFcw41wyaO2b21hofeeYMjo8Bv+e22K9ETy4Z25aPd1pfRHaHYhA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "porting_lib",
+          "projectId": "tEJPA4Ty",
+          "type": "required"
+        },
+        {
+          "slug": "leashable-collars",
+          "projectId": "E1XS8bXN",
+          "type": "required"
+        }
+      ]
+    },
+    "laDFSVOf": {
+      "filename": "leashable-collars-plus-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ipnOvdIr/versions/laDFSVOf/leashable-collars-plus-1.0.0.jar",
+      "hash": "sha512-piYx0vRbbmI/wprBYy47Lj/Y5KvhjWqnhhckyi3J7A11U5rYKWUggz8HuZGuG6hLOqZhfsN1XG4t9ZuS5x7fSg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "porting_lib",
+          "projectId": "tEJPA4Ty",
+          "type": "required"
+        },
+        {
+          "slug": "leashable-collars",
+          "projectId": "E1XS8bXN",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "4Ywezxuw"
+    ],
+    "1.20.1+fabric": [
+      "laDFSVOf"
+    ],
+    "1.20.1+forge": [
+      "laDFSVOf"
+    ],
+    "1.20.1+neoforge": [
+      "laDFSVOf"
+    ],
+    "1.20.1+quilt": [
+      "laDFSVOf"
+    ]
+  }
+}

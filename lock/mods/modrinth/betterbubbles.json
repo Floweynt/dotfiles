@@ -1,0 +1,35 @@
+{
+  "slug": "betterbubbles",
+  "projectId": "UGGW932g",
+  "versions": {
+    "OWswcKDk": {
+      "filename": "betterbubbles-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UGGW932g/versions/OWswcKDk/betterbubbles-1.0.0.jar",
+      "hash": "sha512-r917NY7wa6LrqUkZ6XPWdsF2o4ZS9ptrZsOCskqlwHXiavjVHY012HrOXlNUfjq9G2e801UGxgcz18aGIHMl3w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "OWswcKDk"
+    ],
+    "1.21.1+fabric": [
+      "OWswcKDk"
+    ]
+  }
+}

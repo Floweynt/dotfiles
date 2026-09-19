@@ -1,0 +1,106 @@
+{
+  "slug": "random-enchant-fix",
+  "projectId": "70vOH2S4",
+  "versions": {
+    "Ci6hsEhe": {
+      "filename": "randomenchantfix-fabric-1.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/70vOH2S4/versions/Ci6hsEhe/randomenchantfix-fabric-1.0.1-1.21.1.jar",
+      "hash": "sha512-o12QW8pIo3cdKeJCRhbnI7nmXSLNDN57lhdJ9XrpVK3W/VOuT6wuJ2wxKRQxZBtKqQOwu94/Unh93AXlC7UAFQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "Dmd9PNoX": {
+      "filename": "randomenchantfix-neoforge-1.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/70vOH2S4/versions/Dmd9PNoX/randomenchantfix-neoforge-1.0.1-1.21.1.jar",
+      "hash": "sha512-MuMUvPCPMA7Hbgn/W2Mnb+Tzg4rA08W9N57ures3k9IbWOM1/CbI3owIjqf4tx9lWfAy8OoFOghkpWqA5NoaYA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "EAGDmvxZ": {
+      "filename": "randomenchantfix-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/70vOH2S4/versions/EAGDmvxZ/randomenchantfix-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-fGgX0yUuEY+DsUizBHA46iG0InIkTAFK0kRDBgLYq+NGEVaOGEmny3ctEtqbXylelldqHEizmsSqANL8CXPXvA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "ZUWZluAk": {
+      "filename": "randomenchantfix-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/70vOH2S4/versions/ZUWZluAk/randomenchantfix-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-pvsE014xHckKnwXLHbKLUngWXDkrOvVI2YbZwJwiyI8h5a5OoI3tADsOd4En9QvSmccvSQa9mgp+68lENrdiFQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Ci6hsEhe",
+      "EAGDmvxZ"
+    ],
+    "1.21.1+neoforge": [
+      "Dmd9PNoX",
+      "ZUWZluAk"
+    ]
+  }
+}

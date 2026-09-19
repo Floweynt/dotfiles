@@ -1,0 +1,56 @@
+{
+  "slug": "speed-horse",
+  "projectId": "5QGByDBt",
+  "versions": {
+    "JwQ3pRdc": {
+      "filename": "speed-horse-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5QGByDBt/versions/JwQ3pRdc/speed-horse-1.0.0.jar",
+      "hash": "sha512-cKwJrC+6ceU8pLRy5SNE7qfwcyYADbz3Oa+sqDc3saeZ19PcYH4u9UQ+aFPEWv6Q32H+080IRWdgWgfmzj12Ow==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uhHmpmgt": {
+      "filename": "speed-horse-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5QGByDBt/versions/uhHmpmgt/speed-horse-1.0.1.jar",
+      "hash": "sha512-z07O6Vb9kIS6CF3w14pXrgB7i078PEyIM+kUv9Qb8QVm7VX7BWVZzjo1kV/qXV0EpXjEqeFDu6ZiwTvj1KZcYg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "JwQ3pRdc"
+    ],
+    "26.1+fabric": [
+      "uhHmpmgt"
+    ],
+    "26.1.1+fabric": [
+      "uhHmpmgt"
+    ],
+    "26.1.2+fabric": [
+      "uhHmpmgt"
+    ]
+  }
+}

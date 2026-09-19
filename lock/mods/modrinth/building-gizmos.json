@@ -1,0 +1,75 @@
+{
+  "slug": "building-gizmos",
+  "projectId": "FDWhrRmq",
+  "versions": {
+    "AyRAfcx6": {
+      "filename": "building_gizmos-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/FDWhrRmq/versions/AyRAfcx6/building_gizmos-fabric-1.0.1.jar",
+      "hash": "sha512-7TMsui+Y2Kv7PTj9Gx6jSj8jOeoLGtYSJLh7nTmDzWQ9gMiiRrZU5mAyYIQsj8jtK1uK8gnMl+qUdJfFnaZAQg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Jhi24L8K": {
+      "filename": "building_gizmos-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/FDWhrRmq/versions/Jhi24L8K/building_gizmos-fabric-1.0.2.jar",
+      "hash": "sha512-TvOsS/C4ijKh6cu8Dw4y597xYHyUN2grZRRQGX+xYQ8ob80cpcY/SYcricP6gAWXX+zN7/HO1W7pGJ5K22zMzQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "l1suDazO": {
+      "filename": "buildinggizmos-1.19.2-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/FDWhrRmq/versions/l1suDazO/buildinggizmos-1.19.2-1.0.1.jar",
+      "hash": "sha512-okvFs83lUcmvNOKKnOGMQ+8j7LRkkCZaTjlBRmyYKRu4aplPY7RixVVlQ19zHc+Sui7s63KsCek7vxFI/0tcXA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "l1suDazO"
+    ],
+    "1.20.1+fabric": [
+      "Jhi24L8K",
+      "AyRAfcx6"
+    ],
+    "1.20.1+forge": [
+      "Jhi24L8K",
+      "AyRAfcx6"
+    ]
+  }
+}

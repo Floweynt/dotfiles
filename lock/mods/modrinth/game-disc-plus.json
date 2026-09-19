@@ -1,0 +1,42 @@
+{
+  "slug": "game-disc-plus",
+  "projectId": "LNcL7Zqq",
+  "versions": {
+    "pCneexFW": {
+      "filename": "GameDiscs-0.3.8-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/LNcL7Zqq/versions/pCneexFW/GameDiscs-0.3.8-fabric.jar",
+      "hash": "sha512-6wHgGgpbh0ugrv2uHkI3d3GlLE94kYSwnz5cINDDwrdQX6gDtVWTCmjKsnJpjZy+JfOnHB4tWt0v1cexh3fXXw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tFSbFEb0": {
+      "filename": "gamediscs-0.4.0-fabric-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/LNcL7Zqq/versions/tFSbFEb0/gamediscs-0.4.0-fabric-mc26.2.jar",
+      "hash": "sha512-VnhjjnJkFs5Xph8CigmqxRc0jFSQ0id7EKI7KmBYpdhHGbDqjvST0w6wEpsidFTjW9ZReofYsHdCeeOt1YBSrQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "pCneexFW"
+    ],
+    "26.2+fabric": [
+      "tFSbFEb0"
+    ]
+  }
+}

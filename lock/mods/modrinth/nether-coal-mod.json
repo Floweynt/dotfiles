@@ -1,0 +1,83 @@
+{
+  "slug": "nether-coal-mod",
+  "projectId": "J31lDSqv",
+  "versions": {
+    "5EuZbowh": {
+      "filename": "nether_coal-1.5.jar",
+      "url": "https://cdn.modrinth.com/data/J31lDSqv/versions/5EuZbowh/nether_coal-1.5.jar",
+      "hash": "sha512-egSNF8tVSZg8hhdW+3bMTaf9HCbLRcDsflegjLqgJSZ5oTAxDZTgFo9DWw3nRSREyikbGPf00nbxdQBUKPocjg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "6HgDD0p5": {
+      "filename": "nether_coal-2.0-fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/J31lDSqv/versions/6HgDD0p5/nether_coal-2.0-fabric-1.21.8.jar",
+      "hash": "sha512-4/P0R3OePgmSEetmLyJAVC1wRsuuEeN2SGYjLPnsJxmp2O6bISsLQ+oVVSNwBWxVOL6Tyel6rVTBv/Zru6vn/g==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QzDixc7S": {
+      "filename": "nether_coal-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/J31lDSqv/versions/QzDixc7S/nether_coal-1.0.jar",
+      "hash": "sha512-f2yYdMYIP0KmEx/f5Lzgy97QpSxqeSxt95AdN2QLlxUmSDfqo2vexaEb6ROLyqehaOEMbsU4+7d+xEPnqLMzsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5EuZbowh",
+      "QzDixc7S"
+    ],
+    "1.20.1+quilt": [
+      "5EuZbowh"
+    ],
+    "1.21.8+fabric": [
+      "6HgDD0p5"
+    ],
+    "1.21.8+quilt": [
+      "6HgDD0p5"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "no-enchantment-tiers",
+  "projectId": "yfaX2W8g",
+  "versions": {
+    "VhZz715h": {
+      "filename": "no_enchant_tiers.zip",
+      "url": "https://cdn.modrinth.com/data/yfaX2W8g/versions/VhZz715h/no_enchant_tiers.zip",
+      "hash": "sha512-mum27VWBn84locyi2WDas53uWIe/rn66lpdwyHMn5DI102osBezUrvPH0ND87hoY7Xhbbw27OYn0l2TPFsuuqA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "dqtbzR2N": {
+      "filename": "no-enchantment-tiers-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/yfaX2W8g/versions/dqtbzR2N/no-enchantment-tiers-1.0.jar",
+      "hash": "sha512-hSdggvWyNW1NYW20cqfENqqq2Y9BqRvQPPp40f58Lb6ePKAWNcyOG1WZff/WOgEAAemSUqlIUL1QGkL3Ls/pVg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "VhZz715h"
+    ],
+    "1.21+fabric": [
+      "dqtbzR2N"
+    ],
+    "1.21+forge": [
+      "dqtbzR2N"
+    ],
+    "1.21+neoforge": [
+      "dqtbzR2N"
+    ],
+    "1.21+quilt": [
+      "dqtbzR2N"
+    ],
+    "1.21.1+datapack": [
+      "VhZz715h"
+    ],
+    "1.21.1+fabric": [
+      "dqtbzR2N"
+    ],
+    "1.21.1+forge": [
+      "dqtbzR2N"
+    ],
+    "1.21.1+neoforge": [
+      "dqtbzR2N"
+    ],
+    "1.21.1+quilt": [
+      "dqtbzR2N"
+    ]
+  }
+}

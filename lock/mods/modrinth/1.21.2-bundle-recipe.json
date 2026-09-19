@@ -1,0 +1,71 @@
+{
+  "slug": "1.21.2-bundle-recipe",
+  "projectId": "JPVSeZZV",
+  "versions": {
+    "An2agkuT": {
+      "filename": "1.21.2-bundle-recipe-1.01.jar",
+      "url": "https://cdn.modrinth.com/data/JPVSeZZV/versions/An2agkuT/1.21.2-bundle-recipe-1.01.jar",
+      "hash": "sha512-HaQqh9Abt6AzCnHdqmrt01aT8JgF1JF+uu9EzQJ96dKyNsMxXlFozfm6ZF+/KIBDgII/nYv2S/TM8FXdsq3vcQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "FkPQ5sXF": {
+      "filename": "bundle_crafting_recipe.zip",
+      "url": "https://cdn.modrinth.com/data/JPVSeZZV/versions/FkPQ5sXF/bundle_crafting_recipe.zip",
+      "hash": "sha512-lTOUx2i2GrxgOQGYry56ThOoXHql7+KfgqoRDtl6fH0v2+Y08nTMDdDS++uUown4b2qQ08gKZUSjwY4axRgBWw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "FkPQ5sXF"
+    ],
+    "1.21+fabric": [
+      "An2agkuT"
+    ],
+    "1.21+forge": [
+      "An2agkuT"
+    ],
+    "1.21+neoforge": [
+      "An2agkuT"
+    ],
+    "1.21+quilt": [
+      "An2agkuT"
+    ],
+    "1.21.1+datapack": [
+      "FkPQ5sXF"
+    ],
+    "1.21.1+fabric": [
+      "An2agkuT"
+    ],
+    "1.21.1+forge": [
+      "An2agkuT"
+    ],
+    "1.21.1+neoforge": [
+      "An2agkuT"
+    ],
+    "1.21.1+quilt": [
+      "An2agkuT"
+    ]
+  }
+}

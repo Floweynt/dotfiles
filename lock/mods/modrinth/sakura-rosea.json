@@ -1,0 +1,78 @@
+{
+  "slug": "sakura-rosea",
+  "projectId": "gh42nn1h",
+  "versions": {
+    "3cC7kMVX": {
+      "filename": "sakurarosea-1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/gh42nn1h/versions/3cC7kMVX/sakurarosea-1.19.4.jar",
+      "hash": "sha512-MmmpM/3IcdC6SbvdivtVTfQWD36WSCkbLTkGs7ndEV1z71YpFptjRBIlRK1Jv7bdCtN0W2vQ9lZphsU3TgIPBw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "7clh14YW": {
+      "filename": "sakurarosea-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/gh42nn1h/versions/7clh14YW/sakurarosea-1.19.3.jar",
+      "hash": "sha512-nbV8kl90BfAYfJky7i1lR/qxM2mAlCZjODq4nCBr+mf8Gq2ApFHppW5zmGPE0qU3OAxB3klkH5O2zZk2ue6o+A==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XGIN22UA": {
+      "filename": "SakuraRosea-1.5.6-MC1.16.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/gh42nn1h/versions/v1.5.7/SakuraRosea-1.5.6-MC1.16.3-fabric.jar",
+      "hash": "sha512-tUgLtXAWcl98z/+ewZK68uU8SGGw+lJZWhe/aR9EfiCETjUO8PtNWsnzXQCth/3WwPc8AF2BBx2UUtsJiq/dqw==",
+      "gameVersions": [
+        "1.16.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.3+fabric": [
+      "XGIN22UA"
+    ],
+    "1.19.3+fabric": [
+      "7clh14YW"
+    ],
+    "1.19.3+quilt": [
+      "7clh14YW"
+    ],
+    "1.19.4+fabric": [
+      "3cC7kMVX"
+    ],
+    "1.19.4+quilt": [
+      "3cC7kMVX"
+    ]
+  }
+}

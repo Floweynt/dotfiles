@@ -1,0 +1,62 @@
+{
+  "slug": "minecartspeedunlimiter",
+  "projectId": "ZKfY6OKO",
+  "versions": {
+    "ZnbKSAEI": {
+      "filename": "minecartspeedunlimiter 1.0.0 24w33a.jar",
+      "url": "https://cdn.modrinth.com/data/ZKfY6OKO/versions/ZnbKSAEI/minecartspeedunlimiter%201.0.0%2024w33a.jar",
+      "hash": "sha512-o1sfqyEbq1pDpR3ORa2o4HmBNmCXx4RuNi64PFTOPZlA/Q5nwnxZwXn17w2TW0W+zCFK04ueXW2BPvhIS1jSsg==",
+      "gameVersions": [
+        "24w33a",
+        "24w34a",
+        "24w35a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "pcj6R1hz": {
+      "filename": "MinecartSpeedUnlimiter 1.1.0 min 24w33a.jar",
+      "url": "https://cdn.modrinth.com/data/ZKfY6OKO/versions/pcj6R1hz/MinecartSpeedUnlimiter%201.1.0%20min%2024w33a.jar",
+      "hash": "sha512-sgi+oUK1y0i4TCJHlNzKAmnnanW6s+IQUiDPJcNFRyAEfRq9FKT+DDVLGUydq8y+BbKx+x2ABF9IJ1XDgMd6GA==",
+      "gameVersions": [
+        "24w33a",
+        "24w34a",
+        "24w36a",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.2+fabric": [
+      "pcj6R1hz"
+    ],
+    "1.21.3+fabric": [
+      "pcj6R1hz"
+    ],
+    "24w33a+fabric": [
+      "pcj6R1hz",
+      "ZnbKSAEI"
+    ],
+    "24w34a+fabric": [
+      "pcj6R1hz",
+      "ZnbKSAEI"
+    ],
+    "24w35a+fabric": [
+      "ZnbKSAEI"
+    ],
+    "24w36a+fabric": [
+      "pcj6R1hz"
+    ]
+  }
+}

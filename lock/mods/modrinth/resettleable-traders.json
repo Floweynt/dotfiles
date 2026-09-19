@@ -1,0 +1,64 @@
+{
+  "slug": "resettleable-traders",
+  "projectId": "D3doOyEg",
+  "versions": {
+    "cOmD0Brl": {
+      "filename": "resettleable_traders-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/D3doOyEg/versions/cOmD0Brl/resettleable_traders-forge-1.0.0.jar",
+      "hash": "sha512-k0Q8k/wNoTcXekqBRzvLKs/EEfhd0pDL2PWjcY82A02ADKMuI0O6ayTuEH+giB0aUHBk9NclDy0e+cMA3X88Jg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "yHjDvGaW": {
+      "filename": "resettleable_traders-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/D3doOyEg/versions/yHjDvGaW/resettleable_traders-fabric-1.0.0.jar",
+      "hash": "sha512-9+YcW9gI6AFPlLzBpAv8+8nmY9AUMW8CF0HKXvQsMUK/mdtihGxL3JMigCxKZjMvs2dx2bK/XIy+TEyhhq2hyw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yHjDvGaW"
+    ],
+    "1.20.1+forge": [
+      "cOmD0Brl"
+    ]
+  }
+}

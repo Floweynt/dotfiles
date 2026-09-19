@@ -1,0 +1,46 @@
+{
+  "slug": "armorrenderlib-directors-cut",
+  "projectId": "4QKBiM3f",
+  "versions": {
+    "2egCtHLx": {
+      "filename": "armorrenderlib-0.3.11.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/4QKBiM3f/versions/2egCtHLx/armorrenderlib-0.3.11.20.1.jar",
+      "hash": "sha512-Th2GWmWYm5nfx8Kp1xEjbz+tLdo3nyG9MFhA7NOHyic9Af+brXlrUxz/0NdT2jMmHD03lMUtBEhrivPG2H1Flw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VlmZ2kBP": {
+      "filename": "armorrenderlib-0.3.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/4QKBiM3f/versions/VlmZ2kBP/armorrenderlib-0.3.0%2B1.20.1.jar",
+      "hash": "sha512-iM4lWy4+rR7ScwkPR2GNBhkzcbVDT0VjV5k53CM/vEGlhbEQ+snbwmvMUV3iODilzGdMW+HxVv98lbomJiYJGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2egCtHLx",
+      "VlmZ2kBP"
+    ]
+  }
+}

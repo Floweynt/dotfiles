@@ -1,0 +1,75 @@
+{
+  "slug": "pickupvillagers",
+  "projectId": "j87BR5rB",
+  "versions": {
+    "KBO2dhD6": {
+      "filename": "PickupVillagers-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/j87BR5rB/versions/KBO2dhD6/PickupVillagers-1.0.0.jar",
+      "hash": "sha512-+Juw3BnzZrjhUbnkxfOwSUY6xuX0KpRWHsIVIZTMYGO6v0EBzKDeuFHDmqEFk2chyFBrIwmo9DIeLTVuHAfeSw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "O6JuC5qp": {
+      "filename": "PickupVillagers-1.1.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/j87BR5rB/versions/O6JuC5qp/PickupVillagers-1.1.0-1.21.jar",
+      "hash": "sha512-KjtiU8JAPF8T53oq6zDBlnnVzVj3QCymwTwiMkt6QY3LnsmzXWimemeGFcjfcYN6c4z+MkKRcpi2swK+3DDDfQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Y0hudSni": {
+      "filename": "PickupVillagers-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/j87BR5rB/versions/Y0hudSni/PickupVillagers-1.0.0.jar",
+      "hash": "sha512-P/WmnKJUKMlYZm04sZF3rErxPdWt6ei5AJJliDkUKQuTJ007l5wej3Aa+uSWJHsBvAOkl2+d+Ac2steWxjSQKQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "KBO2dhD6"
+    ],
+    "1.21+fabric": [
+      "O6JuC5qp",
+      "Y0hudSni"
+    ]
+  }
+}

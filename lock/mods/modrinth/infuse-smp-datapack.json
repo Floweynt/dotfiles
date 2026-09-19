@@ -1,0 +1,87 @@
+{
+  "slug": "infuse-smp-datapack",
+  "projectId": "e67SJR0Y",
+  "versions": {
+    "LItx5EP9": {
+      "filename": "Infuse-SMP-V1.2.jar",
+      "url": "https://cdn.modrinth.com/data/e67SJR0Y/versions/LItx5EP9/Infuse-SMP-V1.2.jar",
+      "hash": "sha512-6wItjq3qF5ne7h3+68CPvnrT1QhAjVsSvuZnUPHahliwB13vn1r74Ohn5j5IzpPyZMQl3mteVwFOBwR25mIhzA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "P7obS7Sk": {
+      "filename": "Infuse-SMP-V1.1.zip",
+      "url": "https://cdn.modrinth.com/data/e67SJR0Y/versions/P7obS7Sk/Infuse-SMP-V1.1.zip",
+      "hash": "sha512-eWBxcIIPkmT797zsHe9FFl1QkvElpWr3Vrt80NFjLVHb/YAan9ToPYiamhS+ozWdKj4u+ePwGoYa6lvpdq7dGg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "vMRBXSB7": {
+      "filename": "Infuse-SMP-V1.2.zip",
+      "url": "https://cdn.modrinth.com/data/e67SJR0Y/versions/vMRBXSB7/Infuse-SMP-V1.2.zip",
+      "hash": "sha512-n95asL93IPSJJIe8n6K9lqI0Ks0T+Q501fgEHNAfevHW0o2CmM5YXcpj0G6vyP8hsDqVzSihlcZcsBt4eUd6IA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+datapack": [
+      "vMRBXSB7",
+      "P7obS7Sk"
+    ],
+    "1.19+fabric": [
+      "LItx5EP9"
+    ],
+    "1.19+quilt": [
+      "LItx5EP9"
+    ],
+    "1.19.1+datapack": [
+      "vMRBXSB7",
+      "P7obS7Sk"
+    ],
+    "1.19.1+fabric": [
+      "LItx5EP9"
+    ],
+    "1.19.1+quilt": [
+      "LItx5EP9"
+    ],
+    "1.19.2+datapack": [
+      "vMRBXSB7",
+      "P7obS7Sk"
+    ],
+    "1.19.2+fabric": [
+      "LItx5EP9"
+    ],
+    "1.19.2+quilt": [
+      "LItx5EP9"
+    ]
+  }
+}

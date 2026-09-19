@@ -1,0 +1,58 @@
+{
+  "slug": "minecraft-dungeons-melee-weapons",
+  "projectId": "7SFMqDvC",
+  "versions": {
+    "E6kbl5Wz": {
+      "filename": "qq-1.0.0-fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/7SFMqDvC/versions/E6kbl5Wz/qq-1.0.0-fabric-1.21.8.jar",
+      "hash": "sha512-Wf8t8JhoBTOGx9+kPHK2yKerWkX3xz/BDpJZanyNXivCTPnHC75rRvqw9ULlV5kScpgadprDt0Epb9j1y2QiVg==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "W57Yvc0J": {
+      "filename": "Dungeons Weapons-1.0.0-fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/7SFMqDvC/versions/W57Yvc0J/Dungeons%20Weapons-1.0.0-fabric-1.21.8.jar",
+      "hash": "sha512-BCBKubYZ0tgMxmRidC8US6VrvemFbuhirw7gtVSPGaTbKBihKNwNHG/ha5BDUTBFkFuUllGXqrX3C3hx9PAu3g==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "E6kbl5Wz"
+    ],
+    "1.21.11+fabric": [
+      "E6kbl5Wz"
+    ],
+    "1.21.8+fabric": [
+      "E6kbl5Wz",
+      "W57Yvc0J"
+    ],
+    "1.21.9+fabric": [
+      "E6kbl5Wz"
+    ]
+  }
+}

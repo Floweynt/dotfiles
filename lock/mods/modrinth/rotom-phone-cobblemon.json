@@ -1,0 +1,54 @@
+{
+  "slug": "rotom-phone-cobblemon",
+  "projectId": "mz99suJd",
+  "versions": {
+    "94drAR8z": {
+      "filename": "RotomPhoneCobblemon-forge-1.0.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mz99suJd/versions/94drAR8z/RotomPhoneCobblemon-forge-1.0.2%2B1.20.1.jar",
+      "hash": "sha512-yJwwj+nDYv5VRIEiGCoCz6BCYlDZRWPlc1+FjDwKa0dyShkNF9dN1JBVkUE8SbB6AJkRw4VLhe5yxsX5eN5zFw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "yprmXWyH": {
+      "filename": "RotomPhoneCobblemon-fabric-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mz99suJd/versions/yprmXWyH/RotomPhoneCobblemon-fabric-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-zRxb/bndXyrDLWp/KlKGFwFyyFv3VRCQvfkMXsAq4KlEqvY2AkmmNU8E7c+bdA1bQvUg6aho+dhUVGr02Bu1eQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yprmXWyH"
+    ],
+    "1.20.1+forge": [
+      "94drAR8z"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "stun-slam-simulator",
+  "projectId": "BYqYHG22",
+  "versions": {
+    "NeaJNIjp": {
+      "filename": "stun-slam-simulator-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BYqYHG22/versions/NeaJNIjp/stun-slam-simulator-1.0.1.jar",
+      "hash": "sha512-j9jWAIbWRt7OS4T1QevrUtrT6AtXkISNqcro8vgr3L3gaCfxuRxFoseuDnMebv7+SjZ47LmHB4bb32V3EZjACw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oy2lMbeB": {
+      "filename": "stun-slam-simulator-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BYqYHG22/versions/oy2lMbeB/stun-slam-simulator-1.0.0.jar",
+      "hash": "sha512-J+EdwGcUrBuvfJGUc5LfggEBYXlare1bsxmTPKaWrTmPBrB1+EyL2OirB5yoGVxpLMaGQ5xnRUQ3vJsLWt2Tzg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "NeaJNIjp",
+      "oy2lMbeB"
+    ]
+  }
+}

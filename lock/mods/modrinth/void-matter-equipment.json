@@ -1,0 +1,90 @@
+{
+  "slug": "void-matter-equipment",
+  "projectId": "BUyCZxy3",
+  "versions": {
+    "P4LCdGR4": {
+      "filename": "void_matter_1.1.0_Forge.jar",
+      "url": "https://cdn.modrinth.com/data/BUyCZxy3/versions/P4LCdGR4/void_matter_1.1.0_Forge.jar",
+      "hash": "sha512-D2L93IZ68AksG8a/gqV4mrORm+XBUN6D0p4jVOHbCRzpGoKO1HX/YjmIXDvpkOxcJtJSa3f9Mzu1F+wJwOAIjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "QN8rqsSx": {
+      "filename": "void_matter-1.1.1 FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/BUyCZxy3/versions/QN8rqsSx/void_matter-1.1.1%20FABRIC.jar",
+      "hash": "sha512-EUT1tRb4yxSqOy8K3hURX/xhU4XMhBL0T3H/HkpQHdGcWfSBZOgvwYMjawU38rHRRNDn6pW+0cxINHWkeZowIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qwHfm6vY": {
+      "filename": "Void Matter Equipment V1.0.0 (1.20.1).jar",
+      "url": "https://cdn.modrinth.com/data/BUyCZxy3/versions/qwHfm6vY/Void%20Matter%20Equipment%20V1.0.0%20%281.20.1%29.jar",
+      "hash": "sha512-rseAP93jKy7u7Kb7BCiWCdtR7No8ZTRpKEjjHO4pghFnw4gg5bMrwciomXaDCRIs0+2ZGBm4cca+RDgIchH1ZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "rCCmzowm": {
+      "filename": "Void Matter Equipment Fabric V1.0.0 [1.20.1].jar",
+      "url": "https://cdn.modrinth.com/data/BUyCZxy3/versions/rCCmzowm/Void%20Matter%20Equipment%20Fabric%20V1.0.0%20%5B1.20.1%5D.jar",
+      "hash": "sha512-ybH0RdfLohbBdfR4S9fONAXms4BM9TypmRHHhXvaqohMFr1Lx3wVKn+v46OfMG0wLOzLV8jkAYZc5YJoccG1aQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "QN8rqsSx",
+      "rCCmzowm"
+    ],
+    "1.20.1+forge": [
+      "P4LCdGR4",
+      "qwHfm6vY"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "fix-shield",
+  "projectId": "KVdXKkR8",
+  "versions": {
+    "gS2OBybA": {
+      "filename": "fix-shield-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/KVdXKkR8/versions/gS2OBybA/fix-shield-1.1.jar",
+      "hash": "sha512-ixrl0oEYEh81MfQ92sZVzoGecOB5ZZdSQJzCnlPRReA9R+qXJI8Xk0aHBP1ultjHlkQjWndHyPHKpbfXK6wIcA==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "gS2OBybA"
+    ],
+    "1.21.11+fabric": [
+      "gS2OBybA"
+    ],
+    "1.21.8+fabric": [
+      "gS2OBybA"
+    ],
+    "1.21.9+fabric": [
+      "gS2OBybA"
+    ]
+  }
+}

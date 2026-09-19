@@ -1,0 +1,62 @@
+{
+  "slug": "miningz",
+  "projectId": "qINN3dIm",
+  "versions": {
+    "3YT9ol8q": {
+      "filename": "miningz-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/qINN3dIm/versions/3YT9ol8q/miningz-1.0.1.jar",
+      "hash": "sha512-yDSommHre5JVIlkYnkV3Se87sox/75pOywPZjRiir603bu+gXdbkzqb3JBn/rROCEstZs4JarBnFtPkDPYGEug==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Fn4wfhUz": {
+      "filename": "miningz-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qINN3dIm/versions/Fn4wfhUz/miningz-1.0.0.jar",
+      "hash": "sha512-pPkrVdZG0KfgNShdbi9BEtE9Be0jvFrLMzevOQLRiCCmnOJ04UFuJ4wlMa2oUQB2qAG66v3xk2mM8vN258IYtQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "3YT9ol8q",
+      "Fn4wfhUz"
+    ]
+  }
+}

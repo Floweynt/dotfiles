@@ -1,0 +1,62 @@
+{
+  "slug": "bloomy-experience",
+  "projectId": "ZCmahA0W",
+  "versions": {
+    "BHrejOJa": {
+      "filename": "bloomyexperience-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/ZCmahA0W/versions/BHrejOJa/bloomyexperience-1.0.3.jar",
+      "hash": "sha512-iEodwAAdo5ey5250Fs6pqvqmA41NlOnRcH/XF0E045xmf0gXe42nrHxLmWZLsUqKnHBo8WfYJn2WH2YF7Fr6NA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "CQhxdTpR": {
+      "filename": "bloomyexperience-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/ZCmahA0W/versions/CQhxdTpR/bloomyexperience-1.0.2.jar",
+      "hash": "sha512-mIfQMUB1ioOHNXvP1d6tjVVZVVy5sz1o3lilqc9wi4D4mW1Rz/2GJrPqkbrvYOo6ROZKRLHZDzQgvoEs26LOug==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "BHrejOJa",
+      "CQhxdTpR"
+    ]
+  }
+}

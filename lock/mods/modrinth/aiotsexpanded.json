@@ -1,0 +1,130 @@
+{
+  "slug": "aiotsexpanded",
+  "projectId": "Df0G4oH9",
+  "versions": {
+    "A5XMxSaw": {
+      "filename": "aiotexpanded-1.0.1-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/Df0G4oH9/versions/1.0.1-1.18.2/aiotexpanded-1.0.1-1.18.2.jar",
+      "hash": "sha512-DMXNeI49ygL54nMZW3r8V5j9bCOwK6aDn6FBcJw6Xm04cM/WVp+60anrII0RZ3Q8EBuR9b9lDsSvV10AVZvd3g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GqAmH5u8": {
+      "filename": "aiotexpanded-1.0.0-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/Df0G4oH9/versions/1.0.0-1.18.2/aiotexpanded-1.0.0-1.18.2.jar",
+      "hash": "sha512-Q71CGNshcXxXusf0zOWjKDkPl2ULm+gFJhwtWhezAiUE0tA/b2p9trLAlNaUYs3fj8PgegAEnwvTqoXGfeWAhg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Gw1qLTu6": {
+      "filename": "aiotexpanded-1.0.3-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/Df0G4oH9/versions/1.0.3-1.19/aiotexpanded-1.0.3-1.19.jar",
+      "hash": "sha512-HVwZwDRCMOgieKaV8KbkSwvAkLePbX7tOTCIWU3oT5cRqvE1n97h2xT9JSka+c29DnVg29f3EyvOeIdQETb8EA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "basic-aiots",
+          "projectId": "DafWKmyS",
+          "type": "required"
+        }
+      ]
+    },
+    "KwpR0scS": {
+      "filename": "aiotexpanded-1.0.4-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/Df0G4oH9/versions/1.0.4-1.19/aiotexpanded-1.0.4-1.19.jar",
+      "hash": "sha512-RLDikE2urw7h2aG8+joSNatj14+92h6vL09TWU2sKSBDphyKGdFRWENY3RMx2Nu1UvT9D52KhxtxW2/qdP7G9g==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "basic-aiots",
+          "projectId": "DafWKmyS",
+          "type": "required"
+        }
+      ]
+    },
+    "XeeUNt7g": {
+      "filename": "aiotexpanded-1.0.2-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/Df0G4oH9/versions/1.0.2-1.18.2/aiotexpanded-1.0.2-1.18.2.jar",
+      "hash": "sha512-wHPMa1z+Ja+Jhc6IOGjBvWSdWMENQ9avjreqQbKOAd1oCqfCu3AVAsVzYZgjvy2vjmtNmi3WAcF+A4s21zb/6Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "basic-aiots",
+          "projectId": "DafWKmyS",
+          "type": "required"
+        }
+      ]
+    },
+    "wuKhvpFK": {
+      "filename": "aiotexpanded-1.0.3-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/Df0G4oH9/versions/1.0.3-1.18.2/aiotexpanded-1.0.3-1.18.2.jar",
+      "hash": "sha512-xJadkwyCERElMeVOCvfKmw89AUpg0I71fYPKDpzOJ9va5bVctMvWh3R4Tng6BCnbpg9lXSR/qnH2Fvtlg85prQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "basic-aiots",
+          "projectId": "DafWKmyS",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "wuKhvpFK",
+      "XeeUNt7g",
+      "A5XMxSaw",
+      "GqAmH5u8"
+    ],
+    "1.19+fabric": [
+      "KwpR0scS",
+      "Gw1qLTu6"
+    ],
+    "1.19+quilt": [
+      "KwpR0scS"
+    ]
+  }
+}

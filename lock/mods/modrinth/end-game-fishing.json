@@ -1,0 +1,44 @@
+{
+  "slug": "end-game-fishing",
+  "projectId": "nPYOOs70",
+  "versions": {
+    "gHJqZ3B9": {
+      "filename": "endgamefishing-0.0.1b.jar",
+      "url": "https://cdn.modrinth.com/data/nPYOOs70/versions/gHJqZ3B9/endgamefishing-0.0.1b.jar",
+      "hash": "sha512-jQkqt+HcaGJImYfTMuPwteFFpHcNdtvv/j6Woza+Bni88Q7J+fku9g7CER5PIuCkPOtTtZHzgnk4HZ6uPBW3Ag==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "m3edyXbj": {
+      "filename": "endgamefishing-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/nPYOOs70/versions/m3edyXbj/endgamefishing-0.1.0.jar",
+      "hash": "sha512-jKNkeTqqereNe+twhlFL5NR+ciqo+fJ8tWROnWblDpP5x6h9x/BW2Vsi/bqeKF1s4KdO/77J+S6FyNmD+gQgLA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "m3edyXbj",
+      "gHJqZ3B9"
+    ],
+    "1.21.11+fabric": [
+      "m3edyXbj"
+    ]
+  }
+}

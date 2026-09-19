@@ -1,0 +1,112 @@
+{
+  "slug": "elytra-nerf",
+  "projectId": "FjX26VgR",
+  "versions": {
+    "9R2BAUwu": {
+      "filename": "elytra-nerf-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/FjX26VgR/versions/9R2BAUwu/elytra-nerf-1.0.0%2B1.20.jar",
+      "hash": "sha512-tP3LgOknq8A9t+t3NxbgQMzNAk5Ppn/2SGO6JEw0K8z582G1ZXDLTmtv3h8TokiEfnNf+QjEYqQiWF9i1iriLA==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "N550RAtr": {
+      "filename": "elytra-nerf-1.0.1+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/FjX26VgR/versions/N550RAtr/elytra-nerf-1.0.1%2B1.20.2.jar",
+      "hash": "sha512-K7CZTgNLV9ivSKjXkI2dGMdO6QJx1SN4rK7bEFlI3s2sbnv2JzF4W3F/o4ADQDC7HduJ0cA0tNWIrMCpSo4MoA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aAuoeH0f": {
+      "filename": "elytra-nerf-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/FjX26VgR/versions/aAuoeH0f/elytra-nerf-1.0.0.jar",
+      "hash": "sha512-LMsAjcU7AXO7TlN6exSJNX6MsmcVXW9rcN62kYI/H3xUeNaHAqk/WFPYpmI39MhFC2Jx6rv1/7jNgjMrjgzyrQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "hToyeeth": {
+      "filename": "elytra-nerf-1.0.0+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/FjX26VgR/versions/hToyeeth/elytra-nerf-1.0.0%2B1.19.4.jar",
+      "hash": "sha512-F3aPEhG9ee95loUWimFII3bwNRzjKv00AMmGEKRytaHDNJxL2SlZgG+8ApF8exCXth+1nbT7/YRcwdPBCjIuNg==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "aAuoeH0f"
+    ],
+    "1.19.1+fabric": [
+      "aAuoeH0f"
+    ],
+    "1.19.2+fabric": [
+      "aAuoeH0f"
+    ],
+    "1.19.3+fabric": [
+      "9R2BAUwu",
+      "aAuoeH0f"
+    ],
+    "1.19.4+fabric": [
+      "9R2BAUwu",
+      "hToyeeth"
+    ],
+    "1.20+fabric": [
+      "9R2BAUwu",
+      "hToyeeth"
+    ],
+    "1.20.1+fabric": [
+      "N550RAtr"
+    ],
+    "1.20.2+fabric": [
+      "N550RAtr"
+    ],
+    "1.20.3+fabric": [
+      "N550RAtr"
+    ],
+    "1.20.4+fabric": [
+      "N550RAtr"
+    ]
+  }
+}

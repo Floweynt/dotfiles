@@ -1,0 +1,74 @@
+{
+  "slug": "scourge-enchantment",
+  "projectId": "9zGE9SJ0",
+  "versions": {
+    "4KFePzTs": {
+      "filename": "scourge-1.0.0-mc1.20.5.jar",
+      "url": "https://cdn.modrinth.com/data/9zGE9SJ0/versions/4KFePzTs/scourge-1.0.0-mc1.20.5.jar",
+      "hash": "sha512-o5e/B3e6msMsFHuln64G8Vm+HMDdxX0aM3INhUt+ZvWfCp6SRpNqqtg3FoK/HuVw2hfbQv51dnIaQ3RTWYlsjA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ycb2uI9H": {
+      "filename": "scourge-1.0.0-mc1.20-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/9zGE9SJ0/versions/Ycb2uI9H/scourge-1.0.0-mc1.20-1.20.4.jar",
+      "hash": "sha512-o0Pr6nFppYpWlBpDBoo9qUAaetTCfZORbAgKJXsK3uXY3vVchY5GF6d5MchlabkO7PCLkp0wOP/9XJAcPlg9Iw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Ycb2uI9H"
+    ],
+    "1.20.1+fabric": [
+      "Ycb2uI9H"
+    ],
+    "1.20.2+fabric": [
+      "Ycb2uI9H"
+    ],
+    "1.20.3+fabric": [
+      "Ycb2uI9H"
+    ],
+    "1.20.4+fabric": [
+      "Ycb2uI9H"
+    ],
+    "1.20.5+fabric": [
+      "4KFePzTs"
+    ],
+    "1.20.6+fabric": [
+      "4KFePzTs"
+    ]
+  }
+}

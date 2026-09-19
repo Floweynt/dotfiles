@@ -1,0 +1,130 @@
+{
+  "slug": "fish-n-ships",
+  "projectId": "dBB5hLnG",
+  "versions": {
+    "8EVFIkHV": {
+      "filename": "[1.21.1-Fabric] Fish N' Ships 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dBB5hLnG/versions/8EVFIkHV/%5B1.21.1-Fabric%5D%20Fish%20N%27%20Ships%201.0.0.jar",
+      "hash": "sha512-Bu7ENQfKF+S79U7Dp212ZiMpJNoWPSku2XsH1VkOezZrIInJdu9cPz1a0FMlm+cAqMAE8rJzthM9CdO21ncPCw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "EWSk9MLi": {
+      "filename": "[1.21.1-Neoforge] Fish N' Ships 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dBB5hLnG/versions/EWSk9MLi/%5B1.21.1-Neoforge%5D%20Fish%20N%27%20Ships%201.0.0.jar",
+      "hash": "sha512-oTZRQS6vj92riQSd9TG5WFUmKx+BuWyrDlCGdFg4zjMa91R1nH/x+8YHpDExBmCtfUovoDJYHb5kJznEmLI3Gw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "NVdaqNIL": {
+      "filename": "[1.20.1-Fabric] Fish N' Ships 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dBB5hLnG/versions/NVdaqNIL/%5B1.20.1-Fabric%5D%20Fish%20N%27%20Ships%201.0.0.jar",
+      "hash": "sha512-G6JQDO3Nmp7h1a8Zf2U8P5YdyEbrhwwTqWK2rV83EUw6/DdV2Qyi2wbctkVjgFODi8gASKBZa9enCpgVc32/lQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VGteEal1": {
+      "filename": "[1.20.1-Forge] Fish N' Ships 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dBB5hLnG/versions/VGteEal1/%5B1.20.1-Forge%5D%20Fish%20N%27%20Ships%201.0.0.jar",
+      "hash": "sha512-BN876SBJCcLYHk73rc2T86Betuhbo9WuLn4FSV60kLxS2sC+uAItgqwhP3BzFTapOPjMUUu92W5dxBEu1D2XVg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "NVdaqNIL"
+    ],
+    "1.20.1+forge": [
+      "VGteEal1"
+    ],
+    "1.21.1+fabric": [
+      "8EVFIkHV"
+    ],
+    "1.21.1+neoforge": [
+      "EWSk9MLi"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "blur.",
+  "projectId": "2HrgJM4G",
+  "versions": {
+    "H3yzCqXj": {
+      "filename": "blur-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2HrgJM4G/versions/H3yzCqXj/blur-1.0.jar",
+      "hash": "sha512-vqqbXnafyKA6ktYy+aT8usEUlMh4BF44ZGypwkTTWeUxCKhv40Z1GmyR4iYbNJKh0tx0Wi17TlmcF8ku9s9kew==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "H3yzCqXj"
+    ]
+  }
+}

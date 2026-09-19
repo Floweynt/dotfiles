@@ -1,0 +1,142 @@
+{
+  "slug": "uncraftables",
+  "projectId": "bGH7Ep2V",
+  "versions": {
+    "JsDp9WG9": {
+      "filename": "uncraftables-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bGH7Ep2V/versions/JsDp9WG9/uncraftables-1.1.0.jar",
+      "hash": "sha512-qPg6HHFXhmMd1fF5cmKJFxuWAQvM9JXhjscYdu9lzb5HGRoicTTXf9khdV6q28YvoPCEmTFNLQgCq9DVhCxFnw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "W91PYcgp": {
+      "filename": "uncraftables-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bGH7Ep2V/versions/W91PYcgp/uncraftables-1.1.0.jar",
+      "hash": "sha512-o901oWlOOEPnNPXFvv0xETSQwW4VKFl9687UXZ8KThloCGArEH7ZHX3VXAM+W3AKAqERRv8LMELh0FpxmUUlUQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mXD11PiT": {
+      "filename": "uncraftables-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bGH7Ep2V/versions/mXD11PiT/uncraftables-1.1.0.jar",
+      "hash": "sha512-iNVWXPixQbtZOKaI4H5UdpKBtXUhc4M/8QPeJZbTSJM1pT721fe5186DYUJytYTUjbSb8jiQ41DLpI0UmknpWw==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pZ4Vux1l": {
+      "filename": "uncraftables-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bGH7Ep2V/versions/pZ4Vux1l/uncraftables-1.0.0.jar",
+      "hash": "sha512-wyd3Wjz2LiOwIqmJkJmd1IlKp7he6RYxvff3Ioaqba32S4VrLQrPcBzNjg48ZJtCQ3oRY2iksZu1gkAWU0dHMg==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "mXD11PiT",
+      "pZ4Vux1l"
+    ],
+    "1.19.3+fabric": [
+      "mXD11PiT",
+      "pZ4Vux1l"
+    ],
+    "1.19.4+fabric": [
+      "mXD11PiT",
+      "pZ4Vux1l"
+    ],
+    "1.20+fabric": [
+      "mXD11PiT",
+      "pZ4Vux1l"
+    ],
+    "1.20.1+fabric": [
+      "mXD11PiT",
+      "pZ4Vux1l"
+    ],
+    "1.20.2+fabric": [
+      "mXD11PiT",
+      "pZ4Vux1l"
+    ],
+    "1.20.3+fabric": [
+      "mXD11PiT",
+      "pZ4Vux1l"
+    ],
+    "1.20.4+fabric": [
+      "mXD11PiT",
+      "pZ4Vux1l"
+    ],
+    "1.20.5+fabric": [
+      "W91PYcgp"
+    ],
+    "1.20.6+fabric": [
+      "W91PYcgp"
+    ],
+    "1.21+fabric": [
+      "JsDp9WG9"
+    ],
+    "1.21.1+fabric": [
+      "JsDp9WG9"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "accurate-attack-indicator",
+  "projectId": "AoSJ2hG0",
+  "versions": {
+    "TWAcF4iK": {
+      "filename": "accurate-attack-indicator-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AoSJ2hG0/versions/TWAcF4iK/accurate-attack-indicator-1.0.jar",
+      "hash": "sha512-UWCfdrpebNGDUAc+JmZCwwQfzvmSB4NlaIfxjhMgQLflQIPgTZ5cvSbzBOwab8YAqMhwJj2a2sCPEDQW+YZtdQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "U3FAQCwE": {
+      "filename": "accurate-attack-indicator-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/AoSJ2hG0/versions/U3FAQCwE/accurate-attack-indicator-1.1.jar",
+      "hash": "sha512-s1cU0Ho4BSBH8nTBX65IUhGyiUg/JAMDa4xUXnEAfCOk/cqDKHQWnrMSp8SEvGyoCRIpLL1XVaouA45Q+0yhZw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "TWAcF4iK"
+    ],
+    "1.21.11+quilt": [
+      "TWAcF4iK"
+    ],
+    "26.1+fabric": [
+      "U3FAQCwE"
+    ],
+    "26.1+quilt": [
+      "U3FAQCwE"
+    ],
+    "26.1.1+fabric": [
+      "U3FAQCwE"
+    ],
+    "26.1.1+quilt": [
+      "U3FAQCwE"
+    ],
+    "26.1.2+fabric": [
+      "U3FAQCwE"
+    ],
+    "26.1.2+quilt": [
+      "U3FAQCwE"
+    ],
+    "26.2+fabric": [
+      "U3FAQCwE"
+    ],
+    "26.2+quilt": [
+      "U3FAQCwE"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "stick",
+  "projectId": "ITt1lJ7E",
+  "versions": {
+    "58dwlWYh": {
+      "filename": "stickforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ITt1lJ7E/versions/58dwlWYh/stickforge-1.0.0.jar",
+      "hash": "sha512-U+iRbQuYm3OgEgGFuvoZW2YDg+/rv2Zsi7lqrT4KO8NeIVgXvZ1bF/RVMtOP7DqDt5bYP9wrEl6wRNbXTnZFJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "k3vKVRMF": {
+      "filename": "stickfabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ITt1lJ7E/versions/k3vKVRMF/stickfabric-1.0.0.jar",
+      "hash": "sha512-SxUhBP9E1lT/X9CYgxAz53ZY/s73IV22Z1M9TpmHO4ka4ustmnFtAsOUHHq/hwwRL9VQh5vejO1Y3Dgj9c2/fg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "k3vKVRMF"
+    ],
+    "1.20.1+forge": [
+      "58dwlWYh"
+    ]
+  }
+}

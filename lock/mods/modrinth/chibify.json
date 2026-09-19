@@ -1,0 +1,103 @@
+{
+  "slug": "chibify",
+  "projectId": "ogrevapP",
+  "versions": {
+    "1xbVjJt7": {
+      "filename": "Chibify-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ogrevapP/versions/1xbVjJt7/Chibify-1.1.jar",
+      "hash": "sha512-CRZ44zIvQlDyAJ/eXPKdNCGrnNQTzgsNJFuaRI4DgkgV7OMEvusOT8ms5P+YN+QrAcEthC+YfHG/Tk6pDB8ywQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Jgj4Kvb8": {
+      "filename": "Chibify-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/ogrevapP/versions/Jgj4Kvb8/Chibify-1.2.jar",
+      "hash": "sha512-hf90OqtDtc4atAQw8fBTuBqEYdyI7/c7z56PUf+K62YtfPIdUTBvvdRJ2yOAxFzhhdg46tFPddgqvg2SuWiWtA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "LX6kAcGx": {
+      "filename": "Chibify-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/ogrevapP/versions/LX6kAcGx/Chibify-1.3.1.jar",
+      "hash": "sha512-NJqCPJGOpIgVaw5Q0KXAqqcBCdjKGZTjFZM3kCWit2zEYl+tlN8u89xLRWeEmLBdc8S13K1rLfzoq87j6NZ2Og==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "mt53Uz7T": {
+      "filename": "Chibify-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ogrevapP/versions/mt53Uz7T/Chibify-1.1.jar",
+      "hash": "sha512-9U6zRR5bdowXL7x8fFMHWrei0X66lVwulDIWuLC+x7pOmDDedRJYowMl9YLWbT6yFlG5nkiEqrkT0gXE7hfGxw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "x8F9inVs": {
+      "filename": "Chibify-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ogrevapP/versions/x8F9inVs/Chibify-1.0.jar",
+      "hash": "sha512-9uUhYR9S5ORLRYHynekzYMPcnmZHSbmA3sfgPGw0vMGPZKD/4bf6CjP70BGNyqMIOruBpJA0VMvnn4poke/svg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "LX6kAcGx"
+    ],
+    "1.21.4+fabric": [
+      "1xbVjJt7",
+      "x8F9inVs"
+    ],
+    "1.21.5+fabric": [
+      "mt53Uz7T"
+    ],
+    "1.21.8+fabric": [
+      "Jgj4Kvb8"
+    ]
+  }
+}

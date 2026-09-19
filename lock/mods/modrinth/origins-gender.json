@@ -1,0 +1,72 @@
+{
+  "slug": "origins-gender",
+  "projectId": "hHNfOcZE",
+  "versions": {
+    "HTWzLA9Y": {
+      "filename": "Origins_Gender_1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/hHNfOcZE/versions/HTWzLA9Y/Origins_Gender_1.20.1-fabric.jar",
+      "hash": "sha512-iltp0SvflGnN11VtWiVLBaSavLMdPjM44UhWB1EJ3pLzy9ne0smYXxKPj7ZBA6lR6jli8UMc0BwK5nJrRa7jtw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        }
+      ]
+    },
+    "sDckiDPB": {
+      "filename": "origins_genders-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/hHNfOcZE/versions/sDckiDPB/origins_genders-1.20.1-forge.jar",
+      "hash": "sha512-0fArcewdueBD8TXgWWmx0wVQPUFKrLUJhU71qSECHm9rH5nOdy179KFcWLEu1UB32EHCIITRFk3/wsb9UvVZOQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "HTWzLA9Y"
+    ],
+    "1.20+forge": [
+      "sDckiDPB"
+    ],
+    "1.20.1+fabric": [
+      "HTWzLA9Y"
+    ],
+    "1.20.1+forge": [
+      "sDckiDPB"
+    ]
+  }
+}

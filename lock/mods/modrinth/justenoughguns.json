@@ -1,0 +1,52 @@
+{
+  "slug": "justenoughguns",
+  "projectId": "8nEmhV8z",
+  "versions": {
+    "hVVzVunL": {
+      "filename": "JustEnoughGuns-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8nEmhV8z/versions/hVVzVunL/JustEnoughGuns-1.0.0.jar",
+      "hash": "sha512-BXIxZVn5qsGWS1F6xwxj47b2xHGHKmQen/0WBl30xSVeCLde125J9X3pN6hlY3j5VzeVHs6RiBCV60CCSDMRgA==",
+      "gameVersions": [
+        "24w14potato"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ujuXJGxx": {
+      "filename": "JustEnoughGuns-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/8nEmhV8z/versions/ujuXJGxx/JustEnoughGuns-1.0.1.jar",
+      "hash": "sha512-pNI7ehl3uJLbembBgkVE3wf8gPk9WaOz0/IFyoPVid/wqXGYkHQSCGd1du86a4LX95Kl2Q+vsld+DOB7F+7gMA==",
+      "gameVersions": [
+        "24w14potato"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "24w14potato+fabric": [
+      "ujuXJGxx",
+      "hVVzVunL"
+    ]
+  }
+}

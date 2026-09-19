@@ -1,0 +1,42 @@
+{
+  "slug": "fabricbridge",
+  "projectId": "3I9L4Wzz",
+  "versions": {
+    "6Bal6DbT": {
+      "filename": "fabricbridge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/3I9L4Wzz/versions/1.1.0/fabricbridge-1.1.0.jar",
+      "hash": "sha512-IRMNnb21PU3kWZQuuP2Uc5/VzCQnnnVmlfbULNfv53lGrnQ/B/aZ+YBoWRbutZUVz5W4xKRCF8ckg6ydrUanoQ==",
+      "gameVersions": [
+        "1.15.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "No2dAjz1": {
+      "filename": "fabricbridge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3I9L4Wzz/versions/1.0.0/fabricbridge-1.0.0.jar",
+      "hash": "sha512-8pVKNA2H4YP6YV9r+wbgVzFgKAYaXGwuSDzpgOnJI4o07DokcekuQfNdoi+sJVcuOsxORL3d5kk7dbAmYN+pMA==",
+      "gameVersions": [
+        "1.14.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.14.4+fabric": [
+      "No2dAjz1"
+    ],
+    "1.15.1+fabric": [
+      "6Bal6DbT"
+    ]
+  }
+}

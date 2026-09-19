@@ -1,0 +1,93 @@
+{
+  "slug": "petsful",
+  "projectId": "QH92Gl6o",
+  "versions": {
+    "AMSxlzqT": {
+      "filename": "petsful-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/QH92Gl6o/versions/AMSxlzqT/petsful-1.1.1.jar",
+      "hash": "sha512-u9Ul7bDLXAe9UVVaGhVHwVFYLrU5hmlejc7kfRzok7okOIjQaR5lCMi8PUUBIc7TmIQ/7CEvbMEq+D47cvm44g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "HWMES4ER": {
+      "filename": "petsful-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QH92Gl6o/versions/HWMES4ER/petsful-1.0.0.jar",
+      "hash": "sha512-3we0JH3trYfgIvgxKy7MhV/d/xAe5wmvs1Il8fST6ss+eMHWsxOX9tUtE+2eRS385gDfk7nG9nhc34yFM3cq2g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "tHa4Jijk": {
+      "filename": "petsful-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QH92Gl6o/versions/tHa4Jijk/petsful-1.1.0.jar",
+      "hash": "sha512-QeJGKjSmeUnSdvxyR/RRk3kGKiefNJNUAnQf9rd+IpBW+21HQ/pevwftsK9BrAk8Ki1Vekq012vEYZSnZBbi3Q==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "AMSxlzqT",
+      "tHa4Jijk",
+      "HWMES4ER"
+    ],
+    "26.1.1+fabric": [
+      "AMSxlzqT",
+      "tHa4Jijk",
+      "HWMES4ER"
+    ],
+    "26.1.2+fabric": [
+      "AMSxlzqT",
+      "tHa4Jijk",
+      "HWMES4ER"
+    ]
+  }
+}

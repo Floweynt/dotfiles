@@ -1,0 +1,193 @@
+{
+  "slug": "qulib",
+  "projectId": "I8sF7N1e",
+  "versions": {
+    "3SAjgOtc": {
+      "filename": "qulib-1.0.23.jar",
+      "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/3SAjgOtc/qulib-1.0.23.jar",
+      "hash": "sha512-b9k2Cd5w8HdrFuIdoE0/rbaTXq0GdD2RAr4EWz7ubmcBs+bQ5Fzdjs7OiAQMwmbm8fyrO4giIU8ysjfHN5pU/w==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "AORjSdj4": {
+      "filename": "qulib-kt-forge-1.20.4-2.1.21.jar",
+      "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/AORjSdj4/qulib-kt-forge-1.20.4-2.1.21.jar",
+      "hash": "sha512-AS0RcNuAvlDIJpFiKq8b/u3Til6TTzF3fIS4D7hihz6RpL81TXYqORHH2pNiJiYsUU6I7DlCT4a50XPCWkpU/g==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "Sha1Jh7y": {
+      "filename": "qulib-kt-fabric-1.19.4-2.1.15.jar",
+      "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/Sha1Jh7y/qulib-kt-fabric-1.19.4-2.1.15.jar",
+      "hash": "sha512-Mz2ZWe/Z8Vhz7K6kGBotil5qLWz48Vi9UalYlj2gmNyiHcIt0ShwtmDpC8unMmKoVtNx0EUe2Vba6IjDStWAcA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "VKd8tr8I": {
+      "filename": "qulib-kt-fabric-1.20.4-2.1.21.jar",
+      "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/VKd8tr8I/qulib-kt-fabric-1.20.4-2.1.21.jar",
+      "hash": "sha512-ywfSaJCPwLCeJic29zTKil9LkbbsN5ymkRjSFHTjHb0xnAzOiPWvqgZEMZhdJGHzt/E9E045LMUYVoK8K0I9/w==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "tE6VqVmr": {
+      "filename": "qulib-kt-forge-1.19.4-2.1.15.jar",
+      "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/tE6VqVmr/qulib-kt-forge-1.19.4-2.1.15.jar",
+      "hash": "sha512-GpG5dZOXIZIT//za3aRaOzSw3w0tYXKi7rSEKfBhAjfkvw6er5laDN9LdXdLMDusXmgPMWC6BB8MQRhKrNLleQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "zsGqU42H": {
+      "filename": "qulib-kt-1.18.2-2.0.21.jar",
+      "url": "https://cdn.modrinth.com/data/I8sF7N1e/versions/zsGqU42H/qulib-kt-1.18.2-2.0.21.jar",
+      "hash": "sha512-AszZkdLAlqHMPM1/MVVY0cvt5nyhZy8GwM0ftJTzN9MZ5Tb4lsL3/7WqfrAIfB6NB9PhxZoh/ozJgOTCDrstRg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "zsGqU42H",
+      "3SAjgOtc"
+    ],
+    "1.19.4+fabric": [
+      "VKd8tr8I",
+      "Sha1Jh7y"
+    ],
+    "1.19.4+forge": [
+      "AORjSdj4",
+      "tE6VqVmr"
+    ],
+    "1.19.4+neoforge": [
+      "AORjSdj4"
+    ],
+    "1.20+fabric": [
+      "VKd8tr8I"
+    ],
+    "1.20+forge": [
+      "AORjSdj4"
+    ],
+    "1.20+neoforge": [
+      "AORjSdj4"
+    ],
+    "1.20.1+fabric": [
+      "VKd8tr8I"
+    ],
+    "1.20.1+forge": [
+      "AORjSdj4"
+    ],
+    "1.20.1+neoforge": [
+      "AORjSdj4"
+    ],
+    "1.20.2+fabric": [
+      "VKd8tr8I"
+    ],
+    "1.20.2+forge": [
+      "AORjSdj4"
+    ],
+    "1.20.2+neoforge": [
+      "AORjSdj4"
+    ],
+    "1.20.3+fabric": [
+      "VKd8tr8I"
+    ],
+    "1.20.3+forge": [
+      "AORjSdj4"
+    ],
+    "1.20.3+neoforge": [
+      "AORjSdj4"
+    ],
+    "1.20.4+fabric": [
+      "VKd8tr8I"
+    ],
+    "1.20.4+forge": [
+      "AORjSdj4"
+    ],
+    "1.20.4+neoforge": [
+      "AORjSdj4"
+    ]
+  }
+}

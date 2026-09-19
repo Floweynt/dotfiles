@@ -1,0 +1,157 @@
+{
+  "slug": "modern-inline",
+  "projectId": "aWx29eoy",
+  "versions": {
+    "5CzGeJ6V": {
+      "filename": "ModernInline-fabric-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/aWx29eoy/versions/5CzGeJ6V/ModernInline-fabric-0.1.1.jar",
+      "hash": "sha512-n1+vOfe9IKl1n+1HD6fVrvyzXhaWn5pFoAknEnYrsYqTFzHBe5KOmdB8Koc5Bfeks402KS73syje6j8p4sc2dA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modern-ui",
+          "projectId": "3sjzyvGR",
+          "type": "required"
+        },
+        {
+          "slug": "inline",
+          "projectId": "fin1PX4m",
+          "type": "required"
+        }
+      ]
+    },
+    "HXdLECVy": {
+      "filename": "ModernInline-forge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/aWx29eoy/versions/HXdLECVy/ModernInline-forge-0.1.0.jar",
+      "hash": "sha512-6IS40cra7JboVNG80C6SQuvtb6R9gL24ycod9/uCEruIkD0woI2VAYgfVr6N95G+DmKwYtA5iEsbyzIbX82UrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modern-ui",
+          "projectId": "3sjzyvGR",
+          "type": "required"
+        },
+        {
+          "slug": "inline",
+          "projectId": "fin1PX4m",
+          "type": "required"
+        }
+      ]
+    },
+    "JyAMZ1Ga": {
+      "filename": "ModernInline-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/aWx29eoy/versions/JyAMZ1Ga/ModernInline-fabric-0.1.0.jar",
+      "hash": "sha512-TqmS3cv4C/1F4Yz3gQgeHeQj22e3qjj5CI8FGJKpHu5TtYNKQerR2JjqMWT3iRJMtqv6kdyZW0KRXBYeZ88m4Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "inline",
+          "projectId": "fin1PX4m",
+          "type": "required"
+        },
+        {
+          "slug": "modern-ui",
+          "projectId": "3sjzyvGR",
+          "type": "required"
+        }
+      ]
+    },
+    "SECscDeB": {
+      "filename": "ModernInline-forge-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/aWx29eoy/versions/SECscDeB/ModernInline-forge-0.1.1.jar",
+      "hash": "sha512-/ZNgYyZQ2M8B3tyEZLtxbe5/Vw/OpSPtEroIoOuvB2T147T8tzuo2tEITV5Z7t/2vdNVMCHNbFT4xvToU+3eVA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modern-ui",
+          "projectId": "3sjzyvGR",
+          "type": "required"
+        },
+        {
+          "slug": "inline",
+          "projectId": "fin1PX4m",
+          "type": "required"
+        }
+      ]
+    },
+    "mVM7v2Fd": {
+      "filename": "ModernInline-neoforge-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/aWx29eoy/versions/mVM7v2Fd/ModernInline-neoforge-0.1.1.jar",
+      "hash": "sha512-qTwbUVcRwkLY2LnrOEteAbIv1+E1DYwGwXfnVl98/oM64HrOtv8oP0RyQSMgwjXi4Xxoda8rKgu++actB/Zzcg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modern-ui",
+          "projectId": "3sjzyvGR",
+          "type": "required"
+        },
+        {
+          "slug": "inline",
+          "projectId": "fin1PX4m",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5CzGeJ6V",
+      "JyAMZ1Ga"
+    ],
+    "1.20.1+forge": [
+      "SECscDeB",
+      "HXdLECVy"
+    ],
+    "1.20.1+quilt": [
+      "5CzGeJ6V",
+      "JyAMZ1Ga"
+    ],
+    "1.21.1+fabric": [
+      "5CzGeJ6V"
+    ],
+    "1.21.1+neoforge": [
+      "mVM7v2Fd"
+    ],
+    "1.21.1+quilt": [
+      "5CzGeJ6V"
+    ]
+  }
+}

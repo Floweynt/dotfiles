@@ -1,0 +1,91 @@
+{
+  "slug": "cobblebadgesbox",
+  "projectId": "vggnOabQ",
+  "versions": {
+    "BYRAjQHs": {
+      "filename": "cobblebadgesbox-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vggnOabQ/versions/BYRAjQHs/cobblebadgesbox-1.1.0.jar",
+      "hash": "sha512-nvOq3Bw2uVhgF+h56b8waAKUCAiBAIGTpqGip5Y6UuEQqxzlM2dbaHVCaQ1uAkETPq5PbHwlTyk+h+d3/CJyvg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "daCCScXs": {
+      "filename": "cobblebadgesbox-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vggnOabQ/versions/daCCScXs/cobblebadgesbox-1.0.0.jar",
+      "hash": "sha512-cTv7x/xuxwn8z/42tsv9ZSv63ljXyRFSf+rJvD2/9pxVJeCzFYrag+e5yBYqTOl16h1GYOkN8JN82IMJWTs0gA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "wA8DkVKZ": {
+      "filename": "cobblebadgesbox-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vggnOabQ/versions/wA8DkVKZ/cobblebadgesbox-1.0.1.jar",
+      "hash": "sha512-MwJh8PgnI7m/a1q8nY/Mjzh1i9lexYMJBiYvM8Pa5qSNn7zBUl6ZRHuo65jVT73ZcAmGU3YqspElY72V6rsqPA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yu0yilJB": {
+      "filename": "cobblebadgesbox-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/vggnOabQ/versions/yu0yilJB/cobblebadgesbox-1.1.1.jar",
+      "hash": "sha512-4Pq4xc8mWwnkr+kmxZIhGW9ijpXLcC10Gn9NFskgQT1WbEe71cABoHaQMtW6uF4F8XfJ4X8Un9rGCBLERS3JmQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "yu0yilJB",
+      "BYRAjQHs",
+      "wA8DkVKZ",
+      "daCCScXs"
+    ]
+  }
+}

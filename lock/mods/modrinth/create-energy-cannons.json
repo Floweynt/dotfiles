@@ -1,0 +1,134 @@
+{
+  "slug": "create-energy-cannons",
+  "projectId": "Pf340qLy",
+  "versions": {
+    "51hMsX9I": {
+      "filename": "createenergycannons-forge-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Pf340qLy/versions/51hMsX9I/createenergycannons-forge-0.1.jar",
+      "hash": "sha512-g1puUkKnSJ7qqS+7+jAhW89qZZW1zsIFt0d/IpbntjQ0LrD6B2m/IN+rK4HSu1tnAsN8dZfITKHD+b4FPCIC2Q==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "LvTmiMZq": {
+      "filename": "createenergycannons-0.1+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Pf340qLy/versions/LvTmiMZq/createenergycannons-0.1%2Bmc1.20.1.jar",
+      "hash": "sha512-kepiAUNtJmhULrUpQDdWre7Da4HfrgzjgVwCzRNNGBCRsKxiQO7XKT3dOZxxXs9EJO65S57h/SJONZtNxd9DYQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "create-big-cannons",
+          "projectId": "GWp4jCJj",
+          "type": "required"
+        }
+      ]
+    },
+    "gDghuc49": {
+      "filename": "createenergycannons-fabric-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Pf340qLy/versions/gDghuc49/createenergycannons-fabric-0.1.jar",
+      "hash": "sha512-1hJf1iCA6IIEmWz/Ov2LqGmQhlHLAxsdwX9JVOEkbDSAiWKBLCU7Mzg56M9Ey4bQKL+M2+bMB9GJQ8cxsvO8HA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "create-big-cannons",
+          "projectId": "GWp4jCJj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gDghuc49"
+    ],
+    "1.20.1+forge": [
+      "51hMsX9I",
+      "LvTmiMZq"
+    ],
+    "1.20.2+fabric": [
+      "gDghuc49"
+    ],
+    "1.20.2+forge": [
+      "51hMsX9I",
+      "LvTmiMZq"
+    ],
+    "1.20.3+fabric": [
+      "gDghuc49"
+    ],
+    "1.20.3+forge": [
+      "51hMsX9I",
+      "LvTmiMZq"
+    ],
+    "1.20.4+fabric": [
+      "gDghuc49"
+    ],
+    "1.20.4+forge": [
+      "51hMsX9I",
+      "LvTmiMZq"
+    ],
+    "1.20.5+fabric": [
+      "gDghuc49"
+    ],
+    "1.20.5+forge": [
+      "51hMsX9I",
+      "LvTmiMZq"
+    ],
+    "1.20.6+fabric": [
+      "gDghuc49"
+    ],
+    "1.20.6+forge": [
+      "51hMsX9I",
+      "LvTmiMZq"
+    ]
+  }
+}

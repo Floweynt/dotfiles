@@ -1,0 +1,52 @@
+{
+  "slug": "perihelion",
+  "projectId": "6aFuC4Ub",
+  "versions": {
+    "LbwXq6mm": {
+      "filename": "perihelion-0.0.1+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/6aFuC4Ub/versions/LbwXq6mm/perihelion-0.0.1%2B1.20.4.jar",
+      "hash": "sha512-Vk8VJsRzmufhPskuRN/KEjD+MFPtJKa+PpRiTfJP0ibRgENDg3csG7gHmee76PEnpuz2svZSBgcbdDRI54jpxg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fFBFJaJ5": {
+      "filename": "perihelion-0.0.2+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/6aFuC4Ub/versions/fFBFJaJ5/perihelion-0.0.2%2B1.20.4.jar",
+      "hash": "sha512-3y8BQYd8xx9wgqSVoBfFkkSovOMijvMcgri+3LLVRtWkZAj6mPhtSDVnlEu3OTrTnfiwCZMLrkMfsrsafQG94g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "fFBFJaJ5",
+      "LbwXq6mm"
+    ]
+  }
+}

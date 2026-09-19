@@ -1,0 +1,110 @@
+{
+  "slug": "more-cobblemon-stats",
+  "projectId": "67ZupZ7K",
+  "versions": {
+    "BVLM9zLI": {
+      "filename": "morecobblemonstats-fabric-1.1.0-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/67ZupZ7K/versions/BVLM9zLI/morecobblemonstats-fabric-1.1.0-mc1.21.1.jar",
+      "hash": "sha512-nCEJQNFm8yCthyOWB+c0+E1JvmzBBJ92IY7d9F2wOxXE1r6aAXHGiwrhZD86bbiqELtYMVFIntfkO5Evm5cxHQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MNhYeaKO": {
+      "filename": "morecobblemonstats-neoforge-1.1.0-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/67ZupZ7K/versions/MNhYeaKO/morecobblemonstats-neoforge-1.1.0-mc1.21.1.jar",
+      "hash": "sha512-RP806PPwCZitwRApErbiSLV24X4x4hMzA483fU13I4K7SIBQGb8jSioeyVObuCGiLBl5aRcIYUne67NWY4/0Lw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "TRUaIK8g": {
+      "filename": "more_cobblemon_stats-neoforge-1.0.0+1.7.3+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/67ZupZ7K/versions/TRUaIK8g/more_cobblemon_stats-neoforge-1.0.0%2B1.7.3%2B1.21.1.jar",
+      "hash": "sha512-xYSxVdtyPHJDmc1ffwXqHc6z40JZOQN9CIuUsLeEvpbJo4R3sAFJnejBV9XQO6njK7E3oQNceUH1VIaoULdwvg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sGFN65u0": {
+      "filename": "more_cobblemon_stats-fabric-1.0.0+1.7.3+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/67ZupZ7K/versions/sGFN65u0/more_cobblemon_stats-fabric-1.0.0%2B1.7.3%2B1.21.1.jar",
+      "hash": "sha512-n50qDEFoc2WUjmWzhc5W+Ya9rJSiS3nMh0DwFookOChVfwIVY19E7xAO+dCvP69/f2TS5WMIgnRlD2GdLzlt9w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "BVLM9zLI",
+      "sGFN65u0"
+    ],
+    "1.21.1+neoforge": [
+      "MNhYeaKO",
+      "TRUaIK8g"
+    ]
+  }
+}

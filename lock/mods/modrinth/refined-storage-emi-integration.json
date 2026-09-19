@@ -1,0 +1,69 @@
+{
+  "slug": "refined-storage-emi-integration",
+  "projectId": "TCSDwmbf",
+  "versions": {
+    "HahVLWcE": {
+      "filename": "refinedstorage-emi-integration-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TCSDwmbf/versions/HahVLWcE/refinedstorage-emi-integration-fabric-1.0.0.jar",
+      "hash": "sha512-uaXVvPAZlu7i47oyh9+mlcszfD3rRWVB2bbP58e0zniGWm1KsMRv5Z+cP+RJTCJ9XP77yfM7AdD0f3vhZ8I4Nw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "refined-storage",
+          "projectId": "KDvYkUg3",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        }
+      ]
+    },
+    "zpz6Pcxn": {
+      "filename": "refinedstorage-emi-integration-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TCSDwmbf/versions/zpz6Pcxn/refinedstorage-emi-integration-neoforge-1.0.0.jar",
+      "hash": "sha512-nm9OSHwaG1DnUHSzEoqNJ/jclCYNtDWqsO/OtB5cE8pdHhd9a3gVP6lyU0CKzeDv89y1QnwtKPWrX+LEBSnjdw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "refined-storage",
+          "projectId": "KDvYkUg3",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "HahVLWcE"
+    ],
+    "1.21.1+neoforge": [
+      "zpz6Pcxn"
+    ]
+  }
+}

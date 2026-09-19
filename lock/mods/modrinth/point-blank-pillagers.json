@@ -1,0 +1,69 @@
+{
+  "slug": "point-blank-pillagers",
+  "projectId": "J5b0tl6G",
+  "versions": {
+    "9FC4no1T": {
+      "filename": "pillagergunmod-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/J5b0tl6G/versions/9FC4no1T/pillagergunmod-1.1.0.jar",
+      "hash": "sha512-eIWU1BF48It24V9vHerfwqU0LC+65M5ImhZcZwkuFsiNLUjcSG6ApEF2d1jDfJFIrtYXJB/HHLMzMpCsxv6a+Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    },
+    "CQeM7Q6V": {
+      "filename": "pillagergunmod-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/J5b0tl6G/versions/CQeM7Q6V/pillagergunmod-1.1.0.jar",
+      "hash": "sha512-zLaYL0YEaYuP57x0kgjrPfzEQuktey1ycPcIblOQQRJz3vB/GCdtB8vcTUjM9b6UVwTRuH+/v0Bw8RyKTZVQ2Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    },
+    "u6zsIy78": {
+      "filename": "pillagergunmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/J5b0tl6G/versions/u6zsIy78/pillagergunmod-1.0.0.jar",
+      "hash": "sha512-eIWU1BF48It24V9vHerfwqU0LC+65M5ImhZcZwkuFsiNLUjcSG6ApEF2d1jDfJFIrtYXJB/HHLMzMpCsxv6a+Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "CQeM7Q6V"
+    ],
+    "1.21.11+fabric": [
+      "9FC4no1T",
+      "u6zsIy78"
+    ]
+  }
+}

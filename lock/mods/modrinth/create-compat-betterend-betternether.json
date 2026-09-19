@@ -1,0 +1,83 @@
+{
+  "slug": "create-compat-betterend-betternether",
+  "projectId": "tcb6Gs0z",
+  "versions": {
+    "hOTWiOH4": {
+      "filename": "Create Compat - BetterEnd & BetterNether v1.1.zip",
+      "url": "https://cdn.modrinth.com/data/tcb6Gs0z/versions/hOTWiOH4/Create%20Compat%20-%20BetterEnd%20%26%20BetterNether%20v1.1.zip",
+      "hash": "sha512-jdP4pbSMlEvSkZvDU1+YcyLIdRVQAAAbfyFVjGKd0HNm7Lm4xLpzrKUVtsb42bNbcmx0bZy/QQJkuN5VDpksuQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "pkMzcHqm": {
+      "filename": "Create Compat - BetterEnd & BetterNether v1.0.zip",
+      "url": "https://cdn.modrinth.com/data/tcb6Gs0z/versions/pkMzcHqm/Create%20Compat%20-%20BetterEnd%20%26%20BetterNether%20v1.0.zip",
+      "hash": "sha512-XIKYn6H2S6TZu2QUXxGJR1hgNT+QB0UR1awASznALMrwnCphdJMarOB73T2difIeE2QVLAGfKjNz0A5RIAvKOw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "y0pPydmm": {
+      "filename": "create-compat-betterend-betternether-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/tcb6Gs0z/versions/y0pPydmm/create-compat-betterend-betternether-1.1.jar",
+      "hash": "sha512-X2tK093whaRmGM7o9h6xAuZvFdG7zV9fXhYXcbZaIhfRLJBiqapYOC8jy0GjqmwZ3DLUH2JUG4IW6oHUOmEUSQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "hOTWiOH4",
+      "pkMzcHqm"
+    ],
+    "1.20.1+fabric": [
+      "y0pPydmm"
+    ],
+    "1.20.1+forge": [
+      "y0pPydmm"
+    ],
+    "1.20.1+quilt": [
+      "y0pPydmm"
+    ]
+  }
+}

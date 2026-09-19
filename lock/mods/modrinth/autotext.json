@@ -1,0 +1,71 @@
+{
+  "slug": "autotext",
+  "projectId": "UPxw8FOf",
+  "versions": {
+    "6paMDKTx": {
+      "filename": "AutoText-1.0-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/UPxw8FOf/versions/6paMDKTx/AutoText-1.0-1.21.10.jar",
+      "hash": "sha512-mvsHy7XyzTJBeppwtJ2m0AXrdR/qVt4Orw7+ugVYWV60RjXR59ITtP2owC2i1n5decpNocdXs2x9415xXcmIzA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "G4fwkDcJ": {
+      "filename": "AutoText-1.0-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/UPxw8FOf/versions/G4fwkDcJ/AutoText-1.0-1.21.11.jar",
+      "hash": "sha512-YeV8CpKcmOL3tLf4Uvv90S6GXnlsYd44Tz77J01SeMmoUU6mzrm1oXHiDC9Zyr2AsJ4WLj8WL4YZ9y8TopQQMA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "LLPSecAf": {
+      "filename": "AutoText-1.0-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/UPxw8FOf/versions/LLPSecAf/AutoText-1.0-1.21.4.jar",
+      "hash": "sha512-1HhlPJ4b2Yst0xlrsS0UMM8CBcZJO1k41KFKCDCFUPYFwHZHep7OfqTxjl2CWdcdmqRvDPTUgtZ7OYRY+dd0FA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "6paMDKTx"
+    ],
+    "1.21.11+fabric": [
+      "G4fwkDcJ"
+    ],
+    "1.21.4+fabric": [
+      "LLPSecAf"
+    ]
+  }
+}

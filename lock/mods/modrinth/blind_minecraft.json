@@ -1,0 +1,35 @@
+{
+  "slug": "blind_minecraft",
+  "projectId": "X8ct1YHf",
+  "versions": {
+    "3dS86tKY": {
+      "filename": "blindmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/X8ct1YHf/versions/3dS86tKY/blindmod-1.0.0.jar",
+      "hash": "sha512-Z5iyBic/TB11xxkWzIVL5CP8y+9PRNc1UPk5K6W7+rgCTjhjNX7HKPy8WJtrfyKs/YIEafypauRyTEazVH2dSg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "3dS86tKY"
+    ],
+    "1.20.2+fabric": [
+      "3dS86tKY"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "chais-build-tools",
+  "projectId": "swsFw76C",
+  "versions": {
+    "1Ej1TMqz": {
+      "filename": "build_tools-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/swsFw76C/versions/1Ej1TMqz/build_tools-1.0.0.jar",
+      "hash": "sha512-QXtn++8RQVMGoUS94NDgrOt8yiKtDUYGYPhwxF8yAreKS3j4CXl1ae7Ov+oboZTvlvR5yOTGdxkTt3aimtJEDg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "6rephUZe": {
+      "filename": "build_tools-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/swsFw76C/versions/6rephUZe/build_tools-1.0.1.jar",
+      "hash": "sha512-VgTR8IRNpNXTtQJaeuszrhwGVnhKgCxKMl217qHrfypeCz3tGXskYLzNXz8/ouTWkHkxtQ0wTgTJ0sPkrnzZkA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "feajWrBs": {
+      "filename": "build_tools-1.0.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/swsFw76C/versions/feajWrBs/build_tools-1.0.1%2B1.21.jar",
+      "hash": "sha512-tr2sWU1cJVuQcgEQ0zSJnRDSzHXkM6A9l4qAUHjoBzWkeFuYbZqFj92q+3suQZAhVAuWXX5Io4GjpI9xpKoL4Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "6rephUZe",
+      "1Ej1TMqz"
+    ],
+    "1.20.1+fabric": [
+      "6rephUZe",
+      "1Ej1TMqz"
+    ],
+    "1.20.2+fabric": [
+      "6rephUZe",
+      "1Ej1TMqz"
+    ],
+    "1.20.3+fabric": [
+      "6rephUZe",
+      "1Ej1TMqz"
+    ],
+    "1.20.4+fabric": [
+      "6rephUZe",
+      "1Ej1TMqz"
+    ],
+    "1.21+fabric": [
+      "feajWrBs"
+    ],
+    "1.21.1+fabric": [
+      "feajWrBs"
+    ]
+  }
+}

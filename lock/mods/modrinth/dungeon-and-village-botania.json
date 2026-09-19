@@ -1,0 +1,63 @@
+{
+  "slug": "dungeon-and-village-botania",
+  "projectId": "U2SZP6Vu",
+  "versions": {
+    "1knPRCuJ": {
+      "filename": "Dungeon And Village Botania 1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/U2SZP6Vu/versions/1knPRCuJ/Dungeon%20And%20Village%20Botania%201.20.1.jar",
+      "hash": "sha512-waV/1N5p9S0s52K9fPcMGJZqcFHuOfhoRUhbmR6FNLeaQnKKvwZngpUnr8LcUyWJ2yjuqLp3gqKZmm5eg4Wvtg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "CE9cABwO": {
+      "filename": "Dungeon And Village Botania 1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/U2SZP6Vu/versions/CE9cABwO/Dungeon%20And%20Village%20Botania%201.20.1.zip",
+      "hash": "sha512-DdH2gspZm6kEnMYX48wz7rxMa1pUVHsMAHNxrlCst74MddBL0ZPND15QC4owL+7avIVShtSwOepp3IzIDpjcLA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "botania",
+          "projectId": "pfjLUfGv",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "CE9cABwO"
+    ],
+    "1.20+fabric": [
+      "1knPRCuJ"
+    ],
+    "1.20+forge": [
+      "1knPRCuJ"
+    ],
+    "1.20.1+datapack": [
+      "CE9cABwO"
+    ],
+    "1.20.1+fabric": [
+      "1knPRCuJ"
+    ],
+    "1.20.1+forge": [
+      "1knPRCuJ"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "create-cafe-refabricated",
+  "projectId": "GvhXJ085",
+  "versions": {
+    "Gk1KzF4L": {
+      "filename": "createcafe-1.0.0-alpha+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/GvhXJ085/versions/Gk1KzF4L/createcafe-1.0.0-alpha%2B1.18.2.jar",
+      "hash": "sha512-3+RR4mA/daZtbT0JtKViVLkz7nmsJj21aFITM2OoL3T/Tzc96ZpEjJ37wzzKcSZZ/3TsLwrqpUridFhWxncLSQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "Gk1KzF4L"
+    ]
+  }
+}

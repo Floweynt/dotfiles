@@ -1,0 +1,31 @@
+{
+  "slug": "potion-optimizer",
+  "projectId": "3Q6flrDe",
+  "versions": {
+    "6nfVJeSu": {
+      "filename": "PotOptimizer-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/3Q6flrDe/versions/6nfVJeSu/PotOptimizer-1.21.11.jar",
+      "hash": "sha512-tzHNTB91zjEgyQD8MEoAZWo2Fb7XemKCbd+Q/OAUZ+Q3gqwaXV+tCTx+rziPwc8hdtIJHTeoL34W3Ar19cpoxw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "silicons",
+          "projectId": "MdNZOBlg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "6nfVJeSu"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "ddjade",
+  "projectId": "VwSDh0nc",
+  "versions": {
+    "RmNoOEHb": {
+      "filename": "ddjade-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VwSDh0nc/versions/RmNoOEHb/ddjade-neoforge-1.0.0.jar",
+      "hash": "sha512-ZZJ0A2NJX/8XJ+c+m7TEcxWN+eXg9S35yrGqn5z2UGb9q7VXGR+WM/9C/bWh0YG8RTrL6NBdweEaCTtOCjSKLA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "lF244qXW": {
+      "filename": "ddjade-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VwSDh0nc/versions/lF244qXW/ddjade-neoforge-1.1.0.jar",
+      "hash": "sha512-5j5VB/Y9hELWbw8hFvzZSUhfKOYQkRqxGybdpc41Wd+DSvWdGusjTvj0fZCS9nJu+XsaYCr1o2p3rXQOC/+LYg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s4MDeyo0": {
+      "filename": "ddjade-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VwSDh0nc/versions/s4MDeyo0/ddjade-fabric-1.0.0.jar",
+      "hash": "sha512-NB+E2DJr0XBigN45gex69cHo1VgF6DJf4bNYwcjTI1JvhIjrvwVBMPyEyh4tmEJn8s2D44Lg1g27qGB2iF6Azw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jade",
+          "projectId": "nvQzSEkH",
+          "type": "required"
+        },
+        {
+          "slug": "dungeon-difficulty",
+          "projectId": "ENZmbSFZ",
+          "type": "required"
+        }
+      ]
+    },
+    "wAuMlClU": {
+      "filename": "ddjade-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VwSDh0nc/versions/wAuMlClU/ddjade-fabric-1.1.0.jar",
+      "hash": "sha512-g5k0xCiNbhSHrnhKHo2QXN2hOKuQYuBaedYOTuGsMxLRTCakOpOKsistA8YlZcnb0zLTTdlMExAbakG0jOB5oA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "wAuMlClU",
+      "s4MDeyo0"
+    ],
+    "1.21.1+neoforge": [
+      "lF244qXW",
+      "RmNoOEHb"
+    ]
+  }
+}

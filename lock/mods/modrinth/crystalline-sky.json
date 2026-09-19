@@ -1,0 +1,117 @@
+{
+  "slug": "crystalline-sky",
+  "projectId": "dhKWKlrK",
+  "versions": {
+    "9eyE95fO": {
+      "filename": "crystalline-sky-0.2.0+neoforge-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dhKWKlrK/versions/9eyE95fO/crystalline-sky-0.2.0%2Bneoforge-mc1.21.1.jar",
+      "hash": "sha512-5hWxGvYCGSIlK/q7WgETFVJi1TLIC/vZxXR8MGBwgR5Qi/OROmlUCth0pVufvL4i7yLRlsogsPfFn4bbkz8EFA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "L3whf2AZ": {
+      "filename": "crystalline-sky-0.1.2+fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/dhKWKlrK/versions/L3whf2AZ/crystalline-sky-0.1.2%2Bfabric-1.21.8.jar",
+      "hash": "sha512-8fTyQYMpP6AurUnhy+yw2f9V8S3aeDDduqoXEMn9TNQEGxl48gDpcOBX0f0j3Qrl+LULI5CsWHko92br5Sfxew==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Oe7RQZym": {
+      "filename": "crystalline-sky-0.1.1+fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/dhKWKlrK/versions/Oe7RQZym/crystalline-sky-0.1.1%2Bfabric-1.21.8.jar",
+      "hash": "sha512-KGpk9K0YohV2ctpBfVL2KSyq6etgYctF5yTHIuAqKYBDm6aKMZuB+/3gibUuP8+GrfdniFOm3VaqiLJpXt3xaQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "stkpa8S6": {
+      "filename": "crystalline-sky-0.1.0+fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/dhKWKlrK/versions/stkpa8S6/crystalline-sky-0.1.0%2Bfabric-1.21.8.jar",
+      "hash": "sha512-tWl9B+3cou6gBHZNjG32tuQsdoqY0DwGMer0oVk5HBastKma5c7RPbAugEcOikx0smV/YunOzGp/NtwRPsXeKA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zHW17b7p": {
+      "filename": "crystalline-sky-0.2.0+fabric-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dhKWKlrK/versions/zHW17b7p/crystalline-sky-0.2.0%2Bfabric-mc1.21.1.jar",
+      "hash": "sha512-VIQKTFB1/Ac78/gKnFOQVffVI3CB3QuAzzQmrbRIpDptCm+1B8Tss5lPvGghm7oqFoGQfhhhgwcr2q9WikCdxw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "zHW17b7p"
+    ],
+    "1.21.1+neoforge": [
+      "9eyE95fO"
+    ],
+    "1.21.1+quilt": [
+      "zHW17b7p"
+    ],
+    "1.21.8+fabric": [
+      "L3whf2AZ",
+      "Oe7RQZym",
+      "stkpa8S6"
+    ]
+  }
+}

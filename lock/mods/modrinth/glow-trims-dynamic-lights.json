@@ -1,0 +1,36 @@
+{
+  "slug": "glow-trims-dynamic-lights",
+  "projectId": "yfUtDEHS",
+  "versions": {
+    "nfzaBWWp": {
+      "filename": "glow-trims-dynamiclights-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yfUtDEHS/versions/nfzaBWWp/glow-trims-dynamiclights-1.0.0.jar",
+      "hash": "sha512-yCl90gD7ScZh27hoq5T05GNqA+gBr1Bt/QnGYwfB6EAlVQolIEg72dQ62jNalCmxfK9kTwlM2AWQGxCnk/QUmg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "lambdynamiclights",
+          "projectId": "yBW8D80W",
+          "type": "required"
+        },
+        {
+          "slug": "glow-trims",
+          "projectId": "3MBhOT2G",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "nfzaBWWp"
+    ]
+  }
+}

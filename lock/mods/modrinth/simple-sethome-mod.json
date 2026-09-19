@@ -1,0 +1,52 @@
+{
+  "slug": "simple-sethome-mod",
+  "projectId": "SjmuuGNr",
+  "versions": {
+    "DM7D1r0h": {
+      "filename": "sethome-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/SjmuuGNr/versions/DM7D1r0h/sethome-1.1.0.jar",
+      "hash": "sha512-mKi5LSjxTWUjPuh/wEDTgYCgOMDH+qVwz307GSsSddkMlIXfdXefYC+vnKplpR4qvQAyX144UrzfqnR6Cgxwpw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "q8kfgBfQ": {
+      "filename": "sethome-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SjmuuGNr/versions/q8kfgBfQ/sethome-1.0.0.jar",
+      "hash": "sha512-afpTuwFWgyoFfb1Qbb/YZuzFyo+FHPTfP1FSlnNgOsDfRpH32QVlsk0AtnFXZ9GeTNxVXyqHOUG64JqVqDqASw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "q8kfgBfQ"
+    ],
+    "26.1+fabric": [
+      "DM7D1r0h"
+    ],
+    "26.1.1+fabric": [
+      "DM7D1r0h"
+    ]
+  }
+}

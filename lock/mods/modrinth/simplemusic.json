@@ -1,0 +1,89 @@
+{
+  "slug": "simplemusic",
+  "projectId": "pUD9VGJj",
+  "versions": {
+    "2xCRdGkI": {
+      "filename": "SimpleMusic-neoforge-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pUD9VGJj/versions/2xCRdGkI/SimpleMusic-neoforge-0.0.1.jar",
+      "hash": "sha512-sou+mRuODKuJPpSgHowQgHMdE54WTh+TNPv9qFN8wSO8snoSJk9b1aNokv5zOkao95h6Q2sU065W6KDU4QAyJQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "327fr3pl": {
+      "filename": "SimpleMusic-fabric-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pUD9VGJj/versions/327fr3pl/SimpleMusic-fabric-0.0.1.jar",
+      "hash": "sha512-b9fwRaaR17/fC6YpzMZaRMlOHdPbQu7RoZHyzE/N0bwpSY7hqmbLXd0CGcxHqgsTvdsbPmbOweZfogH62PgGlg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "amo4c8r2": {
+      "filename": "SimpleMusic-fabric-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/pUD9VGJj/versions/amo4c8r2/SimpleMusic-fabric-0.0.2.jar",
+      "hash": "sha512-sM+ul6+uBFXSzH58wjHgxjXaXuSOwmFjzewg/KioHAxoxZ6bM21zo8xHgcU40PtZSJjYVey94QyVkvrNV5J8/g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "amo4c8r2",
+      "327fr3pl"
+    ],
+    "1.21+neoforge": [
+      "2xCRdGkI"
+    ],
+    "1.21+quilt": [
+      "amo4c8r2",
+      "327fr3pl"
+    ],
+    "1.21.1+fabric": [
+      "amo4c8r2",
+      "327fr3pl"
+    ],
+    "1.21.1+neoforge": [
+      "2xCRdGkI"
+    ],
+    "1.21.1+quilt": [
+      "amo4c8r2",
+      "327fr3pl"
+    ]
+  }
+}

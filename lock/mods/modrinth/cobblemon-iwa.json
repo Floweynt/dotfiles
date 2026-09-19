@@ -1,0 +1,64 @@
+{
+  "slug": "cobblemon-iwa",
+  "projectId": "g7yIQJhn",
+  "versions": {
+    "37JA3IHI": {
+      "filename": "cobblemon_iwa-neoforge-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/g7yIQJhn/versions/37JA3IHI/cobblemon_iwa-neoforge-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-akGdwfKkUT+kgTkeCSmsHAQ9CddTKU/AwXa0Slm9vTC5Tgy1kOAQ5xcTLxmsb8qH+9mg/JeY5q0ljEgLL/H1sA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "WYH4mY7s": {
+      "filename": "cobblemon_iwa-fabric-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/g7yIQJhn/versions/WYH4mY7s/cobblemon_iwa-fabric-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-FDuf2sf7AacfJvTnM/+MrlurB5XeQUP1WhzRKc7VR7BHxAfUPJ46ReN5DE4CFgT4isbWSe3ZOjPvslPKeEZxtQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "WYH4mY7s"
+    ],
+    "1.21.1+neoforge": [
+      "37JA3IHI"
+    ]
+  }
+}

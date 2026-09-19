@@ -1,0 +1,108 @@
+{
+  "slug": "skinswapper",
+  "projectId": "OoXncSHG",
+  "versions": {
+    "GTgUlgO1": {
+      "filename": "skin-swapper-fabric-3.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/OoXncSHG/versions/GTgUlgO1/skin-swapper-fabric-3.1.2.jar",
+      "hash": "sha512-SGMAODQetU3ziwq/KH4i6AOdNNDeaSyR8XTxSsxEoX4v+Mk82xxTRagXx8SZSO081zI5zE6jZJxoyd6EL5YR8Q==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "IVLXCtXE": {
+      "filename": "skin-swapper-fabric-3.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OoXncSHG/versions/3.1.0/skin-swapper-fabric-3.1.0.jar",
+      "hash": "sha512-GC4sKX1TVvXRyBgaKNHJoN9U9Qucrfe+J3iNAMKNwDkbi6WRIGrorwdVN2xNWF46IIXY9fQfzLPxNmFOKBbmeQ==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "KI6OueBU": {
+      "filename": "skin-swapper-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/OoXncSHG/versions/2.3.0/skin-swapper-2.3.0.jar",
+      "hash": "sha512-0XIAJGNGid4Qu7jrP4TfiM64MQhLPRmIuHngdy/BBQb9HnhK3bMqQBftPc3OWQX5VGXVwPjcat0mg8sRkSQ77Q==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "iIcqwPAb": {
+      "filename": "skin-swapper-fabric-3.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/OoXncSHG/versions/iIcqwPAb/skin-swapper-fabric-3.1.4.jar",
+      "hash": "sha512-HqpXRn635O/5ba2e9FzKgr810F2iYFZm2EUc6oufdG0ng5QAVKuPrlBm1u8vYOMaEaUVmsHWEeGmfQoUDvfxvg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "IVLXCtXE",
+      "KI6OueBU"
+    ],
+    "1.17.1+fabric": [
+      "IVLXCtXE",
+      "KI6OueBU"
+    ],
+    "1.18+fabric": [
+      "IVLXCtXE"
+    ],
+    "1.18.1+fabric": [
+      "IVLXCtXE"
+    ],
+    "1.19+fabric": [
+      "GTgUlgO1"
+    ],
+    "1.19.1+fabric": [
+      "GTgUlgO1"
+    ],
+    "1.19.2+fabric": [
+      "GTgUlgO1"
+    ],
+    "1.20.1+fabric": [
+      "iIcqwPAb"
+    ]
+  }
+}

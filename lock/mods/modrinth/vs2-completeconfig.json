@@ -1,0 +1,54 @@
+{
+  "slug": "vs2-completeconfig",
+  "projectId": "QU4TYCaL",
+  "versions": {
+    "BPx7gpxD": {
+      "filename": "valkyrienskies-120-2.4.0+9d64f4005c.jar",
+      "url": "https://cdn.modrinth.com/data/QU4TYCaL/versions/BPx7gpxD/valkyrienskies-120-2.4.0%2B9d64f4005c.jar",
+      "hash": "sha512-FyR9q5ZLBlYYrBIA4qNWNPJrQ07IjLEipj6MBtZlYQ0C9NfdJ1WSvTsrlQI/PAW/bRgilTvZgDSAy4iFH7nMLw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eITxXCq9": {
+      "filename": "valkyrienskies-120-2.4.0+9d64f4005c.jar",
+      "url": "https://cdn.modrinth.com/data/QU4TYCaL/versions/eITxXCq9/valkyrienskies-120-2.4.0%2B9d64f4005c.jar",
+      "hash": "sha512-2Gu1acR+KokZr6GGmiOsrAOX7zDFJE13FyDsliVPfPaIP37j1WN7jGtephE3M+QyjWX1cUn8jtGx6x51zhv/Xg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "BPx7gpxD"
+    ],
+    "1.20.1+forge": [
+      "eITxXCq9"
+    ]
+  }
+}

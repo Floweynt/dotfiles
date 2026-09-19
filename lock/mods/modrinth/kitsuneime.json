@@ -1,0 +1,153 @@
+{
+  "slug": "kitsuneime",
+  "projectId": "5hsGnriG",
+  "versions": {
+    "GMK2iT1C": {
+      "filename": "ContingameIME-Neo-1.3.0-1.20.6-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/5hsGnriG/versions/GMK2iT1C/ContingameIME-Neo-1.3.0-1.20.6-fabric.jar",
+      "hash": "sha512-rD8shk1NGaN9FutaE+56ZSLUSxDKivIsK1fPNBU1Dv1tbhujnD2aFxFcAU3t3q5U2qD3bLkOu1Mmmbqs9Pxy4g==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "UPcssyEs": {
+      "filename": "ContingameIME-Neo-1.3.0-1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/5hsGnriG/versions/UPcssyEs/ContingameIME-Neo-1.3.0-1.21.1-neoforge.jar",
+      "hash": "sha512-lua+sgi1FXGj9O29NRTNqLijxGZr7pENo0I3VzMVPgfED7Zi828d0Y9zEviHIUGV464ecpo7qMWQdn2TuuAgNQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "UtH9EJUC": {
+      "filename": "ContingameIME-Neo-1.3.0-1.20.6-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/5hsGnriG/versions/UtH9EJUC/ContingameIME-Neo-1.3.0-1.20.6-neoforge.jar",
+      "hash": "sha512-XB062cIYDOpRVUDmgVRvNhqIt85Ymj6vTtE94V2MOprsf4u2vHx+ByiC0cFECWsFieb4C8ryABiNfiVLkN7Y5g==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "n8bKeH3A": {
+      "filename": "ContingameIME-Neo-1.3.0-1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/5hsGnriG/versions/n8bKeH3A/ContingameIME-Neo-1.3.0-1.21.1-fabric.jar",
+      "hash": "sha512-VHmWa4gH2xW5eGYG7x3mASPuVECpIhoTjksX64E0IcHZBecN4xQp2/ryXxKvZLaxw0kOEFhBya0DRAAC9nIUhQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "GMK2iT1C"
+    ],
+    "1.20.6+neoforge": [
+      "UtH9EJUC"
+    ],
+    "1.21+fabric": [
+      "n8bKeH3A"
+    ],
+    "1.21+neoforge": [
+      "UPcssyEs"
+    ],
+    "1.21.1+fabric": [
+      "n8bKeH3A"
+    ],
+    "1.21.1+neoforge": [
+      "UPcssyEs"
+    ],
+    "1.21.2+fabric": [
+      "n8bKeH3A"
+    ],
+    "1.21.2+neoforge": [
+      "UPcssyEs"
+    ],
+    "1.21.3+fabric": [
+      "n8bKeH3A"
+    ],
+    "1.21.3+neoforge": [
+      "UPcssyEs"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "cc-tieredz-frostiful",
+  "projectId": "gLej20ld",
+  "versions": {
+    "ELnOjU5L": {
+      "filename": "cc-tieredz-frostiful-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gLej20ld/versions/ELnOjU5L/cc-tieredz-frostiful-1.0.0.jar",
+      "hash": "sha512-AEE3/N8JxNHRqzCmecBkneTsyhEhwcrJA3Wt0tR0jNbN7SlPVgAEOSecoTp9YVArf9BjleapMytNALFPW+xMgQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "tieredz",
+          "projectId": "z6sMEexp",
+          "type": "required"
+        },
+        {
+          "slug": "frostiful",
+          "projectId": "Ae6qoBj3",
+          "type": "required"
+        }
+      ]
+    },
+    "w31CJJsZ": {
+      "filename": "tieredz-frostiful_compat.zip",
+      "url": "https://cdn.modrinth.com/data/gLej20ld/versions/w31CJJsZ/tieredz-frostiful_compat.zip",
+      "hash": "sha512-+lhln3scqTWwBa059Y/XFrNTZ7rt+iamlNsvJ279x/O+hdXZFikNg+wNOr9UJ849Fs/vubsviuVS+hbHZfTdRQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "frostiful",
+          "projectId": "Ae6qoBj3",
+          "type": "required"
+        },
+        {
+          "slug": "tieredz",
+          "projectId": "z6sMEexp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "w31CJJsZ"
+    ],
+    "1.20.1+fabric": [
+      "ELnOjU5L"
+    ]
+  }
+}

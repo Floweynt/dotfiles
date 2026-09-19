@@ -1,0 +1,119 @@
+{
+  "slug": "stellar-tune",
+  "projectId": "mzyvcGid",
+  "versions": {
+    "3gPe6LWy": {
+      "filename": "stellar-tune-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/mzyvcGid/versions/3gPe6LWy/stellar-tune-1.0.jar",
+      "hash": "sha512-/ZsgG51pcm7Q1/ZCmai27mHXGfgKOLoDZVUEU5g6tw2Vep8NWKhtN+qcXEn9qGhLGJEv9cUUQLvo9iWomDJraA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "92ZCK950": {
+      "filename": "stellar-tune-2.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/mzyvcGid/versions/92ZCK950/stellar-tune-2.0.3.jar",
+      "hash": "sha512-X73nY7DEx4xPxGu/TaS+TzcoCjdhuw+eoTEYS/YVz/Y3JuYJTAo/pWbfpwqSC9RJm75nkQSjRPcnlTPOSlJwOg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "DGmSg2CW": {
+      "filename": "stellar-tune-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mzyvcGid/versions/DGmSg2CW/stellar-tune-2.0.0.jar",
+      "hash": "sha512-W2nO86B96eiShntNXvmYABB7YwGJgKGImkPFSaiW1mix+TK7DMgdf+Zy+CUBajOeYfHeE6u6cieO1OQE+A7w2Q==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d6pt7CO6": {
+      "filename": "stellar-tune-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/mzyvcGid/versions/d6pt7CO6/stellar-tune-1.1.1.jar",
+      "hash": "sha512-SrSRJ87ZlcEs+5IoS/4FO110XoTz6pxhT8F3fzu0Wd0ttOogN5oKqnm9fPfXS9332e0FAGdd9HNHLbEIHP0eFw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "p2E2NB2W": {
+      "filename": "stellar-tune-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/mzyvcGid/versions/p2E2NB2W/stellar-tune-1.1.0.jar",
+      "hash": "sha512-IeOmKFZRtn2jGdcw2QvNmz5uSUFIZh5721IQhsdVEIzPaL19BLopnTF7NJDsoaraLrEtDIGU6GjhS8wrAlIVNQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "d6pt7CO6",
+      "p2E2NB2W",
+      "3gPe6LWy"
+    ],
+    "1.20+fabric": [
+      "92ZCK950",
+      "DGmSg2CW"
+    ],
+    "1.20+quilt": [
+      "DGmSg2CW"
+    ],
+    "1.20.1+fabric": [
+      "92ZCK950"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "ender-tap",
+  "projectId": "NfG3l7vf",
+  "versions": {
+    "rJzogtoJ": {
+      "filename": "endertap-1.20.4-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/NfG3l7vf/versions/rJzogtoJ/endertap-1.20.4-1.1.1.jar",
+      "hash": "sha512-bU30uQA8U8l+KNl7V+2wH9fA+sdrs2TVtrhoM6w6MH67mV0gRo4bwTjIrUny/51knyL2HaZq43T0A54Qs8IP6w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "vLi3RyO4": {
+      "filename": "endertap-1.20.4-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/NfG3l7vf/versions/vLi3RyO4/endertap-1.20.4-1.1.3.jar",
+      "hash": "sha512-HbJSY5kHgBD3rYq1pkYqPX4LxpVXjVCVH8Z5fE1QJ0EogSIRzrRtCvt2ksW7dD+1+YhLePlL9u3XzP8Su/dg4g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "vLi3RyO4",
+      "rJzogtoJ"
+    ],
+    "1.20.1+fabric": [
+      "vLi3RyO4",
+      "rJzogtoJ"
+    ],
+    "1.20.2+fabric": [
+      "vLi3RyO4",
+      "rJzogtoJ"
+    ],
+    "1.20.3+fabric": [
+      "vLi3RyO4",
+      "rJzogtoJ"
+    ],
+    "1.20.4+fabric": [
+      "vLi3RyO4",
+      "rJzogtoJ"
+    ]
+  }
+}

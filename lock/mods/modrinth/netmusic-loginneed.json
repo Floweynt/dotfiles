@@ -1,0 +1,110 @@
+{
+  "slug": "netmusic-loginneed",
+  "projectId": "hoXcy0f7",
+  "versions": {
+    "46STwUIx": {
+      "filename": "net_music_login_need-1.21.1-0.4.jar",
+      "url": "https://cdn.modrinth.com/data/hoXcy0f7/versions/46STwUIx/net_music_login_need-1.21.1-0.4.jar",
+      "hash": "sha512-5aEatd57nS/sWcE3fCg3PbUhYEUN59abaSUa+pT/Na2ALuR47roIw9FTlzzJcKtBZplhO30NFmDyt7Q0kZuVoA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "ADyEEo9q": {
+      "filename": "net_music_login_need-1.19.2-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/hoXcy0f7/versions/ADyEEo9q/net_music_login_need-1.19.2-0.3.jar",
+      "hash": "sha512-PsDP83RBwnDU2dwPjvIkqoe0IbukvP0Y36PshtTj8561bmSVBB31VlAIoeK9fFKxWA7d3c1i9CMROKC9Gu6pNg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "net-music",
+          "projectId": "gKNuqaQq",
+          "type": "required"
+        }
+      ]
+    },
+    "ImBFddtR": {
+      "filename": "net_music_login_need-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/hoXcy0f7/versions/ImBFddtR/net_music_login_need-0.1.1.jar",
+      "hash": "sha512-aDtGO1oTPHohNHp2Jt355kDwS/isgoe2CGMY1UePHbzVa4jEkas6qOITP8zba3CiHAsmV1hNMOm/ZBhY6fwG5Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "cvkZx2H3": {
+      "filename": "net_music_login_need-1.20.1-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/hoXcy0f7/versions/cvkZx2H3/net_music_login_need-1.20.1-0.3.jar",
+      "hash": "sha512-cFH5T66efjxg1SdpmJj+i3yQx7lF0j8rwOv7WoqXuDT7/14jdWbXIejF0Y58TL4YPiPoIJTDx2225uHjYaVv2A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "r7TBsoR7": {
+      "filename": "net_music_login_need-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hoXcy0f7/versions/r7TBsoR7/net_music_login_need-1.0.jar",
+      "hash": "sha512-P/X9J7ILSEltw+DtUZ5LuVWxo3cg7eMWadV8n3Ov6tFQ5iefdWZ58Zrs52QMpr95SRkB3OXRk2ca2fPjfhp1ZQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "net-music",
+          "projectId": "gKNuqaQq",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "ADyEEo9q"
+    ],
+    "1.20.1+forge": [
+      "cvkZx2H3"
+    ],
+    "1.21.1+fabric": [
+      "ImBFddtR"
+    ],
+    "1.21.1+neoforge": [
+      "46STwUIx"
+    ],
+    "26.1.2+neoforge": [
+      "r7TBsoR7"
+    ]
+  }
+}

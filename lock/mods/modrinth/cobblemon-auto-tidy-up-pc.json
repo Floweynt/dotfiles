@@ -1,0 +1,31 @@
+{
+  "slug": "cobblemon-auto-tidy-up-pc",
+  "projectId": "hlCLdQTH",
+  "versions": {
+    "26WAvC1G": {
+      "filename": "CobblemonAutoTidyUpPC-1.2-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/hlCLdQTH/versions/26WAvC1G/CobblemonAutoTidyUpPC-1.2-SNAPSHOT.jar",
+      "hash": "sha512-PoyPkQOlbiC48/z/UCBN/HMMMfm2jQfZqf9uWjvzxYCAX09DdwBiT6laxr5hKqez9hjOKKosKnvGmMJKUwteIQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "26WAvC1G"
+    ]
+  }
+}

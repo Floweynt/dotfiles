@@ -1,0 +1,72 @@
+{
+  "slug": "hypixel-skyblock-storage-gui",
+  "projectId": "qiPYNGod",
+  "versions": {
+    "q1iubVmu": {
+      "filename": "SkyStorage-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qiPYNGod/versions/q1iubVmu/SkyStorage-1.0.0.jar",
+      "hash": "sha512-j4PcKKw3xHzTRmfXP9vZul9BmZGgVMwi2ckb3bHE4VnxjPV0/5uDemEb0XXcUXU4sMETNV0FYxR2t0Vx5Mqkvw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "wV1hyfkE": {
+      "filename": "SkyStorage-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qiPYNGod/versions/wV1hyfkE/SkyStorage-1.0.0.jar",
+      "hash": "sha512-hRVSAQSjYo4ZsqKvYL/ywCpN/P6tnkbvt1GWSRwzLHtgrxDQBG0Y+ePX9EwSn7cyTCGheVazv8dl4GOxd701Lw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "q1iubVmu"
+    ],
+    "26.1+fabric": [
+      "wV1hyfkE"
+    ],
+    "26.1.1+fabric": [
+      "wV1hyfkE"
+    ],
+    "26.1.2+fabric": [
+      "wV1hyfkE"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "athens-coins",
+  "projectId": "47Sbap2f",
+  "versions": {
+    "FeaHrqnH": {
+      "filename": "athens_coins-fabric-0.2-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/47Sbap2f/versions/FeaHrqnH/athens_coins-fabric-0.2-1.21.jar",
+      "hash": "sha512-4FdRC3AWb3gicxcDJsCyrpLNyEWn4l5q8wHY40lxeAM19f+ZyGrsV2dz6xibvne4au2miINyWGlZAMsAhO/92g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "WquBKLYf": {
+      "filename": "athens_coins-neoforge-0.2-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/47Sbap2f/versions/WquBKLYf/athens_coins-neoforge-0.2-1.21.jar",
+      "hash": "sha512-Nb0uGJa4H2shl++77Ba8nOQBEmQXSu/Xw3F1B2CyQx22jRjeigtfMwoMUuJpdNxfOXQK3kD0Whqq0B91bpXlJA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "cWoGtzCg": {
+      "filename": "athens_coins-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/47Sbap2f/versions/cWoGtzCg/athens_coins-0.1-1.20.1.jar",
+      "hash": "sha512-Guvs7EpP1DKjHQ202bOJ3cVDS8Vcw/9yeKKqDlgMANGOIEmq/1w3FL5fZz4+rKJ64eWVk7h6WjG+sXDEfe9OjA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "cWoGtzCg"
+    ],
+    "1.21+fabric": [
+      "FeaHrqnH"
+    ],
+    "1.21+neoforge": [
+      "WquBKLYf"
+    ]
+  }
+}

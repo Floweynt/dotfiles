@@ -1,0 +1,52 @@
+{
+  "slug": "extra-boats",
+  "projectId": "9Yrksp0h",
+  "versions": {
+    "IoTDG3N0": {
+      "filename": "extra_boats-mc1.20-v1.1.jar",
+      "url": "https://cdn.modrinth.com/data/9Yrksp0h/versions/IoTDG3N0/extra_boats-mc1.20-v1.1.jar",
+      "hash": "sha512-dJw8yMxT5F+LEz+fmyGLl1NB6VzXsfzqEux5cjOF9pvTeqSjPypV/9oRd2Dztc7bu+JosSu5fKnMEtBtZZwdsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MSgMAPzd": {
+      "filename": "extra_boats-mc1.20-v2.1.jar",
+      "url": "https://cdn.modrinth.com/data/9Yrksp0h/versions/MSgMAPzd/extra_boats-mc1.20-v2.1.jar",
+      "hash": "sha512-5RvdlEuXrmA9HNMC5qwHZXrjaWr8dZD5najnSDC3Nt0dp6Q2l871Ct04sSZCktOq5gBT4n6KawQHmsb6cCw5nQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IoTDG3N0",
+      "MSgMAPzd"
+    ]
+  }
+}

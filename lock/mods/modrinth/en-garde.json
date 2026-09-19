@@ -1,0 +1,112 @@
+{
+  "slug": "en-garde",
+  "projectId": "AfsdjQlS",
+  "versions": {
+    "kYvZLbLM": {
+      "filename": "en_garde-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AfsdjQlS/versions/kYvZLbLM/en_garde-1.0.0.jar",
+      "hash": "sha512-Qld6O1Omg5pbBER2CLELoUUP2vffNRz+DZlyYmV7IGGNPktuGRrDIY2yhOX1ZXBYNikSWHLlPVttwKZo/r117g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "knwBI7Oc": {
+      "filename": "en_garde-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/AfsdjQlS/versions/knwBI7Oc/en_garde-1.0.1.jar",
+      "hash": "sha512-NO5AUpRxEkJ02NXM1teNXbHc4c+nups65ANH7fA0hcdOLR1RPLmL3cLHm6KuNvwVAPmRKlVPNhhuxyQ5cUu3Rg==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "moKDCNdp": {
+      "filename": "en_garde-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/AfsdjQlS/versions/moKDCNdp/en_garde-1.0.2.jar",
+      "hash": "sha512-FgEebY0FLB3pL3AW9NudubmgH4LphF+oQx4N+eCL7ebRkh7it+z9Q+p/FBiHyXxyxyd1o+lHKtoy+QZNJj8opg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "moKDCNdp"
+    ],
+    "1.21.11+fabric": [
+      "moKDCNdp"
+    ],
+    "1.21.4+fabric": [
+      "kYvZLbLM"
+    ],
+    "1.21.5+fabric": [
+      "knwBI7Oc"
+    ],
+    "1.21.6+fabric": [
+      "knwBI7Oc"
+    ],
+    "1.21.7+fabric": [
+      "knwBI7Oc"
+    ],
+    "1.21.8+fabric": [
+      "knwBI7Oc"
+    ],
+    "1.21.9+fabric": [
+      "moKDCNdp"
+    ]
+  }
+}

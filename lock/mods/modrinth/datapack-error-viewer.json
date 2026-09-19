@@ -1,0 +1,87 @@
+{
+  "slug": "datapack-error-viewer",
+  "projectId": "I735j7KD",
+  "versions": {
+    "CkaJaeYF": {
+      "filename": "datapackerrors-1.0.0+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/I735j7KD/versions/CkaJaeYF/datapackerrors-1.0.0%2Bmc1.21.1.jar",
+      "hash": "sha512-gQ8RAU6Msa6DAsShaxbDyztMiAMJYVhj4I43rg4okWacBkLLij5sVVxC6Xfp9kFbZ10UiHZyjhw5bniT/TOGbg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Rnlf8bvP": {
+      "filename": "datapackerrors-1.0.0+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/I735j7KD/versions/Rnlf8bvP/datapackerrors-1.0.0%2Bmc1.21.11.jar",
+      "hash": "sha512-d0uEgqw/VYsMycf8HG9obwvSjZs2pNXjEMnJGKhCh1dWbf9gkPhg2fGlG2MfogqtrNvSXyezk15Sry264A/Jtw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    },
+    "SUohMz3b": {
+      "filename": "datapackerrors-1.0.0+mc26.1.jar",
+      "url": "https://cdn.modrinth.com/data/I735j7KD/versions/SUohMz3b/datapackerrors-1.0.0%2Bmc26.1.jar",
+      "hash": "sha512-Q2NHyjsXvanm797ux+5dsXdtL2Fyrb4p/UhKvwyy27sCNH3AeG6PlGE73GQGd0W2UzNLZrb3dW16B91133HL/A==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "CkaJaeYF"
+    ],
+    "1.21.1+fabric": [
+      "CkaJaeYF"
+    ],
+    "1.21.11+fabric": [
+      "Rnlf8bvP"
+    ],
+    "26.1+fabric": [
+      "SUohMz3b"
+    ],
+    "26.1.1+fabric": [
+      "SUohMz3b"
+    ],
+    "26.1.2+fabric": [
+      "SUohMz3b"
+    ],
+    "26.2+fabric": [
+      "SUohMz3b"
+    ]
+  }
+}

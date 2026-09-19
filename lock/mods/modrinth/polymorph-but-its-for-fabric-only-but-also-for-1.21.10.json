@@ -1,0 +1,52 @@
+{
+  "slug": "polymorph-but-its-for-fabric-only-but-also-for-1.21.10",
+  "projectId": "KTZoLgc9",
+  "versions": {
+    "ErtPZ7Cg": {
+      "filename": "polymorph-fabric-1.2.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/KTZoLgc9/versions/ErtPZ7Cg/polymorph-fabric-1.2.0%2B1.21.10.jar",
+      "hash": "sha512-nxdkfFE/OBfZV2Tr0Lbo2AubDAdKgqMoParPl/0ZR5ZeHA2I4rRGU2TiPfXOJ3FcKTwrLkCSwmYWBisKXguGmQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bQ4A96tu": {
+      "filename": "polymorph-fabric-1.2.1+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/KTZoLgc9/versions/bQ4A96tu/polymorph-fabric-1.2.1%2B1.21.10.jar",
+      "hash": "sha512-akVlw63JK0rWEEX3J5TB15wz7hsh4u7nkpHfzOyCqEWEUnrCf1H9ajrXFlROxfAvA56/0EY9MMybnrUcIfGa6A==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "bQ4A96tu",
+      "ErtPZ7Cg"
+    ]
+  }
+}

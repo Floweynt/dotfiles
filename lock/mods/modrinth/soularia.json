@@ -1,0 +1,87 @@
+{
+  "slug": "soularia",
+  "projectId": "RL94ahjE",
+  "versions": {
+    "8npJD1Vs": {
+      "filename": "FABRIC-Soularia-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/RL94ahjE/versions/8npJD1Vs/FABRIC-Soularia-1.2.jar",
+      "hash": "sha512-7e9qh0ZhbAIrUNMcZ1UZPIF6isvYzVlOV/hNK2NhoIS/8qaVE5wRsOj7q20fGIHhKKQoN/Obmu1jYtv8bqolQQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "croparia",
+          "projectId": "OoINVquf",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NalTdtoN": {
+      "filename": "FABRIC-Soularia-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/RL94ahjE/versions/NalTdtoN/FABRIC-Soularia-1.2.jar",
+      "hash": "sha512-19LIo5d0JLzYUIml+/RkBsQAjphr0H0CaSfEL6NdePjGeSwSafL1TFZTuz3yIgalclLZtYKIw9oEzqUfF46BIg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "croparia",
+          "projectId": "OoINVquf",
+          "type": "required"
+        }
+      ]
+    },
+    "fnNM4972": {
+      "filename": "FABRIC-Soularia-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/RL94ahjE/versions/fnNM4972/FABRIC-Soularia-1.2.jar",
+      "hash": "sha512-4xPkQBB4Gm/fizxixiuboQCZKXsOePwPOmV4kru8YDlTpLDgDCV+uQUpuLfxmYAShUYrKl+KdGB51avMWjm6zw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "croparia",
+          "projectId": "OoINVquf",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "NalTdtoN"
+    ],
+    "1.20.2+fabric": [
+      "8npJD1Vs"
+    ],
+    "1.20.4+fabric": [
+      "fnNM4972"
+    ]
+  }
+}

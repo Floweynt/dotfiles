@@ -1,0 +1,66 @@
+{
+  "slug": "bgb",
+  "projectId": "uZ19a8ct",
+  "versions": {
+    "9rzsC8ay": {
+      "filename": "background-block_mc1.20.1-v0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/uZ19a8ct/versions/9rzsC8ay/background-block_mc1.20.1-v0.1.0.jar",
+      "hash": "sha512-gZtlxYuls5DcEoUBybXIK/kQEjrPzg7r3V6FQs54uKmdgYVNUtey5BTV0wqihRsUm9324tvo140mMHZf2XtsEg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bRLlhGy5": {
+      "filename": "background-block_mc1.19.4-v0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/uZ19a8ct/versions/bRLlhGy5/background-block_mc1.19.4-v0.1.0.jar",
+      "hash": "sha512-FG7GMWjTRxaC4GGmSFKemQCaSYDCN5Kl+3Xmp7DcJRXEdojuGCZttUjcHX1RYfkJsHucXfccge+MC7tF+0hbYg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "bRLlhGy5"
+    ],
+    "1.20.1+fabric": [
+      "9rzsC8ay"
+    ],
+    "1.20.2+fabric": [
+      "9rzsC8ay"
+    ],
+    "1.20.3+fabric": [
+      "9rzsC8ay"
+    ],
+    "1.20.4+fabric": [
+      "9rzsC8ay"
+    ]
+  }
+}

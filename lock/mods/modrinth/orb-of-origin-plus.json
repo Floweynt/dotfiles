@@ -1,0 +1,74 @@
+{
+  "slug": "orb-of-origin-plus",
+  "projectId": "zaacAhCS",
+  "versions": {
+    "ESI1iEM8": {
+      "filename": "orb_of_origin_plus-1.20.X.jar",
+      "url": "https://cdn.modrinth.com/data/zaacAhCS/versions/ESI1iEM8/orb_of_origin_plus-1.20.X.jar",
+      "hash": "sha512-LMELgfUakNfo6igegblgvfAcKHYbM7dALMIairQ6DcIyMcpAQiEJwBr0hZHxwSUvxO2QTUw3Md4miRlLIz5wiA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yR41mCIT": {
+      "filename": "Orb_of_Origin_Plus_1.1-1.20.X.jar",
+      "url": "https://cdn.modrinth.com/data/zaacAhCS/versions/yR41mCIT/Orb_of_Origin_Plus_1.1-1.20.X.jar",
+      "hash": "sha512-MtwQtu/jWanFuydEp0+zUzTFeo6Ne4PwtIFjgGzKzmDwL/dmzDQBxjJw7F3hL+gDtkF8KjrSrT9G9V6rjgoZ5Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "yR41mCIT",
+      "ESI1iEM8"
+    ],
+    "1.20.1+fabric": [
+      "yR41mCIT",
+      "ESI1iEM8"
+    ],
+    "1.20.2+fabric": [
+      "yR41mCIT",
+      "ESI1iEM8"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "velvet-api",
+  "projectId": "9n0mp5VS",
+  "versions": {
+    "BNMKHe5B": {
+      "filename": "Velvet-Fabric-0.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/9n0mp5VS/versions/BNMKHe5B/Velvet-Fabric-0.5.0.jar",
+      "hash": "sha512-mE4Yk+oTQ76ZHxancFnnzy/Mzkz5mk1QjbN8QEeYHRtSyjDNNFubqE5p25GSDaJJZz4G7vnY9NEf6sMEShgesA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sparkweave",
+          "projectId": "nf68xfAw",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JhHxiK4l": {
+      "filename": "Velvet-NeoForge-0.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/9n0mp5VS/versions/JhHxiK4l/Velvet-NeoForge-0.5.0.jar",
+      "hash": "sha512-bX/DJJXhQl06j3Qe1OqhVV43rJCM9hreEjOExFQDCaMEzxivEkSfKd2KPyFePVQuzQQ1fwRQvvEgvNHxaBapVg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sparkweave",
+          "projectId": "nf68xfAw",
+          "type": "required"
+        }
+      ]
+    },
+    "iyQS3jcO": {
+      "filename": "Velvet-NeoForge-0.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/9n0mp5VS/versions/iyQS3jcO/Velvet-NeoForge-0.5.1.jar",
+      "hash": "sha512-33t5mZRyHTprhN5+ECOqp7mVLCPR6L6EmVnjkF4Bbz3CZTs2Yq6mPyt3Zz8N7k4UqdbT6hAtq4wE2VokQjtbKw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sparkweave",
+          "projectId": "nf68xfAw",
+          "type": "required"
+        }
+      ]
+    },
+    "qK87EHXF": {
+      "filename": "Velvet-Fabric-0.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/9n0mp5VS/versions/qK87EHXF/Velvet-Fabric-0.5.1.jar",
+      "hash": "sha512-CmszVBe8UCw41hhiaqIj+8cplwjdAnYK/FbG24pSmQgcJD4v8iZCIeNOIIzAMV6dQJc/1R3tiQMitEHrVnaPvg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "sparkweave",
+          "projectId": "nf68xfAw",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "qK87EHXF",
+      "BNMKHe5B"
+    ],
+    "1.21.1+neoforge": [
+      "iyQS3jcO",
+      "JhHxiK4l"
+    ],
+    "1.21.1+quilt": [
+      "qK87EHXF",
+      "BNMKHe5B"
+    ]
+  }
+}

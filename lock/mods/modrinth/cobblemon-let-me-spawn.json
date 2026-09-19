@@ -1,0 +1,106 @@
+{
+  "slug": "cobblemon-let-me-spawn",
+  "projectId": "jQAWLKxe",
+  "versions": {
+    "JPp8QT7s": {
+      "filename": "let_me_spawn-neoforge-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jQAWLKxe/versions/JPp8QT7s/let_me_spawn-neoforge-1.2.0.jar",
+      "hash": "sha512-PXMGbZJSlyUZd4IhFmuQ8VV/Z0rAtXbpQdZLdmwIgXMEmlpwecmf6pteq6NUT9sw5OS2XtRqqV3t+n9s4pJvrA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "QNzbITCd": {
+      "filename": "let_me_spawn-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jQAWLKxe/versions/QNzbITCd/let_me_spawn-neoforge-1.1.0.jar",
+      "hash": "sha512-vYE/scFJrZDsFCVYDkMJ4lDPG7Ia+pJYx9u1dcKtncRxT94cC/GfrKFSZknjpWQP8XtY4iTY71C/4ZQ7SKHNyg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "i4F0wVLt": {
+      "filename": "let_me_spawn-fabric-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jQAWLKxe/versions/i4F0wVLt/let_me_spawn-fabric-1.2.0.jar",
+      "hash": "sha512-pb0w45ExzwXb7WUN4M+31qMayK0J5IF1KLeaEYYMu3ZsXYgUgcJvFZEKQLogaYkuMJenLKPtB0g0Aui7KjW9YQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "x878n2Vl": {
+      "filename": "let_me_spawn-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jQAWLKxe/versions/x878n2Vl/let_me_spawn-fabric-1.1.0.jar",
+      "hash": "sha512-jjLbKJkIx2tSh/KG7/2KpzHo8PtlJZgE0OCyZXdTJY/VpgpesWP+x7J89/+i6JVg7UbHRnPtF5K64bvm2IVw7A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "i4F0wVLt",
+      "x878n2Vl"
+    ],
+    "1.21.1+neoforge": [
+      "JPp8QT7s",
+      "QNzbITCd"
+    ]
+  }
+}

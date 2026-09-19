@@ -1,0 +1,471 @@
+{
+  "slug": "function-command-deduplicator",
+  "projectId": "ArnrBVJ5",
+  "versions": {
+    "E3UaBpj6": {
+      "filename": "func_cmd_dedup-forge-0.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/ArnrBVJ5/versions/E3UaBpj6/func_cmd_dedup-forge-0.1-beta.jar",
+      "hash": "sha512-MuUjL8JwjXcwlihEGA851wAyoTYQ6HD0zuxnnHT+l4H6VkgSpomIzZKdtwXBWvDt6EXQodVl9mYePoB/UJIDOQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "EvTQ97io": {
+      "filename": "func_cmd_dedup-neoforge-0.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/ArnrBVJ5/versions/EvTQ97io/func_cmd_dedup-neoforge-0.1-beta.jar",
+      "hash": "sha512-D+h+CebIJbobxTIyV4FtGTUGGJ66DV0ltuutv7GZdeLqmV65C81cvurbN3VeXAmQ27M9nqoQs1P1ehqRPr6BwQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "cNfPs27G": {
+      "filename": "func_cmd_dedup-fabric-0.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/ArnrBVJ5/versions/cNfPs27G/func_cmd_dedup-fabric-0.1-beta.jar",
+      "hash": "sha512-LzfiuwER1rRfr6mqYOFcD9JAicZhUFyvs/u8d3neQf5UPUQvJXyN/4bIzpI0uKF6my0SpFUr2+AwuhcQQEeNoQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6-rc1",
+        "1.20.6",
+        "24w18a",
+        "24w19a",
+        "24w19b",
+        "24w20a",
+        "24w21a",
+        "24w21b",
+        "1.21-pre1",
+        "1.21-pre2",
+        "1.21-pre3",
+        "1.21-pre4",
+        "1.21-rc1",
+        "1.21",
+        "1.21.1-rc1",
+        "1.21.1",
+        "24w33a",
+        "24w34a",
+        "24w35a",
+        "24w36a",
+        "24w37a",
+        "24w38a",
+        "24w39a",
+        "24w40a",
+        "1.21.2-pre1",
+        "1.21.2-pre2",
+        "1.21.2-pre3",
+        "1.21.2-pre4",
+        "1.21.2-pre5",
+        "1.21.2-rc1",
+        "1.21.2-rc2",
+        "1.21.2",
+        "1.21.3",
+        "24w44a",
+        "24w45a",
+        "24w46a",
+        "1.21.4-pre1",
+        "1.21.4-pre2",
+        "1.21.4-pre3",
+        "1.21.4-rc1",
+        "1.21.4-rc2",
+        "1.21.4-rc3",
+        "1.21.4",
+        "25w02a",
+        "25w03a",
+        "25w04a",
+        "25w05a",
+        "25w06a",
+        "25w07a",
+        "25w08a",
+        "25w09a",
+        "25w09b",
+        "25w10a",
+        "1.21.5-pre1",
+        "1.21.5-pre2",
+        "1.21.5-pre3",
+        "1.21.5-rc1",
+        "1.21.5-rc2",
+        "1.21.5",
+        "25w14craftmine",
+        "25w15a",
+        "25w16a",
+        "25w17a",
+        "25w18a",
+        "25w19a",
+        "25w20a",
+        "25w21a",
+        "1.21.6-pre1",
+        "1.21.6-pre2",
+        "1.21.6-pre3",
+        "1.21.6-pre4",
+        "1.21.6-rc1",
+        "1.21.6",
+        "1.21.7-rc1",
+        "1.21.7-rc2",
+        "1.21.7",
+        "1.21.8-rc1",
+        "1.21.8",
+        "25w31a",
+        "25w32a",
+        "25w33a",
+        "25w34a",
+        "25w34b"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.5+fabric": [
+      "cNfPs27G"
+    ],
+    "1.20.5+forge": [
+      "E3UaBpj6"
+    ],
+    "1.20.5+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.20.6+fabric": [
+      "cNfPs27G"
+    ],
+    "1.20.6+forge": [
+      "E3UaBpj6"
+    ],
+    "1.20.6+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.20.6-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21-pre1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21-pre2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21-pre3+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21-pre4+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.1+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21.1+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21.1-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.2+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21.2+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21.2-pre1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.2-pre2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.2-pre3+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.2-pre4+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.2-pre5+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.2-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.2-rc2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.3+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.3+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21.3+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21.4+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.4+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21.4+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21.4-pre1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.4-pre2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.4-pre3+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.4-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.4-rc2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.4-rc3+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.5+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.5+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21.5+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21.5-pre1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.5-pre2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.5-pre3+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.5-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.5-rc2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.6+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.6+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21.6+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21.6-pre1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.6-pre2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.6-pre3+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.6-pre4+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.6-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.7+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.7+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21.7+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21.7-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.7-rc2+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.8+fabric": [
+      "cNfPs27G"
+    ],
+    "1.21.8+forge": [
+      "E3UaBpj6"
+    ],
+    "1.21.8+neoforge": [
+      "EvTQ97io"
+    ],
+    "1.21.8-rc1+fabric": [
+      "cNfPs27G"
+    ],
+    "24w18a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w19a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w19b+fabric": [
+      "cNfPs27G"
+    ],
+    "24w20a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w21a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w21b+fabric": [
+      "cNfPs27G"
+    ],
+    "24w33a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w34a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w35a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w36a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w37a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w38a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w39a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w40a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w44a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w45a+fabric": [
+      "cNfPs27G"
+    ],
+    "24w46a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w02a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w03a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w04a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w05a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w06a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w07a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w08a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w09a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w09b+fabric": [
+      "cNfPs27G"
+    ],
+    "25w10a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w14craftmine+fabric": [
+      "cNfPs27G"
+    ],
+    "25w15a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w16a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w17a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w18a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w19a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w20a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w21a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w31a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w32a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w33a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w34a+fabric": [
+      "cNfPs27G"
+    ],
+    "25w34b+fabric": [
+      "cNfPs27G"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "slug": "yori3os-grappling-hooks-copper-addon",
+  "projectId": "n84V1ibt",
+  "versions": {
+    "YAbxadQ2": {
+      "filename": "yo_hooks_copper_age_addon-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/n84V1ibt/versions/YAbxadQ2/yo_hooks_copper_age_addon-1.1.0.jar",
+      "hash": "sha512-xWpnpkJ/aSdmyXPg+nrasREVU2FkzymeL/Eq7hrj+f5jzViKtTx7KifGmR1S8NU4a8J5Y2wDVScqtFfLg41uCQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "backport-copper-age",
+          "projectId": "a1llHwl4",
+          "type": "required"
+        },
+        {
+          "slug": "yori3os-grappling-hooks",
+          "projectId": "t1p8V2nl",
+          "type": "required"
+        }
+      ]
+    },
+    "gMTWtKWT": {
+      "filename": "yo_hooks_copper_age_addon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/n84V1ibt/versions/gMTWtKWT/yo_hooks_copper_age_addon-1.0.0.jar",
+      "hash": "sha512-8sCMWffli0qLJpkaJQoh4zbvGm0/catnf6eocFAdD1MJ4vX8vqYVUtcBXStSj1HXlnc7uWEmG3ZOUO+dkwvf9g==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yori3os-grappling-hooks",
+          "projectId": "t1p8V2nl",
+          "type": "required"
+        },
+        {
+          "slug": "backport-copper-age",
+          "projectId": "a1llHwl4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "YAbxadQ2",
+      "gMTWtKWT"
+    ],
+    "1.20.1+forge": [
+      "YAbxadQ2"
+    ],
+    "1.20.1+neoforge": [
+      "YAbxadQ2",
+      "gMTWtKWT"
+    ],
+    "1.21.1+fabric": [
+      "YAbxadQ2",
+      "gMTWtKWT"
+    ],
+    "1.21.1+forge": [
+      "YAbxadQ2"
+    ],
+    "1.21.1+neoforge": [
+      "YAbxadQ2",
+      "gMTWtKWT"
+    ]
+  }
+}

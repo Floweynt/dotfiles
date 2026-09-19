@@ -1,0 +1,36 @@
+{
+  "slug": "advanced-netherite-medieval-weapons",
+  "projectId": "O02dF8Zj",
+  "versions": {
+    "zyEMfdmh": {
+      "filename": "advanced_netherite_medieval_weapons-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/O02dF8Zj/versions/zyEMfdmh/advanced_netherite_medieval_weapons-1.0.0.jar",
+      "hash": "sha512-pATa1if4emNv5AbbFY0wdvMBJV4rEYa5j4zc0JQza8JvrDBHNjG5i6/dwNUAhOFfvamQY5lCbdUCSXOhhZwDWA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "medievalweapons",
+          "projectId": "C37HUu02",
+          "type": "required"
+        },
+        {
+          "slug": "advanced-netherite",
+          "projectId": "CFX9ftUJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "zyEMfdmh"
+    ]
+  }
+}

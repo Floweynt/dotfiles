@@ -1,0 +1,53 @@
+{
+  "slug": "jaggies-begone",
+  "projectId": "pgz6omHw",
+  "versions": {
+    "1YdTCMEH": {
+      "filename": "jaggiesbegone-1.0-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/pgz6omHw/versions/1YdTCMEH/jaggiesbegone-1.0-1.19.2.jar",
+      "hash": "sha512-8g2spPE/KLW3GTUaukziIVv5hf1QV7aCNGWpfdXrzcnJzMVuU8/7ZHtU2Rt7FifPPGcOQFIC108neOw5kHf96A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "UogA3StE": {
+      "filename": "jaggiesbegone-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/pgz6omHw/versions/UogA3StE/jaggiesbegone-1.0-1.20.1.jar",
+      "hash": "sha512-78PLeaxABky4uhXJgRRpezU7XsrLnPurwed3KCmyua6lp8wdMmEN0zyTmEQCN9X1TbhIMggXnS2uv8repJgYfQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "1YdTCMEH"
+    ],
+    "1.20.1+fabric": [
+      "UogA3StE"
+    ]
+  }
+}

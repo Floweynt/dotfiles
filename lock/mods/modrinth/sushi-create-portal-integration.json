@@ -1,0 +1,72 @@
+{
+  "slug": "sushi-create-portal-integration",
+  "projectId": "wTQloQNZ",
+  "versions": {
+    "TChW93jx": {
+      "filename": "sushi-ci-portals.zip",
+      "url": "https://cdn.modrinth.com/data/wTQloQNZ/versions/TChW93jx/sushi-ci-portals.zip",
+      "hash": "sha512-SuD2lAEqh8SiyR67uk9t5QbvVxYwCTMDH8dy0HJJEXfxCT9ZeoZX3S4k90VPUdGieVsi867rOaGfFVKy5/mEgw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "spelunkery",
+          "projectId": "krskFMfA",
+          "type": "required"
+        },
+        {
+          "slug": "createdpcompat",
+          "projectId": "1k95061B",
+          "type": "required"
+        }
+      ]
+    },
+    "i2giTIzU": {
+      "filename": "sushi-create-portal-integration-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wTQloQNZ/versions/i2giTIzU/sushi-create-portal-integration-1.0.0.jar",
+      "hash": "sha512-QYeTmEW+GAvlLP8fiRgYd1lj6sN88SOurDmp6OivdZ41YICGvLZFExRnQ9QLncA4XcEfCE4eXYu6i5Lrp/zdVA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "createdpcompat",
+          "projectId": "1k95061B",
+          "type": "required"
+        },
+        {
+          "slug": "spelunkery",
+          "projectId": "krskFMfA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "TChW93jx"
+    ],
+    "1.20.1+fabric": [
+      "i2giTIzU"
+    ],
+    "1.20.1+forge": [
+      "i2giTIzU"
+    ],
+    "1.20.1+quilt": [
+      "i2giTIzU"
+    ]
+  }
+}

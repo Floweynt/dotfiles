@@ -1,0 +1,122 @@
+{
+  "slug": "vpb-hand-animation-compat-layer",
+  "projectId": "mTv59sE2",
+  "versions": {
+    "60AK7xzA": {
+      "filename": "vpb-hmi-compat-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/mTv59sE2/versions/60AK7xzA/vpb-hmi-compat-0.3.0.jar",
+      "hash": "sha512-Lm03j52bh1YYxHr+Fuir0LGR6INB5EX5uRm7KRVLxLNOZD9Wb5BJ4BiRmge3Trsp1ugMdS4h8UlI61d/adShNQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "7REVQm69": {
+      "filename": "vpb-hmi-compat-mc1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mTv59sE2/versions/7REVQm69/vpb-hmi-compat-mc1.20.1-1.0.0.jar",
+      "hash": "sha512-NHI7uEhGhUYQBOWhB6gUtkXvTOAyGAMolbjk2tSKy7bLFuxH6PryEiUUzrQZ8lxTxKRTKl9Nu9wkdoEUnrWj8w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    },
+    "E3RzMCZj": {
+      "filename": "vpb-hmi-compat-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/mTv59sE2/versions/E3RzMCZj/vpb-hmi-compat-0.2.0.jar",
+      "hash": "sha512-SS42NP0fhVBniwox3fja0lmr1BjeWTOkQaWcbCsj3zK8/7it8sq+XFKIFIHomD6IPj5YgSBuQynByrPxdCybMg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "hold-my-items",
+          "projectId": "AP8rDDLS",
+          "type": "required"
+        },
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    },
+    "JSgd4mRq": {
+      "filename": "vpb-hmi-compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mTv59sE2/versions/JSgd4mRq/vpb-hmi-compat-1.0.0.jar",
+      "hash": "sha512-ejoyozewRModXMhNu0zP/mLCaA/PVVPLI1PergImQXzWA5AkzZI06g+m/JiNGMpdmGqXYgXHZfvA7VdhGPqn1w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    },
+    "Z1CisX6Z": {
+      "filename": "vpb-hmi-compat-mc1.21-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mTv59sE2/versions/Z1CisX6Z/vpb-hmi-compat-mc1.21-1.21.1-1.0.0.jar",
+      "hash": "sha512-z9vT3C7b0xcTJT6TW3L1bFNafpzckF0r1ylsHE8JgwdmHVxq2fY+eOZZiz55MHB3yx75bq+d0xhxjNTB5FNUMw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "7REVQm69"
+    ],
+    "1.21+fabric": [
+      "Z1CisX6Z"
+    ],
+    "1.21.1+fabric": [
+      "Z1CisX6Z"
+    ],
+    "1.21.11+fabric": [
+      "JSgd4mRq",
+      "60AK7xzA",
+      "E3RzMCZj"
+    ]
+  }
+}

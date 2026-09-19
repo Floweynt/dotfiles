@@ -1,0 +1,48 @@
+{
+  "slug": "auto-best-enchantments",
+  "projectId": "fTSqsI4O",
+  "versions": {
+    "OTVn13IW": {
+      "filename": "AutoBestEnchantments-1.0.1+mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/fTSqsI4O/versions/OTVn13IW/AutoBestEnchantments-1.0.1%2Bmc26.2.jar",
+      "hash": "sha512-Mj4pii3RmrD/JFtu/pdYKJ0k9gmPsmN/+ZvXG/T15dmMjsVygEfzflZHZGRl86oi/L/eU18ohx03dxLmIgKP6w==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lVYsPShQ": {
+      "filename": "AutoBestEnchantments-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fTSqsI4O/versions/lVYsPShQ/AutoBestEnchantments-1.0.0.jar",
+      "hash": "sha512-ag4yyFCqYPSp7vn9cIcTaciNxLQK40wP63Hc1astOx0P6ihH0GdwUTFDnNOmfrnmRq5tY0gwVIYvlxEDp9EZyw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "lVYsPShQ"
+    ],
+    "26.2+fabric": [
+      "OTVn13IW"
+    ]
+  }
+}

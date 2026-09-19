@@ -1,0 +1,91 @@
+{
+  "slug": "peaceful-monsters",
+  "projectId": "I0gkgITF",
+  "versions": {
+    "2iziFIcR": {
+      "filename": "peaceful_monsters-merged-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/I0gkgITF/versions/2iziFIcR/peaceful_monsters-merged-1.20.1-1.0.0.jar",
+      "hash": "sha512-Egxv0AHhl/IDwHo4q3QdVKSew9hoQqDO22jx5yJRFs/CsXn/6WjTZg3U3Ry8QUoam7rNsXd4BF8z2dZwuD2V1w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "monolib",
+          "projectId": "9leXt4A5",
+          "type": "required"
+        }
+      ]
+    },
+    "ByIfiHiV": {
+      "filename": "peaceful_monsters-merged-1.21.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/I0gkgITF/versions/ByIfiHiV/peaceful_monsters-merged-1.21.4-1.0.0.jar",
+      "hash": "sha512-GUOKEXr4oRC/MkhpEhp3HL+1yndzo6Di3rbHEBeEdVCAyvTYUHnh5BJBt1s3XzlrYGg/46L+htGOJsALapSRcw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bNWBPimb": {
+      "filename": "peaceful_monsters-merged-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/I0gkgITF/versions/bNWBPimb/peaceful_monsters-merged-1.21.1-1.0.0.jar",
+      "hash": "sha512-ORZk6lcGoPmgOgSfUFkb0rDDQ9WnR8fFgG8QkEi+rUvidQjeD/jNgGcZU4wXAp+sf7E+NTxEIHgEEWEIbjIJLQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "monolib",
+          "projectId": "9leXt4A5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2iziFIcR"
+    ],
+    "1.20.1+forge": [
+      "2iziFIcR"
+    ],
+    "1.21.1+fabric": [
+      "bNWBPimb"
+    ],
+    "1.21.1+forge": [
+      "bNWBPimb"
+    ],
+    "1.21.1+neoforge": [
+      "bNWBPimb"
+    ],
+    "1.21.4+fabric": [
+      "ByIfiHiV"
+    ],
+    "1.21.4+forge": [
+      "ByIfiHiV"
+    ],
+    "1.21.4+neoforge": [
+      "ByIfiHiV"
+    ]
+  }
+}

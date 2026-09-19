@@ -1,0 +1,133 @@
+{
+  "slug": "morecullingextra",
+  "projectId": "dFKMFBrn",
+  "versions": {
+    "5i4XW7V3": {
+      "filename": "MoreCullingExtra-1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dFKMFBrn/versions/5i4XW7V3/MoreCullingExtra-1.1-1.20.1.jar",
+      "hash": "sha512-tol1EIksnTpDeQBP1TmJ2OkK9lEqHdHfXVpErmDEhslXOWeS0yxArI+IXelg7o96mTjVdVPMAzb7waLK/FK0Ow==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "moreculling",
+          "projectId": "51shyZVL",
+          "type": "required"
+        }
+      ]
+    },
+    "a8T9xKH8": {
+      "filename": "MoreCullingExtra-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/dFKMFBrn/versions/a8T9xKH8/MoreCullingExtra-1.0.jar",
+      "hash": "sha512-s3URlC2C657igNFNLCCpNrsvre78i7DnI21WmwBu3OHk6gLmHXq+/Jd0yNx27uPSS5f10zsO2A5HX3Q7+JnH1g==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "moreculling",
+          "projectId": "51shyZVL",
+          "type": "required"
+        }
+      ]
+    },
+    "iNzUzmM1": {
+      "filename": "MoreCullingExtra-1.1-backport_1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/dFKMFBrn/versions/iNzUzmM1/MoreCullingExtra-1.1-backport_1.19.2.jar",
+      "hash": "sha512-ufeehUW+BL140AQKDks6RBOUpSvLrAy3om6SNgpMKdZIPHMzUGLjHetBa1eMU6mRW2ZMhWpeL3NGgpRulVTEGg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "moreculling",
+          "projectId": "51shyZVL",
+          "type": "required"
+        }
+      ]
+    },
+    "rPGfLpeu": {
+      "filename": "MoreCullingExtra-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/dFKMFBrn/versions/rPGfLpeu/MoreCullingExtra-1.1.jar",
+      "hash": "sha512-/I9RVHBgccB8SpLNncgY9MF0vMHk97/f0Zhh4Z3DUrewjQNRUMdIxtkKRaZqQQPvVz93y07A3PZVhq6CIQdBcQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "moreculling",
+          "projectId": "51shyZVL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "iNzUzmM1"
+    ],
+    "1.19.2+quilt": [
+      "iNzUzmM1"
+    ],
+    "1.19.3+fabric": [
+      "rPGfLpeu",
+      "a8T9xKH8"
+    ],
+    "1.19.3+quilt": [
+      "rPGfLpeu",
+      "a8T9xKH8"
+    ],
+    "1.20.1+fabric": [
+      "5i4XW7V3"
+    ],
+    "1.20.1+quilt": [
+      "5i4XW7V3"
+    ],
+    "1.20.2+fabric": [
+      "5i4XW7V3"
+    ],
+    "1.20.2+quilt": [
+      "5i4XW7V3"
+    ],
+    "1.20.3+fabric": [
+      "5i4XW7V3"
+    ],
+    "1.20.3+quilt": [
+      "5i4XW7V3"
+    ],
+    "1.20.4+fabric": [
+      "5i4XW7V3"
+    ],
+    "1.20.4+quilt": [
+      "5i4XW7V3"
+    ]
+  }
+}

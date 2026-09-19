@@ -1,0 +1,116 @@
+{
+  "slug": "umu-little-maid",
+  "projectId": "iEwt8nJR",
+  "versions": {
+    "986VlDIr": {
+      "filename": "umu_little_maid-4.11.jar",
+      "url": "https://cdn.modrinth.com/data/iEwt8nJR/versions/986VlDIr/umu_little_maid-4.11.jar",
+      "hash": "sha512-JTOZGjQuFjCBew0itXkh/xS5bwxISp80Y782ut33fuRUyFupD5VzA3v9er+LzTzXwDEm9v54jDlfplZ+Ud8L2A==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "dewBuc5b": {
+      "filename": "umu_little_maid-4.12.jar",
+      "url": "https://cdn.modrinth.com/data/iEwt8nJR/versions/dewBuc5b/umu_little_maid-4.12.jar",
+      "hash": "sha512-5tcBEZg5qXKLgqpRBpk45Lz66896Uljtx7ROqzpq0CrirtPFXXl7MMIploBar0R7bdnYY8XSxfp8bKpcGDoetw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kWUkLIgQ": {
+      "filename": "umu_little_maid-3.11a.jar",
+      "url": "https://cdn.modrinth.com/data/iEwt8nJR/versions/kWUkLIgQ/umu_little_maid-3.11a.jar",
+      "hash": "sha512-Kw1wXqGns5UuvHZsOHidGR6KaiCupYa/K7LnqmxTjSATkpWDCvFQ1h8LlXCf/cP4HBeO+vBOkPNwPRClLWleSA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tDlTd5aS": {
+      "filename": "umu_little_maid-4.11.1.jar",
+      "url": "https://cdn.modrinth.com/data/iEwt8nJR/versions/tDlTd5aS/umu_little_maid-4.11.1.jar",
+      "hash": "sha512-zW1ZWnrBsxj2uSN29cd8FRgH23Rf4uhChjFcvTq5PshPRYLiyma7QNUxMzLzWcQc+FHZBJKRiDrEVV4O5hMX1w==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kWUkLIgQ"
+    ],
+    "1.20.2+fabric": [
+      "dewBuc5b",
+      "tDlTd5aS",
+      "986VlDIr"
+    ]
+  }
+}

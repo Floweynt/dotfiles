@@ -1,0 +1,52 @@
+{
+  "slug": "cobblemon-battle-conditions",
+  "projectId": "Fv6mJPwV",
+  "versions": {
+    "9FbRLDcl": {
+      "filename": "CobblemonBattleConditions-0.2.0-1.7.0-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/Fv6mJPwV/versions/9FbRLDcl/CobblemonBattleConditions-0.2.0-1.7.0-BETA.jar",
+      "hash": "sha512-+WcfNHyrA2vDp42+KiWcsOY3QY1cUvCOzwbC637F7h2fP3WqH3NlTLOOXzq/SXjD8uiRZvn4z23ea8vSHey3XQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "xNj0qp28": {
+      "filename": "CobblemonBattleConditions-0.1.0-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/Fv6mJPwV/versions/xNj0qp28/CobblemonBattleConditions-0.1.0-BETA.jar",
+      "hash": "sha512-mj787QUYDRZ1WRP9qBvyXCwjASPmk2T8ZnOrmntA5IOB5gVbREpuD5T3uI/bBF4y+P42ugkkrR1UT9Z7C93g4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "9FbRLDcl",
+      "xNj0qp28"
+    ]
+  }
+}

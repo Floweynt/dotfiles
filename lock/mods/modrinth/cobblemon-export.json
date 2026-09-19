@@ -1,0 +1,66 @@
+{
+  "slug": "cobblemon-export",
+  "projectId": "QQO3ZJI3",
+  "versions": {
+    "be3Yd6xO": {
+      "filename": "Cobblemon-Export-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/QQO3ZJI3/versions/be3Yd6xO/Cobblemon-Export-1.0.3.jar",
+      "hash": "sha512-3d8sFIiypHNKduICFAgor2NRCKFUsTRYa4Jk+JJ7IH+4xc44k3CN8g4BsO+muz9FzKJBPoLvo27XLrCPl3w5CA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cOdciw9N": {
+      "filename": "Cobblemon-Export-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QQO3ZJI3/versions/cOdciw9N/Cobblemon-Export-1.0.1.jar",
+      "hash": "sha512-xi/941r60Hx0SoojHieyEvkD/Qk2olNb42sRpAfLUE7eG0k6V1xQchgPgkdo9/HxEMmZulYhdyvNut2bZnF3eA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "xLWWigAt": {
+      "filename": "Cobblemon-Export-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QQO3ZJI3/versions/xLWWigAt/Cobblemon-Export-1.0.0.jar",
+      "hash": "sha512-XYehF0sUFfwjsSX0Vw84B3rUdXvSqoem9lWqr7CX0ozhhoKgM+BLp7DmaP69TKg/X9WB0V16QmUeTPDWPmlRfQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "be3Yd6xO",
+      "cOdciw9N",
+      "xLWWigAt"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "swapbar",
+  "projectId": "QsxQBcx3",
+  "versions": {
+    "7UeU3q92": {
+      "filename": "swapbar-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QsxQBcx3/versions/7UeU3q92/swapbar-1.0.1.jar",
+      "hash": "sha512-Gw6ZesaNcdF4mVdL0F4s0fwCNKyzOCJSXe4ncXBEL7WRjAlkKFUDjUm/kE0Lqls5hkz9Pp/ewPVXLN/pkAF9Gw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "8rmSiuLU": {
+      "filename": "swapbar-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QsxQBcx3/versions/8rmSiuLU/swapbar-1.0.0.jar",
+      "hash": "sha512-pSC3I0w30A0/rYRanXqS1P48jLo9nSWTO2LuYU7LYwSNp5zL+9WrW+i7xRiCTcA1qNYvGm3f+TD8vD21wmROeg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GaHf2tzN": {
+      "filename": "swapbar-1.0.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/QsxQBcx3/versions/GaHf2tzN/swapbar-1.0.1%2B26.1.jar",
+      "hash": "sha512-lLXsGVk3yiriLknNv+Z9wjha6xZN6XeKpjLMkUMh8Wbes3TXr2QtrJywhKJPE1UiM2/mvcEPtOobSZOc3TQ0GQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "8rmSiuLU"
+    ],
+    "1.21+fabric": [
+      "7UeU3q92"
+    ],
+    "26.1+fabric": [
+      "GaHf2tzN"
+    ],
+    "26.1.1+fabric": [
+      "GaHf2tzN"
+    ],
+    "26.1.2+fabric": [
+      "GaHf2tzN"
+    ]
+  }
+}

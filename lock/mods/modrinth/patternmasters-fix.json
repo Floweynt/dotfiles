@@ -1,0 +1,78 @@
+{
+  "slug": "patternmasters-fix",
+  "projectId": "TefOf4b4",
+  "versions": {
+    "HrOAQB5t": {
+      "filename": "patternmasters-fix-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TefOf4b4/versions/HrOAQB5t/patternmasters-fix-fabric-1.0.0.jar",
+      "hash": "sha512-zYpdtbdgflI5MFFh7Cdd711Jf8w3jAMoHm1taTyOUn8CeerDQ2gCHLCrAW/FVXOKxVZ5WsZMeKzBmJF6GmXWQg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "moreiotas",
+          "projectId": "Jmt7p37B",
+          "type": "required"
+        }
+      ]
+    },
+    "IXHCDqu6": {
+      "filename": "patternmasters-fix-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TefOf4b4/versions/IXHCDqu6/patternmasters-fix-forge-1.0.0.jar",
+      "hash": "sha512-8OAvMJ0MuSsMJPJbZtISzXKs/2eVR1KvP6n2ueCTUt7ESnjND1yjkwnx5IIMIQLITW3nrp7O5UGgdWSRb+Y26A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moreiotas",
+          "projectId": "Jmt7p37B",
+          "type": "required"
+        },
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HrOAQB5t"
+    ],
+    "1.20.1+forge": [
+      "IXHCDqu6"
+    ],
+    "1.20.1+quilt": [
+      "HrOAQB5t"
+    ]
+  }
+}

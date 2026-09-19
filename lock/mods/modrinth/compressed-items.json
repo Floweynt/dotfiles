@@ -1,0 +1,69 @@
+{
+  "slug": "compressed-items",
+  "projectId": "oSvtANfg",
+  "versions": {
+    "EA2E9b22": {
+      "filename": "compressed_items-1.18.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oSvtANfg/versions/EA2E9b22/compressed_items-1.18.2-1.0.0.jar",
+      "hash": "sha512-f8YzRV12FS/gR4KU4yz1KIEtK6i28lqECZPSOX6BrWObKYNH3Zro25LoaYgv8dYEgsoaRsZz10jYuNr/5ivqEA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dWKy9myu": {
+      "filename": "compressed_items-1.19.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oSvtANfg/versions/dWKy9myu/compressed_items-1.19.2-1.0.0.jar",
+      "hash": "sha512-XhKvLu0+uOBp5aUW88OrFK0c5zY55P4CSaHIpDmQwGSt9OvpPMzFDyZtR4uM0hPbLsXYtWBR/Ywy91oe4hhe2g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uC7wWsDE": {
+      "filename": "compressed_items-1.19.2-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/oSvtANfg/versions/uC7wWsDE/compressed_items-1.19.2-1.0.1.jar",
+      "hash": "sha512-Q995787guc9X1f3ggjYlOgrcc9x6qR+jwuLns4ly3zL1cV2djOZGc3P1X583GuWfaTvbt2E5eAmilYw9NSDNlQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "EA2E9b22"
+    ],
+    "1.19.2+fabric": [
+      "uC7wWsDE",
+      "dWKy9myu"
+    ]
+  }
+}

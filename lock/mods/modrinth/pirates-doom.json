@@ -1,0 +1,82 @@
+{
+  "slug": "pirates-doom",
+  "projectId": "c5Wlu9aL",
+  "versions": {
+    "3VTWdUcs": {
+      "filename": "piratesdoom-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/c5Wlu9aL/versions/3VTWdUcs/piratesdoom-1.0.0-fabric.jar",
+      "hash": "sha512-hgKciHLmdHfYlPeGrWVssA+72VyL43g668gHU2IvTCwH58MSkUfvbFcpo5cnC1quImu5pQ/THZ3qHCgVx55PLA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LP33GBvC": {
+      "filename": "piratesdoom-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/c5Wlu9aL/versions/LP33GBvC/piratesdoom-1.0.0-forge.jar",
+      "hash": "sha512-uPxt7N0/KaScZeiRzki3O7HFihsp7pNJCx4uRPmtpwA7lTgrkay14qMyl/bd+P3O0s0Qce3eMZaij504l4XnqA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cIiVn8Vj": {
+      "filename": "piratesdoom-fabric-1.21.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c5Wlu9aL/versions/cIiVn8Vj/piratesdoom-fabric-1.21.1-2.0.0.jar",
+      "hash": "sha512-mxhAcvrKkHxDiPj1188HA6UdWI6VY1U1iumEkRtRZQhsUKfIdr5eXgKqba+sknCySW+ZLKcByzElzn93veGxFQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "yaYfJed8": {
+      "filename": "piratesdoom-neoforge-1.21.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c5Wlu9aL/versions/yaYfJed8/piratesdoom-neoforge-1.21.1-2.0.0.jar",
+      "hash": "sha512-/TaLdvlRmba+k/wrynAxiz2qwwtUZhC8L5g6iHmCxXfYOWa7K7GEye9hn3i0w9oS0QK7jfNyI56wN2WFvMgaXA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "3VTWdUcs"
+    ],
+    "1.20.1+forge": [
+      "LP33GBvC"
+    ],
+    "1.21.1+fabric": [
+      "cIiVn8Vj"
+    ],
+    "1.21.1+neoforge": [
+      "yaYfJed8"
+    ]
+  }
+}

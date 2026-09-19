@@ -1,0 +1,148 @@
+{
+  "slug": "vanilla-additions",
+  "projectId": "dyk2ykai",
+  "versions": {
+    "6tbYaWvy": {
+      "filename": "vanillaadditions-1.0.1-1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/dyk2ykai/versions/6tbYaWvy/vanillaadditions-1.0.1-1.20.2.jar",
+      "hash": "sha512-O4OCqBQmfkhwiZKUVF2cg980KAnWfnXb8L7/t0MBZjzIa8g+LlYFTmygsVick0eaceVi6/RxXiBM7KewwwCClg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WtSQfv0R": {
+      "filename": "vanillaadditions-1.0.1-1.20.3.jar",
+      "url": "https://cdn.modrinth.com/data/dyk2ykai/versions/WtSQfv0R/vanillaadditions-1.0.1-1.20.3.jar",
+      "hash": "sha512-UeZZEgl26Av+EHZ9ZBZXwYWCJEX2nl7Fd+PWFxdsvEfUktgz8rBz/qzkk2puUJeIB70boq8qTsJoj/dHG/Hhrw==",
+      "gameVersions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jjSKd1z2": {
+      "filename": "vanillaadditions-1.0-1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/dyk2ykai/versions/jjSKd1z2/vanillaadditions-1.0-1.20.2.jar",
+      "hash": "sha512-Z2JBdWSKdt2mbbd4wiCbMjKY0Q25IkyXSEi0s0pg1biTFy1FwVn4ZV/8cibCpRhTkUt0be47mmmipxqucF/ocg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kCf9qIMP": {
+      "filename": "vanillaadditions-1.0.1-1.20.3.jar",
+      "url": "https://cdn.modrinth.com/data/dyk2ykai/versions/kCf9qIMP/vanillaadditions-1.0.1-1.20.3.jar",
+      "hash": "sha512-CvYMkjBdkvHlJ48+NEf54QfUA5iiiHpp1xUNomN1d7fEd9IhgVOaPK8ijk1ZSeNrpxw1AunO6E4Bhvxn8PWTmg==",
+      "gameVersions": [
+        "1.20.3-pre4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "n78mRPgM": {
+      "filename": "vanillaadditions-1.0.1-1.20.3.jar",
+      "url": "https://cdn.modrinth.com/data/dyk2ykai/versions/n78mRPgM/vanillaadditions-1.0.1-1.20.3.jar",
+      "hash": "sha512-ZdPrq5S19An1plIzpkFS0Hn/gV2cv2Z9uiVJNJ1dk+CJ7SSt59CGjve0DjmRpeeUZlIpdmF6q9ogtYDU35BXSQ==",
+      "gameVersions": [
+        "1.20.3-rc1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sMHLYUmD": {
+      "filename": "vanillaadditions-1.0.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/dyk2ykai/versions/sMHLYUmD/vanillaadditions-1.0.1-1.20.4.jar",
+      "hash": "sha512-ZEwbrW4J5YqzzOk9mfS2xzU/aD5Xn4/3+ztKnP6fRX2g98i/FKR/tdT7+jnlPvMtnJR0++d1Mvl7zLyfGqBzvA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "6tbYaWvy",
+      "jjSKd1z2"
+    ],
+    "1.20.2+quilt": [
+      "jjSKd1z2"
+    ],
+    "1.20.3+fabric": [
+      "WtSQfv0R"
+    ],
+    "1.20.3-pre4+fabric": [
+      "kCf9qIMP"
+    ],
+    "1.20.3-rc1+fabric": [
+      "n78mRPgM"
+    ],
+    "1.20.4+fabric": [
+      "sMHLYUmD"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "miningdimension",
+  "projectId": "r3lXLqy0",
+  "versions": {
+    "K1XHiD7e": {
+      "filename": "mining_dimension-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/r3lXLqy0/versions/K1XHiD7e/mining_dimension-1.0.0.jar",
+      "hash": "sha512-wUAm7Jc4Ne+RdHNbI7ZpNt2jAx5Q5559dxgwrStmZ1qjmtcAPioqK17WhoZ5qO2DSK6DO33Eg4OOYFR1eJEfGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "K1XHiD7e"
+    ]
+  }
+}

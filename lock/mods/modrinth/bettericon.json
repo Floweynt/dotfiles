@@ -1,0 +1,54 @@
+{
+  "slug": "bettericon",
+  "projectId": "pJSRioA4",
+  "versions": {
+    "Mhr11J28": {
+      "filename": "bettericon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pJSRioA4/versions/Mhr11J28/bettericon-1.0.0.jar",
+      "hash": "sha512-Hik1geKsXVqaDQqDBnUZ84jKqQInE4eZ9+eCJWU+iYP1PQ2g0rBrgT8e7aLwGvgdUyPcWuhY8BOfI8/4WpNeSQ==",
+      "gameVersions": [
+        "23w16a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oMArJM6S": {
+      "filename": "Bettericon-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pJSRioA4/versions/oMArJM6S/Bettericon-1.1.0.jar",
+      "hash": "sha512-gORhV8vTGPYpxa9VtiI0ULPWldEYaF12DHaAlYbJbwWBEPkhXNGCwrrEfGMC0CH+oShAaJn0iUBT5Mn18VTO2g==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "oMArJM6S"
+    ],
+    "23w16a+fabric": [
+      "Mhr11J28"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "paws-at-you",
+  "projectId": "ueZ377XT",
+  "versions": {
+    "Xlel5C0J": {
+      "filename": "paws-at-you-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ueZ377XT/versions/Xlel5C0J/paws-at-you-1.0.0.jar",
+      "hash": "sha512-FbS5ZwP8Uz739iWp24uQ/k58fZCUHv69sHAcLhcPumjrkV/ND1muU+8gBUcVo2TAJsiPR2CPfmkF2R0YjoApEg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "poc4pPpZ": {
+      "filename": "paws-at-you-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ueZ377XT/versions/poc4pPpZ/paws-at-you-1.0.0.jar",
+      "hash": "sha512-8VwXewqQ3HdrECcHFoscrANBcSzizNa7hsKEosLZPgJV52Q0dVsWs4edYJFB7292ChrKgmtTIq0KB3cFztZ1iw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "poc4pPpZ"
+    ],
+    "1.21.10+fabric": [
+      "Xlel5C0J"
+    ]
+  }
+}

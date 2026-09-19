@@ -1,0 +1,36 @@
+{
+  "slug": "clash-royale-in-minecraft",
+  "projectId": "R9zOUewX",
+  "versions": {
+    "wb8cf95i": {
+      "filename": "flashroyale-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/R9zOUewX/versions/wb8cf95i/flashroyale-1.0-SNAPSHOT.jar",
+      "hash": "sha512-ge3bjIMUpvNgN3PEzvICEMHnnLB9I+xay4Lz784l1CPN233FjeacTcb9f4Sns05OmHPEKqP7NHi0BH/15VLqnw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "asteorbar",
+          "projectId": "QMWG8bVO",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "wb8cf95i"
+    ]
+  }
+}

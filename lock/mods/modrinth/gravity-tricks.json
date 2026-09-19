@@ -1,0 +1,122 @@
+{
+  "slug": "gravity-tricks",
+  "projectId": "nK65K37m",
+  "versions": {
+    "85fOCZwV": {
+      "filename": "GravityTricks-2.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nK65K37m/versions/85fOCZwV/GravityTricks-2.0.0-1.20.1.jar",
+      "hash": "sha512-MPf79GCkmvyfT+AzgiT+nmb9aZyWo+LQAiq03u9RhPXjyr0NewmV8Oy+HaSuJz1EjgzopvtJepCKClIdDK/1eg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "gravity-api-fork",
+          "projectId": "bqOyYdKi",
+          "type": "required"
+        }
+      ]
+    },
+    "8nlST6oY": {
+      "filename": "gravity-tricks-1.0.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/nK65K37m/versions/8nlST6oY/gravity-tricks-1.0.0%2B1.19.2.jar",
+      "hash": "sha512-liqqPAP4eACoNx4qb4gTmLXDQvTtvHtOloSGrYERmI+znuLkjOwwDWGRqd87RUUhoe1M1sT6HyfTo+Ba0bZQgw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gravity-api",
+          "projectId": "Ex1ynKrU",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "M4RpKyTm": {
+      "filename": "gravity-tricks-1.0.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/nK65K37m/versions/M4RpKyTm/gravity-tricks-1.0.0%2B1.19.2.jar",
+      "hash": "sha512-WuWr5QhSBCa2l+zLvlDRhGk4NAlvIsMUum0Kza1iQKlqQ1h5wzoZrl9F+s+I2/MhmPJsbuB6YcF2AggZMglW1w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "gravity-api",
+          "projectId": "Ex1ynKrU",
+          "type": "required"
+        }
+      ]
+    },
+    "i2vSdGtI": {
+      "filename": "GravityTricks-2.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nK65K37m/versions/i2vSdGtI/GravityTricks-2.0.1-1.20.1.jar",
+      "hash": "sha512-5ZqTj10F4aDgCDK49BoIGzEGh4m1HvXVNQLeqJ0tsEAwi4/qVQANOT9UZKzViWQhQ6XpxZUZ68gaVoSzRowPbg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gravity-api-fork",
+          "projectId": "bqOyYdKi",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+quilt": [
+      "8nlST6oY",
+      "M4RpKyTm"
+    ],
+    "1.20.1+fabric": [
+      "i2vSdGtI",
+      "85fOCZwV"
+    ],
+    "1.20.1+quilt": [
+      "i2vSdGtI",
+      "85fOCZwV"
+    ]
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "showdium",
+  "projectId": "Vvgj4iCl",
+  "versions": {
+    "82upVkKX": {
+      "filename": "noxesium-showdium-fabric-1.0.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/Vvgj4iCl/versions/82upVkKX/noxesium-showdium-fabric-1.0.0-SNAPSHOT.jar",
+      "hash": "sha512-y9t4r08MOgV8inEqkJRqeYTC9U0d5WLjLCEymV5tMA9aDFQ86B2UFC9rp2y50NOc4nKqO+0aQlgUGkBIFOQ+gQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "noxesium",
+          "projectId": "Kw7Sm3Xf",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GcGAbMZa": {
+      "filename": "showdium-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Vvgj4iCl/versions/GcGAbMZa/showdium-fabric-1.0.2.jar",
+      "hash": "sha512-AjpM9Z3Ko2fe0td11p36S9zAXyGdD/gY9LFUiBxz7nIumWSY+2fIFexXwGrwLtLLCqe0Dm9f1O6KcQJS0lgXkA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "noxesium",
+          "projectId": "Kw7Sm3Xf",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RoLYEeJ9": {
+      "filename": "showdium-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Vvgj4iCl/versions/RoLYEeJ9/showdium-fabric-1.0.1.jar",
+      "hash": "sha512-EAo3bZr0RYAR7dSUhfPRo+Z/+y2b4+mRd6dKA18MuI4yMtUvyoef1Mcc/CW/gqtVZhqqNJm9JeY8tePCga01Kg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kjZf1wpv": {
+      "filename": "showdium-fabric-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/Vvgj4iCl/versions/kjZf1wpv/showdium-fabric-1.0.4.jar",
+      "hash": "sha512-Z2E5POZvIkCKLt7ydVk8XMsssvZVdSzuhMX6FDjm95H7vbTyRSIkBmiYhzSyAOOBVAuQCYG/1uQ+DZZXo/287A==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "noxesium",
+          "projectId": "Kw7Sm3Xf",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qjOljrlZ": {
+      "filename": "showdium-fabric-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/Vvgj4iCl/versions/qjOljrlZ/showdium-fabric-1.0.3.jar",
+      "hash": "sha512-yQzx/2hVmbkFMFcCs4byY1kTBdppRDhp7MA+i93guPnnp3dvSBVnEObjQhthZqWi/WbndpViRIdSDw1vsZVIDA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "noxesium",
+          "projectId": "Kw7Sm3Xf",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "qjOljrlZ",
+      "GcGAbMZa"
+    ],
+    "1.21.8+fabric": [
+      "RoLYEeJ9",
+      "82upVkKX"
+    ],
+    "26.2+fabric": [
+      "kjZf1wpv"
+    ]
+  }
+}

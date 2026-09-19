@@ -1,0 +1,54 @@
+{
+  "slug": "elytra-trail",
+  "projectId": "CCD9l2IH",
+  "versions": {
+    "4LXG1C5u": {
+      "filename": "elytra_trails_1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/CCD9l2IH/versions/4LXG1C5u/elytra_trails_1.0.0.zip",
+      "hash": "sha512-zt8RnDXh/JsFJMoJI/nGexjExiy1Wb2jNqei7kska3qJmfMbCM+oR65nLxKs6dZg8IVpOU2JHVn7x8imfCadkA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "zRXmH74j": {
+      "filename": "elytra-trail-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CCD9l2IH/versions/zRXmH74j/elytra-trail-1.0.0.jar",
+      "hash": "sha512-yOWDgSGAJYKiDLrZ6h8gchg8vf2INKkRskt5Ff4vZJjsO+RC/od7i3/nWHHUnwlg9hw2GBL1hI5LxkE9rpoPJg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "4LXG1C5u"
+    ],
+    "1.21.1+fabric": [
+      "zRXmH74j"
+    ],
+    "1.21.1+forge": [
+      "zRXmH74j"
+    ],
+    "1.21.1+neoforge": [
+      "zRXmH74j"
+    ],
+    "1.21.1+quilt": [
+      "zRXmH74j"
+    ]
+  }
+}

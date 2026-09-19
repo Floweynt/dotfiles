@@ -1,0 +1,42 @@
+{
+  "slug": "dangerous-darkness",
+  "projectId": "BcXdSFLa",
+  "versions": {
+    "JsacOO5j": {
+      "filename": "dangerousdarkness-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/BcXdSFLa/versions/JsacOO5j/dangerousdarkness-1.0.0-forge.jar",
+      "hash": "sha512-ZhcuWxMWJ5CWEhl3wU+0LhjDwxPiCsCFcLCAdBr7Pg94Zg41grMrzc3zy4lC9JaWgpJMl08yU2vyRJT2RT3J2A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    },
+    "ToKanQLX": {
+      "filename": "dangerousdarkness-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BcXdSFLa/versions/ToKanQLX/dangerousdarkness-1.0.0.jar",
+      "hash": "sha512-VSCcROfFJ1BRtLYk2EYK3BvB7wrB2WeMclelxCq5yp6isvUOvrnthRhxv0N7cyuPoKW7v3GPYGYc/S1qHCrhhQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ToKanQLX"
+    ],
+    "1.20.1+forge": [
+      "JsacOO5j"
+    ]
+  }
+}

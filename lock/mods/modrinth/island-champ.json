@@ -1,0 +1,87 @@
+{
+  "slug": "island-champ",
+  "projectId": "vet0VYHy",
+  "versions": {
+    "FPPdOaqw": {
+      "filename": "island-champ-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vet0VYHy/versions/FPPdOaqw/island-champ-1.0.0.jar",
+      "hash": "sha512-dY47wRZXBJ84Fu7qAiA79PFR42LKxT/zSuu3pZX8wsuE+JDJWo0x66kq3eXMCSYm9KDBt8DSTFqhPIScMc7zgQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nhZYyytV": {
+      "filename": "island-champ-1.0.1-prerelease.jar",
+      "url": "https://cdn.modrinth.com/data/vet0VYHy/versions/nhZYyytV/island-champ-1.0.1-prerelease.jar",
+      "hash": "sha512-gTOyrtDSj0ldYqI36aPjQpO/HibaFNz3AQv8MmjFPbGPAIoLRt3fcLMUOmpZT+4FoRl/xwelj0WBRUp2B6EG5Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vqnUz9HR": {
+      "filename": "island-champ-1.0.1-prerelease.jar",
+      "url": "https://cdn.modrinth.com/data/vet0VYHy/versions/vqnUz9HR/island-champ-1.0.1-prerelease.jar",
+      "hash": "sha512-fdNhU8W7GZw73CK3jhc44CUgxIumUKHNCM4g3CPxpNvAuJ2fm2s/PHDUs4chUcRGplfEFqh0yDaYzw3yJyi9gA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "nhZYyytV",
+      "vqnUz9HR",
+      "FPPdOaqw"
+    ]
+  }
+}

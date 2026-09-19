@@ -1,0 +1,62 @@
+{
+  "slug": "montracker",
+  "projectId": "yHxHRzn3",
+  "versions": {
+    "PwPkug6U": {
+      "filename": "montracker-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/yHxHRzn3/versions/PwPkug6U/montracker-1.0.3.jar",
+      "hash": "sha512-ULUSdtTtwlifbDboGDzbxCBPufxJXzJZnAq6okVeFjfS8UOroRPybGUk9onba8cUUvPJLIQ24Y9N0yiZFA22lg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qhVyT1Ok": {
+      "filename": "montracker-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/yHxHRzn3/versions/qhVyT1Ok/montracker-1.0.2.jar",
+      "hash": "sha512-Jddf1R/O126PIWgyjH5m1KhMVxd3DtLyvFbdJsALHioxSGsBI0QEHSnu4o2tpjff/GL5D+ctHW0AUSixlSP0hw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "PwPkug6U",
+      "qhVyT1Ok"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "tales_from_the_dune",
+  "projectId": "Kkw21pJx",
+  "versions": {
+    "Tma5HuZB": {
+      "filename": "dune_tales_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Kkw21pJx/versions/Tma5HuZB/dune_tales_1.20.1.jar",
+      "hash": "sha512-mjJ54M+hDjlTpKtbCjp2nrbugcFRYQ0NZkC8q2x0C+F1iPGtb5+fLtxirMC1ZSriKKYXcFyKQ/0aHQVVGqyVUw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "toyo1nVA": {
+      "filename": "dune_tales_1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/Kkw21pJx/versions/toyo1nVA/dune_tales_1.20.2.jar",
+      "hash": "sha512-odk8ZpRZjDBA+PDH7mN+RuBGMo7AC6usJ0S1JxsALim+jET+ofK0tz7G89Cm6j+j2to1uRdbntl8hgQa0WYVgQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Tma5HuZB"
+    ],
+    "1.20.2+fabric": [
+      "toyo1nVA"
+    ]
+  }
+}

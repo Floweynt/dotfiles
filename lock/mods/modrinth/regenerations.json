@@ -1,0 +1,129 @@
+{
+  "slug": "regenerations",
+  "projectId": "Fjs23YlW",
+  "versions": {
+    "2Kvo08rI": {
+      "filename": "regenerations-mod-1.20-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Fjs23YlW/versions/2Kvo08rI/regenerations-mod-1.20-1.1.0.jar",
+      "hash": "sha512-9ej7tXCAHT4qixEa3dXI9SGz/4EXIsDh89NLL4d6Gp+wkEHcJn+NNJFK1sec/zvUyqn3CGnF4xe7RDvnrGFn3Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "o1JUEOfW": {
+      "filename": "regenerations-mod-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/Fjs23YlW/versions/o1JUEOfW/regenerations-mod-1.0.4.jar",
+      "hash": "sha512-Y4He6oe36QJ+09UViUPost9wn1FjyZM5zHzt9CPjRIzdjBBLT+TAqkc/np3A3+0yrWPza03TbMn8Gh669Zvs6A==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "okKuz0al": {
+      "filename": "regenerations-mod-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/Fjs23YlW/versions/okKuz0al/regenerations-mod-1.0.3.jar",
+      "hash": "sha512-+xLMfuHaNk/1VUA/Xqotu+dbsxFjOy2AEMdMV6Oeh7aNDaTm6um7KOB8YblazRZ360eeZ0dIACQiVNOvrVBpOw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "s9Mbzyos": {
+      "filename": "regenerations-mod-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Fjs23YlW/versions/s9Mbzyos/regenerations-mod-1.0.2.jar",
+      "hash": "sha512-RuNksMm4wYHslAfRdzNA4dNk8avBDP05KdceEITYZQMycF+7u02a0wPWAnC2AqXGcEIBq6wGas/eWkjyui1zvw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "s9Mbzyos"
+    ],
+    "1.19.1+fabric": [
+      "s9Mbzyos"
+    ],
+    "1.19.2+fabric": [
+      "s9Mbzyos"
+    ],
+    "1.19.3+fabric": [
+      "o1JUEOfW",
+      "okKuz0al"
+    ],
+    "1.19.4+fabric": [
+      "o1JUEOfW"
+    ],
+    "1.20+fabric": [
+      "2Kvo08rI"
+    ],
+    "1.20.1+fabric": [
+      "2Kvo08rI"
+    ]
+  }
+}

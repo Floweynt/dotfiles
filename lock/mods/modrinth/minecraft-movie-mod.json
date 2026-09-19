@@ -1,0 +1,52 @@
+{
+  "slug": "minecraft-movie-mod",
+  "projectId": "NVS8QRv2",
+  "versions": {
+    "S9ecSvOB": {
+      "filename": "minecraftmoviemod-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/NVS8QRv2/versions/S9ecSvOB/minecraftmoviemod-1.1.2.jar",
+      "hash": "sha512-1L/AiGHEz30WLF1l0z2AFntMZ4ld2g5cAQuzOP1/itN5RV+eBz3z8f3ufrS71RrZOsSD+fD0Hmgg40M/U6cljA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    },
+    "sBNRSl8T": {
+      "filename": "minecraftmoviemod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NVS8QRv2/versions/sBNRSl8T/minecraftmoviemod-1.0.0.jar",
+      "hash": "sha512-0A1pfkeCzKSJFefc/u6Bk+MvtvqOoJdDxH0wF0AvyPMUIIkIIz4eqGiqWvrUd3zjrRwKYeC7Zdr9ppOq1QHghw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "S9ecSvOB",
+      "sBNRSl8T"
+    ],
+    "1.21.1+fabric": [
+      "S9ecSvOB",
+      "sBNRSl8T"
+    ]
+  }
+}

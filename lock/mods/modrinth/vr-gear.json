@@ -1,0 +1,88 @@
+{
+  "slug": "vr-gear",
+  "projectId": "OkTHvnQp",
+  "versions": {
+    "5SporCFG": {
+      "filename": "vrgear-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OkTHvnQp/versions/5SporCFG/vrgear-1.0.0.jar",
+      "hash": "sha512-0W3K9NC915hlYubq6yOjvi3KRH3PRPMhiEhMXSGx60l5tQxIGUAcWxPO/vZ0mR8V3iUd7vFBh4kxGHuw0EXroA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VdDfwtih": {
+      "filename": "vrgear-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OkTHvnQp/versions/VdDfwtih/vrgear-1.0.0.jar",
+      "hash": "sha512-7patn/bSH1+Obg/EGo2YVoRB+AThlxQHqOrywT6i/l1/XZqdSXD7SJKbqa5+DEALCe5hkcj19dg16Lre7QETJQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eO3vllQO": {
+      "filename": "vrgear-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OkTHvnQp/versions/eO3vllQO/vrgear-1.0.0.jar",
+      "hash": "sha512-SnxzAFET3PgiUdUVpuSG93nnZeBabgOny5wp/6y5umXIFJG6j848Dh6aIxWZAIt9Q8BG/E3kVwyqiH/S3nHHnQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sjcgq4ts": {
+      "filename": "vrgear-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OkTHvnQp/versions/sjcgq4ts/vrgear-1.0.0.jar",
+      "hash": "sha512-03icAuIbmWCKXe7Pz+Bpuo9IQ4eYN0rGXFmE/RPxi/b6RrkVyd33CcIeviGYKnBfXWZbec7PpojvCd53vwOxfg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "VdDfwtih"
+    ],
+    "1.19.2+forge": [
+      "sjcgq4ts"
+    ],
+    "1.20.1+fabric": [
+      "5SporCFG"
+    ],
+    "1.20.1+forge": [
+      "eO3vllQO"
+    ]
+  }
+}

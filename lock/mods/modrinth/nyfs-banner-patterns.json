@@ -1,0 +1,124 @@
+{
+  "slug": "nyfs-banner-patterns",
+  "projectId": "6FwNRlG5",
+  "versions": {
+    "9QUkpY5S": {
+      "filename": "nyfsbp-fabric-1.21.10-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/6FwNRlG5/versions/9QUkpY5S/nyfsbp-fabric-1.21.10-1.2.0.jar",
+      "hash": "sha512-EeEYLL3FeJiF+ZEjTgD3KrDmBEavwKWH74Oi/qY8DfDRsuqAPnOZrtgMCWjBR53rpXmwCwuWSovWSkLraqUrCA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CtpBWLe8": {
+      "filename": "nyfsbp-fabric-1.20.1-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/6FwNRlG5/versions/CtpBWLe8/nyfsbp-fabric-1.20.1-1.1.1.jar",
+      "hash": "sha512-WNjM7OklHxCW8n1xZKHKvIsjL34DtAWuIHPT0wLcMWSelcw2xJGl2A8DDtok+Or5DXeTpySRbf7RXaiVCgORBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "I97Q0Rty": {
+      "filename": "nyfsbp-forge-1.20.1-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/6FwNRlG5/versions/I97Q0Rty/nyfsbp-forge-1.20.1-1.1.1.jar",
+      "hash": "sha512-5F2BMzgOZ5Jrh4RlQ+Qq1IXA6MIMC1L3l2CZRF4zBsB7bWKfCuRE6Q6KsQrFnOUnKM7XTivd1d0HQ8Nlr/jagw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XE4y97Ds": {
+      "filename": "nyfsbp-neoforge-1.21.10-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/6FwNRlG5/versions/XE4y97Ds/nyfsbp-neoforge-1.21.10-1.2.0.jar",
+      "hash": "sha512-Mqu4gdJU08+SM47E5KffgYyMr/2H7wEsIV9Mp3oVhf9HfDESV5cOny1LTWqRhRH2jP/uQ5gebVwGFIhiGBTxow==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "lgh0A2Yi": {
+      "filename": "nyfsbp-forge-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6FwNRlG5/versions/lgh0A2Yi/nyfsbp-forge-1.20.1-1.1.0.jar",
+      "hash": "sha512-tHZ2oSJeL3JRgiVNzRCrZjjGjxUFNXHstQHcaRtRZMVYMDf21P17iGlfAcPRpHtYHkZ3ZNwbpCxBafMg/LTDtw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qmpqtLWd": {
+      "filename": "nyfsbp-fabric-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6FwNRlG5/versions/qmpqtLWd/nyfsbp-fabric-1.20.1-1.1.0.jar",
+      "hash": "sha512-yzGPQNRtCXQyp618cgIMeFdSRSVZiqmAy5I6rJD5PS8pX4wB5dhy2xyjXWjqtBHBiza/wH6mm/nmJ4b/nss1gQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "CtpBWLe8",
+      "qmpqtLWd"
+    ],
+    "1.20.1+forge": [
+      "I97Q0Rty",
+      "lgh0A2Yi"
+    ],
+    "1.21.10+fabric": [
+      "9QUkpY5S"
+    ],
+    "1.21.10+neoforge": [
+      "XE4y97Ds"
+    ]
+  }
+}

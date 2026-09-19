@@ -1,0 +1,67 @@
+{
+  "slug": "simple-veinminer",
+  "projectId": "zqcxr7u0",
+  "versions": {
+    "RNpsV2ZK": {
+      "filename": "SimpleVeinminer-1.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/zqcxr7u0/versions/RNpsV2ZK/SimpleVeinminer-1.4.1.jar",
+      "hash": "sha512-B8R/EnXsN+hSQXComAvBzgc6h1Luzz2Fyb0BWhXDBqRQO8Cx81Yfy/uEklUqfAdux6+RQDIDfzJjrlRIIhmE5A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qJADByum": {
+      "filename": "SimpleVeinminer-1.4.2.jar",
+      "url": "https://cdn.modrinth.com/data/zqcxr7u0/versions/qJADByum/SimpleVeinminer-1.4.2.jar",
+      "hash": "sha512-MYc1b/GQz8l9A9EXSBwLTxsPd+4cusC3bWHoqOKTJQ0UtykCLqMNAFq4CWyS1Fwu8D2Mvs4ZHbmpIr17d6mnKA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vdRA2eoy": {
+      "filename": "SimpleVeinminer-1.4.3.jar",
+      "url": "https://cdn.modrinth.com/data/zqcxr7u0/versions/vdRA2eoy/SimpleVeinminer-1.4.3.jar",
+      "hash": "sha512-3wHgPXgRhOw6E+SU230D3ZMuvqn19UMKg5NajRI3OlDwzAVWiwXwuylkeGzaM8o+KD59rZVlp542gsLw8UHzSg==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "qJADByum",
+      "RNpsV2ZK"
+    ],
+    "1.20.1+fabric": [
+      "qJADByum",
+      "RNpsV2ZK"
+    ],
+    "1.20.3+fabric": [
+      "vdRA2eoy"
+    ],
+    "1.20.4+fabric": [
+      "vdRA2eoy"
+    ]
+  }
+}

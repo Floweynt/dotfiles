@@ -1,0 +1,159 @@
+{
+  "slug": "create-man-of-many-planes",
+  "projectId": "F4Rdk2PX",
+  "versions": {
+    "7nmQy8tH": {
+      "filename": "create-man-of-many-planes-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/F4Rdk2PX/versions/7nmQy8tH/create-man-of-many-planes-1.1.jar",
+      "hash": "sha512-QRf75td45wLWHgk9ArEjbas0Ho7Zc6nitNSJM551wg0QZC9zT9xwBkPJv1CJPUqDfVldab05EhHRt3Y5d7fsig==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "man-of-many-planes",
+          "projectId": "9qdTHi0q",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    },
+    "XUkRA6F4": {
+      "filename": "create-man-of-many-planes-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/F4Rdk2PX/versions/XUkRA6F4/create-man-of-many-planes-1.0.jar",
+      "hash": "sha512-cR55RWk4++57IQXzRouamVwN/uEwDFfCEoWLmmSQEb+o5/9IOii22I7Z8HfEusafSRe9y7AhZOgzTyJhtyg1uQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        },
+        {
+          "slug": "man-of-many-planes",
+          "projectId": "9qdTHi0q",
+          "type": "required"
+        }
+      ]
+    },
+    "YtGyQH6i": {
+      "filename": "Create-Man-of-Many-Planes-1.1.zip",
+      "url": "https://cdn.modrinth.com/data/F4Rdk2PX/versions/YtGyQH6i/Create-Man-of-Many-Planes-1.1.zip",
+      "hash": "sha512-5ArxXsg6a6V9gsAryHJJQGms3e8D4FpAxaGwuaAEqUNuUoBNnd9+lUt9WajGXrz67fUkjUFRsJZnKGOalQ4Huw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "man-of-many-planes",
+          "projectId": "9qdTHi0q",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    },
+    "kklrVPdq": {
+      "filename": "Create-Man-of-Many-Planes-1.0.zip",
+      "url": "https://cdn.modrinth.com/data/F4Rdk2PX/versions/kklrVPdq/Create-Man-of-Many-Planes-1.0.zip",
+      "hash": "sha512-wiKW6yOWDSKCSErlHRFb1V4SOfDoXzgeouQGNNZkSVVp8KFcGOtbIagv9cisKCMGGfTLo1dth6vxt/26PokAOg==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "man-of-many-planes",
+          "projectId": "9qdTHi0q",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "kklrVPdq"
+    ],
+    "1.19.2+fabric": [
+      "XUkRA6F4"
+    ],
+    "1.19.2+forge": [
+      "XUkRA6F4"
+    ],
+    "1.19.2+neoforge": [
+      "XUkRA6F4"
+    ],
+    "1.19.2+quilt": [
+      "XUkRA6F4"
+    ],
+    "1.20.1+datapack": [
+      "kklrVPdq"
+    ],
+    "1.20.1+fabric": [
+      "XUkRA6F4"
+    ],
+    "1.20.1+forge": [
+      "XUkRA6F4"
+    ],
+    "1.20.1+neoforge": [
+      "XUkRA6F4"
+    ],
+    "1.20.1+quilt": [
+      "XUkRA6F4"
+    ],
+    "1.21.1+datapack": [
+      "YtGyQH6i",
+      "kklrVPdq"
+    ],
+    "1.21.1+fabric": [
+      "7nmQy8tH"
+    ],
+    "1.21.1+neoforge": [
+      "7nmQy8tH"
+    ],
+    "1.21.1+quilt": [
+      "7nmQy8tH"
+    ]
+  }
+}

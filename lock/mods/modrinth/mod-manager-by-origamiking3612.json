@@ -1,0 +1,52 @@
+{
+  "slug": "mod-manager-by-origamiking3612",
+  "projectId": "LP77uvIS",
+  "versions": {
+    "LiC93v0a": {
+      "filename": "Mod-Manager-0.0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LP77uvIS/versions/LiC93v0a/Mod-Manager-0.0.2-1.20.1.jar",
+      "hash": "sha512-cFPdJxvuuamJ7MsRm5xjruMubUxedhnjozzpGmWYfgg9mXP2dGFTn9EZ2Fu26brXG1YwQxOVteLrmuJq365sug==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "U6rNUr1g": {
+      "filename": "Mod-Manager-0.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LP77uvIS/versions/U6rNUr1g/Mod-Manager-0.0.1-1.20.1.jar",
+      "hash": "sha512-B4Sd/rQHh2wLYxnLFXPoKlu5Q+joUHXQoT8XMu9YjLVq3UukAOL7u9c3YFmaAGUvLUhdZTe5JVdO1oGDWKOqaA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "LiC93v0a",
+      "U6rNUr1g"
+    ]
+  }
+}

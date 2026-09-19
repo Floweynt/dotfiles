@@ -1,0 +1,48 @@
+{
+  "slug": "legendary-fishing-cobblemon",
+  "projectId": "KFpkdBDf",
+  "versions": {
+    "5Un1ASBN": {
+      "filename": "legendaryfishing-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KFpkdBDf/versions/5Un1ASBN/legendaryfishing-neoforge-1.0.0.jar",
+      "hash": "sha512-8Ha6o5FpROqy6nfXIxCb2AAxNB7Ab0xo1W5PCG533uBFVh23cYtx+x/xU/UxmtJy7IefknOnn4dDoaCuNv4bcg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tvTYIFtg": {
+      "filename": "LegendaryFishing-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KFpkdBDf/versions/tvTYIFtg/LegendaryFishing-1.0.0.jar",
+      "hash": "sha512-2s3NvK7ghVtrLp4z2GPFG5f87gKoKkoMPmc6Hhok0+gDKcWSf3GaXtutjp7chwD7siTdp+IAuo0Riap9y/NRKA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "tvTYIFtg"
+    ],
+    "1.21.1+neoforge": [
+      "5Un1ASBN"
+    ]
+  }
+}

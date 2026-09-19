@@ -1,0 +1,58 @@
+{
+  "slug": "meal-api-addon",
+  "projectId": "RbE9Jt5n",
+  "versions": {
+    "UOKpBybQ": {
+      "filename": "mealapiaddon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RbE9Jt5n/versions/UOKpBybQ/mealapiaddon-1.0.0.jar",
+      "hash": "sha512-w4qMD1QVsntWdJBcR8AceF4eUCib4ovMaBjh+4YQC2xrt7UwUK29M4OnBNv2vkl3M8PkPBr6bw9Qjg3tKhL4cA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "mealapi",
+          "projectId": "ZfVQ3Rjs",
+          "type": "required"
+        }
+      ]
+    },
+    "wUfeh5xx": {
+      "filename": "mealapiaddon-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/RbE9Jt5n/versions/wUfeh5xx/mealapiaddon-1.0.1.jar",
+      "hash": "sha512-sPjycWNqwuf6QAxq4keii4YtUDZkQ+YMfeiqoJWs38KfXDpdIIwfGkNVdBbIw8cwcb4jX9cfutHMZOzlFtU24w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "mealapi",
+          "projectId": "ZfVQ3Rjs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "wUfeh5xx",
+      "UOKpBybQ"
+    ],
+    "1.20.1+fabric": [
+      "wUfeh5xx",
+      "UOKpBybQ"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "create-automation-fabric",
+  "projectId": "mcLBhdPM",
+  "versions": {
+    "sB5w8NB2": {
+      "filename": "create__automation-fabric-1.20.1-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/mcLBhdPM/versions/sB5w8NB2/create__automation-fabric-1.20.1-0.1.1.jar",
+      "hash": "sha512-dY5/I5lBe4Ho5sRplKqPAM9XllWHSFFhweXMBzjzhs3oiVQUIU6t84o4ZtoS27R5qBWGTWtjaMhu6Uw5mRy5rg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sB5w8NB2"
+    ]
+  }
+}

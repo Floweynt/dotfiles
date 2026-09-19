@@ -1,0 +1,40 @@
+{
+  "slug": "hexodus",
+  "projectId": "bN6IKmdE",
+  "versions": {
+    "1ApHzJr1": {
+      "filename": "hexodus-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bN6IKmdE/versions/1ApHzJr1/hexodus-1.0.0.jar",
+      "hash": "sha512-KKsWjBxaeH2XAW3dfonzH47LHYM9CYtD+qaphenliHwQGb4/bA43Bud25O49O4QlXSAUJ1pVUmiSta5vvEXbZg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        },
+        {
+          "slug": "gravity-api-fork",
+          "projectId": "bqOyYdKi",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1ApHzJr1"
+    ],
+    "1.20.1+quilt": [
+      "1ApHzJr1"
+    ]
+  }
+}

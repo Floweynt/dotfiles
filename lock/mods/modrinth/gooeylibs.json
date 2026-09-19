@@ -1,0 +1,160 @@
+{
+  "slug": "gooeylibs",
+  "projectId": "KzjvlKEN",
+  "versions": {
+    "1CPIfFdT": {
+      "filename": "GooeyLibs-Fabric-3.1.1-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/KzjvlKEN/versions/1CPIfFdT/GooeyLibs-Fabric-3.1.1-1.21.x.jar",
+      "hash": "sha512-AdXG9frAZgi7zW8mCvS+S0jnY33oqhEXI3JTyUWkTSO02gZqFXIik40nal12nR5vrAI+YLENzlnbwk8HMyYY1g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "BXIm53Zb": {
+      "filename": "GooeyLibs-Fabric-3.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/KzjvlKEN/versions/BXIm53Zb/GooeyLibs-Fabric-3.0.0%2B1.20.1.jar",
+      "hash": "sha512-dFdVDg83i8zK+nntXnxXYwS/ERQwzOLyBWruNbuTHiDbR1QTnN5v2l9a3Cg9my3vaKuGSInGynWZgyMf/R9qMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CyEeIK77": {
+      "filename": "GooeyLibs-Fabric-3.1.0-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/KzjvlKEN/versions/CyEeIK77/GooeyLibs-Fabric-3.1.0-1.21.x.jar",
+      "hash": "sha512-MA7JgpqhvROTOsUQFwpNDrs9I2jSiFN2EC02YGfhI9ToFlp98OpnpvWBSZC0LnQR5ZZskfddJ953Nzf2uyKaKQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Or7qKkcc": {
+      "filename": "GooeyLibs-Neoforge-3.1.0-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/KzjvlKEN/versions/Or7qKkcc/GooeyLibs-Neoforge-3.1.0-1.21.x.jar",
+      "hash": "sha512-ZmnajxIgRKjPbqWOeQ1nL34L2AbUxnvlB9muD8lgMy2+51yM21cIdvHJ5Od9RxQfR1GyXhd+11xNDrxcmUW14Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "b9N761Pj": {
+      "filename": "GooeyLibs-Forge-3.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/KzjvlKEN/versions/b9N761Pj/GooeyLibs-Forge-3.0.0%2B1.20.1.jar",
+      "hash": "sha512-ZCNrkPsfTfFb0DR1ssFjjlj4gHCS7Y6YlXtBbMJFmlbDiqOMMVNgFG+9f5u5FaS4r3yjd5QFeil6TVbBu77drQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "jD45a6L5": {
+      "filename": "GooeyLibs-Neoforge-3.1.1-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/KzjvlKEN/versions/jD45a6L5/GooeyLibs-Neoforge-3.1.1-1.21.x.jar",
+      "hash": "sha512-3YBqx6cGKZr9ZrE9dQHgwLd1ZG53oOvDtyR1uukdfVGkx8c4Oy5rPCMfUEwgRauzUc74kym+eO0SBnmYwize7Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "BXIm53Zb"
+    ],
+    "1.20.1+forge": [
+      "b9N761Pj"
+    ],
+    "1.21+fabric": [
+      "1CPIfFdT",
+      "CyEeIK77"
+    ],
+    "1.21+neoforge": [
+      "jD45a6L5",
+      "Or7qKkcc"
+    ],
+    "1.21.1+fabric": [
+      "1CPIfFdT",
+      "CyEeIK77"
+    ],
+    "1.21.1+neoforge": [
+      "jD45a6L5",
+      "Or7qKkcc"
+    ],
+    "1.21.2+fabric": [
+      "1CPIfFdT",
+      "CyEeIK77"
+    ],
+    "1.21.2+neoforge": [
+      "jD45a6L5",
+      "Or7qKkcc"
+    ],
+    "1.21.3+fabric": [
+      "1CPIfFdT",
+      "CyEeIK77"
+    ],
+    "1.21.3+neoforge": [
+      "jD45a6L5",
+      "Or7qKkcc"
+    ],
+    "1.21.4+fabric": [
+      "1CPIfFdT",
+      "CyEeIK77"
+    ],
+    "1.21.4+neoforge": [
+      "jD45a6L5",
+      "Or7qKkcc"
+    ]
+  }
+}

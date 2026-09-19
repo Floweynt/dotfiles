@@ -1,0 +1,50 @@
+{
+  "slug": "dream-luck",
+  "projectId": "6moHAqyR",
+  "versions": {
+    "XYveJdIC": {
+      "filename": "dreamLuck.zip",
+      "url": "https://cdn.modrinth.com/data/6moHAqyR/versions/XYveJdIC/dreamLuck.zip",
+      "hash": "sha512-Kk7GM6om5GbdC63mD67x3MtS60DYeF5DI1mt/9H74fQmpQ4DkatMfZkSyWUBuvx1DlZvKvCkuroU3euOXOs1iQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "b2mbN4a9": {
+      "filename": "dream-luck-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6moHAqyR/versions/b2mbN4a9/dream-luck-v1.0.jar",
+      "hash": "sha512-3PmIZ7bb9FGyahnVg/jBT/aKXbXL7h3Sp5pCwrs0y09Zdk4xoZNhNxrHCYszGZqtHvHWPRvebjGev8UFo/nbHw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+datapack": [
+      "XYveJdIC"
+    ],
+    "1.21.11+fabric": [
+      "b2mbN4a9"
+    ],
+    "1.21.11+forge": [
+      "b2mbN4a9"
+    ],
+    "1.21.11+neoforge": [
+      "b2mbN4a9"
+    ]
+  }
+}

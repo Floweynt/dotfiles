@@ -1,0 +1,129 @@
+{
+  "slug": "no-sleep-you-may-not-rest",
+  "projectId": "LqxkGoW3",
+  "versions": {
+    "8bw3H36Y": {
+      "filename": "nosleep-neoforge-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LqxkGoW3/versions/8bw3H36Y/nosleep-neoforge-1.21.1-1.1.0.jar",
+      "hash": "sha512-xiJ2IKpKKmUsg+ekEqaoY4G+C6ME879fYSUQpBvDnQTwpKB1zehya4KKvGxBiutA47zmuUrNgg59T1uLlFyLqw==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "W71rae9s": {
+      "filename": "nosleep-fabric-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LqxkGoW3/versions/W71rae9s/nosleep-fabric-1.20.1-1.1.0.jar",
+      "hash": "sha512-9JJUl57xopNFRpZ9iBeH0QY5o5FYMlGn9+GBD9+7pcZTjetH6BKNvk7pciY3ISEiGinaXXtpN+QrdtxXEDE9KQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aZOpoJhR": {
+      "filename": "nosleep-fabric-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LqxkGoW3/versions/aZOpoJhR/nosleep-fabric-1.21.1-1.1.0.jar",
+      "hash": "sha512-lb8bHqNEkW5oKGXHzeTj93aBMmvfyEd/PgfsaJY1GzFOAjmfGA5uIBBeTI7zM6wupuWYelEb3oFXYJXhI4XAxg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fEt9LHRb": {
+      "filename": "nosleep-forge-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LqxkGoW3/versions/fEt9LHRb/nosleep-forge-1.21.1-1.1.0.jar",
+      "hash": "sha512-XD1JAmkw9a8tQZi706JUJCQciCoGiZ5wOQZQsY3cgfzRJ9sa+ti1gk7PDewe4sGPsORbcVTTLjgaerSR1D+siQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "nsalHalh": {
+      "filename": "nosleep-forge-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LqxkGoW3/versions/nsalHalh/nosleep-forge-1.20.1-1.1.0.jar",
+      "hash": "sha512-FsGw6TOzsg1uunooI2DRii5qMAmQjGfYtXcdIhtoGOdnIUkeVCPskQJT7tu7kfJK98e0kOIFV/cTtEFdP5gECQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "W71rae9s"
+    ],
+    "1.20.1+forge": [
+      "nsalHalh"
+    ],
+    "1.20.2+forge": [
+      "nsalHalh"
+    ],
+    "1.21.1+fabric": [
+      "aZOpoJhR"
+    ],
+    "1.21.1+forge": [
+      "fEt9LHRb"
+    ],
+    "1.21.1+neoforge": [
+      "8bw3H36Y"
+    ],
+    "1.21.2+neoforge": [
+      "8bw3H36Y"
+    ],
+    "1.21.3+forge": [
+      "fEt9LHRb"
+    ],
+    "1.21.3+neoforge": [
+      "8bw3H36Y"
+    ],
+    "1.21.4+forge": [
+      "fEt9LHRb"
+    ],
+    "1.21.4+neoforge": [
+      "8bw3H36Y"
+    ]
+  }
+}

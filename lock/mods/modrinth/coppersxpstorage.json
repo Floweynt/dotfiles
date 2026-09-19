@@ -1,0 +1,56 @@
+{
+  "slug": "coppersxpstorage",
+  "projectId": "FI0vWq2j",
+  "versions": {
+    "K3XMlKjC": {
+      "filename": "CoppersXpStorage-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/FI0vWq2j/versions/K3XMlKjC/CoppersXpStorage-1.0.0.jar",
+      "hash": "sha512-d1W/YQxcwyo9ufdN6bjbrDMHVZn2nSAEYPFxDfL4vQHGG8PGVDGq8kjD00K3Rj16Nzoh105WHC7c/LEk6udycg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "x4aR5RXH": {
+      "filename": "CoppersXpStorage-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/FI0vWq2j/versions/x4aR5RXH/CoppersXpStorage-1.1.0.jar",
+      "hash": "sha512-xsBVm/vrV6BK7phnQEygOcvx+iRajXA+LRHwWbgELhUF0IVGsZjBb7pQnlvZG8J+fJfgW+ntFH1buRtabixY0A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "x4aR5RXH",
+      "K3XMlKjC"
+    ],
+    "1.21.1+fabric": [
+      "x4aR5RXH"
+    ]
+  }
+}

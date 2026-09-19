@@ -1,0 +1,106 @@
+{
+  "slug": "cobblemon-ultra-wormholes",
+  "projectId": "65VFUCys",
+  "versions": {
+    "ENICkzkT": {
+      "filename": "cobblemon_ultra_wormholes-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/65VFUCys/versions/ENICkzkT/cobblemon_ultra_wormholes-fabric-1.0.0.jar",
+      "hash": "sha512-h8bujwWVVwebf6SPW/UgFUduF39cOnV5U+8Gil93/HVV4RFKMHXa1kSJeIigbSdeqTWYUbU+kyTpLFo6Vl+Tcw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "wild-battle-api",
+          "projectId": "v7VZE8kh",
+          "type": "required"
+        }
+      ]
+    },
+    "S1GhiigM": {
+      "filename": "cobblemon_ultra_wormholes-fabric-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/65VFUCys/versions/S1GhiigM/cobblemon_ultra_wormholes-fabric-1.1.1.jar",
+      "hash": "sha512-6HEXi9fS5T8Mny5DGLmPcw423O3PsnA7woFpnmx0iuDiQ1Fbtgkpwvmm5PGnwUi0cKUVYaQJFUBwEwfAQ4BlRQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VYMMfLSC": {
+      "filename": "cobblemon_ultra_wormholes-neoforge-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/65VFUCys/versions/VYMMfLSC/cobblemon_ultra_wormholes-neoforge-1.1.1.jar",
+      "hash": "sha512-cQULXZmsUD11lqMg6rVOer1uXRu1W3Z95HBhbXdh+DsnoHr4JUCeVpfgnyzJKS53DwU5qQM6VkEC3aGJF/iFWw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "kJYzdX3a": {
+      "filename": "cobblemon_ultra_wormholes-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/65VFUCys/versions/kJYzdX3a/cobblemon_ultra_wormholes-neoforge-1.0.0.jar",
+      "hash": "sha512-rz6MttJRP+Tv5dptIkSoc2vuplGqVhvwnhE7P/YEmLFSQOUat4hCnXoA8uJKjEze7ktJk7+dati6fXbhzl+goQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "wild-battle-api",
+          "projectId": "v7VZE8kh",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "S1GhiigM",
+      "ENICkzkT"
+    ],
+    "1.21.1+neoforge": [
+      "VYMMfLSC",
+      "kJYzdX3a"
+    ]
+  }
+}

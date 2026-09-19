@@ -1,0 +1,131 @@
+{
+  "slug": "dimensional-weather",
+  "projectId": "Z8Eq3K2Z",
+  "versions": {
+    "CffAECzF": {
+      "filename": "dimensionalweather-1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Z8Eq3K2Z/versions/CffAECzF/dimensionalweather-1.1-1.20.1.jar",
+      "hash": "sha512-aGQCBWVTtO/IP9TRMelspEXsHxU3NlUGA7x+x4vaKjMVTAhxkTW9o2DdeqGATLMS12Zy7JRjDvrhmPKNC31ZxA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "LUqqoGcS": {
+      "filename": "dimensionalweather-1.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/Z8Eq3K2Z/versions/LUqqoGcS/dimensionalweather-1.1-1.20.4.jar",
+      "hash": "sha512-IP/2JzMH8Uz9WuzJGLt5MyQ9CwUVv9kuMGfXFegUPoXOb2xwPtFPCfLW5MtxF6Z8jhnbtSP0K028O4pmfDjKrw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fiJpeM22": {
+      "filename": "dimensionalweather-1.0-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/Z8Eq3K2Z/versions/fiJpeM22/dimensionalweather-1.0-1.20.4.jar",
+      "hash": "sha512-DOdZtCtjq91zAVfH8veuXPbevGmG3BNWvaYHz3K5XX8RQOQqJux32eriMgEV/hCJ5lMWK+vjUxt4bX9g6Qn59g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jchjZZRJ": {
+      "filename": "dimensionalweather-forge-1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Z8Eq3K2Z/versions/jchjZZRJ/dimensionalweather-forge-1.1-1.20.1.jar",
+      "hash": "sha512-tIThut3HvcwRV/GxEJ36ZYuGQIiAJ3oAxTVDWwTMHqs3RN3FVpFNf32Y/AetN9qfiQoH1FlY2vE71W8swi569A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sEw5z434": {
+      "filename": "dimensionalweather-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Z8Eq3K2Z/versions/sEw5z434/dimensionalweather-1.0-1.20.1.jar",
+      "hash": "sha512-Qlys6CyGyzurX1o+Ky0nOSfIVmujTQ03yb+u4OC4PxsKiqbQMGHUInflz477bvfW3x2jb0U5cpePkReZaUunVg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "CffAECzF",
+      "sEw5z434"
+    ],
+    "1.20.1+forge": [
+      "jchjZZRJ"
+    ],
+    "1.20.1+quilt": [
+      "CffAECzF"
+    ],
+    "1.20.4+fabric": [
+      "LUqqoGcS",
+      "fiJpeM22"
+    ],
+    "1.20.4+quilt": [
+      "LUqqoGcS"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "opac-fixes",
+  "projectId": "2lbmzYV3",
+  "versions": {
+    "5f6tTWbQ": {
+      "filename": "opac_fixes-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/2lbmzYV3/versions/5f6tTWbQ/opac_fixes-1.1.3.jar",
+      "hash": "sha512-VbrDP3X652wo4Ovlln3554g3Z147GbZ5a4aKlrsv+JIgnF7/d3pL+5Apmm5AC+Ren6NXS7nZOjVibWO9B0DO1w==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "pbDflUTd": {
+      "filename": "mutant_creepers_no_explody-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2lbmzYV3/versions/pbDflUTd/mutant_creepers_no_explody-1.0.0.jar",
+      "hash": "sha512-NEgEAtAiw9ZMeMCfcP9HqLhqizTvKute325h4SsXLK++GmlwV27WLrgJ7Xp1FHcq7spnfv5fJjzxB0yK4Uf9vw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        },
+        {
+          "slug": "mutant-monsters",
+          "projectId": "derP0ten",
+          "type": "required"
+        }
+      ]
+    },
+    "pwcQzpco": {
+      "filename": "opac_fixes-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/2lbmzYV3/versions/pwcQzpco/opac_fixes-1.1.2.jar",
+      "hash": "sha512-0fyX6l4hxNLG3wv2W3beGOT7XPqWVy16tppEs+hT0p3oei8CLltB1+p/92QyfKLpRLda0zLKQG1fvXGkAE4lxA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5f6tTWbQ",
+      "pwcQzpco",
+      "pbDflUTd"
+    ],
+    "1.20.2+fabric": [
+      "5f6tTWbQ",
+      "pwcQzpco"
+    ],
+    "1.20.3+fabric": [
+      "5f6tTWbQ",
+      "pwcQzpco"
+    ],
+    "1.20.4+fabric": [
+      "5f6tTWbQ",
+      "pwcQzpco"
+    ],
+    "1.20.5+fabric": [
+      "5f6tTWbQ",
+      "pwcQzpco"
+    ],
+    "1.20.6+fabric": [
+      "5f6tTWbQ",
+      "pwcQzpco"
+    ]
+  }
+}

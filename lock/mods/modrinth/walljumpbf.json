@@ -1,0 +1,48 @@
+{
+  "slug": "walljumpbf",
+  "projectId": "jUBFmlGW",
+  "versions": {
+    "OQvTTak4": {
+      "filename": "walljumpbf-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jUBFmlGW/versions/OQvTTak4/walljumpbf-1.0.0.jar",
+      "hash": "sha512-pOQBIEVJj6w2YmvmJNKdAEx3b8KGkYY+sKLxY4cpzv2lsfSq3nOES1AorctVd2sEr7aeM0GYuOl0xFvqsN1y7A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "xpP14pUM": {
+      "filename": "walljumpbf-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/jUBFmlGW/versions/xpP14pUM/walljumpbf-1.0.2.jar",
+      "hash": "sha512-HGWmtkQZjC++l8bAamkwVCgBLOCEXAiECwtBoTfz5YscHkkQjFEFK9tTXRQw5SPtKpEMWfikywOCst+NY/k3kA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "xpP14pUM"
+    ],
+    "1.21.11+fabric": [
+      "xpP14pUM",
+      "OQvTTak4"
+    ],
+    "1.21.9+fabric": [
+      "xpP14pUM"
+    ]
+  }
+}

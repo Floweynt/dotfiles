@@ -1,0 +1,36 @@
+{
+  "slug": "tinkerers-smithing-kubejs-compat",
+  "projectId": "5U1y0liR",
+  "versions": {
+    "gnpszfhe": {
+      "filename": "tinkerers_kubejs_plugin-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/5U1y0liR/versions/gnpszfhe/tinkerers_kubejs_plugin-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-03EVYotZA5YIEJyptUOr18qRg6oesvgTFeSG9XzaEBUvoHWRKnoo1agOmb1CSqhJkcj5uyEsEdlxaxR3MgCNmA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "tinkerers-smithing",
+          "projectId": "RhVpNN5O",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gnpszfhe"
+    ]
+  }
+}

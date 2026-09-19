@@ -1,0 +1,46 @@
+{
+  "slug": "blurring",
+  "projectId": "zkRvSVfX",
+  "versions": {
+    "B0P2uMEr": {
+      "filename": "blurring-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zkRvSVfX/versions/B0P2uMEr/blurring-1.0.0.jar",
+      "hash": "sha512-xT6cmVsUjS3qV3yhXvEtIJ8Gr3qax04fPttCmCSlURbpazFhh3WfyWtBBKBOq1QjHRrK8cFjalS/xIsklj10uQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QLvmb0hn": {
+      "filename": "blurring-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/zkRvSVfX/versions/QLvmb0hn/blurring-1.0.1.jar",
+      "hash": "sha512-cJfrR5kXubUIwjKgcZJIAip1SRb8gHRV0u8ZXS+TcnrHJcL4ue4t4OKEUl7GN0Vfbq/w3p6InyCNYUnfk/GpXw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "QLvmb0hn",
+      "B0P2uMEr"
+    ]
+  }
+}

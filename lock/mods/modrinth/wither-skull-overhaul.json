@@ -1,0 +1,44 @@
+{
+  "slug": "wither-skull-overhaul",
+  "projectId": "M7QosKhW",
+  "versions": {
+    "LFH5Qmy9": {
+      "filename": "wither-skull-overhaul-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/M7QosKhW/versions/LFH5Qmy9/wither-skull-overhaul-1.0.1.jar",
+      "hash": "sha512-CEloXDREKMOIojtsmzctQOepnj55UIodFWixmQKw/hO6mlnpDit3wLNZi+Quq48aZKAU84G4iAKYP1jVHYXffA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "gc20FETK": {
+      "filename": "wither-skull-overhaul-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/M7QosKhW/versions/gc20FETK/wither-skull-overhaul-1.0.2.jar",
+      "hash": "sha512-i9hTg5rcDwYRr842XXO1ALWHNIgFl/SrhcJEnhBIt+TqpXearAqW+gLMLDEo6kpGOIVhIdvfyr4EWanQsm7A8w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "gc20FETK"
+    ],
+    "1.21.1+fabric": [
+      "gc20FETK",
+      "LFH5Qmy9"
+    ]
+  }
+}

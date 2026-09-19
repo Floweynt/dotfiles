@@ -1,0 +1,63 @@
+{
+  "slug": "simple-cps",
+  "projectId": "2UxKcLuk",
+  "versions": {
+    "64Yif8qP": {
+      "filename": "cps-counter-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2UxKcLuk/versions/64Yif8qP/cps-counter-1.0.1.jar",
+      "hash": "sha512-DkykD/IwF5C+y+iaBVCa7+93cdmRz+XupQzz6PrK3WV0OyavUjiS0WO0zKIdMGDZrqhFm8NHmEpGMmQVBAXp+g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "dynamichud",
+          "projectId": "hQbzUScT",
+          "type": "required"
+        }
+      ]
+    },
+    "JlE4bZZE": {
+      "filename": "cps-counter-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2UxKcLuk/versions/JlE4bZZE/cps-counter-1.0.0.jar",
+      "hash": "sha512-5spkqPi3UV2yMA6g63+/hz9AtA7Ne0mVAPo796WkucFXBO8TJoopVlAVyEeHa84aXajqvc1oX8BQqaA+kEiLTw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "yvkUro2b": {
+      "filename": "cps-counter-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/2UxKcLuk/versions/yvkUro2b/cps-counter-1.0.2.jar",
+      "hash": "sha512-JVQzfPyN/bL4QXTnquHMFrierlzrPkFWtfhOsZWkkDS3an5LXT90aq3YGuIreZEcJAS8nedZbAHGnBeLwmlQ2Q==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "64Yif8qP",
+      "JlE4bZZE"
+    ],
+    "1.21.5+fabric": [
+      "yvkUro2b"
+    ]
+  }
+}

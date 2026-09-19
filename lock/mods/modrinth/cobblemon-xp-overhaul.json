@@ -1,0 +1,120 @@
+{
+  "slug": "cobblemon-xp-overhaul",
+  "projectId": "Y8tMbLSp",
+  "versions": {
+    "GCMTe5w1": {
+      "filename": "cobblemon_xp_overhaul-neoforge-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Y8tMbLSp/versions/GCMTe5w1/cobblemon_xp_overhaul-neoforge-1.1.jar",
+      "hash": "sha512-OTsp86FXBqR2hx+57j67ZxYVs/I5MAy37ZVMX4ja27S50rLNtxQzQ0hpxrEGtJdQPU39y+5EP4dW/k7UYhhUqw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VAAXEDbs": {
+      "filename": "cobblemon_xp_overhaul-fabric-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Y8tMbLSp/versions/VAAXEDbs/cobblemon_xp_overhaul-fabric-1.1.jar",
+      "hash": "sha512-6FkCzPpuHSYNpmYEetA4eB/Rheg51w6lVbYFaYKwrK9jsyErOzRu6bS4E8VvpnDoqQKmrcLNqKuWK+XCz4Ujwg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fEmorlD6": {
+      "filename": "cobblemon_xp_overhaul-neoforge-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/Y8tMbLSp/versions/fEmorlD6/cobblemon_xp_overhaul-neoforge-1.2.jar",
+      "hash": "sha512-xy2MurjBViXryETOqUNMxcvvz2Xc/DzKKgajvpUrG/WxxC6LJuvTqJxWSGE8xGaBByCj1iF9ASZY9rtog+6HXA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "m0Jrz0jP": {
+      "filename": "cobblemon_xp_overhaul-fabric-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/Y8tMbLSp/versions/m0Jrz0jP/cobblemon_xp_overhaul-fabric-1.2.jar",
+      "hash": "sha512-wuqqEw2pk9aZQcZt39AD3Pgfa4Nb1tqwSE4Rtpku5SNsQBE+fr4cODSThFTZCi9eScP6Sww+XNGQ0SyMozpnAg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "nlZZWJfI": {
+      "filename": "cobblemon_xp_overhaul-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Y8tMbLSp/versions/nlZZWJfI/cobblemon_xp_overhaul-fabric-1.0.0.jar",
+      "hash": "sha512-t1+Z+5pHy370gQAX80I6lk3zUpN3kiVL7MwpUtqfwhEVk/DxRL0GYEzQJ3Bw/+rjRE5D6/Bwyq8Q9QnrEb3Uzg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "uOqGM7JI": {
+      "filename": "cobblemon_xp_overhaul-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Y8tMbLSp/versions/uOqGM7JI/cobblemon_xp_overhaul-neoforge-1.0.0.jar",
+      "hash": "sha512-OSR2r4iR90/AgLM3ieQlJFFzI7Hm4fBYPxz1hoRjhq0R9mnHi8A4mgquWd4U542oO6l755yrctmEwK12Kx8UXg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "m0Jrz0jP",
+      "VAAXEDbs",
+      "nlZZWJfI"
+    ],
+    "1.21.1+neoforge": [
+      "fEmorlD6",
+      "GCMTe5w1",
+      "uOqGM7JI"
+    ]
+  }
+}

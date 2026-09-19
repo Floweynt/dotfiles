@@ -1,0 +1,140 @@
+{
+  "slug": "dusts-keymap",
+  "projectId": "B5uMasrz",
+  "versions": {
+    "ISqtokpK": {
+      "filename": "keymap-0.9.0-beta.1+1.20.2-forge.jar",
+      "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/ISqtokpK/keymap-0.9.0-beta.1%2B1.20.2-forge.jar",
+      "hash": "sha512-Btu8BwUlEFqJf1AdSTkYgLaJtjMtqkSz6dWy3m7aRclE3zUPHMsTeskqTGcJx0fzq/jqwBGL6UzTBHTtSe3/vQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Ilaf4buw": {
+      "filename": "keymap-0.10.0-beta.1+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/Ilaf4buw/keymap-0.10.0-beta.1%2B1.20.6.jar",
+      "hash": "sha512-86i5ldGqcANMXmvFdThvRcjeBOt3KsArR/ngVWWBjK4dPYcwS6B9a1eXnsW7lVPj51+ao8tyhrk/as/XbSxDCw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "PXK3FYWO": {
+      "filename": "keymap-0.10.0-beta.1+1.20.6-dev.jar",
+      "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/PXK3FYWO/keymap-0.10.0-beta.1%2B1.20.6-dev.jar",
+      "hash": "sha512-yi7LoY7EB8sPCf1Fh2KzeHD6Pr/UglkS/4eLlrx3K2W5x9V4wSkoRxeWBMBDQ5Py0Ee0mu2Ozv1pCKR/D7/0sw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "USuDYCEC": {
+      "filename": "keymap-0.9.0-beta.1+1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/USuDYCEC/keymap-0.9.0-beta.1%2B1.20.1-fabric.jar",
+      "hash": "sha512-DWRVXvGGwyJy6asDtBQRjlINd+XY2sr2vba6WLxvsokw98zSAi5shCA8CGKvnnEGfSOckRp8jA92XuBJCLbb/g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uQyJAqKe": {
+      "filename": "keymap-0.9.0-beta.1+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/uQyJAqKe/keymap-0.9.0-beta.1%2B1.20.1-forge.jar",
+      "hash": "sha512-YRs8VBVdG1M/0tU4oZnpcCov8edv/lp0BX2vlw0B3pOBaaydFHB1q+qzyaojlJbHFF/hf8MQ1a2qFzQz9gs46w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vu1oDmCJ": {
+      "filename": "keymap-0.9.0-beta.1+1.20.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/B5uMasrz/versions/vu1oDmCJ/keymap-0.9.0-beta.1%2B1.20.2-fabric.jar",
+      "hash": "sha512-/dd5wra+dvIFs9bueM9rOH/Uzcok/MB+eD3TkhGlRXeF9gk0FhWGpukLBDjgPUy7ifX52pC7mK0xPImJ7DXbcw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "USuDYCEC"
+    ],
+    "1.20.1+forge": [
+      "uQyJAqKe"
+    ],
+    "1.20.1+quilt": [
+      "USuDYCEC"
+    ],
+    "1.20.2+fabric": [
+      "vu1oDmCJ"
+    ],
+    "1.20.2+forge": [
+      "ISqtokpK"
+    ],
+    "1.20.2+quilt": [
+      "vu1oDmCJ"
+    ],
+    "1.20.6+fabric": [
+      "PXK3FYWO"
+    ],
+    "1.20.6+forge": [
+      "Ilaf4buw"
+    ],
+    "1.20.6+quilt": [
+      "PXK3FYWO"
+    ]
+  }
+}

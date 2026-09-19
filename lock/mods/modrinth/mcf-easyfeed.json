@@ -1,0 +1,48 @@
+{
+  "slug": "mcf-easyfeed",
+  "projectId": "8MIih4Vi",
+  "versions": {
+    "FNGBLaW0": {
+      "filename": "mcf-easyfeed-1.4.0-1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/8MIih4Vi/versions/FNGBLaW0/mcf-easyfeed-1.4.0-1.19.4.jar",
+      "hash": "sha512-fF/gB4ss8IGZ8vn4AfREzy7bVSJ+X4Fjg1f03VXh2RGPeKT86smCUBvip+/ZsdMclRWUnmS5hRUxHbEq5qhyMw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hpRhuXAt": {
+      "filename": "mcf-easyfeed-1.4.0-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/8MIih4Vi/versions/hpRhuXAt/mcf-easyfeed-1.4.0-1.19.3.jar",
+      "hash": "sha512-oGFKHXbqBAF2NrvbgUmD1lYH3SO0mn/RRMY1PqRJzgcis+Ond1IMIhf5oLFtTYiy+lcGb8d8CGEHEq63C5j/GA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "hpRhuXAt"
+    ],
+    "1.19.4+fabric": [
+      "FNGBLaW0"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "geode-plus",
+  "projectId": "3LAzTsNC",
+  "versions": {
+    "6VfhnnYs": {
+      "filename": "geodeplus-forge-1.2.4-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3LAzTsNC/versions/6VfhnnYs/geodeplus-forge-1.2.4-1.20.1.jar",
+      "hash": "sha512-4WVn+8DfHYhytfd1vuxic8l0DnpAFkzAxsHSNQkO46R9B5ND1AbZmDUP0G3LQz7R7Atxe9nDjPdrthnMDdwzsA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "JCyL2hSt": {
+      "filename": "geode_plus-forge-1.2.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3LAzTsNC/versions/JCyL2hSt/geode_plus-forge-1.2.5-1.20.1.jar",
+      "hash": "sha512-fnE0lHki1Nn5IpiYuAhuMjFpp25WSngUl4MOW2xkjtKk723BF5mm/LPrCjzwgnhSsm95TRANV7gm3f+eMqeG0g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "LJFj9bOT": {
+      "filename": "geode_plus-fabric-1.2.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3LAzTsNC/versions/LJFj9bOT/geode_plus-fabric-1.2.5-1.20.1.jar",
+      "hash": "sha512-HTPalRs3jTx0G/1OiG7XkwqSeSQNDOC1sbX6fjacuMxZBEABCLLhXikoiKC0M9QmdcqyGMnisTQb5rwFG71IQg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZJB4iPDm": {
+      "filename": "geodeplus-fabric-1.2.4-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3LAzTsNC/versions/ZJB4iPDm/geodeplus-fabric-1.2.4-1.20.1.jar",
+      "hash": "sha512-wIqngN3aQoNUDBkvTIljV19njzurvDZY3fAfrXIzXrpyMLwJhzqXRTEIHqFIgPSIIkvdX90AP+bei3gcgLV3BQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fP9nqKrF": {
+      "filename": "geodeplus-forge-1.2.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3LAzTsNC/versions/fP9nqKrF/geodeplus-forge-1.2.3-1.20.1.jar",
+      "hash": "sha512-C49IdlNpkNP1HgCQlnIinBKMTt833QJFfvlkNTr2eDSOMiQSFVxo9k65+DkL0W3e9buuCpC5rtJEAx4RbwAciw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tTPZuK4c": {
+      "filename": "geodeplus-fabric-1.2.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3LAzTsNC/versions/tTPZuK4c/geodeplus-fabric-1.2.3-1.20.1.jar",
+      "hash": "sha512-ShsLGCVee1WbsLmKX4zHR8oys1+9Z7nmhQey4nUPbuliCpxK9/ogkkfgSrMg4CT4onzxDNSb/bZgEqI6lp2i7Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "LJFj9bOT",
+      "ZJB4iPDm",
+      "tTPZuK4c"
+    ],
+    "1.20+forge": [
+      "JCyL2hSt"
+    ],
+    "1.20.1+fabric": [
+      "LJFj9bOT",
+      "ZJB4iPDm",
+      "tTPZuK4c"
+    ],
+    "1.20.1+forge": [
+      "JCyL2hSt",
+      "6VfhnnYs",
+      "fP9nqKrF"
+    ],
+    "1.20.2+fabric": [
+      "LJFj9bOT",
+      "ZJB4iPDm",
+      "tTPZuK4c"
+    ],
+    "1.20.2+forge": [
+      "JCyL2hSt",
+      "6VfhnnYs"
+    ]
+  }
+}

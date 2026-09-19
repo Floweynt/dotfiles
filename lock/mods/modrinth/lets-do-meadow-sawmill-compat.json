@@ -1,0 +1,93 @@
+{
+  "slug": "lets-do-meadow-sawmill-compat",
+  "projectId": "VCLcF6ou",
+  "versions": {
+    "1E1aHsoJ": {
+      "filename": "Let's Do Meadow Sawmill Compat.zip",
+      "url": "https://cdn.modrinth.com/data/VCLcF6ou/versions/1E1aHsoJ/Let%27s%20Do%20Meadow%20Sawmill%20Compat.zip",
+      "hash": "sha512-tBAjRJhmlisf2tgIMYHShof4bdUyVSMnpoemzmTCPqVR+vvmoH3MiGekCRce4z0H+vPiloPK2nsaTMy3MJFfIw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "universal-sawmill",
+          "projectId": "WRaRZdTd",
+          "type": "required"
+        },
+        {
+          "slug": "lets-do-meadow",
+          "projectId": "ra7o6Sl7",
+          "type": "required"
+        }
+      ]
+    },
+    "TgmqWbxv": {
+      "filename": "lets-do-meadow-sawmill-compat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VCLcF6ou/versions/TgmqWbxv/lets-do-meadow-sawmill-compat-1.0.jar",
+      "hash": "sha512-R6PMlWBkzJ7pWxPSPU7PrrwE6y14J4U3E6Rkp8ddY3M6EfU7fmp7LtF8nUTc34svOluGxFM+YEU2tmpzghMATg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "lets-do-meadow",
+          "projectId": "ra7o6Sl7",
+          "type": "required"
+        },
+        {
+          "slug": "universal-sawmill",
+          "projectId": "WRaRZdTd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "1E1aHsoJ"
+    ],
+    "1.20.1+fabric": [
+      "TgmqWbxv"
+    ],
+    "1.20.1+forge": [
+      "TgmqWbxv"
+    ],
+    "1.20.1+neoforge": [
+      "TgmqWbxv"
+    ],
+    "1.20.1+quilt": [
+      "TgmqWbxv"
+    ],
+    "1.21.1+datapack": [
+      "1E1aHsoJ"
+    ],
+    "1.21.1+fabric": [
+      "TgmqWbxv"
+    ],
+    "1.21.1+forge": [
+      "TgmqWbxv"
+    ],
+    "1.21.1+neoforge": [
+      "TgmqWbxv"
+    ],
+    "1.21.1+quilt": [
+      "TgmqWbxv"
+    ]
+  }
+}

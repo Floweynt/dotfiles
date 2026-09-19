@@ -1,0 +1,103 @@
+{
+  "slug": "wynncraft-hide-pets",
+  "projectId": "tGhj4GqE",
+  "versions": {
+    "FeyVV3hK": {
+      "filename": "wynnhidepet-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tGhj4GqE/versions/FeyVV3hK/wynnhidepet-1.0.0.jar",
+      "hash": "sha512-usJbugLlqBM8q1XkkmDP36myE4TzPdXILO6Y4SFpFvUpXNTv+wXvMJyp7xycNf6Yg5j4JyoNJ7gWVNg3Fr7kJg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "Fo3W68PV": {
+      "filename": "wynnhidepet-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/tGhj4GqE/versions/Fo3W68PV/wynnhidepet-1.1.2.jar",
+      "hash": "sha512-VXnMCN7a5IXKLpUA8ABtGWFHfytVypqgMl6OMaQw1SvJHYL5hyi9T8JewGFAh334wzODTEjFK8+ODg0DyIMrBQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "NTKir5UI": {
+      "filename": "wynnhidepet-1.1.3+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/tGhj4GqE/versions/NTKir5UI/wynnhidepet-1.1.3%2B1.21.11.jar",
+      "hash": "sha512-4AfU3MiBZgH8dnXDhaFlERGuvelLlNHE2DbkJR5WHxfnnSTwGmheddtsF4r8d5eY9t1VaSY5Z58DBxkL8XhUog==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "NTKir5UI",
+      "Fo3W68PV",
+      "FeyVV3hK"
+    ]
+  }
+}

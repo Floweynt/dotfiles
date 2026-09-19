@@ -1,0 +1,63 @@
+{
+  "slug": "golden_berries",
+  "projectId": "fWsKNtr3",
+  "versions": {
+    "VsNs25tK": {
+      "filename": "goldenberries-1.2.1+1.18.1-dev.jar",
+      "url": "https://cdn.modrinth.com/data/fWsKNtr3/versions/v1.2.2%2B1.18.1/goldenberries-1.2.1%2B1.18.1-dev.jar",
+      "hash": "sha512-1jgnq4GdsAAZF1F+5N3nIcnPayZVW4A6EszsKkJAyRWOf93y113bWGt3C8zHNWQJ4RQfz47Jp6mUDbgwmVUi2Q==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ZoS8ooxD": {
+      "filename": "goldenberries-1.2.1+1.18.1.jar",
+      "url": "https://cdn.modrinth.com/data/fWsKNtr3/versions/v1.2.1%2B1.18.1/goldenberries-1.2.1%2B1.18.1.jar",
+      "hash": "sha512-SqgUoRuG6OgAaFQxyK7HtGyFUmwB75fFLyhM3/NKQiAzyOpwTmXULCIOVtWLEK/WIln3WO9DJIr/AfdjAvlyBQ==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mWQI56W9": {
+      "filename": "goldenberries-1.2.3+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/fWsKNtr3/versions/1.2.3/goldenberries-1.2.3%2B1.18.2.jar",
+      "hash": "sha512-8HZ+OpNQf0VTuGxAjD5uvjBGuoqOzBbv6++/gFkXGFQ/3ezu7v+p/DFr9LtHqozShJkvBv/Dl5VUs99QV8iYsQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.1+fabric": [
+      "VsNs25tK",
+      "ZoS8ooxD"
+    ],
+    "1.18.2+fabric": [
+      "mWQI56W9"
+    ]
+  }
+}

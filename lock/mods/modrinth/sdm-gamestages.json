@@ -1,0 +1,64 @@
+{
+  "slug": "sdm-gamestages",
+  "projectId": "EyUS69HY",
+  "versions": {
+    "KqZ7HjLG": {
+      "filename": "SDMGameStages-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/EyUS69HY/versions/KqZ7HjLG/SDMGameStages-1.20.1-1.2.0.jar",
+      "hash": "sha512-4US45SEV+SD6ftER6CB4PaJ5qISP1DX3W5fzATje3uNsFbZAfOuq5K7VMZGrAQwcIdMnwsGy+DSSGpU6JWFrvA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sdm-core",
+          "projectId": "cOuRJbta",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kkwbwkqE": {
+      "filename": "SDMGameStages-1.19.2-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EyUS69HY/versions/kkwbwkqE/SDMGameStages-1.19.2-1.1.0.jar",
+      "hash": "sha512-yDOfBUDgrpZ3pWRDoWsRoUYqOiuSDbBnSWixTUZSkRioz9fouRGdXn7R+ElXFKrAZeicPPh21eGqBtImad4JjA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sdm-core",
+          "projectId": "cOuRJbta",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "kkwbwkqE"
+    ],
+    "1.20.1+fabric": [
+      "KqZ7HjLG"
+    ]
+  }
+}

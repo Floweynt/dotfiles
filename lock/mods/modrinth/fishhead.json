@@ -1,0 +1,52 @@
+{
+  "slug": "fishhead",
+  "projectId": "zftBdwWM",
+  "versions": {
+    "J13DyBPM": {
+      "filename": "fishhead-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zftBdwWM/versions/J13DyBPM/fishhead-1.0.0.jar",
+      "hash": "sha512-c9WNm5o03bq1RKk5bTexWJPT2tAIVZnkZA6TUGWB3Slb7wKuir9IGa9ngb/+JMp68rj0p5SPZc0+TBhD/rZDqQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kjkXFzU8": {
+      "filename": "fishhead-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/zftBdwWM/versions/kjkXFzU8/fishhead-1.0.1.jar",
+      "hash": "sha512-lymx7zVZjKOlRZfmWTxmxaI+9kPBdUKzXSvs4yLl9GAZtTuk5fuDy+IS2MuX0ViGq1BdI5v5a/2bEHxn25d7Yg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "kjkXFzU8",
+      "J13DyBPM"
+    ]
+  }
+}

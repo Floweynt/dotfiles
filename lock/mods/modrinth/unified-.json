@@ -1,0 +1,46 @@
+{
+  "slug": "unified-",
+  "projectId": "h48CjLJD",
+  "versions": {
+    "ECmNzmgO": {
+      "filename": "unified-1.0-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/h48CjLJD/versions/ECmNzmgO/unified-1.0-1.20.1-forge.jar",
+      "hash": "sha512-BWYS5+0Hh7A/e4fhB1DbuI0fTcyvfa7tzAH/0ZpBeOndWT7CJ+VVEs/wOWSTLkf/l13ku7li9Jycbd+Vxf5JVg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "usgE86xz": {
+      "filename": "unified-1.0-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/h48CjLJD/versions/usgE86xz/unified-1.0-1.20.1-fabric.jar",
+      "hash": "sha512-rb1+uUDB36GlUEr6mi43RIArLY3BxbDxBTCPSXl+LRFf2+Y0ur4j423AxpBpl30ZCLNOeVa5rUn6t0fc6ZuTIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "usgE86xz"
+    ],
+    "1.20.1+forge": [
+      "ECmNzmgO"
+    ],
+    "1.20.1+neoforge": [
+      "ECmNzmgO"
+    ]
+  }
+}

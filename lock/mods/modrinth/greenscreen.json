@@ -1,0 +1,91 @@
+{
+  "slug": "greenscreen",
+  "projectId": "PnjnWiFL",
+  "versions": {
+    "O6VrMGTC": {
+      "filename": "greenscreen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PnjnWiFL/versions/O6VrMGTC/greenscreen-1.0.0.jar",
+      "hash": "sha512-GXqGKhT6ca31dJbaz1ZxmzZKiLtHAQi9vqcS19c5PQIAFMESY3GgDZvdLRVVVOgLKqo+izAN5n2cbz+l493H0A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "z9HIZOnK": {
+      "filename": "greenscreen-1.1.0-release.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/PnjnWiFL/versions/z9HIZOnK/greenscreen-1.1.0-release.1%2B1.21.jar",
+      "hash": "sha512-ph4aadPPY7uTj2iJPewAOU28jjUnQg7te0mSi46BxMyDXTJ4tWBHWX5+5e4wBPZZF1qrwc9fQPpajSM7uWj/7w==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "O6VrMGTC"
+    ],
+    "1.20+quilt": [
+      "O6VrMGTC"
+    ],
+    "1.20.1+fabric": [
+      "O6VrMGTC"
+    ],
+    "1.20.1+quilt": [
+      "O6VrMGTC"
+    ],
+    "1.20.2+fabric": [
+      "O6VrMGTC"
+    ],
+    "1.20.2+quilt": [
+      "O6VrMGTC"
+    ],
+    "1.20.3+fabric": [
+      "O6VrMGTC"
+    ],
+    "1.20.3+quilt": [
+      "O6VrMGTC"
+    ],
+    "1.20.4+fabric": [
+      "O6VrMGTC"
+    ],
+    "1.20.4+quilt": [
+      "O6VrMGTC"
+    ],
+    "1.21+quilt": [
+      "z9HIZOnK"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "enter-sandworm",
+  "projectId": "Hr5oNdgZ",
+  "versions": {
+    "fFeLlnIo": {
+      "filename": "entersandworm-1.0.0-mc1.21-1.21.1neo.jar",
+      "url": "https://cdn.modrinth.com/data/Hr5oNdgZ/versions/fFeLlnIo/entersandworm-1.0.0-mc1.21-1.21.1neo.jar",
+      "hash": "sha512-jZUnpD5KtusRcbeurBFZpyW/abH6D5MfZBPCYw5+8wbGIHQLBWk/knWhl/72E5cEDA45DY0sG6ClvA16lQvosg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        }
+      ]
+    },
+    "oZK61bZf": {
+      "filename": "entersandworm-1.0.0-mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Hr5oNdgZ/versions/oZK61bZf/entersandworm-1.0.0-mc1.21-1.21.1.jar",
+      "hash": "sha512-7K4wht3vadA1NBNkh6rFVJvY+1tt0iSEtI0gTECHXZ4QM24NqX2YzeFj9aHPR8HgTNhdP9y18fNgq6p88WG7DQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "oZK61bZf"
+    ],
+    "1.21+forge": [
+      "fFeLlnIo"
+    ],
+    "1.21+neoforge": [
+      "fFeLlnIo"
+    ],
+    "1.21.1+fabric": [
+      "oZK61bZf"
+    ],
+    "1.21.1+forge": [
+      "fFeLlnIo"
+    ],
+    "1.21.1+neoforge": [
+      "fFeLlnIo"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "lidar",
+  "projectId": "2t1DVwH9",
+  "versions": {
+    "q8C1j91N": {
+      "filename": "lidar-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2t1DVwH9/versions/q8C1j91N/lidar-1.0.0.jar",
+      "hash": "sha512-HvyhGAbA18Y5WS8u3CbduH9IVvKFdnB/zhFmvZ0hyql7SeLK4A9iA1mCM7/h+cLBYQ4FVDRHvci16qtRoFPwNA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yNH7tfQj": {
+      "filename": "lidar-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2t1DVwH9/versions/yNH7tfQj/lidar-1.0.1.jar",
+      "hash": "sha512-va9yLV2Tx3ZWVwYCUSawGuelWv5C88M3Cwh7hskNDTbxa+EWRtQk8RvUzcYoWH6lSyulqpD9BVnlx94BomZulg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "yNH7tfQj",
+      "q8C1j91N"
+    ]
+  }
+}

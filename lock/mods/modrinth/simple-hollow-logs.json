@@ -1,0 +1,83 @@
+{
+  "slug": "simple-hollow-logs",
+  "projectId": "iMlru12j",
+  "versions": {
+    "8blunQGs": {
+      "filename": "simple-hollow-logs-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/iMlru12j/versions/8blunQGs/simple-hollow-logs-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-M7e22UGyq6lE+YWnWmWxdpjHEro6esQRSsxR5zpMmcvYAomdI2jibGhoNKOLJZfMSmuc52mx86zW5DJrUyZqGQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "SfckvwpI": {
+      "filename": "simple-hollow-logs-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/iMlru12j/versions/SfckvwpI/simple-hollow-logs-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-CWGUxx1MdNza1X/ZoUDvq8vX/5POAWZM6N8m/wGu9Ivfa/OeowGQEG8usRBwSrbhT2TwTfSus/WNCdRT22gUMA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mHKGCksU": {
+      "filename": "simple-hollow-logs-1.0.2+1.20.3.jar",
+      "url": "https://cdn.modrinth.com/data/iMlru12j/versions/mHKGCksU/simple-hollow-logs-1.0.2%2B1.20.3.jar",
+      "hash": "sha512-kIoV2gyRpDo3hiUYD44u8gM9jyDEW8ivJrXarzfOxf62etqiJxY90sIyLNb8NqNConYQZ6BaF0EUGi6HQGuLEA==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "SfckvwpI"
+    ],
+    "1.20.2+fabric": [
+      "8blunQGs",
+      "SfckvwpI"
+    ],
+    "1.20.3+fabric": [
+      "mHKGCksU"
+    ],
+    "1.20.4+fabric": [
+      "mHKGCksU"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "twig-angel-ring",
+  "projectId": "UDyZjmLM",
+  "versions": {
+    "HPyVn7LW": {
+      "filename": "twigangelring-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UDyZjmLM/versions/HPyVn7LW/twigangelring-1.1.0.jar",
+      "hash": "sha512-caj59iTKZDYXL/GBGfXvXHAoVhG6q4pWi+Dvsi/eTvwHJZJJIHIQ7TEgtVklwMkEgFykSSflxf9x9JaO7X8KxA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "uaeffjUO": {
+      "filename": "twigangelring-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UDyZjmLM/versions/uaeffjUO/twigangelring-1.0.0.jar",
+      "hash": "sha512-H4FhaQWnLONGAmKmHqwYovoX9hnTjCgOn2y54ysE4VGVFF0OgJfzqwAUUwXhQR5P86Omhb5Im2/l8mn/UjyL1w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HPyVn7LW",
+      "uaeffjUO"
+    ]
+  }
+}

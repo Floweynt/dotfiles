@@ -1,0 +1,52 @@
+{
+  "slug": "ballooning",
+  "projectId": "J1BCbrXI",
+  "versions": {
+    "D5xlEC3x": {
+      "filename": "ballooning-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/J1BCbrXI/versions/D5xlEC3x/ballooning-1.1.0.jar",
+      "hash": "sha512-L7jSJh+9+RAJKoFcEDLej9p7xoXWfwwSKKW2aEKtOuGDAfwyKp0s1KcYYjmxLjse1kxETKHrm1Sl228Kpqyedg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LiiHV3Ny": {
+      "filename": "ballooning-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/J1BCbrXI/versions/LiiHV3Ny/ballooning-1.0.0.jar",
+      "hash": "sha512-E3pa0G2KctkgMl2q1gRhpgADcUw7Mn1dTO21uGf3Q9OeH4nIc4+lNax4qG2oWVXnEZ4Z+0VBnUCoaQ2N9D3NYg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "D5xlEC3x",
+      "LiiHV3Ny"
+    ]
+  }
+}

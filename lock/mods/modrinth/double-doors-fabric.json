@@ -1,0 +1,101 @@
+{
+  "slug": "double-doors-fabric",
+  "projectId": "Kl1QjcBG",
+  "versions": {
+    "CeZtdk8G": {
+      "filename": "double-doors-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kl1QjcBG/versions/CeZtdk8G/double-doors-1.2.0.jar",
+      "hash": "sha512-EBuuy4caTHlr924l3y6g0hQjclzxHQUoPGtI0Ff6xJnyu6e9JwuBWuTE4hBDHFoPrB6AbdpKKVcWVv1fbqDNhw==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "MTKK9UEN": {
+      "filename": "double-doors-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kl1QjcBG/versions/MTKK9UEN/double-doors-1.0.0.jar",
+      "hash": "sha512-UYhbosjswgydTAYP1J+XEH7Fce5mAZnCDEq0YmKZQEy8SJwzIQ5DUlUZ5GSWUzfK7zNJl7cyXyJzz1IBzLyxgQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oD6ZnYww": {
+      "filename": "double-doors-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kl1QjcBG/versions/oD6ZnYww/double-doors-1.1.0.jar",
+      "hash": "sha512-/oXn1mfGgjw9F/yvNTxYE/qmB0Lm36JE24fXG0vce0LF59B15NA4AINJFyn2SoP7L6w/S9fcTBrMYlBorOTrxg==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "MTKK9UEN"
+    ],
+    "1.21.1+fabric": [
+      "MTKK9UEN"
+    ],
+    "1.21.10+fabric": [
+      "CeZtdk8G"
+    ],
+    "1.21.11+fabric": [
+      "CeZtdk8G"
+    ],
+    "1.21.2+fabric": [
+      "oD6ZnYww"
+    ],
+    "1.21.3+fabric": [
+      "oD6ZnYww"
+    ],
+    "1.21.4+fabric": [
+      "oD6ZnYww"
+    ],
+    "1.21.5+fabric": [
+      "oD6ZnYww"
+    ],
+    "1.21.6+fabric": [
+      "oD6ZnYww"
+    ],
+    "1.21.7+fabric": [
+      "oD6ZnYww"
+    ],
+    "1.21.8+fabric": [
+      "oD6ZnYww"
+    ],
+    "1.21.9+fabric": [
+      "CeZtdk8G"
+    ]
+  }
+}

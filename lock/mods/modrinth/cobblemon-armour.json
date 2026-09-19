@@ -1,0 +1,85 @@
+{
+  "slug": "cobblemon-armour",
+  "projectId": "ETu1ueky",
+  "versions": {
+    "K0dBNlbQ": {
+      "filename": "cobblemonarmours-fabric-1.2.0-release.jar",
+      "url": "https://cdn.modrinth.com/data/ETu1ueky/versions/K0dBNlbQ/cobblemonarmours-fabric-1.2.0-release.jar",
+      "hash": "sha512-iTCMArpiD+ljoNS56O8LgTFdmxcSTiVIJMZSDUjURR+fdkrkKDW9aC+N93a7fgMs8JpF5KOrdrM0cZJiPkrhGw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "KZfKLtZs": {
+      "filename": "CobblemonArmours-1.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/ETu1ueky/versions/KZfKLtZs/CobblemonArmours-1.0-neoforge.jar",
+      "hash": "sha512-pxcPorC5Ay9hpdrkux4yS1eRI7daLurnMU/p513Xf9llrL6QOGZb+tsKbkB84xVtvje3hEB8dulLS1zhznoOHw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "bKSwGBV7": {
+      "filename": "cobblemonarmours-neoforge-1.2.0-release.jar",
+      "url": "https://cdn.modrinth.com/data/ETu1ueky/versions/bKSwGBV7/cobblemonarmours-neoforge-1.2.0-release.jar",
+      "hash": "sha512-Vu5Qv2uE746b5KPVTnUiC/vStuA5W/9qoYvcc3x5Ml+AQvyg4IMp9NwFuI6SUh4pRd4gs+ya19m3hsXfDDnuKg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "K0dBNlbQ"
+    ],
+    "1.21.1+neoforge": [
+      "bKSwGBV7",
+      "KZfKLtZs"
+    ]
+  }
+}

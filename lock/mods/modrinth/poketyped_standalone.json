@@ -1,0 +1,79 @@
+{
+  "slug": "poketyped_standalone",
+  "projectId": "rlCraAY9",
+  "versions": {
+    "SZWQwh9c": {
+      "filename": "Poketyped origins (Standalone) 1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/rlCraAY9/versions/SZWQwh9c/Poketyped%20origins%20%28Standalone%29%201.2.0.jar",
+      "hash": "sha512-BwvWBWts7ltseZ1XCx8IB+rsZwLg+T2NhrROkskMWQP7FcoJF5mEP6p9Wk79KGGO7ZGcXa6Hzrlg4W5j7x7j+g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "Sm2pwWYt": {
+      "filename": "Poketyped Origins (Standalone) 1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/rlCraAY9/versions/Sm2pwWYt/Poketyped%20Origins%20%28Standalone%29%201.1.0.jar",
+      "hash": "sha512-khvDE9harvCtRiw3ohcG1OlZWnuphoRM0JniuIHB5Bl7XRNYA7yp6idAZXoITYgqT9xST1pzgUhbpNGchoVaew==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "mLoGLwrB": {
+      "filename": "Poketyped origins (Standalone) 1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/rlCraAY9/versions/mLoGLwrB/Poketyped%20origins%20%28Standalone%29%201.2.0.jar",
+      "hash": "sha512-JciBRAAtMVJwTVKwPqdtVJ2ZPGPIHZ0VjUaThQc2LH1D4DdI2c0M9Q6cPzS3WX6ut3U4Fdi+swru9XfDcts0UA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Sm2pwWYt"
+    ],
+    "1.20.1+fabric": [
+      "Sm2pwWYt"
+    ],
+    "1.21+fabric": [
+      "mLoGLwrB",
+      "SZWQwh9c"
+    ],
+    "1.21.1+fabric": [
+      "mLoGLwrB",
+      "SZWQwh9c"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "mchitcolor",
+  "projectId": "NADl5Hup",
+  "versions": {
+    "MW5SokbX": {
+      "filename": "HitColor-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/NADl5Hup/versions/MW5SokbX/HitColor-1.21.11.jar",
+      "hash": "sha512-7mp8JL/Ax9Zj/8z0vxz9e9zY2bQzD92khariY2DjAP3a4BP21qOaPXixb4Av1+RCrTFcO5sENkCT4F6QyFpfdw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "MW5SokbX"
+    ]
+  }
+}

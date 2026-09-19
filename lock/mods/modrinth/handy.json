@@ -1,0 +1,42 @@
+{
+  "slug": "handy",
+  "projectId": "b3dZPsMr",
+  "versions": {
+    "APFc8EBy": {
+      "filename": "vanity_handytools-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/b3dZPsMr/versions/APFc8EBy/vanity_handytools-1.0.jar",
+      "hash": "sha512-CQHhIlStXZm6w6pNGV4UR6qf8vvFv7oSCmreak7oOQ1rjYO9RYKy2dDVYSWHIC8+HGqxY6xDAdZb5D92WMq4Mg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "APFc8EBy"
+    ],
+    "1.21+quilt": [
+      "APFc8EBy"
+    ],
+    "1.21.1+fabric": [
+      "APFc8EBy"
+    ],
+    "1.21.1+quilt": [
+      "APFc8EBy"
+    ]
+  }
+}

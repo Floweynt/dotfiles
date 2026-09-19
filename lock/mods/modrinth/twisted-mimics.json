@@ -1,0 +1,36 @@
+{
+  "slug": "twisted-mimics",
+  "projectId": "U5fFJbwZ",
+  "versions": {
+    "r60dMbT8": {
+      "filename": "TwistedMimics-1.0.0-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/U5fFJbwZ/versions/r60dMbT8/TwistedMimics-1.0.0-alpha.jar",
+      "hash": "sha512-gjWdvJrGV5wWaFgZ1OysTJOJchKIivOEtTpEeuos0NKbAooCUVO1i1dZdyY51pJmyHdenzEIj/2pg76PZbKMGw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "r60dMbT8"
+    ]
+  }
+}

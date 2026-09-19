@@ -1,0 +1,83 @@
+{
+  "slug": "pale-oak-building-materials",
+  "projectId": "bvkusAJr",
+  "versions": {
+    "EeYA8RIV": {
+      "filename": "paleoakbuildingmaterials-1.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bvkusAJr/versions/EeYA8RIV/paleoakbuildingmaterials-1.1.0%2B1.20.1.jar",
+      "hash": "sha512-U0vOtnecvEp6eH3/hOCRzdR0Z7LnMNO09MXCkPYSJcTot+1/hllOAsBVAnwmnOZrTHtZKcEAkThF+dod0SyDgA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "X8lFFog6": {
+      "filename": "paleoakbuildingmaterials-1.1.0+1.20.1-forge-fix.jar",
+      "url": "https://cdn.modrinth.com/data/bvkusAJr/versions/X8lFFog6/paleoakbuildingmaterials-1.1.0%2B1.20.1-forge-fix.jar",
+      "hash": "sha512-8Cc3WywSgWD9AquXCckxM5JsNy96iWHa/QrH4vTMGchQq0SOtBcjeXqbrWv2TpVi9oTrEwoUajU3cyr/nmQtOA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    },
+    "gZm4hjYE": {
+      "filename": "paleoakbuildingmaterials-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bvkusAJr/versions/gZm4hjYE/paleoakbuildingmaterials-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-NMSj5WogTpkDV9VMhALWfxWhM9MYRw0LkgYpjAFgC/aFTTRY6aYyuGspNipY6uTo9qAeMb33h/OrHcsuHOq5yw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "iJwEUSeh": {
+      "filename": "paleoakbuildingmaterials-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bvkusAJr/versions/iJwEUSeh/paleoakbuildingmaterials-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-kdQsmL/V2hMAF7Y/Qc8WeQMw3T2o0ZWHTjo2hB0F0jQ4bLwbHeUGUOKUl0l4lE4pKzyxie0tWcJE5Ytg9/JcwA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "EeYA8RIV",
+      "iJwEUSeh",
+      "gZm4hjYE"
+    ],
+    "1.20.1+forge": [
+      "X8lFFog6"
+    ]
+  }
+}

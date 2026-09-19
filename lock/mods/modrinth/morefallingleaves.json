@@ -1,0 +1,31 @@
+{
+  "slug": "morefallingleaves",
+  "projectId": "6cLnKrxB",
+  "versions": {
+    "pZVLGCrO": {
+      "filename": "MoreFallingLeaves-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6cLnKrxB/versions/pZVLGCrO/MoreFallingLeaves-1.0.0.jar",
+      "hash": "sha512-hjIt5JYUE4bn0OX7l7qHp4jdktW71jOEagKSh+We84Hfhk8Si95C8bIyqXkhAk489pJHcy5YjmiHxiMa6gc16Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "pZVLGCrO"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "simply-swordz",
+  "projectId": "LEUDGtvl",
+  "versions": {
+    "EQvMUea3": {
+      "filename": "simply_swordz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LEUDGtvl/versions/EQvMUea3/simply_swordz-1.0.jar",
+      "hash": "sha512-8c2BhV5BlYX9CIkB0E4ZNjXvfWsPFHIbFibMt1awn80iMCyMJh8kQQllvVUrODGtFIYfOzm8R3kcHgZ/eJ5gOg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "simply-swords",
+          "projectId": "bK3Ubu9p",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "hqDLiEXs": {
+      "filename": "lvlz_simply_swords-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/LEUDGtvl/versions/hqDLiEXs/lvlz_simply_swords-2.0.jar",
+      "hash": "sha512-Q61uZOUS0xmr3VP6MOSQ9N5D5C/4z6zY56CWBKSaZiidbxAypLJmbAw5Q1xVqhCHII3YiDOE7PKaYJx3UOV2QQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "simply-swords",
+          "projectId": "bK3Ubu9p",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "EQvMUea3"
+    ],
+    "1.21.1+fabric": [
+      "hqDLiEXs"
+    ]
+  }
+}

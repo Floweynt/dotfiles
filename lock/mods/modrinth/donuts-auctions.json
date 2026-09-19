@@ -1,0 +1,67 @@
+{
+  "slug": "donuts-auctions",
+  "projectId": "6CaQRmgQ",
+  "versions": {
+    "PyxqJ6ij": {
+      "filename": "donutsauctions-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/6CaQRmgQ/versions/PyxqJ6ij/donutsauctions-0.1.2.jar",
+      "hash": "sha512-COuQBqQ3je9licptaMm/JZXnnmx3cnoeTBmIggoPrqhZs7H0VVYSfgCHWRQ1d4WOcO46k+stbreXeUdSi+eAqw==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "harn3bY6": {
+      "filename": "donutsauctions-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/6CaQRmgQ/versions/harn3bY6/donutsauctions-0.1.1.jar",
+      "hash": "sha512-DHFyaigiYln7fJOTBfgDjJYa1SyZY950N5aQSje5Lp01tlKa3nkfe28ANY/dVymIy8Xr/AN8pUwhEPyLKjrvZA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "PyxqJ6ij",
+      "harn3bY6"
+    ],
+    "1.21.11+fabric": [
+      "PyxqJ6ij",
+      "harn3bY6"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "origin-collection",
+  "projectId": "hldckFff",
+  "versions": {
+    "s4MjMupB": {
+      "filename": "OriginCollection-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/hldckFff/versions/s4MjMupB/OriginCollection-1.0.5.jar",
+      "hash": "sha512-vxUi/XnctM6QrcPFOPBxck6/EnWieZ23ABu2Xj3jaDfWmW2httLgpuTVT+nhh90Xz0CjdLWljNXBu5sGNG4QGg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "uA5vJXDC": {
+      "filename": "OriginCollection-1.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/hldckFff/versions/uA5vJXDC/OriginCollection-1.0.7.jar",
+      "hash": "sha512-AMo8syJvDWg/NPe83IouMAirUaUEcx2bm8TsVXLdK81NE8xq0Tzx09fc/y9f/dJ70aLzagTmRCYR3Azodnb4XQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "uA5vJXDC"
+    ],
+    "1.19+fabric": [
+      "s4MjMupB"
+    ]
+  }
+}

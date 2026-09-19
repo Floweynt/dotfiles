@@ -1,0 +1,68 @@
+{
+  "slug": "stepupagain",
+  "projectId": "NOxfLnRC",
+  "versions": {
+    "303dXyle": {
+      "filename": "stepup-1.21-fabric0.100.1-1.4.jar",
+      "url": "https://cdn.modrinth.com/data/NOxfLnRC/versions/303dXyle/stepup-1.21-fabric0.100.1-1.4.jar",
+      "hash": "sha512-56BgjgmI4fR/JA8rlDmF1pt/9f1N4NQ/DqGwynJw6nCgStspD4f00K4q5E19GW8NpELcLQ6B5TV1mjn/oM4dRA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "kwKsLEr7": {
+      "filename": "stepup-1.20.6-fabric0.98.0-1.4.jar",
+      "url": "https://cdn.modrinth.com/data/NOxfLnRC/versions/kwKsLEr7/stepup-1.20.6-fabric0.98.0-1.4.jar",
+      "hash": "sha512-zCiB6FN3mZRV7+OtDWqiX44ibquX5RWShtqvcc4L5o6uxidzgSNUXwBCnAwwU/nBBPFWXrvVDcRKw0yAHzuLSw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "kwKsLEr7"
+    ],
+    "1.21+fabric": [
+      "303dXyle"
+    ],
+    "1.21.1+fabric": [
+      "303dXyle"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "blinds-music-discs-musicpack",
+  "projectId": "X3Ssu157",
+  "versions": {
+    "dgzMglYv": {
+      "filename": "Blind's Music Discs - Music Pack.zip",
+      "url": "https://cdn.modrinth.com/data/X3Ssu157/versions/dgzMglYv/Blind%27s%20Music%20Discs%20-%20Music%20Pack.zip",
+      "hash": "sha512-uGElQInHpx6RLz2d/f3HbC65Y4Rk9SR91pIojGIyi31fUWJ0B02ei3YE6OX3Gy5yH73HNwu6A2X+doUDjgT6og==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "blinds-music-discs",
+          "projectId": "L8RA1FS8",
+          "type": "required"
+        }
+      ]
+    },
+    "pHYLP8tp": {
+      "filename": "Blind's Music Discs - MusicPack.zip",
+      "url": "https://cdn.modrinth.com/data/X3Ssu157/versions/pHYLP8tp/Blind%27s%20Music%20Discs%20-%20MusicPack.zip",
+      "hash": "sha512-u1z8+e9ZzR+BF4INclNfU9I5ADuMxqPZ+sHYnZ+H8HgpRMKQkqo80kY2kgQsLqaRCdRwKnTpBwG4X106utSB1Q==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "blinds-music-discs",
+          "projectId": "L8RA1FS8",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+minecraft": [
+      "pHYLP8tp"
+    ],
+    "1.21.4+minecraft": [
+      "dgzMglYv"
+    ]
+  }
+}

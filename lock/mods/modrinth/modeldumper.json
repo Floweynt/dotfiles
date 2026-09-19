@@ -1,0 +1,66 @@
+{
+  "slug": "modeldumper",
+  "projectId": "1jvCmVLV",
+  "versions": {
+    "Aq2m0Nfv": {
+      "filename": "modeldumper-fabric-1.0.0-mc1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/1jvCmVLV/versions/Aq2m0Nfv/modeldumper-fabric-1.0.0-mc1.19.2.jar",
+      "hash": "sha512-4ESOYvn3YceB09zMN7rS6YfGci+T809JMaGWGvPSSwpLjWRFlKwsp2JtdwDadigPSM4CG3bJI5usFUbqBQjI+A==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "BFQ2AJ9m": {
+      "filename": "modeldumper-fabric-1.0.0-mc1.20.jar",
+      "url": "https://cdn.modrinth.com/data/1jvCmVLV/versions/BFQ2AJ9m/modeldumper-fabric-1.0.0-mc1.20.jar",
+      "hash": "sha512-GShu1XdWNdSXcvzuGwzPfx2L3dl+myOJKi9u2x5C1XXCXqWcNLgNdpTRIlRU+MFbCYcWOPt1NBKL3HKvqYHGeQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "Aq2m0Nfv"
+    ],
+    "1.19.1+fabric": [
+      "Aq2m0Nfv"
+    ],
+    "1.19.2+fabric": [
+      "Aq2m0Nfv"
+    ],
+    "1.20+fabric": [
+      "BFQ2AJ9m"
+    ],
+    "1.20.1+fabric": [
+      "BFQ2AJ9m"
+    ]
+  }
+}

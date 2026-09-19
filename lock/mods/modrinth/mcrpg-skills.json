@@ -1,0 +1,132 @@
+{
+  "slug": "mcrpg-skills",
+  "projectId": "pqXVhZh7",
+  "versions": {
+    "oTJzzQUe": {
+      "filename": "mcrpg-skills-0.9.jar",
+      "url": "https://cdn.modrinth.com/data/pqXVhZh7/versions/oTJzzQUe/mcrpg-skills-0.9.jar",
+      "hash": "sha512-NaXSiOWLr6lqI3PT+dGO0FT/ifOZ8cNiJyHm3GEZ/9XbTmmGzyimqFM9BxWjTpTpf9p3tOUOYhGP/rE26Qa49A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "spell-power",
+          "projectId": "8ooWzSQP",
+          "type": "required"
+        },
+        {
+          "slug": "additionalentityattributes",
+          "projectId": "6oFu5eHi",
+          "type": "required"
+        },
+        {
+          "slug": "attributes",
+          "projectId": "FCFcFw09",
+          "type": "required"
+        },
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        },
+        {
+          "slug": "skills",
+          "projectId": "hqQqvaa4",
+          "type": "required"
+        },
+        {
+          "slug": "zenith-attributes",
+          "projectId": "9sxDq6mj",
+          "type": "required"
+        },
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        }
+      ]
+    },
+    "ypz7P7GU": {
+      "filename": "MCRPG skills.zip",
+      "url": "https://cdn.modrinth.com/data/pqXVhZh7/versions/ypz7P7GU/MCRPG%20skills.zip",
+      "hash": "sha512-lu3hqtbM+mzlRTEro3QaYyxRFlktpjrJGVvIjU2M+MfsyZwQFoF62Yjd3j4ShUGP0Sf5wSUDc8TfeQghfTHTfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "zenith-attributes",
+          "projectId": "9sxDq6mj",
+          "type": "required"
+        },
+        {
+          "slug": "skills",
+          "projectId": "hqQqvaa4",
+          "type": "required"
+        },
+        {
+          "slug": "additionalentityattributes",
+          "projectId": "6oFu5eHi",
+          "type": "required"
+        },
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "attributes",
+          "projectId": "FCFcFw09",
+          "type": "required"
+        },
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        },
+        {
+          "slug": "spell-power",
+          "projectId": "8ooWzSQP",
+          "type": "required"
+        },
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "ypz7P7GU"
+    ],
+    "1.20.1+fabric": [
+      "oTJzzQUe"
+    ],
+    "1.20.1+forge": [
+      "oTJzzQUe"
+    ],
+    "1.20.1+quilt": [
+      "oTJzzQUe"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "conditional-barriers",
+  "projectId": "FlV3fNRO",
+  "versions": {
+    "R2DOj9Mr": {
+      "filename": "conditionalbarriers-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/FlV3fNRO/versions/R2DOj9Mr/conditionalbarriers-1.0.0.jar",
+      "hash": "sha512-U3CgkpG6NHjEWD26owFTV8N66ykR3gnnqvc5CR27vEQ5d65m5vNjZuiMtFsyFj+/0N3YI3FCwQSiCmLi34ehHQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "donFVvJy": {
+      "filename": "conditionalbarriers-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/FlV3fNRO/versions/donFVvJy/conditionalbarriers-2.0.0.jar",
+      "hash": "sha512-XPiM7Wik0KEdQpVaPD7OkuJClxk0i7TAj5KB8D7friEaW4dHehD5TKN/MCQ/4i+hReJuN+JIEj3usurK5HMgyw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "donFVvJy",
+      "R2DOj9Mr"
+    ]
+  }
+}

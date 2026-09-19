@@ -1,0 +1,31 @@
+{
+  "slug": "origins-sun-block",
+  "projectId": "XMJN6Ifu",
+  "versions": {
+    "gO85Mmal": {
+      "filename": "originssunblock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XMJN6Ifu/versions/gO85Mmal/originssunblock-1.0.0.jar",
+      "hash": "sha512-X1QpDJeGq9+P43pq62bNCqnC+QpbiouArXm25nKesAS9amdUseXtc0Ley0QCWGUD49PzmgGXfURc/mA8Aw5QCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gO85Mmal"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "low-fire",
+  "projectId": "Gou1gmGj",
+  "versions": {
+    "CNIY8LIz": {
+      "filename": "lowfire-fabric-1.19.3-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Gou1gmGj/versions/CNIY8LIz/lowfire-fabric-1.19.3-3.0.1.jar",
+      "hash": "sha512-b65XR/6B96oWfBYX2fSythMR+VLIMOmBPBaa5/g9PMw8gP7C7jDFhxG9q1Z4Akl5jdi50R0saQyUhd+XLjNIzA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "jWpt7qOI": {
+      "filename": "lowfire-fabric-1.19-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Gou1gmGj/versions/3.0.0/lowfire-fabric-1.19-3.0.0.jar",
+      "hash": "sha512-XsdB2i/eVesX3nY3esOWLFpcTo8R4OOGvnVyGlloPEaNXifs0cyaqMJyz/oyyvIG3pCd+Bedp+0md+apzNPmVg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "ucLAWkDM": {
+      "filename": "lowfire-fabric-1.16.5-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Gou1gmGj/versions/1.1.0/lowfire-fabric-1.16.5-1.1.0.jar",
+      "hash": "sha512-90VncYRYmi7bmUdBJKO0OIoZSSXeyMVeJmbyTANYEx67EKGGSntSiQAIMBffiDQu9oD9OJXQsOeWBgOubzqZOA==",
+      "gameVersions": [
+        "1.14.4",
+        "1.15.2",
+        "1.16.5",
+        "21w11a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.14.4+fabric": [
+      "ucLAWkDM"
+    ],
+    "1.15.2+fabric": [
+      "ucLAWkDM"
+    ],
+    "1.16.5+fabric": [
+      "ucLAWkDM"
+    ],
+    "1.19+fabric": [
+      "jWpt7qOI"
+    ],
+    "1.19.1+fabric": [
+      "jWpt7qOI"
+    ],
+    "1.19.2+fabric": [
+      "jWpt7qOI"
+    ],
+    "1.19.3+fabric": [
+      "CNIY8LIz"
+    ],
+    "21w11a+fabric": [
+      "ucLAWkDM"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "spore-springer",
+  "projectId": "VqtSv50B",
+  "versions": {
+    "1u77hMth": {
+      "filename": "spore-springer-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VqtSv50B/versions/1u77hMth/spore-springer-1.0.jar",
+      "hash": "sha512-uueiciIa1itAH66QTgDq8Hqf+Hv6jLt7ZtROAzPeYy/6oPbY1KRjxk72FBczXvar0SK+mlXNIyygI0meFGA+xw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "aGsgwW62": {
+      "filename": "SporeSpringer.zip",
+      "url": "https://cdn.modrinth.com/data/VqtSv50B/versions/aGsgwW62/SporeSpringer.zip",
+      "hash": "sha512-8nt3Mqf3QtWlDJBAw3nHx1INNKY6vghHvVRQi3lZvgEOj2c8Veel0ZnXu7feGdLBqYwMSuKqFIXYxmIk3y8GHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "aGsgwW62"
+    ],
+    "1.20.1+fabric": [
+      "1u77hMth"
+    ],
+    "1.20.1+quilt": [
+      "1u77hMth"
+    ]
+  }
+}

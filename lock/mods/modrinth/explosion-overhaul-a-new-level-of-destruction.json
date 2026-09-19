@@ -1,0 +1,81 @@
+{
+  "slug": "explosion-overhaul-a-new-level-of-destruction",
+  "projectId": "sOxnTLKl",
+  "versions": {
+    "93XGK0uB": {
+      "filename": "Explosion-Overhaul-0.2.3.0-forge-.jar",
+      "url": "https://cdn.modrinth.com/data/sOxnTLKl/versions/93XGK0uB/Explosion-Overhaul-0.2.3.0-forge-.jar",
+      "hash": "sha512-vtqBPylAubd5OkBGpDnN6XyvifznV7Dlez9yCZM43NvsdeS3jr+M0/XtrNgEUCl/bUSokb1pRlB8pgk8SmfkJw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "NyOuBUVn": {
+      "filename": "Explosion-Overhaul-0.2.3.0-fabric-.jar",
+      "url": "https://cdn.modrinth.com/data/sOxnTLKl/versions/NyOuBUVn/Explosion-Overhaul-0.2.3.0-fabric-.jar",
+      "hash": "sha512-/VX0UlTf2X/1dp5daWAoACQ2rk2bqnIojBt8INCMHbXCGTfnUMIAwB/EcmolSde+XCZZux9Zw+RKyclIUJW+3A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "mxfQE01f": {
+      "filename": "explosionoverhaul-0.2.3.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/sOxnTLKl/versions/mxfQE01f/explosionoverhaul-0.2.3.0-neoforge.jar",
+      "hash": "sha512-XRQoZ45cv+151hwvwa+8oEFNeLOH4vLV1u8OmJ3XHVNm2dYqYn98ag7FMmJ8Dj/dmRT4iVWh7+5lgRvTkvlhcA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "NyOuBUVn"
+    ],
+    "1.20.1+forge": [
+      "93XGK0uB"
+    ],
+    "1.21.1+neoforge": [
+      "mxfQE01f"
+    ]
+  }
+}

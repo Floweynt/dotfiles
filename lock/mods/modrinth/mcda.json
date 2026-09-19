@@ -1,0 +1,85 @@
+{
+  "slug": "mcda",
+  "projectId": "oMitr7dU",
+  "versions": {
+    "NoLGJgGN": {
+      "filename": "mcda-5.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/oMitr7dU/versions/NoLGJgGN/mcda-5.0.1.jar",
+      "hash": "sha512-QTJg59zTNEoKxGhnbv/KVavTp35Y2nUm9s2kBrJSFKmoCi+hzzco5Ok1mXfJHxvw10m10az9L9CQCMCj6334NA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "kOZVEfRn": {
+      "filename": "mcda-5.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/oMitr7dU/versions/kOZVEfRn/mcda-5.0.2.jar",
+      "hash": "sha512-/1lEJ0Sl2lp0DqTl/qQyCvBksUhnKdSb/2PbdUXZHLOICfdnG9RxT2g/H0jlYt1hr7wwL43fQqMikezFmEa+/A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector-extras",
+          "projectId": "FYpiwiBR",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "NoLGJgGN"
+    ],
+    "1.20.1+fabric": [
+      "kOZVEfRn",
+      "NoLGJgGN"
+    ],
+    "1.20.1+forge": [
+      "kOZVEfRn"
+    ]
+  }
+}

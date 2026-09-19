@@ -1,0 +1,58 @@
+{
+  "slug": "nature_prairies",
+  "projectId": "Ri0V3KAD",
+  "versions": {
+    "j2rg3z2e": {
+      "filename": "natures-prairies-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ri0V3KAD/versions/j2rg3z2e/natures-prairies-0.0.1.jar",
+      "hash": "sha512-IV4QbIocnWNvvThpAETKcFLe13by7VezEyk6XC61WyfzZyEwQ3S6/tkPcJKQvAwBmR9GfZTo5iWN9Dbxd42c+A==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "athena-ctm",
+          "projectId": "b1ZV3DIJ",
+          "type": "required"
+        },
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lVeUPt0V": {
+      "filename": "natures-prairies-0.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ri0V3KAD/versions/lVeUPt0V/natures-prairies-0.0.1-1.20.1.jar",
+      "hash": "sha512-YA5sO8o9fxDboOaU3fO+5pzvo+h/GbBA8f6cwKTq9iqPlKNDYES4Wtt3l9yQyNBe2NvvGZOcv/zrFX5XzqWyWw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "lVeUPt0V"
+    ],
+    "1.20.4+fabric": [
+      "j2rg3z2e"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "phlexiful",
+  "projectId": "wZmv2tbP",
+  "versions": {
+    "W2Tx6aRM": {
+      "filename": "phlexiful-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wZmv2tbP/versions/W2Tx6aRM/phlexiful-fabric-1.0.0.jar",
+      "hash": "sha512-v3o/T7h9OzkQHDVPT5N7oUbL6Lgd3F6E0Sa8xKGkdZIgvq8vhikzydhL5KWg7OuP4Mjxl0Am+a8AP3+lt9yZ9g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "W2Tx6aRM"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "industrialization-de-astra",
+  "projectId": "zIrI5Bgu",
+  "versions": {
+    "ZjMHZlrJ": {
+      "filename": "industrialization_de_astra-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/zIrI5Bgu/versions/ZjMHZlrJ/industrialization_de_astra-1.0.4.jar",
+      "hash": "sha512-w07LWk3pU5jYalHrbzyHqxqf7IdaDNCt310EQqagBsn3iVQqw4QmhMiSIgKWzvipydd5FsDjoVgB4QJf3Bypmw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    },
+    "cyg1Q2Y1": {
+      "filename": "industrialization_de_astra-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/zIrI5Bgu/versions/cyg1Q2Y1/industrialization_de_astra-1.0.8.jar",
+      "hash": "sha512-u5p/FzsggKfXky0P6++Occsd2bSWSTP1QA8TsS37UG4VZY46dJc7OT/9o2SEayF4WaUO+afhXGHReaxO3oBBQw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "cyg1Q2Y1",
+      "ZjMHZlrJ"
+    ]
+  }
+}

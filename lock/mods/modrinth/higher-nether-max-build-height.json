@@ -1,0 +1,50 @@
+{
+  "slug": "higher-nether-max-build-height",
+  "projectId": "7DZ6Gz4Y",
+  "versions": {
+    "BNudKxDP": {
+      "filename": "Higher_Nether_Max_Build_Height-1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/7DZ6Gz4Y/versions/BNudKxDP/Higher_Nether_Max_Build_Height-1.20.1.zip",
+      "hash": "sha512-6vqI7JEX8ECBfuVZdaT8mMpRg/6P9gbiGtGMuKtJUH9AjaNpoOun65m5+FJQAjopOsHiWLc5j294Vy2N1DQSOQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "P28LDhbi": {
+      "filename": "higher-nether-max-build-height-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/7DZ6Gz4Y/versions/P28LDhbi/higher-nether-max-build-height-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-iTgDHmbI6TbeYk6kZ/bJJL0tuBvvIoPYDwogihlEuSKgCOtA7DctXf3pWf9CF6TUzBliRjdaRoueYf/kxfS/dQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "BNudKxDP"
+    ],
+    "1.20.1+fabric": [
+      "P28LDhbi"
+    ],
+    "1.20.1+forge": [
+      "P28LDhbi"
+    ],
+    "1.20.1+quilt": [
+      "P28LDhbi"
+    ]
+  }
+}

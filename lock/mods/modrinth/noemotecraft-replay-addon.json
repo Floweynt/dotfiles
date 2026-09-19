@@ -1,0 +1,45 @@
+{
+  "slug": "noemotecraft-replay-addon",
+  "projectId": "8ZA4KPwM",
+  "versions": {
+    "Gr89ZdaY": {
+      "filename": "noemotecraft-addon-replay-1.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8ZA4KPwM/versions/Gr89ZdaY/noemotecraft-addon-replay-1.1%2Bmc1.21.1.jar",
+      "hash": "sha512-X7szJOHKVjEZXDXVFAkwVC7IQyz1+apxHJciNYswsGwpwynMMcuhtZi8aqC8eeJuxhOJZpYdVpC4nqO5QLzN9w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "noemotecraft",
+          "projectId": "pSQGhi9I",
+          "type": "required"
+        },
+        {
+          "slug": "replaymod",
+          "projectId": "Nv2fQJo5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "Gr89ZdaY"
+    ],
+    "1.21.1+fabric": [
+      "Gr89ZdaY"
+    ]
+  }
+}

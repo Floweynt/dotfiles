@@ -1,0 +1,470 @@
+{
+  "slug": "better-locale",
+  "projectId": "whlTpbaW",
+  "versions": {
+    "1lGZyD9A": {
+      "filename": "interrecipebrowser-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/1.0.0-fabric/interrecipebrowser-1.0.0-fabric.jar",
+      "hash": "sha512-PgVWikVLPc5MNJ6A1xbedpnZq0nyh4hCFAG8JkgQGQLQPgzLSAn9HhhQeWYiByVmfQbQ9581GcEi29Y5twtwbg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "44Xrw1kH": {
+      "filename": "betterlocale-2.2.0+1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/44Xrw1kH/betterlocale-2.2.0%2B1.21-fabric.jar",
+      "hash": "sha512-wh0IkBNZpwIPq5aIwZNM9YJXkYrK/0fWfI73VDrjxX1oBV0WMHzA8s26eLpa2VsQjFD8P3HBaOkNlNx2s67SRw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "4wTprVFp": {
+      "filename": "betterlocale-2.2.0+1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/4wTprVFp/betterlocale-2.2.0%2B1.21.1-fabric.jar",
+      "hash": "sha512-k+WQiYba3k72+xzH4MXuTVMj+VyrOFtNSxuksq/iI0S9l4i2mCcxBuiG8JQ2qpZrBKvOI6/1KISSstGsf83UiA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "amecs-reborn",
+          "projectId": "IjgEpZeq",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "5c5FupHt": {
+      "filename": "betterlocale-2.2.1+1.21.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/5c5FupHt/betterlocale-2.2.1%2B1.21.2-fabric.jar",
+      "hash": "sha512-RfiO+Py5lgV+/RzpMLi1N8cHEwPpIK1TeErimzAWUI1sXeT0xdS1NP/7vY7yz3D3ij92ikeQ+RwIRdRr+AeY+w==",
+      "gameVersions": [
+        "1.21.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "7yGSFuYK": {
+      "filename": "betterlocale-2.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/7yGSFuYK/betterlocale-2.1.0-forge.jar",
+      "hash": "sha512-TcfcZLgsVrQ2/1uR3xrMBeZcjTOtT0gdDmA7lNF+j8MM7pknImeF6Ozp6iN/hg6IKqmbwhwNUhM6oDJLMd2LOg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "9huPAFCK": {
+      "filename": "betterlocale-2.2.1+1.21.2-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/9huPAFCK/betterlocale-2.2.1%2B1.21.2-neoforge.jar",
+      "hash": "sha512-AgIZ/BSKGWXAt1ZR7gxj/WXRpnp1ZxiAGcNlGockFkgmBv2jP1ovgu4TV+eekPdO0fatJphH/dhI4IRxOQIQpw==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "AHYzly8Z": {
+      "filename": "localizedbrowser-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/2.0.0-fabric/localizedbrowser-fabric-2.0.0.jar",
+      "hash": "sha512-9r6JUaDAbp6c626aTbkELqA14KWnUkyoioOtbUn85iA8r+Z9iCWBtIn2J6ktJsG6zJTNJ1WI4OWBTEG20KihPw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "BLsOIUdv": {
+      "filename": "localizedbrowser-forge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/2.0.0-forge/localizedbrowser-forge-2.0.0.jar",
+      "hash": "sha512-7axtlCcpASKC856cATiaB/Uf9Cma6HRNPHg3F9o39ZZgxi49n5ssvnusmdkbCgI17m9XzcWqqBjq211pjY5SJg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "SITmKVIA": {
+      "filename": "localizedbrowser-forge-2.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/SITmKVIA/localizedbrowser-forge-2.0.0%2B1.20.1.jar",
+      "hash": "sha512-m3PVQekRXwCZiPOlEyVM8a32oczbq14j77l9SmA4Qye/SK8zyLBVCjfe50o1PEIu8HhG4yPz/GzGmob3Dwk5dQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Wbr2IDKN": {
+      "filename": "betterlocale-2.2.1+1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/Wbr2IDKN/betterlocale-2.2.1%2B1.21-neoforge.jar",
+      "hash": "sha512-Fd7s7fKpzLTU10BYA/TD2M1GWIDDFy4OySUONrwR2LP+0lP7R1N6VYR8jDfIfJSPWRlvxQFx42HVmFUK9L7mTg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "YyM0fbHR": {
+      "filename": "interrecipebrowser-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/1.0.0-forge/interrecipebrowser-1.0.0-forge.jar",
+      "hash": "sha512-5eFosR19Thmda7Gbxzpdfv595+PjlvdX0ic+RWOuFKFIMYfWSo26sOrOzHdjLcYgugeiBx55gcsCemzbzo/b7g==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "eQoklJHR": {
+      "filename": "betterlocale-2.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/eQoklJHR/betterlocale-2.1.0-fabric.jar",
+      "hash": "sha512-HYih3Wd3XXeIYloA2tLn9Q1EmDUIXWdltAEdtLNoa33Rg5MUvi1vz6bhUwC07p8OrXXfiMVrsd9VcluXJF2XHw==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "i3eTPMKh": {
+      "filename": "betterlocale-2.2.1+1.21.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/i3eTPMKh/betterlocale-2.2.1%2B1.21.3-fabric.jar",
+      "hash": "sha512-hUfGhkgjS0/Eab8DWK8xzGGysiiAEI2yZlmUmIcvM7rhiin66U71Q7AaMy8whTHI0LgeskEbHSLEmDB2pYkPRQ==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "amecs-reborn",
+          "projectId": "IjgEpZeq",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "scjB8QNJ": {
+      "filename": "localizedbrowser-fabric-2.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/scjB8QNJ/localizedbrowser-fabric-2.0.0%2B1.20.1.jar",
+      "hash": "sha512-oQuOpRfEkgw2wZROBJ8q6jpJbdg6UCmYbDA5kKK/DSg7Pn+MdPqvMRBkooPfbSSt+swTyuLlYQYV0PJjrUau3w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vp99Tzud": {
+      "filename": "betterlocale-2.2.0+1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/vp99Tzud/betterlocale-2.2.0%2B1.21-neoforge.jar",
+      "hash": "sha512-ojWhEv/rY5wHtM5jZBQKZs9llIx5VwQfCFWuFz781nl52/FwusbC+zweZEUh2wtVFOraaja05SFn2ZYnrbpF0A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "y3vpsRZp": {
+      "filename": "betterlocale-2.2.1+1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/y3vpsRZp/betterlocale-2.2.1%2B1.21.1-fabric.jar",
+      "hash": "sha512-Sdbkx6FUVF6t/9HN5ONgqyCT82qSfH1k83RYOGZPTuNFMgYjr24CBy1Fn4udT3jmVIAFuebmIE6TWOYqabDeEg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "amecs-reborn",
+          "projectId": "IjgEpZeq",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "y8tXTxRe": {
+      "filename": "betterlocale-2.2.1+1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/whlTpbaW/versions/y8tXTxRe/betterlocale-2.2.1%2B1.21-fabric.jar",
+      "hash": "sha512-NDXFGdrz/s16YldQpjMz5peqylvmSTprrOas2EncAuFVsp4pZqY3itpmvcaam9JXaumsiUi1D24XDDmUajevnA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "AHYzly8Z",
+      "1lGZyD9A"
+    ],
+    "1.19+forge": [
+      "BLsOIUdv",
+      "YyM0fbHR"
+    ],
+    "1.19+quilt": [
+      "AHYzly8Z",
+      "1lGZyD9A"
+    ],
+    "1.19.1+fabric": [
+      "AHYzly8Z"
+    ],
+    "1.19.1+quilt": [
+      "AHYzly8Z"
+    ],
+    "1.19.2+fabric": [
+      "AHYzly8Z"
+    ],
+    "1.19.2+quilt": [
+      "AHYzly8Z"
+    ],
+    "1.19.3+fabric": [
+      "AHYzly8Z"
+    ],
+    "1.19.3+quilt": [
+      "AHYzly8Z"
+    ],
+    "1.20+fabric": [
+      "scjB8QNJ"
+    ],
+    "1.20.1+fabric": [
+      "scjB8QNJ"
+    ],
+    "1.20.1+forge": [
+      "SITmKVIA"
+    ],
+    "1.20.5+fabric": [
+      "eQoklJHR"
+    ],
+    "1.20.5+neoforge": [
+      "7yGSFuYK"
+    ],
+    "1.20.5+quilt": [
+      "eQoklJHR"
+    ],
+    "1.20.6+fabric": [
+      "eQoklJHR"
+    ],
+    "1.20.6+neoforge": [
+      "7yGSFuYK"
+    ],
+    "1.20.6+quilt": [
+      "eQoklJHR"
+    ],
+    "1.21+fabric": [
+      "y8tXTxRe",
+      "44Xrw1kH"
+    ],
+    "1.21+neoforge": [
+      "Wbr2IDKN",
+      "vp99Tzud"
+    ],
+    "1.21.1+fabric": [
+      "y3vpsRZp",
+      "4wTprVFp"
+    ],
+    "1.21.1+neoforge": [
+      "Wbr2IDKN",
+      "vp99Tzud"
+    ],
+    "1.21.2+fabric": [
+      "5c5FupHt"
+    ],
+    "1.21.2+neoforge": [
+      "9huPAFCK"
+    ],
+    "1.21.3+fabric": [
+      "i3eTPMKh"
+    ],
+    "1.21.3+neoforge": [
+      "9huPAFCK"
+    ],
+    "1.21.4+fabric": [
+      "i3eTPMKh"
+    ],
+    "1.21.4+neoforge": [
+      "9huPAFCK"
+    ],
+    "1.21.5+fabric": [
+      "i3eTPMKh"
+    ],
+    "1.21.5+neoforge": [
+      "9huPAFCK"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "animated-armor-origin",
+  "projectId": "rDnw8AIz",
+  "versions": {
+    "EkuYBo0e": {
+      "filename": "Animated-Armor-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/rDnw8AIz/versions/EkuYBo0e/Animated-Armor-1.7.0.jar",
+      "hash": "sha512-uRIEKGYWexiSx14eo+55T7DQWvLRQLZyV0uNlcXkKPERmwUj5z4dUEFoILS6+BTuw3jd4oiiSHfHJCrXjivZRQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "EkuYBo0e"
+    ],
+    "1.19.1+fabric": [
+      "EkuYBo0e"
+    ],
+    "1.19.2+fabric": [
+      "EkuYBo0e"
+    ]
+  }
+}

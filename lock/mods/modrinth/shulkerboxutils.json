@@ -1,0 +1,141 @@
+{
+  "slug": "shulkerboxutils",
+  "projectId": "jImXt3Wm",
+  "versions": {
+    "JSIXDzk8": {
+      "filename": "shulkerboxutils-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jImXt3Wm/versions/JSIXDzk8/shulkerboxutils-1.1.0.jar",
+      "hash": "sha512-/6VqHPyYxehpP0aVzsNV3LnvrbthbQF1Nii1Rmr0xpyyDdKpNhvU0pc5Slm7Qh9Nas3Err9eCTKzcqNI4ugV1g==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        }
+      ]
+    },
+    "K7AKtu6n": {
+      "filename": "shulkerboxutils-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jImXt3Wm/versions/K7AKtu6n/shulkerboxutils-1.2.0.jar",
+      "hash": "sha512-lxPBrSvlvp3K9dAS5MGm+BCS5pMWTTJXPxi7iNLL7l79y/OE3I6IwBmuKOq1nCMd0j5HwrmYRytoJXQjS8T3CQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        }
+      ]
+    },
+    "OceyUVZ1": {
+      "filename": "shulkerboxutils-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/jImXt3Wm/versions/OceyUVZ1/shulkerboxutils-1.3.0.jar",
+      "hash": "sha512-gi0VZH255k3508i+rUEQTQvJoedu5jg4mLpiMils3T2VarfyU4jTYPjYDvSB+McAKS1+wIJwRpEpqTzWD8ziFw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        }
+      ]
+    },
+    "nWnulV3u": {
+      "filename": "shulkerboxutils-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/jImXt3Wm/versions/nWnulV3u/shulkerboxutils-1.2.1.jar",
+      "hash": "sha512-BaUsnP9hbaFzkifErVRs5Lqr05BiMF9oBxb0RoT/fkV0/FATQUDykf/ySVrjERIDMA03/WwccpATz0pFbYa7zg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qKbhviRK": {
+      "filename": "shulkerboxutils-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jImXt3Wm/versions/qKbhviRK/shulkerboxutils-1.0.0.jar",
+      "hash": "sha512-ugeG9A02ZA6F4jS/RRZTL7GD75ut3HYqoozGYwTlSbJidUUyXY4CU8b+t0HmlkX4i3PUd+eKh0udgM5m+4ZUVA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "qKbhviRK"
+    ],
+    "26.1+fabric": [
+      "nWnulV3u",
+      "K7AKtu6n",
+      "JSIXDzk8"
+    ],
+    "26.1.1+fabric": [
+      "nWnulV3u",
+      "K7AKtu6n"
+    ],
+    "26.1.2+fabric": [
+      "nWnulV3u",
+      "K7AKtu6n"
+    ],
+    "26.2+fabric": [
+      "OceyUVZ1"
+    ]
+  }
+}

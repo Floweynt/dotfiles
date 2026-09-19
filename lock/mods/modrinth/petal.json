@@ -1,0 +1,48 @@
+{
+  "slug": "petal",
+  "projectId": "IupWkJpE",
+  "versions": {
+    "JjdU2tXH": {
+      "filename": "petal-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/IupWkJpE/versions/JjdU2tXH/petal-1.0.1.jar",
+      "hash": "sha512-EFz2BC006eOz0wli8WD+FRCF68xD8gf7aD2lsPaWdwWzbSiBA7ErZPZav2Y+dJExxsOJjb/7yv8WcfBUAiox1A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zGoiYWpD": {
+      "filename": "petal-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IupWkJpE/versions/zGoiYWpD/petal-1.0.0.jar",
+      "hash": "sha512-XbZY8RMZi0RUZ5fH4Q7kBa9nr+y5GbKB15tuhoJ4yWSgP4EwKo9qim0HFS8dTcb1UDlqblyPhLu6IHmIcdshiA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "JjdU2tXH"
+    ],
+    "1.20.1+fabric": [
+      "JjdU2tXH",
+      "zGoiYWpD"
+    ],
+    "1.20.2+fabric": [
+      "zGoiYWpD"
+    ]
+  }
+}

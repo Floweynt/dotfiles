@@ -1,0 +1,62 @@
+{
+  "slug": "meows",
+  "projectId": "gBli4dGj",
+  "versions": {
+    "AnJcvyHE": {
+      "filename": "meows-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/gBli4dGj/versions/AnJcvyHE/meows-0.0.2.jar",
+      "hash": "sha512-N384fEWPo42/5Rxkr/D9jWWuUwcCqARp8G/HudRcVLAao6QbygX3hNPWBBxPDawbNkeuE3PEAokvV2rZ9pPVWg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mP45biln": {
+      "filename": "meows-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/gBli4dGj/versions/mP45biln/meows-0.0.1.jar",
+      "hash": "sha512-oa1KxsCM3RTBFba8/oqX3O4XI4RNr9KpA1DJAFNGKzH2alUom1iUVXLrxwUISVPktauijLK+fXhhJ8wn+0xe+g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "mP45biln"
+    ],
+    "26.1.1+fabric": [
+      "mP45biln"
+    ],
+    "26.1.2+fabric": [
+      "mP45biln"
+    ],
+    "26.2+fabric": [
+      "AnJcvyHE"
+    ]
+  }
+}

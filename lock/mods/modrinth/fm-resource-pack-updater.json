@@ -1,0 +1,80 @@
+{
+  "slug": "fm-resource-pack-updater",
+  "projectId": "f5lMVJ79",
+  "versions": {
+    "DO3TpWz3": {
+      "filename": "rpupdater-0.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/f5lMVJ79/versions/DO3TpWz3/rpupdater-0.0.4.jar",
+      "hash": "sha512-L45jXV1xY9Ztv3o9P0zgFfyAqUT29DYFD7nhAbSe/Bz8iX01Xr1MOer5UU2NpLElNeKmQdrv4T3lrA9EZTCv8g==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fancymenu",
+          "projectId": "Wq5SjeWM",
+          "type": "required"
+        }
+      ]
+    },
+    "Uzbqr9JI": {
+      "filename": "rpupdater-0.0.1-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/f5lMVJ79/versions/Uzbqr9JI/rpupdater-0.0.1-1.19.2.jar",
+      "hash": "sha512-9w4/Lq7PwldV3PIu/Qc77A03QvUep3g6xn1xHRkklJxCtH4maknka48mbqQfEbQ8EOtssyAUwC3gr76mA0Yaeg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "konkrete",
+          "projectId": "J81TRJWm",
+          "type": "required"
+        },
+        {
+          "slug": "fancymenu",
+          "projectId": "Wq5SjeWM",
+          "type": "required"
+        }
+      ]
+    },
+    "iCMYGxso": {
+      "filename": "rpupdater-0.0.2-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/f5lMVJ79/versions/iCMYGxso/rpupdater-0.0.2-1.19.2.jar",
+      "hash": "sha512-utJDc07n8Mf17RN4yacwegSC4n6fIGPhi6/WWEyuGvIjPcD+CZrVQTEu+0Z3bkD9YRFon8DpQ2A1OG0+Uk9pVw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fancymenu",
+          "projectId": "Wq5SjeWM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "iCMYGxso",
+      "Uzbqr9JI"
+    ],
+    "1.19.4+fabric": [
+      "DO3TpWz3"
+    ]
+  }
+}

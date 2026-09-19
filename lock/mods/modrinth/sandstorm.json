@@ -1,0 +1,120 @@
+{
+  "slug": "sandstorm",
+  "projectId": "tJXvhD9Y",
+  "versions": {
+    "GDvgVrKW": {
+      "filename": "sandstorm-0.1.0-alpha+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/tJXvhD9Y/versions/GDvgVrKW/sandstorm-0.1.0-alpha%2B1.21.jar",
+      "hash": "sha512-ZBtf7MLm1r9pOcwlnV+g1ZHVKLhBNTc65goQ5isQPBY9jQmqffVfEysaWOl2fEFQSeQqUaHlQx8TF3S4tLxj5w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "GF1JKxH2": {
+      "filename": "sandstorm-0.2.0-beta.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/tJXvhD9Y/versions/GF1JKxH2/sandstorm-0.2.0-beta.1%2B1.21.jar",
+      "hash": "sha512-++iyJVO9nD3XQ5CBdxKpfax2NMpBysmzlSUbibhs7bM+WK16q41V0aoFudqOo2FJHE/deUaJSDU4ysxcDfze0w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lxAuSVXG": {
+      "filename": "sandstorm-0.2.0-beta.1+1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/tJXvhD9Y/versions/lxAuSVXG/sandstorm-0.2.0-beta.1%2B1.21.5.jar",
+      "hash": "sha512-WjCjFE7qDxoSVMKyz9GSrzn0YbJSiAtLoahjqgF2ObrlT+M7BH/mHT7563Iw1vb3wl42OMdGiN4RVCALHLZbDg==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "oelIbV69": {
+      "filename": "sandstorm-0.3.0-beta.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/tJXvhD9Y/versions/oelIbV69/sandstorm-0.3.0-beta.1%2B26.1.jar",
+      "hash": "sha512-4e3AN7QU19A3nvlfB8xgC+0epeyk5rZ+Ss/UEIpcgk7zEbjdYfNuf/7AIfxM5vS0+jGVDw9ePRpSwl0uvCo+2Q==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "GF1JKxH2",
+      "GDvgVrKW"
+    ],
+    "1.21.1+fabric": [
+      "GF1JKxH2",
+      "GDvgVrKW"
+    ],
+    "1.21.5+fabric": [
+      "lxAuSVXG"
+    ],
+    "1.21.6+fabric": [
+      "lxAuSVXG"
+    ],
+    "1.21.7+fabric": [
+      "lxAuSVXG"
+    ],
+    "1.21.8+fabric": [
+      "lxAuSVXG"
+    ],
+    "26.1+fabric": [
+      "oelIbV69"
+    ]
+  }
+}

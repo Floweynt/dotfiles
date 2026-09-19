@@ -1,0 +1,55 @@
+{
+  "slug": "geckolib-armor-compat",
+  "projectId": "Bx8rbP88",
+  "versions": {
+    "JUHx1KSg": {
+      "filename": "geckolibcompat-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/Bx8rbP88/versions/JUHx1KSg/geckolibcompat-1.3.2.jar",
+      "hash": "sha512-H/0Nq+DQ6tNMqtD3BCi/yVgiOy6SZDhMuMGj2SFeHlMuydDTkO/dsBjL8R+nHzOv+CnYV9XL68VWD8C8VEAPXg==",
+      "gameVersions": [
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17.1+fabric": [
+      "JUHx1KSg"
+    ],
+    "1.18+fabric": [
+      "JUHx1KSg"
+    ],
+    "1.18.1+fabric": [
+      "JUHx1KSg"
+    ],
+    "1.18.2+fabric": [
+      "JUHx1KSg"
+    ],
+    "1.19+fabric": [
+      "JUHx1KSg"
+    ],
+    "1.19.1+fabric": [
+      "JUHx1KSg"
+    ],
+    "1.19.2+fabric": [
+      "JUHx1KSg"
+    ]
+  }
+}

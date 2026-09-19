@@ -1,0 +1,82 @@
+{
+  "slug": "pehkui-presets",
+  "projectId": "3oBm9pOn",
+  "versions": {
+    "Mksf502e": {
+      "filename": "size_commands-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3oBm9pOn/versions/Mksf502e/size_commands-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-MFmQeObjcaNgMfnJyxVQBCcVjldwss1OpAgoYs7OFvfpocmSDfvuTWkQOJGFyqEIjkJmRDpebMhiSSjoko7WwQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "hpNMjAFh": {
+      "filename": "pehkui-presets-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3oBm9pOn/versions/hpNMjAFh/pehkui-presets-1.0.0.jar",
+      "hash": "sha512-fQxgsrbE3YT1liEQF3S9ps2uorD9w4etTUwXDlkr3YTZUfUJEJDJq09wYnDCe9xS3sgGBe82n6oJtRB4B/S99g==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "Mksf502e"
+    ],
+    "1.21.1+fabric": [
+      "hpNMjAFh"
+    ],
+    "1.21.2+fabric": [
+      "hpNMjAFh"
+    ],
+    "1.21.3+fabric": [
+      "hpNMjAFh"
+    ],
+    "1.21.4+fabric": [
+      "hpNMjAFh"
+    ],
+    "1.21.5+fabric": [
+      "hpNMjAFh"
+    ],
+    "1.21.6+fabric": [
+      "hpNMjAFh"
+    ],
+    "1.21.7+fabric": [
+      "hpNMjAFh"
+    ],
+    "1.21.8+fabric": [
+      "hpNMjAFh"
+    ]
+  }
+}

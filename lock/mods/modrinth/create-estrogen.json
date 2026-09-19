@@ -1,0 +1,122 @@
+{
+  "slug": "create-estrogen",
+  "projectId": "OEAJaSuI",
+  "versions": {
+    "FUqVYinu": {
+      "filename": "createestrogen-1.0.0+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/OEAJaSuI/versions/FUqVYinu/createestrogen-1.0.0%2B1.20.1-forge.jar",
+      "hash": "sha512-KACE1IVjKMU945Fdnh1X2Vlo3YPobr1rSjansHRnF3rbpUhkNHwcnltXCgyYZIdbXsGnQYn2ISE1oLqSMLNhcQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "WVx9xRxi": {
+      "filename": "createestrogen-1.0.1+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/OEAJaSuI/versions/WVx9xRxi/createestrogen-1.0.1%2B1.20.1-forge.jar",
+      "hash": "sha512-+XhElGzStk9HWmsMK/pv3ED4fSLd24JqyfiyWUdXVzJ0jdYTAJQYdeXAluGZh0QvFnkGxw27wlqqjVH6BSRroQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "dfNdB0gV": {
+      "filename": "createestrogen-1.0.1+1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/OEAJaSuI/versions/dfNdB0gV/createestrogen-1.0.1%2B1.20.1-fabric.jar",
+      "hash": "sha512-0eQ/z5W+6x6Q/LhOUEHLm6l+p4ZC+AXfxMCOcx0ivY7PlGvLMvNFW8sz+xNI7OCd29W8+YVgpEmqU2NuN8m3BQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "v2ijIuGa": {
+      "filename": "createestrogen-1.0.0+1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/OEAJaSuI/versions/v2ijIuGa/createestrogen-1.0.0%2B1.20.1-fabric.jar",
+      "hash": "sha512-QeWI4U5VsdFxNGA5krGIqPR6ZWkdsnpPCNt52UAs4a0mr212cxuV+g9VMZaBKmaNpnBMj4ovhKD7ZnChDpGTvw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "dfNdB0gV",
+      "v2ijIuGa"
+    ],
+    "1.20.1+forge": [
+      "WVx9xRxi",
+      "FUqVYinu"
+    ],
+    "1.20.1+quilt": [
+      "dfNdB0gV",
+      "v2ijIuGa"
+    ]
+  }
+}

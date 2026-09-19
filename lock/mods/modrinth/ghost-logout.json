@@ -1,0 +1,54 @@
+{
+  "slug": "ghost-logout",
+  "projectId": "mpscPf9E",
+  "versions": {
+    "23BkgtrO": {
+      "filename": "ghostLogout-0.1.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/mpscPf9E/versions/23BkgtrO/ghostLogout-0.1.0%2B1.19.2.jar",
+      "hash": "sha512-l+3TY9SHIFlqqEPn4Hz5g0oACmX9u2mJkxz/Seaa/QUDu4eL5dWe8U/igedYO0//5f0lzLcToXcmnOJAX452Jg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "giA1skiv": {
+      "filename": "ghostLogout-0.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mpscPf9E/versions/giA1skiv/ghostLogout-0.1.0%2B1.20.1.jar",
+      "hash": "sha512-10SDRtNdTjPhZ86J6v80g2JGyrjJRVeHT+H95nwcABueMXQbMXQj1O4GTQsGf+WXjx8Wq3PIXpEulM0sTLZ2vw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "23BkgtrO"
+    ],
+    "1.20.1+fabric": [
+      "giA1skiv"
+    ]
+  }
+}

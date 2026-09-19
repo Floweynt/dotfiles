@@ -1,0 +1,72 @@
+{
+  "slug": "connected-core",
+  "projectId": "JZ40zud6",
+  "versions": {
+    "D1sy0TiM": {
+      "filename": "connected-core-NeoForge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JZ40zud6/versions/D1sy0TiM/connected-core-NeoForge-1.0.0.jar",
+      "hash": "sha512-yGASO6j7f51NCfKDhecGAxSKhT5eE7K3eg6Nyrh7H3vMSc5Mdj0GBwgxNdlZnn6lvBfKxN10YpooMYj/KXXB8Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Z0UhDExQ": {
+      "filename": "connected-core-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JZ40zud6/versions/Z0UhDExQ/connected-core-fabric-1.0.0.jar",
+      "hash": "sha512-sGuTo7Kj1o0XE8GW4hYHJzkxCqlntiJXVcoI7G1vWqpWJNMoDyKYgdWjA4qeLtPn0SWyz3FhymPjUXXv40wH/A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "jBc1AAMC": {
+      "filename": "connectedcore-neoforge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/JZ40zud6/versions/jBc1AAMC/connectedcore-neoforge-1.0.1.jar",
+      "hash": "sha512-Q3Emn98ILAElgXlFQUiUS44E+BJNSvQogNV4RdeDjHqBk5ueuchvoaf2sfDCal9Jp/ozPJWilFGIj2Oan8TjwQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "tV20JV5E": {
+      "filename": "connectedcore-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/JZ40zud6/versions/tV20JV5E/connectedcore-fabric-1.0.1.jar",
+      "hash": "sha512-Ui3dLwlmE+Gq0T29cCz6DIq0XdytS5ckJ2co+4wlw+hlzGJD8Wmrt3O7R8nPBvTiW+vR3OdxInjQIW3zYxGMkA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "tV20JV5E",
+      "Z0UhDExQ"
+    ],
+    "1.21.1+neoforge": [
+      "jBc1AAMC",
+      "D1sy0TiM"
+    ]
+  }
+}

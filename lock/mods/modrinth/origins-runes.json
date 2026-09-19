@@ -1,0 +1,62 @@
+{
+  "slug": "origins-runes",
+  "projectId": "mSn6zK7s",
+  "versions": {
+    "bLkC5i09": {
+      "filename": "Runes_1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/mSn6zK7s/versions/bLkC5i09/Runes_1.0.1.jar",
+      "hash": "sha512-+QrHnKwOL8FcclB/c2rT4n+CPuIUqT3v2lNNOMi+9I1Y5e8fnRkculq4l+vzp5a3pvDQbkIUdhUXKDaO1x5tmg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "dZyewmFx": {
+      "filename": "Runes 1.0.1.zip",
+      "url": "https://cdn.modrinth.com/data/mSn6zK7s/versions/dZyewmFx/Runes%201.0.1.zip",
+      "hash": "sha512-mcPYOYHPRSJkCKKBdXNukbXRE2WJTy+JsIBJxJGjHAKjF/a4g53i+FmViKPVbTDkfpuPPn5Cw14agbvx91QXnQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "dZyewmFx"
+    ],
+    "1.20+fabric": [
+      "bLkC5i09"
+    ],
+    "1.20.1+datapack": [
+      "dZyewmFx"
+    ],
+    "1.20.1+fabric": [
+      "bLkC5i09"
+    ]
+  }
+}

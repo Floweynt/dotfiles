@@ -1,0 +1,97 @@
+{
+  "slug": "reds-tweaks",
+  "projectId": "BNDOLPuO",
+  "versions": {
+    "17uIDecl": {
+      "filename": "redstweaks-1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/BNDOLPuO/versions/17uIDecl/redstweaks-1.1-1.20.1.jar",
+      "hash": "sha512-z4djiUR171Yd0T0sP/LeyUhTY9FXX/LY0BZ//QO0fYp9BVMzO33mCBzJGw84YPSnW0tPsyaU3wYoCV6G1oTIEA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "5Pq4ny8h": {
+      "filename": "redstweaks-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/BNDOLPuO/versions/5Pq4ny8h/redstweaks-1.0-1.20.1.jar",
+      "hash": "sha512-GhfLw/6asgL7t4eyupl2JTOUxvRAnBV6k9JoUX8UxeVTWPyfbC5jb2AFRi9a3AWd5v/UMhR0TRzo/h8FT/p3tQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GfCq6oHZ": {
+      "filename": "redstweaks-1.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/BNDOLPuO/versions/GfCq6oHZ/redstweaks-1.2-1.20.1.jar",
+      "hash": "sha512-I1z2CmgCDiV6FE9LAn6OzONHsXICrd9tpWYaxR0cJ8urhw5yibkea00TYoa0ekzNT3aIayyjT1kmJTzVtEVw7Q==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "GfCq6oHZ",
+      "17uIDecl",
+      "5Pq4ny8h"
+    ],
+    "1.20.2+fabric": [
+      "GfCq6oHZ",
+      "17uIDecl"
+    ],
+    "1.20.3+fabric": [
+      "GfCq6oHZ",
+      "17uIDecl"
+    ],
+    "1.20.4+fabric": [
+      "GfCq6oHZ",
+      "17uIDecl"
+    ],
+    "1.20.5+fabric": [
+      "GfCq6oHZ",
+      "17uIDecl"
+    ]
+  }
+}

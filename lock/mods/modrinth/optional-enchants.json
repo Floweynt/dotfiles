@@ -1,0 +1,103 @@
+{
+  "slug": "optional-enchants",
+  "projectId": "KdMnJcmT",
+  "versions": {
+    "5ggHpQym": {
+      "filename": "optional-enchants-1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/KdMnJcmT/versions/5ggHpQym/optional-enchants-1.19.4.jar",
+      "hash": "sha512-+KnVv34g4F/B+rD0yJI/NcfZ6CHSfikr5BaEK0kPOkBRJ8pWDS3mM3f0hzU1jql/0ZOoWZYL+J3WH8VR9DhuQg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "5mnC7DuK": {
+      "filename": "optional_enchants-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KdMnJcmT/versions/5mnC7DuK/optional_enchants-1.1.0.jar",
+      "hash": "sha512-GW/VR4K5VyewMm9gemwfWf2oHZYiwDRojvlHjJi+r3Ddl3qqLp2a1IJmccxgRAbeBWWNzeaSo13uYpQXTE92Wg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OIJXiaYC": {
+      "filename": "optional_enchants-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/KdMnJcmT/versions/OIJXiaYC/optional_enchants-1.20.1.jar",
+      "hash": "sha512-bOtme9DzC7ooiJ3csAUPXdLQl2jdxXEdfbmaWI2BM7IPRMFBLJfpUrxA9X0VtVafgvZpm6VrohXrFwnTRXcWjA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VelgDGK8": {
+      "filename": "optional_enchants-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/KdMnJcmT/versions/VelgDGK8/optional_enchants-1.1.2.jar",
+      "hash": "sha512-UUtCqxAK/PZ72n8MpJ9ZeCr8Z8AVJlCKqxH5WXxcwdSU+gTlGZe0aKMuRFpySWKeGNFwuNogvvO86quLeAmR5g==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zy90BcU5": {
+      "filename": "optional_enchants-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KdMnJcmT/versions/zy90BcU5/optional_enchants-1.1.0.jar",
+      "hash": "sha512-gUk9DJHH+uxO7KO64OY1lEDtzAGT3OG20UqinL19xeJLzeZdXWIUig4Ydzmhb/Nnh3B0lVjRJxqowAunenEJRQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "5ggHpQym"
+    ],
+    "1.20.1+fabric": [
+      "zy90BcU5",
+      "OIJXiaYC"
+    ],
+    "1.20.2+fabric": [
+      "VelgDGK8",
+      "5mnC7DuK"
+    ],
+    "1.20.3+fabric": [
+      "VelgDGK8"
+    ],
+    "1.20.4+fabric": [
+      "VelgDGK8"
+    ]
+  }
+}

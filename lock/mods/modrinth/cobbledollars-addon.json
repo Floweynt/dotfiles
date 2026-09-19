@@ -1,0 +1,36 @@
+{
+  "slug": "cobbledollars-addon",
+  "projectId": "U9CQIPCV",
+  "versions": {
+    "qe0La8V5": {
+      "filename": "Cobbledolarsaddon-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/U9CQIPCV/versions/qe0La8V5/Cobbledolarsaddon-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-l9DvLKq07vuSoNlFAnyUe1x3VO1n8WoPqQl8+v6YQBsc/tgjN3RP6EPu9vObyTZzjfR08fvE5Trfupbxi33Jww==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobbledollars",
+          "projectId": "s7N7AsqL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "qe0La8V5"
+    ]
+  }
+}

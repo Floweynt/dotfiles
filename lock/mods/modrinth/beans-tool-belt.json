@@ -1,0 +1,138 @@
+{
+  "slug": "beans-tool-belt",
+  "projectId": "4aEg65B2",
+  "versions": {
+    "XlIzBI4T": {
+      "filename": "beanstoolbelt-f-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/4aEg65B2/versions/XlIzBI4T/beanstoolbelt-f-1.0.jar",
+      "hash": "sha512-iWt6ER4wWfvrnFmQuhNnJ0RGOm6KYJGrRADfR+IL3RXLtWAKisbjhMnXgFLZlcoajUMZGxmICPbS+QhRcPSrrA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "void-lib",
+          "projectId": "Z7Z0JsCA",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fastconfigapi",
+          "projectId": "jhHNjn7K",
+          "type": "required"
+        }
+      ]
+    },
+    "Xtro9r3p": {
+      "filename": "Shorthand-NeoForge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/4aEg65B2/versions/Xtro9r3p/Shorthand-NeoForge-0.1.0.jar",
+      "hash": "sha512-T8NS89BtMg2Lep15dtwdQAwADE9DQe9VAzRjyhqsvFptibmTC0oxxO2P9M51SdubEir46lNQrR3VlZvK7M79sw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fastconfigapi",
+          "projectId": "jhHNjn7K",
+          "type": "required"
+        }
+      ]
+    },
+    "hhRRaT4T": {
+      "filename": "Shorthand-Fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/4aEg65B2/versions/hhRRaT4T/Shorthand-Fabric-0.1.0.jar",
+      "hash": "sha512-EEmsO3k5yCulzjg4iQBgZGaBYEbKkmFZdUZHBbx7347jVQvwo5c86wRhn4T7P+s9+XltZWbUMxZ24mCLQzgkOA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fastconfigapi",
+          "projectId": "jhHNjn7K",
+          "type": "required"
+        }
+      ]
+    },
+    "tRj0sJNI": {
+      "filename": "beanstoolbelt-n-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/4aEg65B2/versions/tRj0sJNI/beanstoolbelt-n-1.0.jar",
+      "hash": "sha512-T2Uzgwnk+h8B2wH48bYbWuDy2PmCdIwa28hpfDCKiZ6gJz4fAMPHebeBfj8XYS2YpsseJUF0gkRdo86jKr/esQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fastconfigapi",
+          "projectId": "jhHNjn7K",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "void-lib",
+          "projectId": "Z7Z0JsCA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "XlIzBI4T",
+      "hhRRaT4T"
+    ],
+    "1.21+neoforge": [
+      "tRj0sJNI",
+      "Xtro9r3p"
+    ],
+    "1.21.1+fabric": [
+      "XlIzBI4T",
+      "hhRRaT4T"
+    ],
+    "1.21.1+neoforge": [
+      "tRj0sJNI",
+      "Xtro9r3p"
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "totem-overlays",
+  "projectId": "DFLgC7xg",
+  "versions": {
+    "DaGD8Nid": {
+      "filename": "totem-overlays-1.0+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/DFLgC7xg/versions/DaGD8Nid/totem-overlays-1.0%2B1.19.4.jar",
+      "hash": "sha512-BKaZ0JG8UXWQsKIuz1Rsy7H1anSWTNDG3tE8/+6623VqzqhueGJtS3QwgNH3g2PR1NeioYPfBfehpmJAv6J2Ug==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "tulip",
+          "projectId": "pUsfFQQa",
+          "type": "required"
+        }
+      ]
+    },
+    "H5qNm8L1": {
+      "filename": "totem-indicator-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/DFLgC7xg/versions/H5qNm8L1/totem-indicator-1.1.2.jar",
+      "hash": "sha512-XLE+X68NLmKJ10lfmLRabt6Ex+rTfhIi+u+MCfmuKjKop++OxtWb0j3wdZyycQAWlq94Vv9ZH3gtzED4+QRLDQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "tulip",
+          "projectId": "pUsfFQQa",
+          "type": "required"
+        }
+      ]
+    },
+    "QYetj44e": {
+      "filename": "totem-overlays-1.0+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/DFLgC7xg/versions/QYetj44e/totem-overlays-1.0%2B1.18.2.jar",
+      "hash": "sha512-vGMcocZrAbokb5RuwVig6YEZQcg/eBi0Gk50Kn5pKpqtnykgaKpnkgyOZYIeTqxhj6+3X4vB0XqFsCEzfWQWAg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "tulip",
+          "projectId": "pUsfFQQa",
+          "type": "required"
+        }
+      ]
+    },
+    "wJPzGjKo": {
+      "filename": "totem-indicator-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DFLgC7xg/versions/wJPzGjKo/totem-indicator-1.1.0.jar",
+      "hash": "sha512-xHB1Eb05E3kERnMSnQxZOMs1aDpxx2LKfgDhB0OFLFQ83ZRgr/SSVMKWDTpYkYIcTP/St2okGh5zlUWAmyq+Gg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "tulip",
+          "projectId": "pUsfFQQa",
+          "type": "required"
+        }
+      ]
+    },
+    "xUsIAZpV": {
+      "filename": "totem-indicator-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/DFLgC7xg/versions/xUsIAZpV/totem-indicator-1.1.1.jar",
+      "hash": "sha512-0rX74GlfHCKeMjoLxa9CINCQCl3ZyPZp9FWiIiWn3jOvkJ8R6A8b0it+q+bdyy/z8Y8d2XluUHk/xR7Ai6zyHA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "tulip",
+          "projectId": "pUsfFQQa",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "QYetj44e"
+    ],
+    "1.19.4+fabric": [
+      "DaGD8Nid"
+    ],
+    "1.20+fabric": [
+      "H5qNm8L1",
+      "xUsIAZpV",
+      "wJPzGjKo"
+    ],
+    "1.20+quilt": [
+      "wJPzGjKo"
+    ],
+    "1.20.1+fabric": [
+      "H5qNm8L1",
+      "xUsIAZpV",
+      "wJPzGjKo"
+    ],
+    "1.20.1+quilt": [
+      "wJPzGjKo"
+    ],
+    "1.20.2+fabric": [
+      "H5qNm8L1",
+      "xUsIAZpV",
+      "wJPzGjKo"
+    ],
+    "1.20.2+quilt": [
+      "wJPzGjKo"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "advanced-fake-player",
+  "projectId": "prCEsDl7",
+  "versions": {
+    "2Gyl0BfB": {
+      "filename": "advancedfakeplayers-fabric-1.20.1-1.0.0-b2.jar",
+      "url": "https://cdn.modrinth.com/data/prCEsDl7/versions/2Gyl0BfB/advancedfakeplayers-fabric-1.20.1-1.0.0-b2.jar",
+      "hash": "sha512-Iar4tMrCMN8Vhfe4+6iILcefjKh+6cL8zvMPhlYdVKao9RMvvt3Wj0bacM+kKKOfnGgRlLVA9Td2aAniAQcqDw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "JlBFh7ZD": {
+      "filename": "advancedfakeplayers-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/prCEsDl7/versions/JlBFh7ZD/advancedfakeplayers-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-Fe8tyIaNfVVDXsNLmduGOtzOb7G3zDpC2GZHGSYJuNRa5v3V41EKVRd0SXWUIecw7PEmxHUTW0nO6IeILFg9rw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OlNBpVFE": {
+      "filename": "advancedfakeplayers-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/prCEsDl7/versions/OlNBpVFE/advancedfakeplayers-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-V8M+LJSr444oUa34iKtrw3EuIulGmSDPDwLIJOxRhrYAnL7936rwOfY+f3qKFStQ46i8RrnuWdKs1wGAoezjRw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bUFHwCdI": {
+      "filename": "advancedfakeplayers-forge-1.20.1-1.0.0-beta.1.jar",
+      "url": "https://cdn.modrinth.com/data/prCEsDl7/versions/bUFHwCdI/advancedfakeplayers-forge-1.20.1-1.0.0-beta.1.jar",
+      "hash": "sha512-/2F0XjNcqnnGP6TsQfgWSfWO009RhdBX61rVRarjt44TAX52CFM9nSdsrPWr2gciRoaszSPRmXLyTu4kL5vc1A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "h79IXUYH": {
+      "filename": "advancedfakeplayers-forge-1.20.1-1.0.0-b2.jar",
+      "url": "https://cdn.modrinth.com/data/prCEsDl7/versions/h79IXUYH/advancedfakeplayers-forge-1.20.1-1.0.0-b2.jar",
+      "hash": "sha512-Lg1VVrQKOQCVMGkJ4zYC/04B+iK5I2juWzGD2LXQsYHACa1XgwYe0hEdlLGIHLIGzJ9A0YmYEUMKcYc4dzowow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wArU3eZf": {
+      "filename": "advancedfakeplayers-fabric-1.20.1-1.0.0-beta.1.jar",
+      "url": "https://cdn.modrinth.com/data/prCEsDl7/versions/wArU3eZf/advancedfakeplayers-fabric-1.20.1-1.0.0-beta.1.jar",
+      "hash": "sha512-aMn7QAaRp4y/LJwgB61MiOwNPkRFNMCwDk0v4BDkruTKV4RpR6EP2yZmLG089r2kh9d6ZTEqVOKYGBsr2OMWGw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "JlBFh7ZD",
+      "2Gyl0BfB",
+      "wArU3eZf"
+    ],
+    "1.20.1+forge": [
+      "OlNBpVFE",
+      "h79IXUYH",
+      "bUFHwCdI"
+    ]
+  }
+}

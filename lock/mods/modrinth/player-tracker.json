@@ -1,0 +1,31 @@
+{
+  "slug": "player-tracker",
+  "projectId": "L8Vo4ZS1",
+  "versions": {
+    "kizL8omu": {
+      "filename": "player-tracker-0.2-fabric-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/L8Vo4ZS1/versions/kizL8omu/player-tracker-0.2-fabric-1.20.4.jar",
+      "hash": "sha512-BEjYNNgbN6lNSXcHEOvCXe8G5FhibaEQuMMfk9cDch7Dm146v03IOSLBnUlYKs3Pd86DkXWS0Y5q8kJ/R4lqwQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "kizL8omu"
+    ]
+  }
+}

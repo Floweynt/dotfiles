@@ -1,0 +1,175 @@
+{
+  "slug": "logmyblock",
+  "projectId": "c4Ka8jqa",
+  "versions": {
+    "4BSkqF1P": {
+      "filename": "logmyblockneoforge-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/c4Ka8jqa/versions/4BSkqF1P/logmyblockneoforge-1.0.2.jar",
+      "hash": "sha512-zb12gEpn/Au1ZdyvPSwxPQKV2z8HABJRDTH3dns3AZZPHnfY2puXDFSHg/heBK1XxTH+2bPZ9SifVDcCiIYM3g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "4y4UEfFf": {
+      "filename": "logmyblockneoforge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/c4Ka8jqa/versions/4y4UEfFf/logmyblockneoforge-1.0.1.jar",
+      "hash": "sha512-BBSQiAlnlM2XYZ+wSFoBPF/pjuOwbDoNx4damqlc1FPnIJtL2I2R4Rne93g8tY86bZhwi874YlhGZTX8IZe6xg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "QvWWJ0GT": {
+      "filename": "logmyblock-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/c4Ka8jqa/versions/QvWWJ0GT/logmyblock-neoforge-1.1.0.jar",
+      "hash": "sha512-8pbKKcqmdrWjI+iyBabHpL8qNeh3rgmZOj3WL6sPpJd8QOxoM2+hrzXQjhdpSwEQr2om45d3tbxX26dIwz+r2g==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "S0Un413K": {
+      "filename": "logmyblock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c4Ka8jqa/versions/S0Un413K/logmyblock-1.0.0.jar",
+      "hash": "sha512-yJHlPdlVyUrU/CpO4e1bxGz3P2pb5BPvHlHBc1aFjYkXx+6lHz14JYTU0h3vd5fYIUeyCe1A5bazyO7mSGyLrg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "Wmu2isPM": {
+      "filename": "logmyblockneoforge-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/c4Ka8jqa/versions/Wmu2isPM/logmyblockneoforge-1.0-SNAPSHOT.jar",
+      "hash": "sha512-WbaPeMqmP4Byx0f2U7N7+vK+O9yGeFX0KQXC0P7xtALBfgtxdGJnhoqE7Ux6dFjZw7zJvCHhEm9HHOi9mcH0gQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "jI20LYQm": {
+      "filename": "logmyblock-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/c4Ka8jqa/versions/jI20LYQm/logmyblock-fabric-1.1.0.jar",
+      "hash": "sha512-nWn1XUFh9Sjsho/5j53vr4eGL3FIAZUK3z5EQQ0PIAsdOmcUqgtS66gJZOV8jD2UElmbXLUZV5OXd9DKxn2MWQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+forge": [
+      "S0Un413K"
+    ],
+    "1.21+neoforge": [
+      "4BSkqF1P",
+      "Wmu2isPM"
+    ],
+    "1.21.1+forge": [
+      "S0Un413K"
+    ],
+    "1.21.1+neoforge": [
+      "4BSkqF1P",
+      "4y4UEfFf",
+      "Wmu2isPM"
+    ],
+    "1.21.10+fabric": [
+      "jI20LYQm"
+    ],
+    "1.21.10+neoforge": [
+      "QvWWJ0GT"
+    ],
+    "1.21.2+forge": [
+      "S0Un413K"
+    ],
+    "1.21.2+neoforge": [
+      "4BSkqF1P",
+      "Wmu2isPM"
+    ],
+    "1.21.3+forge": [
+      "S0Un413K"
+    ],
+    "1.21.3+neoforge": [
+      "4BSkqF1P",
+      "Wmu2isPM"
+    ],
+    "1.21.4+forge": [
+      "S0Un413K"
+    ],
+    "1.21.4+neoforge": [
+      "4BSkqF1P",
+      "Wmu2isPM"
+    ],
+    "1.21.5+neoforge": [
+      "4BSkqF1P"
+    ],
+    "1.21.6+neoforge": [
+      "4BSkqF1P"
+    ],
+    "1.21.7+neoforge": [
+      "4BSkqF1P"
+    ]
+  }
+}

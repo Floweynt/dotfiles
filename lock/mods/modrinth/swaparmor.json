@@ -1,0 +1,813 @@
+{
+  "slug": "swaparmor",
+  "projectId": "9BKTdCkW",
+  "versions": {
+    "728FpGaz": {
+      "filename": "swaparmor-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/9BKTdCkW/versions/728FpGaz/swaparmor-2.0.jar",
+      "hash": "sha512-KfO9owEn4PJg/lZ08sB1oFLvBNDNgGt+dT33ar7XAvBdoqG40py1KND0eaFvbpmG7ETNVmiCz2FThPldGO1qFw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "QV3D9bbr": {
+      "filename": "swaparmor-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9BKTdCkW/versions/QV3D9bbr/swaparmor-1.0.0.jar",
+      "hash": "sha512-JDRFOUoeOj6U1E2r2Hb9a5DvO5cQe+j0EKAXTqYQfRLK71PJH+Erz7oDptxdCe91cd8DMDhimf9zWJZqTFSJ6w==",
+      "gameVersions": [
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "dcKSQqPK": {
+      "filename": "SwapArmor.zip",
+      "url": "https://cdn.modrinth.com/data/9BKTdCkW/versions/dcKSQqPK/SwapArmor.zip",
+      "hash": "sha512-qY1w7XlFIQixb1P1yJRgliznzIYmEZ9/c/IedA7GXBvsmoLPi93F6g3qC+VzvH+KNI4MXu3JJ0y+3cOSKCz0+Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "hD1CB2EG": {
+      "filename": "SwapArmor.zip",
+      "url": "https://cdn.modrinth.com/data/9BKTdCkW/versions/hD1CB2EG/SwapArmor.zip",
+      "hash": "sha512-+fGL8yXseIIfcgSuH1ELSt6YFkk1J5Hdjf2gjwENJpamRoZm89clYtRqwTmp1rpJaYcDVNAXQLNw7tEemAlpVA==",
+      "gameVersions": [
+        "1.13",
+        "1.13.1",
+        "1.13.2",
+        "1.14",
+        "1.14.1",
+        "1.14.2",
+        "1.14.3",
+        "1.14.4",
+        "1.15",
+        "1.15.1",
+        "1.15.2",
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.13+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.13+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.13+forge": [
+      "QV3D9bbr"
+    ],
+    "1.13+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.13.1+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.13.1+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.13.1+forge": [
+      "QV3D9bbr"
+    ],
+    "1.13.1+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.13.2+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.13.2+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.13.2+forge": [
+      "QV3D9bbr"
+    ],
+    "1.13.2+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.14+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.14+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.14+forge": [
+      "QV3D9bbr"
+    ],
+    "1.14+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.14.1+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.14.1+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.14.1+forge": [
+      "QV3D9bbr"
+    ],
+    "1.14.1+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.14.2+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.14.2+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.14.2+forge": [
+      "QV3D9bbr"
+    ],
+    "1.14.2+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.14.3+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.14.3+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.14.3+forge": [
+      "QV3D9bbr"
+    ],
+    "1.14.3+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.14.4+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.14.4+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.14.4+forge": [
+      "QV3D9bbr"
+    ],
+    "1.14.4+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.15+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.15+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.15+forge": [
+      "QV3D9bbr"
+    ],
+    "1.15+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.15.1+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.15.1+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.15.1+forge": [
+      "QV3D9bbr"
+    ],
+    "1.15.1+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.15.2+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.15.2+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.15.2+forge": [
+      "QV3D9bbr"
+    ],
+    "1.15.2+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.16+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.16+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.16+forge": [
+      "QV3D9bbr"
+    ],
+    "1.16+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.16.1+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.16.1+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.16.1+forge": [
+      "QV3D9bbr"
+    ],
+    "1.16.1+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.16.2+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.16.2+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.16.2+forge": [
+      "QV3D9bbr"
+    ],
+    "1.16.2+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.16.3+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.16.3+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.16.3+forge": [
+      "QV3D9bbr"
+    ],
+    "1.16.3+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.16.4+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.16.4+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.16.4+forge": [
+      "QV3D9bbr"
+    ],
+    "1.16.4+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.16.5+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.16.5+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.16.5+forge": [
+      "QV3D9bbr"
+    ],
+    "1.16.5+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.17+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.17+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.17+forge": [
+      "QV3D9bbr"
+    ],
+    "1.17+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.17.1+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.17.1+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.17.1+forge": [
+      "QV3D9bbr"
+    ],
+    "1.17.1+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.18+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.18+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.18+forge": [
+      "QV3D9bbr"
+    ],
+    "1.18+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.18.1+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.18.1+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.18.1+forge": [
+      "QV3D9bbr"
+    ],
+    "1.18.1+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.18.2+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.18.2+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.18.2+forge": [
+      "QV3D9bbr"
+    ],
+    "1.18.2+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.19+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.19+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.19+forge": [
+      "QV3D9bbr"
+    ],
+    "1.19+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.19.1+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.19.1+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.19.1+forge": [
+      "QV3D9bbr"
+    ],
+    "1.19.1+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.19.2+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.19.2+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.19.2+forge": [
+      "QV3D9bbr"
+    ],
+    "1.19.2+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.19.3+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.19.3+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.19.3+forge": [
+      "QV3D9bbr"
+    ],
+    "1.19.3+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.19.4+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.19.4+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.19.4+forge": [
+      "QV3D9bbr"
+    ],
+    "1.19.4+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.20+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.20+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.20+forge": [
+      "QV3D9bbr"
+    ],
+    "1.20+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.20.1+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.20.1+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.20.1+forge": [
+      "QV3D9bbr"
+    ],
+    "1.20.1+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.20.2+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.20.2+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.20.2+forge": [
+      "QV3D9bbr"
+    ],
+    "1.20.2+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.20.3+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.20.3+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.20.3+forge": [
+      "QV3D9bbr"
+    ],
+    "1.20.3+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.20.4+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.20.4+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.20.4+forge": [
+      "QV3D9bbr"
+    ],
+    "1.20.4+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.20.5+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.20.5+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.20.5+forge": [
+      "QV3D9bbr"
+    ],
+    "1.20.5+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.20.6+datapack": [
+      "hD1CB2EG"
+    ],
+    "1.20.6+fabric": [
+      "QV3D9bbr"
+    ],
+    "1.20.6+forge": [
+      "QV3D9bbr"
+    ],
+    "1.20.6+quilt": [
+      "QV3D9bbr"
+    ],
+    "1.21+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21+fabric": [
+      "728FpGaz"
+    ],
+    "1.21+forge": [
+      "728FpGaz"
+    ],
+    "1.21+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.1+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.1+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.1+forge": [
+      "728FpGaz"
+    ],
+    "1.21.1+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.1+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.10+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.10+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.10+forge": [
+      "728FpGaz"
+    ],
+    "1.21.10+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.10+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.11+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.11+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.11+forge": [
+      "728FpGaz"
+    ],
+    "1.21.11+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.11+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.2+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.2+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.2+forge": [
+      "728FpGaz"
+    ],
+    "1.21.2+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.2+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.3+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.3+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.3+forge": [
+      "728FpGaz"
+    ],
+    "1.21.3+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.3+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.4+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.4+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.4+forge": [
+      "728FpGaz"
+    ],
+    "1.21.4+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.4+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.5+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.5+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.5+forge": [
+      "728FpGaz"
+    ],
+    "1.21.5+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.5+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.6+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.6+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.6+forge": [
+      "728FpGaz"
+    ],
+    "1.21.6+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.6+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.7+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.7+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.7+forge": [
+      "728FpGaz"
+    ],
+    "1.21.7+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.7+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.8+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.8+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.8+forge": [
+      "728FpGaz"
+    ],
+    "1.21.8+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.8+quilt": [
+      "728FpGaz"
+    ],
+    "1.21.9+datapack": [
+      "dcKSQqPK"
+    ],
+    "1.21.9+fabric": [
+      "728FpGaz"
+    ],
+    "1.21.9+forge": [
+      "728FpGaz"
+    ],
+    "1.21.9+neoforge": [
+      "728FpGaz"
+    ],
+    "1.21.9+quilt": [
+      "728FpGaz"
+    ],
+    "26.1+datapack": [
+      "dcKSQqPK"
+    ],
+    "26.1+fabric": [
+      "728FpGaz"
+    ],
+    "26.1+forge": [
+      "728FpGaz"
+    ],
+    "26.1+neoforge": [
+      "728FpGaz"
+    ],
+    "26.1+quilt": [
+      "728FpGaz"
+    ],
+    "26.1.1+datapack": [
+      "dcKSQqPK"
+    ],
+    "26.1.1+fabric": [
+      "728FpGaz"
+    ],
+    "26.1.1+forge": [
+      "728FpGaz"
+    ],
+    "26.1.1+neoforge": [
+      "728FpGaz"
+    ],
+    "26.1.1+quilt": [
+      "728FpGaz"
+    ],
+    "26.1.2+datapack": [
+      "dcKSQqPK"
+    ],
+    "26.1.2+fabric": [
+      "728FpGaz"
+    ],
+    "26.1.2+forge": [
+      "728FpGaz"
+    ],
+    "26.1.2+neoforge": [
+      "728FpGaz"
+    ],
+    "26.1.2+quilt": [
+      "728FpGaz"
+    ],
+    "26.2+datapack": [
+      "dcKSQqPK"
+    ],
+    "26.2+fabric": [
+      "728FpGaz"
+    ],
+    "26.2+forge": [
+      "728FpGaz"
+    ],
+    "26.2+neoforge": [
+      "728FpGaz"
+    ],
+    "26.2+quilt": [
+      "728FpGaz"
+    ]
+  }
+}

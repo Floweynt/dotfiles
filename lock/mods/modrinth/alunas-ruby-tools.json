@@ -1,0 +1,111 @@
+{
+  "slug": "alunas-ruby-tools",
+  "projectId": "L6OiwEfE",
+  "versions": {
+    "5mpbU7Nm": {
+      "filename": "ruby-tools-1.0.0+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/L6OiwEfE/versions/5mpbU7Nm/ruby-tools-1.0.0%2B26.1.2.jar",
+      "hash": "sha512-BUYv2vxERC8VbI9lV71w3r4hoi3Z3MofEN3vlnWFKR5XY4ToB5paLvYxW57i71TWGcNTW69CrA5CIR9L9kBpYA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "C0zRCb5i": {
+      "filename": "ruby-tools-1.0.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/L6OiwEfE/versions/C0zRCb5i/ruby-tools-1.0.0%2B1.21.11.jar",
+      "hash": "sha512-QGs3izY/FCpJbgH4eLKwduIPvDRTWlc3rca0LfDkbnAHfCw2Id754q2qKx1dwCw3BsBxQ59xhU3pNRmunkJpFg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UD26naA8": {
+      "filename": "ruby-tools-1.0.0+26.2-pre-4.jar",
+      "url": "https://cdn.modrinth.com/data/L6OiwEfE/versions/UD26naA8/ruby-tools-1.0.0%2B26.2-pre-4.jar",
+      "hash": "sha512-ODHspxmAnZ9/d+3Nt2INOtl7DBCQ/0rcOGVsd1tVOy/c+6QeBaqLoyYq3DqKwD9JozY0WnrHj6EhuQ4wmnmLcA==",
+      "gameVersions": [
+        "26.2-pre-4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hkM6ahKF": {
+      "filename": "ruby-tools-1.0.0+26.2-pre-1.jar",
+      "url": "https://cdn.modrinth.com/data/L6OiwEfE/versions/hkM6ahKF/ruby-tools-1.0.0%2B26.2-pre-1.jar",
+      "hash": "sha512-mK+0gw4aDeLAa/WNxYuOxymb4tRdvnbBl/BW6uQcJOW5gK/SxDJFgFDzlA5W1OL768W++UDrtANTTax0PG44mw==",
+      "gameVersions": [
+        "26.2-pre-1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jrO9zxI0": {
+      "filename": "ruby-tools-1.0.0+26.2-pre-2.jar",
+      "url": "https://cdn.modrinth.com/data/L6OiwEfE/versions/jrO9zxI0/ruby-tools-1.0.0%2B26.2-pre-2.jar",
+      "hash": "sha512-ErDRWJVm6IqCJY7keTmv8v3nsTBK6NJsbsxMd6uIrdpajGQoHqOFhO5hIcOhR5bvk3Q66RwdKmOC2IoYo/NFog==",
+      "gameVersions": [
+        "26.2-pre-2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "C0zRCb5i"
+    ],
+    "26.1.2+fabric": [
+      "5mpbU7Nm"
+    ],
+    "26.2-pre-1+fabric": [
+      "hkM6ahKF"
+    ],
+    "26.2-pre-2+fabric": [
+      "jrO9zxI0"
+    ],
+    "26.2-pre-4+fabric": [
+      "UD26naA8"
+    ]
+  }
+}

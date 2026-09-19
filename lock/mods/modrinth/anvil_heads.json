@@ -1,0 +1,35 @@
+{
+  "slug": "anvil_heads",
+  "projectId": "lX16Rp1p",
+  "versions": {
+    "p6oDZbRg": {
+      "filename": "anvil-heads-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/lX16Rp1p/versions/p6oDZbRg/anvil-heads-1.0-1.20.1.jar",
+      "hash": "sha512-szOT9c+XHGBBRfL8i0TPqpS22TWFPqePxiBjBoB5MMprPze5nqbiaqcjP4T1VuSAMGLuggppAoMc60Gdg7dOFA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "p6oDZbRg"
+    ],
+    "1.20.2+fabric": [
+      "p6oDZbRg"
+    ]
+  }
+}

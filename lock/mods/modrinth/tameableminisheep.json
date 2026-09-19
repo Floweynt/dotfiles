@@ -1,0 +1,31 @@
+{
+  "slug": "tameableminisheep",
+  "projectId": "1XXcoWoe",
+  "versions": {
+    "BFVOh81A": {
+      "filename": "tameableminisheep-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1XXcoWoe/versions/BFVOh81A/tameableminisheep-1.0.jar",
+      "hash": "sha512-XXvf8VIFvPR4lgcVwZBvYpn41MuiESwO7CusOCE2t4RPm0fbkTefNSHuBNHYSwY7p/fLH68XKKy3RBLrKubKtw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lets-do-wildernature",
+          "projectId": "AAiRU4aQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "BFVOh81A"
+    ]
+  }
+}

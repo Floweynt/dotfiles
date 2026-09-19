@@ -1,0 +1,83 @@
+{
+  "slug": "moulberrystweaks",
+  "projectId": "ebpRXYEl",
+  "versions": {
+    "maByKBHz": {
+      "filename": "MoulberrysTweaks-1.0.3-for-MC1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/ebpRXYEl/versions/maByKBHz/MoulberrysTweaks-1.0.3-for-MC1.21.5.jar",
+      "hash": "sha512-lRHd+I+HjiA+kI95tBKFc/sUVfEEQXNaaUZ+RvgoJyXtSD0ONE79fhcBKSJ4UT7nQK78cBcwQKbIbW43afs83A==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "o6CYMfvS": {
+      "filename": "MoulberrysTweaks-1.0.4-for-MC1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/ebpRXYEl/versions/o6CYMfvS/MoulberrysTweaks-1.0.4-for-MC1.21.5.jar",
+      "hash": "sha512-uxgdg95OM51kkuONxagHrXYV8m66TDHcxvjAEN25pYnA/aIg2HiWrMV9ZQ9l3bZo8ucG8AD5k48fEXYTwbOebA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "y4iLiy7f": {
+      "filename": "MoulberrysTweaks-1.0.4-for-MC1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/ebpRXYEl/versions/y4iLiy7f/MoulberrysTweaks-1.0.4-for-MC1.21.8.jar",
+      "hash": "sha512-zaP7c/qrRW1kNUPC0ZLuxv4wu9InuTEc7l/KgLEOwD0cyr0Uiqir7ufAqdp0LDoGOm5ty3s76kop5LpIooLdvA==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "o6CYMfvS",
+      "maByKBHz"
+    ],
+    "1.21.6+fabric": [
+      "y4iLiy7f"
+    ],
+    "1.21.7+fabric": [
+      "y4iLiy7f"
+    ],
+    "1.21.8+fabric": [
+      "y4iLiy7f"
+    ]
+  }
+}

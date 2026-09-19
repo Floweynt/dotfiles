@@ -1,0 +1,86 @@
+{
+  "slug": "enhanced-mushrooms",
+  "projectId": "4Zf7J76Q",
+  "versions": {
+    "3uzwtgUK": {
+      "filename": "Enhanced-Mushrooms-1.16.5-3.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/4Zf7J76Q/versions/3uzwtgUK/Enhanced-Mushrooms-1.16.5-3.0.9.jar",
+      "hash": "sha512-dKsSJ0+NIuZVLg5QFWRIb8ACzRpAG+pnKDIbQa4/kvfKwCa+W4LXGUjOWTmWXxCbHTN/sCaRni1MWxdg90vAOg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "4a2h6QT5": {
+      "filename": "enhanced_mushrooms-forge-4.0.1+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/4Zf7J76Q/versions/4a2h6QT5/enhanced_mushrooms-forge-4.0.1%2B1.18.2.jar",
+      "hash": "sha512-6HOLa0VJ45sEpoBrUBiCnqh9qxFkD2H/8/02eKPII/EyU1lvJsIInFZ55WN30ase1TDoNPv+X8CTO32cvxrNug==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "DSNxiUU9": {
+      "filename": "enhanced_mushrooms-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4Zf7J76Q/versions/DSNxiUU9/enhanced_mushrooms-5.0.0.jar",
+      "hash": "sha512-CvVMrMdZKR6E9JW1dKuINZtDYOPXzNmqUGHcmTwzytcoQ7+KQ4J3m4YsG8sV0SunlkkBBspgxxZu7WBhqDfhKg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "blueprint",
+          "projectId": "VsM5EDoI",
+          "type": "required"
+        }
+      ]
+    },
+    "q9WG1G88": {
+      "filename": "enhanced_mushrooms-fabric-4.0.1+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/4Zf7J76Q/versions/q9WG1G88/enhanced_mushrooms-fabric-4.0.1%2B1.18.2.jar",
+      "hash": "sha512-XLL8a4RQwNVJcWxe3KUZLGDFgbSrj9HxSaUp3Tu3VeY2nnET5Sq0zDShtNFTcIAaUXYkcQpxOOkYqhOCM2Ryxg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+forge": [
+      "3uzwtgUK"
+    ],
+    "1.18.2+fabric": [
+      "q9WG1G88"
+    ],
+    "1.18.2+forge": [
+      "4a2h6QT5"
+    ],
+    "1.20.1+forge": [
+      "DSNxiUU9"
+    ],
+    "1.20.1+neoforge": [
+      "DSNxiUU9"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "undertale-origins-pack",
+  "projectId": "zFXqBhSA",
+  "versions": {
+    "6qVN4yEB": {
+      "filename": "undertale-origins-pack-1.9.5.jar",
+      "url": "https://cdn.modrinth.com/data/zFXqBhSA/versions/6qVN4yEB/undertale-origins-pack-1.9.5.jar",
+      "hash": "sha512-M/RB88NWygEDp+h3Bra+j4tJ3JL3JAEnGak6UO2/IPLschV3/0ee9SWZy7tehY7XIMAbBxUeQwjakfjRkpqsQg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "appli",
+          "projectId": "r0tBWK04",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "nSDl04Gd": {
+      "filename": "UndertaleOriginsPack_v1.9.5.zip",
+      "url": "https://cdn.modrinth.com/data/zFXqBhSA/versions/nSDl04Gd/UndertaleOriginsPack_v1.9.5.zip",
+      "hash": "sha512-5r61FDsmPW4Q2FLUOIoSy22r3mlClexTiLp63AiOuWH1F5HRWEVqMGM6Ip6O+IKb3/UxofuBMGjCCoeu9ILdJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "appli",
+          "projectId": "r0tBWK04",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "nSDl04Gd"
+    ],
+    "1.20.1+fabric": [
+      "6qVN4yEB"
+    ]
+  }
+}

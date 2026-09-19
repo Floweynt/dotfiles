@@ -1,0 +1,90 @@
+{
+  "slug": "farmers-delightz",
+  "projectId": "OIfTXyD3",
+  "versions": {
+    "NY2uwvJl": {
+      "filename": "farmerz_delightz-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/OIfTXyD3/versions/NY2uwvJl/farmerz_delightz-1.1.jar",
+      "hash": "sha512-6jpOd59Pm9gswIZ1JhMa1l0w4gP+iKkkQXqlYgfFlvi49BKBvVNIdlsIYDjsU0L/VBIQbt4viAudwhe7Hi2sOA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "aXn9adgC": {
+      "filename": "lvlz_farmers_delight-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/OIfTXyD3/versions/aXn9adgC/lvlz_farmers_delight-2.0.jar",
+      "hash": "sha512-SRFvRG7F1U+8945mLgj4e1gPCodqz+Mq/Lq8NlP+POLmTOxLuTH8mGR3fvxWEeiSzfnP7Va0l5zm15qxUrHMDg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "eZB2k08Q": {
+      "filename": "farmerz_delightz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OIfTXyD3/versions/eZB2k08Q/farmerz_delightz-1.0.jar",
+      "hash": "sha512-afEUW2pAwk9y2Ngei8Ll/6NbwFzuHcSn7D4WEcSHbGFFwuW8uecOa35AMqgBharRLTQCj/9gcPeGaV8WMSYQXg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "NY2uwvJl",
+      "eZB2k08Q"
+    ],
+    "1.21.1+fabric": [
+      "aXn9adgC"
+    ]
+  }
+}

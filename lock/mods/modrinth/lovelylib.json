@@ -1,0 +1,98 @@
+{
+  "slug": "lovelylib",
+  "projectId": "bakhGE6B",
+  "versions": {
+    "2hEfUctM": {
+      "filename": "lovelylib-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bakhGE6B/versions/2hEfUctM/lovelylib-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-pmnQJLKLsC+ijXksdbROdKJ17v5GcrsaTaDp0LLg498Jfn5/NjtLueVYoeJi8Jvv71SzT3O5ca7L0mRXytFfKg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "Um2GRjSY": {
+      "filename": "lovelylib-forge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bakhGE6B/versions/Um2GRjSY/lovelylib-forge-1.21.1-1.0.0.jar",
+      "hash": "sha512-CXl94Q7Qxr/d4nRtsrSLOkbQPBzPgPqs4v/3N2dye6slKTngDDNZyyJOjotEBorECOAnbFepzFu5H9KUg1UuXw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "WGY3tTle": {
+      "filename": "lovelylib-fabric-1.21.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bakhGE6B/versions/WGY3tTle/lovelylib-fabric-1.21.1-0.1.0.jar",
+      "hash": "sha512-sfSVTLtmbaZIovkZIFrXW1vx0Fk9Wl6FvL++pY6QOFt3ucT+BGpb8zON+CTRfu6U7sSJwRLpICTIZttVeF7rcg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "rlOswCqQ": {
+      "filename": "lovelylib-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bakhGE6B/versions/rlOswCqQ/lovelylib-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-EMaYlN9EYGeMQ/gz1UQqHsrgse6oDhyCXCfOqKXALHr2Lvd2oKaFDBcXO8ebjh0OiYOnP4YXyUuUSkJ22SfQFg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "2hEfUctM",
+      "WGY3tTle"
+    ],
+    "1.21.1+forge": [
+      "Um2GRjSY"
+    ],
+    "1.21.1+neoforge": [
+      "rlOswCqQ"
+    ]
+  }
+}

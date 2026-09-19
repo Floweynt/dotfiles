@@ -1,0 +1,52 @@
+{
+  "slug": "loggerhead-luminancies",
+  "projectId": "jMFHaKT3",
+  "versions": {
+    "SDe7ekMa": {
+      "filename": "loggerhead-luminancies-0.1.1+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/jMFHaKT3/versions/SDe7ekMa/loggerhead-luminancies-0.1.1%2B1.20.4.jar",
+      "hash": "sha512-GG/8LK1PGT8TAKBYScDsJ+NSQJAtBLFL6OL4lnUMmBcJ1TzrK5KkOgK8mzucC4B/BgbVjqaQ0MyaP+wff3Y/eg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cWb8HuiP": {
+      "filename": "loggerhead-luminancies-0.1.0+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/jMFHaKT3/versions/cWb8HuiP/loggerhead-luminancies-0.1.0%2B1.20.4.jar",
+      "hash": "sha512-kAt23xyRqebTxoE7LAT0GYevgSPGmhje1lq1WKV6ldTAhTToPmf1/PmIUB8psMEkgKoBdhsGPWqYzfReAUQntA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "SDe7ekMa",
+      "cWb8HuiP"
+    ],
+    "1.20.4+quilt": [
+      "SDe7ekMa",
+      "cWb8HuiP"
+    ]
+  }
+}

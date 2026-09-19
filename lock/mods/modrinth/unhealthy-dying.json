@@ -1,0 +1,936 @@
+{
+  "slug": "unhealthy-dying",
+  "projectId": "pxMdk6aB",
+  "versions": {
+    "1FKX51Ob": {
+      "filename": "Unhealthy-Dying-1.18.2-2.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/1FKX51Ob/Unhealthy-Dying-1.18.2-2.1.4.jar",
+      "hash": "sha512-K3B7Xrp2fF3X4KoF1YDq0301YcuxkV+SrtKoNr1USIwOn21GFqNhUPnerdqkMJ8hgmqnVH77t6A62cJ90MkVHg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "1x7Pfm4E": {
+      "filename": "UnhealthyDying-fabric-1.21.1-3.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/1x7Pfm4E/UnhealthyDying-fabric-1.21.1-3.2.2.jar",
+      "hash": "sha512-90WJIfJGj0cD/F/9YCywtK/D0XZO5pJ3UnWHwvxPMgwjipXu9LH4TwL2gH0/XLnFiDS6JGk7JjqjfSqQ3zLF/w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "2E3ADwkl": {
+      "filename": "UnhealthyDying-forge-1.20.1-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/2E3ADwkl/UnhealthyDying-forge-1.20.1-2.2.0.jar",
+      "hash": "sha512-FojlVgwRtpFKA/aMUQkbDDcPcFPzIPBua0RXt7LvRSyXGc38eX4xLp4P/3do6VMSrddtQia9YDCLHNJBK7dwAw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "2ErirfTz": {
+      "filename": "UnhealthyDying-fabric-1.21.11-3.6.2.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/2ErirfTz/UnhealthyDying-fabric-1.21.11-3.6.2.jar",
+      "hash": "sha512-vSfW2MWFg2HjjLYaYGb72gkXzYADfuAVyE8f1Xf97KZUo8SEku3J0DbJ4g3xxBZjph3CXPYfQ1IdSxHODHnAhA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "65Gt02wR": {
+      "filename": "UnhealthyDying-neoforge-1.21.11-3.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/65Gt02wR/UnhealthyDying-neoforge-1.21.11-3.6.0.jar",
+      "hash": "sha512-lit1RpM668yuGc50bddZhhyoyyjcImTvzitCUADiecskXd35oW/rQoSGTNdBOpzWblhrfpR1zEu85CJt/A/UPQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "6xww7di5": {
+      "filename": "UnhealthyDying-neoforge-1.21.1-3.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/6xww7di5/UnhealthyDying-neoforge-1.21.1-3.2.2.jar",
+      "hash": "sha512-lkqzyhwcIuCyLYi1uvZu1fLEnFm/bid9a4osCz2zdZAjLb7297qlVo9RVsCcQ5lsy4+X19c2mpLfFSVclIaEoA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "8RVcCZxA": {
+      "filename": "UnhealthyDying-neoforge-1.21.5-3.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/8RVcCZxA/UnhealthyDying-neoforge-1.21.5-3.4.0.jar",
+      "hash": "sha512-o1KhI5FdjgumTSJJttZdfL7eZUcbnsTN9VhS1Yrk788mfIDF3tvEBG1uxnpH+Yh4MCyRlvXDwsX0EPHOLksszg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "8vE8AWuq": {
+      "filename": "UnhealthyDying-fabric-1.20.1-2.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/8vE8AWuq/UnhealthyDying-fabric-1.20.1-2.3.1.jar",
+      "hash": "sha512-drZV8EIMWTALsbmPQ36uhzxPoaCnxSMBFCJd8oFqzxOrAp+dA84bLueKiTISYyQhMBwaCdgRL7uL/kQbeJdWxA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9VSNySbX": {
+      "filename": "Unhealthy-Dying-1.17.1-2.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/9VSNySbX/Unhealthy-Dying-1.17.1-2.1.3.jar",
+      "hash": "sha512-5IkaDHxpWPb4iKg//4kyy9Lr09KtqRqnsMUxgWO8CP10FijH9rQzWG4h7SgzrRyOSUdIELW0lLCI4rxa9eAv7Q==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "CAHn7AxP": {
+      "filename": "Unhealthy-Dying-1.17.1-2.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/2.1.2.2/Unhealthy-Dying-1.17.1-2.1.2.jar",
+      "hash": "sha512-w1xlvczFw9HJn5lYlHrDQ5DhPML4aC3dE/k8O255EOW1BD1pu7KFhaPQ5aFLEddEN/pDbbTGwVn90Ohsh4sJJw==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Cppyo52A": {
+      "filename": "UnhealthyDying-fabric-1.21.4-3.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/Cppyo52A/UnhealthyDying-fabric-1.21.4-3.3.0.jar",
+      "hash": "sha512-SZ8nLO64DvvcUgaoj73/BE06IvA0Y7i5H7PfTejvb0MxqMzLGBtcI5OxzvHXeOWe0CeNtgkf7n7xuvMujwnrLw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "DC8S6KP8": {
+      "filename": "UnhealthyDying-forge-1.20.1-2.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/DC8S6KP8/UnhealthyDying-forge-1.20.1-2.3.1.jar",
+      "hash": "sha512-Of/aaEpHoPd+i6LI6q0DJD+spz9i/f/3lKX3dAiCqCRGpFOdArDIiFDU9sZi3mIxC9Ho/DxT7HGf+37/pZINCA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "EvZz5Sw4": {
+      "filename": "Unhealthy-Dying-1.19.4-2.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/EvZz5Sw4/Unhealthy-Dying-1.19.4-2.1.4.jar",
+      "hash": "sha512-ibl30EuiqBBqq+UyojL+CdHQavhV69+6k4k8Idandj6pscikPQhmw9enShI47JrioQVNpKFLwfKWpV6OzruJng==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "F6NcLFtZ": {
+      "filename": "Unhealthy-Dying-1.20.4-2.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/F6NcLFtZ/Unhealthy-Dying-1.20.4-2.1.4.jar",
+      "hash": "sha512-69aBaZsB08yDrYI69BUqGtk79GRV69qzkRgvU4BhGjcmTshT50ZkWlKdbAAFB25+HpZVPCMXUOCBbp8HEM5k4g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GXqh2VNO": {
+      "filename": "UnhealthyDying-fabric-1.21.1-3.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/GXqh2VNO/UnhealthyDying-fabric-1.21.1-3.2.1.jar",
+      "hash": "sha512-rBm6Ce2xgYWFv/hrUFFC9MoqDbO+v2DZYUIOwNBqrMTo7bOHwJq4E+rjHJ31d71l1haUhpze6PpBBd8IqFLYcw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GZ5FKOck": {
+      "filename": "UnhealthyDying-neoforge-1.21.1-3.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/GZ5FKOck/UnhealthyDying-neoforge-1.21.1-3.2.1.jar",
+      "hash": "sha512-XqLMuEFzJOF1BgVDzKFyXhxVXzlZpE58UeoauPz/LbYlX1zeBJHfSBmnxQcIc/6jGE7La3cFH5sgmaG+8XS6WQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HgeYFYHb": {
+      "filename": "UnhealthyDying-neoforge-1.21.1-3.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/HgeYFYHb/UnhealthyDying-neoforge-1.21.1-3.1.0.jar",
+      "hash": "sha512-TkiJxKUx/VzXq+9HhRpRIkZLU0hAHAvYF8NfU33VkQVjStQGWHdy7IwYUnWJNARK+0VeBf7TEZpCHP9nQSUf7A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "KPuM8I5P": {
+      "filename": "Unhealthy-Dying-1.19-2.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/KPuM8I5P/Unhealthy-Dying-1.19-2.1.3.jar",
+      "hash": "sha512-hsBGyYbM/025h0evLeexSuuAxR6yg/con0p0NpO9FcjoMBUyjhTeTft9/8ZKtSI5pKyTOOLk+nQ4q6iP9H4rDQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "LMZXGJzW": {
+      "filename": "UnhealthyDying-neoforge-1.21.4-3.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/LMZXGJzW/UnhealthyDying-neoforge-1.21.4-3.3.0.jar",
+      "hash": "sha512-OSofKZCO4cw3bod6psdg8N63O+xwyEHPa8ZoRFk03SQacGo30Addqy+HYkxXXikByzjlPis2GZYOkIW5RljQ3g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "MTG2tn4P": {
+      "filename": "UnhealthyDying-fabric-1.21.1-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/MTG2tn4P/UnhealthyDying-fabric-1.21.1-3.2.0.jar",
+      "hash": "sha512-70z/ai8cRIbY/iKNg89yZAAiOK3GbatoeDNaLz5aZDWrneuT8St3I3xkVKJ+L577PI6fK3fVM6gOYkFIYQYrKg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "NRqnezmc": {
+      "filename": "Unhealthy-Dying-1.18.2-2.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/2.1.2.3/Unhealthy-Dying-1.18.2-2.1.2.jar",
+      "hash": "sha512-13AJ5gwl5rCv2oiXQBO4N040HqehFeqI9SWJdyjbYjtL3BUhsx5Qg3mJFj5Xe2pCqxz4koo6Tgk+3ipDxulvmw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PgKjcwzF": {
+      "filename": "UnhealthyDying-fabric-1.21.11-3.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/PgKjcwzF/UnhealthyDying-fabric-1.21.11-3.6.1.jar",
+      "hash": "sha512-VgVRK3adh3V/zVddZhylqXqe2MZ4DN1oDSBvvyqMp2+Rncd+xjX+tPOZ4k0PjbV0LffYvmzrozrkggzAcaJKDA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "PgMVakUT": {
+      "filename": "UnhealthyDying-neoforge-1.21.11-3.6.2.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/PgMVakUT/UnhealthyDying-neoforge-1.21.11-3.6.2.jar",
+      "hash": "sha512-X8C1Ot34MrCnkO26V2WV45zW+Fi8LR5HFv3+CBBDCcnFIuN2nLRJJeylc2ZtssF3QgbmHJmg3mGI+AR7JuWhmA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QovpWhJo": {
+      "filename": "Unhealthy-Dying-1.21-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/QovpWhJo/Unhealthy-Dying-1.21-3.0.0.jar",
+      "hash": "sha512-24lGN0cYOe4+Ql5E+qo1USM6Eox55+L1xxeA37uXyFjqQ9RzgmbM7Zsxafd91AEt60WHSnuwpogVA0jidvgwDQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QwRi5mSj": {
+      "filename": "UnhealthyDying-neoforge-1.21.1-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/QwRi5mSj/UnhealthyDying-neoforge-1.21.1-3.2.0.jar",
+      "hash": "sha512-fhMPchxaTmRy1IhqUe48NJGl6KCQerOJh5pU6bhrRn+xvYwIdqyOzmKgZO8d7Qf2ijZXPY1gYQyR/aosknDc4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "R3Q0oIbv": {
+      "filename": "Unhealthy-Dying-1.19.2-2.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/R3Q0oIbv/Unhealthy-Dying-1.19.2-2.1.4.jar",
+      "hash": "sha512-ed7ANkaMMULMlLpyRA4YeFNrwAcwxKsSGulhVttx5TBe9P2yz+UWVtWu5VxTftaldvOp4yQnu5E3+2uTIbCvhQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RIGbSggQ": {
+      "filename": "UnhealthyDying-fabric-1.21.1-3.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/RIGbSggQ/UnhealthyDying-fabric-1.21.1-3.1.1.jar",
+      "hash": "sha512-m7+u8alnbdEbRqpTrxoPkptdgLfZcd2rzk544opR8urfkvsnlS6Y/gs+YMLHl515V/86OtJjs32AS91kzTanfQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RqnC6KjE": {
+      "filename": "UnhealthyDying-neoforge-1.21.8-3.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/RqnC6KjE/UnhealthyDying-neoforge-1.21.8-3.5.0.jar",
+      "hash": "sha512-Pq6/eVLzB7dfIJTJQpaWFjVGV+bVlU5iNNkE9BTRNdZr+YQXs6RqM0clCM9oaOz5KE7wgyjj5nWaRXR7TMx7Qw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SA19E270": {
+      "filename": "UnhealthyDying-neoforge-26.1.2-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/SA19E270/UnhealthyDying-neoforge-26.1.2-4.0.0.jar",
+      "hash": "sha512-zgXVkI/0puveJnagYghIFY+eH5WD4APk6l8DAu4ko+kgOayuGX8/MB+xxh/Xx+zTd473ci/k1IzqXYJyFsfNrg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Sz4HIdt3": {
+      "filename": "UnhealthyDying-fabric-1.21.8-3.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/Sz4HIdt3/UnhealthyDying-fabric-1.21.8-3.5.0.jar",
+      "hash": "sha512-r4wkkUp4zcnVGLEVKKSeKujSFxnEglB/J4tM68/tCQKtjEDtXzU56VV3sxx1qWXRlmuQGvmA2O1UatURaoypLA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VRIatkET": {
+      "filename": "Unhealthy-Dying-1.16.5-2.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/2.1.2.1/Unhealthy-Dying-1.16.5-2.1.2.jar",
+      "hash": "sha512-XUFhNSDElW3SVOscjiKPmgKyCEQtsB6Mff+ocv20sbapP4DUD7mdCOUD2X3WOQnayMuyc5uJn7ETR2HLa50T+g==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bC3y0etq": {
+      "filename": "UnhealthyDying-fabric-1.21.11-3.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/bC3y0etq/UnhealthyDying-fabric-1.21.11-3.6.0.jar",
+      "hash": "sha512-u/aFRCLqVToKqMij7UZ74xgweqBnTuWa+R1Nsx2qfWslGSfiY42kfA7tiDwnaoVrA8kED9sxdyoz8BQR40461A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cSZQxTHC": {
+      "filename": "UnhealthyDying-fabric-1.21.5-3.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/cSZQxTHC/UnhealthyDying-fabric-1.21.5-3.4.0.jar",
+      "hash": "sha512-mf5VCwzHI83/KdaU25I7P7/ajJUAbItc7KyZFaYfGo17vZH4hP6ByRKNPJ5alxw0RVNKx67dzDcd1R+5Mjoagg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "erhORix3": {
+      "filename": "Unhealthy-Dying-1.16.5-2.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/erhORix3/Unhealthy-Dying-1.16.5-2.1.3.jar",
+      "hash": "sha512-uG6lkMG1Z2uLehi6+hxsn5i5OsmrQI9ylk60boe4MZCRJbmLdQGgwGoQZqGp+QStGdKOiPUcYbiRu6nnsQ3RBw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "i2Dm5KcX": {
+      "filename": "Unhealthy-Dying-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/1.3.1.0/Unhealthy-Dying-1.3.1.jar",
+      "hash": "sha512-BC9i2Rb37i72GRhI7pNBOQYIOfDgnULDiGaCcB15yYx/H433EHjs6z21GSHwMeLPM7MxabAuRGbsUwapVKwAnQ==",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "imD7FRnV": {
+      "filename": "UnhealthyDying-fabric-26.1.2-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/imD7FRnV/UnhealthyDying-fabric-26.1.2-4.0.0.jar",
+      "hash": "sha512-IxYEU43MZV70G1hzbIlB/2/dbZrNX0vv2YyWJZ3Vd8QwUHge/JGQ6jmaj3mZzex3Mt3A+bZOFDBHo+mgPrtH8g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qkM715Fv": {
+      "filename": "UnhealthyDying-fabric-1.20.1-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/qkM715Fv/UnhealthyDying-fabric-1.20.1-2.2.0.jar",
+      "hash": "sha512-vTL/+N4Do88vhAYR4chuBr3POSATwDmqZsy/dntt9OHgdYHuZnnGF1+F8tkBsFQRxBwRXRgfzJ0GxGJQGgDIVw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "qpsfWaWs": {
+      "filename": "Unhealthy-Dying-1.18.2-2.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/qpsfWaWs/Unhealthy-Dying-1.18.2-2.1.3.jar",
+      "hash": "sha512-NrUdX2kOAYbpBvsJtNK2jlNEDkrhNM0GpS8k4PYkHv3l21nDCyFRwVsbC/T/pE0ayLELFW1s59tGFwky8WEaVw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qsjbRere": {
+      "filename": "UnhealthyDying-neoforge-1.21.1-3.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/qsjbRere/UnhealthyDying-neoforge-1.21.1-3.1.1.jar",
+      "hash": "sha512-oKZW6oQ+daJQY0L8N50fpIEWzX7VLMHsPeA+p814f02K2u/105hQmlXMuFgVUO2B8oF/E75TKGaGzpEyRGXgrA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rcGMuWPz": {
+      "filename": "Unhealthy-Dying-1.20.5-2.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/rcGMuWPz/Unhealthy-Dying-1.20.5-2.1.4.jar",
+      "hash": "sha512-TvgWpUgbYqPKnuoic8eDiwRernRpjZlyi6scsZPsKMKnr7O8uLiepIF8A8nCwzlcv84rCt8fygq42DbuWUolTQ==",
+      "gameVersions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uui4UzI0": {
+      "filename": "UnhealthyDying-neoforge-1.21.11-3.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/uui4UzI0/UnhealthyDying-neoforge-1.21.11-3.6.1.jar",
+      "hash": "sha512-VNcJAb75LnFmXDfIX9aDucP6muiucYpmvfG84PhhbAQs4boNtVzwyRUdNJS1z9fbk6pSsTbf9Xt4EC7WIU1vXA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "v77ZIJQG": {
+      "filename": "UnhealthyDying-fabric-1.20.1-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/v77ZIJQG/UnhealthyDying-fabric-1.20.1-2.3.0.jar",
+      "hash": "sha512-VE3xaW0X88oJO96pdbbvEZFac67ESV6onFOm2N/diN2cmH0R+aefTBfT6vIqRvTZCxztNnYOt1ibXYVlUbBHTQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "w3UIMh06": {
+      "filename": "UnhealthyDying-forge-1.20.1-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/w3UIMh06/UnhealthyDying-forge-1.20.1-2.3.0.jar",
+      "hash": "sha512-D9kMZV8Ldy3u1H1sIcX8cfh2GMDKlED/pqNUFDDZ3WVjvKBE9nTcgjVoILwS21OXoOk9NuWgpxsVKPkKYc5zdg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wCGXIfkh": {
+      "filename": "Unhealthy-Dying-1.20-2.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/wCGXIfkh/Unhealthy-Dying-1.20-2.1.4.jar",
+      "hash": "sha512-WWHUSOYUh9pFqPh6D7k2TqksZ0bpba67hx6u4KLOgP3wzuTcQcMYpUFwJ3ocBcMqg5Vdk972L3PZXPn7D3g6+A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xFx95Rq3": {
+      "filename": "Unhealthy-Dying-1.20.2-2.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/xFx95Rq3/Unhealthy-Dying-1.20.2-2.1.4.jar",
+      "hash": "sha512-gZ2pdbxvObOKf32N6yQVtDnWNo6d/BTq74lvQhbEifYeFGBSxt3zqFwsbtE9sfg/ooHe7Q/PceJ2WQgLjU9wwQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zIarFb5b": {
+      "filename": "UnhealthyDying-fabric-1.21.1-3.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pxMdk6aB/versions/zIarFb5b/UnhealthyDying-fabric-1.21.1-3.1.0.jar",
+      "hash": "sha512-NPm/3EzArrvXn4aLCfQHf7nVDeVovvRx5VCDT0xaycrLqOGqetjgxZw3yRBlIxShbGIzAm7aKu3oDeFQn584TA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.12.2+forge": [
+      "i2Dm5KcX"
+    ],
+    "1.16.5+forge": [
+      "erhORix3",
+      "VRIatkET"
+    ],
+    "1.17.1+forge": [
+      "9VSNySbX",
+      "CAHn7AxP"
+    ],
+    "1.18.2+forge": [
+      "1FKX51Ob",
+      "qpsfWaWs",
+      "NRqnezmc"
+    ],
+    "1.19+forge": [
+      "R3Q0oIbv",
+      "KPuM8I5P"
+    ],
+    "1.19.1+forge": [
+      "R3Q0oIbv",
+      "KPuM8I5P"
+    ],
+    "1.19.2+forge": [
+      "R3Q0oIbv",
+      "KPuM8I5P"
+    ],
+    "1.19.3+forge": [
+      "R3Q0oIbv",
+      "KPuM8I5P"
+    ],
+    "1.19.4+forge": [
+      "EvZz5Sw4"
+    ],
+    "1.20+forge": [
+      "wCGXIfkh"
+    ],
+    "1.20+neoforge": [
+      "wCGXIfkh"
+    ],
+    "1.20.1+fabric": [
+      "8vE8AWuq",
+      "v77ZIJQG",
+      "qkM715Fv"
+    ],
+    "1.20.1+forge": [
+      "DC8S6KP8",
+      "w3UIMh06",
+      "2E3ADwkl",
+      "wCGXIfkh"
+    ],
+    "1.20.1+neoforge": [
+      "DC8S6KP8",
+      "w3UIMh06",
+      "2E3ADwkl",
+      "wCGXIfkh"
+    ],
+    "1.20.2+neoforge": [
+      "xFx95Rq3"
+    ],
+    "1.20.4+neoforge": [
+      "F6NcLFtZ"
+    ],
+    "1.20.5+neoforge": [
+      "rcGMuWPz"
+    ],
+    "1.21+neoforge": [
+      "QovpWhJo"
+    ],
+    "1.21.1+fabric": [
+      "1x7Pfm4E",
+      "GXqh2VNO",
+      "MTG2tn4P",
+      "RIGbSggQ",
+      "zIarFb5b"
+    ],
+    "1.21.1+neoforge": [
+      "6xww7di5",
+      "GZ5FKOck",
+      "QwRi5mSj",
+      "qsjbRere",
+      "HgeYFYHb"
+    ],
+    "1.21.11+fabric": [
+      "2ErirfTz",
+      "PgKjcwzF",
+      "bC3y0etq"
+    ],
+    "1.21.11+neoforge": [
+      "PgMVakUT",
+      "uui4UzI0",
+      "65Gt02wR"
+    ],
+    "1.21.4+fabric": [
+      "Cppyo52A"
+    ],
+    "1.21.4+neoforge": [
+      "LMZXGJzW"
+    ],
+    "1.21.5+fabric": [
+      "cSZQxTHC"
+    ],
+    "1.21.5+neoforge": [
+      "8RVcCZxA"
+    ],
+    "1.21.8+fabric": [
+      "Sz4HIdt3"
+    ],
+    "1.21.8+neoforge": [
+      "RqnC6KjE"
+    ],
+    "26.1.2+fabric": [
+      "imD7FRnV"
+    ],
+    "26.1.2+neoforge": [
+      "SA19E270"
+    ]
+  }
+}

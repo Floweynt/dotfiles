@@ -1,0 +1,150 @@
+{
+  "slug": "craftable-slime-for-fabric",
+  "projectId": "bCPTPnsM",
+  "versions": {
+    "En0nPjaP": {
+      "filename": "slime-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/bCPTPnsM/versions/En0nPjaP/slime-1.19.2.jar",
+      "hash": "sha512-Y/X5k3HMENCeKXS7C1N+IQka6W1l/l1Nd2R4d1mXYvRf4BawuBECZqzmtXNnMfXEHcjhK19PAJKfgk0v2nLSwA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "SvclEW8C": {
+      "filename": "slime-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/bCPTPnsM/versions/SvclEW8C/slime-1.1.jar",
+      "hash": "sha512-U31ZGJold7wcozHVoJnz51yidCZcmew9AlVc0d2bn5ste/u5JcLbAGLzWIfGBMVEAdR057Y4IKxSiCkD/2morQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "b8lCWUwa": {
+      "filename": "slime-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/bCPTPnsM/versions/b8lCWUwa/slime-1.2.jar",
+      "hash": "sha512-1kdHxo5tjiP34NwBrifymk4vX0L4HIzn/JytP1B2VFILNaeTAUvF8JrI+fHfJwF5NlJ2ZHGGYQcIWFNVZ2KX6w==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "lKE9oovo": {
+      "filename": "slime-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bCPTPnsM/versions/lKE9oovo/slime-1.0.0.jar",
+      "hash": "sha512-LlE/6RGNLwOAhwKMU1ejdhkaTlOWmJujTJoq+hXr0YnmI7g/Kln8fWffTC0FbQsXo9dMULbS1lBI4BrUZwUmtg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rOiT2G2J": {
+      "filename": "slime-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bCPTPnsM/versions/rOiT2G2J/slime-1.0.0.jar",
+      "hash": "sha512-5aVQds1YpWVPEpe/FikSgZV2QByU+puGPZwMa6Mx4rG1ZrK9krDETJNH6FPU1AtTgkXUu2B8goz57FCFcqbtog==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "En0nPjaP"
+    ],
+    "1.19.4+fabric": [
+      "lKE9oovo",
+      "rOiT2G2J"
+    ],
+    "1.20+fabric": [
+      "SvclEW8C"
+    ],
+    "1.20.1+fabric": [
+      "SvclEW8C"
+    ],
+    "1.20.2+fabric": [
+      "b8lCWUwa"
+    ]
+  }
+}

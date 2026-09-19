@@ -1,0 +1,68 @@
+{
+  "slug": "immersive-weathering-+-natures-delight-bark-stripping",
+  "projectId": "FyFqtHu4",
+  "versions": {
+    "g7V1ssWZ": {
+      "filename": "farmersdelight_immersive_weathering_natures_delight_cutting_compat.zip",
+      "url": "https://cdn.modrinth.com/data/FyFqtHu4/versions/g7V1ssWZ/farmersdelight_immersive_weathering_natures_delight_cutting_compat.zip",
+      "hash": "sha512-+FMFOayB62MCc4I7xdgsVatZVH0UIMa8V0nKlnjiH2TjHUZ1D8kw8qznfbgNYgE17AQfhXLrJsAIpvk/WFu7+g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "immersive-weathering",
+          "projectId": "jkskOO9i",
+          "type": "required"
+        },
+        {
+          "slug": "natures-spirit",
+          "projectId": "WBvnqHfV",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "njotWmra": {
+      "filename": "farmersdelight_immersive_weathering_natures_delight_cutting_compat.zip",
+      "url": "https://cdn.modrinth.com/data/FyFqtHu4/versions/njotWmra/farmersdelight_immersive_weathering_natures_delight_cutting_compat.zip",
+      "hash": "sha512-cPwgF6LtpDgeNNitq0PtgizIoPFyofUiawh4Kg1r2MsN7TS8FewEyTlxjPL40m756jKTqEJGYB5//Y8raQ1Awg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "njotWmra"
+    ],
+    "1.20.1+datapack": [
+      "njotWmra",
+      "g7V1ssWZ"
+    ],
+    "1.20.1+fabric": [
+      "g7V1ssWZ"
+    ],
+    "1.20.1+forge": [
+      "g7V1ssWZ"
+    ]
+  }
+}

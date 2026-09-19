@@ -1,0 +1,71 @@
+{
+  "slug": "auctionhouse",
+  "projectId": "JBSk2maq",
+  "versions": {
+    "SP2OVOPf": {
+      "filename": "fabric-auctionhouse-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JBSk2maq/versions/SP2OVOPf/fabric-auctionhouse-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-reMmp07KBLP6KR6ddv5Q7CEEkdHb/iewd09lFAI4dqNJcbgjeJNdPoHG1w6dzHFUTtRuaMQCZpWUBRVIoCBTpg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZpmSgNOB": {
+      "filename": "fabric-auctionhouse-1.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JBSk2maq/versions/ZpmSgNOB/fabric-auctionhouse-1.1.0%2B1.20.1.jar",
+      "hash": "sha512-4ajrBIvW3+sIfJNWWrOPzBBQKIuqp9GWu/UF8adG8qOXZa5bOOEaL6Py7MCU/kmS28Rc7dGyqzt+azIMDFdunw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "eVEer96k": {
+      "filename": "fabric-auctionhouse-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JBSk2maq/versions/eVEer96k/fabric-auctionhouse-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-SIMEhIDUZp9sisuBQ3XHsFocDRK4V5lLm+NgXenAB1TzricZJBhOc3is04HCtgYgd6fpslBXxU7S7n1r4CbhDg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ZpmSgNOB",
+      "eVEer96k",
+      "SP2OVOPf"
+    ],
+    "1.20.2+fabric": [
+      "eVEer96k"
+    ]
+  }
+}

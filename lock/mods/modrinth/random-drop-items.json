@@ -1,0 +1,31 @@
+{
+  "slug": "random-drop-items",
+  "projectId": "BJsytWmH",
+  "versions": {
+    "q2Ry4Bw1": {
+      "filename": "randomdrops-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/BJsytWmH/versions/q2Ry4Bw1/randomdrops-1.0-SNAPSHOT.jar",
+      "hash": "sha512-x9JYVfW1DuC/LKIC+Pxx821e2Qc3DaSPfNE1ktw0xn1IM6Y0CA73+ehxxkLLgebmNdc8Q2CEYkrG+SgFEzOoCg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "q2Ry4Bw1"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "better-deep-dark",
+  "projectId": "IO0rG794",
+  "versions": {
+    "2Iy8MFG1": {
+      "filename": "betterdeepdark-2024.07.09-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/IO0rG794/versions/2Iy8MFG1/betterdeepdark-2024.07.09-1.20.1-fabric.jar",
+      "hash": "sha512-s+pfK2QBDzf69pD0EmxEkc7LuivmYFtWZ1wB8OCXAZaSqXg4C9mHuWeYU1oWzD0Nbm8mI0HtX+Y51KtuFZs8cQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GegoJbJd": {
+      "filename": "betterdeepdark-2024.07.09-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/IO0rG794/versions/GegoJbJd/betterdeepdark-2024.07.09-1.20.1-forge.jar",
+      "hash": "sha512-nOtax5oDt0g0PralMwTFlOINF56UsrDOcRYj9QOg+yfdUPtRPrhztzMgLYlFbH0awB7TatNAph1mofRggFx95w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2Iy8MFG1"
+    ],
+    "1.20.1+forge": [
+      "GegoJbJd"
+    ],
+    "1.20.1+neoforge": [
+      "GegoJbJd"
+    ],
+    "1.20.1+quilt": [
+      "2Iy8MFG1"
+    ]
+  }
+}

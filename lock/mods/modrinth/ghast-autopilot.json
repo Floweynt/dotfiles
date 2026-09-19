@@ -1,0 +1,75 @@
+{
+  "slug": "ghast-autopilot",
+  "projectId": "89IEFOuk",
+  "versions": {
+    "wrRxP6kQ": {
+      "filename": "ghastautopilot-0.0.2+1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/89IEFOuk/versions/wrRxP6kQ/ghastautopilot-0.0.2%2B1.21.9.jar",
+      "hash": "sha512-JrMVnybjn4Qk5xjxlqUU3CjGQk4Vo2zKtLwGHERgxqK/YCCABdLx6VFLhhdW96vwuQpBQuCJwEXtJdwQclGTyg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "smoothiez-api",
+          "projectId": "6fGnR7UP",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yii5ozJ8": {
+      "filename": "ghastautopilot-0.0.1-1.21.6.jar",
+      "url": "https://cdn.modrinth.com/data/89IEFOuk/versions/yii5ozJ8/ghastautopilot-0.0.1-1.21.6.jar",
+      "hash": "sha512-ROM8u4Z9C8/OmJIXAvjbqkQ7rZOL1zo3i9qpNSqg6EPcTtZ+gzhMpdpXPKxOFolOHbi+UU/zsH9e5BkUnsD6LQ==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "smootheez-config-lib",
+          "projectId": "zLVNfWvA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "wrRxP6kQ"
+    ],
+    "1.21.11+fabric": [
+      "wrRxP6kQ"
+    ],
+    "1.21.6+fabric": [
+      "yii5ozJ8"
+    ],
+    "1.21.7+fabric": [
+      "yii5ozJ8"
+    ],
+    "1.21.8+fabric": [
+      "yii5ozJ8"
+    ],
+    "1.21.9+fabric": [
+      "wrRxP6kQ"
+    ]
+  }
+}

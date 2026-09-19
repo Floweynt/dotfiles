@@ -1,0 +1,92 @@
+{
+  "slug": "treefalling",
+  "projectId": "sXVUAROj",
+  "versions": {
+    "Ls5bVwhJ": {
+      "filename": "treefalling-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/sXVUAROj/versions/Ls5bVwhJ/treefalling-0.1.jar",
+      "hash": "sha512-W4TDYLsk+ntfiBHXj4NSvnZ6nOl0vrCqZGb0IdOIyAVp0zXjoPpJof41ZXVi+4UvQHjxyT8lCoY8r0Y56vtEig==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "velthoric",
+          "projectId": "i2yo1LYg",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "TyRe4QHE": {
+      "filename": "treefalling-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/sXVUAROj/versions/TyRe4QHE/treefalling-0.2.jar",
+      "hash": "sha512-GkLfCCBI005xFA3fzqEMNfcgd9CIr0HhRVX+lhiVUFHl+N6MpOOfzKUdmXaimRkmSapC7vwMouH3EnIai7r23A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "velthoric",
+          "projectId": "i2yo1LYg",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "TyRe4QHE",
+      "Ls5bVwhJ"
+    ]
+  }
+}

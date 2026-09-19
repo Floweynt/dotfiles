@@ -1,0 +1,56 @@
+{
+  "slug": "nameplate-tweaks",
+  "projectId": "G0DHDjEG",
+  "versions": {
+    "G5GDs2iz": {
+      "filename": "nameplate-tweaks-1.0.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/G0DHDjEG/versions/G5GDs2iz/nameplate-tweaks-1.0.0%2B1.21.10.jar",
+      "hash": "sha512-oLYn/ZAswiQ/0WOTbQqjxPrBNtE8IDIQH8JDfAIDBLS911F+isF7Olv4mbt7Gmffjfkb0oZ2KGTWpobUM4sfMg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        }
+      ]
+    },
+    "Hs4htnyQ": {
+      "filename": "nameplate-tweaks-1.1.0+(1.21.10-1.21.11).jar",
+      "url": "https://cdn.modrinth.com/data/G0DHDjEG/versions/Hs4htnyQ/nameplate-tweaks-1.1.0%2B%281.21.10-1.21.11%29.jar",
+      "hash": "sha512-pvbOV4o85JwdX34a+bJaWorsYBOBVGF/LFPR8qyS+Z+NbOETKAU4xYBZYoMlJi+nwPOHNj4RDNi4kx4bwhh0nQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "Hs4htnyQ",
+      "G5GDs2iz"
+    ],
+    "1.21.11+fabric": [
+      "Hs4htnyQ"
+    ]
+  }
+}

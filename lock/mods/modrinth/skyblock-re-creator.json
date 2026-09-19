@@ -1,0 +1,46 @@
+{
+  "slug": "skyblock-re-creator",
+  "projectId": "IKSBx4s8",
+  "versions": {
+    "Ky6ymxj3": {
+      "filename": "SkyblockCreator-1.3.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IKSBx4s8/versions/Ky6ymxj3/SkyblockCreator-1.3.1%2B1.20.1.jar",
+      "hash": "sha512-ddOPQ7krBq7IG4+YS4eJ7qaluSZQHpRhcRCPFZlcqWpgRZ3ZUgMO1rs0aM2Tjkk1rxf4OpsRJ6gyjVY+uxhAiw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "kIxT9nzN": {
+      "filename": "SkyblockCreator-1.3.0-ALPHA+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IKSBx4s8/versions/kIxT9nzN/SkyblockCreator-1.3.0-ALPHA%2B1.20.1.jar",
+      "hash": "sha512-5xCVCB2K5IxnGxiSRikrqExqR4A6nxDD7cSwe8fK/wmd8NAWJFqD56RHlPXmB7h25myxB8mGGgnCMG9NjD3dwQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Ky6ymxj3",
+      "kIxT9nzN"
+    ]
+  }
+}

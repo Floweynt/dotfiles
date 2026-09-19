@@ -1,0 +1,68 @@
+{
+  "slug": "forcemaster_z",
+  "projectId": "i86NrhGR",
+  "versions": {
+    "YLU3iTk4": {
+      "filename": "lvlz_forcemaster-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/i86NrhGR/versions/YLU3iTk4/lvlz_forcemaster-1.21.1-1.0.jar",
+      "hash": "sha512-RAaelEGP+yUqnFYnF0Mab4PyafduqzXpfq2Ccui4aVc4OqIWoXSvNlc+djyNhO1DBkYZVo1X0nRD5q4up8WGIQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "forcemaster-rpg-class",
+          "projectId": "K3yHebFL",
+          "type": "required"
+        }
+      ]
+    },
+    "trLR79wT": {
+      "filename": "forcemasterz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/i86NrhGR/versions/trLR79wT/forcemasterz-1.0.jar",
+      "hash": "sha512-/Mu/TviVehCFaD1TUfFibdrD5Qu7eLI/ZHbPSdxGFP0E/6CHhSZ2wyRsKVCVMw42ckuZLvNNRE5l2UZkoVlWcA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forcemaster-rpg-class",
+          "projectId": "K3yHebFL",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "trLR79wT"
+    ],
+    "1.21.1+fabric": [
+      "YLU3iTk4"
+    ],
+    "1.21.1+quilt": [
+      "YLU3iTk4"
+    ]
+  }
+}

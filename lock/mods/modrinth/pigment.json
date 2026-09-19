@@ -1,0 +1,62 @@
+{
+  "slug": "pigment",
+  "projectId": "7XjOoDjR",
+  "versions": {
+    "fZYfKNrP": {
+      "filename": "pigment-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7XjOoDjR/versions/fZYfKNrP/pigment-1.0.0.jar",
+      "hash": "sha512-+SlMLxWj8RD7TyhLCr+qOiSWDEI8KfXCcvLc4dht3NScKrdzdL2YrNWKOMeCb9jljnzOKzf/3g4OQ90ulOipxQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wnDlYCwh": {
+      "filename": "pigment-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7XjOoDjR/versions/wnDlYCwh/pigment-1.0.0.jar",
+      "hash": "sha512-gAmBFhf0/k50QxhhtklM6r0TNReOLoWH91d/1p11hnf7L1eSUNAUN2+WodOOYXQqif00XebbkilTPO/CaUzyIA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "fZYfKNrP"
+    ],
+    "1.20.1+quilt": [
+      "fZYfKNrP"
+    ],
+    "1.20.2+fabric": [
+      "wnDlYCwh"
+    ],
+    "1.20.2+quilt": [
+      "wnDlYCwh"
+    ]
+  }
+}

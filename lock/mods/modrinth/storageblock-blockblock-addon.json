@@ -1,0 +1,41 @@
+{
+  "slug": "storageblock-blockblock-addon",
+  "projectId": "aw1loE9b",
+  "versions": {
+    "JJn86twP": {
+      "filename": "storageblock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aw1loE9b/versions/JJn86twP/storageblock-1.0.0.jar",
+      "hash": "sha512-rB6jL6/nUQjKEnlSMUBLxO81sqchhXCScNZGUfQP9cW2hnUu2c5Vq/lWC0UOq5jwPyorRs9CrI33Y9OZOF0hww==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "blockblock",
+          "projectId": "UPIIY3Kz",
+          "type": "required"
+        },
+        {
+          "slug": "blunthornapi",
+          "projectId": "wbqUdxpw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "JJn86twP"
+    ]
+  }
+}

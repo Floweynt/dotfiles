@@ -1,0 +1,31 @@
+{
+  "slug": "chest-render-fix",
+  "projectId": "bS6b27sd",
+  "versions": {
+    "W2A4v2aV": {
+      "filename": "chest-render-fix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bS6b27sd/versions/W2A4v2aV/chest-render-fix-1.0.0.jar",
+      "hash": "sha512-wmhR3UxOVvp0+IKgqsJU2+5WXiq+AC8xoDtfTLHg2tsMFEqqAkt0OiJcjQjenUaHa1Wg+IIW60WkS6GjJcKzzA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "W2A4v2aV"
+    ]
+  }
+}

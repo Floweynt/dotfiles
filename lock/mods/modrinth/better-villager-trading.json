@@ -1,0 +1,78 @@
+{
+  "slug": "better-villager-trading",
+  "projectId": "BVA59T9H",
+  "versions": {
+    "6vmeTlxK": {
+      "filename": "Better-Villager-Trading-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BVA59T9H/versions/6vmeTlxK/Better-Villager-Trading-fabric-1.0.0.jar",
+      "hash": "sha512-ZU7KZV3s+hXhXtRdq+bLb/buue5KVcyKlVsJZfUNxiV4yweO3hEOOfLmpXNS2g88b4me05sLMbgDVKPnAkv5Tg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FznbDVmm": {
+      "filename": "Better-Villager-Trading-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BVA59T9H/versions/FznbDVmm/Better-Villager-Trading-neoforge-1.0.0.jar",
+      "hash": "sha512-EaJ2wtUOUt94+s2KeYbpUYvF/UhTHjNo0ZZgnfEvnVkxrINRD1qj13rOWqIgZohVqCGzGg8mjokGm6DJsxNpCg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "lMbs6u6D": {
+      "filename": "Better-Villager-Trading-neoforge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BVA59T9H/versions/lMbs6u6D/Better-Villager-Trading-neoforge-1.0.1.jar",
+      "hash": "sha512-L0qoIzO5C4HbRFX12oLEOi8tPsiiVvPENapct+uXdByX8qxvZEjeAzmdKhY9gacOEcKjJ05ph1v2fcrwOpvzPw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rycoYnBx": {
+      "filename": "Better-Villager-Trading-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BVA59T9H/versions/rycoYnBx/Better-Villager-Trading-fabric-1.0.1.jar",
+      "hash": "sha512-AZyK1bGzWlIm8pq3mUbWmxTzhHjg77vCcEEYY7aF/jB+oaY/TvLdHYSIa6HoSCNtgAnY0GeQrIe7HI0r4jiKew==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "rycoYnBx",
+      "6vmeTlxK"
+    ],
+    "1.21.1+neoforge": [
+      "lMbs6u6D",
+      "FznbDVmm"
+    ]
+  }
+}

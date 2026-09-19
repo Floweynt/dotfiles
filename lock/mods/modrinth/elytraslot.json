@@ -1,0 +1,46 @@
+{
+  "slug": "elytraslot",
+  "projectId": "mlbhj1OD",
+  "versions": {
+    "QUd3BqBx": {
+      "filename": "elytra-slot-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mlbhj1OD/versions/QUd3BqBx/elytra-slot-1.0.0.jar",
+      "hash": "sha512-SBobLouvLLPRXecgEw62cbY0nq7FsmpwV8t/oKHuGG2yeUzKbNBANMfTrISqwxsR1wuYKrtgLSDnoIE6fpZE3A==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "WBvDokEz": {
+      "filename": "elytra-slot-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mlbhj1OD/versions/WBvDokEz/elytra-slot-1.0.0.jar",
+      "hash": "sha512-t9Frnf356GttOy1WCZf3Ev6d0mJCIcMWNi1+Ssb0Fl+CxR7zePQEvX1pMCrPDghRe+zGW/+TbykouJo6FRxvMQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "QUd3BqBx",
+      "WBvDokEz"
+    ]
+  }
+}

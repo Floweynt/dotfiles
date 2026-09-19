@@ -1,0 +1,52 @@
+{
+  "slug": "fusion-smithing",
+  "projectId": "1nBc8ojc",
+  "versions": {
+    "gAzOwVfZ": {
+      "filename": "fusion-smithing-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1nBc8ojc/versions/gAzOwVfZ/fusion-smithing-1.0.0.jar",
+      "hash": "sha512-LhOqpUary8RDOeVjFoOhHaMuJ3ZFmc32+cA3styCr2kvBAhm0IWi3vRhnt5Mhm3vjye7uOOUYqdNo4Be2P3eGA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uRMBFEkG": {
+      "filename": "fusion_smithing-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1nBc8ojc/versions/uRMBFEkG/fusion_smithing-1.1.0.jar",
+      "hash": "sha512-/NeRmTijuLZrNfO0jVsuvysL/wnGJWZTjgjskL/Vvc+JdH0EaPzWmZLU0+MZcNneJkrVrp4NCbeLFv7jcckYPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "uRMBFEkG",
+      "gAzOwVfZ"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "client-counter",
+  "projectId": "9MYiJR7H",
+  "versions": {
+    "YgoK5aYh": {
+      "filename": "Client Counter [CLIENT, v1.0.0].jar",
+      "url": "https://cdn.modrinth.com/data/9MYiJR7H/versions/YgoK5aYh/Client%20Counter%20%5BCLIENT%2C%20v1.0.0%5D.jar",
+      "hash": "sha512-RTyzsGc/id9RAbdiw2loehW4AIbJ0M+Cla3RDROxx2kCZAz2ljaAWS5HX706Rem3J+6qq5NnmQpGXbe9XW+03Q==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iO4SPFEe": {
+      "filename": "Client Counter [CLIENT, v1.0.1, MC 1.21.1].jar",
+      "url": "https://cdn.modrinth.com/data/9MYiJR7H/versions/iO4SPFEe/Client%20Counter%20%5BCLIENT%2C%20v1.0.1%2C%20MC%201.21.1%5D.jar",
+      "hash": "sha512-mAh7dOUc3bcgbSF5eMJjMuNQle0PGxi9HZk0R3mJtnJamCQpFLwHxM9yUf3cmjDBYHX92n1a3IQFUbd9ZkfDjw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "YgoK5aYh"
+    ],
+    "1.21.1+fabric": [
+      "iO4SPFEe"
+    ]
+  }
+}

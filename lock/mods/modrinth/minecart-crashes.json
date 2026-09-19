@@ -1,0 +1,131 @@
+{
+  "slug": "minecart-crashes",
+  "projectId": "uAhZMSPw",
+  "versions": {
+    "BNDSXAgy": {
+      "filename": "MinecartCollisions-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/uAhZMSPw/versions/BNDSXAgy/MinecartCollisions-0.1.1.jar",
+      "hash": "sha512-L2yofxwX6fYh1bYfJVEW2U6L4pGFSZk54RfIw2tHmuGEBLhS2EIMcL5mWKUT4tDyZHTFv3Kk+EeSWrA2NL8n/w==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "KO3kzKz2": {
+      "filename": "MinecartCollisions-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/uAhZMSPw/versions/KO3kzKz2/MinecartCollisions-0.1.0.jar",
+      "hash": "sha512-BmjZSeEJozaeGk7GFHeE8HeHrrid8Z8hpZUTY9KDsEhhFaVseBJEKDleCxUfDwxeU1ttzFrppIXkBFnHGG0JlQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "SKxXjOwD": {
+      "filename": "MinecartCrashes-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/uAhZMSPw/versions/SKxXjOwD/MinecartCrashes-0.2.0.jar",
+      "hash": "sha512-V/yAe3rSjKqJgDe6X6V1whD0Bho89agKbLJslof4402ERvryWVwj3xJzlUSz3Swv3UsaRoaorceKjgPh0RRPvQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cjC5jUou": {
+      "filename": "MinecartCollisions-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/uAhZMSPw/versions/cjC5jUou/MinecartCollisions-0.1.2.jar",
+      "hash": "sha512-IKtoEvOaj0aZsxnLbZKH5faY+KM983rv4f2Sm1xIPDp/f9XxnNVKFsoaYTV9q934ZfhhIBdnqOHxqbGHxabu3Q==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "cjC5jUou"
+    ],
+    "1.19+quilt": [
+      "cjC5jUou"
+    ],
+    "1.19.1+fabric": [
+      "cjC5jUou",
+      "BNDSXAgy"
+    ],
+    "1.19.1+quilt": [
+      "cjC5jUou",
+      "BNDSXAgy"
+    ],
+    "1.19.2+fabric": [
+      "cjC5jUou",
+      "BNDSXAgy",
+      "KO3kzKz2"
+    ],
+    "1.19.2+quilt": [
+      "cjC5jUou",
+      "BNDSXAgy"
+    ],
+    "1.19.3+fabric": [
+      "cjC5jUou"
+    ],
+    "1.19.3+quilt": [
+      "cjC5jUou"
+    ],
+    "1.20+fabric": [
+      "SKxXjOwD"
+    ],
+    "1.20+quilt": [
+      "SKxXjOwD"
+    ],
+    "1.20.1+fabric": [
+      "SKxXjOwD"
+    ],
+    "1.20.1+quilt": [
+      "SKxXjOwD"
+    ]
+  }
+}

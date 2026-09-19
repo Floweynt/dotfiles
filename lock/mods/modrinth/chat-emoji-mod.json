@@ -1,0 +1,149 @@
+{
+  "slug": "chat-emoji-mod",
+  "projectId": "XKImXJ45",
+  "versions": {
+    "1XMVbVPo": {
+      "filename": "chat-emoji-mod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XKImXJ45/versions/1XMVbVPo/chat-emoji-mod-1.0.0.jar",
+      "hash": "sha512-J8DK1NMvg7sQh5nxSArddEk4ttK/DIV8iYk9+lZXEky50KLjNibVktltfiOwE1XrcjPV39BtumBcXQuGcMJdew==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "OyViypGz": {
+      "filename": "chat-emoji-mod-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/XKImXJ45/versions/OyViypGz/chat-emoji-mod-1.2.0.jar",
+      "hash": "sha512-1dGraKwvKSc3T23JKQIWpuDyZtnjKsXz75D5DwYMEzyuUsCOmSAqk7qBMOu1LwJRQqilbdQUZFDOktz6gGGvFg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UDtP9oIO": {
+      "filename": "chat-emoji-mod-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/XKImXJ45/versions/UDtP9oIO/chat-emoji-mod-1.2.1.jar",
+      "hash": "sha512-koyTEetm1CWj2e5BDEbDsW4vNGVdO4lN9rP7Q6616C5zm2i7xQonGCu6WYsFRD3x1k07D0f4OkUtfX6EUwwDLQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jECl8dNM": {
+      "filename": "chat-emoji-mod-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XKImXJ45/versions/jECl8dNM/chat-emoji-mod-1.1.0.jar",
+      "hash": "sha512-UYpv/fFbAoWApaWDcGMQdc3dr9eEept9lV4gKcyXcU0mu+7+wakT5U2bk0T2EnU94qiBc9DpSOt0JByQr27H1A==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "xDHeRSN9": {
+      "filename": "chat-emoji-mod-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/XKImXJ45/versions/xDHeRSN9/chat-emoji-mod-1.2.0.jar",
+      "hash": "sha512-JTIHZXZkJbFuZGcdCs3QQD53MesVdsETStQ0S1a6GIbfUCZGJx5C4k1fFggcZZf8mGlNZENI+u92D84m3YNjmg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ytKYilHJ": {
+      "filename": "chat-emoji-mod-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XKImXJ45/versions/ytKYilHJ/chat-emoji-mod-1.1.0.jar",
+      "hash": "sha512-2Is6eEFEy+RNPUX8WVQSl4UUqa+rIMryrL40b/xQMS5Kuy0N6xFl84IIJ79KXc/HThyO0QcHSOVdiT8BgRsMzA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "jECl8dNM",
+      "1XMVbVPo"
+    ],
+    "1.21.11+fabric": [
+      "UDtP9oIO",
+      "OyViypGz",
+      "jECl8dNM",
+      "1XMVbVPo"
+    ],
+    "26.1+fabric": [
+      "xDHeRSN9",
+      "ytKYilHJ"
+    ],
+    "26.1.1+fabric": [
+      "xDHeRSN9",
+      "ytKYilHJ"
+    ],
+    "26.1.2+fabric": [
+      "xDHeRSN9",
+      "ytKYilHJ"
+    ]
+  }
+}

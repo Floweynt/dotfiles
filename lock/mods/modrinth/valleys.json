@@ -1,0 +1,85 @@
+{
+  "slug": "valleys",
+  "projectId": "L1FTYcBH",
+  "versions": {
+    "Qgj5wRzZ": {
+      "filename": "Valley-0.1.0-BETA-neoforge-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/L1FTYcBH/versions/Qgj5wRzZ/Valley-0.1.0-BETA-neoforge-1.21.10.jar",
+      "hash": "sha512-35bG55Bu/KUluW7beobPgWbMs5IuYcZ8COyfx8/FerRTD5s/7+UvHJcLht5XaMBGwqR5KNaQHjhKVy/vERmi5A==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "dIqtbHRr": {
+      "filename": "Valley-0.1.0-BETA-forge-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/L1FTYcBH/versions/dIqtbHRr/Valley-0.1.0-BETA-forge-1.21.10.jar",
+      "hash": "sha512-kacNvWQjV3zWI4WouDk/ukZA/qy+cFcu7Ib0iMHRwkXh7nmZJYgLZdCbwduhUjlfo4uI48Xv0Kf4aKpPVb1oOA==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "kQnxGBhY": {
+      "filename": "Valley-0.1.0-BETA-fabric-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/L1FTYcBH/versions/kQnxGBhY/Valley-0.1.0-BETA-fabric-1.21.10.jar",
+      "hash": "sha512-iFTHwROlC2XnOZ5EV4eEZT5z76/TqsbsYayTGd4tzTDTDJ7zxPboi89ufqpWyT6PfqyHK5e4xts3datCnO+0tg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "kQnxGBhY"
+    ],
+    "1.21.10+forge": [
+      "dIqtbHRr"
+    ],
+    "1.21.10+neoforge": [
+      "Qgj5wRzZ"
+    ],
+    "1.21.5+forge": [
+      "dIqtbHRr"
+    ],
+    "1.21.6+forge": [
+      "dIqtbHRr"
+    ],
+    "1.21.7+forge": [
+      "dIqtbHRr"
+    ],
+    "1.21.8+forge": [
+      "dIqtbHRr"
+    ],
+    "1.21.9+forge": [
+      "dIqtbHRr"
+    ]
+  }
+}

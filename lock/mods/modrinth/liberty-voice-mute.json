@@ -1,0 +1,59 @@
+{
+  "slug": "liberty-voice-mute",
+  "projectId": "RGz3YsjA",
+  "versions": {
+    "lLzGZzhX": {
+      "filename": "LibertyVoiceMute-Velocity-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGz3YsjA/versions/lLzGZzhX/LibertyVoiceMute-Velocity-1.0.0.jar",
+      "hash": "sha512-JPnwbg4jELBKikEURv98TbpKTrQrrmoJb3ljzXl6+uM/BoWcAZMg3dXlGOJkqfTg+15jYNMw8llKaQsxfFCE2g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "libertybans",
+          "projectId": "PgXAUxLZ",
+          "type": "required"
+        }
+      ]
+    },
+    "wHYrdjgc": {
+      "filename": "LibertyVoiceMute-Fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGz3YsjA/versions/wHYrdjgc/LibertyVoiceMute-Fabric-1.0.0.jar",
+      "hash": "sha512-W0KamUmJ1hSs7NwHRic1KrfBPDfrtOrMVsBymmgqWGUDlx9b5aZzQ7AliG//pOrseKJSx0dm9kvLcskE7eXcrQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "wHYrdjgc"
+    ],
+    "1.21.1+velocity": [
+      "lLzGZzhX"
+    ]
+  }
+}

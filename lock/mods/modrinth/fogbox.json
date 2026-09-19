@@ -1,0 +1,56 @@
+{
+  "slug": "fogbox",
+  "projectId": "R8Cm5Uo7",
+  "versions": {
+    "FwROe3qF": {
+      "filename": "fogbox-1.0.1-hotfix.jar",
+      "url": "https://cdn.modrinth.com/data/R8Cm5Uo7/versions/1.0.1/fogbox-1.0.1-hotfix.jar",
+      "hash": "sha512-KipuV2A5cmQyMXTzLIX5CQqI512DxbTchi7Q1jWQk/ZPifN0PiA//pu7JC3PbazddRpjIaEGAXk7mftpJA3Rsw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "UW9ZkHeP": {
+      "filename": "fogbox-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/R8Cm5Uo7/versions/1.2.0/fogbox-1.2.0.jar",
+      "hash": "sha512-eQV5GIQMZeniJi34twXE9lKVOsvgImh8VkyDue5xna8PuTj4rXh5Po/c9UDX3EP/dwpP1DvmhUVeKR6F1cjpfw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "FwROe3qF"
+    ],
+    "1.18.2+quilt": [
+      "FwROe3qF"
+    ],
+    "1.19+fabric": [
+      "UW9ZkHeP"
+    ],
+    "1.19+quilt": [
+      "UW9ZkHeP"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "stick-n-stone",
+  "projectId": "E7F2ftx2",
+  "versions": {
+    "2OxSaLTR": {
+      "filename": "sticknstone-1.1.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/E7F2ftx2/versions/2OxSaLTR/sticknstone-1.1.0-1.21.1.jar",
+      "hash": "sha512-9+XYGDubA/4z6azTW6tkeA+RNlq1kNaZPD6ALb3ZjgejQJCfPbuDgN2DhuQOeufhhVpZUqKfh65jihL9bwbINQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "9bSzb4Mc": {
+      "filename": "sticknstone-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/E7F2ftx2/versions/9bSzb4Mc/sticknstone-1.0.0-1.20.1.jar",
+      "hash": "sha512-LERXIUwQe03DWglg3vL+nzOi+6jCqNTK/Kd5Im93BPaaNupWky7Q7tCcLJLLDXziTFYyIYslt4AAiQWKISs/pQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "simply-swords",
+          "projectId": "bK3Ubu9p",
+          "type": "required"
+        }
+      ]
+    },
+    "D7o2UZqu": {
+      "filename": "sticknstone-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/E7F2ftx2/versions/D7o2UZqu/sticknstone-1.0.0-1.20.1.jar",
+      "hash": "sha512-qu6XW6T8tV5GsmPcaZmYklYV7iBrYd4PgAcX38e9F0aCM6NJLRoHTL8wN5pAs+tJv5eFc+lzwoSKC0UDABPn9A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    },
+    "ZqDYT5RX": {
+      "filename": "sticknstone-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/E7F2ftx2/versions/ZqDYT5RX/sticknstone-1.1.0.jar",
+      "hash": "sha512-Wu9/JCpZbSDdisKHa0rNRvhhpj2TSJaCzZOOSI+TW1NeSOvq9rFoVDZ8ECwpJ8vUM3cgBYVKxF4GGjbbxQVyeA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zdqF9Kea": {
+      "filename": "sticknstone-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/E7F2ftx2/versions/zdqF9Kea/sticknstone-1.0.1-1.20.1.jar",
+      "hash": "sha512-aLSQhIfXL93xdT4T+LiZGnVCr4CD95S3SUfPrRR7sBfcD8kS6o0uIyXoYqH9DhjhJ+O8djMVrOrR0KflChCHIQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "simply-swords",
+          "projectId": "bK3Ubu9p",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "zdqF9Kea",
+      "9bSzb4Mc"
+    ],
+    "1.20.1+forge": [
+      "D7o2UZqu"
+    ],
+    "1.21.1+fabric": [
+      "ZqDYT5RX"
+    ],
+    "1.21.1+neoforge": [
+      "2OxSaLTR"
+    ]
+  }
+}

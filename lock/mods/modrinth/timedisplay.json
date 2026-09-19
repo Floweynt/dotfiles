@@ -1,0 +1,139 @@
+{
+  "slug": "timedisplay",
+  "projectId": "mmJ59jTu",
+  "versions": {
+    "XFkYENXs": {
+      "filename": "timedisplay-1.1a.jar",
+      "url": "https://cdn.modrinth.com/data/mmJ59jTu/versions/v1.1a-1.19/timedisplay-1.1a.jar",
+      "hash": "sha512-H6WgKenDg7o72huWCZEYI2reLWpLM94qlpqS9EGvcoJMQVR8BXLTMvjN58tyVwPjfBKc5bBOvUmC5plHY84ybg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "goZCEAjJ": {
+      "filename": "timedisplay-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/mmJ59jTu/versions/goZCEAjJ/timedisplay-1.4.0.jar",
+      "hash": "sha512-mJ4Qoqsi2swQNO/Q6d0N1SIdRoCI3T+GUC2G0qATbU/cAEhWTM2Rfdd/UiC0cH8qBTlGo5Qe0aaFnyFtyoLXYg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "l041kvss": {
+      "filename": "timedisplay-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/mmJ59jTu/versions/l041kvss/timedisplay-1.2.0.jar",
+      "hash": "sha512-5zRBd2kgzEeqn4bQK/yzsvsbhteZFSTlddYqrROV4LGOYOR/u+ilWmE9WIwPJlDUMy1dyLl+d+y/UGScYFKQcQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "wBwQdAbi": {
+      "filename": "timedisplay-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/mmJ59jTu/versions/wBwQdAbi/timedisplay-1.3.0.jar",
+      "hash": "sha512-tZAIyALTCFuuQZMGcjG/x8iXj41IW+D2YR1pIm0Nm19pOT3PS+tm1bny1BRNdFBfl3Gqequ32HlqY8DvIQ9dCw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "XFkYENXs"
+    ],
+    "1.19+quilt": [
+      "XFkYENXs"
+    ],
+    "1.19.1+fabric": [
+      "XFkYENXs"
+    ],
+    "1.19.1+quilt": [
+      "XFkYENXs"
+    ],
+    "1.19.2+fabric": [
+      "XFkYENXs"
+    ],
+    "1.19.2+quilt": [
+      "XFkYENXs"
+    ],
+    "1.19.3+fabric": [
+      "l041kvss",
+      "XFkYENXs"
+    ],
+    "1.19.3+quilt": [
+      "l041kvss",
+      "XFkYENXs"
+    ],
+    "1.20+fabric": [
+      "wBwQdAbi"
+    ],
+    "1.20+quilt": [
+      "wBwQdAbi"
+    ],
+    "1.20.1+fabric": [
+      "wBwQdAbi"
+    ],
+    "1.20.1+quilt": [
+      "wBwQdAbi"
+    ],
+    "1.20.2+fabric": [
+      "goZCEAjJ"
+    ],
+    "1.20.2+quilt": [
+      "goZCEAjJ"
+    ]
+  }
+}

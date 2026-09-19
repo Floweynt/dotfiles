@@ -1,0 +1,48 @@
+{
+  "slug": "missing-links",
+  "projectId": "IPHxFhHL",
+  "versions": {
+    "J16yzF29": {
+      "filename": "missinglinks-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IPHxFhHL/versions/J16yzF29/missinglinks-5.0.0.jar",
+      "hash": "sha512-rDldr7tbfBA+x+B9KA2be9/8RXXijY2+CJi6MKEmpKp9vXlVuZno85YSWtiExYwk69YVHCTX1HwWU0ymMwjX5A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "dic8feOB": {
+      "filename": "missinglinks-6.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IPHxFhHL/versions/dic8feOB/missinglinks-6.0.0.jar",
+      "hash": "sha512-8Taq9Edeo/YeL4FgaJkHhGuuyn6XlsjMmJjFs6jknnbxpwlbUAmD0F1dwMXIaXvUUeoEkE8DOCsGCPhjAsr9tQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "J16yzF29"
+    ],
+    "1.20.4+fabric": [
+      "dic8feOB"
+    ]
+  }
+}

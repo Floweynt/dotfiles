@@ -1,0 +1,75 @@
+{
+  "slug": "amethyst-gravity",
+  "projectId": "ZwZDYoIk",
+  "versions": {
+    "3alO3r4p": {
+      "filename": "amethyst-gravity-1.1.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/ZwZDYoIk/versions/3alO3r4p/amethyst-gravity-1.1.1%2B1.19.2.jar",
+      "hash": "sha512-ElAW3h2DV+1F1Ma10ALW7oKqBAVc1IXD+fmC0S7D0G6/Gk8BIIrwD4u7iI/rfx+2abrrHQUWbgQr54JGGGlIRQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gravity-api",
+          "projectId": "Ex1ynKrU",
+          "type": "required"
+        }
+      ]
+    },
+    "ogXzi8te": {
+      "filename": "amethyst-gravity-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZwZDYoIk/versions/1.1.0/amethyst-gravity-1.1.0.jar",
+      "hash": "sha512-OTvTv24hZn2H1FR1mjgsgC7saX3gzJl1BrM0M/BjK5c31IskBq9sIiuWBHBluGAU4JEp82pKT+7fvY1g2frg3A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gravity-api",
+          "projectId": "Ex1ynKrU",
+          "type": "required"
+        }
+      ]
+    },
+    "v1G3zI6I": {
+      "filename": "amethyst-gravity-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZwZDYoIk/versions/1.0.0/amethyst-gravity-1.0.0.jar",
+      "hash": "sha512-Jpzw41cA/b4hKkd6iXOuho2zdxtrgH/5y1uQfZ69t+EaBTBOeyGqoc6g2sCTanbTzKnGAmdxblppk5HuCuFdcw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gravity-api",
+          "projectId": "Ex1ynKrU",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "ogXzi8te",
+      "v1G3zI6I"
+    ],
+    "1.19.2+quilt": [
+      "3alO3r4p"
+    ]
+  }
+}

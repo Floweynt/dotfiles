@@ -1,0 +1,94 @@
+{
+  "slug": "hgw",
+  "projectId": "lpXvNCcN",
+  "versions": {
+    "3elgtvQ2": {
+      "filename": "hexxit_gear_weaponry-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lpXvNCcN/versions/3elgtvQ2/hexxit_gear_weaponry-1.0.0.jar",
+      "hash": "sha512-8g/LhimGfG6/Mj2ImnUGf+6EdpCUYDjBnfmXVOw8V1ap3E80eSu1QAI+Q70237sh3ueNJ2181JZrsAwnUJUQ8Q==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hexxit-gear-r",
+          "projectId": "rrDBjSL2",
+          "type": "required"
+        }
+      ]
+    },
+    "BBZ6wSgg": {
+      "filename": "hexxit_gear_weaponry-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lpXvNCcN/versions/BBZ6wSgg/hexxit_gear_weaponry-1.0.0.jar",
+      "hash": "sha512-YkHptxJF2KklcTpD054F3zAFYRdoSQlRXt+wM2pK/92MMg139o/t8A9IoRFc8LtjZmTRr4/NY0pmKnC4X7V73w==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hexxit-gear-r",
+          "projectId": "rrDBjSL2",
+          "type": "required"
+        }
+      ]
+    },
+    "T5pEnhUa": {
+      "filename": "hexxit_gear_weaponry-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lpXvNCcN/versions/T5pEnhUa/hexxit_gear_weaponry-1.0.0.jar",
+      "hash": "sha512-LAi87a5R87mlROkZdZgOXyfEsTFVSBqbIURG/gNxWe4ISh67D/W5y4IILZdwy1IFQ7Mq0PkNzTt9q+a9rn0PMA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VC1JHBfX": {
+      "filename": "HexxitGearWeaponry-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lpXvNCcN/versions/VC1JHBfX/HexxitGearWeaponry-1.0.0.jar",
+      "hash": "sha512-oAnG8VzgWOofLMgliperHMOMGvQGE4bN/U+1AT2Wx/LBEHeGzNc+vCjnnt8Wt8SVKwpdr65FPqzs7Sd4ahVLLQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hexxit-gear-r",
+          "projectId": "rrDBjSL2",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "BBZ6wSgg"
+    ],
+    "1.21.8+neoforge": [
+      "3elgtvQ2"
+    ],
+    "26.2+fabric": [
+      "VC1JHBfX"
+    ],
+    "26.2+neoforge": [
+      "T5pEnhUa"
+    ]
+  }
+}

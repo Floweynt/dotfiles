@@ -1,0 +1,96 @@
+{
+  "slug": "whisperwoods",
+  "projectId": "MQyX33RX",
+  "versions": {
+    "SsFtGFeK": {
+      "filename": "whisperwoods-1.20.1-2.1.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/MQyX33RX/versions/SsFtGFeK/whisperwoods-1.20.1-2.1.1-forge.jar",
+      "hash": "sha512-osVMgxfI9hrzwDfUv0lj+quZcFJQgVoEbub1ddCYs1I96+Usx64WzzFw2B8oX0u/x3luhy0mnkG0jeuvuobZ8w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "bNmLhaje": {
+      "filename": "whisperwoods-1.20.1-2.1.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/MQyX33RX/versions/bNmLhaje/whisperwoods-1.20.1-2.1.1-fabric.jar",
+      "hash": "sha512-xi/r1Ke8bik60YQQ255eOLe/vKtScfkE6ha6Mm9jI8MKYx8lWwCZRAKPIUxCC6mOI3tGafl+BrVuZX413vKGzw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "fecQqSDX": {
+      "filename": "whisperwoods-1.20.1-2.1.2-forge.jar",
+      "url": "https://cdn.modrinth.com/data/MQyX33RX/versions/fecQqSDX/whisperwoods-1.20.1-2.1.2-forge.jar",
+      "hash": "sha512-SGhYb+cZV0XeuNjyaBbdroij1mW52u0coUW2MUAHhn6N/S6jkjwn9+AdplisBhbA/Tc0GJJBdOK9pUrRGVEJjA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "fpdn7RsX": {
+      "filename": "whisperwoods-1.20.1-2.1.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/MQyX33RX/versions/fpdn7RsX/whisperwoods-1.20.1-2.1.2-fabric.jar",
+      "hash": "sha512-l6OoNK430Lkb882ARQRiJFkzAGy7o/oMVBNvT9uKI6xr7Yl3pQ8ZCk215+MbwUUGRTGZNd+PXPZZG+ppKbpVMQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "fpdn7RsX",
+      "bNmLhaje"
+    ],
+    "1.20.1+forge": [
+      "fecQqSDX",
+      "SsFtGFeK"
+    ]
+  }
+}

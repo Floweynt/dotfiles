@@ -1,0 +1,85 @@
+{
+  "slug": "throwable-fluids",
+  "projectId": "VwrCx2M5",
+  "versions": {
+    "7ZjRIRrX": {
+      "filename": "1.20.1-throwable-fluids-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VwrCx2M5/versions/7ZjRIRrX/1.20.1-throwable-fluids-3.0.0.jar",
+      "hash": "sha512-nlLFe/+DfA74SaKXglRmxzjiaKgxRDayEih9Ajl5hpqIc+TKyOn+psXrlnoCg9BQBR2nlZb/hy5k3992SFhyDw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GNIECVIm": {
+      "filename": "1.21-throwable-fluids-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VwrCx2M5/versions/GNIECVIm/1.21-throwable-fluids-3.0.0.jar",
+      "hash": "sha512-rhVDxuLH7b4vm1lK0/LIMMnpml5StTzpdf9FOC9C5EnJ1G7hRX63pQZJzHhozRuyPTFBV6FGGWBFCPB/Rnp3bg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dxdjt1FE": {
+      "filename": "1.20.1-throwable-fluids-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VwrCx2M5/versions/dxdjt1FE/1.20.1-throwable-fluids-2.0.0.jar",
+      "hash": "sha512-OzC+aWtRIWAWVkI/PXc48symFYee2xl7dZqY8Jm8EJH6CF/Rz3sEDPRWv6KhBefz8SpQ3XAnVldhX391yB0Mqw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "7ZjRIRrX",
+      "dxdjt1FE"
+    ],
+    "1.20.1+fabric": [
+      "7ZjRIRrX",
+      "dxdjt1FE"
+    ],
+    "1.20.2+fabric": [
+      "dxdjt1FE"
+    ],
+    "1.21+fabric": [
+      "GNIECVIm"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "more-apoli",
+  "projectId": "bEEBabZs",
+  "versions": {
+    "WXagesXr": {
+      "filename": "more-apoli-0.0.3-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/bEEBabZs/versions/WXagesXr/more-apoli-0.0.3-SNAPSHOT.jar",
+      "hash": "sha512-L/YOGiiQVGqEhw9X0XvNml+OsR1+qrEHNZWI+14LKYfNcSWbCFFRe55D+LfJ5/3Eo9AEkA4NMK/4pr8hRbBZog==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aGFpOG7m": {
+      "filename": "more-apoli-0.0.2-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/bEEBabZs/versions/aGFpOG7m/more-apoli-0.0.2-SNAPSHOT.jar",
+      "hash": "sha512-YlB8jJ0EamqSCJDUtcGOByCKHtYWKsFmdBll/T4L5i98mtyutHlTXET1HoGCwbBV9U8y2b2WA0ELqmQqXU7+JQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oGGS7mdZ": {
+      "filename": "more-apoli-0.0.1-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/bEEBabZs/versions/oGGS7mdZ/more-apoli-0.0.1-SNAPSHOT.jar",
+      "hash": "sha512-nWxvS5X6FWZ5Bm9J++bJeFNU+DcGGLGx4TZxIM4cOjFrg1fTbHt0B9Oq404gWOLYDYrtZPWTrPqmUFOxaeKg2Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "aGFpOG7m",
+      "oGGS7mdZ"
+    ],
+    "1.19.3+fabric": [
+      "WXagesXr"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "till-it-breaks",
+  "projectId": "DYeXKRaH",
+  "versions": {
+    "FMLyYa4f": {
+      "filename": "Till it Breaks 0.4 (1.19.4)-0.4.jar",
+      "url": "https://cdn.modrinth.com/data/DYeXKRaH/versions/FMLyYa4f/Till%20it%20Breaks%200.4%20%281.19.4%29-0.4.jar",
+      "hash": "sha512-fsAxZutQHElHi6X7gRZ00pd8fymgDySQNNdVSt8YZU5R4qivxcCtiq/mHUiaXxJ4oLnmVIn5OVmolGtXfjZeBw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bHDoiDd4": {
+      "filename": "tillitbreaks-0.5-1.20.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/DYeXKRaH/versions/bHDoiDd4/tillitbreaks-0.5-1.20.2-fabric.jar",
+      "hash": "sha512-9vEBZ6rrN22SPlxeGEib4u2uIFo0NGRx/x2qmp1+SS28XPtoxA2Ravlz/hUdOOr0qKDy3joEX4ztA1vs1huzWA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ryUP7Kq1": {
+      "filename": "Till it Breaks 0.3.2 (1.19.2).jar",
+      "url": "https://cdn.modrinth.com/data/DYeXKRaH/versions/ryUP7Kq1/Till%20it%20Breaks%200.3.2%20%281.19.2%29.jar",
+      "hash": "sha512-A0X8ocFz6ZGMcSLzFkn/9BPvHdwBemSQljU+8n4LK9HEfL7i7LBt6mib86Qv6wZkUxOrJC8m7c5YBOupqZKpZA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "ryUP7Kq1"
+    ],
+    "1.19.4+fabric": [
+      "FMLyYa4f"
+    ],
+    "1.20+fabric": [
+      "bHDoiDd4"
+    ],
+    "1.20+quilt": [
+      "bHDoiDd4"
+    ],
+    "1.20.1+fabric": [
+      "bHDoiDd4"
+    ],
+    "1.20.1+quilt": [
+      "bHDoiDd4"
+    ],
+    "1.20.2+fabric": [
+      "bHDoiDd4"
+    ],
+    "1.20.2+quilt": [
+      "bHDoiDd4"
+    ]
+  }
+}

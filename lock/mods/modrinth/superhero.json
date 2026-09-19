@@ -1,0 +1,84 @@
+{
+  "slug": "superhero",
+  "projectId": "VPum1CA1",
+  "versions": {
+    "E5oUFpfB": {
+      "filename": "timeless-1.0.0.24-1.20.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/VPum1CA1/versions/E5oUFpfB/timeless-1.0.0.24-1.20.1-alpha.jar",
+      "hash": "sha512-/mlAIp/Os8Cx/kK2/lTDmAfJ1VHKaz0b5jIkxHUm5ZHumtGjPZpLIWKB3LC7s7EKMlbL8t7DYJApUUAifA0wYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "animator",
+          "projectId": "WFDSXy17",
+          "type": "required"
+        }
+      ]
+    },
+    "SUGfUUbJ": {
+      "filename": "timeless-1.0.0.14-1.20.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/VPum1CA1/versions/SUGfUUbJ/timeless-1.0.0.14-1.20.1-alpha.jar",
+      "hash": "sha512-SMfsWZeZCELrUBrLAt257W71hU/W5+EPSy/4bj5ltEWxchTGclFjtXbOWowAGiSctjcl8C2Fxq4Zbc38D4IaNQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wlKFfI5K": {
+      "filename": "timeless-1.0.0.29-1.20.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/VPum1CA1/versions/wlKFfI5K/timeless-1.0.0.29-1.20.1-alpha.jar",
+      "hash": "sha512-gb+c8xtQCmujw20t2I0drQ8Q3vnpnxw5BnonkFcRWkKMooYpcIbiw7csNF0jjfLTvLbKsBqeoEs5aZv7b1lRog==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "animator",
+          "projectId": "WFDSXy17",
+          "type": "required"
+        }
+      ]
+    },
+    "ztYaJySR": {
+      "filename": "superhero-1.0.0+1.20.1+ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/VPum1CA1/versions/ztYaJySR/superhero-1.0.0%2B1.20.1%2BALPHA.jar",
+      "hash": "sha512-+IXFIeLl4WYgpufVkg565dzIkiJ5V8VNLAohGhXVcH9PvcKE1FlAfAyCYNwzodmzlAioXcm8pIBzGe4GP6SSjQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wlKFfI5K",
+      "E5oUFpfB",
+      "SUGfUUbJ"
+    ],
+    "1.20.1+forge": [
+      "ztYaJySR"
+    ]
+  }
+}

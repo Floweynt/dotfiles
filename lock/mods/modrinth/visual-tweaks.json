@@ -1,0 +1,67 @@
+{
+  "slug": "visual-tweaks",
+  "projectId": "F64xDQC0",
+  "versions": {
+    "gACy3Q9F": {
+      "filename": "visual-tweaks-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/F64xDQC0/versions/gACy3Q9F/visual-tweaks-1.21.11.jar",
+      "hash": "sha512-gyg/nCvDlfvyyvpD6H335uUDsTRZoaBPmsFWiyDa2OBWZE+dvnKs5GriFaQP0rf+6P+9eiltdbJ+/3tOu7JyzA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "uSrOARP2": {
+      "filename": "visual-tweaks-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/F64xDQC0/versions/uSrOARP2/visual-tweaks-1.21.11.jar",
+      "hash": "sha512-7AX4A2vI7BU4Qx4QILiSTxja1fVqzFNXhGqWxyCUBeEfsHum/8g/qCkRnSOwgyy82jO7965HHG7DkePEhh7Ubg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "z7pIOvfY": {
+      "filename": "visual-tweaks-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/F64xDQC0/versions/z7pIOvfY/visual-tweaks-1.21.11.jar",
+      "hash": "sha512-5aeA6dkMqUby8Zvzn0mFTF9f63ezT9WzqND1G7CYhO5DxW3PprxKHMmdHMJnY0QHuBaRSUk70JHjdZSiYo4ezA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "uSrOARP2",
+      "gACy3Q9F",
+      "z7pIOvfY"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "villagers-far-from-home",
+  "projectId": "UZJuyOGB",
+  "versions": {
+    "4mKNheJa": {
+      "filename": "villagersffh-0.5.1-1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/UZJuyOGB/versions/4mKNheJa/villagersffh-0.5.1-1.20.2.jar",
+      "hash": "sha512-7d6PpnPKy6RrelIbdYQGNIqWI8SdvSnP46qqzMD9OLbUjFv5MUUIZkoHRVroEEldJ6r/7GJt176o3vptdM3Y3Q==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KCQOdSE6": {
+      "filename": "villagersffh-0.5.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/UZJuyOGB/versions/KCQOdSE6/villagersffh-0.5.1-1.20.4.jar",
+      "hash": "sha512-g5jOr00xKvf95V1mIZ7v0en4YdEee6cFiQ4bSe+FMqLLoHXeN1nMDKBjLo04xvaiYTBYphG2WF7MxUMWuZ1xSA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NYSlZH3b": {
+      "filename": "villagersffh-0.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/UZJuyOGB/versions/NYSlZH3b/villagersffh-0.5.1.jar",
+      "hash": "sha512-2rk82gJgEMdW30jbZ3HbaOD1qshkWY+9dx9K24+OBLEhW3aK5DXghY5CrtEv8EHk97loZSRi63EZUBuDxCPD+A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gekeUgeT": {
+      "filename": "villagersffh-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UZJuyOGB/versions/gekeUgeT/villagersffh-1.0.0.jar",
+      "hash": "sha512-BxEk1ff4pzWMoMDMNnvKtLoGSlQP1rG4t5oKL6TPb/QbPFBD5qUZgpKmHnLRFpZawXDf4IiOrVuOx8REI6SigQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "NYSlZH3b",
+      "gekeUgeT"
+    ],
+    "1.20+quilt": [
+      "NYSlZH3b"
+    ],
+    "1.20.1+fabric": [
+      "NYSlZH3b",
+      "gekeUgeT"
+    ],
+    "1.20.1+quilt": [
+      "NYSlZH3b"
+    ],
+    "1.20.2+fabric": [
+      "4mKNheJa"
+    ],
+    "1.20.4+fabric": [
+      "KCQOdSE6"
+    ],
+    "1.20.4+quilt": [
+      "KCQOdSE6"
+    ]
+  }
+}

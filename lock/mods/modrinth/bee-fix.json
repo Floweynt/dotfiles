@@ -1,0 +1,50 @@
+{
+  "slug": "bee-fix",
+  "projectId": "GpUuHBJw",
+  "versions": {
+    "QO7aRSbA": {
+      "filename": "beefix-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/GpUuHBJw/versions/QO7aRSbA/beefix-1.0-SNAPSHOT.jar",
+      "hash": "sha512-NbbD4Tn5csoQd8x7M6p0gt4fbo6XrkAO8ns3voAZOl5NMnetw5PEXPcdimvDv8ddLvYb47/DPTgWCSxfFQycBA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "r9HOVsxE": {
+      "filename": "beefix-1.0-SNAPSHOT+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/GpUuHBJw/versions/r9HOVsxE/beefix-1.0-SNAPSHOT%2B1.19.2.jar",
+      "hash": "sha512-t8+xvByDwPs4KLgHKOB8pPhqSavp9uf2NIijErlZNfrVqYjSJlp/8VVc/eVXsjuAPuC3DIaoTslbUtt2mRnGUA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "QO7aRSbA"
+    ],
+    "1.18.2+quilt": [
+      "QO7aRSbA"
+    ],
+    "1.19+fabric": [
+      "r9HOVsxE"
+    ],
+    "1.19+quilt": [
+      "r9HOVsxE"
+    ]
+  }
+}

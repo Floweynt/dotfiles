@@ -1,0 +1,62 @@
+{
+  "slug": "pswg-adventures-ep-1",
+  "projectId": "QBIRprUu",
+  "versions": {
+    "6UpjzNXl": {
+      "filename": "adventures - 0.0.24.1.jar",
+      "url": "https://cdn.modrinth.com/data/QBIRprUu/versions/6UpjzNXl/adventures%20-%200.0.24.1.jar",
+      "hash": "sha512-jMkDr8epJfNxnw0kqDs7GzbqA5hV9XIt1gplRqNnGzxUsQsBhOYkTumwffMmFMxZ4caHTeZcDvRssDhrl9vKJw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pswg",
+          "projectId": "9rBI0wQz",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "KjpK96yR": {
+      "filename": "adventures+-+0.16.jar",
+      "url": "https://cdn.modrinth.com/data/QBIRprUu/versions/KjpK96yR/adventures%2B-%2B0.16.jar",
+      "hash": "sha512-0EIKCcHKAa0ow68eJsXI9kADiZ6i4Ggl2C0bp6o5DWu2ppsAkXjyqgj09by+L9FZOogRFihaxi26Lzs7ZfJFYA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pswg",
+          "projectId": "9rBI0wQz",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "6UpjzNXl",
+      "KjpK96yR"
+    ]
+  }
+}

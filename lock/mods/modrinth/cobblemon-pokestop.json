@@ -1,0 +1,61 @@
+{
+  "slug": "cobblemon-pokestop",
+  "projectId": "AZ2xh9p8",
+  "versions": {
+    "aENG18zR": {
+      "filename": "cobblepokestop-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AZ2xh9p8/versions/aENG18zR/cobblepokestop-1.0.0.jar",
+      "hash": "sha512-FXBIE9spEP2C0CU1ELiWyxYP4ViapPchYFvl/6ss5U7aGGhqfH+gOdQpFjcA0AZAoRSg5i5lx+KORuPd8Miazg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uOHjQQGD": {
+      "filename": "cobblepokestop-fabric-1.21.1-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/AZ2xh9p8/versions/uOHjQQGD/cobblepokestop-fabric-1.21.1-2.0.1.jar",
+      "hash": "sha512-HMVSo4mH5ycdT51dn7R8TNMoKNHQ7rfZHAZ+io4vKp1YwRUjjv9+to95wKH+sOEOXYFqB/v6m0lh0zDIdb6Q2w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vxdsMagg": {
+      "filename": "cobblepokestop-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AZ2xh9p8/versions/vxdsMagg/cobblepokestop-2.0.0.jar",
+      "hash": "sha512-20DHpSHAAU7A9xPY6EH0va2dCN3ep1AoeX9tt5ZdUgBChjCredv7vKYV3gEGuoWQqLS2YiO7dHCiAZVk4MJTbQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "uOHjQQGD",
+      "vxdsMagg",
+      "aENG18zR"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "ra_additions",
+  "projectId": "eytDZegT",
+  "versions": {
+    "LFCr2BBo": {
+      "filename": "ra_additions-1.19.4-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/eytDZegT/versions/LFCr2BBo/ra_additions-1.19.4-1.2.0.jar",
+      "hash": "sha512-cp6QfvifDQ8cWMNE2SZpDqsEER4GQD0/Z0IIvoJwGr1AmO/ZnOviy0tHz8g54D84dyOcLiHnJn+pKo/wAkvt7g==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NOyqGvh3": {
+      "filename": "ra_additions-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eytDZegT/versions/NOyqGvh3/ra_additions-1.0.0.jar",
+      "hash": "sha512-qLuTQXiEGQ3rivlOTqiaPsFXX7BHYgODM7Zt38zUtl4wVnRFphfbxVTGFfipoQigEuJJViFGZAxoVBwS0SXsGA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "W8GiqJhs": {
+      "filename": "ra_additions-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eytDZegT/versions/W8GiqJhs/ra_additions-1.1.0.jar",
+      "hash": "sha512-agMXCz+45Al5xilSOqpigRTdBBWMqKmYJLQ3iqlTqlhb/tvNbtYehjDS4AifQbmODlaWMwXWP8RVyzaErruopQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qtZcPrCP": {
+      "filename": "ra_additions-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/eytDZegT/versions/qtZcPrCP/ra_additions-1.20.1-1.2.0.jar",
+      "hash": "sha512-fGCa+Ugg0JOdtp/EY/Xd5LU04A4kFI6XiM2v+ybz7mS99ZLSgWeIVHLdrlfLac9vyn+UlBybsYKOYoufBni8NQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "W8GiqJhs",
+      "NOyqGvh3"
+    ],
+    "1.19.1+fabric": [
+      "W8GiqJhs",
+      "NOyqGvh3"
+    ],
+    "1.19.2+fabric": [
+      "W8GiqJhs",
+      "NOyqGvh3"
+    ],
+    "1.19.4+fabric": [
+      "LFCr2BBo"
+    ],
+    "1.20+fabric": [
+      "qtZcPrCP"
+    ],
+    "1.20.1+fabric": [
+      "qtZcPrCP"
+    ]
+  }
+}

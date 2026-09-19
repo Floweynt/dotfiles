@@ -1,0 +1,35 @@
+{
+  "slug": "vanity-baguette",
+  "projectId": "b49OXnDO",
+  "versions": {
+    "1B9ish8D": {
+      "filename": "vanity_baguette-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/b49OXnDO/versions/1B9ish8D/vanity_baguette-1.0.0.jar",
+      "hash": "sha512-OwQQU7nv3vvKEqZBezSNYDZfiAkoJLLXfX1XISmypsdj7YAB1DvmReRhAjfkIshIRRuLD0XCtF3Jd0EPfXolIQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1B9ish8D"
+    ],
+    "1.20.4+fabric": [
+      "1B9ish8D"
+    ]
+  }
+}

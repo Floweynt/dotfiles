@@ -1,0 +1,41 @@
+{
+  "slug": "cataclysmic-tree",
+  "projectId": "EXk8Z0rn",
+  "versions": {
+    "sAmAnImc": {
+      "filename": "cataclysmic-1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/EXk8Z0rn/versions/sAmAnImc/cataclysmic-1.20-1.20.1.jar",
+      "hash": "sha512-xKLWiFNXQbiiAgF4GEah/qT+StlMlxopE11s9ofPfcBjRYMSm8hYkLLcAzbgqEbctBHp0JDgiGU48BbsjQJlgQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "skills",
+          "projectId": "hqQqvaa4",
+          "type": "required"
+        },
+        {
+          "slug": "attributes",
+          "projectId": "FCFcFw09",
+          "type": "required"
+        },
+        {
+          "slug": "cataclysmic",
+          "projectId": "AK42yTRO",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sAmAnImc"
+    ]
+  }
+}

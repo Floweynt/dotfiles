@@ -1,0 +1,134 @@
+{
+  "slug": "storage-delight-polymer",
+  "projectId": "EnNzknvx",
+  "versions": {
+    "F1BInayy": {
+      "filename": "storagedelight-patch-25.07.32-1.21.6-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/EnNzknvx/versions/F1BInayy/storagedelight-patch-25.07.32-1.21.6-fabric.jar",
+      "hash": "sha512-gs2/LbNoE48Nf1UR3hYU7gtIJL6wGuJ1xrij4+8CkVk3XLJgEpJ8Na8MoeEmk1yAzNW5p56AEPUHBDOQeFGU4w==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "storage-delight",
+          "projectId": "LTTvOp5L",
+          "type": "required"
+        }
+      ]
+    },
+    "XMxlCsaB": {
+      "filename": "storagedelight-patch-25.07.32-1.21.6.jar",
+      "url": "https://cdn.modrinth.com/data/EnNzknvx/versions/XMxlCsaB/storagedelight-patch-25.07.32-1.21.6.jar",
+      "hash": "sha512-o6KM9Um8d0cVLu6vHWpzFnVB1S2ywU/Lk5nyEttGTLRdkoCtMLyulNuAhuyA8788vh3iXNOG0yI8vT9IAEXArw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "storage-delight",
+          "projectId": "LTTvOp5L",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "fOIJJ3XN": {
+      "filename": "storagedelight-patch-25.12.09-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/EnNzknvx/versions/fOIJJ3XN/storagedelight-patch-25.12.09-1.21.10.jar",
+      "hash": "sha512-D/3lPHuz0Suyei1WQZpOGeyOA0ttMAqGMxC8rW6SE6b51wC5Wo3GrByyWDVD2uq2yfTF8f8Dm2h9Z/bWkvqF1g==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "storage-delight",
+          "projectId": "LTTvOp5L",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "fOIJJ3XN",
+      "F1BInayy"
+    ],
+    "1.21.10+quilt": [
+      "fOIJJ3XN",
+      "F1BInayy"
+    ],
+    "1.21.11+fabric": [
+      "fOIJJ3XN"
+    ],
+    "1.21.11+quilt": [
+      "fOIJJ3XN"
+    ],
+    "1.21.6+fabric": [
+      "F1BInayy"
+    ],
+    "1.21.6+quilt": [
+      "F1BInayy"
+    ],
+    "1.21.7+fabric": [
+      "F1BInayy"
+    ],
+    "1.21.7+quilt": [
+      "F1BInayy"
+    ],
+    "1.21.8+fabric": [
+      "F1BInayy",
+      "XMxlCsaB"
+    ],
+    "1.21.8+quilt": [
+      "F1BInayy",
+      "XMxlCsaB"
+    ],
+    "1.21.9+fabric": [
+      "fOIJJ3XN",
+      "F1BInayy"
+    ],
+    "1.21.9+quilt": [
+      "fOIJJ3XN",
+      "F1BInayy"
+    ]
+  }
+}

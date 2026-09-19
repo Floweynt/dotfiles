@@ -1,0 +1,42 @@
+{
+  "slug": "bronze-armor",
+  "projectId": "OK2jnX6G",
+  "versions": {
+    "aorGdpmk": {
+      "filename": "Bronze Armor Fabric -1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/OK2jnX6G/versions/aorGdpmk/Bronze%20Armor%20Fabric%20-1.20.1-1.0.2.jar",
+      "hash": "sha512-/C6NGgkxxlQm6CuUJSaBTifn+6GBNpV+csj6CPEjwk1ODDLa8s1McGTXoxTm/NqyNJU75gvbN4WSGffYnaPTcw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "gdKzJUzc": {
+      "filename": "Bronze Armor Forge -1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/OK2jnX6G/versions/gdKzJUzc/Bronze%20Armor%20Forge%20-1.20.1-1.0.2.jar",
+      "hash": "sha512-GZOpfK966C4TAfKdSu7ZWCEI2sJ2pYy2wDgsx5zfTR2sfoaOC2dkVJOTzu1edQ+6nKkwxicN1k46CJ/U/S+wJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "aorGdpmk"
+    ],
+    "1.20.1+forge": [
+      "gdKzJUzc"
+    ]
+  }
+}

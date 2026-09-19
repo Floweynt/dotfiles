@@ -1,0 +1,70 @@
+{
+  "slug": "dungeons+-towers",
+  "projectId": "vdl5436m",
+  "versions": {
+    "XhikPe6V": {
+      "filename": "towers-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vdl5436m/versions/XhikPe6V/towers-1.0.0.jar",
+      "hash": "sha512-eBi43gk/3mbuicwsJPvhNlHgOw4gbyNPn73389SFzs2jwlUYlD7eARk/0ir+ykKfYaQbyvSVPaKX6hNQ3K0PJQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dungeons+-more-spawners",
+          "projectId": "ETYqWHa5",
+          "type": "required"
+        }
+      ]
+    },
+    "kUQvObix": {
+      "filename": "towers-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vdl5436m/versions/kUQvObix/towers-1.0.1.jar",
+      "hash": "sha512-d8/qK7BnOK9UXzBh5aEZxYluDSYhk7VYTo0PeqObmjK00oAL9DlAvSqWygGZ0CZiKuNBQsUATKNqLfwuOrnhXA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dungeons+-more-spawners",
+          "projectId": "ETYqWHa5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kUQvObix",
+      "XhikPe6V"
+    ],
+    "1.20.2+fabric": [
+      "kUQvObix",
+      "XhikPe6V"
+    ],
+    "1.20.3+fabric": [
+      "kUQvObix",
+      "XhikPe6V"
+    ],
+    "1.20.4+fabric": [
+      "kUQvObix",
+      "XhikPe6V"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "immersive-portals-continued",
+  "projectId": "Z1wyYzmA",
+  "versions": {
+    "NRUec5qq": {
+      "filename": "immersive-portals-6.0.6-mc1.21.1-fabric-sodium0.6.5.jar",
+      "url": "https://cdn.modrinth.com/data/Z1wyYzmA/versions/NRUec5qq/immersive-portals-6.0.6-mc1.21.1-fabric-sodium0.6.5.jar",
+      "hash": "sha512-Z8SPZUZvZ+ER1C9RioAmmGqzQ1D2mzoWoJkj5XHv4l0CbuTpf35R0X+57QQXxHZfHhpuhUVGS9TjzenMU1ykrg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RpyCxbO7": {
+      "filename": "immersive-portals-3.4.0-iris1.8-mc1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Z1wyYzmA/versions/RpyCxbO7/immersive-portals-3.4.0-iris1.8-mc1.20.1-fabric.jar",
+      "hash": "sha512-WYwU22FEULXXlel5WE8pt+96Vz+PF5WUBk9tdTNJY2vG91HdJqpuPjMq9+x8EhZVC6KdmsP2dlAR5DMIEDmSZw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "c3t8sRLu": {
+      "filename": "immersive-portals-6.0.7-mc1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Z1wyYzmA/versions/c3t8sRLu/immersive-portals-6.0.7-mc1.21.1-fabric.jar",
+      "hash": "sha512-7HQ+tEV1EZrk0i7ZxsYTiNLW9l6rBl/Xn5bk7oEtb7l8a51ftBK7jSjv6Cm1/p0ei4S2qGQEcK5bxkqYqtg4Jg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "RpyCxbO7"
+    ],
+    "1.21.1+fabric": [
+      "c3t8sRLu",
+      "NRUec5qq"
+    ]
+  }
+}

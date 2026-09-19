@@ -1,0 +1,114 @@
+{
+  "slug": "composite",
+  "projectId": "SO83BgfA",
+  "versions": {
+    "KJLLo2t7": {
+      "filename": "composite-0.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/SO83BgfA/versions/KJLLo2t7/composite-0.2.2.jar",
+      "hash": "sha512-WLW8pVk4TccLdpOcI7qRTPQBxgOxzfi+TE5eTgqwNM6QBLNO7O3LZtQwYu/GKEYZRQErdvlU4FqoWcfsKQe3mw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OzFLDoB8": {
+      "filename": "composite-0.1.0-windows-x64.jar",
+      "url": "https://cdn.modrinth.com/data/SO83BgfA/versions/OzFLDoB8/composite-0.1.0-windows-x64.jar",
+      "hash": "sha512-D8IjG6s/KsKktm+LhW2/vHlFfJdHDlt6xtJjTcCv1RPpeiKbU/R+WVpKOMB4PwYGoBZOS0alrL3DbcNTJVubRg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "UnHiqOEJ": {
+      "filename": "composite-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/SO83BgfA/versions/UnHiqOEJ/composite-0.3.0.jar",
+      "hash": "sha512-BTGWlyDl8JFIYW0uyQcjJ+t8h1MwAkXe5RkYI3Ex7qJHz1MkhfVUtYiKH4HF/iusfKCgF9TmwfW62J+brnOayQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "X9NyZziT": {
+      "filename": "composite-0.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/SO83BgfA/versions/X9NyZziT/composite-0.5.0.jar",
+      "hash": "sha512-trwWS8tj8vlIm0xCM/in24dvbAcH9Q25eLbL/VZcZwkYirViLCNg47eQazNnFqRxGvzeSFzJHmSimE70+ZbeCg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "X9NyZziT",
+      "UnHiqOEJ",
+      "KJLLo2t7",
+      "OzFLDoB8"
+    ]
+  }
+}

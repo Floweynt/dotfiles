@@ -1,0 +1,71 @@
+{
+  "slug": "icarus-x-transmog-compat",
+  "projectId": "zMdf1n8V",
+  "versions": {
+    "gbBKCDQe": {
+      "filename": "icaruswings_transmog_compat-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/zMdf1n8V/versions/gbBKCDQe/icaruswings_transmog_compat-1.0.1.jar",
+      "hash": "sha512-D8red8F7JJH/e6WxBX+VRAlHKYW0VPkAlKFvJF2i8oTfh+17DaCL8O+9Cfz57XZThuZolGn+jVZyPXVVoIa8cQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "kNpSQj90": {
+      "filename": "icaruswings_transmog_compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zMdf1n8V/versions/kNpSQj90/icaruswings_transmog_compat-1.0.0.jar",
+      "hash": "sha512-6vKOGnz49aqicoDEEYDdCLgJo61c40qOSNUe1ngiIrAEq/ELK/AqyQtcMecUSkbt/LI4NItbml9I1r1/XM873A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "icarus",
+          "projectId": "Dw7M6XKW",
+          "type": "required"
+        },
+        {
+          "slug": "transmog",
+          "projectId": "Th33t82F",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gbBKCDQe",
+      "kNpSQj90"
+    ],
+    "1.20.2+fabric": [
+      "gbBKCDQe"
+    ],
+    "1.20.3+fabric": [
+      "gbBKCDQe"
+    ],
+    "1.20.4+fabric": [
+      "gbBKCDQe"
+    ],
+    "1.20.5+fabric": [
+      "gbBKCDQe"
+    ],
+    "1.20.6+fabric": [
+      "gbBKCDQe"
+    ]
+  }
+}

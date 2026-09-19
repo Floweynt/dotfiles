@@ -1,0 +1,107 @@
+{
+  "slug": "reincarnation-origins-werewolf",
+  "projectId": "EX4Ov425",
+  "versions": {
+    "5pxepCiC": {
+      "filename": "reincarnation-origins-werewolf-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EX4Ov425/versions/5pxepCiC/reincarnation-origins-werewolf-1.0.0.jar",
+      "hash": "sha512-SmEldOw5yrcsSg1hJT8x0pqzT7SttQEnpgiZ3gX97PMqulMlKFjz/ZqeN3LODhCW3qePq1760szwo5BCjPrrtQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Wej8Nhbb": {
+      "filename": "reincarnation-origins-werewolf-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EX4Ov425/versions/Wej8Nhbb/reincarnation-origins-werewolf-1.1.0.jar",
+      "hash": "sha512-0ym+MOxnKRI4RDsWEgxA/ib33uG29zOLBY4Z8YeCDTKzS/GMAnQEdjgP6WfZtYe2YwXl5SSdn5Q0tiiogk99fA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "piB0ohee": {
+      "filename": "reincarnation-origins-werewolf-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/EX4Ov425/versions/piB0ohee/reincarnation-origins-werewolf-1.1.1.jar",
+      "hash": "sha512-/u+/nEsTML/Ywoccw6aBYQXRI6CBtcKq+TV7HT1VCrIj5WgOep8fbmXaE2WLVq9DUjpznsLVf0eZNJbblGDyMA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "piB0ohee",
+      "Wej8Nhbb",
+      "5pxepCiC"
+    ],
+    "1.19.3+fabric": [
+      "piB0ohee",
+      "Wej8Nhbb",
+      "5pxepCiC"
+    ],
+    "1.19.4+fabric": [
+      "piB0ohee",
+      "Wej8Nhbb",
+      "5pxepCiC"
+    ],
+    "1.20+fabric": [
+      "piB0ohee",
+      "Wej8Nhbb",
+      "5pxepCiC"
+    ],
+    "1.20.1+fabric": [
+      "piB0ohee",
+      "Wej8Nhbb",
+      "5pxepCiC"
+    ],
+    "1.20.2+fabric": [
+      "piB0ohee",
+      "Wej8Nhbb",
+      "5pxepCiC"
+    ]
+  }
+}

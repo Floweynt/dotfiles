@@ -1,0 +1,48 @@
+{
+  "slug": "stellara",
+  "projectId": "NvyY3PPw",
+  "versions": {
+    "1S0r5p1I": {
+      "filename": "stellara-fabric-1.20.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/NvyY3PPw/versions/1S0r5p1I/stellara-fabric-1.20.1-0.1.jar",
+      "hash": "sha512-Dz7JhE8Z3ZUdb1hOEYGJazoWD8ft0XBQ+pcWd+jGRNnG7vCIust0dtWAfFYZZGyx9pUGDNRV7rRunzOuh+0/9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "ELr0zc5s": {
+      "filename": "stellara-forge-1.20.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/NvyY3PPw/versions/ELr0zc5s/stellara-forge-1.20.1-0.1.jar",
+      "hash": "sha512-y2MGNLMbBidtJQZjDq/MR2ZmE6okmlRWqsZK4RBQUdIVyV2+VqnW+uJlcMX8oKNddSzBFdUdHDt2ePCIXgeU9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1S0r5p1I"
+    ],
+    "1.20.1+forge": [
+      "ELr0zc5s"
+    ]
+  }
+}

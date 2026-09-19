@@ -1,0 +1,40 @@
+{
+  "slug": "create-lookin-good",
+  "projectId": "9Y6rerGw",
+  "versions": {
+    "Vxwq5dtI": {
+      "filename": "create-lookin-good-0.1.2+1.20.1-15.jar",
+      "url": "https://cdn.modrinth.com/data/9Y6rerGw/versions/Vxwq5dtI/create-lookin-good-0.1.2%2B1.20.1-15.jar",
+      "hash": "sha512-fIsOdBoWNc3m9xGaTPsDDNmT0cHiPYiFFSSHhvdekbCN3qmrKk4ZVZF0dOxThOcfznQSDWvK3KPSbxUP3Fp6UQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Vxwq5dtI"
+    ],
+    "1.20.1+quilt": [
+      "Vxwq5dtI"
+    ]
+  }
+}

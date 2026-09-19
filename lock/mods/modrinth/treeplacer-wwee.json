@@ -1,0 +1,118 @@
+{
+  "slug": "treeplacer-wwee",
+  "projectId": "zHT02831",
+  "versions": {
+    "44G8RpLV": {
+      "filename": "treeplacer_wwee-1.20.1-2.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/zHT02831/versions/44G8RpLV/treeplacer_wwee-1.20.1-2.0.0-forge.jar",
+      "hash": "sha512-4rg48PIZt8+xhcDSZod3wWflyOTPArbMQpPrT1hSVgjNy1xn9X3Knvo9GZKMbivGET+879XADqxRIdrVpa3EsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "treeplacer",
+          "projectId": "4im8hCxA",
+          "type": "required"
+        },
+        {
+          "slug": "expanded-ecosphere",
+          "projectId": "O1XGs7ps",
+          "type": "required"
+        }
+      ]
+    },
+    "M1IUWIk4": {
+      "filename": "treeplacer_wwee-1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/zHT02831/versions/M1IUWIk4/treeplacer_wwee-1.0.0.zip",
+      "hash": "sha512-KjT5HkzKlSsUk0WgleSemdejDYCVWndmVap37bFryPxk/PJz4R2MVUPKxuoH1hskiTfPAMXuhYpXJeRRp3JHVg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "treeplacer",
+          "projectId": "4im8hCxA",
+          "type": "required"
+        },
+        {
+          "slug": "expanded-ecosphere",
+          "projectId": "O1XGs7ps",
+          "type": "required"
+        }
+      ]
+    },
+    "gGb8bLwO": {
+      "filename": "treeplacer_wwee-1.20.1-2.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/zHT02831/versions/gGb8bLwO/treeplacer_wwee-1.20.1-2.0.0.zip",
+      "hash": "sha512-KiApxfjsUcZy+/rG4nE9D8RYiNsJkozktCEnGmM4gXgzYNErfyxqE2bmH6+Z2nfFn9/VfF/ty0LAjZi5Zw7Y2Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "expanded-ecosphere",
+          "projectId": "O1XGs7ps",
+          "type": "required"
+        },
+        {
+          "slug": "treeplacer",
+          "projectId": "4im8hCxA",
+          "type": "required"
+        }
+      ]
+    },
+    "nOgNDEjN": {
+      "filename": "treeplacer_wwee-1.20.1-2.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/zHT02831/versions/nOgNDEjN/treeplacer_wwee-1.20.1-2.0.0-fabric.jar",
+      "hash": "sha512-+ylFCnq5Qnqtyfnz2tZ/E9K1rqbKWCmX/FDaReWGpjmgwwzmUSBvm3gBIUIIXhzRiu5xmF2fQ3QqA7L0Dr79Rg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "expanded-ecosphere",
+          "projectId": "O1XGs7ps",
+          "type": "required"
+        },
+        {
+          "slug": "treeplacer",
+          "projectId": "4im8hCxA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "gGb8bLwO",
+      "M1IUWIk4"
+    ],
+    "1.20.1+fabric": [
+      "nOgNDEjN"
+    ],
+    "1.20.1+forge": [
+      "44G8RpLV"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "point-blank-infinite-ammo",
+  "projectId": "BlhfNK6D",
+  "versions": {
+    "80yLVsrc": {
+      "filename": "pointblankinfiniteammo-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BlhfNK6D/versions/80yLVsrc/pointblankinfiniteammo-1.0.0.jar",
+      "hash": "sha512-Isc3xnWi0iHhheFbflJukocu2qLxp8nIsehfTSgkvH+QbPVd+r7FZlWhuVajVTPPt3lr1y6Ooj69aqKqT7CjKQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    },
+    "cAnDTqsb": {
+      "filename": "pointblankinfiniteammo-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BlhfNK6D/versions/cAnDTqsb/pointblankinfiniteammo-1.0.0.jar",
+      "hash": "sha512-TL/AjfeY1RaH/vG+DZscAWEtTPSXMNdamjp/LbpTDNPNYMyhXDk57XkgiyWfE9ZLJPaeH5h9V9NoQiRD2nzD/A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    },
+    "zfkwz71m": {
+      "filename": "pointblankinfiniteammo-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BlhfNK6D/versions/zfkwz71m/pointblankinfiniteammo-0.1.0.jar",
+      "hash": "sha512-nbr/9KzbQMs6tuz7l1qblVj/20QMzvrZYSIqm+AWTUfdD3yZX7O6QOSaSKR24K9/1GyL+GG1OAF0fOxHBP2XcQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "80yLVsrc"
+    ],
+    "1.21+forge": [
+      "zfkwz71m"
+    ],
+    "1.21.1+fabric": [
+      "80yLVsrc",
+      "cAnDTqsb"
+    ],
+    "1.21.1+forge": [
+      "zfkwz71m"
+    ]
+  }
+}

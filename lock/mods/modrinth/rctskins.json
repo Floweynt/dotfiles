@@ -1,0 +1,69 @@
+{
+  "slug": "rctskins",
+  "projectId": "x4PgkPgG",
+  "versions": {
+    "AsWBwk28": {
+      "filename": "RCTremegaforge.zip",
+      "url": "https://cdn.modrinth.com/data/x4PgkPgG/versions/AsWBwk28/RCTremegaforge.zip",
+      "hash": "sha512-t+I4Aq53QOUlHlCA1zoF+zqlV6IoIpLT1k9HXBtF6ltAe/Yf1/BVJ6JRJ1MDeXx/JBoD9b6chsGHEN0QuZoTjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "KP3AdYMt": {
+      "filename": "RCTremega.zip",
+      "url": "https://cdn.modrinth.com/data/x4PgkPgG/versions/KP3AdYMt/RCTremega.zip",
+      "hash": "sha512-4xWTJ6Y10RKT1Cq0pjAr5HIzgPLBpTN5CPWVfycQlFOtB+cvlkmRy7lpGeivv/Rs5p7o+yGdnYdzOXJs8Q+SXg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric",
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "iJPkhdIA": {
+      "filename": "RCTremega.zip",
+      "url": "https://cdn.modrinth.com/data/x4PgkPgG/versions/iJPkhdIA/RCTremega.zip",
+      "hash": "sha512-G/WfFhglqgP9UIgDfDNm4cUiFCDaiP4lkE1QYQz2kTo6dyrdGojnWSnZ0e4l58aYJeMmv4PUzb6GD0L8tGmwAA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "AsWBwk28",
+      "iJPkhdIA",
+      "KP3AdYMt"
+    ],
+    "1.20.1+fabric": [
+      "iJPkhdIA",
+      "KP3AdYMt"
+    ],
+    "1.20.1+forge": [
+      "AsWBwk28"
+    ],
+    "1.20.1+minecraft": [
+      "KP3AdYMt"
+    ]
+  }
+}

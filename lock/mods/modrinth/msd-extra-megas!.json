@@ -1,0 +1,90 @@
+{
+  "slug": "msd-extra-megas!",
+  "projectId": "xiakR5rt",
+  "versions": {
+    "BvaDn0sf": {
+      "filename": "msdextramegas-0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/xiakR5rt/versions/BvaDn0sf/msdextramegas-0.1-fabric.jar",
+      "hash": "sha512-d7CUNB0dmYQV6fUflQqiIPHf0ZTEO1TGIVeeeyHs9s6lKTmXxVZvigniNsDGmnARCKjRSRFnfL53Yo55Xp1Psw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QvUAAffQ": {
+      "filename": "msdextramegas-neoforge-0.2b.jar",
+      "url": "https://cdn.modrinth.com/data/xiakR5rt/versions/QvUAAffQ/msdextramegas-neoforge-0.2b.jar",
+      "hash": "sha512-kSKJw9pQjikda4g4Km9e11Wdx/rZkmTkvLe8DCA8L9KvJt9ydPlqThTBheUbap3G6z+JsGQR7V9rKAhauVhF7A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        }
+      ]
+    },
+    "bxOaZzQX": {
+      "filename": "msdextramegas-fabric-0.2b.jar",
+      "url": "https://cdn.modrinth.com/data/xiakR5rt/versions/bxOaZzQX/msdextramegas-fabric-0.2b.jar",
+      "hash": "sha512-AOwBj0BKktTO00qdx7EI9QVpfThbYWrgAHsIp6Dv4i0UGzWjWL5dyiaJ3hOjA5fhCC0Xn4vYvKhGaW+2ttkjvQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        }
+      ]
+    },
+    "rm3p72ZH": {
+      "filename": "msdextramegas-0.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/xiakR5rt/versions/rm3p72ZH/msdextramegas-0.1-neoforge.jar",
+      "hash": "sha512-daycRU+wuu3eNWyuA/09+JdnK1iXc5W0tOdvmTa8NwQaSu5y92bdVGegPALvp2OfrdTjivavomTv33mMVwWsig==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "navas-zamega",
+          "projectId": "2V1Y86sc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "bxOaZzQX",
+      "BvaDn0sf"
+    ],
+    "1.21.1+neoforge": [
+      "QvUAAffQ",
+      "rm3p72ZH"
+    ]
+  }
+}

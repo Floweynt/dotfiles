@@ -1,0 +1,68 @@
+{
+  "slug": "figextra",
+  "projectId": "LLaxCA8Y",
+  "versions": {
+    "9pgx7L9L": {
+      "filename": "figextra-0.5.0-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/LLaxCA8Y/versions/9pgx7L9L/figextra-0.5.0-1.20.jar",
+      "hash": "sha512-jjahSupFWZraV4bneNk7rr5BP21Pkyq7CEiF2OEgEtFP9mijs/mDTGkjkO8bETaKNsaRuLBK1Mb5F+ISg618SQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "figura",
+          "projectId": "s9gIPDom",
+          "type": "required"
+        }
+      ]
+    },
+    "sbhLvjx5": {
+      "filename": "figextra-0.5.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LLaxCA8Y/versions/sbhLvjx5/figextra-0.5.1%2B1.20.1.jar",
+      "hash": "sha512-E36Lca8Amb3a11UW2hkPgjlTTdVR0c74h4wXxK+cn8LFyk8h2oTvywbWqH5ozxDsX/+mtN/32RvlZSfVSQhEWQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.4",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "figura",
+          "projectId": "s9gIPDom",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sbhLvjx5",
+      "9pgx7L9L"
+    ],
+    "1.20.2+fabric": [
+      "sbhLvjx5",
+      "9pgx7L9L"
+    ],
+    "1.20.4+fabric": [
+      "sbhLvjx5",
+      "9pgx7L9L"
+    ],
+    "1.20.6+fabric": [
+      "sbhLvjx5"
+    ]
+  }
+}

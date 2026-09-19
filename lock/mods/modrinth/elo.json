@@ -1,0 +1,103 @@
+{
+  "slug": "elo",
+  "projectId": "MKRCS0N2",
+  "versions": {
+    "OWqSNO38": {
+      "filename": "entitylodoptimizer-1.1a.jar",
+      "url": "https://cdn.modrinth.com/data/MKRCS0N2/versions/OWqSNO38/entitylodoptimizer-1.1a.jar",
+      "hash": "sha512-5lwCL6wv4rOZeWXbs64WQWVTE1e/lCRzV4ULaPEqtR9JyG2pP4dcQW1ttBZzr1qBaVUbybBozVxTF2PjrM0hzA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cAfoKE86": {
+      "filename": "entitylodoptimizer-1.0a.jar",
+      "url": "https://cdn.modrinth.com/data/MKRCS0N2/versions/cAfoKE86/entitylodoptimizer-1.0a.jar",
+      "hash": "sha512-L+kdo7Ls7mWwoSuvskAcL0jNlwdw35MhLRK7OTUa/HYruuOEBTCTtB2uVCFk6f+7eeC9UUticzescqlJE1TzbA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ezg0LkW9": {
+      "filename": "entitylodoptimizer-1.2a-dev.jar",
+      "url": "https://cdn.modrinth.com/data/MKRCS0N2/versions/ezg0LkW9/entitylodoptimizer-1.2a-dev.jar",
+      "hash": "sha512-BGacZY7JYfyrKJwKLLKzLm1f3QyKZWV67Vq+upstYSrSJL1j+1EXCVmd69hd2HeM0/GSpiZZPi8ARIepErIPsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ezg0LkW9",
+      "OWqSNO38",
+      "cAfoKE86"
+    ],
+    "1.20.2+fabric": [
+      "OWqSNO38",
+      "cAfoKE86"
+    ],
+    "1.20.3+fabric": [
+      "OWqSNO38",
+      "cAfoKE86"
+    ],
+    "1.20.4+fabric": [
+      "OWqSNO38",
+      "cAfoKE86"
+    ],
+    "1.20.5+fabric": [
+      "OWqSNO38",
+      "cAfoKE86"
+    ],
+    "1.20.6+fabric": [
+      "OWqSNO38",
+      "cAfoKE86"
+    ]
+  }
+}

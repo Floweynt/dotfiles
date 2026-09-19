@@ -1,0 +1,122 @@
+{
+  "slug": "more-jewels-more-magic-series",
+  "projectId": "ETJGOhvj",
+  "versions": {
+    "BJluPcI5": {
+      "filename": "more_jewels-0.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ETJGOhvj/versions/BJluPcI5/more_jewels-0.0.1-1.20.1.jar",
+      "hash": "sha512-17+1F163CANqzaYMXh2R5uuZtFbP0dtD3kYEWrA96cVA3eaqsbLYlDCf14uctVSDcpQaEBgR+DlwH6BJniDfaQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        },
+        {
+          "slug": "more-spell-attributes-more-magic-series",
+          "projectId": "z7YR5Db9",
+          "type": "required"
+        }
+      ]
+    },
+    "CqeyiZTY": {
+      "filename": "more_jewels-nf-0.0.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ETJGOhvj/versions/CqeyiZTY/more_jewels-nf-0.0.2-1.21.1.jar",
+      "hash": "sha512-Q4TkUIp5GljyWLSzKXY6P4G7jdmMrnpn/0bIm5OE9PLIftmdfqnDf9cfxob/Yq0zkyjxPUpvAWqvmnPJz6QaSw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "more-spell-attributes-more-magic-series",
+          "projectId": "z7YR5Db9",
+          "type": "required"
+        },
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        }
+      ]
+    },
+    "SXKLdshF": {
+      "filename": "more_jewels-0.0.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ETJGOhvj/versions/SXKLdshF/more_jewels-0.0.2-1.21.1.jar",
+      "hash": "sha512-aKWnjnR+c45WhuRLHiXUMi/W0Xq8bot9owkMe4ZAvNQTHvpZmdla7y7h5Vax7AKMYPcX14VevAYyiTqPXR0sZw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        },
+        {
+          "slug": "more-spell-attributes-more-magic-series",
+          "projectId": "z7YR5Db9",
+          "type": "required"
+        }
+      ]
+    },
+    "hEvV7eWz": {
+      "filename": "more_jewels-0.0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ETJGOhvj/versions/hEvV7eWz/more_jewels-0.0.2-1.20.1.jar",
+      "hash": "sha512-nbDwbs8Fg68NjD+Yjhe4b7cFj00iXNtaR8JAEqJK/nqEtI2aKMlSLCvGNEdmYL1TwRsiIiW4QklmGEltYOS0cg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "more-spell-attributes-more-magic-series",
+          "projectId": "z7YR5Db9",
+          "type": "required"
+        },
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hEvV7eWz",
+      "BJluPcI5"
+    ],
+    "1.21+fabric": [
+      "SXKLdshF"
+    ],
+    "1.21.1+fabric": [
+      "SXKLdshF"
+    ],
+    "1.21.1+neoforge": [
+      "CqeyiZTY"
+    ]
+  }
+}

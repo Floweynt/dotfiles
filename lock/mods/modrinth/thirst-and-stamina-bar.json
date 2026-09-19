@@ -1,0 +1,48 @@
+{
+  "slug": "thirst-and-stamina-bar",
+  "projectId": "K6FJeOg2",
+  "versions": {
+    "ULTf2OCn": {
+      "filename": "thirst_and_stamina_bar-v1.0.1b-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/K6FJeOg2/versions/ULTf2OCn/thirst_and_stamina_bar-v1.0.1b-1.20.1-forge.jar",
+      "hash": "sha512-x8r/nmPVxGgRWxZwv+90DiBIzfm0yaNIoFS4hUn5aD2CP7AZTl3Ievmu6yvxPqaRtxwMoxeGIOXc9vvPCb32Cg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s8XLF8qx": {
+      "filename": "thirst_and_stamina_bar-1.0.1-b.jar",
+      "url": "https://cdn.modrinth.com/data/K6FJeOg2/versions/s8XLF8qx/thirst_and_stamina_bar-1.0.1-b.jar",
+      "hash": "sha512-Glw6TtrlOD0M3Wynfe77u70xf8PfjL7EoYtSZgzkBEgZYH9P7zv74aeIDf9y4QfFjH/3aoQPJM7l4vNmpTV5oA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "ULTf2OCn"
+    ],
+    "26.2+fabric": [
+      "s8XLF8qx"
+    ]
+  }
+}

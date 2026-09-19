@@ -1,0 +1,64 @@
+{
+  "slug": "better-slabs",
+  "projectId": "8SP7Avn8",
+  "versions": {
+    "14BCxoM6": {
+      "filename": "Better Slabs-V2.jar",
+      "url": "https://cdn.modrinth.com/data/8SP7Avn8/versions/14BCxoM6/Better%20Slabs-V2.jar",
+      "hash": "sha512-RnmtrRiIcVi8yqCmVsi5K/Gtnat22jcx3FAmJPFdzw9UK+oQZOHakc2P79UTR9quycUI+i1pC2fhL25qGo1JVA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "moar-concrete-unofficial",
+          "projectId": "I2kSa2ND",
+          "type": "required"
+        }
+      ]
+    },
+    "W18W9yz0": {
+      "filename": "Better Slabs-V1.jar",
+      "url": "https://cdn.modrinth.com/data/8SP7Avn8/versions/W18W9yz0/Better%20Slabs-V1.jar",
+      "hash": "sha512-TPlShMARrv0A3qtFeCkWGE4icjC0wjiTK9llSmra36i18GRyDK3MdE9dGvdzZpfN/b+0f55R0/InOjNjyzn8IA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moar-concrete",
+          "projectId": "lXDzrLAm",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "W18W9yz0"
+    ],
+    "26.2+fabric": [
+      "14BCxoM6"
+    ]
+  }
+}

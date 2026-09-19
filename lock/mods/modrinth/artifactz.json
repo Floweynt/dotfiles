@@ -1,0 +1,64 @@
+{
+  "slug": "artifactz",
+  "projectId": "jtaD56LR",
+  "versions": {
+    "vSRdZ23t": {
+      "filename": "artifactz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jtaD56LR/versions/vSRdZ23t/artifactz-1.0.jar",
+      "hash": "sha512-MHRU45T6LIHRpt9mfZD28SDRVPBWYTXSRAPeEalmFcqHuCRAg0lc+mKoMUlrQ04S98Bt8R8h2IXhgSRfbc9Zcg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "artifacts",
+          "projectId": "P0Mu4wcQ",
+          "type": "required"
+        }
+      ]
+    },
+    "vr7WMAhi": {
+      "filename": "lvlz_artifacts-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jtaD56LR/versions/vr7WMAhi/lvlz_artifacts-1.21.1-1.0.jar",
+      "hash": "sha512-PFzdhkgx+XfL2/uwpvwIcEoq6qnj/vRtiMrJHljAAJelL9Fh3YcepVEokEXx1lHVOq76PlIHfsXjzNT5kOxt2A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "artifacts",
+          "projectId": "P0Mu4wcQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "vSRdZ23t"
+    ],
+    "1.21.1+fabric": [
+      "vr7WMAhi"
+    ]
+  }
+}

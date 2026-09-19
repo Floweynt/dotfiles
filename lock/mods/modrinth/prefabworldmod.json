@@ -1,0 +1,59 @@
+{
+  "slug": "prefabworldmod",
+  "projectId": "2BkUiGTh",
+  "versions": {
+    "7sBnzaBb": {
+      "filename": "prefabworldmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2BkUiGTh/versions/7sBnzaBb/prefabworldmod-1.0.0.jar",
+      "hash": "sha512-azyLKhHGpqaeTyKhBs4QUR6Hnz2UBhwSJuPt5Hir8/X8D8nClg1+/TuCIUAXDYgka/Kyr1toFF/stCIg+n5RiQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Eynan2Pk": {
+      "filename": "Prefabworld-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2BkUiGTh/versions/Eynan2Pk/Prefabworld-1.0.0.jar",
+      "hash": "sha512-CPrVt3+BNHgThb2JY7uoaCTjY71Fqhbm1y/0sCBhH/hXniqTi1BZnK+E6L7JzdeRBamEn13Jq8OPIYbhXYXBwA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "gqplCd5h": {
+      "filename": "prefabworld-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2BkUiGTh/versions/gqplCd5h/prefabworld-1.0.0.jar",
+      "hash": "sha512-MSaP0+aP+h1URWuJ2k11M3LwueJYuqRm8XLY+z3lA7u69u35hoFz0kf+/2yor0m0Rx+0LEztPOhT7tCjrWYUlg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "gqplCd5h"
+    ],
+    "1.20.1+fabric": [
+      "Eynan2Pk"
+    ],
+    "1.20.1+forge": [
+      "7sBnzaBb"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "potion-counter",
+  "projectId": "yqlVHKDS",
+  "versions": {
+    "R4ui1Gup": {
+      "filename": "potioncounter-1.11.1+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/yqlVHKDS/versions/R4ui1Gup/potioncounter-1.11.1%2Bmc1.21.11.jar",
+      "hash": "sha512-esJHW4LzQst7vMIleZjStA1CR76B/FWszGdCy2QBmyfCjsWspntdUaT8W/SU9wXT2Bdk0+2g1Upvq0gbK8xbBA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "ukulib",
+          "projectId": "Y8uFrUil",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "R4ui1Gup"
+    ]
+  }
+}

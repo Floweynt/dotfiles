@@ -1,0 +1,154 @@
+{
+  "slug": "fvp",
+  "projectId": "gkNfyUFH",
+  "versions": {
+    "4b7nH82P": {
+      "filename": "FVP 3.8.1.jar",
+      "url": "https://cdn.modrinth.com/data/gkNfyUFH/versions/4b7nH82P/FVP%203.8.1.jar",
+      "hash": "sha512-mtiHylSDnwIxhEHKbxJXkzORuZqHvhBzA3BWZndUUe8xJ9RvjbYX128qzzP9DvaRCcEJJcXF2f9VFQxZPPsyzw==",
+      "gameVersions": [
+        "1.12.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gep",
+          "projectId": "I9e7ugdK",
+          "type": "required"
+        },
+        {
+          "slug": "fcl",
+          "projectId": "FsnSr7bC",
+          "type": "required"
+        },
+        {
+          "slug": "fvtm",
+          "projectId": "uwxnSBu4",
+          "type": "required"
+        }
+      ]
+    },
+    "NqSj9PZN": {
+      "filename": "fvp-3.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/gkNfyUFH/versions/NqSj9PZN/fvp-3.9.0.jar",
+      "hash": "sha512-YP0QMCVss/Lzfu7w0HptvqsTYjnbAGUgesNVvahYFOeUTtJ3aPYXt1+KAynIbJRKxdzisVipZFv1Ghobp5dEnA==",
+      "gameVersions": [
+        "1.12.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fvtm",
+          "projectId": "uwxnSBu4",
+          "type": "required"
+        },
+        {
+          "slug": "gep",
+          "projectId": "I9e7ugdK",
+          "type": "required"
+        },
+        {
+          "slug": "fcl",
+          "projectId": "FsnSr7bC",
+          "type": "required"
+        }
+      ]
+    },
+    "stgcuJwW": {
+      "filename": "FVP 3.8.1__.jar",
+      "url": "https://cdn.modrinth.com/data/gkNfyUFH/versions/stgcuJwW/FVP%203.8.1__.jar",
+      "hash": "sha512-XDYZXtN1hbtKrzjhPTJipNeRybQOT+SuqYBsfW9MoVxpnKcNx/6yXrrt5pS0h1uJdqRMrDdgY/WAAFMJtmMEeQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gep",
+          "projectId": "I9e7ugdK",
+          "type": "required"
+        },
+        {
+          "slug": "fcl",
+          "projectId": "FsnSr7bC",
+          "type": "required"
+        },
+        {
+          "slug": "fvtm",
+          "projectId": "uwxnSBu4",
+          "type": "required"
+        }
+      ]
+    },
+    "zjl2Ggwg": {
+      "filename": "fvp-3.9.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/gkNfyUFH/versions/zjl2Ggwg/fvp-3.9.0-fabric.jar",
+      "hash": "sha512-YauWmn5xwkeZyR6uoy4g9gI/NOr+1jC4lIl4Ijr079x4r0cfRjGYnTyTT9l08SWuCNQ5jbEhxvvX2M51gQsqyg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fvtm",
+          "projectId": "uwxnSBu4",
+          "type": "required"
+        },
+        {
+          "slug": "gep",
+          "projectId": "I9e7ugdK",
+          "type": "required"
+        },
+        {
+          "slug": "fcl",
+          "projectId": "FsnSr7bC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.12.2+forge": [
+      "NqSj9PZN",
+      "4b7nH82P"
+    ],
+    "1.20.1+forge": [
+      "NqSj9PZN",
+      "4b7nH82P"
+    ],
+    "26.1+fabric": [
+      "zjl2Ggwg",
+      "stgcuJwW"
+    ],
+    "26.1.1+fabric": [
+      "zjl2Ggwg",
+      "stgcuJwW"
+    ],
+    "26.1.2+fabric": [
+      "zjl2Ggwg",
+      "stgcuJwW"
+    ]
+  }
+}

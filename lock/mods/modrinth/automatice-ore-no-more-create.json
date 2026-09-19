@@ -1,0 +1,39 @@
+{
+  "slug": "automatice-ore-no-more-create",
+  "projectId": "K7NM3sFj",
+  "versions": {
+    "fdDaGbON": {
+      "filename": "automatic_ore_no_more_create.zip",
+      "url": "https://cdn.modrinth.com/data/K7NM3sFj/versions/fdDaGbON/automatic_ore_no_more_create.zip",
+      "hash": "sha512-hAjJLwNcxx89c9Hdz9iTv/ZdOHVZzn8APjvPp2ezfwYdYE2FVR3vmGFpziI454RrK+AZ9CUVWBARQU7RvBOwig==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "fdDaGbON"
+    ],
+    "1.20.1+fabric": [
+      "fdDaGbON"
+    ],
+    "1.20.1+forge": [
+      "fdDaGbON"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "lock-on",
+  "projectId": "kDCYN2wI",
+  "versions": {
+    "DF66o403": {
+      "filename": "lockon-1.0.0+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/kDCYN2wI/versions/DF66o403/lockon-1.0.0%2B1.20.2.jar",
+      "hash": "sha512-WOTS9pwCT7+b94HLMjIBsoA1C4axRjvGMvqVyBP3PslP2vkzilwaX5A0wJ5pWHS10qXr+M3S5MzJb3aoxsCB0Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "NhQz1yMd": {
+      "filename": "lockon-1.0.1+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/kDCYN2wI/versions/NhQz1yMd/lockon-1.0.1%2B1.20.2.jar",
+      "hash": "sha512-hAY9Cz08RY0neJaPBrbvP41AElYvRW4nbigWR9siK1uWncarZoYSFDlgY/lZ6Iq54QxLdEQxBRKEZcZQqmfZkA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "NhQz1yMd",
+      "DF66o403"
+    ],
+    "1.20.1+fabric": [
+      "NhQz1yMd",
+      "DF66o403"
+    ],
+    "1.20.2+fabric": [
+      "NhQz1yMd",
+      "DF66o403"
+    ],
+    "1.20.3+fabric": [
+      "NhQz1yMd"
+    ],
+    "1.20.4+fabric": [
+      "NhQz1yMd"
+    ]
+  }
+}

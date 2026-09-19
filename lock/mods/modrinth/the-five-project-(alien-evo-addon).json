@@ -1,0 +1,100 @@
+{
+  "slug": "the-five-project-(alien-evo-addon)",
+  "projectId": "DTgFEvuO",
+  "versions": {
+    "K8vK70oj": {
+      "filename": "the_five_project_forge_1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DTgFEvuO/versions/K8vK70oj/the_five_project_forge_1.1.0.jar",
+      "hash": "sha512-zWE2IdtTep/NeUoO/q33K3384EjonJuuhD14iyFvl6GzPf407yHnriqenz59q9srwXnoyBm1sedNlgq6oAYQcw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "mYrxpPBW": {
+      "filename": "the_five_project_fix.jar",
+      "url": "https://cdn.modrinth.com/data/DTgFEvuO/versions/mYrxpPBW/the_five_project_fix.jar",
+      "hash": "sha512-xlFVM8JCAKUmV+Go+KqaVHGwhYxev6WzF5HgQGfEOBDu6aaVm3h+5NX0mvdq+AZX92WNsveB8Ngf82chu82bJQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "pqLuEbNE": {
+      "filename": "the_five_project_fabric_1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DTgFEvuO/versions/pqLuEbNE/the_five_project_fabric_1.1.0.jar",
+      "hash": "sha512-lENiNINXF/Zw8kUxKSKlPNsGjBU1AQ0YM+AD3wM8Lq3s835tUo/pudTWar+dpYiKynRG1kslUNXAu4pE1tIDtQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "qelUrU0p": {
+      "filename": "the_five_project_1.0.2_fix.jar",
+      "url": "https://cdn.modrinth.com/data/DTgFEvuO/versions/qelUrU0p/the_five_project_1.0.2_fix.jar",
+      "hash": "sha512-iRvqfms+S/FRdnNQlk32PuXt0EIqPib33t+DNx/rjxvBRbGeVJTnZTT6mY3m1qmLcsR9ICFXX5WQPo/fCy2tAg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pqLuEbNE",
+      "qelUrU0p",
+      "mYrxpPBW"
+    ],
+    "1.20.1+forge": [
+      "K8vK70oj",
+      "qelUrU0p",
+      "mYrxpPBW"
+    ]
+  }
+}

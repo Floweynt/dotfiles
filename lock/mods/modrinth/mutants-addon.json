@@ -1,0 +1,137 @@
+{
+  "slug": "mutants-addon",
+  "projectId": "IpKYYIKC",
+  "versions": {
+    "H9JWwZCY": {
+      "filename": "Mutants and More v1.5.3.jar",
+      "url": "https://cdn.modrinth.com/data/IpKYYIKC/versions/H9JWwZCY/Mutants%20and%20More%20v1.5.3.jar",
+      "hash": "sha512-IVYYGAH/n5LPdZhM+EPNh+UqqNyvJWHIyPb0TFIPldScmyVmExAHDA2g352n+BhBt+mbZpS0X6O/rmUgu9YYcQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SX4be4Ya": {
+      "filename": "Mutants and More v1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/IpKYYIKC/versions/SX4be4Ya/Mutants%20and%20More%20v1.5.1.jar",
+      "hash": "sha512-Gz9OBcmyiIBv8ZLwt1gYlwGYrQLadN1Paseqw2BVWow1pt8FIuXOij9wzxMvRb0F/wQDVLNgNvk8HjaoeHc6HQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fsang18s-heropack",
+          "projectId": "nwqZcj5e",
+          "type": "required"
+        }
+      ]
+    },
+    "mSHdEl5w": {
+      "filename": "Mutants and More v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IpKYYIKC/versions/mSHdEl5w/Mutants%20and%20More%20v1.0.0.jar",
+      "hash": "sha512-FJOJaempJT55nunpSzXqLo57l6aU1xIVvoJNao1cyXoSyNyMNfG5+kWXsH+Azzkpze60CTFwfPHjD8vy77QIFA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fsang18s-heropack",
+          "projectId": "nwqZcj5e",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        }
+      ]
+    },
+    "zD2R6AVe": {
+      "filename": "Mutants and More v1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/IpKYYIKC/versions/zD2R6AVe/Mutants%20and%20More%20v1.5.0.jar",
+      "hash": "sha512-dGm5ByOlsOKt0iWXa3BxOgVbNudtlHEGYlICnHdl7m+Y7YS2uWOdRwrRpAVOjFfIsGIRVllZ/gsD7ydWltvHYg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fsang18s-heropack",
+          "projectId": "nwqZcj5e",
+          "type": "required"
+        }
+      ]
+    },
+    "zb50yj05": {
+      "filename": "Mutants and More v1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/IpKYYIKC/versions/zb50yj05/Mutants%20and%20More%20v1.5.1.jar",
+      "hash": "sha512-2Bc6GimhDXRDf+nL5A4nnYnJxLfvMhH91LDaUolbQBieP8DuPYqSO2gg/jF3d7RHZP2Qt8WN072f4Bkza6OveA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "fsang18s-heropack",
+          "projectId": "nwqZcj5e",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "H9JWwZCY",
+      "SX4be4Ya",
+      "zD2R6AVe",
+      "mSHdEl5w"
+    ],
+    "1.20.1+forge": [
+      "H9JWwZCY",
+      "zb50yj05",
+      "SX4be4Ya",
+      "zD2R6AVe",
+      "mSHdEl5w"
+    ],
+    "1.20.1+neoforge": [
+      "SX4be4Ya",
+      "zD2R6AVe",
+      "mSHdEl5w"
+    ]
+  }
+}

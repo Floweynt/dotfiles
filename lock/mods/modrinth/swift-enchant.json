@@ -1,0 +1,93 @@
+{
+  "slug": "swift-enchant",
+  "projectId": "oUxEoTIy",
+  "versions": {
+    "RbwqIFZL": {
+      "filename": "swift-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oUxEoTIy/versions/RbwqIFZL/swift-1.0.0.jar",
+      "hash": "sha512-SORNvaytHHc+FSJPFZ5ciXesQRzr+SM8RhncsYwrnV9HomQnrLx//Qjpn8fm777hr+BHFKo5W9ZSxj1fhie9Mw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qRdOC1GP": {
+      "filename": "swift-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/oUxEoTIy/versions/qRdOC1GP/swift-1.2.2.jar",
+      "hash": "sha512-Ri2RiDPYMx6aMskgBWlRGWt/ZaZQHc5lvUrAmskADNnL6CTDbNY+ge8A8D1iSiNtr7QzYEOvuI6x/2Zt/oke2g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "rgqIPIda": {
+      "filename": "swift-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/oUxEoTIy/versions/rgqIPIda/swift-1.2.0.jar",
+      "hash": "sha512-PwDydlqJZc0zpKqLXjT4fziFeLYWf2Q5WynEqLqmVjqLJ/1/elrQq5XFCVfAlyd/jU1Qw/KmkFGq5vgI9xEalg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "qRdOC1GP",
+      "rgqIPIda",
+      "RbwqIFZL"
+    ]
+  }
+}

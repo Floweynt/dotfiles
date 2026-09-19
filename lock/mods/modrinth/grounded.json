@@ -1,0 +1,142 @@
+{
+  "slug": "grounded",
+  "projectId": "65WUS6p6",
+  "versions": {
+    "2eP9np5F": {
+      "filename": "grounded-1.20.1-0.1.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/65WUS6p6/versions/2eP9np5F/grounded-1.20.1-0.1.1-forge.jar",
+      "hash": "sha512-C5ChSEA7qpNgVHka516O7nCSyu8MJ76pZMjJmn/QiJxTAdNBi/zhfOKFyKKueimSGzdtr3V0R623lVVMbhCLPg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    },
+    "HqrNjeDH": {
+      "filename": "grounded-fabric-1.21.1-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/65WUS6p6/versions/HqrNjeDH/grounded-fabric-1.21.1-0.2.0.jar",
+      "hash": "sha512-4025z31+IxtiVCsrPbHDL/J4Yyn3TFgH3XtDlg6E5wgIf9aFSGDHpZGbMYBFYJG4jw9QiM8Cwgrm8Z9yPRlVHw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    },
+    "TOo4G5kD": {
+      "filename": "grounded-1.20.1-0.1.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/65WUS6p6/versions/TOo4G5kD/grounded-1.20.1-0.1.1-fabric.jar",
+      "hash": "sha512-/nRAtVk1zVz+Q7Jn9lW5gN/ttHmQD/zfpb82ab8ChWODxQD9m7joeQp7A+T6UYtgJ65kgi3oJcdZFWGKkQ/E1Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    },
+    "TqRavQwC": {
+      "filename": "grounded-1.20.1-0.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/65WUS6p6/versions/TqRavQwC/grounded-1.20.1-0.1.0-fabric.jar",
+      "hash": "sha512-bFgn4owGD/BLRRPA+GC6niDfTTClOqc54OKys0n0eneJMYtm+l6SCuBoOHDLLLxCJPADzYUuz+JoQxx6Z7pS1Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    },
+    "WNTDYslo": {
+      "filename": "grounded-1.20.1-0.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/65WUS6p6/versions/WNTDYslo/grounded-1.20.1-0.1.0-forge.jar",
+      "hash": "sha512-cysbDIdBnUkL8NeWydXaWo84c/Zs2Cx0r90ddo8tJVYNjq5pyq+bsgi84eZxb6B4ohZ1FNksrz0fIcQUH/9jvg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    },
+    "rMOW6kM5": {
+      "filename": "grounded-neoforge-1.21.1-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/65WUS6p6/versions/rMOW6kM5/grounded-neoforge-1.21.1-0.2.0.jar",
+      "hash": "sha512-XytDiYJu5NKjqDR4yIYzhmbKMh4Y9moOfCKgSQZxSQdoT/5fT4FzIX5/3TMQTd1ufkxNGT7sUqDGPaQ4pNVY+g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "TOo4G5kD",
+      "TqRavQwC"
+    ],
+    "1.20.1+forge": [
+      "2eP9np5F",
+      "WNTDYslo"
+    ],
+    "1.21.1+fabric": [
+      "HqrNjeDH"
+    ],
+    "1.21.1+neoforge": [
+      "rMOW6kM5"
+    ]
+  }
+}

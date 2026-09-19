@@ -1,0 +1,73 @@
+{
+  "slug": "mid-journey",
+  "projectId": "GqFnaUlv",
+  "versions": {
+    "EJARnFEx": {
+      "filename": "mid-journey-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GqFnaUlv/versions/EJARnFEx/mid-journey-1.0.0.jar",
+      "hash": "sha512-4hSh1ZCqxxkaZ0uGjddHHXBCUQuEqOf/rd8TUw35AF/lKsWoC2k1YTUsKdrbAsta9GvhQ74NSeQtoqtk1qekpw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UdDEAJoj": {
+      "filename": "mid-journey-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GqFnaUlv/versions/UdDEAJoj/mid-journey-1.0.1.jar",
+      "hash": "sha512-ETtylGE4gXzhJMTrwL6ACkla4E5DgLkymRsjqeqJdcjQ+a8kPQ4UH/EDPiR8BMcwHS/zT1qBJnm/i18FjvYQ9g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bEYkdPcn": {
+      "filename": "mid-journey-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/GqFnaUlv/versions/bEYkdPcn/mid-journey-1.0.2.jar",
+      "hash": "sha512-eTd9GyWiHJrKS9pKpeeE/qh+gMI9LRIFp3/+1zOiVdb3tRUtk6sHxxsx23UeoOrGKx+qiWaGbVsP/UGF0XXJiQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "bEYkdPcn",
+      "UdDEAJoj",
+      "EJARnFEx"
+    ]
+  }
+}

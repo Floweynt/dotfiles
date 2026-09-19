@@ -1,0 +1,65 @@
+{
+  "slug": "master-sword",
+  "projectId": "v9loTJtg",
+  "versions": {
+    "Xs392Z07": {
+      "filename": "MasterSword-v1.0.2-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/v9loTJtg/versions/Xs392Z07/MasterSword-v1.0.2-1.20.1-Forge.jar",
+      "hash": "sha512-jN/USYncIfm/wNCJ0yneQbVgI8eUcITMnBGGiztuk4BMJ2hEw4Ymh+mGZU9/9W7U3hmFZx7ltbN1O4bIQmnRjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s6CTPdzP": {
+      "filename": "MasterSword-v1.0.2-1.19.2-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/v9loTJtg/versions/s6CTPdzP/MasterSword-v1.0.2-1.19.2-Forge.jar",
+      "hash": "sha512-VuGGD8wAy45Pxg37s9TkjrhUnq2/MWi157QItyl4QWQJlXk1XVTnok7zo+WTC6XHbwouRc00InBqinTkoLnstw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sSMPBUUX": {
+      "filename": "MasterSword-v1.0.2-1.19.2-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/v9loTJtg/versions/sSMPBUUX/MasterSword-v1.0.2-1.19.2-Fabric.jar",
+      "hash": "sha512-qVVhXrcTwwB/lRukmBFpi1lBbPkzEhKq752e6KehE874kFQ22YCHSO+1p4PWm4tMN1uJ15TzZxcYERq5wenCMQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "sSMPBUUX"
+    ],
+    "1.19.2+forge": [
+      "s6CTPdzP"
+    ],
+    "1.20.1+forge": [
+      "Xs392Z07"
+    ]
+  }
+}

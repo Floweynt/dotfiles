@@ -1,0 +1,89 @@
+{
+  "slug": "woodlandsextra",
+  "projectId": "UyRIwQM1",
+  "versions": {
+    "XM2kgxdn": {
+      "filename": "Woodlands_Extra-Universal-1.21.1-v1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/UyRIwQM1/versions/XM2kgxdn/Woodlands_Extra-Universal-1.21.1-v1.3.3.jar",
+      "hash": "sha512-e35LaLo+6SyxEXoz/j5xS2JUpGjBf6dD0vySj5EKg2rseyxyco27X1OYo/nFzi7A5WUe0bSrV0+87S7vTchtlg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "oh-the-trees-youll-grow",
+          "projectId": "g8NOG5OR",
+          "type": "required"
+        }
+      ]
+    },
+    "oX1DR2KU": {
+      "filename": "Woodlands_Extra-Universal-1.20.1-v1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/UyRIwQM1/versions/oX1DR2KU/Woodlands_Extra-Universal-1.20.1-v1.3.3.jar",
+      "hash": "sha512-OOTX9ATpqV7a6MJqSgzbzQ14yM9kYDB9odwx2cH4wQx6rtS3llKYlHm8i41JpjBKSPcNzkPraR8E+CLJRCEu4g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "oh-the-trees-youll-grow",
+          "projectId": "g8NOG5OR",
+          "type": "required"
+        }
+      ]
+    },
+    "swopCPNc": {
+      "filename": "Woodlands_Extra-Universal-1.20.1-v1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/UyRIwQM1/versions/swopCPNc/Woodlands_Extra-Universal-1.20.1-v1.3.1.jar",
+      "hash": "sha512-5yQn+VZCKIsL13San4IgyDz19am4fMa4gmHp9VhaFfgxJSY//5+4VKi5Yg+mLd7f3mjfs1sfGNLeQiyjouE0uA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "oh-the-trees-youll-grow",
+          "projectId": "g8NOG5OR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "oX1DR2KU",
+      "swopCPNc"
+    ],
+    "1.20.1+forge": [
+      "oX1DR2KU",
+      "swopCPNc"
+    ],
+    "1.21.1+fabric": [
+      "XM2kgxdn"
+    ],
+    "1.21.1+forge": [
+      "XM2kgxdn"
+    ],
+    "1.21.1+neoforge": [
+      "XM2kgxdn"
+    ]
+  }
+}

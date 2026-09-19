@@ -1,0 +1,73 @@
+{
+  "slug": "more-capes",
+  "projectId": "ZWn0vQ3z",
+  "versions": {
+    "9vX3Fuxn": {
+      "filename": "more-capes-1.0.0+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZWn0vQ3z/versions/9vX3Fuxn/more-capes-1.0.0%2B26.1.jar",
+      "hash": "sha512-TTHIxa5mkXaJEN0bj6Ra9VUcgH4v2D9o0CbJQUcFrC6uxDWdb/mIm+U6mmUjzyxTae2n0GGwczUrVK5hxFezNA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "f8xXczGI": {
+      "filename": "more-capes-1.0.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/ZWn0vQ3z/versions/f8xXczGI/more-capes-1.0.0%2B1.21.11.jar",
+      "hash": "sha512-KGom4SrnTc33D9UIzlvHwrSEie7vjd3+Q/0d7BrioxlZnwgmSiP33QKnGPPEHEMHkzAXG2zQYLcz2sIuwS5TOg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "spGmb3y9": {
+      "filename": "more-capes-1.0.0+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/ZWn0vQ3z/versions/spGmb3y9/more-capes-1.0.0%2B1.21.8.jar",
+      "hash": "sha512-IYJC9ur/q2Wet+2UDZRLs4zUIqq1JRKuK169UXL19f9ezPwYv/gMLZ4vDBfkHuoYyT0aHZLqV1vmRb7zxyBgyA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "f8xXczGI"
+    ],
+    "1.21.8+fabric": [
+      "spGmb3y9"
+    ],
+    "26.1+fabric": [
+      "9vX3Fuxn"
+    ],
+    "26.1.1+fabric": [
+      "9vX3Fuxn"
+    ],
+    "26.1.2+fabric": [
+      "9vX3Fuxn"
+    ]
+  }
+}

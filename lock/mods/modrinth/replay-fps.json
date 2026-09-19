@@ -1,0 +1,64 @@
+{
+  "slug": "replay-fps",
+  "projectId": "Qje9Zikm",
+  "versions": {
+    "EqbRDcQR": {
+      "filename": "replayfps-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Qje9Zikm/versions/EqbRDcQR/replayfps-0.2.0.jar",
+      "hash": "sha512-Pi0fj90FxERMp/6YBx5OTGUPeVkumWnR1q9FouacQf41O0yrnsfKRpN1hRMI3vAA258Ow3VPnyreEAtMg+btPQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "replaymod",
+          "projectId": "Nv2fQJo5",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "gzAVYrkx": {
+      "filename": "replayfps-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/Qje9Zikm/versions/gzAVYrkx/replayfps-0.2.1.jar",
+      "hash": "sha512-bVktgavM1GHAlnWJngNpYEkQLKOhUnHbmbCQPcVgkO1/Yom+mUbvteKuQOcZV3QPEBrCD48JXm7G1OS7BszqoQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "replaymod",
+          "projectId": "Nv2fQJo5",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "EqbRDcQR"
+    ],
+    "1.20.2+fabric": [
+      "gzAVYrkx"
+    ]
+  }
+}

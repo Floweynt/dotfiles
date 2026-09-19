@@ -1,0 +1,123 @@
+{
+  "slug": "aquatic-creepers",
+  "projectId": "v4lB1xDz",
+  "versions": {
+    "1ZbdznIN": {
+      "filename": "aquatic_creepers-forge-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/v4lB1xDz/versions/1ZbdznIN/aquatic_creepers-forge-1.0.0%2B1.20.jar",
+      "hash": "sha512-3kSy0tuZOAs2c1d80bzKSo+rLq9gzKhMxGKym4FrG5kqUZ9WTx8DhBhGuLflRZU6jIjRfh4ArVB9aEOIMBQNXQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "2Smosh3T": {
+      "filename": "aquatic_creepers-neoforge-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/v4lB1xDz/versions/2Smosh3T/aquatic_creepers-neoforge-1.0.0%2B1.21.jar",
+      "hash": "sha512-AtE/ghbai9tfAfgvogz21rp5CZxmKm+/txBwCZx9H5EKZ/NRZCM7Z2fKlUxbdk0Hlh9OJx0YG4LcnMVuE+ltzg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "A3NJzVqH": {
+      "filename": "aquatic_creepers-fabric-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/v4lB1xDz/versions/A3NJzVqH/aquatic_creepers-fabric-1.0.0%2B1.21.jar",
+      "hash": "sha512-PIOXQ3MNM9sX9WWuRnXa53oOFREqP3WPGsznOxdUTgA0OxBqZMM0ip157c0MYZdcMp7PXkZ084mjL9/E3KJrPw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "IWxJsK6s": {
+      "filename": "aquatic_creepers-fabric-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/v4lB1xDz/versions/IWxJsK6s/aquatic_creepers-fabric-1.0.0%2B1.20.jar",
+      "hash": "sha512-LI5EngD4uPM8/X7daRqqUjfqm4EffF3i0eHCQVWgqHGaxNt24BHuFhrBTdR+98UC9FVRYGsKsnq68xhW0e3o0g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IWxJsK6s"
+    ],
+    "1.20.1+forge": [
+      "1ZbdznIN"
+    ],
+    "1.21+fabric": [
+      "A3NJzVqH"
+    ],
+    "1.21+neoforge": [
+      "2Smosh3T"
+    ],
+    "1.21.1+fabric": [
+      "A3NJzVqH"
+    ],
+    "1.21.1+neoforge": [
+      "2Smosh3T"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "overworld-dna-(alien-evolution-addon)",
+  "projectId": "ubtrpAdI",
+  "versions": {
+    "kAzCOaVW": {
+      "filename": "Overworld_DNA_fabric1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/ubtrpAdI/versions/kAzCOaVW/Overworld_DNA_fabric1.0.2.jar",
+      "hash": "sha512-xyvlYP3s+PcgSXUhpXLU8TEmrPIPq+8C/MKBooiqJk63j3g9v/2rJqRje2TqZNCYYXkv8Cq67+92dqJznoxHQg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kbIa02gi": {
+      "filename": "Overworld_dna_1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/ubtrpAdI/versions/kbIa02gi/Overworld_dna_1.0.2.jar",
+      "hash": "sha512-l0P4EK73FeXlObHOqhEnKX4EQTH7xh1CgRv1NAc1fkHlvyZ8tk3aRcUJJXnyWGK5+t7qGn2zy+pP49gEltnzjg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "corewithstuff",
+          "projectId": "MBGhXGlQ",
+          "type": "required"
+        }
+      ]
+    },
+    "zh5oQeXX": {
+      "filename": "Overworld DNA 1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/ubtrpAdI/versions/zh5oQeXX/Overworld%20DNA%201.0.3.jar",
+      "hash": "sha512-FJM//fhtABgG+YN2oTPfrk0mklxIm+OAI9LPhCPj3mP1tIBFSVODpTF7/Ouu8P4UuTip5Zl/OSJD04Bu1QDQvQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kAzCOaVW"
+    ],
+    "1.20.1+forge": [
+      "zh5oQeXX",
+      "kbIa02gi"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "bilibilimedia",
+  "projectId": "vqvS4GPe",
+  "versions": {
+    "iEwjSQFO": {
+      "filename": "bilibili_media-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vqvS4GPe/versions/iEwjSQFO/bilibili_media-1.0.jar",
+      "hash": "sha512-L0t2ov9hpVr/FgCcS7PvUfKYDvKb8tRhmjAqFsOlGyLLU8cRwn4i/vSpt8Y0t205s7WHFhEQl1Eu0IUhBgTnsA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        }
+      ]
+    },
+    "kRVokcp8": {
+      "filename": "bilibili_media-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/vqvS4GPe/versions/kRVokcp8/bilibili_media-1.1.jar",
+      "hash": "sha512-JkC4VZKAe5eus3XI4owOWMV9Tr1Cf3qQirz8BhSdQ7l/CIQhGthBWRHVUZ6cWT+gL6c1uhjU/8CeEONS2hIZWw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "rTQx7khC": {
+      "filename": "bilibiliMedia-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/vqvS4GPe/versions/rTQx7khC/bilibiliMedia-1.1.jar",
+      "hash": "sha512-7dBDVppYYAj0N2YL7sTAlLHP0h5sDUaT+JTkHL4RJI4iAnMwnuOP2w/QwNbxyyLTRFTmOwv+Zr6WHJ99LmVtFg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "rTQx7khC"
+    ],
+    "1.21.1+neoforge": [
+      "kRVokcp8",
+      "iEwjSQFO"
+    ]
+  }
+}

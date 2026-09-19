@@ -1,0 +1,65 @@
+{
+  "slug": "heartache",
+  "projectId": "y0RD2XuV",
+  "versions": {
+    "FAZWX12H": {
+      "filename": "heartache-1.21.4-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/y0RD2XuV/versions/FAZWX12H/heartache-1.21.4-1.0.2.jar",
+      "hash": "sha512-e0WAev+n4NsMHlubk+uVdVfLXGE8IV/j25jIcJJcbw4V7FIasZsOrcSt6/vifve0dZcYKgggpAT/N+bg2+szPQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Js5SmwxX": {
+      "filename": "heartache-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/y0RD2XuV/versions/Js5SmwxX/heartache-1.21.1-1.0.1.jar",
+      "hash": "sha512-/lYmtCvmvKAZJw+5JPDYUVPLnsgEUkC7ATtsAzwLc5JBtZpRny1tW5xAOF9i8UoOp3na+mW1E1+f68bLHRE9oA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "u2QjuRIe": {
+      "filename": "heartache-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/y0RD2XuV/versions/u2QjuRIe/heartache-1.21-1.0.0.jar",
+      "hash": "sha512-d5rD2cVBAzUnrWgq7SO3eFuo0P8IvLWZgcKAML1hYx6H8U6CY0no/j2bv7VGRcMxWgJ0CKRTFTItWRxYrCmsJQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "u2QjuRIe"
+    ],
+    "1.21.1+fabric": [
+      "Js5SmwxX"
+    ],
+    "1.21.4+fabric": [
+      "FAZWX12H"
+    ]
+  }
+}

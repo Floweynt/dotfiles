@@ -1,0 +1,99 @@
+{
+  "slug": "ppp",
+  "projectId": "7MBmBn4E",
+  "versions": {
+    "afWWKMPt": {
+      "filename": "PPP 1.0.0 Forge 1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/7MBmBn4E/versions/afWWKMPt/PPP%201.0.0%20Forge%201.20.1.jar",
+      "hash": "sha512-VPr5Wq20ZCi1lRMBWPDaMwlyWgYsOIfJ35XsVv1mpP4pC6Lz8jXeL0ab7CacOqU1/tCfvL9w22BzXLdGquq5qQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "iS2UvSAZ": {
+      "filename": "PPP 1.0.0 NeoForge 1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/7MBmBn4E/versions/iS2UvSAZ/PPP%201.0.0%20NeoForge%201.20.4.jar",
+      "hash": "sha512-GsDCw1Cnx0T0FdxLfcAqZ52NQFUr4dYnohp7ZTVAL7HLSOD/gZz3lOMGygFDnNh7ftVJLrgTTdTEU0fDtFHK5w==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "l4xoCtYX": {
+      "filename": "PPP 1.0.0 Forge 1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/7MBmBn4E/versions/l4xoCtYX/PPP%201.0.0%20Forge%201.18.2.jar",
+      "hash": "sha512-/OJJGgUNjXFLhEqX43KRyI5UibKpTU2xpiT217mLPT7q69wo+k2rck/HrLx2qht9lL1acFpJR3xlkuLlJ7QDKw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sq0RnZtu": {
+      "filename": "PPP 1.0.0 Fabric 1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/7MBmBn4E/versions/sq0RnZtu/PPP%201.0.0%20Fabric%201.20.1.jar",
+      "hash": "sha512-w7Ms5yXiAaUT7mG5rT1N1dC9Zdxq0LMEFgv7LXY6qrnkNIxeBcs4KaJW6bwMeYw30e69yUamedUIoEL85GXodw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ufH5yvpC": {
+      "filename": "PPP 1.0.0 Forge 1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/7MBmBn4E/versions/ufH5yvpC/PPP%201.0.0%20Forge%201.16.5.jar",
+      "hash": "sha512-mQMbo4e3oQR8Onx+KHbc4nRe6IpwXAM4iFhjADpvC/8umfHxQvb8/kKbbHBn0pDPcTmxf+VHjURSVC8UEvEwMA==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+forge": [
+      "ufH5yvpC"
+    ],
+    "1.18.2+forge": [
+      "l4xoCtYX"
+    ],
+    "1.20.1+fabric": [
+      "sq0RnZtu"
+    ],
+    "1.20.1+forge": [
+      "afWWKMPt"
+    ],
+    "1.20.4+neoforge": [
+      "iS2UvSAZ"
+    ]
+  }
+}

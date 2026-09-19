@@ -1,0 +1,68 @@
+{
+  "slug": "emi_farmersdelight",
+  "projectId": "RlrMSsUI",
+  "versions": {
+    "e6tPcnEP": {
+      "filename": "emi_farmersdelight-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/RlrMSsUI/versions/e6tPcnEP/emi_farmersdelight-1.0.1.jar",
+      "hash": "sha512-aqDyr6b+TU1hNE0pc7lEJTf5L8njTZdtRIGvSMKHkDJqM1b8aM2yscqYqOIBj7k0jKypy+8TdVim/7BIkPwAlw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        },
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        }
+      ]
+    },
+    "rUwfm6GC": {
+      "filename": "emi_farmersdelight-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RlrMSsUI/versions/rUwfm6GC/emi_farmersdelight-1.0.0.jar",
+      "hash": "sha512-96UCtRN6+9vUH8DeySmsErazbMSmWxopZpSbTzriTL2FEYh1P+8o9xypKaug75spPRIBu6l8jJaB8I4NDLj7jA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "e6tPcnEP",
+      "rUwfm6GC"
+    ],
+    "1.19.2+quilt": [
+      "e6tPcnEP",
+      "rUwfm6GC"
+    ]
+  }
+}

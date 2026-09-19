@@ -1,0 +1,119 @@
+{
+  "slug": "create-blueprint-tweaks",
+  "projectId": "M5XCScux",
+  "versions": {
+    "ASzGEs46": {
+      "filename": "create_blueprint_tweaks-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/M5XCScux/versions/ASzGEs46/create_blueprint_tweaks-1.0.1.jar",
+      "hash": "sha512-jj/m2afRR1k0ffAUnivbnx6v8/ZkiLrLQO8U7u5Te4WL0sPgpyu/jxGxm0NLX1aA4sm2L0q55pxe/+PyE+n+lA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "KqJzUMuD": {
+      "filename": "create_blueprint_tweaks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/M5XCScux/versions/KqJzUMuD/create_blueprint_tweaks-1.0.0.jar",
+      "hash": "sha512-oVod16RCfLD7/82vadCsd/5HK8/YuXMbxr5/Ik9CipN5Dtab+L01awvFC+kB3MVW3fGcn5l4opJAYaomNDNmJA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "LvxussEH": {
+      "filename": "blueprint_tweaks-0.1.0+1.20.1-build.2.jar",
+      "url": "https://cdn.modrinth.com/data/M5XCScux/versions/LvxussEH/blueprint_tweaks-0.1.0%2B1.20.1-build.2.jar",
+      "hash": "sha512-jqLKo0JAueNtETHCyXV8StYO6BXIsaHsPiVfiYJ0128EJQeTJ4LoJNqNzTpNSMmAdaihawpZkpbqT57dG+/ddg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "UkwYNzWs": {
+      "filename": "create_blueprint_tweaks-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/M5XCScux/versions/UkwYNzWs/create_blueprint_tweaks-1.1.1.jar",
+      "hash": "sha512-mmG9mCjkXzJPtEqtx3mubcicfyptp96m2bJipUBTS4+W6a8hSGxQlLyMpsbkWaEtrZiDCyMqzKPtYeZSfECTMg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "mWFvicVZ": {
+      "filename": "create_blueprint_tweaks-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/M5XCScux/versions/mWFvicVZ/create_blueprint_tweaks-1.1.2.jar",
+      "hash": "sha512-OmKQtMnCiezrEJt2W+jP7GqO9+6dryDt4j6SJ+CWF2tTroorEcQa7d3tOb5PFtQ+DV9KTpxiaPayovdEkehugQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "LvxussEH"
+    ],
+    "1.20.1+forge": [
+      "mWFvicVZ",
+      "ASzGEs46"
+    ],
+    "1.21.1+neoforge": [
+      "UkwYNzWs",
+      "KqJzUMuD"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "sre-lib",
+  "projectId": "hvgg3YE2",
+  "versions": {
+    "5Z1WXvG9": {
+      "filename": "sre-lib-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/hvgg3YE2/versions/5Z1WXvG9/sre-lib-1.0.3.jar",
+      "hash": "sha512-Qp5idcKxhzuCmyOokVAM7dRNNuIUV0LNg6Ew/RjZq61NCsQDZ41uXQs1+9KY/gy+PQeW4C+ECs7WuIorDJDcZw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "I0lMqmmR": {
+      "filename": "sre-lib-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hvgg3YE2/versions/I0lMqmmR/sre-lib-1.0.0.jar",
+      "hash": "sha512-KM/IEzv8SP+KlBC9BN3IgBi7YWsfuFR9pSN9oai+J7xWZU77atik6UzPutpdKzROH6V4UH+sGY6iQm1ogKP+6Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fZ1mthEt": {
+      "filename": "sre-lib-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/hvgg3YE2/versions/fZ1mthEt/sre-lib-1.0.1.jar",
+      "hash": "sha512-1ESkFlVX9L0jDziWUQxseBjp6sF91CV4yvK/K59AdvLN9pwiqhnshkXxr1FBmJbwyn+Vtc6sApsleqGkF49miA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "i0t87sIg": {
+      "filename": "sre-lib-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/hvgg3YE2/versions/i0t87sIg/sre-lib-1.0.3.jar",
+      "hash": "sha512-VD7sDwzPzQaPNhKgqUVEqi+qUhvGTgMqI8lmYmtrfy1EUOjRFIECbasPFB/5IYM0JbM30Le1pAFYhwQIT2yBeQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "i0t87sIg",
+      "5Z1WXvG9",
+      "fZ1mthEt",
+      "I0lMqmmR"
+    ]
+  }
+}

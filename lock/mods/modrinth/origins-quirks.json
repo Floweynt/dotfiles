@@ -1,0 +1,41 @@
+{
+  "slug": "origins-quirks",
+  "projectId": "AJLHa0Uk",
+  "versions": {
+    "NYRzfsTs": {
+      "filename": "quirks-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AJLHa0Uk/versions/NYRzfsTs/quirks-0.1.0.jar",
+      "hash": "sha512-qidqtb9stIGwzsezTp5vTC9NG4qwSLEx9PbLgXv+nxSAwe1QLpfUBSN17huC2hLoALvtzOgw2zbCTexTKUmF1g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "sync",
+          "projectId": "lxcH9LKV",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "NYRzfsTs"
+    ]
+  }
+}

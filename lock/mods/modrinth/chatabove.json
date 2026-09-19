@@ -1,0 +1,54 @@
+{
+  "slug": "chatabove",
+  "projectId": "D5z5aRkV",
+  "versions": {
+    "7juqeAkV": {
+      "filename": "ChatAbove-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/D5z5aRkV/versions/7juqeAkV/ChatAbove-1.0.jar",
+      "hash": "sha512-DMOH9frt7LfKuwiN1RnWRvZUttIrVEKUPlsxNlVbq8exnvwfEHEnv/5ivbVokwVr911YasT0RqROwBZ798MyRw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "RvuXGPmF": {
+      "filename": "ChatAbove-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/D5z5aRkV/versions/RvuXGPmF/ChatAbove-1.1.jar",
+      "hash": "sha512-P0OxFk62z40ycUTzTAYrSILvcTpA/n/fCmWZjCnp8LxBifFFl6yKnccpza1Sv/fpaqEKNFh0JgXk5g34lsk5gA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "7juqeAkV"
+    ],
+    "1.20.4+fabric": [
+      "RvuXGPmF"
+    ]
+  }
+}

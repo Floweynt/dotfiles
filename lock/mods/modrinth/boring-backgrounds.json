@@ -1,0 +1,141 @@
+{
+  "slug": "boring-backgrounds",
+  "projectId": "AfYF1Y4Q",
+  "versions": {
+    "5lZaeFim": {
+      "filename": "boringbackgrounds-3.0.6+1.18.rc3.jar",
+      "url": "https://cdn.modrinth.com/data/AfYF1Y4Q/versions/3.0.6%2B1.18.rc3/boringbackgrounds-3.0.6%2B1.18.rc3.jar",
+      "hash": "sha512-Rd7vP+yWOWykZ6VOllBcZsOl5zRlmCeOMbVX2h7PjQzh6w8DW++A4L/rMB3pSSF7bOLn3Jgo9XZTe2PDRWjThw==",
+      "gameVersions": [
+        "1.18-rc3",
+        "1.18-rc4",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "6b7wv4Wy": {
+      "filename": "boring_backgrounds-3.0.8+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AfYF1Y4Q/versions/6b7wv4Wy/boring_backgrounds-3.0.8%2B1.20.1.jar",
+      "hash": "sha512-NbL7OKVr9fqhnwesZhv/zKJoWjxFKPEcqNwG4OLhzsAX1ZZCBUtsPFqCKZs6BGjkAMMca3K76Qw1hFHvKPNRMw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "HNp7jU1k": {
+      "filename": "boringbackgrounds-3.0.5+1.17.1.jar",
+      "url": "https://cdn.modrinth.com/data/AfYF1Y4Q/versions/3.0.5%2B1.17.1/boringbackgrounds-3.0.5%2B1.17.1.jar",
+      "hash": "sha512-0TX/l8MvAjtHkeqQEGHGcU/CTdEnXDWIO5nREJXZtpLUtWHdODkR+IWWgqeOfNziDo2ZCXdRwZlxloeNyPivIQ==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cLsQxlMk": {
+      "filename": "boringbackgrounds-3.0.4+1.17.1.jar",
+      "url": "https://cdn.modrinth.com/data/AfYF1Y4Q/versions/3.0.4%2B1.17.1/boringbackgrounds-3.0.4%2B1.17.1.jar",
+      "hash": "sha512-MQTw20vuDR1ed5+La+M6kvB84o8Rwb6ftkfr81J+qty0kAt3kwke7f9t8MAMPIe/tvBWbjt5zaCFPisjPdxj1w==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vg9BLMYh": {
+      "filename": "boring_backgrounds-3.0.7+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/AfYF1Y4Q/versions/3.0.7%2B1.19/boring_backgrounds-3.0.7%2B1.19.jar",
+      "hash": "sha512-nJKmkbkwyay8Smqxz3H/X9lG7XG8L4I7bp2Kp7qyuaoOOJz4ZHbf+n0FptEuklv6x+HpzTuwBDojtq4A+yoOBA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "HNp7jU1k",
+      "cLsQxlMk"
+    ],
+    "1.17.1+fabric": [
+      "HNp7jU1k",
+      "cLsQxlMk"
+    ],
+    "1.18+fabric": [
+      "5lZaeFim"
+    ],
+    "1.18-rc3+fabric": [
+      "5lZaeFim"
+    ],
+    "1.18-rc4+fabric": [
+      "5lZaeFim"
+    ],
+    "1.18.1+fabric": [
+      "5lZaeFim"
+    ],
+    "1.18.2+fabric": [
+      "5lZaeFim"
+    ],
+    "1.19+quilt": [
+      "vg9BLMYh"
+    ],
+    "1.19.1+quilt": [
+      "vg9BLMYh"
+    ],
+    "1.19.2+quilt": [
+      "vg9BLMYh"
+    ],
+    "1.20+quilt": [
+      "6b7wv4Wy"
+    ],
+    "1.20.1+quilt": [
+      "6b7wv4Wy"
+    ],
+    "1.20.2+quilt": [
+      "6b7wv4Wy"
+    ]
+  }
+}

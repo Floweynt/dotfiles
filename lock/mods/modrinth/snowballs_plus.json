@@ -1,0 +1,63 @@
+{
+  "slug": "snowballs_plus",
+  "projectId": "MitrX3QU",
+  "versions": {
+    "2Lz8VlQ8": {
+      "filename": "SnowballsPlus-FABRIC-1.19.4-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/MitrX3QU/versions/2Lz8VlQ8/SnowballsPlus-FABRIC-1.19.4-1.0.jar",
+      "hash": "sha512-P5c4qujqzv7UXJUhAhISmZctnYXmn0QEzSkkPjlXZaS/8u6a+7j9mZb1Dg+7mspfaj4BtWxwxZ2bOfsDLGaDxg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "cx57yLKq": {
+      "filename": "SnowballsPlus-FABRIC-1.20.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/MitrX3QU/versions/cx57yLKq/SnowballsPlus-FABRIC-1.20.1-1.0.jar",
+      "hash": "sha512-TBiseGOtfJEPPhhMSFJDx4rO/JGgNJzwWkhFIArXJtcCW9+pEs8bjfDBtjjeeaL72q8nXN+znZHZ7IOOkkH3vg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "pNFzlHSl": {
+      "filename": "SnowballsPlus-FABRIC-1.20.1-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/MitrX3QU/versions/pNFzlHSl/SnowballsPlus-FABRIC-1.20.1-1.1.jar",
+      "hash": "sha512-FGuH3l48nQ8IyL1DqbMk5DAcYiGHaYDjxQD/flpBtWLHpvE3s9StsEYIDPZcS04TO23OD3JhaVSYrN9luljw2w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "2Lz8VlQ8"
+    ],
+    "1.20.1+fabric": [
+      "pNFzlHSl",
+      "cx57yLKq"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "homy-tp",
+  "projectId": "Z6sYtA43",
+  "versions": {
+    "CCzsPOgC": {
+      "filename": "Homy TP v1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z6sYtA43/versions/CCzsPOgC/Homy%20TP%20v1.1.0.jar",
+      "hash": "sha512-Ty4DXjFB5HLz6xa4cmaZU0qjGVskO7ONYzART9mUogq/rkuNu0LEKqTb09xLV/6KsCt4phZvgoDCd2mrs1mX4g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "chosenlib",
+          "projectId": "UgEg5PFW",
+          "type": "required"
+        }
+      ]
+    },
+    "MjsczF6e": {
+      "filename": "Homy TP v1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z6sYtA43/versions/MjsczF6e/Homy%20TP%20v1.3.0.jar",
+      "hash": "sha512-BEA+Ym5GnhEBEiVn7EKsAZHskFOm5pHCm8eFc5GP/zzaUdaaXSjGSyqNuVuxer0U2GdrZ3UqkMDfDCOCM/Ry6w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "chosenlib",
+          "projectId": "UgEg5PFW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bfpfLe7w": {
+      "filename": "Homey TP-v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z6sYtA43/versions/bfpfLe7w/Homey%20TP-v1.0.0.jar",
+      "hash": "sha512-1g4AFfLzoPmzNmirVRI6Dl8jAi56fiMlU7/vWfmDV1DXJOSkVMmJ97xz/PpC/TcJYO/IGeEQ1py1GQiu8veELw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "chosenlib",
+          "projectId": "UgEg5PFW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pMNDuZub": {
+      "filename": "Homy TP v1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z6sYtA43/versions/pMNDuZub/Homy%20TP%20v1.2.0.jar",
+      "hash": "sha512-8BTv0C3d1KxA5R+a+T5lnAP49LCw6kz7cZgSvQQGRQPRSeT0Mu2tx+0sCyojUx4X9/Jj8Rtef1nXUQaI0dFv3g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "chosenlib",
+          "projectId": "UgEg5PFW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "MjsczF6e",
+      "pMNDuZub",
+      "CCzsPOgC",
+      "bfpfLe7w"
+    ]
+  }
+}

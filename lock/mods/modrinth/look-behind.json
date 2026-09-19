@@ -1,0 +1,87 @@
+{
+  "slug": "look-behind",
+  "projectId": "PgTT7cgt",
+  "versions": {
+    "5nG55pSj": {
+      "filename": "lookbehind-1.0.1-1.21.4+.jar",
+      "url": "https://cdn.modrinth.com/data/PgTT7cgt/versions/5nG55pSj/lookbehind-1.0.1-1.21.4%2B.jar",
+      "hash": "sha512-XpNkVDple9T6mnI+MoGvUVkA5hLKHHr+0ugwXuoeyoUB8XT4rgN8i2YJKG44Qxa8r9FByKekVa5Wdt2oWCNEuw==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "V6AbwC0F": {
+      "filename": "lookbehind-1.0-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/PgTT7cgt/versions/V6AbwC0F/lookbehind-1.0-1.21.4.jar",
+      "hash": "sha512-HaKFw9K87KEJQFJrsqCCYSUV/cFIj7BcCw/kwd346Yz3aCKblUvQCZlWx5a4j6HmarOC4FOsLCjgtNrQafFAEA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qxOid5sZ": {
+      "filename": "lookbehind-1.0.2-1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/PgTT7cgt/versions/qxOid5sZ/lookbehind-1.0.2-1.21.9.jar",
+      "hash": "sha512-7wQArI6zOXhJLehmMp9+mG76Dlh3k2WOtIYulfwBEYPXUGyMXL88HZtBpVXSI7QV/44J7Vhgnvo95H0hVCSq+g==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "qxOid5sZ"
+    ],
+    "1.21.11+fabric": [
+      "qxOid5sZ"
+    ],
+    "1.21.4+fabric": [
+      "5nG55pSj",
+      "V6AbwC0F"
+    ],
+    "1.21.5+fabric": [
+      "5nG55pSj"
+    ],
+    "1.21.6+fabric": [
+      "5nG55pSj"
+    ],
+    "1.21.7+fabric": [
+      "5nG55pSj"
+    ],
+    "1.21.8+fabric": [
+      "5nG55pSj"
+    ],
+    "1.21.9+fabric": [
+      "qxOid5sZ"
+    ]
+  }
+}

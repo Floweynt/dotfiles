@@ -1,0 +1,116 @@
+{
+  "slug": "cobbledaily",
+  "projectId": "YGEJznGu",
+  "versions": {
+    "3x8NPRAW": {
+      "filename": "CobbleDaily-1.7.1-1.21.1-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YGEJznGu/versions/3x8NPRAW/CobbleDaily-1.7.1-1.21.1-fabric-1.0.1.jar",
+      "hash": "sha512-3K1hojb+A8cBqYT9AOAUhDKTmgCMUNihc1Fn9RanaE+W5E4gR5g5765DeHIdGh+aTAasV5S6OCBcQxxkznILBw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        },
+        {
+          "slug": "cobblelibs",
+          "projectId": "kO8gQFVN",
+          "type": "required"
+        }
+      ]
+    },
+    "NAMiGa0P": {
+      "filename": "CobbleDaily-1.7.1-1.21.1-NeoForge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YGEJznGu/versions/NAMiGa0P/CobbleDaily-1.7.1-1.21.1-NeoForge-1.0.1.jar",
+      "hash": "sha512-vkwaqWvNQwwuyyIZhxgbOBNHQtgxOfrug/xJqncAwa9y/Cnr6vq5lo9vt+YYpQ9NQVnsyLOnZLXPBV/7GjbHGw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "cobblelibs",
+          "projectId": "kO8gQFVN",
+          "type": "required"
+        },
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        }
+      ]
+    },
+    "eM5Bwdgk": {
+      "filename": "CobbleDaily-1.7.1-1.21.1-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/YGEJznGu/versions/eM5Bwdgk/CobbleDaily-1.7.1-1.21.1-fabric-1.0.2.jar",
+      "hash": "sha512-v7KSwBpp7fJ8K+xaXS9jMSqH+FktjE3vYriPIyXDifb+NznVuGd8px922rslBrSiPMkd1J7z2khO3XBS5FOCzw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "cobblelibs",
+          "projectId": "kO8gQFVN",
+          "type": "required"
+        },
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        }
+      ]
+    },
+    "rfVjI0UJ": {
+      "filename": "CobbleDaily-1.7.1-1.21.1-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YGEJznGu/versions/rfVjI0UJ/CobbleDaily-1.7.1-1.21.1-fabric-1.0.0.jar",
+      "hash": "sha512-FP6JROWkP70aA1F0PEENmNK851wnIchL6IzwKdL4Qx4X3kB2BY9qnBY+k+FFTLbCaPzFv/SpZPziNQ2aZAbrxQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        },
+        {
+          "slug": "cobblelibs",
+          "projectId": "kO8gQFVN",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "eM5Bwdgk",
+      "3x8NPRAW",
+      "rfVjI0UJ"
+    ],
+    "1.21.1+neoforge": [
+      "NAMiGa0P"
+    ]
+  }
+}

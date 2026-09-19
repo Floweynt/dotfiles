@@ -1,0 +1,123 @@
+{
+  "slug": "create-coal-recipe",
+  "projectId": "rDH5tdx9",
+  "versions": {
+    "65mVkjOU": {
+      "filename": "coal_recipe.zip",
+      "url": "https://cdn.modrinth.com/data/rDH5tdx9/versions/65mVkjOU/coal_recipe.zip",
+      "hash": "sha512-wo89j1cxYfe/TFytnvC2DRoo9kab6foty0zTiedM1Sn20igYdtTKzFIDtJpMTzmsjAGan7Nqm+JWJdJGYW9q4w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "IfvF23Pk": {
+      "filename": "coal.zip",
+      "url": "https://cdn.modrinth.com/data/rDH5tdx9/versions/IfvF23Pk/coal.zip",
+      "hash": "sha512-0kFi3eVi2LCQZjOgd0f6rnMmY1OjhU0I3W+1jSbj6lcaK8r2tKTnOnm4XVu4gwMJnHAYISf9BUC75ErV+pYPcA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "UOU5poSh": {
+      "filename": "create-coal-recipe-1.jar",
+      "url": "https://cdn.modrinth.com/data/rDH5tdx9/versions/UOU5poSh/create-coal-recipe-1.jar",
+      "hash": "sha512-LF45LM20T8nTNyn085PazO9g/sVh0mQeQoKYzhWQqJ5vCehfUxSuIkPBY5HRitzbQc9m7saD5RFmk3yLOAyLJQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "egSuQH91": {
+      "filename": "create-coal-recipe-1.jar",
+      "url": "https://cdn.modrinth.com/data/rDH5tdx9/versions/egSuQH91/create-coal-recipe-1.jar",
+      "hash": "sha512-Kx2NsdzPhqZwMuF3Y0DD2yF+KuLMtlT07Pks1dBx4X4q1caEVcRfaMVcASI2whKGffQVUUPlMgyrYsfI8DljtA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "mzTMuift": {
+      "filename": "create-coal-recipe-1.jar",
+      "url": "https://cdn.modrinth.com/data/rDH5tdx9/versions/mzTMuift/create-coal-recipe-1.jar",
+      "hash": "sha512-XgBEgBVAKt+AonmgPsaWsFBoHN5/jbu6kPOyLghlxLgBRlXGOzn6f/zWcOi7b95d6Na9EKTxSAH/BaGYJIQGMA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "IfvF23Pk"
+    ],
+    "1.20.1+fabric": [
+      "UOU5poSh"
+    ],
+    "1.20.1+forge": [
+      "egSuQH91"
+    ],
+    "1.21.1+datapack": [
+      "65mVkjOU"
+    ],
+    "1.21.1+neoforge": [
+      "mzTMuift"
+    ]
+  }
+}

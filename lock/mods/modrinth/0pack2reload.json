@@ -1,0 +1,59 @@
+{
+  "slug": "0pack2reload",
+  "projectId": "2hl2n0xu",
+  "versions": {
+    "EK7eZaba": {
+      "filename": "0Pack2Reload-NeoForge-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2hl2n0xu/versions/EK7eZaba/0Pack2Reload-NeoForge-1.21.1-1.0.1.jar",
+      "hash": "sha512-SPbaC1IYJ6yra/a0Q2UN4hcxc/7CbLXH17TNeKpEz8S972xB9lZEMZX0ZneTA6xTa0Wzgk/rFFzDNQYO5bz5JQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kKMQHO2i": {
+      "filename": "0Pack2Reload-Forge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2hl2n0xu/versions/kKMQHO2i/0Pack2Reload-Forge-1.20.1-1.0.1.jar",
+      "hash": "sha512-7mZAQ6p3Q5QMSSNyS94wIPZIF1KyyjhR/Jj0ruYG0YdMoCerxDiTEKPgifm2lGfbk/c31ep13HAh3LyGwM2nGA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "lpLYB9ia": {
+      "filename": "0Pack2Reload-Fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2hl2n0xu/versions/lpLYB9ia/0Pack2Reload-Fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-mVjL8Cpw8KkH+vVu59KqjeWkqDDCAxkFhjQsSaPYNfN/1e7+5FGFRHW8x5J/fGQr/g/5/Ikne1avMvR/9lHa8Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "lpLYB9ia"
+    ],
+    "1.20.1+forge": [
+      "kKMQHO2i"
+    ],
+    "1.21.1+neoforge": [
+      "EK7eZaba"
+    ]
+  }
+}

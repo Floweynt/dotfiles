@@ -1,0 +1,90 @@
+{
+  "slug": "flight-mod",
+  "projectId": "raoskWto",
+  "versions": {
+    "FsQcromX": {
+      "filename": "FlightMod-1.21-2.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/raoskWto/versions/FsQcromX/FlightMod-1.21-2.1.1.jar",
+      "hash": "sha512-Y77LRivOnMudvk3IpcFbLrBmtzRWon/t2WUfYskHlG7akb6F1qUAxlzHIxWml5G+2VHYBLYGB7DCOeH1n1hcxQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "SCrLofCW": {
+      "filename": "FlightMod-1.21-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/raoskWto/versions/SCrLofCW/FlightMod-1.21-2.1.0.jar",
+      "hash": "sha512-0QSzL2+npczqOJB8bzb/IQgy+2msAqtzX2xrx6ZNUFsNCsCuoRAEuxrez3S6V93480sfKiQsBCvquQ6O1AXN2g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ilL9T1Xe": {
+      "filename": "FlightMod-1.20.6-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/raoskWto/versions/ilL9T1Xe/FlightMod-1.20.6-2.1.0.jar",
+      "hash": "sha512-I6vL8zMZ77ajI73oEgFJtPRykuZkJgcrkJB6evamUcfQi6cX677D7Ic8nEaPzpXqPDdUvUL1+AyVsBE1zNeAng==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "ilL9T1Xe"
+    ],
+    "1.21+fabric": [
+      "FsQcromX",
+      "SCrLofCW"
+    ]
+  }
+}

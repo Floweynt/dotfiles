@@ -1,0 +1,35 @@
+{
+  "slug": "cobblemerchant",
+  "projectId": "DJ2jUQ6f",
+  "versions": {
+    "BdFuQevD": {
+      "filename": "CobbleMerchant.jar",
+      "url": "https://cdn.modrinth.com/data/DJ2jUQ6f/versions/BdFuQevD/CobbleMerchant.jar",
+      "hash": "sha512-0WBul+aG4GJuYg6ObCaCrzVzP6S3TL+MIhyNYwtDbXly0nq7CUtujkGV5EsWqsD3i/mrpoIfHUYHjNv5OJ6Ztw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "BdFuQevD"
+    ],
+    "1.21.1+neoforge": [
+      "BdFuQevD"
+    ]
+  }
+}

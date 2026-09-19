@@ -1,0 +1,92 @@
+{
+  "slug": "jei-hover-search",
+  "projectId": "dSSxF1d4",
+  "versions": {
+    "6Z5vwKyb": {
+      "filename": "jei_hover_search-1.20.1-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/dSSxF1d4/versions/6Z5vwKyb/jei_hover_search-1.20.1-1.0.0-fabric.jar",
+      "hash": "sha512-PebYHCkPwQzB8e4tCl++X54M9AZvkfzC7JUv9kH2RcHT3wx/o5YRJXB7/Jy9zTykFh+2P6rFlFy57cvxMDCaIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "9WcZcdPe": {
+      "filename": "jei_hover_search-1.20.1-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/dSSxF1d4/versions/9WcZcdPe/jei_hover_search-1.20.1-1.0.0-forge.jar",
+      "hash": "sha512-AHS3K9aW9Wj1WL33Vp8C/ya6I7B8Tks+kzBWKkOAg4t728BVfGc8DQT1qBOtrz/6qjtOdYlOh4MsqlGQKh8Uyg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "SdRtdfd9": {
+      "filename": "jei_hover_search-1.18.2-1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/dSSxF1d4/versions/SdRtdfd9/jei_hover_search-1.18.2-1.0-forge.jar",
+      "hash": "sha512-O6JXmqS4ivKH/uR1oBYbQdElgfSNLYyFXBTZvGhKTQ5NXUWkzSnRuML9pImVK7BDAR5jwEz6XqtGTCR7QxNoGw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "SdRtdfd9"
+    ],
+    "1.20.1+fabric": [
+      "6Z5vwKyb"
+    ],
+    "1.20.1+forge": [
+      "9WcZcdPe"
+    ]
+  }
+}

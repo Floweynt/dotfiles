@@ -1,0 +1,92 @@
+{
+  "slug": "voided-variance",
+  "projectId": "RkzjxDVP",
+  "versions": {
+    "868lhFp7": {
+      "filename": "voided_variance-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RkzjxDVP/versions/868lhFp7/voided_variance-1.1.0.jar",
+      "hash": "sha512-ADQl2ygcyeQYukSoTMF7/f7NjELP3v1uEKaFaS43nv4jNfDzJxPqjG3mTZxd74S1DcycDkWxWKIaI70uR5FO8w==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "Gp882ZIJ": {
+      "filename": "voided_variance-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/RkzjxDVP/versions/Gp882ZIJ/voided_variance-1.1.1.jar",
+      "hash": "sha512-EutvoLfiB4i+nh2uMvUzQgYF4JdwDdx/qkDFv05dJZa0MKgcMIiVRFF7Vf5PLINfE1K85FZzBnYgZRLAfw2yYA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "ZZQjrnlc": {
+      "filename": "voided_variance-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RkzjxDVP/versions/ZZQjrnlc/voided_variance-1.0.0.jar",
+      "hash": "sha512-kxwcnywgq658P56MgEx6KTK+OwNVZZ9AKLZmdY3gqjk9vBfnuRr5mgS21J+lyhPC/W+I3l2XwLOYuMYujIGfAw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "Gp882ZIJ",
+      "868lhFp7",
+      "ZZQjrnlc"
+    ],
+    "1.21.1+fabric": [
+      "Gp882ZIJ"
+    ]
+  }
+}

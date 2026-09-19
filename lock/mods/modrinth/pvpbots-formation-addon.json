@@ -1,0 +1,77 @@
+{
+  "slug": "pvpbots-formation-addon",
+  "projectId": "gtxtgcCm",
+  "versions": {
+    "QiZOTPkC": {
+      "filename": "pvpbot-formations-v0.0.13A-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/gtxtgcCm/versions/QiZOTPkC/pvpbot-formations-v0.0.13A-0.0.1.jar",
+      "hash": "sha512-1b7+QzHGl3Xhe+mXvTroYLkNHTC/qk+3T3dAKaccYOHW16/q/3geS4mpfaVcM2qm8e8feEd37KK/cUzZBT66FQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        },
+        {
+          "slug": "pvp-bot-fabric",
+          "projectId": "MpQFUorJ",
+          "type": "required"
+        }
+      ]
+    },
+    "ZVDMYkzV": {
+      "filename": "pvpbot-formations-v0.0.13A-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/gtxtgcCm/versions/ZVDMYkzV/pvpbot-formations-v0.0.13A-0.0.2.jar",
+      "hash": "sha512-1hLL52Qy1gOIWfl9LPk0PPDCVbBkfEI+ey/KkFvqq5N/IDk59XY+NFu0ZRigzeeVg79VjEW35V87X9RxQEpuGg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "pvp-bot-fabric",
+          "projectId": "MpQFUorJ",
+          "type": "required"
+        },
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "fJSip6xR": {
+      "filename": "pvpbot-formations-v0.0.13A-0.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/gtxtgcCm/versions/fJSip6xR/pvpbot-formations-v0.0.13A-0.0.3.jar",
+      "hash": "sha512-uEdqJa96r9bgPHlo5yCG9nVYdksp1zaCOzb/AIDuf6mp92p48XYW+bUXCjb9Vlf/XW40iany91N8pM0posOaKQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "fJSip6xR",
+      "ZVDMYkzV",
+      "QiZOTPkC"
+    ]
+  }
+}

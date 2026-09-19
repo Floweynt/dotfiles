@@ -1,0 +1,61 @@
+{
+  "slug": "fpscounter",
+  "projectId": "eJRMu254",
+  "versions": {
+    "LbUUuekO": {
+      "filename": "FpsCounter-1.1-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/eJRMu254/versions/LbUUuekO/FpsCounter-1.1-SNAPSHOT.jar",
+      "hash": "sha512-xftyOsvkkbnIymFCKeEKq/mF1VwlDbjx+xMuYgiB5LhbGReRUJqyqsHeRuNWDeHiEZyYyNVMHpJC9AQckwVdJQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "lb8j0f4K": {
+      "filename": "FpsCounter-2.0-BETA-ACCESS.jar",
+      "url": "https://cdn.modrinth.com/data/eJRMu254/versions/lb8j0f4K/FpsCounter-2.0-BETA-ACCESS.jar",
+      "hash": "sha512-wzWN2IwI9Syce2wbgWqx4XjKMcIpXuig9HqbcYhA5dhHRl8dNV0aQX5RDcPoeXtViDXsdkjDmgjysGY/7ZdKZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "txqeyt6C": {
+      "filename": "FpsCounter-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eJRMu254/versions/txqeyt6C/FpsCounter-1.0.jar",
+      "hash": "sha512-bVUEe9FJVgOaV8Q9lNz9hfa+lAXzRenHTY/yMiYqZOKsohAE0KjJiV3pT2BeqO/a0EBTvu+6AqDzG0cELrfzfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "lb8j0f4K",
+      "LbUUuekO",
+      "txqeyt6C"
+    ]
+  }
+}

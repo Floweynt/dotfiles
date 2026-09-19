@@ -1,0 +1,105 @@
+{
+  "slug": "lights-enderite-mod",
+  "projectId": "84F0gCbo",
+  "versions": {
+    "68S8DWaU": {
+      "filename": "Enderite-1.0.1 Release.jar",
+      "url": "https://cdn.modrinth.com/data/84F0gCbo/versions/68S8DWaU/Enderite-1.0.1%20Release.jar",
+      "hash": "sha512-/EYtoFyz/oL2SpcKRC/ToBtfNbEOUygIrZGnc6FOUgDTpyjmYVB2fm152u9STJS3qP5A4lTqBfck2URez6WlJg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ArcWwdpz": {
+      "filename": "lights_enderite_mod-3.0.1-neoforge-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/84F0gCbo/versions/ArcWwdpz/lights_enderite_mod-3.0.1-neoforge-1.21.8.jar",
+      "hash": "sha512-PXBKYx93B5WQzsceDqlsKagAquJlIOubDysy8xXsRYx3VvMn8TzQIiF7nzuSztbiToWtCA0cnVLj0VYj+yuT1g==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GqTNMQJJ": {
+      "filename": "lights_enderite_mod-3.5.0-neoforge-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/84F0gCbo/versions/GqTNMQJJ/lights_enderite_mod-3.5.0-neoforge-1.21.8.jar",
+      "hash": "sha512-2RmZXRoZrfrPZ6hgXmKSqJG87S9tx7umvVxHo4NZ4zcCHN/q0cDq71sNbu2rxu3JwKxxIGSbvbeAkHJOIBNeiA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Hgjy0QRF": {
+      "filename": "Enderite-1.0-Release.jar",
+      "url": "https://cdn.modrinth.com/data/84F0gCbo/versions/Hgjy0QRF/Enderite-1.0-Release.jar",
+      "hash": "sha512-6sdj2/LtkbfylWqURGFpXXMNXaXnsU/qK+5hb1CDYnBRMtFcnfsoWgnYf/PTcTKtHJwtmLieFaVzW3mBRmq82w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PBrpcDqp": {
+      "filename": "lights_enderite_mod-3.6.0-neoforge-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/84F0gCbo/versions/PBrpcDqp/lights_enderite_mod-3.6.0-neoforge-1.21.8.jar",
+      "hash": "sha512-2zyDkGdP1dVVdPLbt9dbXHiEEy+12yp4zf2sFubMxWu/uO6wzdh+tzwdAqttWYcKhfyg0ZNE1IekeMo1ziz5pw==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+neoforge": [
+      "PBrpcDqp"
+    ],
+    "1.21.11+fabric": [
+      "68S8DWaU",
+      "Hgjy0QRF"
+    ],
+    "1.21.11+neoforge": [
+      "PBrpcDqp"
+    ],
+    "1.21.8+neoforge": [
+      "PBrpcDqp",
+      "GqTNMQJJ",
+      "ArcWwdpz"
+    ],
+    "1.21.9+neoforge": [
+      "PBrpcDqp"
+    ]
+  }
+}

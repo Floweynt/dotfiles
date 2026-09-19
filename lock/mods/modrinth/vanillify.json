@@ -1,0 +1,46 @@
+{
+  "slug": "vanillify",
+  "projectId": "RjAIbW90",
+  "versions": {
+    "OIBiSWOi": {
+      "filename": "vanillifylib-0.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/RjAIbW90/versions/mc1.19-v0.4/vanillifylib-0.4.0.jar",
+      "hash": "sha512-41j4yIdxaHaBgGacsa5mXojOfFJdDkz69dGpt0do2icW6EIHVXrlRo/7TsMZK6WJXq7FVuMUMbNLytQoDQVSLA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "YwB3zA4L": {
+      "filename": "vanillifylib-0.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/RjAIbW90/versions/mc1.19-v0.4.1/vanillifylib-0.4.1.jar",
+      "hash": "sha512-5hfUjmFHwcBsb4BcKq3AXH+NzkGYHk/nqbhBPxpIx6+aGIvMSxELVs4Mt9LsZkCvk4xraTUwuJidPFpt633LLA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "YwB3zA4L",
+      "OIBiSWOi"
+    ],
+    "1.19+quilt": [
+      "YwB3zA4L",
+      "OIBiSWOi"
+    ]
+  }
+}

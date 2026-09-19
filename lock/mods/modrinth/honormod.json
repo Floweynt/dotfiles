@@ -1,0 +1,61 @@
+{
+  "slug": "honormod",
+  "projectId": "qz9oYg0Y",
+  "versions": {
+    "95242cGY": {
+      "filename": "honormod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qz9oYg0Y/versions/95242cGY/honormod-1.0.0.jar",
+      "hash": "sha512-ksC8v/NClLU+T9SIwn2lgWaSy68pYbnDvdgDZHhoxGmrSQWtS/Vuxwylrskrhp6D88lMzN9o9T3xYaFZ66ZdeA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "eVCt1D9m": {
+      "filename": "honormod-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/qz9oYg0Y/versions/eVCt1D9m/honormod-1.2.jar",
+      "hash": "sha512-tY1elSBZ3ZVjerZoLxNxjH4XkAkDhxq0dJcYtbN6NXqcltB42UNin545+pFLaHEWm0VPx/9QXcI0Aom4ifSPuw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ffyJZJoc": {
+      "filename": "honormod-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/qz9oYg0Y/versions/ffyJZJoc/honormod-1.1.jar",
+      "hash": "sha512-ZNCL9c7Sp+JQrno0onAKpRF7CoOqIQX4lVby9cKz9uzhs8Ne5C/RolFQu7YesET0henrNl2dupUc4d9ggOkp3Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "eVCt1D9m",
+      "ffyJZJoc",
+      "95242cGY"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "crosshair-customizer",
+  "projectId": "5f1YUZf4",
+  "versions": {
+    "2wKjuG1Z": {
+      "filename": "crosshaircustomizer-0.1.0+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/5f1YUZf4/versions/2wKjuG1Z/crosshaircustomizer-0.1.0%2B1.21.8.jar",
+      "hash": "sha512-Lf+0UGpNp0bJ4+Tkk2Yq1yH+QM4/cP1laS39Nwz51ZDkLuYrtf8l3w/8w2CEXpafRVMX+ZogfXh+Q1PEXpAQAg==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "ZQgOd8Wl": {
+      "filename": "crosshaircustomizer-0.1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/5f1YUZf4/versions/ZQgOd8Wl/crosshaircustomizer-0.1.0%2B1.21.jar",
+      "hash": "sha512-yHdw2XMpMTbUq+KlwsSpHBLz069uZgGKbLsb2q/gnwy0KHM7yWT/9oGEM+Q9pDJwYNufpFNFElsJ5ZOOedeIcg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "dCKLurzn": {
+      "filename": "crosshaircustomizer-0.1.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/5f1YUZf4/versions/dCKLurzn/crosshaircustomizer-0.1.0%2B1.21.4.jar",
+      "hash": "sha512-XiE3zjFoQrvGC2NT2aQTPEXsXWyZaMZ0GdtLEel5GQ5aYriVLib21afx1Ag+uFRLhPQepXS6qseGZsGzCSlQMw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "ZQgOd8Wl"
+    ],
+    "1.21.1+fabric": [
+      "ZQgOd8Wl"
+    ],
+    "1.21.4+fabric": [
+      "dCKLurzn"
+    ],
+    "1.21.6+fabric": [
+      "2wKjuG1Z"
+    ],
+    "1.21.7+fabric": [
+      "2wKjuG1Z"
+    ],
+    "1.21.8+fabric": [
+      "2wKjuG1Z"
+    ]
+  }
+}

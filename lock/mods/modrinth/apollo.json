@@ -1,0 +1,92 @@
+{
+  "slug": "apollo",
+  "projectId": "rQU8oPFc",
+  "versions": {
+    "6jtPrFMu": {
+      "filename": "apollo-0.3.0.a.jar",
+      "url": "https://cdn.modrinth.com/data/rQU8oPFc/versions/6jtPrFMu/apollo-0.3.0.a.jar",
+      "hash": "sha512-GOI4UYizpmmNZjv8gP4sEgGxFN6MxISy6MVrGIlKkjf2zmu9ubHMraG00ee280pPbpcuUu0hkVPS/AjxfE384g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "817lbR48": {
+      "filename": "apollo-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/rQU8oPFc/versions/0.1.1/apollo-0.1.1.jar",
+      "hash": "sha512-A3ATlTF/xKNB8xLpxJGgqWzDA8W55deq2B0M5YcoMNF11Pe4732bZhHqoH0/qGAwolvf3meSN1BWH/FFDYeKLA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Aree0Hfp": {
+      "filename": "apollo-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/rQU8oPFc/versions/0.2.0/apollo-0.2.0.jar",
+      "hash": "sha512-OFJfwWuBH1aD30BzK6M8e2tFdCo4MmKWDVbAsM7rAiEryv96ihfWcw/w9WTC4aX5WReey46eiMbvA+xCu6E5KA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zlOPn2BR": {
+      "filename": "apollo-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/rQU8oPFc/versions/0.1.0/apollo-0.1.0.jar",
+      "hash": "sha512-iJSR56UcnuUlLKjIJViSC6UrS030Fn6uDEt6gG0T4mTwJgMx1pgikjlVAbEZh4wZgsvDYZuArEcIbyLcKNGhEw==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.1+fabric": [
+      "zlOPn2BR"
+    ],
+    "1.18.2+fabric": [
+      "817lbR48"
+    ],
+    "1.19+fabric": [
+      "Aree0Hfp"
+    ],
+    "1.20+fabric": [
+      "6jtPrFMu"
+    ],
+    "1.20.1+fabric": [
+      "6jtPrFMu"
+    ]
+  }
+}

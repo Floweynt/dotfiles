@@ -1,0 +1,68 @@
+{
+  "slug": "jerksteve",
+  "projectId": "wuZ2bRM0",
+  "versions": {
+    "T9sFAOux": {
+      "filename": "jerksteve-1.0.0-mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/wuZ2bRM0/versions/T9sFAOux/jerksteve-1.0.0-mc1.21-1.21.1.jar",
+      "hash": "sha512-1k3DGTAL0xUdHY4W8LIzWO9hTK6WPbaF6lG4+tXbP9U3S4bO11agh3a/2I/CRI8YKoC8R+9atpCHJgKFgZOk7w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VzUcL2pW": {
+      "filename": "jerksteve-1.0.0-mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/wuZ2bRM0/versions/VzUcL2pW/jerksteve-1.0.0-mc1.21-1.21.1.jar",
+      "hash": "sha512-1k3DGTAL0xUdHY4W8LIzWO9hTK6WPbaF6lG4+tXbP9U3S4bO11agh3a/2I/CRI8YKoC8R+9atpCHJgKFgZOk7w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "T9sFAOux"
+    ],
+    "1.21+forge": [
+      "VzUcL2pW"
+    ],
+    "1.21+neoforge": [
+      "VzUcL2pW"
+    ],
+    "1.21.1+fabric": [
+      "T9sFAOux"
+    ],
+    "1.21.1+forge": [
+      "VzUcL2pW"
+    ],
+    "1.21.1+neoforge": [
+      "VzUcL2pW"
+    ]
+  }
+}

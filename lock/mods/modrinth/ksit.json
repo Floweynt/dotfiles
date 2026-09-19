@@ -1,0 +1,140 @@
+{
+  "slug": "ksit",
+  "projectId": "9zcqL9SL",
+  "versions": {
+    "3Zr6FWUJ": {
+      "filename": "KSit-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/9zcqL9SL/versions/3Zr6FWUJ/KSit-0.0.1.jar",
+      "hash": "sha512-zYrFt7/QiWxWUevWqmNKYNvwETO7FhsqHwT+WcS5T+yojgy9T2m+RUp1uKVwcyjKpKNx4shSwvgyy9cb8nsfww==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "kiwi",
+          "projectId": "ufdDoWPd",
+          "type": "required"
+        }
+      ]
+    },
+    "GIfQNDWn": {
+      "filename": "KSit-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/9zcqL9SL/versions/GIfQNDWn/KSit-1.0.1.jar",
+      "hash": "sha512-gNKzrwwZHUvtPvsBpXKcAdh7/+3orOUXmQHWeXt6GPKPpvoixDTZBxukXXtKUt9CoK8zF6fWP0FfVX+mGSIOwg==",
+      "gameVersions": [
+        "1.21.1",
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "kiwi",
+          "projectId": "ufdDoWPd",
+          "type": "required"
+        }
+      ]
+    },
+    "jKV9hbEm": {
+      "filename": "KSit-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/9zcqL9SL/versions/jKV9hbEm/KSit-0.0.2.jar",
+      "hash": "sha512-FXBpTZ+e5GFp7oUlARJoIQkmU1m6Z9a5e8U9Yt8RTXDumfmPKdjv9Hthgk8GvNSGUqZQDkKp+egR8gyNc9YHxw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "kiwi",
+          "projectId": "ufdDoWPd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "jKV9hbEm"
+    ],
+    "1.20+forge": [
+      "jKV9hbEm"
+    ],
+    "1.20+neoforge": [
+      "jKV9hbEm"
+    ],
+    "1.20+quilt": [
+      "jKV9hbEm"
+    ],
+    "1.20.1+fabric": [
+      "jKV9hbEm"
+    ],
+    "1.20.1+forge": [
+      "jKV9hbEm",
+      "3Zr6FWUJ"
+    ],
+    "1.20.1+neoforge": [
+      "jKV9hbEm",
+      "3Zr6FWUJ"
+    ],
+    "1.20.1+quilt": [
+      "jKV9hbEm"
+    ],
+    "1.21.1+fabric": [
+      "GIfQNDWn"
+    ],
+    "1.21.1+neoforge": [
+      "GIfQNDWn"
+    ],
+    "1.21.1+quilt": [
+      "GIfQNDWn"
+    ],
+    "26.1+fabric": [
+      "GIfQNDWn"
+    ],
+    "26.1+neoforge": [
+      "GIfQNDWn"
+    ],
+    "26.1+quilt": [
+      "GIfQNDWn"
+    ],
+    "26.1.1+fabric": [
+      "GIfQNDWn"
+    ],
+    "26.1.1+neoforge": [
+      "GIfQNDWn"
+    ],
+    "26.1.1+quilt": [
+      "GIfQNDWn"
+    ],
+    "26.1.2+fabric": [
+      "GIfQNDWn"
+    ],
+    "26.1.2+neoforge": [
+      "GIfQNDWn"
+    ],
+    "26.1.2+quilt": [
+      "GIfQNDWn"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "cobble-blocks",
+  "projectId": "Mq2KP6wB",
+  "versions": {
+    "VWEblTSv": {
+      "filename": "cobbleblocks-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Mq2KP6wB/versions/VWEblTSv/cobbleblocks-1.21.1.jar",
+      "hash": "sha512-SnSFAcBL0CQjJU2/EPaZYCmVSQ4MTyqfJvzRJs0sdmyA5sa8alio/wuH6vnUB18dd+w8+LO07L3Lm+Fr/btdQA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "YNaiffxc": {
+      "filename": "Cobble Blocks-1.0.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/Mq2KP6wB/versions/YNaiffxc/Cobble%20Blocks-1.0.0-SNAPSHOT.jar",
+      "hash": "sha512-RANyE7fxsjAp7E7KnACRyYtTBxumLbSDqmqBTXBwpMYgM6DySa6K2hMpptvokXkzsFRPOwt+80AVuIj6wpenOA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "YNaiffxc"
+    ],
+    "1.21+neoforge": [
+      "VWEblTSv"
+    ],
+    "1.21.1+fabric": [
+      "YNaiffxc"
+    ],
+    "1.21.1+neoforge": [
+      "VWEblTSv"
+    ]
+  }
+}

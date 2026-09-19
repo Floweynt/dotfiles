@@ -1,0 +1,46 @@
+{
+  "slug": "kantostarters",
+  "projectId": "BCTdX8Wm",
+  "versions": {
+    "7AjfD60B": {
+      "filename": "kantostarters-0.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/BCTdX8Wm/versions/7AjfD60B/kantostarters-0.0.4.jar",
+      "hash": "sha512-S5XmPauZwXqliR7rE8FkxF834ewhLjbqsEsXvuWKGfMuAprq+70dsbiw1LcpnnFrgRKe/SGxqP4pTWp1qM7kLA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "K46qsHs6": {
+      "filename": "kantostarters-0.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/BCTdX8Wm/versions/K46qsHs6/kantostarters-0.0.3.jar",
+      "hash": "sha512-++NZ7qmPRUB1VLaenz+QYrbJfU4QoRaHf+PeB7kFvta5DVkj8XdeC2thfsUFaqKBYT666go89ppKhETMufNhFQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "7AjfD60B",
+      "K46qsHs6"
+    ]
+  }
+}

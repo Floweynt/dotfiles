@@ -1,0 +1,70 @@
+{
+  "slug": "level-border-limo4317",
+  "projectId": "LkK358DK",
+  "versions": {
+    "DUUSMnRN": {
+      "filename": "level_border-0.2.0-fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/LkK358DK/versions/DUUSMnRN/level_border-0.2.0-fabric-1.21.8.jar",
+      "hash": "sha512-MrqK8GaAIjpz31594KTR8w9q9hNOJ8rUS3RVGZzdC9jk00EiYy4qYD16oGoToXnchiwNygdGbS8IzIccBi9RrA==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lVNzsEDf": {
+      "filename": "level_border-0.1.0-fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/LkK358DK/versions/lVNzsEDf/level_border-0.1.0-fabric-1.21.8.jar",
+      "hash": "sha512-x0BnM75YbD/XcnRzMOjifdsXcpKM5XHq/gi25zfP4K9Vd0hw/MZ6xqnbqnfJgVeK12DBpBfLQ3pAo0eaVvFQww==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "DUUSMnRN",
+      "lVNzsEDf"
+    ],
+    "1.21.11+fabric": [
+      "DUUSMnRN",
+      "lVNzsEDf"
+    ],
+    "1.21.8+fabric": [
+      "DUUSMnRN",
+      "lVNzsEDf"
+    ],
+    "1.21.9+fabric": [
+      "DUUSMnRN",
+      "lVNzsEDf"
+    ]
+  }
+}

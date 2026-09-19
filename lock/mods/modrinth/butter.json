@@ -1,0 +1,96 @@
+{
+  "slug": "butter",
+  "projectId": "LyjwwOg9",
+  "versions": {
+    "YUstOIlw": {
+      "filename": "butter-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LyjwwOg9/versions/YUstOIlw/butter-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-0agjNS6pFI9aaEjBSejJvV/EtNmj51JAq+JdR8B62bxsVwTtOavMykCkuH3SCCtDxytTIhbU6Suuiz+qbbEaPg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "gL6ufviJ": {
+      "filename": "butter-1.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LyjwwOg9/versions/gL6ufviJ/butter-1.1.0%2B1.20.1.jar",
+      "hash": "sha512-rrgOtSsmH7k+RCamdcDX4kQkJI0l0AbL8TaDM/xXNQuMN+YSqQKXJkwRN4PYTu/VVSdPMX0VqBxJT0meierJkA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "hqJApMWN": {
+      "filename": "butter-1.1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LyjwwOg9/versions/hqJApMWN/butter-1.1.1%2B1.20.1.jar",
+      "hash": "sha512-7AukPiY2KbPdJmJi8pd1t0V9UVG/DdCeRHsEt6KK4FCVD4Y3Jznp8qWg6K5KK+uhClL9B8IyJf9HFoUMdVvPhg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "hqJApMWN",
+      "gL6ufviJ",
+      "YUstOIlw"
+    ],
+    "1.20.1+fabric": [
+      "hqJApMWN",
+      "gL6ufviJ",
+      "YUstOIlw"
+    ]
+  }
+}

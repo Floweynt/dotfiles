@@ -1,0 +1,161 @@
+{
+  "slug": "vothret-mushroom-caves",
+  "projectId": "OZNl6Pvq",
+  "versions": {
+    "KcnPDbuB": {
+      "filename": "vothret-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OZNl6Pvq/versions/KcnPDbuB/vothret-1.0.0.jar",
+      "hash": "sha512-tyP0TVqnLhdGWUIWWiYeXrVZqLWIgClefLCKvzRNzF+cw3I5/vH3atOuMTsqVocCcSggXL4QCXw240Re9jMSVQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MQh1OERp": {
+      "filename": "vothret-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OZNl6Pvq/versions/MQh1OERp/vothret-1.0.0.jar",
+      "hash": "sha512-szdxzWGsQqDVCeTSHHoPuZxhrFDYgz+40kqSyDkU2nlbeadxtEWJoHtfoxC5xG4jAdLOmemnqoUhaFzjhMBSTg==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "t9nTWJMR": {
+      "filename": "vothret-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OZNl6Pvq/versions/t9nTWJMR/vothret-1.0.0.jar",
+      "hash": "sha512-EpN/DDJU6vnKFX18JfeeCnzX0lEfBmWcLjQNH8Dncx+vPttnRfZp5kaoD6LsmbrWrXYQLX/ngOPqrtB932Fwag==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "t9nTWJMR"
+    ],
+    "1.21+quilt": [
+      "t9nTWJMR"
+    ],
+    "1.21.1+fabric": [
+      "t9nTWJMR"
+    ],
+    "1.21.1+quilt": [
+      "t9nTWJMR"
+    ],
+    "1.21.10+fabric": [
+      "MQh1OERp"
+    ],
+    "1.21.10+quilt": [
+      "MQh1OERp"
+    ],
+    "1.21.11+fabric": [
+      "MQh1OERp"
+    ],
+    "1.21.11+quilt": [
+      "MQh1OERp"
+    ],
+    "1.21.6+fabric": [
+      "MQh1OERp"
+    ],
+    "1.21.6+quilt": [
+      "MQh1OERp"
+    ],
+    "1.21.7+fabric": [
+      "MQh1OERp"
+    ],
+    "1.21.7+quilt": [
+      "MQh1OERp"
+    ],
+    "1.21.8+fabric": [
+      "MQh1OERp"
+    ],
+    "1.21.8+quilt": [
+      "MQh1OERp"
+    ],
+    "1.21.9+fabric": [
+      "MQh1OERp"
+    ],
+    "1.21.9+quilt": [
+      "MQh1OERp"
+    ],
+    "26.2+fabric": [
+      "KcnPDbuB"
+    ],
+    "26.2+quilt": [
+      "KcnPDbuB"
+    ]
+  }
+}

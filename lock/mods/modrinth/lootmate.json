@@ -1,0 +1,102 @@
+{
+  "slug": "lootmate",
+  "projectId": "DuQqD28n",
+  "versions": {
+    "6rHEDyyt": {
+      "filename": "lootmate-1.0.0-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/DuQqD28n/versions/6rHEDyyt/lootmate-1.0.0-1.21.11.jar",
+      "hash": "sha512-gVNjd39KX8n6cnOtcSWwGKp/wu9ta/HtkixQXDc72te1LDDuXikBir2O8uZQC1FKRvTh/ORuKHifV5q3UWVZbw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Q8Rou3TL": {
+      "filename": "lootmate-1.0.0-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/DuQqD28n/versions/Q8Rou3TL/lootmate-1.0.0-1.21.10.jar",
+      "hash": "sha512-2uligBphR0QS44HUEypjzPgnnKEuxl5UM+uv2sJcoeYsP1WH+PlfVbpVXBf+5UKqtkx6sZzCurYIfz8jLaBV6g==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UAYkq0UB": {
+      "filename": "lootmate-1.0.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/DuQqD28n/versions/UAYkq0UB/lootmate-1.0.1%2B26.1.jar",
+      "hash": "sha512-dAtx7yBpkgT0EcQ8rfdrRzSIfgWyXsPOv53yDP5Dv17N17GlSEZXdKGw+OaZTE4GUq/b6m0BBIYHGiVRvEyOBw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vfp6kCqb": {
+      "filename": "lootmate-1.0.1+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/DuQqD28n/versions/vfp6kCqb/lootmate-1.0.1%2B26.2.jar",
+      "hash": "sha512-1xTq8POh7/dFs7MUXrmH/goXtxdjM9xwcmyDHbix5zVTpVqd/vxNhfvSY9bCafOxprhGizrQd/EX3y0WI9Z0oA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "Q8Rou3TL"
+    ],
+    "1.21.11+fabric": [
+      "6rHEDyyt"
+    ],
+    "26.1+fabric": [
+      "UAYkq0UB"
+    ],
+    "26.1.1+fabric": [
+      "UAYkq0UB"
+    ],
+    "26.1.2+fabric": [
+      "UAYkq0UB"
+    ],
+    "26.2+fabric": [
+      "vfp6kCqb"
+    ]
+  }
+}

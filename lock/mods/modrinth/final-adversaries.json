@@ -1,0 +1,152 @@
+{
+  "slug": "final-adversaries",
+  "projectId": "nDSJiTR9",
+  "versions": {
+    "7b9zTTQB": {
+      "filename": "final_adversaries_1.1_alexscaves+aether_Forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nDSJiTR9/versions/7b9zTTQB/final_adversaries_1.1_alexscaves%2Baether_Forge-1.20.1.jar",
+      "hash": "sha512-x45NpVftxqu58AgWWhesHYbgQcdvtN6Q7eyg7czKUDCEmm9wfPnQ4JjXwFJa1GZf6lTxHqQy3wvxjaHOLHAGEQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alexs-caves",
+          "projectId": "U6GY0xp0",
+          "type": "required"
+        },
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        },
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        },
+        {
+          "slug": "huge-structure-blocks",
+          "projectId": "AMLtKGdJ",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "structure-layout-optimizer",
+          "projectId": "ayPU0OHc",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        }
+      ]
+    },
+    "HoaXAXZV": {
+      "filename": "final_adversaries_1.2_alexscaves+aether_Forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nDSJiTR9/versions/HoaXAXZV/final_adversaries_1.2_alexscaves%2Baether_Forge-1.20.1.jar",
+      "hash": "sha512-ziDbs2niuIQOadgTNyUYcDfKTCh053GilF1sT4hYnT19tcViXe+y2E+NaXEic8+a7BEVitf61i15y6XTzjnJyA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        },
+        {
+          "slug": "huge-structure-blocks",
+          "projectId": "AMLtKGdJ",
+          "type": "required"
+        },
+        {
+          "slug": "alexs-caves",
+          "projectId": "U6GY0xp0",
+          "type": "required"
+        }
+      ]
+    },
+    "YxsEGZXp": {
+      "filename": "final_adversaries_1.1_whisperwoods_Fabric+Forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nDSJiTR9/versions/YxsEGZXp/final_adversaries_1.1_whisperwoods_Fabric%2BForge-1.20.1.jar",
+      "hash": "sha512-hg6JOWjfgj4Vh5uCyVptTkplTkqWLlzEKB21GYUlFkw+dggw2rdGS5SoRwVX1At6NSP7f5Rif3wTtzJySY9yGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        },
+        {
+          "slug": "structure-layout-optimizer",
+          "projectId": "ayPU0OHc",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        },
+        {
+          "slug": "whisperwoods",
+          "projectId": "MQyX33RX",
+          "type": "required"
+        },
+        {
+          "slug": "huge-structure-blocks",
+          "projectId": "AMLtKGdJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "YxsEGZXp"
+    ],
+    "1.20.1+forge": [
+      "HoaXAXZV",
+      "YxsEGZXp",
+      "7b9zTTQB"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "amarite",
+  "projectId": "ftofxBty",
+  "versions": {
+    "LJwPhDWX": {
+      "filename": "amarite-1.5-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/ftofxBty/versions/LJwPhDWX/amarite-1.5-1.0.6.jar",
+      "hash": "sha512-DkBq6X2bre16Y3TEpag/9DuCRwE0mgFF1LeKGZcIzSw6Eu+c59/I6ehm7cNhz1aSuFYjioSTFU7Dd7Rn+pQyRQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "avD3BFrw": {
+      "filename": "amarite-1.5-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/ftofxBty/versions/avD3BFrw/amarite-1.5-1.0.8.jar",
+      "hash": "sha512-vx95V99TOzlCSc1uYKzx9V6Slg5R6eMwOWD34hSU1uR5rtQ4TeGJTaBCZ+xvVr9DO9zbWZdETBD9yvfTw8lzIw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "j9U46fKa": {
+      "filename": "amarite-1.6.5-public+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/ftofxBty/versions/j9U46fKa/amarite-1.6.5-public%2B1.19.2.jar",
+      "hash": "sha512-5kZWqLbBAZsdc+s4MYaT0hPOAdJ+8AbOYK0TMxYv+E4LbpoJWpQ08+oNRUOb6LJIa230WnFuOJ1kQC1jfnXmcg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "LJwPhDWX"
+    ],
+    "1.19.2+quilt": [
+      "j9U46fKa",
+      "LJwPhDWX"
+    ],
+    "1.20+fabric": [
+      "avD3BFrw"
+    ],
+    "1.20+quilt": [
+      "avD3BFrw"
+    ],
+    "1.20.1+fabric": [
+      "avD3BFrw"
+    ],
+    "1.20.1+quilt": [
+      "avD3BFrw"
+    ]
+  }
+}

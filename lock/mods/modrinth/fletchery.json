@@ -1,0 +1,31 @@
+{
+  "slug": "fletchery",
+  "projectId": "SSsSvXda",
+  "versions": {
+    "1HKACrL2": {
+      "filename": "fletchery-1.20.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/SSsSvXda/versions/1HKACrL2/fletchery-1.20.1-0.1.0.jar",
+      "hash": "sha512-bnj0Mq+DDaDHNnJz0Jz5P5fGRfZw06h6X2EG0DA7F5XsDmtFD34BfqzkGO7wLgotMI+CKRZa9SQaAMS5w661qQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1HKACrL2"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "more-fuel",
+  "projectId": "lsHqikzP",
+  "versions": {
+    "huFPZDYi": {
+      "filename": "morefuel-backport-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/lsHqikzP/versions/huFPZDYi/morefuel-backport-1.19.2.jar",
+      "hash": "sha512-ndKnJo91WBdani8d18Bqn7rTeIocQwKGE3GdBaOUv+MSBwLqQJU11X93gK23vtZXJ43J30yPan5UwrqxeP6p6A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uzn0FC05": {
+      "filename": "MoreFuel-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lsHqikzP/versions/uzn0FC05/MoreFuel-1.0.0.jar",
+      "hash": "sha512-Vf7xMj97R71mVGY+3UU0O8dNPJ2cAlr91hSiMVaPfMkIs8CJgVT7NwhJf8FUF09UxlSDPyXHudeQ/4FTTiMGKg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "huFPZDYi"
+    ],
+    "1.20+fabric": [
+      "uzn0FC05"
+    ],
+    "1.20.1+fabric": [
+      "uzn0FC05"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "no-silk-touch-ender-chest",
+  "projectId": "Bya6mfbX",
+  "versions": {
+    "EcMu3BIj": {
+      "filename": "no-silk-touch-ender-chest-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Bya6mfbX/versions/EcMu3BIj/no-silk-touch-ender-chest-1.0.0.jar",
+      "hash": "sha512-BdLXaQvt/4HPWHi2jsbdEUFDYhEpGfSPEdS5TNKEkZcZlgrCtLCdW6Nj38KDGls+9XHvdWETcvQdlF9D7fdNsw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    },
+    "PlEhfGzR": {
+      "filename": "no-silk-enderchest_1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/Bya6mfbX/versions/PlEhfGzR/no-silk-enderchest_1.0.0.zip",
+      "hash": "sha512-DMgMB3u2ZAPxOzSq34uHdvxQReee4SkXMgdjkR/VSror63BldxYZyATo9ysjdhTNTGCvg9c+O61kwTsGOOAelw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "PlEhfGzR"
+    ],
+    "1.21+fabric": [
+      "EcMu3BIj"
+    ],
+    "1.21+forge": [
+      "EcMu3BIj"
+    ],
+    "1.21+quilt": [
+      "EcMu3BIj"
+    ]
+  }
+}

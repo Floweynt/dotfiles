@@ -1,0 +1,845 @@
+{
+  "slug": "halohud",
+  "projectId": "rbMt0AmF",
+  "versions": {
+    "1RbvxWqH": {
+      "filename": "halohud-4.3.1+1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/1RbvxWqH/halohud-4.3.1%2B1.21-neoforge.jar",
+      "hash": "sha512-H3uECz4N4B6KLTgEOnDWpJV2sLl7GGy96vqSjk5i3i8aL+6ZI5RYdJTyMlI4hjlNTVFyd+6Vu5EgDP4AQOljzg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "6DPxrxuP": {
+      "filename": "halohud-4.3.2+1.21.2-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/6DPxrxuP/halohud-4.3.2%2B1.21.2-neoforge.jar",
+      "hash": "sha512-pctcF774nvJa6zCiKkSD6okJB9jCDQKOD18su2goXNgWBRmlsxoJkG/h+81cPr1e9KviQnRSOGFhAL1O/0kHMg==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "7QoYWq21": {
+      "filename": "halohud-4.2+1.20.2-forge.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/7QoYWq21/halohud-4.2%2B1.20.2-forge.jar",
+      "hash": "sha512-EnoWLor54vxeBwyegifIhSxixUZUmvvgpQuxLwRlPIaYGwPDsBozIGGVcMVHutF03RV1M0wq/b6npfjMxOG6fg==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "8GwBAmHw": {
+      "filename": "halohud-4.3+1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/8GwBAmHw/halohud-4.3%2B1.21-neoforge.jar",
+      "hash": "sha512-c8ftA4+vnnHyxJ2TrfESlGOizm8KE7UUsnHDD8gGpdQ7x47ryWbgsiXCWWTNitbNWV2bf5li9FEFKCunby/YMQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "90sczwZx": {
+      "filename": "halohud-fabric-5.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/90sczwZx/halohud-fabric-5.0%2B1.20.1.jar",
+      "hash": "sha512-ubLD9xlq3fclQfTQcZ/aTQDaH7HYcuFVf+PX59LSJ413nMxX2eIbM9jsakSK6yxMr4NY9vjfkMw6E2xeVRaY6Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9UqbnKNx": {
+      "filename": "halohud-fabric-5.0+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/9UqbnKNx/halohud-fabric-5.0%2B1.20.6.jar",
+      "hash": "sha512-i9lOLTzD0o8jxjMmuCozAxzof4eqy7/2a+uEHt7urVCtjkOPB3G3VkD3SYfL3z2oZhv7X3G5qjI9n0XAj6ljkQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ARdFoZEY": {
+      "filename": "halohud-1.0+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/ARdFoZEY/halohud-1.0%2B1.19.3.jar",
+      "hash": "sha512-ca6smfUFb7uHZIQD6AGdYeZcAqWxHa4ydhxHvGB4VKNJEdjbnlQOM7Q+b/7Lt6AMA7D3dE3Ajl2sKoQsKUWIAw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "IomUUqz2": {
+      "filename": "halohud-1.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/IomUUqz2/halohud-1.1%2B1.19.2.jar",
+      "hash": "sha512-SUvx7LKMhucAkVsa3SMjk5+PA6XG1R6YWYTxeWuC0R4A8/FPtS3WPjX8XxMqg5A2d7nBIi9ll0y41nwtnv3ysQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LgzY2IzR": {
+      "filename": "halohud-4.3.2+1.21.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/LgzY2IzR/halohud-4.3.2%2B1.21.2-fabric.jar",
+      "hash": "sha512-lK+94ov5ph2oVtzeTjRZMyism3Sfz5aG9DKqJTLjEAY3WVsK1a7JQbFYEgkX5vKt5SeNyjqhM9fWpjvvd2Ofog==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PpzoVMBW": {
+      "filename": "halohud-3.1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/PpzoVMBW/halohud-3.1%2B1.20.jar",
+      "hash": "sha512-eo6tIPKNc4vGb84c+hjWA0zvMrLz3PXHwcncSRd4F0Lfm0PiyPVWHCsZ9cKDkZe/jTn19y+Ng+p1fhjVntiuFA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "R00pxIXg": {
+      "filename": "halohud-neoforge-5.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/R00pxIXg/halohud-neoforge-5.0%2B1.21.1.jar",
+      "hash": "sha512-0LJsyyOW6fwgpxCf48+FgJnh+ER6ePV4m31D0at/vV5on4ABoxtGhxF2Auqi8kQlNzEzl+8+pv5oFKIM6pdB3w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "TgM4GbQ0": {
+      "filename": "halohud-1.1+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/TgM4GbQ0/halohud-1.1%2B1.19.3.jar",
+      "hash": "sha512-JBoKq8L+zOOsfBT9C3VsdF5Q6XBWX1JX8KdfJYFLI8awQsyb/N/HMQuLPULZKDskqcQYWmQKU4PEUwYPMqH0iw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "U4JDVkqv": {
+      "filename": "halohud-neoforge-5.0+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/U4JDVkqv/halohud-neoforge-5.0%2B1.21.3.jar",
+      "hash": "sha512-PLT4MhJymi9xMePbWcWCQDf7vnO/Ye4ddsPF8UADjF6vh50/JtB8hQrmZUByNeEZSir3zBcwT8rvhRVVEN1lGw==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "UcgA1b4c": {
+      "filename": "halohud-fabric-5.0+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/UcgA1b4c/halohud-fabric-5.0%2B1.20.4.jar",
+      "hash": "sha512-R+ZYyk0gYI6M0aIe9v4bCwejNB+uOOrMSk3aPXlK3RJnX2ciyJme7qWEgzbzHVEEOjir9xxdZd5OHEPiJQlTFA==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UlCdDizf": {
+      "filename": "halohud-4.2+1.20.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/UlCdDizf/halohud-4.2%2B1.20.2-fabric.jar",
+      "hash": "sha512-Wos7O9IT6E+AqLvk+Um55PaTF7NHtxElbCtOMRGTgTnYq8XSixkas4UgPnbuFKBcsdwH809nbMzCfBKbBp+Qag==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UpJ2ZOmH": {
+      "filename": "halohud-4.0+1.20-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/UpJ2ZOmH/halohud-4.0%2B1.20-fabric.jar",
+      "hash": "sha512-SQoGnUeJvuNgV4WdtCWgsvyz2woN8PeiszhM6ZldUYi17oaIfgzabH8Eya89e82WJqqv7GBEOC0JdIwi/NFeMA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VpALQ0hS": {
+      "filename": "halohud-fabric-5.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/VpALQ0hS/halohud-fabric-5.0%2B1.21.1.jar",
+      "hash": "sha512-qKNqQ5YVk2QRT7qKo/ABFqkaO0bvNSN/BWhX9yjjAJEVTq2v2vGgi826HlLcdNzxd3wG/vgBuBD0r+G7XMR0fg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XYFB3Yjz": {
+      "filename": "halohud-neoforge-5.0+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/XYFB3Yjz/halohud-neoforge-5.0%2B1.20.4.jar",
+      "hash": "sha512-65Vaf+zDfF2vz7oFWZxor3gkm2/js0Ih04l3ZXZsWzFkr27xxSqEZikBc7AMGbi0Htj3bGZ4tDl85dUuDvZpkg==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Zm3E5Ylg": {
+      "filename": "halohud-4.2+1.20.2-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/Zm3E5Ylg/halohud-4.2%2B1.20.2-neoforge.jar",
+      "hash": "sha512-HL27Rla+4s0cy1f0uaURt3pcs/wE4pYYoQWWTt0JoSnK21lju+MZGcZYkuG4HD2rmZ92lMDYSwtK9eX3pFF0jQ==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cfHTjGFh": {
+      "filename": "halohud-4.0+1.20-forge.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/cfHTjGFh/halohud-4.0%2B1.20-forge.jar",
+      "hash": "sha512-UDjlIOp0AaUNWNc9rTXHfYS8WInwQ0TU7JBdEBoESpLbN6CifE7a8/XAkr2hcm0bIe9jY4Zr15bDMKmR5NjgJw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "eYTWQPE5": {
+      "filename": "halohud-3.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/eYTWQPE5/halohud-3.0%2B1.20.jar",
+      "hash": "sha512-Rdt/T0xFMoev4vd6dVaV/Nx348XLtVPa/s5aBNw2WvHjvxwIP3toVLb/QWcR20orRYtIPal4wOGNxyma5onTvA==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "f51sVkdj": {
+      "filename": "halohud-0.0.1+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/f51sVkdj/halohud-0.0.1%2B1.19.3.jar",
+      "hash": "sha512-ELOSUvH7oZgEFsROCmpfwOuvV8CoKLaqEpAd2Qf9hpxLRKzHtrHwqtMZTS1Znun+4i0q8K9/M1Mcc1or4VqnDQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gGt339n7": {
+      "filename": "halohud-forge-5.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/gGt339n7/halohud-forge-5.0%2B1.20.1.jar",
+      "hash": "sha512-cPj6BbBZ2dBf1AhYcGz2+5aTtPwzEpcGT9Xs77sP+Ok7p/pbe0Eyb6a25lLZ4YpzO6AAth/mB6dBWguGla8EJA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "gr3VnS7K": {
+      "filename": "halohud-4.3+1.20.5-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/gr3VnS7K/halohud-4.3%2B1.20.5-fabric.jar",
+      "hash": "sha512-wzQAorVWHvBFkuP6kFbFKfh1yFFYtZ42tMaCuieG6lPyYg51W9DszRNYX5/MWjVIs+QiQDP/JllCsI4KFwis3A==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gvl8gXJY": {
+      "filename": "halohud-3.2+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/gvl8gXJY/halohud-3.2%2B1.20.jar",
+      "hash": "sha512-i92z9iHkG43KGtul0WQ5OMDV6BKP1TJrIfHixM5oHMw6WrvAzUcrSzwHXv9+vbXtJmfuyFeiAeQIK+A2nvef2Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "m6BvZIrS": {
+      "filename": "halohud-4.1+1.20-forge.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/m6BvZIrS/halohud-4.1%2B1.20-forge.jar",
+      "hash": "sha512-TcwmIGgY4f2v9XI/TUZcQomVFAGE0/Z80ThyooHl4cyPUSslaeBNAzQ6qSQ7OyxJ00QSQYQugmPmmt9Co/4dXg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "n3dzqMr3": {
+      "filename": "halohud-0.0.1+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/n3dzqMr3/halohud-0.0.1%2B1.18.2.jar",
+      "hash": "sha512-3ThhX+qniIL+FYE7vwytk9iUHg76tY7AInnfPFk/aQfLONB//fXiwxRbdOvxIeDvVlMjiB2m4M5Vvdq/Nb5wSg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nYlsZErV": {
+      "filename": "halohud-3.0.1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/nYlsZErV/halohud-3.0.1%2B1.20.jar",
+      "hash": "sha512-P7CGu+je/Y79BJrlzyP1+wAmK/+xkJQveicA4rChxzQ1p6u4vTjbK6T0fDWmv3OnBx1iUP3tiVKgkz9fD7oiGA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "o8adU8bG": {
+      "filename": "halohud-2.0+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/o8adU8bG/halohud-2.0%2B1.19.3.jar",
+      "hash": "sha512-lkPp0ndU38hWgLtxBHusdOBZr73n0Q9py8BPvQkV/ZxQDaCeZPA2Pi+8wh/pSRSeAKtRafwdxbmhhJ6Q/pJiQw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pASKeeUv": {
+      "filename": "halohud-4.3+1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/pASKeeUv/halohud-4.3%2B1.21-fabric.jar",
+      "hash": "sha512-bFW4UamPBmAP+fiFOnSblKZe8+yZcW0hpppINvIZiuliOU0wBMUES9lf97ZrSKTWhMqJLXSciv0A6SDSYKplZA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "r90usO4s": {
+      "filename": "halohud-4.1+1.20-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/r90usO4s/halohud-4.1%2B1.20-fabric.jar",
+      "hash": "sha512-Fd4WcxHA0FyJbO+Wd6H9pGbJnnXHxb0dWz5BatDNt8MIGdOmSk65WlLd4571OO14y2+IdUbhKGRJ8FnPry/HAA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tinxsA4q": {
+      "filename": "halohud-fabric-5.0+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/tinxsA4q/halohud-fabric-5.0%2B1.21.3.jar",
+      "hash": "sha512-WSxETVe04BxlLu4WExhu5SA+h1sNAaUNIcnSkdrUw22MvaeGpT4pPhEPFehVnRSXfTWSaAsoinYJ7S14Pv8qWw==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vBccWwpz": {
+      "filename": "halohud-neoforge-5.0+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/vBccWwpz/halohud-neoforge-5.0%2B1.20.6.jar",
+      "hash": "sha512-9t9G02dBlSMkVDQxWzG2ll+4RqKEmrOeCZlHPLS3b0Vkuc7jBb+ee9OsDwB25odksWZluxDh2usPBA52I9x6BA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "woA2XOYe": {
+      "filename": "halohud-0.0.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/rbMt0AmF/versions/woA2XOYe/halohud-0.0.1%2B1.19.2.jar",
+      "hash": "sha512-y09b7e38ZzEK/JZcSku8LrW1xsTOCpFqB7wakevY2hlCX1tWVBfMOKo7nhdHe6EvmLdA3h9Kr2B7m29gC1p3DQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "n3dzqMr3"
+    ],
+    "1.19+fabric": [
+      "IomUUqz2",
+      "woA2XOYe"
+    ],
+    "1.19.1+fabric": [
+      "IomUUqz2",
+      "woA2XOYe"
+    ],
+    "1.19.2+fabric": [
+      "IomUUqz2",
+      "woA2XOYe"
+    ],
+    "1.19.3+fabric": [
+      "o8adU8bG",
+      "TgM4GbQ0",
+      "ARdFoZEY",
+      "f51sVkdj"
+    ],
+    "1.19.4+fabric": [
+      "o8adU8bG"
+    ],
+    "1.20+fabric": [
+      "90sczwZx",
+      "r90usO4s",
+      "gvl8gXJY",
+      "UpJ2ZOmH",
+      "PpzoVMBW",
+      "nYlsZErV",
+      "eYTWQPE5"
+    ],
+    "1.20+forge": [
+      "gGt339n7",
+      "m6BvZIrS",
+      "cfHTjGFh"
+    ],
+    "1.20.1+fabric": [
+      "90sczwZx",
+      "r90usO4s",
+      "gvl8gXJY",
+      "UpJ2ZOmH",
+      "PpzoVMBW",
+      "nYlsZErV"
+    ],
+    "1.20.1+forge": [
+      "gGt339n7",
+      "m6BvZIrS",
+      "cfHTjGFh"
+    ],
+    "1.20.2+fabric": [
+      "UlCdDizf",
+      "r90usO4s",
+      "gvl8gXJY"
+    ],
+    "1.20.2+forge": [
+      "7QoYWq21",
+      "m6BvZIrS",
+      "cfHTjGFh"
+    ],
+    "1.20.2+neoforge": [
+      "Zm3E5Ylg"
+    ],
+    "1.20.3+fabric": [
+      "UcgA1b4c",
+      "UlCdDizf"
+    ],
+    "1.20.3+forge": [
+      "7QoYWq21"
+    ],
+    "1.20.3+neoforge": [
+      "XYFB3Yjz",
+      "Zm3E5Ylg"
+    ],
+    "1.20.4+fabric": [
+      "UcgA1b4c",
+      "UlCdDizf"
+    ],
+    "1.20.4+forge": [
+      "7QoYWq21"
+    ],
+    "1.20.4+neoforge": [
+      "XYFB3Yjz",
+      "Zm3E5Ylg"
+    ],
+    "1.20.5+fabric": [
+      "9UqbnKNx",
+      "gr3VnS7K"
+    ],
+    "1.20.5+neoforge": [
+      "vBccWwpz"
+    ],
+    "1.20.6+fabric": [
+      "9UqbnKNx",
+      "gr3VnS7K"
+    ],
+    "1.20.6+neoforge": [
+      "vBccWwpz"
+    ],
+    "1.21+fabric": [
+      "VpALQ0hS",
+      "pASKeeUv"
+    ],
+    "1.21+neoforge": [
+      "R00pxIXg",
+      "1RbvxWqH",
+      "8GwBAmHw"
+    ],
+    "1.21.1+fabric": [
+      "VpALQ0hS",
+      "pASKeeUv"
+    ],
+    "1.21.1+neoforge": [
+      "R00pxIXg",
+      "1RbvxWqH"
+    ],
+    "1.21.2+fabric": [
+      "LgzY2IzR"
+    ],
+    "1.21.2+neoforge": [
+      "6DPxrxuP"
+    ],
+    "1.21.3+fabric": [
+      "tinxsA4q",
+      "LgzY2IzR"
+    ],
+    "1.21.3+neoforge": [
+      "U4JDVkqv",
+      "6DPxrxuP"
+    ],
+    "1.21.4+fabric": [
+      "tinxsA4q"
+    ],
+    "1.21.4+neoforge": [
+      "U4JDVkqv"
+    ]
+  }
+}

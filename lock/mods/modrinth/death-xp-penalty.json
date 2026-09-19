@@ -1,0 +1,35 @@
+{
+  "slug": "death-xp-penalty",
+  "projectId": "8mBTWbMS",
+  "versions": {
+    "dlv5tIK5": {
+      "filename": "death-xp-penalty-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8mBTWbMS/versions/dlv5tIK5/death-xp-penalty-1.0.0.jar",
+      "hash": "sha512-og2IWjLUOxVHKSaRsFjmWfxUCVnClDcu/ErSjyyYT76z6Wu9b/vOp74A8szfaPYnud9v20hcYOnYQdgbJH4Dig==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "dlv5tIK5"
+    ],
+    "1.20.1+fabric": [
+      "dlv5tIK5"
+    ]
+  }
+}

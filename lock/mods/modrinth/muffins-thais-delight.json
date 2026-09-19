@@ -1,0 +1,54 @@
+{
+  "slug": "muffins-thais-delight",
+  "projectId": "ckesjTu7",
+  "versions": {
+    "8p44CL48": {
+      "filename": "muffins-thai-delight-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ckesjTu7/versions/8p44CL48/muffins-thai-delight-fabric-1.0.0.jar",
+      "hash": "sha512-F8DaqkV/DtpzhVEqEftS9zgCdlrAsmLgwwIkq8JxMdFgxPNQHJN4Uejm6HNe7MgregIe7qFI7p8QX3dBlLDEWw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        }
+      ]
+    },
+    "E7vJGiHF": {
+      "filename": "muffins-thai-delight-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ckesjTu7/versions/E7vJGiHF/muffins-thai-delight-forge-1.0.0.jar",
+      "hash": "sha512-W+W/LdRnrMzYfU/pGNxlppYiD6pSnnIXo4V9eBjY87qcINyR6nhbm9yt8NjUhPzbKTguw8+FxVs5IiIajUWTuQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8p44CL48"
+    ],
+    "1.20.1+forge": [
+      "E7vJGiHF"
+    ]
+  }
+}

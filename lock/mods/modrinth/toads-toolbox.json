@@ -1,0 +1,152 @@
+{
+  "slug": "toads-toolbox",
+  "projectId": "oEF9RHv7",
+  "versions": {
+    "CBosFVMb": {
+      "filename": "magic-mirror-1.0a.jar",
+      "url": "https://cdn.modrinth.com/data/oEF9RHv7/versions/CBosFVMb/magic-mirror-1.0a.jar",
+      "hash": "sha512-Olynv4U97ebZ+VzB/xolh89XPeQbcmsiAb7wd5ATrf3Qh5JhTlIj0Me+RopmFPYUbo4Cx9jhfkvn+J0zVfUe7Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "IwPtg4wr": {
+      "filename": "magic-mirror-1.0b.jar",
+      "url": "https://cdn.modrinth.com/data/oEF9RHv7/versions/IwPtg4wr/magic-mirror-1.0b.jar",
+      "hash": "sha512-tIvTycnBVrJRN/ncrPxBeXsCvfrJrzxl6mLqmXhqXVeayNxowrrB+uOF/PEF7e4/ECySQK8iM6iurKAx7zjFTw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LQw7FdHr": {
+      "filename": "toads-toolbox-0.1.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/oEF9RHv7/versions/LQw7FdHr/toads-toolbox-0.1.1-1.21.1.jar",
+      "hash": "sha512-EhwDpyO1Qvsmie9TYS1rpSwVj3R1zenMpzJlYx697r9h9CD1LGPvyM409MBagnwDjDA/3/t00Up1M5Pen1DuoA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VPLWHPoZ": {
+      "filename": "toads-toolbox-0.1.6-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/oEF9RHv7/versions/VPLWHPoZ/toads-toolbox-0.1.6-1.21.1.jar",
+      "hash": "sha512-WQ6pMy8eRAB5mFgAv2g8QS0Oykvhk9t53IsrfQEsPnldjVpluapxhYD1dlNPlMDyBRZuzzRB8iqhJzVEjbBt/Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "b7VrPgK6": {
+      "filename": "toads-toolbox-0.1.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/oEF9RHv7/versions/b7VrPgK6/toads-toolbox-0.1.0-1.21.1.jar",
+      "hash": "sha512-9sefH3Y8/lh1nICn1KSasNSu20i1jUPB2ZbugZzLFeJogrMJfji8nU4e69Gj9KiNjHv/6xrtqBQLOW3JwiL2yw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ngY7Wg8H": {
+      "filename": "toads-toolbox-0.1.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/oEF9RHv7/versions/ngY7Wg8H/toads-toolbox-0.1.2-1.21.1.jar",
+      "hash": "sha512-9yJf0fa88W3xLhPl/J4PGeXdcmcC0EHPRXrA3HgSamk9FjFLiMZgi+IsNZfpTkwgkR2M4FlHmOoPz7etGdoBwg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IwPtg4wr",
+      "CBosFVMb"
+    ],
+    "1.20.1+quilt": [
+      "IwPtg4wr",
+      "CBosFVMb"
+    ],
+    "1.21.1+fabric": [
+      "VPLWHPoZ",
+      "ngY7Wg8H",
+      "LQw7FdHr",
+      "b7VrPgK6"
+    ],
+    "1.21.1+quilt": [
+      "VPLWHPoZ",
+      "ngY7Wg8H",
+      "LQw7FdHr",
+      "b7VrPgK6"
+    ]
+  }
+}

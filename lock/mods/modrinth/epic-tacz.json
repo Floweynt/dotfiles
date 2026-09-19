@@ -1,0 +1,98 @@
+{
+  "slug": "epic-tacz",
+  "projectId": "ESl2C8eL",
+  "versions": {
+    "YNiTVvfi": {
+      "filename": "darkster-epic-guns-tacz-+-epicfight-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ESl2C8eL/versions/YNiTVvfi/darkster-epic-guns-tacz-%2B-epicfight-0.1.0.jar",
+      "hash": "sha512-FZLe6NP4DCt+QANuJQz4JoPzBM0OD1BL/7kpLZt+1rrPPTutxRDH945nqEy/sBMODl3LkaUFzoN93iOM62I1Zw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "epic-fight",
+          "projectId": "vu3NZ5Ma",
+          "type": "required"
+        },
+        {
+          "slug": "weapons-of-miracles",
+          "projectId": "oWx9p4ug",
+          "type": "required"
+        },
+        {
+          "slug": "epic-tweaks",
+          "projectId": "YHY8IhRT",
+          "type": "required"
+        },
+        {
+          "slug": "timeless-and-classics-zero",
+          "projectId": "SzzJttH8",
+          "type": "required"
+        }
+      ]
+    },
+    "dtImdJrj": {
+      "filename": "Epic + Tacz  -  DarksterBR.zip",
+      "url": "https://cdn.modrinth.com/data/ESl2C8eL/versions/dtImdJrj/Epic%20%2B%20Tacz%20%20-%20%20DarksterBR.zip",
+      "hash": "sha512-zm6z5FwwdBD84C08RrPpD3vqrpnmin7OctKZnpLluMfj+EGb+Oyr4QnZyHvboBoQ+xL+TpbiaPB5N4jkac8uZg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "weapons-of-miracles",
+          "projectId": "oWx9p4ug",
+          "type": "required"
+        },
+        {
+          "slug": "epic-fight",
+          "projectId": "vu3NZ5Ma",
+          "type": "required"
+        },
+        {
+          "slug": "timeless-and-classics-zero",
+          "projectId": "SzzJttH8",
+          "type": "required"
+        },
+        {
+          "slug": "epic-tweaks",
+          "projectId": "YHY8IhRT",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "dtImdJrj"
+    ],
+    "1.20.1+fabric": [
+      "YNiTVvfi"
+    ],
+    "1.20.1+forge": [
+      "YNiTVvfi",
+      "dtImdJrj"
+    ],
+    "1.20.1+neoforge": [
+      "YNiTVvfi"
+    ],
+    "1.20.1+quilt": [
+      "YNiTVvfi"
+    ]
+  }
+}

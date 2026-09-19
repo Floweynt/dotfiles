@@ -1,0 +1,31 @@
+{
+  "slug": "speedrunfullbright",
+  "projectId": "fJltfrQo",
+  "versions": {
+    "s9zpkXgx": {
+      "filename": "fullbright-1.16.1.jar",
+      "url": "https://cdn.modrinth.com/data/fJltfrQo/versions/s9zpkXgx/fullbright-1.16.1.jar",
+      "hash": "sha512-gnJepp0s8fjXaKDx3/RVZM3dEObLMMEFA6NQEWrZ+OV1Fd/yyGY3zo4CmH228KDb7bN1wUxGvjf1BhrHO/RX3Q==",
+      "gameVersions": [
+        "1.16.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.1+fabric": [
+      "s9zpkXgx"
+    ]
+  }
+}

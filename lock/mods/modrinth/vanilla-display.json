@@ -1,0 +1,90 @@
+{
+  "slug": "vanilla-display",
+  "projectId": "a54CrmOY",
+  "versions": {
+    "9zKnyFwS": {
+      "filename": "vanilladisplay-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/a54CrmOY/versions/9zKnyFwS/vanilladisplay-1.2.jar",
+      "hash": "sha512-FI8sQN5E6kQDg3Jxb/4/6ghv1Cl+jOMkFok/+4WJ3LtjWt8sp/s1WwV6ZQWMWXnJBV0X+P0730UbDQsgS3QAGw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "m4Rw9MoV": {
+      "filename": "vanilladisplay-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/a54CrmOY/versions/m4Rw9MoV/vanilladisplay-1.0.jar",
+      "hash": "sha512-bMggtmrZXTfWdYQGVlHjdGs1PnkS1jbif8fzCUm8Ifsy5jxv8QAV3eIBniiZ+2U7uDXrVenkx+AIZ1o4tpBxjg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "xS0rYcNs": {
+      "filename": "vanilladisplay-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/a54CrmOY/versions/xS0rYcNs/vanilladisplay-1.1.jar",
+      "hash": "sha512-vBKDSEM/RRLLFfVDLPk+ViMym4tPINyX0uAlFdBLbT9Xg+07Q5IePoFyC9t2YX2UNWJ3jxoBEWJyRSJsS99+3A==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "m4Rw9MoV"
+    ],
+    "1.21.1+fabric": [
+      "m4Rw9MoV"
+    ],
+    "1.21.10+fabric": [
+      "xS0rYcNs"
+    ],
+    "1.21.11+fabric": [
+      "9zKnyFwS"
+    ],
+    "1.21.2+fabric": [
+      "m4Rw9MoV"
+    ],
+    "1.21.3+fabric": [
+      "m4Rw9MoV"
+    ],
+    "1.21.4+fabric": [
+      "m4Rw9MoV"
+    ],
+    "1.21.5+fabric": [
+      "m4Rw9MoV"
+    ]
+  }
+}

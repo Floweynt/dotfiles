@@ -1,0 +1,31 @@
+{
+  "slug": "memory-manager",
+  "projectId": "zy98ofcw",
+  "versions": {
+    "9GZhk5sI": {
+      "filename": "MemoryCleaner-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zy98ofcw/versions/9GZhk5sI/MemoryCleaner-1.0.jar",
+      "hash": "sha512-YCijnhRw4+UE7y40ChqLzzCZayupmSKCxFr1qqeja91FdbfnSMWFoJOqW7GEV8QGwmoLlIt1L0ZZhBfOMedbcA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "9GZhk5sI"
+    ]
+  }
+}

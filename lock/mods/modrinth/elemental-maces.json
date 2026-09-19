@@ -1,0 +1,137 @@
+{
+  "slug": "elemental-maces",
+  "projectId": "ZRT4oxpT",
+  "versions": {
+    "1jPEM0c4": {
+      "filename": "elementalmaces-forge-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZRT4oxpT/versions/1jPEM0c4/elementalmaces-forge-1.21-1.0.0.jar",
+      "hash": "sha512-ay7IwqO2Ban2oWA8LDtMeKaxjMCAKSlSpyg8g0/k8B9mE809+3UjYjOIaZKbGLuAY03hYMw+nZhZwI78cWK87Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "787VVw4m": {
+      "filename": "elementalmaces-fabric-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZRT4oxpT/versions/787VVw4m/elementalmaces-fabric-1.21-1.0.0.jar",
+      "hash": "sha512-dXauCf12Ey9qw9BYRPC/noED2tG8uLdA2wQSbvazjWqXaIJPKWJ753BwVIUNfZVjnx+GNuE1S3TgWEDEXCGM0w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "LPqN3ztB": {
+      "filename": "elementalmaces-neoforge-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZRT4oxpT/versions/LPqN3ztB/elementalmaces-neoforge-1.21-1.0.0.jar",
+      "hash": "sha512-ljMYma8PXV/FMYf5Xi5Zn+8LhAtju8f9V0AEUQkOzApx3O7EMP4ignLCPi2u0w358ucvF5/HZjT45PbiH2ogyA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Uqmdv1WV": {
+      "filename": "elementalmaces-fabric-mc26.1.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZRT4oxpT/versions/Uqmdv1WV/elementalmaces-fabric-mc26.1.2-1.0.0.jar",
+      "hash": "sha512-U8zJy0fwDQ7uk2yaTGqtwXYE56dzYgY16GBUgjuZuhQidx58vMVNr8w49c30WZW5Pie8lDiaDGMuft1YTLEWmA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ykWE6N88": {
+      "filename": "elementalmaces-neoforge-mc26.1.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZRT4oxpT/versions/ykWE6N88/elementalmaces-neoforge-mc26.1.2-1.0.0.jar",
+      "hash": "sha512-glQpTiMeOOnH/3km50iTsCJce/ba1kZ56OoeCam1PEuaDXXqY2YgIGJkD/UH75liYaFy7OXnDD5t9sIxoE3y5w==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "787VVw4m"
+    ],
+    "1.21+forge": [
+      "1jPEM0c4"
+    ],
+    "1.21+neoforge": [
+      "LPqN3ztB"
+    ],
+    "1.21.1+fabric": [
+      "787VVw4m"
+    ],
+    "1.21.1+forge": [
+      "1jPEM0c4"
+    ],
+    "1.21.1+neoforge": [
+      "LPqN3ztB"
+    ],
+    "26.1+fabric": [
+      "Uqmdv1WV"
+    ],
+    "26.1+neoforge": [
+      "ykWE6N88"
+    ],
+    "26.1.1+fabric": [
+      "Uqmdv1WV"
+    ],
+    "26.1.1+neoforge": [
+      "ykWE6N88"
+    ],
+    "26.1.2+fabric": [
+      "Uqmdv1WV"
+    ],
+    "26.1.2+neoforge": [
+      "ykWE6N88"
+    ],
+    "26.2+fabric": [
+      "Uqmdv1WV"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "copperstuff",
+  "projectId": "lpbVzEpa",
+  "versions": {
+    "SCCOiPMD": {
+      "filename": "CopperStuff-1.18.2-1.0.0.1913186568.jar",
+      "url": "https://cdn.modrinth.com/data/lpbVzEpa/versions/1.0.0/CopperStuff-1.18.2-1.0.0.1913186568.jar",
+      "hash": "sha512-R6oxOUOOHbwJek/7XJySpkQwqovZoZwf1hRuL/OzV/AR7/t/aAM378d0nUWNDdNiiWmSLSE2dU+zl9H4v2B/EA==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "SCCOiPMD"
+    ],
+    "1.18.1+fabric": [
+      "SCCOiPMD"
+    ],
+    "1.18.2+fabric": [
+      "SCCOiPMD"
+    ]
+  }
+}

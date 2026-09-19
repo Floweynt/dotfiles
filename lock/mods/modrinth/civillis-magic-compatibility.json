@@ -1,0 +1,102 @@
+{
+  "slug": "civillis-magic-compatibility",
+  "projectId": "v6CJUlGR",
+  "versions": {
+    "1U8tiDeU": {
+      "filename": "civilis_magic-1.0.0-universal-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/v6CJUlGR/versions/1U8tiDeU/civilis_magic-1.0.0-universal-1.20.1.jar",
+      "hash": "sha512-bYjDLwO4YqF5/31ChecRv4Iq+SFJF065k24y5MYvTlD9UgzfFVHzSwzOVeRTbpoZTwM+vJ4LcLMn2uzc4ct/OQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "civillis",
+          "projectId": "Dx2SPPEi",
+          "type": "required"
+        }
+      ]
+    },
+    "aQZKHJk5": {
+      "filename": "civilis_magic-1.0.0-universal-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/v6CJUlGR/versions/aQZKHJk5/civilis_magic-1.0.0-universal-1.21.1.jar",
+      "hash": "sha512-PzXRF48ZxQXh0hLcg5rwCAFtW6f6DCSmFaeKBa7gfrz8dTAyOUv2NSD+WXQkC6U4OO/C6xsyyvHn9DuSQVUUhg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "jtLV067P": {
+      "filename": "civilis_magic-1.0.1-universal-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/v6CJUlGR/versions/jtLV067P/civilis_magic-1.0.1-universal-1.20.1.jar",
+      "hash": "sha512-zVQdZ/UBW+L8/Hin1Nbnz2PwR4Rme+5hmgc8phl59SKxXz07rrEsR1XpWEEODUpQkEDZGNedPRAuisQPRiM5lA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "civillis",
+          "projectId": "Dx2SPPEi",
+          "type": "required"
+        }
+      ]
+    },
+    "y7m6W0gb": {
+      "filename": "civilis_magic-1.0.1-universal-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/v6CJUlGR/versions/y7m6W0gb/civilis_magic-1.0.1-universal-1.21.1.jar",
+      "hash": "sha512-3fpLunDMryJ1q8Sh4M4ch12ltlCtx5cu940+EHtZMqelm6t9N8qm7odPLPtozxXhpmrmcYhMC+Tve8PKvKHPDw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "civillis",
+          "projectId": "Dx2SPPEi",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "jtLV067P",
+      "1U8tiDeU"
+    ],
+    "1.20.1+forge": [
+      "jtLV067P",
+      "1U8tiDeU"
+    ],
+    "1.21.1+fabric": [
+      "y7m6W0gb",
+      "aQZKHJk5"
+    ],
+    "1.21.1+neoforge": [
+      "y7m6W0gb",
+      "aQZKHJk5"
+    ]
+  }
+}

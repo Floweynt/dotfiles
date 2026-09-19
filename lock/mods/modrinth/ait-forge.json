@@ -1,0 +1,41 @@
+{
+  "slug": "ait-forge",
+  "projectId": "8PTVhhhZ",
+  "versions": {
+    "BXP0x9Qq": {
+      "filename": "aitforger-1.0.4+1.2.12.jar",
+      "url": "https://cdn.modrinth.com/data/8PTVhhhZ/versions/BXP0x9Qq/aitforger-1.0.4%2B1.2.12.jar",
+      "hash": "sha512-uUMZ2BRMGFztNx7Odki9l7hBU6pP7zBWFeYYrsCUlbU6KcvjgNyYOyaoO5BSSYnpO84IwM85+HjyxplpV7vyDg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        },
+        {
+          "slug": "amblekit",
+          "projectId": "ZNWAUUsB",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "BXP0x9Qq"
+    ]
+  }
+}

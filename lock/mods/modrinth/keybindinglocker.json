@@ -1,0 +1,54 @@
+{
+  "slug": "keybindinglocker",
+  "projectId": "P9ZJGGwm",
+  "versions": {
+    "45WXSX9q": {
+      "filename": "keybindinglocker-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/P9ZJGGwm/versions/45WXSX9q/keybindinglocker-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-mNWaLHRPn1rPSQ0rDoyUO2lqH073uijC9so6+7Yz9l8n1n5F5nMwt6guLoRod3omqj9SkC6eU42XLs8aCZosDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kPCdWWG0": {
+      "filename": "keybindinglocker-1.0.0+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/P9ZJGGwm/versions/kPCdWWG0/keybindinglocker-1.0.0%2B1.20.4.jar",
+      "hash": "sha512-jkUZJOtGT9a2ASIzXICgb0GvYIycpTLkQ+tRDUJdDqLhocq5YjL93WhJjIhp6RF7BqY+VBpnPgD6QnlT+4qjgA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "45WXSX9q"
+    ],
+    "1.20.4+fabric": [
+      "kPCdWWG0"
+    ]
+  }
+}

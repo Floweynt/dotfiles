@@ -1,0 +1,105 @@
+{
+  "slug": "sneaky-player-names",
+  "projectId": "tpnJ9kXc",
+  "versions": {
+    "ILVmDHOV": {
+      "filename": "sneaky_player_names-1.1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/tpnJ9kXc/versions/ILVmDHOV/sneaky_player_names-1.1.0%2B1.21.jar",
+      "hash": "sha512-Nhs20oDwq3IL1cexgYuDx3dUnU/GY2rijyZebY2pqDb99w5YYIHXML7UsOMdofgFMkhi75O22K7zLv6tbiYLvw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kfK5IkRN": {
+      "filename": "sneaky_player_names-0.1-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/tpnJ9kXc/versions/kfK5IkRN/sneaky_player_names-0.1-1.21.jar",
+      "hash": "sha512-8ldIUAdECqNXTxrZuD4cH6geLO0Wy1OXJHzJ50iS6LA/ef0xj4lt2FJuXcdQcm4KZOdI6UTSyzhk0wa4TUUOzw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sV0ocdWe": {
+      "filename": "sneaky_player_names-1.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/tpnJ9kXc/versions/sV0ocdWe/sneaky_player_names-1.0-1.21.jar",
+      "hash": "sha512-H5C7X4CeP5mmWtRtVP+B8UiIYVtC9OIhxBOJOLxvx25DSIyN5hBWeL10nXCoy88anzbXvkzjxptsaIoHxjcNjQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "x6uctpPI": {
+      "filename": "sneaky_player_names-0.2-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/tpnJ9kXc/versions/x6uctpPI/sneaky_player_names-0.2-1.21.jar",
+      "hash": "sha512-LnUE1OmqC66pH6ZPNnxAgY5ok/d9ibDMD80yaPRUAaTJFIfH7j1fYd6KVS7tMMg05N9rpIX5v4zt/1+WVSPlvw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "ILVmDHOV",
+      "sV0ocdWe",
+      "x6uctpPI",
+      "kfK5IkRN"
+    ],
+    "1.21+quilt": [
+      "sV0ocdWe"
+    ],
+    "1.21.1+fabric": [
+      "ILVmDHOV",
+      "sV0ocdWe"
+    ],
+    "1.21.1+quilt": [
+      "sV0ocdWe"
+    ],
+    "1.21.2+fabric": [
+      "ILVmDHOV"
+    ],
+    "1.21.3+fabric": [
+      "ILVmDHOV"
+    ],
+    "1.21.4+fabric": [
+      "ILVmDHOV"
+    ],
+    "1.21.5+fabric": [
+      "ILVmDHOV"
+    ]
+  }
+}

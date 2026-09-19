@@ -1,0 +1,36 @@
+{
+  "slug": "vanilla-variants",
+  "projectId": "rq6NEoQs",
+  "versions": {
+    "EwyWDrme": {
+      "filename": "vanillavariants-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/rq6NEoQs/versions/EwyWDrme/vanillavariants-1.0.0.jar",
+      "hash": "sha512-dQUdTJ31RKZE8Xcjdf0HoOJDuE/wzzUjkEXQZIhOW0pONt3n+Vu+bJOfz9xxklS4fBRQKAM6y79rQKkTZKSNLA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "japi",
+          "projectId": "gEyzz2kw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "EwyWDrme"
+    ]
+  }
+}

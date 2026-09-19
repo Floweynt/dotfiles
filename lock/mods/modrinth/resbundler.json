@@ -1,0 +1,35 @@
+{
+  "slug": "resbundler",
+  "projectId": "LEREH4GB",
+  "versions": {
+    "wkzGAoD7": {
+      "filename": "resbundler-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/LEREH4GB/versions/wkzGAoD7/resbundler-1.0.0.jar",
+      "hash": "sha512-Qvc+0pHEVNZsZam1Nw8LwFhN7bjVHQ+bAjxjRjHk+95CLKsNpzMF1vm0uODEWgK9coXEOBE3Z7bNIEeu2ouCzA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "wkzGAoD7"
+    ],
+    "1.21.11+fabric": [
+      "wkzGAoD7"
+    ]
+  }
+}

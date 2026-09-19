@@ -1,0 +1,148 @@
+{
+  "slug": "wynncraft-dynamic-weather",
+  "projectId": "6z01GnNz",
+  "versions": {
+    "1gPZy22y": {
+      "filename": "wynncraft-dynamic-weather-1.2.0-beta-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/6z01GnNz/versions/1gPZy22y/wynncraft-dynamic-weather-1.2.0-beta-1.21.11.jar",
+      "hash": "sha512-kMELPV88yO6fKmMUGmBk+hBQPi1pEGFhh6U4y4JHE0EokLQvc2xhrP+jSjUXtfM9UURYoZRKBdNrdpsUflcxoQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "barriers-dont-block-rain",
+          "projectId": "CXLh6wxz",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "7Sn0LZxI": {
+      "filename": "wynncraft-dynamic-weather-1.1.0-beta-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/6z01GnNz/versions/7Sn0LZxI/wynncraft-dynamic-weather-1.1.0-beta-1.21.4.jar",
+      "hash": "sha512-X5d+jrfKfIoShV3by2jZ28+mbukcpCxTGC066cKYRo1aN0KArfG6E3Jh1UG4mYB8JxPceMPhpUD6H968J4kkzg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "OeA44KtK": {
+      "filename": "wynncraft-dynamic-weather-1.0.1-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/6z01GnNz/versions/OeA44KtK/wynncraft-dynamic-weather-1.0.1-1.21.jar",
+      "hash": "sha512-0+ALz7LLWT9mj68BMN7oDL5q+S3Pi6bO7c1koyXOnnYgwqxA7+BZH+FuNkOSgSk6vDFlfJQX83IP3HaJnaiG5g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "barriers-dont-block-rain",
+          "projectId": "CXLh6wxz",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "cFFHwUPr": {
+      "filename": "wynncraft-dynamic-weather-1.0.2-beta-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/6z01GnNz/versions/cFFHwUPr/wynncraft-dynamic-weather-1.0.2-beta-1.21.jar",
+      "hash": "sha512-YVAm7cfmnbixEWwe9RuhLu8S66ce7X4+EZcuDDZT9MYEfL74rberPqIH44AKWFjnrJXeenasBpeqAv9ZVTJb0Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "barriers-dont-block-rain",
+          "projectId": "CXLh6wxz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "7Sn0LZxI",
+      "cFFHwUPr",
+      "OeA44KtK"
+    ],
+    "1.21.1+fabric": [
+      "7Sn0LZxI",
+      "cFFHwUPr",
+      "OeA44KtK"
+    ],
+    "1.21.11+fabric": [
+      "1gPZy22y"
+    ],
+    "1.21.2+fabric": [
+      "7Sn0LZxI",
+      "cFFHwUPr"
+    ],
+    "1.21.3+fabric": [
+      "7Sn0LZxI",
+      "cFFHwUPr"
+    ],
+    "1.21.4+fabric": [
+      "7Sn0LZxI"
+    ],
+    "1.21.5+fabric": [
+      "7Sn0LZxI"
+    ]
+  }
+}

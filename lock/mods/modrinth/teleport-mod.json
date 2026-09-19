@@ -1,0 +1,46 @@
+{
+  "slug": "teleport-mod",
+  "projectId": "C5wgbNEf",
+  "versions": {
+    "llFUXkb5": {
+      "filename": "teleport-mod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/C5wgbNEf/versions/llFUXkb5/teleport-mod-1.0.0.jar",
+      "hash": "sha512-mku0VN/u2l4avphGgNlBmIBU8hoPsToHoua/oZqxb7YhoO3WMfS9HTc0TBGS/2UW6xB8bZ/269pSWztw64lBkw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yAzoOmI4": {
+      "filename": "teleportmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/C5wgbNEf/versions/yAzoOmI4/teleportmod-1.0.0.jar",
+      "hash": "sha512-v+DpdTfhRDbAXpuS67orZRKiwFDmhq8LTqLXB5+Cul2Q5DERBlU9SBydpv0FIOVC8oolkvEMC86UFElhcolQYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "yAzoOmI4"
+    ],
+    "1.21+fabric": [
+      "llFUXkb5"
+    ],
+    "1.21.1+fabric": [
+      "llFUXkb5"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "avm_mod",
+  "projectId": "kew4TBtI",
+  "versions": {
+    "Fonur6S4": {
+      "filename": "Avm_forge.jar",
+      "url": "https://cdn.modrinth.com/data/kew4TBtI/versions/Fonur6S4/Avm_forge.jar",
+      "hash": "sha512-UR3AifTSwLNgGdzDB6PKqHfvHGoi5ue/thtVpxWT1EMrUXoZ5UEniyuuDlAUBegEjVlNMflKgxK4Maep1oghlw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "q6Bh3M0W": {
+      "filename": "avm_fabric.jar",
+      "url": "https://cdn.modrinth.com/data/kew4TBtI/versions/q6Bh3M0W/avm_fabric.jar",
+      "hash": "sha512-s0YMuSXbwBg9+elB58zoIAEKn2hBM58xKPrnmw3k+cDByAOFoxM8dq425ifAyaZ/jQ3qgxVG2kr8ypaOu9TkBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "q6Bh3M0W"
+    ],
+    "1.20.1+forge": [
+      "Fonur6S4"
+    ]
+  }
+}

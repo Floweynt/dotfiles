@@ -1,0 +1,89 @@
+{
+  "slug": "scuros-more-xp",
+  "projectId": "xxSAI5Z6",
+  "versions": {
+    "NbH1EayT": {
+      "filename": "morexp-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xxSAI5Z6/versions/NbH1EayT/morexp-1.0.0.jar",
+      "hash": "sha512-d0xoYRPdNkoMav0JtxS4jeJGgMDCapWAwHURB5LvJY9JgJJ3OosyGWXQj04d4qB15eEdqnVhOVUdotBMf74+9g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "PEufDQaH": {
+      "filename": "morexp-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xxSAI5Z6/versions/PEufDQaH/morexp-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-lrt0B4rGZSbvydXk8z7UHiDNYGIhQ6m1quYDGLvu9g1BiUnc0R5cndnwEc+9nY1/ANGxpNFrW+6lEETdeX3KGw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "lbvDQGW0": {
+      "filename": "morexp-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xxSAI5Z6/versions/lbvDQGW0/morexp-1.0.0.jar",
+      "hash": "sha512-hNS9bcdzkwNr9e6hdkO6VCFtCdv1OFK6WEHuVEigw/WIweLrTMIpa1F3/3lir8aegfK6M5w8MCpEtQttwPKnJQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "PEufDQaH"
+    ],
+    "1.20.2+forge": [
+      "PEufDQaH"
+    ],
+    "1.20.4+fabric": [
+      "NbH1EayT"
+    ],
+    "1.21+fabric": [
+      "lbvDQGW0"
+    ],
+    "1.21.1+fabric": [
+      "lbvDQGW0"
+    ]
+  }
+}

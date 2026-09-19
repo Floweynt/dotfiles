@@ -1,0 +1,57 @@
+{
+  "slug": "cobblesmartphone-pokedex",
+  "projectId": "TY1rcc5f",
+  "versions": {
+    "AW2ytprW": {
+      "filename": "smartphone-pokedex-app-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TY1rcc5f/versions/AW2ytprW/smartphone-pokedex-app-1.1.0.jar",
+      "hash": "sha512-7qJ85O10hYZ46eUmnQIDpLQO4wIZaorooeTukFDwHAOf/8nm9N14ItLFhi78mgOgecxW+WB0AHzBYX+IvfBM8w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon-smartphone",
+          "projectId": "n2f1HbK8",
+          "type": "required"
+        }
+      ]
+    },
+    "ScuGuqhZ": {
+      "filename": "smartphone-pokedex-app-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TY1rcc5f/versions/ScuGuqhZ/smartphone-pokedex-app-1.0.0.jar",
+      "hash": "sha512-oxcv3Bpi0aaH17r/WaQ2933KjBhnC5LJGa7UaPiw0s+vRda9s+eQ7nTNYRnVxnNtNJENrkZq44sFBb/ULggbDQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon-smartphone",
+          "projectId": "n2f1HbK8",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "AW2ytprW",
+      "ScuGuqhZ"
+    ]
+  }
+}

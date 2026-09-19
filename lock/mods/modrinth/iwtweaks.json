@@ -1,0 +1,62 @@
+{
+  "slug": "iwtweaks",
+  "projectId": "cmllOOb9",
+  "versions": {
+    "2Rpm0a6E": {
+      "filename": "IWTweaks.zip",
+      "url": "https://cdn.modrinth.com/data/cmllOOb9/versions/2Rpm0a6E/IWTweaks.zip",
+      "hash": "sha512-Mjc6U94YitTc5syRT6DgT/kR5qLK3uVSyIluItMV5pKMTz47VRhxWZrZvxujh1mHDNC4HocO6UE36s18YnaJdQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "immersive-weathering",
+          "projectId": "jkskOO9i",
+          "type": "required"
+        }
+      ]
+    },
+    "v0dXi0yy": {
+      "filename": "IWTweaks.jar",
+      "url": "https://cdn.modrinth.com/data/cmllOOb9/versions/v0dXi0yy/IWTweaks.jar",
+      "hash": "sha512-9q9VqIcHxnW9/LYnsHIab/PqSBzoF8rDv+iFWmsqw79Nbur4p3PC2y/nb7wJketG3T1DVu1gZONA/kZ3UAsjVg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersive-weathering",
+          "projectId": "jkskOO9i",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "2Rpm0a6E"
+    ],
+    "1.20.1+fabric": [
+      "v0dXi0yy"
+    ],
+    "1.20.1+forge": [
+      "v0dXi0yy"
+    ],
+    "1.20.1+neoforge": [
+      "v0dXi0yy"
+    ]
+  }
+}

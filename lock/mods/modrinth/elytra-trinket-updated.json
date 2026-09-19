@@ -1,0 +1,64 @@
+{
+  "slug": "elytra-trinket-updated",
+  "projectId": "Pml7C7Gf",
+  "versions": {
+    "KD7CVWgf": {
+      "filename": "Minecraft-Elytra-Trinket-1.0.11.jar",
+      "url": "https://cdn.modrinth.com/data/Pml7C7Gf/versions/KD7CVWgf/Minecraft-Elytra-Trinket-1.0.11.jar",
+      "hash": "sha512-RiK1MNukPrqdH2qTnNYcmMzEWoGmwoltz2PuEAESogxIe/mJM1/yZP7pYjsQhSJV/N0yn0Him30OTSQnrqfvdA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets-canary",
+          "projectId": "nH02ielQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NB5Y3Iq2": {
+      "filename": "Minecraft-Elytra-Trinket-1.0.12.jar",
+      "url": "https://cdn.modrinth.com/data/Pml7C7Gf/versions/NB5Y3Iq2/Minecraft-Elytra-Trinket-1.0.12.jar",
+      "hash": "sha512-1hIHAmayWoYL+u9tB69K+uJPAMz+RygZKoQNgRFeFmNpW88nOLozH/kSpJ5rNwHyFp5sysdBwXWqmiz+RYql+Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets-canary",
+          "projectId": "nH02ielQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "KD7CVWgf"
+    ],
+    "1.21.11+fabric": [
+      "NB5Y3Iq2"
+    ]
+  }
+}

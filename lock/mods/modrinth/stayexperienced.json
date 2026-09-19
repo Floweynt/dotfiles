@@ -1,0 +1,70 @@
+{
+  "slug": "stayexperienced",
+  "projectId": "mOCTIZi6",
+  "versions": {
+    "2V0zpJzJ": {
+      "filename": "stayexperienced-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mOCTIZi6/versions/2V0zpJzJ/stayexperienced-1.21.1-1.0.0.jar",
+      "hash": "sha512-2IigeT9/BFIB+rGEwY/6O+iz9Y5zinBUYvga4VauIEAm7xoVl/cAYyFCKjJSMlWiUfDY5kMGLyaC7vJru7a4Sw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JT6HyUWy": {
+      "filename": "stayexperienced-1.21.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mOCTIZi6/versions/JT6HyUWy/stayexperienced-1.21.4-1.0.0.jar",
+      "hash": "sha512-RwL0sa/mlD3Gn2QtTHWjpcVL0hEJnrFzcXsS+BSSn0YZd8UATcYMjHv26jvBjY3jzGyHse/xC2ngyfWVlBSFHg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "2V0zpJzJ"
+    ],
+    "1.21.1+neoforge": [
+      "2V0zpJzJ"
+    ],
+    "1.21.1+quilt": [
+      "2V0zpJzJ"
+    ],
+    "1.21.4+fabric": [
+      "JT6HyUWy"
+    ],
+    "1.21.4+neoforge": [
+      "JT6HyUWy"
+    ],
+    "1.21.4+quilt": [
+      "JT6HyUWy"
+    ]
+  }
+}

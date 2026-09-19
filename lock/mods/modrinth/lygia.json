@@ -1,0 +1,42 @@
+{
+  "slug": "lygia",
+  "projectId": "hzPlPqo8",
+  "versions": {
+    "G0mUzIHE": {
+      "filename": "Lygia-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hzPlPqo8/versions/G0mUzIHE/Lygia-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-EDZfwsZlh27l71mE4oh8fN94tf5xIqheGsAJZbT2FPilHWGruP3F7beIr9f/s6I7mfMHq+WyQbN8tK51YocYCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "PWfJFrZI": {
+      "filename": "Lygia-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hzPlPqo8/versions/PWfJFrZI/Lygia-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-hSWFHNlk4rwCH5DoNp4wo3l3h6WXQcTJq1EAjOAHx75TIxNMXJGtNPrmbkkKYG8gvpXSJgFHl0jy/ke71LgFYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "PWfJFrZI"
+    ],
+    "1.20.1+forge": [
+      "G0mUzIHE"
+    ]
+  }
+}

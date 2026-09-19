@@ -1,0 +1,74 @@
+{
+  "slug": "patchoulibutton",
+  "projectId": "bTOwvKv9",
+  "versions": {
+    "cnwrHxan": {
+      "filename": "patchoulibutton-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/bTOwvKv9/versions/cnwrHxan/patchoulibutton-1.0.2.jar",
+      "hash": "sha512-v0D0VauoBr6sWV6vBL/pqyoqC/9ufK1PlgUliv5TRSGMXdzqaryDTZ96iqE1sUwnkJdll+RmZAlBrYBuIXmTaA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "fabe6QUz": {
+      "filename": "patchoulibutton-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/bTOwvKv9/versions/fabe6QUz/patchoulibutton-1.0.2.jar",
+      "hash": "sha512-h0hTf1XbGbfLHEhNzrJVqc/HZGd6OdZpSkeT8Q9X0+EFYTsrDpvIi+LVMpMV/gZa2u2RvyeBc0lGVlRuMgwPBg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "cnwrHxan"
+    ],
+    "1.20.1+fabric": [
+      "fabe6QUz"
+    ]
+  }
+}

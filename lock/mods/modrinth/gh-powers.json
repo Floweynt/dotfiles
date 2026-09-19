@@ -1,0 +1,134 @@
+{
+  "slug": "gh-powers",
+  "projectId": "39AvA65i",
+  "versions": {
+    "MTSUUM2m": {
+      "filename": "gh_powers.jar",
+      "url": "https://cdn.modrinth.com/data/39AvA65i/versions/MTSUUM2m/gh_powers.jar",
+      "hash": "sha512-pzv5ksWgTMexmMKmA7NatXtznBeDC+1sm+8xuZSHne5wPD5OChum/PcV0vgDqNP6GxhvrfLlQHp6f6dNLTjYVg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gods-and-heroes-palladium",
+          "projectId": "HzcBKN2C",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "Z8axn12o": {
+      "filename": "GH-Power-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/39AvA65i/versions/Z8axn12o/GH-Power-1.1.0.jar",
+      "hash": "sha512-8+GxJskVTQjl5KN3xItrOAjy1c2ft/JqZkf68CFJfQ/kkDesca92mvw7zkYffCikuOog1BjxHrs3FlI6MJtukQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gods-and-heroes-palladium",
+          "projectId": "HzcBKN2C",
+          "type": "required"
+        }
+      ]
+    },
+    "uamZsoM4": {
+      "filename": "GH-Power-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/39AvA65i/versions/uamZsoM4/GH-Power-1.1.0.jar",
+      "hash": "sha512-dE1gx96x3cDfKjKWg1m4BDfosIAnQTa4uc+oz6HBOm+rP5BjE8MabFMnN5sDw4F+YRvGLAHlYsKKjGB+mS/RIg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        },
+        {
+          "slug": "gods-and-heroes-palladium",
+          "projectId": "HzcBKN2C",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Z8axn12o",
+      "uamZsoM4",
+      "MTSUUM2m"
+    ],
+    "1.20+forge": [
+      "Z8axn12o",
+      "uamZsoM4",
+      "MTSUUM2m"
+    ],
+    "1.20+neoforge": [
+      "Z8axn12o",
+      "uamZsoM4"
+    ],
+    "1.20.1+fabric": [
+      "Z8axn12o",
+      "uamZsoM4",
+      "MTSUUM2m"
+    ],
+    "1.20.1+forge": [
+      "Z8axn12o",
+      "uamZsoM4",
+      "MTSUUM2m"
+    ],
+    "1.20.1+neoforge": [
+      "Z8axn12o",
+      "uamZsoM4"
+    ]
+  }
+}

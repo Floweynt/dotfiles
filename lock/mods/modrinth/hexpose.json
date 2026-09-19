@@ -1,0 +1,84 @@
+{
+  "slug": "hexpose",
+  "projectId": "VWvaiZqR",
+  "versions": {
+    "GQmltZO5": {
+      "filename": "hexpose-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VWvaiZqR/versions/GQmltZO5/hexpose-3.0.0.jar",
+      "hash": "sha512-uHO1omCwAUURX5SXO6pzkKNf3k/6HOGySvcAipT3utqDU2tZTfBTcsDtE5y18APvB2V4AH3v66E5YZJ4TcmW+g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "moreiotas",
+          "projectId": "Jmt7p37B",
+          "type": "required"
+        },
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "o34yY7Me": {
+      "filename": "hexpose-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VWvaiZqR/versions/o34yY7Me/hexpose-1.0.0.jar",
+      "hash": "sha512-oca5xP8S1+KUy/xQihuT8NcKdrBoo2A4oWXCmvwg3sdTQ6EobSq41bk187ADYrufFZvNpe2ADD5hk5pfSSZ0pA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "xdGntEal": {
+      "filename": "hexpose-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VWvaiZqR/versions/xdGntEal/hexpose-2.0.0.jar",
+      "hash": "sha512-fhxUQWDNiGFJ2nedw1Ew59s99f+0auedK/9CIdWf55PN827+G8sYzyRXSo/m+oanSMivndfPxeyqoPwsdvWh5w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "GQmltZO5",
+      "xdGntEal",
+      "o34yY7Me"
+    ],
+    "1.20.1+quilt": [
+      "xdGntEal",
+      "o34yY7Me"
+    ]
+  }
+}

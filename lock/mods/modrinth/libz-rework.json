@@ -1,0 +1,41 @@
+{
+  "slug": "libz-rework",
+  "projectId": "b5tncpbh",
+  "versions": {
+    "3FoALOaQ": {
+      "filename": "libz-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/b5tncpbh/versions/3FoALOaQ/libz-1.21.11.jar",
+      "hash": "sha512-MD2xClJKLHYDXK+VFbpE/9mCDpUyMz0NTpt5sQK80lLxv6bdT5gz/lmyfyt4QFOCfZQf/xKqOS6B/FBHKrn5gw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "3FoALOaQ"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "ender-chest-persistence",
+  "projectId": "qxHuVhz8",
+  "versions": {
+    "2I1HdVBa": {
+      "filename": "enderchestpersistence-neoforge-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/qxHuVhz8/versions/2I1HdVBa/enderchestpersistence-neoforge-0.2.0.jar",
+      "hash": "sha512-aGAi0ZxMK9aAZTEnoiH/K9WVQZV44ZEPK8IuXhsFbrm9plIh+UJsFF3IH0v1lIMR0yiqpeiyPaLpbkBL/9X3Xw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Vymf9sWE": {
+      "filename": "enderchestpersistence-forge-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/qxHuVhz8/versions/Vymf9sWE/enderchestpersistence-forge-0.2.0.jar",
+      "hash": "sha512-9WW4n9Vy7bokNB4142p7bFhvHsfnq7nxoFiSLgTucjIPSeXg3DW5JjFm0NsRQYhN8XOMCWamtHTHh/aek1YsVg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "W7YjtZg1": {
+      "filename": "enderchestpersistence-neoforge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/qxHuVhz8/versions/W7YjtZg1/enderchestpersistence-neoforge-0.1.0.jar",
+      "hash": "sha512-Px+rubqxLw/zK0P9VvKXh05OVqD9kyP91rrk4mj5JClUQ2Cb0CiDHrY3i6pkJDCtFEF1I0xyjlqk8+QoPu7yCw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "WNzaYQw7": {
+      "filename": "enderchestpersistence-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/qxHuVhz8/versions/WNzaYQw7/enderchestpersistence-fabric-0.1.0.jar",
+      "hash": "sha512-Je9xRwWCpJdpyHXYEo9JkwUI7SaF3slEdnF4GRrhMqaJn7ylCivoU0Rq5qkvmRpRaqmCG71IhwpOladu6L5uqQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "noYX84om": {
+      "filename": "enderchestpersistence-fabric-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/qxHuVhz8/versions/noYX84om/enderchestpersistence-fabric-0.2.0.jar",
+      "hash": "sha512-0cmX3ij7AUr2Thj1O+L6kp44fD7D+Du3meBxAtNFgPJSOHzJOCdZSRciQY35Sovt5UCMJjzbrEafaFGrKwTZ7Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pJolu63O": {
+      "filename": "enderchestpersistence-forge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/qxHuVhz8/versions/pJolu63O/enderchestpersistence-forge-0.1.0.jar",
+      "hash": "sha512-PMXd26BP9bmcpB+VIikW694tR2b+Wc8DSKN2kp2YSghxsfnGcuFqqySL9YWUsr6LbaG7+US399TVKlnaAmJdhQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "noYX84om",
+      "WNzaYQw7"
+    ],
+    "1.21.1+forge": [
+      "Vymf9sWE",
+      "pJolu63O"
+    ],
+    "1.21.1+neoforge": [
+      "2I1HdVBa",
+      "W7YjtZg1"
+    ]
+  }
+}

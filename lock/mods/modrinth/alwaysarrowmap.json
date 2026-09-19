@@ -1,0 +1,64 @@
+{
+  "slug": "alwaysarrowmap",
+  "projectId": "w1ZZlNis",
+  "versions": {
+    "Ntsv5YM4": {
+      "filename": "AlwaysArrowMap-0.1-1.21.9-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/w1ZZlNis/versions/Ntsv5YM4/AlwaysArrowMap-0.1-1.21.9-1.21.11.jar",
+      "hash": "sha512-1euit+rgT2l6kWxRlYxypwk92rve4KHCq40VpzV1fzbeY+7Z/iW/Zx9S/m1O2JouocM5UI+iRhENkMey8IEIXQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mcPJQEtQ": {
+      "filename": "AlwaysArrowMap-0.2-1.21.9-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/w1ZZlNis/versions/mcPJQEtQ/AlwaysArrowMap-0.2-1.21.9-1.21.11.jar",
+      "hash": "sha512-Buai3I8VIyxPANvlW8eHLS6FNYKa4GQ3KhjFWk+3GkMnLljR+kfgAJ/BUp//y6qK7xwqkEeEA4GyWCdFCM8bqA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "mcPJQEtQ",
+      "Ntsv5YM4"
+    ],
+    "1.21.11+fabric": [
+      "mcPJQEtQ",
+      "Ntsv5YM4"
+    ],
+    "1.21.9+fabric": [
+      "mcPJQEtQ",
+      "Ntsv5YM4"
+    ]
+  }
+}

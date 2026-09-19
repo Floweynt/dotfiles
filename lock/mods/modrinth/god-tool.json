@@ -1,0 +1,52 @@
+{
+  "slug": "god-tool",
+  "projectId": "KGkmnUgQ",
+  "versions": {
+    "LcgmaDyW": {
+      "filename": "God-tool-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/KGkmnUgQ/versions/LcgmaDyW/God-tool-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-kgSJf3HIWXFneBUJC9i+tjntw0KVR8Rs1mhvQb18vjUvpzOB4F2DQHHEDf8MVGBe98WhA/fEc3EbTukGqo01sQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OqoHOEwC": {
+      "filename": "God-tool-1.0.0-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/KGkmnUgQ/versions/OqoHOEwC/God-tool-1.0.0-1.20.1-forge.jar",
+      "hash": "sha512-mxDX0Ak8wEPY4j/I7ZZKuFKZ2xVqCCBbxEyPlaBeJgZ77A3sa/pPb11Ey4MYp1jEsLH0f/XQxj3GsMZOwbjjhg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "LcgmaDyW"
+    ],
+    "1.20.1+forge": [
+      "OqoHOEwC"
+    ],
+    "1.20.1+neoforge": [
+      "OqoHOEwC"
+    ]
+  }
+}

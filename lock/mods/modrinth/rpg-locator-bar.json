@@ -1,0 +1,74 @@
+{
+  "slug": "rpg-locator-bar",
+  "projectId": "zvGXxGeM",
+  "versions": {
+    "4Rh1M5UH": {
+      "filename": "rpg-locator-bar-fabric-mc1.21.11-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/zvGXxGeM/versions/4Rh1M5UH/rpg-locator-bar-fabric-mc1.21.11-1.0.1.jar",
+      "hash": "sha512-gqdWkBBe1WvuANzwGVHEPjoF9FfWOdt/fyZaVeNOnIY46lvk3OHG5OjmAT6qvN19EYsg6RiAAj0kaotNPVbbmQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "AZWIbmxO": {
+      "filename": "rpg-locator-bar-fabric-mc1.21.11-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zvGXxGeM/versions/AZWIbmxO/rpg-locator-bar-fabric-mc1.21.11-1.0.0.jar",
+      "hash": "sha512-glDHqQGrlw1yNaJ4jx8tBTGh45o84MgsI6KSJMKpCaOt2VOlev5iJDqpHefxL11M75L3RemtmpdxgDu7aTmnkw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zsD2aDNw": {
+      "filename": "rpg-locator-bar-neoforge-mc1.21.11-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zvGXxGeM/versions/zsD2aDNw/rpg-locator-bar-neoforge-mc1.21.11-1.0.0.jar",
+      "hash": "sha512-OPY+VNqoPcJbrKyPCR6787ubUjTH7XpprplBHhwzloTqtYEwuWNQHHQGxWajZNeeDm42BFRcYzL3CmKqPyRIeg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "4Rh1M5UH",
+      "AZWIbmxO"
+    ],
+    "1.21.11+neoforge": [
+      "zsD2aDNw"
+    ]
+  }
+}

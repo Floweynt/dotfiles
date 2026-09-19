@@ -1,0 +1,125 @@
+{
+  "slug": "static-data",
+  "projectId": "mD4QIZsg",
+  "versions": {
+    "OMBXLRms": {
+      "filename": "StaticData-1.1.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/mD4QIZsg/versions/OMBXLRms/StaticData-1.1.1%2B1.21.1.jar",
+      "hash": "sha512-joLKhbW6bvhKhMvQQ+E6LI9LmTHUDKeQXWzkNbNqnQjE2tDb59gq8e9BmvsiWsKPK6kWHaZSIcH/TjVAILrFag==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Ty1GOd7J": {
+      "filename": "StaticData-1.1.3+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/mD4QIZsg/versions/Ty1GOd7J/StaticData-1.1.3%2B1.21.1.jar",
+      "hash": "sha512-aAFIbi8a6r2DHDRdovJLqW7yXqLc21HPNvJ8pZyv9svQC+KJaJieSJWINeXWMHGS1ojgnLlU7FSw2QM01U4LhA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XXqeDqwi": {
+      "filename": "StaticData-1.0.0+1.20-pre5.jar",
+      "url": "https://cdn.modrinth.com/data/mD4QIZsg/versions/XXqeDqwi/StaticData-1.0.0%2B1.20-pre5.jar",
+      "hash": "sha512-CYNT0IEQFZyH9VVy6dNZZrgFxwV6cXMKJG4RIAjQREKDQlGaUCCsoXyUS0ASRnRfvqW6y16jG2z3b/lCradoiA==",
+      "gameVersions": [
+        "1.20-pre5"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "XZFpU4lh": {
+      "filename": "StaticData-1.1.0+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/mD4QIZsg/versions/XZFpU4lh/StaticData-1.1.0%2B1.20.4.jar",
+      "hash": "sha512-ulHYjfUu7+9Nv1WqyPNwgb+7ZG+5QmbIFyJUHvZWWh1m2mOY4hLyr1n0r/ps1OWOKksZujeLFpYu0duaexPiWQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "jnHShxEi": {
+      "filename": "StaticData-1.0.1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/mD4QIZsg/versions/jnHShxEi/StaticData-1.0.1%2B1.20.jar",
+      "hash": "sha512-IR3fOiARbnISyBihnUtLlZjJXoUskxASoZ89NWR6dUOe/sgkJAHwEpok1k8Rkv4eCZni2RE6/Alfraekg9PDtg==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+quilt": [
+      "jnHShxEi"
+    ],
+    "1.20-pre5+quilt": [
+      "XXqeDqwi"
+    ],
+    "1.20.4+fabric": [
+      "XZFpU4lh"
+    ],
+    "1.21.1+fabric": [
+      "Ty1GOd7J",
+      "OMBXLRms"
+    ],
+    "1.21.2+fabric": [
+      "Ty1GOd7J",
+      "OMBXLRms"
+    ],
+    "1.21.3+fabric": [
+      "Ty1GOd7J",
+      "OMBXLRms"
+    ],
+    "1.21.4+fabric": [
+      "Ty1GOd7J",
+      "OMBXLRms"
+    ],
+    "1.21.5+fabric": [
+      "Ty1GOd7J"
+    ]
+  }
+}

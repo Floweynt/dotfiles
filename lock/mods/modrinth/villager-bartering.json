@@ -1,0 +1,71 @@
+{
+  "slug": "villager-bartering",
+  "projectId": "q91Ugiwb",
+  "versions": {
+    "SwApCqAK": {
+      "filename": "villager bartering 0.1.0.zip",
+      "url": "https://cdn.modrinth.com/data/q91Ugiwb/versions/SwApCqAK/villager%20bartering%200.1.0.zip",
+      "hash": "sha512-8R8Yf0fJLXAj6k5ae9hmM0vJV8w+l+NbeeLe2Ujn1cEp2DsvKoCB4RffVjmmIAcOWa5xmqJZsnHRhZe+UCdv1A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "lcALDJ2S": {
+      "filename": "villager-bartering-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/q91Ugiwb/versions/lcALDJ2S/villager-bartering-0.1.jar",
+      "hash": "sha512-tCApeUOVGMk4FfgAfHSRnKLIV9Gt/Jlaf4ucxHrH0Mj+6rvjkWzH3cqQQtefdDd5rXWr7qsRvb45tx3pOAH0zQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "SwApCqAK"
+    ],
+    "1.21+fabric": [
+      "lcALDJ2S"
+    ],
+    "1.21+forge": [
+      "lcALDJ2S"
+    ],
+    "1.21+neoforge": [
+      "lcALDJ2S"
+    ],
+    "1.21+quilt": [
+      "lcALDJ2S"
+    ],
+    "1.21.1+datapack": [
+      "SwApCqAK"
+    ],
+    "1.21.1+fabric": [
+      "lcALDJ2S"
+    ],
+    "1.21.1+forge": [
+      "lcALDJ2S"
+    ],
+    "1.21.1+neoforge": [
+      "lcALDJ2S"
+    ],
+    "1.21.1+quilt": [
+      "lcALDJ2S"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "js-expanded",
+  "projectId": "oEJzbgAL",
+  "versions": {
+    "6leHU1rm": {
+      "filename": "jsexpanded-neoforge-1.21.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/oEJzbgAL/versions/6leHU1rm/jsexpanded-neoforge-1.21.1-0.1.jar",
+      "hash": "sha512-IVRkasS4WYitDKsf7byneUCE0TBQIbqXP4nGsuBvvtn08crB4ixSx77F46Z25VIScGfdPboMATWUSSMI5lvlvA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cVC4U7Uk": {
+      "filename": "jsexpanded-fabric-1.21.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/oEJzbgAL/versions/cVC4U7Uk/jsexpanded-fabric-1.21.1-0.1.jar",
+      "hash": "sha512-uWkx7PYRfWfH0TaCRr/cnDEdfmkAHrZhMuBP4PuNhTqBiDI7qere1KNCXCjpNV0B/j89OrSTYXxUS+TQPcoEzQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wtq4s2zq": {
+      "filename": "jsexpanded-neo-1.21.1-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/oEJzbgAL/versions/wtq4s2zq/jsexpanded-neo-1.21.1-0.1.1.jar",
+      "hash": "sha512-r/OrADQGTvV8rDby7rc74p7SxLH5vplCaPQ9HVuK0TatZ+4e97UFMCLrGVVtRQf1vYaOSEZ1+oy9WKPtjM4WTA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "cVC4U7Uk"
+    ],
+    "1.21.1+neoforge": [
+      "wtq4s2zq",
+      "6leHU1rm"
+    ]
+  }
+}

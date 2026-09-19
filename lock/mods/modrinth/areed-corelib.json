@@ -1,0 +1,44 @@
+{
+  "slug": "areed-corelib",
+  "projectId": "AMbmkZAM",
+  "versions": {
+    "3emMg9af": {
+      "filename": "corelib-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AMbmkZAM/versions/3emMg9af/corelib-1.0.0.jar",
+      "hash": "sha512-P+Sn8TKMOL8/OxmOELYH/Mes6/z/MNnk3ThJogsfyUeOrBBIecihBSnRF4BAbhGION6PfV1THPg+ZxFswVI22w==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "w7BWpLXD": {
+      "filename": "CoreLib-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/AMbmkZAM/versions/w7BWpLXD/CoreLib-1.1.1.jar",
+      "hash": "sha512-9wmq8yIJPHy5wjA65Ayz1m566LEImEPRHy+efSi96ja6XBG2Rjq7FwMYVzoPmp6RK5P4RVGFJRri8dIJ2jbqdQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "w7BWpLXD",
+      "3emMg9af"
+    ],
+    "26.2+quilt": [
+      "3emMg9af"
+    ]
+  }
+}

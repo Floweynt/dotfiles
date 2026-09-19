@@ -1,0 +1,43 @@
+{
+  "slug": "cosmetic-armor-revitalized-fabric",
+  "projectId": "YcMzcZSi",
+  "versions": {
+    "jbEqMuiy": {
+      "filename": "CosmeticArmor-1.21-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/YcMzcZSi/versions/jbEqMuiy/CosmeticArmor-1.21-1.7.0.jar",
+      "hash": "sha512-ELFat3FzCZXnNfnui/jO08fFtpuGY6/KyzwgTOSu6Us64k/sQHgvHuzOwDiNTfWbG1s8vSjs9tut1Ea90kQ4Xg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.5+fabric": [
+      "jbEqMuiy"
+    ],
+    "1.20.6+fabric": [
+      "jbEqMuiy"
+    ],
+    "1.21+fabric": [
+      "jbEqMuiy"
+    ],
+    "1.21.1+fabric": [
+      "jbEqMuiy"
+    ]
+  }
+}

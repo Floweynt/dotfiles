@@ -1,0 +1,58 @@
+{
+  "slug": "double-jumping",
+  "projectId": "6z4furrx",
+  "versions": {
+    "AcdI78Z1": {
+      "filename": "DoubleJump-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/6z4furrx/versions/AcdI78Z1/DoubleJump-1.1.jar",
+      "hash": "sha512-4YvveZG1fitvmgp91kijzP5p3IYO4ecO8BBuX3rraCWx5YNwgIVCr5n7MTmjpfX1eula7VUEb5js7km9SK7vLA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Cbw8xg0z": {
+      "filename": "doublejump-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6z4furrx/versions/Cbw8xg0z/doublejump-1.1.0.jar",
+      "hash": "sha512-rrB8xEEysT0ziVzwVWedDtRXjegb/5+CZuitcIhp3FlRMPpcLwsiabglgtymjb9RWGedyygPNF5Q0vVIcSnXEw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Cbw8xg0z",
+      "AcdI78Z1"
+    ],
+    "1.20.2+fabric": [
+      "AcdI78Z1"
+    ],
+    "1.20.3+fabric": [
+      "AcdI78Z1"
+    ],
+    "1.20.4+fabric": [
+      "AcdI78Z1"
+    ]
+  }
+}

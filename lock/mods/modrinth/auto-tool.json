@@ -1,0 +1,102 @@
+{
+  "slug": "auto-tool",
+  "projectId": "IZudXQqz",
+  "versions": {
+    "Hqa5PoEs": {
+      "filename": "auto_tool-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/IZudXQqz/versions/Hqa5PoEs/auto_tool-neoforge-1.1.0.jar",
+      "hash": "sha512-BEnQwhheMHPTKkX84ubQu6cFE5XJMv7lUhfZ1VqH/AtAMwI/SVefoMKjoYq5SXzg6658Bj/QhSeXOi53sSW3Vw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dSJtwwPI": {
+      "filename": "auto_tool-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IZudXQqz/versions/dSJtwwPI/auto_tool-neoforge-1.0.0.jar",
+      "hash": "sha512-BCWlI9Hs2oV+Zad00+NqblzEstfoEVJW7tyo5su2iEWamJ4PJ2EA4x5kIXSUwwSn9BAEVQVr4xWv5KoZbw3HNw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ojum8mPc": {
+      "filename": "auto_tool-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/IZudXQqz/versions/ojum8mPc/auto_tool-fabric-1.1.0.jar",
+      "hash": "sha512-+fHMrtzrjd+I4VEYCxhwNMOWVLOQNCUqt0h4IK5TkePDln0jPNl9v7cwi5yKeswdR2fo1k0Pi9RfFXp9GaVR5Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "wyNmQ74M": {
+      "filename": "auto_tool-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IZudXQqz/versions/wyNmQ74M/auto_tool-fabric-1.0.0.jar",
+      "hash": "sha512-pvnTgx8ZOV03Ha82KuN63OTz28hAYdNXd5VwkmDPh5sNrvBngaX7WR7v9RiuPTHX6e44PKiEdyHoaTzhTWHjuQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "ojum8mPc",
+      "wyNmQ74M"
+    ],
+    "1.21+neoforge": [
+      "Hqa5PoEs",
+      "dSJtwwPI"
+    ],
+    "1.21.1+fabric": [
+      "ojum8mPc",
+      "wyNmQ74M"
+    ],
+    "1.21.1+neoforge": [
+      "Hqa5PoEs",
+      "dSJtwwPI"
+    ]
+  }
+}

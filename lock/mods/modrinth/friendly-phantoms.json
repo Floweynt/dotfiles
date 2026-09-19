@@ -1,0 +1,126 @@
+{
+  "slug": "friendly-phantoms",
+  "projectId": "SLrCKKlV",
+  "versions": {
+    "79sDNS5t": {
+      "filename": "Phantoms-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/SLrCKKlV/versions/79sDNS5t/Phantoms-0.1.2.jar",
+      "hash": "sha512-cDpIoZWHO6++m6cRl//Ipq6PpwxH5SBeWx4CJ3ZvLaayM2dU/YqMOk5l0oFUEPf054UYI0yefU7Nwgoh74l82g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Wrwnhchg": {
+      "filename": "phantoms-1.21.3-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/SLrCKKlV/versions/Wrwnhchg/phantoms-1.21.3-0.1.3.jar",
+      "hash": "sha512-XZSYx/kfOR6wsImA7VX5loeCJEmzkhudkh/i8do6/meLi3lka2qzru/SrdGSFxqi5/QjVIZQzVX0P0k/ldccUA==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "kmBGCwem": {
+      "filename": "phantoms-1.21.1-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/SLrCKKlV/versions/kmBGCwem/phantoms-1.21.1-0.1.3.jar",
+      "hash": "sha512-itVDNUVpmJb+WN3/0xQ12PrhcPV2/ReiziNwW/xulLEJD9pWP2JVkVDP0YI7dy4v1FGQMQhhWwKB12kUnCk++g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "sohK0g2u": {
+      "filename": "Phantoms-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/SLrCKKlV/versions/sohK0g2u/Phantoms-0.1.1.jar",
+      "hash": "sha512-J1jCYh0QCC1WZj5k6rklazNMG5mLs2GKuP7PV1/fyq6LG0TcbADFEN2VWOJVaOFlXPzYorjtftpNrGCa3kvwkw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sohK0g2u"
+    ],
+    "1.20.1+forge": [
+      "sohK0g2u"
+    ],
+    "1.20.2+fabric": [
+      "sohK0g2u"
+    ],
+    "1.20.2+forge": [
+      "sohK0g2u"
+    ],
+    "1.21+fabric": [
+      "79sDNS5t"
+    ],
+    "1.21.1+fabric": [
+      "kmBGCwem"
+    ],
+    "1.21.1+neoforge": [
+      "kmBGCwem"
+    ],
+    "1.21.3+fabric": [
+      "Wrwnhchg"
+    ],
+    "1.21.3+neoforge": [
+      "Wrwnhchg"
+    ],
+    "1.21.4+fabric": [
+      "Wrwnhchg"
+    ],
+    "1.21.4+neoforge": [
+      "Wrwnhchg"
+    ]
+  }
+}

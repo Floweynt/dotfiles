@@ -1,0 +1,98 @@
+{
+  "slug": "anonymity",
+  "projectId": "jGQvYcUS",
+  "versions": {
+    "RMuwtYsL": {
+      "filename": "anonymity-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jGQvYcUS/versions/RMuwtYsL/anonymity-1.0.0.jar",
+      "hash": "sha512-IW5QiFct/K9gUXgnjMmqDk7p4FdHe+vdF2e5xuiJ9lFG2DXkHa6ifd46i9jDwoJA/fDQJjz7pCyAD/ruQIHbow==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "pkbAdvb7": {
+      "filename": "anonymity-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jGQvYcUS/versions/pkbAdvb7/anonymity-1.1.0.jar",
+      "hash": "sha512-dgehf1UIg3VBQB6kq93RNQfdrY1e7Q1nGBF8YWpa5NOtA+tApGv5Ui6o/B9oOnSAGxFM3nIP8WZTVvHeSYPBCA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tGPafNr3": {
+      "filename": "anonymity-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jGQvYcUS/versions/tGPafNr3/anonymity-1.0.1.jar",
+      "hash": "sha512-wZ32NjL4d+/3vwLJipGejdgdx8o/uFxTRf8cD7Qo1/nkTy3dh0xK/V8Nhp4G4DlS9V+HkSdYWPApfUjFLQcRrA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "pkbAdvb7",
+      "tGPafNr3",
+      "RMuwtYsL"
+    ],
+    "1.21.1+quilt": [
+      "pkbAdvb7"
+    ],
+    "1.21.2+fabric": [
+      "pkbAdvb7",
+      "tGPafNr3",
+      "RMuwtYsL"
+    ],
+    "1.21.2+quilt": [
+      "pkbAdvb7"
+    ],
+    "1.21.3+fabric": [
+      "pkbAdvb7",
+      "tGPafNr3",
+      "RMuwtYsL"
+    ],
+    "1.21.3+quilt": [
+      "pkbAdvb7"
+    ],
+    "1.21.4+fabric": [
+      "pkbAdvb7",
+      "tGPafNr3",
+      "RMuwtYsL"
+    ],
+    "1.21.4+quilt": [
+      "pkbAdvb7"
+    ]
+  }
+}

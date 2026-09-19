@@ -1,0 +1,117 @@
+{
+  "slug": "expandability",
+  "projectId": "X5dUUm4k",
+  "versions": {
+    "7nXdZbDG": {
+      "filename": "expandability-fabric-14.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/X5dUUm4k/versions/7nXdZbDG/expandability-fabric-14.0.1.jar",
+      "hash": "sha512-rAlO+4Dr3Dn/th1MpPIPpa7/pMxRSv7vcf2WpEMFaRA310yOFrJDjSFY/6ofQ3CgIWdv0CRLZXpOT32zXxL4+Q==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "BjybwBfz": {
+      "filename": "expandability-fabric-14.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/X5dUUm4k/versions/BjybwBfz/expandability-fabric-14.0.0.jar",
+      "hash": "sha512-Dwa3vUK812d5xjhQ7BLFRmfBLELOuiybzdFncKzgzhvmlMFUVqXR7S//eR+V9Ff/O8CSvXt5GtcVWdZNylj41Q==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OpnqfJde": {
+      "filename": "expandability-neoforge-14.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/X5dUUm4k/versions/OpnqfJde/expandability-neoforge-14.0.0.jar",
+      "hash": "sha512-MVEICs34+EbZvHW7+rm+bn2YL/l5V+1+Pap0mn5YxCE4ZgX2Hka2pOhIgvgOc+1UcfA0BUfQX+vNuTz+LMQ4uw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jXx5pPpl": {
+      "filename": "expandability-neoforge-14.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/X5dUUm4k/versions/jXx5pPpl/expandability-neoforge-14.0.1.jar",
+      "hash": "sha512-oFhrqAJRVNoKtvp1Y1j0Zu8g9hl5SdImIntsh01NaaV5vcBOhEpjHuCdNZFxNq+oP1Yf8F5FwONBjaGaMqgSEA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "7nXdZbDG",
+      "BjybwBfz"
+    ],
+    "26.1+neoforge": [
+      "jXx5pPpl",
+      "OpnqfJde"
+    ],
+    "26.1+quilt": [
+      "7nXdZbDG",
+      "BjybwBfz"
+    ],
+    "26.1.1+fabric": [
+      "7nXdZbDG",
+      "BjybwBfz"
+    ],
+    "26.1.1+neoforge": [
+      "jXx5pPpl",
+      "OpnqfJde"
+    ],
+    "26.1.1+quilt": [
+      "7nXdZbDG",
+      "BjybwBfz"
+    ],
+    "26.1.2+fabric": [
+      "7nXdZbDG"
+    ],
+    "26.1.2+neoforge": [
+      "jXx5pPpl"
+    ],
+    "26.1.2+quilt": [
+      "7nXdZbDG"
+    ]
+  }
+}

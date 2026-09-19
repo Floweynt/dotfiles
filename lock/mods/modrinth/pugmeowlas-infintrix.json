@@ -1,0 +1,121 @@
+{
+  "slug": "pugmeowlas-infintrix",
+  "projectId": "AUfrN5qo",
+  "versions": {
+    "I5mRNMLo": {
+      "filename": "infintrix-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/AUfrN5qo/versions/I5mRNMLo/infintrix-2.1.jar",
+      "hash": "sha512-3aru/jWfmMbH1Ua6FkkPEFGHzXuoFHkFGP+5pAsMunJ/SKdSbk7LTZC9g/YRDvcRrjb97XAJQINrOH7pnV9pSQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PajdboHT": {
+      "filename": "infintrix-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/AUfrN5qo/versions/PajdboHT/infintrix-2.0.jar",
+      "hash": "sha512-epq0R+xCSj0RWP2EeO658LmVRvW27foC0gn7LfOcUw8gx8RMu0OB5VAU5qEU2vQtVTK5do5vt5Ks404C2Fbksw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ReEoZXdd": {
+      "filename": "infintrix_0.1.jar",
+      "url": "https://cdn.modrinth.com/data/AUfrN5qo/versions/ReEoZXdd/infintrix_0.1.jar",
+      "hash": "sha512-Isq/tLkfxm7y3RSTzMGjPWbMSlMDvFSrxXnOM/BwXg9qQtJ1qeDGJXzcrMNOATNlL0lia1Lin94zxUNWGXZ5OQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "pugmeowlas-infinity-stone-core",
+          "projectId": "hIAWGAJC",
+          "type": "required"
+        }
+      ]
+    },
+    "mGAF1BvP": {
+      "filename": "infintrix-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AUfrN5qo/versions/mGAF1BvP/infintrix-1.0.jar",
+      "hash": "sha512-FQwwHTa5++UHOVxauUl/UrtQzNkByHP/Nbt/CMb2NKGvyaqw9JQBPwc4UEIhKt/ih4lrMGAXRB/DtocHYtG5Zw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nsprfZVy": {
+      "filename": "infintrix_0.2.jar",
+      "url": "https://cdn.modrinth.com/data/AUfrN5qo/versions/nsprfZVy/infintrix_0.2.jar",
+      "hash": "sha512-5ZBik8HnBnipDDJ4RBcnoqVbRwMwgzLCqWnggQSAZz/W1QmjRQXqJDYErrj3eZ0kVC7fo74BTal2IKkbgO/5kA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tZJD0y6e": {
+      "filename": "infintrix-2.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/AUfrN5qo/versions/tZJD0y6e/infintrix-2.1.1.jar",
+      "hash": "sha512-/7fDu9dMzzJsc+bbqQdcwPwefqmIaQY4IUvsCkwtDC7b+E0fkvKGwxMULfmuScgG2veKmFvtEJpNPMiWIBXN1Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "PajdboHT",
+      "mGAF1BvP",
+      "nsprfZVy",
+      "ReEoZXdd"
+    ],
+    "1.20.1+forge": [
+      "tZJD0y6e",
+      "I5mRNMLo",
+      "PajdboHT",
+      "mGAF1BvP",
+      "nsprfZVy",
+      "ReEoZXdd"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "sophisticated-storage-in-motion-(unofficial-fabric-port)",
+  "projectId": "T8h6Gr5g",
+  "versions": {
+    "cbmaHlay": {
+      "filename": "sophisticatedstorageinmotion-1.21.1-0.4.0.1.31.jar",
+      "url": "https://cdn.modrinth.com/data/T8h6Gr5g/versions/cbmaHlay/sophisticatedstorageinmotion-1.21.1-0.4.0.1.31.jar",
+      "hash": "sha512-GWD72T/x6Mu1EZSCXKwkIw5Qt5KU1FXq0h9luYj/Agqh0TB4SZCOAOiNluTIB0iDgxiDsg1foGpPNCX2QaIPOw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sophisticated-storage-(unofficial-fabric-port)",
+          "projectId": "iHtpVwJL",
+          "type": "required"
+        },
+        {
+          "slug": "sophisticated-core-(unofficial-fabric-port)",
+          "projectId": "9jxwkYQL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "h9XqC1Wb": {
+      "filename": "sophisticatedstorageinmotion-1.21.1-0.10.5.1.38.jar",
+      "url": "https://cdn.modrinth.com/data/T8h6Gr5g/versions/h9XqC1Wb/sophisticatedstorageinmotion-1.21.1-0.10.5.1.38.jar",
+      "hash": "sha512-tfVeKwh8oQZNvAwV75CewL9KgNCgoBS2w1kaGTRxO8tVOWDmHvfA3rcqacJrZplL4kXzQVw+nfc2WwAVSD9WFQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sophisticated-core-(unofficial-fabric-port)",
+          "projectId": "9jxwkYQL",
+          "type": "required"
+        },
+        {
+          "slug": "sophisticated-storage-(unofficial-fabric-port)",
+          "projectId": "iHtpVwJL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iKjI21DS": {
+      "filename": "sophisticatedstorageinmotion-1.20.1-0.10.5.1.37.jar",
+      "url": "https://cdn.modrinth.com/data/T8h6Gr5g/versions/iKjI21DS/sophisticatedstorageinmotion-1.20.1-0.10.5.1.37.jar",
+      "hash": "sha512-Y7Qb2JUEy7P2jzv4izYSlW1GDLzelj2GbtiWoz64SWnkOU79sJfScqhLp9/x7mJU/fpYw5fBJm9+q5Lt3iNzhg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "sophisticated-core-(unofficial-fabric-port)",
+          "projectId": "9jxwkYQL",
+          "type": "required"
+        },
+        {
+          "slug": "sophisticated-storage-(unofficial-fabric-port)",
+          "projectId": "iHtpVwJL",
+          "type": "required"
+        }
+      ]
+    },
+    "sJ8s5p37": {
+      "filename": "sophisticatedstorageinmotion-1.20.1-0.4.0.1.30.jar",
+      "url": "https://cdn.modrinth.com/data/T8h6Gr5g/versions/sJ8s5p37/sophisticatedstorageinmotion-1.20.1-0.4.0.1.30.jar",
+      "hash": "sha512-1AfeBetLoPYGV/6lhZFI7WkK3DHHx0gjZGZfm4WCU6m/0AFh2w0oaMFtZpCAVKZRdTfL2PmE2Za3/GD8yFCleg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sophisticated-core-(unofficial-fabric-port)",
+          "projectId": "9jxwkYQL",
+          "type": "required"
+        },
+        {
+          "slug": "sophisticated-storage-(unofficial-fabric-port)",
+          "projectId": "iHtpVwJL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "iKjI21DS",
+      "sJ8s5p37"
+    ],
+    "1.21.1+fabric": [
+      "h9XqC1Wb",
+      "cbmaHlay"
+    ]
+  }
+}

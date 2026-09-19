@@ -1,0 +1,62 @@
+{
+  "slug": "create-radars-refabricated",
+  "projectId": "IUlhKVP4",
+  "versions": {
+    "9QFCTmWn": {
+      "filename": "create_radar-0.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IUlhKVP4/versions/9QFCTmWn/create_radar-0.1.0%2B1.20.1.jar",
+      "hash": "sha512-HEKiP5itA708rZmumVYpA7AX3cAgLb7kRRC+Dc9RjXYcKcBj7XeU7dkLt8BeL7/3wpQJftHoDOmO+iIJL6bdHw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FcTcjseq": {
+      "filename": "create_radar-0.1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IUlhKVP4/versions/FcTcjseq/create_radar-0.1.1%2B1.20.1.jar",
+      "hash": "sha512-k132U1WFls7mamr5+uz77uFA/Gmv/JbzqoyVFKAP4QSYkueqOlMR392woX4XWMd5RqGqMk1UI4g1tAqHmpCfpw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FcTcjseq",
+      "9QFCTmWn"
+    ]
+  }
+}

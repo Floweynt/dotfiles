@@ -1,0 +1,62 @@
+{
+  "slug": "dragon-shouts",
+  "projectId": "nhGREeOu",
+  "versions": {
+    "bQHTyS0s": {
+      "filename": "dragonshouts-fabric-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nhGREeOu/versions/bQHTyS0s/dragonshouts-fabric-1.21-1.0.0.jar",
+      "hash": "sha512-OP7pS+dycWYKMK6yC691Fw0bhGri4MkdzB98b2rwsq5JcshWh0NTwXg21L9MUZKBWSLnV6yx9rXxKpA02SwakA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "common-network",
+          "projectId": "HIuqnQpi",
+          "type": "required"
+        }
+      ]
+    },
+    "pJ5i1iSS": {
+      "filename": "dragonshouts-neoforge-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nhGREeOu/versions/pJ5i1iSS/dragonshouts-neoforge-1.21-1.0.0.jar",
+      "hash": "sha512-iQvCNc5LC1I6/j+fW8K6fR5QiNBpR2Pco/bf5/fnR7xtX7jAeXjdsW8hQ2b5rcaiQvxq+l4Lg+8hZFFrDS8hQg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "common-network",
+          "projectId": "HIuqnQpi",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "bQHTyS0s"
+    ],
+    "1.21+neoforge": [
+      "pJ5i1iSS"
+    ],
+    "1.21.1+fabric": [
+      "bQHTyS0s"
+    ],
+    "1.21.1+neoforge": [
+      "pJ5i1iSS"
+    ]
+  }
+}

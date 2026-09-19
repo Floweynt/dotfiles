@@ -1,0 +1,67 @@
+{
+  "slug": "refinedcreativeinventory",
+  "projectId": "4kogXM12",
+  "versions": {
+    "A2JYras8": {
+      "filename": "RefinedCreativeInventory-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/4kogXM12/versions/A2JYras8/RefinedCreativeInventory-0.1.2.jar",
+      "hash": "sha512-g7IiFzmCkLjz4DKmcvSnbDqqrjfLN6s1RWxFEsPHcJtNsGafasM9od4B8m0NRVx2ssBktpLgxxlALlTzPlS6tg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "DVW2YHPf": {
+      "filename": "RefinedCreativeInventory-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/4kogXM12/versions/1.18.2-0.1.0/RefinedCreativeInventory-0.1.0.jar",
+      "hash": "sha512-5vVC8/VeE77kAidSuq37nwyBf6g9CqiSseYsLEa35f1UOksDg0wydFG8Z1AM/Jb58YrPE8buULdMWlvkQEeB4g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "svIIsVk2": {
+      "filename": "RefinedCreativeInventory-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/4kogXM12/versions/svIIsVk2/RefinedCreativeInventory-0.1.2.jar",
+      "hash": "sha512-eh3qAxcq9tMPtNlgZLvWkbau358V1gmMv4gQzPoSgQs9Vi3M1QX2a5BLf2tUfTcQMnCv0IEoajKwaxanApRS5w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "DVW2YHPf"
+    ],
+    "1.18.2+quilt": [
+      "DVW2YHPf"
+    ],
+    "1.19.2+fabric": [
+      "A2JYras8",
+      "svIIsVk2"
+    ],
+    "1.19.2+quilt": [
+      "A2JYras8",
+      "svIIsVk2"
+    ]
+  }
+}

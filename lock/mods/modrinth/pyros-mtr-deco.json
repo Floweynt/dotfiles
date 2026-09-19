@@ -1,0 +1,77 @@
+{
+  "slug": "pyros-mtr-deco",
+  "projectId": "wxl4ENh6",
+  "versions": {
+    "SEpdIk95": {
+      "filename": "Pyro's MTR Deco 1.19.4-v1.0.0-.jar",
+      "url": "https://cdn.modrinth.com/data/wxl4ENh6/versions/SEpdIk95/Pyro%27s%20MTR%20Deco%201.19.4-v1.0.0-.jar",
+      "hash": "sha512-yMVqDneYzYiM5mkW7b+GM7wPFyz0+jl9eCBVQhbIuvQjTUHp0mso2SEOPxJ9GorRD+cCLZN9rUk9tWQx1Y7/lw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ZMI5nbzo": {
+      "filename": "Pyros MTR Deco 1.19-1.19.4 V1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/wxl4ENh6/versions/ZMI5nbzo/Pyros%20MTR%20Deco%201.19-1.19.4%20V1.0.2.jar",
+      "hash": "sha512-FyOxgRXdvFKeLOUznTIKkvZ7FEUG1769lfj0R4GaWuI0RuwJ9is48LM00BWmnwXstswf0Dp30ksjIj6Z3SEiVw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "minecraft-transit-railway",
+          "projectId": "XKPAmI6u",
+          "type": "required"
+        }
+      ]
+    },
+    "tdD9PVlP": {
+      "filename": "Pyro's MTR Deco 1.19.2-v1.0.0-.jar",
+      "url": "https://cdn.modrinth.com/data/wxl4ENh6/versions/tdD9PVlP/Pyro%27s%20MTR%20Deco%201.19.2-v1.0.0-.jar",
+      "hash": "sha512-b9aNe3q63xKpU8cRJMPOoEq5bJBbqYvGsFnmupSFthXu69UX4mcaBC52/lgg9R+HWnnDYyJkh9hmeXKqL3zBjg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "ZMI5nbzo"
+    ],
+    "1.19.1+fabric": [
+      "ZMI5nbzo"
+    ],
+    "1.19.2+fabric": [
+      "ZMI5nbzo",
+      "tdD9PVlP"
+    ],
+    "1.19.3+fabric": [
+      "ZMI5nbzo"
+    ],
+    "1.19.4+fabric": [
+      "ZMI5nbzo",
+      "SEpdIk95"
+    ]
+  }
+}

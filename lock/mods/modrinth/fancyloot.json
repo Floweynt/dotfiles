@@ -1,0 +1,35 @@
+{
+  "slug": "fancyloot",
+  "projectId": "ZeqjhJZE",
+  "versions": {
+    "prkn5QLw": {
+      "filename": "fancyloot-1.0.0+mc1.21.11-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZeqjhJZE/versions/prkn5QLw/fancyloot-1.0.0%2Bmc1.21.11-fabric.jar",
+      "hash": "sha512-QYDuZ1J+JMJy9lLt41mx6Bkwm+IYHn2VrPiBk7zPz5lIsOLBzG2DMbLvmj5WdEI+P0dzuYQEFky5fRdIJkKQHg==",
+      "gameVersions": [
+        "1.21.11",
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "prkn5QLw"
+    ],
+    "26.1+fabric": [
+      "prkn5QLw"
+    ]
+  }
+}

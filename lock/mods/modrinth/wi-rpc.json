@@ -1,0 +1,36 @@
+{
+  "slug": "wi-rpc",
+  "projectId": "bOd1V6S2",
+  "versions": {
+    "XMVAcCCG": {
+      "filename": "WIRPC-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/bOd1V6S2/versions/XMVAcCCG/WIRPC-1.0-SNAPSHOT.jar",
+      "hash": "sha512-p93EupE7emrk5aTpn+HDGqOC6Yp7MUrQiklZrTPdKxwPlndm//m2wPk+WO5p9du6Clo/TdkyMq1pnBopkPoo3A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "XMVAcCCG"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "skill-point-items",
+  "projectId": "7cEQxXFj",
+  "versions": {
+    "1ChuvdoS": {
+      "filename": "skill-point-items-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7cEQxXFj/versions/1ChuvdoS/skill-point-items-1.0.jar",
+      "hash": "sha512-N4eaWl+yNRmcmKDdG+zO+vkxpd2Hl1cW9cqGxncUV88xBJboHIUwT29lzc762B/rR4oFI/Z8IIlCw1EiOnd25A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "loot-table-modifier",
+          "projectId": "emvwKT0u",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "cWOMujFk": {
+      "filename": "Skill Point Items.zip",
+      "url": "https://cdn.modrinth.com/data/7cEQxXFj/versions/cWOMujFk/Skill%20Point%20Items.zip",
+      "hash": "sha512-GkMdtsoc9vBBczdu0PML0lpfNztMWMhLIqJbASglSYDBNxx0Zk8HbwKIn7EuCdWhNzS9m8UyGdCPOHMRikf7tg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "loot-table-modifier",
+          "projectId": "emvwKT0u",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "cWOMujFk"
+    ],
+    "1.21+fabric": [
+      "1ChuvdoS"
+    ],
+    "1.21.1+datapack": [
+      "cWOMujFk"
+    ],
+    "1.21.1+fabric": [
+      "1ChuvdoS"
+    ]
+  }
+}

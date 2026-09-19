@@ -1,0 +1,92 @@
+{
+  "slug": "create-questing",
+  "projectId": "jUlR3XZM",
+  "versions": {
+    "IzSah8u8": {
+      "filename": "Create_Questing-FABRIC-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jUlR3XZM/versions/IzSah8u8/Create_Questing-FABRIC-1.20.1-1.0.0.jar",
+      "hash": "sha512-XdnGe1mF7QLGtKcjtarf0m1lnnNZEp2RaKGipyqvRT1V5vzh4nNv1cfFN19xz42IXUR/XUwLs65ryVsr8Pkg9A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "QXBmxVDA": {
+      "filename": "Create_Questing-FORGE-1.19.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jUlR3XZM/versions/QXBmxVDA/Create_Questing-FORGE-1.19.2-1.0.0.jar",
+      "hash": "sha512-8UDE7ez0hDYCFuDLBl+IpHtZW+mAV9n5lWyIf8ZoVIXC9rxSKb+DXmkagOVwTbFi7zmmfFz/lmfcBvMT5pZt9w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "aqdJaQxc": {
+      "filename": "Create_Questing-FABRIC-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jUlR3XZM/versions/aqdJaQxc/Create_Questing-FABRIC-1.0.1.jar",
+      "hash": "sha512-u3nn8ZsHCPpgksioalnf38FOkHgekHjByWvvZR5XOJXQgCjbYurjHXgqOhGoOPvnlTgx6UcSRfCDiWUc69Gz3A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "djVCzXFV": {
+      "filename": "Create_Questing-FORGE-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jUlR3XZM/versions/djVCzXFV/Create_Questing-FORGE-1.20.1-1.0.0.jar",
+      "hash": "sha512-3MSCreMMPzIvlNzHP6nTLukoLai2jEbxr56wH4LMKd+PcdlkVbOWIpXDcTFXiR7dQ1YzePXxpu978HaYXFrQZw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "QXBmxVDA"
+    ],
+    "1.20.1+fabric": [
+      "aqdJaQxc",
+      "IzSah8u8"
+    ],
+    "1.20.1+forge": [
+      "djVCzXFV"
+    ]
+  }
+}

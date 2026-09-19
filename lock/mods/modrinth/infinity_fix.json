@@ -1,0 +1,165 @@
+{
+  "slug": "infinity_fix",
+  "projectId": "zFWme3NP",
+  "versions": {
+    "ANwMIizE": {
+      "filename": "infinity-fix-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/zFWme3NP/versions/1/infinity-fix-0.1.1.jar",
+      "hash": "sha512-UucflHwMgK9nPDP6SRxX7/OZwF0CkPUamo84jsOk0sHEpz2osiPCE75QrUbFEGdTZpPD5ZSH1n2Hm4yyOtwPHw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "NnLJ1kyH": {
+      "filename": "infinity-fix-v0.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/zFWme3NP/versions/NnLJ1kyH/infinity-fix-v0.1.6.jar",
+      "hash": "sha512-dhlqjCpaInqRoQT4FyVLzP9r6vSz8cx7+xW+kOgnTis3fVQNP4gT8UChDJHxwfVaWlo4iSV21KC6CpSbT6ehlg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "bU0ko84G": {
+      "filename": "infinity-fix-0.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/zFWme3NP/versions/v0.1.4/infinity-fix-0.1.4.jar",
+      "hash": "sha512-xtNWmC2ZyQLB6syY9C56JTvQH+u/muXLePwk5lyeHXQpCu/4AXFYP+7Ea9jPDoq47EJWbw6e5JwBXj5CIuuMdw==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nbXkUJRW": {
+      "filename": "infinity-fix-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/zFWme3NP/versions/2/infinity-fix-0.1.2.jar",
+      "hash": "sha512-kJkAd9alPVNjcN2LNyYokErAlJgDIlIoOcxIUkd0gqkSj8rdBoV4WI+qzSNu3LjAnLAxPRMeWHQkJ9tKsf3ugQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "sDLrDpDG": {
+      "filename": "infinity-fix-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/zFWme3NP/versions/3/infinity-fix-0.1.3.jar",
+      "hash": "sha512-LjPe+/Ml8fKsL8x4VnwDpKK0peiwBD9IXTjdvuc5Ikr/2HXwluwoKprX2uQ4dYmhDBx31OF7o8N1c9gXbjMEPg==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16+fabric": [
+      "bU0ko84G",
+      "sDLrDpDG"
+    ],
+    "1.16.1+fabric": [
+      "bU0ko84G",
+      "sDLrDpDG"
+    ],
+    "1.16.2+fabric": [
+      "bU0ko84G",
+      "sDLrDpDG"
+    ],
+    "1.16.3+fabric": [
+      "bU0ko84G",
+      "sDLrDpDG"
+    ],
+    "1.16.4+fabric": [
+      "bU0ko84G",
+      "sDLrDpDG"
+    ],
+    "1.16.5+fabric": [
+      "bU0ko84G",
+      "sDLrDpDG",
+      "ANwMIizE"
+    ],
+    "1.17+fabric": [
+      "bU0ko84G",
+      "sDLrDpDG"
+    ],
+    "1.17.1+fabric": [
+      "bU0ko84G",
+      "sDLrDpDG",
+      "nbXkUJRW"
+    ],
+    "1.18+fabric": [
+      "bU0ko84G"
+    ],
+    "1.18.1+fabric": [
+      "bU0ko84G"
+    ],
+    "1.18.2+fabric": [
+      "bU0ko84G"
+    ],
+    "1.19+fabric": [
+      "NnLJ1kyH"
+    ],
+    "1.19+quilt": [
+      "NnLJ1kyH"
+    ],
+    "1.19.1+fabric": [
+      "NnLJ1kyH"
+    ],
+    "1.19.1+quilt": [
+      "NnLJ1kyH"
+    ],
+    "1.19.2+fabric": [
+      "NnLJ1kyH"
+    ],
+    "1.19.2+quilt": [
+      "NnLJ1kyH"
+    ]
+  }
+}

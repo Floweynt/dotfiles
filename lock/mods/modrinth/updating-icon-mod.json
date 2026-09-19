@@ -1,0 +1,76 @@
+{
+  "slug": "updating-icon-mod",
+  "projectId": "iZkOzEdZ",
+  "versions": {
+    "1wmSoOJu": {
+      "filename": "UpdatingIconMod-1.0.10.jar",
+      "url": "https://cdn.modrinth.com/data/iZkOzEdZ/versions/1wmSoOJu/UpdatingIconMod-1.0.10.jar",
+      "hash": "sha512-69au25eLq8a5i91NVqq+QlOW/9X44Ryw4AvjN4MIAz3Nyr6dTLctqFRxuxcxYCQU4tF2PNn5P9pky2MZ3xBbEQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XWBjM6rG": {
+      "filename": "UpdatingIconMod-1.0.11.jar",
+      "url": "https://cdn.modrinth.com/data/iZkOzEdZ/versions/XWBjM6rG/UpdatingIconMod-1.0.11.jar",
+      "hash": "sha512-YHFOZY7bQbhmR7OXC4SLVDLJQo3BBTikH+hwbfZ2yjsZ2DTLW5/RLberYmP5hiDuPWcPYmUoW3Ld2bdKy9g+3Q==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "XWBjM6rG"
+    ],
+    "1.21.11+fabric": [
+      "XWBjM6rG"
+    ],
+    "1.21.5+fabric": [
+      "XWBjM6rG",
+      "1wmSoOJu"
+    ],
+    "1.21.6+fabric": [
+      "XWBjM6rG"
+    ],
+    "1.21.7+fabric": [
+      "XWBjM6rG"
+    ],
+    "1.21.8+fabric": [
+      "XWBjM6rG"
+    ],
+    "1.21.9+fabric": [
+      "XWBjM6rG"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "enderore",
+  "projectId": "HtSl1iEY",
+  "versions": {
+    "5TJx5DCZ": {
+      "filename": "ender-ore-1.19.2-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/HtSl1iEY/versions/5TJx5DCZ/ender-ore-1.19.2-1.2.3.jar",
+      "hash": "sha512-DBKwQDIwYdhomwtMc8zWYJarV82O4SVC4PPuE1N9TcsZe1tqNNOBqjKr59sjSJuGmhkqDXDbGb9CXHr0SCfokw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ZwHi1Rnd": {
+      "filename": "ender-ore-1.18.2-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/HtSl1iEY/versions/1.2.3/ender-ore-1.18.2-1.2.3.jar",
+      "hash": "sha512-Ce/urAOPwTAbKT5S9VWBnhdritqMz2H9vJObN09rHrQZmjdUjYRoreQKRW7kLvTG9mMjSrKqwzRm2HI5TUlORg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kiIh9IXw": {
+      "filename": "ender-ore-1.19-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/HtSl1iEY/versions/1.19-1.2.3/ender-ore-1.19-1.2.3.jar",
+      "hash": "sha512-TtvyAhcACUoAucMP3viByumA0Ax5mNso6X9iNnHlqnfdzK6w6Fi/Lrf7VDNFmzV0Q/pFUC+OL9H/njs4jUCK0w==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lkvk6FYV": {
+      "filename": "ender-ore-1.18.2-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/HtSl1iEY/versions/1.2.2/ender-ore-1.18.2-1.2.2.jar",
+      "hash": "sha512-lNBIRPEIJvhrfBFw/Sw4yvgwKr78Pgez5QJl7aiMnjLW96UUo0Ds7ubZT+9fHOPmKfAco9v1ry59LVY/CRSe3Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "ZwHi1Rnd",
+      "lkvk6FYV"
+    ],
+    "1.19+fabric": [
+      "kiIh9IXw"
+    ],
+    "1.19.2+fabric": [
+      "5TJx5DCZ"
+    ]
+  }
+}

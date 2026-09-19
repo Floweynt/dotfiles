@@ -1,0 +1,101 @@
+{
+  "slug": "rei-cheat-keybind",
+  "projectId": "F4S9MaTm",
+  "versions": {
+    "OT9RiEUC": {
+      "filename": "reicheatkeybind-1.0.0+1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/F4S9MaTm/versions/1.0.0/reicheatkeybind-1.0.0%2B1.16.5.jar",
+      "hash": "sha512-omZvmLKz/3km7s+K1BKgEnyrKrI5f/2Vsb8DtZZGSJKsfIaGfk4nz9IAByvTSUll61gz5bW9sNIRUYJJUhQpRA==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "WFCZZHxE": {
+      "filename": "reicheatkeybind-1.0.0+1.16.2.jar",
+      "url": "https://cdn.modrinth.com/data/F4S9MaTm/versions/1.0.0/reicheatkeybind-1.0.0%2B1.16.2.jar",
+      "hash": "sha512-zWEZRDgWaoMYFBF8c9leR2k8ztF+6TrdQlnb8VYpGNDu4PzC9Y+i1VbF9xqjr9yzlH5JBdfPVGZyo1s93Mtwng==",
+      "gameVersions": [
+        "1.16.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ZZuatUN6": {
+      "filename": "reicheatkeybind-1.0.2+1.17.1.jar",
+      "url": "https://cdn.modrinth.com/data/F4S9MaTm/versions/1.0.2/reicheatkeybind-1.0.2%2B1.17.1.jar",
+      "hash": "sha512-ZGT6C9/+T7Z5AjJykG9K+lgU0sdHAh7k9Yesh9eVSxn0Aum+ob6ZwlgvOsQcM1wiSL9+bJMnnEPhXDuL/ZURQQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "gEMSUJAP": {
+      "filename": "reicheatkeybind-1.0.0+1.16.1.jar",
+      "url": "https://cdn.modrinth.com/data/F4S9MaTm/versions/1.0.0/reicheatkeybind-1.0.0%2B1.16.1.jar",
+      "hash": "sha512-Agd58l9Xb7uZRrs/lITqqAb3WLoL6PQkjIq1xDll8CLKoXOeLmcHpUxmu6GFpiKYnKPd/OeNn1HjADGU6il5AA==",
+      "gameVersions": [
+        "1.16.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "rei",
+          "projectId": "nfn13YXA",
+          "type": "required"
+        }
+      ]
+    },
+    "h3LQbGaY": {
+      "filename": "reicheatkeybind-1.0.1+1.16.4-5.jar",
+      "url": "https://cdn.modrinth.com/data/F4S9MaTm/versions/1.0.1/reicheatkeybind-1.0.1%2B1.16.4-5.jar",
+      "hash": "sha512-TjT1mGtvsEYr/+B2zzLgol7BJZrcMjEw3ZAg63okp8OHSr/O8KQteLWZpKiiGxNLBI1/LLZCnT0w8bmzoP8z6A==",
+      "gameVersions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.1+fabric": [
+      "gEMSUJAP"
+    ],
+    "1.16.2+fabric": [
+      "WFCZZHxE"
+    ],
+    "1.16.4+fabric": [
+      "h3LQbGaY"
+    ],
+    "1.16.5+fabric": [
+      "h3LQbGaY",
+      "OT9RiEUC"
+    ],
+    "1.17.1+fabric": [
+      "ZZuatUN6"
+    ]
+  }
+}

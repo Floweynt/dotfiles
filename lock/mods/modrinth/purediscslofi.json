@@ -1,0 +1,111 @@
+{
+  "slug": "purediscslofi",
+  "projectId": "G0jB05Ux",
+  "versions": {
+    "3pom1Ftb": {
+      "filename": "purediscslofi-v2.0.0-1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/G0jB05Ux/versions/3pom1Ftb/purediscslofi-v2.0.0-1.21-fabric.jar",
+      "hash": "sha512-o7YYwfkPRB2UdX9ESBsMn3t3hPkTOXL6YMbZKGnOxnrRnthvkmekyJvRtSQmcpQneBY/8DXcMx+HHbSSx9CMjA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "B2QJ7sOx": {
+      "filename": "PureDiscsLofi-v1.0.0-1.20.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/G0jB05Ux/versions/B2QJ7sOx/PureDiscsLofi-v1.0.0-1.20.1-Fabric.jar",
+      "hash": "sha512-phfgiVqoSuRFxnLW0shsNinelGvHahgfl+eB5sMiw06qsXPuv5YrX2+pQ1jK2t1x/thaS0QCfnJ7Jhkp3qXdgg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "purediscstrailstales",
+          "projectId": "iSN6eXzl",
+          "type": "required"
+        }
+      ]
+    },
+    "QY8Ngdsa": {
+      "filename": "PureDiscsLofi-v1.0.0-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/G0jB05Ux/versions/QY8Ngdsa/PureDiscsLofi-v1.0.0-1.20.1-Forge.jar",
+      "hash": "sha512-7mfPNaHooudqHdesn+AdYIEyxlSVHyq4AHnJFO/qhg6hrJkqtr570LQGrQQ+CVHqI6L/482vGXt5bz2pRNf33Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "purediscstrailstales",
+          "projectId": "iSN6eXzl",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "B2QJ7sOx"
+    ],
+    "1.20.1+forge": [
+      "QY8Ngdsa"
+    ],
+    "1.20.1+neoforge": [
+      "QY8Ngdsa"
+    ],
+    "1.20.1+quilt": [
+      "B2QJ7sOx"
+    ],
+    "1.20.2+fabric": [
+      "B2QJ7sOx"
+    ],
+    "1.20.2+quilt": [
+      "B2QJ7sOx"
+    ],
+    "1.20.3+fabric": [
+      "B2QJ7sOx"
+    ],
+    "1.20.3+quilt": [
+      "B2QJ7sOx"
+    ],
+    "1.20.4+fabric": [
+      "B2QJ7sOx"
+    ],
+    "1.20.4+quilt": [
+      "B2QJ7sOx"
+    ],
+    "1.21+fabric": [
+      "3pom1Ftb"
+    ],
+    "1.21+quilt": [
+      "3pom1Ftb"
+    ],
+    "1.21.1+fabric": [
+      "3pom1Ftb"
+    ],
+    "1.21.1+quilt": [
+      "3pom1Ftb"
+    ]
+  }
+}

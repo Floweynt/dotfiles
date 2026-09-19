@@ -1,0 +1,31 @@
+{
+  "slug": "entity-barrier",
+  "projectId": "1iyZJ453",
+  "versions": {
+    "KTGxPNsu": {
+      "filename": "entitybarrier-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1iyZJ453/versions/KTGxPNsu/entitybarrier-1.0.0.jar",
+      "hash": "sha512-0tbs5yrl70QB7v8utPdQy+fstgdIVTp6RqW6CP+nrR+SbOLC3vBIlWC0Ocb3mLOezL3vih6O+fQSNU2ngnBOXw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "KTGxPNsu"
+    ]
+  }
+}

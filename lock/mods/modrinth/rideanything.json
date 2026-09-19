@@ -1,0 +1,186 @@
+{
+  "slug": "rideanything",
+  "projectId": "m0VP2foU",
+  "versions": {
+    "XICsY89Q": {
+      "filename": "rideanything-2.0.0+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/m0VP2foU/versions/XICsY89Q/rideanything-2.0.0%2B26.1.jar",
+      "hash": "sha512-JvkNojVa+x2QOR+WD2eWUGsArTP8RyDYoujCzhM8iVmhvFwOcl66d956lTQGqx4lUe/h51Qm/wL7fq77KaTV9g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "e1vurO7H": {
+      "filename": "rideanything-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/m0VP2foU/versions/e1vurO7H/rideanything-1.0.1.jar",
+      "hash": "sha512-N1Ofu4nYnkPkZmafn63ae+tnQvA9x9EJ/FFpB0J9w+gwFq99TccjnPQL1EmNrh7dth228AQKItDT4mBGb4K/OQ==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rwcaL71B": {
+      "filename": "rideanything-2.0.0+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/m0VP2foU/versions/rwcaL71B/rideanything-2.0.0%2B1.21.3.jar",
+      "hash": "sha512-kvox0QPbhI0OFajQ+3BkAycW3chP6bK0SUTHQibC8xXxAAXVchgQRtXq5efX10fl7R+pIvSL4YKzDlWkzT4S5Q==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tyvaSNfm": {
+      "filename": "rideanything-1.0.1+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/m0VP2foU/versions/tyvaSNfm/rideanything-1.0.1%2B1.21.8.jar",
+      "hash": "sha512-5ycinBoBHyzXVvjRAINZDK+dG+0x+jclRwe8dwuDi+QiXdzfMOOVhVAv7f/dAGAO8PvOjkwL+hzamMqa4otrRQ==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "z9OvgEBz": {
+      "filename": "rideanything-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/m0VP2foU/versions/z9OvgEBz/rideanything-1.0.0.jar",
+      "hash": "sha512-uuDy41T2jZlzq+TicNpvrpfuBLj+MRaJWEyY7UYe5bRywAl73L5eOsxHeaGYk6wbdmZ2byUdxbE7/LfZyh9G5A==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm"
+    ],
+    "1.21.11+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm"
+    ],
+    "1.21.2+fabric": [
+      "tyvaSNfm",
+      "e1vurO7H"
+    ],
+    "1.21.3+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm",
+      "e1vurO7H"
+    ],
+    "1.21.4+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm",
+      "e1vurO7H"
+    ],
+    "1.21.5+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm",
+      "e1vurO7H",
+      "z9OvgEBz"
+    ],
+    "1.21.6+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm",
+      "e1vurO7H"
+    ],
+    "1.21.7+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm",
+      "e1vurO7H"
+    ],
+    "1.21.8+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm"
+    ],
+    "1.21.9+fabric": [
+      "rwcaL71B",
+      "tyvaSNfm"
+    ],
+    "26.1+fabric": [
+      "XICsY89Q"
+    ],
+    "26.1.1+fabric": [
+      "XICsY89Q"
+    ],
+    "26.1.2+fabric": [
+      "XICsY89Q"
+    ]
+  }
+}

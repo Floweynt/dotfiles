@@ -1,0 +1,68 @@
+{
+  "slug": "golwer",
+  "projectId": "Ksdyp4ej",
+  "versions": {
+    "6h9x8QGm": {
+      "filename": "golwer-0.0.2-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/Ksdyp4ej/versions/6h9x8QGm/golwer-0.0.2-alpha.jar",
+      "hash": "sha512-DdA31i6FuwAvmy36w5FyhKW0fdbIqR309MpN7K9tqpHqvC/6Xm+kRf5seHc3ASm/ScKZ7m8WR+Y3iSpEuh8/BA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tyfxpSjq": {
+      "filename": "golwer-0.0.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/Ksdyp4ej/versions/tyfxpSjq/golwer-0.0.1-alpha.jar",
+      "hash": "sha512-3oBAWhrg2TMdAwgRHsTl193CzoMYFovSGmm5u3YsJgPYaRKniKbz7QNrJ0+3f49cH226gRCrAmiGLUu2i9nXQw==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "tyfxpSjq"
+    ],
+    "1.20.3+fabric": [
+      "tyfxpSjq"
+    ],
+    "1.21+fabric": [
+      "6h9x8QGm"
+    ]
+  }
+}

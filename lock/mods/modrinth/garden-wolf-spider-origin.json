@@ -1,0 +1,70 @@
+{
+  "slug": "garden-wolf-spider-origin",
+  "projectId": "G0XCEbsL",
+  "versions": {
+    "AhxkRZGC": {
+      "filename": "Garden Wolf Spider Origin.zip",
+      "url": "https://cdn.modrinth.com/data/G0XCEbsL/versions/AhxkRZGC/Garden%20Wolf%20Spider%20Origin.zip",
+      "hash": "sha512-7jx1HbopXiOMox0Sio1AeTVhVHZehZh/JkxUpDQxTNc/7n8oTpMFowfqK2GQAS0AJkrFY6k+x/QYq/+o0K0irw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "VaIPG1om": {
+      "filename": "garden-wolf-spider-origin-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/G0XCEbsL/versions/VaIPG1om/garden-wolf-spider-origin-1.0.0.jar",
+      "hash": "sha512-I+V0DVEuaeZj3/OLqCjjam+3cjoWN2+/GmSPA8pjhfE+QPqXdH11gis5Cb5HgBHSzEDvKuKZ0PcD0Mrz5P7UGQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "AhxkRZGC"
+    ],
+    "1.20+fabric": [
+      "VaIPG1om"
+    ],
+    "1.20.1+datapack": [
+      "AhxkRZGC"
+    ],
+    "1.20.1+fabric": [
+      "VaIPG1om"
+    ],
+    "1.20.2+datapack": [
+      "AhxkRZGC"
+    ],
+    "1.20.2+fabric": [
+      "VaIPG1om"
+    ]
+  }
+}

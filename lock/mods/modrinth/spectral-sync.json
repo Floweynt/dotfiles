@@ -1,0 +1,59 @@
+{
+  "slug": "spectral-sync",
+  "projectId": "D74WPyd2",
+  "versions": {
+    "1nKMtSXu": {
+      "filename": "spectralsync-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/D74WPyd2/versions/1nKMtSXu/spectralsync-1.1.0.jar",
+      "hash": "sha512-QlsyandPqPThTkE8MYFGEIzIm8PjBNXg4BcHZuo8JkChcRBfQoo/InuWNLvfUH0nAmrNvd6zagIN+ikPfypSCQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "HnRFbrzt": {
+      "filename": "spectral-sync-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/D74WPyd2/versions/HnRFbrzt/spectral-sync-1.0.0.jar",
+      "hash": "sha512-pMq4WqQkE8YhsjoY+74Az/DV4lp3tglf1qtvXMgqWphKdB7Siglhi6Tt3OCX++lGpW4Yg2xZypo05rCtBz9bjQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "spectrum",
+          "projectId": "3rc31Hgo",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HnRFbrzt"
+    ],
+    "1.21.1+fabric": [
+      "1nKMtSXu"
+    ]
+  }
+}

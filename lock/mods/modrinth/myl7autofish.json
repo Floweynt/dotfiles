@@ -1,0 +1,80 @@
+{
+  "slug": "myl7autofish",
+  "projectId": "rWkPw9Ro",
+  "versions": {
+    "693adafQ": {
+      "filename": "autofish-0.9.12-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/rWkPw9Ro/versions/693adafQ/autofish-0.9.12-SNAPSHOT.jar",
+      "hash": "sha512-WwbtzGlrsmM6EZL+9+hCycGtC+6QFSUohdgr1w3RgVcUSMyv0UfhVBeSDCCtdmVU4dYoVoTPCfqeqq6ghl6SIw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "9l1qjGUA": {
+      "filename": "autofish-0.9.10-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/rWkPw9Ro/versions/9l1qjGUA/autofish-0.9.10-SNAPSHOT.jar",
+      "hash": "sha512-PfpapLoAN6lWg6b/Y5Kj7/qmMeiFRAP3B1D9G114XttxGrBX1QbVTMA+mPD0IHr19UL79GxSVFRpteAoN6u5AA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "OVi0FbOH": {
+      "filename": "autofish-0.9.9-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/rWkPw9Ro/versions/OVi0FbOH/autofish-0.9.9-SNAPSHOT.jar",
+      "hash": "sha512-pzo1M537Q7KwwjNr5SQyMxA9zdZ8M6zWfVppLTcysq6XS7va5RWMeDICy+yGmRlqauPkuxLYSAWTvVo5UnMFwg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "uXVWDgPO": {
+      "filename": "autofish-0.9.11-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/rWkPw9Ro/versions/uXVWDgPO/autofish-0.9.11-SNAPSHOT.jar",
+      "hash": "sha512-XMpy4/+JHxwtGPi0Ehxq3vdm+QivgywSJ1uwIxPNh361MuaQBzLvr0iOhoqhsQ+uREQM9lLMVUhrS4Zg2H4VSg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "9l1qjGUA",
+      "OVi0FbOH"
+    ],
+    "1.20.1+fabric": [
+      "uXVWDgPO"
+    ],
+    "1.20.2+fabric": [
+      "693adafQ"
+    ]
+  }
+}

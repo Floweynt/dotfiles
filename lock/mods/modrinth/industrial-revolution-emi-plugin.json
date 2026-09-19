@@ -1,0 +1,62 @@
+{
+  "slug": "industrial-revolution-emi-plugin",
+  "projectId": "tk1E0xil",
+  "versions": {
+    "R1mOSsbI": {
+      "filename": "indrev-emi-plugin-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tk1E0xil/versions/R1mOSsbI/indrev-emi-plugin-1.0.0.jar",
+      "hash": "sha512-KNE4YbTyMb0hBlMxOsYneyI54xKi/FBo86adV+p9ve8a8OZmmQpwIbuHrvf6HObUkJ3uTtu61P0tlgGxKunIKg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "industrial-revolution",
+          "projectId": "kFs9AeXi",
+          "type": "required"
+        },
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        }
+      ]
+    },
+    "ilNp6yqj": {
+      "filename": "indrev-emi-plugin-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/tk1E0xil/versions/ilNp6yqj/indrev-emi-plugin-1.0.1.jar",
+      "hash": "sha512-AHLnn4uh01HbxYtBD1xy01lCbDgCb09PfV4xTYhBYEoCjpBEuwD++eTXJoDWRpZBP4EgRqAk6eOM7ZFpT8mKRQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "industrial-revolution",
+          "projectId": "kFs9AeXi",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ilNp6yqj",
+      "R1mOSsbI"
+    ]
+  }
+}

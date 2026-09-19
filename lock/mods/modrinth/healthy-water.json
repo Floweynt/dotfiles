@@ -1,0 +1,111 @@
+{
+  "slug": "healthy-water",
+  "projectId": "DcxOJQkT",
+  "versions": {
+    "3jvbIYsw": {
+      "filename": "healthy_water-forge-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/DcxOJQkT/versions/3jvbIYsw/healthy_water-forge-1.21.1-1.0.1.jar",
+      "hash": "sha512-3k1keoWHbFwC3M2r6KqcMZoJRzUxnYSr6TGh8ioC61QiWeZFduJm5tSayG17y7EkFG0nQkpoTJeJqmgM75330Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "monolib",
+          "projectId": "9leXt4A5",
+          "type": "required"
+        }
+      ]
+    },
+    "RrlYDdTP": {
+      "filename": "healthywater-1.20.1-forge-1.0.0(1).jar",
+      "url": "https://cdn.modrinth.com/data/DcxOJQkT/versions/RrlYDdTP/healthywater-1.20.1-forge-1.0.0%281%29.jar",
+      "hash": "sha512-C8pKuh1eVvHFOMWgIx3pWUEKg6sD4yFNJaAQ66reYG2iUhH/pVXZb5q/CR0JFlybtVH/o3Kf8rhoInLNuwP9mA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XpLpBjUF": {
+      "filename": "healthy_water-merged-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/DcxOJQkT/versions/XpLpBjUF/healthy_water-merged-1.21.1-1.0.1.jar",
+      "hash": "sha512-cV2HYdd0DyguLlh2UJbmGjZuN+x6/QHrzfiYOode8gIkyULsa017H5ezKm52OAGZnezMId/nddMsnuMbbw/rfA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "monolib",
+          "projectId": "9leXt4A5",
+          "type": "required"
+        }
+      ]
+    },
+    "oEaPHKji": {
+      "filename": "healthy_water-merged-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/DcxOJQkT/versions/oEaPHKji/healthy_water-merged-1.20.1-1.0.1.jar",
+      "hash": "sha512-/Halzkd5lpCLrsdiUoEhyblIMZs5rpiBut2Hgkhgil7eXVKvmHM2R9gPvh3aQ4OJegNSjWW+6OPtxC7Jv48UHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "monolib",
+          "projectId": "9leXt4A5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "oEaPHKji"
+    ],
+    "1.20.1+forge": [
+      "oEaPHKji",
+      "RrlYDdTP"
+    ],
+    "1.21+fabric": [
+      "XpLpBjUF"
+    ],
+    "1.21+forge": [
+      "3jvbIYsw"
+    ],
+    "1.21+neoforge": [
+      "XpLpBjUF"
+    ],
+    "1.21.1+fabric": [
+      "XpLpBjUF"
+    ],
+    "1.21.1+forge": [
+      "3jvbIYsw"
+    ],
+    "1.21.1+neoforge": [
+      "XpLpBjUF"
+    ]
+  }
+}

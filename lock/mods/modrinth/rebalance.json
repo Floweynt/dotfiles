@@ -1,0 +1,117 @@
+{
+  "slug": "rebalance",
+  "projectId": "uZQipe0a",
+  "versions": {
+    "3tK7PkkM": {
+      "filename": "ReBalance-FABRIC-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/uZQipe0a/versions/3tK7PkkM/ReBalance-FABRIC-1.2.0.jar",
+      "hash": "sha512-IEyzPuBaAjMN5W1MgxI9IaeR3NmBCqyQlxKcstZITJC1/gFU3R54oLRoSJKQJdwVxKuP++sVbeO9rorknsvfKg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "5pc1JoYm": {
+      "filename": "ReBalance-FABRIC-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uZQipe0a/versions/5pc1JoYm/ReBalance-FABRIC-1.0.0.jar",
+      "hash": "sha512-bNPim2lNC/ESOcRIFPAJN6DiEq45RGqaKtF+3uUvzCipy1hoq+KkMSNWVVh6tPZr2mBq22dG24fePlUHl5M4cQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "pAXbnwiG": {
+      "filename": "ReBalance-FABRIC-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/uZQipe0a/versions/pAXbnwiG/ReBalance-FABRIC-1.1.0.jar",
+      "hash": "sha512-WECDXVZTugyEKB257kcT+AFVH7dx+HH0dPnYu5u31ghRCFPjluzBfKgrUKH/2815676yJz7cIrPkoMK8jl7Zww==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "sCTvFBYJ": {
+      "filename": "ReBalance-FORGE-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uZQipe0a/versions/sCTvFBYJ/ReBalance-FORGE-1.0.0.jar",
+      "hash": "sha512-VB+S2FJ3TrekoRHtB5yY0qwrK6T63e03jaFw9hzIUl8F3Na6A5Vyum0WhzzokGzTJpumeAgz7o6L2hzmijtbWQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        },
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "connector-extras",
+          "projectId": "FYpiwiBR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "3tK7PkkM",
+      "pAXbnwiG",
+      "5pc1JoYm"
+    ],
+    "1.20.1+forge": [
+      "3tK7PkkM",
+      "sCTvFBYJ"
+    ],
+    "1.20.1+neoforge": [
+      "3tK7PkkM"
+    ]
+  }
+}

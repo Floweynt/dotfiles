@@ -1,0 +1,127 @@
+{
+  "slug": "wooden-jetpack",
+  "projectId": "l5sYIoLG",
+  "versions": {
+    "7HG3P1lj": {
+      "filename": "wooden-jetpack-fabric-2.0.0-26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/l5sYIoLG/versions/7HG3P1lj/wooden-jetpack-fabric-2.0.0-26.1.2.jar",
+      "hash": "sha512-JMepMPVctYASbkKurCfWBVcGt7kyhQ/JrnPflBKlZBttz+sdRyYQ905EtGglb8NWRUAQFa7ekEWRCKc/5mEAxQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GoEwhogV": {
+      "filename": "wooden-jetpack 1.0 - 1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/l5sYIoLG/versions/GoEwhogV/wooden-jetpack%201.0%20-%201.20.1.jar",
+      "hash": "sha512-0wE2vmtEe6x8eC3XtGipfZ8SicTe67LScu4Cg+az1kGbfy8tc7x8YxfdYYV9OsVG91uTVIOZv+6kZ/vSGA/H6w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UfZ3548r": {
+      "filename": "wooden-jetpack-neoforge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/l5sYIoLG/versions/UfZ3548r/wooden-jetpack-neoforge-2.0.0.jar",
+      "hash": "sha512-oAmTRLkFArJwcRpt3qocr6NmU0WKd36xlLHxESr7Ck3JVdns/o+aVv+N2kQiEZcNT6gmkJT1BxXHdKCbnQyZQg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "iDynDpSD": {
+      "filename": "wooden-jetpack-neoforge-2.0.0-26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/l5sYIoLG/versions/iDynDpSD/wooden-jetpack-neoforge-2.0.0-26.1.2.jar",
+      "hash": "sha512-b81jeGHMXoI8hqGcy6ZP+SDhVrMQgmw5v2pVebYr1pOuPOuki8ATG8p+l0ixMDIeGqFMBSPOlVt4bdUjNngIMg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "vywF6qoh": {
+      "filename": "wooden-jetpack-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/l5sYIoLG/versions/vywF6qoh/wooden-jetpack-fabric-2.0.0.jar",
+      "hash": "sha512-9zK/wwHHUj+INiq5skyWJ4w16W5IPRx1G5EJoKtVEpHc5X9tRu+DSK6+J5Oh+oGXrvzeLH74zVCngtkg9VHcwQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "GoEwhogV"
+    ],
+    "1.21.1+fabric": [
+      "vywF6qoh"
+    ],
+    "1.21.1+neoforge": [
+      "UfZ3548r"
+    ],
+    "26.1.2+fabric": [
+      "7HG3P1lj"
+    ],
+    "26.1.2+neoforge": [
+      "iDynDpSD"
+    ]
+  }
+}

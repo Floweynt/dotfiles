@@ -1,0 +1,102 @@
+{
+  "slug": "scrolls-and-curses",
+  "projectId": "ufLkN8u6",
+  "versions": {
+    "1dT6M9EX": {
+      "filename": "frycscrolls-4.0.2+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/ufLkN8u6/versions/1dT6M9EX/frycscrolls-4.0.2%2B1.20.jar",
+      "hash": "sha512-+48Jovqn4WRX4SGfscu+q072rHdygeVNF3CbmuNLzWF0I4K6Pz25BHw7zPeGyWmqQ0x+v1Yvmy6cdD/ZJTPmhA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "2ilnkK99": {
+      "filename": "frycscrolls-4.0.1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/ufLkN8u6/versions/2ilnkK99/frycscrolls-4.0.1%2B1.20.jar",
+      "hash": "sha512-PsAHkOKpPH+QCnS1L2E8NnmlF0hn0IzYnal2Wx0k2LIV5L0Vp8goB9eZZOdnsuZGOrcQNMOxcBQT+3qwX+OtHQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "K57uEG34": {
+      "filename": "frycscrolls-5.0.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ufLkN8u6/versions/K57uEG34/frycscrolls-5.0.1%2B1.21.jar",
+      "hash": "sha512-RfByk8k3UAsnKQ8yC2mJd8S2zyyAHADsJV75FHgQ46V+l3rtM4hL5hhe/RRg8VZvlmZtnubTeB6p5gqdBf6a6g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "unremovable-effects",
+          "projectId": "dFtMHqm5",
+          "type": "required"
+        }
+      ]
+    },
+    "iOin946n": {
+      "filename": "frycscrolls-5.0.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ufLkN8u6/versions/iOin946n/frycscrolls-5.0.2%2B1.21.jar",
+      "hash": "sha512-iS1drCllUoydIvyz51GxO0wmiMqIJced6h4++spbLZPHw2kwEae0AMP7AXtzAvXvNeSsqZpEljli2j4cRRw9qQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "unremovable-effects",
+          "projectId": "dFtMHqm5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "1dT6M9EX",
+      "2ilnkK99"
+    ],
+    "1.20.1+fabric": [
+      "1dT6M9EX",
+      "2ilnkK99"
+    ],
+    "1.20.2+fabric": [
+      "1dT6M9EX",
+      "2ilnkK99"
+    ],
+    "1.21+fabric": [
+      "iOin946n",
+      "K57uEG34"
+    ],
+    "1.21.1+fabric": [
+      "iOin946n",
+      "K57uEG34"
+    ]
+  }
+}

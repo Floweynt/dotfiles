@@ -1,0 +1,75 @@
+{
+  "slug": "biome-sniffer",
+  "projectId": "L32xmAlR",
+  "versions": {
+    "CF873rnq": {
+      "filename": "biome-sniffer-1.0-BETA+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/L32xmAlR/versions/CF873rnq/biome-sniffer-1.0-BETA%2B1.20.jar",
+      "hash": "sha512-viIQXhNQ8d2bEOsmvR9CcXNph9/+Ij+LAf7aFcSpX6ghOcg/NVYuIG4ybTaiqV1DV5mnpH9gnhvX1czwvklf7w==",
+      "gameVersions": [
+        "23w07a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CYT033AV": {
+      "filename": "biome-sniffer-1.2-BETA+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/L32xmAlR/versions/CYT033AV/biome-sniffer-1.2-BETA%2B1.20.jar",
+      "hash": "sha512-NTjG/GiTC67FXF76zXZv1hTcnCe1/T4xE1vczaGizb9eby02DcTOXzwS6LcjW84R+tvLsZqBns+euxn8o4wEkQ==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jXs95FNl": {
+      "filename": "biome-sniffer-1.1-BETA+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/L32xmAlR/versions/jXs95FNl/biome-sniffer-1.1-BETA%2B1.20.jar",
+      "hash": "sha512-lbpNWlltFg45QyAA3+mHuCvYUu5P6Ea2YWDC80Ya54s0N0ARf7plFLKL9nhFDU9ncfJhYYHHVmYRH2MjSvhH8Q==",
+      "gameVersions": [
+        "23w07a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "CYT033AV"
+    ],
+    "23w07a+fabric": [
+      "jXs95FNl",
+      "CF873rnq"
+    ]
+  }
+}

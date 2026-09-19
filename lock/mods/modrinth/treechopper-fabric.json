@@ -1,0 +1,31 @@
+{
+  "slug": "treechopper-fabric",
+  "projectId": "lfb5f3dN",
+  "versions": {
+    "k4MkTWQi": {
+      "filename": "TreeChopper-v1.0.0-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/lfb5f3dN/versions/k4MkTWQi/TreeChopper-v1.0.0-mc1.21.1.jar",
+      "hash": "sha512-dPRv0R7aao4kHhCdauDeGaYBvA80J/pokoxSjU+8YMNaVMfiLMTW5tSlFXnbpBXXaL6MWggdWIitqfPcNxwtXQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "k4MkTWQi"
+    ]
+  }
+}

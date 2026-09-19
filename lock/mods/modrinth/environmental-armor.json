@@ -1,0 +1,36 @@
+{
+  "slug": "environmental-armor",
+  "projectId": "5ZTLERg7",
+  "versions": {
+    "OMQc4ecz": {
+      "filename": "EnvironmentalArmor-1.20.1-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/5ZTLERg7/versions/OMQc4ecz/EnvironmentalArmor-1.20.1-1.5.0.jar",
+      "hash": "sha512-sU911Syf7bM4b4OY56s0U7HeIqKY+xkAvpWSs5huLhGNWeFDncGdoli79y23Hs9+NqLZHKfw6K2hvByw+MRPMw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "OMQc4ecz"
+    ]
+  }
+}

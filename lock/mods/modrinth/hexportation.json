@@ -1,0 +1,57 @@
+{
+  "slug": "hexportation",
+  "projectId": "AsqM28gQ",
+  "versions": {
+    "6AxUihOX": {
+      "filename": "hexportation-fabric-1.20.1-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/AsqM28gQ/versions/6AxUihOX/hexportation-fabric-1.20.1-0.0.2.jar",
+      "hash": "sha512-YAUnMDD4b9r8iJdadWuSOZQuuIh7GAUeC7IttnFs0kjSTMKrMhBHyi/AX6AJcvD9sRfbs8SUOy0H+jLtbyNrLQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "P9Zb0V9l": {
+      "filename": "hexportation-fabric-1.20.1-0.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/AsqM28gQ/versions/P9Zb0V9l/hexportation-fabric-1.20.1-0.0.3.jar",
+      "hash": "sha512-hSZm8pPlqhl9Thut8BgRPCof4ixPJCeWInuW0g8fQrQab6+qj/nr+ezjFslA6lWIoNzGbjVxTVA3RzVBDlKm3g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        },
+        {
+          "slug": "moreiotas",
+          "projectId": "Jmt7p37B",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "P9Zb0V9l",
+      "6AxUihOX"
+    ]
+  }
+}

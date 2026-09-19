@@ -1,0 +1,56 @@
+{
+  "slug": "betterweather",
+  "projectId": "YT7319gY",
+  "versions": {
+    "fXFNle2Z": {
+      "filename": "better_weather-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/YT7319gY/versions/fXFNle2Z/better_weather-0.3.0.jar",
+      "hash": "sha512-Gc/kyLziwjsjiLpTeDQ6PF3hCQQY+pP/x2OpVM4z+xnMrkuuf93GtXw8WUGqOOra4+md8rkX6mTRN4rRpXLFrA==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    },
+    "p12qcvmL": {
+      "filename": "better_weather-0.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/YT7319gY/versions/p12qcvmL/better_weather-0.3.1.jar",
+      "hash": "sha512-UP2yKlg8MCpXmotfA+9pTDCMX2goDp0j+5obmPDTI/BHrKioxC898lVPtgPGhEJ9x/ytTJlcU8RG/DMbQLYGug==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "p12qcvmL"
+    ],
+    "b1.7.3+fabric": [
+      "p12qcvmL",
+      "fXFNle2Z"
+    ]
+  }
+}

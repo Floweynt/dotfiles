@@ -1,0 +1,76 @@
+{
+  "slug": "alexs-spelunkered-immersive-ores",
+  "projectId": "BwRS1Epf",
+  "versions": {
+    "92dCHYhg": {
+      "filename": "alex_spelunkered_immersive_ores.zip",
+      "url": "https://cdn.modrinth.com/data/BwRS1Epf/versions/92dCHYhg/alex_spelunkered_immersive_ores.zip",
+      "hash": "sha512-zXRR2FCd76xrTsdcQQM9T2BlARb00wpRmhtsGire/3BXxegCN3tby0RsbIbAPHatHVI7SaYHsPH+QSU19AeDDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "mythic-upgrades",
+          "projectId": "ERH7cFoy",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-ores",
+          "projectId": "F9Vuwq3S",
+          "type": "required"
+        }
+      ]
+    },
+    "xOeAfXTX": {
+      "filename": "alex_spelunkered_immersive_ores.jar",
+      "url": "https://cdn.modrinth.com/data/BwRS1Epf/versions/xOeAfXTX/alex_spelunkered_immersive_ores.jar",
+      "hash": "sha512-Ney+Uc1NQeDn+HSazQwWP3KvbcHXtUnK27/oCYjyKO8JNJmyxPwks1utymQ0M/SkptifwqhnsofdowMM4U69xw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "mythic-upgrades",
+          "projectId": "ERH7cFoy",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-ores",
+          "projectId": "F9Vuwq3S",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "92dCHYhg"
+    ],
+    "1.20.1+fabric": [
+      "xOeAfXTX"
+    ],
+    "1.20.1+forge": [
+      "xOeAfXTX"
+    ],
+    "1.20.1+neoforge": [
+      "xOeAfXTX"
+    ],
+    "1.20.1+quilt": [
+      "xOeAfXTX"
+    ]
+  }
+}

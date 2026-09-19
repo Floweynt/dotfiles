@@ -1,0 +1,92 @@
+{
+  "slug": "repurposed-structures-paladins",
+  "projectId": "L16BPBvl",
+  "versions": {
+    "L4kN6F8d": {
+      "filename": "repurposed_structures_paladins_and_priests_compat_v3.jar",
+      "url": "https://cdn.modrinth.com/data/L16BPBvl/versions/L4kN6F8d/repurposed_structures_paladins_and_priests_compat_v3.jar",
+      "hash": "sha512-TLQ/p56s0WKWsqnemJHa75wOM+LiQmYhvPp5rzhYE70JPWq8jzcajOqiRWE/QqiGY54vDLVHsi8fns+fnp/NDQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        },
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        }
+      ]
+    },
+    "SiafWE57": {
+      "filename": "Repurposed_Structures-Paladins_v1.zip",
+      "url": "https://cdn.modrinth.com/data/L16BPBvl/versions/SiafWE57/Repurposed_Structures-Paladins_v1.zip",
+      "hash": "sha512-ACgDlDb4l7TcM/NnTrwlk/H+CPPowvMEU7ISwPPApjlUccy7awfwOz9uAKgGCe+qwYqYtgWhdLu2ouVeKr2PsA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        },
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        }
+      ]
+    },
+    "qAZSie1E": {
+      "filename": "Repurposed_Structures-Paladins_v2.zip",
+      "url": "https://cdn.modrinth.com/data/L16BPBvl/versions/qAZSie1E/Repurposed_Structures-Paladins_v2.zip",
+      "hash": "sha512-7f97ROcRtT+rtUYEf85QdWexTkO80+bwWdP3PjAiyfqkpBDTKBI3RgSte6tYQebsTOpMUlhV4ztX2zd03xgZ3g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        },
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "SiafWE57"
+    ],
+    "1.20.1+datapack": [
+      "qAZSie1E"
+    ],
+    "1.21.1+fabric": [
+      "L4kN6F8d"
+    ]
+  }
+}

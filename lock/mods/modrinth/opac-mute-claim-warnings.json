@@ -1,0 +1,207 @@
+{
+  "slug": "opac-mute-claim-warnings",
+  "projectId": "6ohGiC7q",
+  "versions": {
+    "DU47FxQ8": {
+      "filename": "OPACMuteClaimWarnings-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6ohGiC7q/versions/DU47FxQ8/OPACMuteClaimWarnings-neoforge-1.0.jar",
+      "hash": "sha512-3N+6+NVX7BJGebgVpDAttbIt59Ceo4nj8dEkcuJlVor4oN4ZFExzKbGpncihurY+vaaThlNNF8qRTCmHJNqITg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        }
+      ]
+    },
+    "k4iIWJMk": {
+      "filename": "OPACMuteClaimWarnings-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6ohGiC7q/versions/k4iIWJMk/OPACMuteClaimWarnings-fabric-1.0.jar",
+      "hash": "sha512-vcwjWYI+Mmv7rAmrHgWa3hvEluxTZvBnQCy6/WBBV4nekoHx+zzGhk4UObmQvG0WTeFQt+NJdaKRTBal/as4zw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        }
+      ]
+    },
+    "vN4zM5a4": {
+      "filename": "opacmuteclaimwarnings-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6ohGiC7q/versions/vN4zM5a4/opacmuteclaimwarnings-1.0.jar",
+      "hash": "sha512-IFGpkcG8C4wMTv11MdiHCRR3rSjuRK6Ks+S84I0umjg3GfY4/gLbEoMZR2YoleMUqPJtxzpMAPepUdACnyT03A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.1+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.1+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.1+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.10+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.10+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.10+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.11+neoforge": [
+      "vN4zM5a4"
+    ],
+    "1.21.2+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.2+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.2+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.3+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.3+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.3+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.4+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.4+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.4+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.5+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.5+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.5+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.6+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.6+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.6+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.7+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.7+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.7+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.8+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.8+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.8+quilt": [
+      "k4iIWJMk"
+    ],
+    "1.21.9+fabric": [
+      "k4iIWJMk"
+    ],
+    "1.21.9+neoforge": [
+      "vN4zM5a4",
+      "DU47FxQ8"
+    ],
+    "1.21.9+quilt": [
+      "k4iIWJMk"
+    ]
+  }
+}

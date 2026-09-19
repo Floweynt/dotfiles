@@ -1,0 +1,56 @@
+{
+  "slug": "astudiolib",
+  "projectId": "TgTLcDxi",
+  "versions": {
+    "HCaVpMNP": {
+      "filename": "astudiolib-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TgTLcDxi/versions/HCaVpMNP/astudiolib-1.1.0.jar",
+      "hash": "sha512-otgRKzvKrPmzaXd9+wfeivPhZ+aCke3sM0WxZLL2CNEt1rmQChOmAFqxQcMpNNwATXTivyQ0tMdXdrEUjHkKlw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "RFz1LGoE": {
+      "filename": "astudiolib-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/TgTLcDxi/versions/RFz1LGoE/astudiolib-1.2.0.jar",
+      "hash": "sha512-unU9p3FJi7ewfNDfC2XtRZ0rDT5uhdqveq2n2a9F/XWA/wimsJyLI17mUlLBafHM7f0QSrW/F/IkK9KUFQj4eg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "HCaVpMNP"
+    ],
+    "26.1+fabric": [
+      "RFz1LGoE"
+    ],
+    "26.1.1+fabric": [
+      "RFz1LGoE"
+    ],
+    "26.1.2+fabric": [
+      "RFz1LGoE"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "exhud-directors-cut",
+  "projectId": "WBMAdFoM",
+  "versions": {
+    "8tG5ZPkz": {
+      "filename": "exhud-1.3.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/WBMAdFoM/versions/8tG5ZPkz/exhud-1.3.0%2B1.20.1.jar",
+      "hash": "sha512-gMkHejM7G6p9NaQV8gOxbKle3opnrnObeSot2bqE72sUbJZWKsttM/1i/Urgk4KpqLBG5ixyx2g+gGLQUscDqg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FIxlHfbf": {
+      "filename": "exhud-1.2.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/WBMAdFoM/versions/FIxlHfbf/exhud-1.2.0%2B1.20.1.jar",
+      "hash": "sha512-dEH0sODF4o6deKNVa2nxr8aBp6u4L4y7Jpjy2mwmLjvVTi9vk1zJDt3AIQb3aByzg+y/39/apJQ/j5/MzTNpSw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8tG5ZPkz",
+      "FIxlHfbf"
+    ],
+    "1.20.1+quilt": [
+      "8tG5ZPkz"
+    ]
+  }
+}

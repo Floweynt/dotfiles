@@ -1,0 +1,83 @@
+{
+  "slug": "lockslot",
+  "projectId": "H6GgMaB6",
+  "versions": {
+    "ejfncbJo": {
+      "filename": "lockslot-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/H6GgMaB6/versions/ejfncbJo/lockslot-1.0.2.jar",
+      "hash": "sha512-v3iHDHD0eY8wSRuD/OfqAcN0jd/ULdWN8OruT5b06CvfD1Rej1AY4WUnKXnrb8DlWFcPSmhXEyLFc15euY7x8Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "hgkQwbdA": {
+      "filename": "lockslot-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/H6GgMaB6/versions/hgkQwbdA/lockslot-1.0.2.jar",
+      "hash": "sha512-kXZLeuZrSXmesSTsywkvYyJWdcMIka81K6dwhpEhmhDDMzTmkG+5zccojtiLH1pME5dtXaZDl60njnXcgcxWHQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "k2Po5eA3": {
+      "filename": "lockslot-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/H6GgMaB6/versions/k2Po5eA3/lockslot-1.2.3.jar",
+      "hash": "sha512-hN7s57GWfx597sb7qXfz6xOCjTxPBuoz3gEJi0sVvF/DnHxQj8uZ+CSkTa8XLK0uQk1oIROO96Mx6vIb4mdwYw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "qhh2Ji4Q": {
+      "filename": "lockslot-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/H6GgMaB6/versions/qhh2Ji4Q/lockslot-1.0.2.jar",
+      "hash": "sha512-VSr626b/QbabNA/w4oeESG0kwEaPO6iAh1fn2nAz6GK8LvZsewRN+UuevJvTzKXgpBvxIW+/W8M4Vs6AOOogkw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "k2Po5eA3",
+      "hgkQwbdA"
+    ],
+    "1.21.4+fabric": [
+      "ejfncbJo",
+      "qhh2Ji4Q"
+    ]
+  }
+}

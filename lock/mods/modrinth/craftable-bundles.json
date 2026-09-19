@@ -1,0 +1,126 @@
+{
+  "slug": "craftable-bundles",
+  "projectId": "6BricqUj",
+  "versions": {
+    "UFrqPX40": {
+      "filename": "craftable-bundles-41.1.jar",
+      "url": "https://cdn.modrinth.com/data/6BricqUj/versions/UFrqPX40/craftable-bundles-41.1.jar",
+      "hash": "sha512-njzzkxEUB11sVO0ZgtLQgT4talX02sSL7C0//j20vARMitwa6Jqs+Wgm70uMP9ju4AQ6AskYz5D0WRMm8Jqcjw==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "XChB2p8t": {
+      "filename": "craftable-bundles-48.1.jar",
+      "url": "https://cdn.modrinth.com/data/6BricqUj/versions/XChB2p8t/craftable-bundles-48.1.jar",
+      "hash": "sha512-hzM2/KEtrhfB/wX/eRw3UZnZkvNMcTNa251ti4XiEwbigwQ0XoNsqoXENQ3COtDjnRCX85APVqBHeGx0yRTcxQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kQUdrb4K": {
+      "filename": "Craftable Bundles 1.21 (v48.1).zip",
+      "url": "https://cdn.modrinth.com/data/6BricqUj/versions/kQUdrb4K/Craftable%20Bundles%201.21%20%28v48.1%29.zip",
+      "hash": "sha512-y4HymxAlbKabvUmNyaHVoDtuxM8WsLdQUV3MM3h60lC8id5c+n04xfRM+sIMuO2cFe1lfaR2OwzaFXy0Ggx4bQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "mUTc8yAw": {
+      "filename": "Craftable Bundles 1.20.5 [v41.1].zip",
+      "url": "https://cdn.modrinth.com/data/6BricqUj/versions/mUTc8yAw/Craftable%20Bundles%201.20.5%20%5Bv41.1%5D.zip",
+      "hash": "sha512-0khlYR2e8PSYS5xneo2gVV1pwnnVwz6zHJW8CdqOCCiFaOCJkvsHEzSvtpIWXwh/UD65IDloMJLdwdzaJt7IDQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.5+datapack": [
+      "mUTc8yAw"
+    ],
+    "1.20.5+fabric": [
+      "UFrqPX40"
+    ],
+    "1.20.5+forge": [
+      "UFrqPX40"
+    ],
+    "1.20.5+quilt": [
+      "UFrqPX40"
+    ],
+    "1.20.6+datapack": [
+      "mUTc8yAw"
+    ],
+    "1.20.6+fabric": [
+      "UFrqPX40"
+    ],
+    "1.20.6+forge": [
+      "UFrqPX40"
+    ],
+    "1.20.6+quilt": [
+      "UFrqPX40"
+    ],
+    "1.21+datapack": [
+      "kQUdrb4K"
+    ],
+    "1.21+fabric": [
+      "XChB2p8t"
+    ],
+    "1.21+forge": [
+      "XChB2p8t"
+    ],
+    "1.21+quilt": [
+      "XChB2p8t"
+    ],
+    "1.21.1+datapack": [
+      "kQUdrb4K"
+    ],
+    "1.21.1+fabric": [
+      "XChB2p8t"
+    ],
+    "1.21.1+forge": [
+      "XChB2p8t"
+    ],
+    "1.21.1+quilt": [
+      "XChB2p8t"
+    ]
+  }
+}

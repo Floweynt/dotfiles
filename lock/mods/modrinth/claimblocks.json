@@ -1,0 +1,77 @@
+{
+  "slug": "claimblocks",
+  "projectId": "AK7UBwFk",
+  "versions": {
+    "AnMXaiwy": {
+      "filename": "ProtectionStones-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AK7UBwFk/versions/AnMXaiwy/ProtectionStones-1.0.0.jar",
+      "hash": "sha512-SNDA5GckN4CplutfQmmOGte4EGD4F4wn019FbBizZ9jtglTiJvBxkXbm8iu3evS5ch/WkgsimxU+0SS/TG7J4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dzldllLj": {
+      "filename": "ClaimBlocks-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AK7UBwFk/versions/dzldllLj/ClaimBlocks-1.0.jar",
+      "hash": "sha512-vRe2vXuWjdYZPvMQZKhz4W/PsSYFnaEN1HZga3qpbimebJIv1fEYNTMjH2RR2e3Btotj/4waAWB6uEdy5vt7pg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        },
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "dzldllLj",
+      "AnMXaiwy"
+    ]
+  }
+}

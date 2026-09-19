@@ -1,0 +1,51 @@
+{
+  "slug": "choppers-delight-port",
+  "projectId": "8jKYKu9N",
+  "versions": {
+    "2KHxIBUP": {
+      "filename": "choppers-delight-port-0.1.0+1.21.8-pre-1.jar",
+      "url": "https://cdn.modrinth.com/data/8jKYKu9N/versions/2KHxIBUP/choppers-delight-port-0.1.0%2B1.21.8-pre-1.jar",
+      "hash": "sha512-6w9Xgt7GwTPvKHtlK1fbvotq2EadUkimSx/hw2nYbU/D65VclGLSRdawZYQQmXGsuUhVoyTFuLNZi11epF3qJg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "choppers-delight",
+          "projectId": "5Ngo9jUy",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "borukva-food-exotic",
+          "projectId": "odwLjifj",
+          "type": "required"
+        },
+        {
+          "slug": "borukva-food",
+          "projectId": "l4Fz32NE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "2KHxIBUP"
+    ]
+  }
+}

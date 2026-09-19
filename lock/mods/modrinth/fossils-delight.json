@@ -1,0 +1,64 @@
+{
+  "slug": "fossils-delight",
+  "projectId": "py4elVRG",
+  "versions": {
+    "3j5u4BnA": {
+      "filename": "fossils_delight-0.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/py4elVRG/versions/3j5u4BnA/fossils_delight-0.1.0-forge.jar",
+      "hash": "sha512-2MirlH6F6CoB/KHmxoICsI9eWRF57JwbB2JhCf3+iOPUyf1zX3jxCSBxzpB4vgFX3CLQGjpKoROAbagTXvD20A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "fossils-and-archeology-revival",
+          "projectId": "IJY7IqPP",
+          "type": "required"
+        }
+      ]
+    },
+    "ofC1YRjj": {
+      "filename": "fossils_delight-0.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/py4elVRG/versions/ofC1YRjj/fossils_delight-0.1.0-fabric.jar",
+      "hash": "sha512-qnFhWAWZuwtvxK5raq8EHO3U1mI9gwqjo62kSm6/JqOvQHygf2/EvXNRtA6RlFK/KR7jiNwTq5mCLRLZ0tJu2Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "fossils-and-archeology-revival",
+          "projectId": "IJY7IqPP",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ofC1YRjj"
+    ],
+    "1.20.1+forge": [
+      "3j5u4BnA"
+    ]
+  }
+}

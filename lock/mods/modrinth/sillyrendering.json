@@ -1,0 +1,77 @@
+{
+  "slug": "sillyrendering",
+  "projectId": "FEubqlnM",
+  "versions": {
+    "4pppXbJ9": {
+      "filename": "sillyrendering-0.1.0-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/FEubqlnM/versions/4pppXbJ9/sillyrendering-0.1.0-alpha.jar",
+      "hash": "sha512-8fqbasHf9NP4YpycotvJpyMgbtePHZQB7E2rUWWP81tBEesa0Br/nGQIG2D9zIA7OCb+JI9zBNrceB9xmHcU5w==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "RZyjxoCW": {
+      "filename": "FunnyTesselator-0.0.2-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/FEubqlnM/versions/RZyjxoCW/FunnyTesselator-0.0.2-alpha.jar",
+      "hash": "sha512-mjoX23mjEOH4Uig6H7hHNi2PBaea84U6khiN7zFCtmSec56x0mbJ6yb95JvlKOlDneC8+JgqjIZSlEF4JT37DQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "apKhPKkJ": {
+      "filename": "FunnyTesselator-0.0.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/FEubqlnM/versions/apKhPKkJ/FunnyTesselator-0.0.1-alpha.jar",
+      "hash": "sha512-9NuQs7yIbnXnfPJI4QIzRoFhJzj95n4bLjChPFEwRB3PvuU07gPo9xjOW/XO5wTsYWndVSEJ5o8eGr3ZN8ayew==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "RZyjxoCW",
+      "apKhPKkJ"
+    ],
+    "1.21.1+fabric": [
+      "4pppXbJ9"
+    ],
+    "1.21.2+fabric": [
+      "4pppXbJ9"
+    ],
+    "1.21.3+fabric": [
+      "4pppXbJ9"
+    ]
+  }
+}

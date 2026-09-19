@@ -1,0 +1,75 @@
+{
+  "slug": "fireballguard",
+  "projectId": "25MThKIR",
+  "versions": {
+    "6n6H19T3": {
+      "filename": "fireballguard-1.21.1_1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/25MThKIR/versions/6n6H19T3/fireballguard-1.21.1_1.0.1.jar",
+      "hash": "sha512-4sNqQdArU/Ro+7R4Of3NMysz7pYxsSjKSPVHaHLITtxAwURMVcY6s17x8JbtLh9j5CAtTebJGfkXX6GXqgGmrQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "BrbiX5Eh": {
+      "filename": "fireballguard-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/25MThKIR/versions/BrbiX5Eh/fireballguard-1.0.0.jar",
+      "hash": "sha512-BZjZpF4IKsX2XpN4RKnEHYEaIDXvVGn+BmgZB26LqL/syC6sIDlpL3c8/tJU0tHpUW4P/wfpaMx6YvZA39OKPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ki6Prpvr": {
+      "filename": "fireballguard-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/25MThKIR/versions/ki6Prpvr/fireballguard-1.0.1.jar",
+      "hash": "sha512-ltkE1ljZZheBxJWRc+3+8tcBf1bRPfbiI9RjxzDGYc+A7sSG7/KNa25sYm+E7z57gwAnYxwjzWVoKPUflAESdg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ki6Prpvr",
+      "BrbiX5Eh"
+    ],
+    "1.21.1+fabric": [
+      "6n6H19T3"
+    ]
+  }
+}

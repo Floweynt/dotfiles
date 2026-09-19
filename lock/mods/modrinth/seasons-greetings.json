@@ -1,0 +1,54 @@
+{
+  "slug": "seasons-greetings",
+  "projectId": "U1lJiXjU",
+  "versions": {
+    "TGtPXsAF": {
+      "filename": "seasonsgreetings-1.0.2+fabric.1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/U1lJiXjU/versions/TGtPXsAF/seasonsgreetings-1.0.2%2Bfabric.1.21.1.jar",
+      "hash": "sha512-lZ1TvV3vH+2lZprGD1N+wdqM/ov3AjOw4u8dg/3WPUg8qcPTE02yuyaJTVgFSpshM6g/hnyWTRRS/RhoKXlr+g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "gdwUMGHA": {
+      "filename": "seasonsgreetings-1.0.2+neoforge.1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/U1lJiXjU/versions/gdwUMGHA/seasonsgreetings-1.0.2%2Bneoforge.1.21.1.jar",
+      "hash": "sha512-6nsJzQB7I4SS3jGdrmLJ2GQL4iVC9o4zcsRJNUwdgxXpt5KWV1GyZzDHlSQ+Q0wL6p0EOJdZwifIdGIecJn7Pg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "TGtPXsAF"
+    ],
+    "1.21.1+neoforge": [
+      "gdwUMGHA"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "cobblemon-trainer-ai-switch-fix",
+  "projectId": "X4CkxNBa",
+  "versions": {
+    "9DhmsGK6": {
+      "filename": "cobblemon-switchfix-neoforge-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/X4CkxNBa/versions/9DhmsGK6/cobblemon-switchfix-neoforge-1.2.jar",
+      "hash": "sha512-Q1itlHz0NP/Uk1KRlm9a7N+ujljU2vVpFH0Zk67uckXgmOJbAjuagWZHeLmMkpf+RW61CBczS+2cUr/AhgvYUw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "KyqgbG3x": {
+      "filename": "cobblemon-switchfix-fabric-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/X4CkxNBa/versions/KyqgbG3x/cobblemon-switchfix-fabric-1.1.jar",
+      "hash": "sha512-GsKCjVsj8Zhvq40QJs5wl6s0GykzBYtYNxUOm+P0+qG0tcQDG2OiSNTxt+5AHZLxccmL8lwz7NX/g3GCST9peA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "knXSZqjb": {
+      "filename": "cobblemon-switchfix-fabric-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/X4CkxNBa/versions/knXSZqjb/cobblemon-switchfix-fabric-1.2.jar",
+      "hash": "sha512-xuACgf3ArIfd87gkk2j+Sa0hWjHMwYkjYkAxFBE36QXC7Q00zb1mryEAqhHaBiiiVApo2pumCTCxtzgrFeMQbA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "naU2F2Lb": {
+      "filename": "cobblemon-switchfix-neoforge-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/X4CkxNBa/versions/naU2F2Lb/cobblemon-switchfix-neoforge-1.1.jar",
+      "hash": "sha512-xYkaOKrvIna79e2LHLsvNUuFpNNu9ln2lhvVwvXu/ezY6mvU+UIz/oLVfPXMYNzus/GCC8UQn7o51V4R2puOBQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "knXSZqjb",
+      "KyqgbG3x"
+    ],
+    "1.21.1+neoforge": [
+      "9DhmsGK6",
+      "naU2F2Lb"
+    ]
+  }
+}

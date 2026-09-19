@@ -1,0 +1,135 @@
+{
+  "slug": "rarityglow",
+  "projectId": "vgARNRWA",
+  "versions": {
+    "FbVjyraG": {
+      "filename": "RarityGlow-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vgARNRWA/versions/FbVjyraG/RarityGlow-1.0.0.jar",
+      "hash": "sha512-SP5UiK0YJu2oh3GirDGtmyi/7vFEIPE08N6cYvSnXWD0TELX8W2Q/2JF/yZR9Yt/VximnuCVibT2NOntqwV/mA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "Gno5PmUg": {
+      "filename": "RarityGlow-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/vgARNRWA/versions/Gno5PmUg/RarityGlow-1.1.3.jar",
+      "hash": "sha512-5F4X2LShhGEnImCTds8KhuGXbJYT2ayoxOEDZEKSg06NEZsZAqkg/C2D4Hn4rKfXzu2InYhQR3ThCE1KqxAAZw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "HabjowWo": {
+      "filename": "RarityGlow-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/vgARNRWA/versions/HabjowWo/RarityGlow-1.1.1.jar",
+      "hash": "sha512-8PAHkpk9evn1ABl7ezTufUHSCbOWgZUmxgGCIxJ1/kvmBmVtwusL5VsQU5+BQ6OEMPZ/IrH08rd/th9sGIrXkg==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "HdzJECWI": {
+      "filename": "RarityGlow-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/vgARNRWA/versions/HdzJECWI/RarityGlow-1.1.5.jar",
+      "hash": "sha512-P57tuZFquqL3Jg81Wftc2u/7hGwqppGbFG1Ym0xRSJKF0jlm4vMu+THqmnjkZwU3IUlW9TpFs0KP7pyvw9EYkQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cituapml": {
+      "filename": "RarityGlow-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vgARNRWA/versions/cituapml/RarityGlow-1.1.0.jar",
+      "hash": "sha512-d25SZpCaOcZgwBLMPb6jYRjeBktXko9WQTLPa0XrubQ0mytwWnimGv5gB269y6DR8E43pt4P2u9Ns+o4uq00Cw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "sV8Bnk3Y": {
+      "filename": "RarityGlow-1.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/vgARNRWA/versions/sV8Bnk3Y/RarityGlow-1.1.4.jar",
+      "hash": "sha512-TBpwgicc51SoxH6BTb9in2ASYi/bRCfKQc2Pi8FUOPP8FiDik8K0yUM258AIzDfavkYdpcE4w7j9ebURO9JU8g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "FbVjyraG"
+    ],
+    "26.1+fabric": [
+      "sV8Bnk3Y",
+      "Gno5PmUg",
+      "HabjowWo",
+      "cituapml"
+    ],
+    "26.1.1+fabric": [
+      "sV8Bnk3Y"
+    ],
+    "26.1.2+fabric": [
+      "sV8Bnk3Y"
+    ],
+    "26.2+fabric": [
+      "HdzJECWI"
+    ]
+  }
+}

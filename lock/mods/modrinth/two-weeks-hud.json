@@ -1,0 +1,115 @@
+{
+  "slug": "two-weeks-hud",
+  "projectId": "KgZ9ZaXe",
+  "versions": {
+    "CQRvMB4S": {
+      "filename": "twoweeks-0.0.3+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/KgZ9ZaXe/versions/CQRvMB4S/twoweeks-0.0.3%2B1.20.jar",
+      "hash": "sha512-Jte2D8sjL3APIhS6s4NMTSNYvMQBM2kbwhJljjOoqOiDVFrmS94BU/+C4u6UADk6Z1Y+cSfVKuDo8FWu1jMm2g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "CvPmkro4": {
+      "filename": "twoweeks-0.0.1+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/KgZ9ZaXe/versions/CvPmkro4/twoweeks-0.0.1%2B1.19.3.jar",
+      "hash": "sha512-Dh+l8f3i40cizYRBZxaydLQEioxGCr07ibKarli9HwjTpge+wxWY0vPHTr2t8IwFNj5h498PK0Pd9BHWVQpk+g==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VeaspfPF": {
+      "filename": "two-weeks-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/KgZ9ZaXe/versions/VeaspfPF/two-weeks-1.0.1.jar",
+      "hash": "sha512-RUBrSGNSU4vXFp8gt48CK4EtXVWl+7dHLPq0tsDDxTrO4ngaZbm+5vauZWqIFJlpLUiRRkeCr6GSitGJvCHp9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "translucencyfix",
+          "projectId": "xp45cyDI",
+          "type": "required"
+        }
+      ]
+    },
+    "flnEhUoC": {
+      "filename": "twoweeks-0.0.2+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/KgZ9ZaXe/versions/flnEhUoC/twoweeks-0.0.2%2B1.19.3.jar",
+      "hash": "sha512-NEhuQRJOMdVtoOMVcD+H6ZagPFh6I+wbqvuryulOIhKHKaD5RYao/DCiCQQY230KkpnnDEfw6dai5CWoUdXklg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "v9kmoDpI": {
+      "filename": "two-weeks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KgZ9ZaXe/versions/v9kmoDpI/two-weeks-1.0.0.jar",
+      "hash": "sha512-hczClftqiG9i5eOvtUYcMXq4KjqS2wQagWx3GjjTW0MUaL8uIbiGAdqUxZuxL5x5w2cWpPw0e2CMUUFRsqCDRA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "translucencyfix",
+          "projectId": "xp45cyDI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+quilt": [
+      "flnEhUoC",
+      "CvPmkro4"
+    ],
+    "1.20+quilt": [
+      "CQRvMB4S"
+    ],
+    "1.20.1+fabric": [
+      "VeaspfPF",
+      "v9kmoDpI"
+    ],
+    "1.20.1+quilt": [
+      "VeaspfPF",
+      "v9kmoDpI",
+      "CQRvMB4S"
+    ]
+  }
+}

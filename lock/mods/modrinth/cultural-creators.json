@@ -1,0 +1,114 @@
+{
+  "slug": "cultural-creators",
+  "projectId": "dsR1i0P9",
+  "versions": {
+    "ESb4IKAg": {
+      "filename": "cultural-creators-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsR1i0P9/versions/ESb4IKAg/cultural-creators-1.1.0.jar",
+      "hash": "sha512-ElcV3sRp4AjW6Ed0IzB64wooX1tLh3CcJodDoLwt5OA3hAkSQOvEZXV/a+SXBNZyJS336U28djPaQMPfcIO8Cw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "cultural-delights-fabric",
+          "projectId": "9Gy8sTXS",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "gJyt4FwB": {
+      "filename": "culturalcreators-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsR1i0P9/versions/gJyt4FwB/culturalcreators-1.0.jar",
+      "hash": "sha512-Td43h3ZUnMX9VDZ5pcPn+H8aBVSaY5zVJ3tmPsfQIO3oQJhmmpu2MA9aR86gVc7OVgaFb8u7+6bKIEpTrWckGQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "cultural-delights",
+          "projectId": "YttyNOFA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ESb4IKAg"
+    ],
+    "1.20.1+forge": [
+      "gJyt4FwB"
+    ],
+    "1.20.2+fabric": [
+      "ESb4IKAg"
+    ],
+    "1.20.2+forge": [
+      "gJyt4FwB"
+    ],
+    "1.20.3+fabric": [
+      "ESb4IKAg"
+    ],
+    "1.20.3+forge": [
+      "gJyt4FwB"
+    ],
+    "1.20.4+fabric": [
+      "ESb4IKAg"
+    ],
+    "1.20.4+forge": [
+      "gJyt4FwB"
+    ],
+    "1.20.5+fabric": [
+      "ESb4IKAg"
+    ],
+    "1.20.5+forge": [
+      "gJyt4FwB"
+    ],
+    "1.20.6+fabric": [
+      "ESb4IKAg"
+    ],
+    "1.20.6+forge": [
+      "gJyt4FwB"
+    ]
+  }
+}

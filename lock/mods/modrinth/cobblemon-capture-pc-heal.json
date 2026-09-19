@@ -1,0 +1,31 @@
+{
+  "slug": "cobblemon-capture-pc-heal",
+  "projectId": "W3Dr0Mk2",
+  "versions": {
+    "CnTF2dQA": {
+      "filename": "cobblemon_capture_pc_heal-fabric-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/W3Dr0Mk2/versions/CnTF2dQA/cobblemon_capture_pc_heal-fabric-0.1.jar",
+      "hash": "sha512-EnUOeclwYKyOycCkyYw6SSeJOgexp9DET5sJKk06MIVXlFWdvir9icHnidv8/dfhjqcMzSN+cFkIkh+JoDPZvQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "CnTF2dQA"
+    ]
+  }
+}

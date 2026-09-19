@@ -1,0 +1,158 @@
+{
+  "slug": "minecraft-extended-data-pack",
+  "projectId": "z0qhK9W8",
+  "versions": {
+    "4jelmXu6": {
+      "filename": "Minecraft-Extended-DP.zip",
+      "url": "https://cdn.modrinth.com/data/z0qhK9W8/versions/4jelmXu6/Minecraft-Extended-DP.zip",
+      "hash": "sha512-YHXfS/EoBy95eB+KNqN35zakqWVdgeidmij4ZnOpyB/8ikJWCmdj4sR8yfA5mWLma0b04z+ExQsM2pT+r1hJBQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "betterend",
+          "projectId": "gc8OEnCC",
+          "type": "required"
+        }
+      ]
+    },
+    "8xvaUGYJ": {
+      "filename": "minecraft-extended-data-pack-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/z0qhK9W8/versions/8xvaUGYJ/minecraft-extended-data-pack-0.2.0.jar",
+      "hash": "sha512-J9HULpxf6iepKf1JGZrIYY/C5wrNUSoaAimjbjzhHXmX2EaqcGSfuCRiz4kixJvAr74tADRyxh8XtXBVAIs9XA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "betterend",
+          "projectId": "gc8OEnCC",
+          "type": "required"
+        }
+      ]
+    },
+    "eiELYBwx": {
+      "filename": "Minecraft-Extended-DP.zip",
+      "url": "https://cdn.modrinth.com/data/z0qhK9W8/versions/eiELYBwx/Minecraft-Extended-DP.zip",
+      "hash": "sha512-8BBryAXCHMtaAOLeUsvZ5h6YcJIMlJqZIrF5x0P41nPOmqQHLg9ANRbZk7fmKmdIktKKnCCWFrMXBE2plDQmeA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "betterend",
+          "projectId": "gc8OEnCC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+datapack": [
+      "eiELYBwx"
+    ],
+    "1.19.1+datapack": [
+      "eiELYBwx"
+    ],
+    "1.19.2+datapack": [
+      "eiELYBwx"
+    ],
+    "1.19.3+datapack": [
+      "eiELYBwx"
+    ],
+    "1.19.4+datapack": [
+      "eiELYBwx"
+    ],
+    "1.20+datapack": [
+      "4jelmXu6",
+      "eiELYBwx"
+    ],
+    "1.20+fabric": [
+      "8xvaUGYJ"
+    ],
+    "1.20+forge": [
+      "8xvaUGYJ"
+    ],
+    "1.20+quilt": [
+      "8xvaUGYJ"
+    ],
+    "1.20.1+datapack": [
+      "4jelmXu6",
+      "eiELYBwx"
+    ],
+    "1.20.1+fabric": [
+      "8xvaUGYJ"
+    ],
+    "1.20.1+forge": [
+      "8xvaUGYJ"
+    ],
+    "1.20.1+quilt": [
+      "8xvaUGYJ"
+    ],
+    "1.20.2+datapack": [
+      "4jelmXu6",
+      "eiELYBwx"
+    ],
+    "1.20.2+fabric": [
+      "8xvaUGYJ"
+    ],
+    "1.20.2+forge": [
+      "8xvaUGYJ"
+    ],
+    "1.20.2+quilt": [
+      "8xvaUGYJ"
+    ],
+    "1.20.3+datapack": [
+      "eiELYBwx"
+    ],
+    "1.20.4+datapack": [
+      "eiELYBwx"
+    ]
+  }
+}

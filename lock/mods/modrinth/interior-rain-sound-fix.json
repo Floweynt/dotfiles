@@ -1,0 +1,36 @@
+{
+  "slug": "interior-rain-sound-fix",
+  "projectId": "btm4ujTo",
+  "versions": {
+    "69IYAP6N": {
+      "filename": "interior-rain-sound-1.0.0-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/btm4ujTo/versions/69IYAP6N/interior-rain-sound-1.0.0-alpha.jar",
+      "hash": "sha512-29iaFescZYVoVYiC+t6nZGP3I4n5FD6hG/AcAGK8pWBtNkB9+3Gj9LNPtfGsy6X3eHN62ZW3f60SezQ7o1w6lw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "69IYAP6N"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "leather-bundles",
+  "projectId": "Kdz60Spo",
+  "versions": {
+    "Dpfpr3dd": {
+      "filename": "leatherbundle-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kdz60Spo/versions/Dpfpr3dd/leatherbundle-2.1.0.jar",
+      "hash": "sha512-encKOsZQXHzp4US+3NfK3sFvuAqPjExTa4/KyVystjQG5FYu6jwC40QaAch+AaQb0dELt96kkEMgD+zNLtpHyg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XFgBupH4": {
+      "filename": "leather_bundles_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Kdz60Spo/versions/XFgBupH4/leather_bundles_1.20.1.jar",
+      "hash": "sha512-wli8qvpz9fD9E0vhEf8PKkvcSZUluvfwTHfKEq933d4io6/XenOrToRH8bFnCkYu7hf4EaVaFB47wPDuLUNqLg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bhQ9L5Gv": {
+      "filename": "leatherbundle-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kdz60Spo/versions/bhQ9L5Gv/leatherbundle-2.0.0.jar",
+      "hash": "sha512-+yiTjL1Cf3xTtRqrBgurXl8dBSjtNkJkgpvBz6j+ZeqQ2yIPpAzTaASxTk4Ela6lhw75kTzLv4XvvyYkeNmjfA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lChvChGw": {
+      "filename": "leather_bundles_1.20.1 ver1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kdz60Spo/versions/lChvChGw/leather_bundles_1.20.1%20ver1.1.0.jar",
+      "hash": "sha512-tpoHoNpNT49Hdl07hcuWkDIlXs8nnql8q7fyT497OAuUSi+v1WvRyKMAAesgiNai4PiR0NCg8BhWmG8vrBLFIw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "lChvChGw",
+      "XFgBupH4"
+    ],
+    "1.20.1+fabric": [
+      "lChvChGw",
+      "XFgBupH4"
+    ],
+    "1.20.4+fabric": [
+      "bhQ9L5Gv"
+    ],
+    "1.21+fabric": [
+      "Dpfpr3dd"
+    ]
+  }
+}

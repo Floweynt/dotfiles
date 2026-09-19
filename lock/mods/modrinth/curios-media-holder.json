@@ -1,0 +1,54 @@
+{
+  "slug": "curios-media-holder",
+  "projectId": "A7vBsE7N",
+  "versions": {
+    "2bCtlzAX": {
+      "filename": "CuriosMediaHolder-forge-1.20.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/A7vBsE7N/versions/2bCtlzAX/CuriosMediaHolder-forge-1.20.1-1.0.jar",
+      "hash": "sha512-I0qBRd8A64hNDMKV4VfRG31SboJpFAE3jvvZjZb03ddd63dq6VBpwWrxcA/K0PnLY+KPvqGMkVBuZ8WX4HB43A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "hlBqQv5K": {
+      "filename": "TrinketMediaHolder-fabric-1.20.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/A7vBsE7N/versions/hlBqQv5K/TrinketMediaHolder-fabric-1.20.1-1.0.jar",
+      "hash": "sha512-se65T39EokEDjI2sHwLZUKTrnRNI2kzbt17Ph9tbFhBb7wgpRyKsJBctVcpjMp0awJ+CZ3fXSZOStIGlXI+YjQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hlBqQv5K"
+    ],
+    "1.20.1+forge": [
+      "2bCtlzAX"
+    ]
+  }
+}

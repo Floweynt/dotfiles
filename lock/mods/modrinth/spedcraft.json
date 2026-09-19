@@ -1,0 +1,65 @@
+{
+  "slug": "spedcraft",
+  "projectId": "ryjDbbsl",
+  "versions": {
+    "FOwgJMne": {
+      "filename": "spedcraft-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ryjDbbsl/versions/FOwgJMne/spedcraft-1.1.jar",
+      "hash": "sha512-DJrNR1+t+Ti6EAkkvQxRqBS9es6Of5uK3yLkEGt0Jq63pZCZowxyKI2WA3iXsZKT9SnWUtzLAQvBy9RtBOutRg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "YMYlQpiU": {
+      "filename": "spedcraft-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ryjDbbsl/versions/YMYlQpiU/spedcraft-1.0.jar",
+      "hash": "sha512-s4TkLNOfiML3UtbUGBRjyNWKGc4i3OGMxbLMuttm08r2GYUmuapdIejFnJmwTi4b1i0O7OmvSbEE2w02WGwZZA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZwtlM5RS": {
+      "filename": "spedcraft-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/ryjDbbsl/versions/ZwtlM5RS/spedcraft-1.2.jar",
+      "hash": "sha512-28lIuDbgGOz1wxjkr8zswbPBq1CIpq0/nqNQ7mGHKI6tlU4K+ssIow9XHolu2PAQk21i7WAZb2sbn0SrNiT0ag==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "FOwgJMne"
+    ],
+    "1.21.4+fabric": [
+      "YMYlQpiU"
+    ],
+    "26.2+fabric": [
+      "ZwtlM5RS"
+    ]
+  }
+}

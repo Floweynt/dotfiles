@@ -1,0 +1,105 @@
+{
+  "slug": "60fy-viewmodel-customizer",
+  "projectId": "5Jf7cW63",
+  "versions": {
+    "3yDtlZTr": {
+      "filename": "sixtyfy-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/5Jf7cW63/versions/3yDtlZTr/sixtyfy-0.1.1.jar",
+      "hash": "sha512-/b49hE2AgEBVNtHUocHUkDI637VBCn74GqH0fAmpozwb0zD9366Qcp9sJMxf8U0ofmrgCpG61mrOxUN8TEPllQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "Q91hCADk": {
+      "filename": "sixtyfy-v1.0-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/5Jf7cW63/versions/Q91hCADk/sixtyfy-v1.0-1.21.10.jar",
+      "hash": "sha512-c6OBFFnFnj3N+ixZ/HsHOAhzutdODKYXSrZazaQlpY/x375Lbgywv2VwihXn7mdAg55q+4p4/A7aHRkthR/fFA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qK7eAkli": {
+      "filename": "sixtyfy-v1.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5Jf7cW63/versions/qK7eAkli/sixtyfy-v1.0-1.21.1.jar",
+      "hash": "sha512-OEpzVmr1Jcxgm3niNhQwVYuluce7LtlMkrcDDe/YCC0SzcA13miAOyW+BdpXnVgV1fxsyvvDmGoWA6Fx1ok7KA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "qK7eAkli",
+      "3yDtlZTr"
+    ],
+    "1.21.10+fabric": [
+      "Q91hCADk"
+    ]
+  }
+}

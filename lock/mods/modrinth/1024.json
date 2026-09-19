@@ -1,0 +1,66 @@
+{
+  "slug": "1024",
+  "projectId": "yxzheti3",
+  "versions": {
+    "IMLhdvfu": {
+      "filename": "1024-1.jar",
+      "url": "https://cdn.modrinth.com/data/yxzheti3/versions/IMLhdvfu/1024-1.jar",
+      "hash": "sha512-t44hSOABgRbmmkmrhm1Md4PjHDqSutUjhKwU59spT4w2XYaG0N8gjPCGK5b7IqYkIqG3t4A7IRkXigmIBM4ESA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "JJhmo2Vr": {
+      "filename": "1024-v1-1.21.zip",
+      "url": "https://cdn.modrinth.com/data/yxzheti3/versions/JJhmo2Vr/1024-v1-1.21.zip",
+      "hash": "sha512-e6aPIHiWBU30vepV9lZ/QPSCCQoYJfVWnXVZSh0ZlFzkFMRfdPzQgpComeRb/K2DH6KWWBQ8jqQGvZv1+TqnSA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "JJhmo2Vr"
+    ],
+    "1.21+fabric": [
+      "IMLhdvfu"
+    ],
+    "1.21+forge": [
+      "IMLhdvfu"
+    ],
+    "1.21+quilt": [
+      "IMLhdvfu"
+    ],
+    "1.21.1+datapack": [
+      "JJhmo2Vr"
+    ],
+    "1.21.2+datapack": [
+      "JJhmo2Vr"
+    ],
+    "1.21.3+datapack": [
+      "JJhmo2Vr"
+    ],
+    "1.21.4+datapack": [
+      "JJhmo2Vr"
+    ]
+  }
+}

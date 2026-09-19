@@ -1,0 +1,111 @@
+{
+  "slug": "direction-hud",
+  "projectId": "st2oTJCP",
+  "versions": {
+    "1V3rbOQc": {
+      "filename": "direction-hud-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/st2oTJCP/versions/1V3rbOQc/direction-hud-1.0.0.jar",
+      "hash": "sha512-AmjyGOO0QjXrX8XeHu1YirEAS+e7d5xgDFN7W9Ot0okcpS11i2QBU4c95ew0XAbKlplqFezyQXhzo2FIHoaWTw==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "61B6Foyu": {
+      "filename": "direction-hud-2.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/st2oTJCP/versions/61B6Foyu/direction-hud-2.2.1.jar",
+      "hash": "sha512-1BzmKQ1tW9iSat7GM+/A0QtF2AyxMBpwFAyTrEkPnN5wS2Cd0w43ROB+RI5npqn1kakVHTsWMSrjwiPiak93Vw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JcwuzGNH": {
+      "filename": "direction-hud-3.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/st2oTJCP/versions/JcwuzGNH/direction-hud-3.2.1.jar",
+      "hash": "sha512-x2yz+dR0ficf0jMw2rp7+ag8ymwS3Gy/4RccNHsCCO72CwBGabtIY2IkYnHkZRwFhMYikLxDULRyf6zRS3Nc0w==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "gGg1eLpV": {
+      "filename": "direction-hud-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/st2oTJCP/versions/gGg1eLpV/direction-hud-1.3.1.jar",
+      "hash": "sha512-6WaxZrE/1c3vCvaaNqOiAc24/A072xLhmRDTODl3XvO7+4FpUiHGcB1YXU3hJBEb6jhuqzs0io/sR9Gxl3Xt8Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "r3j8T2sN": {
+      "filename": "direction-hud-4.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/st2oTJCP/versions/r3j8T2sN/direction-hud-4.0.1.jar",
+      "hash": "sha512-EiyYyVpzlJTaCs+618j4c96eCRWB31ODtHsOpKYQzMVNLdstmfcqdEYyHKtq2Xzcgx9V05t6ESFhrKgKI4AwHA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "1V3rbOQc"
+    ],
+    "1.21.11+fabric": [
+      "gGg1eLpV"
+    ],
+    "1.21.8+fabric": [
+      "1V3rbOQc"
+    ],
+    "1.21.9+fabric": [
+      "1V3rbOQc"
+    ],
+    "26.1.2+fabric": [
+      "JcwuzGNH",
+      "61B6Foyu"
+    ],
+    "26.2+fabric": [
+      "r3j8T2sN"
+    ]
+  }
+}

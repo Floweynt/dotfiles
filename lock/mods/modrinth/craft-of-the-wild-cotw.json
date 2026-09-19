@@ -1,0 +1,121 @@
+{
+  "slug": "craft-of-the-wild-cotw",
+  "projectId": "HsEWU7cz",
+  "versions": {
+    "BDEPSwAv": {
+      "filename": "craft_of_the_wild-forge-1.20.1-1.0.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/HsEWU7cz/versions/BDEPSwAv/craft_of_the_wild-forge-1.20.1-1.0.1-beta.jar",
+      "hash": "sha512-yWUB8yxTKWLCFyfl5dImw8rJWFUbEuZuPL+OaxyYuyC/Y00MaHSBb+YOElxyCaOfm26qLlkZfO2QJK1X+4lBHw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "smartbrainlib",
+          "projectId": "PuyPazRT",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "DNPrGS3F": {
+      "filename": "craft_of_the_wild-fabric-1.20.1-1.0.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/HsEWU7cz/versions/DNPrGS3F/craft_of_the_wild-fabric-1.20.1-1.0.1-beta.jar",
+      "hash": "sha512-qyoUlOJGzMDJzTZF8cVM1z3uSlNgUSkWC2nvep442N1SF6oO5PlHmOr/T3B579vGLl/Rv4kKJrUmXc2+6l6fpg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "smartbrainlib",
+          "projectId": "PuyPazRT",
+          "type": "required"
+        }
+      ]
+    },
+    "OzOsvCLW": {
+      "filename": "craft_of_the_wild-forge-1.20.1-1.0.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/HsEWU7cz/versions/OzOsvCLW/craft_of_the_wild-forge-1.20.1-1.0.0-beta.jar",
+      "hash": "sha512-BF0N1U6WnS2tuM1Qq2tNozg1kNBly9yDB0Ot5DAKuJ9z7tadX+P5DNBk10+/CfNZZXCRC78O0mYWEFJ9EXFD7A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "smartbrainlib",
+          "projectId": "PuyPazRT",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "TpiUJZ7W": {
+      "filename": "craft_of_the_wild-fabric-1.20.1-1.0.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/HsEWU7cz/versions/TpiUJZ7W/craft_of_the_wild-fabric-1.20.1-1.0.0-beta.jar",
+      "hash": "sha512-e9m2O6R3+1SIdY0tugeBJ9KP+CmxlekgorjVSUIpPyrLdITZJ5t9/5q+YqE4yxHUTtGye+yYvy/qe4vbJ5FhPQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "smartbrainlib",
+          "projectId": "PuyPazRT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "DNPrGS3F",
+      "TpiUJZ7W"
+    ],
+    "1.20.1+forge": [
+      "BDEPSwAv",
+      "OzOsvCLW"
+    ]
+  }
+}

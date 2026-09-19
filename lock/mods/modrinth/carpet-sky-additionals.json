@@ -1,0 +1,89 @@
+{
+  "slug": "carpet-sky-additionals",
+  "projectId": "hhosXXCz",
+  "versions": {
+    "D2wFYnND": {
+      "filename": "carpet-sky-additionals-0.0.1-beta.3.jar",
+      "url": "https://cdn.modrinth.com/data/hhosXXCz/versions/D2wFYnND/carpet-sky-additionals-0.0.1-beta.3.jar",
+      "hash": "sha512-Nb3HgZ1TzTLF06HDEzRNO4nuSfObhpGQ9/Y0KpvpHfX+vtcvf9oXnv4vwmpYi0rzf3McD+D8OnRrLqC7tYRipA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "carpet-sky-additions",
+          "projectId": "3oX3JnAP",
+          "type": "required"
+        },
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    },
+    "OARizWq5": {
+      "filename": "carpet-sky-additionals-0.0.1-beta.2.jar",
+      "url": "https://cdn.modrinth.com/data/hhosXXCz/versions/OARizWq5/carpet-sky-additionals-0.0.1-beta.2.jar",
+      "hash": "sha512-i0C5k6ZuTu2AFJ/o17ePPP2maOiyDsvwo3dONtlHT1Qio36PoJsnYYitQU2gc7nMPmKcitSe6GNlffFkk9aa1A==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        },
+        {
+          "slug": "carpet-sky-additions",
+          "projectId": "3oX3JnAP",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "OARizWq5"
+    ],
+    "1.19.4+quilt": [
+      "OARizWq5"
+    ],
+    "1.20+fabric": [
+      "D2wFYnND"
+    ],
+    "1.20+quilt": [
+      "D2wFYnND"
+    ],
+    "1.20.1+fabric": [
+      "D2wFYnND"
+    ],
+    "1.20.1+quilt": [
+      "D2wFYnND"
+    ]
+  }
+}

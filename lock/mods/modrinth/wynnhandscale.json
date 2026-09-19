@@ -1,0 +1,57 @@
+{
+  "slug": "wynnhandscale",
+  "projectId": "RbMy4QAO",
+  "versions": {
+    "j9MUZC2N": {
+      "filename": "wynnhandscale-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RbMy4QAO/versions/j9MUZC2N/wynnhandscale-1.0.0.jar",
+      "hash": "sha512-AndRQjMQ37bkz2JIR/Bo0jebt9P+DMx4BUSZevyNG4mhh0B0HQ+LeZiuMKomJzZFFK53Wg0iPtg6CJn8I6Vx0g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "mjA7gwDO": {
+      "filename": "wynnhandscale-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RbMy4QAO/versions/mjA7gwDO/wynnhandscale-1.1.0.jar",
+      "hash": "sha512-fJADHyfL81jvz08WXC69U5T3YQYeY5IZRcjXR9y9nF2vtZdf7I4knMYbzetOD94NhPKnMOk0vbio6tZJKZArUw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "mjA7gwDO",
+      "j9MUZC2N"
+    ]
+  }
+}

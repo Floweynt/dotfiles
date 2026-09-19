@@ -1,0 +1,121 @@
+{
+  "slug": "create-mod-trims",
+  "projectId": "Q4F90RHI",
+  "versions": {
+    "2El6eEuU": {
+      "filename": "create_trims.zip",
+      "url": "https://cdn.modrinth.com/data/Q4F90RHI/versions/2El6eEuU/create_trims.zip",
+      "hash": "sha512-20fECnrMfNTdkY2xGgR7HBk96TS5DaEGDBcbxomjNCYbPBAuv2Y5uQGIaeIAla2BQokmHHeJQwoallVmWKRIVw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "simple-trims",
+          "projectId": "1HTMYuJn",
+          "type": "required"
+        }
+      ]
+    },
+    "ByiqtTHM": {
+      "filename": "create-mod-trims-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Q4F90RHI/versions/ByiqtTHM/create-mod-trims-1.0.0.jar",
+      "hash": "sha512-ftiXp741m2lxpOQUGThzHagd+zi4ZLuYDlzdiSpfyitkYTfOaBKcNt7VCpNv0w4Yuq2KLSOLsiqMlApHeIqBGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "simple-trims",
+          "projectId": "1HTMYuJn",
+          "type": "required"
+        }
+      ]
+    },
+    "C9U99P99": {
+      "filename": "create_armor_trims-1.20.1-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Q4F90RHI/versions/C9U99P99/create_armor_trims-1.20.1-2.0.1.jar",
+      "hash": "sha512-re0jTjxDX4izKCWS4EwJI9dQm0ZKviDr1aJQ2q1gPn2p48Jt2Xi3NPmI4TJtWw/R6DAoB9PU5d15NN6xuQ6EHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "wnFY03pf": {
+      "filename": "create_armor_trims-1.20.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Q4F90RHI/versions/wnFY03pf/create_armor_trims-1.20.1-2.0.0.jar",
+      "hash": "sha512-+CFkjOfwZWHHmC4OOYCEPUFTkYPmHzlsk4dPsp2aUgvzTAeaxdMhf4+N8iAz8UOy/U+wFh6ViycUfn9r0JI5SA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "2El6eEuU"
+    ],
+    "1.20.1+fabric": [
+      "C9U99P99",
+      "wnFY03pf",
+      "ByiqtTHM"
+    ],
+    "1.20.1+forge": [
+      "C9U99P99",
+      "wnFY03pf"
+    ],
+    "1.20.1+quilt": [
+      "ByiqtTHM"
+    ]
+  }
+}

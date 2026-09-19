@@ -1,0 +1,36 @@
+{
+  "slug": "hold-my-guns",
+  "projectId": "DnKqQswh",
+  "versions": {
+    "V3qxTvbJ": {
+      "filename": "HoldMyGuns-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DnKqQswh/versions/V3qxTvbJ/HoldMyGuns-1.0.jar",
+      "hash": "sha512-sJQH1e/7pX4c7I0qmFhdxcwIOLDgzDoQTPhvAsUSJ/fEXOvE5XXnp866DHZwC9dMX2PKTQOtUqy4YXSigl317Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "hold-my-items",
+          "projectId": "AP8rDDLS",
+          "type": "required"
+        },
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "V3qxTvbJ"
+    ]
+  }
+}

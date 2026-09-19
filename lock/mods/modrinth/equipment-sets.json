@@ -1,0 +1,100 @@
+{
+  "slug": "equipment-sets",
+  "projectId": "1VS7JpRo",
+  "versions": {
+    "ARpJse6B": {
+      "filename": "equipment-sets-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1VS7JpRo/versions/ARpJse6B/equipment-sets-2.0.0.jar",
+      "hash": "sha512-T2s+fWlglh3cRpSfvd+xQDXNO9GGcjf+KSp7pG4YDUa6fJrl1tGAM/J/h9s7L4vazv4bwMdyXs0gXEyY9vWFKQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "ApoJI9Jx": {
+      "filename": "equipment-sets-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1VS7JpRo/versions/ApoJI9Jx/equipment-sets-1.0.0.jar",
+      "hash": "sha512-M88o4eigAkhEz1fi3072qNofppp+yEl3BwJX19bdfwteUBtA/kt7pI/KrpNnYzJW6LWFectNcrIfvJnHBt0PHw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "K1yTJ48Y": {
+      "filename": "equipment-sets-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/1VS7JpRo/versions/K1yTJ48Y/equipment-sets-1.0.1.jar",
+      "hash": "sha512-acXuND1fGVZ6wfpqui+7VzfBCRU4Jn4HG+bm1Rs7pajg3ZLyBBuisNN7AXbEJbkxD9VfoaRmrG5k1E5uWlHrBg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "K1yTJ48Y",
+      "ApoJI9Jx"
+    ],
+    "1.21.1+fabric": [
+      "ARpJse6B"
+    ]
+  }
+}

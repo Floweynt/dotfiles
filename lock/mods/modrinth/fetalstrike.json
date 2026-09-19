@@ -1,0 +1,172 @@
+{
+  "slug": "fetalstrike",
+  "projectId": "hDF9YehS",
+  "versions": {
+    "6ikLKoxG": {
+      "filename": "fetal_strike.zip",
+      "url": "https://cdn.modrinth.com/data/hDF9YehS/versions/6ikLKoxG/fetal_strike.zip",
+      "hash": "sha512-giXtyiXn9sqselcggvSPQZ7CtQjo3MbN7rZLc/MBuYEwG50Nm1Y8Qny6kMMdUEgOUdMP0Z3yfLhdehyB2n1Eyg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "AJRgG7Pn": {
+      "filename": "fetal-strike-enchant-0.0.1+1.18.2-forge.jar",
+      "url": "https://cdn.modrinth.com/data/hDF9YehS/versions/AJRgG7Pn/fetal-strike-enchant-0.0.1%2B1.18.2-forge.jar",
+      "hash": "sha512-LdQO4z+luCBXxg7o1ezzEYVYpACe4thQOQfu62FIyqds9dqLQhWQnMLF+8hDTWsXhDlt/tLJpe6VInNSdD3onw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "TPEBhcvE": {
+      "filename": "fetal-strike-enchant-0.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hDF9YehS/versions/TPEBhcvE/fetal-strike-enchant-0.0.1%2B1.21.1.jar",
+      "hash": "sha512-f/IjNPd6F7sEjQ2tXVFeWYR4A7rIwk9GpLJGIozOKej1y3L2d9Cq3dvi/4aK8zPKC8tQdIY2BLLb5/Lt4G4oTw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XilBQEcf": {
+      "filename": "fetal-strike-enchant-0.0.1+1.18.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/hDF9YehS/versions/XilBQEcf/fetal-strike-enchant-0.0.1%2B1.18.2-fabric.jar",
+      "hash": "sha512-egM5EiEliHFwq3GOLeWKLqNlyPAXRHQISpa5zABxqcfVGZOVlPpw05BypdrKFl7k7Y+mqv9AnZk3pwhlBhh9kQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "z10RzKwV": {
+      "filename": "fetalstrike-0.0.1-datapack.jar",
+      "url": "https://cdn.modrinth.com/data/hDF9YehS/versions/z10RzKwV/fetalstrike-0.0.1-datapack.jar",
+      "hash": "sha512-K4E9YnZe1Rl9s7+UttjdC2NoRii/pxTY+oNr90ivlvB0P/VjbwYtElzEcadO48MB8XD4AGZmR/S50U19TyWVHg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "XilBQEcf"
+    ],
+    "1.18.2+forge": [
+      "AJRgG7Pn"
+    ],
+    "1.18.2+quilt": [
+      "XilBQEcf"
+    ],
+    "1.21+datapack": [
+      "6ikLKoxG"
+    ],
+    "1.21+fabric": [
+      "z10RzKwV"
+    ],
+    "1.21+forge": [
+      "z10RzKwV"
+    ],
+    "1.21+neoforge": [
+      "z10RzKwV"
+    ],
+    "1.21+quilt": [
+      "z10RzKwV"
+    ],
+    "1.21.1+datapack": [
+      "6ikLKoxG"
+    ],
+    "1.21.1+fabric": [
+      "z10RzKwV",
+      "TPEBhcvE"
+    ],
+    "1.21.1+forge": [
+      "z10RzKwV"
+    ],
+    "1.21.1+neoforge": [
+      "z10RzKwV"
+    ],
+    "1.21.1+quilt": [
+      "z10RzKwV",
+      "TPEBhcvE"
+    ],
+    "1.21.2+datapack": [
+      "6ikLKoxG"
+    ],
+    "1.21.2+fabric": [
+      "z10RzKwV"
+    ],
+    "1.21.2+forge": [
+      "z10RzKwV"
+    ],
+    "1.21.2+neoforge": [
+      "z10RzKwV"
+    ],
+    "1.21.2+quilt": [
+      "z10RzKwV"
+    ],
+    "1.21.3+datapack": [
+      "6ikLKoxG"
+    ],
+    "1.21.3+fabric": [
+      "z10RzKwV"
+    ],
+    "1.21.3+forge": [
+      "z10RzKwV"
+    ],
+    "1.21.3+neoforge": [
+      "z10RzKwV"
+    ],
+    "1.21.3+quilt": [
+      "z10RzKwV"
+    ]
+  }
+}

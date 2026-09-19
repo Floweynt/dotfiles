@@ -1,0 +1,58 @@
+{
+  "slug": "lootbeamsfabricupdated",
+  "projectId": "WfqS5LUm",
+  "versions": {
+    "2yn3wHWx": {
+      "filename": "lootbeams-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/WfqS5LUm/versions/2yn3wHWx/lootbeams-1.0.2.jar",
+      "hash": "sha512-pZcuZpE0IrzNRv85eEbToJr82/+l2mNBEHUesw8hBQxhQDoS6OH2s0gzIKJTGfKS/xW6zD92eUJB0s/dN5syVA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ud9Tn5wm": {
+      "filename": "lootbeams-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/WfqS5LUm/versions/ud9Tn5wm/lootbeams-1.0.3.jar",
+      "hash": "sha512-irbB/XI+vM3ZaBtU8MuTzC2Gad4A4WBMFCWruLYuvde8GA5u89kk6RlR+h8cmKW6ALmChSlr9v+MrpswvRKAYg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ud9Tn5wm",
+      "2yn3wHWx"
+    ],
+    "1.20.1+quilt": [
+      "ud9Tn5wm",
+      "2yn3wHWx"
+    ]
+  }
+}

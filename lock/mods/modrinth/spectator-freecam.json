@@ -1,0 +1,128 @@
+{
+  "slug": "spectator-freecam",
+  "projectId": "9tbAj44W",
+  "versions": {
+    "45R958t0": {
+      "filename": "Freecam-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/9tbAj44W/versions/45R958t0/Freecam-1.1.0.jar",
+      "hash": "sha512-sCAs5gcy7H2DNHUiQ/eVa4TZjI87rNn6SDDCu0XcKq6t6i/W0v6iWhJhLKVEJNWQjxqOJsGXEjmiFCg4rHMzYQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "4rUykaLB": {
+      "filename": "Freecam-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/9tbAj44W/versions/4rUykaLB/Freecam-1.0.2.jar",
+      "hash": "sha512-BpfygY0/lfUn87/2zdvvi7gcy1OCBH2WFl5YUQ1WCvqAED3Yp+/sJmaoKVkvugTBUcTdQe4cojxCwkD4RdmBcg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "9GyP80Ac": {
+      "filename": "Freecam-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9tbAj44W/versions/9GyP80Ac/Freecam-1.0.0.jar",
+      "hash": "sha512-YqUT1T1kaLyPBX6wbPXGEHWt4eDY5T6FfgXWwpRxeWrmBll2UUC/x5RD9quCVhExs5IOTzPtL+AwyBmIP8EmtQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KFVkIFwW": {
+      "filename": "Freecam-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/9tbAj44W/versions/KFVkIFwW/Freecam-1.0.1.jar",
+      "hash": "sha512-cXndQ9N7LY8YRBmhdieo+4Po5IisQmQMVwXv04idxNyVXx8qoFAY3YiwV85NX3+7h/M6m+YeJ6dsL0E/A/Yhqg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "o3pWEx9I": {
+      "filename": "Freecam-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/9tbAj44W/versions/o3pWEx9I/Freecam-1.2.0.jar",
+      "hash": "sha512-pU0d2IFw1QHAR882UwluG4EfnMRhfdkcI6MSMpLd0dq06Da65mbfqKOqcd70Dr43D24Utt4mIvMo29L0OEXvMQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "zTp2zwhy": {
+      "filename": "Freecam-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/9tbAj44W/versions/zTp2zwhy/Freecam-1.1.1.jar",
+      "hash": "sha512-5+Vyv18sXGhY96hzjHwT+btXPT4NSI9VdBvv64CZM5lGEFoNIkauS54Efeg+LAllts8a9fbAYb4EUhuImw6N3w==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "9GyP80Ac"
+    ],
+    "1.21.11+fabric": [
+      "4rUykaLB",
+      "KFVkIFwW"
+    ],
+    "26.1+fabric": [
+      "zTp2zwhy",
+      "45R958t0"
+    ],
+    "26.1.1+fabric": [
+      "zTp2zwhy",
+      "45R958t0"
+    ],
+    "26.1.2+fabric": [
+      "zTp2zwhy"
+    ],
+    "26.2+fabric": [
+      "o3pWEx9I"
+    ]
+  }
+}

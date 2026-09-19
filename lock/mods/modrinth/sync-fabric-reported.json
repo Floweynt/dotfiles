@@ -1,0 +1,64 @@
+{
+  "slug": "sync-fabric-reported",
+  "projectId": "HDB2eFuZ",
+  "versions": {
+    "QYkwZ9IF": {
+      "filename": "sync-reported-mc1.20.1-4.3.jar",
+      "url": "https://cdn.modrinth.com/data/HDB2eFuZ/versions/QYkwZ9IF/sync-reported-mc1.20.1-4.3.jar",
+      "hash": "sha512-DeuD5mO4oCD6q8veMEdTAITrxZuYAOQeDojsoD3FREg7XIQFjZHnCfTZNUjduOveNstaAkgPNjnvx4hpys4+Sw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vqNWWy7E": {
+      "filename": "sync-reported-mc1.20.4-4.3.jar",
+      "url": "https://cdn.modrinth.com/data/HDB2eFuZ/versions/vqNWWy7E/sync-reported-mc1.20.4-4.3.jar",
+      "hash": "sha512-TVWD2tVUxvrSXCFF/q02PWfmY6/faBSabzj2I2YGv0MFWanp+otzoGY5MJyA/rAah/M+XMvG1kBWWhGGweEhmQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "QYkwZ9IF"
+    ],
+    "1.20.4+fabric": [
+      "vqNWWy7E"
+    ]
+  }
+}

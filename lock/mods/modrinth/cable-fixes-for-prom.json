@@ -1,0 +1,46 @@
+{
+  "slug": "cable-fixes-for-prom",
+  "projectId": "cLy3XGrM",
+  "versions": {
+    "LXUnFyFP": {
+      "filename": "cable-fixes-for-prom-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cLy3XGrM/versions/LXUnFyFP/cable-fixes-for-prom-1.1.0.jar",
+      "hash": "sha512-yH9cFqycsZ07dwzZbYDbkDvc8r7OCKLDdtb3EtaqG9xKCpEit9Z+91FH5VAEFjKlWuQbPzOcyllDbtrdd+m79Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "gtge1tlM": {
+      "filename": "ad_astra_cable_fix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cLy3XGrM/versions/gtge1tlM/ad_astra_cable_fix-1.0.0.jar",
+      "hash": "sha512-1bDIaH29Q/1Uyd7rSR8FmCc+8oCyGRX7WAl4gsQ7q39N4E9aX15jkxluHHnZUd/oYZ0crOLzpO3fNKmOSC1k+Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "LXUnFyFP",
+      "gtge1tlM"
+    ]
+  }
+}

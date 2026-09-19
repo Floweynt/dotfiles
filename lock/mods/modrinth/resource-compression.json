@@ -1,0 +1,111 @@
+{
+  "slug": "resource-compression",
+  "projectId": "PIrQTb72",
+  "versions": {
+    "7DgE6ZlZ": {
+      "filename": "resource-compression-0.5.jar",
+      "url": "https://cdn.modrinth.com/data/PIrQTb72/versions/7DgE6ZlZ/resource-compression-0.5.jar",
+      "hash": "sha512-o1oGr4OJMAtwIGMEgSWfuTuv6cD8TRLZmo42coenbp9gDmRtWxYt0OQGeynUJBCP1HZIGjMKcOeo0eTG5taBtg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "A0OenVpr": {
+      "filename": "resource-compression-0.7.5.jar",
+      "url": "https://cdn.modrinth.com/data/PIrQTb72/versions/A0OenVpr/resource-compression-0.7.5.jar",
+      "hash": "sha512-uCvEnBcknGpupUUAz7SVGz9iGNL1nR8tSSp6mAqwyRI3POJpSUiONYbzdR8V2VJrkIr0gRQHc2M+X3M4Z6kQ9g==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LmkGkvOi": {
+      "filename": "resource-compression-0.8.5.jar",
+      "url": "https://cdn.modrinth.com/data/PIrQTb72/versions/LmkGkvOi/resource-compression-0.8.5.jar",
+      "hash": "sha512-WAhx+ePwi3D5y/2vyLzm5mrvmNhKxxAja53XBQ0tufuFdA2wWKbUgk1rpr5LFNBcIDYB03B+ysFPFtRKtgMgxQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pIfvVcK7": {
+      "filename": "resource-compression-0.7.1.jar",
+      "url": "https://cdn.modrinth.com/data/PIrQTb72/versions/pIfvVcK7/resource-compression-0.7.1.jar",
+      "hash": "sha512-VAuRTJo4pl4GTokaZReYjdHFYRrkJKhiN3J77a1wBICuGoWtUF+hoc03kYrz/gHtJcVxhNuJaFzp2ub6/5vYxw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "LmkGkvOi",
+      "A0OenVpr",
+      "pIfvVcK7",
+      "7DgE6ZlZ"
+    ],
+    "1.20.1+quilt": [
+      "LmkGkvOi"
+    ],
+    "1.20.2+fabric": [
+      "LmkGkvOi",
+      "A0OenVpr",
+      "pIfvVcK7",
+      "7DgE6ZlZ"
+    ],
+    "1.20.2+quilt": [
+      "LmkGkvOi"
+    ]
+  }
+}

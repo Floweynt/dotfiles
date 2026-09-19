@@ -1,0 +1,76 @@
+{
+  "slug": "lucium",
+  "projectId": "AP4MNKKf",
+  "versions": {
+    "7dsykDbN": {
+      "filename": "lucium-2.0.3+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AP4MNKKf/versions/7dsykDbN/lucium-2.0.3%2B1.20.1.jar",
+      "hash": "sha512-n/ZMFbWmoENp4uq5bmMv6PALG3l2Eczlb5frZrlpaiCehP674vGEas0rjTJtRoTVWv7FeNv+als51iZnuUMLbg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "lib39",
+          "projectId": "BMsWWSPQ",
+          "type": "required"
+        }
+      ]
+    },
+    "RioeRfdG": {
+      "filename": "lucium-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/AP4MNKKf/versions/1.1/lucium-1.1.jar",
+      "hash": "sha512-tXyLM0xbdbMu7qhEvmuadIeKcO8Z02AW7zp0Of9i84nAGNiIqwnZCPTmTwmgqo7YoITV9b5pJnStiDdgCTI8xQ==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "vVCqkoCk": {
+      "filename": "lucium-1.5-pre1.jar",
+      "url": "https://cdn.modrinth.com/data/AP4MNKKf/versions/vVCqkoCk/lucium-1.5-pre1.jar",
+      "hash": "sha512-ceYDP4R9pP0RdD0MqhW7VfBuZ8HsXzJ4/13YEzoT7OD5HwUwxokdBkCXvVXtZAcWDAQ8yd56JdrNRjloFU3I3A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.1+fabric": [
+      "RioeRfdG"
+    ],
+    "1.19.1+quilt": [
+      "RioeRfdG"
+    ],
+    "1.19.2+fabric": [
+      "vVCqkoCk",
+      "RioeRfdG"
+    ],
+    "1.19.2+quilt": [
+      "vVCqkoCk",
+      "RioeRfdG"
+    ],
+    "1.20.1+fabric": [
+      "7dsykDbN"
+    ]
+  }
+}

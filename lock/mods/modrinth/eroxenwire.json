@@ -1,0 +1,119 @@
+{
+  "slug": "eroxenwire",
+  "projectId": "BAQj9Xhs",
+  "versions": {
+    "2NN15iFQ": {
+      "filename": "eroxenwire-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/BAQj9Xhs/versions/2NN15iFQ/eroxenwire-2.2.jar",
+      "hash": "sha512-nBnBtndeUzPnUJiWYg6U5LhiGDmTgtQlvhQ9I9tQJlkIeEoZP4l+VklYepA/neKbMW9bpNvv2L9fct1D/vEyAw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "DZr35I9h": {
+      "filename": "eroxenwire-v2.2.0-datapack.zip",
+      "url": "https://cdn.modrinth.com/data/BAQj9Xhs/versions/DZr35I9h/eroxenwire-v2.2.0-datapack.zip",
+      "hash": "sha512-9OkU2kJ3Cq2AFlAufSKI/Hh//F75u9a3NpPcn0sGiDnFePLxStxKIw+MINb42Zl8VAgcVHqH+zbOMmEfUTqvIw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "L39cANIu": {
+      "filename": "eroxenwire-v1.1-datapack.zip",
+      "url": "https://cdn.modrinth.com/data/BAQj9Xhs/versions/L39cANIu/eroxenwire-v1.1-datapack.zip",
+      "hash": "sha512-NaYx6DSCEwcFpSGGmLe9WrANtJaQtJIX6Ef6s/Ij9qT3ceEBF5BUZ9+wQRWQihwhuRF0UFerub9vE0+mAz5jAw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "eroxified",
+          "projectId": "hnwx2Sej",
+          "type": "required"
+        }
+      ]
+    },
+    "Z54CeMa0": {
+      "filename": "eroxenwire-v2.0.0-datapack.zip",
+      "url": "https://cdn.modrinth.com/data/BAQj9Xhs/versions/Z54CeMa0/eroxenwire-v2.0.0-datapack.zip",
+      "hash": "sha512-IbGST3yxnJvyspTuiHxGmnDhey2zu+Vo7ut1fQl4IEKeGoxBw/iHxiIRnkNLlI5TikiEi+CedmiKtCAVV1KvbQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "ly8y3xHR": {
+      "filename": "eroxenwire-v2.1.0-datapack.zip",
+      "url": "https://cdn.modrinth.com/data/BAQj9Xhs/versions/ly8y3xHR/eroxenwire-v2.1.0-datapack.zip",
+      "hash": "sha512-3SydtPJtQvKGSorifG5lhhcLIVeOxSJqLLwQOW++/H/LVMbtVqPsl1Ur769+8UQAkSrqZX2eVuQnT7kjINy/7A==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "L39cANIu"
+    ],
+    "1.20.1+datapack": [
+      "L39cANIu"
+    ],
+    "1.20.2+datapack": [
+      "ly8y3xHR",
+      "Z54CeMa0",
+      "L39cANIu"
+    ],
+    "1.20.3+datapack": [
+      "ly8y3xHR"
+    ],
+    "1.20.4+datapack": [
+      "ly8y3xHR"
+    ],
+    "1.21+datapack": [
+      "DZr35I9h"
+    ],
+    "1.21+fabric": [
+      "2NN15iFQ"
+    ],
+    "1.21+forge": [
+      "2NN15iFQ"
+    ],
+    "1.21+quilt": [
+      "2NN15iFQ"
+    ]
+  }
+}

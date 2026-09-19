@@ -1,0 +1,79 @@
+{
+  "slug": "animorphs",
+  "projectId": "Tadq7H8e",
+  "versions": {
+    "HXkEKScQ": {
+      "filename": "animorphs-0.2.9.jar",
+      "url": "https://cdn.modrinth.com/data/Tadq7H8e/versions/HXkEKScQ/animorphs-0.2.9.jar",
+      "hash": "sha512-Ly1zkO1877PkF02lxvFmn6vDI4+648yD+Tr8PQ1V68WVF2ABQTaQHTcHmVElmSAPsZl28p8Q2ChFdZyIul184g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "iVEjt68k": {
+      "filename": "animorphs-0.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/Tadq7H8e/versions/iVEjt68k/animorphs-0.2.8.jar",
+      "hash": "sha512-/JKl/W7rY/AkfwxOeILe9coWB/FYTsXwyLM5QnE5lY6QXeQ3AkJsrgu4CDi1zcpUa6uOoHwCb5A5QeOdI5Gv6Q==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "ywPiMbo7": {
+      "filename": "animorphs-0.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/Tadq7H8e/versions/ywPiMbo7/animorphs-0.1.5.jar",
+      "hash": "sha512-qdogs1U6c+FKShIGHPEfGvVdFu93AK73Z3DOgNL4fzYcnopTyauVuQdiFavV9E7kkadjC74tp5naBpcGHkOBZA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "ywPiMbo7"
+    ],
+    "1.19.1+fabric": [
+      "ywPiMbo7"
+    ],
+    "1.19.2+fabric": [
+      "ywPiMbo7"
+    ],
+    "1.19.4+fabric": [
+      "iVEjt68k"
+    ],
+    "1.20.1+fabric": [
+      "HXkEKScQ"
+    ]
+  }
+}

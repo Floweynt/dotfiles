@@ -1,0 +1,111 @@
+{
+  "slug": "unofficial-sodium-biome-blending-fix",
+  "projectId": "s5ah9H3E",
+  "versions": {
+    "SBjRm6wN": {
+      "filename": "unofficial-sodium-biome-blending-fix-1.0.0+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/s5ah9H3E/versions/1.0.0%2B1.18.2/unofficial-sodium-biome-blending-fix-1.0.0%2B1.18.2.jar",
+      "hash": "sha512-ZCM+gmHi+Ir/yh43u1QGxy5iq5YmNYnXtBNcIVE2SaleohbtU5FX0bbC5vwkmktAJNsv9Q2YCU0hWPxAVIj/VA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "Wa9swa02": {
+      "filename": "unofficial-sodium-biome-blending-fix-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/s5ah9H3E/versions/Wa9swa02/unofficial-sodium-biome-blending-fix-1.0.1.jar",
+      "hash": "sha512-Ks2N0j8FEpQnmVLaU3CquCVHtm6URLZ6qOgt2owc3XLkb2g/PI3V1cd5EZybKgFT8w3iEKIzNf2r6cBKJjxk9A==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "i4OHUKYy": {
+      "filename": "unofficial-sodium-biome-blending-fix-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/s5ah9H3E/versions/i4OHUKYy/unofficial-sodium-biome-blending-fix-1.0.2.jar",
+      "hash": "sha512-vFdEQ7Qfq9EQiWC9qAZeYEB4JXQJRtT2mu3v1R6Y8zi8nWem8V9iEmeD41Ktt+ng5yqjCfmdW5H1A9k13kFIYQ==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "Wa9swa02",
+      "SBjRm6wN"
+    ],
+    "1.18.2+quilt": [
+      "Wa9swa02"
+    ],
+    "1.19+fabric": [
+      "Wa9swa02"
+    ],
+    "1.19+quilt": [
+      "Wa9swa02"
+    ],
+    "1.19.1+fabric": [
+      "Wa9swa02"
+    ],
+    "1.19.1+quilt": [
+      "Wa9swa02"
+    ],
+    "1.19.2+fabric": [
+      "Wa9swa02"
+    ],
+    "1.19.2+quilt": [
+      "Wa9swa02"
+    ],
+    "1.19.3+fabric": [
+      "i4OHUKYy"
+    ],
+    "1.19.3+quilt": [
+      "i4OHUKYy"
+    ],
+    "1.19.4+fabric": [
+      "i4OHUKYy"
+    ],
+    "1.19.4+quilt": [
+      "i4OHUKYy"
+    ]
+  }
+}

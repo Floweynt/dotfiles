@@ -1,0 +1,159 @@
+{
+  "slug": "ennuis_bigger_gambiarra",
+  "projectId": "jBNms9o3",
+  "versions": {
+    "3RnwIDc5": {
+      "filename": "ennuis_bigger_gambiarra-0.4.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/jBNms9o3/versions/3RnwIDc5/ennuis_bigger_gambiarra-0.4.0%2B1.21.1.jar",
+      "hash": "sha512-raxMo7x4BY97DedL417U9EGf/wdy5kKDGORgvtQvzfWgFElvdPR8NfhmDmtzJhAFAXTmAaPi62kjxw/wygepvg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "ennuis_bigger_inventories",
+          "projectId": "3vWSQmpn",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Bd6c1OMS": {
+      "filename": "ennuis_bigger_gambiarra-0.3.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/jBNms9o3/versions/Bd6c1OMS/ennuis_bigger_gambiarra-0.3.0%2B1.21.jar",
+      "hash": "sha512-mCCuJIaklgZnfhD0pqJLIuMa5tlSOlv7BbYdX5gmfhFpb8mdXkBNWnr0VfgW9O7/fTfO1WrOtp0HE17zNkTDXQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1-rc1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "ennuis_bigger_inventories",
+          "projectId": "3vWSQmpn",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DCElhdYj": {
+      "filename": "ennuis_bigger_gambiarra-0.2.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/jBNms9o3/versions/DCElhdYj/ennuis_bigger_gambiarra-0.2.0%2B1.20.1.jar",
+      "hash": "sha512-0Zk6vg8SjfZyxPREnw8MVdjOZRDdVkiMHrwGgvMleQTEneub1rZBdTs0rBguqR8jafDpAbrdpZ5KRTA4JwjJTw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "IgB2IFRg": {
+      "filename": "ennuis_bigger_gambiarra-0.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/jBNms9o3/versions/IgB2IFRg/ennuis_bigger_gambiarra-0.1.0%2B1.20.1.jar",
+      "hash": "sha512-j0hwyYh757Dd9VI4ZNAap50kIAWq6K324NSmCCuH/QMguG6yF28C7yh07mgQyBC68vpgucT1LfQpmSNnywvEMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "ennuis_bigger_inventories",
+          "projectId": "3vWSQmpn",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "fjsxP0Ro": {
+      "filename": "ennuis_bigger_gambiarra-0.5.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/jBNms9o3/versions/fjsxP0Ro/ennuis_bigger_gambiarra-0.5.0%2B1.21.1.jar",
+      "hash": "sha512-btN1uIDBcW4IieAO9wjsrAqm+A8T1N3vF2PvepvmRcvt+9H8R8mwxzsZRsOH3YM3dtZbKJQdGDY+U/pndFXTRA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "ennuis_bigger_inventories",
+          "projectId": "3vWSQmpn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+quilt": [
+      "DCElhdYj",
+      "IgB2IFRg"
+    ],
+    "1.21+fabric": [
+      "Bd6c1OMS"
+    ],
+    "1.21+quilt": [
+      "Bd6c1OMS"
+    ],
+    "1.21.1+fabric": [
+      "fjsxP0Ro",
+      "3RnwIDc5",
+      "Bd6c1OMS"
+    ],
+    "1.21.1+quilt": [
+      "fjsxP0Ro",
+      "3RnwIDc5",
+      "Bd6c1OMS"
+    ],
+    "1.21.1-rc1+fabric": [
+      "Bd6c1OMS"
+    ],
+    "1.21.1-rc1+quilt": [
+      "Bd6c1OMS"
+    ]
+  }
+}

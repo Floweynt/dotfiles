@@ -1,0 +1,105 @@
+{
+  "slug": "emitechreborn",
+  "projectId": "MF8Uygnx",
+  "versions": {
+    "5PIbQFlX": {
+      "filename": "EmiTechReborn-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MF8Uygnx/versions/5PIbQFlX/EmiTechReborn-1.0.0.jar",
+      "hash": "sha512-n6DwWXlH71iJ7yg0VwCDWRWzxAIU+vKTNuS1M2AO95OWihBjK6iRoM2y4CSbMEk5AC2bDkgqd1AvvNJHNYakvg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "QezEwCwT": {
+      "filename": "EmiTechReborn-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MF8Uygnx/versions/QezEwCwT/EmiTechReborn-1.0.0.jar",
+      "hash": "sha512-OrkzYC2UPxW6Z+2RbMKM4MGPayIVOCXOd8Nb1xIQq2MYoQ+u7RJWf1kXb3robtD2oejJbKwB74Rd23PBnM7spQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TJJ53dld": {
+      "filename": "EmiTechReborn-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/MF8Uygnx/versions/TJJ53dld/EmiTechReborn-1.0.1.jar",
+      "hash": "sha512-eATEeozQyQZYp1RVft1l6QJ0LYRkNrATk4udwqTdnW4fKT7722h3zubt9UqIbciDTBIOchNQ93QPUgRVPe0kGw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5PIbQFlX"
+    ],
+    "1.21.1+fabric": [
+      "TJJ53dld",
+      "QezEwCwT"
+    ]
+  }
+}

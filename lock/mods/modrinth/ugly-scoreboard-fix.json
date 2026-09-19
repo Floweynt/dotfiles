@@ -1,0 +1,101 @@
+{
+  "slug": "ugly-scoreboard-fix",
+  "projectId": "8bcFGNZj",
+  "versions": {
+    "CR8UYJrz": {
+      "filename": "uglyscoreboardfix-2.10.0.jar",
+      "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/CR8UYJrz/uglyscoreboardfix-2.10.0.jar",
+      "hash": "sha512-iehCRvR87V1nWZN/YXtgoksdWkZDGbOpD31c7Pdu/VbJy6hRcqrHb696zZgoEzWZqdhW68ht/XTZeXuKZCm0GQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Cz3INiSf": {
+      "filename": "uglyscoreboardfix-2.10.1.jar",
+      "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/Cz3INiSf/uglyscoreboardfix-2.10.1.jar",
+      "hash": "sha512-UsEFU2cJ/Q32COSXZFx9+d9KSIcBK6uN1Tym1OfumXNRDhPdKN9MNmBJ9Ah0pqSmWqgLsZGqRpWcomwE+JUcTw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "H4ofPSdE": {
+      "filename": "uglyscoreboardfix-2.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/H4ofPSdE/uglyscoreboardfix-2.7.0.jar",
+      "hash": "sha512-SyWxmUYa0EeXkoJcBNKZeelCXEyiKWuocdmHrTh4aQYjgJXp+64tF1cd63bIdlmfz1Yw2tfLkri8LlzhU3I9eQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "completeconfig",
+          "projectId": "GtqG8z1h",
+          "type": "required"
+        }
+      ]
+    },
+    "Yrjy2MJ1": {
+      "filename": "uglyscoreboardfix-2.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/Yrjy2MJ1/uglyscoreboardfix-2.9.0.jar",
+      "hash": "sha512-AO1l0wPLsdfxtfmLD0iH/FUmN/f4jBE4oXOEslCISNtdc7VxgZRfa3jSdXuODr/lNVgxOfGynPSl8nk4I/cz6g==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nLfmnKXf": {
+      "filename": "uglyscoreboardfix-2.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/8bcFGNZj/versions/nLfmnKXf/uglyscoreboardfix-2.8.0.jar",
+      "hash": "sha512-+QRWchUT39wtemw3u0EhVBy2humAO8Ff4gJmV0oOgQxtvXAIfviCKUEAJaowhZjLRVG41/ljKzcJhWxBG2v3DQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "H4ofPSdE"
+    ],
+    "1.19.3+fabric": [
+      "nLfmnKXf",
+      "H4ofPSdE"
+    ],
+    "1.19.4+fabric": [
+      "Yrjy2MJ1"
+    ],
+    "1.20.1+fabric": [
+      "CR8UYJrz"
+    ],
+    "1.20.2+fabric": [
+      "Cz3INiSf"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "gamemode-menu-permission-bypass",
+  "projectId": "ChNC6qOZ",
+  "versions": {
+    "9QooTU8R": {
+      "filename": "GamemodeMenuPermissionBypass-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/ChNC6qOZ/versions/9QooTU8R/GamemodeMenuPermissionBypass-1.0.3.jar",
+      "hash": "sha512-xjW6zwi2g8E0GvRiUah64l+Tq73N3yPL8mWXkcD/soFoXYb3E+liwhbalEEOdKYtUmleUK6MIn5mgt2+sXNkUg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "EY2JdsAf": {
+      "filename": "GamemodeMenuPermissionBypass-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/ChNC6qOZ/versions/EY2JdsAf/GamemodeMenuPermissionBypass-1.0.2.jar",
+      "hash": "sha512-Ekfr7VUULaVuUWQAaVW9W+BAI4XrERNyhkVOUODv8gekkQapqsUzaPKgfrZZ8xUZCVMMvBchENzmX7rtfj4mXg==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gllcq7RJ": {
+      "filename": "GamemodeMenuPermissionBypass-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/ChNC6qOZ/versions/gllcq7RJ/GamemodeMenuPermissionBypass-1.0-SNAPSHOT.jar",
+      "hash": "sha512-tsVQGLUSNTbiho76TJrpOiyfVZy4ZCWbenJfghahG7PrFSCXxBCeFyj1SZUgdrP7IeBVBvcZq+L8SI78gGArPw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sBULr7Sx": {
+      "filename": "GamemodeMenuPermissionBypass-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ChNC6qOZ/versions/sBULr7Sx/GamemodeMenuPermissionBypass-1.0.1.jar",
+      "hash": "sha512-CZ42AX+bj++yc8JYpiyRUeO3gDgNgLZObERL7F3x6aSzqZCuiRiylJDrRznCQvSCinpoY438SyqvOoXGWvmVjA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "gllcq7RJ"
+    ],
+    "1.19.4+fabric": [
+      "sBULr7Sx"
+    ],
+    "1.19.4+quilt": [
+      "sBULr7Sx"
+    ],
+    "1.20+fabric": [
+      "EY2JdsAf"
+    ],
+    "1.20+quilt": [
+      "EY2JdsAf"
+    ],
+    "1.20.1+fabric": [
+      "9QooTU8R"
+    ],
+    "1.20.1+quilt": [
+      "9QooTU8R"
+    ]
+  }
+}

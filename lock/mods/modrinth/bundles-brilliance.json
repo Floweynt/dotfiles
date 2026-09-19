@@ -1,0 +1,62 @@
+{
+  "slug": "bundles-brilliance",
+  "projectId": "ovly8iPu",
+  "versions": {
+    "TOwjkP2Y": {
+      "filename": "bundles-brilliance-neoforge-0.1-v1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ovly8iPu/versions/TOwjkP2Y/bundles-brilliance-neoforge-0.1-v1.21.jar",
+      "hash": "sha512-KPqRioh5cqKad8YG9eDCl9HLVdX193XJYKMtPCP3wNbTWTgtDGNXCtBmgy46ONKy17ozl4oCG0PkNJtNM7yuIA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    },
+    "USSc1leF": {
+      "filename": "bundles-brilliance-0.1-v1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ovly8iPu/versions/USSc1leF/bundles-brilliance-0.1-v1.21.jar",
+      "hash": "sha512-FbrKpNqPZkzOHBdKt4OQXTUZ35sxLZB9JMkvxW8eUaxOq5CbOdKuYSpsyg/jJfDLqb6fRYGILfL9TtDX4MpPAg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "USSc1leF"
+    ],
+    "1.21+neoforge": [
+      "TOwjkP2Y"
+    ],
+    "1.21.1+fabric": [
+      "USSc1leF"
+    ],
+    "1.21.1+neoforge": [
+      "TOwjkP2Y"
+    ]
+  }
+}

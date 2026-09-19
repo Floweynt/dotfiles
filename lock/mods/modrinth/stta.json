@@ -1,0 +1,115 @@
+{
+  "slug": "stta",
+  "projectId": "kBULdj7u",
+  "versions": {
+    "SYsWQRg8": {
+      "filename": "speech-to-text-accessibility-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kBULdj7u/versions/SYsWQRg8/speech-to-text-accessibility-2.1.0.jar",
+      "hash": "sha512-JsnNJn2QaleYiiXw+wK6u4fY7lTieVengh89o6bWFITaSEziSjtkuGTP9HA9HmYHJQbIheJrosFRqme2d2vySA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Vej4Egan": {
+      "filename": "speech-to-text-accessibility-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/kBULdj7u/versions/Vej4Egan/speech-to-text-accessibility-2.2.0.jar",
+      "hash": "sha512-yQXcxyod3IRQ7vfea9Q0IcZim3e5AUYgmur9TRaunn3vbR2yH+zHo8Navk5QmRVTLHhodFELaUqSVTl+IWsSzw==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aPDdQVWg": {
+      "filename": "speech-to-text-accessibility-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kBULdj7u/versions/aPDdQVWg/speech-to-text-accessibility-2.0.1.jar",
+      "hash": "sha512-Prm0qJ2Zpk/O8eeAVqOi8RF7PtpseuC+w2NVFP7xoeBTcBN6xPjNQ/AG3EkAxUZZMIqqDLolRs6t/D0OVaUm2A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "SYsWQRg8",
+      "aPDdQVWg"
+    ],
+    "1.21.1+fabric": [
+      "SYsWQRg8",
+      "aPDdQVWg"
+    ],
+    "1.21.10+fabric": [
+      "Vej4Egan"
+    ],
+    "1.21.11+fabric": [
+      "Vej4Egan"
+    ]
+  }
+}

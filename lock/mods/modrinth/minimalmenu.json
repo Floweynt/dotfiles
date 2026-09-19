@@ -1,0 +1,84 @@
+{
+  "slug": "minimalmenu",
+  "projectId": "BYtiUf2Z",
+  "versions": {
+    "27NoZMuJ": {
+      "filename": "minimalmenu-1.18.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BYtiUf2Z/versions/1.18.1-0.1.0/minimalmenu-1.18.1-0.1.0.jar",
+      "hash": "sha512-ZQ9TuJCIZyz/kvFlZKYQgeg/ncNhVRvPzkL0thEWW9VkFB0U62gN4dl5VjsMt1MJyGcVVnubAHJuHIh7FJoOLg==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "LZC1oy7l": {
+      "filename": "minimalmenu-1.16.5-0.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/BYtiUf2Z/versions/1.16.5-0.05/minimalmenu-1.16.5-0.0.5.jar",
+      "hash": "sha512-l0g2biutb9pX8DbiZ4ed0E+DWyOnIpyz7H68d0pMWYq5Eq2HDpBIKC12dAxPVGlxDoH8aWAo+XRD8efXjVuTnw==",
+      "gameVersions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Y7baYJnd": {
+      "filename": "minimalmenu-1.18.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BYtiUf2Z/versions/1.18.1-0.0.1/minimalmenu-1.18.1-0.1.0.jar",
+      "hash": "sha512-ZQ9TuJCIZyz/kvFlZKYQgeg/ncNhVRvPzkL0thEWW9VkFB0U62gN4dl5VjsMt1MJyGcVVnubAHJuHIh7FJoOLg==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "pzhpn686": {
+      "filename": "minimalmenu-1.19-0.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/BYtiUf2Z/versions/0.1.5/minimalmenu-1.19-0.1.5.jar",
+      "hash": "sha512-glBAtZ2j3RRSygJv57rT3BVUfFkYFWFellEfTp3+m9m3V2FM7ofCSpjd0mjRA5z5rn4zQBrsBpq8bsn4jWqOAQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.4+fabric": [
+      "LZC1oy7l"
+    ],
+    "1.16.5+fabric": [
+      "LZC1oy7l"
+    ],
+    "1.18.1+fabric": [
+      "Y7baYJnd",
+      "27NoZMuJ"
+    ],
+    "1.19+fabric": [
+      "pzhpn686"
+    ]
+  }
+}

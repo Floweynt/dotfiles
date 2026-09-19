@@ -1,0 +1,89 @@
+{
+  "slug": "more-delight-polymer",
+  "projectId": "R7zLAe7K",
+  "versions": {
+    "qeh62och": {
+      "filename": "moredelight-patch-25.07.28a-1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/R7zLAe7K/versions/qeh62och/moredelight-patch-25.07.28a-1.21.7.jar",
+      "hash": "sha512-YYWs59klG1VPr/6eNcqYfCa0yhLgMtzRyGxZlEQVs/Fa4E50espnf5bLrQE0wD+bAHg3cTmQ57VaaC4apT0tFw==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "more-delight",
+          "projectId": "znHQQtuU",
+          "type": "required"
+        }
+      ]
+    },
+    "rgGskJex": {
+      "filename": "moredelight-patch-25.07.28a-1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/R7zLAe7K/versions/rgGskJex/moredelight-patch-25.07.28a-1.21.7.jar",
+      "hash": "sha512-myoi4lOl6X2EY9ylfvW2r+/mrFfUygS+X8o1Kf1eFUOwHvtBYzebCZkdWhXdPDyETAzCUdR25jzcWqX2zNctng==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "more-delight",
+          "projectId": "znHQQtuU",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "qeh62och"
+    ],
+    "1.21.10+quilt": [
+      "qeh62och"
+    ],
+    "1.21.11+fabric": [
+      "qeh62och"
+    ],
+    "1.21.11+quilt": [
+      "qeh62och"
+    ],
+    "1.21.8+fabric": [
+      "qeh62och",
+      "rgGskJex"
+    ],
+    "1.21.8+quilt": [
+      "qeh62och",
+      "rgGskJex"
+    ],
+    "1.21.9+fabric": [
+      "qeh62och"
+    ],
+    "1.21.9+quilt": [
+      "qeh62och"
+    ]
+  }
+}

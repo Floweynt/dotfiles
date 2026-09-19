@@ -1,0 +1,52 @@
+{
+  "slug": "more-items-ronaldi2001",
+  "projectId": "1rOEbp0t",
+  "versions": {
+    "7x92g2fK": {
+      "filename": "moreitems-0.4-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/1rOEbp0t/versions/7x92g2fK/moreitems-0.4-1.20.1.jar",
+      "hash": "sha512-n5vGPFcOCG+CMRhGibNC1V9ULpSKivbGxHSmvdpLmA6BSCacejpg2YwxaBpoPuaAboDviq0h/3tmQSRELnSd+w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "sBXM8Lte": {
+      "filename": "moreitems-0.6-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/1rOEbp0t/versions/sBXM8Lte/moreitems-0.6-1.20.1.jar",
+      "hash": "sha512-DBh1SEQ/3DyH7YAJGyVceKex063ig3hHXIiaZsW4QPzbOh3/PafxFtw+D8puz6+rP7XLKH5ZNH+EyJXxFCJ79A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "7x92g2fK"
+    ],
+    "1.20.1+forge": [
+      "sBXM8Lte"
+    ],
+    "1.20.1+neoforge": [
+      "sBXM8Lte"
+    ]
+  }
+}

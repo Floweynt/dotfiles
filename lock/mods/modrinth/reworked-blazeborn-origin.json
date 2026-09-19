@@ -1,0 +1,122 @@
+{
+  "slug": "reworked-blazeborn-origin",
+  "projectId": "UbKEiuWX",
+  "versions": {
+    "2XcEqG9Q": {
+      "filename": "Reworked Blazeborn v1.0.zip",
+      "url": "https://cdn.modrinth.com/data/UbKEiuWX/versions/2XcEqG9Q/Reworked%20Blazeborn%20v1.0.zip",
+      "hash": "sha512-alNqzm5N6qIago3MN+9BqQIjsKyplJS7yv6ILCKCa6JeAdWgdmq1yA9WeWHamp09XZ4z0yZArxbHBa8b8QmNJQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "VTXBM2Do": {
+      "filename": "Reworked Blazeborn v1.1.zip",
+      "url": "https://cdn.modrinth.com/data/UbKEiuWX/versions/VTXBM2Do/Reworked%20Blazeborn%20v1.1.zip",
+      "hash": "sha512-FN69bGbHjgymWLQsdcV14Bo7eV4BeUskLNt5WBwUbUXfTea+uVibq6BsOXOxXsdcuGsE60/x0P8PB44VLV4J5w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "l8opGxV8": {
+      "filename": "reworked-blazeborn-origin-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UbKEiuWX/versions/l8opGxV8/reworked-blazeborn-origin-1.0.jar",
+      "hash": "sha512-st+n+R8hnLHcdnn80CnlOMomnvQ8+JuVXJD7SFEjispXVSq1F9RWykkXaUD1ZEsdPW03IsJdNGkaYC3P9Y+gZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "mUbOwSGS": {
+      "filename": "reworked-blazeborn-origin-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/UbKEiuWX/versions/mUbOwSGS/reworked-blazeborn-origin-1.1.jar",
+      "hash": "sha512-5Ob83AOdbyUYQ4/+13Ljvtdp0keBpVKyx/sEls4naB67NAibKTtmRaZkh53FVdHQQUg8JJXyqhfOzEN7co3vmg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "VTXBM2Do",
+      "2XcEqG9Q"
+    ],
+    "1.20.1+fabric": [
+      "mUbOwSGS",
+      "l8opGxV8"
+    ],
+    "1.20.1+forge": [
+      "mUbOwSGS",
+      "l8opGxV8"
+    ]
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "slug": "farmersdelight-notreepunching-pot",
+  "projectId": "Rmopk4aS",
+  "versions": {
+    "5Dx6XJhP": {
+      "filename": "farmersdelight-notreepunching-pot-1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Rmopk4aS/versions/5Dx6XJhP/farmersdelight-notreepunching-pot-1.0-fabric.jar",
+      "hash": "sha512-rLzdD4XaoAAxSgbQfzHj+SWp9/JuwBkBvfedHR1Bvsj9LoxYkDiEwViMGv7tXFpTqt2EvkiCWO+LfHlQkA13Mw==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "no-tree-punching",
+          "projectId": "2W2FL5UY",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "Sv63KsH3": {
+      "filename": "farmersdelight-notreepunching-pot_1.0.0_data_pack.zip",
+      "url": "https://cdn.modrinth.com/data/Rmopk4aS/versions/Sv63KsH3/farmersdelight-notreepunching-pot_1.0.0_data_pack.zip",
+      "hash": "sha512-oVvUV7xZEoEKmKsm5L37BQPfqGRZgNF1MVhR4cLqyBrpRVIG2f2R6lY9nO2422bkT7EajhHXNfkIOWrC8BpQ1w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "no-tree-punching",
+          "projectId": "2W2FL5UY",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    },
+    "YQ6S79KC": {
+      "filename": "farmersdelight-notreepunching-pot-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Rmopk4aS/versions/YQ6S79KC/farmersdelight-notreepunching-pot-1.0.0.jar",
+      "hash": "sha512-R4L5t9/mYWb4xdiEBYY9bqCDhVYaH0s5sYmBHRcwz0jTFDRoRq90b62GmZze9GWdis2qaBBXDE2Lj0CBvaYRwA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "no-tree-punching",
+          "projectId": "2W2FL5UY",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    },
+    "qnyESkGR": {
+      "filename": "farmersdelight-notreepunching-pot_1.0-fabric_data_pack.zip",
+      "url": "https://cdn.modrinth.com/data/Rmopk4aS/versions/qnyESkGR/farmersdelight-notreepunching-pot_1.0-fabric_data_pack.zip",
+      "hash": "sha512-a2fPTdrHRckxJ20pAolIz/8O+SX5etwJxrm/pUVQyyu2gEIdpEx81P5uR+IDva8afsVdy2XelBrWKskY2sxaVQ==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "no-tree-punching",
+          "projectId": "2W2FL5UY",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+datapack": [
+      "qnyESkGR"
+    ],
+    "1.18.2+fabric": [
+      "5Dx6XJhP"
+    ],
+    "1.18.2+quilt": [
+      "5Dx6XJhP"
+    ],
+    "1.19.2+datapack": [
+      "qnyESkGR"
+    ],
+    "1.19.2+fabric": [
+      "5Dx6XJhP"
+    ],
+    "1.19.2+quilt": [
+      "5Dx6XJhP"
+    ],
+    "1.20+datapack": [
+      "qnyESkGR"
+    ],
+    "1.20+fabric": [
+      "5Dx6XJhP"
+    ],
+    "1.20+quilt": [
+      "5Dx6XJhP"
+    ],
+    "1.20.1+datapack": [
+      "qnyESkGR",
+      "Sv63KsH3"
+    ],
+    "1.20.1+fabric": [
+      "5Dx6XJhP"
+    ],
+    "1.20.1+forge": [
+      "YQ6S79KC"
+    ],
+    "1.20.1+quilt": [
+      "5Dx6XJhP"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "mace-effects",
+  "projectId": "1WiIjxva",
+  "versions": {
+    "BXlSNihG": {
+      "filename": "macesmash-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/1WiIjxva/versions/BXlSNihG/macesmash-1.21.10.jar",
+      "hash": "sha512-C+6pzX8apJH58C7uUfQ5a8FaD6EwMu+RjNxJEmw8GyHlN3UiXqCnqMGnJmCFIlzIB9iOZ+s2uPlG8BL/RQyKiw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "wF53zq03": {
+      "filename": "mace-smash-effect-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1WiIjxva/versions/wF53zq03/mace-smash-effect-1.0.0.jar",
+      "hash": "sha512-n+6jCMqiO0KYiWchnxgbmvnD+xha0LxJPDAzZFSeud6R/OL5nCrMDPMxh5s1B1nNk7duWRVtkk6T9CkwqusMrw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "BXlSNihG"
+    ],
+    "1.21.11+fabric": [
+      "wF53zq03"
+    ]
+  }
+}

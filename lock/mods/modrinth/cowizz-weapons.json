@@ -1,0 +1,31 @@
+{
+  "slug": "cowizz-weapons",
+  "projectId": "V0pGasR5",
+  "versions": {
+    "elElAclO": {
+      "filename": "cowizzweapons-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/V0pGasR5/versions/elElAclO/cowizzweapons-1.0-1.20.1.jar",
+      "hash": "sha512-H8Z0XrHMq66B18G2nRX3ntY7DqoHtSBkTer1e32jkAm6PS/5UOoNuiiVROdK+RlzGTg29JqKTE66o8+uZk2Q9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "elElAclO"
+    ]
+  }
+}

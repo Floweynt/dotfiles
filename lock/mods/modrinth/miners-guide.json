@@ -1,0 +1,54 @@
+{
+  "slug": "miners-guide",
+  "projectId": "OFGUAB8z",
+  "versions": {
+    "waNVYxl4": {
+      "filename": "minersguide-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/OFGUAB8z/versions/waNVYxl4/minersguide-1.0.1.jar",
+      "hash": "sha512-gCmJvh7ZNyXQLyqZ1zvwrXLsexad28ji3vGOk/v7gUpWHwl+PoXUv+WW0ysR+MfPYq+JVfsbyogeHhzh6erKIg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wmXWBG5p": {
+      "filename": "minersguide-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OFGUAB8z/versions/wmXWBG5p/minersguide-1.0.0.jar",
+      "hash": "sha512-o9ZUrCTBP71N0JOIHEEG3sWrQpGrjQ25OlnZviLk1sHZJsSxvOEGISDcxyanJIiBvLfz7wAFfRv6BmXqw/NK3Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "wmXWBG5p"
+    ],
+    "1.21.8+fabric": [
+      "waNVYxl4"
+    ]
+  }
+}

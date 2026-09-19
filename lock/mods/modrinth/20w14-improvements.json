@@ -1,0 +1,54 @@
+{
+  "slug": "20w14-improvements",
+  "projectId": "aAWxv6NT",
+  "versions": {
+    "YWo62xKJ": {
+      "filename": "20w14infinite-improvements.zip",
+      "url": "https://cdn.modrinth.com/data/aAWxv6NT/versions/YWo62xKJ/20w14infinite-improvements.zip",
+      "hash": "sha512-dh/D/7eLw5KzGGE1NcdqpW1IJg6e3wk/TPAL/WB5/oFSR4HfbCns3Aq9daYWhS02hjhs6J/q/4NFuscrwtEQZQ==",
+      "gameVersions": [
+        "20w14infinite"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "swK0f38E": {
+      "filename": "20w14-improvements-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/aAWxv6NT/versions/swK0f38E/20w14-improvements-1.1.0.jar",
+      "hash": "sha512-e9re7+kPUhlOYihwkSN1SBBrs1O7pDDvESD+lJLZ9GKYSXJKVBvlD8zQJ4vKKdo4sWdvoaZRZm1TbqemkZT2oQ==",
+      "gameVersions": [
+        "20w14infinite"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "20w14infinite+datapack": [
+      "YWo62xKJ"
+    ],
+    "20w14infinite+fabric": [
+      "swK0f38E"
+    ],
+    "20w14infinite+forge": [
+      "swK0f38E"
+    ],
+    "20w14infinite+neoforge": [
+      "swK0f38E"
+    ],
+    "20w14infinite+quilt": [
+      "swK0f38E"
+    ]
+  }
+}

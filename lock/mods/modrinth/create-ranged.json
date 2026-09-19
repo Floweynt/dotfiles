@@ -1,0 +1,157 @@
+{
+  "slug": "create-ranged",
+  "projectId": "ES4twYgt",
+  "versions": {
+    "MfxZD233": {
+      "filename": "create_ranged-1.1.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ES4twYgt/versions/MfxZD233/create_ranged-1.1.0-forge-1.20.1.jar",
+      "hash": "sha512-RUkdHTpppZzx0JzRxAVPpF6vWvdo9BVwsA66GXEAQfFJCJD/t4Juuf4vJqfe33HMUwy84kgLSClRqmd1v1KgYQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "clNtSw7A": {
+      "filename": "create_ranged-1.1.0-forge-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/ES4twYgt/versions/clNtSw7A/create_ranged-1.1.0-forge-1.19.2.jar",
+      "hash": "sha512-yUE751VZaMVnlCQ1OQ9IveZqf6ZllYkV82zDhaOXJimuhwnlkZJH2bnujko8KEfky++3gPB6fi/7LLYSmAbOdQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "d4bYTJ2x": {
+      "filename": "create_ranged-1.1.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ES4twYgt/versions/d4bYTJ2x/create_ranged-1.1.0-fabric-1.20.1.jar",
+      "hash": "sha512-ysSDm17ROM6Z+i9T7hrofCgDfs8qjPDX/LD31pttKbTFNnIoTI8wjPowwvp4QYK4ba3GHPVBlvF+/pCbFSicSw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "hZI9L9VQ": {
+      "filename": "create_ranged-1.2.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ES4twYgt/versions/hZI9L9VQ/create_ranged-1.2.0-neoforge-1.21.1.jar",
+      "hash": "sha512-wqNvb9AuTqszqDZVBGfHs4MKO+OKn1kbFTIg3xk73OunXg3VTthOA+EpPhvQ6SJcotx907rUA10D2DNsR9Q3tQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "tgepbC38": {
+      "filename": "create_ranged-1.1.0-fabric-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/ES4twYgt/versions/tgepbC38/create_ranged-1.1.0-fabric-1.19.2.jar",
+      "hash": "sha512-ZhUAtDCGLJ3RasmMIq7SjusFuWdAHDp9tykpNfn0WtWjbQjq26D77Ed38S2YoqxrgBNx0mBEbZuMPQmZQ0EuaA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "tgepbC38"
+    ],
+    "1.19.2+forge": [
+      "clNtSw7A"
+    ],
+    "1.19.2+neoforge": [
+      "clNtSw7A"
+    ],
+    "1.19.2+quilt": [
+      "tgepbC38"
+    ],
+    "1.20+fabric": [
+      "d4bYTJ2x"
+    ],
+    "1.20+forge": [
+      "MfxZD233"
+    ],
+    "1.20+neoforge": [
+      "MfxZD233"
+    ],
+    "1.20+quilt": [
+      "d4bYTJ2x"
+    ],
+    "1.20.1+fabric": [
+      "d4bYTJ2x"
+    ],
+    "1.20.1+forge": [
+      "MfxZD233"
+    ],
+    "1.20.1+neoforge": [
+      "MfxZD233"
+    ],
+    "1.20.1+quilt": [
+      "d4bYTJ2x"
+    ],
+    "1.21+neoforge": [
+      "hZI9L9VQ"
+    ],
+    "1.21.1+neoforge": [
+      "hZI9L9VQ"
+    ]
+  }
+}

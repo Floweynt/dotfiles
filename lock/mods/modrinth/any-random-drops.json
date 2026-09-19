@@ -1,0 +1,46 @@
+{
+  "slug": "any-random-drops",
+  "projectId": "HWObeoW7",
+  "versions": {
+    "1OLIgBE9": {
+      "filename": "random-drop-1.21.11-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HWObeoW7/versions/1OLIgBE9/random-drop-1.21.11-fabric-1.1.0.jar",
+      "hash": "sha512-IcPccBExRQpsVe7W0eugg2GK9il8SvI9k5U0dn39pI/gBnFudAmYHIwEJDi2VwkPiYqKB0iQGF6NpVyqyeBGmQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vUXjhRR8": {
+      "filename": "random-drop-1.21.11-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HWObeoW7/versions/vUXjhRR8/random-drop-1.21.11-fabric-1.0.0.jar",
+      "hash": "sha512-+q4WvFgrBpKnidG7jNlAaH3UK4uOnGlPAgP9NSqsrrrvcTxiRTa9JWucD2a34XDMHxl9v+SACXILqmozl2OD/Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "1OLIgBE9",
+      "vUXjhRR8"
+    ]
+  }
+}

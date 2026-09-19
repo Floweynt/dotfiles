@@ -1,0 +1,31 @@
+{
+  "slug": "potluck",
+  "projectId": "POHaQoDG",
+  "versions": {
+    "HvtZ4clm": {
+      "filename": "Potluck-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/POHaQoDG/versions/HvtZ4clm/Potluck-1.0.0.jar",
+      "hash": "sha512-1erVV+Dqv0hMUEBtACM6nzqaMECZBVfWMMDqZYtKj1teeNf/KNPJ+6DuRZ6Mf1vqOjXyIgr4kAYTlCheaYJlAA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "HvtZ4clm"
+    ]
+  }
+}

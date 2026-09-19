@@ -1,0 +1,80 @@
+{
+  "slug": "forstars",
+  "projectId": "GCWwMh9N",
+  "versions": {
+    "Lqpce3YL": {
+      "filename": "fishing-for-stars-1.21.11-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GCWwMh9N/versions/Lqpce3YL/fishing-for-stars-1.21.11-1.0.0.jar",
+      "hash": "sha512-E2Uh/aDtfFFzcFW5fiMCBWqYpoIcn2SMM7d62gpgE0nDDMcoWQ7RFZ8uUYXgQ8TWvdqyhFjHpQ+vp3o4GP4CtQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UBVEFbt3": {
+      "filename": "fishing-for-stars-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GCWwMh9N/versions/UBVEFbt3/fishing-for-stars-1.21.1-1.0.0.jar",
+      "hash": "sha512-ifO64jrXkORKbNt42jfxusa4rVlAgMPFEsh3BworQeBwAetEiUXhopuK6AoIhdtApsVwsUHtSCtZ2OXaJB9w1g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "azYI7yCd": {
+      "filename": "fishing-for-stars-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GCWwMh9N/versions/azYI7yCd/fishing-for-stars-1.21.1-1.0.1.jar",
+      "hash": "sha512-5YzSnzEJNaDm20V/0cKVaaPlqkKCSOyphS7Gbguc6Yt86/6d/epIaHrIcb+DUkSV0VShrJojZwXsKV34RBRUHg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "juwJQdh3": {
+      "filename": "fishing-for-stars-1.21.8-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GCWwMh9N/versions/juwJQdh3/fishing-for-stars-1.21.8-1.0.1.jar",
+      "hash": "sha512-jW3K/ETxTspFkQGTsOcXeO7b+XJ6buj+ZKaOhcYLNPhR59KtyLB/Ni4ST33LwB2N+71lU7iwXzC/HbIqFuRKMA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "azYI7yCd",
+      "UBVEFbt3"
+    ],
+    "1.21.11+fabric": [
+      "Lqpce3YL"
+    ],
+    "1.21.8+fabric": [
+      "juwJQdh3"
+    ]
+  }
+}

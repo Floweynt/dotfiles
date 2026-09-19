@@ -1,0 +1,104 @@
+{
+  "slug": "easy-deaths",
+  "projectId": "5Tx9JNce",
+  "versions": {
+    "FPZizLe2": {
+      "filename": "easy-deaths-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5Tx9JNce/versions/FPZizLe2/easy-deaths-1.0.0.jar",
+      "hash": "sha512-xNedCe+8wut4CijWKlpWJ4/cItnvus0rfMUQmEN4G9vBlu5GzkHhpQZjn8wnHaRXY2q1yQPm6ksU1WeHnC4mOA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "blkttNjA": {
+      "filename": "easy-deaths-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5Tx9JNce/versions/blkttNjA/easy-deaths-1.0.1.jar",
+      "hash": "sha512-X9+AUYmyuVv3PkhSxAnKZHM4/59UIWFHTExk+KqRYrcNmrULPNHNCInGzc3mpikBhoPOL5FxcB7yb6tZ/0xuaQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "s1UimhPP": {
+      "filename": "easy-deaths-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/5Tx9JNce/versions/s1UimhPP/easy-deaths-1.0.3.jar",
+      "hash": "sha512-3R/s1J9xuxNZeZ2RBGqJgmo50QFIJsO53uSsZrfL1rOGf5jargkqeIJccqk/TWtCnn1pu6Vd0WKBjpBCdFu8Yg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "womMxmyl": {
+      "filename": "easy-deaths-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/5Tx9JNce/versions/womMxmyl/easy-deaths-1.0.2.jar",
+      "hash": "sha512-RRj/B620FS5QVXw9B1tGMZD9zTEyRwDrVmTkjKa0ue52OeFX04Uds8JLLtQDQp8m7eTUHEriUugrEuNUswZgLw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "womMxmyl",
+      "blkttNjA",
+      "FPZizLe2"
+    ],
+    "1.20.1+fabric": [
+      "womMxmyl",
+      "blkttNjA",
+      "FPZizLe2"
+    ],
+    "1.21+fabric": [
+      "s1UimhPP"
+    ]
+  }
+}

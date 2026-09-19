@@ -1,0 +1,65 @@
+{
+  "slug": "create-interval-filter",
+  "projectId": "CRZZ4kPb",
+  "versions": {
+    "MliWshR9": {
+      "filename": "createintervalfilter-1.0.0+mc-1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/CRZZ4kPb/versions/MliWshR9/createintervalfilter-1.0.0%2Bmc-1.21.1-neoforge.jar",
+      "hash": "sha512-ZyAzCdng3WhDmToTz8hGnIsQh2FIGra7NL2iEgMcr8LlbJZmyqBKrKmTD3IxTN+01jzCNKsgg8+hjf7dUSzHpQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bDnWNcEH": {
+      "filename": "createintervalfilter-1.0.0+mc-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/CRZZ4kPb/versions/bDnWNcEH/createintervalfilter-1.0.0%2Bmc-1.20.1-forge.jar",
+      "hash": "sha512-73eYehit1kh3dpvRBftZ9yW/6/brRSbaaMRlca8x+jwf9otLg4FK2Pf2oNuGVFa8An5yhn670g5uXOUv/CPMew==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nL9AuWws": {
+      "filename": "createintervalfilter-1.0.0+mc-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/CRZZ4kPb/versions/nL9AuWws/createintervalfilter-1.0.0%2Bmc-1.20.1-fabric.jar",
+      "hash": "sha512-TEohVE/rFG7Ttsc6J9T5LPPLFqIryc4gxb+9ZMwMOpM7vIJHntC96YIQoZHpFDCXiX8K9Mr/yJ8m8B800c+64A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nL9AuWws"
+    ],
+    "1.20.1+forge": [
+      "bDnWNcEH"
+    ],
+    "1.21.1+neoforge": [
+      "MliWshR9"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "luxore",
+  "projectId": "pnnugJQk",
+  "versions": {
+    "9DIM2Luy": {
+      "filename": "luxore-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/pnnugJQk/versions/9DIM2Luy/luxore-1.2.jar",
+      "hash": "sha512-IS5bOLyJp8u3tYpQixKnS7TTDkibHpsmZO+39Fi2CdgjECIhlZ3HmeHAh8MDPcBirA7HwrWrkTOO9I1RN6THjw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ZSLrSBLX": {
+      "filename": "luxore-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pnnugJQk/versions/ZSLrSBLX/luxore-2.0.1.jar",
+      "hash": "sha512-ahqXdidjDYqnvKe7R3OvRJ1I+qFaSLzy30cdLQTb6OiEj9k8LBYcR0KhnM2lket9oug1iIrBGonVG6VWRAK4Gw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fMlWrMZV": {
+      "filename": "luxore-neoforge-3.0.0+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/pnnugJQk/versions/fMlWrMZV/luxore-neoforge-3.0.0%2Bmc1.21.jar",
+      "hash": "sha512-NMM4HhUSqcmH5JMFeMggr/2Qmrq9ItkOyYhQgoShuTj50+KGIM0nJLidwH/xH7D9yTzgd13Ff4rm93mNO8VKVg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "iRLxJbJJ": {
+      "filename": "luxore-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pnnugJQk/versions/iRLxJbJJ/luxore-2.0.0.jar",
+      "hash": "sha512-DWcEbLLJHczfnKGc75tM53KGKqQGdOZGWqe9gRLx4p6ScR8NZg3MH6BkU7hoM+/CBDL4jor/jCWJEBytDWX2hQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "r3LUGOlA": {
+      "filename": "luxore-2.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/pnnugJQk/versions/r3LUGOlA/luxore-2.0.2.jar",
+      "hash": "sha512-TlBUeE49QGNbWkomgkUMbdkI1Vu2wP6G4ceD15eeH9KZEBugWIvLCdIC9yP0tp2nH4rOLCvFycFQmGo8EnLoOw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vXFGLOiW": {
+      "filename": "luxore-fabric-3.0.0+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/pnnugJQk/versions/vXFGLOiW/luxore-fabric-3.0.0%2Bmc1.21.jar",
+      "hash": "sha512-jxWdjCiPIdZ/w72EIbjEQgfclz/5q4lmaVBIEsaUsAfJLOQi5HLFId4dwnmDKdfhEQGM/Myjdak06mYVpEfuKA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "9DIM2Luy"
+    ],
+    "1.17.1+fabric": [
+      "iRLxJbJJ"
+    ],
+    "1.18.2+fabric": [
+      "ZSLrSBLX"
+    ],
+    "1.19.2+fabric": [
+      "r3LUGOlA"
+    ],
+    "1.21+fabric": [
+      "vXFGLOiW"
+    ],
+    "1.21+neoforge": [
+      "fMlWrMZV"
+    ],
+    "1.21+quilt": [
+      "vXFGLOiW"
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "title-damage-indicator",
+  "projectId": "1RJ5UWcA",
+  "versions": {
+    "I8B1OJNz": {
+      "filename": "Title Damage Indicator [CLIENT, v1.0.0, MC 1.21.3].jar",
+      "url": "https://cdn.modrinth.com/data/1RJ5UWcA/versions/I8B1OJNz/Title%20Damage%20Indicator%20%5BCLIENT%2C%20v1.0.0%2C%20MC%201.21.3%5D.jar",
+      "hash": "sha512-TrpqPjwe1zZabt7q++Sg7oyoUA1fFVD1/i5Lt0hCowiy2K+BnATqztySF8KT5twVhYjfgQzi/wBTY3apa8fLhg==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Oarr8rlz": {
+      "filename": "Title Damage Indicator [CLIENT, v1.0.0, MC 1.21.11].jar",
+      "url": "https://cdn.modrinth.com/data/1RJ5UWcA/versions/Oarr8rlz/Title%20Damage%20Indicator%20%5BCLIENT%2C%20v1.0.0%2C%20MC%201.21.11%5D.jar",
+      "hash": "sha512-OmIgy4Cs6+b7YQ3JmvzZ9Z+mz+C0LrCwjX0SjMs8jJZcJMPYspEluysjwrwYrD01Mo8s3wHx9KiJkyz/3+sGGw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sBXoM3KN": {
+      "filename": "Title Damage Indicator [v1.0.0, CLIENT].jar",
+      "url": "https://cdn.modrinth.com/data/1RJ5UWcA/versions/sBXoM3KN/Title%20Damage%20Indicator%20%5Bv1.0.0%2C%20CLIENT%5D.jar",
+      "hash": "sha512-Tevs9c/kbj0QGXDRjG5TKINKe9x/uZnSFSWCKXGtpgBeR3CYY68Y5D2A4OLA8jDNo4YfGZAyz1qPg0lY1HTBoA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "sBXoM3KN"
+    ],
+    "1.21.11+fabric": [
+      "Oarr8rlz"
+    ],
+    "1.21.3+fabric": [
+      "I8B1OJNz"
+    ]
+  }
+}

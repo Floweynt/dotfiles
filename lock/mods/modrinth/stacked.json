@@ -1,0 +1,42 @@
+{
+  "slug": "stacked",
+  "projectId": "CN3F9cE6",
+  "versions": {
+    "EKWIuQpr": {
+      "filename": "stacked-1.21.8-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CN3F9cE6/versions/EKWIuQpr/stacked-1.21.8-1.0.0.jar",
+      "hash": "sha512-6YOuTXixD0WIqPTFOUUEqsyxQVzKceszg5/VcAEnm/HQpKn/Fe+7DfhmyMqR0ltVWqWI2QYIWwYtZc8BsUto4w==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PAleycfv": {
+      "filename": "stacked-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CN3F9cE6/versions/PAleycfv/stacked-1.21.1-1.0.0.jar",
+      "hash": "sha512-4L7You7Gb6BmQB1zZsbr3FOoB8HbAXNqT14skfSS/ushS7WlR5bNC+x6bUowuQ52CbT7A5YrKJPCfdRMjEY3FQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "PAleycfv"
+    ],
+    "1.21.8+fabric": [
+      "EKWIuQpr"
+    ]
+  }
+}

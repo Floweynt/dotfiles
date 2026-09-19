@@ -1,0 +1,52 @@
+{
+  "slug": "cobblemon-stamina-reload",
+  "projectId": "9C9Wp8Rw",
+  "versions": {
+    "UhWTIctA": {
+      "filename": "berbers-stamina-tweaks-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/9C9Wp8Rw/versions/UhWTIctA/berbers-stamina-tweaks-1.0.jar",
+      "hash": "sha512-iIWXcEYSObXYI9EwgQtThAoPKlqR9qB+yYBybWosSjASy+vBWe5QfqOl+yXVtTEHJuGNbdZ+bvr54MqYTav/PQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "vjtbxo95": {
+      "filename": "berbers-stamina-tweaks-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/9C9Wp8Rw/versions/vjtbxo95/berbers-stamina-tweaks-1.1.jar",
+      "hash": "sha512-yZm+CZbAenhf3z8L1LTNh3vupW3ZKAUaVUtLPrhfJlnIQ5hMRMLSCe9n55OOPV/NIfxxdeCTwUiKQMnbUFvMBA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "vjtbxo95",
+      "UhWTIctA"
+    ]
+  }
+}

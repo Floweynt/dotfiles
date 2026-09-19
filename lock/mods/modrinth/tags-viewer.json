@@ -1,0 +1,42 @@
+{
+  "slug": "tags-viewer",
+  "projectId": "tFdz78tB",
+  "versions": {
+    "fWGdV2ND": {
+      "filename": "tagsviewer-1.21.1-NeoForge-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/tFdz78tB/versions/fWGdV2ND/tagsviewer-1.21.1-NeoForge-1.0.2.jar",
+      "hash": "sha512-yuc3pdWOj2IzaVPdQXwTp0K1a9rv7OIKsmUXTsUuITXpUGAfiQt0S5gC3KZ30dZm50i6q9SannOdL8wjsYu0iA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nvzw9Q3s": {
+      "filename": "tagsviewer-1.21.1-Fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/tFdz78tB/versions/nvzw9Q3s/tagsviewer-1.21.1-Fabric-1.0.2.jar",
+      "hash": "sha512-swhfU6sz2CYXaipSTblRKcPXWeOROONV7OcFl33IEESTuTpkEXNNQJE3StXu5hFETz0kqsKW4LqPUZKtQpueJQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "nvzw9Q3s"
+    ],
+    "1.21.1+neoforge": [
+      "fWGdV2ND"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "csr",
+  "projectId": "ib6l6b7y",
+  "versions": {
+    "LYRJPFIR": {
+      "filename": "csr-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/ib6l6b7y/versions/LYRJPFIR/csr-1.0.2.jar",
+      "hash": "sha512-4SOsqMMC7uXtmzdj2QlNr8LqBAL5SLkML/5f+wnB7pf4ghjRS+5CcXVmJkV6SPmqeg54HoEOsDkt+x0j3kHKHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "l5SiZzsE": {
+      "filename": "csr-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/ib6l6b7y/versions/l5SiZzsE/csr-1.0.2.jar",
+      "hash": "sha512-uBSCtdK/oWeoOFwdEd43MNGCY7IHXW7XCKNN7lvf0Xk1N+uFRLZpp0hNXjMS29J2XqBykzSMFkXc9YMCllqRhw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "mD3DlBxm": {
+      "filename": "csr-1.21-1.0.2 (1).jar",
+      "url": "https://cdn.modrinth.com/data/ib6l6b7y/versions/mD3DlBxm/csr-1.21-1.0.2%20%281%29.jar",
+      "hash": "sha512-HaUDTIpfsQqZ2qQN5yp/yyourA/++c/mtXhB4DMJmErA3KelEFxLaJ1f4/c83Ko9KtK6ioSYsYxczls76Jeprg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "yWMNymXJ": {
+      "filename": "csr-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ib6l6b7y/versions/yWMNymXJ/csr-1.0.0.jar",
+      "hash": "sha512-fNZtFBTsy0Rsnsz+O82SRFI87je3dnh2F+9DlkeU9otPYRMBqTY5NJXYgPQJZhqHf57N3a7ExJsM+r8ygzZzNg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modern-ui",
+          "projectId": "3sjzyvGR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "l5SiZzsE",
+      "LYRJPFIR",
+      "yWMNymXJ"
+    ],
+    "1.21+fabric": [
+      "mD3DlBxm"
+    ]
+  }
+}

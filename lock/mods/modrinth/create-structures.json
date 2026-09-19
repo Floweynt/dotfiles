@@ -1,0 +1,117 @@
+{
+  "slug": "create-structures",
+  "projectId": "IAnP4np7",
+  "versions": {
+    "GHYR6eCT": {
+      "filename": "Create Structures - v0.1.1 - 1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/IAnP4np7/versions/GHYR6eCT/Create%20Structures%20-%20v0.1.1%20-%201.20.1.zip",
+      "hash": "sha512-FREET1V7XggF0SidQ+wsrjKI3OGZJ63O+j8hVMccNjutDLiz9bpqXpc9uzxKTQ+5gX4P0lqS9XkwLTLYFQrdkA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "T6pIYgOM": {
+      "filename": "create-structures-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/IAnP4np7/versions/T6pIYgOM/create-structures-0.1.0.jar",
+      "hash": "sha512-l4geyJMjTNCQFCWGpehRgOwvqsm/+pLku+xHKDUJKLZ3COrEad7IyAM8PP1FlJ3HMS+GMr6bYBtTEZmsIwPnfg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "XALEBs0a": {
+      "filename": "create-structures-0.1.1-1.20.1-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/IAnP4np7/versions/XALEBs0a/create-structures-0.1.1-1.20.1-FORGE.jar",
+      "hash": "sha512-Om6lCynIIJu1HSdCuU47bW5D3roO9LFQnL7MvBvPuVMQVif/AYjIF2koFAsFyx/mxN5dTfzVMPbDbJUvLbQ3Qw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "e9v4MIpX": {
+      "filename": "Create Structures - v0.1.0.zip",
+      "url": "https://cdn.modrinth.com/data/IAnP4np7/versions/e9v4MIpX/Create%20Structures%20-%20v0.1.0.zip",
+      "hash": "sha512-xtgqf/cop1AYXuaAjXK1BeNN9G1hZ57Usf12bwCiM0hkLAdoRVUOX7C9nompyKQNWIY8uJqEcBWAN+JIBr+pKw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "nqsTHZwx": {
+      "filename": "create-structures-0.1.1-1.20.1-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/IAnP4np7/versions/nqsTHZwx/create-structures-0.1.1-1.20.1-FABRIC.jar",
+      "hash": "sha512-VtaTxQG2VdUtwhZz7+ADqZ/u36RM+Jr+2C+ul8HWvo/SyKnQyPEm7L43EWvypGMbi7clvchwozguR5HEnM4Etg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "e9v4MIpX"
+    ],
+    "1.19.2+forge": [
+      "T6pIYgOM"
+    ],
+    "1.20.1+datapack": [
+      "GHYR6eCT"
+    ],
+    "1.20.1+fabric": [
+      "nqsTHZwx"
+    ],
+    "1.20.1+forge": [
+      "XALEBs0a"
+    ]
+  }
+}

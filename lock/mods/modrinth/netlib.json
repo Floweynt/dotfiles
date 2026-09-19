@@ -1,0 +1,113 @@
+{
+  "slug": "netlib",
+  "projectId": "tObcBeNF",
+  "versions": {
+    "3VwNDtjQ": {
+      "filename": "netlib-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/tObcBeNF/versions/3VwNDtjQ/netlib-1.1.0.jar",
+      "hash": "sha512-CpdcUFQ8OiccyDOakT7mjAshAgrYGktm6RQlrm3ty/XNABuj/irhPFJs3XnnL+hI8nqd63fKppAnoyLtNmmOGg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "L9D5MVex": {
+      "filename": "netlib-fabric-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/tObcBeNF/versions/L9D5MVex/netlib-fabric-1.3.1.jar",
+      "hash": "sha512-yAlRQSbeamkiwpmFbofDYoaDCsdgl0lULd+dr2FKQhkalNoCqoU4fjYDTJnZit7fMIg4yYHfnVKKTyAQMVzzYQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "RWyVIBHo": {
+      "filename": "netlib-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/tObcBeNF/versions/RWyVIBHo/netlib-1.2.0.jar",
+      "hash": "sha512-O8UPm8d3nlb0D7h9K6rESdz12Ip+LsXpZKr73HqUbb2OqpQd/dAH9oZgJk828CA87VeGPgCBDHd7fiSwzeoPXw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "m9lz7rp6": {
+      "filename": "netlib-neoforge-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/tObcBeNF/versions/m9lz7rp6/netlib-neoforge-1.3.1.jar",
+      "hash": "sha512-/slk3SnAuqMa+BSu9kc7rEDO6i55WP44eJN0shOCC5drwH/WmV3hebBsJmjx5VcBHRTuPf0ZzFvfS0si6MOb/Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "3VwNDtjQ"
+    ],
+    "1.21.1+fabric": [
+      "L9D5MVex",
+      "RWyVIBHo"
+    ],
+    "1.21.1+neoforge": [
+      "m9lz7rp6"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "pentamana",
+  "projectId": "UgFKzdOy",
+  "versions": {
+    "YPutWfm9": {
+      "filename": "pentamana-fabric-26.1.2-2.0.0-beta.14.jar",
+      "url": "https://cdn.modrinth.com/data/UgFKzdOy/versions/YPutWfm9/pentamana-fabric-26.1.2-2.0.0-beta.14.jar",
+      "hash": "sha512-QfHGWH1YrKrW1FdqPxLuyeY/z3R40O6Za1cMYpK1RM7fdlj/1qImO5c2QceW0Pe5bvPc3RTPKZH+BhKWynxFTw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fishbone-trehalose",
+          "projectId": "yywGpm0M",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "YPutWfm9"
+    ],
+    "26.1.1+fabric": [
+      "YPutWfm9"
+    ],
+    "26.1.2+fabric": [
+      "YPutWfm9"
+    ]
+  }
+}

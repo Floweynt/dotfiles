@@ -1,0 +1,112 @@
+{
+  "slug": "create-wrencheable-planes",
+  "projectId": "bOaXbJsz",
+  "versions": {
+    "MpAlfcAT": {
+      "filename": "WrencheablePlanes2.0 1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/bOaXbJsz/versions/MpAlfcAT/WrencheablePlanes2.0%201.20.1.zip",
+      "hash": "sha512-nG3W2dncGbWvlbin6VfedHOdJ4IznxtS63AqL923dWu90/i4bx0e9EslqiCnbshPeshvg3an5vPHuEe/UCfWWg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "fpNsAwRp": {
+      "filename": "create-wrencheable-planes-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/bOaXbJsz/versions/fpNsAwRp/create-wrencheable-planes-2.0.jar",
+      "hash": "sha512-coscsIkHMt+ROy1fSvnfqwPBwO0J/cx8Jaddds/jd6wuaJsI9Pk9PTAf7uq0eBcCLGflN6Bp9xiRd5YBZRYz8w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    },
+    "ipm6qRyb": {
+      "filename": "create-wrencheable-planes-2.0-1.21-datapack.jar",
+      "url": "https://cdn.modrinth.com/data/bOaXbJsz/versions/ipm6qRyb/create-wrencheable-planes-2.0-1.21-datapack.jar",
+      "hash": "sha512-40lpYFGECUMGGFnuWXdFdQ9lijVaWYBNwwu7kBTNvwb2qp0EHKX0pC6EKBp79U6qBaAAENcmDkosyVQjf+djuQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "rIfwenSa": {
+      "filename": "WrencheablePlanes2.0.zip",
+      "url": "https://cdn.modrinth.com/data/bOaXbJsz/versions/rIfwenSa/WrencheablePlanes2.0.zip",
+      "hash": "sha512-LnnDoRB+8dfPRmmvh4+1Ikep9dvno7zXgc6zc/gg1lwclLgf+6PHNXqWJGofq54tGt6xFbrug9YmhrwQi6n2TQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "MpAlfcAT"
+    ],
+    "1.20.1+fabric": [
+      "ipm6qRyb"
+    ],
+    "1.20.1+forge": [
+      "ipm6qRyb"
+    ],
+    "1.20.1+neoforge": [
+      "ipm6qRyb"
+    ],
+    "1.20.1+quilt": [
+      "ipm6qRyb"
+    ],
+    "1.21.1+datapack": [
+      "rIfwenSa"
+    ],
+    "1.21.1+fabric": [
+      "fpNsAwRp"
+    ],
+    "1.21.1+forge": [
+      "fpNsAwRp"
+    ],
+    "1.21.1+neoforge": [
+      "fpNsAwRp"
+    ],
+    "1.21.1+quilt": [
+      "fpNsAwRp"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "feline-rebalanced",
+  "projectId": "t33ye2ev",
+  "versions": {
+    "NKqY4L09": {
+      "filename": "Feline Revamped 0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/t33ye2ev/versions/NKqY4L09/Feline%20Revamped%200.1.3.jar",
+      "hash": "sha512-SG0ZilBnpVxwH8t5gQaRI115U31f8ID3WauJpoGI6PCXfv+CEQWNntrRliYXYIRp+kSoNuJlogUF4ZP/IxIyoA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        }
+      ]
+    },
+    "hPatJuD4": {
+      "filename": "Feline Revamped 0.1.3.zip",
+      "url": "https://cdn.modrinth.com/data/t33ye2ev/versions/hPatJuD4/Feline%20Revamped%200.1.3.zip",
+      "hash": "sha512-ZrRkqpTn2vPjXaRsR5nKs82A1CuOeF3nlCm9HMA5CvO0B1HCBFCe2X+/6Woq4GUqhvsTUrqFEM3F8PgO8dGXKA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "jfzxJXNJ": {
+      "filename": "Feline Revamped 0.00.12.jar",
+      "url": "https://cdn.modrinth.com/data/t33ye2ev/versions/jfzxJXNJ/Feline%20Revamped%200.00.12.jar",
+      "hash": "sha512-gDC/vrZqMYNGg+PGDLrUx3angNUWvI/xUjc8fqRsh/OhZoncsvyNS91IqYau1CHHf6cM3KZgd5Y125ZwSIivJA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "hPatJuD4"
+    ],
+    "1.20+fabric": [
+      "NKqY4L09",
+      "jfzxJXNJ"
+    ],
+    "1.20+forge": [
+      "NKqY4L09",
+      "jfzxJXNJ"
+    ],
+    "1.20+neoforge": [
+      "NKqY4L09",
+      "jfzxJXNJ"
+    ],
+    "1.20+quilt": [
+      "NKqY4L09",
+      "jfzxJXNJ"
+    ],
+    "1.20.1+datapack": [
+      "hPatJuD4"
+    ],
+    "1.20.1+fabric": [
+      "NKqY4L09",
+      "jfzxJXNJ"
+    ],
+    "1.20.1+forge": [
+      "NKqY4L09",
+      "jfzxJXNJ"
+    ],
+    "1.20.1+neoforge": [
+      "NKqY4L09",
+      "jfzxJXNJ"
+    ],
+    "1.20.1+quilt": [
+      "NKqY4L09",
+      "jfzxJXNJ"
+    ]
+  }
+}

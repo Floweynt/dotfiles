@@ -1,0 +1,54 @@
+{
+  "slug": "cobblemon-capture-border",
+  "projectId": "GkzkrkPs",
+  "versions": {
+    "RZCl3lz8": {
+      "filename": "capture-border-v1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/GkzkrkPs/versions/RZCl3lz8/capture-border-v1.0.0.zip",
+      "hash": "sha512-o3ikfYvQ55ux7Pgc2urM6Z3l6555+KxRTwrmoCZJVdKnQezP1nTAmON+lCTAl5sS5qu+Uc+OtM49tm3/6RC8NA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-counter",
+          "projectId": "rj8uLYP4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "RZCl3lz8"
+    ],
+    "1.19.2+fabric": [
+      "RZCl3lz8"
+    ],
+    "1.19.2+forge": [
+      "RZCl3lz8"
+    ],
+    "1.20.1+datapack": [
+      "RZCl3lz8"
+    ],
+    "1.20.1+fabric": [
+      "RZCl3lz8"
+    ],
+    "1.20.1+forge": [
+      "RZCl3lz8"
+    ]
+  }
+}

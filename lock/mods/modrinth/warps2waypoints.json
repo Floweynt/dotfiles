@@ -1,0 +1,40 @@
+{
+  "slug": "warps2waypoints",
+  "projectId": "QVG0TkWo",
+  "versions": {
+    "wW7CBzYq": {
+      "filename": "xaerowarp-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QVG0TkWo/versions/wW7CBzYq/xaerowarp-1.0.0.jar",
+      "hash": "sha512-eKVIM5OyLNn8AaXTThyVOLP+aq9xy01y2CTQj6N3bWsWKJ3F/JlGanFkPmQe5ggzA12/wSgiep1XnuRMcQpqWw==",
+      "gameVersions": [
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "xaeros-minimap",
+          "projectId": "1bokaNcj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "wW7CBzYq"
+    ],
+    "1.20.5+fabric": [
+      "wW7CBzYq"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "slug": "zoom-o-matic",
+  "projectId": "2GzPMA8i",
+  "versions": {
+    "Q12v0PyL": {
+      "filename": "zoom-o-matic-1.0.1+1.19.3+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/2GzPMA8i/versions/Q12v0PyL/zoom-o-matic-1.0.1%2B1.19.3%2B1.19.4.jar",
+      "hash": "sha512-+wn8J9QXetMlcOnV+aT2V+1CLJ69ucDEtSIYZcoGQAEiM7/3h/5VFSPZ2hH1p7E5i+4/AymuY/ZOveHxvvhcRQ==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "etcwjT4s": {
+      "filename": "zoom-o-matic-1.0.0+1.19.3+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/2GzPMA8i/versions/etcwjT4s/zoom-o-matic-1.0.0%2B1.19.3%2B1.19.4.jar",
+      "hash": "sha512-oahfvwgNBK3wWdipScQWrqM5MeHnClZevEC1etjvBk269wq22DzaNxltCG5qihX1NCnKJ4v9HwZVE8F4CVFiiA==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iLc77yqh": {
+      "filename": "zoom-o-matic-1.1.0-1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2GzPMA8i/versions/iLc77yqh/zoom-o-matic-1.1.0-1.20-1.20.1.jar",
+      "hash": "sha512-dS1AQAcVOlCd6pTSNCwMrylGgMowBKuFuuGEUqXfBTujxejJpAdhHWnWy+DS6fg4oJSTeQhpqyHoYS3WJ9yjDA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "Q12v0PyL",
+      "etcwjT4s"
+    ],
+    "1.19.4+fabric": [
+      "Q12v0PyL",
+      "etcwjT4s"
+    ],
+    "1.20+fabric": [
+      "iLc77yqh"
+    ],
+    "1.20.1+fabric": [
+      "iLc77yqh"
+    ]
+  }
+}

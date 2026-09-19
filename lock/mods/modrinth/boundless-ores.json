@@ -1,0 +1,200 @@
+{
+  "slug": "boundless-ores",
+  "projectId": "GN8nG8tG",
+  "versions": {
+    "RfdHiFai": {
+      "filename": "boundless-ores-neoforge-2.5.jar",
+      "url": "https://cdn.modrinth.com/data/GN8nG8tG/versions/RfdHiFai/boundless-ores-neoforge-2.5.jar",
+      "hash": "sha512-u+8NXxIz4/cqP+kDqAVLcZCL1tr52FwZAKKnFv2sLzjaazI013Vhnfa1UaFNmNrFmQjVWHq3Hfoxi+palkBzEg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "fIRVH4cY": {
+      "filename": "boundless-ores-fabric-2.5.jar",
+      "url": "https://cdn.modrinth.com/data/GN8nG8tG/versions/fIRVH4cY/boundless-ores-fabric-2.5.jar",
+      "hash": "sha512-D855aMjOA70VYJsn1I8AvF/eb+ZLY07O0dyTI5uDw0otDSuoEvYkkQaIMtsRD9X9JqnXzNpb/LRp93xDPgVQ9g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "g0W0sgcx": {
+      "filename": "boundless-ores-neoforge-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/GN8nG8tG/versions/g0W0sgcx/boundless-ores-neoforge-1.1.jar",
+      "hash": "sha512-i6D9b9MlVg2d9KegwIXYPZaGU59rNENZfRrCyj9vKG4ArOkezkIV2fRtRY3I2HIyK7IqTmDph56sUQ8pIb0UBg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "kjMdgAiC": {
+      "filename": "boundless-ores-fabric-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/GN8nG8tG/versions/kjMdgAiC/boundless-ores-fabric-1.1.jar",
+      "hash": "sha512-j8/S+Cwz7y/4c4JmySAorcpPW+Si1pQJib4qXnN9t7k9lpPzgS7TcA5bHBGAX3POnb4fDL8Up5OzcB+sVk5NQQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.1+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.1+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.10+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.10+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.11+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.11+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.2+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.2+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.3+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.3+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.4+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.4+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.5+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.5+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.6+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.6+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.7+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.7+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.8+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.8+neoforge": [
+      "g0W0sgcx"
+    ],
+    "1.21.9+fabric": [
+      "kjMdgAiC"
+    ],
+    "1.21.9+neoforge": [
+      "g0W0sgcx"
+    ],
+    "26.1+fabric": [
+      "fIRVH4cY"
+    ],
+    "26.1+neoforge": [
+      "RfdHiFai"
+    ],
+    "26.1.1+fabric": [
+      "fIRVH4cY"
+    ],
+    "26.1.1+neoforge": [
+      "RfdHiFai"
+    ],
+    "26.1.2+fabric": [
+      "fIRVH4cY"
+    ],
+    "26.1.2+neoforge": [
+      "RfdHiFai"
+    ],
+    "26.2+fabric": [
+      "fIRVH4cY"
+    ],
+    "26.2+neoforge": [
+      "RfdHiFai"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "better-glider-crafting",
+  "projectId": "WnTjFmFv",
+  "versions": {
+    "GP3RgF1P": {
+      "filename": "Better Glider Crafting v0.5.zip",
+      "url": "https://cdn.modrinth.com/data/WnTjFmFv/versions/GP3RgF1P/Better%20Glider%20Crafting%20v0.5.zip",
+      "hash": "sha512-CjBx0kZPbu8bgiqlHSxS2oV/sGzviJhqfqAwwQRp8Uh/kMYWHyF41UP6Ss5JZ190/VlvSNcbNtEIChQT24ggbA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "gliders",
+          "projectId": "XiC6HzoU",
+          "type": "required"
+        }
+      ]
+    },
+    "pBQf3F6A": {
+      "filename": "better-glider-crafting-0.5.jar",
+      "url": "https://cdn.modrinth.com/data/WnTjFmFv/versions/pBQf3F6A/better-glider-crafting-0.5.jar",
+      "hash": "sha512-JtqZBdRBFh9DAE0TMTn3cIFOLrW5PrdzCXsF8C9GpF4AOrnhe1KRkYphmsOZXreGnlnQEpJRprvg+GmEWu8aXQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "gliders",
+          "projectId": "XiC6HzoU",
+          "type": "required"
+        }
+      ]
+    },
+    "rMpNtusr": {
+      "filename": "Better Glider Crafting v0.5 Vanilla.zip",
+      "url": "https://cdn.modrinth.com/data/WnTjFmFv/versions/rMpNtusr/Better%20Glider%20Crafting%20v0.5%20Vanilla.zip",
+      "hash": "sha512-wxl5LiKInbnlh3ybKyp6czY8gobxPx8rZZHmgfvphkABHS0g6aVg6XjiDKQ2MHApc4diFLFRFmUtdVDIXApbxg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "gliders",
+          "projectId": "XiC6HzoU",
+          "type": "required"
+        }
+      ]
+    },
+    "x9fzPXCx": {
+      "filename": "better-glider-crafting-0.5.jar",
+      "url": "https://cdn.modrinth.com/data/WnTjFmFv/versions/x9fzPXCx/better-glider-crafting-0.5.jar",
+      "hash": "sha512-/M6w5S4gydL7NOehWFqwKfNYoF9eXwcrm2H0Dutm9v8iP/8RFU2sdLk9qQEwBviNVHRT/aNd2VjWjCxDApg9yw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "gliders",
+          "projectId": "XiC6HzoU",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "rMpNtusr",
+      "GP3RgF1P"
+    ],
+    "1.21.1+fabric": [
+      "pBQf3F6A",
+      "x9fzPXCx",
+      "GP3RgF1P"
+    ],
+    "1.21.1+forge": [
+      "pBQf3F6A"
+    ],
+    "1.21.1+neoforge": [
+      "pBQf3F6A"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "dice-(fabric-port)",
+  "projectId": "QLhNITvE",
+  "versions": {
+    "2QpjBmjF": {
+      "filename": "Dice-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QLhNITvE/versions/2QpjBmjF/Dice-1.0.0.jar",
+      "hash": "sha512-7HBIkUp3GyDRUQiTOGCEeN6QIMAjHewmr0oEOtTf5EeHwWKbmkSodbEOM0W//dwlQCzTYy7IyPs4piZumPyqcA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "porting_lib",
+          "projectId": "tEJPA4Ty",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2QpjBmjF"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "sodium-lod-fixer",
+  "projectId": "C0Mcmx3E",
+  "versions": {
+    "2nLy1Nzq": {
+      "filename": "sodium-lod-fixer-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/C0Mcmx3E/versions/2nLy1Nzq/sodium-lod-fixer-1.0.0.jar",
+      "hash": "sha512-DZhj/QyNUm9hcSpBATRG503hQyDrx4fqOluyUvuDSTX4su5KfaBEf3OS4cQONXsjOPTdWBjtJ/mQNn9JPnGwzg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "5JLfn388": {
+      "filename": "sodium-lod-fixer-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/C0Mcmx3E/versions/5JLfn388/sodium-lod-fixer-1.0.2.jar",
+      "hash": "sha512-rt/OxAtCl+7O4y7KYzHobgU2TLm/kDfBjXlbdLtMT7hD9hMGiUFnkKuDxmHd7dnz+T8BOE5SSOW2SPgeBBqm/A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "5JLfn388",
+      "2nLy1Nzq"
+    ]
+  }
+}

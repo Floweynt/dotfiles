@@ -1,0 +1,51 @@
+{
+  "slug": "bouncyanimals",
+  "projectId": "rUS28nEu",
+  "versions": {
+    "Y6AarmVi": {
+      "filename": "bouncyanimals-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/rUS28nEu/versions/Y6AarmVi/bouncyanimals-1.0.0.jar",
+      "hash": "sha512-1BT138RO0siCW7K2JiuREAcXuF+Q0pzzLaYmsJjioEXHYyrMQL7OqK8TcA103RQwT3UoyAoNlspZ6eq40EzOAA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "hg8x97oc": {
+      "filename": "bouncyanimals-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/rUS28nEu/versions/hg8x97oc/bouncyanimals-1.1.0.jar",
+      "hash": "sha512-kRYXgIf8P5gSNQ2Qy41TVVz3fkq7ZdP4WcpDvSwEtiXzGl2Dm6q6+4BvE/j2Ww3MdbJPHlzJPngHo0r+3s5p0g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hg8x97oc",
+      "Y6AarmVi"
+    ]
+  }
+}

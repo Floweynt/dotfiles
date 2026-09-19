@@ -1,0 +1,52 @@
+{
+  "slug": "low-durability-warning",
+  "projectId": "5LQ87ztd",
+  "versions": {
+    "CzSSuWu7": {
+      "filename": "low-durability-warning-1.0.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/5LQ87ztd/versions/CzSSuWu7/low-durability-warning-1.0.0%2B1.21.11.jar",
+      "hash": "sha512-0gM9DvsxCO1GF4jab8DcVZNiJTli2Q3kjL1mHs03g2lXZpk53qtzwT6d9BtS+TQU+wUNanHipP+PW3ojhqX1aA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NJrCAdly": {
+      "filename": "low-durability-warning-1.1.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/5LQ87ztd/versions/NJrCAdly/low-durability-warning-1.1.0%2B1.21.11.jar",
+      "hash": "sha512-UrzEcJCnpmGiy6/ijFOn8rjzlih5rAe/RBP6G7ijLskteKofC+7BqyM1Y/fmAtKqGK2a1WEhML7i3fkeUEID5w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "NJrCAdly",
+      "CzSSuWu7"
+    ]
+  }
+}

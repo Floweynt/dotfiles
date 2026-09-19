@@ -1,0 +1,71 @@
+{
+  "slug": "voids-titans-datapack",
+  "projectId": "nUHX7zeo",
+  "versions": {
+    "Oik8cenQ": {
+      "filename": "Void's Titans Datapack V2.0.zip",
+      "url": "https://cdn.modrinth.com/data/nUHX7zeo/versions/Oik8cenQ/Void%27s%20Titans%20Datapack%20V2.0.zip",
+      "hash": "sha512-MiYNyOQdYOZMDcpkbPvGoWJkW9NfH3QV3xFeJiG5Th41VRaHq/OF2Fj5iG44jUIn4snGc4c0KystawekyaKB3w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "a5hM3Vyn": {
+      "filename": "Void's Titans Datapack.zip",
+      "url": "https://cdn.modrinth.com/data/nUHX7zeo/versions/a5hM3Vyn/Void%27s%20Titans%20Datapack.zip",
+      "hash": "sha512-1g4WfzulYtv0rC8X7f126hdILRxt3hbTDtgFLwBac3VE0zxsfjwIzghTu4MWVymG+I0pwWas0EY8st/MQcaxig==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "xFjxa3IX": {
+      "filename": "voids_titans_v2.0.jar",
+      "url": "https://cdn.modrinth.com/data/nUHX7zeo/versions/xFjxa3IX/voids_titans_v2.0.jar",
+      "hash": "sha512-KmI8Vy9jOUirXNuBqvgQ54XtpGPPohxErEqZWBQGG+ei4pTAJYJBSJd5ZRVKaLrfkTHDbC6uetpOVZaLTZJsjw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+datapack": [
+      "Oik8cenQ"
+    ],
+    "1.21.11+fabric": [
+      "xFjxa3IX"
+    ],
+    "1.21.11+forge": [
+      "xFjxa3IX"
+    ],
+    "1.21.11+neoforge": [
+      "xFjxa3IX"
+    ],
+    "1.21.11+quilt": [
+      "xFjxa3IX"
+    ],
+    "1.21.8+datapack": [
+      "a5hM3Vyn"
+    ]
+  }
+}

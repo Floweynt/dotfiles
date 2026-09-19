@@ -1,0 +1,71 @@
+{
+  "slug": "ad-astra-cargo-rockets",
+  "projectId": "uCwB2hRp",
+  "versions": {
+    "Lgm7Xw9B": {
+      "filename": "ad-astra-cargo-rockets-1.0-rc.3.jar",
+      "url": "https://cdn.modrinth.com/data/uCwB2hRp/versions/Lgm7Xw9B/ad-astra-cargo-rockets-1.0-rc.3.jar",
+      "hash": "sha512-iOf5QjuVbeH/S6d0l/EvTtS7w5TXceJzyZHcSvI87X6XsODLFfJ8gMMbG0VITP+Lg3na1JUL+FNVjUmpktTcIg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Y1wsP834": {
+      "filename": "ad-astra-cargo-rockets-1.0-rc.1.jar",
+      "url": "https://cdn.modrinth.com/data/uCwB2hRp/versions/Y1wsP834/ad-astra-cargo-rockets-1.0-rc.1.jar",
+      "hash": "sha512-TIaDO5+Aj4oKiP2ulvKvKnNoow2Bz1/9gk1C4BgzVIbTcSa5kOgk1luFtoYOjbIzir3JgDapySYg7fShzhxmRA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        },
+        {
+          "slug": "cc-tweaked",
+          "projectId": "gu7yAYhd",
+          "type": "required"
+        },
+        {
+          "slug": "f-tech-core",
+          "projectId": "Y1MJrXvw",
+          "type": "required"
+        }
+      ]
+    },
+    "aFZtJMeB": {
+      "filename": "ad-astra-cargo-rockets-1.0-rc.2.jar",
+      "url": "https://cdn.modrinth.com/data/uCwB2hRp/versions/aFZtJMeB/ad-astra-cargo-rockets-1.0-rc.2.jar",
+      "hash": "sha512-pZW096OorA8ipCrlfGG0xYSaKIHvUCVS35r4uSptJdA1aQZEgaOLVJ5jHvzzvH1DvPlCA6e7BZlws8CH6DE7gA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Lgm7Xw9B",
+      "aFZtJMeB",
+      "Y1wsP834"
+    ]
+  }
+}

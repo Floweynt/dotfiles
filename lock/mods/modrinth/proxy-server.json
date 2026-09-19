@@ -1,0 +1,100 @@
+{
+  "slug": "proxy-server",
+  "projectId": "7PJvaKR6",
+  "versions": {
+    "JbAQqVUS": {
+      "filename": "ProxyServer-1.20-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/7PJvaKR6/versions/JbAQqVUS/ProxyServer-1.20-1.3.jar",
+      "hash": "sha512-WD1CU2VX3sXy3DRZNfTnDrchqh5vJN13X1HiicalgVmlaKgAlT1y1YhOs7iHk8XJpJkm6e2LPrWdrkPsiqR2lA==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Kh7CNeit": {
+      "filename": "ProxyServer-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/7PJvaKR6/versions/Kh7CNeit/ProxyServer-1.3.jar",
+      "hash": "sha512-aawOubkWj5sXz2pjSB7ixW6nwUlSivkaUq9Odx/haz0NwF+t5OsZ/zEdQfMhNgDV/BasKTcKADnhefzXdNGHPA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Vk2u4Dhj": {
+      "filename": "ProxyServer Fabric-1.3-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/7PJvaKR6/versions/Vk2u4Dhj/ProxyServer%20Fabric-1.3-1.21.8.jar",
+      "hash": "sha512-aLPSOIMkwazMLrAT4UgguFP9xoXfT7GRzSLVcbDk8Ex8j5UOe6CrTkncxGIo9Q48NL7wvCtXQNHQAuLzjHekDQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kWYeWvkZ": {
+      "filename": "ProxyServer-1.3-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/7PJvaKR6/versions/kWYeWvkZ/ProxyServer-1.3-1.21.4.jar",
+      "hash": "sha512-yb7mqfeAZ7HGQlOFI08VRhEWF1IXQyBKOCi1LqyOtq6I1o4hVXvQuA9VvZEtgnU39BZYbdKojUG9x4Q5HDbSHg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "JbAQqVUS"
+    ],
+    "1.20.4+fabric": [
+      "Kh7CNeit"
+    ],
+    "1.21.4+fabric": [
+      "kWYeWvkZ"
+    ],
+    "1.21.8+fabric": [
+      "Vk2u4Dhj"
+    ]
+  }
+}

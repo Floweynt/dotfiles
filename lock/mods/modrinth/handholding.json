@@ -1,0 +1,35 @@
+{
+  "slug": "handholding",
+  "projectId": "JxWdNdsW",
+  "versions": {
+    "vJmasNc0": {
+      "filename": "handholding-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JxWdNdsW/versions/vJmasNc0/handholding-1.0.jar",
+      "hash": "sha512-yofMkVLvqrGjpoKWH9mTfCzTMjRdEFmblhqAPgRc86XvEq5YjRVR+KGNUHmmPzZyr4gqJNBLPr3B+w+Pp1SjZQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "vJmasNc0"
+    ],
+    "1.21.1+fabric": [
+      "vJmasNc0"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "remixed-origins",
+  "projectId": "icvf7gKm",
+  "versions": {
+    "eMiA64Vb": {
+      "filename": "Remixed Origins 1.1.jar",
+      "url": "https://cdn.modrinth.com/data/icvf7gKm/versions/eMiA64Vb/Remixed%20Origins%201.1.jar",
+      "hash": "sha512-F6jnal02YbtNjQLEHZQOtKXbrOdCyMEdl5v0yX8RgISMxFvvzFjIdN0X+6FxnVs63Ju5ncqJzIAHgZocrac3ng==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "icarus",
+          "projectId": "Dw7M6XKW",
+          "type": "required"
+        },
+        {
+          "slug": "gravity-api-fork",
+          "projectId": "bqOyYdKi",
+          "type": "required"
+        }
+      ]
+    },
+    "vPk3y4zz": {
+      "filename": "Remixed Origins 1.0.jar",
+      "url": "https://cdn.modrinth.com/data/icvf7gKm/versions/vPk3y4zz/Remixed%20Origins%201.0.jar",
+      "hash": "sha512-OwQXpjh57lU9L6kNNpxda9xq0IIfcDdJg9YSvbpAU9ln0r8/9pozrKISfj3XlklmS7Ly5GYhv2q2X+j6Mlkp6A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "icarus",
+          "projectId": "Dw7M6XKW",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "gravity-api-fork",
+          "projectId": "bqOyYdKi",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "eMiA64Vb",
+      "vPk3y4zz"
+    ],
+    "1.20+quilt": [
+      "eMiA64Vb",
+      "vPk3y4zz"
+    ],
+    "1.20.1+fabric": [
+      "eMiA64Vb",
+      "vPk3y4zz"
+    ],
+    "1.20.1+quilt": [
+      "eMiA64Vb",
+      "vPk3y4zz"
+    ]
+  }
+}

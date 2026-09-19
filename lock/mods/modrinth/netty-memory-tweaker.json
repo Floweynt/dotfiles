@@ -1,0 +1,54 @@
+{
+  "slug": "netty-memory-tweaker",
+  "projectId": "pzwKxv3b",
+  "versions": {
+    "YdU6jGqM": {
+      "filename": "NettyMemoryTweaker-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pzwKxv3b/versions/YdU6jGqM/NettyMemoryTweaker-1.0.0.jar",
+      "hash": "sha512-YRQQDrw9nSzDam1Jr2Qh0ByFek7PUCj8TuCgKOMiXA5P/O4wfhq86/LQNmv/oN0GGJZz+qXY/n/5383Osd4LhA==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "m1KZZw8K": {
+      "filename": "NettyMemoryTweaker-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pzwKxv3b/versions/m1KZZw8K/NettyMemoryTweaker-1.0.0.jar",
+      "hash": "sha512-CVt4mS1VK5Cd7a3HphezJESt92q4QiRZoCrgiWECjGU4MiXxk1huV5bYoi8PMgpHJGZSukEccD9Axtuy+zB5gA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "YdU6jGqM"
+    ],
+    "1.21+fabric": [
+      "m1KZZw8K"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "phantomvisuals",
+  "projectId": "zh00jBbf",
+  "versions": {
+    "HsbramtP": {
+      "filename": "PhantomVisuals-2.7.jar",
+      "url": "https://cdn.modrinth.com/data/zh00jBbf/versions/HsbramtP/PhantomVisuals-2.7.jar",
+      "hash": "sha512-exkjj1DCKjPPJlODInHDWBkI4ZUCRV+XL9/W3xPoKTbKmsVeB4YnenVlybh8DH8T8+BrLkY9N1KWstdksRNiKg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KJgEPEqf": {
+      "filename": "PhantomVisuals-2.8.jar",
+      "url": "https://cdn.modrinth.com/data/zh00jBbf/versions/KJgEPEqf/PhantomVisuals-2.8.jar",
+      "hash": "sha512-d/RMQvBklQZT91L6U1YUKUrqXjJI3MggIBRs8n5JziqNO1LHVLWVH21VvRFRZclt9nO0bFsBybdsNHYA2npkFg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "KJgEPEqf",
+      "HsbramtP"
+    ]
+  }
+}

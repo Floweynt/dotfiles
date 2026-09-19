@@ -1,0 +1,123 @@
+{
+  "slug": "uncrafter",
+  "projectId": "Q6iSQrx6",
+  "versions": {
+    "685e5ESu": {
+      "filename": "uncrafter-forge-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Q6iSQrx6/versions/685e5ESu/uncrafter-forge-1.20.1-1.2.0.jar",
+      "hash": "sha512-K0WkvWM4btFwRhH/ueR9A5nAwMFH3FxQHUw2NgUqnzfUWMWZhjR6BtniZpZNnf1IY0CYNHWpO2wi4cdqcaIQMA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-lib",
+          "projectId": "G1hIVOrD",
+          "type": "required"
+        }
+      ]
+    },
+    "RjfaBvIz": {
+      "filename": "uncrafter-fabric-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Q6iSQrx6/versions/RjfaBvIz/uncrafter-fabric-1.20.1-1.2.0.jar",
+      "hash": "sha512-ydlvvUiK4Wz+A8ldIaq7eo9uR34gkXPpxWXTMNsRyGogKuhrCIQHpzXBW4GzmEv/O/xqojq5dmEMnGztY6rxnA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-lib",
+          "projectId": "G1hIVOrD",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        }
+      ]
+    },
+    "SS5TWZoB": {
+      "filename": "Uncrafter-1.16.5-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Q6iSQrx6/versions/SS5TWZoB/Uncrafter-1.16.5-1.1.0.jar",
+      "hash": "sha512-qmLFbUxQ37OtcYgo6iaRVfVL7QSLn5Z9bFzPjxANw9XpdtiT7cuT2qP8EmcO+nZa7xbmwPVkLVT7WwRooTN7qg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "U738nP8w": {
+      "filename": "Uncrafter-1.18.2-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Q6iSQrx6/versions/U738nP8w/Uncrafter-1.18.2-1.1.1.jar",
+      "hash": "sha512-iB55e0p+W8xgrAj/oBWCkmPf3V3meirKi5r4bjXuq6946syKstsmgqovhMXB1/J0ZmFS1Nxi+l5qovhflWlyCA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hfLHV2ef": {
+      "filename": "Uncrafter-1.19.2-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Q6iSQrx6/versions/hfLHV2ef/Uncrafter-1.19.2-1.1.1.jar",
+      "hash": "sha512-sR/8+KWB1/Mv2+dFfCWwv64rl1NBfT2p3PPp4NFersO4gR/iNnkKoPnOkI0D3xAbhgGK0bbnuR/ra3xpFTkjGQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+forge": [
+      "SS5TWZoB"
+    ],
+    "1.18.2+forge": [
+      "U738nP8w"
+    ],
+    "1.19.2+forge": [
+      "hfLHV2ef"
+    ],
+    "1.20.1+fabric": [
+      "RjfaBvIz"
+    ],
+    "1.20.1+forge": [
+      "685e5ESu"
+    ],
+    "1.20.2+fabric": [
+      "RjfaBvIz"
+    ],
+    "1.20.2+forge": [
+      "685e5ESu"
+    ]
+  }
+}

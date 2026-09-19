@@ -1,0 +1,138 @@
+{
+  "slug": "sanity-renewed",
+  "projectId": "Fq25IOS1",
+  "versions": {
+    "JnLD9adv": {
+      "filename": "SanityRenewed-20.1.1-mc1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/Fq25IOS1/versions/JnLD9adv/SanityRenewed-20.1.1-mc1.20.1-forge.jar",
+      "hash": "sha512-LMX7DfAZkMkJlDZV+qUvVTMX2ylnqQhSOGZpvVFIphqpdc1BdqSBV6oIKncQJVhiJMM9NyQ0qmmlheR4qbwq7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "MX6NZmTh": {
+      "filename": "SanityRenewed-21.1.0-mc1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/Fq25IOS1/versions/MX6NZmTh/SanityRenewed-21.1.0-mc1.21.1-neoforge.jar",
+      "hash": "sha512-BxJE9FemGRmCLzA0GKaABORfKtg2JfC17iRdQO16XzRzCgfyL/bXimZd3C5nPo3i0zA9jqNOscvSgzgSZOObzg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "PvRZgAeJ": {
+      "filename": "SanityRenewed-21.1.0-mc1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Fq25IOS1/versions/PvRZgAeJ/SanityRenewed-21.1.0-mc1.21.1-fabric.jar",
+      "hash": "sha512-brdWQZRJOn7EzmDTWnGJ1YMKw3boJX/7Nq39tWg6fNXWLnCz143dCYTIAq4p19DQvJbZXlcjWNHODdssXgpY2A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "i4EiIOPm": {
+      "filename": "SanityRenewed-21.1.1-mc1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/Fq25IOS1/versions/i4EiIOPm/SanityRenewed-21.1.1-mc1.21.1-neoforge.jar",
+      "hash": "sha512-z+oIx3pU3yiYWXeCSjztlABW8A8k4t68AKX+0rRCR4gYcr7kYlYVBBqnFUD2Y1jn6mcLkwCWMcLjfISdhwCVMQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ny8Zn3cL": {
+      "filename": "SanityRenewed-21.1.1-mc1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Fq25IOS1/versions/ny8Zn3cL/SanityRenewed-21.1.1-mc1.21.1-fabric.jar",
+      "hash": "sha512-eNLzcMtBx7VXOBi2B/WaRm/cngv1dIKw49fwA8x7iQGQppANfnpHnPmtj7Yh1mF4DL7RVNfc1nSEFGzD5hTPJg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "z7gH2zGq": {
+      "filename": "SanityRenewed-20.1.1-mc1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Fq25IOS1/versions/z7gH2zGq/SanityRenewed-20.1.1-mc1.20.1-fabric.jar",
+      "hash": "sha512-FqR+Nynn1zYYPsMHIcqNaC7tkwlIWfoFD4f5SK2zWzVQ8+dHxhKZ9q7RpxUKZ3/0W3mIDkPt6WoZReZjVniVfQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "z7gH2zGq"
+    ],
+    "1.20.1+forge": [
+      "JnLD9adv"
+    ],
+    "1.21.1+fabric": [
+      "ny8Zn3cL",
+      "PvRZgAeJ"
+    ],
+    "1.21.1+neoforge": [
+      "i4EiIOPm",
+      "MX6NZmTh"
+    ]
+  }
+}

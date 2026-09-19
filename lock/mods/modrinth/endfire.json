@@ -1,0 +1,94 @@
+{
+  "slug": "endfire",
+  "projectId": "pKcvR1NX",
+  "versions": {
+    "14JxMx0S": {
+      "filename": "endfire-1.0.0+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/pKcvR1NX/versions/14JxMx0S/endfire-1.0.0%2B1.21.7.jar",
+      "hash": "sha512-w69So2NmguxehLz9s2sRVpO+Gaak1VIRBbYAIj/lzkoUEmJ233uX1lJckl1Pj84AA1Jb9zpeJYLtJIy1TNRg1w==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "T1ucQzao": {
+      "filename": "endfire-1.0.1+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/pKcvR1NX/versions/T1ucQzao/endfire-1.0.1%2B1.21.7.jar",
+      "hash": "sha512-7n/pC012njaaoArOHzkA4C52BPKtaKNcjME8CDafwWbqmTFNPzaLAU+6imXq4XsrxkrBuHWcQcKHJp0CMpzwvw==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "T1ucQzao",
+      "14JxMx0S"
+    ],
+    "1.21.11+fabric": [
+      "T1ucQzao"
+    ],
+    "1.21.7+fabric": [
+      "T1ucQzao",
+      "14JxMx0S"
+    ],
+    "1.21.8+fabric": [
+      "T1ucQzao",
+      "14JxMx0S"
+    ],
+    "1.21.9+fabric": [
+      "T1ucQzao",
+      "14JxMx0S"
+    ]
+  }
+}

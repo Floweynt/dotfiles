@@ -1,0 +1,136 @@
+{
+  "slug": "customizable-death-ban",
+  "projectId": "hXnQbVuH",
+  "versions": {
+    "1Mn8vYja": {
+      "filename": "Customizable Death Ban 1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/hXnQbVuH/versions/1Mn8vYja/Customizable%20Death%20Ban%201.0.1.jar",
+      "hash": "sha512-t5MC92XXxpgtFtRa4PvLwqYQofMEanvje9+r2mV48vlqeARqEjxO9zXeIyUhYYp9L8j1X9e8hcxdVBiQlwMwIA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        },
+        {
+          "slug": "banhammer",
+          "projectId": "Wpqg0ciI",
+          "type": "required"
+        },
+        {
+          "slug": "placeholder-api",
+          "projectId": "eXts2L7r",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "U6DvfQqZ": {
+      "filename": "hardcoreban-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hXnQbVuH/versions/U6DvfQqZ/hardcoreban-2.1.0.jar",
+      "hash": "sha512-5Ycq9FUX+ZtdNJfJR0mvyxXRKwA/wNBvIZk6nlBPFSkz6t/bdTnvFQ7iTKX5dLzVo2E9nJm6yQu3NyllRxodAw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "banhammer",
+          "projectId": "Wpqg0ciI",
+          "type": "required"
+        }
+      ]
+    },
+    "WamlsGK0": {
+      "filename": "hardcoreban-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hXnQbVuH/versions/WamlsGK0/hardcoreban-2.1.0.jar",
+      "hash": "sha512-wxFoduMQ8ZYSoZ3PxXgGYKVkFoFttmhnG1ipNOPMbdGNjPuEqtf1TYZkHWSdKCdMXtokFyS3VkGyp9X0/Lq1Aw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "banhammer",
+          "projectId": "Wpqg0ciI",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hLiAEnvN": {
+      "filename": "hardcoreban-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hXnQbVuH/versions/hLiAEnvN/hardcoreban-2.1.0.jar",
+      "hash": "sha512-tZgfTaTIKLdbICW2z6nvkhQk4Tj0CQ9ut0xhDNYcTld3xRahAz/gDHlUr5WF+LnoHiyiLBy0vinCGo5idd6Dnw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "banhammer",
+          "projectId": "Wpqg0ciI",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "hLiAEnvN",
+      "1Mn8vYja"
+    ],
+    "26.1+fabric": [
+      "WamlsGK0"
+    ],
+    "26.1.1+fabric": [
+      "WamlsGK0"
+    ],
+    "26.1.2+fabric": [
+      "WamlsGK0"
+    ],
+    "26.2+fabric": [
+      "U6DvfQqZ"
+    ]
+  }
+}

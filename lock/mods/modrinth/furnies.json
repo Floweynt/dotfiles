@@ -1,0 +1,131 @@
+{
+  "slug": "furnies",
+  "projectId": "BEIW1eno",
+  "versions": {
+    "HRVy9AbL": {
+      "filename": "Furnies-neoforge-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/BEIW1eno/versions/HRVy9AbL/Furnies-neoforge-0.2.jar",
+      "hash": "sha512-SzXqcloQ+a0E0gvFnQvSH5CPEP4sjPsefOUPRsHwzuWJ0/jHYeTiJgpIyH4NJlUw8Of2hd5/IdEW3kdMqXCcFA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HjStumVI": {
+      "filename": "Furnies-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BEIW1eno/versions/HjStumVI/Furnies-fabric-1.0.jar",
+      "hash": "sha512-nIcST6Y0kitmqHwK4TJCHWbn0BKwYXuM0IX99fqfokCFR5h8To8QbH3LmY1EQCFROZmBfe573C2nKuo/84am3w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "O2yruurN": {
+      "filename": "Furnies-neoforge-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BEIW1eno/versions/O2yruurN/Furnies-neoforge-0.1.jar",
+      "hash": "sha512-6G+IW6KK1fi2mU/yGrZ4YSqMzrGXPyFRFZ/AUbFcU4LR+kzbDbELpbmAk4O1eMQFGYL+5s2s4PK2GDmdLvjS/w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "eDFEypFv": {
+      "filename": "Furnies-fabric-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/BEIW1eno/versions/eDFEypFv/Furnies-fabric-0.2.jar",
+      "hash": "sha512-62OUmhbQqrvgf/2P6q508xlym/mu/Hyv0u5RQ+3/BGsoO7Hvl85tPu3K7NwkQoTVcrXxiMs9qsH++LN8RlvsVg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "h456j6p2": {
+      "filename": "Furnies-fabric-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BEIW1eno/versions/h456j6p2/Furnies-fabric-0.1.jar",
+      "hash": "sha512-XPqLKcIG4Uwo4mlkhD/q9zqRBVq+a1hpZ0YeuG6kD/WfnnRRw9Dl3WxXmmB2P73eoL/2+Pv+raEXX7IIc/0qQQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sJDxU0YW": {
+      "filename": "Furnies-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BEIW1eno/versions/sJDxU0YW/Furnies-neoforge-1.0.jar",
+      "hash": "sha512-WBjPh4li4Ai6pR3bmAPCtwRSznR7Z6b1YxGaiZhJQG7ZHtePYcAkyJjjn/eSrlOZ0OZkW/4gAFAdK74bvEQ0Mw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "HjStumVI",
+      "eDFEypFv",
+      "h456j6p2"
+    ],
+    "1.21.1+neoforge": [
+      "sJDxU0YW",
+      "HRVy9AbL",
+      "O2yruurN"
+    ]
+  }
+}

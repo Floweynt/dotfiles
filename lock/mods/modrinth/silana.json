@@ -1,0 +1,156 @@
+{
+  "slug": "silana",
+  "projectId": "RHG9tnjB",
+  "versions": {
+    "OpEEwJTn": {
+      "filename": "silana-1.0.1+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/RHG9tnjB/versions/OpEEwJTn/silana-1.0.1%2B26.1.2.jar",
+      "hash": "sha512-5W463HgUgfKCTxoacvE4TTkur3+mxRIdewpnkWoV01+mfwWytEeK+wC4IeB4oCXJevXgI3nH2M4VrLH6xMhxFA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VnFiO3sQ": {
+      "filename": "silana-1.0.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/RHG9tnjB/versions/VnFiO3sQ/silana-1.0.1%2B1.21.11.jar",
+      "hash": "sha512-LRrJOlnd2IynVTFNp5wTvExWFqRw6kZPNdjsA7M0hzTl51VgW1xDxIpb6SQ1FCeuAzIvsyhDd2ZuJomLTgxSaA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "klLMcmsf": {
+      "filename": "silana-1.0.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/RHG9tnjB/versions/klLMcmsf/silana-1.0.0%2B1.21.10.jar",
+      "hash": "sha512-ndgdOoVNZUMQdCo5dqMPKPI7rffW6cg18FS/H0XO8IudGDIvGZuj0myV69ws2t5uXhu8kS0gpCDgXVa9PkXT/A==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "krMKyN7E": {
+      "filename": "silana-1.0.1+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/RHG9tnjB/versions/krMKyN7E/silana-1.0.1%2B1.21.10.jar",
+      "hash": "sha512-wFkL/mNvHjMnhLgxdJte9TFa5TgNBeqzx6Xm/473dfEpJpZ/hNMmla9kEuNDBag/TAJw9gH+hDSgLvIu846SKw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tDveNck9": {
+      "filename": "silana-1.1.0+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/RHG9tnjB/versions/tDveNck9/silana-1.1.0%2B26.1.2.jar",
+      "hash": "sha512-yg/xwiVnodC/QD5fNlbZHu+pKWBJOb4w/w8T20jOlNUfuhWif5K9f2ycJV44f22B0HGIlaMWC5M5TBJf1b9yYA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "krMKyN7E",
+      "klLMcmsf"
+    ],
+    "1.21.11+fabric": [
+      "VnFiO3sQ"
+    ],
+    "26.1+fabric": [
+      "tDveNck9",
+      "OpEEwJTn"
+    ],
+    "26.1.1+fabric": [
+      "tDveNck9",
+      "OpEEwJTn"
+    ],
+    "26.1.2+fabric": [
+      "tDveNck9",
+      "OpEEwJTn"
+    ]
+  }
+}

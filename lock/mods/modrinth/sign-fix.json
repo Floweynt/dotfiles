@@ -1,0 +1,99 @@
+{
+  "slug": "sign-fix",
+  "projectId": "JKmqIR4V",
+  "versions": {
+    "OeAPT3jW": {
+      "filename": "sign-fix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JKmqIR4V/versions/OeAPT3jW/sign-fix-1.0.0.jar",
+      "hash": "sha512-qHln6/cxyjPQ8XgAuX9h6Arml1oD1+GyqpwL9HxlY4zmT/k4AwJUhNvccKZAfgqhrc5RQwujZFaM1WESnspKzQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "VFS812q0": {
+      "filename": "sign-fix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JKmqIR4V/versions/VFS812q0/sign-fix-1.0.0.jar",
+      "hash": "sha512-yJ2VtxW2GEZ3AqUuoCZ609YZ+owlJTLXpR6m06pHBHUNhBhE3DUXz20tm2d1ty0Cqb0c2REJHBKCzVCJVLe8TQ==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "yAukcfSz": {
+      "filename": "sign-fix-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JKmqIR4V/versions/yAukcfSz/sign-fix-1.1.0.jar",
+      "hash": "sha512-TRqef8vKJRUlLyoso9ITHmBL21dad+G13+fhXZ7BQuN7UzgsZyuyTvfw06Sbsa8ABghi2EJFx25zRn3UOSPKoA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "OeAPT3jW"
+    ],
+    "1.21.11+fabric": [
+      "OeAPT3jW"
+    ],
+    "1.21.5+fabric": [
+      "VFS812q0"
+    ],
+    "1.21.6+fabric": [
+      "VFS812q0"
+    ],
+    "1.21.7+fabric": [
+      "VFS812q0"
+    ],
+    "1.21.8+fabric": [
+      "VFS812q0"
+    ],
+    "1.21.9+fabric": [
+      "OeAPT3jW"
+    ],
+    "26.1+fabric": [
+      "yAukcfSz"
+    ],
+    "26.1.1+fabric": [
+      "yAukcfSz"
+    ],
+    "26.1.2+fabric": [
+      "yAukcfSz"
+    ]
+  }
+}

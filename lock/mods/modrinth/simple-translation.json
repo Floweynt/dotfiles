@@ -1,0 +1,42 @@
+{
+  "slug": "simple-translation",
+  "projectId": "D3sT4cJz",
+  "versions": {
+    "DOIlTOPC": {
+      "filename": "simpletranslation-1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/D3sT4cJz/versions/1.16.5-1.0-Forge/simpletranslation-1.0-forge.jar",
+      "hash": "sha512-plfaLt7qmoHJln+XXGdqEasSF9hXOMEmccwsjkdm8RbacPfqHojUvjIQRK4Ou4ZVBh8ABu0JJgI2jisyjhZF2w==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "tlY0RXVq": {
+      "filename": "simpletranslation-1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/D3sT4cJz/versions/1.16.5-1.0-Fabric/simpletranslation-1.0-fabric.jar",
+      "hash": "sha512-NcSv/JROS2m+7hbQ7523IgkFrPOwNlYbVVPllTfBkgMhQ63qqrwQU21Ssgzv3/odsvRnpF4SGZWp7K5OsyyvFg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "tlY0RXVq"
+    ],
+    "1.16.5+forge": [
+      "DOIlTOPC"
+    ]
+  }
+}

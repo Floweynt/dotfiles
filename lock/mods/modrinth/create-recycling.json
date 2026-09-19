@@ -1,0 +1,74 @@
+{
+  "slug": "create-recycling",
+  "projectId": "2GT86F0f",
+  "versions": {
+    "2VKCdUap": {
+      "filename": "createrecycle-0.1.0+1.20.1-build.5.jar",
+      "url": "https://cdn.modrinth.com/data/2GT86F0f/versions/2VKCdUap/createrecycle-0.1.0%2B1.20.1-build.5.jar",
+      "hash": "sha512-mJeshcs5H426zKWBq9xEy06j8vOlw+uDPjB2MVyMemDEWWsPheTwPkRwBDYyVw5IQAFq4rr4j3Jatl82NXNBEg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "ump8AeFr": {
+      "filename": "createrecycle-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2GT86F0f/versions/ump8AeFr/createrecycle-1.0.0.jar",
+      "hash": "sha512-Oix0ERlv0KX4KqanFShA63vTr1M3Myskro9Zu+mZsqixBmPM2FAKGQHxOvwzKcpJT2VITsmz0iZS12H6KLEr3Q==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2VKCdUap"
+    ],
+    "1.20.1+forge": [
+      "ump8AeFr"
+    ],
+    "1.20.2+forge": [
+      "ump8AeFr"
+    ],
+    "1.20.3+forge": [
+      "ump8AeFr"
+    ],
+    "1.20.4+forge": [
+      "ump8AeFr"
+    ],
+    "1.20.5+forge": [
+      "ump8AeFr"
+    ],
+    "1.20.6+forge": [
+      "ump8AeFr"
+    ]
+  }
+}

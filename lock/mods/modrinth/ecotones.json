@@ -1,0 +1,73 @@
+{
+  "slug": "ecotones",
+  "projectId": "b5uBYDjU",
+  "versions": {
+    "8ycxvZVY": {
+      "filename": "ecotones-0.9.1.jar",
+      "url": "https://cdn.modrinth.com/data/b5uBYDjU/versions/8ycxvZVY/ecotones-0.9.1.jar",
+      "hash": "sha512-qJRw4ytN65MWz1im6q+whzN6Lp7T6ALENGTJHiZqD/37D33UGs/FQWdAcVO0M/e5dPLULoVxxnP8IHwVUIERFg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SjkcaYYO": {
+      "filename": "ecotones-0.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/b5uBYDjU/versions/SjkcaYYO/ecotones-0.9.2.jar",
+      "hash": "sha512-Vs9QFjeA23dhssWar0a0mV9bvgFcKlGkzy+4mtZFCST26JGpzhtkCPGWlwDWMfmV9E8/E4EjSnRKzNjs6lNdcA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bfmu4Ut3": {
+      "filename": "ecotones-0.9.3.jar",
+      "url": "https://cdn.modrinth.com/data/b5uBYDjU/versions/bfmu4Ut3/ecotones-0.9.3.jar",
+      "hash": "sha512-LDI9Z0FsW4wzkbN0OGU0eyr/34498Q6RXWnKluEJKQjggbZG++En7bYh0vAKJhCzYvBvnvqQW3WPlawYyedJdQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "8ycxvZVY"
+    ],
+    "1.19.2+quilt": [
+      "8ycxvZVY"
+    ],
+    "1.20+fabric": [
+      "bfmu4Ut3",
+      "SjkcaYYO"
+    ],
+    "1.20.1+fabric": [
+      "bfmu4Ut3",
+      "SjkcaYYO"
+    ]
+  }
+}

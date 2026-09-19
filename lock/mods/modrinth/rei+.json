@@ -1,0 +1,58 @@
+{
+  "slug": "rei+",
+  "projectId": "CF66gwmL",
+  "versions": {
+    "E3BB1kwp": {
+      "filename": "reiplus-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/CF66gwmL/versions/E3BB1kwp/reiplus-1.0.3.jar",
+      "hash": "sha512-ny8ZhxqCrOAr3sYkEN8lgaUEQqDxT/TxTnuWP/OpvwijXbHFGZw2EXIWYfYyAghaamWC/PRuwBwXh/sO+9/f/Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "QgOiARdu": {
+      "filename": "reiplus-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/CF66gwmL/versions/QgOiARdu/reiplus-1.0.2.jar",
+      "hash": "sha512-3jn7sbKuo/pwyfzbolJNcFt5lUrb/Y8t53pE8pgcb8Wair+JTKQOhETiQuT/IHVDPO0u1nUyPtS1DV2wq3c9kQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "rei",
+          "projectId": "nfn13YXA",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "QgOiARdu"
+    ],
+    "1.21.11+fabric": [
+      "E3BB1kwp"
+    ]
+  }
+}

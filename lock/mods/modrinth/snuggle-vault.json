@@ -1,0 +1,57 @@
+{
+  "slug": "snuggle-vault",
+  "projectId": "oTkxYY1g",
+  "versions": {
+    "7pincmAl": {
+      "filename": "snugglevault-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oTkxYY1g/versions/7pincmAl/snugglevault-1.0.0.jar",
+      "hash": "sha512-VtZJhQ6NEBpTobbHz/6wonC+RDk/fkSGiUJWgAj07bXNmCUVIS2sSkUgJWy8Rs2/rsLnDxfenVPCUk1iA8/aQg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrific-tickets",
+          "projectId": "1ayQdcpc",
+          "type": "required"
+        }
+      ]
+    },
+    "iipcuJ7u": {
+      "filename": "snugglevault-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/oTkxYY1g/versions/iipcuJ7u/snugglevault-1.0.1.jar",
+      "hash": "sha512-tCjr9ZQVAB1k1hGBmFaMgs2lH0b0potmk0SQSG/K6lMop42aOpcX6lA3uLJdAyNM5poBqNrnrYrBLFzxu3omkA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrific-tickets",
+          "projectId": "1ayQdcpc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "iipcuJ7u",
+      "7pincmAl"
+    ]
+  }
+}

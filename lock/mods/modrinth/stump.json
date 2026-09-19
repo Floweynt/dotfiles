@@ -1,0 +1,69 @@
+{
+  "slug": "stump",
+  "projectId": "ali3klDn",
+  "versions": {
+    "Knu9niP2": {
+      "filename": "stump-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ali3klDn/versions/Knu9niP2/stump-0.1.0.jar",
+      "hash": "sha512-fwgUiE3h0uenZGkgZhublBHiOvSHsaHxPZjuXXXXSatwzBfnuEqCwB43l832ovUkxr3kNYu7Pd6u1Vqd/fPKeg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hA03dfv1": {
+      "filename": "stump-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ali3klDn/versions/hA03dfv1/stump-0.1.1.jar",
+      "hash": "sha512-gEWBUFy5+OsZIgTFempmCsGl5XbO2e+h2suul6/YNeQL3vKeI9oo8/EJSnBhUCL3KpO5BZL8kK9/5JWAO/3jjg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s0s5p0Yb": {
+      "filename": "stump-0.1.1-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/ali3klDn/versions/s0s5p0Yb/stump-0.1.1-1.21.11.jar",
+      "hash": "sha512-sQN+vhCI9+4VxFqodZMUl/8AiEx9ey2s+dewpY7zLmOqwTDnTGAqTYUrucRVyQEtlX1HJAATe0zQ+gOWYE+Bhw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "s0s5p0Yb"
+    ],
+    "26.1+fabric": [
+      "hA03dfv1"
+    ],
+    "26.1.1+fabric": [
+      "hA03dfv1"
+    ],
+    "26.1.2+fabric": [
+      "hA03dfv1",
+      "Knu9niP2"
+    ],
+    "26.2+fabric": [
+      "hA03dfv1"
+    ]
+  }
+}

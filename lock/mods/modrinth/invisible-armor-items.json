@@ -1,0 +1,52 @@
+{
+  "slug": "invisible-armor-items",
+  "projectId": "ouZujiu4",
+  "versions": {
+    "5jtleBdP": {
+      "filename": "invisiblearmor-1.20.1-v0.2.jar",
+      "url": "https://cdn.modrinth.com/data/ouZujiu4/versions/5jtleBdP/invisiblearmor-1.20.1-v0.2.jar",
+      "hash": "sha512-I9kHznqi/VM5UF/7xyPp8xW1egdX55GrZ4sclWWXKsiEJs4CVFfduV1RV/h4gRuB3e9ZbS4AdX1ajt0wPyMF1g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mBvlyeIN": {
+      "filename": "invisiblearmor-1.20.1-v0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ouZujiu4/versions/mBvlyeIN/invisiblearmor-1.20.1-v0.1.jar",
+      "hash": "sha512-dsb1ufo3d++i9JrVj7jxfjWXFFLrULO+6xnnE84youCKo1YEkI0N6jV9cri9VqCdnQvgvUeWsb8recQZITiFmA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5jtleBdP",
+      "mBvlyeIN"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "lvlz-soulslike-weaponry",
+  "projectId": "jF0ePMmN",
+  "versions": {
+    "4AefuHMP": {
+      "filename": "levelz_marius's_weaponry-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jF0ePMmN/versions/4AefuHMP/levelz_marius%27s_weaponry-1.0.jar",
+      "hash": "sha512-r20zhN5oKRUFjxZ5GNORV5l6L8VT9hut3y8F5WvG4r8qgh7J+kEDoj+uyYPCUIFIEHVrZe0dwf5B3uaYSa6lhw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mariums-soulslike-weaponry",
+          "projectId": "oX6SohLj",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "Ju1Q9Cut": {
+      "filename": "levelz_marius's_weaponry-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jF0ePMmN/versions/Ju1Q9Cut/levelz_marius%27s_weaponry-1.21.1-1.0.jar",
+      "hash": "sha512-AM5cxJayPYx+DJnTh1VaP0h51YjMUvpzcQofuKNJJYPOrBYuiJFDRvI1FlqIc3MlEeU9yf5c+n8h6avPyOqcNw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "mariums-soulslike-weaponry",
+          "projectId": "oX6SohLj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "4AefuHMP"
+    ],
+    "1.21.1+fabric": [
+      "Ju1Q9Cut"
+    ],
+    "1.21.1+quilt": [
+      "Ju1Q9Cut"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "sitlog",
+  "projectId": "t8t2UBAi",
+  "versions": {
+    "5FVrBMIE": {
+      "filename": "sitlog-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/t8t2UBAi/versions/5FVrBMIE/sitlog-1.0.1.jar",
+      "hash": "sha512-uW9gMNTYGeGawjNDsci1RJT90C9k1klnBxeTQeNR1nhmZXqZGQ0xyji1r4SKkhgnfKyP6RjTfWir2xsDyAc8YQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "ehlfvEEH": {
+      "filename": "sitlog-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/t8t2UBAi/versions/ehlfvEEH/sitlog-1.0.0.jar",
+      "hash": "sha512-gAHJyf9c4dnGbTpCAkQaozBFjR6C1dt69dPfVgF/4GldTF5QRn5t0O5wQNrM9HUtOApn8y5BWzVtEayT/5r9gQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "5FVrBMIE",
+      "ehlfvEEH"
+    ]
+  }
+}

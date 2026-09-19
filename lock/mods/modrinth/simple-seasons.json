@@ -1,0 +1,107 @@
+{
+  "slug": "simple-seasons",
+  "projectId": "HRsneJex",
+  "versions": {
+    "ehdNmcWh": {
+      "filename": "simple-seasons-fabric-1.1.0+mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/HRsneJex/versions/ehdNmcWh/simple-seasons-fabric-1.1.0%2Bmc1.21-1.21.1.jar",
+      "hash": "sha512-y7I8JS8iR6gb9Kqm6MjltbWSxGN9hGFWKf7NRyDWMj+NuI/ganS0vuSI0L4a9CSU+mv2PSfX4uaHRuMjyHJOvw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nlbkc8PQ": {
+      "filename": "simple-seasons-fabric-1.0.0+mc1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/HRsneJex/versions/nlbkc8PQ/simple-seasons-fabric-1.0.0%2Bmc1.20-1.20.1.jar",
+      "hash": "sha512-fiEyhlGcHCoJzN9fSlfLdmkCY71CuFcYXPr/fXn6MMO+bdjTvBfmOmSxciq2zkSpAwlzUBLg3X1sV2lnZrglBQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "oPZtEA7w": {
+      "filename": "simple-seasons-fabric-1.1.0+mc1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/HRsneJex/versions/oPZtEA7w/simple-seasons-fabric-1.1.0%2Bmc1.20-1.20.1.jar",
+      "hash": "sha512-ymkKBHuMFBzrPIErnembtKLk6R+/YEGim4JHMXEe1n499uzQV2iMpcgnEFWi1dkp03bhe16jzDeZuHxQGvyf7g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "oPZtEA7w",
+      "nlbkc8PQ"
+    ],
+    "1.20+quilt": [
+      "oPZtEA7w",
+      "nlbkc8PQ"
+    ],
+    "1.20.1+fabric": [
+      "oPZtEA7w",
+      "nlbkc8PQ"
+    ],
+    "1.20.1+quilt": [
+      "oPZtEA7w",
+      "nlbkc8PQ"
+    ],
+    "1.21+fabric": [
+      "ehdNmcWh"
+    ],
+    "1.21+quilt": [
+      "ehdNmcWh"
+    ],
+    "1.21.1+fabric": [
+      "ehdNmcWh"
+    ],
+    "1.21.1+quilt": [
+      "ehdNmcWh"
+    ]
+  }
+}

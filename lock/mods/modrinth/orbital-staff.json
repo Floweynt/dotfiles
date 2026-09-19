@@ -1,0 +1,84 @@
+{
+  "slug": "orbital-staff",
+  "projectId": "HcLLbf8P",
+  "versions": {
+    "4L2NtRLm": {
+      "filename": "orbital_staff-1.0.0-neoforge-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/HcLLbf8P/versions/4L2NtRLm/orbital_staff-1.0.0-neoforge-1.21.8.jar",
+      "hash": "sha512-Fb9ois+vQPiGutxnTJKE6W/EeZgpmLTdWWFTYRyejsUrbRjsmEXvIuSXQomuktiqwnwSkG1fojiyL9nQY4nRYw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "AnlFzYae": {
+      "filename": "orbital_staff-1.2.0-fabric-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/HcLLbf8P/versions/AnlFzYae/orbital_staff-1.2.0-fabric-1.21.11.jar",
+      "hash": "sha512-hpyDoRFgW7D14MD60BjzERas75gqjfzWwGjJrHGwUs7qtDrbWogwmL5uhl+M1DdjMd6Jodc4vbw89zRuwekcvw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "k7ovtsYO": {
+      "filename": "orbitalstaff-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HcLLbf8P/versions/k7ovtsYO/orbitalstaff-1.1.0.jar",
+      "hash": "sha512-mrC1LJtuELehSOgyTIDPvKAM9Wi1z7L4Qxt8FHzwhUbNyRKRRA+Q+bLMctLV56PZZexiLQnRaY9wAfD5zp0y3A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "pUoGWILb": {
+      "filename": "orbitalstaff-1.3.0-B.jar",
+      "url": "https://cdn.modrinth.com/data/HcLLbf8P/versions/pUoGWILb/orbitalstaff-1.3.0-B.jar",
+      "hash": "sha512-2iU02AGWYRIPfEEXGnLXj7IO8be4f73QgG6OpI+56vt5csha+ghHsVlo49/EfgIAYc2LWM/MryHq0XCm67bESw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "pUoGWILb",
+      "AnlFzYae",
+      "k7ovtsYO"
+    ],
+    "1.21.8+neoforge": [
+      "4L2NtRLm"
+    ]
+  }
+}

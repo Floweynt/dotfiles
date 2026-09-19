@@ -1,0 +1,42 @@
+{
+  "slug": "dhsnowfix",
+  "projectId": "hHXKKO8m",
+  "versions": {
+    "X5XWQymz": {
+      "filename": "DHSnowFix-1.21.10-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hHXKKO8m/versions/X5XWQymz/DHSnowFix-1.21.10-1.0.jar",
+      "hash": "sha512-WVP6aIWT7NU/kmbVxAQ+cBWqasIZy7BrLJa3BOfpc1YUb/L7+2e8a+RdIFp/iYN0lE9405iUuHg7IWnfw77dWg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "svjKscpG": {
+      "filename": "DHSnowFix-1.20.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hHXKKO8m/versions/svjKscpG/DHSnowFix-1.20.1-1.0.jar",
+      "hash": "sha512-hMqcxcPaedVKOJmSjCZu1nD+HQGhxpVH09z+TBtFdxPO2Li8T/5knXcg4NlgIHRXksV71Ow6gCGsX1GujBCOkg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "svjKscpG"
+    ],
+    "1.21.10+fabric": [
+      "X5XWQymz"
+    ]
+  }
+}

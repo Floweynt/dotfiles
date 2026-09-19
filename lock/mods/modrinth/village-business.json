@@ -1,0 +1,70 @@
+{
+  "slug": "village-business",
+  "projectId": "V4WjqeRP",
+  "versions": {
+    "YrthxwOM": {
+      "filename": "village_business-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/V4WjqeRP/versions/YrthxwOM/village_business-1.0.1.jar",
+      "hash": "sha512-EJ9VOAkG7mLKqPv3XDM9ioE78g6XKrvcNJwo/z5VXlrV180EVoEVWAQI1hTes4d/RKdf4V+5XGJ/UNy05CwzKg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zExd19W4": {
+      "filename": "village_business-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/V4WjqeRP/versions/zExd19W4/village_business-1.0.0.jar",
+      "hash": "sha512-EnbkM2UGLgx5RPAq3wHEsK0akfYUYI1TDuukOn5NK46iR+ix9bIPlNsxvmeGbE6Zo8sEEc7+EUEhO92qAGRVHQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "YrthxwOM",
+      "zExd19W4"
+    ],
+    "1.20.2+fabric": [
+      "YrthxwOM",
+      "zExd19W4"
+    ],
+    "1.20.3+fabric": [
+      "YrthxwOM",
+      "zExd19W4"
+    ],
+    "1.20.4+fabric": [
+      "YrthxwOM",
+      "zExd19W4"
+    ],
+    "1.20.5+fabric": [
+      "YrthxwOM",
+      "zExd19W4"
+    ]
+  }
+}

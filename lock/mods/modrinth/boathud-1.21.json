@@ -1,0 +1,72 @@
+{
+  "slug": "boathud-1.21",
+  "projectId": "uuOiLhud",
+  "versions": {
+    "CEtuA4Tw": {
+      "filename": "boathud-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/uuOiLhud/versions/CEtuA4Tw/boathud-1.2.0.jar",
+      "hash": "sha512-U1rSTaHcY11XAMP9QBiazV9kUi6yx+rFrof/xvS+G9TYeMDO5EWae8xPSFc6VuM2jLKb+5osGB12AABC5R8ltw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "WFNHohMK": {
+      "filename": "boathud-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/uuOiLhud/versions/WFNHohMK/boathud-1.2.1.jar",
+      "hash": "sha512-DxfKuNhrzyLrDhSFFTlqWdm97+xpyxUBZxpf2Pzwd7ijQKCQANLO8EXhAhKiQIbNalp6AMc3zJj15a4J+tKZPw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "WFNHohMK",
+      "CEtuA4Tw"
+    ]
+  }
+}

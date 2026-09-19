@@ -1,0 +1,118 @@
+{
+  "slug": "ns-fd-rc",
+  "projectId": "bJTRwh2l",
+  "versions": {
+    "8nTfo8uu": {
+      "filename": "ns-fd-rc-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bJTRwh2l/versions/8nTfo8uu/ns-fd-rc-0.1.0.jar",
+      "hash": "sha512-cllYshLtQzL/KgUMMBQtuonPm8Huhl/pd4+AjNN6DAysvjF3A4YMTIgSob1XnF8fHLaOSpoS6DNleev/SLJmBg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "natures-spirit",
+          "projectId": "WBvnqHfV",
+          "type": "required"
+        }
+      ]
+    },
+    "hkJ8Xh7o": {
+      "filename": "ns-fd-rc-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/bJTRwh2l/versions/hkJ8Xh7o/ns-fd-rc-0.0.1.jar",
+      "hash": "sha512-CT6AR0GLkgv1EOSsHNSPk7L+UqUDa6gbi8dyB4JLFqyJv2915NQ0lLydfzyCTDXc3xSXAspDg982pbYwV+cAVw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        }
+      ]
+    },
+    "kRgmZIgz": {
+      "filename": "ns_fd_rc-v0.1.0.zip",
+      "url": "https://cdn.modrinth.com/data/bJTRwh2l/versions/kRgmZIgz/ns_fd_rc-v0.1.0.zip",
+      "hash": "sha512-pn3Qc83J5tzoOgFfr0Clg2X0LMGWPtA5a9nuge8hbB1QQiUSIGkiTxUYfo1JvxJyjopRJKWnb7ho/jayv/BvNg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "natures-spirit",
+          "projectId": "WBvnqHfV",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "z7Lu29qV": {
+      "filename": "ns_fd_rc-v0.0.1.zip",
+      "url": "https://cdn.modrinth.com/data/bJTRwh2l/versions/z7Lu29qV/ns_fd_rc-v0.0.1.zip",
+      "hash": "sha512-t3kRtIJFxvMi63BmD89Dg9+bZToNVV9/yrz5djFXtn12f8BVeibNs3CcTdjTKWFvfgIPEbUeQNqK1zDZDv6qdA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "kRgmZIgz",
+      "z7Lu29qV"
+    ],
+    "1.20.1+fabric": [
+      "8nTfo8uu",
+      "hkJ8Xh7o"
+    ],
+    "1.20.1+forge": [
+      "8nTfo8uu",
+      "hkJ8Xh7o"
+    ],
+    "1.20.1+quilt": [
+      "8nTfo8uu",
+      "hkJ8Xh7o"
+    ]
+  }
+}

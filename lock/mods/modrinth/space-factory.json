@@ -1,0 +1,35 @@
+{
+  "slug": "space-factory",
+  "projectId": "GxCN84Hf",
+  "versions": {
+    "SJtnNsqE": {
+      "filename": "space-factory-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GxCN84Hf/versions/SJtnNsqE/space-factory-1.0.0.jar",
+      "hash": "sha512-A/2Kpks/c107qwAeezNgjoh90cHhtfsi3rpYAUDenM/+6zOlwmh463M3Q1iNrgg1KKhbJU7lyPg81OgLKcIxPw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "SJtnNsqE"
+    ],
+    "1.19.2+quilt": [
+      "SJtnNsqE"
+    ]
+  }
+}

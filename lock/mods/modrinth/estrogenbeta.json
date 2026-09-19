@@ -1,0 +1,31 @@
+{
+  "slug": "estrogenbeta",
+  "projectId": "UawKcnLW",
+  "versions": {
+    "YpTW7Bqh": {
+      "filename": "estrogen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UawKcnLW/versions/YpTW7Bqh/estrogen-1.0.0.jar",
+      "hash": "sha512-eow6vghELoDvnUeK6e8n6I8fHhNWYTdI4+OL1Aibw9scm8Jzz+o6kYbSAIq1spn7FeF5QHwXoiCCM4mVOPhQHQ==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+fabric": [
+      "YpTW7Bqh"
+    ]
+  }
+}

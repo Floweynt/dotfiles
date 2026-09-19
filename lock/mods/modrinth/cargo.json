@@ -1,0 +1,109 @@
+{
+  "slug": "cargo",
+  "projectId": "F3jOqOJ0",
+  "versions": {
+    "eYc2SC6M": {
+      "filename": "Cargo-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/F3jOqOJ0/versions/eYc2SC6M/Cargo-1.0.1.jar",
+      "hash": "sha512-TdHEb/5kT4lVtl4I4BpKLh/DLtm87NkzrVgVaDRTrfHn4x011iKYw0pJ1voKpzsprlF7Rr3teX1z5ceDT8VxtQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "g74w6HTG": {
+      "filename": "cargo-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/F3jOqOJ0/versions/g74w6HTG/cargo-1.1.0.jar",
+      "hash": "sha512-ix3/ZGL8H4snKAgEen3Fd3QW2xG5WP6EI1+XiozqW07nnhLgwBIC913bwSA4SlheZsyZWTzULwwl8cXTUp707A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "j23VlEdm": {
+      "filename": "cargo-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/F3jOqOJ0/versions/j23VlEdm/cargo-1.0.1.jar",
+      "hash": "sha512-xYfn6hV1ySHC5gfSLQlNUrOrzB1+7IA9UNvUi0RgTmjj/C4XhnTDDqMAOgogEFgpbS5F+9YhJCQ0bTwkVK3CLQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "eYc2SC6M"
+    ],
+    "1.19.1+fabric": [
+      "eYc2SC6M"
+    ],
+    "1.19.2+fabric": [
+      "eYc2SC6M"
+    ],
+    "1.19.3+fabric": [
+      "eYc2SC6M"
+    ],
+    "1.19.4+fabric": [
+      "eYc2SC6M"
+    ],
+    "1.20.1+fabric": [
+      "g74w6HTG",
+      "j23VlEdm"
+    ],
+    "1.20.2+fabric": [
+      "g74w6HTG",
+      "j23VlEdm"
+    ],
+    "1.20.3+fabric": [
+      "g74w6HTG",
+      "j23VlEdm"
+    ],
+    "1.20.4+fabric": [
+      "g74w6HTG",
+      "j23VlEdm"
+    ],
+    "1.20.5+fabric": [
+      "g74w6HTG",
+      "j23VlEdm"
+    ],
+    "1.20.6+fabric": [
+      "g74w6HTG",
+      "j23VlEdm"
+    ]
+  }
+}

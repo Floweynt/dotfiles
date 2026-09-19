@@ -1,0 +1,72 @@
+{
+  "slug": "ns-cr-rc",
+  "projectId": "f9HHknd6",
+  "versions": {
+    "JzIE26fW": {
+      "filename": "ns_cr_rc-v0.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/f9HHknd6/versions/JzIE26fW/ns_cr_rc-v0.0.0.zip",
+      "hash": "sha512-ZuKMCvhLwinW4qAnWbvLOvi/BYV4WM8SZXgFtqoQn4cVphaVAyg3FIqqBuG3tvq/QaedwgPgAPvQhtHfbl3Kkw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "natures-spirit",
+          "projectId": "WBvnqHfV",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "ZqpW9xJR": {
+      "filename": "ns-cr-rc-0.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/f9HHknd6/versions/ZqpW9xJR/ns-cr-rc-0.0.0.jar",
+      "hash": "sha512-cZ1RXVnCl56gczJp31LsyHcudMoZPzQbYQSoooZj+mzjoMiop9ZulQxr54B+y/Pn42byMzNHW6OJtkemeQeg6A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "natures-spirit",
+          "projectId": "WBvnqHfV",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "JzIE26fW"
+    ],
+    "1.20.1+fabric": [
+      "ZqpW9xJR"
+    ],
+    "1.20.1+forge": [
+      "ZqpW9xJR"
+    ],
+    "1.20.1+quilt": [
+      "ZqpW9xJR"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "howmanyitems-fabric",
+  "projectId": "D02vmxDl",
+  "versions": {
+    "2ZyP3yed": {
+      "filename": "HMI-Fabric-Unofficial-5.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/D02vmxDl/versions/2ZyP3yed/HMI-Fabric-Unofficial-5.1.1.jar",
+      "hash": "sha512-O9hnmelNZU6+vEg2JYpmu5NUo4xgS4AJyThTFEm+7WNE3T98oJZtbmmjrsDK8m1v8H02d6xVmNvNR2i0lnYpmw==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "glass-config-api",
+          "projectId": "rFeWTq4G",
+          "type": "required"
+        },
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    },
+    "chTHH6YA": {
+      "filename": "HowManyItems-Fabric-Unofficial-5.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/D02vmxDl/versions/chTHH6YA/HowManyItems-Fabric-Unofficial-5.2.1.jar",
+      "hash": "sha512-7WP69ljIsIZNA5j+sXvt/kWeVv8YtQCHCq7neYByvO30KlFVaGJHhX2Y+5icWyUrcuiVpI6xoHUUUudKY6GMWg==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "glass-config-api",
+          "projectId": "rFeWTq4G",
+          "type": "required"
+        },
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "chTHH6YA",
+      "2ZyP3yed"
+    ],
+    "b1.7.3+fabric": [
+      "chTHH6YA",
+      "2ZyP3yed"
+    ]
+  }
+}

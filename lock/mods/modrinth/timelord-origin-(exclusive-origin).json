@@ -1,0 +1,54 @@
+{
+  "slug": "timelord-origin-(exclusive-origin)",
+  "projectId": "Aqmqc0OZ",
+  "versions": {
+    "Uk4eHxyM": {
+      "filename": "timelord-origin-(exclusive-origin)-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Aqmqc0OZ/versions/Uk4eHxyM/timelord-origin-%28exclusive-origin%29-1.0.0.jar",
+      "hash": "sha512-iwgWReubzAD0VLOxgDmrIJVMB5GI6fUmB8ZrmmbkUcWqREEAftWNFBZYiRXsZ4oJuznkOARGcgCvYBAvhmo83g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "ablhSk86": {
+      "filename": "Timelord (Exclusive Origin).zip",
+      "url": "https://cdn.modrinth.com/data/Aqmqc0OZ/versions/ablhSk86/Timelord%20%28Exclusive%20Origin%29.zip",
+      "hash": "sha512-fZ1255ZS2wLqjOr3Vt/Y+MxVClmXskaIUBLP99tWJ7nKI8dVhzIXrNyTKeNW28L/S3YtZckYmHIjIENPpxNyqg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "ablhSk86"
+    ],
+    "1.20.1+fabric": [
+      "Uk4eHxyM"
+    ]
+  }
+}

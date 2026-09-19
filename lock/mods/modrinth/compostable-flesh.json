@@ -1,0 +1,75 @@
+{
+  "slug": "compostable-flesh",
+  "projectId": "Q5q700hg",
+  "versions": {
+    "IAnNQjJI": {
+      "filename": "compostableFlesh-1.1-mc1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/Q5q700hg/versions/IAnNQjJI/compostableFlesh-1.1-mc1.21.3.jar",
+      "hash": "sha512-QXJ5QUVVerScnl9/KXqkQaEcD1T5dPuDGCUYDwH4/1a21uQm/bKV7iJNeW+Wn1xopx5SxAOO4pG1UWbjOMEuBw==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PG0ks3SB": {
+      "filename": "usefullflesh-1.0-1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/Q5q700hg/versions/PG0ks3SB/usefullflesh-1.0-1.21.3.jar",
+      "hash": "sha512-v9ewPDraPyfvsGp8G6kyTvOHdXsULRFkTpOKY/Q+3q9SJm+sPd0rc833gWrYYScdPTFpdqa6udKlPiEXIxL6ew==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tjHn5mH9": {
+      "filename": "compostableFlesh-1.1-mc1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/Q5q700hg/versions/tjHn5mH9/compostableFlesh-1.1-mc1.21.4.jar",
+      "hash": "sha512-a3DNGmbLffesBI8pCDdwFMK8yGBoy6SmLUF9J+OmWaRxv88wbgH98X5PZv5VyjMVSYMW7XjkKkxnkqvMZQa94A==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.3+fabric": [
+      "IAnNQjJI",
+      "PG0ks3SB"
+    ],
+    "1.21.4+fabric": [
+      "tjHn5mH9"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "slug": "mcf-magnets",
+  "projectId": "CqV0BjdU",
+  "versions": {
+    "EpU3cXRc": {
+      "filename": "mcf-magnets-1.3.0-1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/CqV0BjdU/versions/EpU3cXRc/mcf-magnets-1.3.0-1.19.4.jar",
+      "hash": "sha512-k/q+KFXNEA333Hes0MceG+U+zF1/NenOKI/gqitsGRRdaGYXT84MzZTdjed5VfwSFAgV8onOkt9dyGo4S6T0pQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "y3vWnbvB": {
+      "filename": "mcf-magnets-1.3.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/CqV0BjdU/versions/y3vWnbvB/mcf-magnets-1.3.0-1.20.1.jar",
+      "hash": "sha512-xtbCU7RCDsKa+8EzwXaQsTjFv8W7E1z2FOoyJnKaS1rgcZwy8vkck+0OeVJMTvmLtqx275a+g8QercXMTabBDg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "EpU3cXRc"
+    ],
+    "1.20.1+fabric": [
+      "y3vWnbvB"
+    ]
+  }
+}

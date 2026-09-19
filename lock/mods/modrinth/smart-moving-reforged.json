@@ -1,0 +1,52 @@
+{
+  "slug": "smart-moving-reforged",
+  "projectId": "2kH8tFlp",
+  "versions": {
+    "fPM0Fc66": {
+      "filename": "smartmoving-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/2kH8tFlp/versions/fPM0Fc66/smartmoving-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-SIzmbzpRf/cb4c55++VhTUV2ZXBl+WHTQ64ebxkTyKN4kS//c8UJifEPZIRFmOWQ8JwY12uWFXWSw5rwScDvpw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nL0bT7X0": {
+      "filename": "smartmoving-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/2kH8tFlp/versions/nL0bT7X0/smartmoving-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-XqBJI8n08eQrR1geCDdN61QPiZpcMAFNC0FiwKD8uIRtqaDJKoeg0ieAAFFMNcXeE1ezf7eys1cb6WPwULhyRQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "nL0bT7X0",
+      "fPM0Fc66"
+    ]
+  }
+}

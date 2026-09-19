@@ -1,0 +1,109 @@
+{
+  "slug": "skiesannouncements",
+  "projectId": "YJOGjjJC",
+  "versions": {
+    "5tCGsN2h": {
+      "filename": "SkiesAnnouncements-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YJOGjjJC/versions/5tCGsN2h/SkiesAnnouncements-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-qPZibGOVeDxPfsr4TZWel++aV9f5yBMhkNlNaucM42b7wWQR//gT/DM2k+Bm7ZPjBijGyFywvL6tkOyhdC7I/g==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "S96YBaJe": {
+      "filename": "SkiesAnnouncements-fabric-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YJOGjjJC/versions/S96YBaJe/SkiesAnnouncements-fabric-1.21.1-1.1.0.jar",
+      "hash": "sha512-0wVv2GAe7ytKzhKwEGzNFjRtI392d8XMOvFBP4dwYM83/t7TNGJW46+UrOaAAsg21KDNfQde7k3wAkNKbWVNwA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "uhKEf6vk": {
+      "filename": "SkiesAnnouncements-fabric-1.21.1-1.1.0-BETA2.jar",
+      "url": "https://cdn.modrinth.com/data/YJOGjjJC/versions/uhKEf6vk/SkiesAnnouncements-fabric-1.21.1-1.1.0-BETA2.jar",
+      "hash": "sha512-6foNytpkX1PvDI6+ea4HsrpTQeWurl18ayNihrhH35ebaRgb7I3YH3VjZvfetjCorKGugVM5tb1LjnYa9UvXzQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5tCGsN2h"
+    ],
+    "1.20.2+fabric": [
+      "5tCGsN2h"
+    ],
+    "1.21.1+fabric": [
+      "S96YBaJe",
+      "uhKEf6vk"
+    ]
+  }
+}

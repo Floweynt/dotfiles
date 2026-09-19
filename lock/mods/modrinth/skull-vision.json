@@ -1,0 +1,112 @@
+{
+  "slug": "skull-vision",
+  "projectId": "wkbusKtJ",
+  "versions": {
+    "ANNnBiSy": {
+      "filename": "[1.21]-skull-vision-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wkbusKtJ/versions/ANNnBiSy/%5B1.21%5D-skull-vision-1.1.0.jar",
+      "hash": "sha512-PvTX5Lab9GhnqrbTZY9TlzzCKmMz26wj61iCuWsozjxlhDpkhUxFjg9l/Sfl3pVVmz2o5o/lQrEN5srSrSBNPQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FF1nCeQT": {
+      "filename": "[1.20]-skull-vision-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wkbusKtJ/versions/FF1nCeQT/%5B1.20%5D-skull-vision-1.1.0.jar",
+      "hash": "sha512-mvcp14NKPN1VIUCn4Fwpa+xFbakz7ePAZc3I/r5qWA/RRammnbBfz2wciNIeChdw4R2BAZ/OyJdRfc62nX0g3A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "GqHabfvD": {
+      "filename": "[1.20]-skull-vision-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wkbusKtJ/versions/GqHabfvD/%5B1.20%5D-skull-vision-1.0.0.jar",
+      "hash": "sha512-Hu/Q56Y6+YsqXmvWoh69NFrP9j+iroimDv8k+HfiovS4YjjE002y/W9rcGuFSB2Iktzxt616EJCkGM1ZfJFS5g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jgH9Zbum": {
+      "filename": "[1.20.5]-skull-vision-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wkbusKtJ/versions/jgH9Zbum/%5B1.20.5%5D-skull-vision-1.1.0.jar",
+      "hash": "sha512-UXXNfVbHKmuMlPgygT/4v3sQkWGVzlAUfNSwzJZMms+8294jt5b6dY2fSKBCqYDF8TFHU7elvegUdBIIVIa/HQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "FF1nCeQT",
+      "GqHabfvD"
+    ],
+    "1.20.1+fabric": [
+      "FF1nCeQT",
+      "GqHabfvD"
+    ],
+    "1.20.2+fabric": [
+      "FF1nCeQT",
+      "GqHabfvD"
+    ],
+    "1.20.3+fabric": [
+      "FF1nCeQT",
+      "GqHabfvD"
+    ],
+    "1.20.4+fabric": [
+      "FF1nCeQT",
+      "GqHabfvD"
+    ],
+    "1.20.5+fabric": [
+      "jgH9Zbum"
+    ],
+    "1.20.6+fabric": [
+      "jgH9Zbum"
+    ],
+    "1.21+fabric": [
+      "ANNnBiSy"
+    ],
+    "1.21.1+fabric": [
+      "ANNnBiSy"
+    ]
+  }
+}

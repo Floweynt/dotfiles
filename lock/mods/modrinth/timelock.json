@@ -1,0 +1,131 @@
+{
+  "slug": "timelock",
+  "projectId": "DJ2tL4CD",
+  "versions": {
+    "dRtWDhHw": {
+      "filename": "timelock-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/DJ2tL4CD/versions/dRtWDhHw/timelock-1.0.1.jar",
+      "hash": "sha512-AfxnZo83xUPO1BpGUKE06VdAUR0ay1qThKKO6puVBiB9DTgQLr7wfLmXVgUJgyBgj/4nGs5f4jS4Frr3vUyaCw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eRZlHZcJ": {
+      "filename": "timelock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DJ2tL4CD/versions/eRZlHZcJ/timelock-1.0.0.jar",
+      "hash": "sha512-Qt4gxIG0SJIoUP4NlIUKys1CJSjyas848ft85k20xtHI6QYjE1kbZ862Jbb89dTzf3d57AvBqy68pzwWQVd4fw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kBFCH84r": {
+      "filename": "timelock-1.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/DJ2tL4CD/versions/kBFCH84r/timelock-1.0.1-1.21.1.jar",
+      "hash": "sha512-yT24G41B3op8kldlC3f1YZkeI7Y4ikuqbQTL8RFSQtXyoExblU8RTsYx37b40EfZ+Qo6hX6bhzVz4J6TCEyf2w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vtkoYlxC": {
+      "filename": "timelock-1.0.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/DJ2tL4CD/versions/vtkoYlxC/timelock-1.0.2-1.21.1.jar",
+      "hash": "sha512-XM5kiYg2kO3oBk3JwbBYtioHD3uwurzI4gzBwRjXMumrOO2fitF0zc79UBC08aYQrzh87YcKHHUJhrrefzZdsA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "area_lib",
+          "projectId": "IBuXDbma",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eRZlHZcJ"
+    ],
+    "1.20.1+quilt": [
+      "eRZlHZcJ"
+    ],
+    "1.20.4+fabric": [
+      "dRtWDhHw"
+    ],
+    "1.20.4+quilt": [
+      "dRtWDhHw"
+    ],
+    "1.21.1+fabric": [
+      "vtkoYlxC",
+      "kBFCH84r"
+    ]
+  }
+}

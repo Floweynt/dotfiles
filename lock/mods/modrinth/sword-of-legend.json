@@ -1,0 +1,59 @@
+{
+  "slug": "sword-of-legend",
+  "projectId": "cUWMNzMh",
+  "versions": {
+    "PoXgtLiP": {
+      "filename": "sword_of_legend-fabric-1.21.8-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cUWMNzMh/versions/PoXgtLiP/sword_of_legend-fabric-1.21.8-1.0.0.jar",
+      "hash": "sha512-NgHNtGUjbwD7GraOyG4T7RUmmF1Dq5kyoYgWmcVimQAfOiYi+1Q/9NZcrSQv51D9y4szyvDXINEWWhttk4MUVg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "o9TfDeV2": {
+      "filename": "sword_of_legend-neoforge-1.21.8-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cUWMNzMh/versions/o9TfDeV2/sword_of_legend-neoforge-1.21.8-1.0.0.jar",
+      "hash": "sha512-eWOGrDvDVCZkbZuCbEiaR9AeM5rjhdJK8wC/j0TTPyaaD9EzQllLEM0ts95N0O+nzzsAjrVAhVwgAyHM+3Bgew==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "PoXgtLiP"
+    ],
+    "1.21.8+neoforge": [
+      "o9TfDeV2"
+    ]
+  }
+}

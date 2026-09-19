@@ -1,0 +1,44 @@
+{
+  "slug": "block-shuffle",
+  "projectId": "OM2XuWfG",
+  "versions": {
+    "PwNDNlCM": {
+      "filename": "block-shuffle-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OM2XuWfG/versions/PwNDNlCM/block-shuffle-1.0.0.jar",
+      "hash": "sha512-6/X46rYtekgLC2tF76RAQmvGN68b9O4jP/urXFVMda/gb2/fMH+aL7ItvcKckVye4MAgU6uKS4gCNnPyrZRuLg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "efuKNIuH": {
+      "filename": "block-shuffle-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OM2XuWfG/versions/efuKNIuH/block-shuffle-1.0.0.jar",
+      "hash": "sha512-6/X46rYtekgLC2tF76RAQmvGN68b9O4jP/urXFVMda/gb2/fMH+aL7ItvcKckVye4MAgU6uKS4gCNnPyrZRuLg==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "efuKNIuH",
+      "PwNDNlCM"
+    ],
+    "1.21.11+fabric": [
+      "efuKNIuH"
+    ]
+  }
+}

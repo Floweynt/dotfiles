@@ -1,0 +1,53 @@
+{
+  "slug": "origins-plus",
+  "projectId": "pN5hiahr",
+  "versions": {
+    "cVO0AIIv": {
+      "filename": "origins-plus-1.19.3-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pN5hiahr/versions/cVO0AIIv/origins-plus-1.19.3-0.1.0.jar",
+      "hash": "sha512-NJCDuSx5EtSgOeflEX4pEToiCTESmZOl1184TbjZMn0aV3E4DDdVV33w/rj71EQANM3+86kKhxtS2aA3gc0LIA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "dtM63MEn": {
+      "filename": "origins-plus-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/pN5hiahr/versions/v0.0.2/origins-plus-0.0.2.jar",
+      "hash": "sha512-O9jkXy56zio8A7unUPGmUMMC2XzefuS/mfd2HVT4g+SUmoaa46ZsoZBepJrxl/pyMjP+zkVkp9ZN1EqiE33w+g==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "dtM63MEn"
+    ],
+    "1.19.3+fabric": [
+      "cVO0AIIv"
+    ]
+  }
+}

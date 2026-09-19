@@ -1,0 +1,64 @@
+{
+  "slug": "fireplacemode",
+  "projectId": "v2fLhRTv",
+  "versions": {
+    "1r3Gwla0": {
+      "filename": "fireplacemode-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/v2fLhRTv/versions/1r3Gwla0/fireplacemode-1.0.5.jar",
+      "hash": "sha512-RTt2boTc2ROoNu7KeLPA3KtvSN0KVGExZnxyO+Jd4k/c2sLfBF6sOJ8AdyE08VgUMC/KnmzYXX3XE9vSxLh3fg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YTwdgJLf": {
+      "filename": "fireplacemode-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/v2fLhRTv/versions/YTwdgJLf/fireplacemode-1.0.6.jar",
+      "hash": "sha512-jzv3wq2LBblACIoo06tRiYpMvPKPanS9//tU5c5zDKp9SV+DpotdbQYOeWnPXZf+MO5vZpn52wq2gKXog3aufw==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "1r3Gwla0"
+    ],
+    "1.20+fabric": [
+      "YTwdgJLf"
+    ]
+  }
+}

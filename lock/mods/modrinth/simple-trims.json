@@ -1,0 +1,65 @@
+{
+  "slug": "simple-trims",
+  "projectId": "1HTMYuJn",
+  "versions": {
+    "5GTgfQyk": {
+      "filename": "simpletrims-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/1HTMYuJn/versions/5GTgfQyk/simpletrims-0.1.1.jar",
+      "hash": "sha512-hKqxFSmzhh3ZG/1b9IHlJqMQ2auEIaQxsW7I8yY09mUcDyLl12EF27snX7gPV3Jc4pRP9AiKhtmjKxLx1bECCg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DpU8veYU": {
+      "filename": "simpletrims-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/1HTMYuJn/versions/DpU8veYU/simpletrims-0.2.0.jar",
+      "hash": "sha512-IrdN10cjlxWu4CP8QH6H3ZFyuWaj3GgsmW6i+2ljTv+Gwaulw94EwiQK/9Gd0+wxycuHc2oTn3tpcjl/PyyxUw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "DpU8veYU",
+      "5GTgfQyk"
+    ],
+    "1.20+quilt": [
+      "5GTgfQyk"
+    ],
+    "1.20.1+fabric": [
+      "DpU8veYU",
+      "5GTgfQyk"
+    ],
+    "1.20.1+quilt": [
+      "5GTgfQyk"
+    ]
+  }
+}

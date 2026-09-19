@@ -1,0 +1,36 @@
+{
+  "slug": "create-more-parallel-pipes-fabric",
+  "projectId": "4ELpKS0A",
+  "versions": {
+    "mkcX9Sll": {
+      "filename": "create-more-parallel-pipes-fabric-1.1.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/4ELpKS0A/versions/mkcX9Sll/create-more-parallel-pipes-fabric-1.1.3-fabric.jar",
+      "hash": "sha512-w/koW6vhhMKLX7M4/ixGK5dOgfyCiCVUPOGuUajUD+yRlxxfDH5LuF6Z4fhutQgoGydcMrggNsFTUizwMk9M9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "mkcX9Sll"
+    ]
+  }
+}

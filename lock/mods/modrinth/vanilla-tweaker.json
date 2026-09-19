@@ -1,0 +1,35 @@
+{
+  "slug": "vanilla-tweaker",
+  "projectId": "YkgyoOwX",
+  "versions": {
+    "uCqGyqPN": {
+      "filename": "VanillaTweaker-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/YkgyoOwX/versions/uCqGyqPN/VanillaTweaker-1.0.0-1.20.1.jar",
+      "hash": "sha512-tLKa8hhEPMoHuDeyZRjagOe5qx1Coui2DVyQ0ulSllVX1WuZt0IFlfV4qweYBgrM6PAqmk4+P14N0LOKGbRvJQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "uCqGyqPN"
+    ],
+    "1.20.1+fabric": [
+      "uCqGyqPN"
+    ]
+  }
+}

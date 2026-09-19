@@ -1,0 +1,48 @@
+{
+  "slug": "pitch-display",
+  "projectId": "GK682l2q",
+  "versions": {
+    "ZhFRq7L6": {
+      "filename": "Pitch Display-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/GK682l2q/versions/ZhFRq7L6/Pitch%20Display-1.21.4.jar",
+      "hash": "sha512-HRy557HNEPPpRnlNKl7ZirXjHJD1UJHbW1/0Fol9z78bE0RZ2aaReaKItdBPcTzAdffrN/TnhCdDwnXGT2Wl3A==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "yh6geKct": {
+      "filename": "Pitch Display-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/GK682l2q/versions/yh6geKct/Pitch%20Display-1.21.11.jar",
+      "hash": "sha512-iW8dcyGbuk4cw6Zj1SFCD8iERWkwbmg4Xt9YrvxfIxYOzwuFsZdAzBDhuatiRuRBvZTwYHbr4FcSY7NZ9XjhJA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "yh6geKct"
+    ],
+    "1.21.4+fabric": [
+      "ZhFRq7L6"
+    ]
+  }
+}

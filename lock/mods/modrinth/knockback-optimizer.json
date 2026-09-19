@@ -1,0 +1,95 @@
+{
+  "slug": "knockback-optimizer",
+  "projectId": "OW0Dfvjq",
+  "versions": {
+    "gdXsjqq5": {
+      "filename": "Knockback_Optimizer-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/OW0Dfvjq/versions/gdXsjqq5/Knockback_Optimizer-1.21.11.jar",
+      "hash": "sha512-QUptamvgrXbVOR1uQG9KxJljF2UEbSF7ME/ed2VzzCdKi72UvfGNO4YuuiOM0w9cx27qEo/ezfl8QJ6a7t9P+Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "t1cfs03f": {
+      "filename": "knockback_optimizer-1.21.X.jar",
+      "url": "https://cdn.modrinth.com/data/OW0Dfvjq/versions/t1cfs03f/knockback_optimizer-1.21.X.jar",
+      "hash": "sha512-ppjxfHw2+kr50HLcyqO0CwioReeJTF2ymY3SivgiVwJwher+g8FORzmh0zRuRWoOrZPT+VYh+i6mqokcbBSrUw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.1+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.10+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.11+fabric": [
+      "t1cfs03f",
+      "gdXsjqq5"
+    ],
+    "1.21.2+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.3+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.4+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.5+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.6+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.7+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.8+fabric": [
+      "t1cfs03f"
+    ],
+    "1.21.9+fabric": [
+      "t1cfs03f"
+    ]
+  }
+}

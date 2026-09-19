@@ -1,0 +1,54 @@
+{
+  "slug": "cobblemon-armors-feature",
+  "projectId": "YCuXAEHx",
+  "versions": {
+    "SZwcyyd0": {
+      "filename": "cobblemon-armors-feature-1.0.0+1.5.0+1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/YCuXAEHx/versions/SZwcyyd0/cobblemon-armors-feature-1.0.0%2B1.5.0%2B1.6.1.jar",
+      "hash": "sha512-dem8Ghx0gZn3pSF4kj1DhGP9Tmm/nCLSZLlnCpeKfw4SgBBSsk46pnVp8YB2PVjNb7K+t8rAkWhSETkvyacJdg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon-armors",
+          "projectId": "WwDbGW1s",
+          "type": "required"
+        }
+      ]
+    },
+    "pyglnqtx": {
+      "filename": "cobblemon-armors-feature-1.0.0+1.5.0+1.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/YCuXAEHx/versions/pyglnqtx/cobblemon-armors-feature-1.0.0%2B1.5.0%2B1.5.2.jar",
+      "hash": "sha512-+nxwwXyJT1u9afxB6FuV7Sb3W/19KtjEqp1t9WnVv/z88ZIUkveWSDGJgGctwlC4xxbiXKMC8xtMv8eIY5fAhA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon-armors",
+          "projectId": "WwDbGW1s",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pyglnqtx"
+    ],
+    "1.21.1+fabric": [
+      "SZwcyyd0"
+    ]
+  }
+}

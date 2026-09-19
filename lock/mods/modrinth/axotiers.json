@@ -1,0 +1,39 @@
+{
+  "slug": "axotiers",
+  "projectId": "qlO0Rnpv",
+  "versions": {
+    "Cv7NLo1O": {
+      "filename": "axotiers-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/qlO0Rnpv/versions/Cv7NLo1O/axotiers-1.2.0.jar",
+      "hash": "sha512-4uR4q62ryeEj2PKfUOR5oyM0/Ygn9uIHYvjvKB/y26+dg3I7uqDdPAf9mfyhl+XUmKn1tFcuUEdbefpDCnLxuA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "Cv7NLo1O"
+    ],
+    "1.21.11+fabric": [
+      "Cv7NLo1O"
+    ],
+    "1.21.9+fabric": [
+      "Cv7NLo1O"
+    ]
+  }
+}

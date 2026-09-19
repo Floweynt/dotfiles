@@ -1,0 +1,116 @@
+{
+  "slug": "pronounify",
+  "projectId": "EROYCQAh",
+  "versions": {
+    "IggM7tEv": {
+      "filename": "pronounmc-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.0.0-forge/pronounmc-forge-1.0.0.jar",
+      "hash": "sha512-OeYbtDDkhLs6IwIymRhWBMPQbt7hxkUtZk6uQpBPDuQgP9EIDTIe2dSGTuSuHcgf+8ziC9NTiKCDP4fNAIO+Gg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "QYYiIEDr": {
+      "filename": "pronounmc-forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.1.0-forge/pronounmc-forge-1.1.0.jar",
+      "hash": "sha512-F11m9/AMiGNWYkEPf/5pyOOfE3sjesDvS+bQlV8lTfZtu7DUexctAc1htca9G9OaJSPJV/gXdF9q1uEdPu4Fbg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qunfJst1": {
+      "filename": "pronounmc-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.0.0-fabric/pronounmc-fabric-1.0.0.jar",
+      "hash": "sha512-QVj3PdthKYPcUZ09MgcphYq7JC3lIsBO40uY6bSZp9WF1JI21XEr6zGdbIEEf3AAW1ApeosWHB5Sg9YzJc6LIQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tMNvthYe": {
+      "filename": "Pronounify-2.0.0-fabric-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/2.0.0/Pronounify-2.0.0-fabric-1.19.jar",
+      "hash": "sha512-SHJqnOEFHzrxGst4jBffcwkkwl8S1QeREDwiQeQDHsY87ZgoLmf9KwMpNN3g12vZijxxP2xYEjvD8AEClb9heA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "u0brZ2ao": {
+      "filename": "pronounmc-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EROYCQAh/versions/1.1.0-fabric/pronounmc-fabric-1.1.0.jar",
+      "hash": "sha512-4LcKpLknyDwCmjk3RKYp3oH3sUm9wyzmwMGBIDSykkgSZMfzrFIcd/Ok+M2TNy9iDL6Nv+091vZS1t8L0ZRBcA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "u0brZ2ao",
+      "qunfJst1"
+    ],
+    "1.18.2+forge": [
+      "QYYiIEDr",
+      "IggM7tEv"
+    ],
+    "1.19+fabric": [
+      "tMNvthYe"
+    ],
+    "1.19+quilt": [
+      "tMNvthYe"
+    ]
+  }
+}

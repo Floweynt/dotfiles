@@ -1,0 +1,79 @@
+{
+  "slug": "tricky-trials-backport",
+  "projectId": "lgEtxZFL",
+  "versions": {
+    "UyEIiwET": {
+      "filename": "trickytrialsbackport-fabric-2026.1.jar",
+      "url": "https://cdn.modrinth.com/data/lgEtxZFL/versions/UyEIiwET/trickytrialsbackport-fabric-2026.1.jar",
+      "hash": "sha512-xr7Ey67+M03mlXZMrYR9guOjms51k7DO8LT2zZGYol9S352NtZGVQutxheM3WF9cN+ErY4UBDZ566nNE/vtb1A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trimmed",
+          "projectId": "q8k4zHw5",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "sherdsapi",
+          "projectId": "nOUYhAZV",
+          "type": "required"
+        },
+        {
+          "slug": "backport-copper-age",
+          "projectId": "a1llHwl4",
+          "type": "required"
+        }
+      ]
+    },
+    "uMHYcT2B": {
+      "filename": "trickytrialsbackport-forge-2026.1.jar",
+      "url": "https://cdn.modrinth.com/data/lgEtxZFL/versions/uMHYcT2B/trickytrialsbackport-forge-2026.1.jar",
+      "hash": "sha512-S7nHU5Cm4yQm6L/OnipfW86Dsgxng6OZkGaKTFvY9lQmD5Q+EXpkTmDjMOkK2yKYnnjJr+vUj57qX6zby3z3Hg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sherdsapi",
+          "projectId": "nOUYhAZV",
+          "type": "required"
+        },
+        {
+          "slug": "trimmed",
+          "projectId": "q8k4zHw5",
+          "type": "required"
+        },
+        {
+          "slug": "backport-copper-age",
+          "projectId": "a1llHwl4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "UyEIiwET"
+    ],
+    "1.20.1+forge": [
+      "uMHYcT2B"
+    ]
+  }
+}

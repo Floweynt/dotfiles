@@ -1,0 +1,64 @@
+{
+  "slug": "create-refabricated-recipes",
+  "projectId": "lw22KiHb",
+  "versions": {
+    "1owM3dqp": {
+      "filename": "create_refab_recipes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lw22KiHb/versions/1owM3dqp/create_refab_recipes-1.0.0.jar",
+      "hash": "sha512-CrLBnqJYx3H4IHfx6+GQRmA1W69ZinMamg4c89EsX68ErBiPKG7oXPNyJGT2+saRqsYANrEoZyX/hjh/m2qUmA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        }
+      ]
+    },
+    "WIxqmCDU": {
+      "filename": "create_refab_recipes-1.1.0+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/lw22KiHb/versions/WIxqmCDU/create_refab_recipes-1.1.0%2B26.2.jar",
+      "hash": "sha512-V6uIxfJ0MtJsLPfc7SERTdkdazYiCEFKxZC7o7pFKI6BHoFWoGyYYukPITRU/SvYU3e2/NS4cswafoLp77nJVQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "1owM3dqp"
+    ],
+    "26.2+fabric": [
+      "WIxqmCDU"
+    ]
+  }
+}

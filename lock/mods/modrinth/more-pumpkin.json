@@ -1,0 +1,56 @@
+{
+  "slug": "more-pumpkin",
+  "projectId": "yZZYnCUp",
+  "versions": {
+    "Cx3wchuz": {
+      "filename": "morepumpkins-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yZZYnCUp/versions/Cx3wchuz/morepumpkins-1.20.1-1.0.0.jar",
+      "hash": "sha512-psyvo6F5Z1ht6eZU5wrwLRLx+meANYG45zYOe3W9Jm1ceuxVy2LnZjPXNjQUDLayVc10+k6dl9TFWpf1mTsp3Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OytPziUe": {
+      "filename": "More Pumpkins 1.20.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yZZYnCUp/versions/OytPziUe/More%20Pumpkins%201.20.4-1.0.0.jar",
+      "hash": "sha512-aff476asmSDRk/loXtOTaIbhw2e5TPsO4dpuuO8F0LuZRHbFDF9+1Z47WmPcuhMLdcDN0KJvWtorexeK9/9QhA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Cx3wchuz"
+    ],
+    "1.20.1+fabric": [
+      "Cx3wchuz"
+    ],
+    "1.20.2+fabric": [
+      "Cx3wchuz"
+    ],
+    "1.20.4+fabric": [
+      "OytPziUe"
+    ]
+  }
+}

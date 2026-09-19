@@ -1,0 +1,101 @@
+{
+  "slug": "anvil-player-heads",
+  "projectId": "BcTWkiah",
+  "versions": {
+    "OtY3Qmuy": {
+      "filename": "anvil_player_heads-1.0.0+1.20.5.jar",
+      "url": "https://cdn.modrinth.com/data/BcTWkiah/versions/OtY3Qmuy/anvil_player_heads-1.0.0%2B1.20.5.jar",
+      "hash": "sha512-pYQ3iThHrpSXfJJa6yDSuvAOdRbp8RNxhZBo2ecnKEVKrJ7Ljqle1ZzBevEQOMeb8e/DUhhlbMfb7Umg/Kn7aw==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QaY6vqcX": {
+      "filename": "anvil_player_heads-1.0.0+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/BcTWkiah/versions/QaY6vqcX/anvil_player_heads-1.0.0%2B1.20.2.jar",
+      "hash": "sha512-aiu8UwzT8t+OCzeD1c320yv8q29ZKKYJ7fkXzm3RQqE04Wv3oUtfGQFup76PyoCelfaKaY0mvEpHQlDMxGSppQ==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hCaN0XYW": {
+      "filename": "anvil_player_heads-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/BcTWkiah/versions/hCaN0XYW/anvil_player_heads-1.0.0%2B1.20.jar",
+      "hash": "sha512-IaCjGgfsf8pcAc1xUffjWEdqlsFZ0VgqglhkNiHihtim43HUSF0/TrjQPbyWJBNzqGwgItuLuWXF7YZnKh+RpA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "hCaN0XYW"
+    ],
+    "1.20.1+fabric": [
+      "hCaN0XYW"
+    ],
+    "1.20.2+fabric": [
+      "QaY6vqcX"
+    ],
+    "1.20.3+fabric": [
+      "QaY6vqcX"
+    ],
+    "1.20.4+fabric": [
+      "QaY6vqcX"
+    ],
+    "1.20.5+fabric": [
+      "OtY3Qmuy"
+    ],
+    "1.20.6+fabric": [
+      "OtY3Qmuy"
+    ],
+    "1.21+fabric": [
+      "OtY3Qmuy"
+    ],
+    "1.21.1+fabric": [
+      "OtY3Qmuy"
+    ]
+  }
+}

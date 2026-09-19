@@ -1,0 +1,64 @@
+{
+  "slug": "grave",
+  "projectId": "B5WupBYZ",
+  "versions": {
+    "PypVmWVm": {
+      "filename": "grave-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/B5WupBYZ/versions/PypVmWVm/grave-1.0.jar",
+      "hash": "sha512-XVOZG3c5DZjUhNzwXnd5NBUYZAESQ3E8LNlfJFpl6d5Kl63XLf/u1XUsZQBqqKJkWNvs9PyAIJjGgHKozoM8Ng==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ugwftDvE": {
+      "filename": "grave_1.0.zip",
+      "url": "https://cdn.modrinth.com/data/B5WupBYZ/versions/ugwftDvE/grave_1.0.zip",
+      "hash": "sha512-mVaW8NP1Vs+IOyfVAa7ZOKWSBiUlhTvHa9MgSbodAe+vbpsnHBNPNSGwjAvJyqrUuS+b79mEXpscnOhsyzU/qQ==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+datapack": [
+      "ugwftDvE"
+    ],
+    "1.19.4+fabric": [
+      "PypVmWVm"
+    ],
+    "1.19.4+forge": [
+      "PypVmWVm"
+    ],
+    "1.19.4+quilt": [
+      "PypVmWVm"
+    ],
+    "1.20+datapack": [
+      "ugwftDvE"
+    ],
+    "1.20+fabric": [
+      "PypVmWVm"
+    ],
+    "1.20+forge": [
+      "PypVmWVm"
+    ],
+    "1.20+quilt": [
+      "PypVmWVm"
+    ]
+  }
+}

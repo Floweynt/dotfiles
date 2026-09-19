@@ -1,0 +1,42 @@
+{
+  "slug": "stackingdiscounts",
+  "projectId": "IqHCTShR",
+  "versions": {
+    "3HmI9jEq": {
+      "filename": "stackingdiscounts-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/IqHCTShR/versions/3HmI9jEq/stackingdiscounts-1.0.1.jar",
+      "hash": "sha512-kWh7ucmbgE4s4Jt/CmrdJUEwoUE4zoEKCv6sO26PNcHCIVFxusvyhFLPAn3SzP82dGEYc6ehWoBZSgUvB9hLWA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "sL5v9WlK": {
+      "filename": "stackingdiscounts-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IqHCTShR/versions/sL5v9WlK/stackingdiscounts-1.0.0.jar",
+      "hash": "sha512-6ty7AHY8BD0gLLsLGep7eOO0CXJWXIEz5pF0ufiERb6cPaPTwg1/KFRht59uy++kIWmnefnO4Zv1zH5CaZabvQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "sL5v9WlK"
+    ],
+    "1.21.4+fabric": [
+      "3HmI9jEq"
+    ]
+  }
+}

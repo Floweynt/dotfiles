@@ -1,0 +1,135 @@
+{
+  "slug": "canned",
+  "projectId": "rM1QboGD",
+  "versions": {
+    "C3kAB8QN": {
+      "filename": "canned-neoforge-1.21-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/rM1QboGD/versions/C3kAB8QN/canned-neoforge-1.21-1.2.0.jar",
+      "hash": "sha512-QV+BNlRBvnRClm9536iEX5R+HLdWRYXZPNUQ8C2gntzDfbl0zObrey3H9sF5h/v+YjC4RB4G1miFksreFk4C3g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "FZ0E5dQY": {
+      "filename": "Canned-forge-1.21-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/rM1QboGD/versions/FZ0E5dQY/Canned-forge-1.21-1.2.0.jar",
+      "hash": "sha512-WDJeZcBcx8smAAag+jtqygNyXXTOcn9OzZKP6Ngcye5swSl/JDNw1Zvou8ehvwGxv5N65GbNcQeF+Xm2uvfsvA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HGsUgKzJ": {
+      "filename": "canned-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/rM1QboGD/versions/HGsUgKzJ/canned-1.20.1-1.0.0.jar",
+      "hash": "sha512-j3TyAuHcEB2l2mr/CbMdogGy7+h4+GYdZk66X6o1ZaBraDBUxvH5fJK/Dyqvrr6J3Hdy1j0G6IBmrXC/jYdVxA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TxxFRraW": {
+      "filename": "canned-fabric-1.21-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/rM1QboGD/versions/TxxFRraW/canned-fabric-1.21-1.2.0.jar",
+      "hash": "sha512-CnTySdov09ceIfq4Fikgovb3QBrRFMHP0cwxWaJ7+zBXGJzwvgnhTm37RLUGnlD7bMQ6R1x0TXKy40rGhnSKCg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "v5f7fxmc": {
+      "filename": "canned-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/rM1QboGD/versions/v5f7fxmc/canned-1.20.1-1.1.0.jar",
+      "hash": "sha512-vELHa0W4FE4KCOPE8e/WW/AW7oEWKgoDDpuCqNqdXlPrpPCvPZcHXr33lrdAtQw0tIbkICWDatak9Qw6Lj1WCw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "v5f7fxmc",
+      "HGsUgKzJ"
+    ],
+    "1.20.1+fabric": [
+      "v5f7fxmc",
+      "HGsUgKzJ"
+    ],
+    "1.20.2+fabric": [
+      "v5f7fxmc"
+    ],
+    "1.21+fabric": [
+      "TxxFRraW"
+    ],
+    "1.21+forge": [
+      "FZ0E5dQY"
+    ],
+    "1.21+neoforge": [
+      "C3kAB8QN"
+    ],
+    "1.21.1+forge": [
+      "FZ0E5dQY"
+    ],
+    "1.21.2+forge": [
+      "FZ0E5dQY"
+    ],
+    "1.21.3+forge": [
+      "FZ0E5dQY"
+    ],
+    "1.21.4+forge": [
+      "FZ0E5dQY"
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "sonic-cycle",
+  "projectId": "o8DgYg5p",
+  "versions": {
+    "2jBzSonz": {
+      "filename": "soniccycle-1.0.0-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/o8DgYg5p/versions/2jBzSonz/soniccycle-1.0.0-mc1.21.1.jar",
+      "hash": "sha512-ePM9rcqSYFyF3BNYf/LnHLqi5dbo6FHb0lbJJDooDGPDSIQvnsQk+lyQBBq7QNj+6crm8fMKzMRN3Na7liLzYQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "PIZ9G63O": {
+      "filename": "soniccycle-1.0.0-mc1.21.1neo.jar",
+      "url": "https://cdn.modrinth.com/data/o8DgYg5p/versions/PIZ9G63O/soniccycle-1.0.0-mc1.21.1neo.jar",
+      "hash": "sha512-wxKOOMtDA9f3eJGksImQJ255Nw00KqyKxmKhT7QIIx4T4sOYi7ShPxUlPzw6sTji4CaW1VQdac0dDkjWDxBv0w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "2jBzSonz"
+    ],
+    "1.21+forge": [
+      "PIZ9G63O"
+    ],
+    "1.21+neoforge": [
+      "PIZ9G63O"
+    ],
+    "1.21.1+fabric": [
+      "2jBzSonz"
+    ],
+    "1.21.1+forge": [
+      "PIZ9G63O"
+    ],
+    "1.21.1+neoforge": [
+      "PIZ9G63O"
+    ]
+  }
+}

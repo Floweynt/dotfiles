@@ -1,0 +1,97 @@
+{
+  "slug": "banmanager",
+  "projectId": "7mgpQoBb",
+  "versions": {
+    "4sofdgmr": {
+      "filename": "BanManagerFabric.jar",
+      "url": "https://cdn.modrinth.com/data/7mgpQoBb/versions/4sofdgmr/BanManagerFabric.jar",
+      "hash": "sha512-JNi5S36bQEbgaEz5qBHmEoBs2/lhwZJieAeom8LBbnkyHY1xQHv7sLDLr80MQHMF/X8swKAn5B87MU5lW9cWxQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "Pyu5EI4G": {
+      "filename": "BanManagerFabric-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/7mgpQoBb/versions/Pyu5EI4G/BanManagerFabric-mc1.20.1.jar",
+      "hash": "sha512-hzEODkGZ1mjtgnIBExulTrJ2IDeT2LPGyzj0r+X89LmAp8wd0sy/E8t8oBEivUw0LKZEpo8ixXMbT1JcqbAuQw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1",
+        "1.21.4",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rZSVqhNa": {
+      "filename": "BanManagerFabric-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/7mgpQoBb/versions/rZSVqhNa/BanManagerFabric-mc1.20.1.jar",
+      "hash": "sha512-eIRNrl7J6xXHHcv/AnD8ysrPDnTqfslbV9ltSVi2NSyxzHgs+zGlEaEoVfgrHM/fNim/mw7chettgQ85AvSoYg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Pyu5EI4G",
+      "rZSVqhNa"
+    ],
+    "1.21+fabric": [
+      "4sofdgmr"
+    ],
+    "1.21.1+fabric": [
+      "Pyu5EI4G",
+      "rZSVqhNa",
+      "4sofdgmr"
+    ],
+    "1.21.11+fabric": [
+      "Pyu5EI4G"
+    ],
+    "1.21.2+fabric": [
+      "4sofdgmr"
+    ],
+    "1.21.3+fabric": [
+      "4sofdgmr"
+    ],
+    "1.21.4+fabric": [
+      "Pyu5EI4G",
+      "rZSVqhNa",
+      "4sofdgmr"
+    ]
+  }
+}

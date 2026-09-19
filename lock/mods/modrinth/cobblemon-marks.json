@@ -1,0 +1,41 @@
+{
+  "slug": "cobblemon-marks",
+  "projectId": "tZMuL9tl",
+  "versions": {
+    "8g2v1KtA": {
+      "filename": "CobblemonMarks-fabric-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/tZMuL9tl/versions/8g2v1KtA/CobblemonMarks-fabric-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-w2UrXq2/JlLIbja47g6zeyP4DBtgvqgpnfywb0eeI+8sLstnykwtUdvTJz/KNHFN5Rw/Eb+A+zuX1NWczHjkYw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-extra-data",
+          "projectId": "97Az7HCf",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "8g2v1KtA"
+    ]
+  }
+}

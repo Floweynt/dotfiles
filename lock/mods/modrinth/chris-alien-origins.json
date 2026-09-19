@@ -1,0 +1,72 @@
+{
+  "slug": "chris-alien-origins",
+  "projectId": "g4sY9Hq9",
+  "versions": {
+    "6fnIVcFM": {
+      "filename": "chris-alien-origins-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/g4sY9Hq9/versions/6fnIVcFM/chris-alien-origins-1.0.0.jar",
+      "hash": "sha512-IR46N0zbnNiwDpSQljs3GAO31D6RkoaTKv1lgSQ1eI/pPUMWfeu/Qtp8K620fo4uxvab8bIvxpFBs6iOYTFVYQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "Q0ZHjTdq": {
+      "filename": "Chris' Alien Origins.zip",
+      "url": "https://cdn.modrinth.com/data/g4sY9Hq9/versions/Q0ZHjTdq/Chris%27%20Alien%20Origins.zip",
+      "hash": "sha512-Y85EY0auABMlprBKkDYo4wiJbKSzX/ogrp/9ATuU2U4rg8tEhqBFZoPIbbkRhwTZx6MVTryRIZwjpKkegfCl+A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "Q0ZHjTdq"
+    ],
+    "1.20.1+fabric": [
+      "6fnIVcFM"
+    ],
+    "1.20.2+datapack": [
+      "Q0ZHjTdq"
+    ],
+    "1.20.2+fabric": [
+      "6fnIVcFM"
+    ]
+  }
+}

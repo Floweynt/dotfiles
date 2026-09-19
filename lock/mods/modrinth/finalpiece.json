@@ -1,0 +1,75 @@
+{
+  "slug": "finalpiece",
+  "projectId": "50YhFM7B",
+  "versions": {
+    "AE40gaPo": {
+      "filename": "finalpiece-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/50YhFM7B/versions/AE40gaPo/finalpiece-0.2.0.jar",
+      "hash": "sha512-EbPRyeopZ4Mclq2BqNtRxAWs4NuPJaKD67wk3GXjdgGwy9hCrTdf8394u3tsDLAiu0oVlOJbYX0EsxYPylwRkQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KDhiWgMB": {
+      "filename": "finalpiece-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/50YhFM7B/versions/KDhiWgMB/finalpiece-0.2.1.jar",
+      "hash": "sha512-bw5ad1k98eL4fWBnk9ZcEX0UJqzC4ei0TeQIf4tBlkfG5cDd6vkxOjhQ0TnKErp30iO1jasSGem0G/VqMgvwGA==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "SGFEIQKh": {
+      "filename": "finalpiece-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/50YhFM7B/versions/SGFEIQKh/finalpiece-0.1.0.jar",
+      "hash": "sha512-JreGtOoHZRGDiAaIN8Xy7HsFUtimPgin2CJ89wpC121C+U5RF2LzAHV7M184IfwH4Xcji0Nq1E2O5I64ZZ0zTA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "AE40gaPo",
+      "SGFEIQKh"
+    ],
+    "1.21.6+fabric": [
+      "KDhiWgMB"
+    ]
+  }
+}

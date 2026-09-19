@@ -1,0 +1,46 @@
+{
+  "slug": "kantomodels",
+  "projectId": "TlBGIutm",
+  "versions": {
+    "R5qDLKDt": {
+      "filename": "kantomodels-1.3.5.jar",
+      "url": "https://cdn.modrinth.com/data/TlBGIutm/versions/R5qDLKDt/kantomodels-1.3.5.jar",
+      "hash": "sha512-HkvN770yLK5lkV2rM/+ezv2f5xCOG+bDpLVbIVY7IgQHQrD9LtAKA8dPeB8/uvID/r0O0UnpMAVryFZ9y70wPQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "aU3iWmQ4": {
+      "filename": "kantomodels-1.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/TlBGIutm/versions/aU3iWmQ4/kantomodels-1.3.4.jar",
+      "hash": "sha512-CmMtpjuHwoCDYexlW2HUX0by30epcfqRTq4AUBRdmAflWhXTe4zSfxU4KbvQCvO9dVvF0IAiB70KSxoucHVReg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "R5qDLKDt",
+      "aU3iWmQ4"
+    ]
+  }
+}

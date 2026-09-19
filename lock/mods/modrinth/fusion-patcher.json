@@ -1,0 +1,124 @@
+{
+  "slug": "fusion-patcher",
+  "projectId": "EdeqXebb",
+  "versions": {
+    "4FUSuX8s": {
+      "filename": "fusion_patcher-1.21.1-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EdeqXebb/versions/4FUSuX8s/fusion_patcher-1.21.1-neoforge-1.1.0.jar",
+      "hash": "sha512-FCmaJdhj8lhHLL2/+uGFXa3kQVAH4+O4kS2LAEIua9Jvfg94HLuTguNN9YfbtPwR+EMYMCnr5LxE5gal+izCug==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "8Dec0v3L": {
+      "filename": "fusion_patcher-1.20.1-forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EdeqXebb/versions/8Dec0v3L/fusion_patcher-1.20.1-forge-1.1.0.jar",
+      "hash": "sha512-wwx1GQAL3ASeDp5HXOV8/++BJacJjX14gCVXt5GGWQkdhlGUWZg1nCF9ipi6Wa1503VVuEdvDnHM9yJOeXAYvA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "B7aMgvcY": {
+      "filename": "fusion_patcher-1.20.1-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EdeqXebb/versions/B7aMgvcY/fusion_patcher-1.20.1-forge-1.0.0.jar",
+      "hash": "sha512-/VEejk+BlvIgk9XxzaD62DSZUCHwQG2pbgEPG6DaCbfio6/glB8k06hycoZP4lTzQkc3+rHUU3B/FOf9MbQLgQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "I9dq2RMs": {
+      "filename": "fusion_patcher-1.21.1-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EdeqXebb/versions/I9dq2RMs/fusion_patcher-1.21.1-neoforge-1.0.0.jar",
+      "hash": "sha512-/BjF48o5eK474LW3gCyf8I3UDAOEUvFV2nteMzKypEUA7jLgSZkGkTx7T+rZ8gY8OtTveSt0sC3VxQ7lTfUTFA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Ps1UXqux": {
+      "filename": "fusion_patcher-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EdeqXebb/versions/Ps1UXqux/fusion_patcher-fabric-1.1.0.jar",
+      "hash": "sha512-L+9+6tCchRqRJcucs5PHl2L7VYnRAd9l3CfKTHcET2JXZg/Ap0ohWfBr7Oeom4p7DOT8hxGNOm+Oon0EuqCMUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VmGMrySx": {
+      "filename": "fusion_patcher-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EdeqXebb/versions/VmGMrySx/fusion_patcher-fabric-1.0.0.jar",
+      "hash": "sha512-YCkkv2qQh+S9eWRUUlwui8qZlwXbATcX4IwD7AdtFcKSRd44U60ZVxPzry/fryVC/sl4mlimyk8EdZez6kSbWg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.4",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "VmGMrySx"
+    ],
+    "1.20.1+fabric": [
+      "Ps1UXqux",
+      "VmGMrySx"
+    ],
+    "1.20.1+forge": [
+      "8Dec0v3L",
+      "B7aMgvcY"
+    ],
+    "1.20.4+fabric": [
+      "VmGMrySx"
+    ],
+    "1.21+fabric": [
+      "VmGMrySx"
+    ],
+    "1.21+neoforge": [
+      "I9dq2RMs"
+    ],
+    "1.21.1+fabric": [
+      "VmGMrySx"
+    ],
+    "1.21.1+neoforge": [
+      "4FUSuX8s",
+      "I9dq2RMs"
+    ]
+  }
+}

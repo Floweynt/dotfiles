@@ -1,0 +1,36 @@
+{
+  "slug": "stepupblocks",
+  "projectId": "LaimUME5",
+  "versions": {
+    "shYizO1D": {
+      "filename": "StepUpBlocks-1.20.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LaimUME5/versions/shYizO1D/StepUpBlocks-1.20.1-1.0.jar",
+      "hash": "sha512-3UlVE0bmyeuIMuhUP6GURuRJ79vHuF/zoZIRx6nSVuE9j5YMfSdLPhLe1FBwNe0GefJDchxGJkAb97UdzAH35w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "shYizO1D"
+    ]
+  }
+}

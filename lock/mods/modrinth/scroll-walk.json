@@ -1,0 +1,117 @@
+{
+  "slug": "scroll-walk",
+  "projectId": "kYsKe2qV",
+  "versions": {
+    "Tgug7mk6": {
+      "filename": "scrollwalk-1.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/kYsKe2qV/versions/Tgug7mk6/scrollwalk-1.1%2B26.1.jar",
+      "hash": "sha512-xyKhs/K3YRIWP+EckvlN6EjvOUbQFn0Vzd7fWprNiaC3t1ddEApbgzD4MvSCJtBh49smlCPFC+P62lo3axfOMQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "TuYq3k9U": {
+      "filename": "scrollwalk-1.2+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/kYsKe2qV/versions/TuYq3k9U/scrollwalk-1.2%2B26.1.jar",
+      "hash": "sha512-fVx6jPqbpMayON3ZKRcQTFi34rF3eNIqY3N7PoFvz0263l5b1NzjqN+3iKBicx6rv7hGMpTZf6BkGw4TqNBRlQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "wqVEWYmG": {
+      "filename": "ScrollWalk-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kYsKe2qV/versions/wqVEWYmG/ScrollWalk-1.0.jar",
+      "hash": "sha512-M7hDv4sSfaltT1yrCUCJvllk3gGuD6HDPRJoCDedyurpH3hZoyU2E+cTIJRxYyaFQoibwG2MTeoeoWJgMw6l1w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "wqVEWYmG"
+    ],
+    "26.1+fabric": [
+      "TuYq3k9U",
+      "Tgug7mk6"
+    ],
+    "26.1.1+fabric": [
+      "TuYq3k9U",
+      "Tgug7mk6"
+    ],
+    "26.1.2+fabric": [
+      "TuYq3k9U",
+      "Tgug7mk6"
+    ]
+  }
+}

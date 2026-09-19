@@ -1,0 +1,72 @@
+{
+  "slug": "quickstack-reborn",
+  "projectId": "c9OBjwme",
+  "versions": {
+    "eaeGGaY2": {
+      "filename": "quickstack_reborn-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c9OBjwme/versions/eaeGGaY2/quickstack_reborn-1.0.0.jar",
+      "hash": "sha512-84u5JsQREsitLJnqpwNxSzs+EbrOdLNQ+fjw3LeB8TufKIkqgr2ch/ODWmPgXvlPNYUgJDE657BsFzdTd9qAJw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "iT4eyhDT": {
+      "filename": "quickstack-reborn-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c9OBjwme/versions/iT4eyhDT/quickstack-reborn-fabric-1.0.0.jar",
+      "hash": "sha512-RzpA1nxcccXaEFjL05E3F0OpRxca6vefHpUT+s9TSfGOXkWNfvLtvXrkfbvHY+LBlYc87N/PW/ss/daJ+XUQ9w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mj5Y114T": {
+      "filename": "quickstack-1.21.1-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/c9OBjwme/versions/mj5Y114T/quickstack-1.21.1-fabric-1.0.2.jar",
+      "hash": "sha512-fy/SQJ2R26SLfLNSbElkV9etwu6VyUcn1LxjDkzUfxd0KuaTqjsXOv24BJIMDmiout9c4cY9cKqtRSZUX05o6A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "skNd5O12": {
+      "filename": "quickstack-1.21.1-neoforge-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/c9OBjwme/versions/skNd5O12/quickstack-1.21.1-neoforge-1.0.2.jar",
+      "hash": "sha512-Pg4GDpQ5mJO7sRmiw2YKfqtvSduKstLuy7a6DXStfSQPpWrQz51ZosnYrGgxjZQNkByigD5OCQYwCWk2NxjBXQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "mj5Y114T",
+      "iT4eyhDT"
+    ],
+    "1.21.1+neoforge": [
+      "skNd5O12",
+      "eaeGGaY2"
+    ]
+  }
+}

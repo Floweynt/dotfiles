@@ -1,0 +1,120 @@
+{
+  "slug": "cobblemon-pc-plus",
+  "projectId": "zPZ3SPik",
+  "versions": {
+    "7xcXzBM7": {
+      "filename": "cobblemonpcplus-neoforge-1.2.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zPZ3SPik/versions/7xcXzBM7/cobblemonpcplus-neoforge-1.2.0%2B1.21.1.jar",
+      "hash": "sha512-exzOwsZes+u+CqTDF78iirfQc0i12bmGU7UtU0FgVXiaL+KeGI5HRA7YXUEXothLyBLq+Unt9nHHqJcpu6oFMg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "AeCLN27P": {
+      "filename": "cobblemonpcplus-neoforge-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zPZ3SPik/versions/AeCLN27P/cobblemonpcplus-neoforge-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-6R+HdKs4HlknKYgJm4G9wUYVlYnBgYkDqRf7hFakNUQAHqFx5Dfr/WViQWZ262s3LY20B0An8y8XQ3EdPv0P7Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "P0fqOpuO": {
+      "filename": "cobblemonpcplus-fabric-1.2.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zPZ3SPik/versions/P0fqOpuO/cobblemonpcplus-fabric-1.2.0%2B1.21.1.jar",
+      "hash": "sha512-YI4LBaVtmhYSHEtZP+R5GdFYyLt+A676rPIo5KkkLt5JZf6GuCKIMTvaRIegVRWdJDItMDk42FUNW5dTmymHEg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "PdnXkvUX": {
+      "filename": "cobblemonpcplus-fabric-1.1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zPZ3SPik/versions/PdnXkvUX/cobblemonpcplus-fabric-1.1.0%2B1.21.1.jar",
+      "hash": "sha512-hHrmSkv6fvc8Fb7Ura2tCWJOi+XbgScSTGEm+3maPfmBv6tZJzEGlYmqafaZybUZt8Z/l8M6wJ0bHVslFBh5aQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "UhVnQejO": {
+      "filename": "cobblemonpcplus-fabric-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zPZ3SPik/versions/UhVnQejO/cobblemonpcplus-fabric-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-sd7GMfHndlCR6rJUzHV2be7wZ/ypWUd9fBra4O1YE9WrVKGP5IUksgqwLZwJ/gMvcjsHxHEhZt260HA/wBI91g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "yMyQjnQq": {
+      "filename": "cobblemonpcplus-neoforge-1.1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zPZ3SPik/versions/yMyQjnQq/cobblemonpcplus-neoforge-1.1.0%2B1.21.1.jar",
+      "hash": "sha512-jg0pMV170M2VESqqeTMN19w9PP9rrBQlPBgLC1OuFzUt5Ra+Uzc9Hg69E7ZonxprC9te4JWOoAk8XiWSWK/vpw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "P0fqOpuO",
+      "PdnXkvUX",
+      "UhVnQejO"
+    ],
+    "1.21.1+neoforge": [
+      "7xcXzBM7",
+      "yMyQjnQq",
+      "AeCLN27P"
+    ]
+  }
+}

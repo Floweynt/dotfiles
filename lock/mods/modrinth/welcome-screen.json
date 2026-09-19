@@ -1,0 +1,136 @@
+{
+  "slug": "welcome-screen",
+  "projectId": "EzQkPElf",
+  "versions": {
+    "Jy1AfUlC": {
+      "filename": "welcomescreen-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/EzQkPElf/versions/Jy1AfUlC/welcomescreen-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-wc3F/l82HJI66Rou7P5ZpyCo1smaXmu1NmQjqnfIKkGjnpUakqBJqKEqmV093SHiqW5k7miPjjX33OyFIfwTGg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "fancymenu",
+          "projectId": "Wq5SjeWM",
+          "type": "required"
+        }
+      ]
+    },
+    "WU3Oty8Q": {
+      "filename": "welcomescreen-forge-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/EzQkPElf/versions/WU3Oty8Q/welcomescreen-forge-1.0.0-1.20.1.jar",
+      "hash": "sha512-aECViiJQnw9pZsYwoEgIabJaKV7ntFbOtyC6+MUtUR70+Yd6/4Vd0LVCivtwGKk5teYEk4EWZbHaj8caKwwE4w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "fancymenu",
+          "projectId": "Wq5SjeWM",
+          "type": "required"
+        }
+      ]
+    },
+    "aZ4sQ9P7": {
+      "filename": "welcomescreen-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/EzQkPElf/versions/aZ4sQ9P7/welcomescreen-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-fuSCGIQrM2GkMKXzPVNeBAvcY083v4q4YkHAxrZTiVZn9Vztr7LueYEMaPCz4DB85y/Go7qkXlnWdK9bK68ByQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fancymenu",
+          "projectId": "Wq5SjeWM",
+          "type": "required"
+        },
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "kcaoltFt": {
+      "filename": "welcomescreen-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/EzQkPElf/versions/kcaoltFt/welcomescreen-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-ICg1wW2keXP/umlunTLFfMuYjaC5MQCbWKEkGmB2by5cPbIXvejqQuL4pUYH0fxrwFEPLYY39rKZxjuwwHG8qg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fancymenu",
+          "projectId": "Wq5SjeWM",
+          "type": "required"
+        },
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "aZ4sQ9P7"
+    ],
+    "1.20+forge": [
+      "WU3Oty8Q"
+    ],
+    "1.20.1+fabric": [
+      "aZ4sQ9P7"
+    ],
+    "1.20.1+forge": [
+      "WU3Oty8Q"
+    ],
+    "1.21+fabric": [
+      "kcaoltFt"
+    ],
+    "1.21+neoforge": [
+      "Jy1AfUlC"
+    ],
+    "1.21.1+fabric": [
+      "kcaoltFt"
+    ],
+    "1.21.1+neoforge": [
+      "Jy1AfUlC"
+    ]
+  }
+}

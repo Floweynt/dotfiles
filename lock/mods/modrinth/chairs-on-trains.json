@@ -1,0 +1,46 @@
+{
+  "slug": "chairs-on-trains",
+  "projectId": "Hh9wP732",
+  "versions": {
+    "BEcYwx5h": {
+      "filename": "chairsontrains-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Hh9wP732/versions/BEcYwx5h/chairsontrains-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-G8ZM8DBTiYR9S40jzZcxcX/338jiWDrHRlP2IsMh4JVVgiIkeq/3cTbIoE9B+/ga+b8oi35egexXZ1u41R9zNw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wM9PYoML": {
+      "filename": "chairsontrains-forge-1.19.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Hh9wP732/versions/wM9PYoML/chairsontrains-forge-1.19.2-1.0.0.jar",
+      "hash": "sha512-9XRPPdaS6dBpEydRdkxOlyKBYt2JuNZXzaTIDpYt362/RhxsJtKXoOyRB2e8oMcdQCo+VrzMnb2fmaIkOiHrFQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "wM9PYoML"
+    ],
+    "1.19.2+neoforge": [
+      "wM9PYoML"
+    ],
+    "1.20.1+fabric": [
+      "BEcYwx5h"
+    ]
+  }
+}

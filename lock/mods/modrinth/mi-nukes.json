@@ -1,0 +1,111 @@
+{
+  "slug": "mi-nukes",
+  "projectId": "c7oycezb",
+  "versions": {
+    "KEPs0P28": {
+      "filename": "mi-nukes-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/c7oycezb/versions/KEPs0P28/mi-nukes-1.1.jar",
+      "hash": "sha512-vt9RXk/ilkwWCRyrPfnLJgsg75JwCGuoLHaDNsbrz690c1ORPuGWhnwcejHTol63Y/9CnVtGh/9cPc3TqLWviw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modern-industrialization",
+          "projectId": "Gov5Dboq",
+          "type": "required"
+        }
+      ]
+    },
+    "Wc0mucWy": {
+      "filename": "mi-nukes-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/c7oycezb/versions/Wc0mucWy/mi-nukes-1.0.jar",
+      "hash": "sha512-gmw+KSTN5vzOPP09TbmSaD3OBcA8vhsnwyN5aS0grnlQrBQDSyncimv0pUlijwfnmlZI1a/tNLer40j6QnaASQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modern-industrialization",
+          "projectId": "Gov5Dboq",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XuSxkCFD": {
+      "filename": "mi-nukes-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/c7oycezb/versions/XuSxkCFD/mi-nukes-1.1.5.jar",
+      "hash": "sha512-2m8VKC2AMzIExfzpgflR6vpfHZqL5IWWvtdQn1wqYPFoh/6SCU1vHZRT2FEgb0eEtUz5WGcgeLfD94v5FLgbfQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modern-industrialization",
+          "projectId": "Gov5Dboq",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wwEeuuWd": {
+      "filename": "modern_nuclearization-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/c7oycezb/versions/wwEeuuWd/modern_nuclearization-2.0.jar",
+      "hash": "sha512-oEGhgMN66gHXs+bHgjh1k2enU5oZyH2wwBLj8SrUeKKiaUfpPRAH7jv4TxhO2WltQEUh55t1QiXNkZj6WZxphw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modern-industrialization",
+          "projectId": "Gov5Dboq",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "XuSxkCFD",
+      "KEPs0P28",
+      "Wc0mucWy"
+    ],
+    "1.21.1+neoforge": [
+      "wwEeuuWd"
+    ]
+  }
+}

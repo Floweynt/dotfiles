@@ -1,0 +1,81 @@
+{
+  "slug": "ftb-x-emi-compat",
+  "projectId": "vr3sruWD",
+  "versions": {
+    "E7iBEgu6": {
+      "filename": "ftbxemicompat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vr3sruWD/versions/E7iBEgu6/ftbxemicompat-1.0.0.jar",
+      "hash": "sha512-RFORCDWzeBOcZDs30n7zzJzc7eDKXCBi98U2D7osVutEWtIrO+OZNjnprWzofzSksSv/N1XfpPYl+nDbLusd0g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "G7Rl78Ue": {
+      "filename": "ftbxemicompat-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/vr3sruWD/versions/G7Rl78Ue/ftbxemicompat-1.0.3.jar",
+      "hash": "sha512-3PPCQNtG7FJShj2hEgN3MgMHKleOuZ/iarIwXZShyB7hHLotEau/RxycR+Gyx4dboyMJXmNm1/y9jsP8PFeb8w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "RYp97Pwe": {
+      "filename": "ftbxemicompat-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vr3sruWD/versions/RYp97Pwe/ftbxemicompat-1.0.1.jar",
+      "hash": "sha512-2QAq3aNYtYlByH7hkFJP5YK4SU5t0YDPdOyJxXUHXiceUz14JDGaUMx9nAHT84Wj7wXR8CXHDe+WBFzkeR/hXQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "uRC3hV1V": {
+      "filename": "ftbxemicompat-no-ambient-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vr3sruWD/versions/uRC3hV1V/ftbxemicompat-no-ambient-1.0.1.jar",
+      "hash": "sha512-NocTYkAOlN+F13xtb36t+1H2OYbytTo272Wy2b/FAXo/E2LwtKL6jDt0dIGutHrWE19R72eKDuR+JREd8iVMBw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "G7Rl78Ue",
+      "RYp97Pwe",
+      "uRC3hV1V",
+      "E7iBEgu6"
+    ]
+  }
+}

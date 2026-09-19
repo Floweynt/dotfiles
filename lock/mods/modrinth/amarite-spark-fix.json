@@ -1,0 +1,154 @@
+{
+  "slug": "amarite-spark-fix",
+  "projectId": "e5UBRS4a",
+  "versions": {
+    "4E3F82YR": {
+      "filename": "amarite spark fix-1.1.zip",
+      "url": "https://cdn.modrinth.com/data/e5UBRS4a/versions/4E3F82YR/amarite%20spark%20fix-1.1.zip",
+      "hash": "sha512-xL8QzrUCNHKlSV9QE5saxQiLQkEvawfd0khJY/yTqctNmGDFOujhNk9j45X/UNGLuYHUkfIHasBwSOsq6e6OLA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "amarite",
+          "projectId": "ftofxBty",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "T3gty9c3": {
+      "filename": "amarite-spark-fix-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/e5UBRS4a/versions/T3gty9c3/amarite-spark-fix-1.1.jar",
+      "hash": "sha512-EXAzCWGrtIuuIaQPIqLlFlZvCGDpBTeK5RLEls1y7FKsp74E/piyCwBYPxpDbnPX+F9gOdvW4KcyPySxi5fdTw==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "amarite",
+          "projectId": "ftofxBty",
+          "type": "required"
+        }
+      ]
+    },
+    "XstdiuZQ": {
+      "filename": "amarite-spark-fix-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/e5UBRS4a/versions/XstdiuZQ/amarite-spark-fix-1.0.jar",
+      "hash": "sha512-3AS0SFK2vgFbivmPG0viG/MZKRzTYo7EBiEyHgfv74q0W8vHMlkfDjvygjXeGK8Lp0G0qsXlsaoARYt2Kh5H+A==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "amarite",
+          "projectId": "ftofxBty",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "gj45wSJq": {
+      "filename": "amarite recipe fix.zip",
+      "url": "https://cdn.modrinth.com/data/e5UBRS4a/versions/gj45wSJq/amarite%20recipe%20fix.zip",
+      "hash": "sha512-vFraVs1niQbEZaamgiDdAPBb9sVae+Q+gAAUG8Ho5VwZPSIvr9nxcN5I4mlZr3DWburn7TtVM6fGi20Zlkxxpw==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "amarite",
+          "projectId": "ftofxBty",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "4E3F82YR",
+      "gj45wSJq"
+    ],
+    "1.19.2+fabric": [
+      "T3gty9c3",
+      "XstdiuZQ"
+    ],
+    "1.19.2+quilt": [
+      "T3gty9c3",
+      "XstdiuZQ"
+    ],
+    "1.20+datapack": [
+      "4E3F82YR",
+      "gj45wSJq"
+    ],
+    "1.20+fabric": [
+      "T3gty9c3",
+      "XstdiuZQ"
+    ],
+    "1.20+quilt": [
+      "T3gty9c3",
+      "XstdiuZQ"
+    ],
+    "1.20.1+datapack": [
+      "4E3F82YR",
+      "gj45wSJq"
+    ],
+    "1.20.1+fabric": [
+      "T3gty9c3",
+      "XstdiuZQ"
+    ],
+    "1.20.1+quilt": [
+      "T3gty9c3",
+      "XstdiuZQ"
+    ]
+  }
+}

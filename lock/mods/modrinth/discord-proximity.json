@@ -1,0 +1,58 @@
+{
+  "slug": "discord-proximity",
+  "projectId": "MKOWoDkO",
+  "versions": {
+    "Hm8evXt7": {
+      "filename": "discordproximity-1.0.1-1.19+.jar",
+      "url": "https://cdn.modrinth.com/data/MKOWoDkO/versions/Hm8evXt7/discordproximity-1.0.1-1.19%2B.jar",
+      "hash": "sha512-VpaiVXffp0QF9DFlKHBNhW5ZvQIW8F/AxMwlvP8x7/diN3IaYP0t48GJAII7JG0jMla2v2jNt0oTa7rOmMnicg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OAVBbUFU": {
+      "filename": "discordproximity-1.0.0B-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/MKOWoDkO/versions/OAVBbUFU/discordproximity-1.0.0B-1.19.3.jar",
+      "hash": "sha512-Ic1cwqmbmVUl3omm4K2r3KUecLgcWEzv+CdDpsy1SHtrsnlx9at4TqGOE/waDmeTkFI8hmAPyvNSDg+ZfeTpTw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "Hm8evXt7"
+    ],
+    "1.19.1+fabric": [
+      "Hm8evXt7"
+    ],
+    "1.19.2+fabric": [
+      "Hm8evXt7"
+    ],
+    "1.19.3+fabric": [
+      "Hm8evXt7",
+      "OAVBbUFU"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "capiche",
+  "projectId": "AJMtuzhf",
+  "versions": {
+    "ItXNThQy": {
+      "filename": "capiche-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AJMtuzhf/versions/ItXNThQy/capiche-1.0.0.jar",
+      "hash": "sha512-zcLQDkMBdGFGLzi3IOcnUZq6KRi6KtG6YGrP8o2MFXSoFAv2LNT8MHKsUpyqhv5THo4dhEgqzTjxchu5oImr6A==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "ItXNThQy"
+    ]
+  }
+}

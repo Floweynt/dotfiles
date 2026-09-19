@@ -1,0 +1,78 @@
+{
+  "slug": "succs-origins-dragon",
+  "projectId": "Ys8ASEVd",
+  "versions": {
+    "kxGd04PN": {
+      "filename": "Succ's Origins_ Dragon 0.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ys8ASEVd/versions/kxGd04PN/Succ%27s%20Origins_%20Dragon%200.0.0.jar",
+      "hash": "sha512-1X/N/QQMlXU7FmupUfDRC8QCmyMN0Ju8TYbf0ksmWW3fo3nSGpLxzA+WvuYvY5/rRfR8V5m1NMi4ZN+eoj7Dlg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "origins-extra-keybinds-fabric",
+          "projectId": "6b2RpJpx",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "zIpkFGI8": {
+      "filename": "Succ's Origins_ Dragon 0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ys8ASEVd/versions/zIpkFGI8/Succ%27s%20Origins_%20Dragon%200.0.1.jar",
+      "hash": "sha512-yZGHxuLbmsK+/h/ivqCEHdBxHvkjC9Axp6z5ijPlit8Qq9F+B0EHrV17qBc3tg95hsGlNYsJ7st0AoIWuhO+4Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins-extra-keybinds-fabric",
+          "projectId": "6b2RpJpx",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "zIpkFGI8",
+      "kxGd04PN"
+    ],
+    "1.20.1+fabric": [
+      "zIpkFGI8",
+      "kxGd04PN"
+    ]
+  }
+}

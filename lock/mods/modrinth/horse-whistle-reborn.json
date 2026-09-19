@@ -1,0 +1,81 @@
+{
+  "slug": "horse-whistle-reborn",
+  "projectId": "3hxQUw0G",
+  "versions": {
+    "XywAmA6g": {
+      "filename": "horse_whistle-1.0.3-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/3hxQUw0G/versions/XywAmA6g/horse_whistle-1.0.3-1.21.10.jar",
+      "hash": "sha512-RusHhvM7SVx4F2wYP4TDa203B5mppuON2zT252q3BahwU7CyIJuCgpftZo6jV4hKpI2MPVFHocDpeWf4nzUwXw==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iY9UV2Su": {
+      "filename": "horse_whistle-1.1.0-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/3hxQUw0G/versions/iY9UV2Su/horse_whistle-1.1.0-26.1.jar",
+      "hash": "sha512-bkDt34b45mcQivMDH7UOmd298Fe1e/GX1GcEaNHMkmMLMfjxl1HgekzsI/5RGBdgFRk/d9xH9o0HgBBiWyWVHw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "XywAmA6g"
+    ],
+    "1.21.11+fabric": [
+      "XywAmA6g"
+    ],
+    "26.1+fabric": [
+      "iY9UV2Su"
+    ],
+    "26.1+neoforge": [
+      "iY9UV2Su"
+    ],
+    "26.1.1+fabric": [
+      "iY9UV2Su"
+    ],
+    "26.1.1+neoforge": [
+      "iY9UV2Su"
+    ],
+    "26.1.2+fabric": [
+      "iY9UV2Su"
+    ],
+    "26.1.2+neoforge": [
+      "iY9UV2Su"
+    ]
+  }
+}

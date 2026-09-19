@@ -1,0 +1,100 @@
+{
+  "slug": "mobs-origins",
+  "projectId": "pFADClhD",
+  "versions": {
+    "SNd8oKJh": {
+      "filename": "copied_mob_origins-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pFADClhD/versions/SNd8oKJh/copied_mob_origins-1.0.0.jar",
+      "hash": "sha512-xerTBNs1oSz/4aZXfQqUT5rs0QakUm/FTsRyGQoqgyyfR+LBfdpAidfQl/MHfxudy6jx41WZPixVuV27ywbNFw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "SkM5XgPL": {
+      "filename": "copied_mob_origins-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/pFADClhD/versions/SkM5XgPL/copied_mob_origins-1.1.1.jar",
+      "hash": "sha512-A6IVGykCwrmAILAzuQAjJy2gfy2RVq70jS9pjI9Vq//BxFmDKwrYGSARyp8QMyw7ARtZ2SfhybZrRfxlUjwsZg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "UfKDZkZG": {
+      "filename": "copied_mob_origins-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/pFADClhD/versions/UfKDZkZG/copied_mob_origins-1.20.jar",
+      "hash": "sha512-LEQXI3Qml/ZFCPTMSoH6nHbsRDFIimdOkHFAlzXNcDMTpcZIk5cf8W3HmPv32IyO1D2xzUfHFb191h/oC4+kuw==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "mViksdpZ": {
+      "filename": "copied_mob_origins-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/pFADClhD/versions/mViksdpZ/copied_mob_origins-1.20.1.jar",
+      "hash": "sha512-XVWKcJJCNwahmI1TDL/Z0CosuPaIcWD4XQlGduY6tKp0M7aIGoniH6z4WKPmEQQ3ce7PbWx8OLM1MS109ZfjEw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "SNd8oKJh"
+    ],
+    "1.19.3+fabric": [
+      "SkM5XgPL"
+    ],
+    "1.20+fabric": [
+      "mViksdpZ",
+      "UfKDZkZG"
+    ],
+    "1.20.1+fabric": [
+      "mViksdpZ"
+    ]
+  }
+}

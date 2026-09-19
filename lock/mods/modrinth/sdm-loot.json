@@ -1,0 +1,135 @@
+{
+  "slug": "sdm-loot",
+  "projectId": "gBacocif",
+  "versions": {
+    "1GBI0C2t": {
+      "filename": "sdmlootforge-1.19.2-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/gBacocif/versions/1GBI0C2t/sdmlootforge-1.19.2-1.1.0.jar",
+      "hash": "sha512-7ayvgnr7q0pNtmKBUIX52rgvGKc+ZWpI2Gjwz6niSqvyLBFRYb84SQVHI8j7hYiOgmm0vqJZY3zdi66vaaORYg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "9voNzpCa": {
+      "filename": "sdmloot-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gBacocif/versions/9voNzpCa/sdmloot-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-N4+S+D1DzbEtFjYZSBQoNR3g24RQawazQay8GN+gWPoT7eswfvYBd1yYTo1g8F82EuUKIxzurFJ6pO3udvDlDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GB9uzjP0": {
+      "filename": "sdmloot-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gBacocif/versions/GB9uzjP0/sdmloot-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-AMd1nkR8Nq7YXuL6UfRK1A4/y+kUOP6C00qRvaEJbMtTgc5SscwSI82RDeDsyWQyyXrac7JLreXQhJoQEKawOA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Mf9lSMZz": {
+      "filename": "sdmloot-fabric-1.19.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gBacocif/versions/Mf9lSMZz/sdmloot-fabric-1.19.2-1.0.0.jar",
+      "hash": "sha512-U5kbOH2j5FdhpVI4u/xqQyAqI7leRslSMm4RD8pzBzvJKmMPUiuM8Sp/bGD5XVbOAN4K6rFOU4HQn4nkeygz0w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ShLk3uaO": {
+      "filename": "sdmloot-forge-1.19.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gBacocif/versions/ShLk3uaO/sdmloot-forge-1.19.2-1.0.0.jar",
+      "hash": "sha512-1W5ldT9XOyprNqb1Nf9evZHuxMRlqG0cGU32S6te38VFobgJMSrHwNxai085nbIPsurn2JrwJBFzl9QLBV18pg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "Mf9lSMZz"
+    ],
+    "1.19.2+forge": [
+      "1GBI0C2t",
+      "ShLk3uaO"
+    ],
+    "1.20.1+fabric": [
+      "9voNzpCa"
+    ],
+    "1.20.1+forge": [
+      "GB9uzjP0"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "item-pickup-range-ex",
+  "projectId": "qSJB5nAI",
+  "versions": {
+    "cjQom2z9": {
+      "filename": "item_pickup_range-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qSJB5nAI/versions/cjQom2z9/item_pickup_range-2.0.0.jar",
+      "hash": "sha512-XMzJ5wo6AJ34+PSleKBoRfLDpnf2MzVfsN8eb+F7zrjKpGAJlgj+bASqK8cHr0F+4ZJ66Ya3zHDS9vFuEkRvSg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "cjQom2z9"
+    ]
+  }
+}

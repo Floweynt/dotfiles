@@ -1,0 +1,108 @@
+{
+  "slug": "peaceful-harvest-and-blue-moons",
+  "projectId": "dyeNMs9F",
+  "versions": {
+    "QSEBZY32": {
+      "filename": "Safe-Moons-Additional-1.20.1-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/dyeNMs9F/versions/QSEBZY32/Safe-Moons-Additional-1.20.1-1.0.4.jar",
+      "hash": "sha512-HV074STFzitQ+UzqEfGcynRuadpmcyACqoa6Wk4tivmSQMXBWusWP4D9ZiBtbRL+KwdXDufXJePDuZZaCRodCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "RxTz7Y0F": {
+      "filename": "Safe-Moons-Replace-1.21.1-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/dyeNMs9F/versions/RxTz7Y0F/Safe-Moons-Replace-1.21.1-1.0.4.jar",
+      "hash": "sha512-xQnpLf1SOMdmzCgTuAEkBm93IXx4NpbN6fp0jNE93JzKea+iqfdi1hgRrVIotP66yA7cZZpYcyIv6HQmYN2/rQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "ltdGAQ8P": {
+      "filename": "Safe-Moons-Replace-1.20.1-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/dyeNMs9F/versions/ltdGAQ8P/Safe-Moons-Replace-1.20.1-1.0.4.jar",
+      "hash": "sha512-PhS0/y07LUQvP2P89srs3HwDDqjL5w43jdoPRzq49KqM8fHscjIAafGWYAJ2gQnEkTvkm/52SVSmfUBX5eP7DA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "yyWDzR6Z": {
+      "filename": "Safe-Moons-Additional-1.21.1-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/dyeNMs9F/versions/yyWDzR6Z/Safe-Moons-Additional-1.21.1-1.0.4.jar",
+      "hash": "sha512-RMyzykG0Emx0tDHYjrwP1hnwWCta+iIOWrX8gHlr5X49iOsBUI5tXtfDT5hBEQD6Iflx+JhWtbEy6Jv2fRPmAQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ltdGAQ8P",
+      "QSEBZY32"
+    ],
+    "1.20.1+forge": [
+      "ltdGAQ8P",
+      "QSEBZY32"
+    ],
+    "1.21.1+fabric": [
+      "RxTz7Y0F",
+      "yyWDzR6Z"
+    ],
+    "1.21.1+neoforge": [
+      "RxTz7Y0F",
+      "yyWDzR6Z"
+    ]
+  }
+}

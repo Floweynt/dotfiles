@@ -1,0 +1,36 @@
+{
+  "slug": "motobox",
+  "projectId": "mw9W1jZT",
+  "versions": {
+    "MLMQ5i4W": {
+      "filename": "motobox-1.0.0-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/mw9W1jZT/versions/MLMQ5i4W/motobox-1.0.0-1.19.3.jar",
+      "hash": "sha512-qyOAd2mlaD0QoA0KsfhromRwSiVrRQxAc9VFRWSc1i1V2EVI3pdufeCHnBVwg0aAZ2GUeF0bMpTGF0W3wDBXHQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "MLMQ5i4W"
+    ]
+  }
+}

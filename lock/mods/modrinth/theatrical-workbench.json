@@ -1,0 +1,96 @@
+{
+  "slug": "theatrical-workbench",
+  "projectId": "gYYjwNbc",
+  "versions": {
+    "65Ec9EnL": {
+      "filename": "theatricalwb-0.0.0-mc1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/gYYjwNbc/versions/65Ec9EnL/theatricalwb-0.0.0-mc1.20.1-fabric.jar",
+      "hash": "sha512-cWpv/X4L927ZXB+r0MBEEvi1IO/Gmk4Pdza5DVUlb2HuBSKpZ8ZzA10ob+UQR2bLSKwhC0Pc3pdzUSmTv41BxA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "theatrical",
+          "projectId": "xJEJ79eC",
+          "type": "required"
+        }
+      ]
+    },
+    "FLoB9RsH": {
+      "filename": "theatricalwb-0.0.1-mc1.20.1-fabric-2.jar",
+      "url": "https://cdn.modrinth.com/data/gYYjwNbc/versions/FLoB9RsH/theatricalwb-0.0.1-mc1.20.1-fabric-2.jar",
+      "hash": "sha512-u3ojvmKyDvhy+0hwmCYlZbpWUoJ5iBZcTJrTZIsxKjLqmJw0S5DRrdt//7D7U7soEy8fbSf1teUINMahdXhp5g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "theatrical",
+          "projectId": "xJEJ79eC",
+          "type": "required"
+        }
+      ]
+    },
+    "RBeJNkOW": {
+      "filename": "theatricalwb-0.0.1-mc1.20.1-forge-2.jar",
+      "url": "https://cdn.modrinth.com/data/gYYjwNbc/versions/RBeJNkOW/theatricalwb-0.0.1-mc1.20.1-forge-2.jar",
+      "hash": "sha512-QAkgEIOzkzRopsRrQ0tKsAxI349OapJJSCTtwBtO7rZtR3xPBPze+HhaHUnJJj+bc89U1an/zu0w/GBLkr3Tcw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "theatrical",
+          "projectId": "xJEJ79eC",
+          "type": "required"
+        }
+      ]
+    },
+    "fovt2Nh1": {
+      "filename": "theatricalwb-0.0.0-mc1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/gYYjwNbc/versions/fovt2Nh1/theatricalwb-0.0.0-mc1.20.1-forge.jar",
+      "hash": "sha512-ADgAjq2B3u+AwCEhEL777dWJ4jz5K/0qWUeoBxTqE7uBO9lUm9qBeoZUFvnr8syMRZgLoWlat/k52lnmG9/YNQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "theatrical",
+          "projectId": "xJEJ79eC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FLoB9RsH",
+      "65Ec9EnL"
+    ],
+    "1.20.1+forge": [
+      "RBeJNkOW",
+      "fovt2Nh1"
+    ]
+  }
+}

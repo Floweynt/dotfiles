@@ -1,0 +1,53 @@
+{
+  "slug": "parry",
+  "projectId": "gQBe1PVw",
+  "versions": {
+    "k5UrZI95": {
+      "filename": "parry-1.3+1.18.jar",
+      "url": "https://cdn.modrinth.com/data/gQBe1PVw/versions/1.3%2B1.18/parry-1.3%2B1.18.jar",
+      "hash": "sha512-57HD8dJh5VQeU6TXDmG5vXUO8jubJ5GN4L98vLVJNUkcmEwWYZ/LpJWtPexTrg1CElyaZjPjoner9dkxQ2kjuw==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sEFD7vcT": {
+      "filename": "parry-1.2__1.17.jar",
+      "url": "https://cdn.modrinth.com/data/gQBe1PVw/versions/1.2/parry-1.2__1.17.jar",
+      "hash": "sha512-PFPE/L8shAZPViA7aHjJUmZc6x70NRVHjoOfdJjN538Iv2wPKvn735qtoA0NDwM5yyxIa6iKO2CZqDiBbW/H5Q==",
+      "gameVersions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "sEFD7vcT"
+    ],
+    "1.18+fabric": [
+      "k5UrZI95"
+    ],
+    "1.18+quilt": [
+      "k5UrZI95"
+    ],
+    "1.18.1+fabric": [
+      "k5UrZI95"
+    ],
+    "1.18.1+quilt": [
+      "k5UrZI95"
+    ]
+  }
+}

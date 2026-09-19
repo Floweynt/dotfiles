@@ -1,0 +1,31 @@
+{
+  "slug": "another-emerald-mod",
+  "projectId": "f0wTTfjT",
+  "versions": {
+    "75HbQOpH": {
+      "filename": "emerald-expansion-1.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/f0wTTfjT/versions/75HbQOpH/emerald-expansion-1.0%2B1.19.2.jar",
+      "hash": "sha512-LbkmN77Ia/wWlY8V16RArXShH0hXvZ22OoKEL6m8AeqzlBkxFzgdx4RXi1ZNIXMsVXjcrd2XNYuWP62hmGRfFA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "75HbQOpH"
+    ]
+  }
+}

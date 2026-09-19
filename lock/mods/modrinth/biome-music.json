@@ -1,0 +1,134 @@
+{
+  "slug": "biome-music",
+  "projectId": "9noypaID",
+  "versions": {
+    "49gol0aG": {
+      "filename": "biome-music-1.0-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/9noypaID/versions/49gol0aG/biome-music-1.0-1.20.6.jar",
+      "hash": "sha512-g0SmFZsrGmhpcfyzIrp2HE1rLkEdlkPG20VltOzsikM5lYfUioLbpKVIxuoWhTiRzvjJJUHtIFG2QmZfgI0zHg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "7NTOGp4p": {
+      "filename": "biome-music-1.1+mc.1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/9noypaID/versions/7NTOGp4p/biome-music-1.1%2Bmc.1.21.1.jar",
+      "hash": "sha512-Lp3tcMRuiKmi74qdNpKC9bJVDj02ZJFG1EM57nu05sn1O1EfQRBqKe8E3XTL8x9aPwgcC0c7we4d18vuqmdvqg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "A0cvdSem": {
+      "filename": "biome-music-1.2+mc.1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/9noypaID/versions/A0cvdSem/biome-music-1.2%2Bmc.1.20.6.jar",
+      "hash": "sha512-jYZaEkm5dUJ8F+twU6cq0YFJ9ZNGHWq+p+IitYHaTAbshN+MVjLXUXx/baJnr9/nJHok94+XuYu2CwRxy02iDQ==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RAET5hYk": {
+      "filename": "biome-music-1.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/9noypaID/versions/RAET5hYk/biome-music-1.0-1.21.1.jar",
+      "hash": "sha512-fp2gvcblWLVRCSOQ1uVUT/9dgRBqchEKoAWb2lq6pHHA+CDD1DT3NQEp7ITlvNddnP+vDjxXSpOzRZs7PJIzPg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "o1Wu5Qko": {
+      "filename": "biome-music-1.2+mc.1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/9noypaID/versions/o1Wu5Qko/biome-music-1.2%2Bmc.1.21.1.jar",
+      "hash": "sha512-jSac7oIPWrW5IXb1Q63RK8WHMk+Qv7H9vaKeMs+XDPAq3bvlJp8EgqZsSVZDb/CTfprCBCEYdpXiLlDhsunU1A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "ykTnVWhM": {
+      "filename": "biome-music-1.1+mc.1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/9noypaID/versions/ykTnVWhM/biome-music-1.1%2Bmc.1.20.6.jar",
+      "hash": "sha512-0j6ksZYM/yrmcmVdLitvqdlzi4sG+sFMvkmfPhUp4rkAJzyFZt+cZFOWOFZ8PY3oci5yCEZFmuc2emXtKaBlsg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "A0cvdSem",
+      "ykTnVWhM",
+      "49gol0aG"
+    ],
+    "1.21.1+fabric": [
+      "o1Wu5Qko",
+      "7NTOGp4p",
+      "RAET5hYk"
+    ]
+  }
+}

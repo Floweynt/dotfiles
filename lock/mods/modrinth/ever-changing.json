@@ -1,0 +1,66 @@
+{
+  "slug": "ever-changing",
+  "projectId": "Ytlya0H3",
+  "versions": {
+    "bzMbUG2Q": {
+      "filename": "everchanging-1.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ytlya0H3/versions/bzMbUG2Q/everchanging-1.0-1.21.1.jar",
+      "hash": "sha512-yDZmFaTq5gJr5gqL2Snu2t8vaL+UcRGKZ1n6iSHrsa0zh9/7Qswet6h/keFxfoSLfpn9SZOOIfqkD83nGCUK0A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "moG5jzdS": {
+      "filename": "everchanging-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ytlya0H3/versions/moG5jzdS/everchanging-1.0-1.20.1.jar",
+      "hash": "sha512-qGwWvOl5wJLaV5WTpxKaDFEk5oAxw0rsxL9K361DEv5tvMk/f7kAtJ0ohzIe5nK9gjFiImY7+vXBXzCjS6qyRg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "moG5jzdS"
+    ],
+    "1.20.2+fabric": [
+      "moG5jzdS"
+    ],
+    "1.20.3+fabric": [
+      "moG5jzdS"
+    ],
+    "1.20.4+fabric": [
+      "moG5jzdS"
+    ],
+    "1.21.1+fabric": [
+      "bzMbUG2Q"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "ender-moon",
+  "projectId": "jcD5fwN4",
+  "versions": {
+    "B3C9lQwk": {
+      "filename": "EnderMoon-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jcD5fwN4/versions/B3C9lQwk/EnderMoon-1.20.1-1.0.1.jar",
+      "hash": "sha512-kKZxF3q0lgqvXcwMsigqDebeaMvJov5A9triLNLdQ8CSdc44L2dOA4Qn5dNGs+FkvDE2mN5g2t7pYFpjDORmUg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "BPXJJr2l": {
+      "filename": "EnderMoon-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/jcD5fwN4/versions/BPXJJr2l/EnderMoon-1.20.jar",
+      "hash": "sha512-RpsxuHEDZMcQa9c2oEp5kcOegxfV+VQFUv3lTDgXu7DiMHRVY4t8pr2sc6z7fqXBWgfeGnk7fgF/bSMSZSxNqQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "V6l9Bp6h": {
+      "filename": "EnderMoon-1.20-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jcD5fwN4/versions/V6l9Bp6h/EnderMoon-1.20-1.0.1.jar",
+      "hash": "sha512-RpsxuHEDZMcQa9c2oEp5kcOegxfV+VQFUv3lTDgXu7DiMHRVY4t8pr2sc6z7fqXBWgfeGnk7fgF/bSMSZSxNqQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "lNiIwVNQ": {
+      "filename": "EnderMoon-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jcD5fwN4/versions/lNiIwVNQ/EnderMoon-1.0.jar",
+      "hash": "sha512-kHv+ud4N19dNA9ocyYo/hElISbGPwqTt5C+3qjfPgHH4o1am46d/HkCY/PYvNmMCrx3ZKoi5UToeQWbVxZsauA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "r2oQgSzB": {
+      "filename": "EnderMoon-1.21.1-NeoForge-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/jcD5fwN4/versions/r2oQgSzB/EnderMoon-1.21.1-NeoForge-fabric-1.0.2.jar",
+      "hash": "sha512-zjcQ5w3Y+qtFzVbCt8DOLnTEECCM5qI4QjNsNqZFULpk2uLNIpXT6lD6wjefhK0/QJLZKZjSN1I4QoIBKw6q7Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yAACUMFK": {
+      "filename": "EnderMoon-1.20.1-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jcD5fwN4/versions/yAACUMFK/EnderMoon-1.20.1-fabric-1.0.1.jar",
+      "hash": "sha512-YyCJJMafl67Pak7VxUYqGDBESqXMAh1vZ43TVrl21lSxXHKXCmNV3Kij/8m8vYsSeUcW08Tnn2WXlmRTmAFSjg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "lNiIwVNQ"
+    ],
+    "1.20+forge": [
+      "BPXJJr2l"
+    ],
+    "1.20+neoforge": [
+      "BPXJJr2l"
+    ],
+    "1.20.1+fabric": [
+      "yAACUMFK"
+    ],
+    "1.20.1+forge": [
+      "B3C9lQwk",
+      "V6l9Bp6h",
+      "BPXJJr2l"
+    ],
+    "1.20.1+neoforge": [
+      "BPXJJr2l"
+    ],
+    "1.21.1+fabric": [
+      "r2oQgSzB"
+    ],
+    "1.21.1+neoforge": [
+      "r2oQgSzB"
+    ]
+  }
+}

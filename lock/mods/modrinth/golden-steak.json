@@ -1,0 +1,85 @@
+{
+  "slug": "golden-steak",
+  "projectId": "AyU2qr1G",
+  "versions": {
+    "2qu0p499": {
+      "filename": "goldensteak-1.0.5-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/AyU2qr1G/versions/2qu0p499/goldensteak-1.0.5-1.19.jar",
+      "hash": "sha512-7sDROButJ7hRYtHJOni1FdtK0YXPYBfIahwxfGpZspWdztdIDWF4ApCbY+l8Ta1jMGmgwt4sHjc5HXahwg4U0w==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "W1vqB16c": {
+      "filename": "golden-steak-1.0.5-1.18-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/AyU2qr1G/versions/W1vqB16c/golden-steak-1.0.5-1.18-Forge.jar",
+      "hash": "sha512-uKLi0CN25ckfIQ+shScE/Hm6D0xp3EmP4xlfvP0ggCszRrK+l9Cw9Vzwa0T/WlASmaLUjQfs20cCA0P1zQcmoQ==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tBowvTpZ": {
+      "filename": "golden-steak-1.0.5-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/AyU2qr1G/versions/tBowvTpZ/golden-steak-1.0.5-Forge.jar",
+      "hash": "sha512-QML4lIjtX5/ZFGgVIIYwMmsTVf7MC7Wg22qsOE73HGYTywVSFNzBrYz2UaYQlBnwBbLdQN7YysxD4S8JIwaqMg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+forge": [
+      "tBowvTpZ"
+    ],
+    "1.18.1+forge": [
+      "W1vqB16c"
+    ],
+    "1.18.2+forge": [
+      "W1vqB16c"
+    ],
+    "1.19+fabric": [
+      "2qu0p499"
+    ],
+    "1.19.1+fabric": [
+      "2qu0p499"
+    ],
+    "1.19.2+fabric": [
+      "2qu0p499"
+    ],
+    "1.19.3+fabric": [
+      "2qu0p499"
+    ],
+    "1.19.4+fabric": [
+      "2qu0p499"
+    ]
+  }
+}

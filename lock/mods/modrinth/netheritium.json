@@ -1,0 +1,31 @@
+{
+  "slug": "netheritium",
+  "projectId": "e37foVT1",
+  "versions": {
+    "NcoDaTrx": {
+      "filename": "netheritium-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/e37foVT1/versions/NcoDaTrx/netheritium-0.1-1.20.1.jar",
+      "hash": "sha512-uDVfj1ACX/TWYOmeM+XrsGDoMpueXrBSg6AocNZmAVhfVN6clktwvIu59V3bwmdGpal3nLjhjgv6J1phR92XVw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "NcoDaTrx"
+    ]
+  }
+}

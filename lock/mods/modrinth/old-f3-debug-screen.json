@@ -1,0 +1,54 @@
+{
+  "slug": "old-f3-debug-screen",
+  "projectId": "fG2thdKl",
+  "versions": {
+    "F7UX9aN7": {
+      "filename": "old-f3-debug-screen-1.0.0+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/fG2thdKl/versions/F7UX9aN7/old-f3-debug-screen-1.0.0%2B26.1.jar",
+      "hash": "sha512-emt855a8Pk4Y0GFUTDD+5v3p2o0J1hAkvSwY62h7/+DAnvpBQtm0qu4S+ftVIlIgLdb64DGs/goQiC6YLwIrIQ==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PVpO3egu": {
+      "filename": "old-f3-debug-screen-1.0.0+26.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/fG2thdKl/versions/PVpO3egu/old-f3-debug-screen-1.0.0%2B26.1.1.jar",
+      "hash": "sha512-MHY4cv1jDXzgk6crQP3R9lR00H2sNGd0MWbpnOTp2z2fnQNjhfO+4PXQhKZ5mMtQqUBy+ciDGBMq3vzDCnRhtQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "PVpO3egu",
+      "F7UX9aN7"
+    ],
+    "26.1.1+fabric": [
+      "PVpO3egu"
+    ],
+    "26.1.2+fabric": [
+      "PVpO3egu"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "cobblmonhome",
+  "projectId": "FgDkFMjU",
+  "versions": {
+    "Vfic2Ve7": {
+      "filename": "cobblemon-home-1.7.1Release1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/FgDkFMjU/versions/Vfic2Ve7/cobblemon-home-1.7.1Release1.0.0.jar",
+      "hash": "sha512-lyfiRZGlOlSm7uluNM90uBqpy5L15A4sKO881pkjI830ydqeU8OBvU4wzC3WCT9T5h26m9gHWdDZVbrZas/SoQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Vfic2Ve7"
+    ]
+  }
+}

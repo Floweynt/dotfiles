@@ -1,0 +1,64 @@
+{
+  "slug": "cobblemon-size-changer",
+  "projectId": "VtAZCrae",
+  "versions": {
+    "9A53qaIP": {
+      "filename": "cobblemonsizechanger-1.0.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/VtAZCrae/versions/9A53qaIP/cobblemonsizechanger-1.0.0%2B1.19.2.jar",
+      "hash": "sha512-YOhk5CfahpAs4WmV+xPuac4CLws9eaJHZ8OW8trY27vPsKZ2Ny6/W9FF/yebEV+k+kh9uPBpapInGLdzKAaexQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "WV89NenD": {
+      "filename": "cobblemonsizechanger-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VtAZCrae/versions/WV89NenD/cobblemonsizechanger-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-lC/GkSX/TZpafr8SYzLrwM8LNBVN96egAx84kghCOD/bYGwrT+FufuijvhDz3CekOaDiYrAI2+h2Jljxy6qaoQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "9A53qaIP"
+    ],
+    "1.20.1+fabric": [
+      "WV89NenD"
+    ]
+  }
+}

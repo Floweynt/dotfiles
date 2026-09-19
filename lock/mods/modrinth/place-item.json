@@ -1,0 +1,58 @@
+{
+  "slug": "place-item",
+  "projectId": "I4a3pZJR",
+  "versions": {
+    "PB0zymJU": {
+      "filename": "PlaceItem-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/I4a3pZJR/versions/PB0zymJU/PlaceItem-1.0.jar",
+      "hash": "sha512-+Vetl88EbzOQprcYUdwbIuQgAR+4eltLU9hHsShdIZp1NgTwR8JNttnUKvkokhBUuUF4u9+zA0LDSq/BCzVbwQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UbZPQ4Ax": {
+      "filename": "PlaceItem-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/I4a3pZJR/versions/UbZPQ4Ax/PlaceItem-1.0.1.jar",
+      "hash": "sha512-mDi0PHjY6FBRziUkbx5BdXM+XeX6a0T/RJH394d3/wYI26hrJxWyeDMwXQIR9mv+pzCoST0n9VFjgeS6cSYwDw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "UbZPQ4Ax",
+      "PB0zymJU"
+    ],
+    "1.20.1+quilt": [
+      "UbZPQ4Ax",
+      "PB0zymJU"
+    ]
+  }
+}

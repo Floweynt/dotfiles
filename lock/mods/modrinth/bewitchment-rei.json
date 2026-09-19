@@ -1,0 +1,36 @@
+{
+  "slug": "bewitchment-rei",
+  "projectId": "IpKWxsn4",
+  "versions": {
+    "7s0rjyBa": {
+      "filename": "bewitchment-rei-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IpKWxsn4/versions/7s0rjyBa/bewitchment-rei-1.0.0.jar",
+      "hash": "sha512-IrqWICD0o9Pw2WSt+x/vT6K/ApmC2efH9g9Mc5z9E5gfCwmv4LdECMkioFTQZ64/EKKYYnPLDkepvnjBDDRHNg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "bewitchment",
+          "projectId": "AKbBSvuC",
+          "type": "required"
+        },
+        {
+          "slug": "rei",
+          "projectId": "nfn13YXA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "7s0rjyBa"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "moar-concrete-unofficial",
+  "projectId": "I2kSa2ND",
+  "versions": {
+    "8XWjiGjK": {
+      "filename": "moarconcrete-unofficial-1.7.0-26.2.jar",
+      "url": "https://cdn.modrinth.com/data/I2kSa2ND/versions/8XWjiGjK/moarconcrete-unofficial-1.7.0-26.2.jar",
+      "hash": "sha512-BKV30A8OLdr0SXjUsb9DH6OB4jztTQ8aI5xBX5LN+LtunrxVJv3SrqTFpjdMKxvGYufbfAJHEHByaNnV7uM5rw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9gUmPjN1": {
+      "filename": "moarconcrete-unofficial-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/I2kSa2ND/versions/9gUmPjN1/moarconcrete-unofficial-1.7.0.jar",
+      "hash": "sha512-1B4TwevwsSsB18Wrmoso1i3iq5GNgGLIth/O+szrn0FOHqgmOFP5PORrhGeYdJGnEkCwfQI3sTj2KRepo9+Z9g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "9gUmPjN1"
+    ],
+    "26.2+fabric": [
+      "8XWjiGjK"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "slug": "g1axinventoryscale",
+  "projectId": "tPUmhrd6",
+  "versions": {
+    "3JTXB6mA": {
+      "filename": "G1axInventoryScale-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/tPUmhrd6/versions/3JTXB6mA/G1axInventoryScale-1.0.2.jar",
+      "hash": "sha512-j2852PRKK8SqZPb3I90/3itTXGcg86XpKrMrVwthafyej7fw5KVb2SqTMFt16ili3uyHDU9OMiHvxbd7VlXWSw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "559UC7tn": {
+      "filename": "g1axinventoryscale-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tPUmhrd6/versions/559UC7tn/g1axinventoryscale-1.0.0.jar",
+      "hash": "sha512-jbL/+7gmDT0MOYCNyzsFxMNCVREgsBuNJtDok+5AW+IZ2IhDn5unDImJ5afFis+hoFwFJWvUzDkrLyvLdwTo/w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "H8hbJeBd": {
+      "filename": "g1axinventoryscale-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/tPUmhrd6/versions/H8hbJeBd/g1axinventoryscale-1.0.1.jar",
+      "hash": "sha512-w9rFBzhYrG1Fse4t/qxDiz3QKkMeLeiQmWq/Bmjtp4k6CVHgtXesvMjkY5C6iSuXJ6nMXpBSX4Dp75kQS7ysQg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "3JTXB6mA",
+      "H8hbJeBd",
+      "559UC7tn"
+    ]
+  }
+}

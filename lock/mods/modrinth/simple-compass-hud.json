@@ -1,0 +1,39 @@
+{
+  "slug": "simple-compass-hud",
+  "projectId": "O9w1c31m",
+  "versions": {
+    "JSSdSFN3": {
+      "filename": "simplecompasshud-1.0.0+1.21.6.jar",
+      "url": "https://cdn.modrinth.com/data/O9w1c31m/versions/JSSdSFN3/simplecompasshud-1.0.0%2B1.21.6.jar",
+      "hash": "sha512-RL2MixHAuQv3/e0cJtxWr6OrD17evbUfnCg+sIh9M9MOd7Urdi/6Z/unKTNrFDremuABf8lfkMRTMlcQW6vHzw==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.6+fabric": [
+      "JSSdSFN3"
+    ],
+    "1.21.7+fabric": [
+      "JSSdSFN3"
+    ],
+    "1.21.8+fabric": [
+      "JSSdSFN3"
+    ]
+  }
+}

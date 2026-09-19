@@ -1,0 +1,98 @@
+{
+  "slug": "passmanager",
+  "projectId": "LMxezzU6",
+  "versions": {
+    "118msGlb": {
+      "filename": "passmanager-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/LMxezzU6/versions/118msGlb/passmanager-2.2.jar",
+      "hash": "sha512-se8Ijk7D5Vgb7ztqaPQrZhRz8FAMs3w5FKItVsF5I0thdax4uzfJAO5eY5n2y3K497sAzm+4RLGIKrOvkOCeWg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "SfcJmr0Y": {
+      "filename": "passmanager-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/LMxezzU6/versions/SfcJmr0Y/passmanager-1.1.jar",
+      "hash": "sha512-VQ19Ov8/QCgkZ7+HoKIFFQxUBow858c+XW1VqA7diKlsbuP+c0krJXdyopRWSZYbKEAYVL1ABuZO6nMISqD+Bg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hrdIS76x": {
+      "filename": "passmanager-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/LMxezzU6/versions/hrdIS76x/passmanager-1.0-SNAPSHOT.jar",
+      "hash": "sha512-zM0FCejI7kcIpJS5CYfc2z4lxuqpClsiRVf9TFMTW35j1MXvsdhrOHxYd1rJdZLZfAnyvaoCUd6kMIFFglHHfQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "miN0qkUL": {
+      "filename": "passmanager-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/LMxezzU6/versions/miN0qkUL/passmanager-2.1.jar",
+      "hash": "sha512-6kIDVibswT40xtlO2fV/ETCuQHAEYH70iqTUwxj3mDVlC/qgWeTWLfiviqP3+VBV+mEb/l7vRZx96qUu4udZ4g==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "SfcJmr0Y",
+      "hrdIS76x"
+    ],
+    "1.19.4+fabric": [
+      "miN0qkUL"
+    ],
+    "1.20.1+fabric": [
+      "118msGlb"
+    ]
+  }
+}

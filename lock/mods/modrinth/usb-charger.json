@@ -1,0 +1,64 @@
+{
+  "slug": "usb-charger",
+  "projectId": "JEgMfZJB",
+  "versions": {
+    "hNhxbFYf": {
+      "filename": "usbcharger_FORGE_1_20_1.jar",
+      "url": "https://cdn.modrinth.com/data/JEgMfZJB/versions/hNhxbFYf/usbcharger_FORGE_1_20_1.jar",
+      "hash": "sha512-dN5N6WylK4r7h5ZRqOpogJQ7TfOa9i970AGRr3/b5LR0xeSbPNb5FlRSkSgu1B5eR+iDLyP3/Urf0LL+w8i8dA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tfxgrCIG": {
+      "filename": "usbcharger_FABRIC_1_20_x.jar",
+      "url": "https://cdn.modrinth.com/data/JEgMfZJB/versions/tfxgrCIG/usbcharger_FABRIC_1_20_x.jar",
+      "hash": "sha512-JJ8k1/tpnErDgdx39W8k84hhtQoifHUvJM/2KkiaVqGmQVQ+P0cNMVC8pBHe6Sija3/Ur81BsG8SDfBmvS36qQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "tfxgrCIG"
+    ],
+    "1.20.1+fabric": [
+      "tfxgrCIG"
+    ],
+    "1.20.1+forge": [
+      "hNhxbFYf"
+    ],
+    "1.20.2+fabric": [
+      "tfxgrCIG"
+    ],
+    "1.20.3+fabric": [
+      "tfxgrCIG"
+    ],
+    "1.20.4+fabric": [
+      "tfxgrCIG"
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "sleep-timelapse",
+  "projectId": "tsYS3ims",
+  "versions": {
+    "KpuMffUZ": {
+      "filename": "Sleep Timelapse 1.20.1.-1.20.3-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tsYS3ims/versions/KpuMffUZ/Sleep%20Timelapse%201.20.1.-1.20.3-1.0.0.jar",
+      "hash": "sha512-q57BsZwYh9NENR53KvoPZmKzeeaH64UbHU6IWtKWErFB9dQ4CKqiZW6xu9YSrTJCQPNCv69oIhUrXbvg81dPwQ==",
+      "gameVersions": [
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "qBdP6hdq": {
+      "filename": "Sleep Timelapse 1.21.x-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tsYS3ims/versions/qBdP6hdq/Sleep%20Timelapse%201.21.x-1.0.0.jar",
+      "hash": "sha512-sq/vedF9FY/KCnTgizUGSRn74rKl4kZd/B12jL/n7D+zlEW4dMZY50KbTSfewLXoIBSEl7AfetjnRSg76VImNA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "KpuMffUZ"
+    ],
+    "1.20.4+quilt": [
+      "KpuMffUZ"
+    ],
+    "1.20.5+fabric": [
+      "KpuMffUZ"
+    ],
+    "1.20.5+quilt": [
+      "KpuMffUZ"
+    ],
+    "1.20.6+fabric": [
+      "KpuMffUZ"
+    ],
+    "1.20.6+quilt": [
+      "KpuMffUZ"
+    ],
+    "1.21+fabric": [
+      "qBdP6hdq"
+    ],
+    "1.21+quilt": [
+      "qBdP6hdq"
+    ],
+    "1.21.1+fabric": [
+      "qBdP6hdq"
+    ],
+    "1.21.1+quilt": [
+      "qBdP6hdq"
+    ],
+    "1.21.2+fabric": [
+      "qBdP6hdq"
+    ],
+    "1.21.2+quilt": [
+      "qBdP6hdq"
+    ],
+    "1.21.3+fabric": [
+      "qBdP6hdq"
+    ],
+    "1.21.3+quilt": [
+      "qBdP6hdq"
+    ],
+    "1.21.4+fabric": [
+      "qBdP6hdq"
+    ],
+    "1.21.4+quilt": [
+      "qBdP6hdq"
+    ]
+  }
+}

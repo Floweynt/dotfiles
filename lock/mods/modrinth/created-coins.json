@@ -1,0 +1,35 @@
+{
+  "slug": "created-coins",
+  "projectId": "I6wcbJZU",
+  "versions": {
+    "Tz5Q48X4": {
+      "filename": "created-coins-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/I6wcbJZU/versions/Tz5Q48X4/created-coins-1.0.0.jar",
+      "hash": "sha512-93UjUqtmQwMKY3FQy0Lm3NlK7bvqPGTgelENQn/5tGqaNHIAjZN4hTpXXqTTEsY2+XRimDfPW933yHxe2UOgzg==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "Tz5Q48X4"
+    ],
+    "1.21.11+fabric": [
+      "Tz5Q48X4"
+    ]
+  }
+}

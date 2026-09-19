@@ -1,0 +1,36 @@
+{
+  "slug": "aylyth",
+  "projectId": "WJRzpgpq",
+  "versions": {
+    "joPxrhb7": {
+      "filename": "aylyth-1.19.2-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/WJRzpgpq/versions/joPxrhb7/aylyth-1.19.2-2.0.1.jar",
+      "hash": "sha512-+QJJJM7rvQFmP0UEP59/5332bH29VGhw9dGSFFh7SLo8GPXE3PUvzXFlBiQkKIeI2EYzKZZ8ntXAGlCdT/gQdg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "joPxrhb7"
+    ]
+  }
+}

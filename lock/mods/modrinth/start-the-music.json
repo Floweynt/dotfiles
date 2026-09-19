@@ -1,0 +1,83 @@
+{
+  "slug": "start-the-music",
+  "projectId": "AVDyzoqz",
+  "versions": {
+    "gUVK4fbg": {
+      "filename": "fabric-start-the-music-0.4.4.jar",
+      "url": "https://cdn.modrinth.com/data/AVDyzoqz/versions/gUVK4fbg/fabric-start-the-music-0.4.4.jar",
+      "hash": "sha512-RFbhwDJMMCJrblTsjxTpphcsmHwlQ/ePyujOaOdasG6DzXX+uP3bpE6hLfrCg5l+VucPNcE16vPvNz2nf3EjAg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uWMaExJO": {
+      "filename": "fabric-start-the-music-0.4.6.jar",
+      "url": "https://cdn.modrinth.com/data/AVDyzoqz/versions/uWMaExJO/fabric-start-the-music-0.4.6.jar",
+      "hash": "sha512-JE6xeYabpEpRG2DXYk1aehRr2UYF8n1M/g6Qnf6CWkrSjV6qvAocBloUGC4ndD0r3zyFhx20JsQxxPxPdVHW2g==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "watjvGq0": {
+      "filename": "fabric-start-the-music-0.4.7.jar",
+      "url": "https://cdn.modrinth.com/data/AVDyzoqz/versions/watjvGq0/fabric-start-the-music-0.4.7.jar",
+      "hash": "sha512-G+rJra7glMySwmnv67/lLJe9ijMpvsQ8O6/2FpLx91gwCNbmSSU6BfHo9IwUoVQ/WaRNAWCWx68qcKEnIZCEBQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "gUVK4fbg"
+    ],
+    "1.19+quilt": [
+      "gUVK4fbg"
+    ],
+    "1.19.1+fabric": [
+      "uWMaExJO"
+    ],
+    "1.19.1+quilt": [
+      "uWMaExJO"
+    ],
+    "1.19.2+fabric": [
+      "watjvGq0"
+    ],
+    "1.19.2+quilt": [
+      "watjvGq0"
+    ]
+  }
+}

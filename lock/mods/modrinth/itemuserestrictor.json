@@ -1,0 +1,52 @@
+{
+  "slug": "itemuserestrictor",
+  "projectId": "f3P5HnPO",
+  "versions": {
+    "ZelxnHUS": {
+      "filename": "itemuserestrictor-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/f3P5HnPO/versions/ZelxnHUS/itemuserestrictor-1.0.0.jar",
+      "hash": "sha512-7liMo5sM+Uxw3iVxM9pLFhFo5rOxTj2tRp4ZzSwZuRhDRPjfc4UWjT7qFpXNyFzr+ckpVLI85ss6xNK1kIjTtQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tBkHeKyy": {
+      "filename": "itemuserestrictor-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/f3P5HnPO/versions/tBkHeKyy/itemuserestrictor-1.0.1.jar",
+      "hash": "sha512-XcARZI636R9714p4IxXgA0oHM+sdXb30dvi7GPiHaHaSGOIPiTKBCKaqqdaXWR6QQFn2qqDXADf3g2UWVicfBQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "tBkHeKyy",
+      "ZelxnHUS"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "elytraindicator",
+  "projectId": "NZ2yqjwK",
+  "versions": {
+    "NKe0fglN": {
+      "filename": "ElytraIndicator-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/NZ2yqjwK/versions/NKe0fglN/ElytraIndicator-1.0.jar",
+      "hash": "sha512-3aNGmPwtwewjhFFsUaU5eqngZHTOJr4d+tt1+I5o7Wupnrkc6b0rtWrLjIa6sTFjSq/GRufFUZvpcZrG4l0I5g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kC8GO8P6": {
+      "filename": "ElytraIndicator-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/NZ2yqjwK/versions/kC8GO8P6/ElytraIndicator-1.0.jar",
+      "hash": "sha512-H6Ko75QjnEM5qgAnwEroNlzaowP6OWrguZJQKKhHh6UAW2HdC2SB/xYCbvRWS9Il5k8d7SsDa5iVzjK59RTUow==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "NKe0fglN"
+    ],
+    "1.21.4+fabric": [
+      "kC8GO8P6"
+    ]
+  }
+}

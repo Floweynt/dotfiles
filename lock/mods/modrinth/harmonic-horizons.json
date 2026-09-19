@@ -1,0 +1,215 @@
+{
+  "slug": "harmonic-horizons",
+  "projectId": "jz97ggpw",
+  "versions": {
+    "DHiAzXbG": {
+      "filename": "HH DP 1.0.2.zip",
+      "url": "https://cdn.modrinth.com/data/jz97ggpw/versions/DHiAzXbG/HH%20DP%201.0.2.zip",
+      "hash": "sha512-hWBc6Jn2mC7t4Deec4pYLCpB3uhbVq4rXjJ/SBFepV2r5YjxPi549A+frzFuB6MG5qqdg59bd3VDubvMQpKZMg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "Id5mFVnd": {
+      "filename": "HH RP.zip",
+      "url": "https://cdn.modrinth.com/data/jz97ggpw/versions/Id5mFVnd/HH%20RP.zip",
+      "hash": "sha512-1hIwfp+hC8GHYwfu58E0WUUuoABSLVmyOOXn5IoDtwaFzKJZtVd5cawEDSCKagZ0VCu7p5NR9csLtmmiEuau8g==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "OnCvzQrm": {
+      "filename": "Harmonic Horizons DP 1.0.1.zip",
+      "url": "https://cdn.modrinth.com/data/jz97ggpw/versions/OnCvzQrm/Harmonic%20Horizons%20DP%201.0.1.zip",
+      "hash": "sha512-dYSEtpVz4oDUTusRaHqf8pm8W9p35YejJno8/MO2dms1K+Qqpvz97q7YU3XSMzfs96nqIM2igzTI2I8Ks5UpAg==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "harmonic-horizons",
+          "projectId": "jz97ggpw",
+          "type": "required"
+        }
+      ]
+    },
+    "n1hxLjX6": {
+      "filename": "harmonic-horizons-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jz97ggpw/versions/n1hxLjX6/harmonic-horizons-1.0.1.jar",
+      "hash": "sha512-VsqmPztiTO2AVGmvyXFMZFVoYc8FOUxTW6URUo1ZktA+kZ6CCSbd0+ni9eaxDtfsPn2K7gMA86ZsKFV0BFz7XQ==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "harmonic-horizons",
+          "projectId": "jz97ggpw",
+          "type": "required"
+        }
+      ]
+    },
+    "pP2V38ie": {
+      "filename": "HH DP 1.0.3.zip",
+      "url": "https://cdn.modrinth.com/data/jz97ggpw/versions/pP2V38ie/HH%20DP%201.0.3.zip",
+      "hash": "sha512-RD0zfIr6itr8XZcCQy1jORnVa/GFmvOgflq1BvKuvMC1+EnofXuMOy+McY/lUsX3Ujiht8uBxrhBN2cs/6UqWg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+datapack": [
+      "pP2V38ie",
+      "DHiAzXbG"
+    ],
+    "1.21.11+datapack": [
+      "pP2V38ie"
+    ],
+    "1.21.4+datapack": [
+      "OnCvzQrm",
+      "Id5mFVnd"
+    ],
+    "1.21.4+fabric": [
+      "n1hxLjX6"
+    ],
+    "1.21.4+forge": [
+      "n1hxLjX6"
+    ],
+    "1.21.4+neoforge": [
+      "n1hxLjX6"
+    ],
+    "1.21.4+quilt": [
+      "n1hxLjX6"
+    ],
+    "1.21.5+datapack": [
+      "OnCvzQrm",
+      "Id5mFVnd"
+    ],
+    "1.21.5+fabric": [
+      "n1hxLjX6"
+    ],
+    "1.21.5+forge": [
+      "n1hxLjX6"
+    ],
+    "1.21.5+neoforge": [
+      "n1hxLjX6"
+    ],
+    "1.21.5+quilt": [
+      "n1hxLjX6"
+    ],
+    "1.21.6+datapack": [
+      "OnCvzQrm",
+      "Id5mFVnd"
+    ],
+    "1.21.6+fabric": [
+      "n1hxLjX6"
+    ],
+    "1.21.6+forge": [
+      "n1hxLjX6"
+    ],
+    "1.21.6+neoforge": [
+      "n1hxLjX6"
+    ],
+    "1.21.6+quilt": [
+      "n1hxLjX6"
+    ],
+    "1.21.7+datapack": [
+      "OnCvzQrm",
+      "Id5mFVnd"
+    ],
+    "1.21.7+fabric": [
+      "n1hxLjX6"
+    ],
+    "1.21.7+forge": [
+      "n1hxLjX6"
+    ],
+    "1.21.7+neoforge": [
+      "n1hxLjX6"
+    ],
+    "1.21.7+quilt": [
+      "n1hxLjX6"
+    ],
+    "1.21.8+datapack": [
+      "OnCvzQrm",
+      "Id5mFVnd"
+    ],
+    "1.21.8+fabric": [
+      "n1hxLjX6"
+    ],
+    "1.21.8+forge": [
+      "n1hxLjX6"
+    ],
+    "1.21.8+neoforge": [
+      "n1hxLjX6"
+    ],
+    "1.21.8+quilt": [
+      "n1hxLjX6"
+    ],
+    "1.21.9+datapack": [
+      "pP2V38ie",
+      "DHiAzXbG"
+    ],
+    "26.1+datapack": [
+      "pP2V38ie"
+    ],
+    "26.1.1+datapack": [
+      "pP2V38ie"
+    ],
+    "26.1.2+datapack": [
+      "pP2V38ie"
+    ],
+    "26.2+datapack": [
+      "pP2V38ie"
+    ]
+  }
+}

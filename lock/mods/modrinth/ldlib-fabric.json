@@ -1,0 +1,36 @@
+{
+  "slug": "ldlib-fabric",
+  "projectId": "WjS2w7Q6",
+  "versions": {
+    "RKc78w4r": {
+      "filename": "LDLib2-2.5.jar",
+      "url": "https://cdn.modrinth.com/data/WjS2w7Q6/versions/RKc78w4r/LDLib2-2.5.jar",
+      "hash": "sha512-WFqZcUK+ZmVsG3rCBDsMkG81swowNA2Jks5Vn2SJg3x3YFz/MayZx0hYlvH13YZyvAwfNSAr6u5hhkPImZyXkg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "RKc78w4r"
+    ]
+  }
+}

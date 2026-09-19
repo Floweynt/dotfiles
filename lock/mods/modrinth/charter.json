@@ -1,0 +1,112 @@
+{
+  "slug": "charter",
+  "projectId": "hGMwZahr",
+  "versions": {
+    "P2LyoABI": {
+      "filename": "charter-beta-0.0.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/hGMwZahr/versions/P2LyoABI/charter-beta-0.0.1%2B1.19.2.jar",
+      "hash": "sha512-WUHrZYdqPjlZy9GVfp6qxhwzXlvZrvZY03tNfbQVK/E6afbkp3/vBfrSChLWEq/RvdEGCCl9YO2j1ajQq04zHQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "bsB1VpMP": {
+      "filename": "charter-0.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/hGMwZahr/versions/0.2.2/charter-0.2.2.jar",
+      "hash": "sha512-oNgWgBcPK8lZKacvSXFqml+YVuJpSEOeZTJgpMv3hDbktDz0yvUOAl0I6txdIMjaGFws+qGosJCj2UBMctBsQA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kRgCGu3C": {
+      "filename": "charter-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/hGMwZahr/versions/2.1.0/charter-0.2.1.jar",
+      "hash": "sha512-X/vUmBiFt/IcPI7Jq8laL5iU3pbejzXalOfA5A+7472xjE64b3TmNX2O/YFkKzpBHLuovTV9VCLJZaDuXL6J/g==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kvUe3VdI": {
+      "filename": "charter-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hGMwZahr/versions/charter/charter-0.1.0.jar",
+      "hash": "sha512-020f+FfiAeHnms95JCgz5qKS3KwfmC36+egUj/mT/riyYTlGLhuPIgSyM0mLI76E46j4Ob8zmLPvBleoEVm3Lg==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tSeeeVEu": {
+      "filename": "charter-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/hGMwZahr/versions/0.2.0/charter-0.2.0.jar",
+      "hash": "sha512-1JanUubSMOh52v2ZmSYZz3UuI/McWiW1S9Lq70SXI8tSUNfOc8mrNpyTVBUzgWvpD88ziEtDdgL2E7GKP7Je4Q==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wmcHYJmB": {
+      "filename": "charter-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hGMwZahr/versions/charter-0.1.1/charter-0.1.0.jar",
+      "hash": "sha512-SVmvO1azZkSjwwPCzrn/s8pZNK2eP2u4Ndbsi3+/xJwiIjJwEPukiUmc54rDOB+lcGQN60QOagLymUkm4wQlFQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17.1+fabric": [
+      "wmcHYJmB",
+      "kvUe3VdI"
+    ],
+    "1.18.1+fabric": [
+      "kRgCGu3C",
+      "tSeeeVEu"
+    ],
+    "1.18.2+fabric": [
+      "bsB1VpMP"
+    ],
+    "1.19.2+quilt": [
+      "P2LyoABI"
+    ]
+  }
+}

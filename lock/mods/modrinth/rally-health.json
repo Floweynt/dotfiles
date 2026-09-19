@@ -1,0 +1,904 @@
+{
+  "slug": "rally-health",
+  "projectId": "R0Ykwx11",
+  "versions": {
+    "20WNWSTk": {
+      "filename": "RallyHealth-fabric-1.21.10-2.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/20WNWSTk/RallyHealth-fabric-1.21.10-2.4.0.jar",
+      "hash": "sha512-pLfHL8t959YQY89LZNt/c82jJthWVc3jBt1spRBb8x/mmGQEpb3Oui9A6zQMcJt7OPT0JZUGh+g32/Z0knMrIg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "3Z5lSgez": {
+      "filename": "RallyHealth-forge-1.19.4-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/3Z5lSgez/RallyHealth-forge-1.19.4-1.3.2.jar",
+      "hash": "sha512-u2PRV2ySopDsQVWXCuEBXOM7ZKtjuCcYZqN53jqJMTgTfc9AVmihzTF1Sz4XYKAEtk1urmduFH8kGLGbRtrRIw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "6IyLyAA7": {
+      "filename": "RallyHealth-neoforge-1.21.4-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/6IyLyAA7/RallyHealth-neoforge-1.21.4-2.1.0.jar",
+      "hash": "sha512-q/rhuc4dg9fnHPZ/Reu/8tiCAiM79g5LcKlSPEdbd6e9BJhK2jewD9bZ5ow6r24UI7N1WTBPrvjRbHgzd3Qs2Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Agxn5NbK": {
+      "filename": "RallyHealth-1.16.5-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/1.2.0.1/RallyHealth-1.16.5-1.2.jar",
+      "hash": "sha512-eVn4zsfcVm31Tp/PKkFl1h1bmjVM6QUEmryGLFLITaNBPbz7GpRPgcEw7D/GdKC7kJdiDdqNxjqnRTa6ZvQEJg==",
+      "gameVersions": [
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "C2DtG8LW": {
+      "filename": "RallyHealth-fabric-26.1.2-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/C2DtG8LW/RallyHealth-fabric-26.1.2-3.0.0.jar",
+      "hash": "sha512-dwUGRpzluWbflywZZM4nnXqntmjKGbgN7MTYkK71D9ka8bGlmXpoAVgmLSZ+oqdC9cNVQnUx5B3DRnNV6plw1w==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "CnZ6iMol": {
+      "filename": "RallyHealth-forge-1.19.2-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/CnZ6iMol/RallyHealth-forge-1.19.2-1.3.0.jar",
+      "hash": "sha512-/GnLIAatvxF7aVShuKwvsLImdpgP4IV0pyGok8YxzlsOHi0VRSlB+9R8MuONodqLe4xz6my5YSRZOKsnLkVwTQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "D6xmn9p6": {
+      "filename": "RallyHealth-neoforge-1.20.2-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/D6xmn9p6/RallyHealth-neoforge-1.20.2-1.4.0.jar",
+      "hash": "sha512-SGqfNPiPzzK+eIHrDF+qI9P9LNITAmiodvGzVRoOngNxfgagnFg3E37Wm9fyA+RiaZsJg5swi9jTiqveotaRDQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "H3401BEr": {
+      "filename": "RallyHealth-neoforge-1.20.4-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/H3401BEr/RallyHealth-neoforge-1.20.4-1.5.0.jar",
+      "hash": "sha512-LsjF7LF7SXE35ByEl7KKFD347ErvvN7HLt8xmlIZ1RPGa9J0xtaJ/5isHSVfQuTnzB73U3Lacnf5l6Gm/G4HkA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HiJey65n": {
+      "filename": "RallyHealth-neoforge-1.21.10-2.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/HiJey65n/RallyHealth-neoforge-1.21.10-2.4.1.jar",
+      "hash": "sha512-Fa/i9eHE6p+bZ32OZABv9nQhFPATZb5b4uTLi412DQAzbv8dD+VeYJBQkFoC2a9MccPzCmlNqR58SE11iNb6cw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Ibh3jXQP": {
+      "filename": "RallyHealth-fabric-1.21.11-2.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/Ibh3jXQP/RallyHealth-fabric-1.21.11-2.5.1.jar",
+      "hash": "sha512-uGxP62SuEJx45Eu/EHGWTdC4LbeqgIzn9/Jaza0BI6ypUNHaNO8CGPpAqvFhJiTnS9VxnFp1a4oQIQfioODydg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "KkBBq4lZ": {
+      "filename": "RallyHealth-fabric-1.21.8-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/KkBBq4lZ/RallyHealth-fabric-1.21.8-2.3.0.jar",
+      "hash": "sha512-RSLXIMrrqVLzlwKbSrWhlQfsj6SUSro+Jd9VKQ9+QeiD7SRhrFNwYGpZr47a7Iq/+X8T73bgc5Up75IeGIB5RQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Le2F1FCD": {
+      "filename": "RallyHealth-fabric-1.21.4-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/Le2F1FCD/RallyHealth-fabric-1.21.4-2.1.0.jar",
+      "hash": "sha512-/QKYqFLt7gw7NgPUQvI/C37TbfX067PBB4ENQHH9W9RWJYbZPfE7HZTXwA0CRRYkG4zfLsAlKd2KAAecHQCRAA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "NVkzY8pJ": {
+      "filename": "RallyHealth-neoforge-1.21-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/NVkzY8pJ/RallyHealth-neoforge-1.21-2.0.0.jar",
+      "hash": "sha512-B6ra0cgruz5dvuRf1aXmr0/ETVFv3gTWLKTiRyXrWykvZdcvDl29AxGPwCO26SRJkD7EEbPF47wCt/+zdxoLkw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NupIr9gb": {
+      "filename": "RallyHealth-neoforge-1.21.5-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/NupIr9gb/RallyHealth-neoforge-1.21.5-2.2.0.jar",
+      "hash": "sha512-cmpdSEzQM4Q1YzjfmeJYc5NTWyacsj2iv61ISMiQKtv73f2CMv3s+cRMkyt1pxuZPziKtd8tO6QG2/E1H/f2Gg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PHi5YNnc": {
+      "filename": "RallyHealth-forge-1.19.3-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/PHi5YNnc/RallyHealth-forge-1.19.3-1.3.1.jar",
+      "hash": "sha512-H+soImK2yNlIYdua0ResiYSIvQ6ta7CP4Y/wMEPSS3vWttJgQxx7Cw4yzSBOyWY7B3w90FoBSTd5eRT8VEqz9w==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QuPyJFSz": {
+      "filename": "RallyHealth-forge-1.20.1-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/QuPyJFSz/RallyHealth-forge-1.20.1-1.4.0.jar",
+      "hash": "sha512-bzAM1yi7I/+wcPlmi8t44lEiri0UZA2EZ/FHaK5K62HU0FPehwX6LLctjlF0UEKWAT3kkWyWVWvhUNOjsK4+UA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RA1e8bBP": {
+      "filename": "RallyHealth-fabric-1.21.5-2.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/RA1e8bBP/RallyHealth-fabric-1.21.5-2.2.1.jar",
+      "hash": "sha512-EkgasQZvviMLfk3NIfdp0zM7ckOxUrdexyZn4NBaIBXYEAfWfhxaNOLYGnJp1WX/UPCMrlvyIhwCGXxtJRDhvQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "SE6FUHMS": {
+      "filename": "RallyHealth-fabric-1.21-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/SE6FUHMS/RallyHealth-fabric-1.21-2.0.0.jar",
+      "hash": "sha512-gS5++0rYOqa64q0sH7SZ+gANnCb6LCdL70Kaced/hx1ZNlrLUCmMmP9913HMTZLue0JuIOKZJemIrlbskyfHUg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "UEsvQUgA": {
+      "filename": "RallyHealth-fabric-26.1.2-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/UEsvQUgA/RallyHealth-fabric-26.1.2-3.0.1.jar",
+      "hash": "sha512-POiy/0m1bcFDtKn5ooSiqOiB4yzhupPgbk7io211lwss94E1MnPpbzkfcuWP6rhyk5HpK9vWiLbqZgSJkzz8yA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "Wn4UXlLq": {
+      "filename": "RallyHealth-1.17.1-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/1.2.0.2/RallyHealth-1.17.1-1.2.jar",
+      "hash": "sha512-/hUNFiKh4iTRJAx+AXot4+/W5Xw+nrRssmwS32tl2fL574pMgRmb7I1DrKdkY6XWO/V+LWTyJ+O50qM7UoIohQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XKGeqqwG": {
+      "filename": "RallyHealth-neoforge-1.21.11-2.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/XKGeqqwG/RallyHealth-neoforge-1.21.11-2.5.1.jar",
+      "hash": "sha512-j+Su2bbQmCK2fyoLXP05CgLaT4AgTyAzOzcb38cBqmovF67moAkkQCGlWDGXD2mrK6nBK8lq38Y6iBVsoIRs6Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "YwjJMK6H": {
+      "filename": "RallyHealth-fabric-1.21.5-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/YwjJMK6H/RallyHealth-fabric-1.21.5-2.2.0.jar",
+      "hash": "sha512-9nDSJJKwJN3kuSYZpF2g+3np+5bZIc8wQwPr+ptow2QL7vwFYv67VH+ySSz20kQRlyNieYZtcXUNpiZq5aV5lw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZtGx5EWW": {
+      "filename": "RallyHealth-neoforge-1.21.11-2.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/ZtGx5EWW/RallyHealth-neoforge-1.21.11-2.5.0.jar",
+      "hash": "sha512-J7LkzHTd2CSd5stIDbFEPQk8+i2emvZ4UEIrQww1MrbifmMQ5paS5ZpB1ULJbzLk9jQ/RrplPZm4aviaBPUq9A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cE1uov2E": {
+      "filename": "RallyHealth-fabric-1.20.4-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/cE1uov2E/RallyHealth-fabric-1.20.4-1.5.0.jar",
+      "hash": "sha512-WrZnKJIoIwBprx8+PYqw08LCduG3ef1qgsc5rX4mFlV2jAKZSjNoKq4LMZ/utibgoeiZ/c/MQPwtw/BZlurI6A==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cOh1soaA": {
+      "filename": "RallyHealth-neoforge-26.1.2-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/cOh1soaA/RallyHealth-neoforge-26.1.2-3.0.0.jar",
+      "hash": "sha512-Pd68+fz6ggbAKrlg1dSdZUUEyydC0MqE/bDEhuVwfbpnEnDjynCNspDaiIe1F7coOXJ/9SvghWFKO5MV1P9Jgw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cvw3QHIW": {
+      "filename": "RallyHealth-fabric-1.19.2-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/cvw3QHIW/RallyHealth-fabric-1.19.2-1.3.0.jar",
+      "hash": "sha512-hNc8gueu1/0MJEnHEt/ElCG+mZgpCuoDttu35cFwX2eafuWUiaz6vS4Q+Fn18vTVUts3xRbzb9e8ykMU2Qdbdw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "e3gpiZ8e": {
+      "filename": "RallyHealth-1.19-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/e3gpiZ8e/RallyHealth-1.19-1.2.1.jar",
+      "hash": "sha512-6awwxwp0w+kchGIppMiQXmD+C3XppgO00qByYYEKaT/iY3cDEuMZXO4H4bP5nK9PEINsv3lGIHtgishdi4XcXQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "eG2MwpSb": {
+      "filename": "RallyHealth-neoforge-1.21.5-2.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/eG2MwpSb/RallyHealth-neoforge-1.21.5-2.2.1.jar",
+      "hash": "sha512-eFvTtD2D3z5a+a60TB8W3hVU1XXBHm8nPJgMDio0MaLYHOQI8AM/Q1HMcEcBO4AeQNcMaMQ6ZrdxAtdPsalRkA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jdKzAJf2": {
+      "filename": "RallyHealth-fabric-1.20.2-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/jdKzAJf2/RallyHealth-fabric-1.20.2-1.4.0.jar",
+      "hash": "sha512-J0tqVhHy77trLpDSUYd0vJwgbIY8PcDmnbHgJ9PmSX+p2QkG9weQuRjUKNrIhSrX0umrqr/pM1ZtnqN7gFS8DA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "kfBhgTSO": {
+      "filename": "RallyHealth-1.18-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/1.2.0.3/RallyHealth-1.18-1.2.jar",
+      "hash": "sha512-46MXSdI7GgOcG2zTcLSbzxfD/ffIStwCjcTdK3RHXNtuPM8+6HaUICx0bsTitvxaadamMrG7pYPNfjSmIGCagQ==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rraVoaeq": {
+      "filename": "RallyHealth-fabric-1.20.1-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/rraVoaeq/RallyHealth-fabric-1.20.1-1.4.0.jar",
+      "hash": "sha512-EBmzERxFWUWw7qoCogKbj/me9qNuBr2MrkcOV/AAcu7AxY1RsS9g6ZdK/Kqhj6yQtgNtm7lV1ybgeX1kce3IEQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "rzHUH6GS": {
+      "filename": "RallyHealth-neoforge-26.1.2-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/rzHUH6GS/RallyHealth-neoforge-26.1.2-3.0.1.jar",
+      "hash": "sha512-9s1dhvzIJ19KFhfWDjKLiV1Xvsbpz1rpDj2qX4S92VFI9OpJsW8i7EX0ou0KpaW9hmSQkaQZaZCpJ5UGdzEP6Q==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tfKuCEcu": {
+      "filename": "RallyHealth-fabric-1.19.3-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/tfKuCEcu/RallyHealth-fabric-1.19.3-1.3.1.jar",
+      "hash": "sha512-FZmFZuT0CP4KzvVp4gRmhYuCxpEEGRKf/JSGhJCtxCo+P1DHCoinyAceAkDB/l7g6z+je8AQ4IbPYLwWkgPtdw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "uQ5I48cR": {
+      "filename": "RallyHealth-fabric-1.19.4-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/uQ5I48cR/RallyHealth-fabric-1.19.4-1.3.2.jar",
+      "hash": "sha512-8yLRZSUlEWqTv3CR5M7vyP757LXJZ/Zn7m8wlDdRWNhQqjW4aaKg6LTXko0s9XEhl7GYYwOOLRl+3rozQ+UKeA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "vBgBD9L7": {
+      "filename": "RallyHealth-neoforge-1.21.10-2.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/vBgBD9L7/RallyHealth-neoforge-1.21.10-2.4.0.jar",
+      "hash": "sha512-mBHqUMF/oj4gsxhqPBvzd2wpO4uqQKbd04dfM4O8GbTvdHaage63CLMdc4bJHObr3PVuYWj2HmRF99p803pEaQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "w3RnEaqC": {
+      "filename": "RallyHealth-fabric-1.21.10-2.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/w3RnEaqC/RallyHealth-fabric-1.21.10-2.4.1.jar",
+      "hash": "sha512-1gfXzOM0e/x3pKWjrxfzX+vMaiROA5ulGJSJTD8jzdXWYDel3tqoaOZf8UnUkBKCznW/S+v1HHdDxw6Y7zSANQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wQYSLfKp": {
+      "filename": "RallyHealth-fabric-1.21.11-2.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/wQYSLfKp/RallyHealth-fabric-1.21.11-2.5.0.jar",
+      "hash": "sha512-GXRKHBS6NFoYH3VgW23KCIdkxtEBWGX2vWMInhQMxS0YHtXTXMVviOI8TUFRZWKPCNI7PYYOaA/fodJL4O8woQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "wx9lLoSC": {
+      "filename": "RallyHealth-fabric-1.20.5-1.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/wx9lLoSC/RallyHealth-fabric-1.20.5-1.6.0.jar",
+      "hash": "sha512-BMKtfyLqRPo98d+wUMNGpTDbn6fZi+VXxEyJ99+hHGaRPDtVNm0rCakO5H4wNYzRhZWl+T+vPX3xdGl6XGB4DQ==",
+      "gameVersions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "xiIS5czD": {
+      "filename": "RallyHealth-neoforge-1.20.5-1.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/xiIS5czD/RallyHealth-neoforge-1.20.5-1.6.0.jar",
+      "hash": "sha512-KTk66XgcL5Go6sxPI366KAf9hZG7iTs0RCef7Rj+Vcjxlvb63wodSKDPjCKBVvdB2YcLHH+LnF2gKMv5CfmecA==",
+      "gameVersions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zjfYTjVj": {
+      "filename": "RallyHealth-neoforge-1.21.8-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/R0Ykwx11/versions/zjfYTjVj/RallyHealth-neoforge-1.21.8-2.3.0.jar",
+      "hash": "sha512-CmNhOT804wp3f+4k3HzdzSeuqOBWnvbLO6sYLcY561ZXKPPhu8oOgdgHGBeHgzSziepkfJa922xRIszgIZ02Fw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.3+forge": [
+      "Agxn5NbK"
+    ],
+    "1.16.4+forge": [
+      "Agxn5NbK"
+    ],
+    "1.16.5+forge": [
+      "Agxn5NbK"
+    ],
+    "1.17.1+forge": [
+      "Wn4UXlLq"
+    ],
+    "1.18+forge": [
+      "kfBhgTSO"
+    ],
+    "1.18.1+forge": [
+      "kfBhgTSO"
+    ],
+    "1.18.2+forge": [
+      "kfBhgTSO"
+    ],
+    "1.19+fabric": [
+      "cvw3QHIW"
+    ],
+    "1.19+forge": [
+      "PHi5YNnc",
+      "CnZ6iMol",
+      "e3gpiZ8e"
+    ],
+    "1.19.1+fabric": [
+      "cvw3QHIW"
+    ],
+    "1.19.1+forge": [
+      "PHi5YNnc",
+      "CnZ6iMol",
+      "e3gpiZ8e"
+    ],
+    "1.19.2+fabric": [
+      "cvw3QHIW"
+    ],
+    "1.19.2+forge": [
+      "PHi5YNnc",
+      "CnZ6iMol",
+      "e3gpiZ8e"
+    ],
+    "1.19.3+fabric": [
+      "tfKuCEcu"
+    ],
+    "1.19.3+forge": [
+      "PHi5YNnc",
+      "CnZ6iMol",
+      "e3gpiZ8e"
+    ],
+    "1.19.4+fabric": [
+      "uQ5I48cR"
+    ],
+    "1.19.4+forge": [
+      "3Z5lSgez"
+    ],
+    "1.20.1+fabric": [
+      "rraVoaeq"
+    ],
+    "1.20.1+forge": [
+      "QuPyJFSz"
+    ],
+    "1.20.2+fabric": [
+      "jdKzAJf2"
+    ],
+    "1.20.2+neoforge": [
+      "D6xmn9p6"
+    ],
+    "1.20.4+fabric": [
+      "cE1uov2E"
+    ],
+    "1.20.4+neoforge": [
+      "H3401BEr"
+    ],
+    "1.20.5+fabric": [
+      "wx9lLoSC"
+    ],
+    "1.20.5+neoforge": [
+      "xiIS5czD"
+    ],
+    "1.21+fabric": [
+      "SE6FUHMS"
+    ],
+    "1.21+neoforge": [
+      "NVkzY8pJ"
+    ],
+    "1.21.10+fabric": [
+      "w3RnEaqC",
+      "20WNWSTk"
+    ],
+    "1.21.10+neoforge": [
+      "HiJey65n",
+      "vBgBD9L7"
+    ],
+    "1.21.11+fabric": [
+      "Ibh3jXQP",
+      "wQYSLfKp"
+    ],
+    "1.21.11+neoforge": [
+      "XKGeqqwG",
+      "ZtGx5EWW"
+    ],
+    "1.21.4+fabric": [
+      "Le2F1FCD"
+    ],
+    "1.21.4+neoforge": [
+      "6IyLyAA7"
+    ],
+    "1.21.5+fabric": [
+      "RA1e8bBP",
+      "YwjJMK6H"
+    ],
+    "1.21.5+neoforge": [
+      "eG2MwpSb",
+      "NupIr9gb"
+    ],
+    "1.21.8+fabric": [
+      "KkBBq4lZ"
+    ],
+    "1.21.8+neoforge": [
+      "zjfYTjVj"
+    ],
+    "26.1.2+fabric": [
+      "UEsvQUgA",
+      "C2DtG8LW"
+    ],
+    "26.1.2+neoforge": [
+      "rzHUH6GS",
+      "cOh1soaA"
+    ]
+  }
+}

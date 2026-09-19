@@ -1,0 +1,52 @@
+{
+  "slug": "bringin",
+  "projectId": "xCAmuodO",
+  "versions": {
+    "H5kuiAyS": {
+      "filename": "bringin-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/xCAmuodO/versions/H5kuiAyS/bringin-1.0.1.jar",
+      "hash": "sha512-QUkO8Vzonm1UxmgNavOg1QfnS/Agv0dKD7UYSpKD5x47t08iwQhmVQUdOFVzTSfVfB9Y+bxMMeedaMv/oqYFHg==",
+      "gameVersions": [
+        "25w14craftmine"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kocMwZQO": {
+      "filename": "bringin-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xCAmuodO/versions/kocMwZQO/bringin-1.0.0.jar",
+      "hash": "sha512-IRWTZjTrKoPUeccNRdfubjBsi2t4uz8WfgdH/nSjDAh7bzL7sLE8f227zmkkCeLBEE1Mk99Qad/jfxMYFNmPAg==",
+      "gameVersions": [
+        "25w14craftmine"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "25w14craftmine+fabric": [
+      "H5kuiAyS",
+      "kocMwZQO"
+    ]
+  }
+}

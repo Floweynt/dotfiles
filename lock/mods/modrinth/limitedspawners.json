@@ -1,0 +1,170 @@
+{
+  "slug": "limitedspawners",
+  "projectId": "NeO7lLvU",
+  "versions": {
+    "58QIhLjN": {
+      "filename": "LimitedSpawners-forge-1.19.2-1.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/58QIhLjN/LimitedSpawners-forge-1.19.2-1.0.7.jar",
+      "hash": "sha512-7DC/6na1kd2FxwTJ18yl2LQle8lJyGDDB2cY/iEqbdkKJo3SQXE0NyjAKVb63AZYGvJaJZTCH0B4A4JWPULODw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "BSod1Ya0": {
+      "filename": "LimitedSpawners-fabric-1.20.1-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/BSod1Ya0/LimitedSpawners-fabric-1.20.1-1.0.8.jar",
+      "hash": "sha512-uigID2uzLJU2hPkJQXtpyespTG+iPpEbaISO6Q6BFCNmZQzyPbz2GhUqZeUTXKSzr5tcxr//bBuwZ25Z97ie+A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "P4K3wjCg": {
+      "filename": "LimitedSpawners-neoforge-1.20.2-1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/P4K3wjCg/LimitedSpawners-neoforge-1.20.2-1.0.9.jar",
+      "hash": "sha512-t5BrTQEoySaLCqE0DW0eyt3I615Zrpg+oW6dMejwK5dlzQCIVZv5PZpzhAGRAnk8fvstAIEf/Q1juB4Df6uGBg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UICiud5t": {
+      "filename": "LimitedSpawners-1.19-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/UICiud5t/LimitedSpawners-1.19-1.0.5.jar",
+      "hash": "sha512-3Y+IKdRcJTQM7qao/cjHcg11Rl6tN6NG7dUv4owUfzdxGAW0/FXkt6bZNXQvP4iWYqLzCThwwIUhudVA9RN6IA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "XkCVcQE7": {
+      "filename": "LimitedSpawners-forge-1.20.1-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/XkCVcQE7/LimitedSpawners-forge-1.20.1-1.0.8.jar",
+      "hash": "sha512-2LmgROie5oTJHBcXLez8Recyxt55jjB3XuxlBDkvm28MW7ISryFan4CEZAiG5P81FjJIvkOue17zUmmfsYSdXg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xlcklXG5": {
+      "filename": "LimitedSpawners-fabric-1.19.2-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/NeO7lLvU/versions/xlcklXG5/LimitedSpawners-fabric-1.19.2-1.0.6.jar",
+      "hash": "sha512-cmBc86ESn71NfrdCUHcXzjlr29TewFjgCysCVyOu0O51hgwTb5zLa+nqFZUzT7Gl5SgsrBr/RCBI3M6OMPYqKg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "xlcklXG5",
+      "UICiud5t"
+    ],
+    "1.19+forge": [
+      "58QIhLjN"
+    ],
+    "1.19.1+fabric": [
+      "xlcklXG5",
+      "UICiud5t"
+    ],
+    "1.19.1+forge": [
+      "58QIhLjN"
+    ],
+    "1.19.2+fabric": [
+      "xlcklXG5",
+      "UICiud5t"
+    ],
+    "1.19.2+forge": [
+      "58QIhLjN"
+    ],
+    "1.19.3+fabric": [
+      "xlcklXG5"
+    ],
+    "1.19.3+forge": [
+      "58QIhLjN"
+    ],
+    "1.20+fabric": [
+      "BSod1Ya0"
+    ],
+    "1.20+forge": [
+      "XkCVcQE7"
+    ],
+    "1.20.1+fabric": [
+      "BSod1Ya0"
+    ],
+    "1.20.1+forge": [
+      "XkCVcQE7"
+    ],
+    "1.20.2+fabric": [
+      "BSod1Ya0"
+    ],
+    "1.20.2+forge": [
+      "XkCVcQE7"
+    ],
+    "1.20.2+neoforge": [
+      "P4K3wjCg"
+    ]
+  }
+}

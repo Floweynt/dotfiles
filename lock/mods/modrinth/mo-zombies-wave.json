@@ -1,0 +1,57 @@
+{
+  "slug": "mo-zombies-wave",
+  "projectId": "iAqn9vit",
+  "versions": {
+    "M9XgJspi": {
+      "filename": "Mo'ZombiesWave-1.20.1-0.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/iAqn9vit/versions/M9XgJspi/Mo%27ZombiesWave-1.20.1-0.1.0-fabric.jar",
+      "hash": "sha512-qS6aPW6HY3tL6wDMEQyFeAzrK/LWX3kjA22XKB34C2pLe4OkQldBM9HGEcDXAEwkXB9ne8RK6y6JKlpY0lpeyA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fxIHHDHx": {
+      "filename": "Mo'ZombiesWave-1.20.1-0.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/iAqn9vit/versions/fxIHHDHx/Mo%27ZombiesWave-1.20.1-0.1.0-forge.jar",
+      "hash": "sha512-/Da0b5vPoLsjS87X+hA1aAOKw1HSewMB/XMwUno8aUR2EVoc4gdi0sk3ogPTWqQANKWjLFMsQumw4Hga6bj3Yg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "M9XgJspi"
+    ],
+    "1.20+forge": [
+      "fxIHHDHx"
+    ],
+    "1.20+quilt": [
+      "M9XgJspi"
+    ],
+    "1.20.1+fabric": [
+      "M9XgJspi"
+    ],
+    "1.20.1+forge": [
+      "fxIHHDHx"
+    ],
+    "1.20.1+quilt": [
+      "M9XgJspi"
+    ]
+  }
+}

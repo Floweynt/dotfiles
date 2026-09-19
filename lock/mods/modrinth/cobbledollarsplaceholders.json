@@ -1,0 +1,41 @@
+{
+  "slug": "cobbledollarsplaceholders",
+  "projectId": "L04XQWIm",
+  "versions": {
+    "GZ4w95Y8": {
+      "filename": "CobbleDollarsPlaceholders-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/L04XQWIm/versions/GZ4w95Y8/CobbleDollarsPlaceholders-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-xf4FlowBiMyRcO+jCeb9mc2pdpmeYMm4jaKePxMmMDvLYONcInWp+DnMXM3Pm1QCOmWL8FP2tma9w9A0460Oaw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "cobbledollars",
+          "projectId": "s7N7AsqL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "GZ4w95Y8"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "slug": "create-nuke",
+  "projectId": "eksacezN",
+  "versions": {
+    "5VZfamI9": {
+      "filename": "create_nuke-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eksacezN/versions/5VZfamI9/create_nuke-1.0.0.jar",
+      "hash": "sha512-/SBv5aNxms0QUXxL8jk31DwxWzf7rrysfeqEadrbJi6KN5RK93XnCZcZBhmxjuZSYu58vaETenLYf0VMVe2inQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "create-new-age",
+          "projectId": "FTeXqI9v",
+          "type": "required"
+        }
+      ]
+    },
+    "P0G3k6GI": {
+      "filename": "create_nuke-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eksacezN/versions/P0G3k6GI/create_nuke-1.0.0.jar",
+      "hash": "sha512-2l30r8n2bEHzEwj+0qtmzc0kt3/s498IcIPrasSG1URgAtHPmbMGflnGfjqqFInPfmGhmz3m0LcsHny7lt0vQw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-new-age",
+          "projectId": "FTeXqI9v",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "tXyqwdFR": {
+      "filename": "create_nuke-1.1.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/eksacezN/versions/tXyqwdFR/create_nuke-1.1.0-forge-1.20.1.jar",
+      "hash": "sha512-l+JjajkfwsOL8ckWPXmjBgoivnyc6DiAu/rT5fgbktxQ6X28TcoNFUqtDZ3FlldxW45yZKkPaSWgXfpnlr6S/g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-new-age",
+          "projectId": "FTeXqI9v",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "P0G3k6GI"
+    ],
+    "1.20.1+forge": [
+      "tXyqwdFR",
+      "5VZfamI9"
+    ]
+  }
+}

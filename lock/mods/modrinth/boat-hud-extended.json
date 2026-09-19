@@ -1,0 +1,90 @@
+{
+  "slug": "boat-hud-extended",
+  "projectId": "f6BBxmPN",
+  "versions": {
+    "3Tv9eiZ4": {
+      "filename": "boathud_extended-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/f6BBxmPN/versions/3Tv9eiZ4/boathud_extended-1.1.0.jar",
+      "hash": "sha512-6j+P03uKnNRM6hRE2CCjWibu7SgO+n2mSBLzsAvMQKFOpnOmflDVq+rNTspH+NCUyNO9oduzQEmyfvFdATp9KQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "napH2FbA": {
+      "filename": "boathud_extended-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/f6BBxmPN/versions/napH2FbA/boathud_extended-1.0.0.jar",
+      "hash": "sha512-mJM44gpcGMqRDgIN3bVpmXK3nnWsll1X5t/HavIRsQVXYhio/GNBa+3YZZUbuN58WYD4OJJqAnvqWNHM53Dzlw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "napH2FbA"
+    ],
+    "1.20.2+fabric": [
+      "napH2FbA"
+    ],
+    "1.20.3+fabric": [
+      "napH2FbA"
+    ],
+    "1.20.4+fabric": [
+      "napH2FbA"
+    ],
+    "1.20.5+fabric": [
+      "napH2FbA"
+    ],
+    "1.21+fabric": [
+      "3Tv9eiZ4"
+    ]
+  }
+}

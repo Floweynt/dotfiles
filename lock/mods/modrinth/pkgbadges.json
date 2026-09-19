@@ -1,0 +1,91 @@
+{
+  "slug": "pkgbadges",
+  "projectId": "vEkz5T55",
+  "versions": {
+    "IaK3nZM4": {
+      "filename": "PKGBadges-6.0.jar",
+      "url": "https://cdn.modrinth.com/data/vEkz5T55/versions/IaK3nZM4/PKGBadges-6.0.jar",
+      "hash": "sha512-d/m6+l0wYY16NohX3YQ/rNqAMBbGR27McgyAm42s8aVaOe0lSk4up+/MZ4GRnzkElGvHQevAx2Aw3lb2tqpAGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        }
+      ]
+    },
+    "KAzHvc1S": {
+      "filename": "PKGBadges 5.0.jar",
+      "url": "https://cdn.modrinth.com/data/vEkz5T55/versions/KAzHvc1S/PKGBadges%205.0.jar",
+      "hash": "sha512-+h1tZ7nsuBSf5iw0XYhLLnp930GV7rdcqx1R25rsL4HIdljfrqDsIjFPA9vGlL5tVYR9dNY4vPp0GGIbL/4cPA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "g9Ywn42D": {
+      "filename": "CobblePKG 1.0 Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/vEkz5T55/versions/g9Ywn42D/CobblePKG%201.0%20Fabric.jar",
+      "hash": "sha512-zG0YuOr//UwD43Bs1xqH1kg+ELNwFZPf9AFQlISqaWeNXu5ls10/Utf10na+Stxfyaw18pwvfI0nzRaPMRbqaQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "mIe06LCy": {
+      "filename": "PKGBadges-7.0.jar",
+      "url": "https://cdn.modrinth.com/data/vEkz5T55/versions/mIe06LCy/PKGBadges-7.0.jar",
+      "hash": "sha512-e+8/joVxfkVJIwAVHfSdCrPrBIrkw+Dh8qIsrRqdpKglpLLOoyl2n1kebZ5l6Bz6pWJhPShVBiMIeGrW5eAPLw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "g9Ywn42D"
+    ],
+    "1.20.1+forge": [
+      "IaK3nZM4",
+      "KAzHvc1S"
+    ],
+    "1.21.1+neoforge": [
+      "mIe06LCy"
+    ]
+  }
+}

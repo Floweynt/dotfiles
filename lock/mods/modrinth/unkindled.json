@@ -1,0 +1,102 @@
+{
+  "slug": "unkindled",
+  "projectId": "ozHCnpcZ",
+  "versions": {
+    "863d7euy": {
+      "filename": "unkindled-1.2.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ozHCnpcZ/versions/863d7euy/unkindled-1.2.0%2B1.21.1.jar",
+      "hash": "sha512-+JptOmx4VUfa8NzFX0aijEBJpKjAXhdJgZafF/4ZeXvMr3fZnI4VaSOREbRji46Y0tgVHAfxXa07TJuYLCk8eQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "JycGwcBJ": {
+      "filename": "unkindled-1.1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ozHCnpcZ/versions/JycGwcBJ/unkindled-1.1.0%2B1.21.1.jar",
+      "hash": "sha512-2xFsM8lYBneAI8qPN6LggQiHvvZtR4Ch4TdKD4N2H2kuk47u6HRaZtdiuuRijsNEUmvzy09tbFl+5E5jItIqgw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bJLXOcA1": {
+      "filename": "unkindled-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ozHCnpcZ/versions/bJLXOcA1/unkindled-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-QG7eCywNMX2NLgtpYQV+UZCgANzM0HiOotnDe1LmwH7L2ST2+MsUnJ4rJ5C1jYI5gDgls5OmRshMq5CNZn30iA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "p8K4xTwM": {
+      "filename": "unkindled-1.2.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ozHCnpcZ/versions/p8K4xTwM/unkindled-1.2.0%2B1.21.1.jar",
+      "hash": "sha512-mbZmiMSZnlq1vqak62dpfnZ6b0UOstIWVh/bmJ3YaIMQuaSYwRbsnkGUAaQeAC+vlmaeE18sI2+6Tg2w0qKoDA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "p8K4xTwM",
+      "JycGwcBJ",
+      "bJLXOcA1"
+    ],
+    "1.21+neoforge": [
+      "863d7euy"
+    ],
+    "1.21.1+fabric": [
+      "p8K4xTwM",
+      "JycGwcBJ",
+      "bJLXOcA1"
+    ],
+    "1.21.1+neoforge": [
+      "863d7euy"
+    ]
+  }
+}

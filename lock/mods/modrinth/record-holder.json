@@ -1,0 +1,69 @@
+{
+  "slug": "record-holder",
+  "projectId": "FQlQQEW7",
+  "versions": {
+    "1Aglv1qx": {
+      "filename": "record_holder-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/FQlQQEW7/versions/1Aglv1qx/record_holder-2.0.jar",
+      "hash": "sha512-8et6J5d5/Qjs/oK6+aNU5IIvXezrsSBvQLSoj+MQpaKgGlgxhimEbO0VoUJ5bBb2O/irafXsAIkjAFJ/Bk6dYA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "SejdYpTP": {
+      "filename": "record_holder-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/FQlQQEW7/versions/SejdYpTP/record_holder-1.1.jar",
+      "hash": "sha512-2KzYPMie2fvKxCcUoA+HQkuUbK/2kEeEZNPsUBGwiNgFm4LDazTXkSh1mzuRpz7bpmpuZ7rcXgHHdjJEOrKSBA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "dVhuQ0r5": {
+      "filename": "record_holder-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/FQlQQEW7/versions/dVhuQ0r5/record_holder-1.0.0.jar",
+      "hash": "sha512-603qJI7XJIQaDFvqvG/lp1dUgJp8EwyBHoRVMCijuIjhTW0SUYvjIQX+vBN69yyT4LUUuXzP4VVIK6uXbHp2ew==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1Aglv1qx",
+      "SejdYpTP",
+      "dVhuQ0r5"
+    ],
+    "1.20.1+quilt": [
+      "1Aglv1qx",
+      "SejdYpTP",
+      "dVhuQ0r5"
+    ]
+  }
+}

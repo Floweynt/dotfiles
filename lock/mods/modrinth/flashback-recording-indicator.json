@@ -1,0 +1,54 @@
+{
+  "slug": "flashback-recording-indicator",
+  "projectId": "NXQ8XWvB",
+  "versions": {
+    "UVFd2pN6": {
+      "filename": "flashback-indicator-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/NXQ8XWvB/versions/UVFd2pN6/flashback-indicator-1.0.1.jar",
+      "hash": "sha512-7NyMyBxY4OpL1+lcB50pNL7uDvx1VUXLSFJUiUueMqZkLQzIa6SzvnSzhjcb03D99umlgb4CR0ZESxUZadq35Q==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "flashback",
+          "projectId": "4das1Fjq",
+          "type": "required"
+        }
+      ]
+    },
+    "V8QDbGr7": {
+      "filename": "flashback-indicator-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NXQ8XWvB/versions/V8QDbGr7/flashback-indicator-1.0.0.jar",
+      "hash": "sha512-sSgrhp3xKcGaTWHTqeiWMU+CNbdhZasvjdZrt+gNUYtkn2tdY2aHSdhWiGFuHAa0YKApeqVspzLzxuMUc//Q6w==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "flashback",
+          "projectId": "4das1Fjq",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "V8QDbGr7"
+    ],
+    "26.2+fabric": [
+      "UVFd2pN6"
+    ]
+  }
+}

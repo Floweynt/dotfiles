@@ -1,0 +1,31 @@
+{
+  "slug": "campfire-buff",
+  "projectId": "et5AAjOf",
+  "versions": {
+    "BXnY1oEv": {
+      "filename": "campfire-heal-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/et5AAjOf/versions/BXnY1oEv/campfire-heal-1.0.0.jar",
+      "hash": "sha512-cOu9y5nF5XiEI1CsvhLHsOGdBfKziqO2bGWINiLIPQaNpiMm1TvfTMGXJGUH0llgov3XcpGtPAsnvVznkp76bA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "BXnY1oEv"
+    ]
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "fancy-frames",
+  "projectId": "hvNGTosJ",
+  "versions": {
+    "2dQZ7thb": {
+      "filename": "fancyframes-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hvNGTosJ/versions/2dQZ7thb/fancyframes-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-+ASrs66ghk7TglqK/EGLjyx0qMR2JZWYp5YyO9nafG53N58EMsvnfgB3g4iOuV+Rnp2oLe/l1IqFXLf3HcHxhA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "5wYt9euZ": {
+      "filename": "fancyframes-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hvNGTosJ/versions/5wYt9euZ/fancyframes-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-QZT/BeAg9ZrdzTWEWnB4bBChBq78kpHXUh9qXqXnwIkk8E+0KiLplu+uJJ7K2CE0rBKSAkxZuD/+bt3RLL7gMw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KvfcfPAF": {
+      "filename": "fancyframes-neoforge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/hvNGTosJ/versions/KvfcfPAF/fancyframes-neoforge-1.20.1-1.0.1.jar",
+      "hash": "sha512-aHAra2co39F2GzrfaZtmbG1BYvRSxvsCEUboE2l/1UdN+rLVInAnt98Gnjvz2LVRM6ZUy8USD2BdS+onjC4JHw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Slwpc07M": {
+      "filename": "fancyframes-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hvNGTosJ/versions/Slwpc07M/fancyframes-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-+xFk0yAg43Pw5vARj0sTXFqTYMcT/9jSVcCYtMtdL2EXIFcetgYqRuYoUoTNfeiCbcdE0R0TcDCn2yByyTeCrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gE2gQaTq": {
+      "filename": "fancyframes-neoforge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hvNGTosJ/versions/gE2gQaTq/fancyframes-neoforge-1.20.1-1.0.0.jar",
+      "hash": "sha512-DSnWBXRYY1pUsb4al9cGAF4SHcI0RaOUYIwDRXc/OSQx3UJ24WaFqBYu5I/GF/MQcorjq+t29RxSAWLWhlPWiw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "oQ33Fm3O": {
+      "filename": "fancyframes-fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/hvNGTosJ/versions/oQ33Fm3O/fancyframes-fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-VRjQFdH4NIzWkn5D22sOVm9U6GENTGy/2pHO0tPEyFNYN9Q42xd0W6mqQpiazh8NX2diB6s6tkSMChY7ZkhJaQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "oQ33Fm3O",
+      "Slwpc07M"
+    ],
+    "1.20.1+forge": [
+      "KvfcfPAF",
+      "gE2gQaTq"
+    ],
+    "1.21.1+fabric": [
+      "5wYt9euZ"
+    ],
+    "1.21.1+neoforge": [
+      "2dQZ7thb"
+    ]
+  }
+}

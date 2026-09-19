@@ -1,0 +1,110 @@
+{
+  "slug": "no-bed-explosions",
+  "projectId": "tTIie5hZ",
+  "versions": {
+    "eijprVGo": {
+      "filename": "nobedexplosions-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/tTIie5hZ/versions/eijprVGo/nobedexplosions-1.2.0.jar",
+      "hash": "sha512-oopqHMkdvV4FnMDOrTjyGEP8s7RqqXiKRVPpqamIYoTdOqT+AtAHyHr/5YmlIQ1pbwcXle6aa2je8VGjME6ebA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nuOkX95R": {
+      "filename": "nobedexplosions-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/tTIie5hZ/versions/nuOkX95R/nobedexplosions-1.2.1.jar",
+      "hash": "sha512-FoQIW7X08esiTFP3VCTkDALViXGBGWzcOItwe6zOl+hQTg93DoQTVJZdPL08ZyuppBfvLxt8owzLjCKsPCcmnQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "q4gyI0ky": {
+      "filename": "nobedexplosions-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/tTIie5hZ/versions/q4gyI0ky/nobedexplosions-1.1.0.jar",
+      "hash": "sha512-kLBq4eKinT9Ef9BGdjUFDCRoq0HinofsnTNCIuevo0jwGW1SH88EG2LmIqqHIZMIzW651MQvop51Vtf9MOyO8g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "xNum51YY": {
+      "filename": "nobedexplosions-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tTIie5hZ/versions/xNum51YY/nobedexplosions-1.0.0.jar",
+      "hash": "sha512-soueoNnX4cuElspnEGKPOSBiT/y5ECH0W/WBjMzOBz6dNO0RLihgBF7OAbykJFIKfytM4Lr4OrTlUeeWjYAAHg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "nuOkX95R",
+      "eijprVGo",
+      "q4gyI0ky",
+      "xNum51YY"
+    ],
+    "1.20.1+fabric": [
+      "nuOkX95R",
+      "eijprVGo",
+      "q4gyI0ky",
+      "xNum51YY"
+    ],
+    "1.20.2+fabric": [
+      "nuOkX95R",
+      "eijprVGo"
+    ],
+    "1.20.3+fabric": [
+      "nuOkX95R",
+      "eijprVGo"
+    ],
+    "1.20.4+fabric": [
+      "nuOkX95R",
+      "eijprVGo"
+    ]
+  }
+}

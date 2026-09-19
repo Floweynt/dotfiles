@@ -1,0 +1,31 @@
+{
+  "slug": "apolimorph",
+  "projectId": "s5TD3xze",
+  "versions": {
+    "j97ziGcJ": {
+      "filename": "apolimorph-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/s5TD3xze/versions/j97ziGcJ/apolimorph-1.0.0.jar",
+      "hash": "sha512-71vM5o5C1MBhw8czhejL+ed7QzpdV+p0twqBBqsrl3ArKmDPq6FvwSz5t2cPoEH90npKBtZE48W0e9xqQqg8ZQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymorph",
+          "projectId": "tagwiZkJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "j97ziGcJ"
+    ]
+  }
+}

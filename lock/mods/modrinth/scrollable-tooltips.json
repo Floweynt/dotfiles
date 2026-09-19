@@ -1,0 +1,52 @@
+{
+  "slug": "scrollable-tooltips",
+  "projectId": "XXbAYKF8",
+  "versions": {
+    "cSnEUrW8": {
+      "filename": "scrollable_tooltips-1.0.0+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/XXbAYKF8/versions/v1.0.0/scrollable_tooltips-1.0.0%2B1.18.2.jar",
+      "hash": "sha512-bOAN1IZfKqeVE9kJGL0jvZ7qpUoIODczitzVCYjUOpE3zhnTrc6vmRiTb+OTEI940LNhmyAvhqjPNRfXq/tXKg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xAf1sgYu": {
+      "filename": "scrollable_tooltips-1.0.1+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/XXbAYKF8/versions/v1.0.1/scrollable_tooltips-1.0.1%2B1.18.2.jar",
+      "hash": "sha512-8+OnIb2TscxLggnp5q8d5cNMAAHSkJYVvlGFM6p08g8s3uTVHWtUTmmQSUQveNfidvRcS/SA4oB/Zs8Tnd6UsQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "xAf1sgYu",
+      "cSnEUrW8"
+    ]
+  }
+}

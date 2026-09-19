@@ -1,0 +1,179 @@
+{
+  "slug": "nbt-display",
+  "projectId": "ONBe45It",
+  "versions": {
+    "UR0dyDFV": {
+      "filename": "nbt-display-1.0.1+1.21.6.jar",
+      "url": "https://cdn.modrinth.com/data/ONBe45It/versions/UR0dyDFV/nbt-display-1.0.1%2B1.21.6.jar",
+      "hash": "sha512-3Xng+T0+RtZVuQo0r5+GZvcnpdv5WeLN3u5RgC2E5VOUBNMh0l5njzIWbGuAK8QzTeiswRJC+2gcroHcM4WvFw==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cMvra0MS": {
+      "filename": "nbt-display-1.0.0+1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/ONBe45It/versions/cMvra0MS/nbt-display-1.0.0%2B1.21.5.jar",
+      "hash": "sha512-m7dPm9LFWmehcDdw0tYFaSZVtW/zb6eoAz0UiGNP+IscMzfvy3oPOfJeiOGOPdjUX+sEhIHyQPZTZip2xgkt0Q==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rinJ6uo6": {
+      "filename": "nbt-display-1.0.2+1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/ONBe45It/versions/rinJ6uo6/nbt-display-1.0.2%2B1.21.9.jar",
+      "hash": "sha512-qiX3YHTL/oU5Kz+kiKXA8LJr99pdD4sxp74SUyxq/mcWFmqaBRf4NskDKuzKxOps2oRLRyrB0aUgzRxGb5hKyQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11-rc2",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vd0BAQDs": {
+      "filename": "nbt-display-1.0.0+1.21.9-pre1.jar",
+      "url": "https://cdn.modrinth.com/data/ONBe45It/versions/vd0BAQDs/nbt-display-1.0.0%2B1.21.9-pre1.jar",
+      "hash": "sha512-bAhMVyQ0AObwJH++pVfNDKZs5oCwXYupTrZibJEHcD+gk275ChcKLMVooDOzZgX0L0cYwfgPqpIJzXV2rdvZnQ==",
+      "gameVersions": [
+        "1.21.9-pre1",
+        "1.21.9-pre2",
+        "1.21.9-pre3",
+        "1.21.9-pre4",
+        "1.21.9-rc1",
+        "1.21.9",
+        "1.21.10-rc1",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zVkQvdNc": {
+      "filename": "nbt-display-1.0.2+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/ONBe45It/versions/zVkQvdNc/nbt-display-1.0.2%2B26.1.jar",
+      "hash": "sha512-M7cFdSEV8u9vzpj2EFeGgokF90AMPChDL9IYkAUkRJprGYf5QQSmnPNlwT1vY/IBaQPztbo84F7QcQWbVhHggQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "rinJ6uo6",
+      "vd0BAQDs"
+    ],
+    "1.21.10-rc1+fabric": [
+      "vd0BAQDs"
+    ],
+    "1.21.11+fabric": [
+      "rinJ6uo6"
+    ],
+    "1.21.11-rc2+fabric": [
+      "rinJ6uo6"
+    ],
+    "1.21.5+fabric": [
+      "cMvra0MS"
+    ],
+    "1.21.6+fabric": [
+      "UR0dyDFV"
+    ],
+    "1.21.7+fabric": [
+      "UR0dyDFV"
+    ],
+    "1.21.8+fabric": [
+      "UR0dyDFV"
+    ],
+    "1.21.9+fabric": [
+      "rinJ6uo6",
+      "vd0BAQDs"
+    ],
+    "1.21.9-pre1+fabric": [
+      "vd0BAQDs"
+    ],
+    "1.21.9-pre2+fabric": [
+      "vd0BAQDs"
+    ],
+    "1.21.9-pre3+fabric": [
+      "vd0BAQDs"
+    ],
+    "1.21.9-pre4+fabric": [
+      "vd0BAQDs"
+    ],
+    "1.21.9-rc1+fabric": [
+      "vd0BAQDs"
+    ],
+    "26.1+fabric": [
+      "zVkQvdNc"
+    ],
+    "26.1.1+fabric": [
+      "zVkQvdNc"
+    ],
+    "26.1.2+fabric": [
+      "zVkQvdNc"
+    ],
+    "26.2+fabric": [
+      "zVkQvdNc"
+    ]
+  }
+}

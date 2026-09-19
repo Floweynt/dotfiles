@@ -1,0 +1,95 @@
+{
+  "slug": "clover-fabric",
+  "projectId": "QlLxgEN8",
+  "versions": {
+    "4GKdvSaw": {
+      "filename": "Clover-0.0.1-rel.jar",
+      "url": "https://cdn.modrinth.com/data/QlLxgEN8/versions/4GKdvSaw/Clover-0.0.1-rel.jar",
+      "hash": "sha512-8+jgk1LLNahqJanltt9UiyrmtkvJCxpuzs+cZO24mVs1sSS2U8Zv1QAgMnWwVROuZq5YYaOtOGuRMMpeDj4ZIw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "5Kc9h0Ix": {
+      "filename": "Clover-0.0.1-rel-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/QlLxgEN8/versions/5Kc9h0Ix/Clover-0.0.1-rel-1.20.1.jar",
+      "hash": "sha512-0++2BXj2WVOOx26P2nUWisjHl5Ock1gXbBbdWrEBcUTYbioGHN8z7C1ZE3KGF1gXGjF6LIFnDsDMg85yyzaIpQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "87ghiEPt": {
+      "filename": "Clover-0.0.1-rel.jar",
+      "url": "https://cdn.modrinth.com/data/QlLxgEN8/versions/87ghiEPt/Clover-0.0.1-rel.jar",
+      "hash": "sha512-L1iMrVncZqdE7YJXrZjaUNeyICp+L1E8SWxB+29wPEv9e2fFK1LC56gYeKGsDirlw+ZOWNmUcriXXY/jsulGXg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "eEPeWAHY": {
+      "filename": "Clover-0.0.1-working.jar",
+      "url": "https://cdn.modrinth.com/data/QlLxgEN8/versions/eEPeWAHY/Clover-0.0.1-working.jar",
+      "hash": "sha512-KOkmV9DbU9Qut8RvsQh35rqjigFUQOmhWCCBFBV449wxKP9nuxIjO8j88wwzSM2yUR8tavhHU0xH6noF04aE+g==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ncegcUZK": {
+      "filename": "Clover-0.0.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/QlLxgEN8/versions/ncegcUZK/Clover-0.0.1-beta.jar",
+      "hash": "sha512-RlgMzLuhMgZ+4mRH/ryvmMCUmfK9hFLvEL6jDbTAvYL5+aETewZRMKDPVKkdrGYN44nxdBzi7hRctWoQjIDpiw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "87ghiEPt",
+      "ncegcUZK",
+      "eEPeWAHY"
+    ],
+    "1.18.2+fabric": [
+      "4GKdvSaw"
+    ],
+    "1.20.1+fabric": [
+      "5Kc9h0Ix"
+    ]
+  }
+}

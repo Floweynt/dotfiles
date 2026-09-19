@@ -1,0 +1,68 @@
+{
+  "slug": "elytraweee",
+  "projectId": "vbRcbu5L",
+  "versions": {
+    "gCFumwDu": {
+      "filename": "elytraweee-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/vbRcbu5L/versions/gCFumwDu/elytraweee-1.3.0.jar",
+      "hash": "sha512-YmlOZPkZZ2BZV4hQ9zxplOMy/TqbwYpc6OgW2ah9WvXujjDOTymkIs8owwLKcsL7k7PkxrJZv8yei7h3S8Sg/A==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "jW4OQr1F": {
+      "filename": "elytraweee-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vbRcbu5L/versions/jW4OQr1F/elytraweee-1.0.0.jar",
+      "hash": "sha512-erBdlbFE17uTy7ASG23X/z+WPK6enl2Inw6tCICXyI5bAaMAA+QFVrO4KEOjhpeYO/L/zqGsSfVIfzj09nmMLA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "vtnFJybW": {
+      "filename": "elytraweee-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/vbRcbu5L/versions/vtnFJybW/elytraweee-1.2.0.jar",
+      "hash": "sha512-PofDJmySf8dk/550ZlNWWf6Bs6BRRmsZAX6CiFvoSmCv+uTxSTK01Z/POhjjXGcxa4/Ck576BhSSkiWg56Z3pg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "vtnFJybW",
+      "jW4OQr1F"
+    ],
+    "26.2+fabric": [
+      "gCFumwDu"
+    ]
+  }
+}

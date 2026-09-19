@@ -1,0 +1,126 @@
+{
+  "slug": "devil-ring-of-flight",
+  "projectId": "ZyrNhU5T",
+  "versions": {
+    "4J7O5gwU": {
+      "filename": "ring_of_flight-0.0.9-1.21.7-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZyrNhU5T/versions/4J7O5gwU/ring_of_flight-0.0.9-1.21.7-fabric.jar",
+      "hash": "sha512-WOV/40J1KbFzdJPNfhXdRE9peVAJOQzwNUo70q2ObgLr4nLHKU89sQwTJNVk6KzNH2SfC1lJoy8kBQ2gsDu8dw==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "YD5ElNBj": {
+      "filename": "ring_of_flight-0.0.8-1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/ZyrNhU5T/versions/YD5ElNBj/ring_of_flight-0.0.8-1.21.1-neoforge.jar",
+      "hash": "sha512-jVZtYbe4JW7IRbbENX0e9C+MkN1D4G8D2yq09r7mA79qCvSWpFWwJ5cLqSBDywoPOyUhePE5Pw7ZTZtHIf7DdA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nqvkIMJc": {
+      "filename": "ring_of_flight-0.0.8-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/ZyrNhU5T/versions/nqvkIMJc/ring_of_flight-0.0.8-1.20.1-forge.jar",
+      "hash": "sha512-KhnPN+wNPYDhqFlPrSg6sCGP/6+K636rbLfiLbtJo9h1zbdcb+tO+38veEbUSu6AopZz6jRCc9IoWzKBbSJM1g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "curios",
+          "projectId": "vvuO3ImH",
+          "type": "required"
+        }
+      ]
+    },
+    "oJ1r10bF": {
+      "filename": "ring_of_flight-0.0.8-1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZyrNhU5T/versions/oJ1r10bF/ring_of_flight-0.0.8-1.21.1-fabric.jar",
+      "hash": "sha512-ZRSLDzxX3IbnjDa7rcekB0d0EUtcg4zb8sh0cayE4ahZvZ23gSepjulVXZ15WCPDdXsuvlzvcmi96HpDVlHAlw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "oWAxzgAL": {
+      "filename": "ring_of_flight-0.0.9-1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZyrNhU5T/versions/oWAxzgAL/ring_of_flight-0.0.9-1.21.1-fabric.jar",
+      "hash": "sha512-3VDjdOT06DWglitH+d3GMshoyRqEKfKxvoKW42NOCQtajxhB3kUR7D8Bg6pxBtSu56aVogz4cUGE9oR+GCVC3Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xLsYtq6U": {
+      "filename": "ring_of_flight-0.0.8-1.21.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/ZyrNhU5T/versions/xLsYtq6U/ring_of_flight-0.0.8-1.21.1-forge.jar",
+      "hash": "sha512-VCD0O9Q5JKy5RjAl428Bk19HdtmkLo1qmphizGi7wj6u7hIgewtoV6mgu/sjjxEaJGY/MPqXD/0ZC7xslCFCHA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ohmega",
+          "projectId": "scvT0o5w",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "nqvkIMJc"
+    ],
+    "1.21.1+fabric": [
+      "oWAxzgAL",
+      "oJ1r10bF"
+    ],
+    "1.21.1+forge": [
+      "xLsYtq6U"
+    ],
+    "1.21.1+neoforge": [
+      "YD5ElNBj"
+    ],
+    "1.21.7+fabric": [
+      "4J7O5gwU"
+    ]
+  }
+}

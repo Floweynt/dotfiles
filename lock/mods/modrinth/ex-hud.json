@@ -1,0 +1,88 @@
+{
+  "slug": "ex-hud",
+  "projectId": "387DYXF9",
+  "versions": {
+    "55HkuUcM": {
+      "filename": "exhud-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/387DYXF9/versions/55HkuUcM/exhud-1.1.0.jar",
+      "hash": "sha512-ehkKzWrG/56xMNZ644f3FauEHcA95as7qbEQHDfSCmnZavc8zVVmqugPoWoo7ywVA68oCgOsL2R2R+KI0Nu46w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "EfbRn7Hk": {
+      "filename": "exhud-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/387DYXF9/versions/EfbRn7Hk/exhud-1.0.0.jar",
+      "hash": "sha512-PySvM1jl8k2My26n+FwJdLMri0dtnbDhdKdKYjMxzSXUDM0FFy0DeIklYEX54Xqwlyipj8sQ6EBHuM2DXPrOHw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Z0dks6nN": {
+      "filename": "exhud-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/387DYXF9/versions/Z0dks6nN/exhud-1.2.0.jar",
+      "hash": "sha512-vyHiL9EbxOwMhB/mKj0XQ9+F1ILuVCDJveeS+mJr66ks7Us+cnYkSOWglCjmUcCylE1+iN0Qp4kaJnRxrDhkQQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lTwwYlDl": {
+      "filename": "exhud-1.1.9.jar",
+      "url": "https://cdn.modrinth.com/data/387DYXF9/versions/lTwwYlDl/exhud-1.1.9.jar",
+      "hash": "sha512-dh0iksd2LjGw1SmoHa3RI+23HaEyfY6aHKU4EmxdeXWKSa3b+N8gmRGQXb7hH8yQp1JFbZHZPkNq23uU6MXjGw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "EfbRn7Hk"
+    ],
+    "1.19.2+fabric": [
+      "55HkuUcM"
+    ],
+    "1.19.3+fabric": [
+      "lTwwYlDl"
+    ],
+    "1.19.4+fabric": [
+      "Z0dks6nN"
+    ]
+  }
+}

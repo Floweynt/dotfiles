@@ -1,0 +1,65 @@
+{
+  "slug": "squishy-heads",
+  "projectId": "sraOeLYD",
+  "versions": {
+    "A0dvlyki": {
+      "filename": "openheads-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/sraOeLYD/versions/A0dvlyki/openheads-1.0-SNAPSHOT.jar",
+      "hash": "sha512-P37/LJGuFkPJ8s0lOEeJ/FoZSn3+je/k5kZ2NmQAUFD9ra1bMpDg+AGgks5NhtYId5n6BYjBclPW1V3TBbRY5A==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        }
+      ]
+    },
+    "Qg3Jsojs": {
+      "filename": "openheads-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/sraOeLYD/versions/Qg3Jsojs/openheads-1.0-SNAPSHOT.jar",
+      "hash": "sha512-941avQvxDJaCgfJ3DABgLUsRBNBTFbjndAsOvp5uG+fIEgUoAAFShbQu/i7bVIFRwYT72XijW1N4kz11DvIBEA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "SZARk946": {
+      "filename": "openheads-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/sraOeLYD/versions/SZARk946/openheads-1.0-SNAPSHOT.jar",
+      "hash": "sha512-GwvwzEm/k7U1XhBmX1bWrsE78NTcvTOMEzOIKoYolNEyA0r7oMMuJcjlkP6GQOLXjoV62yX+lEo0mgae9p5LJw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "SZARk946"
+    ],
+    "1.21.11+fabric": [
+      "Qg3Jsojs"
+    ],
+    "1.21.8+fabric": [
+      "A0dvlyki"
+    ]
+  }
+}

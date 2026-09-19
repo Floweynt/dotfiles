@@ -1,0 +1,31 @@
+{
+  "slug": "carpet-crit-fix",
+  "projectId": "cYJ3AYak",
+  "versions": {
+    "S8750ny6": {
+      "filename": "carpet-crit-attack-fix-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cYJ3AYak/versions/S8750ny6/carpet-crit-attack-fix-1.0.jar",
+      "hash": "sha512-Fy0v1qO61e80lpu4oDC9njOSc6v4iNTHCgUEnFiteHON1kbhKBvZ62JpTK5kus8v+MX9zBBjHL/k4pW3ybdWAQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "S8750ny6"
+    ]
+  }
+}

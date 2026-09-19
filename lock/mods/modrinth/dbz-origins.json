@@ -1,0 +1,67 @@
+{
+  "slug": "dbz-origins",
+  "projectId": "cuIqbutL",
+  "versions": {
+    "GXHg2CMr": {
+      "filename": "DBZ origins 1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/cuIqbutL/versions/GXHg2CMr/DBZ%20origins%201.0.1.jar",
+      "hash": "sha512-tWEMllt22yqbyQkcw0mDvkZDEz624gXKgZa4z+qqE3p9Q+IqTpGJi3v0l2qYR3Wpz0a3w1lrPmxJORxoxyOv4g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "extra-origins",
+          "projectId": "XWEESDPe",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "HSMRjbcA": {
+      "filename": "DBZ origins 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cuIqbutL/versions/HSMRjbcA/DBZ%20origins%201.0.0.jar",
+      "hash": "sha512-Yh7z69wmSeGo/XHQkrwmFrNEXOj8SnjZA01vYxbXPIEU3NXrL1O+BXo6PaCDcmrtZH+79iYom2AyWn7SsShxBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "extra-origins",
+          "projectId": "XWEESDPe",
+          "type": "required"
+        },
+        {
+          "slug": "additionalentityattributes",
+          "projectId": "6oFu5eHi",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "GXHg2CMr",
+      "HSMRjbcA"
+    ]
+  }
+}

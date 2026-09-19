@@ -1,0 +1,31 @@
+{
+  "slug": "dashloader-portinglib-compat",
+  "projectId": "adztbDaq",
+  "versions": {
+    "5hRSIiAY": {
+      "filename": "dashloader-portinglib-compat-0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/adztbDaq/versions/5hRSIiAY/dashloader-portinglib-compat-0.1%2B1.20.1.jar",
+      "hash": "sha512-yEyjkkvb8BsWlyzoppnc2e0ZrcWPK5Qo1cfUqAfhSqSdCoyrGHTqZrtEdBbysDHkvciapjeP0BkrjvQg0XW4OA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "dashloader",
+          "projectId": "ZfQ3kTvR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5hRSIiAY"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "blooming-seasons",
+  "projectId": "OX0R9CIM",
+  "versions": {
+    "ggEScBv6": {
+      "filename": "Blooming Seasons.jar",
+      "url": "https://cdn.modrinth.com/data/OX0R9CIM/versions/ggEScBv6/Blooming%20Seasons.jar",
+      "hash": "sha512-UWgmP5b+rT18CEzs5ys0RTMzLqdWYtoZOWihS0AFlwEhC9hCVuhkuE77mj1PYNmB2h0065sdiUdy4YeW/IqyWw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "blooming-biosphere",
+          "projectId": "Ds9FyUc7",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-seasons",
+          "projectId": "KJe6y9Eu",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ggEScBv6"
+    ]
+  }
+}

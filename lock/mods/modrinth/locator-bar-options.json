@@ -1,0 +1,54 @@
+{
+  "slug": "locator-bar-options",
+  "projectId": "Gl1MDNsE",
+  "versions": {
+    "4PlNUIcB": {
+      "filename": "RedSyven's Locator Bar Options 1-21-6.zip",
+      "url": "https://cdn.modrinth.com/data/Gl1MDNsE/versions/4PlNUIcB/RedSyven%27s%20Locator%20Bar%20Options%201-21-6.zip",
+      "hash": "sha512-99XkjHlvfLLB6BuE1PGRgjjKh8lzDq9vKIeGcxB2RAsT1LY+zzJG+1MJrxD0StOybquID1mpRhSFBukG7O8rhg==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "pzcX9yff": {
+      "filename": "locator-bar-options-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Gl1MDNsE/versions/pzcX9yff/locator-bar-options-1.0.jar",
+      "hash": "sha512-g7rcpxIY/OiNhcx+X26kJAX4VmuXPtGj9SLan+mYgV2mvBQ/xTaX06HFgKmq5vCQzyU4O/ZTmq8ePprnVxILlA==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.6+datapack": [
+      "4PlNUIcB"
+    ],
+    "1.21.6+fabric": [
+      "pzcX9yff"
+    ],
+    "1.21.6+forge": [
+      "pzcX9yff"
+    ],
+    "1.21.6+neoforge": [
+      "pzcX9yff"
+    ],
+    "1.21.6+quilt": [
+      "pzcX9yff"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "realistic-mechanics-vanilla+-physics",
+  "projectId": "6L8uHAlk",
+  "versions": {
+    "IHrGukZi": {
+      "filename": "realistic-mechanics-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/6L8uHAlk/versions/IHrGukZi/realistic-mechanics-1.0.1.jar",
+      "hash": "sha512-y1URuR7RBG97R8achVY6VEwyewEeKscTGjawu1APpOSHnTYJTmUncy+lAo6tOJpvHSOXy528VWV3Wd+Ftx5KCA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mGGqPNHq": {
+      "filename": "realistic-mechanics-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6L8uHAlk/versions/mGGqPNHq/realistic-mechanics-1.0.0.jar",
+      "hash": "sha512-eNNH+kzfN1Lbg4flzi8rYF2wGzXuVHD8qtcGbbO4d9YLCQ7jjvI5IuqHmuVYnLIRNp32WAg293myK09pavvcUw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "IHrGukZi",
+      "mGGqPNHq"
+    ]
+  }
+}

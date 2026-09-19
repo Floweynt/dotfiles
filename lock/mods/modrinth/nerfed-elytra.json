@@ -1,0 +1,120 @@
+{
+  "slug": "nerfed-elytra",
+  "projectId": "ib7QSm8G",
+  "versions": {
+    "HEDxzy4y": {
+      "filename": "nerfed-elytra-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ib7QSm8G/versions/HEDxzy4y/nerfed-elytra-1.0.0.jar",
+      "hash": "sha512-3wW885VFlMKD8Qtx/Sa0os7oMjGzf50XSUYep6mmknrLnClsMv3AIW+uVRgpv352DzZZ9u8ZA5kbFBkWiayPqw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "hek0UwQ0": {
+      "filename": "nerfed-elytra-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ib7QSm8G/versions/hek0UwQ0/nerfed-elytra-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-ZRObM9dHHF3byJxyhuQIYnSUJ0F6xv4P8TxllVc36k5z9mpIjHAnHKTRGyDzymqLQj31EiQq6128I2ArL2FihA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "kBstBG98": {
+      "filename": "nerfed-elytra-1.0.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/ib7QSm8G/versions/kBstBG98/nerfed-elytra-1.0.0%2B1.21.10.jar",
+      "hash": "sha512-FMBGHROWvel+LQwD+UjHcJeqRmpyCbYAKhW8HaAYOmc7+O/V+iGugHIpTjy8idf5X8q/fTdFxAc1OfSIoxhJKg==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "registry-helper-lib",
+          "projectId": "zQvAgPT6",
+          "type": "required"
+        }
+      ]
+    },
+    "n0jLS6Be": {
+      "filename": "nerfed-elytra-1.0.0+1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/ib7QSm8G/versions/n0jLS6Be/nerfed-elytra-1.0.0%2B1.21.5.jar",
+      "hash": "sha512-fmoRglFaYzSYJj0qqFsH8CmAHr8c9Wwy7VjovlSpGUiYFol4p7/lQJCubRqUbT93jbQs5qWuTARHu5yHzGJ4Pg==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "registry-helper-lib",
+          "projectId": "zQvAgPT6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hek0UwQ0"
+    ],
+    "1.20.2+fabric": [
+      "hek0UwQ0"
+    ],
+    "1.20.3+fabric": [
+      "hek0UwQ0"
+    ],
+    "1.20.4+fabric": [
+      "hek0UwQ0"
+    ],
+    "1.21+fabric": [
+      "HEDxzy4y"
+    ],
+    "1.21.1+fabric": [
+      "HEDxzy4y"
+    ],
+    "1.21.10+fabric": [
+      "kBstBG98"
+    ],
+    "1.21.11+fabric": [
+      "kBstBG98"
+    ],
+    "1.21.5+fabric": [
+      "n0jLS6Be"
+    ],
+    "1.21.6+fabric": [
+      "n0jLS6Be"
+    ],
+    "1.21.7+fabric": [
+      "n0jLS6Be"
+    ],
+    "1.21.8+fabric": [
+      "n0jLS6Be"
+    ]
+  }
+}

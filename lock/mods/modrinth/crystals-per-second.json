@@ -1,0 +1,42 @@
+{
+  "slug": "crystals-per-second",
+  "projectId": "yyocGZ42",
+  "versions": {
+    "BpTTFXfX": {
+      "filename": "crystalspers-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yyocGZ42/versions/BpTTFXfX/crystalspers-1.0.0.jar",
+      "hash": "sha512-qyuyyLQx3tEQx9NLf5Aj0bhzgLJh9cKtUi8CS0Jbi1SKW49Npfv65CkXxurn/K/u1297xwxW+ZZQKLzyflRK+g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "DIO5ldP8": {
+      "filename": "crystalspeed-fabric-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/yyocGZ42/versions/DIO5ldP8/crystalspeed-fabric-1.19.2.jar",
+      "hash": "sha512-GwVkORsgxWoGhnQoWbpRmXJVTzy67KJPHuo6E9jKVCyl6/9b5m8xgWBuz5p9z9mApnxyjYJGCzrhiFwpH+49Ew==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "DIO5ldP8"
+    ],
+    "1.20.1+fabric": [
+      "BpTTFXfX"
+    ]
+  }
+}

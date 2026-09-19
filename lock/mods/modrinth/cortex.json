@@ -1,0 +1,50 @@
+{
+  "slug": "cortex",
+  "projectId": "KNee4KiW",
+  "versions": {
+    "2J8NhOtc": {
+      "filename": "cortex-1.0.1+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/KNee4KiW/versions/2J8NhOtc/cortex-1.0.1%2B1.21.3.jar",
+      "hash": "sha512-26FJLoZ9jVRnviI0K/oR+PIl0PvKfwXrVRYs0ju9jbGDDrbR9GjgLoqHP3b+fFR4FzuXYTE2Y5MOc8PDL7FDXA==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RCU5GVmd": {
+      "filename": "cortex-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/KNee4KiW/versions/RCU5GVmd/cortex-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-webn3vBnhzRXkhfeSJHQCX1vXWrIJQkxUoQImhtzbjQdhk0nW7+TR68PKHqdYeT+0CrYvpyJks+16IiJzleLrg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "RCU5GVmd"
+    ],
+    "1.21.1+quilt": [
+      "RCU5GVmd"
+    ],
+    "1.21.3+fabric": [
+      "2J8NhOtc"
+    ],
+    "1.21.3+quilt": [
+      "2J8NhOtc"
+    ]
+  }
+}

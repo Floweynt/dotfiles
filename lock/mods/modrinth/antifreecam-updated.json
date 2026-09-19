@@ -1,0 +1,31 @@
+{
+  "slug": "antifreecam-updated",
+  "projectId": "8b0NSu8j",
+  "versions": {
+    "YHJmYehy": {
+      "filename": "antifreecam-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/8b0NSu8j/versions/YHJmYehy/antifreecam-1.0.3.jar",
+      "hash": "sha512-QTYvoZnfxrQQXpzWRDOdw8XIZvadPTkCcAhITCJSG0cO5iNY2gSaot1Ox3VXGFSUB15b4IRgMZLItAXT5XnYLA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "YHJmYehy"
+    ]
+  }
+}

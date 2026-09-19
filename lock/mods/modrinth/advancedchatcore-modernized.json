@@ -1,0 +1,111 @@
+{
+  "slug": "advancedchatcore-modernized",
+  "projectId": "M4iU3KXE",
+  "versions": {
+    "2EFPeyFj": {
+      "filename": "AdvancedChatCore-1.21.10-1.5.14.jar",
+      "url": "https://cdn.modrinth.com/data/M4iU3KXE/versions/2EFPeyFj/AdvancedChatCore-1.21.10-1.5.14.jar",
+      "hash": "sha512-2CJakC5jTaExFKaiWrFopDi549XyXWy8LCNS60Gr2OqMVJZt/pugjw03/FJvl2qm2ZIHeRjGE68IaZiMRdYxTQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        }
+      ]
+    },
+    "BBVKSFN9": {
+      "filename": "AdvancedChatCore-1.21.10-1.5.13.jar",
+      "url": "https://cdn.modrinth.com/data/M4iU3KXE/versions/BBVKSFN9/AdvancedChatCore-1.21.10-1.5.13.jar",
+      "hash": "sha512-5/1ji2MnTq5uZkDaPF67fT7wSObm5e9hPe97OYjYHqbFpqYzK23huUB70+xWyIHGa73eleRo8vJTGAd00WKF0w==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        }
+      ]
+    },
+    "MkQXHewv": {
+      "filename": "AdvancedChatCore-1.21.8-1.5.11.jar",
+      "url": "https://cdn.modrinth.com/data/M4iU3KXE/versions/MkQXHewv/AdvancedChatCore-1.21.8-1.5.11.jar",
+      "hash": "sha512-728+kyD6fTj4LdAM84tZtZT6U/JQbEkGQ8BIV2tNiW2Byz8tRdQHK1Jr29YsBUURzWk8GaliadmG//iPzQ0dqQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        }
+      ]
+    },
+    "jNeaYiTA": {
+      "filename": "AdvancedChatCore-1.21.9-1.5.12.jar",
+      "url": "https://cdn.modrinth.com/data/M4iU3KXE/versions/jNeaYiTA/AdvancedChatCore-1.21.9-1.5.12.jar",
+      "hash": "sha512-6Qz5ASLIezp9cnzUxU/ojz46lPUQpAc5qWhKNqB0H99Zo3yBrjxaP4nP0IsitzjiQREAQF1/T2GamUiEecHHFQ==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "2EFPeyFj",
+      "BBVKSFN9"
+    ],
+    "1.21.10+quilt": [
+      "2EFPeyFj",
+      "BBVKSFN9"
+    ],
+    "1.21.8+fabric": [
+      "MkQXHewv"
+    ],
+    "1.21.9+fabric": [
+      "2EFPeyFj",
+      "jNeaYiTA"
+    ],
+    "1.21.9+quilt": [
+      "2EFPeyFj",
+      "jNeaYiTA"
+    ]
+  }
+}

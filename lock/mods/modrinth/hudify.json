@@ -1,0 +1,150 @@
+{
+  "slug": "hudify",
+  "projectId": "P7ApFmEy",
+  "versions": {
+    "J8Vv5yfZ": {
+      "filename": "hudify-1.2.0-beta+1.21.10__for_CH_v4.jar",
+      "url": "https://cdn.modrinth.com/data/P7ApFmEy/versions/J8Vv5yfZ/hudify-1.2.0-beta%2B1.21.10__for_CH_v4.jar",
+      "hash": "sha512-uXzYGFkWFQIQ9VAEGCr+MYSMD3hS/ikkLGnvXFeKz20rL/kVazGuIQhGPccxmjihI9QJhe8e2bdqwS1aXthjeA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "customhud",
+          "projectId": "6jis0UTI",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "RBKc6WNc": {
+      "filename": "hudify-1.0.0+1.21.1__for_ch3.jar",
+      "url": "https://cdn.modrinth.com/data/P7ApFmEy/versions/RBKc6WNc/hudify-1.0.0%2B1.21.1__for_ch3.jar",
+      "hash": "sha512-AELVOmZ6x3Z3Ld65MMJMxx++Wl5xLOF/f73YWUqPtNsCsiVeggK2+pGmB+yzNxZTCHHhvC00CNbe3JhgJBwcQg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "customhud",
+          "projectId": "6jis0UTI",
+          "type": "required"
+        }
+      ]
+    },
+    "bReGcrYm": {
+      "filename": "hudify-1.2.0+1.21.3__for_CH_v4.jar",
+      "url": "https://cdn.modrinth.com/data/P7ApFmEy/versions/bReGcrYm/hudify-1.2.0%2B1.21.3__for_CH_v4.jar",
+      "hash": "sha512-EV954x07S+q0gIDrhU2EkM7CQVw/KlZ52PamWDGBOyxH66p5Hvfqd4wSCaJvScxEFozLLXBXL20nkoOK9gl2uA==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "customhud",
+          "projectId": "6jis0UTI",
+          "type": "required"
+        }
+      ]
+    },
+    "gNkqXKsu": {
+      "filename": "hudify-1.0.0__for_customhud_v3.jar",
+      "url": "https://cdn.modrinth.com/data/P7ApFmEy/versions/gNkqXKsu/hudify-1.0.0__for_customhud_v3.jar",
+      "hash": "sha512-+X19aqSF1GyRXgbRoLyFoT2w5X83XQleFOSoQ37r8ynikoQ81tbZhAJdQpSkcJ9vMM+/PCekeJLjFR3+5/rNOQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "customhud",
+          "projectId": "6jis0UTI",
+          "type": "required"
+        }
+      ]
+    },
+    "nb0A9DKF": {
+      "filename": "hudify-1.0.2__1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/P7ApFmEy/versions/nb0A9DKF/hudify-1.0.2__1.21.1.jar",
+      "hash": "sha512-C6fGkhK9KlLpg6GelOdIf+TiWAnp0e8thIWahwmskDqyHHY1yEzQX8WAg6m5j6go1tFAAGuCE7vu9EXRx7JD/A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "customhud",
+          "projectId": "6jis0UTI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "gNkqXKsu"
+    ],
+    "1.21+fabric": [
+      "nb0A9DKF",
+      "RBKc6WNc"
+    ],
+    "1.21.1+fabric": [
+      "nb0A9DKF",
+      "RBKc6WNc"
+    ],
+    "1.21.10+fabric": [
+      "J8Vv5yfZ"
+    ],
+    "1.21.2+fabric": [
+      "bReGcrYm"
+    ],
+    "1.21.3+fabric": [
+      "bReGcrYm"
+    ],
+    "1.21.9+fabric": [
+      "J8Vv5yfZ"
+    ]
+  }
+}

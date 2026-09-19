@@ -1,0 +1,52 @@
+{
+  "slug": "arcane-armory",
+  "projectId": "BwvGX21P",
+  "versions": {
+    "9HL2OMyy": {
+      "filename": "arcanearmory-fabric-0.4+1.20.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/BwvGX21P/versions/9HL2OMyy/arcanearmory-fabric-0.4%2B1.20.1-alpha.jar",
+      "hash": "sha512-r2Ry/s39qhOpvZcJDkrvJ1drgeMzAsE3bmfLvTnMXGWuEH3hWDrO2vt0i6yJzspxNgEW4i6unksElZzrBSFRpw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "H97NRlG7": {
+      "filename": "arcanearmory-fabric-0.5+1.20.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/BwvGX21P/versions/H97NRlG7/arcanearmory-fabric-0.5%2B1.20.1-alpha.jar",
+      "hash": "sha512-fLKG2OxKrlSD4slMrV0ksyiD33KaLIws2NiX1qYhuP2wtXXCXg/iET1gJSyIRDCgmy4bQILn54a7iE5taClmBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "H97NRlG7",
+      "9HL2OMyy"
+    ]
+  }
+}

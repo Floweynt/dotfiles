@@ -1,0 +1,54 @@
+{
+  "slug": "rezero-return-by-death",
+  "projectId": "PZjvH1IO",
+  "versions": {
+    "3mVjyWEk": {
+      "filename": "return-by-death-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/PZjvH1IO/versions/3mVjyWEk/return-by-death-1.0.1.jar",
+      "hash": "sha512-rIMaLQGHqd9eHMojj0NinRoHHAdXS5KX/iRKDl8Snf077+iav1EXMUBzPtdUt9ovH1W6tYIftU6ZntOftyIB/A==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "h2m8MLGh": {
+      "filename": "return-by-death-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PZjvH1IO/versions/h2m8MLGh/return-by-death-1.0.0.jar",
+      "hash": "sha512-EkMy89AUn0EC2lFAcOkBp9RSrLMWz64dvnluJoTiLwi5yDYvPaTc4PQxLeijIdsepf+WypIvoWp4P6/pVptSfg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "h2m8MLGh"
+    ],
+    "1.21.5+fabric": [
+      "3mVjyWEk"
+    ]
+  }
+}

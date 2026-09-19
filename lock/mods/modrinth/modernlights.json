@@ -1,0 +1,35 @@
+{
+  "slug": "modernlights",
+  "projectId": "Xcx3AYqF",
+  "versions": {
+    "PUMKOXbb": {
+      "filename": "modernlights-3.0.0+1.21-beta1.jar",
+      "url": "https://cdn.modrinth.com/data/Xcx3AYqF/versions/PUMKOXbb/modernlights-3.0.0%2B1.21-beta1.jar",
+      "hash": "sha512-L2dpPmxtakJqdVkR8EuYtuIPCO5x8xc70josNvT8qk1HbP/eM0OjWdWsI6K1+Dgbly4WQncvj0n/y9HK6kComg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "PUMKOXbb"
+    ],
+    "1.21.1+fabric": [
+      "PUMKOXbb"
+    ]
+  }
+}

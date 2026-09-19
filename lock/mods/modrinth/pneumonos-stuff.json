@@ -1,0 +1,75 @@
+{
+  "slug": "pneumonos-stuff",
+  "projectId": "4BcrFRlv",
+  "versions": {
+    "1r8J0TXQ": {
+      "filename": "pneumonos_stuff-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4BcrFRlv/versions/1r8J0TXQ/pneumonos_stuff-1.0.0.jar",
+      "hash": "sha512-JVYdAkYk41vZlNDbxchrWWCidTJfEfBLPOJUWn7sfwuKYw70+ad23KKjS4yiHh+slmaIdfoYkAGWCzcHB/a8gw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "pneumono_core",
+          "projectId": "ZLKQjA7t",
+          "type": "required"
+        }
+      ]
+    },
+    "oCDZmyec": {
+      "filename": "pneumonos_stuff-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/4BcrFRlv/versions/oCDZmyec/pneumonos_stuff-1.0.1.jar",
+      "hash": "sha512-k/cJDJsmlv3A3LCTE5kLy4txjvwXEwVmklV5344hKSxqfhYcXnQTPV43v2plVQ9MnYvex6BHU/p2SLQ4yZ/V2Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "pneumono_core",
+          "projectId": "ZLKQjA7t",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "oCDZmyec",
+      "1r8J0TXQ"
+    ],
+    "1.20+quilt": [
+      "oCDZmyec"
+    ],
+    "1.20.1+fabric": [
+      "oCDZmyec",
+      "1r8J0TXQ"
+    ],
+    "1.20.1+quilt": [
+      "oCDZmyec"
+    ]
+  }
+}

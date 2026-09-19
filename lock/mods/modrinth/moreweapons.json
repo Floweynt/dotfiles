@@ -1,0 +1,31 @@
+{
+  "slug": "moreweapons",
+  "projectId": "leWjfnKG",
+  "versions": {
+    "tWb9YLDR": {
+      "filename": "moreweapons-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/leWjfnKG/versions/tWb9YLDR/moreweapons-1.0.0.jar",
+      "hash": "sha512-ivG7sCe9966s6+eMnvg6ehlvRwGYEtL0qRHnn2JS+rBXFnqqy02RorT2zq8zKR0ySNWWm3Pw+PsEJ/9wFuk1PA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tWb9YLDR"
+    ]
+  }
+}

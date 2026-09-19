@@ -1,0 +1,101 @@
+{
+  "slug": "wildvine-alien-evolution-addon",
+  "projectId": "GjlanGXD",
+  "versions": {
+    "9tWOMt6k": {
+      "filename": "wildvine(1.0.2).jar",
+      "url": "https://cdn.modrinth.com/data/GjlanGXD/versions/9tWOMt6k/wildvine%281.0.2%29.jar",
+      "hash": "sha512-F/CWP/Oe7vdJ471y99VeJpP9d0sRmlJJy9vDA5FkcebetNKGzmA7y22wyyjxJjktR4vLOhr9lws/h2X/q8IAAQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NrTrOAqb": {
+      "filename": "florauna-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GjlanGXD/versions/NrTrOAqb/florauna-1.0.0.jar",
+      "hash": "sha512-SWBvBYb64sx8UZuBMdeB3XTEUWjeDht31fN8hpOskZjwfBJiP0DgrrLwlXhViSADEi2hhHwykVoV0qqTVcIrfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "WwI4UanQ": {
+      "filename": "wildvine(1.0.1).jar",
+      "url": "https://cdn.modrinth.com/data/GjlanGXD/versions/WwI4UanQ/wildvine%281.0.1%29.jar",
+      "hash": "sha512-eJjrW6w9GKQXZVd1MA5Q6zLNlQgR03kZXdYMZePcHS+gr43+yg/aSKvja09p9wE0NIWEA4v5KJ5BsBvrpZbAhw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "eJFk7Tci": {
+      "filename": "Wildvine(1.0.3).jar",
+      "url": "https://cdn.modrinth.com/data/GjlanGXD/versions/eJFk7Tci/Wildvine%281.0.3%29.jar",
+      "hash": "sha512-vUARHn2TZ/fjLUlDlh3M9447VtQ3dZiPlk+Ycoxcoiah+X0fDyZQYrYRqS9REOW9FwFKqvUO/jFdps+8Yy0FAQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mlo3kdSi": {
+      "filename": "florauna (0.9.9).jar",
+      "url": "https://cdn.modrinth.com/data/GjlanGXD/versions/mlo3kdSi/florauna%20%280.9.9%29.jar",
+      "hash": "sha512-XNEuacVK/M0JIUYKVkfC+iG+dvjiagKeQDImTChAImsJ4gZYsbrxrOekLkaTHbXOY0hcFUEv553rMqX/7/7oDQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eJFk7Tci",
+      "9tWOMt6k",
+      "WwI4UanQ",
+      "NrTrOAqb"
+    ],
+    "1.20.1+forge": [
+      "eJFk7Tci",
+      "9tWOMt6k",
+      "WwI4UanQ",
+      "NrTrOAqb",
+      "mlo3kdSi"
+    ]
+  }
+}

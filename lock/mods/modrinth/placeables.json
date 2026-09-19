@@ -1,0 +1,116 @@
+{
+  "slug": "placeables",
+  "projectId": "I140DzGY",
+  "versions": {
+    "53fAh6e3": {
+      "filename": "Placeables 1.9.jar",
+      "url": "https://cdn.modrinth.com/data/I140DzGY/versions/53fAh6e3/Placeables%201.9.jar",
+      "hash": "sha512-5/QULS3CuEA0i68q8FY6ePH/aAdzOPfrXeSkDEYTLooHP8Bq4JjZtfST0QePL8QgbhoUZs5o3MQrn8likTsjBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SbjYgxX3": {
+      "filename": "Placeables 1.9 NeoForge 1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/I140DzGY/versions/SbjYgxX3/Placeables%201.9%20NeoForge%201.20.4.jar",
+      "hash": "sha512-TQ2mcNEIHv6N+zOAWGol2dwYnzJfhyo8Uigkz1HIDmzlYNs0AS/xnm5NHF8XOy/nq3RFQMoRzreO/ptC5M6ZHw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cvi351Wg": {
+      "filename": "Placeables 1.8.1.jar",
+      "url": "https://cdn.modrinth.com/data/I140DzGY/versions/cvi351Wg/Placeables%201.8.1.jar",
+      "hash": "sha512-V29a6VY9kfxVZ4DPx5QIam5VWrM9jaWZ/jDxoNDX1DgWzsUAZar6L0bu3sTHSKnriOeFaOyISEbWedNVaybwIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "h99FpC5y": {
+      "filename": "Placeables 1.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/I140DzGY/versions/h99FpC5y/Placeables%201.9.2.jar",
+      "hash": "sha512-4OVykbjS6NRUL4jldVi9DQqsdRd91vxSJ2/JCzxV2/bv1rS3p4SjIoCcrYAfQdcGbK4Sc2T4224TPToHV8gp5w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "jj4VyTYZ": {
+      "filename": "Placeables 1.9.1.jar",
+      "url": "https://cdn.modrinth.com/data/I140DzGY/versions/jj4VyTYZ/Placeables%201.9.1.jar",
+      "hash": "sha512-KuHiQS6FuhT0No3zMMSXHVSUiGv0tyZhXApjHq18cvWDMWZOQw7quC62Ne/bOn1NbQQMAuRXBcjYIhQrc9+JRQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "kM3HjjQn": {
+      "filename": "Placeables Fabric 1.8.1.jar",
+      "url": "https://cdn.modrinth.com/data/I140DzGY/versions/kM3HjjQn/Placeables%20Fabric%201.8.1.jar",
+      "hash": "sha512-CdF4O5tpwxfM+XuBtLe8CBWPFGpbY3PbqK/yVwhtRydYiQVb08B75DbaUiLFV7feUo1SQPE3tE149XiQs8I7tQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kM3HjjQn"
+    ],
+    "1.20.1+forge": [
+      "h99FpC5y",
+      "jj4VyTYZ",
+      "53fAh6e3",
+      "cvi351Wg"
+    ],
+    "1.20.4+neoforge": [
+      "SbjYgxX3"
+    ]
+  }
+}

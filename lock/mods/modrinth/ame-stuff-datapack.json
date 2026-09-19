@@ -1,0 +1,83 @@
+{
+  "slug": "ame-stuff-datapack",
+  "projectId": "JDxMB8rP",
+  "versions": {
+    "OFx9xHqk": {
+      "filename": "Ame's Datapack 1.0.zip",
+      "url": "https://cdn.modrinth.com/data/JDxMB8rP/versions/OFx9xHqk/Ame%27s%20Datapack%201.0.zip",
+      "hash": "sha512-24Hx05tdEMpwI1+dqKS+xqWSpg1nx4Au1dZB98WZp5l4ZAiC7H7PGFtMTI7sQHynGAlzaDgCUjkjhqmPN+k+sQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "ame-stuff-resourcepack",
+          "projectId": "vXRQfmPX",
+          "type": "required"
+        }
+      ]
+    },
+    "ScId6bap": {
+      "filename": "ame-stuff-datapack-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JDxMB8rP/versions/ScId6bap/ame-stuff-datapack-1.0.jar",
+      "hash": "sha512-/uWNSERKbarTdOrDY8K4oCp/6Wsh91nSLPB5mkup0Eq4ZktM8Ou/pf4cyXyE7Mo4D0Ee5USzRWlE5HWZrHh4cw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "ame-stuff-resourcepack",
+          "projectId": "vXRQfmPX",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "OFx9xHqk"
+    ],
+    "1.21+fabric": [
+      "ScId6bap"
+    ],
+    "1.21+forge": [
+      "ScId6bap"
+    ],
+    "1.21+neoforge": [
+      "ScId6bap"
+    ],
+    "1.21+quilt": [
+      "ScId6bap"
+    ],
+    "1.21.1+datapack": [
+      "OFx9xHqk"
+    ],
+    "1.21.1+fabric": [
+      "ScId6bap"
+    ],
+    "1.21.1+forge": [
+      "ScId6bap"
+    ],
+    "1.21.1+neoforge": [
+      "ScId6bap"
+    ],
+    "1.21.1+quilt": [
+      "ScId6bap"
+    ]
+  }
+}

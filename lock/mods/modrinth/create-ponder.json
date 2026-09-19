@@ -1,0 +1,90 @@
+{
+  "slug": "create-ponder",
+  "projectId": "TUJE7X6P",
+  "versions": {
+    "Npxu19Im": {
+      "filename": "create-ponder-1.20.1-0.5.1f-all.jar",
+      "url": "https://cdn.modrinth.com/data/TUJE7X6P/versions/Npxu19Im/create-ponder-1.20.1-0.5.1f-all.jar",
+      "hash": "sha512-ePG16yumUwxrnIkme4QmAACUk3p4chOpkIZHPJ3FkE5v9QU2Kg9sqDFOFxvQ3ADo/cCNe8LnCTJDh4N6kUco9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "UzVowUee": {
+      "filename": "create-ponder-1.20.1-0.0.2a-all.jar",
+      "url": "https://cdn.modrinth.com/data/TUJE7X6P/versions/UzVowUee/create-ponder-1.20.1-0.0.2a-all.jar",
+      "hash": "sha512-Z2iEEK7YSwEW8IZzeYq4MMTlpW6Zk19+WDPt7siHOJ0tvBYg/bEAXRxqK3GATAQD8fUV7XXCXWPzf+DL8UVosg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "gXjMbIGB": {
+      "filename": "create-ponder-1.20.1-0.0.1e-all.jar",
+      "url": "https://cdn.modrinth.com/data/TUJE7X6P/versions/gXjMbIGB/create-ponder-1.20.1-0.0.1e-all.jar",
+      "hash": "sha512-l2p0+L03EYcmaeXR8nZQRHmXcjCkTTMdm1+cDDHlQa1wLbec6mvwIqfFcPZ5qE3M9fNrCyA5pfp4aA+mwO8xXQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "hgyRBXwv": {
+      "filename": "create-ponder-fabric-0.0.2a-local+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/TUJE7X6P/versions/hgyRBXwv/create-ponder-fabric-0.0.2a-local%2Bmc1.20.1.jar",
+      "hash": "sha512-wmHdt5zVDkDAutV/09m9spog0WTXFC/xUQw+Z1fjYV8n9OTPVIrYRqkDg+stkPRI0QNXlV0qprpEBJu6ExViAg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hgyRBXwv"
+    ],
+    "1.20.1+forge": [
+      "UzVowUee",
+      "gXjMbIGB",
+      "Npxu19Im"
+    ]
+  }
+}

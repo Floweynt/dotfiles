@@ -1,0 +1,44 @@
+{
+  "slug": "orb-of-origin-rework",
+  "projectId": "esyQNDav",
+  "versions": {
+    "k2eXbg5j": {
+      "filename": "originsorbrework-1.19-2.0.0-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/esyQNDav/versions/k2eXbg5j/originsorbrework-1.19-2.0.0-FABRIC.jar",
+      "hash": "sha512-LzGMVk0Mi0U7BIOjCoKJJlvE7V1Ew1UXiESvXhU1VWCdPtfugExTiTmAvzcwtgZrc8zmne9EqW9M4HG/TloHXg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins-classes",
+          "projectId": "FiDptjtR",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "k2eXbg5j"
+    ],
+    "1.19.1+fabric": [
+      "k2eXbg5j"
+    ],
+    "1.19.2+fabric": [
+      "k2eXbg5j"
+    ]
+  }
+}

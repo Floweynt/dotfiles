@@ -1,0 +1,83 @@
+{
+  "slug": "toxic-mod",
+  "projectId": "kexmJKd7",
+  "versions": {
+    "EmUinjgr": {
+      "filename": "toxicmod-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kexmJKd7/versions/EmUinjgr/toxicmod-1.0.1.jar",
+      "hash": "sha512-10LGnSSM52YNeqd3KkkW6FhNpaQPLaPXvNRgaM0s4h52RoSWUz1xHpFglFRmTSNb45VO8MHTCTXgt5OYXGN3EA==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XHHqg9D7": {
+      "filename": "toxicmod-1.0.1-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/kexmJKd7/versions/XHHqg9D7/toxicmod-1.0.1-1.21.8.jar",
+      "hash": "sha512-AcAQ5aigal0YRco9qpnpaAa0gFhUPLqMm558zMvXyIFifk9hqmghuxTIuj52Mj3b+dX32F21adqn6q0CuNMi0g==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kqLVEOEn": {
+      "filename": "toxicmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kexmJKd7/versions/kqLVEOEn/toxicmod-1.0.0.jar",
+      "hash": "sha512-uBO600EkHec7R4TvfPI0UEjbhduxoIqwsdveobgKylInfDqYDBSJ2+diwInUE+GQRJiRio9C7vrgEX0pG/yPbg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.3+fabric": [
+      "XHHqg9D7"
+    ],
+    "1.21.4+fabric": [
+      "XHHqg9D7",
+      "EmUinjgr",
+      "kqLVEOEn"
+    ],
+    "1.21.5+fabric": [
+      "XHHqg9D7"
+    ],
+    "1.21.6+fabric": [
+      "XHHqg9D7"
+    ],
+    "1.21.7+fabric": [
+      "XHHqg9D7"
+    ],
+    "1.21.8+fabric": [
+      "XHHqg9D7",
+      "EmUinjgr"
+    ]
+  }
+}

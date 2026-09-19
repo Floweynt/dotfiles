@@ -1,0 +1,125 @@
+{
+  "slug": "epic-reload-mod",
+  "projectId": "c09UniiT",
+  "versions": {
+    "B61LHyM2": {
+      "filename": "epic-reload-mod-1.2.0+mc1.19.1.jar",
+      "url": "https://cdn.modrinth.com/data/c09UniiT/versions/1.2.0%2Bmc1.19.1/epic-reload-mod-1.2.0%2Bmc1.19.1.jar",
+      "hash": "sha512-avoqQElh/m+nOfvsn1cJEHfCDXjJeRuKcB/h0fcBDOHF07vg9fxI53R1rTj6gEmvkSe2sxTZz07DaOQHs97y+g==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "CBTEbrC9": {
+      "filename": "epic-reload-mod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c09UniiT/versions/1.0.0/epic-reload-mod-1.0.0.jar",
+      "hash": "sha512-NuggYNn7dNThStzFK1x7APQJYvW6aOrNtoiZDqHgZaWkpAxiTh/ZudlXYQAGIIqAgN38vU67QefZM8KaeMfZVw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "XqUvHrrU": {
+      "filename": "epic-reload-mod-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/c09UniiT/versions/1.0.2/epic-reload-mod-1.0.2.jar",
+      "hash": "sha512-lqnAcdCT+RljOfLSzvI6MyHxqJQJIuwEhyEO4A1FEqUcApvHRKj+my7GItD/o23dR6X+5qr/hEY5krHl8vZRww==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "me4azpZ7": {
+      "filename": "epic-reload-mod-1.2.0+mc1.19.jar",
+      "url": "https://cdn.modrinth.com/data/c09UniiT/versions/1.2.0%2Bmc1.19/epic-reload-mod-1.2.0%2Bmc1.19.jar",
+      "hash": "sha512-PNqUohMX6fSupzB7wGtKSrqdymMS9a0ZjOXMxBGs9d+r7jxcC+/MoLB1o8iwub8yE61gWtL5MdTSIhHHcuQANA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "zqhob9ff": {
+      "filename": "epic-reload-mod-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/c09UniiT/versions/1.0.1/epic-reload-mod-1.0.1.jar",
+      "hash": "sha512-UxuVYIrAaz4NQ5FwsluTR2N220fdkrBvIrVat/yGNnWNBG54NnW0Tp5G7EeaDVu5IX6G/WcbcEIH3/W6I9JvKA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "XqUvHrrU",
+      "zqhob9ff",
+      "CBTEbrC9"
+    ],
+    "1.19+fabric": [
+      "me4azpZ7"
+    ],
+    "1.19+quilt": [
+      "me4azpZ7"
+    ],
+    "1.19.1+fabric": [
+      "B61LHyM2",
+      "me4azpZ7"
+    ],
+    "1.19.1+quilt": [
+      "B61LHyM2",
+      "me4azpZ7"
+    ],
+    "1.19.2+fabric": [
+      "B61LHyM2"
+    ],
+    "1.19.2+quilt": [
+      "B61LHyM2"
+    ]
+  }
+}

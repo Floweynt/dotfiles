@@ -1,0 +1,48 @@
+{
+  "slug": "mcbig-legacy",
+  "projectId": "M55NnzYR",
+  "versions": {
+    "G6qB9T7K": {
+      "filename": "beta-mcbig-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/M55NnzYR/versions/G6qB9T7K/beta-mcbig-1.1.0.jar",
+      "hash": "sha512-0G/olo6me86Y6xbl7h2hGcWsxUJXUC68SOwMsu12XQ3Kfl+Whf/73Q83s3bETt3tzDeDDTVPduZasOm5PThf7w==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric",
+        "ornithe"
+      ],
+      "versionType": "beta",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    },
+    "nlpq0bfF": {
+      "filename": "beta-mcbig-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/M55NnzYR/versions/nlpq0bfF/beta-mcbig-1.0.0.jar",
+      "hash": "sha512-9UvA6dqX1D0CsoCyHldtrK5ou0QasjGQqd85Z9wtKDJYHdLh9ZcX9Iy/kXm+MWENiu2XPSIpL1ZPOekyT3X2yw==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "nlpq0bfF"
+    ],
+    "b1.7.3+fabric": [
+      "G6qB9T7K",
+      "nlpq0bfF"
+    ],
+    "b1.7.3+ornithe": [
+      "G6qB9T7K"
+    ]
+  }
+}

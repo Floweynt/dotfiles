@@ -1,0 +1,184 @@
+{
+  "slug": "smoothboot-fabric",
+  "projectId": "FWumhS4T",
+  "versions": {
+    "8AE6vYrt": {
+      "filename": "smoothboot-fabric-1.16.4-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/FWumhS4T/versions/1.16.4-1.4.0/smoothboot-fabric-1.16.4-1.4.0.jar",
+      "hash": "sha512-xpKeW24GKQBiWadieSQP9CC7hyXk1vOj9tKdJHwTNLyh61O8+EI7vQsI29bbszrMDHP5e5Be8j2vtef2D7uJRg==",
+      "gameVersions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "I9TkHxLI": {
+      "filename": "smoothboot-fabric-1.19.4-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/FWumhS4T/versions/I9TkHxLI/smoothboot-fabric-1.19.4-1.7.0.jar",
+      "hash": "sha512-ruCndpGCWQcSUgx3STH8af0sLKThOWptfyN/uXge4s6I1UfzRgMFph6mQ08pONYq7VbrrZimDWbnqMQbVZNPhQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WqFUP76H": {
+      "filename": "smoothboot-fabric-1.16.5-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/FWumhS4T/versions/1.16.5-1.5.0/smoothboot-fabric-1.16.5-1.5.0.jar",
+      "hash": "sha512-2LRlTgBSF7Zd5EK7ryhEWqAObA0LRHmLZOh2s2hiZmNM68SoweQ6BUhGr+Swzu5YtHaP7A//YPTGWZR9bR/EQw==",
+      "gameVersions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "iy4eaYy2": {
+      "filename": "smoothboot-fabric-1.18.2-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/FWumhS4T/versions/iy4eaYy2/smoothboot-fabric-1.18.2-1.7.0.jar",
+      "hash": "sha512-LuGuCx80JnN9X27zdAqR8bqM+kZp6av+e4f2RI2HCDhSeNYhIwDamRiP45rEk3yTBap7FeohksD8cC13YueBSA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "nPGcelzS": {
+      "filename": "smoothboot-fabric-1.16.5-1.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/FWumhS4T/versions/1.16.5-1.6.0/smoothboot-fabric-1.16.5-1.6.0.jar",
+      "hash": "sha512-bOEnKh6C5iKZQZoJwkJjwwP04jPHMx64PfZqZb+58fa9M6S2WqpC+DFm9DEDPJYpAaB3YqhPyZ0HzwfGz+klTA==",
+      "gameVersions": [
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "r8xRVPEI": {
+      "filename": "smoothboot-fabric-1.19-1.7.1.jar",
+      "url": "https://cdn.modrinth.com/data/FWumhS4T/versions/1.19-1.7.1/smoothboot-fabric-1.19-1.7.1.jar",
+      "hash": "sha512-3+YtauRluqa2AknycVCLuX5fB/ZjwBhljfuUD5nn/OX6n1tsFeVV2zSwL4252OY1DLEg4QRp/4CUgBc/uLDaSQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3-rc1",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.1+fabric": [
+      "nPGcelzS"
+    ],
+    "1.16.2+fabric": [
+      "nPGcelzS",
+      "WqFUP76H",
+      "8AE6vYrt"
+    ],
+    "1.16.3+fabric": [
+      "nPGcelzS",
+      "WqFUP76H",
+      "8AE6vYrt"
+    ],
+    "1.16.4+fabric": [
+      "nPGcelzS",
+      "WqFUP76H",
+      "8AE6vYrt"
+    ],
+    "1.16.5+fabric": [
+      "nPGcelzS",
+      "WqFUP76H",
+      "8AE6vYrt"
+    ],
+    "1.17+fabric": [
+      "nPGcelzS"
+    ],
+    "1.17.1+fabric": [
+      "nPGcelzS"
+    ],
+    "1.18.2+fabric": [
+      "iy4eaYy2"
+    ],
+    "1.19+fabric": [
+      "r8xRVPEI"
+    ],
+    "1.19+quilt": [
+      "r8xRVPEI"
+    ],
+    "1.19.1+fabric": [
+      "r8xRVPEI"
+    ],
+    "1.19.1+quilt": [
+      "r8xRVPEI"
+    ],
+    "1.19.2+fabric": [
+      "r8xRVPEI"
+    ],
+    "1.19.2+quilt": [
+      "r8xRVPEI"
+    ],
+    "1.19.3+fabric": [
+      "r8xRVPEI"
+    ],
+    "1.19.3+quilt": [
+      "r8xRVPEI"
+    ],
+    "1.19.3-rc1+fabric": [
+      "r8xRVPEI"
+    ],
+    "1.19.3-rc1+quilt": [
+      "r8xRVPEI"
+    ],
+    "1.19.4+fabric": [
+      "I9TkHxLI"
+    ],
+    "1.19.4+quilt": [
+      "I9TkHxLI"
+    ]
+  }
+}

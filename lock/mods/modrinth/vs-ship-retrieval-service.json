@@ -1,0 +1,84 @@
+{
+  "slug": "vs-ship-retrieval-service",
+  "projectId": "GWY9Ldvz",
+  "versions": {
+    "2GjJDWeQ": {
+      "filename": "ShipRetrievalService-Forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GWY9Ldvz/versions/2GjJDWeQ/ShipRetrievalService-Forge-1.0.0.jar",
+      "hash": "sha512-wPSQWMhQXNVNSp+7J0YClNJQ/i7ruHKHhXmMGMOtZP/VuZL3s/RAoO6gAySAFlrFffIBRyhQWqz5fA5BqzBDlA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "9q5RQL4j": {
+      "filename": "ShipRetrievalService-Fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GWY9Ldvz/versions/9q5RQL4j/ShipRetrievalService-Fabric-1.0.0.jar",
+      "hash": "sha512-wtMjbYvn8tYfgxKbhJRtHCwIoCb5OxgDnlpjai6B+jkAG2HMnHXxKlGsC86PhzHuH1pi7pNU+BCbb5CzFX2gig==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "DlYy6vYo": {
+      "filename": "ShipRetrievalService-Fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GWY9Ldvz/versions/DlYy6vYo/ShipRetrievalService-Fabric-1.0.0.jar",
+      "hash": "sha512-vABZzyPrk9hF4MN7jjbzVr66DC8fXbPKOzNd7PR7B8fIU7VwlT49II8TZ8k/sdqQcsKAXDpH8n223NiIudcGrw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UsaXRK9A": {
+      "filename": "ShipRetrievalService-Forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GWY9Ldvz/versions/UsaXRK9A/ShipRetrievalService-Forge-1.0.0.jar",
+      "hash": "sha512-9No2GMhWDyVqDy8MB6GHkk/vjl2lFTQ8pmbbi2g2Al0YjvIM1qHZOxrEW4QDdlZ8U6hxSW8aIOyIEhmJ1sx/sQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "DlYy6vYo",
+      "9q5RQL4j"
+    ],
+    "1.20.1+forge": [
+      "2GjJDWeQ",
+      "UsaXRK9A"
+    ]
+  }
+}

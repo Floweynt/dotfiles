@@ -1,0 +1,111 @@
+{
+  "slug": "tier-checker",
+  "projectId": "uKBeFjnQ",
+  "versions": {
+    "BFC2AnT7": {
+      "filename": "tierchecker-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/uKBeFjnQ/versions/BFC2AnT7/tierchecker-1.1.0.jar",
+      "hash": "sha512-mQdko4vp5yX2hIZ8lgQQKoibP4+uKyzUJqFULpuCUw6jdu46IPrKwzsOx8wuhVed+lA7H4tXsUZqi8WlhiAchg==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LhCOqg2Z": {
+      "filename": "tierchecker-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/uKBeFjnQ/versions/LhCOqg2Z/tierchecker-1.2.0.jar",
+      "hash": "sha512-fT4nle8WJJU4z/NifuVGVL4JQgMyTihiGi6ckJdwjTB5bASGWy7sl75Ky0hvmr2BkkqeEJGBCge9dfn428vLrQ==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "quTfnZcZ": {
+      "filename": "tierchecker-1.2.1+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/uKBeFjnQ/versions/quTfnZcZ/tierchecker-1.2.1%2B1.21.7.jar",
+      "hash": "sha512-oIPqyWkdJm+ekWySm5CJRey6y6tN9CqKnX3wqHGjmk1l+WHGH2VqzomNJDRwvJSXNavXChOPbvw8qFX81494vA==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "LhCOqg2Z",
+      "BFC2AnT7"
+    ],
+    "1.21.5+fabric": [
+      "LhCOqg2Z",
+      "BFC2AnT7"
+    ],
+    "1.21.7+fabric": [
+      "quTfnZcZ"
+    ]
+  }
+}

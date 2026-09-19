@@ -1,0 +1,113 @@
+{
+  "slug": "enchantment-stacker",
+  "projectId": "JCUkdrfX",
+  "versions": {
+    "SKuCII2D": {
+      "filename": "enchantmentstacker-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/JCUkdrfX/versions/SKuCII2D/enchantmentstacker-1.2.0.jar",
+      "hash": "sha512-jlRLIRaIHzG784GQwOn+UrzbP9GPtA30ujDYJ3IEGaPwXmg6yibNjBNdQSo15ujLy2qNQ3XFUxH9f9p4aVNEIQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "ae3A3ge2": {
+      "filename": "enchantmentstacker-1.2.0(26.1v).jar",
+      "url": "https://cdn.modrinth.com/data/JCUkdrfX/versions/ae3A3ge2/enchantmentstacker-1.2.0%2826.1v%29.jar",
+      "hash": "sha512-RWSW8/tbcf3Di81zxoqf4Vqx6BWFAxg8tE1xrVDyNujKCt37Ru3QUpv1C7S7gT0sQsRwnCgHwjJejEcdhC6KEg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "w8Ow6NMq": {
+      "filename": "enchantmentstacker-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JCUkdrfX/versions/w8Ow6NMq/enchantmentstacker-1.1.0.jar",
+      "hash": "sha512-WKb7Kp3RaYPMoEMTK4ktsezFnGoXJd4NODX3Qe5RQgvMzGvxg6f4Pdka0ZIPHQlZAf02ObUnxVe6/R5rbZObYg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "SKuCII2D",
+      "w8Ow6NMq"
+    ],
+    "26.1+fabric": [
+      "ae3A3ge2"
+    ],
+    "26.1.1+fabric": [
+      "ae3A3ge2"
+    ],
+    "26.1.2+fabric": [
+      "ae3A3ge2"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "aio-easy-upgrade-template",
+  "projectId": "fa28TQOH",
+  "versions": {
+    "jMalhBot": {
+      "filename": "aio-easy-upgrade-template-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/fa28TQOH/versions/jMalhBot/aio-easy-upgrade-template-1.2.jar",
+      "hash": "sha512-UvbaOeDqAFNYIrg0CcCY+qIOJlyotmLH7xXdWJef/RbqRXCaShG0k2i2iIB9fhtEDuS1E8BcAQ0L/NZQDI/PRw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "jMalhBot"
+    ],
+    "1.21+forge": [
+      "jMalhBot"
+    ],
+    "1.21+neoforge": [
+      "jMalhBot"
+    ],
+    "1.21+quilt": [
+      "jMalhBot"
+    ],
+    "1.21.1+fabric": [
+      "jMalhBot"
+    ],
+    "1.21.1+forge": [
+      "jMalhBot"
+    ],
+    "1.21.1+neoforge": [
+      "jMalhBot"
+    ],
+    "1.21.1+quilt": [
+      "jMalhBot"
+    ]
+  }
+}

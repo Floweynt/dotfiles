@@ -1,0 +1,106 @@
+{
+  "slug": "better-amethyst-polymerized",
+  "projectId": "qPgZ1tMu",
+  "versions": {
+    "BOahNONV": {
+      "filename": "betteramethyst-1.0.1+1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/qPgZ1tMu/versions/BOahNONV/betteramethyst-1.0.1%2B1.21-1.21.1.jar",
+      "hash": "sha512-0Pn6dzvcynq4mv0+HGflPDfnpsxqCym7TY/ObEfs/nf1Vac8E9q4lnPzU7da9x02/62pYk8FJaZM0At3d9ef0w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "N0UisXYb": {
+      "filename": "betteramethyst-1.0.0+-1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/qPgZ1tMu/versions/N0UisXYb/betteramethyst-1.0.0%2B-1.21-1.21.1.jar",
+      "hash": "sha512-FBQTHO0SQj6cWgUNlTye2doSQUabvbI/tQWQxqCoGLN+Fe1euv1QZ4W8xxpAQx4T6i4BrhiKYx7BHe9jNTN9Cw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "nRgSRJLN": {
+      "filename": "betteramethyst-1.0.2+1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/qPgZ1tMu/versions/nRgSRJLN/betteramethyst-1.0.2%2B1.21-1.21.1.jar",
+      "hash": "sha512-3ORpix61uQOnEOAgkDRzV4LmeNFSjuKaIeNsaMnSz6g5SZwzlIxKx+mEPJ5BfVpe3oUYx5Ni8kRsQg6qfmkjjQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "nRgSRJLN",
+      "BOahNONV",
+      "N0UisXYb"
+    ],
+    "1.21.1+fabric": [
+      "nRgSRJLN",
+      "BOahNONV",
+      "N0UisXYb"
+    ]
+  }
+}

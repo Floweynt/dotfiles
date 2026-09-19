@@ -1,0 +1,40 @@
+{
+  "slug": "more-composting",
+  "projectId": "mdS5m6Cl",
+  "versions": {
+    "ZT4csBI1": {
+      "filename": "MoreComposting-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mdS5m6Cl/versions/ZT4csBI1/MoreComposting-1.0.0.jar",
+      "hash": "sha512-9dvhc+U1JpQTFA7wux0bPt8RRtVuqtTahYYi6JHBYGFVEUhnB9HNT6Wf5Qt3uQnzkdZpRbNMFFvtFIfalVaF2g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "ZT4csBI1"
+    ],
+    "1.20.1+fabric": [
+      "ZT4csBI1"
+    ]
+  }
+}

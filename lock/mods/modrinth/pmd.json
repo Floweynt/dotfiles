@@ -1,0 +1,86 @@
+{
+  "slug": "pmd",
+  "projectId": "4UyyBH34",
+  "versions": {
+    "mQ8mVLtI": {
+      "filename": "pmd-1.2.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/4UyyBH34/versions/mQ8mVLtI/pmd-1.2.0-fabric-1.20.1.jar",
+      "hash": "sha512-RRJVcHREG6GalGzupdnaOhKIikzYPoC1Co2tO5J/OFuN1xP0g10leS4BSgoayRCHEebldsnDy6FGC2+SZ68Z2g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "minecraft-transit-railway",
+          "projectId": "XKPAmI6u",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mZIyboMP": {
+      "filename": "pmd-1.0.3-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/4UyyBH34/versions/mZIyboMP/pmd-1.0.3-fabric-1.20.1.jar",
+      "hash": "sha512-zo8B8AV5SeE8C/zok6nT4uBuKzWzgIJPnksHAv6TspTf8qiY9I1db6d8viMplSEDpmuk9z5n7h5LmUX8EcYUtQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "minecraft-transit-railway",
+          "projectId": "XKPAmI6u",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "mQ8mVLtI"
+    ],
+    "1.20.1+fabric": [
+      "mQ8mVLtI",
+      "mZIyboMP"
+    ],
+    "1.20.2+fabric": [
+      "mQ8mVLtI"
+    ],
+    "1.20.3+fabric": [
+      "mQ8mVLtI"
+    ],
+    "1.20.4+fabric": [
+      "mQ8mVLtI"
+    ],
+    "1.20.5+fabric": [
+      "mQ8mVLtI"
+    ],
+    "1.20.6+fabric": [
+      "mQ8mVLtI"
+    ]
+  }
+}

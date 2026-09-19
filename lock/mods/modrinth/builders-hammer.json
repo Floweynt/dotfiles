@@ -1,0 +1,79 @@
+{
+  "slug": "builders-hammer",
+  "projectId": "qeyBmD9C",
+  "versions": {
+    "KMnL5F7v": {
+      "filename": "builders-hammer-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/qeyBmD9C/versions/KMnL5F7v/builders-hammer-0.1.0.jar",
+      "hash": "sha512-rBYlXP2VMvMf2/kr8Id1S6ClqaC0SvAmqPdPHgEzci81/i/jN/L+h5mkmzTwaE+GwWQHj/ByTP1AetlQ7PIiBg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VV4tkIeE": {
+      "filename": "builders-hammer-0.1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/qeyBmD9C/versions/VV4tkIeE/builders-hammer-0.1.1%2B1.20.1.jar",
+      "hash": "sha512-lJPcuzOnlfiz7jDo0jDJyAlaCVgH27mx0vHl0GHStA1zkgDdoezrdMq7Kq6Ia+bPpt34jdhU3c8ZCxi11HhDlA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nDCH5Tw9": {
+      "filename": "builders-hammer-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/qeyBmD9C/versions/nDCH5Tw9/builders-hammer-0.1.1.jar",
+      "hash": "sha512-tfx6yh5AlnERnsqXLygft2MtaTczbiJwsszSpVVBV/cRQIwKH5ehIKQm8mrvgXsPjiSu/NtrSjMHt3W6up8wGA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VV4tkIeE"
+    ],
+    "1.20.2+fabric": [
+      "VV4tkIeE"
+    ],
+    "1.20.4+fabric": [
+      "nDCH5Tw9",
+      "KMnL5F7v"
+    ]
+  }
+}

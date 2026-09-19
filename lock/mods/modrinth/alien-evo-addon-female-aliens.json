@@ -1,0 +1,52 @@
+{
+  "slug": "alien-evo-addon-female-aliens",
+  "projectId": "WNS7W3zc",
+  "versions": {
+    "BrlqeODT": {
+      "filename": "Female-Aliens.jar",
+      "url": "https://cdn.modrinth.com/data/WNS7W3zc/versions/BrlqeODT/Female-Aliens.jar",
+      "hash": "sha512-l5vQd56nySKHAmdXiQPjkW0JLoLjYZET3MxnwmSKw3XR0OB2B09m6m3oevCwJSjDbqEz6FOsbk/VD2NsbkvPVQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "FzUr4nsv": {
+      "filename": "Female-Aliens.jar",
+      "url": "https://cdn.modrinth.com/data/WNS7W3zc/versions/FzUr4nsv/Female-Aliens.jar",
+      "hash": "sha512-g+GaxGjTneH9lr5tO+sm3RSMp7tnrvbcFH6fhy/1Gljbq5cKaFrkRflBdgYwrEv77/rw0A6U3wP3Ix1OivLZ5Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FzUr4nsv",
+      "BrlqeODT"
+    ],
+    "1.20.1+forge": [
+      "FzUr4nsv",
+      "BrlqeODT"
+    ]
+  }
+}

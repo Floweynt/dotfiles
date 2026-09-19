@@ -1,0 +1,46 @@
+{
+  "slug": "pixel-chameleon",
+  "projectId": "BA5MzyIS",
+  "versions": {
+    "1alXSesf": {
+      "filename": "meccha-1.13.63.jar",
+      "url": "https://cdn.modrinth.com/data/BA5MzyIS/versions/1alXSesf/meccha-1.13.63.jar",
+      "hash": "sha512-UBr6Bc/SRKv8YjBMe1/R5ji7XaWJ8CP1Yj1lJaRdz2QCBlvDqD84dxdt2rX986gheoXgAFGiiX1LIOoI9ZL+cg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wgX07htK": {
+      "filename": "meccha-1.13.59.jar",
+      "url": "https://cdn.modrinth.com/data/BA5MzyIS/versions/wgX07htK/meccha-1.13.59.jar",
+      "hash": "sha512-EXrYEooPdhW2cSi9pc9FCI9a/ueMA9PQ4qJnW1XFu15MJTDNxFoL2hfbJo+BbASiliysM1pe9H/W9MQFPXjnQA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "1alXSesf",
+      "wgX07htK"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "orbital-railgun",
+  "projectId": "biNmuvyg",
+  "versions": {
+    "7MmpTgrB": {
+      "filename": "orbital_railgun-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/biNmuvyg/versions/7MmpTgrB/orbital_railgun-1.1.jar",
+      "hash": "sha512-KtUIg5qYLosk+cebmd3RmEcq+cInIDC3KPwz+NYYJBrhM6NrmSpHF0fkyHHyawFL1d4GtdD2wGUg4SGmhnvnTA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "qoxgP92g": {
+      "filename": "orbital_railgun-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/biNmuvyg/versions/qoxgP92g/orbital_railgun-1.0.jar",
+      "hash": "sha512-elBjArcYr5Ixc4Hg0RfDnzXjHDM5VE6xLpPS8BCIzsMqmc/2H1yYQLVXTs1v92lU2vBJ4dVxCH4I83iSkrg/8w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "7MmpTgrB",
+      "qoxgP92g"
+    ]
+  }
+}

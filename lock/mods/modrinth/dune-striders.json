@@ -1,0 +1,52 @@
+{
+  "slug": "dune-striders",
+  "projectId": "mD8LJrD8",
+  "versions": {
+    "RwnX1vzW": {
+      "filename": "dunestriders-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mD8LJrD8/versions/RwnX1vzW/dunestriders-1.0.0.jar",
+      "hash": "sha512-GYfen4cEXCljN54TpatUXjNZoZzzgCPJdCxJpeDGhqBOg83fio+Ny+ZbR0lytJTaPcvhy7+vnO6gIZKhxKV6Xw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yBLcZZRZ": {
+      "filename": "dunestriders-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/mD8LJrD8/versions/yBLcZZRZ/dunestriders-1.0.1.jar",
+      "hash": "sha512-4mDvJSkgDIQhS0u5IDz6AzpNV5WLMuOO2l27FHwZR4IsSxbAtRTuG+6IpiXEYfA/mpVj51/7O2hYCUpHsZt4ig==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "yBLcZZRZ",
+      "RwnX1vzW"
+    ],
+    "1.21.11+quilt": [
+      "yBLcZZRZ",
+      "RwnX1vzW"
+    ]
+  }
+}

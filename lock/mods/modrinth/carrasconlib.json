@@ -1,0 +1,100 @@
+{
+  "slug": "carrasconlib",
+  "projectId": "QpsOhpBa",
+  "versions": {
+    "AZ2Fgsfn": {
+      "filename": "carrasconlib-neoforge-1.21.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QpsOhpBa/versions/AZ2Fgsfn/carrasconlib-neoforge-1.21.1-0.1.jar",
+      "hash": "sha512-Kh0bH8qAsSRuEpyB/aWxjTXxAUUVOoCtjCFshudRlCJAFYjDnG47LhDONm9LpLT+OKuSArop9Y15qpN6eJ1Jgg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "DudxDdYO": {
+      "filename": "carrasconlib-forge-1.20.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QpsOhpBa/versions/DudxDdYO/carrasconlib-forge-1.20.1-0.1.jar",
+      "hash": "sha512-BNOcrs2rQPd4XL7IKqtC/UAvwYIvh1XJFsytuSHCRvsG3bQ/nHR0CAPqZBorY+vFCu69umDIiAbX9gzaug8/Bg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "TlRPZ4vB": {
+      "filename": "carrasconlib-fabric-1.20.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QpsOhpBa/versions/TlRPZ4vB/carrasconlib-fabric-1.20.1-0.1.jar",
+      "hash": "sha512-OqSUIz3fHacuSQUuLea92hNs6QZ5Hm4TWZLkUbph19i4DTR7pIp5JV9iiJugE3ArN7c3VLsIjhG969VcdgoUZA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "upht9oLy": {
+      "filename": "carrasconlib-fabric-1.21.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QpsOhpBa/versions/upht9oLy/carrasconlib-fabric-1.21.1-0.1.jar",
+      "hash": "sha512-iLg+jb8X/rwipz5OoqhDH1p9N3EDs7Z/FKWgqlYNSeE4xUxZrk3XtMN5/Tach+AIIZirvKQ5Rgg/byatdwqAww==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "TlRPZ4vB"
+    ],
+    "1.20.1+forge": [
+      "DudxDdYO"
+    ],
+    "1.21.1+fabric": [
+      "upht9oLy"
+    ],
+    "1.21.1+neoforge": [
+      "AZ2Fgsfn"
+    ]
+  }
+}

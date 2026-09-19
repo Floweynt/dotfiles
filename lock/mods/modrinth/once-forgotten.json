@@ -1,0 +1,52 @@
+{
+  "slug": "once-forgotten",
+  "projectId": "trxFUSP6",
+  "versions": {
+    "dznoCa5Q": {
+      "filename": "onceforgotten-1.9.5-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/trxFUSP6/versions/dznoCa5Q/onceforgotten-1.9.5-1.19.2.jar",
+      "hash": "sha512-3twElvlulJUYUisoV2YD68RTPrjSfXI3SxB/D0d7ge2KJWyMgeTKu7RksEVqyw4VWpvB5P037kXb3HytsuXNlA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "m3GhVFIn": {
+      "filename": "onceforgotten-1.9.4-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/trxFUSP6/versions/m3GhVFIn/onceforgotten-1.9.4-1.19.2.jar",
+      "hash": "sha512-1cLKCg1EFkRcx2J8qbQbVlZsHoY2xN7T+ekkpwp12Jfdw9oRRMclEYL1yZ5XmCbUr52HQfbpcA9SGvF3UtsPuQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "dznoCa5Q",
+      "m3GhVFIn"
+    ]
+  }
+}

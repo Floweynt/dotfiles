@@ -1,0 +1,82 @@
+{
+  "slug": "inverse-phantoms",
+  "projectId": "iCi8g9BR",
+  "versions": {
+    "JFGcljEj": {
+      "filename": "inversePhantoms-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/iCi8g9BR/versions/JFGcljEj/inversePhantoms-1.0.1.jar",
+      "hash": "sha512-C3l4DyEeWePCcnZj55UrZIFxZAARSrqK8U3GknjhP3l4T1ja7/+h7DrAz85cbSLVu/dDNG79RNZJ24b/Qz69zw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "WpzUHfTZ": {
+      "filename": "inversePhantoms-v1.1.1+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/iCi8g9BR/versions/WpzUHfTZ/inversePhantoms-v1.1.1%2Bmc1.21.jar",
+      "hash": "sha512-1UBQx+OhUGoNOTfzG9CtBLeehThYOqGBptvVRdc2Xvx/sTSqsSzinGcW7jXWJPbEWmF8k7u880Qo2MGKi8CLRw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ilcDYBNt": {
+      "filename": "inversePhantoms-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/iCi8g9BR/versions/ilcDYBNt/inversePhantoms-1.0.0.jar",
+      "hash": "sha512-dqprVB5z77vJIMq3HepblMvWoxl+qZ4/pozl5wS3CwrLNxhkbSyf0x0xO08F4FZ8foS0N2etAUK9RJMvZaVVJw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "onFootlq": {
+      "filename": "inversePhantoms-v1.1.0+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/iCi8g9BR/versions/onFootlq/inversePhantoms-v1.1.0%2Bmc1.21.jar",
+      "hash": "sha512-kGQKejBNurjmauJzkf2tJnFbTR6IAbuP0OC/oLtMQrSrWu4eC+bbZnlT3Og1AF9TKpR1HvhP5BOhEFSRCCoRsw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "JFGcljEj",
+      "ilcDYBNt"
+    ],
+    "1.21+fabric": [
+      "WpzUHfTZ",
+      "onFootlq"
+    ],
+    "1.21.1+fabric": [
+      "WpzUHfTZ"
+    ]
+  }
+}

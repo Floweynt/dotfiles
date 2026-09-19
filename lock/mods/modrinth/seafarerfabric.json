@@ -1,0 +1,31 @@
+{
+  "slug": "seafarerfabric",
+  "projectId": "A6SBw1Ue",
+  "versions": {
+    "ACRksjr8": {
+      "filename": "seafarer-1.0.0+fabric.1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/A6SBw1Ue/versions/ACRksjr8/seafarer-1.0.0%2Bfabric.1.20.1.jar",
+      "hash": "sha512-xBpJJMkxI6v0bc3YtTVE+/K7BBANfHPn+9NzFtSeDzIMp65dDrusYfEnjwDAjnJQl+dRlCH4UDtcP/ZqQyp7hw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ACRksjr8"
+    ]
+  }
+}

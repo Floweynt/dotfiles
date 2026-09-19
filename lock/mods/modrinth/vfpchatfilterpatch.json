@@ -1,0 +1,54 @@
+{
+  "slug": "vfpchatfilterpatch",
+  "projectId": "giM6aRTp",
+  "versions": {
+    "5jJLt9VP": {
+      "filename": "VFPChatFilterPatch-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/giM6aRTp/versions/5jJLt9VP/VFPChatFilterPatch-0.2.jar",
+      "hash": "sha512-PIP+JMeNlqNlx2B/IHbljOPffup0LkTsSg53DtbnjskuXSvGsvh2umviSxdhVRFdTzBBIjnySXLPwXvTY61Yqw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "viafabricplus",
+          "projectId": "rIC2XJV4",
+          "type": "required"
+        }
+      ]
+    },
+    "8gpC4ou5": {
+      "filename": "VFPChatFilterPatch-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/giM6aRTp/versions/8gpC4ou5/VFPChatFilterPatch-0.1.jar",
+      "hash": "sha512-2nQNu0KrwdKPWaTeQTbwpPth6ubHMrc3RWj3MAU3vSLPpYUfoREqXeL7Uts8IYsyR+QnBzN7ITIKO1rXfvrXsQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "viafabricplus",
+          "projectId": "rIC2XJV4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "8gpC4ou5"
+    ],
+    "1.21.11+fabric": [
+      "5jJLt9VP"
+    ]
+  }
+}

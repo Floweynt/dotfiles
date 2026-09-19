@@ -1,0 +1,128 @@
+{
+  "slug": "no-precision-mechanism-junk",
+  "projectId": "kYbBZRDK",
+  "versions": {
+    "70uLn4wp": {
+      "filename": "no-precision-mechanism-junk-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kYbBZRDK/versions/70uLn4wp/no-precision-mechanism-junk-1.0.0.jar",
+      "hash": "sha512-/bQl/+iWJtrIMcRCMr1/Qj+41lSxIpW7hiRD6jJ17sbzgP24qmTCQ3v7XOGPEZujZXh1EtIUbXP8skrskxDuvg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "E04NjaVV": {
+      "filename": "no-precision-mechanism-junk-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/kYbBZRDK/versions/E04NjaVV/no-precision-mechanism-junk-1.0.0-fabric.jar",
+      "hash": "sha512-XZ5sXVxkol7z9d0YHc4VS14kux8SRlulH8mGvUrDRGnqnqmTbpOfLmsfH9vwniNLhl5nl8E28qi8MvQY1zDsUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "GTH6iJSc": {
+      "filename": "vercte_nocogwheelsfromprecision_fabric_1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/kYbBZRDK/versions/GTH6iJSc/vercte_nocogwheelsfromprecision_fabric_1.20.1.zip",
+      "hash": "sha512-phIX0Bsyou8Kxk9EKUdXYYgkQCHZg7m2P1zRZUYCy4TO3HtbhZWOAHS8NaQARxTazevz+BqAx5TymFFBD+SUVQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "GmKLkPqv": {
+      "filename": "vercte_nocogwheelsfromprecision_neo_1.21.1.zip",
+      "url": "https://cdn.modrinth.com/data/kYbBZRDK/versions/GmKLkPqv/vercte_nocogwheelsfromprecision_neo_1.21.1.zip",
+      "hash": "sha512-karVTcfi/L1dTMHf7mWy2ZyNGzGDXOUtVY/1ENg6LI/1Ae/sF5T4R32pnipEA3RS/R9rcHoNp1WFu7kbJx21Xg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "jbVpFZ4j": {
+      "filename": "vercte_nocogwheelsfromprecision_forge.zip",
+      "url": "https://cdn.modrinth.com/data/kYbBZRDK/versions/jbVpFZ4j/vercte_nocogwheelsfromprecision_forge.zip",
+      "hash": "sha512-KJYF0fc/+PP/Ub2ONnUZFYAbCSm3cABstcv6zZrlffewYgc1uo7ncueytc+vaqdWN1Jazf4EL9xxUO20gvnBHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "o4ncSb6Z": {
+      "filename": "no-precision-mechanism-junk-1.1.0-neo.jar",
+      "url": "https://cdn.modrinth.com/data/kYbBZRDK/versions/o4ncSb6Z/no-precision-mechanism-junk-1.1.0-neo.jar",
+      "hash": "sha512-k1/r7PMJzL6D2f+ESfnDZjdESnih9h9GAYVxbYlEo1qNY9nBmpHxfhhBEv0+8KAf2Qr/k8Us8b2McGqYyyX2cA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "jbVpFZ4j",
+      "GTH6iJSc"
+    ],
+    "1.20.1+fabric": [
+      "E04NjaVV"
+    ],
+    "1.20.1+forge": [
+      "70uLn4wp"
+    ],
+    "1.20.1+neoforge": [
+      "70uLn4wp"
+    ],
+    "1.20.1+quilt": [
+      "E04NjaVV"
+    ],
+    "1.21.1+datapack": [
+      "GmKLkPqv"
+    ],
+    "1.21.1+neoforge": [
+      "o4ncSb6Z"
+    ]
+  }
+}

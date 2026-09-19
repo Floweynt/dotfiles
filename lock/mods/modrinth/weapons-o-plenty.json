@@ -1,0 +1,106 @@
+{
+  "slug": "weapons-o-plenty",
+  "projectId": "uspNfGqa",
+  "versions": {
+    "826IUMxK": {
+      "filename": "weapons_o_plenty-1.0.0-neoforge-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/uspNfGqa/versions/826IUMxK/weapons_o_plenty-1.0.0-neoforge-1.21.4.jar",
+      "hash": "sha512-rsZS9bXykY6xwq+mXyLWOJPja7JgtQw5yH7nyzx0BwgjXwBDM2KNTmjhoGJpcu3SAJyppByxgBGGnIpCRnEyiQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UwSlx8cl": {
+      "filename": "weapons_o_plenty_fabric-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/uspNfGqa/versions/UwSlx8cl/weapons_o_plenty_fabric-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-UOzBoHyUaGKg3E/KN4ySeB1oZNO7F8VHaQImGIfEPGyZac8zlCkTbW9kWmkp4LyKpdgYU7r7PPtWHqdcxtw5fw==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YQurRFNm": {
+      "filename": "weapons_o_plenty-1.0.2-neoforge-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/uspNfGqa/versions/YQurRFNm/weapons_o_plenty-1.0.2-neoforge-1.21.8.jar",
+      "hash": "sha512-gk843DZNwMFWSGJ+tbxBLU8IY+gE3LY0jYGqiCF+g2Ep7LPLjODyv2FNQBpICeSS8q23luQKsxscC/UCkVFY5w==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yjhaGFcO": {
+      "filename": "weapons_o_plenty-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/uspNfGqa/versions/yjhaGFcO/weapons_o_plenty-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-4LuBUdklZIiwffOKCigHAKu6hqnPpCHRFsdpNrUjH9KIoZ5pgKr+OZoW4R01Shs15GXPn4bwnUalSLKdC7JagA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "yjhaGFcO"
+    ],
+    "1.21.10+fabric": [
+      "UwSlx8cl"
+    ],
+    "1.21.10+neoforge": [
+      "YQurRFNm"
+    ],
+    "1.21.11+fabric": [
+      "UwSlx8cl"
+    ],
+    "1.21.11+neoforge": [
+      "YQurRFNm"
+    ],
+    "1.21.4+neoforge": [
+      "826IUMxK"
+    ],
+    "1.21.8+fabric": [
+      "UwSlx8cl"
+    ],
+    "1.21.8+neoforge": [
+      "YQurRFNm"
+    ],
+    "1.21.9+fabric": [
+      "UwSlx8cl"
+    ],
+    "1.21.9+neoforge": [
+      "YQurRFNm"
+    ]
+  }
+}

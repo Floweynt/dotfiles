@@ -1,0 +1,92 @@
+{
+  "slug": "backrooms-ff-continued",
+  "projectId": "GFhrguir",
+  "versions": {
+    "dyWdbKMm": {
+      "filename": "backrooms-ff-continued-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GFhrguir/versions/dyWdbKMm/backrooms-ff-continued-2.0.0.jar",
+      "hash": "sha512-JIf+j55x9EXGa62gm4S3Mku/Lcf1mytHeCaEqzJ69ieHXidvAPhOVa97tcWR34WucKNvGxcjRTWQ/+feLc/blQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eeW0vZst": {
+      "filename": "backrooms-ff-continued-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GFhrguir/versions/eeW0vZst/backrooms-ff-continued-2.0.1.jar",
+      "hash": "sha512-3QovXLf+dxPmPHjkjfeQ+EKIadrRdG9roiUGe7KHLz6QTKRv7VS8BxlUfMzPvEqHrpp4armhsbKSpchCG3RD7g==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "eeW0vZst",
+      "dyWdbKMm"
+    ]
+  }
+}

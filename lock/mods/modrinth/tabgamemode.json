@@ -1,0 +1,43 @@
+{
+  "slug": "tabgamemode",
+  "projectId": "9M7UAb9c",
+  "versions": {
+    "n43qffmh": {
+      "filename": "tabgamemodes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9M7UAb9c/versions/n43qffmh/tabgamemodes-1.0.0.jar",
+      "hash": "sha512-S2X0hMvdzAG47qGBMoygzj7gX6Gtw/xc6bv6RULITES5YdrxYhPybtCN1fIlnSFQwCog7Bk9Gi5CuVCOVygiCg==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "n43qffmh"
+    ],
+    "1.21.11+fabric": [
+      "n43qffmh"
+    ],
+    "1.21.8+fabric": [
+      "n43qffmh"
+    ],
+    "1.21.9+fabric": [
+      "n43qffmh"
+    ]
+  }
+}

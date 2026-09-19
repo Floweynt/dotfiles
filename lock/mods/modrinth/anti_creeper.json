@@ -1,0 +1,75 @@
+{
+  "slug": "anti_creeper",
+  "projectId": "Uqqp9wzq",
+  "versions": {
+    "YLMfuNlm": {
+      "filename": "anti-creeper-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Uqqp9wzq/versions/YLMfuNlm/anti-creeper-1.0.0.jar",
+      "hash": "sha512-oP1aGAYdTHisYAzCemlNaa4xhAzRF0i1yTX2x7GHpZC1q64oiyWE3nYBUTm76JO+2Qp8lsTmtAPls+AnYhdi+w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "crY0FCFL": {
+      "filename": "anti-creeper-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Uqqp9wzq/versions/crY0FCFL/anti-creeper-1.0.0.jar",
+      "hash": "sha512-+vabU+zPHxgFDSk96vqanZEQAtbvEp25lsn1J/tK/SlyCri1Q1whFMYDXy9MgIjRCsH+cZjWLW/McwgwMIbeQQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "tyJRFJbu": {
+      "filename": "anti-creeper-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Uqqp9wzq/versions/tyJRFJbu/anti-creeper-1.1.0.jar",
+      "hash": "sha512-pQhvaztLAPsgLIM9zsr83n2Hiafj70+1n0ywwWyUVeDf5Aa22ScB3DiDZ/ymef5R2AoCiIgKVmURiCLxGJ5suQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "tyJRFJbu",
+      "YLMfuNlm",
+      "crY0FCFL"
+    ],
+    "1.21.1+fabric": [
+      "tyJRFJbu",
+      "YLMfuNlm",
+      "crY0FCFL"
+    ]
+  }
+}

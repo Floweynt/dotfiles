@@ -1,0 +1,85 @@
+{
+  "slug": "lithium-raycast-fix",
+  "projectId": "GLVp5tfO",
+  "versions": {
+    "EaLjooge": {
+      "filename": "lithium-raycast-fix-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GLVp5tfO/versions/EaLjooge/lithium-raycast-fix-1.0.1.jar",
+      "hash": "sha512-laPFDtH+hhEHc12GZBo3BJb3EGjPLd4HtsPes9rsVD2ojSywZQblIebIuJ3sLKDtOfq/XsaYXrwLSLvdLyTiKg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "lithium",
+          "projectId": "gvQqBUqZ",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "ftRgmfRC": {
+      "filename": "lithium-raycast-fix-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GLVp5tfO/versions/ftRgmfRC/lithium-raycast-fix-1.0.1.jar",
+      "hash": "sha512-QdHqZTLGjs7akh7gp78s5io3QnqWHJLypiflZsWUgSG+xZzlxOd5pBBiaa0C9qDDCizD3yjErtnpRRS+t77DNg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "lithium",
+          "projectId": "gvQqBUqZ",
+          "type": "required"
+        }
+      ]
+    },
+    "xYhPbBiS": {
+      "filename": "lithium-raycast-fix-1.0.0-dev.jar",
+      "url": "https://cdn.modrinth.com/data/GLVp5tfO/versions/xYhPbBiS/lithium-raycast-fix-1.0.0-dev.jar",
+      "hash": "sha512-dz5hL2bm93SaXyJmeQnNuJy9xatVL5gE/GT2ueo0qLJimGPj5QS+ObGbcsncQuQs92XIhe8VOSHpCecfw/TCZw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "lithium",
+          "projectId": "gvQqBUqZ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "ftRgmfRC"
+    ],
+    "1.20.1+fabric": [
+      "EaLjooge",
+      "xYhPbBiS"
+    ]
+  }
+}

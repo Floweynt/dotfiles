@@ -1,0 +1,82 @@
+{
+  "slug": "the-legend-of-herobrine-spring-to-life-compat",
+  "projectId": "bwqaJGgB",
+  "versions": {
+    "I9s8syZ6": {
+      "filename": "TheLegendOfHerobrine-SpringCompat-1.20.1-0.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/bwqaJGgB/versions/I9s8syZ6/TheLegendOfHerobrine-SpringCompat-1.20.1-0.8.0.jar",
+      "hash": "sha512-ONhWs/WoGTIp9PhoFov72IDESzERVCLIO49VA7H3V8X4aVAKfkh5Zr86JG5xlfdPfFVBnThi4Sumalb/BuFT2g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "the-legend-of-herobrine",
+          "projectId": "pxcPUxNg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "spring-to-life-backport",
+          "projectId": "RU1Os6h8",
+          "type": "required"
+        }
+      ]
+    },
+    "jncb1ats": {
+      "filename": "TheLegendOfHerobrine-SpringCompat-1.21.1-0.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/bwqaJGgB/versions/jncb1ats/TheLegendOfHerobrine-SpringCompat-1.21.1-0.8.0.jar",
+      "hash": "sha512-4ZFUQ0gKSoE1bpQtT/Oq03E8lcGrbgY+XMXehSJQ29QdEKXEGIMnGXgzubLJx7SviH+UdlrwDs6ALFTUSkF3mw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "the-legend-of-herobrine",
+          "projectId": "pxcPUxNg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "spring-to-life-backport",
+          "projectId": "RU1Os6h8",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "I9s8syZ6"
+    ],
+    "1.20.1+quilt": [
+      "I9s8syZ6"
+    ],
+    "1.21.1+fabric": [
+      "jncb1ats"
+    ],
+    "1.21.1+quilt": [
+      "jncb1ats"
+    ]
+  }
+}

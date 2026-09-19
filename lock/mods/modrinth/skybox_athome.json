@@ -1,0 +1,62 @@
+{
+  "slug": "skybox_athome",
+  "projectId": "A1FL34wX",
+  "versions": {
+    "6n8dceuR": {
+      "filename": "skyboxathome-0.1.1+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/A1FL34wX/versions/6n8dceuR/skyboxathome-0.1.1%2B1.20.4.jar",
+      "hash": "sha512-xUs0vCVf0aVfaeIYrhy+YMKHA85RmOht2HrT/dblpkXtvoQ2bYKNmCr9Cy+WwVWLYdJacHjD0+iIKkr6CAW9zg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "A9YpZkm1": {
+      "filename": "skyboxathome-0.1.0+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/A1FL34wX/versions/A9YpZkm1/skyboxathome-0.1.0%2B1.20.4.jar",
+      "hash": "sha512-nyl1ihu4rxQfxef4FRBvGx+DQLJ/E74tFKZCxdZlXaYcBIRf97CJDAaRXzq1AuutZHkc7P6tx1VuEcwpvjNF3A==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "6n8dceuR",
+      "A9YpZkm1"
+    ]
+  }
+}

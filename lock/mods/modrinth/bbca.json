@@ -1,0 +1,69 @@
+{
+  "slug": "bbca",
+  "projectId": "1a5e0fAT",
+  "versions": {
+    "JT9sPwiI": {
+      "filename": "BBCA v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1a5e0fAT/versions/JT9sPwiI/BBCA%20v1.0.jar",
+      "hash": "sha512-ZhoNKU2lmvuRsGPuHUfd4Hyg+xjtsyZT+CGjN6fKPbIX1eWwIqBtgZb5RAUj5pngEs+UJJdTEtKxnGOmiYR4tg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    },
+    "M3HeCMQa": {
+      "filename": "BBCA v1.1.jar",
+      "url": "https://cdn.modrinth.com/data/1a5e0fAT/versions/M3HeCMQa/BBCA%20v1.1.jar",
+      "hash": "sha512-D4dj3UJwpi7BdJLyLEKmsKgWhu+odmfLmcE2RsKtVIL8MQ2ufQJ449UuJwsJ3SjfrD8U3wbEKCzrT0vbfuMrDQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    },
+    "bNF0gRxL": {
+      "filename": "BBCA v3.3.jar",
+      "url": "https://cdn.modrinth.com/data/1a5e0fAT/versions/bNF0gRxL/BBCA%20v3.3.jar",
+      "hash": "sha512-m2yjoQuVfxOPfVH1nm3JrZZc0wpT4v/7vob7UVNZ3ZebIpU65FU8/2BXeqrFn6D0p2P6BcwAqn53BsRtcB9XRw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "bNF0gRxL",
+      "JT9sPwiI"
+    ],
+    "1.20.1+forge": [
+      "M3HeCMQa"
+    ]
+  }
+}

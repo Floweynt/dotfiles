@@ -1,0 +1,88 @@
+{
+  "slug": "canadian-content",
+  "projectId": "pODb2IRm",
+  "versions": {
+    "6hEhLxjM": {
+      "filename": "canadamod-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pODb2IRm/versions/6hEhLxjM/canadamod-1.1.0.jar",
+      "hash": "sha512-nLBle8d04Gb4WETy3VpiK/GRhcn10l7+zY01awc8lx+wc+CEL53nQjJ1DRVOcuZYxAo3yzVUDq9bJZly/QIjfg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "kuzpVJp8": {
+      "filename": "canadamod-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pODb2IRm/versions/kuzpVJp8/canadamod-1.0.1.jar",
+      "hash": "sha512-fKXf0ZYJ2q8KS5D7znxXreQdf14YyCfzijKPPozgZsPe6C6ia5OGUwkDIVQrRqwJoDAxOTGPTzHW4zk6s6/PfQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vn9hmjQw": {
+      "filename": "canadamod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pODb2IRm/versions/vn9hmjQw/canadamod-1.0.0.jar",
+      "hash": "sha512-izZgSP6rzOLaJKiE35yk1cfKnwJmMAEFCUz7K+O61XP2xC88S9iKozCq+y0nt3icYGLg0VCkxsyKZfUOhOi/Mg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "6hEhLxjM",
+      "kuzpVJp8",
+      "vn9hmjQw"
+    ]
+  }
+}

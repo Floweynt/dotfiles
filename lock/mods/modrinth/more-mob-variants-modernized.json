@@ -1,0 +1,93 @@
+{
+  "slug": "more-mob-variants-modernized",
+  "projectId": "cV0OA46M",
+  "versions": {
+    "4e4uOFs3": {
+      "filename": "MoreMobVariantsModernized-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cV0OA46M/versions/4e4uOFs3/MoreMobVariantsModernized-1.0.jar",
+      "hash": "sha512-89SN2DcPfm79fJc04pj5V20jKaOc1ufCi2JqOZegvaFW+jatlkHNtvlChEz6bUBzGU9eezpiuoAzwId6xPpXWA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Mh8ZbE10": {
+      "filename": "moremobvariants-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cV0OA46M/versions/Mh8ZbE10/moremobvariants-1.0.0.jar",
+      "hash": "sha512-qKEFPmTHb/OAiYrAhLoZVaDh900yhAvCiiw8EdfyyHJj8WWjcLWTBOcGe8JVUAcO0KSM22C8zxVrMpGSDX+qWw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "entitytexturefeatures",
+          "projectId": "BVzZfTc1",
+          "type": "required"
+        }
+      ]
+    },
+    "Wuqg7Pbs": {
+      "filename": "MoreMobVariants-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cV0OA46M/versions/Wuqg7Pbs/MoreMobVariants-1.0.jar",
+      "hash": "sha512-+YEi5vT4cJx9S8FDHj3qyYqSGAv/ILeBGDoFelG9L3ocA1rVcAAfcLPJGYYZjo75VAAg1k6N+q7fF4mwd4Hpmg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "entitytexturefeatures",
+          "projectId": "BVzZfTc1",
+          "type": "required"
+        }
+      ]
+    },
+    "d9Mz6Ci3": {
+      "filename": "moremobvariants-1.0.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/cV0OA46M/versions/d9Mz6Ci3/moremobvariants-1.0.0-neoforge-1.21.1.jar",
+      "hash": "sha512-yqkol96751GLKSUclyxOtzRQnoqcaNUDwla/CXbpBBh31N5JJ3pcO9YaWkWEvsPGBvNOCp305e0IrJRhKAdSVw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "4e4uOFs3"
+    ],
+    "1.21.1+neoforge": [
+      "d9Mz6Ci3"
+    ],
+    "1.21.11+fabric": [
+      "Wuqg7Pbs"
+    ],
+    "1.21.11+neoforge": [
+      "Mh8ZbE10"
+    ]
+  }
+}

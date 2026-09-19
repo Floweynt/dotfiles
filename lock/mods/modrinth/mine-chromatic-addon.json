@@ -1,0 +1,68 @@
+{
+  "slug": "mine-chromatic-addon",
+  "projectId": "VAIQHCsB",
+  "versions": {
+    "8VoBLgfp": {
+      "filename": "mine-chromatic-addon-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VAIQHCsB/versions/8VoBLgfp/mine-chromatic-addon-0.1.0.jar",
+      "hash": "sha512-c/UcNeMfDu/tMTuULp9XqbvrGYw5cZg1+ByIavBCquMy1/Kj0xvelNS3dY6bK9uOzarMAxEoZ4MBnP10VfmMww==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "devices-mod",
+          "projectId": "YDa5wT4H",
+          "type": "required"
+        },
+        {
+          "slug": "mcef",
+          "projectId": "TObQ0HxZ",
+          "type": "required"
+        }
+      ]
+    },
+    "dUWFP8GR": {
+      "filename": "mine-chromatic-addon-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VAIQHCsB/versions/dUWFP8GR/mine-chromatic-addon-0.1.0.jar",
+      "hash": "sha512-aKp/+68xzkPks2Iwf8xYDY6OE7KhgzQiZnhqrzbbd8+ZwtwYaD/UU96hG98lbt+NwPa6K3/VueKJmX8bk+7uFA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mcef",
+          "projectId": "TObQ0HxZ",
+          "type": "required"
+        },
+        {
+          "slug": "devices-mod",
+          "projectId": "YDa5wT4H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "dUWFP8GR"
+    ],
+    "1.20.1+forge": [
+      "8VoBLgfp"
+    ],
+    "1.20.1+neoforge": [
+      "8VoBLgfp"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "focal-backpack-datapack",
+  "projectId": "ihUGkzdh",
+  "versions": {
+    "EYtVS5G9": {
+      "filename": "Focal-Backpack-Datapack-v1.2.0.zip",
+      "url": "https://cdn.modrinth.com/data/ihUGkzdh/versions/EYtVS5G9/Focal-Backpack-Datapack-v1.2.0.zip",
+      "hash": "sha512-uEtl7nsORmPZS3VWn00gqPpbQF8dzEXbwOuWo6+uKkReLd3wefS1sXTeCVsZTu33vzhzlbG3pcHSTGolMf0sEA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "focal-resourcepack",
+          "projectId": "XJ6BXPE6",
+          "type": "required"
+        }
+      ]
+    },
+    "FRewE34Y": {
+      "filename": "Focal-Backpack-Datapack-v1.1.3.zip",
+      "url": "https://cdn.modrinth.com/data/ihUGkzdh/versions/FRewE34Y/Focal-Backpack-Datapack-v1.1.3.zip",
+      "hash": "sha512-iZE+nMJU0lbDHkFkLfbRUwiMNqG9jcMT127Aa3A4xrAurWO+dnAYMQOTNEc7ENdj4iihEiq5JBLaoB5tzIYFCA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "gR4DLotg": {
+      "filename": "focal-backpack-datapack-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ihUGkzdh/versions/gR4DLotg/focal-backpack-datapack-1.2.0.jar",
+      "hash": "sha512-MSdi81Bw/7o5gWgRivzJKS2uuUxwAoVrOz3R+7DrEz3gqNBMp9BxD7l+8FK2tpVTi3i3Yiul6doknf8GshVAQg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "focal-resourcepack",
+          "projectId": "XJ6BXPE6",
+          "type": "required"
+        }
+      ]
+    },
+    "wjMnFdVI": {
+      "filename": "Focal-Backpack-Datapack-v1.1.2.zip",
+      "url": "https://cdn.modrinth.com/data/ihUGkzdh/versions/wjMnFdVI/Focal-Backpack-Datapack-v1.1.2.zip",
+      "hash": "sha512-uTe00+sk8V7kBq1hM/Kb76DorcyWAntHhRReZz1geNA6UdTKbzWxkP5zUUs0Crehns1V0nu3wxYj4gCXKEkAcg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "focal-resourcepack",
+          "projectId": "XJ6BXPE6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.5+datapack": [
+      "FRewE34Y",
+      "wjMnFdVI"
+    ],
+    "1.20.6+datapack": [
+      "FRewE34Y",
+      "wjMnFdVI"
+    ],
+    "1.21+datapack": [
+      "EYtVS5G9",
+      "FRewE34Y",
+      "wjMnFdVI"
+    ],
+    "1.21+fabric": [
+      "gR4DLotg"
+    ],
+    "1.21+forge": [
+      "gR4DLotg"
+    ],
+    "1.21+quilt": [
+      "gR4DLotg"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "no-underleveled-evolutions-cobblemon",
+  "projectId": "H2O2zLZm",
+  "versions": {
+    "GQzTZunq": {
+      "filename": "no-underleveled-evolutions-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/H2O2zLZm/versions/GQzTZunq/no-underleveled-evolutions-1.0.0.jar",
+      "hash": "sha512-sZq5mN6KMSKsrkvQYgqcES7Hnj+KIjnD6gjnoYGV+6+vwA4TlUYuTiqfc91kVsZlEJTZ3d+Qh3i7jTAJ0BWKJA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "x8fOhz9Y": {
+      "filename": "no-underleveled-evolutions-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/H2O2zLZm/versions/x8fOhz9Y/no-underleveled-evolutions-1.0.1.jar",
+      "hash": "sha512-9kF2id7ObRwH/XfA9CTlJTPrHJnJR0CJ6nPQG9C3GhNchasZtIE3fheTQ/b7VyxG3R1abiT/dl4AVC90M/9YZQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "x8fOhz9Y",
+      "GQzTZunq"
+    ],
+    "1.20.1+fabric": [
+      "x8fOhz9Y",
+      "GQzTZunq"
+    ],
+    "1.21.1+fabric": [
+      "x8fOhz9Y",
+      "GQzTZunq"
+    ]
+  }
+}

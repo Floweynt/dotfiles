@@ -1,0 +1,72 @@
+{
+  "slug": "charm-drag-and-drop-shulker-fix",
+  "projectId": "BchQ36Rr",
+  "versions": {
+    "NJCWh0BV": {
+      "filename": "shulker_fix-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/BchQ36Rr/versions/NJCWh0BV/shulker_fix-1.1.jar",
+      "hash": "sha512-k8YlbrXUa8rvAoWgsLtIHDi49ev9BvOkE/9edd/2A6qQPeXcAkQhm8awNTB3bTbhK2aNzdLArXrmoXh9WmGEKQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "reinforced-shulker-boxes",
+          "projectId": "xlOwuSdN",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "charm",
+          "projectId": "pOQTcQmj",
+          "type": "required"
+        }
+      ]
+    },
+    "WVlC58VE": {
+      "filename": "shulker_fix-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BchQ36Rr/versions/WVlC58VE/shulker_fix-1.0.jar",
+      "hash": "sha512-yLQDiKjcvBHAGWEFXVKffkzH37C2UTgGDLliFlzk4QH9zJIoRagBWxrr9C1yMus+K4ikiXTMZpD/xX+kXf4/Jg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "charm",
+          "projectId": "pOQTcQmj",
+          "type": "required"
+        },
+        {
+          "slug": "reinforced-shulker-boxes",
+          "projectId": "xlOwuSdN",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "NJCWh0BV",
+      "WVlC58VE"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "autoreconnect",
+  "projectId": "A9rziLV4",
+  "versions": {
+    "pLQQC55S": {
+      "filename": "autoreconnect-2.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/A9rziLV4/versions/pLQQC55S/autoreconnect-2.2.1.jar",
+      "hash": "sha512-9J7MBJ9zTsUwpldOi/TUFTna8qovNDH8tF9bk3dA8LjAjKoPtrSqZoAf50Mak4d6KUW5XlnJF8zLZNzxMcaATQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pLQQC55S"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "kevs-equipment-sets",
+  "projectId": "ZSeB6n9M",
+  "versions": {
+    "HGvWNPM4": {
+      "filename": "kevsequipmentsets-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/ZSeB6n9M/versions/HGvWNPM4/kevsequipmentsets-1.0.5.jar",
+      "hash": "sha512-jCNvRU7mDGaQqshqL6stVUPLflUu3i1lUfOvM8e3R8bkW74yBdvgsiQ75GGgYWp33/VlcrQeOGBSLIiTfrqSzA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "am9dchaB": {
+      "filename": "kevsequipmentsets-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZSeB6n9M/versions/am9dchaB/kevsequipmentsets-1.0.1.jar",
+      "hash": "sha512-CYOClny0Q8PU6Q2lFaRMWQOMhWOzMfXkBdUDEwA3GEi9jKC8EvzPaT29mqOYSAXivTUXDSdRUWo9kwzUx96rJw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "gear-core",
+          "projectId": "t7eXC8r7",
+          "type": "required"
+        },
+        {
+          "slug": "obscure-api",
+          "projectId": "fU7jbFHc",
+          "type": "required"
+        },
+        {
+          "slug": "spell-power",
+          "projectId": "8ooWzSQP",
+          "type": "required"
+        },
+        {
+          "slug": "simply-swords",
+          "projectId": "bK3Ubu9p",
+          "type": "required"
+        },
+        {
+          "slug": "mcdw",
+          "projectId": "FZmGDE43",
+          "type": "required"
+        },
+        {
+          "slug": "basicweapons",
+          "projectId": "sc2Pektv",
+          "type": "required"
+        },
+        {
+          "slug": "zenith-attributes",
+          "projectId": "9sxDq6mj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HGvWNPM4",
+      "am9dchaB"
+    ]
+  }
+}

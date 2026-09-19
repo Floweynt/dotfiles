@@ -1,0 +1,79 @@
+{
+  "slug": "bgmselector",
+  "projectId": "ZEz1sa0T",
+  "versions": {
+    "CISwNc3l": {
+      "filename": "bgmselector-1.0.0-mc1.16.5-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZEz1sa0T/versions/1.0.0-mc1.16.5-fabric/bgmselector-1.0.0-mc1.16.5-fabric.jar",
+      "hash": "sha512-1IvoR3f39rGMs7AEkn0pZn5Bhexzb/NunzhBeqMpiBV64olEoj+HSSeJetNAyRFr+dUp1sjQ9SaJwS7tUyeVIg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JELj9DCQ": {
+      "filename": "bgmselector-1.0.0-mc1.19.x-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZEz1sa0T/versions/1.0.0-mc1.19.x-fabric/bgmselector-1.0.0-mc1.19.x-fabric.jar",
+      "hash": "sha512-+KVAe857c73APCVUZL0gg543WMrIc0QEFHrvaHm8udDw6VI4d+I2snBTeCXodeDOma1H1lbMaTCjx9IE9FLbIA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "tI29YVoA": {
+      "filename": "bgmselector-1.0.0-mc1.18.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZEz1sa0T/versions/1.0.0-mc1.18.2-fabric/bgmselector-1.0.0-mc1.18.2-fabric.jar",
+      "hash": "sha512-vjbGLad9mfMY7GghO21wiHRz4I2iWMTTogynlO1GCB/sh4WY9pUTJRQ70+fuKVW9mX+/XUeVnQIKjbUswfPclg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "CISwNc3l"
+    ],
+    "1.18.2+fabric": [
+      "tI29YVoA"
+    ],
+    "1.19+fabric": [
+      "JELj9DCQ"
+    ],
+    "1.19.1+fabric": [
+      "JELj9DCQ"
+    ],
+    "1.19.2+fabric": [
+      "JELj9DCQ"
+    ]
+  }
+}

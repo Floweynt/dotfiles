@@ -1,0 +1,97 @@
+{
+  "slug": "renderer",
+  "projectId": "QPOqntXP",
+  "versions": {
+    "Xud7uzXX": {
+      "filename": "renderer-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QPOqntXP/versions/1.0/renderer-1.0.jar",
+      "hash": "sha512-yZZ6egyKVvG3VnqjFJy2Y0zOdsgRx2ZhUUdt3OoBW+uH21H6ZzRREUn+6zNxXZWbpAA9jjxLihJDP1T8jsWv4w==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rzZ20Z17": {
+      "filename": "renderer-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QPOqntXP/versions/rzZ20Z17/renderer-1.0.jar",
+      "hash": "sha512-grrmi7FmH/aW0xYkeb+N8P5hs/3oxdaivUIr77UvAq5CHTvvvERRvv2bGHpyKcZKWiNcC5kUn2dS1knOKvjhcw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "xmCBT4oh": {
+      "filename": "renderer-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/QPOqntXP/versions/xmCBT4oh/renderer-1.1.jar",
+      "hash": "sha512-FYEjnNDLL6H35I4cPz9gmppq75WKH6shOpY/3HNDh2LrB6Vv50b8Lm0KDFr/QJgV1ThSZqq5mohlgsWq6ABR3g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "Xud7uzXX"
+    ],
+    "1.19+fabric": [
+      "rzZ20Z17"
+    ],
+    "1.19.1+fabric": [
+      "rzZ20Z17"
+    ],
+    "1.19.2+fabric": [
+      "rzZ20Z17"
+    ],
+    "1.19.3+fabric": [
+      "rzZ20Z17"
+    ],
+    "1.19.4+fabric": [
+      "rzZ20Z17"
+    ],
+    "1.20+fabric": [
+      "xmCBT4oh"
+    ],
+    "1.20.1+fabric": [
+      "xmCBT4oh"
+    ],
+    "1.20.2+fabric": [
+      "xmCBT4oh"
+    ],
+    "1.20.3+fabric": [
+      "xmCBT4oh"
+    ],
+    "1.20.4+fabric": [
+      "xmCBT4oh"
+    ]
+  }
+}

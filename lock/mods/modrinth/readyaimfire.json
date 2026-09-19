@@ -1,0 +1,31 @@
+{
+  "slug": "readyaimfire",
+  "projectId": "ESzNLCCw",
+  "versions": {
+    "44A4FQL8": {
+      "filename": "readyaimfire-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ESzNLCCw/versions/44A4FQL8/readyaimfire-1.0.0.jar",
+      "hash": "sha512-ong6lva6cJvdlABjbdeqBJigGsLULLpmj6ZbjoCgZWTQ0dABYlv10HTKLXW6NVuXQDp9h3elHXSXgH2ztu07Lg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "44A4FQL8"
+    ]
+  }
+}

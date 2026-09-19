@@ -1,0 +1,35 @@
+{
+  "slug": "disable-oritech-ores",
+  "projectId": "gEjo1U2B",
+  "versions": {
+    "fuw59TGv": {
+      "filename": "disable_oritech_ores-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gEjo1U2B/versions/fuw59TGv/disable_oritech_ores-1.0.0.jar",
+      "hash": "sha512-CTro93ssjuT7HRXxZohxFVMfswCFjHG1yM3VkfBj1amDeHM0P1a3+1sD9R0di50RsHy5MF//9vc7gr9nuaSt4g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "oritech",
+          "projectId": "4sYI62kA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "fuw59TGv"
+    ],
+    "1.21.1+neoforge": [
+      "fuw59TGv"
+    ]
+  }
+}

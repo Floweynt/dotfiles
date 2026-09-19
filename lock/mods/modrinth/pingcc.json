@@ -1,0 +1,135 @@
+{
+  "slug": "pingcc",
+  "projectId": "X5Rji32N",
+  "versions": {
+    "MOJLyOF3": {
+      "filename": "pingcc-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/X5Rji32N/versions/MOJLyOF3/pingcc-1.3.0.jar",
+      "hash": "sha512-uMen/Sw4ojELJeLhUZnFDSJ7Lplme/YvODkqewdnb0AJkH8XnQZItWUsx5ZrTu+2BAJtQ+4/qVqHb8/3Y2+B/A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SUwwcSBQ": {
+      "filename": "pingcc-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/X5Rji32N/versions/SUwwcSBQ/pingcc-1.2.1.jar",
+      "hash": "sha512-FnylnBszaEamY7VSFIB/riTw0odwqQxSFk7iJ0kEJ1Hib/pAKJ3wirg3KYkmRR+x2jXH18Jp5LzLdEIfIarX4g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Uu7eeL05": {
+      "filename": "pingcc-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/X5Rji32N/versions/Uu7eeL05/pingcc-1.2.0.jar",
+      "hash": "sha512-GfYG77jE+sDuoS3WHUMIiWBvQqQEKRHmNiWJCQgu4hmphtRXO7wBoILVPweiI4cLD3r0m+0vHw/39RVV+Kbwzg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "WKl3lfPn": {
+      "filename": "pingcc-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/X5Rji32N/versions/WKl3lfPn/pingcc-1.4.0.jar",
+      "hash": "sha512-awtLoGel3l3ra/iWXSlAwiN5+O2Ec63k2tgo7+Qbew3fa5Ko9AsrxfDOGX5J+XlqYFTrZFNvGjAOPfGdtW+plw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "m4gRtq71": {
+      "filename": "pingcc-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/X5Rji32N/versions/m4gRtq71/pingcc-1.1.0.jar",
+      "hash": "sha512-qAbINJepKxfnaoeSMRhPIVTOFl91Vj/MiRdXqJAOjuyowy2yhFRwQLQC1KzMphjz8N9Ht0f8NrxDthTyktCgFw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zzXXqNbG": {
+      "filename": "pingcc-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/X5Rji32N/versions/zzXXqNbG/pingcc-1.2.2.jar",
+      "hash": "sha512-D5C7nqseAP/Zn+hX7OazJ1e7Pp7i5mfxI4jAwmNFiCvILsXTz2CVN6qKqkKpkzfCAAD7VzBVYOWZKnD87AuhvA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "MOJLyOF3",
+      "zzXXqNbG",
+      "SUwwcSBQ",
+      "Uu7eeL05",
+      "m4gRtq71"
+    ],
+    "1.20.1+fabric": [
+      "MOJLyOF3",
+      "zzXXqNbG",
+      "SUwwcSBQ",
+      "Uu7eeL05",
+      "m4gRtq71"
+    ],
+    "1.21+fabric": [
+      "WKl3lfPn"
+    ],
+    "1.21.1+fabric": [
+      "WKl3lfPn"
+    ]
+  }
+}

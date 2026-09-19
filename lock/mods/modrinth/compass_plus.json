@@ -1,0 +1,95 @@
+{
+  "slug": "compass_plus",
+  "projectId": "xI5eonVo",
+  "versions": {
+    "7sOdMnm8": {
+      "filename": "compass_plus-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xI5eonVo/versions/7sOdMnm8/compass_plus-fabric-2.0.0.jar",
+      "hash": "sha512-9BQzlsPSDW2FTaytYBN7Y1Tt7b6EMCdlfim0hRfpBZD+uLGVdl0yHrVE3I6tkRGwWMtdWiK8zdy17wcDRCOrUg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "9gxw9Tb5": {
+      "filename": "compass_plus-neoforge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xI5eonVo/versions/9gxw9Tb5/compass_plus-neoforge-2.0.0.jar",
+      "hash": "sha512-CwJhVv9Mdq2MaTuVGrz2ojz0NDuuQVDSo1jJsSuq97QU+YTKU8lwgmMzlJhL1e9wDbUAj3/m/k021vuOtFdAzQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "X6zWmiFk": {
+      "filename": "CompassPlus-1.18.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xI5eonVo/versions/1.0.0/CompassPlus-1.18.2-1.0.0.jar",
+      "hash": "sha512-YE9Vuf0Ck/PTpOkH5pWL2pOwpEPrwJzS3vHKuUPAwGBeown3Ynn8hMxXluj3o+dd+0s1ZrjTWcB8gCQsjhe/FQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "YmwQ2SXi": {
+      "filename": "CompassPlus-1.19.2-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xI5eonVo/versions/YmwQ2SXi/CompassPlus-1.19.2-1.1.0.jar",
+      "hash": "sha512-D7/hRle/3LaFDXCa2js0vsctn1yttT6f5mk0deEzIM5plKDWs4gqHRBB9LfDLjocP2FZGWolVo42+Pelb9EfQA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "X6zWmiFk"
+    ],
+    "1.19.2+forge": [
+      "YmwQ2SXi"
+    ],
+    "1.19.3+forge": [
+      "YmwQ2SXi"
+    ],
+    "1.19.4+forge": [
+      "YmwQ2SXi"
+    ],
+    "1.21.1+fabric": [
+      "7sOdMnm8"
+    ],
+    "1.21.1+neoforge": [
+      "9gxw9Tb5"
+    ]
+  }
+}

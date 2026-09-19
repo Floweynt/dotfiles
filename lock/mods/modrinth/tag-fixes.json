@@ -1,0 +1,125 @@
+{
+  "slug": "tag-fixes",
+  "projectId": "HTb6xGH1",
+  "versions": {
+    "LHzx0Jfg": {
+      "filename": "tagfixes-1.0.5-universal-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/HTb6xGH1/versions/LHzx0Jfg/tagfixes-1.0.5-universal-1.20.1.jar",
+      "hash": "sha512-PkmGsBEyFM27Yh6R60tbZ8F49f3TsnS2r+Bfu0juUOm2yFBDe1oZRfCAKNKd3zSRi4E5Wblkqu1BG7HB/cfDxQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "VY2owdvI": {
+      "filename": "tagfixes-1.0.7-universal-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/HTb6xGH1/versions/VY2owdvI/tagfixes-1.0.7-universal-1.20.1.jar",
+      "hash": "sha512-auHN/O2KTV0k418yr9+JRDA+/mEU2jJeGP5P5XbqLeIsTWvvBXxUY+ixPeip0yU5aqogklXFq0xFmnwMywn+XQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "e0FwBV5t": {
+      "filename": "tagfixes-1.0.5-universal-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/HTb6xGH1/versions/e0FwBV5t/tagfixes-1.0.5-universal-1.20.1.jar",
+      "hash": "sha512-Yl20KfAjz4MKFOx7zNhvzHzHjvXJMyxYelpv4cMIe9VPdzmaRBx6evxo/IMX9R5XbfhWQSQ1A9+iBbUbfJZbjA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "lmft",
+          "projectId": "67kVxsaO",
+          "type": "required"
+        }
+      ]
+    },
+    "ljN93VD0": {
+      "filename": "tagfixes-1.0.6-universal-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/HTb6xGH1/versions/ljN93VD0/tagfixes-1.0.6-universal-1.21.1.jar",
+      "hash": "sha512-+kvZ7rH2aIMX6aUKYHrjGZUaSi/RledgR69D56u2XMp8A71jV20P98WwY8MI+njjyltOlTDPYY5Tyw7Fbf8UHA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "lmft",
+          "projectId": "67kVxsaO",
+          "type": "required"
+        }
+      ]
+    },
+    "xPGXIWBT": {
+      "filename": "tagfixes-1.0.7-universal-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/HTb6xGH1/versions/xPGXIWBT/tagfixes-1.0.7-universal-1.21.1.jar",
+      "hash": "sha512-ylOgEDbpWfnVH3q5yzGgbOM6ZaVRx6uWxB8mAnHbKUxCRJnYwXYswyomGyRmWqwGfjZ88ANwMFiV2pBxbgXo2Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "lmft",
+          "projectId": "67kVxsaO",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VY2owdvI",
+      "LHzx0Jfg",
+      "e0FwBV5t"
+    ],
+    "1.20.1+forge": [
+      "VY2owdvI",
+      "LHzx0Jfg",
+      "e0FwBV5t"
+    ],
+    "1.21.1+fabric": [
+      "xPGXIWBT",
+      "ljN93VD0"
+    ],
+    "1.21.1+neoforge": [
+      "xPGXIWBT",
+      "ljN93VD0"
+    ]
+  }
+}

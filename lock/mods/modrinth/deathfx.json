@@ -1,0 +1,65 @@
+{
+  "slug": "deathfx",
+  "projectId": "HPYFoZIE",
+  "versions": {
+    "1Lst3dxJ": {
+      "filename": "DeathFX-1.0-mc1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/HPYFoZIE/versions/1Lst3dxJ/DeathFX-1.0-mc1.19.2.jar",
+      "hash": "sha512-yF/vPMQLROevLP6yTtPk2L6qC1Y31So2oNbGeEdw1C4ktBQtLo6Vw+SgPw9be6RxMNY3MPUHzhJS8ccnoCyw2w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XdJRGLld": {
+      "filename": "DeathFX-1.0-mc1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/HPYFoZIE/versions/XdJRGLld/DeathFX-1.0-mc1.19.4.jar",
+      "hash": "sha512-LcLtM8h3c8gh8U4/l07pLQzykcT5XMEWf/C7ln9BSXSFDXTSckmyyf+eQ/qqL7YgTL3I8CFQmDoudHLR5jv4Tg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "chHFZPC8": {
+      "filename": "DeathFX-1.20.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HPYFoZIE/versions/chHFZPC8/DeathFX-1.20.1-1.0.jar",
+      "hash": "sha512-oNNdZsWCoXYXbbN6eSpH5u5EvHDxddiybXpIIuiOSYnpizJeqJhIr9NftOzw1DCUn510XpXyjofT5SR703iWUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "1Lst3dxJ"
+    ],
+    "1.19.4+fabric": [
+      "XdJRGLld"
+    ],
+    "1.20.1+fabric": [
+      "chHFZPC8"
+    ]
+  }
+}

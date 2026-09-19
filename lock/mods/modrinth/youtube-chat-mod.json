@@ -1,0 +1,46 @@
+{
+  "slug": "youtube-chat-mod",
+  "projectId": "cahTrd3Q",
+  "versions": {
+    "8sc1xNKx": {
+      "filename": "ytchat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cahTrd3Q/versions/8sc1xNKx/ytchat-1.0.0.jar",
+      "hash": "sha512-giQ70FSMg25OzmgX3kn6IVBiJFQ5dNwG76wHmz2LS0ILWY5IV84YkD3HELeY2xnI8C7FRlZOlrPMquw1y6iR/Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "AzoLbKee": {
+      "filename": "ytchat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cahTrd3Q/versions/AzoLbKee/ytchat-1.0.0.jar",
+      "hash": "sha512-LpiR4mJeakWdiM5hfF1z6OpNTPXrkJ7vyxKTptmoQLlzbjVU4GG1gJjHayobEb+8pTAOBOXoRutBcfJZzdhscQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "AzoLbKee",
+      "8sc1xNKx"
+    ]
+  }
+}

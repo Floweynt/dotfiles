@@ -1,0 +1,107 @@
+{
+  "slug": "tough-as-nails-a-curios-expansion",
+  "projectId": "BUivYy9L",
+  "versions": {
+    "K5s5BSDK": {
+      "filename": "tan__a_curios_expansion-fabric-1.20.1-3.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/BUivYy9L/versions/K5s5BSDK/tan__a_curios_expansion-fabric-1.20.1-3.1.1.jar",
+      "hash": "sha512-HwbMv2bdHvTCuqw3v0QC1EM9r3nxaZhLJAwDIWDGw3WZFP7svyT/d7AWSy2jgZwKO3JPOJfXh3hXvJFnbKRfKg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        }
+      ]
+    },
+    "O42LuMmZ": {
+      "filename": "tan__a_curios_expansion-forge-1.20.1-3.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/BUivYy9L/versions/O42LuMmZ/tan__a_curios_expansion-forge-1.20.1-3.1.1.jar",
+      "hash": "sha512-z4tbCdLLRj7zWdrBE/Uhy+l5+CCwmtjFX307/aSi/dUWydogCad882z5cdCq819KvXaXd8CA3ttiV//d5h1K/w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        }
+      ]
+    },
+    "a11zKGBt": {
+      "filename": "tan__a_curios_expansion-quilt-1.20.1-3.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/BUivYy9L/versions/a11zKGBt/tan__a_curios_expansion-quilt-1.20.1-3.1.1.jar",
+      "hash": "sha512-sXoenoHHc6xqLH2dhyMpet57+k4aUSUFqaH1LTwOgTifgO3AjC6S8gGGBjwmFTHe2fZt9XyF175vnvj48JERNg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        }
+      ]
+    },
+    "kwImHnXz": {
+      "filename": "toughasnails_a_curios_expansion-1.20.1-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/BUivYy9L/versions/kwImHnXz/toughasnails_a_curios_expansion-1.20.1-1.2.1.jar",
+      "hash": "sha512-ln1HvLC6wAGAhmtgoOGjasxVrx0xo0yDQja6icerLxaZCumBZvklF3oZpDawQBTDNu2hiTitnrO1Tc5Ss/j/Dg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        },
+        {
+          "slug": "curios",
+          "projectId": "vvuO3ImH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "K5s5BSDK"
+    ],
+    "1.20.1+forge": [
+      "O42LuMmZ",
+      "kwImHnXz"
+    ],
+    "1.20.1+neoforge": [
+      "O42LuMmZ"
+    ],
+    "1.20.1+quilt": [
+      "a11zKGBt"
+    ]
+  }
+}

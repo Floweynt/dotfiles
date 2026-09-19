@@ -1,0 +1,113 @@
+{
+  "slug": "deterministic-xp-bottles",
+  "projectId": "ghF5nGul",
+  "versions": {
+    "IivEPCTl": {
+      "filename": "deterministic-xp-bottles-0.2-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/ghF5nGul/versions/IivEPCTl/deterministic-xp-bottles-0.2-1.20.4.jar",
+      "hash": "sha512-dbrYUlRr+iBIbtK3C4Igb2R2+vXYaIsFAi8iP6qB6eGoR1dHli65vkCYl5RMnmeYwjqSUw4uSdJ9KkKf9Io8Fw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "IpNo8j2b": {
+      "filename": "deterministic-xp-bottles-0.1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ghF5nGul/versions/IpNo8j2b/deterministic-xp-bottles-0.1.1-1.20.1.jar",
+      "hash": "sha512-OR330XFY7czZRCCEpp20aie888hmt6/N7sgwOS1nn9OYicxjqZvEyBwik+VuLVVWGOMwxKYav6+2RsgOpXZYHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "SJ2Ei9pC": {
+      "filename": "deterministic-xp-bottles-0.1-1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/ghF5nGul/versions/SJ2Ei9pC/deterministic-xp-bottles-0.1-1.20.2.jar",
+      "hash": "sha512-nPjW75lgtcnx9992ZWXqd6gVZxGffndvhtwSMkqKy0F8ScgqCCXa7YDU7Xp6V1CmoxGBDIiwsalVSOSLQi/6zg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "gGJAKAnj": {
+      "filename": "deterministic-xp-bottles-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ghF5nGul/versions/gGJAKAnj/deterministic-xp-bottles-0.1-1.20.1.jar",
+      "hash": "sha512-zJeZsx+qxMTzdjv4+XN4cFsEyHHViSo1+GbEYqQBGcwBwWCLD4AwmMk9IKNx+o/0oWXuROtqLJ9OMUtDS7de/Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IpNo8j2b",
+      "gGJAKAnj"
+    ],
+    "1.20.2+fabric": [
+      "SJ2Ei9pC"
+    ],
+    "1.20.4+fabric": [
+      "IivEPCTl"
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "betterfairysouls",
+  "projectId": "PVMI0IGw",
+  "versions": {
+    "DdmGJcFg": {
+      "filename": "BetterFairySouls-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/PVMI0IGw/versions/DdmGJcFg/BetterFairySouls-1.2.0.jar",
+      "hash": "sha512-IhBWm/kyqf1DGUu2RHqm8oxBuBD9+QsMbEK4QGoljt6u84YAPtrsZmyPzZFGc56oun/F2MpLw4qXBD3MxjtUdw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Lwoi0Dub": {
+      "filename": "BetterFairySouls-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PVMI0IGw/versions/Lwoi0Dub/BetterFairySouls-1.0.0.jar",
+      "hash": "sha512-z70EUDMkP3Bj/Yj3ZTybkeszCpTZODFJPsLRWlvrgXHnQai+ooPZFZjQWgXfJd2NGfgR27OznH6nWhhiabivbA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "YM2ZWB3H": {
+      "filename": "BetterFairySouls-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/PVMI0IGw/versions/YM2ZWB3H/BetterFairySouls-1.1.0.jar",
+      "hash": "sha512-1NtK+nn/nz4XWxRqaQJEJF2h7lSUyxfbe33qSVSIel2zLmXWxrZYJixR0e6CrxCw6MQRK8ItxJTRdrct7pY7zA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "YM2ZWB3H",
+      "Lwoi0Dub"
+    ],
+    "26.1+fabric": [
+      "DdmGJcFg"
+    ],
+    "26.1.1+fabric": [
+      "DdmGJcFg"
+    ],
+    "26.1.2+fabric": [
+      "DdmGJcFg"
+    ]
+  }
+}

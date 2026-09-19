@@ -1,0 +1,48 @@
+{
+  "slug": "momentum-fabric",
+  "projectId": "ugWtWq1h",
+  "versions": {
+    "Q4hWkHYx": {
+      "filename": "momentum-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ugWtWq1h/versions/1.2.0/momentum-1.2.0.jar",
+      "hash": "sha512-gZbFAQWX66r/K8w/R/ot6l9cmV5vBR6v3kv5Rz4jd46mn3POIxGYRV3yZ1lqzSlK4IJXhpQ7O6SIUZeaFmfXQQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lSijr5xa": {
+      "filename": "momentum-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ugWtWq1h/versions/1.1.1/momentum-1.1.1.jar",
+      "hash": "sha512-TDt3rsnXizyJtx3Z+cLtVGKrwphq7jZGotNMaG/LPww1wDNwvyC8yaJJDuijRe4lsPUQYML332+JV1OtoWm+1Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "lSijr5xa"
+    ],
+    "1.19+fabric": [
+      "Q4hWkHYx"
+    ]
+  }
+}

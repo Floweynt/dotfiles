@@ -1,0 +1,66 @@
+{
+  "slug": "create-balanced-recipes",
+  "projectId": "D6BYqCtP",
+  "versions": {
+    "MhQu1WWb": {
+      "filename": "create-balanced-recipes-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/D6BYqCtP/versions/MhQu1WWb/create-balanced-recipes-1.0.1.jar",
+      "hash": "sha512-zHUapBksJtQ6CFUb9sDpsiAQQNrsoZ+KIOTHNSx7eGrzF6S32uZvk0kACpnfUoROe3NU6s06LqiIJeIR4UH4bw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "ZP5BIQ35": {
+      "filename": "createbalancedrecipes-datapack-1.21.1.zip",
+      "url": "https://cdn.modrinth.com/data/D6BYqCtP/versions/ZP5BIQ35/createbalancedrecipes-datapack-1.21.1.zip",
+      "hash": "sha512-17FsGk3AqPrHnaKVcfdaAtRIDb5yygIANImtHa4lcZl59/0aRn1ycg0yRkzZHE8qkO/F7pi7LC0sKa0ATWAm4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "ZP5BIQ35"
+    ],
+    "1.21.1+fabric": [
+      "MhQu1WWb"
+    ],
+    "1.21.1+forge": [
+      "MhQu1WWb"
+    ],
+    "1.21.1+neoforge": [
+      "MhQu1WWb"
+    ],
+    "1.21.1+quilt": [
+      "MhQu1WWb"
+    ]
+  }
+}

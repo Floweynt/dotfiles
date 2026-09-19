@@ -1,0 +1,36 @@
+{
+  "slug": "molten-vents-fabric-port",
+  "projectId": "62BenJ13",
+  "versions": {
+    "x8L8g8Sl": {
+      "filename": "molten-vents-fabric-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/62BenJ13/versions/x8L8g8Sl/molten-vents-fabric-1.1.2.jar",
+      "hash": "sha512-O3I/7jBnHp9JgBoNct2UxocLVC6rzorXB5dlUOvD0NxD/pd4KQR7ya+lk9GYQQT+wVJXIxxe3jvPTF2w7hJLew==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "x8L8g8Sl"
+    ]
+  }
+}

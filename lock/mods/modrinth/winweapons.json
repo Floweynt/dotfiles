@@ -1,0 +1,31 @@
+{
+  "slug": "winweapons",
+  "projectId": "oGrGuvMd",
+  "versions": {
+    "HlYVpjXm": {
+      "filename": "winweapons-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/oGrGuvMd/versions/HlYVpjXm/winweapons-1.1.0.jar",
+      "hash": "sha512-fLP7dpP/v2fQr6mVtebmxK5nHYgOwKecXQ04kkuXNhs7xggZOJAjamyfuHEGlgdyG22EmgV2vhHkbOykaD3TDg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "HlYVpjXm"
+    ]
+  }
+}

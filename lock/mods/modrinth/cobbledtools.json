@@ -1,0 +1,90 @@
+{
+  "slug": "cobbledtools",
+  "projectId": "IiNsIQ9C",
+  "versions": {
+    "Aw0OkLG7": {
+      "filename": "cobbledtools-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/IiNsIQ9C/versions/Aw0OkLG7/cobbledtools-0.2.jar",
+      "hash": "sha512-vcLI6otXeK3Egc1/GY8hBUpbvEsMnhCIs6RvWb0gxkZAuTWh0Ffg1B8bdt8y7QoSeO7JKVyuphUiVHlaiQa89g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "only-hammers",
+          "projectId": "p5wmRC3H",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "YlmjCKna": {
+      "filename": "POKEMON TOOLS AND WEAPONS DP.zip",
+      "url": "https://cdn.modrinth.com/data/IiNsIQ9C/versions/YlmjCKna/POKEMON%20TOOLS%20AND%20WEAPONS%20DP.zip",
+      "hash": "sha512-DgZVVTWRLG3mj3iVdOi8hgbUUyiKF/stEZvN8IXCC2RnTxhIwN5xggxry9+k7CvF68ITx3ZzYyx1yym496Wr3w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "only-hammers",
+          "projectId": "p5wmRC3H",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "rP4t8QOq": {
+      "filename": "POKEMON TOOLS.zip",
+      "url": "https://cdn.modrinth.com/data/IiNsIQ9C/versions/rP4t8QOq/POKEMON%20TOOLS.zip",
+      "hash": "sha512-lQnWMFWwh6ChK1I0Br074MGkXZWN4XJ7VIZigk8Q9iz8M23V/aBI2LHHnlrOXTbzomJx7hE80xTNc1sofXpLuw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "only-hammers",
+          "projectId": "p5wmRC3H",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "rP4t8QOq",
+      "YlmjCKna"
+    ],
+    "1.21.1+fabric": [
+      "Aw0OkLG7"
+    ]
+  }
+}

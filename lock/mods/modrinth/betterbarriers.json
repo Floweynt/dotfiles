@@ -1,0 +1,82 @@
+{
+  "slug": "betterbarriers",
+  "projectId": "fklStciH",
+  "versions": {
+    "JexKRRCz": {
+      "filename": "betterbarriers-1.0.0_.jar",
+      "url": "https://cdn.modrinth.com/data/fklStciH/versions/1.0.0/betterbarriers-1.0.0_.jar",
+      "hash": "sha512-MAyNY14l5KD4H1KZZ7/q8lpCwZbo1nRyvPuQYRZ9kWCWfCspswSwTjuKCbu/Ei/EKdplWIYHoopWSbySxd79Aw==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WgLFou2t": {
+      "filename": "1.19.3-betterbarriers-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fklStciH/versions/WgLFou2t/1.19.3-betterbarriers-1.0.0.jar",
+      "hash": "sha512-YCkbld0l5sWPzfLSNawyNXk/rNVGVgWP5JQWeUQxQ9bsOUAmi5JPdd3r/WWcFgsd0KIB6Aq3WqssmutOQ7KDwQ==",
+      "gameVersions": [
+        "1.19.3",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "JexKRRCz"
+    ],
+    "1.19+fabric": [
+      "JexKRRCz"
+    ],
+    "1.19.1+fabric": [
+      "JexKRRCz"
+    ],
+    "1.19.2+fabric": [
+      "JexKRRCz"
+    ],
+    "1.19.3+fabric": [
+      "WgLFou2t"
+    ],
+    "1.20.1+fabric": [
+      "WgLFou2t"
+    ],
+    "1.20.2+fabric": [
+      "WgLFou2t"
+    ],
+    "1.20.3+fabric": [
+      "WgLFou2t"
+    ],
+    "1.20.4+fabric": [
+      "WgLFou2t"
+    ]
+  }
+}

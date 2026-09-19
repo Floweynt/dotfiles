@@ -1,0 +1,54 @@
+{
+  "slug": "vs-hit-run",
+  "projectId": "1hIzZIwF",
+  "versions": {
+    "fm2KBIV6": {
+      "filename": "vs_hitnrun-1.20.1-fabric-1.0.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/1hIzZIwF/versions/fm2KBIV6/vs_hitnrun-1.20.1-fabric-1.0.0-beta.jar",
+      "hash": "sha512-m5NMcPPJhrZxP/vzBUXxHEe5TCVPRjXI1bYhHRUbFMH1nc7fhFMZvqKs9f2AHh8VgihCuO9QtmcwqUTsk6dtOA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "oWF9Q5y1": {
+      "filename": "vs_hitnrun-1.20.1-forge-1.0.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/1hIzZIwF/versions/oWF9Q5y1/vs_hitnrun-1.20.1-forge-1.0.0-beta.jar",
+      "hash": "sha512-cnGw2wBvJQmNEq8OBB5D78gxo6sU9c26rG9lQn+KhDPOtC6i9LapdkBWoya7Q/vF7oue8BU5XSv1sCQgnf5Xzw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "fm2KBIV6"
+    ],
+    "1.20.1+forge": [
+      "oWF9Q5y1"
+    ]
+  }
+}

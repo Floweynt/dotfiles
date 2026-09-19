@@ -1,0 +1,61 @@
+{
+  "slug": "unfixed-seeds",
+  "projectId": "BMKSAGRn",
+  "versions": {
+    "36sR4oUt": {
+      "filename": "unfixed-seeds-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BMKSAGRn/versions/36sR4oUt/unfixed-seeds-1.0.jar",
+      "hash": "sha512-o1oPZ/cj1bdWswgLgKUgPCduG/MNar5T8/TQ8NOABFV+vVTdR0hsf146+N4UnuzdHF9glzWIriu2xN460bS3Kg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "TDwrdjSl": {
+      "filename": "unfixed-seeds-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/BMKSAGRn/versions/TDwrdjSl/unfixed-seeds-1.0.2.jar",
+      "hash": "sha512-IMOXwt78zapJiyuJ1gKyl++TPdo4KCpczqNoceJJ1yPWeGV3F+DGWTI5biVJ9TFRJILR3sbT1cKX+f1f86IoSg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iXIOdIoV": {
+      "filename": "unfixed-seeds-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BMKSAGRn/versions/iXIOdIoV/unfixed-seeds-1.0.1.jar",
+      "hash": "sha512-N2oUn7tve0eSFm/z2QufdV3w9BkSGaNasNTve4g1xLLiv4Klyh/Ede+VdwSvzFSVv9YDj89XZj6bZZ1Gy1rAVQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "TDwrdjSl",
+      "iXIOdIoV",
+      "36sR4oUt"
+    ]
+  }
+}

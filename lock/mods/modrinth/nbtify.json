@@ -1,0 +1,96 @@
+{
+  "slug": "nbtify",
+  "projectId": "s9dRR6d2",
+  "versions": {
+    "6DmyTvHJ": {
+      "filename": "NBTIFY-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/s9dRR6d2/versions/6DmyTvHJ/NBTIFY-fabric-1.0.jar",
+      "hash": "sha512-yGvzQpqCkyMOstJbOT6LccaTyJtwP/Z8+5kzirkrqwtRU5VHPGSr9LJOni9C36Dba2wDzqG0s41WD8hftP24Cw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "E8xxgREc": {
+      "filename": "NBTIFY-forge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/s9dRR6d2/versions/E8xxgREc/NBTIFY-forge-1.0.jar",
+      "hash": "sha512-wtTv4FiCGbffaNccZ9dcHpBzDKABygDfTeIwsxtfFZB5yWmFMRaaH/B1Kx4HvR9OAdjXmnb5x95WVdzbt4qfnQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "L4tN7DuY": {
+      "filename": "NBTIFY-forge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/s9dRR6d2/versions/L4tN7DuY/NBTIFY-forge-1.0.jar",
+      "hash": "sha512-HhlMG/iysAJXyibbumeuJSEsCtOaKaogtNQbxKzHlAcEQ7rcWlyeZah70aMQDLEtfrgkx6Nv7CnLner5n9asUQ==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "TNqLYmAo": {
+      "filename": "NBTIFY-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/s9dRR6d2/versions/TNqLYmAo/NBTIFY-fabric-1.0.jar",
+      "hash": "sha512-gs8O7H2n6oWh4CRjxgbk2wPkwuNZ8/mkY3z+csShgI/NOV098OF1FFcXGw75kOQ6wTy0DpAe7j9dKYd+iryk1g==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "6DmyTvHJ"
+    ],
+    "1.16.5+forge": [
+      "E8xxgREc"
+    ],
+    "1.17+fabric": [
+      "TNqLYmAo"
+    ],
+    "1.17+forge": [
+      "L4tN7DuY"
+    ],
+    "1.17.1+fabric": [
+      "TNqLYmAo"
+    ],
+    "1.17.1+forge": [
+      "L4tN7DuY"
+    ]
+  }
+}

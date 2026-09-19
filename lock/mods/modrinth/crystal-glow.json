@@ -1,0 +1,88 @@
+{
+  "slug": "crystal-glow",
+  "projectId": "n0DQJPw9",
+  "versions": {
+    "6ls9nH5r": {
+      "filename": "crystal-glow-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/n0DQJPw9/versions/6ls9nH5r/crystal-glow-1.21.11.jar",
+      "hash": "sha512-B3fAi6gvLWVvhtCG3UlLxxemzFZip+o6lELzF3WWUIxZa65I057CLfSC9dRt4mQ+Oeiqv+WDUTNfElErJEbWuw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "vftAgivv": {
+      "filename": "CrystalGlow-26.X.jar",
+      "url": "https://cdn.modrinth.com/data/n0DQJPw9/versions/vftAgivv/CrystalGlow-26.X.jar",
+      "hash": "sha512-Ur8qklECZ6rSHcfyyixYJd+N5L6y39TCnoS496jVzx9OZezjAE2v99bx6lsOLVmecY8DiBlOplzgdCwTz53vEw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "xvW4x4C5": {
+      "filename": "Crystal-Glow-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/n0DQJPw9/versions/xvW4x4C5/Crystal-Glow-1.0.0%2B1.21.jar",
+      "hash": "sha512-9BdF7Nt7lkPjAk+GT+VG3Sh2XBXsl+ab7fZcNRH7xZ6OfOVlLs0SPeeNMy/+7fM7gRQXZDoK7TnO8UpSDAh30Q==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "xvW4x4C5"
+    ],
+    "1.21.11+fabric": [
+      "6ls9nH5r"
+    ],
+    "26.1+fabric": [
+      "vftAgivv"
+    ],
+    "26.1.1+fabric": [
+      "vftAgivv"
+    ],
+    "26.1.2+fabric": [
+      "vftAgivv"
+    ],
+    "26.2+fabric": [
+      "vftAgivv"
+    ]
+  }
+}

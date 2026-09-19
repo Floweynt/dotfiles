@@ -1,0 +1,149 @@
+{
+  "slug": "ash",
+  "projectId": "1xjNZqDH",
+  "versions": {
+    "4gI4n5W8": {
+      "filename": "ash-1.1.15.jar",
+      "url": "https://cdn.modrinth.com/data/1xjNZqDH/versions/1.1.15/ash-1.1.15.jar",
+      "hash": "sha512-YSbDdIAcY9j1NdB3AhVc81X2dMXc+jc7O+J5oIkzLTcItUs8YfFOSQWXeHgfhNLZxkVyMsDq1rztdIW+cTmuqA==",
+      "gameVersions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "96oyeszn": {
+      "filename": "ash-1.1.14.jar",
+      "url": "https://cdn.modrinth.com/data/1xjNZqDH/versions/1.1.14/ash-1.1.14.jar",
+      "hash": "sha512-ybaBU9XsRW78dPBQoDejRtBav0UfM4fTDhK8epbeFw2EHcXonJFDtDxGpDReG9cQtkYO1mFLEAlCfds2Lp9YAQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "B7p244xJ": {
+      "filename": "ash-1.1.11.jar",
+      "url": "https://cdn.modrinth.com/data/1xjNZqDH/versions/1.1.11/ash-1.1.11.jar",
+      "hash": "sha512-HC44bPYxkWJKASqvRitTA5Ddp5EYE/G5F5l/sm9Ug2Ywrus1yFOlNcNq+VYK0VNOq/m+r5f7Q+t0UkFU9bvDUw==",
+      "gameVersions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Pi81vSKa": {
+      "filename": "ash-1.1.13.jar",
+      "url": "https://cdn.modrinth.com/data/1xjNZqDH/versions/1.1.13/ash-1.1.13.jar",
+      "hash": "sha512-CUR6oohU+vWcvRTs7fs8GkJLEB9uC4TLViHMY1IHi6y0uoOyGXXSA1tXyNmq2c/hdEC7xo2gGqNrBVpWE3k2Tw==",
+      "gameVersions": [
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XuBAtkJJ": {
+      "filename": "ash-1.2.0+mc1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/1xjNZqDH/versions/XuBAtkJJ/ash-1.2.0%2Bmc1.21.4.jar",
+      "hash": "sha512-HdMO7vvlGrkvvMBXKESDn3E1U5Yh1MZFU96g+fpL9mKRbTTNPO8uoqjLaMcgvqRfVSYB9YsWRAuAadGvOfAQ2Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bPqE6PBA": {
+      "filename": "ash-1.1.12.jar",
+      "url": "https://cdn.modrinth.com/data/1xjNZqDH/versions/1.1.12/ash-1.1.12.jar",
+      "hash": "sha512-OSv97hYapA7betxnsyIXk2Cx6K2R8QE4jO9XmEgVQhT/f6xXSayMQlKkFtntWaYB8OnflQmQPI01bFBT7XjYMA==",
+      "gameVersions": [
+        "20w51a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vfhOWWBD": {
+      "filename": "ash-1.2.0+mc1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/1xjNZqDH/versions/vfhOWWBD/ash-1.2.0%2Bmc1.21.5.jar",
+      "hash": "sha512-TrtsOV5MtmuKOnCPaInJitcsKyewPGbXjY7MaT1HKb3JMiJTC0b0ZvTdPbrRC9fqZ1UVTezJGoRypGrilECenQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.2+fabric": [
+      "B7p244xJ"
+    ],
+    "1.16.3+fabric": [
+      "Pi81vSKa",
+      "B7p244xJ"
+    ],
+    "1.16.4+fabric": [
+      "Pi81vSKa",
+      "B7p244xJ"
+    ],
+    "1.16.5+fabric": [
+      "96oyeszn",
+      "Pi81vSKa"
+    ],
+    "1.17+fabric": [
+      "4gI4n5W8"
+    ],
+    "1.21.4+fabric": [
+      "XuBAtkJJ"
+    ],
+    "1.21.5+fabric": [
+      "vfhOWWBD"
+    ],
+    "20w51a+fabric": [
+      "bPqE6PBA"
+    ]
+  }
+}

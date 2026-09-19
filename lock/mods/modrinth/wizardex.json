@@ -1,0 +1,52 @@
+{
+  "slug": "wizardex",
+  "projectId": "nWOFI2Xj",
+  "versions": {
+    "9Brlt68y": {
+      "filename": "WizardEx-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/nWOFI2Xj/versions/9Brlt68y/WizardEx-1.0.4.jar",
+      "hash": "sha512-kPjPorm8aq73Rvp4uP4eFI3CyeIlpymc6ux6uToSGyi7lOjv1YkXvDxqDZc5vl1SXu0R7aHpVNWzBSS8pwvWng==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "playerex",
+          "projectId": "o5GUN4b1",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "9Brlt68y"
+    ],
+    "1.19.1+fabric": [
+      "9Brlt68y"
+    ],
+    "1.19.2+fabric": [
+      "9Brlt68y"
+    ],
+    "1.19.3+fabric": [
+      "9Brlt68y"
+    ],
+    "1.19.4+fabric": [
+      "9Brlt68y"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "smart-cape-renderer",
+  "projectId": "a4Jaf5DD",
+  "versions": {
+    "7TUUQDN7": {
+      "filename": "smart-cape-renderer-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/a4Jaf5DD/versions/7TUUQDN7/smart-cape-renderer-1.0.2.jar",
+      "hash": "sha512-1vL6p47q3I/J58aNLrIxcOHZ2RgY8CvPamVi9pc+sSHHkSs1rWa+aCultnVdYGEzuyeQ9PB8y3Zt6IB0DA8PhA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XflZc0Vq": {
+      "filename": "smart_cape_renderer-1.0.2-neo.jar",
+      "url": "https://cdn.modrinth.com/data/a4Jaf5DD/versions/XflZc0Vq/smart_cape_renderer-1.0.2-neo.jar",
+      "hash": "sha512-1UmiLv3qCSzwd4GO4PjTGvjviQ/sk/C0Ft+NqHnlZUfgq44EIymLBQtOheMw69auD7oZMktHNTRpAa1Xn0BSLA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "curios",
+          "projectId": "vvuO3ImH",
+          "type": "required"
+        },
+        {
+          "slug": "sophisticated-backpacks",
+          "projectId": "TyCTlI4b",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "7TUUQDN7"
+    ],
+    "1.21.1+neoforge": [
+      "XflZc0Vq"
+    ]
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "slug": "shulker-nbt-fix",
+  "projectId": "O5BnVXcp",
+  "versions": {
+    "8y3AD0Yn": {
+      "filename": "ShulkerNbtFix-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/O5BnVXcp/versions/8y3AD0Yn/ShulkerNbtFix-1.1.1.jar",
+      "hash": "sha512-CKzKKzV4jAuRJ8BKk5tDS2Q4O1vtJm/brr7NBQVPHhgW9SoTBwooC8y8YAnIdkobu+HVqy1DpO92WrDwbsz8ZA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Ff3il94v": {
+      "filename": "ShulkerNbtFix-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/O5BnVXcp/versions/Ff3il94v/ShulkerNbtFix-1.1.2.jar",
+      "hash": "sha512-BLl3Aj2PvhJ78BWCLwPPBqsRiTkEmYRZmejeRSC+CYOC6fuevNejYj2NDAjR5QEYLEN+X8bHiVOIZwZ1mxXHqQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "HjfVqGnL": {
+      "filename": "ShulkerNbtFix-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/O5BnVXcp/versions/HjfVqGnL/ShulkerNbtFix-1.1.0.jar",
+      "hash": "sha512-c0zAyA/x1PyC3xI27RRloRxXMftQpos0EPuMS7wyHdxw8Av+im3lVg/6Jy3V5RcWLbzceVbXrnJp7O05EL5QAA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "NifGkPnv": {
+      "filename": "ShulkerNbtFix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/O5BnVXcp/versions/NifGkPnv/ShulkerNbtFix-1.0.0.jar",
+      "hash": "sha512-piz9jHONI/+gpx+3LSma4dDNkt8WoX90GuaYisMXOjF7ALiipG8Yvu/6n6f3rCnsR4P4JaTHp02tldOTCWNqHA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vxZnsjv0": {
+      "filename": "ShulkerNbtFix-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/O5BnVXcp/versions/vxZnsjv0/ShulkerNbtFix-1.1.0.jar",
+      "hash": "sha512-0JzKBq6Z0whZCC5Oa0kY/ooZTk5nYS553yERNpMwDwaA2WynEGh15LwYT9tMf7EPGsPosM7Y02bMg3PKXDSz6Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "HjfVqGnL",
+      "NifGkPnv"
+    ],
+    "1.19+quilt": [
+      "HjfVqGnL"
+    ],
+    "1.19.1+fabric": [
+      "HjfVqGnL",
+      "NifGkPnv"
+    ],
+    "1.19.1+quilt": [
+      "HjfVqGnL"
+    ],
+    "1.19.2+fabric": [
+      "HjfVqGnL",
+      "NifGkPnv"
+    ],
+    "1.19.2+quilt": [
+      "HjfVqGnL"
+    ],
+    "1.19.3+fabric": [
+      "HjfVqGnL",
+      "NifGkPnv"
+    ],
+    "1.19.3+quilt": [
+      "HjfVqGnL"
+    ],
+    "1.19.4+fabric": [
+      "HjfVqGnL",
+      "NifGkPnv"
+    ],
+    "1.19.4+quilt": [
+      "HjfVqGnL"
+    ],
+    "1.20+fabric": [
+      "vxZnsjv0",
+      "NifGkPnv"
+    ],
+    "1.20+quilt": [
+      "vxZnsjv0"
+    ],
+    "1.20.1+fabric": [
+      "Ff3il94v",
+      "vxZnsjv0",
+      "NifGkPnv"
+    ],
+    "1.20.1+quilt": [
+      "Ff3il94v",
+      "vxZnsjv0"
+    ],
+    "1.20.2+fabric": [
+      "8y3AD0Yn"
+    ],
+    "1.20.2+quilt": [
+      "8y3AD0Yn"
+    ]
+  }
+}

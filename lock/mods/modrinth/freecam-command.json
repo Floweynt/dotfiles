@@ -1,0 +1,91 @@
+{
+  "slug": "freecam-command",
+  "projectId": "2DZkunXo",
+  "versions": {
+    "KhbbpVta": {
+      "filename": "freecam-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2DZkunXo/versions/KhbbpVta/freecam-1.1.0.jar",
+      "hash": "sha512-6I5SQJ46qdNhhGs7n3Gd0CqyHn1rzLvIgPvRD236EiuFFxwlQUFo8B6K4JXaJD/pVbaErs1ARav/jUqbvG64gQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VTXoV0lt": {
+      "filename": "freecam-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2DZkunXo/versions/VTXoV0lt/freecam-1.0.0.jar",
+      "hash": "sha512-lUM0YCnMqSY7ZYJlIsiJ6WeQviF10BJr6miFNm/cYWfIJw0WVRs5g4FQRChcYcc0uGzNrhFvfmqW6wI0Y4/44A==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "a2OfKh2h": {
+      "filename": "freecam-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2DZkunXo/versions/a2OfKh2h/freecam-1.0.0.jar",
+      "hash": "sha512-goSTVQlN12eGIhDNYKdNfEoeRRug1IJqma6epcriafPWz3N6j5esumjWvIQJvjszLSUGo5eBxVi6JOWok9eroA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "KhbbpVta",
+      "a2OfKh2h",
+      "VTXoV0lt"
+    ],
+    "1.21.1+fabric": [
+      "KhbbpVta",
+      "a2OfKh2h"
+    ],
+    "1.21.2+fabric": [
+      "KhbbpVta",
+      "a2OfKh2h"
+    ],
+    "1.21.3+fabric": [
+      "KhbbpVta",
+      "a2OfKh2h"
+    ],
+    "1.21.4+fabric": [
+      "KhbbpVta",
+      "a2OfKh2h"
+    ]
+  }
+}

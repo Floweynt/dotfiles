@@ -1,0 +1,40 @@
+{
+  "slug": "noemotecraft-flashback-addon",
+  "projectId": "jGBpUrzO",
+  "versions": {
+    "AQBkbGox": {
+      "filename": "noemotecraft-addon-flashback-0.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/jGBpUrzO/versions/AQBkbGox/noemotecraft-addon-flashback-0.1%2Bmc1.21.1.jar",
+      "hash": "sha512-M3jZiajatN3ZTbS2S/+kX9bdxOrIRTeu0mpFCWABHuFyusTSFJUFfgfDUqteFeShTzPnbs59bYCLdJe9co8u2g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "flashback",
+          "projectId": "4das1Fjq",
+          "type": "required"
+        },
+        {
+          "slug": "noemotecraft",
+          "projectId": "pSQGhi9I",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "AQBkbGox"
+    ],
+    "1.21.1+fabric": [
+      "AQBkbGox"
+    ]
+  }
+}

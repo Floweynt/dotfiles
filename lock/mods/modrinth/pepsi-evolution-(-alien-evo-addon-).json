@@ -1,0 +1,64 @@
+{
+  "slug": "pepsi-evolution-(-alien-evo-addon-)",
+  "projectId": "jUGWiGJB",
+  "versions": {
+    "qu5wduPW": {
+      "filename": "pepsi_evo.jar",
+      "url": "https://cdn.modrinth.com/data/jUGWiGJB/versions/qu5wduPW/pepsi_evo.jar",
+      "hash": "sha512-WXJEUqnRp1taLR4zPpJ+bgremegIjIa8FWcQN5CzcBAsTlFLy+9TTr6SKNutWRPSeBaml/AOVr+ozyOdaR1gSg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "vwT8AA95": {
+      "filename": "pepsi_evo.jar",
+      "url": "https://cdn.modrinth.com/data/jUGWiGJB/versions/vwT8AA95/pepsi_evo.jar",
+      "hash": "sha512-yjQVIZfvqpKJ1TfRqCRJdFjqGZF1wr9yrGnCWkmJ0fbmi0IHwfH0sZ4dJYIuYY7nz//PGFt9pbukUcRqabbCzA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "qu5wduPW",
+      "vwT8AA95"
+    ],
+    "1.20.1+forge": [
+      "qu5wduPW",
+      "vwT8AA95"
+    ],
+    "1.20.1+neoforge": [
+      "qu5wduPW",
+      "vwT8AA95"
+    ]
+  }
+}

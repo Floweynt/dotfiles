@@ -1,0 +1,105 @@
+{
+  "slug": "playerswap",
+  "projectId": "xi5Hukp7",
+  "versions": {
+    "NrgsrVpG": {
+      "filename": "playerswap-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xi5Hukp7/versions/NrgsrVpG/playerswap-1.0.0.jar",
+      "hash": "sha512-p5VHdwYGes7jqY8ItPetzW9dEE8zPidVIMnQjoFSME4XrJzj/xx5TSY4yryLYK5uECiSXwper6ROCy7P+wMmRg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XVVIXPa7": {
+      "filename": "playerswap-1.0.2+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/xi5Hukp7/versions/XVVIXPa7/playerswap-1.0.2%2B1.21.11.jar",
+      "hash": "sha512-JwEZkC0N8xMkLTysTwWeVc5Pg+KPcYwLE+4S5Z2g0B9hfXuQ9Bwj/NWvU6DvlLTH9riuSbzA62J28Iwpj04oOw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XVnye7BR": {
+      "filename": "playerswap-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/xi5Hukp7/versions/XVnye7BR/playerswap-1.0.1.jar",
+      "hash": "sha512-W4YzRx6fouQ30LYbt31BVxXctcbYrqUchbvvsOKZOgCt8+OF3/kDCp4u98COVhO8aNQhOO7ThkPiaXHXVFW+mg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cCMfFedu": {
+      "filename": "playerswap-1.0.2+1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/xi5Hukp7/versions/cCMfFedu/playerswap-1.0.2%2B1.21.9.jar",
+      "hash": "sha512-L5NFhrzLmdQLR7J2AFUxZu5EdWawRTqy9+YcB6p72k7oO0dqA9OijZmW6n9lW8VG8ye/8umFPyDrejISwT3E7g==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "dWs51me6": {
+      "filename": "playerswap-1.0.2+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/xi5Hukp7/versions/dWs51me6/playerswap-1.0.2%2B1.21.8.jar",
+      "hash": "sha512-K1XqIVpcnha0lxWM9yKNUW31m3CeENYsIJlqSh1Xxdwj7HWiBLajjKlNF0myHGqWZqlyNH0CZd7o2t2BUJeuNw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "cCMfFedu"
+    ],
+    "1.21.11+fabric": [
+      "XVVIXPa7"
+    ],
+    "1.21.8+fabric": [
+      "dWs51me6",
+      "XVnye7BR",
+      "NrgsrVpG"
+    ],
+    "1.21.9+fabric": [
+      "cCMfFedu"
+    ]
+  }
+}

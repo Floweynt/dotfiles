@@ -1,0 +1,31 @@
+{
+  "slug": "flyboost",
+  "projectId": "l8OZerSO",
+  "versions": {
+    "m533YLYx": {
+      "filename": "fly-boost-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/l8OZerSO/versions/m533YLYx/fly-boost-1.0.0.jar",
+      "hash": "sha512-/mE93qkRvgzh1PF9pKDhL5WM0nRZiaFsP7nEv0Qxz4+Fsg1x3mJNNhv9h3LOwl/hzJk8SNYrU1fwakmOOYY1FQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "m533YLYx"
+    ]
+  }
+}

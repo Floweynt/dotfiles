@@ -1,0 +1,31 @@
+{
+  "slug": "last-resort",
+  "projectId": "7sRd4EDy",
+  "versions": {
+    "pvd0fzSB": {
+      "filename": "lastresort-fabric-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/7sRd4EDy/versions/pvd0fzSB/lastresort-fabric-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-5JwZDsyfwtjY/e7vUCdgiwBgosWyDk2LdwzVVxuR19XUE7VoAXSAh7VKYCSBbZ9V41kBn9rODFDG9QV27Nd3AQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "pvd0fzSB"
+    ]
+  }
+}

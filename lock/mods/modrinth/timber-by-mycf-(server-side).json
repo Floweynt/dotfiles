@@ -1,0 +1,75 @@
+{
+  "slug": "timber-by-mycf-(server-side)",
+  "projectId": "Zu9htTR7",
+  "versions": {
+    "KQXRisqL": {
+      "filename": "stimber-1.4.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Zu9htTR7/versions/KQXRisqL/stimber-1.4.0%2B1.20.1.jar",
+      "hash": "sha512-C+797vJ3CT4ujzv1JZOlNO51l02ErCUlWKGezMTWH4erA5lRV522dMkT6QVsM3A7bh75pIkuO17WKVF13WeZrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WusJjObS": {
+      "filename": "stimber-1.4.0+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/Zu9htTR7/versions/WusJjObS/stimber-1.4.0%2B1.19.3.jar",
+      "hash": "sha512-d6PbziEo6d9mU3PaNExiKTyv50z8vV7hHDMYptHPoGT5QNcqxGcTJwHZxInJdpo2xRzjyRlemeNDo4xO9ibEeA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vuvPrDG4": {
+      "filename": "STimber-1.3.1+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/Zu9htTR7/versions/vuvPrDG4/STimber-1.3.1%2B1.19.3.jar",
+      "hash": "sha512-h1TxXJjebGSw+oGTfHcGxEhDqFrw9InGOaIib9zGTApmzVaa0AL4LiL9YR8B35refJRXQ5eLkc6RnfvBwGYxhA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "WusJjObS",
+      "vuvPrDG4"
+    ],
+    "1.19.3+quilt": [
+      "WusJjObS",
+      "vuvPrDG4"
+    ],
+    "1.20.1+fabric": [
+      "KQXRisqL"
+    ]
+  }
+}

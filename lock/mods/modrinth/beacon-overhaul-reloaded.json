@@ -1,0 +1,88 @@
+{
+  "slug": "beacon-overhaul-reloaded",
+  "projectId": "gTf4SrWI",
+  "versions": {
+    "7UM1quA4": {
+      "filename": "BeaconOverhaulReloaded-0.1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/gTf4SrWI/versions/7UM1quA4/BeaconOverhaulReloaded-0.1.0-SNAPSHOT.jar",
+      "hash": "sha512-4phCh3r1Eo9owIy/LBIDG3SSs5UfINrl7igSQWtVgg1X8EsYXf4CzFgwIt7Z0Xbgo+moCRlmMX5WPuY8fKWkCA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "lavender",
+          "projectId": "D5h9NKNI",
+          "type": "required"
+        }
+      ]
+    },
+    "yls4N4LQ": {
+      "filename": "BeaconOverhaulReloaded-0.1.1-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/gTf4SrWI/versions/yls4N4LQ/BeaconOverhaulReloaded-0.1.1-SNAPSHOT.jar",
+      "hash": "sha512-29CU899cBYGo8PKLe7w0ZgCppGHNFNWLrIY9o8zKAVYnlu6psmp8NoLmPWpRSy2eVbLqdJ7zfyZGh2hBQdmaDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "lavender",
+          "projectId": "D5h9NKNI",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yls4N4LQ",
+      "7UM1quA4"
+    ],
+    "1.20.1+quilt": [
+      "yls4N4LQ",
+      "7UM1quA4"
+    ]
+  }
+}

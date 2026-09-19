@@ -1,0 +1,46 @@
+{
+  "slug": "create-fly-steam-n-rails-continued",
+  "projectId": "f20AygJv",
+  "versions": {
+    "O5isgfoX": {
+      "filename": "Steam_Rails-1.7.2-fly.26.2-beta.2+fabric-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/f20AygJv/versions/O5isgfoX/Steam_Rails-1.7.2-fly.26.2-beta.2%2Bfabric-mc26.2.jar",
+      "hash": "sha512-quvSyL1jwB5y8wENJYeMGhPcm1hZGGbT0n6sbbspOyRxMiRpYDemKvtjrsIAnnmIPl4QYZBuksdtXLmWYGvH4w==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        }
+      ]
+    },
+    "Z0KLlixa": {
+      "filename": "Steam_Rails-1.7.2-fly.26.2-beta.3+fabric-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/f20AygJv/versions/Z0KLlixa/Steam_Rails-1.7.2-fly.26.2-beta.3%2Bfabric-mc26.2.jar",
+      "hash": "sha512-dlZiuuq4BKxvIdVn6fbz/RFt25/RWPklKXnZb6iEbS7Op+WArNvpCPNtWGQ8c0BZsMj7omOUijjxx1/Kkc+W+A==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "Z0KLlixa",
+      "O5isgfoX"
+    ]
+  }
+}

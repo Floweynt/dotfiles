@@ -1,0 +1,54 @@
+{
+  "slug": "svcshare",
+  "projectId": "vRmao4eU",
+  "versions": {
+    "Hc96gUFy": {
+      "filename": "svcshare-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vRmao4eU/versions/Hc96gUFy/svcshare-1.21.1-1.0.0.jar",
+      "hash": "sha512-mAeT5P0DK1mctFaXCYBRGw1hiM3AQoUgtDsvoR/DJRODw+7buCEBEQzjDd8Vtu1tKRrRj4hW/dpJylO+M8frHw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        }
+      ]
+    },
+    "eg7Dchx5": {
+      "filename": "svcshare-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vRmao4eU/versions/eg7Dchx5/svcshare-1.21.1-1.0.0.jar",
+      "hash": "sha512-BT0GNlQnvPxS9RBVGrW3oB20e0Qq4aTBe9nnAyNufkrSCcLRhVi+fHwJxIOIDFZeBs13oGIw5oOMj2xWNthr6w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "eg7Dchx5"
+    ],
+    "1.21.1+neoforge": [
+      "Hc96gUFy"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "create-new-age-renewable-magnetite",
+  "projectId": "mmLqIFSN",
+  "versions": {
+    "BKzQmSlk": {
+      "filename": "create-new-age-renewable-magnetite_v1.0_1.19.2-1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/mmLqIFSN/versions/BKzQmSlk/create-new-age-renewable-magnetite_v1.0_1.19.2-1.20.1.zip",
+      "hash": "sha512-F2NNwhwCzFFuUXKddJfXC6+D5EIE6r9mXWGPDuIS5PqQfRAu3h3i2xUL5yjaYXuzbtU14lN5TsJ7LEsLyKxASQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-new-age",
+          "projectId": "FTeXqI9v",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "Wv76ZmEK": {
+      "filename": "create-new-age-renewable-magnetite-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/mmLqIFSN/versions/Wv76ZmEK/create-new-age-renewable-magnetite-1.0.jar",
+      "hash": "sha512-yEhbcWM/hD5VBTNynViwzrOfNW6iC87MYRdSupSdDINyBm+slsistoI0q+w+hq+Feh1yalOD894QsIKG/Hu1ag==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-new-age",
+          "projectId": "FTeXqI9v",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "BKzQmSlk"
+    ],
+    "1.19.2+fabric": [
+      "Wv76ZmEK"
+    ],
+    "1.19.2+forge": [
+      "Wv76ZmEK"
+    ],
+    "1.19.2+neoforge": [
+      "Wv76ZmEK"
+    ],
+    "1.19.2+quilt": [
+      "Wv76ZmEK"
+    ],
+    "1.20.1+datapack": [
+      "BKzQmSlk"
+    ],
+    "1.20.1+fabric": [
+      "Wv76ZmEK"
+    ],
+    "1.20.1+forge": [
+      "Wv76ZmEK"
+    ],
+    "1.20.1+neoforge": [
+      "Wv76ZmEK"
+    ],
+    "1.20.1+quilt": [
+      "Wv76ZmEK"
+    ]
+  }
+}

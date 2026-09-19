@@ -1,0 +1,119 @@
+{
+  "slug": "show-player-nametags",
+  "projectId": "NznUKMHm",
+  "versions": {
+    "Buz9VXU9": {
+      "filename": "show-player-nametags-1.0.2+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/NznUKMHm/versions/Buz9VXU9/show-player-nametags-1.0.2%2B1.21.7.jar",
+      "hash": "sha512-SzrBMdT0NvtBtl9eHuOu/SI6Cyd8eVxPtnPu7ICBqCvGvxLq2cWDvIXox9kLcthTY6oazbt2NFIp8WnBdrUzhQ==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QRyrr4Da": {
+      "filename": "show-player-nametags-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/NznUKMHm/versions/QRyrr4Da/show-player-nametags-1.0.1.jar",
+      "hash": "sha512-LqSfOAVbYRt0KjRIzNEh/TGM/rLkHXA16MgkPN12qrxhVs7woM38SN72c3KRJBugeWyEssN1iEozFzEAUE3ttw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "umhvjgHk": {
+      "filename": "show-player-nametags-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/NznUKMHm/versions/umhvjgHk/show-player-nametags-1.1.0.jar",
+      "hash": "sha512-cxe5xASloUZMxzQto1LYkITdT3TxBSzUyoyDhUhPlMe3wiB5cKSVeKjA+3sxw2VHt+v8RGJM+bMe+Cyqa4thIQ==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "umhvjgHk"
+    ],
+    "1.21.11+fabric": [
+      "umhvjgHk"
+    ],
+    "1.21.2+fabric": [
+      "umhvjgHk"
+    ],
+    "1.21.3+fabric": [
+      "umhvjgHk"
+    ],
+    "1.21.4+fabric": [
+      "umhvjgHk"
+    ],
+    "1.21.5+fabric": [
+      "umhvjgHk",
+      "QRyrr4Da"
+    ],
+    "1.21.6+fabric": [
+      "umhvjgHk"
+    ],
+    "1.21.7+fabric": [
+      "umhvjgHk",
+      "Buz9VXU9"
+    ],
+    "1.21.8+fabric": [
+      "umhvjgHk"
+    ],
+    "1.21.9+fabric": [
+      "umhvjgHk"
+    ]
+  }
+}

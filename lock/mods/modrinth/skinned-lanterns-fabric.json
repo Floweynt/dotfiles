@@ -1,0 +1,111 @@
+{
+  "slug": "skinned-lanterns-fabric",
+  "projectId": "9vBrbT9c",
+  "versions": {
+    "6v7lfcyO": {
+      "filename": "skinnedlanterns-fabric-1.3.0+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/9vBrbT9c/versions/1.3.0%2Bfabric/skinnedlanterns-fabric-1.3.0%2B1.18.2.jar",
+      "hash": "sha512-I3P1v9dGXAxy31f5pHlIdOSjmZl8Y6b0Rl/KDqoHQ2yDCh1ihJksKFA+geSihnPBEze52iSz5e9S0qt9d2uhKA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "97KmDstA": {
+      "filename": "Skinned Lanterns-fabric-1.19.2-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9vBrbT9c/versions/2.0.0/Skinned%20Lanterns-fabric-1.19.2-2.0.0.jar",
+      "hash": "sha512-uRqSFjRRVh8aazPdcWUM0y4mTenuP7t7tz5hiXKCpH6UkSHzJL20sQp09mZ5Aii5Cx26xYuenqOL5BpwiG6LzQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "q1ggG3Qr": {
+      "filename": "skinnedlanterns-1.2.0+build.12.jar",
+      "url": "https://cdn.modrinth.com/data/9vBrbT9c/versions/1.2.0/skinnedlanterns-1.2.0%2Bbuild.12.jar",
+      "hash": "sha512-KrSmR34LCHoQz52x4tgckdQbVasj/+paFKCz3azCOQQrZPyu8S2L4lwi6b2K8nHGCq40gGoQpgiSv5iCUUAQBA==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "v743vZFm": {
+      "filename": "skinned_lanterns-2.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/9vBrbT9c/versions/v743vZFm/skinned_lanterns-2.0.2.jar",
+      "hash": "sha512-us2eNdFIO9dGHB4uzjOus9Wb2s3RTnqpacj9fppz0NRuiCyEv7dDP77SpmQaKquSWJH+Km+2k6ZyGA8N/OynLQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "q1ggG3Qr"
+    ],
+    "1.18.1+fabric": [
+      "q1ggG3Qr"
+    ],
+    "1.18.2+fabric": [
+      "6v7lfcyO"
+    ],
+    "1.19.2+fabric": [
+      "97KmDstA"
+    ],
+    "1.19.2+forge": [
+      "97KmDstA"
+    ],
+    "1.19.3+fabric": [
+      "v743vZFm"
+    ],
+    "1.19.3+quilt": [
+      "v743vZFm"
+    ]
+  }
+}

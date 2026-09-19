@@ -1,0 +1,122 @@
+{
+  "slug": "soul-gathering",
+  "projectId": "KRjEZZTi",
+  "versions": {
+    "PJbBgPls": {
+      "filename": "soul_gathering-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/KRjEZZTi/versions/PJbBgPls/soul_gathering-2.2.0.jar",
+      "hash": "sha512-JKX3bmlXqmtmBkBFfmx0Rlj8UmrlkgoKGLEPOKS/FywzBjlBCHc6vDC7qmH4GaiE/HMKpmqvcTlchrnFqMmTZA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Vyq8pISK": {
+      "filename": "soul_gathering-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KRjEZZTi/versions/Vyq8pISK/soul_gathering-3.0.0.jar",
+      "hash": "sha512-9fdWhWdPFeJu4IZR9+lQFATQk7AS7U1THuOD5EKLvo341IDyClVCtmAfGjS4w60R19eW+E7KCR94pyGYgFuybw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fOEbHAig": {
+      "filename": "soul_gathering-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KRjEZZTi/versions/fOEbHAig/soul_gathering-2.1.0.jar",
+      "hash": "sha512-uDrJFvwn8M67K77hk0RmxHsISaxijuMnQUnJOcLSQdtnTsk3LsmXipP6z/SqlPggGPMvihv3ny/sf1Qwrhbf4g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "pCCC0IJ6": {
+      "filename": "soul_gathering-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/KRjEZZTi/versions/pCCC0IJ6/soul_gathering-3.0.1.jar",
+      "hash": "sha512-ujWm0ClPS85c92s3jbV0R9y6K4+RWebrL/yS9xH+VpKyIlCCUUuZr4S0G3DehYwOYmk+q7xH1mzkevlhXHePrQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "sP3JGQ0P": {
+      "filename": "soul_gathering-3.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KRjEZZTi/versions/sP3JGQ0P/soul_gathering-3.1.0.jar",
+      "hash": "sha512-hjrnCMFJC0TvqnOs2e5lCjLqkaLvZC2GnfiRi9IZtAbp8pyNA6jahQOEnnwIBD/PUi923i3Nnek1Uo3bpepUPQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "pCCC0IJ6",
+      "Vyq8pISK",
+      "PJbBgPls",
+      "fOEbHAig"
+    ],
+    "1.21.1+fabric": [
+      "sP3JGQ0P",
+      "pCCC0IJ6"
+    ]
+  }
+}

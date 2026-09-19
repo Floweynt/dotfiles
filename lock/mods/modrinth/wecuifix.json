@@ -1,0 +1,151 @@
+{
+  "slug": "wecuifix",
+  "projectId": "wLKUtRd3",
+  "versions": {
+    "J2v4QhW0": {
+      "filename": "WeCuiFix-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/wLKUtRd3/versions/J2v4QhW0/WeCuiFix-1.2.0.jar",
+      "hash": "sha512-Dg5WGtopFDsoZH2Mz4QToXIzerk311QitZxq1IV7UC6FMzllUuuFfz7z7lYN5GuwYQPcWrkHtJwGVLxQj/hpRw==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "worldedit-cui",
+          "projectId": "NSLJJooQ",
+          "type": "required"
+        },
+        {
+          "slug": "worldedit",
+          "projectId": "1u6JkXh5",
+          "type": "required"
+        }
+      ]
+    },
+    "UIAJZGVq": {
+      "filename": "WeCuiFix-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/wLKUtRd3/versions/UIAJZGVq/WeCuiFix-1.0.1.jar",
+      "hash": "sha512-Ra1AsPyXTzU6RDNFgZZla1qwXKk/y72bakBqhvDhfw6tEfTagyTyY+ALkTxotBRyAB74KdhdOKfP5La8rRcjKw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "worldedit-cui",
+          "projectId": "NSLJJooQ",
+          "type": "required"
+        },
+        {
+          "slug": "worldedit",
+          "projectId": "1u6JkXh5",
+          "type": "required"
+        }
+      ]
+    },
+    "ch7D3w1M": {
+      "filename": "WeCuiFix-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wLKUtRd3/versions/ch7D3w1M/WeCuiFix-1.1.0.jar",
+      "hash": "sha512-edEOME4x+sOuiYmkYrJJx9bBCJFuB5OFNzXSD9c3xzkNyV2pM6O7We471mZrJpnRMDydiksOSaw77jqU7mwEGg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rfSmjIsm": {
+      "filename": "WeCuiFix-Final.jar",
+      "url": "https://cdn.modrinth.com/data/wLKUtRd3/versions/rfSmjIsm/WeCuiFix-Final.jar",
+      "hash": "sha512-hKlMG0T4zDuWJu/vPaiYYs7NG9hakw+gMJE/iK93GUR+SenRN+X1QYktK4eV7SElGo2rxFR2DBg5woISrbrcSA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "worldedit",
+          "projectId": "1u6JkXh5",
+          "type": "required"
+        },
+        {
+          "slug": "worldedit-cui",
+          "projectId": "NSLJJooQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.5+fabric": [
+      "rfSmjIsm",
+      "J2v4QhW0",
+      "ch7D3w1M"
+    ],
+    "1.20.6+fabric": [
+      "rfSmjIsm",
+      "J2v4QhW0",
+      "ch7D3w1M"
+    ],
+    "1.21+fabric": [
+      "rfSmjIsm",
+      "J2v4QhW0",
+      "ch7D3w1M"
+    ],
+    "1.21.1+fabric": [
+      "rfSmjIsm",
+      "J2v4QhW0",
+      "ch7D3w1M"
+    ],
+    "1.21.2+fabric": [
+      "rfSmjIsm",
+      "J2v4QhW0",
+      "ch7D3w1M"
+    ],
+    "1.21.3+fabric": [
+      "rfSmjIsm",
+      "J2v4QhW0",
+      "ch7D3w1M"
+    ],
+    "1.21.4+fabric": [
+      "rfSmjIsm",
+      "J2v4QhW0",
+      "ch7D3w1M",
+      "UIAJZGVq"
+    ]
+  }
+}

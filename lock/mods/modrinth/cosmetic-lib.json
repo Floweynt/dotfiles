@@ -1,0 +1,87 @@
+{
+  "slug": "cosmetic-lib",
+  "projectId": "bATGbVcU",
+  "versions": {
+    "M7g2ITx5": {
+      "filename": "cosmetic-lib-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/bATGbVcU/versions/M7g2ITx5/cosmetic-lib-1.0.2.jar",
+      "hash": "sha512-cby6z4TeBdUDdbBeGFapVOyOVmR4wVCdQVLfs2zYYgDIAyf9bUH9cz1T6MQO2uSN4MiuYWxCqJI/yJkArWwieA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "ohTRaQpO": {
+      "filename": "cosmetic-lib-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/bATGbVcU/versions/ohTRaQpO/cosmetic-lib-1.0.4.jar",
+      "hash": "sha512-kA+xCwaxqXRqKMbOzgsklq4ISz9WrQAEqepXKvntRBUqb5QRSQwDMqb5cRy4v57WYz0K7VQcxkLgwBQQrpQATA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wR5weI2c": {
+      "filename": "cosmetic-lib-1.0.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/bATGbVcU/versions/wR5weI2c/cosmetic-lib-1.0.3.2.jar",
+      "hash": "sha512-UBTC1463q+i4BYfRZn2IU2XqtD6+fmOIR49oKFqRHmbjrG5N4XSWdOq30iR/zFnCBuDSTkPMRC+LbfxutY62OA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ohTRaQpO",
+      "wR5weI2c",
+      "M7g2ITx5"
+    ],
+    "1.20.2+fabric": [
+      "wR5weI2c"
+    ],
+    "1.20.3+fabric": [
+      "wR5weI2c"
+    ],
+    "1.20.4+fabric": [
+      "wR5weI2c"
+    ],
+    "1.20.5+fabric": [
+      "wR5weI2c"
+    ],
+    "1.20.6+fabric": [
+      "wR5weI2c"
+    ]
+  }
+}

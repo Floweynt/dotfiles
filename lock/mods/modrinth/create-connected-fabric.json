@@ -1,0 +1,92 @@
+{
+  "slug": "create-connected-fabric",
+  "projectId": "QtkeMX9L",
+  "versions": {
+    "S7xwyDWA": {
+      "filename": "create_connected-0.7.4-mc1.20.1+FABRIC+HOTFIX.jar",
+      "url": "https://cdn.modrinth.com/data/QtkeMX9L/versions/S7xwyDWA/create_connected-0.7.4-mc1.20.1%2BFABRIC%2BHOTFIX.jar",
+      "hash": "sha512-Cwvs8hMvtYQZB8OnG9q6Ea+kVvJRnwsOfeQRZO4UuJzHVi+Os7UddUhf3Tyd9qcSZyrsmxr7L5bMOkdsyTVHpQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "dmO5o3UP": {
+      "filename": "create_connected-fabric-1.1.13-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/QtkeMX9L/versions/dmO5o3UP/create_connected-fabric-1.1.13-mc1.20.1.jar",
+      "hash": "sha512-Quv9VQTdN1SfXHzWLKo/RnoMS2sSEsGHFJvBRFL2SaSXFcLXV3r/kuyRH1gnQnD0EVf1VxyXW+pSYfGoqSuNHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jHmrxolB": {
+      "filename": "create_connected-0.7.4-mc1.20.1+FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/QtkeMX9L/versions/jHmrxolB/create_connected-0.7.4-mc1.20.1%2BFABRIC.jar",
+      "hash": "sha512-68y0cSCIwJByeUbvIaBLz9X6hALO2Bj64bmDmkgBpC+vKoQABk6RCg2juc4soUyy6DwXQ0m2scgtzLSyUqgvkg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qEZLHTNJ": {
+      "filename": "create_connected-fabric-1.1.13+patch.1-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/QtkeMX9L/versions/qEZLHTNJ/create_connected-fabric-1.1.13%2Bpatch.1-mc1.20.1.jar",
+      "hash": "sha512-uuW+HyvrrCHDFCAvKZ7UASefXYPYR31L+i2YfwbDRW/tc6NkK37zxaYCZ39+0jdtqXhBfKUmbu5ybqEvDPwNDQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "qEZLHTNJ",
+      "dmO5o3UP",
+      "S7xwyDWA",
+      "jHmrxolB"
+    ]
+  }
+}

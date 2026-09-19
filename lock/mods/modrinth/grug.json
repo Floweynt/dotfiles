@@ -1,0 +1,70 @@
+{
+  "slug": "grug",
+  "projectId": "og11RtCz",
+  "versions": {
+    "b7vYSDYx": {
+      "filename": "grug-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/og11RtCz/versions/b7vYSDYx/grug-1.0.0.jar",
+      "hash": "sha512-bY6ZFs2Olc5F7UCs6Bmn3l+kkPtB5kgPc1KR2dkWXhfdkLCCxbRmTncKgZAGJmpfvhQZl3pvcvbo/YCpk+tOzg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "curios",
+          "projectId": "vvuO3ImH",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "b7vYSDYx"
+    ],
+    "1.20.1+forge": [
+      "b7vYSDYx"
+    ]
+  }
+}

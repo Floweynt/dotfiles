@@ -1,0 +1,87 @@
+{
+  "slug": "inundated",
+  "projectId": "nh3fzCP0",
+  "versions": {
+    "3mhVdxWg": {
+      "filename": "inundated-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/nh3fzCP0/versions/3mhVdxWg/inundated-1.0.1.jar",
+      "hash": "sha512-Jdy7PddG28JqWQ+o1+qc0BoM41NM3DfqPC8bW4w/RoL3iCmt6VqUpoZIDd/kg5CFr8QoR6F/FudiMXY9hyrBOg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Gp32okEf": {
+      "filename": "inundated-1.0.3.fabric.1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/nh3fzCP0/versions/Gp32okEf/inundated-1.0.3.fabric.1.21.5.jar",
+      "hash": "sha512-M8d9jzVioH4YYBU0nWaNNKNg1Gyz031HzQVTLV3v5Ooge7Qlx6jVsfO/Op0I23oUaYfwk5dme3EZhoP/0ToISw==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "z4fLzf8y": {
+      "filename": "inundated-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/nh3fzCP0/versions/z4fLzf8y/inundated-1.0.2.jar",
+      "hash": "sha512-HXDjBvxf4/gbmHeJp/M1+x4ODnAzxPO+wqNCOnLrdF7r+Tks2LrtgC/w9d3ARnx1p64AJP5xG1EQDweQURWr0A==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "3mhVdxWg"
+    ],
+    "1.21.5+fabric": [
+      "Gp32okEf",
+      "z4fLzf8y"
+    ],
+    "1.21.6+fabric": [
+      "Gp32okEf"
+    ],
+    "1.21.7+fabric": [
+      "Gp32okEf"
+    ],
+    "1.21.8+fabric": [
+      "Gp32okEf"
+    ]
+  }
+}

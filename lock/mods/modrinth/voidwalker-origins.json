@@ -1,0 +1,31 @@
+{
+  "slug": "voidwalker-origins",
+  "projectId": "n7tD7vzc",
+  "versions": {
+    "wpfiwZCP": {
+      "filename": "voidwalker2.5.jar",
+      "url": "https://cdn.modrinth.com/data/n7tD7vzc/versions/wpfiwZCP/voidwalker2.5.jar",
+      "hash": "sha512-eqYaY4HktdBGkDBZcCfLHPPMX0XtYJ5teh0PVBcSsjqspiZ/0YT5jerjM7NfYvkspXNSunVi9n8eyohmQXNTwg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "wpfiwZCP"
+    ]
+  }
+}

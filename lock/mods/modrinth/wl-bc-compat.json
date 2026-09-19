@@ -1,0 +1,74 @@
+{
+  "slug": "wl-bc-compat",
+  "projectId": "tPlwzkDg",
+  "versions": {
+    "eA406LEn": {
+      "filename": "wl_bc_compat-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tPlwzkDg/versions/eA406LEn/wl_bc_compat-forge-1.0.0.jar",
+      "hash": "sha512-BnBT7qtoYv9jBcPNJmugXj17TnoYGOqs87Q5ic5bcQlriR66YCwQynsWf7U8YpCFz2GFCLc+Ybq4ouRI+0tIeg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "weapon-leveling",
+          "projectId": "IuFgFiGE",
+          "type": "required"
+        },
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    },
+    "ns0SDPMm": {
+      "filename": "wl_bc_compat-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tPlwzkDg/versions/ns0SDPMm/wl_bc_compat-fabric-1.0.0.jar",
+      "hash": "sha512-ifmFTzkn/umsgNA/2L/sv5chWdmL72lDyAJyE9e5RmbLdlenEJu/PTl25kQvvI9cbyFpFd1t0k66TBLMMBjRYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "weapon-leveling",
+          "projectId": "IuFgFiGE",
+          "type": "required"
+        },
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ns0SDPMm"
+    ],
+    "1.20.1+forge": [
+      "eA406LEn"
+    ]
+  }
+}

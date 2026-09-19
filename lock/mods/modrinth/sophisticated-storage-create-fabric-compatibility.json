@@ -1,0 +1,41 @@
+{
+  "slug": "sophisticated-storage-create-fabric-compatibility",
+  "projectId": "OO84Irwr",
+  "versions": {
+    "rTlwZlga": {
+      "filename": "create-sophisticated-storage-compatibility-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OO84Irwr/versions/rTlwZlga/create-sophisticated-storage-compatibility-1.0.0.jar",
+      "hash": "sha512-GUKPQKdpf3fuJyZy4qvjDn+Mv5n2VOemS3X168kn43cZyo0pZ4OddV/yfwiMq2YSlY6ta+2JYomsvxBuYjBgsg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "sophisticated-core-(unofficial-fabric-port)",
+          "projectId": "9jxwkYQL",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "sophisticated-storage-(unofficial-fabric-port)",
+          "projectId": "iHtpVwJL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "rTlwZlga"
+    ]
+  }
+}

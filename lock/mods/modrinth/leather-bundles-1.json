@@ -1,0 +1,102 @@
+{
+  "slug": "leather-bundles-1",
+  "projectId": "8WzVT6LC",
+  "versions": {
+    "K9BTPuL6": {
+      "filename": "leatherbundles-v1.1-1.21.zip",
+      "url": "https://cdn.modrinth.com/data/8WzVT6LC/versions/K9BTPuL6/leatherbundles-v1.1-1.21.zip",
+      "hash": "sha512-wtIIrwNdxe0bjJXKsN2apV2OCv9gLScQ2notUQlOOo6ghMI9PDxTvEJPY7r/O/8pDb4U15AELXtv/C0XSVvXyw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "ONtW9gpt": {
+      "filename": "leather-bundles-1.20.5-1.jar",
+      "url": "https://cdn.modrinth.com/data/8WzVT6LC/versions/ONtW9gpt/leather-bundles-1.20.5-1.jar",
+      "hash": "sha512-Sl1Q4GbF7IjVaQDHWWBYvL+hDtFmCcz297g+Go6dfDtvvhRUcRN6TrjqqSIUMcBYm/Zvwnut2Q8RNMsYNaRSQA==",
+      "gameVersions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XoW0RX80": {
+      "filename": "leatherbundles-v1-1.20.5.zip",
+      "url": "https://cdn.modrinth.com/data/8WzVT6LC/versions/XoW0RX80/leatherbundles-v1-1.20.5.zip",
+      "hash": "sha512-O9FlTEbQI73TIPhV0g+AoHaTNCIZ0K7PMpijLFRP1q/7lOHrLNh8sRyiCX2SprRjEs42s7owjvvBrMVy8TcSZA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6-rc1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "ZdW6tEtb": {
+      "filename": "leather-bundles-1-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8WzVT6LC/versions/ZdW6tEtb/leather-bundles-1-1.1.jar",
+      "hash": "sha512-0sqbNoCoNDyfFPakY2cbzl37haWA3mIAPFHzbHvggodHXla6wGHLFOqcR1RF1+OTQm2G6TkB0ZttR9kLGo/OsA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.5+datapack": [
+      "XoW0RX80"
+    ],
+    "1.20.5+fabric": [
+      "ONtW9gpt"
+    ],
+    "1.20.5+forge": [
+      "ONtW9gpt"
+    ],
+    "1.20.5+quilt": [
+      "ONtW9gpt"
+    ],
+    "1.20.6-rc1+datapack": [
+      "XoW0RX80"
+    ],
+    "1.21+datapack": [
+      "K9BTPuL6"
+    ],
+    "1.21+fabric": [
+      "ZdW6tEtb"
+    ],
+    "1.21+forge": [
+      "ZdW6tEtb"
+    ],
+    "1.21+quilt": [
+      "ZdW6tEtb"
+    ]
+  }
+}

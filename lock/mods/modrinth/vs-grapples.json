@@ -1,0 +1,62 @@
+{
+  "slug": "vs-grapples",
+  "projectId": "L19b9u25",
+  "versions": {
+    "i2ZHMfC9": {
+      "filename": "vsgrapples-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L19b9u25/versions/i2ZHMfC9/vsgrapples-0.1.0.jar",
+      "hash": "sha512-Q9KUuKDNpZeuMXLK57nDkLqdIEXsY8/SjhiZvEr5RC3uzSX/+VyYd3VTXId+A4e3ZvaXq/+HRc2X5B2/RTMq2g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "grappling-hook-mod-fabric",
+          "projectId": "f4hp6FTb",
+          "type": "required"
+        }
+      ]
+    },
+    "sHn1zwAQ": {
+      "filename": "vsgrapples-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/L19b9u25/versions/sHn1zwAQ/vsgrapples-0.1.1.jar",
+      "hash": "sha512-YPfrFMmJKuT7vHYeOUr/EjvlbSYslth+Uc5NPSfPpTboSIeEbg2bED4VdsrV2IpL35Hc9H/Iix8021fV5tvEZw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "grappling-hook-mod-fabric",
+          "projectId": "f4hp6FTb",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sHn1zwAQ",
+      "i2ZHMfC9"
+    ]
+  }
+}

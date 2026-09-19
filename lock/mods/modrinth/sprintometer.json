@@ -1,0 +1,146 @@
+{
+  "slug": "sprintometer",
+  "projectId": "exveatcq",
+  "versions": {
+    "M3cb59HY": {
+      "filename": "sprintometer-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/exveatcq/versions/1.0.1s/sprintometer-1.0.1.jar",
+      "hash": "sha512-heyTDyP7gyU0lRrFwglSezhL7L8+AUMOzs15jJ+tJQKl2pRnROTOqU7AR5h96L/twzR9qyGc6jwQRFeCHJdCVw==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "POXfZzwR": {
+      "filename": "sprintometer-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/exveatcq/versions/1.0.0/sprintometer-1.0.0.jar",
+      "hash": "sha512-Uoyu94rOCyAt3DUcmO3P15T1Jl/j5iGVwMm1WVZuceuora9qzcc+HF1qoFi0Wq3Bb0dpVS6+GTLyNvoDFavIRQ==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XZwcVqUk": {
+      "filename": "sprintometer-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/exveatcq/versions/1.0.1/sprintometer-1.0.1.jar",
+      "hash": "sha512-OqScjnoUrQ/sv8bgcMDdLah54GJb9d9bEl8Vzy1MoGvpHICWqeSee8V0E5J3RaOjEPwQGD8yZqkaoA/wjsTDDA==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "lekudb0i": {
+      "filename": "sprintometer-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/exveatcq/versions/1.0.1e2/sprintometer-1.0.1.jar",
+      "hash": "sha512-r+m05tjRwVgnGUhwDq0yPnz2pPaz9/4f+BEm1daGr/niKY/w5UgvsQjiZhNISzgt8alOC7ONfSDauQsu67JuCA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mM2QvfPg": {
+      "filename": "sprintometer-2.0a-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/exveatcq/versions/2.0ea/sprintometer-2.0a-1.18.2.jar",
+      "hash": "sha512-fbBpF6PVNAPok5ENb1yqNus7WnU1qb678PlG6Qs3mO8a/t1Kbd3P4wzn7y18WKipsIGLvXjfw7s0Mr9uS5ahQA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "wE2WpTjS": {
+      "filename": "sprintometer-2.0a-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/exveatcq/versions/2.0ea/sprintometer-2.0a-1.19.2.jar",
+      "hash": "sha512-FDBILieZ0hsdpSdDeyUotXccFVY5Na9KhUS/2wU9nzw4/yixleUg72sLOeFu1DcnJzUdk4f572qRY+CXCbEu2g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "M3cb59HY"
+    ],
+    "1.17.1+fabric": [
+      "M3cb59HY"
+    ],
+    "1.18+fabric": [
+      "XZwcVqUk",
+      "POXfZzwR"
+    ],
+    "1.18.1+fabric": [
+      "XZwcVqUk",
+      "POXfZzwR"
+    ],
+    "1.18.2+fabric": [
+      "mM2QvfPg",
+      "lekudb0i"
+    ],
+    "1.18.2+quilt": [
+      "mM2QvfPg"
+    ],
+    "1.19.2+fabric": [
+      "wE2WpTjS"
+    ],
+    "1.19.2+quilt": [
+      "wE2WpTjS"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "bta-elevators",
+  "projectId": "86WFcQ4a",
+  "versions": {
+    "2K2LUrA1": {
+      "filename": "elevatorsmod-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/86WFcQ4a/versions/2K2LUrA1/elevatorsmod-1.1.3.jar",
+      "hash": "sha512-VwVZrG7dyBqmLsBg49AkkccASCtHl+/cLrmLYEzZn/qq2oBFfY63RHHUzyYoc1ar/wMGeeUPOtDijWFOpGoSmg==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        }
+      ]
+    },
+    "RAHydTky": {
+      "filename": "elevatorsmod-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/86WFcQ4a/versions/RAHydTky/elevatorsmod-1.1.2.jar",
+      "hash": "sha512-L6WrZTcTEnYR6eWPmk3ckKSx8IbEfU09Nry0TllweSeVOyOQLGKjkaU0q8FLEU/TEHdA/CTRaYQG7nfINs4ylg==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        }
+      ]
+    },
+    "l7qEQzXe": {
+      "filename": "elevatorsmod-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/86WFcQ4a/versions/l7qEQzXe/elevatorsmod-1.0.3.jar",
+      "hash": "sha512-LCCIuQo83UuuLWp9j0VxYXWMP5E7oDju6mx2tCxdH1yFnPIzZZczAiVomTnicLHOENYK/52DMhAlLhiE5uC68A==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+fabric": [
+      "l7qEQzXe",
+      "RAHydTky",
+      "2K2LUrA1"
+    ]
+  }
+}

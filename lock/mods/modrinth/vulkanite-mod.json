@@ -1,0 +1,88 @@
+{
+  "slug": "vulkanite-mod",
+  "projectId": "S0rE9lpd",
+  "versions": {
+    "53i3r1wX": {
+      "filename": "vulkanite-0.0.1-pre-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/S0rE9lpd/versions/53i3r1wX/vulkanite-0.0.1-pre-alpha.jar",
+      "hash": "sha512-oCdFdlmoNtjRQeVLvQvSRu2pHhNMWcu8mxM12dMD/evO+CchWVUZCQKMT7l1FHWfEFZNuYxfuRs7M9aBNuFPqw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        }
+      ]
+    },
+    "aBA7IEMr": {
+      "filename": "vulkanite-0.0.2-pre-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/S0rE9lpd/versions/aBA7IEMr/vulkanite-0.0.2-pre-alpha.jar",
+      "hash": "sha512-rqYIIfE0MhcxgpOx4t82Qe730D17nhGDDJPO4Sy4opORns3Nq6mMwBVhMcNAhantQ3ZipLCteQfKP5yTljniwA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "eMF3g5ot": {
+      "filename": "vulkanite-0.0.3-pre-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/S0rE9lpd/versions/eMF3g5ot/vulkanite-0.0.3-pre-alpha.jar",
+      "hash": "sha512-j9c2GT9EZruufghH7c/3sWu00PDpOkaxr7ms9lf28L95tSKSaOlQppMMSQzJdlj8itB/IOIndpBUMrZvd/2Xyw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eMF3g5ot",
+      "aBA7IEMr",
+      "53i3r1wX"
+    ]
+  }
+}

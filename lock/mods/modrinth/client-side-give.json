@@ -1,0 +1,128 @@
+{
+  "slug": "client-side-give",
+  "projectId": "sf6cB8l2",
+  "versions": {
+    "ElNogMMl": {
+      "filename": "client-side-give-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sf6cB8l2/versions/ElNogMMl/client-side-give-1.0.0.jar",
+      "hash": "sha512-S+4c+Av6/6F5KwZj8BSzIGxGu5p6ZVVQom3/zTqHj8YdX7xEkhuelThnEgYFFh83193Ug9+rVUy2WG5LtS9OFQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "TLseNMGd": {
+      "filename": "client-side-give-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/sf6cB8l2/versions/TLseNMGd/client-side-give-1.0.2.jar",
+      "hash": "sha512-v3Q0btOrz9NUBhRIjBTSk3VHVUpcfYyuBk5AVTdVXaVGZMThRnHvw/sf9NPqs37s2dZKLbjj92OAtXgvmV9gLw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VP6QA7eM": {
+      "filename": "client-side-give-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/sf6cB8l2/versions/VP6QA7eM/client-side-give-1.0.1.jar",
+      "hash": "sha512-weo6/IqvkUWGv7gzex6uJoU1uvQYuMTdZA5b3z9CSLfg97pjGdeBIM2vCyxxV4lcAuCfwqZ0EaQljtNa3KxUDQ==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eEmGFP2f": {
+      "filename": "client-side-give-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sf6cB8l2/versions/eEmGFP2f/client-side-give-1.0.0.jar",
+      "hash": "sha512-fGW2gJUvYcNhmn2twIJ/7ifDCGjk4GW0unJEsmcqoCvZmn90jV+3VTLDpfV+d2KQOZOiCE4TGOqijrSc1zsZ4Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "VP6QA7eM"
+    ],
+    "1.21.11+fabric": [
+      "VP6QA7eM"
+    ],
+    "1.21.4+fabric": [
+      "eEmGFP2f"
+    ],
+    "1.21.5+fabric": [
+      "VP6QA7eM",
+      "ElNogMMl"
+    ],
+    "1.21.6+fabric": [
+      "VP6QA7eM"
+    ],
+    "1.21.7+fabric": [
+      "VP6QA7eM"
+    ],
+    "1.21.8+fabric": [
+      "VP6QA7eM"
+    ],
+    "1.21.9+fabric": [
+      "VP6QA7eM"
+    ],
+    "26.1+fabric": [
+      "TLseNMGd"
+    ],
+    "26.1.1+fabric": [
+      "TLseNMGd"
+    ],
+    "26.1.2+fabric": [
+      "TLseNMGd"
+    ],
+    "26.2+fabric": [
+      "TLseNMGd"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "bounties-and-coins",
+  "projectId": "31demTCi",
+  "versions": {
+    "AwoDDFal": {
+      "filename": "bountiesfabric-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/31demTCi/versions/AwoDDFal/bountiesfabric-1.0.3.jar",
+      "hash": "sha512-KhDWaxz2xeCMzP1fN87xDNF+13V8g+3oUSeVxdGW+aiOMAaDh4GhWeexnzYwz7/y1Bk+JTm+jy2V+Ut8PDjOCg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s2Ju8BGE": {
+      "filename": "bounties-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/31demTCi/versions/s2Ju8BGE/bounties-1.0.3.jar",
+      "hash": "sha512-YqxUKqaqzXax1zSwaYpEy44wsVEFokAXc/8fYbGmGLo5tC3aumhofREC7So2/QZvI+No8e7YCqNbTKDHvS1dlg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "AwoDDFal"
+    ],
+    "1.20.1+fabric": [
+      "AwoDDFal"
+    ],
+    "1.20.1+forge": [
+      "s2Ju8BGE"
+    ],
+    "1.20.2+fabric": [
+      "AwoDDFal"
+    ],
+    "1.20.3+fabric": [
+      "AwoDDFal"
+    ],
+    "1.20.4+fabric": [
+      "AwoDDFal"
+    ]
+  }
+}

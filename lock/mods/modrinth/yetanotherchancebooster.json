@@ -1,0 +1,106 @@
+{
+  "slug": "yetanotherchancebooster",
+  "projectId": "eDldsZiH",
+  "versions": {
+    "YHrfLIma": {
+      "filename": "yetanotherchancebooster-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/eDldsZiH/versions/YHrfLIma/yetanotherchancebooster-fabric-1.0.1.jar",
+      "hash": "sha512-fnMqMN45BWMaHUGrglmME4sZupsBP6DgGkpCARZndE8xN1VA2AwPyJZQgbfsBgY894aLewgg/3hhp6b6Frn4bw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "ZCEDAkln": {
+      "filename": "yetanotherchancebooster-forge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/eDldsZiH/versions/ZCEDAkln/yetanotherchancebooster-forge-1.0.1.jar",
+      "hash": "sha512-YbAjU3ZytX2wG6lFJj+6n/gKe/2tmo8nPkaynJZkW4s3RF13+ScuB5ut6ITxQ08Dm0s6AqqIyUyFH5BJhSiedw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "txSQwaBA": {
+      "filename": "yetanotherchancebooster-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eDldsZiH/versions/txSQwaBA/yetanotherchancebooster-forge-1.0.0.jar",
+      "hash": "sha512-VsGNCiGKH53ZVn+MRcW/Ttv8XTE5Zfn7+lUiRyJM3c1oLXapEdQKqbGGBm+hYQFZcQ5YrfXS5lnWptKz1HtFaA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "uX0k8wnw": {
+      "filename": "yetanotherchancebooster-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eDldsZiH/versions/uX0k8wnw/yetanotherchancebooster-fabric-1.0.0.jar",
+      "hash": "sha512-z3I07n0DfU2wt0oZ/I+9OUiASixiuyXpKmbyOx2/U8RnNl4sTgAzvuonusvTmBuQovgc501fIqh4EJTX9apJNw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "YHrfLIma",
+      "uX0k8wnw"
+    ],
+    "1.20.1+forge": [
+      "ZCEDAkln",
+      "txSQwaBA"
+    ]
+  }
+}

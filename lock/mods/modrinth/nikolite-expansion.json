@@ -1,0 +1,75 @@
+{
+  "slug": "nikolite-expansion",
+  "projectId": "iydzC46h",
+  "versions": {
+    "Kar1f7sf": {
+      "filename": "indrev-nikolite-1.0+1.18.1.jar",
+      "url": "https://cdn.modrinth.com/data/iydzC46h/versions/1.0%2B1.18.1/indrev-nikolite-1.0%2B1.18.1.jar",
+      "hash": "sha512-yt4KLWE+5CB1MJib2KMWnfNRyLWCDK736oC6XFHPmh8Xwcs1sETOvya4EYqC9VEH+ukq6ZTFlLRHMkZ8/Cr80Q==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XRr6Za6z": {
+      "filename": "indrev-nikolite-1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/iydzC46h/versions/XRr6Za6z/indrev-nikolite-1.0%2B1.20.1.jar",
+      "hash": "sha512-B6qXh8Fw6HvQnbvDnO2CjSTQIQgVofybtmTTSR0s65gQTMsePkpCtpK1ZG/1SttHE47iOze6rAO6AUUpec2ruQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fe7XlNvZ": {
+      "filename": "indrev-nikolite-1.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/iydzC46h/versions/fe7XlNvZ/indrev-nikolite-1.0%2B1.19.2.jar",
+      "hash": "sha512-bt+QdO4lswGUWReLfxxXVqPN2ZiHusK2PebSPWJ1ETLfBYXoAIihjzUKml2yUt7U5VboAxNfrOZ4y9E+4FnllQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.1+fabric": [
+      "Kar1f7sf"
+    ],
+    "1.18.2+fabric": [
+      "Kar1f7sf"
+    ],
+    "1.19.2+fabric": [
+      "fe7XlNvZ"
+    ],
+    "1.20.1+fabric": [
+      "XRr6Za6z"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "spell-engine-x-open-parties-and-claims",
+  "projectId": "HQVXAnZf",
+  "versions": {
+    "SsgmPFRu": {
+      "filename": "Spell_Engine_OPAC_Compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HQVXAnZf/versions/SsgmPFRu/Spell_Engine_OPAC_Compat-1.0.0.jar",
+      "hash": "sha512-/NJFkqtm/TalSFwwI7o1zjDrTUYCv7t90adMHPgQNa5bMVB5Z9WKaG0EawlGIt8Q6BDmo/R3CQMhn9hXwmYYVA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "spell-engine",
+          "projectId": "XvoWJaA2",
+          "type": "required"
+        },
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "SsgmPFRu"
+    ],
+    "1.20.1+fabric": [
+      "SsgmPFRu"
+    ],
+    "1.21+fabric": [
+      "SsgmPFRu"
+    ],
+    "1.21.1+fabric": [
+      "SsgmPFRu"
+    ]
+  }
+}

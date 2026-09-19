@@ -1,0 +1,91 @@
+{
+  "slug": "sodium-crash-fix",
+  "projectId": "jg6Hhgf5",
+  "versions": {
+    "a63hDo5L": {
+      "filename": "Sodium-Fix-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jg6Hhgf5/versions/1.0.1/Sodium-Fix-1.0.1.jar",
+      "hash": "sha512-9YLH810rPvcvb7gFuulDOdzif4UDtkvLr8BFETJ1R5+fQMZVdohI6aqMedBjefc1A43yQsuKRtwFRDFyHkgqgA==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "kF6dxtsG": {
+      "filename": "Sodium-Fix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jg6Hhgf5/versions/1.0/Sodium-Fix-1.0.0.jar",
+      "hash": "sha512-HYUip3CeXu/ewf5sQbP8eoqdsXcHCXgYeSxLCfML1+kGBUjxMyRyM7YTwBIzZMdgYx94O0gw1UiqCZDL3symkw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "wUKJhAx0": {
+      "filename": "Sodium-Fix-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/jg6Hhgf5/versions/1.0.2/Sodium-Fix-1.0.2.jar",
+      "hash": "sha512-r/s9NmNgFwCjZIMdBuh0YoR8YWcrby0FZSV3Eni+Xrxauj1hrKzAI70M5L1finUzLPCBtBYmrs/ladGJBflrng==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "wUKJhAx0",
+      "a63hDo5L"
+    ],
+    "1.18.2+quilt": [
+      "wUKJhAx0",
+      "a63hDo5L"
+    ],
+    "1.19+fabric": [
+      "wUKJhAx0",
+      "a63hDo5L",
+      "kF6dxtsG"
+    ],
+    "1.19+quilt": [
+      "wUKJhAx0",
+      "a63hDo5L",
+      "kF6dxtsG"
+    ]
+  }
+}

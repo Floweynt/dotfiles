@@ -1,0 +1,145 @@
+{
+  "slug": "bonded-basic-weapons-compat",
+  "projectId": "G6ImCY7v",
+  "versions": {
+    "4Slh1K5u": {
+      "filename": "bondedbw-neoforge-1.21.1-2.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/G6ImCY7v/versions/4Slh1K5u/bondedbw-neoforge-1.21.1-2.0.0%2B1.21.1.jar",
+      "hash": "sha512-Sw/LiYGyNw156d/xnF77DJ73bfpSzNJen8jQ+8bhSxKyA0To0a13M4LVF8V92tDMe8U/H9Xa7YQTmRvFLr23Cg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bonded",
+          "projectId": "rTXmXcev",
+          "type": "required"
+        },
+        {
+          "slug": "basicweapons",
+          "projectId": "sc2Pektv",
+          "type": "required"
+        }
+      ]
+    },
+    "WfeUpMHS": {
+      "filename": "bondedbw-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/G6ImCY7v/versions/WfeUpMHS/bondedbw-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-vs3ZjtcM7ZSgwcxg25oqDkyBS2c2aUZuhxNPKYXKSTQy2psclMdUg8aZ2tlb/8rEkH+zOZUqF4gXpQsdwC68fg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bonded",
+          "projectId": "rTXmXcev",
+          "type": "required"
+        },
+        {
+          "slug": "basicweapons",
+          "projectId": "sc2Pektv",
+          "type": "required"
+        }
+      ]
+    },
+    "aUDNZBeC": {
+      "filename": "bondedbw-fabric-1.21.4-1.1.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/G6ImCY7v/versions/aUDNZBeC/bondedbw-fabric-1.21.4-1.1.0%2B1.21.4.jar",
+      "hash": "sha512-FvpsxQIPk80C0ZuRLayrlAWiAU15SNOW9CscRyEjwJP0RdgJPzZs9ChRB3TH0aAaXqlf/JqkEFOjEMG3KsG0ow==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "basicweapons",
+          "projectId": "sc2Pektv",
+          "type": "required"
+        },
+        {
+          "slug": "bonded",
+          "projectId": "rTXmXcev",
+          "type": "required"
+        },
+        {
+          "slug": "amber",
+          "projectId": "vjGZJDu5",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "oCUSAX6b": {
+      "filename": "bondedbw-fabric-1.21.1-2.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/G6ImCY7v/versions/oCUSAX6b/bondedbw-fabric-1.21.1-2.0.0%2B1.21.1.jar",
+      "hash": "sha512-OMv+V8ivvKwtwwVHqGKWLcKvV+2/5am6bWGuvgDPCHn8DMqPZO0j/QNcsijKyvvwRjtPd5vvcks4fgFrj6rErA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "basicweapons",
+          "projectId": "sc2Pektv",
+          "type": "required"
+        },
+        {
+          "slug": "bonded",
+          "projectId": "rTXmXcev",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "oCUSAX6b",
+      "WfeUpMHS"
+    ],
+    "1.21+neoforge": [
+      "4Slh1K5u"
+    ],
+    "1.21+quilt": [
+      "WfeUpMHS"
+    ],
+    "1.21.1+fabric": [
+      "oCUSAX6b",
+      "WfeUpMHS"
+    ],
+    "1.21.1+neoforge": [
+      "4Slh1K5u"
+    ],
+    "1.21.1+quilt": [
+      "WfeUpMHS"
+    ],
+    "1.21.4+fabric": [
+      "aUDNZBeC"
+    ]
+  }
+}

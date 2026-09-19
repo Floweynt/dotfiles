@@ -1,0 +1,36 @@
+{
+  "slug": "horse-armor+",
+  "projectId": "TgjI2aZu",
+  "versions": {
+    "rdXhLY9i": {
+      "filename": "horsearmorstandmod-1.0.3-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/TgjI2aZu/versions/rdXhLY9i/horsearmorstandmod-1.0.3-1.21.11.jar",
+      "hash": "sha512-YrVilxu32mYJUUaRGBvNe7TAof2LoBv+gQMNR+xL4lvigcPw+Oe0J1oqd36ShZ1zt2TulVotUrF9eSWlej6Uhg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "rdXhLY9i"
+    ]
+  }
+}

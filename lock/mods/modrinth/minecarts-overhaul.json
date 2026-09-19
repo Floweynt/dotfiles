@@ -1,0 +1,105 @@
+{
+  "slug": "minecarts-overhaul",
+  "projectId": "aqnMGg9O",
+  "versions": {
+    "2XmtkLh0": {
+      "filename": "minecarts-overhaul-0.4.1-beta+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/aqnMGg9O/versions/2XmtkLh0/minecarts-overhaul-0.4.1-beta%2B26.1.2.jar",
+      "hash": "sha512-tjSkorpuYpcUQy4uUustA+3KccfPLX6VnDG6vMDGm/Ijly6W4dkIJvHZ9pOiL2ttEw+LDjUkFxiZU8xWPM++ww==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HbGMRunX": {
+      "filename": "minecarts-overhaul-0.4.1-beta+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/aqnMGg9O/versions/HbGMRunX/minecarts-overhaul-0.4.1-beta%2B1.21.11.jar",
+      "hash": "sha512-iEAN1N31HzpRO6qcz5Kc+UC+L4QnW0Ar82X0rA5mUN06mAcFvQCOPHV7iquznVOfTfEox646M51LW9SMsjodGg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "V1fvdzOa": {
+      "filename": "minecarts-overhaul-0.5.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/aqnMGg9O/versions/V1fvdzOa/minecarts-overhaul-0.5.0-beta.jar",
+      "hash": "sha512-qIlkz9ukzxjwEyaZEsVYXtl2fF4XPYw3RGlJD4McjsLQg1DgzLYM+egJBpA6AZznpit8qugcm6m9e0jshPK0+Q==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "k96Kw6LS": {
+      "filename": "minecarts-overhaul-0.4.0-beta+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/aqnMGg9O/versions/k96Kw6LS/minecarts-overhaul-0.4.0-beta%2B26.1.2.jar",
+      "hash": "sha512-Cul0pK/SfFjrAMM6cYwfue2ku3q/o5bsw5LoG9IOk1ThvfzUB3KxEfxEMW8qP1mvJsDfueDW+pU3hTF2CYDjgQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xUwm7K7L": {
+      "filename": "minecarts-overhaul-0.4.0-beta+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/aqnMGg9O/versions/xUwm7K7L/minecarts-overhaul-0.4.0-beta%2B1.21.11.jar",
+      "hash": "sha512-mudujgfKKOvnDKuYLKJr1MvjrctGOqzJrQ0encjoPWOHi8fuD68SippyrAvc8v0PI1f7xUI8i62na4phYJlD1g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "HbGMRunX",
+      "xUwm7K7L"
+    ],
+    "26.1+fabric": [
+      "2XmtkLh0",
+      "k96Kw6LS"
+    ],
+    "26.1.1+fabric": [
+      "2XmtkLh0",
+      "k96Kw6LS"
+    ],
+    "26.1.2+fabric": [
+      "V1fvdzOa",
+      "2XmtkLh0",
+      "k96Kw6LS"
+    ]
+  }
+}

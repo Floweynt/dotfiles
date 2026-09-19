@@ -1,0 +1,114 @@
+{
+  "slug": "axoamigos",
+  "projectId": "W3pl8cBe",
+  "versions": {
+    "MNR2bWQy": {
+      "filename": "tamableAxolotls-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/W3pl8cBe/versions/MNR2bWQy/tamableAxolotls-0.0.1.jar",
+      "hash": "sha512-2ZO+7MtbjolnzpVREmWdzzJjsRiGOJhCmq+VAhDuAgFgelW5/L0NySQXZcOOmO4ylDzxlchE1lzL+e6roM/RtQ==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OO4OMNQB": {
+      "filename": "tamableAxolotls-0.0.2+1.20.5-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/W3pl8cBe/versions/OO4OMNQB/tamableAxolotls-0.0.2%2B1.20.5-1.21.jar",
+      "hash": "sha512-E9imIoHw+ykpzwBKmL0FLA9ia996BA3vUXSHqydsLQmRWm7Rzz/0f3avr52HTB8Zogi7kUhvHrUiqmL6LItKOw==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TAo6ebKE": {
+      "filename": "tamableAxolotls-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/W3pl8cBe/versions/TAo6ebKE/tamableAxolotls-0.0.2.jar",
+      "hash": "sha512-G01cZEWF4B4fxa7WSONSDvQoYTNAEvx5uk5gOXT6Mn27l9fq+Gclet8SYB599uO/+3OOBTKfIBBiZcQMBe6Y6g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "raJAaIkS": {
+      "filename": "tamableAxolotls-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/W3pl8cBe/versions/raJAaIkS/tamableAxolotls-0.0.1.jar",
+      "hash": "sha512-8qGlxzDolrO5GWqoZtAxVnEE3ewH3R8aWe6oSsm5Nz/FvVbAsj5htIcab8I730XutHbb+BWvCzwdSoCAd2kG4g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "TAo6ebKE",
+      "raJAaIkS"
+    ],
+    "1.20.1+fabric": [
+      "TAo6ebKE",
+      "raJAaIkS"
+    ],
+    "1.20.2+fabric": [
+      "TAo6ebKE",
+      "raJAaIkS"
+    ],
+    "1.20.3+fabric": [
+      "TAo6ebKE",
+      "MNR2bWQy"
+    ],
+    "1.20.4+fabric": [
+      "TAo6ebKE",
+      "MNR2bWQy"
+    ],
+    "1.20.5+fabric": [
+      "OO4OMNQB"
+    ],
+    "1.20.6+fabric": [
+      "OO4OMNQB"
+    ],
+    "1.21+fabric": [
+      "OO4OMNQB"
+    ]
+  }
+}

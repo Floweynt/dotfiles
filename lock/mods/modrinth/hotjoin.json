@@ -1,0 +1,88 @@
+{
+  "slug": "hotjoin",
+  "projectId": "VgxwMxKC",
+  "versions": {
+    "TC5r6Sun": {
+      "filename": "hotjoin-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/VgxwMxKC/versions/TC5r6Sun/hotjoin-0.2.0.jar",
+      "hash": "sha512-JWLb3Qc643W3DJKGmIrJ7rEYPXLfFZVecim1+GhEGMugt2gHJUGoPpcj3/ALecHYFuzMSjMnxBquJ8n3evwRYA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "concentration",
+          "projectId": "QyvWSZ5S",
+          "type": "required"
+        }
+      ]
+    },
+    "ejvQZBiK": {
+      "filename": "hotjoin-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/VgxwMxKC/versions/ejvQZBiK/hotjoin-0.3.0.jar",
+      "hash": "sha512-3fhIPryvE9lHYwAcFjyPkrvp1SpT6R4eBI0Vkaq+/u+JfXrxkpalnV8tATQklznQ+s+exHUJz/zYjUiqbbVE/A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "concentration",
+          "projectId": "QyvWSZ5S",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "n1uA1X0X": {
+      "filename": "hotjoin-0.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/VgxwMxKC/versions/n1uA1X0X/hotjoin-0.4.0.jar",
+      "hash": "sha512-IFfHcYCBm0lYV5p2YS+TtEAEozHT6wxrs+5TfTE3t9/ddBE9mesSv34RCzf0xMsG85amFugyaNJHQPgvfDSXJg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "concentration",
+          "projectId": "QyvWSZ5S",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "n1uA1X0X",
+      "ejvQZBiK",
+      "TC5r6Sun"
+    ]
+  }
+}

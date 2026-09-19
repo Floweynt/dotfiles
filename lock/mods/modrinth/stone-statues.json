@@ -1,0 +1,31 @@
+{
+  "slug": "stone-statues",
+  "projectId": "hKScsNfe",
+  "versions": {
+    "cBkDSeeI": {
+      "filename": "Statues-1.0_1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hKScsNfe/versions/cBkDSeeI/Statues-1.0_1.21.1.jar",
+      "hash": "sha512-5nOaX0Ug5waRoSRNjKBiSBtqZ7mJ0GCiKRkbwjggMRa82i/OXBBNwXQnuu4m39WYZW8j5kXyhqrgxDT9o1ikCQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "cBkDSeeI"
+    ]
+  }
+}

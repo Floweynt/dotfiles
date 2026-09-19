@@ -1,0 +1,75 @@
+{
+  "slug": "trinkets-client-optional",
+  "projectId": "1zHeBfFh",
+  "versions": {
+    "CNkXGPuN": {
+      "filename": "trinkets-client-optional-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/1zHeBfFh/versions/CNkXGPuN/trinkets-client-optional-1.2.jar",
+      "hash": "sha512-8L2gN6qRCRoEoA47bYNJ7L10f1hzK6X4SYfwpYSx3Oiba7gU1ZDIBrxGbR7t4+KtmAmGCmVfsUrEmjshv9NCmw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "X0KJ7pzl": {
+      "filename": "trinkets-client-optional-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/1zHeBfFh/versions/X0KJ7pzl/trinkets-client-optional-1.1.jar",
+      "hash": "sha512-dAPAhELelEOupysBag+weq0I2tvyRMldCH1msG0V1mpDoJ/HR2xAOSf891vuf7YjtQLsgfbmMFJZiDhtvhNfVA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "tnQTpTdV": {
+      "filename": "trinkets-client-optional-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1zHeBfFh/versions/tnQTpTdV/trinkets-client-optional-1.0.jar",
+      "hash": "sha512-eDsMhh/oTJETmurcbBTj0PS4WXAiO7qHXeZHovfnPXaXgkeAG/8tSb8rO7+ExqQydLkzXaY/C07pQf2XvsZunQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "tnQTpTdV"
+    ],
+    "1.21.1+fabric": [
+      "CNkXGPuN",
+      "X0KJ7pzl"
+    ]
+  }
+}

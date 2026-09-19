@@ -1,0 +1,62 @@
+{
+  "slug": "questz",
+  "projectId": "q1Xo6imm",
+  "versions": {
+    "AcJzoBzu": {
+      "filename": "questz-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/q1Xo6imm/versions/AcJzoBzu/questz-1.0.1.jar",
+      "hash": "sha512-FIC7+4ui21JD3ceLBQWPi6WGBnvuG6zjSamzFFlkffx9AKF+vppyhgXuX0k269zhHR4vl/NGGBq447gD197wHw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Wi7qyOf0": {
+      "filename": "questz-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/q1Xo6imm/versions/Wi7qyOf0/questz-1.0.0.jar",
+      "hash": "sha512-Gfh0tD23GdBhL2qZzvQQQjnCaOsxierK1qV+QwmVCsatRTg9gVuaqp/Nyh3ZCcxYntpEnuIjfkGdAwzYNGDc3w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "AcJzoBzu",
+      "Wi7qyOf0"
+    ]
+  }
+}

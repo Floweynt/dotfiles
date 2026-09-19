@@ -1,0 +1,50 @@
+{
+  "slug": "treefelling",
+  "projectId": "GpFCxQzK",
+  "versions": {
+    "Buk086kr": {
+      "filename": "treefelling-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GpFCxQzK/versions/1.0.0/treefelling-1.0.0.jar",
+      "hash": "sha512-w4T2LiDt5R/iMTAjyDdBddA1u9zUdvSbFfm5jg/YzXlA4Yr4qa8PS2UPjLnzQG/KOY3P0zbR1yM/tgGftbVz/A==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "m0zl8O4C": {
+      "filename": "tree_felling-2.3.jar",
+      "url": "https://cdn.modrinth.com/data/GpFCxQzK/versions/2.3/tree_felling-2.3.jar",
+      "hash": "sha512-bHs94qTuNqGAFJTe5pC3QnwURO5gjjzvHNxiIeIZqKz3Y/dh0wcGxUKH/AW8Y5dm1UsPLDKMHekY60V0VYZ9+w==",
+      "gameVersions": [
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.3+forge": [
+      "m0zl8O4C"
+    ],
+    "1.16.4+forge": [
+      "m0zl8O4C"
+    ],
+    "1.16.5+forge": [
+      "m0zl8O4C"
+    ],
+    "1.17.1+fabric": [
+      "Buk086kr"
+    ]
+  }
+}

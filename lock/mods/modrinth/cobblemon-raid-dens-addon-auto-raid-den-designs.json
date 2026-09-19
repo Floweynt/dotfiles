@@ -1,0 +1,114 @@
+{
+  "slug": "cobblemon-raid-dens-addon-auto-raid-den-designs",
+  "projectId": "jLSX2EbB",
+  "versions": {
+    "I6wOz1pt": {
+      "filename": "DesignerRaid-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jLSX2EbB/versions/I6wOz1pt/DesignerRaid-neoforge-1.0.jar",
+      "hash": "sha512-bW6UPQ6JLgNf6hzX581LVCmK7iUyaVFDOY1KbhADbYqsbmm4WBu0BGCl8j9vFgX9g/zoUv5GEkPQg8gbUoQkFw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "X7l1moJm": {
+      "filename": "DesignerRaid-neoforge-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/jLSX2EbB/versions/X7l1moJm/DesignerRaid-neoforge-3.0.jar",
+      "hash": "sha512-06+9jAmr5Mjl3Q79R1wNm7hR6IpCMwb/1gwWF7wOfIf1P6zjytnUQseRyraGyXBJzedp1NMxq11SOaMmbXYp1g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemonraiddens-typedesigns",
+          "projectId": "ulsDecfN",
+          "type": "required"
+        }
+      ]
+    },
+    "ZIxm9wmz": {
+      "filename": "DesignerRaid-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jLSX2EbB/versions/ZIxm9wmz/DesignerRaid-fabric-1.0.jar",
+      "hash": "sha512-gNNvdUkUtA95PbTpVdosaV3cAPWAfGhsw1XlOs2u3YvjVcxO+86AcbO7719qWD/HKSBIilsHjZ+CLaywQl+eAw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "iCuIgih8": {
+      "filename": "DesignerRaid-neoforge-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jLSX2EbB/versions/iCuIgih8/DesignerRaid-neoforge-2.0.jar",
+      "hash": "sha512-jh+NU/7eVXk1DOzSCgEWQA1cSKZyHk9Q69P3NOE/qJ90rYbvk9/SjOv7UpQHvmsXidfDR54Sw0LAF/RopslPEg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "pPcF9XQq": {
+      "filename": "DesignerRaid-fabric-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jLSX2EbB/versions/pPcF9XQq/DesignerRaid-fabric-2.0.jar",
+      "hash": "sha512-YtF1s2hMbrEnA4Ifa9QHN8SEQqrBW+/KNiXiPAmTjzl1NUuA9XdfetEaQ0kceYnkcxmkZmpefsvFlJVriC/XBQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "pXH5m41U": {
+      "filename": "DesignerRaid-fabric-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/jLSX2EbB/versions/pXH5m41U/DesignerRaid-fabric-3.0.jar",
+      "hash": "sha512-Sa+rr0h5tsIukeT/MFRIRR1WbTl+aGqCV3I6kpuHECc6jqDK6K9UoOYZQWx0U3jl14hXil+MUxxQZiq2YmgagQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemonraiddens-typedesigns",
+          "projectId": "ulsDecfN",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "pXH5m41U",
+      "pPcF9XQq",
+      "ZIxm9wmz"
+    ],
+    "1.21.1+neoforge": [
+      "X7l1moJm",
+      "iCuIgih8",
+      "I6wOz1pt"
+    ]
+  }
+}

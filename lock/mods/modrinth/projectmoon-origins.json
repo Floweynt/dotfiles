@@ -1,0 +1,103 @@
+{
+  "slug": "projectmoon-origins",
+  "projectId": "p6deb9CR",
+  "versions": {
+    "kUKcBOqZ": {
+      "filename": "projectmoon-0.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/p6deb9CR/versions/kUKcBOqZ/projectmoon-0.9.0.jar",
+      "hash": "sha512-KUobqfbNxdUhvNkFZL5FlJ/XfJ8pk0/Erxw8GP+gSjYht97YZqCK7I3DwsvKuu3XDqteaVVIad6e9szPmqvEmA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        },
+        {
+          "slug": "playeranimatorapi",
+          "projectId": "IkQufrWh",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "sGI1syq2": {
+      "filename": "projectmoon-0.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/p6deb9CR/versions/sGI1syq2/projectmoon-0.9.2.jar",
+      "hash": "sha512-/n5KGcP8a1X5FUX7UwuKq07DfIYLrxVSyPjybCETe6HqsNRR21pqaAGIY4RpxQXa1TwJMTZ+ZMEt7VSy5PK7FA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "playeranimatorapi",
+          "projectId": "IkQufrWh",
+          "type": "required"
+        }
+      ]
+    },
+    "zfQPePj2": {
+      "filename": "projectmoon-0.9.1.jar",
+      "url": "https://cdn.modrinth.com/data/p6deb9CR/versions/zfQPePj2/projectmoon-0.9.1.jar",
+      "hash": "sha512-RAd3+XJ4SGuIOMqVZSmJKEz+61D1BZxKoK4hFDtbuQEfe6F+BBlAD+2bhONWS3lh75psifxA5Mn9GEDYNUoKpA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "playeranimatorapi",
+          "projectId": "IkQufrWh",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sGI1syq2",
+      "zfQPePj2",
+      "kUKcBOqZ"
+    ]
+  }
+}

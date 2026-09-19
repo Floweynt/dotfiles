@@ -1,0 +1,129 @@
+{
+  "slug": "disable-end-portals",
+  "projectId": "ILMYHSRT",
+  "versions": {
+    "22gms82Y": {
+      "filename": "disable-end-portals-1.0.0+1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/ILMYHSRT/versions/22gms82Y/disable-end-portals-1.0.0%2B1.21.5.jar",
+      "hash": "sha512-6VsSm2xzKg1Hac/GGl6YruXFCTRppcOc3hJPlsZYlKJhcI/20Xp+dwqjhA9wfYoDa6MVmo001C0dzTXFDyHrig==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "9vRbQAe9": {
+      "filename": "disable-end-portals-1.0.1+1.19.4-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/ILMYHSRT/versions/9vRbQAe9/disable-end-portals-1.0.1%2B1.19.4-1.21.4.jar",
+      "hash": "sha512-LjY1OENd8+jZxnc/BzsB9OwpTiYODKN1eOjv5+MxRusK+iGE6w5qbjIcxYhXa0Kzne3JslsPH9Cb2ypyAohlgg==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Jjf3ioa6": {
+      "filename": "disable-end-portals-1.0.0+1.19.4-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/ILMYHSRT/versions/Jjf3ioa6/disable-end-portals-1.0.0%2B1.19.4-1.21.x.jar",
+      "hash": "sha512-29pncHg17ah7lz2hZg5JuewvrmT3HT+C0K7GArbBpHHP17jrWS+YKF5jm5WL1tpzhtLl26YpEbZyPz86EHA7tg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "9vRbQAe9"
+    ],
+    "1.20+fabric": [
+      "9vRbQAe9"
+    ],
+    "1.20.1+fabric": [
+      "9vRbQAe9"
+    ],
+    "1.20.2+fabric": [
+      "9vRbQAe9"
+    ],
+    "1.20.3+fabric": [
+      "9vRbQAe9"
+    ],
+    "1.20.4+fabric": [
+      "9vRbQAe9"
+    ],
+    "1.20.5+fabric": [
+      "9vRbQAe9",
+      "Jjf3ioa6"
+    ],
+    "1.20.6+fabric": [
+      "9vRbQAe9",
+      "Jjf3ioa6"
+    ],
+    "1.21+fabric": [
+      "9vRbQAe9",
+      "Jjf3ioa6"
+    ],
+    "1.21.1+fabric": [
+      "9vRbQAe9",
+      "Jjf3ioa6"
+    ],
+    "1.21.2+fabric": [
+      "9vRbQAe9",
+      "Jjf3ioa6"
+    ],
+    "1.21.3+fabric": [
+      "9vRbQAe9",
+      "Jjf3ioa6"
+    ],
+    "1.21.4+fabric": [
+      "9vRbQAe9",
+      "Jjf3ioa6"
+    ],
+    "1.21.5+fabric": [
+      "22gms82Y"
+    ]
+  }
+}

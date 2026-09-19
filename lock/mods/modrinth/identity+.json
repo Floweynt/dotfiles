@@ -1,0 +1,36 @@
+{
+  "slug": "identity+",
+  "projectId": "6yN6g38f",
+  "versions": {
+    "RC9IXZfa": {
+      "filename": "identityplus-fabric-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/6yN6g38f/versions/RC9IXZfa/identityplus-fabric-1.0-SNAPSHOT.jar",
+      "hash": "sha512-SKylViXYD5LGcdfMwoIwcKtPcrerxmgqUesoToz7l7GeYgnQ1FE7NPTZRB1xaJyJMwTrtpxgCPmnHAPihcJ9yg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "identity-fix",
+          "projectId": "u8V1OwVf",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "RC9IXZfa"
+    ]
+  }
+}

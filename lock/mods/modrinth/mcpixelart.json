@@ -1,0 +1,75 @@
+{
+  "slug": "mcpixelart",
+  "projectId": "6dZTcW9E",
+  "versions": {
+    "7tqLBsxq": {
+      "filename": "mcpixelart-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6dZTcW9E/versions/7tqLBsxq/mcpixelart-fabric-1.0.jar",
+      "hash": "sha512-j3uhSW9zxAePAa3wkEBxNLGq7vms+IBITCHB+qnaKz30ijM7epeikqmQZEJcYBEnl7/5it7ZaS/hqWWzcISQtg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "worldedit",
+          "projectId": "1u6JkXh5",
+          "type": "required"
+        }
+      ]
+    },
+    "ulYj2GhU": {
+      "filename": "MCPixelArt-1.0-beta.1.jar",
+      "url": "https://cdn.modrinth.com/data/6dZTcW9E/versions/ulYj2GhU/MCPixelArt-1.0-beta.1.jar",
+      "hash": "sha512-ekKK/MVCkH6QQRP4IFGLfBOAFU0nkPu/UV/zIwcKR2h24E2UUZXHZybW0Ujna/3MJ1CZAC+CRQhBMqUaikfTvA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "worldedit",
+          "projectId": "1u6JkXh5",
+          "type": "required"
+        }
+      ]
+    },
+    "yI4fsjku": {
+      "filename": "mcpixelart-forge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/6dZTcW9E/versions/yI4fsjku/mcpixelart-forge-1.0.jar",
+      "hash": "sha512-MfOdrrfuGe3Z/9x674B/X2jHfwkYR0Z6bLVR2gbNbO7GNXitzqaaVEdT6qEDS6uAKzZSvH6EObRjUkYG3e0GJg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "worldedit",
+          "projectId": "1u6JkXh5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "7tqLBsxq",
+      "ulYj2GhU"
+    ],
+    "1.18.2+forge": [
+      "yI4fsjku"
+    ]
+  }
+}

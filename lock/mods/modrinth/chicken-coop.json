@@ -1,0 +1,78 @@
+{
+  "slug": "chicken-coop",
+  "projectId": "yuATtSZ0",
+  "versions": {
+    "FCnvk8pV": {
+      "filename": "chickencoop-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/yuATtSZ0/versions/FCnvk8pV/chickencoop-1.0.0-fabric.jar",
+      "hash": "sha512-g0z/gYcdnEP4MFxQ3xr84aTs1m0QRTTR0bT/qtho3k1z9Ye8i0nq5RxqheIWLydGiifK8JRROvWBATNSm0XbkA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "qSJoNmD5": {
+      "filename": "chickencoop-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/yuATtSZ0/versions/qSJoNmD5/chickencoop-1.0.0-forge.jar",
+      "hash": "sha512-yOsbzC6krYNDfHWZBisTKYo+vP+Pjid6k0AIwXM7Nw43KWbrsLpvh82u+RqDzJzMwPARqybtmIo7J92ps1dNJQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FCnvk8pV"
+    ],
+    "1.20.1+forge": [
+      "qSJoNmD5"
+    ],
+    "1.20.2+fabric": [
+      "FCnvk8pV"
+    ],
+    "1.20.2+forge": [
+      "qSJoNmD5"
+    ],
+    "1.20.3+fabric": [
+      "FCnvk8pV"
+    ],
+    "1.20.3+forge": [
+      "qSJoNmD5"
+    ],
+    "1.20.4+fabric": [
+      "FCnvk8pV"
+    ],
+    "1.20.4+forge": [
+      "qSJoNmD5"
+    ]
+  }
+}

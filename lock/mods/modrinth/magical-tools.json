@@ -1,0 +1,64 @@
+{
+  "slug": "magical-tools",
+  "projectId": "W8WWD7e5",
+  "versions": {
+    "AUW2Mh5Y": {
+      "filename": "Magical Tools 1.20-1.20.1 1.0.zip",
+      "url": "https://cdn.modrinth.com/data/W8WWD7e5/versions/AUW2Mh5Y/Magical%20Tools%201.20-1.20.1%201.0.zip",
+      "hash": "sha512-zN/DJTxss+1StS2YTjjmt8nCILlMpcbr+jy+XlCanB64oUE9kEzaHPJ8yOAX0yfqiCVa5HSjj8J3iNXHJNxPnw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "mTUIjBYh": {
+      "filename": "magical-tools-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/W8WWD7e5/versions/mTUIjBYh/magical-tools-1.0.jar",
+      "hash": "sha512-iHcp7/Dt2fg/1/eULRHmgTJOWUwMDcd9HxnXDLttdvu3K3OEFg7rAuzqjq1r1EU7qFFOXcwolXFv5NCcZ+2jFg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "AUW2Mh5Y"
+    ],
+    "1.20+fabric": [
+      "mTUIjBYh"
+    ],
+    "1.20+forge": [
+      "mTUIjBYh"
+    ],
+    "1.20+quilt": [
+      "mTUIjBYh"
+    ],
+    "1.20.1+datapack": [
+      "AUW2Mh5Y"
+    ],
+    "1.20.1+fabric": [
+      "mTUIjBYh"
+    ],
+    "1.20.1+forge": [
+      "mTUIjBYh"
+    ],
+    "1.20.1+quilt": [
+      "mTUIjBYh"
+    ]
+  }
+}

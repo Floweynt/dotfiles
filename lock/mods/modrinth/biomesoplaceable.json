@@ -1,0 +1,64 @@
+{
+  "slug": "biomesoplaceable",
+  "projectId": "cnwea1Ri",
+  "versions": {
+    "ViZPtp44": {
+      "filename": "biomesoplaceable-FABRIC-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cnwea1Ri/versions/ViZPtp44/biomesoplaceable-FABRIC-1.20.1-1.0.0.jar",
+      "hash": "sha512-7tcupojrb9dteGHPKi+KGa/QnK0+wVEykak/e68ERqxLqmpTcT5aH2JsCjZmUsCenkfW1hMAZJFnQ0jUCDO3ZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "glitchcore",
+          "projectId": "s3dmwKy5",
+          "type": "required"
+        },
+        {
+          "slug": "biomes-o-plenty",
+          "projectId": "HXF82T3G",
+          "type": "required"
+        }
+      ]
+    },
+    "bouwCFKC": {
+      "filename": "biomesoplaceable-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cnwea1Ri/versions/bouwCFKC/biomesoplaceable-1.20.1-1.0.0.jar",
+      "hash": "sha512-GR5jreZGqR/KW7sUdV36pm7GP5PI+niHlv2f7bxEn+866x7AKKVRsf8SicDUBLPmiYj8q/cb/n9yoTqog8H8VQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "biomes-o-plenty",
+          "projectId": "HXF82T3G",
+          "type": "required"
+        },
+        {
+          "slug": "glitchcore",
+          "projectId": "s3dmwKy5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ViZPtp44"
+    ],
+    "1.20.1+forge": [
+      "bouwCFKC"
+    ]
+  }
+}

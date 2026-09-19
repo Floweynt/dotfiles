@@ -1,0 +1,92 @@
+{
+  "slug": "easy-villager-reset",
+  "projectId": "Oa0Q8EUv",
+  "versions": {
+    "UoU4XN2g": {
+      "filename": "easy-villager-reset-1.1-release.jar",
+      "url": "https://cdn.modrinth.com/data/Oa0Q8EUv/versions/UoU4XN2g/easy-villager-reset-1.1-release.jar",
+      "hash": "sha512-kd4Lf2K2NJVXNHqYUQ7GScC/9TucQFcdaSnGjCzjJI9gpnz2XeLGgIeYZpW5ep1UhxBSR/c74GDujjnaSK9JdA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "h9Wk7yOO": {
+      "filename": "easy-villager-reset-1.2-beta.jar",
+      "url": "https://cdn.modrinth.com/data/Oa0Q8EUv/versions/h9Wk7yOO/easy-villager-reset-1.2-beta.jar",
+      "hash": "sha512-3NU06KvwAi2wsdN6pSZDYzxdbORkOMgFjfX/734sfXkQyZpKRPjfhKUMHluf3YfE5MOYLcCjiwxYhm94enaF+w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "sDGyzy8q": {
+      "filename": "easy-villager-reset-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/Oa0Q8EUv/versions/sDGyzy8q/easy-villager-reset-1.0-SNAPSHOT.jar",
+      "hash": "sha512-jRgDAU7tGap4iL0y3Xt3Q8KV/VFeYEg11S7WeU8DYkNRHVcWHNKBTj60pdBJ9rUxzWrmwR8wR8jh2Ci5SQSSXw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "zTdx303C": {
+      "filename": "easy-villager-reset-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/Oa0Q8EUv/versions/zTdx303C/easy-villager-reset-1.3.jar",
+      "hash": "sha512-dxLshU+8TRbdvgHHQD5RXvmT/Lmqk+HncKTT3O6V/WSzlh+mWmBAXSkY4DfJ8AIUjZnM8TGRnZFcgteAE6/5PA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "zTdx303C",
+      "h9Wk7yOO",
+      "UoU4XN2g",
+      "sDGyzy8q"
+    ]
+  }
+}

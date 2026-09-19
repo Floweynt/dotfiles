@@ -1,0 +1,82 @@
+{
+  "slug": "chicken-nuggets",
+  "projectId": "8rvvvvAy",
+  "versions": {
+    "jOt9dGiD": {
+      "filename": "chicken_nugget-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8rvvvvAy/versions/jOt9dGiD/chicken_nugget-1.0.0.jar",
+      "hash": "sha512-eXFwXOHdmT1G5jQnRL6mLXL6ZnFp8QKQ5vS2OOts6R4F8HVkgUj8ZAJoWH+exPe09oDa0i0ulidQbhrc7aL0yg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "wmwOEJ3n": {
+      "filename": "chicken_nugget-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8rvvvvAy/versions/wmwOEJ3n/chicken_nugget-1.1.0.jar",
+      "hash": "sha512-SrUxajuHBXv2z/nGo6Gh6meOsBmXDsnsj8cYtZB6eKnIL20hqeFntLf6r17m+KM08p5h2SmoGU0mRDUKYcHgoA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wmwOEJ3n",
+      "jOt9dGiD"
+    ],
+    "1.20.2+fabric": [
+      "wmwOEJ3n",
+      "jOt9dGiD"
+    ],
+    "1.20.3+fabric": [
+      "wmwOEJ3n",
+      "jOt9dGiD"
+    ],
+    "1.20.4+fabric": [
+      "wmwOEJ3n",
+      "jOt9dGiD"
+    ],
+    "1.20.5+fabric": [
+      "wmwOEJ3n",
+      "jOt9dGiD"
+    ],
+    "1.20.6+fabric": [
+      "wmwOEJ3n",
+      "jOt9dGiD"
+    ]
+  }
+}

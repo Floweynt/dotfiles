@@ -1,0 +1,84 @@
+{
+  "slug": "lifeleech",
+  "projectId": "zu5uGnBs",
+  "versions": {
+    "l73j4vJK": {
+      "filename": "lifeleech-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zu5uGnBs/versions/l73j4vJK/lifeleech-forge-1.0.0.jar",
+      "hash": "sha512-CDRV2mj7yAvds+Y6cQxYiOLIjjmdovsglh+PJdlk5IMNsLyjUjgRHx4/H/WShNqACaTQo/f6PkV1DSEmgJ+7/g==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "oYjcj5Jw": {
+      "filename": "lifeleech-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zu5uGnBs/versions/oYjcj5Jw/lifeleech-fabric-1.0.0.jar",
+      "hash": "sha512-D9dHUhHtML0epKdjFXXRKf5nDuh3xCYFwWN+S1MnJkgivgXbfRhB7JoMTB5v/CM3jurqlkvNcEF7cJ7hp+oXKA==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "oYjcj5Jw"
+    ],
+    "1.19.3+forge": [
+      "l73j4vJK"
+    ],
+    "1.19.4+fabric": [
+      "oYjcj5Jw"
+    ],
+    "1.19.4+forge": [
+      "l73j4vJK"
+    ],
+    "1.20+fabric": [
+      "oYjcj5Jw"
+    ],
+    "1.20+forge": [
+      "l73j4vJK"
+    ],
+    "1.20.1+fabric": [
+      "oYjcj5Jw"
+    ],
+    "1.20.1+forge": [
+      "l73j4vJK"
+    ],
+    "1.20.2+fabric": [
+      "oYjcj5Jw"
+    ],
+    "1.20.3+fabric": [
+      "oYjcj5Jw"
+    ],
+    "1.20.4+fabric": [
+      "oYjcj5Jw"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "big-globe-dungeon-now-loading-compatibility",
+  "projectId": "9E2UFS7R",
+  "versions": {
+    "NKDBRBXO": {
+      "filename": "big-globe-dungeon-now-loading-compatibility-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/9E2UFS7R/versions/NKDBRBXO/big-globe-dungeon-now-loading-compatibility-1.0.jar",
+      "hash": "sha512-Ngre5TnJk2Zcwnj2TBzuEdSgd4rIq8vgsxM/ntqJLygvLlFQxJSC/Ys+LXIjm07uuv5Woq2C4E/qqg0MLnCcmg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "dungeon-now-loading",
+          "projectId": "vZoqTqwv",
+          "type": "required"
+        },
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        }
+      ]
+    },
+    "oUOoah5n": {
+      "filename": "bigglobe_dungeon_now_loading.zip",
+      "url": "https://cdn.modrinth.com/data/9E2UFS7R/versions/oUOoah5n/bigglobe_dungeon_now_loading.zip",
+      "hash": "sha512-ZVMcvywbBvwQRYtFhjrWiC5KPEP5KFHW7dvGIBtHkm7/3dt8XhUuGckWJzl3vFsBWxHcTNGpqNbAr38KnbclBg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        },
+        {
+          "slug": "dungeon-now-loading",
+          "projectId": "vZoqTqwv",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "oUOoah5n"
+    ],
+    "1.20.1+fabric": [
+      "NKDBRBXO"
+    ],
+    "1.20.1+forge": [
+      "NKDBRBXO"
+    ]
+  }
+}

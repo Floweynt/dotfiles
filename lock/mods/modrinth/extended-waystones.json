@@ -1,0 +1,62 @@
+{
+  "slug": "extended-waystones",
+  "projectId": "2rpsc2h0",
+  "versions": {
+    "ESJ3sQgB": {
+      "filename": "extended-waystones-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2rpsc2h0/versions/ESJ3sQgB/extended-waystones-1.0.0.jar",
+      "hash": "sha512-Rj0J3a6lOneunS4ofpRD9ZY8FssPWezc5sqYlJpZun8DAqxH8PRr3CrYqleIKcmRJhJbilQtVxh33+jc5g3G9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "waystones",
+          "projectId": "LOpKHB2A",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tv4nfeU9": {
+      "filename": "extended-waystones-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/2rpsc2h0/versions/tv4nfeU9/extended-waystones-1.0.1.jar",
+      "hash": "sha512-iVsFaO5gNegGifM0LyFaHQ8K5iLpx6TT4aeJf7+8EBYgPWvWHGDhDz+l0vFjeCyAKnybRGX1WQzH6HIOoNCk4g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "waystones",
+          "projectId": "LOpKHB2A",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tv4nfeU9",
+      "ESJ3sQgB"
+    ]
+  }
+}

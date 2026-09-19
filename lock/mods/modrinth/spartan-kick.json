@@ -1,0 +1,86 @@
+{
+  "slug": "spartan-kick",
+  "projectId": "JVTgk5mC",
+  "versions": {
+    "8ZD9ctSv": {
+      "filename": "spartan-kick-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/JVTgk5mC/versions/8ZD9ctSv/spartan-kick-1.0.3.jar",
+      "hash": "sha512-fENhGbu2bhtEO/IlDgXhqUNruxvYKOp+tNdk9G5TNidSaQqn1W5UgwVuzJzF44qlBPJNc6yWhcEOiGTVwpLNBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "C56g28kd": {
+      "filename": "spartan-kick-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/JVTgk5mC/versions/C56g28kd/spartan-kick-1.0.2.jar",
+      "hash": "sha512-BnxpCyw9P/2rWAZ1q0R5IT3UFKOcYBhao5rQ29ev6NTOwvqalmlvE9aeDxvj/wqM5p4BAB5d1t8vZWxNghXfFw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "MsEM3h9L": {
+      "filename": "spartan-kick-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/JVTgk5mC/versions/MsEM3h9L/spartan-kick-1.0.1.jar",
+      "hash": "sha512-I4sh3OIG4Hg8hGtb9HYJHXigrix5vmDsJVAiPoBkd/g+je3q9xxNe4bsU+YoQaeRQSPplZsk7+Ly1oNoLHW9fA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hLIRHhIk": {
+      "filename": "spartan-kick-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JVTgk5mC/versions/hLIRHhIk/spartan-kick-1.0.0.jar",
+      "hash": "sha512-ALJ8Wz/aqpEtB/kepR1nIawkqlrpA/JxvLGHnNU/irxEnpw/xJP+8kWnih9eqCaQ4tn2B2rGWzoV/GD7kZO7kQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8ZD9ctSv",
+      "C56g28kd",
+      "MsEM3h9L",
+      "hLIRHhIk"
+    ]
+  }
+}

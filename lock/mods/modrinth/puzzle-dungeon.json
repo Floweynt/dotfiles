@@ -1,0 +1,31 @@
+{
+  "slug": "puzzle-dungeon",
+  "projectId": "55LTlbik",
+  "versions": {
+    "gB3d34iR": {
+      "filename": "puzzledungeon-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/55LTlbik/versions/gB3d34iR/puzzledungeon-1.2.0.jar",
+      "hash": "sha512-f58o2HqQL8SDULTRhdzNw4BLVbUr6X12syDNLzSajm2dOm60cTZGmBngmdVDTcl5uNY06o2MjyHTeE+fKY1+TQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gB3d34iR"
+    ]
+  }
+}

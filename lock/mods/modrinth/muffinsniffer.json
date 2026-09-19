@@ -1,0 +1,85 @@
+{
+  "slug": "muffinsniffer",
+  "projectId": "7Duytzch",
+  "versions": {
+    "HV3gdEIZ": {
+      "filename": "muffinsniffer-1.19.x-1.0.2-Release.jar",
+      "url": "https://cdn.modrinth.com/data/7Duytzch/versions/HV3gdEIZ/muffinsniffer-1.19.x-1.0.2-Release.jar",
+      "hash": "sha512-NzVcESN2kaqyHCJlSxPum0deiRMKFaDesu2fopgVU2mGXhfTINWj4HOoOPaS7u3Sl6t04ZEIV+9vyPNQF2nQ6g==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nSLIWCW6": {
+      "filename": "muffinsniffer-1.19.x-1.0.1-release.jar",
+      "url": "https://cdn.modrinth.com/data/7Duytzch/versions/nSLIWCW6/muffinsniffer-1.19.x-1.0.1-release.jar",
+      "hash": "sha512-A366E5fZlsPE6cDOB5f9q+XMxprtZjTLhccToEH0F2RzA/Qti92Q3/cxUpy84yzpdIlHukBWuexF2DbC9T9SVg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yWCJU2Lq": {
+      "filename": "muffinsniffer-1.0-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/7Duytzch/versions/yWCJU2Lq/muffinsniffer-1.0-ALPHA.jar",
+      "hash": "sha512-b/RdvAHh7/bAeYSK71F0xW/sup8vrR25doID76rf/hnQ4NOeCQM/FT9K6a22E0fP8znnK6f5kq3+EzEb89xIDg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "HV3gdEIZ",
+      "nSLIWCW6"
+    ],
+    "1.19.1+fabric": [
+      "HV3gdEIZ",
+      "nSLIWCW6"
+    ],
+    "1.19.2+fabric": [
+      "HV3gdEIZ",
+      "nSLIWCW6",
+      "yWCJU2Lq"
+    ]
+  }
+}

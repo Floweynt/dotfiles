@@ -1,0 +1,64 @@
+{
+  "slug": "fabrichomes",
+  "projectId": "VfWCmAVG",
+  "versions": {
+    "V1Y9GGnm": {
+      "filename": "FabricHomes-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/VfWCmAVG/versions/2.3.0/FabricHomes-2.3.0.jar",
+      "hash": "sha512-pepI9jj3YOYeY1BSLytGkei5RI0DAIBkgZXfgUXYvFCLKyopLp6H/k4qi+8n/rHOBSB5zXWDxlJiWxffGOSxhw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "xnEM7THr": {
+      "filename": "FabricHomes-2.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/VfWCmAVG/versions/2.2.1/FabricHomes-2.2.1.jar",
+      "hash": "sha512-lCMtnaKpmGk7yWga8aOqIW/+V+ZVXfrfvYgR+U1HJ2SFEQcAngcwoJ3P29i+0m4p7t835hXAgPcILjU8SKGS/A==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "xnEM7THr"
+    ],
+    "1.18.1+fabric": [
+      "xnEM7THr"
+    ],
+    "1.19+fabric": [
+      "V1Y9GGnm"
+    ],
+    "1.19+quilt": [
+      "V1Y9GGnm"
+    ],
+    "1.19.1+fabric": [
+      "V1Y9GGnm"
+    ],
+    "1.19.1+quilt": [
+      "V1Y9GGnm"
+    ],
+    "1.19.2+fabric": [
+      "V1Y9GGnm"
+    ],
+    "1.19.2+quilt": [
+      "V1Y9GGnm"
+    ]
+  }
+}

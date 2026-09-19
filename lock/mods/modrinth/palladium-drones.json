@@ -1,0 +1,98 @@
+{
+  "slug": "palladium-drones",
+  "projectId": "ixiQAAiH",
+  "versions": {
+    "7kai4sMx": {
+      "filename": "palladium_drones.zip",
+      "url": "https://cdn.modrinth.com/data/ixiQAAiH/versions/7kai4sMx/palladium_drones.zip",
+      "hash": "sha512-aXF8Suflxx42UVexk2lQ48QAVkJAU287bk/gpnJI0MP2QfDXiU56We7nFGoI1dWw2GDixslnHkA21IgOHfhQ+w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "telekinesis-addonpack",
+          "projectId": "9zkmLJTF",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        }
+      ]
+    },
+    "J0hYz8mc": {
+      "filename": "palladium-drones-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ixiQAAiH/versions/J0hYz8mc/palladium-drones-1.0.0.jar",
+      "hash": "sha512-u/8OoI/zogU9bMCnAun0u1yqjCwaBraBpMlgZ4a69uuV9hm7IRzFwkb5MpSprEcFFJC+Fd25AmzqLTVJARJP/A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "telekinesis-addonpack",
+          "projectId": "9zkmLJTF",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "7kai4sMx"
+    ],
+    "1.20.1+fabric": [
+      "J0hYz8mc"
+    ],
+    "1.20.1+forge": [
+      "J0hYz8mc"
+    ]
+  }
+}

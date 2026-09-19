@@ -1,0 +1,66 @@
+{
+  "slug": "villagerbefriending",
+  "projectId": "NwP7qeRt",
+  "versions": {
+    "8V6KjCCY": {
+      "filename": "Villager-Befriending-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NwP7qeRt/versions/8V6KjCCY/Villager-Befriending-1.0.0.jar",
+      "hash": "sha512-ycIDW6tQY3QIViNps/l5dtP6zwrTpiLXRpNiuPh2kwQi53u4YHL+XIO8uFvwI9mu4FpL2oRt+YglLzpXuBt3aQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "x5iTs6Qq": {
+      "filename": "Villager-Befriending-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/NwP7qeRt/versions/x5iTs6Qq/Villager-Befriending-1.0.1.jar",
+      "hash": "sha512-6u8qTPUE4UKMf8eKCMSr6OTBt1GZ4z8/DgOq8P9uFOS8wyT5bA4AVL8lNsmeF1FdC/oaT8lbwNvim55cwf87gA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "x5iTs6Qq",
+      "8V6KjCCY"
+    ],
+    "1.19.2+quilt": [
+      "8V6KjCCY"
+    ]
+  }
+}

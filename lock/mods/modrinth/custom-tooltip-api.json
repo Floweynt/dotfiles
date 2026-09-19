@@ -1,0 +1,955 @@
+{
+  "slug": "custom-tooltip-api",
+  "projectId": "RGKUGobH",
+  "versions": {
+    "3GUkG6pT": {
+      "filename": "custom_tooltip_api-fabric-5.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/3GUkG6pT/custom_tooltip_api-fabric-5.0.0%2B1.21.1.jar",
+      "hash": "sha512-C3ioP5ojuQzI+aRgPpN5JLJRjYkYFrP+/OFWotsHo9ftRbgMntF+Nz9OWMTIjTD6xjRGTxmJUFEqs+pifBa13Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "4WCDQc51": {
+      "filename": "custom_tooltip_api-neoforge-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/4WCDQc51/custom_tooltip_api-neoforge-3.2.0.jar",
+      "hash": "sha512-7zAKLdSO4Si81oK5SK5WBiGKMyLA/fnjIfXxu/lWzvLjELFQJvKOSqMeQ3Re+Zbw9NTQFDTibqAGb2R4XDAiDw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "71ASrWFZ": {
+      "filename": "custom_tooltip_api-forge-5.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/71ASrWFZ/custom_tooltip_api-forge-5.0.1%2B1.20.1.jar",
+      "hash": "sha512-Gd7KW+FDmYIix4Ifm3NlXXC/3ZFcPjXfUrLnofesJeKcSw3HTq57WY7QHMy4SpUC1EREpkg3o0dXHsQN3Q08Rg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "8rsVB2nt": {
+      "filename": "custom_tooltip_api-fabric-5.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/8rsVB2nt/custom_tooltip_api-fabric-5.0.1%2B1.20.1.jar",
+      "hash": "sha512-H4i6/G2H2Ebnjt6TVL8ZvlK1+EQnWC+y8cKR9SzwOzL0BnBgeVtQsb6h4w05mnYGL6Kenc0cIHJWodtp6ywPtw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "A0oQFn2Z": {
+      "filename": "custom_tooltip_api-neoforge-5.0.2+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/A0oQFn2Z/custom_tooltip_api-neoforge-5.0.2%2B1.21.1.jar",
+      "hash": "sha512-YX/qD067rklMjRUEFbTZKDWwLHOW1XFs0+SIQcMkg0PtuD6/f3h/q8eoA8PTWEepev02FKVhFbTN4cSKOJJDiA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "DJDhWZ3p": {
+      "filename": "custom_tooltip_api-forge-3.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/DJDhWZ3p/custom_tooltip_api-forge-3.3.0.jar",
+      "hash": "sha512-WV1xsq9FY6/uHO2FmHUaU/UNpCr2Zi8ALGGszGqMkv165RnCG3+b+JwZvx083gd1vIhI47/LGayc+jSzAVT/pg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "Gm4Z1qqa": {
+      "filename": "custom-tooltip-api-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/Gm4Z1qqa/custom-tooltip-api-1.0.0.jar",
+      "hash": "sha512-GqHwv/VzlArkGU6cNu2dbTsPd5iyADXxfmnxR0bey51PuIeDcL8/rQArPR3w1+YR7lnNJdRoJ89VJTCWfc8jHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "JNLOABsW": {
+      "filename": "custom_tooltip_api-neoforge-3.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/JNLOABsW/custom_tooltip_api-neoforge-3.3.0.jar",
+      "hash": "sha512-Sx3dBQJK7ssJwqRKyFj5P9BI36jXsmIPmxNOBdJU/LJ0e6ckfW0T5l14vM0bo03aUVhi3oK5HXOsFqXIAyu2Rg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "KQK7N87x": {
+      "filename": "custom_tooltip_api-neoforge-5.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/KQK7N87x/custom_tooltip_api-neoforge-5.0.0%2B1.21.1.jar",
+      "hash": "sha512-Nc4ISn9VxupJ5vqN4e2+cqgAp3Fxl3Mo+h2qcjhAvm/Vc10haDijIiKqw8bobLuBIqwm/WKW+fIXejOlpkc8SQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "NnFvpQNc": {
+      "filename": "custom_tooltip_api-forge-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/NnFvpQNc/custom_tooltip_api-forge-4.0.0.jar",
+      "hash": "sha512-DtLmO2QVQiluI0EgDNUDj1mTXnkJhpdQ6lCK0+pDcxoHnVpQs24GHLiYFW8frEpyk67/2WJ+PeLc7XtUXSQJ7A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "OVESxUBI": {
+      "filename": "custom-tooltip-api-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/OVESxUBI/custom-tooltip-api-1.2.2.jar",
+      "hash": "sha512-26i16yYjNBPuh2vhee+22rpps0/bqWAvudRBReTZRwHel1CSq92PADjPpSrtPvhbiVgEYLi7pfGY+cppcI1Xnw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "Pk0Oh7HC": {
+      "filename": "custom_tooltip_api-fabric-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/Pk0Oh7HC/custom_tooltip_api-fabric-3.2.0.jar",
+      "hash": "sha512-gR3Ha7hNBcFDDQSALkcWYwYDqTTtk27mXSHeOjprPDrbNe82Gp1TxlT0dcQRY2iJDQ6zMcxZLGo0l6ON5tQwiQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "QEg6AS67": {
+      "filename": "custom_tooltip_api-forge-5.0.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/QEg6AS67/custom_tooltip_api-forge-5.0.2%2B1.20.1.jar",
+      "hash": "sha512-cNCKBnu1wfPSPweT6XduYdQnAj4tpdmL1eWVJ/ge/jc9JB2yCNUWNuSv+COUDVpJ6QOqlYqjof7Wo2OBR3iP8A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "RLgTCd9L": {
+      "filename": "custom_tooltip_api-fabric-3.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/RLgTCd9L/custom_tooltip_api-fabric-3.3.0.jar",
+      "hash": "sha512-g2M4iP4JzidLqsI1MLUY+FH9OwwujlFKzoPh6kESGGRYH/Adf6OBBB3vlnAycOhx5WMaYgbxVfNXmD5be71IAA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "Tlem8dj7": {
+      "filename": "custom_tooltip_api-fabric-5.0.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/Tlem8dj7/custom_tooltip_api-fabric-5.0.2%2B1.20.1.jar",
+      "hash": "sha512-fAWtLJLTWze73QnDuGdKcMUsDOkAkLBdUPqX3l6EomBQrDA0Vbx+66xJfedtdtsHO01Pa58Xnij3k+hJBeonTw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "WEFo43Uy": {
+      "filename": "custom-tooltip-api-3.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/WEFo43Uy/custom-tooltip-api-3.1.0.jar",
+      "hash": "sha512-EL/fEVN2M7/i4AcXHm0U+EoxPIL1jqvtaiDDIfA06zw2U84VPWIoPK+mT5Sz48gqH/5MfngsWccCnPLHYrwfaQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "XHiMuz33": {
+      "filename": "custom_tooltip_api-fabric-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/XHiMuz33/custom_tooltip_api-fabric-4.0.0.jar",
+      "hash": "sha512-0kiJsfISmA+25BZnCOioF7hkrDsyKQbvjHY202YRn+HbHZb6xVd5lDG8p2L7Uekfn5SSlgGy0yVdJJ7QS90iDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "YZhgeGGt": {
+      "filename": "custom-tooltip-api-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/YZhgeGGt/custom-tooltip-api-3.0.0.jar",
+      "hash": "sha512-DAlPmaVR5TybYi5cFZPlNsH0PxrlR8pVMBMha0cMFfiBnf9NF1EDX2gJ37VmWz9AN0A8NS/Wiak35Na+z7Q6Zg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "bGUjy6BS": {
+      "filename": "custom-tooltip-api-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/bGUjy6BS/custom-tooltip-api-1.2.1.jar",
+      "hash": "sha512-5ACy78WUzWRQkgjrNefyBEl2yI52SQEmaK/qaTyML2P+OiFNq5/gvQE1XQK5vbUy6KsQF+ce2gc7JizYd0BAqw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "esXaeWFf": {
+      "filename": "custom_tooltip_api-fabric-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/esXaeWFf/custom_tooltip_api-fabric-3.2.0.jar",
+      "hash": "sha512-XZ1XWEfz/AEze9BXU32jBHUojH9KPHRclTO2V+DQL++F8HVO2/Aufqk4d2SWedfoUO/4526sqGmjmE1oCrPFlg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "fqcoQwU1": {
+      "filename": "custom_tooltip_api-fabric-4.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/fqcoQwU1/custom_tooltip_api-fabric-4.0.1%2B1.20.1.jar",
+      "hash": "sha512-7Tjn9HF3g+h3Coz+p1sAxC0rWeO5fbyjuNWOmoCjGWeEx8sUWAsTSFKLzRDA7fHDy0qElgilzwvhTajXMYT2Ug==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        }
+      ]
+    },
+    "g96vurFQ": {
+      "filename": "custom_tooltip_api-fabric-3.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/g96vurFQ/custom_tooltip_api-fabric-3.3.0.jar",
+      "hash": "sha512-Z3plLLTfo0CGPQ9s7jV2V5XdwPVMxRfrmSbE/BFff2RJ2dXfp5dDxcBdbuw4kH9Ls7ohSPT6WavBzQ6jS3ED0A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "gASQM9Np": {
+      "filename": "custom_tooltip_api-neoforge-4.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/gASQM9Np/custom_tooltip_api-neoforge-4.0.1%2B1.21.1.jar",
+      "hash": "sha512-1ymbNd7TMFjk2NC7jCwFtjqxphz6nNH6ki5Kz79ehoJ+EHBJzcQSSdcCliZKHAUb9wkbNmNjI6ISxSn5BXwIwA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        }
+      ]
+    },
+    "kPTZciT5": {
+      "filename": "custom-tooltip-api-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/kPTZciT5/custom-tooltip-api-1.1.0.jar",
+      "hash": "sha512-FrsDYufp3KLGdPWsOBMnOQmanzFJlK0bzitS1n46UIChz4F39xRpIyFAz1HEI1CRqZ/x2V5JiXHuo7sSzLxWEw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "l8oBQV6j": {
+      "filename": "custom_tooltip_api-fabric-5.0.2+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/l8oBQV6j/custom_tooltip_api-fabric-5.0.2%2B1.21.1.jar",
+      "hash": "sha512-l0M332j3c9vlmuLkpJYHo+4AuSQQvt8wXDkhFR9u0xbEmxjV7gHi1IaFhBE8ED4Hh/C9cJtBrtRBGA5zJFx7nQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "m4dZRz2D": {
+      "filename": "custom_tooltip_api-neoforge-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/m4dZRz2D/custom_tooltip_api-neoforge-4.0.0.jar",
+      "hash": "sha512-OpywGNty21yGixLmMaK/nBwWlgzuHDYN18A4ml/TMliPiAVRwfRSPSOLvDmiYB11p3JlDgjjm30I+6+1Azzemg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "pJUXpTdD": {
+      "filename": "custom-tooltip-api-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/pJUXpTdD/custom-tooltip-api-2.0.0.jar",
+      "hash": "sha512-EymKl1fM988aIpWVKN33Zcu4IvRe/1y8za5mWEFR6AUqGbFkdFU/zhw7y9wjPb9Gk2/RVWMvbjAFV5kMcLf5dQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "q2q2Mjic": {
+      "filename": "custom_tooltip_api-fabric-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/q2q2Mjic/custom_tooltip_api-fabric-4.0.0.jar",
+      "hash": "sha512-I1R+oxVGuBSopp+1221bbN2jQGvv6nlQBtur1t/38eBim/IMOmrduMwH5B31w+qHU7eCGrjHQscJw0TE0RcxIw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "raY1BEdY": {
+      "filename": "custom_tooltip_api-fabric-4.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/raY1BEdY/custom_tooltip_api-fabric-4.0.1%2B1.21.1.jar",
+      "hash": "sha512-YWmTpmn66T0rb8Tp8enlMheKNjJ/0ZN1vBb7hzIrCZ6kszb5zy/v/TyEqPvI/Apl8ESwS9fqISoRv3c9J5TwyQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "sgxVsrTw": {
+      "filename": "custom-tooltip-api-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/sgxVsrTw/custom-tooltip-api-1.2.0.jar",
+      "hash": "sha512-PVxpj1zuowcaut589QWAoyAd+M0v4IGcgItymUyIKB6F8xEXsL12ASK/5I3oxa4Wk+DWGuO7yOSuo8Z60yGtWA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "tJ27ws25": {
+      "filename": "custom_tooltip_api-forge-4.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/tJ27ws25/custom_tooltip_api-forge-4.0.1%2B1.20.1.jar",
+      "hash": "sha512-oB8qlTZwXrOqnKZYGH5XyOrb8RaAjPt32G/1Xq+Rwnl3G4Q1jSg7MwU79jrk9zfX+etpZo3vTzcbx1KD5w1MFg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        }
+      ]
+    },
+    "uKJWePGJ": {
+      "filename": "custom_tooltip_api-fabric-5.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/uKJWePGJ/custom_tooltip_api-fabric-5.0.0%2B1.20.1.jar",
+      "hash": "sha512-xwZ9o5E/ckbaizM0tvL3EWrJe2lG28sAeUuuTEPnUDWbYykvOrfAHanCm22tibtZKkYjroz8hn3BNwMbE2xq2Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "wRNFQH0X": {
+      "filename": "custom_tooltip_api-forge-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/wRNFQH0X/custom_tooltip_api-forge-3.2.0.jar",
+      "hash": "sha512-1NLVhpJWRNIpnJT/aWE5ZY3xuGhKpSL59fgPGR7GElh5+jZ07ECvaLiydgjckd4Ksg94y/3jccnrSb25ffaisA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "x51kkA4k": {
+      "filename": "custom_tooltip_api-forge-5.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGKUGobH/versions/x51kkA4k/custom_tooltip_api-forge-5.0.0%2B1.20.1.jar",
+      "hash": "sha512-Kn/qD1fOw156WWArP0Bp8UxYzfSj+yQBieKkn+TA2RxYMuqZ4yE/moEWACyLKEaVvyC8weYIuT2jeeJ6bg4TKw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "s-lib",
+          "projectId": "VtMfe1Va",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Tlem8dj7",
+      "8rsVB2nt",
+      "uKJWePGJ",
+      "fqcoQwU1",
+      "XHiMuz33",
+      "g96vurFQ",
+      "esXaeWFf",
+      "WEFo43Uy",
+      "YZhgeGGt",
+      "pJUXpTdD",
+      "OVESxUBI",
+      "bGUjy6BS",
+      "sgxVsrTw",
+      "kPTZciT5",
+      "Gm4Z1qqa"
+    ],
+    "1.20.1+forge": [
+      "QEg6AS67",
+      "71ASrWFZ",
+      "x51kkA4k",
+      "tJ27ws25",
+      "NnFvpQNc",
+      "DJDhWZ3p",
+      "wRNFQH0X"
+    ],
+    "1.21.1+fabric": [
+      "l8oBQV6j",
+      "3GUkG6pT",
+      "raY1BEdY",
+      "q2q2Mjic",
+      "RLgTCd9L",
+      "Pk0Oh7HC"
+    ],
+    "1.21.1+neoforge": [
+      "A0oQFn2Z",
+      "KQK7N87x",
+      "gASQM9Np",
+      "m4dZRz2D",
+      "JNLOABsW",
+      "4WCDQc51"
+    ]
+  }
+}

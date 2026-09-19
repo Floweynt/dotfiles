@@ -1,0 +1,65 @@
+{
+  "slug": "whisper_of_ether",
+  "projectId": "aFAQg5II",
+  "versions": {
+    "ZQqxInin": {
+      "filename": "WhispersOfEther-1.21.11-V1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aFAQg5II/versions/ZQqxInin/WhispersOfEther-1.21.11-V1.0.0.jar",
+      "hash": "sha512-fJNsRkZ8QEq0sdrQfVkSynGwFsrOxhuGijP/PAZuqeuMByxZb6WkhuxKlpOCy931a9PZgXy4odi66SBn6udHBA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "niqAdp2M": {
+      "filename": "WhispersOfEther-1.21.1-V1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aFAQg5II/versions/niqAdp2M/WhispersOfEther-1.21.1-V1.0.0.jar",
+      "hash": "sha512-ktb0PMjWFzbviVZFlkHuG49rh2RewGUpFxGLk0TeG20WGMRhHBZS3bpRfAsW71TlcrX4smyWl/vTx6q6ceyqbg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "tbpOctMk": {
+      "filename": "Whispers_of_ether-0.1.0-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/aFAQg5II/versions/tbpOctMk/Whispers_of_ether-0.1.0-1.21.10.jar",
+      "hash": "sha512-cxeIa7JWb2qB4Ily2dBMI2td3Dk/2LR+4ajT5TaRXb8r2Xo/XavrPAHxZbRbMqbuCyA0QB0nTWe65hPqqpkp+w==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "niqAdp2M"
+    ],
+    "1.21.10+fabric": [
+      "tbpOctMk"
+    ],
+    "1.21.11+fabric": [
+      "ZQqxInin"
+    ]
+  }
+}

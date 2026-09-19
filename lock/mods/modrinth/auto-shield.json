@@ -1,0 +1,31 @@
+{
+  "slug": "auto-shield",
+  "projectId": "iEzr25mE",
+  "versions": {
+    "JEdFFBOF": {
+      "filename": "autoshield-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/iEzr25mE/versions/JEdFFBOF/autoshield-1.0.0.jar",
+      "hash": "sha512-A38Aw9GOD8eoUtDYnMVEhWW4KJA9j1uwx0rb8/V200lqQnPFkEFenR4JIDCyzg/WQn20+OGimLI9u6IVdJC7Rg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "JEdFFBOF"
+    ]
+  }
+}

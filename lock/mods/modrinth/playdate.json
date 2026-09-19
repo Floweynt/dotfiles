@@ -1,0 +1,91 @@
+{
+  "slug": "playdate",
+  "projectId": "cO7ZncDY",
+  "versions": {
+    "1iRfibej": {
+      "filename": "playdate-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/cO7ZncDY/versions/1iRfibej/playdate-1.0.0-forge.jar",
+      "hash": "sha512-KMady14CoJyJ5V8OgkAa2fwCyCMVnKyNsAL9s3oJqIHPBqMsb/LE8uUIt1LMb42145srYrAUKKjziUtXwFsX3A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "7HUjgSaq": {
+      "filename": "playdate-1.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/cO7ZncDY/versions/7HUjgSaq/playdate-1.0.1-fabric.jar",
+      "hash": "sha512-BpT+gxbX3/4N1UXMtxQuwmO32ixenfh85tSvPuSERIWPyecFC8Bub/hDa2isUgXbihdC3g+zdx3T3h1LblVomw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "MiOpXTbw": {
+      "filename": "playdate-2.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/cO7ZncDY/versions/MiOpXTbw/playdate-2.0.0-forge.jar",
+      "hash": "sha512-Vi4MZ0Yz+kxztY6hsEfMzJpvCowclvC0sHWHn3YZhlZQz0uIcLXFgho1cHZ2nuNuwzAKOuhVfUgq9E387jPRnQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RzLoHfRR": {
+      "filename": "playdate-2.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/cO7ZncDY/versions/RzLoHfRR/playdate-2.0.0-fabric.jar",
+      "hash": "sha512-ZrpmykINGnGYpt63jQbp3k1gz95uCBTYe8qNomW91RLFLYmmP5cr9z/QqLnju96GMEqQV4w9bo/5DoUuon5RrQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "7HUjgSaq"
+    ],
+    "1.19.2+forge": [
+      "1iRfibej"
+    ],
+    "1.20+fabric": [
+      "RzLoHfRR"
+    ],
+    "1.20+forge": [
+      "MiOpXTbw"
+    ],
+    "1.20+neoforge": [
+      "MiOpXTbw"
+    ],
+    "1.20.1+fabric": [
+      "RzLoHfRR"
+    ],
+    "1.20.1+forge": [
+      "MiOpXTbw"
+    ],
+    "1.20.1+neoforge": [
+      "MiOpXTbw"
+    ]
+  }
+}

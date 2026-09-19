@@ -1,0 +1,76 @@
+{
+  "slug": "cobblemon-nomanscraft-patch",
+  "projectId": "UdAJ9VVw",
+  "versions": {
+    "9Qnvm9Ws": {
+      "filename": "Cobblemon No Man's Craft Compatibility Patch.zip",
+      "url": "https://cdn.modrinth.com/data/UdAJ9VVw/versions/9Qnvm9Ws/Cobblemon%20No%20Man%27s%20Craft%20Compatibility%20Patch.zip",
+      "hash": "sha512-tRxhsxCcsFJLsDTQPP9HAjsevbKTzDioWKTuQUnZBt4vGvDiZmXIr5K5sb4eNHRHOVSv1iyOM7xvTHD57ET9hw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "stellaris",
+          "projectId": "ItTQpuBn",
+          "type": "required"
+        }
+      ]
+    },
+    "k3vJMB3h": {
+      "filename": "cobblemon-nomanscraft-patch-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UdAJ9VVw/versions/k3vJMB3h/cobblemon-nomanscraft-patch-1.0.jar",
+      "hash": "sha512-RjPsaOGwEUP4p+o4WAu4Ot29Trkss/N3OnrzHq8/vLWnWmsabFg32Y0x5FTz3iPxY+1DxP+0U2W+F66O4mdN0A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "stellaris",
+          "projectId": "ItTQpuBn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "9Qnvm9Ws"
+    ],
+    "1.21.1+fabric": [
+      "k3vJMB3h"
+    ],
+    "1.21.1+forge": [
+      "k3vJMB3h"
+    ],
+    "1.21.1+neoforge": [
+      "k3vJMB3h"
+    ],
+    "1.21.1+quilt": [
+      "k3vJMB3h"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "limitedmace",
+  "projectId": "QEeZVgLQ",
+  "versions": {
+    "IF50cZK5": {
+      "filename": "limited-mace-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QEeZVgLQ/versions/IF50cZK5/limited-mace-1.0.0.jar",
+      "hash": "sha512-axvX8sT6GJqGiGbt2F0GmsHycQnqtrrJT2e8TVxOmF+AFwzRh8xP2AYwy281oXxHQxmdTi1uOGRWkb8WVI63yw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ukq5Ugxp": {
+      "filename": "limited-mace-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QEeZVgLQ/versions/Ukq5Ugxp/limited-mace-1.0.1.jar",
+      "hash": "sha512-9y6Uq6uAERsko1rcpdQ8haRZRq1t+bmpdtyVaCAExzi2M7DNlk+JpXrqJRpiJoLpQ8pI81bH/YGr10nGtbQyvQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "Ukq5Ugxp",
+      "IF50cZK5"
+    ]
+  }
+}

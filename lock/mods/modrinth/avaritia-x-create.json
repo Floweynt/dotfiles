@@ -1,0 +1,72 @@
+{
+  "slug": "avaritia-x-create",
+  "projectId": "hx29Sv6m",
+  "versions": {
+    "PHjes5Az": {
+      "filename": "Avaritia_X_Create-0.1-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/hx29Sv6m/versions/PHjes5Az/Avaritia_X_Create-0.1-ALPHA.jar",
+      "hash": "sha512-F08nkudr4ZbUjetrDn1hhesH2P1fzOn5QYHdbeleal+eg/n2MKqN3wRJ1//TXHzHtd05LcPRyO0igNdUktNlGw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "fusion-connected-textures",
+          "projectId": "p19vrgc2",
+          "type": "required"
+        },
+        {
+          "slug": "avaritiareborn",
+          "projectId": "bpSegt8l",
+          "type": "required"
+        }
+      ]
+    },
+    "pDThwclp": {
+      "filename": "Avaritia_X_Create-0.2-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/hx29Sv6m/versions/pDThwclp/Avaritia_X_Create-0.2-ALPHA.jar",
+      "hash": "sha512-Un7I06twsOCJY9jNTKu+cGQZLSFTTbO2XkFDs+Zk0lshB2yp/27wLQlGAet2Cs3n0F57TxDNWXkgKNSimFZH9g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fusion-connected-textures",
+          "projectId": "p19vrgc2",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "avaritiareborn",
+          "projectId": "bpSegt8l",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pDThwclp",
+      "PHjes5Az"
+    ]
+  }
+}

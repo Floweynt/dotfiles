@@ -1,0 +1,102 @@
+{
+  "slug": "cca-electrum-recipe",
+  "projectId": "HqdDQUgM",
+  "versions": {
+    "580kh5vg": {
+      "filename": "cca-electrum-recipe-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HqdDQUgM/versions/580kh5vg/cca-electrum-recipe-1.1.0.jar",
+      "hash": "sha512-Fis1vAxuigHZPooVqEBXJdObON1BUTU5yXO2MuUnOrDiDb3I7AYxlUAxgamw91475u65ouC4eoeIJv1WKldMqA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "createaddition",
+          "projectId": "kU1G12Nn",
+          "type": "required"
+        }
+      ]
+    },
+    "Bff9QwgH": {
+      "filename": "electrum_recipe-1.1.0-datapack-1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/HqdDQUgM/versions/Bff9QwgH/electrum_recipe-1.1.0-datapack-1.20.1.zip",
+      "hash": "sha512-PxShxpUKHqsNtVOQEUZprKjDcH11Rsc03dNOkeQjxX2wfK3GuMSv6T2tnNypaa/avtgRheMqe9bsqe+VSnvZuA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "createaddition",
+          "projectId": "kU1G12Nn",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "MTxvLima": {
+      "filename": "electrum_recipe-1.0.0-datapack-1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/HqdDQUgM/versions/MTxvLima/electrum_recipe-1.0.0-datapack-1.20.1.zip",
+      "hash": "sha512-hZEPF36l4SogiYFlxYyjmAvNynAoBorsMVSXiqkLszqAHW4plNJBKlAtWOXs7rZMP7XcDkG+Ek8QAnLrhKFbIQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "createaddition",
+          "projectId": "kU1G12Nn",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "Bff9QwgH",
+      "MTxvLima"
+    ],
+    "1.20.1+fabric": [
+      "580kh5vg"
+    ],
+    "1.20.1+forge": [
+      "580kh5vg"
+    ],
+    "1.20.1+neoforge": [
+      "580kh5vg"
+    ],
+    "1.20.1+quilt": [
+      "580kh5vg"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "knarfys-dumb-potions",
+  "projectId": "BAybH2yE",
+  "versions": {
+    "BxE7DbXW": {
+      "filename": "DumbPotionIdeas_V1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/BAybH2yE/versions/BxE7DbXW/DumbPotionIdeas_V1.4.0.jar",
+      "hash": "sha512-Y21Zdcj+z+0zMtfwQSeg9i7qhLsO4Kt99hstE+ikkzG0vEVJXVK7F02MwoHJ+6cycIfFdAAZChw5JwHKh3s30w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "BxE7DbXW"
+    ]
+  }
+}

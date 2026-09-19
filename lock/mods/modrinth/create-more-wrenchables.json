@@ -1,0 +1,65 @@
+{
+  "slug": "create-more-wrenchables",
+  "projectId": "JKRAHJGf",
+  "versions": {
+    "1EOjy9Ad": {
+      "filename": "createmorewrenchables-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JKRAHJGf/versions/1EOjy9Ad/createmorewrenchables-1.0.0.jar",
+      "hash": "sha512-dF412tOY3KYuZHmngUZprQGKyiM6hVgOgc5ejqAEdvwzetqU0cdnRXnUQHaubmlUeWh1FGlFqhXKExmpng33lA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "8ldtFI8x": {
+      "filename": "createmorewrenchables-forge1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JKRAHJGf/versions/8ldtFI8x/createmorewrenchables-forge1.20.1-1.0.0.jar",
+      "hash": "sha512-lWdGFMVWS8NrlHz/KMZ/MUm5B1J0LMck7uMSvpKhbidtnsP6G8/cmqPLlLKzGmkeS9NdylPjH0wjwOgMDNl5tQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "gcWTWkia": {
+      "filename": "createmorewrenchables-fabric1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JKRAHJGf/versions/gcWTWkia/createmorewrenchables-fabric1.20.1-1.0.0.jar",
+      "hash": "sha512-iQ7yPIPZcF8aH4zH9wFic2N9bjHQ3Fw9xy5f/CFxjAgKojq2mCVphwLQWQrnZJVVa124WvaOIBNiCPeEcyq5fQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gcWTWkia"
+    ],
+    "1.20.1+forge": [
+      "8ldtFI8x"
+    ],
+    "1.21.1+neoforge": [
+      "1EOjy9Ad"
+    ]
+  }
+}

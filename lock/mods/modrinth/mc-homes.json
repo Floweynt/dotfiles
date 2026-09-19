@@ -1,0 +1,31 @@
+{
+  "slug": "mc-homes",
+  "projectId": "2F14tVZm",
+  "versions": {
+    "O1tDND4Q": {
+      "filename": "mc-homes-1.4+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2F14tVZm/versions/O1tDND4Q/mc-homes-1.4%2B1.20.1.jar",
+      "hash": "sha512-y6cBi15UOAUThJllZ8qqp12+gG98jyvMy3Pb1URe7Vs/a0cTHYsAyQvmQtamlgAkE7vc6xwfAdT0nddDJiGiYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "O1tDND4Q"
+    ]
+  }
+}

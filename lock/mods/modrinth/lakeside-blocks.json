@@ -1,0 +1,31 @@
+{
+  "slug": "lakeside-blocks",
+  "projectId": "WOspI886",
+  "versions": {
+    "Bn8Tecap": {
+      "filename": "lakeside-blocks-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/WOspI886/versions/Bn8Tecap/lakeside-blocks-1.0-1.20.1.jar",
+      "hash": "sha512-LIDhTyu087yctPSaOtWiFKQ9GDcJzGjV+hWrowC4G5wTzBNG3PKpCZ3xzpPKHLj8puxGhpCV7SYtUizX/6p3rA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Bn8Tecap"
+    ]
+  }
+}

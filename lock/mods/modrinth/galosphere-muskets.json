@@ -1,0 +1,108 @@
+{
+  "slug": "galosphere-muskets",
+  "projectId": "GO6OSF47",
+  "versions": {
+    "1SWn2hBO": {
+      "filename": "galosphere-muskets-1.0.01.jar",
+      "url": "https://cdn.modrinth.com/data/GO6OSF47/versions/1SWn2hBO/galosphere-muskets-1.0.01.jar",
+      "hash": "sha512-DpASyz6ORbUmWbQ5Su826Lo0k/wSzruqY6+5tUk1/PBaIQRol977wEcKKb6x99lvqs3pjKaIbHmHC2f5fpDfKQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "musket-mod",
+          "projectId": "967vM4zw",
+          "type": "required"
+        },
+        {
+          "slug": "galosphere",
+          "projectId": "Kn7xyQ1v",
+          "type": "required"
+        }
+      ]
+    },
+    "Lly3PH3j": {
+      "filename": "Galosphere Muskets 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GO6OSF47/versions/Lly3PH3j/Galosphere%20Muskets%201.0.0.jar",
+      "hash": "sha512-XHD/qI7x+UUeDsvR3f734RjJCx6ypld/tZnJbWnEryZzGfln/xtXFKlkHPYYXUs5sc0O4RHMQcbzB/CMDBmbDw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "musket-mod",
+          "projectId": "967vM4zw",
+          "type": "required"
+        },
+        {
+          "slug": "galosphere",
+          "projectId": "Kn7xyQ1v",
+          "type": "required"
+        }
+      ]
+    },
+    "bsLXtcJI": {
+      "filename": "Galosphere Muskets Data.zip",
+      "url": "https://cdn.modrinth.com/data/GO6OSF47/versions/bsLXtcJI/Galosphere%20Muskets%20Data.zip",
+      "hash": "sha512-tqOSjtz8SXE/rY+tGrjZ5KAihbFibxgN0UChABBq+KIcAQwVVk8602Eb//G+0FruPrEGm9rkf7XywXQ/y7OCTA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "galosphere",
+          "projectId": "Kn7xyQ1v",
+          "type": "required"
+        },
+        {
+          "slug": "musket-mod",
+          "projectId": "967vM4zw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "bsLXtcJI"
+    ],
+    "1.20.1+fabric": [
+      "1SWn2hBO",
+      "Lly3PH3j"
+    ],
+    "1.20.1+forge": [
+      "1SWn2hBO",
+      "Lly3PH3j"
+    ],
+    "1.20.1+neoforge": [
+      "1SWn2hBO",
+      "Lly3PH3j"
+    ],
+    "1.20.1+quilt": [
+      "1SWn2hBO",
+      "Lly3PH3j"
+    ]
+  }
+}

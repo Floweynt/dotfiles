@@ -1,0 +1,52 @@
+{
+  "slug": "autos_n_rails",
+  "projectId": "phlwtAez",
+  "versions": {
+    "Insk4rJF": {
+      "filename": "autos_n_rails-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/phlwtAez/versions/Insk4rJF/autos_n_rails-1.0.0.jar",
+      "hash": "sha512-b4bVlP+uQX7fuAce7+QkXufMTgSd3f2xJHABaGqR6EIIZZk6ikGvzfyxP/tYdzCyvm+hKdyF6LL8m8hxNz1TNw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "automobility",
+          "projectId": "rqIsPf9F",
+          "type": "required"
+        }
+      ]
+    },
+    "PRCUNiBC": {
+      "filename": "autos_n_rails-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/phlwtAez/versions/PRCUNiBC/autos_n_rails-2.0.0.jar",
+      "hash": "sha512-eRzGKWQpGEj+0RVvn3vx3tzzlX6x2TuoJ1srFrz6Od0zwbdTJC/l1dyHxQSBivMnaB6HcB9nG2sQQWMbQpdkOg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "automobility",
+          "projectId": "rqIsPf9F",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "PRCUNiBC",
+      "Insk4rJF"
+    ]
+  }
+}

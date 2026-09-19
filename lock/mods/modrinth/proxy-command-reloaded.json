@@ -1,0 +1,167 @@
+{
+  "slug": "proxy-command-reloaded",
+  "projectId": "ZtZU4UiS",
+  "versions": {
+    "F6qIyBpN": {
+      "filename": "proxy-command-velocity-1.0-7.jar",
+      "url": "https://cdn.modrinth.com/data/ZtZU4UiS/versions/F6qIyBpN/proxy-command-velocity-1.0-7.jar",
+      "hash": "sha512-zZ37TyYTc8qOn4blEwJsP3N2ZtPyxHzVv9qi8B+WkaYdVtz68WaJkotWcmaS2vPw18v7idK/iYKiyr3s5/4YUQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.20.1",
+        "1.20.5",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "velocity"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "GfQPuxSH": {
+      "filename": "proxy-command-fabric-1.1-1.20.5-17.jar",
+      "url": "https://cdn.modrinth.com/data/ZtZU4UiS/versions/GfQPuxSH/proxy-command-fabric-1.1-1.20.5-17.jar",
+      "hash": "sha512-y/rPxo4ItZ3gZyXJW8rxVflcYPWdJugtjuNvojiEZ51xvUxazaHmqH1VR0GSvJUQagRBBa0MHpAxJ2N2OFsrhg==",
+      "gameVersions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabricproxy-lite",
+          "projectId": "8dI2tmqs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "HMDRwgnl": {
+      "filename": "proxy-command-fabric-1.1-1.21-28.jar",
+      "url": "https://cdn.modrinth.com/data/ZtZU4UiS/versions/HMDRwgnl/proxy-command-fabric-1.1-1.21-28.jar",
+      "hash": "sha512-0DBw0vYy7DhkB2+vSUlt/BxgSZglRJ9QtIm4mhaZtDPnjSU+qKA/c4yFE+sjv7k6BcKXUvMkxH9nGCSZDHGuag==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabricproxy-lite",
+          "projectId": "8dI2tmqs",
+          "type": "required"
+        }
+      ]
+    },
+    "ShtmteeE": {
+      "filename": "proxy-command-fabric-1.0-7.jar",
+      "url": "https://cdn.modrinth.com/data/ZtZU4UiS/versions/ShtmteeE/proxy-command-fabric-1.0-7.jar",
+      "hash": "sha512-gyJBBV4hiEMlh3ONO+Se9+acrJLr43J5YS0MW/VgosO0Xir2GdHWREIBfu04C99oIw7/x8gRBsctO+zTeuI7OQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabricproxy-lite",
+          "projectId": "8dI2tmqs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tOe4VAzV": {
+      "filename": "proxy-command-fabric-1.1-1.21-34.jar",
+      "url": "https://cdn.modrinth.com/data/ZtZU4UiS/versions/tOe4VAzV/proxy-command-fabric-1.1-1.21-34.jar",
+      "hash": "sha512-U/uRGWSHZNAqFJXqf4GNM3/+0HE3pMqmS5hh1D/qPOjy/RCSYfYgzq311EJsHjMnndHzg2f5SVzPvmdy6HDwBQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabricproxy-lite",
+          "projectId": "8dI2tmqs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+velocity": [
+      "F6qIyBpN"
+    ],
+    "1.20.1+fabric": [
+      "ShtmteeE"
+    ],
+    "1.20.1+velocity": [
+      "F6qIyBpN"
+    ],
+    "1.20.5+fabric": [
+      "GfQPuxSH"
+    ],
+    "1.20.5+velocity": [
+      "F6qIyBpN"
+    ],
+    "1.21+fabric": [
+      "HMDRwgnl",
+      "tOe4VAzV"
+    ],
+    "1.21+velocity": [
+      "F6qIyBpN"
+    ],
+    "1.21.1+fabric": [
+      "HMDRwgnl"
+    ],
+    "1.21.1+velocity": [
+      "F6qIyBpN"
+    ],
+    "1.21.2+fabric": [
+      "HMDRwgnl"
+    ],
+    "1.21.3+fabric": [
+      "HMDRwgnl"
+    ],
+    "1.21.4+fabric": [
+      "HMDRwgnl"
+    ]
+  }
+}

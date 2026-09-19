@@ -1,0 +1,54 @@
+{
+  "slug": "tool-bundles",
+  "projectId": "MS5IPYTf",
+  "versions": {
+    "5FL9D3Su": {
+      "filename": "tool-bundles-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MS5IPYTf/versions/5FL9D3Su/tool-bundles-1.0.0.jar",
+      "hash": "sha512-IN2NMUqzf9EHktksoSH+xhQfh8yqbW4dWyY42bhbdvr6m70qUSpMw/iOtEhfC8+WDnENJWBmFkpc4LR5skhVlw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nUGs5J0N": {
+      "filename": "tool-bundles-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MS5IPYTf/versions/nUGs5J0N/tool-bundles-1.0.0.jar",
+      "hash": "sha512-aB7gWQK/crYfRXVtG6YTDWqTv4xY45cN2GsfBuj3G5R5eJp3jEMj27mJY/YyD220zdmwC193Zp/gViqoTJMmdw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "nUGs5J0N"
+    ],
+    "26.1.2+fabric": [
+      "5FL9D3Su"
+    ]
+  }
+}

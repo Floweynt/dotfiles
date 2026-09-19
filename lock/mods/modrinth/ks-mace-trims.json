@@ -1,0 +1,66 @@
+{
+  "slug": "ks-mace-trims",
+  "projectId": "Ai97as0C",
+  "versions": {
+    "ccJeRUj8": {
+      "filename": "mace_trims_26.2.x.zip",
+      "url": "https://cdn.modrinth.com/data/Ai97as0C/versions/ccJeRUj8/mace_trims_26.2.x.zip",
+      "hash": "sha512-5WP8aoQt0+G6kWV5CiQZMMnEy3WKY3C2FgJehGSsvqZ637RoK/UYbMSfJ94A8Aqu/24FKPxHDlHmX3wpP3Eg8Q==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "kspack",
+          "projectId": "1NDTwAcs",
+          "type": "required"
+        }
+      ]
+    },
+    "rhOuD0vW": {
+      "filename": "ks-mace-trims-26.2.jar",
+      "url": "https://cdn.modrinth.com/data/Ai97as0C/versions/rhOuD0vW/ks-mace-trims-26.2.jar",
+      "hash": "sha512-6rvnZaTb9KBQLk93/b2KKjYCFna7a8nCgLY153u0sYylmCXoNb9IelkzoVd6rJ8iZoaB1wuZy4s4Dyo9ytc/Zw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "kspack",
+          "projectId": "1NDTwAcs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+datapack": [
+      "ccJeRUj8"
+    ],
+    "26.2+fabric": [
+      "rhOuD0vW"
+    ],
+    "26.2+forge": [
+      "rhOuD0vW"
+    ],
+    "26.2+neoforge": [
+      "rhOuD0vW"
+    ],
+    "26.2+quilt": [
+      "rhOuD0vW"
+    ]
+  }
+}

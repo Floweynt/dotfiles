@@ -1,0 +1,127 @@
+{
+  "slug": "phantom-config",
+  "projectId": "h6o0VkT3",
+  "versions": {
+    "9QsTD7uV": {
+      "filename": "phantomconfig-1.1.0+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/h6o0VkT3/versions/9QsTD7uV/phantomconfig-1.1.0%2B1.20.4.jar",
+      "hash": "sha512-Mzvh8Ep07ayeJLHRRNKb9uWUnLFfsowWhUoR0lVbL71xhJMVzs5HjrwB2gjq1GJ+6IG9a18eabAhDphLi3duyg==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "JdHaNewP": {
+      "filename": "phantomconfig-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/h6o0VkT3/versions/1.0.0-fabric/phantomconfig-1.0.0.jar",
+      "hash": "sha512-8gV2WQOAgTIE50M57IHIFc51TsKTG9R4OUXaZNAYQdhOvnTmKN/A/roCMxG4ws7V3kxM35xVpHordrC2O5YBUg==",
+      "gameVersions": [
+        "1.16.4",
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "XRMROUuU": {
+      "filename": "phantomconfig-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/h6o0VkT3/versions/1.0.0-forge/phantomconfig-1.0.0.jar",
+      "hash": "sha512-WCjJZU2f02fHZZGGTF4kfeZc/gZHyBG0F1QlHchgWKVVCAZAZCQzgjLFbuK6GHibivouLcwPCWZZHuusN2S/VQ==",
+      "gameVersions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "vlMwnsgb": {
+      "filename": "phantomconfig-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/h6o0VkT3/versions/1.0.1-forge/phantomconfig-1.0.1.jar",
+      "hash": "sha512-YxtRJpXcp+k9NMBXn71Nv7KqmK8DR6wYIUdc3WAXl2h0hBDYPirtH+ehqe8Mk2pJUWcY5r7lfW2rX/5034bbLA==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.4+fabric": [
+      "JdHaNewP"
+    ],
+    "1.16.4+forge": [
+      "XRMROUuU"
+    ],
+    "1.16.5+fabric": [
+      "JdHaNewP"
+    ],
+    "1.16.5+forge": [
+      "XRMROUuU"
+    ],
+    "1.17+fabric": [
+      "JdHaNewP"
+    ],
+    "1.17.1+fabric": [
+      "JdHaNewP"
+    ],
+    "1.18+fabric": [
+      "JdHaNewP"
+    ],
+    "1.18.1+fabric": [
+      "JdHaNewP"
+    ],
+    "1.18.1+forge": [
+      "vlMwnsgb"
+    ],
+    "1.18.2+fabric": [
+      "JdHaNewP"
+    ],
+    "1.18.2+forge": [
+      "vlMwnsgb"
+    ],
+    "1.20.2+fabric": [
+      "9QsTD7uV"
+    ],
+    "1.20.3+fabric": [
+      "9QsTD7uV"
+    ],
+    "1.20.4+fabric": [
+      "9QsTD7uV"
+    ]
+  }
+}

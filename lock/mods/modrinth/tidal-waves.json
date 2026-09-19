@@ -1,0 +1,57 @@
+{
+  "slug": "tidal-waves",
+  "projectId": "QsiPPta0",
+  "versions": {
+    "Rh86Cb7C": {
+      "filename": "tidal-0.0.2-beta.jar",
+      "url": "https://cdn.modrinth.com/data/QsiPPta0/versions/Rh86Cb7C/tidal-0.0.2-beta.jar",
+      "hash": "sha512-EXYXhjhOlPDMwT8y2t6ctD3DwEXbeodsSwOPiMsPWEYCS4jfD3sxTLcyJBe4iJnTpF5JsAF44pSmByaY+hGdFA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "uN4AKtrF": {
+      "filename": "tidal-0.0.1-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/QsiPPta0/versions/uN4AKtrF/tidal-0.0.1-alpha.jar",
+      "hash": "sha512-BolgqCTuhBbg9Tm+w3BftJz5izipv03zfT2iubLrmt5oWBfulni7a/HwNf+B5VC83WEYd4+znz6w+P+whYhuuA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Rh86Cb7C",
+      "uN4AKtrF"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "hextrogen",
+  "projectId": "m2lYRdre",
+  "versions": {
+    "VQmiGIKH": {
+      "filename": "hextrogen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/m2lYRdre/versions/VQmiGIKH/hextrogen-1.0.0.jar",
+      "hash": "sha512-PJsrElZfI3UigSdhQgXIKrHmkgNtaKGjjRRwSaaK+3SUOrkNLudLvsDpu1UUUi9WOOqO8h9Zt0qNIUPzUSuFEA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        }
+      ]
+    },
+    "juJQAmj2": {
+      "filename": "hextrogen-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/m2lYRdre/versions/juJQAmj2/hextrogen-1.1.0.jar",
+      "hash": "sha512-+ceJEvps+ZQf8ezLgwXmaAhmlMIPh9hY3WbnNakM6CvgxDLs681viLAUBPLvgpa/rHCaw6naOgBo2puBFT3upg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "juJQAmj2",
+      "VQmiGIKH"
+    ],
+    "1.20.1+quilt": [
+      "juJQAmj2",
+      "VQmiGIKH"
+    ]
+  }
+}

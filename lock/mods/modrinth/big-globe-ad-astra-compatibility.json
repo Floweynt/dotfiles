@@ -1,0 +1,72 @@
+{
+  "slug": "big-globe-ad-astra-compatibility",
+  "projectId": "hs4XmTKh",
+  "versions": {
+    "82AjqGEv": {
+      "filename": "big-globe-ad-astra-compatibility-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hs4XmTKh/versions/82AjqGEv/big-globe-ad-astra-compatibility-1.0.jar",
+      "hash": "sha512-5phP+Voz2fEfM32iunLbI+to+RpTnnI0jrkWNm6AFUIp2s/GpfgTNjfgn0F55a52xuNbvU6R90Bx5jyQkeEBkw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        },
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        }
+      ]
+    },
+    "BSGHUksN": {
+      "filename": "Big-Globe-Ad-Astra-Compat_4.5.0_1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/hs4XmTKh/versions/BSGHUksN/Big-Globe-Ad-Astra-Compat_4.5.0_1.20.1.zip",
+      "hash": "sha512-kIDI9IybUyISOXl1UmP+PJHWJCxfiQpWNx1qMMcjNuluiA4+KalCUEOlmjSMCt5ZI7bZuTR06wc+Hps5KZzYUg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        },
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "BSGHUksN"
+    ],
+    "1.20+fabric": [
+      "82AjqGEv"
+    ],
+    "1.20.1+datapack": [
+      "BSGHUksN"
+    ],
+    "1.20.1+fabric": [
+      "82AjqGEv"
+    ]
+  }
+}

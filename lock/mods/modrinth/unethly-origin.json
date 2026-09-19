@@ -1,0 +1,96 @@
+{
+  "slug": "unethly-origin",
+  "projectId": "D1S1iE6M",
+  "versions": {
+    "6XQ3zfih": {
+      "filename": "unethly-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/D1S1iE6M/versions/6XQ3zfih/unethly-0.1.0.jar",
+      "hash": "sha512-q+APMq+zvd1FNHRURYkliVC4jBvNvuW9rV39tA0pTWGUDHKwusS80TXbyw9cd0N71lzbpQ8EfXLY76YaZvWshg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "ivycore",
+          "projectId": "gELSa4PN",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "fwiqKdg7": {
+      "filename": "untetly-old-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/D1S1iE6M/versions/fwiqKdg7/untetly-old-0.1.0.jar",
+      "hash": "sha512-TLlHM2ypKdTpv5MxVpZxwhx5wCqINXjQHHYYbQGKm0EQRuiJJL6DSnhLf2spcVuqwFImApsIJRX2mzSbFcserA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "ivycore",
+          "projectId": "gELSa4PN",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "fwiqKdg7"
+    ],
+    "1.18.2+quilt": [
+      "fwiqKdg7"
+    ],
+    "1.19+fabric": [
+      "6XQ3zfih"
+    ],
+    "1.19+quilt": [
+      "6XQ3zfih"
+    ],
+    "1.19.1+fabric": [
+      "6XQ3zfih"
+    ],
+    "1.19.1+quilt": [
+      "6XQ3zfih"
+    ],
+    "1.19.2+fabric": [
+      "6XQ3zfih"
+    ],
+    "1.19.2+quilt": [
+      "6XQ3zfih"
+    ]
+  }
+}

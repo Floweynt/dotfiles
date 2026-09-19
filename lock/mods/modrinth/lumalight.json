@@ -1,0 +1,91 @@
+{
+  "slug": "lumalight",
+  "projectId": "YYLuU3ee",
+  "versions": {
+    "1DDCbokx": {
+      "filename": "lumalight-2.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/YYLuU3ee/versions/1DDCbokx/lumalight-2.0.0-forge-1.20.1.jar",
+      "hash": "sha512-WrK14qtit0u8vKcaEl31btU3q9HOpE6SQgqbzHFiEihrB7TNZg5ITu+51VO9DsNrvgKPLRE7g5N2ACF7Lzg+wg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "KM2D4vgJ": {
+      "filename": "lumalight_26.2.jar",
+      "url": "https://cdn.modrinth.com/data/YYLuU3ee/versions/KM2D4vgJ/lumalight_26.2.jar",
+      "hash": "sha512-D+2UTsjbhZQugz/avSZomIyew7DbxT4Ypz3oy7QL6S94kHviAdrzb/Ll7SYwwK//PVnnF7pn6X+OIgprp/uG9g==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XLpOVrKZ": {
+      "filename": "lumalight-2.0.0-fabric-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/YYLuU3ee/versions/XLpOVrKZ/lumalight-2.0.0-fabric-1.21.11.jar",
+      "hash": "sha512-rtTu0IonAi3rmI/XWUjUXgns6YvWvGvmnDNrYA2Vzh7gsbe5L4goirV18T+bdC1C3CIg3+2ZGgfB5iZaG2PRFw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "1DDCbokx"
+    ],
+    "1.20.2+forge": [
+      "1DDCbokx"
+    ],
+    "1.20.3+forge": [
+      "1DDCbokx"
+    ],
+    "1.20.4+forge": [
+      "1DDCbokx"
+    ],
+    "1.20.5+forge": [
+      "1DDCbokx"
+    ],
+    "1.20.6+forge": [
+      "1DDCbokx"
+    ],
+    "1.21.11+fabric": [
+      "XLpOVrKZ"
+    ],
+    "26.2+fabric": [
+      "KM2D4vgJ"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "all-jebbed-out",
+  "projectId": "s8oAorIL",
+  "versions": {
+    "8P3OfFLy": {
+      "filename": "all-jebbed-out-1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/s8oAorIL/versions/8P3OfFLy/all-jebbed-out-1.0%2B1.21.jar",
+      "hash": "sha512-8ejjor+RskIj7sv/8oyy6052n0+LCr8wuzM6vdJ6G4ZGnUrYiC77mVDAla7c/bwQwi9O1D5H+lfhyJakBwxV4g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TKY4xIv6": {
+      "filename": "all-jebbed-out-1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/s8oAorIL/versions/TKY4xIv6/all-jebbed-out-1.0%2B1.20.1.jar",
+      "hash": "sha512-Swf1H3xOKDdeVVruWFdd40fqQOj4ck57GS0Je4bzzYJ2+36kbB0EZDWfCKHvtQZma/zzuEvY4/E7osMnIlKF0w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "TKY4xIv6"
+    ],
+    "1.21+fabric": [
+      "8P3OfFLy"
+    ],
+    "1.21.1+fabric": [
+      "8P3OfFLy"
+    ]
+  }
+}

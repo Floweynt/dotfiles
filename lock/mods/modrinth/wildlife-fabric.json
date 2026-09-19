@@ -1,0 +1,92 @@
+{
+  "slug": "wildlife-fabric",
+  "projectId": "gkVIACVj",
+  "versions": {
+    "QmXRyhus": {
+      "filename": "wildlife-1.20.1-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/gkVIACVj/versions/QmXRyhus/wildlife-1.20.1-2.2.jar",
+      "hash": "sha512-2yMOohQipy/M9+bPJgsB/tFwAE9q6rNtt9DPTNAK0vhrt7SE/LGBN1ikWp6nf+vNKmgC1ZaC8CnVMpPwfvzmLA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    },
+    "gMjitio4": {
+      "filename": "wildlife-1.18.2-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/gkVIACVj/versions/gMjitio4/wildlife-1.18.2-2.2.jar",
+      "hash": "sha512-7YvfzPsPmBnBNho4YhbOooIUTikOC+CAVFPlc+KddD59luyWtaYjqgkbYP3WdHbyPfm7U/ovAQXW5NFOYmhNDQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    },
+    "kPTRtBNW": {
+      "filename": "wildlife-1.19.2-2.3.jar",
+      "url": "https://cdn.modrinth.com/data/gkVIACVj/versions/kPTRtBNW/wildlife-1.19.2-2.3.jar",
+      "hash": "sha512-66kLKMu0ydU/NQgqddKAVO2s+7KX3hkn5nVer3VgLtrZ51UWYd4qMBNyGyEpZMphcdQhY1AhhYwEorTK5tt//w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "gMjitio4"
+    ],
+    "1.19.2+fabric": [
+      "kPTRtBNW"
+    ],
+    "1.20.1+fabric": [
+      "QmXRyhus"
+    ]
+  }
+}

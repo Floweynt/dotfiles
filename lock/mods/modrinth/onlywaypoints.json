@@ -1,0 +1,109 @@
+{
+  "slug": "onlywaypoints",
+  "projectId": "VET8ZSJB",
+  "versions": {
+    "9dqAl8iY": {
+      "filename": "onlywaypoints-v1.0.1+mc1.21.6.jar",
+      "url": "https://cdn.modrinth.com/data/VET8ZSJB/versions/9dqAl8iY/onlywaypoints-v1.0.1%2Bmc1.21.6.jar",
+      "hash": "sha512-LalC/u01Cczw1gRlmyEfdwo8lX17mTDSFkN3jWH7wV+LxjXiM9ne/QwBwP3GsfetRHE0fOQcGgp3KxzhWtgWtw==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "BzdCacjv": {
+      "filename": "onlywaypoints-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VET8ZSJB/versions/BzdCacjv/onlywaypoints-1.0.0.jar",
+      "hash": "sha512-2uUNVDvppqtj62mq9mKPB5ieXSQQCw/Sk22hsIg8IyiSbeIIOxPq+ET0zOMZbGrbK1p1FQNoh8No16nzAcXluw==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TbZTOIMb": {
+      "filename": "onlywaypoints-v1.0.1+mc1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/VET8ZSJB/versions/TbZTOIMb/onlywaypoints-v1.0.1%2Bmc1.21.5.jar",
+      "hash": "sha512-tfpfpcpn5RqqA5F8lKfpwWFtV5JUl8pU1fyLvndEs0BTiAP5VcdAmPuYdxO32ais96028Nyfn8k3WlZM5yW3Xw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "b1oPkVj0": {
+      "filename": "onlywaypoints-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/VET8ZSJB/versions/b1oPkVj0/onlywaypoints-1.0.1.jar",
+      "hash": "sha512-JHCbGlWKhVfoA7CrCO/bweXqYP8cuD7bSeHSO1U9TV+pf8uWcQ/X9qPkmxj5TWXQG0gCVkt/qa2bqaY+LP95jQ==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kr8lBWdp": {
+      "filename": "onlywaypoints-v1.0.1+mc1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/VET8ZSJB/versions/kr8lBWdp/onlywaypoints-v1.0.1%2Bmc1.21.4.jar",
+      "hash": "sha512-bUZnANwy24aU231kCLXUlFeWfhP0+QJD9J71VoyUyIh6r9qlbK5ZyWkQlLWr08ksLcKLEnIOpCGCVyREkbeMUQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "kr8lBWdp"
+    ],
+    "1.21.5+fabric": [
+      "TbZTOIMb"
+    ],
+    "1.21.6+fabric": [
+      "9dqAl8iY"
+    ],
+    "1.21.7+fabric": [
+      "b1oPkVj0",
+      "BzdCacjv"
+    ]
+  }
+}

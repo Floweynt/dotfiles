@@ -1,0 +1,35 @@
+{
+  "slug": "handcuff-mod",
+  "projectId": "AR69JuKL",
+  "versions": {
+    "sn02wDFD": {
+      "filename": "cuffs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AR69JuKL/versions/sn02wDFD/cuffs-1.0.0.jar",
+      "hash": "sha512-D7QfXQt9RqbEzqKM7LNvZpYGgyFHmDjF2IpdnAme9Y2fkaJpPFOBXxa/xqCvImbhzhlZGsqZtA7t0ri+0S2qLA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "sn02wDFD"
+    ],
+    "1.21.1+fabric": [
+      "sn02wDFD"
+    ]
+  }
+}

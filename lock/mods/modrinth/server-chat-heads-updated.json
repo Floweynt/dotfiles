@@ -1,0 +1,31 @@
+{
+  "slug": "server-chat-heads-updated",
+  "projectId": "v0OLPvWf",
+  "versions": {
+    "pv8c2wqT": {
+      "filename": "chatheads-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/v0OLPvWf/versions/pv8c2wqT/chatheads-2.0.jar",
+      "hash": "sha512-1M3opWGyfD7yHfPWnZFUds9L+2qU6ZeXzRhKersJsWf9hPuMokCVcwD7XW1Cdrvu74MnQ/E4QX3n6r+xwjRvYw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "pv8c2wqT"
+    ]
+  }
+}

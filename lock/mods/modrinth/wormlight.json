@@ -1,0 +1,69 @@
+{
+  "slug": "wormlight",
+  "projectId": "iNRPuolX",
+  "versions": {
+    "8a7McaCE": {
+      "filename": "Wormlight.zip",
+      "url": "https://cdn.modrinth.com/data/iNRPuolX/versions/8a7McaCE/Wormlight.zip",
+      "hash": "sha512-yFm3rXG4AjIwiVD9C7YGvI80y2qgmFTEQquJ/zYVNG0u88yncPAZb7IP1GqPTlHi4OhaTOCkuIrgTPC5X5aaIQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "pKPWpe1I": {
+      "filename": "origins-wormlight-1.jar",
+      "url": "https://cdn.modrinth.com/data/iNRPuolX/versions/pKPWpe1I/origins-wormlight-1.jar",
+      "hash": "sha512-XKpzkG+o4darHZc1gKXGxkdx+4wjr/2ATfd9RElO29MAhyWQdkOCpCRxjM6X2SQinY+ScrlKYqsfDC347Vj0fA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "8a7McaCE"
+    ],
+    "1.20.1+fabric": [
+      "pKPWpe1I"
+    ],
+    "1.20.1+quilt": [
+      "pKPWpe1I"
+    ],
+    "1.20.2+datapack": [
+      "8a7McaCE"
+    ],
+    "1.20.2+fabric": [
+      "pKPWpe1I"
+    ],
+    "1.20.2+quilt": [
+      "pKPWpe1I"
+    ]
+  }
+}

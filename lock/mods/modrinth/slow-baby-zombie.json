@@ -1,0 +1,149 @@
+{
+  "slug": "slow-baby-zombie",
+  "projectId": "dsNEnF5E",
+  "versions": {
+    "5YWG96k7": {
+      "filename": "slowbabyzombie-mc1.21.11-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsNEnF5E/versions/5YWG96k7/slowbabyzombie-mc1.21.11-1.0.0.jar",
+      "hash": "sha512-eQMvD8DAjv7By0fm8cY3Ga0LKMbItSH7EYRuOL6fTjOaZoHL3+NqAQazjSpR0+2q3mrGlSsI63bCk+TRwi1b8w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "8KQCi3xQ": {
+      "filename": "slowbabyzombie-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsNEnF5E/versions/8KQCi3xQ/slowbabyzombie-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-amHrrFs5qBy+4HcC6Z/OzUKaF37A91LmpbFcDKuhJmq6PVnEdngZNOiZKIs/+39nOUwL2MYT2Ss2+W+VJdSR7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "G4bI6hxo": {
+      "filename": "slowbabyzombie-mc26.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsNEnF5E/versions/G4bI6hxo/slowbabyzombie-mc26.1-1.0.0.jar",
+      "hash": "sha512-bl+LHvB+QPvS4rmR6T0FrLKGTu9HAnHdm8I3S7FvYM8DSXdaAnjY+HZBU+GHO4JpMj299ZwIuRQqhtrscIfJUg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "NrqRbPWE": {
+      "filename": "slowbabyzombie-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsNEnF5E/versions/NrqRbPWE/slowbabyzombie-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-R4ZCKhGovuAuKfTJy0goCOimaLCs8O7JIuynJvyPV+LkDA2w6hrZp1AMyq+RLZvMKQWyjjGHmcUj66n+cgqCbA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "X81rxdge": {
+      "filename": "slowbabyzombie-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsNEnF5E/versions/X81rxdge/slowbabyzombie-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-Ldset3samPJthICCkd+ROO1yWxhBoPf3IXy2rD5rVZVkgrg8TZow+xfyyvBEZKSN7E3e0EG2j6hSagWjpMbHMw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hC7QHVrH": {
+      "filename": "slowbabyzombie-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsNEnF5E/versions/hC7QHVrH/slowbabyzombie-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-c4R+w/48+PqOzL25F0FLINkdir3QeUXSuTuKurLKmSgu2VjggAjONCpr2GcKQpcfWm5hB05rUJd8RdxRo+Lavw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rwODomUu": {
+      "filename": "slowbabyzombie-forge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dsNEnF5E/versions/rwODomUu/slowbabyzombie-forge-1.21.1-1.0.0.jar",
+      "hash": "sha512-vQdf9zh9uvQSErySinWXGEJiS0+GzJneY/wjIfn/MZcs/l6iG/986ySEJCI10XGmi1Vz4QnFJrnwgWENasUFWw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8KQCi3xQ"
+    ],
+    "1.20.1+forge": [
+      "NrqRbPWE"
+    ],
+    "1.20.1+neoforge": [
+      "NrqRbPWE"
+    ],
+    "1.20.1+quilt": [
+      "8KQCi3xQ"
+    ],
+    "1.21.1+fabric": [
+      "X81rxdge"
+    ],
+    "1.21.1+forge": [
+      "rwODomUu"
+    ],
+    "1.21.1+neoforge": [
+      "hC7QHVrH"
+    ],
+    "1.21.11+fabric": [
+      "5YWG96k7"
+    ],
+    "26.1+fabric": [
+      "G4bI6hxo"
+    ],
+    "26.1.1+fabric": [
+      "G4bI6hxo"
+    ],
+    "26.1.2+fabric": [
+      "G4bI6hxo"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "better-when-running",
+  "projectId": "15H4TTDe",
+  "versions": {
+    "8ch54E0J": {
+      "filename": "better-when-running-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/15H4TTDe/versions/8ch54E0J/better-when-running-1.0.1.jar",
+      "hash": "sha512-gQmHCqN0ooot+4EgrNL11Wt7Ksb2JfmqeVa3FQW5CUYAyJryWs1yJ1VzOu0yP/eZoiPcoyfcGNSYKEy/f+KSww==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mod-menu-bta",
+          "projectId": "BnSCrq6A",
+          "type": "required"
+        },
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        }
+      ]
+    },
+    "CVNdiG5b": {
+      "filename": "better-when-running-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/15H4TTDe/versions/CVNdiG5b/better-when-running-1.0.0.jar",
+      "hash": "sha512-VpNrjC/8Ok2TVeaFqpTQFJwiB7b5Z7dQS1xHSXP++3hZ6lXSYWPIH7HgUrt9yeJ+Lm3qYgw5IG0kH7+SSOtz1g==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        },
+        {
+          "slug": "mod-menu-bta",
+          "projectId": "BnSCrq6A",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+fabric": [
+      "8ch54E0J",
+      "CVNdiG5b"
+    ]
+  }
+}

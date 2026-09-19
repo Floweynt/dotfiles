@@ -1,0 +1,128 @@
+{
+  "slug": "oplock",
+  "projectId": "ZzogWZSp",
+  "versions": {
+    "3G4Da6Cv": {
+      "filename": "oplock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZzogWZSp/versions/3G4Da6Cv/oplock-1.0.0.jar",
+      "hash": "sha512-+6eI7K2tr96tvNJX12tdjdv3jgM2fpDRzRSLNkKZ+cfv+CrfiwEnKisqcYUFqgm4h/LbeGz0yAQzA4YLJ0/AJQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "NTOA5W7P": {
+      "filename": "oplock-1.1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ZzogWZSp/versions/NTOA5W7P/oplock-1.1.0%2B1.21.jar",
+      "hash": "sha512-2VK6rWTNMpEQbcXY/5zNIndn3g4NvSq8z3TfA+dhqh2ruaTR96bS+5OH9qqqZG5hYAZK2T55DElTEJx29tJudA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ur3Owt7b": {
+      "filename": "oplock-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ZzogWZSp/versions/Ur3Owt7b/oplock-1.0.0%2B1.21.jar",
+      "hash": "sha512-vXYkmltzN+afCMywe8kk0M6ohXkc6q207+S6lecXkAe6OchVnCjYkeIZJ0XO2Mu5iIaztxPEsxF8Vd0Fv2as+g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fGCDH8sR": {
+      "filename": "oplock-1.0.0+19.jar",
+      "url": "https://cdn.modrinth.com/data/ZzogWZSp/versions/fGCDH8sR/oplock-1.0.0%2B19.jar",
+      "hash": "sha512-sx1bw4iaJsnGA9NsoWz7AIJRak6ai1ECaLfZsqh49/5lZv3FltnlFMQF+QnYb4jLtSuMlOvuWqITzA5SXv1i2w==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.1+fabric": [
+      "fGCDH8sR"
+    ],
+    "1.19.2+fabric": [
+      "fGCDH8sR"
+    ],
+    "1.19.3+fabric": [
+      "fGCDH8sR"
+    ],
+    "1.19.4+fabric": [
+      "fGCDH8sR"
+    ],
+    "1.20+fabric": [
+      "3G4Da6Cv"
+    ],
+    "1.20.1+fabric": [
+      "3G4Da6Cv"
+    ],
+    "1.20.2+fabric": [
+      "3G4Da6Cv"
+    ],
+    "1.20.3+fabric": [
+      "3G4Da6Cv"
+    ],
+    "1.20.4+fabric": [
+      "3G4Da6Cv"
+    ],
+    "1.20.5+fabric": [
+      "3G4Da6Cv"
+    ],
+    "1.20.6+fabric": [
+      "3G4Da6Cv"
+    ],
+    "1.21+fabric": [
+      "NTOA5W7P",
+      "Ur3Owt7b"
+    ],
+    "1.21.1+fabric": [
+      "NTOA5W7P",
+      "Ur3Owt7b"
+    ]
+  }
+}

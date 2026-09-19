@@ -1,0 +1,54 @@
+{
+  "slug": "cobblemon-vocalized",
+  "projectId": "8MisFXwM",
+  "versions": {
+    "axU2NLcG": {
+      "filename": "NeoForge-cobblemon_vocalized-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8MisFXwM/versions/axU2NLcG/NeoForge-cobblemon_vocalized-1.0.0.jar",
+      "hash": "sha512-g07kTmO882/Lp0VmsVLUrKENOjnXCa9iQ4VmphNDQakqGt+CY4krBvEDYD74rVX9PI2LpEjW2iKrl80WeZlB/w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "eLAgkWE2": {
+      "filename": "Fabric-cobblemon_vocalized-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8MisFXwM/versions/eLAgkWE2/Fabric-cobblemon_vocalized-1.0.0.jar",
+      "hash": "sha512-FBBD4wrUf36tgXs6ldXvMz1S1hSkmQbYSt5HT45PP5f64attPGy9UwtLJiXMl6bsz2dTUsMN8LLgU4fgfWsEhg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "eLAgkWE2"
+    ],
+    "1.21.1+neoforge": [
+      "axU2NLcG"
+    ]
+  }
+}

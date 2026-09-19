@@ -1,0 +1,77 @@
+{
+  "slug": "cactus-dupe",
+  "projectId": "RGMdJkDt",
+  "versions": {
+    "6pop9cWI": {
+      "filename": "CactusDupe1214-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/RGMdJkDt/versions/6pop9cWI/CactusDupe1214-1.1.jar",
+      "hash": "sha512-QGsB6tJfwmn7XBboYQ87RqobBq/0EjRgUlejTW28X23d9FTqPcO03zYTJPZ6EsECh0C1bOK9EMPZ6kGQkhbFjA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OMZF4w5p": {
+      "filename": "CactusDupe1211-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RGMdJkDt/versions/OMZF4w5p/CactusDupe1211-1.0.jar",
+      "hash": "sha512-67YMxz8DvYZgbLTXXuqvICkcLe58KIRNZWY6/Nl7BGVePS9iCWb/iGXMbv0l3IU92LDn83tHlZppWw5sDESEMw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pvOXR4Fb": {
+      "filename": "CactusDupe1215-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/RGMdJkDt/versions/pvOXR4Fb/CactusDupe1215-1.2.jar",
+      "hash": "sha512-5ESADVCmUQSYo/qEgtJLSOSPg2Cs86QQ+TwaqGGXN6AFE7mn54MrP0gMYRpmxQ4BPchUKhD20lcWR+Bqxn2cXQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "OMZF4w5p"
+    ],
+    "1.21.4+fabric": [
+      "6pop9cWI"
+    ],
+    "1.21.5+fabric": [
+      "pvOXR4Fb"
+    ]
+  }
+}

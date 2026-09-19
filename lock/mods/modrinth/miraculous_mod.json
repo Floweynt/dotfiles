@@ -1,0 +1,67 @@
+{
+  "slug": "miraculous_mod",
+  "projectId": "cJmhfjYP",
+  "versions": {
+    "AdOPudT7": {
+      "filename": "miraculous-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/cJmhfjYP/versions/AdOPudT7/miraculous-0.1.1.jar",
+      "hash": "sha512-KisfFW5y/4+TN+dy9ahetDIsP9K+txnWG9uGt0bBzVENMmFtk1MeAj2YA+wZjyKDczUqx8Xm0TTySXDNx2OLzA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HI4vodcg": {
+      "filename": "miraculous-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/cJmhfjYP/versions/HI4vodcg/miraculous-0.2.0.jar",
+      "hash": "sha512-wRrUZlEH9JGS46YZmATFUrGk1KFJNCNaz8xGVidzL26a5ojbnx79Fs/4qgBY3QYJTYllYiGPvq3QhJ1ToSOVVg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "o9GKmGOv": {
+      "filename": "miraculous-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/cJmhfjYP/versions/o9GKmGOv/miraculous-0.1.jar",
+      "hash": "sha512-yjei0vhT1RO4gP06zTmz5cwtop6rqkF4NHTxTD7R8CNmD7Z8qku6PVUttrGN4KJp0Z1wZm7xkeiIukJJ/O+73A==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "HI4vodcg",
+      "AdOPudT7",
+      "o9GKmGOv"
+    ]
+  }
+}

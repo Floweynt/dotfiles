@@ -1,0 +1,63 @@
+{
+  "slug": "thismouth",
+  "projectId": "wAO0PSLf",
+  "versions": {
+    "5R7wvnZk": {
+      "filename": "ThisMouth-2.0-STABLE.jar",
+      "url": "https://cdn.modrinth.com/data/wAO0PSLf/versions/5R7wvnZk/ThisMouth-2.0-STABLE.jar",
+      "hash": "sha512-2HqYrc/cAJQTqtnu8B6qMyjaDMnbNp7v9Nw7iMt5Wag2gz7lWrDOJ5kVh44F832RDiT+uVGCv2M4cBaBHZcxKA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "S0aTzztS": {
+      "filename": "ThisMouth-2.3.jar",
+      "url": "https://cdn.modrinth.com/data/wAO0PSLf/versions/S0aTzztS/ThisMouth-2.3.jar",
+      "hash": "sha512-/X7drHRrK2OSrDrCsvHdzZbDV9ekXLwPbdluOlNH3mJL88YtuD9iWvjNLcDEBr541sNO0Da5ln+TxC17OmVDCw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rzefkL46": {
+      "filename": "ThisMouth-2.0-STABLE (4).jar",
+      "url": "https://cdn.modrinth.com/data/wAO0PSLf/versions/rzefkL46/ThisMouth-2.0-STABLE%20%284%29.jar",
+      "hash": "sha512-tqB3UbqISajCx/FdEbct/SesJxjtDjqatww42bl+7zxK5huPTlkDbp0/09V2A4LucK7XtYX8yGO6zaNoXzf8zA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "plasmo-voice",
+          "projectId": "1bZhdhsH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "5R7wvnZk",
+      "rzefkL46"
+    ],
+    "1.21.11+fabric": [
+      "S0aTzztS"
+    ]
+  }
+}

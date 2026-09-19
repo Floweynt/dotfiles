@@ -1,0 +1,86 @@
+{
+  "slug": "torchok",
+  "projectId": "NEUFWr4L",
+  "versions": {
+    "4F7CmJ2X": {
+      "filename": "torchok-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NEUFWr4L/versions/4F7CmJ2X/torchok-1.0.0.jar",
+      "hash": "sha512-Yd4WJDODIfW+wwUcSJ2RLTud1enj5j46ftRGbUWponLTaV+MznhOyVjveZkbVx5i1vtfLHFIXqcKiU30W6g3mQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Azq3hJ08": {
+      "filename": "torchok-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NEUFWr4L/versions/Azq3hJ08/torchok-2.0.0.jar",
+      "hash": "sha512-opqhXayBMmnUa0n1YzulCURx9x1cG4uqh6KGdI85LxR+eExYzdv9WxnZaTJ92mAdypmdd/k/TMJpPf/2tjwxZA==",
+      "gameVersions": [
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GUojn77d": {
+      "filename": "torchok-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NEUFWr4L/versions/GUojn77d/torchok-1.0.0.jar",
+      "hash": "sha512-4nIrpzrg8LwnKPFY2VvyZryyMYqrdQj7WUUS1wYkuJdB81N1JE3qpEa09TdouczPY6MCUaHYrImrh1ONItGkvQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "4F7CmJ2X"
+    ],
+    "1.21.1+fabric": [
+      "GUojn77d"
+    ],
+    "26.1.1+fabric": [
+      "Azq3hJ08"
+    ],
+    "26.1.2+fabric": [
+      "Azq3hJ08"
+    ]
+  }
+}

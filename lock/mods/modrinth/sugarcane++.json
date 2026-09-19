@@ -1,0 +1,77 @@
+{
+  "slug": "sugarcane++",
+  "projectId": "4K1dlHJK",
+  "versions": {
+    "3ngNFTET": {
+      "filename": "sugarcane-plusplus-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/4K1dlHJK/versions/3ngNFTET/sugarcane-plusplus-1.0.1.jar",
+      "hash": "sha512-lB9epo2e9PNrsqdeIazZLBYO0WwuMczBDc+itGtV21zR8XUEbJWqHwW9qXgSMku1jjxz5N4HQ+bRnsMHRgNU2A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PuzffGJc": {
+      "filename": "sugarcane-plusplus-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4K1dlHJK/versions/PuzffGJc/sugarcane-plusplus-1.0.0.jar",
+      "hash": "sha512-S4MOh8laDuT/uRAHOG62E1qGOx0ex3/kTFLXzFf+poCn4+aQ0OtmD/0YmXxStYENYdBOWy5y+S7e7AnCTRe1Ug==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vzw7qthD": {
+      "filename": "sugarcane-plusplus-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/4K1dlHJK/versions/vzw7qthD/sugarcane-plusplus-1.0.1.jar",
+      "hash": "sha512-Mhd04hhpANlUfXjXNEG01suM69BtXXEKcmJ0nDB3/sLN/qci7LBTcQ4WwqSONEL2TKj7Cv/zQ7ypRxHoA/5seA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "PuzffGJc"
+    ],
+    "1.21.11+fabric": [
+      "3ngNFTET"
+    ],
+    "26.2+fabric": [
+      "vzw7qthD"
+    ]
+  }
+}

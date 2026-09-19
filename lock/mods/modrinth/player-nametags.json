@@ -1,0 +1,86 @@
+{
+  "slug": "player-nametags",
+  "projectId": "HS9A5g0h",
+  "versions": {
+    "WMcZUXFK": {
+      "filename": "player-nametags-0.1.1+1.20.3.jar",
+      "url": "https://cdn.modrinth.com/data/HS9A5g0h/versions/WMcZUXFK/player-nametags-0.1.1%2B1.20.3.jar",
+      "hash": "sha512-50Vo1lBxFc2JD4LXAsVSKiazZfajtidOFmGyhl7voJMYsNZIpEYZkMq3fQijv4+G4UZZn/moTEV37WDQxa2CLw==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XPdcoFRE": {
+      "filename": "player-nametags-0.1.1+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/HS9A5g0h/versions/XPdcoFRE/player-nametags-0.1.1%2B1.20.2.jar",
+      "hash": "sha512-8TsuJnCImOius7R1Gj2e4oi6xHUgm9S3vNfppmvyJy86lNuMNXmuHGn29MYjFThhfBYptL9T0q3+hXVRaU8DHA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ke9OzyVC": {
+      "filename": "player-nametags-0.1.0+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/HS9A5g0h/versions/ke9OzyVC/player-nametags-0.1.0%2B1.20.2.jar",
+      "hash": "sha512-GD1dIloKqEoWCklwp81XVjAxX+iYtWU1JOVZIplZhsGOYpiZ1AyxcHDf5sk18LHQRV1V12XqM8bMGryEER6Pdg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "XPdcoFRE",
+      "ke9OzyVC"
+    ],
+    "1.20.2+quilt": [
+      "XPdcoFRE",
+      "ke9OzyVC"
+    ],
+    "1.20.3+fabric": [
+      "WMcZUXFK"
+    ],
+    "1.20.3+quilt": [
+      "WMcZUXFK"
+    ],
+    "1.20.4+fabric": [
+      "WMcZUXFK"
+    ],
+    "1.20.4+quilt": [
+      "WMcZUXFK"
+    ]
+  }
+}

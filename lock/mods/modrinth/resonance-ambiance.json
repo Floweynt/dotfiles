@@ -1,0 +1,110 @@
+{
+  "slug": "resonance-ambiance",
+  "projectId": "lfpDzHJM",
+  "versions": {
+    "1cNDg3iC": {
+      "filename": "resonance-neoforge-1.21.5-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/lfpDzHJM/versions/1cNDg3iC/resonance-neoforge-1.21.5-0.1.0.jar",
+      "hash": "sha512-W1XlnmkVydJV13ubR2rmetGPo2b3iSFgbng7N5EC+tJU30Z2CpK4X2+Ss66QqwP6zaQfTMSHfssx1VhZYuBdqA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        }
+      ]
+    },
+    "QMZHSUYU": {
+      "filename": "resonance-fabric-1.21.5-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/lfpDzHJM/versions/QMZHSUYU/resonance-fabric-1.21.5-0.1.0.jar",
+      "hash": "sha512-B2pg7k8xqm4Wtc0j7R7EBIo1Zmh0GoAEZrtYmS72eHTsVSh4ghqOPUAiwYoA8dKcqF0fZCkdNboQy/Z46ic/LA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sD6dE0BR": {
+      "filename": "resonance-fabric-1.21.11-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/lfpDzHJM/versions/sD6dE0BR/resonance-fabric-1.21.11-0.1.1.jar",
+      "hash": "sha512-xCsyzZWQetefP9KNcopt+WCaDeezr7xK9sj0Ow4luiNmdgTo8/k4caRyyOh+JdtquVDnk5E/iOSCgkBr2EeTlA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ygiO7Qyz": {
+      "filename": "resonance-neoforge-1.21.11-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/lfpDzHJM/versions/ygiO7Qyz/resonance-neoforge-1.21.11-0.1.1.jar",
+      "hash": "sha512-lLd1cB6DtXgkHROM3krPNt/PZtuImzXlIw8KVoB45z8Y7lMagg0m+JlDTKUZr6A1xybI0ariYZ0zJKD9/aar8g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "sD6dE0BR"
+    ],
+    "1.21.11+neoforge": [
+      "ygiO7Qyz"
+    ],
+    "1.21.5+fabric": [
+      "QMZHSUYU"
+    ],
+    "1.21.5+neoforge": [
+      "1cNDg3iC"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "create-recipes-plus",
+  "projectId": "k06Txu1J",
+  "versions": {
+    "CiyhF7m4": {
+      "filename": "createrecipes-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/k06Txu1J/versions/CiyhF7m4/createrecipes-1.2.1.jar",
+      "hash": "sha512-fbSzKVKNV9mFRY5wPU7pVghBLAJ5ThBUdzu3a+/gtJNYd8SNvIpK3+/plKfc0r64LfKDsbRDpGgbAxhdFQNj7A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "L25F4Cbm": {
+      "filename": "createrecipes-1.2.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/k06Txu1J/versions/L25F4Cbm/createrecipes-1.2.0-forge-1.20.1.jar",
+      "hash": "sha512-XLWIjtNg3V38ee11BYu3cMEoTXs7bzUMwZkrVdGA/HJFetc81ccdDvcUELBgp3iDRUndajd8astNXDmKvX1MLg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-enchantment-industry",
+          "projectId": "JWGBpFUP",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "sN5dGSob": {
+      "filename": "createrecipes-1.2.1-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/k06Txu1J/versions/sN5dGSob/createrecipes-1.2.1-forge-1.20.1.jar",
+      "hash": "sha512-Cpo2QsmZAuH7wQWdUn0YmRNdozJbmIbYC/GvoVXW6PF4HXkdUIOyP22pbFdyjEtgx9dY6SLE/teOFlr9Aw/oUg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-enchantment-industry",
+          "projectId": "JWGBpFUP",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "uTvGGbIx": {
+      "filename": "create_recipes-1.2.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/k06Txu1J/versions/uTvGGbIx/create_recipes-1.2.0-fabric-1.20.1.jar",
+      "hash": "sha512-3TSkMdfBoqnt4AQYsY4JvdENCF5+VqktxmTXmkD7Oj+u/fT9hLsrO/3dbcUNjIX+nVrlLBgrbnjW6NGAR+OurQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "create-enchantment-industry-fabric-legacy",
+          "projectId": "AEZO385x",
+          "type": "required"
+        }
+      ]
+    },
+    "wupgsZWW": {
+      "filename": "create_recipes-1.2.1-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/k06Txu1J/versions/wupgsZWW/create_recipes-1.2.1-fabric-1.20.1.jar",
+      "hash": "sha512-AqZF/AsofbOO0oiAmw66j69gmK9uDmOVCnpHM3nr0vF+Bs3b9RnfdyL9ffiwd7EiaFZIn7mPpb7iwZCxmIV2sQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-enchantment-industry-fabric-legacy",
+          "projectId": "AEZO385x",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wupgsZWW",
+      "uTvGGbIx"
+    ],
+    "1.20.1+forge": [
+      "sN5dGSob",
+      "L25F4Cbm"
+    ],
+    "1.21.1+neoforge": [
+      "CiyhF7m4"
+    ]
+  }
+}

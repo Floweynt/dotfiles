@@ -1,0 +1,953 @@
+{
+  "slug": "notenoughrecipebook",
+  "projectId": "bQh7xzFq",
+  "versions": {
+    "21LpGT5f": {
+      "filename": "nerb-1.19.4-0.3-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/21LpGT5f/nerb-1.19.4-0.3-FABRIC.jar",
+      "hash": "sha512-K8+wRJ1yHCoGxX7rYApkTbSMvxiCKSk+7oXs9dYC5vjfh3Yn5tLZ1PEedmWwQga1iax5cOX/7s+Vq59tOpz81w==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "2aSXMkGn": {
+      "filename": "nerb-1.20.1-0.3-QUILT.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/2aSXMkGn/nerb-1.20.1-0.3-QUILT.jar",
+      "hash": "sha512-+SS0Ws0xEDE+RL62xsmVNDJxz5Cs8BFvJ4NHPwvOUDj6Oi7a9xeBz8WgQVCBerfLDNBUga1kuq6B3vS28xjW+A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "3nhuKGgU": {
+      "filename": "nerb-1.20.4-0.4-QUILT.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/3nhuKGgU/nerb-1.20.4-0.4-QUILT.jar",
+      "hash": "sha512-4j47LYQa/Ku1+M//njYrl/9B3stpBSD2dK6yXtv//5uAkZOFn8CWfoSoY4Ol2uPu9dLfukVRXeK66HQz//PT3g==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "3wNsfxgo": {
+      "filename": "Not Enough Recipe Book-QUILT-0.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/3wNsfxgo/Not%20Enough%20Recipe%20Book-QUILT-0.4.1.jar",
+      "hash": "sha512-Y4j2tUgoLbwVC/xl7wzb3tQ3ertDu60AcryzpJI+ECfK8sTpRoZi7QEEsCHPIuMWqzW+eskyrmchM/mraqcU4g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "6oul90SP": {
+      "filename": "Not Enough Recipe Book-QUILT-0.4.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/6oul90SP/Not%20Enough%20Recipe%20Book-QUILT-0.4.1%2B1.20.1.jar",
+      "hash": "sha512-FRMEIJHsFupZnL8aBXgeaaLcsHN7MNEzaHeZLWnOXswRPanvhqbhMoqnttUwXuvMyHWCGG8qJFWyq/eQsFTjtw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "7BoccZuB": {
+      "filename": "nerb-1.20.4-0.4-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/7BoccZuB/nerb-1.20.4-0.4-FORGE.jar",
+      "hash": "sha512-HZyYWPFF4Cyf6FTE6/2mdfw2mSwT9mvTK7SUFHm3SOKlm1l6XIfzt2UpEjtzU8+P2xvtrUf+RdkPF23vMxsEpg==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "8SBaRv1t": {
+      "filename": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/8SBaRv1t/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.3%2B1.21.jar",
+      "hash": "sha512-VE+DyuwuiU50IlcfFUu1pHDpFW1bW3DmNSx1TxusR6wsBViTBk+q4tBco6i+9pk0PIUcklwsH4w6zn3jjP1n7Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "ANmCMdMt": {
+      "filename": "nerb-1.19.2-0.3-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/ANmCMdMt/nerb-1.19.2-0.3-FORGE.jar",
+      "hash": "sha512-W75B4CMqJiBa8yzoCW6H5RdXUUxY+LLFtHggwr78UEgZ9bJ0G//wL/2DcPzW5nc+O8ZHmhVOKpT4UaB5DT8kCA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ITO3cH9R": {
+      "filename": "nerb-1.20.4-0.3-QUILT.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/ITO3cH9R/nerb-1.20.4-0.3-QUILT.jar",
+      "hash": "sha512-ZlDCm1OCkcodUH2hfuTk9zYZQLipgAhsxfFUw6RhMzS8fRNwqV9zlh5jxkYpYu6fxDmwXWyy9prTNf2UgECEUg==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "IdupyNOK": {
+      "filename": "Not Enough Recipe Book-FABRIC-0.4.3+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/IdupyNOK/Not%20Enough%20Recipe%20Book-FABRIC-0.4.3%2B1.21.jar",
+      "hash": "sha512-eAm2CnVkylGBMTJanEDlrEc/iW6MFTpC2wvufpRxfMnEKMJEMWRa85qXFcxFFgvQP4RC42z37bGjDPMfAaR/qA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "JeTHZr8o": {
+      "filename": "nerb-1.20.4-0.4-NEOFORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/JeTHZr8o/nerb-1.20.4-0.4-NEOFORGE.jar",
+      "hash": "sha512-6Ao+GpzKlUyjwadgVpoaFNlBdEuZWs879to+wCMVnqVwIF2gVxEmsNaN4Q48igIwXYhxY5c8AYDphChhvnxaaA==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "JzGdvM04": {
+      "filename": "nerb-1.20.6-0.4-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/JzGdvM04/nerb-1.20.6-0.4-FABRIC.jar",
+      "hash": "sha512-npCPxSS/SJubK7MPgdjOC9Y1itQM6+UwnzN4glo+jip6henKeQqtHs19HWlEi+nSqiELNnJLTmloSIOCEYEcSg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "K0TKkCB7": {
+      "filename": "nerb-1.20.4-0.4-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/K0TKkCB7/nerb-1.20.4-0.4-FABRIC.jar",
+      "hash": "sha512-XHmsKyo2j0aGgCpR3t8QaH7bfXuxIXzQRa7s9nsCQqmzYTYZtOJxNJHhedta77ZuVwR5rjct+K49Zcre0xaXBA==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "LcOyiz2j": {
+      "filename": "nerb-1.21-0.4-QUILT.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/LcOyiz2j/nerb-1.21-0.4-QUILT.jar",
+      "hash": "sha512-kglU/S9GiA9AApWlhbe9QPwLK0O/KjcCtz4keQHm5bv75ZsOzLxi9bgUFTydIaEmU/L8d83AOfiW8hz8/KCymA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "MXMAoN6j": {
+      "filename": "nerb-1.18.2-0.3-QUILT.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/MXMAoN6j/nerb-1.18.2-0.3-QUILT.jar",
+      "hash": "sha512-b2QFoQlFa6eM81oVwXZ0YRgmv0Jbh9X3knUC/DqoK+4aeoHAqhkuYiu0LHE96KJNJLzq7kCuajQZErY7JUBBwg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "S798MQVx": {
+      "filename": "nerb-1.21-0.4-NEOFORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/S798MQVx/nerb-1.21-0.4-NEOFORGE.jar",
+      "hash": "sha512-6MkHrkQHe15erqnPrWHe3VHFtRS0LIYxwzuohBz6jW476qJ+Wfe7AFeURMuTswpIYC+I83HqGKaLWKgVR7CrBA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "TF263yIt": {
+      "filename": "nerb-1.20.4-0.3.1-NEOFORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/TF263yIt/nerb-1.20.4-0.3.1-NEOFORGE.jar",
+      "hash": "sha512-0rh86reGyaAYKovGfU6zdD6CTjgkRum8LoCyPnd+bPHtOSj/qEwAOQGnVKOiY9DMkl7jAgYD1jQmXSSBY13QlA==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "TXL5AFHt": {
+      "filename": "nerb-1.20.1-0.3-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/TXL5AFHt/nerb-1.20.1-0.3-FABRIC.jar",
+      "hash": "sha512-ZqiYmYZYtDpaW72WNq4UMR7fRaaM3OZvn2aNo4RCyH6RMBoOanF3nWteGw7lUNKXfZZlSjCx0Zfjjf8BsQ0v/Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Ta1ocIHZ": {
+      "filename": "nerb-1.19.2-0.3-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/Ta1ocIHZ/nerb-1.19.2-0.3-FABRIC.jar",
+      "hash": "sha512-uFD7NbIPp+Ek38KSyh3D6yTQMjTfVMobmHC1797ONG3pOQ+4wevhrKmIDQFjAq7EvQd/NFjl5TAJGeaxuN0uiw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "WNKpZB8m": {
+      "filename": "nerb-1.20.4-0.3-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/WNKpZB8m/nerb-1.20.4-0.3-FORGE.jar",
+      "hash": "sha512-tBoK326tyP3hhrzxbjBroLr5IMkYTJAwAdqxe4J4J6uW0b04HWPxFaVDrq4gPA0JIQA89eBmAarg1WpAohY/Pg==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XcMsdfOD": {
+      "filename": "Not Enough Recipe Book-NEOFORGE-0.4.2.1+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/XcMsdfOD/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.2.1%2B1.21.4.jar",
+      "hash": "sha512-8uggjJci+wv8DLoLaLDC/QsPfPWkTdEMUhxxbnm/bJYC0WdkcaRIW9KT/0lOdEqOGI4A+K398kDGfFZwWN+vUQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "YAmx9o85": {
+      "filename": "nerb-1.19.2-0.3-QUILT.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/YAmx9o85/nerb-1.19.2-0.3-QUILT.jar",
+      "hash": "sha512-uyqM+1yv4Q8dh0e59XpJl3+eAboIGvgrJjgY1f6uDr/fQ8QT+Dh4lsp/t6wSvv67unn3rKq6ZVOX2WIRdUH87A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bXw1XdeN": {
+      "filename": "nerb-1.21-0.4-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/bXw1XdeN/nerb-1.21-0.4-FABRIC.jar",
+      "hash": "sha512-AE69Sf21S1qgTCxpwDo34euALhp7atj530v8hlyKAdPKWdf94bwYMNFFqbO541mq40czGohMrEsAczVP/cf2fw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bnjKtdpy": {
+      "filename": "Not Enough Recipe Book-NEOFORGE-0.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/bnjKtdpy/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.1.jar",
+      "hash": "sha512-16v5Q9cCtdAPpTZfeOpcXy7IVySmlT8OAtdOVT9x4zKe3CrsU6KhmRLqs8a4+q3Mh1Cm8bx8YmkJK+e9PUN5hQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "cO4l4yHB": {
+      "filename": "nerb-1.20.6-0.4-NEOFORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/cO4l4yHB/nerb-1.20.6-0.4-NEOFORGE.jar",
+      "hash": "sha512-ZN1bn9UzuWr3xyiZZLjefNEeMPJB+M58dcByYR9R1CWCT9V5WI/XNV4cGWVfAz0GFaymmDyn1yf2d5v7U8R3KA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fLXi6m0L": {
+      "filename": "Not Enough Recipe Book-NEOFORGE-0.4.2+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/fLXi6m0L/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.2%2B1.21.4.jar",
+      "hash": "sha512-Qbj37K7nhrXdoGp9ADItN9PGAH5j0hoShUSvSG5m+ra9g6VABiocgVZyzIJ1Vi/KwNjnE/tDElZBg100eDK3fg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "hRhjlsGv": {
+      "filename": "nerb-1.20.1-0.3-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/hRhjlsGv/nerb-1.20.1-0.3-FORGE.jar",
+      "hash": "sha512-vkYiXsCoY2eZYFsTacYL1vFQxCiYLTt/DQssoRSqfxp3ZYxnY/HWeNGE0CITxsthfCBge49EXkfE2UeDjbidnA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hiLb6QFe": {
+      "filename": "Not Enough Recipe Book-FABRIC-0.4.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/hiLb6QFe/Not%20Enough%20Recipe%20Book-FABRIC-0.4.1%2B1.20.1.jar",
+      "hash": "sha512-6XKUMmbnsR00aGThgFY25ih+FVSj9P6qaK8LOgxdh8MI68gNJBmbRMSbMTD9WCNV9cL5tkqift3lTEmV8NUFkQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "hygTWrEc": {
+      "filename": "nerb-1.20.4-0.3-NEOFORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/hygTWrEc/nerb-1.20.4-0.3-NEOFORGE.jar",
+      "hash": "sha512-KRgNDNl8D0oeiYn+5gbB+zruB81xlM6caHvhO7JKDTxxcySlGSFIXFKvY0R78dOaSQe24Vg7pUTe3V23kj3w9g==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jSBXGog8": {
+      "filename": "nerb-1.18.2-0.3-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/jSBXGog8/nerb-1.18.2-0.3-FORGE.jar",
+      "hash": "sha512-VGugp84ihWM6LRVGlaHRU1itvR4eG3dZaneUJAr46Rfix3JDI7rqtu8zNBxhIWpb8BQB2a80gDWTOYdpMzvjhg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "k4zfEWz6": {
+      "filename": "Not Enough Recipe Book-FABRIC-0.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/k4zfEWz6/Not%20Enough%20Recipe%20Book-FABRIC-0.4.1.jar",
+      "hash": "sha512-NireNORXqeLVw4pTDrZWSgRv/o0ZY21RJCoaZNkGwHbb/IPpzuDfDaOZvLShqbzMAkFEmj2CA36POaLybqOVjw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "lHgWPAXU": {
+      "filename": "nerb-1.19.4-0.3-QUILT.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/lHgWPAXU/nerb-1.19.4-0.3-QUILT.jar",
+      "hash": "sha512-HdE3QoM20OMKAlkVxxD2fuYe4DIOcHDATB38ktf0zcjT3W1D0vymBuwVG501+3Y7Abp3k/uKzO8qTaJratPHXw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "oJLEqcbX": {
+      "filename": "Not Enough Recipe Book-NEOFORGE-0.4.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/oJLEqcbX/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.2%2B1.21.jar",
+      "hash": "sha512-LvLVCFJyc6y2jG/TRpKxchSHYOUU/JefFB4W1xi+w+z5Tf7v4d7WeDY00spXTsFt8urHqZ8n+Khg9JDIqP4daA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "pS6CtSMa": {
+      "filename": "nerb-1.19.4-0.3-FORGE.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/pS6CtSMa/nerb-1.19.4-0.3-FORGE.jar",
+      "hash": "sha512-BUBzi3BmuBf5ThX5m16v3nBdX07pO+fo1e9OAr+/XBZuiiCithmTLUwRdES+dtt7nBlQv1nJ7d8l2JkM7D0euA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tO5tW5BW": {
+      "filename": "Not Enough Recipe Book-FABRIC-0.4.3+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/tO5tW5BW/Not%20Enough%20Recipe%20Book-FABRIC-0.4.3%2B1.21.11.jar",
+      "hash": "sha512-XBQintBNP2N5615RCVxpCKGzFG1OTbPRw7kJlxy8aChTFA7qzZAUdEXskKCi6VCGMuswancnZ4q6dgS0mreKDw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tUGovhzl": {
+      "filename": "nerb-fabric-0.4.3+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/tUGovhzl/nerb-fabric-0.4.3%2B26.1.2.jar",
+      "hash": "sha512-RsMf2enjElr2+i5kCBqp5OfMPH2lab2a8+vab7XwIr7PvCu8hj1ocYplJueX3QLh8BQpstbWG15vTMMn/GtrEw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "tWQGX8qv": {
+      "filename": "nerb-1.20.4-0.3-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/tWQGX8qv/nerb-1.20.4-0.3-FABRIC.jar",
+      "hash": "sha512-IQkvIjBeN+g8cLsVOgsq8vaH2+UrBKllHDA8qsxPp2vUuBmqg0j1D4i1vN52tNuC2wzVx6jLKSGNznflJwGQMw==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vGcRkqkx": {
+      "filename": "Not Enough Recipe Book-FABRIC-0.4.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/vGcRkqkx/Not%20Enough%20Recipe%20Book-FABRIC-0.4.2%2B1.21.jar",
+      "hash": "sha512-sR5g1AOlW1hPCtfMPTxABjl3fPwgPmmPdhaWbUH5Ud1fFfZq1xXhpmkzogOSWhu7PUk1eqsABG8lq1VXy9WdMg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "vkdV8sM5": {
+      "filename": "Not Enough Recipe Book-NEOFORGE-0.4.3+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/vkdV8sM5/Not%20Enough%20Recipe%20Book-NEOFORGE-0.4.3%2B1.21.11.jar",
+      "hash": "sha512-55ziHkvrcem3BR8vHb9SHt0G4gZhES1Ve6CvMX9jQWAUTqS7zKcOIKc+KoEjouNXSLzbg54VgG1YOBo6aLxX2g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xXV9YBzF": {
+      "filename": "Not Enough Recipe Book-FORGE-0.4.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/xXV9YBzF/Not%20Enough%20Recipe%20Book-FORGE-0.4.1%2B1.20.1.jar",
+      "hash": "sha512-WZ4IUGLG16c2ikzw1HzjGbyvVwv1lm7G+LlSnwBuMVp/SrPS8mPDhWSlAbnXAx6VbU7oge0uE5mYadYcvAeXAg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    },
+    "xXZC30LF": {
+      "filename": "Not Enough Recipe Book-FABRIC-0.4.2+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/xXZC30LF/Not%20Enough%20Recipe%20Book-FABRIC-0.4.2%2B1.21.4.jar",
+      "hash": "sha512-IEsHqA0ZhNcVcAnWQ7hOV1tFhn67mtyAdO9X4Wz3AGwETnSwPraWy4J1JQIYKz6tPACjri9Af0Ec/cQc0HJxcw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "yu9amLvb": {
+      "filename": "nerb-1.18.2-0.3-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/yu9amLvb/nerb-1.18.2-0.3-FABRIC.jar",
+      "hash": "sha512-VrR7jkQQHMjzdBa1VbFJhbgovXyPROi4xegQpejkkxD/w1vbsI/AjxbXpX15zvsMSDQIYt+1U38gc11Kn7Q2kw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yziDsCIm": {
+      "filename": "nerb-neoforge-0.4.3+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/bQh7xzFq/versions/yziDsCIm/nerb-neoforge-0.4.3%2B26.1.2.jar",
+      "hash": "sha512-Noc/gOW5WZRZQjzG5zZMEuBW3j5K4QDhthoKCobe3PBV/Nkw2S8MNjEuv+xtqZ91BKSfjNopkSZTEKxKTYptow==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "shatterbyte-lib",
+          "projectId": "RH2KUdKJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "yu9amLvb"
+    ],
+    "1.18.2+forge": [
+      "jSBXGog8"
+    ],
+    "1.18.2+quilt": [
+      "MXMAoN6j"
+    ],
+    "1.19.2+fabric": [
+      "Ta1ocIHZ"
+    ],
+    "1.19.2+forge": [
+      "ANmCMdMt"
+    ],
+    "1.19.2+quilt": [
+      "YAmx9o85"
+    ],
+    "1.19.4+fabric": [
+      "21LpGT5f"
+    ],
+    "1.19.4+forge": [
+      "pS6CtSMa"
+    ],
+    "1.19.4+quilt": [
+      "lHgWPAXU"
+    ],
+    "1.20+fabric": [
+      "TXL5AFHt"
+    ],
+    "1.20+forge": [
+      "hRhjlsGv"
+    ],
+    "1.20+quilt": [
+      "2aSXMkGn"
+    ],
+    "1.20.1+fabric": [
+      "hiLb6QFe",
+      "TXL5AFHt"
+    ],
+    "1.20.1+forge": [
+      "xXV9YBzF",
+      "hRhjlsGv"
+    ],
+    "1.20.1+neoforge": [
+      "xXV9YBzF"
+    ],
+    "1.20.1+quilt": [
+      "6oul90SP",
+      "2aSXMkGn"
+    ],
+    "1.20.2+fabric": [
+      "K0TKkCB7",
+      "tWQGX8qv"
+    ],
+    "1.20.2+forge": [
+      "7BoccZuB",
+      "WNKpZB8m"
+    ],
+    "1.20.2+neoforge": [
+      "JeTHZr8o",
+      "TF263yIt",
+      "hygTWrEc"
+    ],
+    "1.20.2+quilt": [
+      "3nhuKGgU",
+      "ITO3cH9R"
+    ],
+    "1.20.3+fabric": [
+      "K0TKkCB7",
+      "tWQGX8qv"
+    ],
+    "1.20.3+forge": [
+      "7BoccZuB",
+      "WNKpZB8m"
+    ],
+    "1.20.3+neoforge": [
+      "JeTHZr8o",
+      "TF263yIt",
+      "hygTWrEc"
+    ],
+    "1.20.3+quilt": [
+      "3nhuKGgU",
+      "ITO3cH9R"
+    ],
+    "1.20.4+fabric": [
+      "K0TKkCB7",
+      "tWQGX8qv"
+    ],
+    "1.20.4+forge": [
+      "7BoccZuB",
+      "WNKpZB8m"
+    ],
+    "1.20.4+neoforge": [
+      "JeTHZr8o",
+      "TF263yIt",
+      "hygTWrEc"
+    ],
+    "1.20.4+quilt": [
+      "3nhuKGgU",
+      "ITO3cH9R"
+    ],
+    "1.20.5+fabric": [
+      "JzGdvM04",
+      "K0TKkCB7"
+    ],
+    "1.20.5+forge": [
+      "7BoccZuB"
+    ],
+    "1.20.5+neoforge": [
+      "cO4l4yHB",
+      "JeTHZr8o"
+    ],
+    "1.20.5+quilt": [
+      "3nhuKGgU"
+    ],
+    "1.20.6+fabric": [
+      "JzGdvM04",
+      "K0TKkCB7"
+    ],
+    "1.20.6+forge": [
+      "7BoccZuB"
+    ],
+    "1.20.6+neoforge": [
+      "cO4l4yHB",
+      "JeTHZr8o"
+    ],
+    "1.20.6+quilt": [
+      "3nhuKGgU"
+    ],
+    "1.21+fabric": [
+      "IdupyNOK",
+      "k4zfEWz6",
+      "bXw1XdeN"
+    ],
+    "1.21+neoforge": [
+      "8SBaRv1t",
+      "bnjKtdpy",
+      "S798MQVx"
+    ],
+    "1.21+quilt": [
+      "3wNsfxgo",
+      "LcOyiz2j"
+    ],
+    "1.21.1+fabric": [
+      "IdupyNOK",
+      "vGcRkqkx",
+      "k4zfEWz6"
+    ],
+    "1.21.1+neoforge": [
+      "8SBaRv1t",
+      "oJLEqcbX",
+      "bnjKtdpy"
+    ],
+    "1.21.1+quilt": [
+      "3wNsfxgo"
+    ],
+    "1.21.11+fabric": [
+      "tO5tW5BW"
+    ],
+    "1.21.11+neoforge": [
+      "vkdV8sM5"
+    ],
+    "1.21.4+fabric": [
+      "xXZC30LF"
+    ],
+    "1.21.4+neoforge": [
+      "XcMsdfOD",
+      "fLXi6m0L"
+    ],
+    "26.1.2+fabric": [
+      "tUGovhzl"
+    ],
+    "26.1.2+neoforge": [
+      "yziDsCIm"
+    ]
+  }
+}

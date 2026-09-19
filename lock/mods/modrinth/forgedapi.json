@@ -1,0 +1,86 @@
+{
+  "slug": "forgedapi",
+  "projectId": "D2xZNx9R",
+  "versions": {
+    "EIrFrUAF": {
+      "filename": "ForgedAPI-0.1.1+1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/D2xZNx9R/versions/EIrFrUAF/ForgedAPI-0.1.1%2B1.16.5.jar",
+      "hash": "sha512-TJjqgdYk0ISnZrwJ4xHN6Gq4ueugsWjizMslqkfLevKgWN4ZUYK8MPSL6sK2+L+iI07MZkHXb+/RVU3JYIGniA==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "WU2ulZpx": {
+      "filename": "ForgedAPI-0.1.0+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/D2xZNx9R/versions/WU2ulZpx/ForgedAPI-0.1.0%2B1.18.2.jar",
+      "hash": "sha512-gK0gFRwhyehSFDjgWZ48oq/9LrgnAHH8+A3bBgjHIMLUPOqs1IPYXsx2rFkmivmp6YLu3/dYhmaCB/6tlC8Asw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "reforgium",
+          "projectId": "vmn85VI7",
+          "type": "required"
+        }
+      ]
+    },
+    "ZMMdNf8P": {
+      "filename": "ForgedAPI-0.1.0+1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/D2xZNx9R/versions/ZMMdNf8P/ForgedAPI-0.1.0%2B1.16.5.jar",
+      "hash": "sha512-iXBi72OH6ltCUGu5pf13YjDQ4HfrUbT08TYJKAubK450RhB/7yQ1GHST9GtWWIX6JGx5OPJ9it0gUR5uXn9+yQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "pokaXlyy": {
+      "filename": "ForgedAPI-0.1.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/D2xZNx9R/versions/pokaXlyy/ForgedAPI-0.1.0%2B1.19.2.jar",
+      "hash": "sha512-xC/c5bQ64fdIhdTaIaHvL27edcWOy4PCg/NK7Bluy+1YI5gjhop1rzl+qVvr6T0jzCdpJA769C5Y49SYRn/9Tg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "reforgium",
+          "projectId": "vmn85VI7",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+forge": [
+      "EIrFrUAF",
+      "ZMMdNf8P"
+    ],
+    "1.18.2+forge": [
+      "WU2ulZpx"
+    ],
+    "1.19.2+forge": [
+      "pokaXlyy"
+    ]
+  }
+}

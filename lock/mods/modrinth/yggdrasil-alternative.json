@@ -1,0 +1,54 @@
+{
+  "slug": "yggdrasil-alternative",
+  "projectId": "nJLo0AtD",
+  "versions": {
+    "rZhkg9Wk": {
+      "filename": "Yggdrasil-Alternative-1.21.11.zip",
+      "url": "https://cdn.modrinth.com/data/nJLo0AtD/versions/rZhkg9Wk/Yggdrasil-Alternative-1.21.11.zip",
+      "hash": "sha512-z/+6o7JwZ5u+KZOMyH/jLcZK8MWzJ93u+w9RIlKRY6ic8pADaaILM4hb2HvM3C2hrtuTCcZGJ8XapW/GZ2KdxQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "vluFT20S": {
+      "filename": "yggdrasil-alternative-5.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/nJLo0AtD/versions/vluFT20S/yggdrasil-alternative-5.4.0.jar",
+      "hash": "sha512-YV1X8VuEZf1nAtkOdaaDsAbjH3pttKNR4YjGkRJTd8k3Hjjm4gpg9R63ubHzQukA1xznx5nJpm16SriugJjwuA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+datapack": [
+      "rZhkg9Wk"
+    ],
+    "1.21.11+fabric": [
+      "vluFT20S"
+    ],
+    "1.21.11+forge": [
+      "vluFT20S"
+    ],
+    "1.21.11+neoforge": [
+      "vluFT20S"
+    ],
+    "1.21.11+quilt": [
+      "vluFT20S"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "ashore",
+  "projectId": "xz2HJhct",
+  "versions": {
+    "8HIUxCBV": {
+      "filename": "ashore-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/xz2HJhct/versions/8HIUxCBV/ashore-1.0.1.jar",
+      "hash": "sha512-e39SJJB5qaUUCNARDtiNDwY/XAs2n0FIA1Ek/DKwhcVB/yqWRkBGwjoq4cA4rwMkcinXXek8SaPBAVoVAhb3sg==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "DMqG32TD": {
+      "filename": "ashore-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xz2HJhct/versions/DMqG32TD/ashore-1.0.0.jar",
+      "hash": "sha512-HeHOwIIYdlOyUpwF3VWoXC1Yw/RBUQIX67aaYI/HDRSlUsKXjV4B6P4Tjj3xvkR0I/k2y/F3Q3b11mbFDkku1A==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "j3oGHEkQ": {
+      "filename": "ashore-1.1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/xz2HJhct/versions/j3oGHEkQ/ashore-1.1.0%2B1.21.jar",
+      "hash": "sha512-xNgnMfa7ZeRe8kueVx4HvZP0ZciavfTAGNpgMK1tN2UHhNii9zg8b8aJO/0YlGr3kch2lHv7D9/HFQgPGdsWpw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+quilt": [
+      "8HIUxCBV"
+    ],
+    "1.20+quilt": [
+      "8HIUxCBV"
+    ],
+    "1.20.1+quilt": [
+      "8HIUxCBV"
+    ],
+    "1.20.2+fabric": [
+      "DMqG32TD"
+    ],
+    "1.20.2+quilt": [
+      "8HIUxCBV",
+      "DMqG32TD"
+    ],
+    "1.21+fabric": [
+      "j3oGHEkQ"
+    ],
+    "1.21+neoforge": [
+      "j3oGHEkQ"
+    ],
+    "1.21+quilt": [
+      "j3oGHEkQ"
+    ]
+  }
+}

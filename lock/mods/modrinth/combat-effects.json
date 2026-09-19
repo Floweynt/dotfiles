@@ -1,0 +1,85 @@
+{
+  "slug": "combat-effects",
+  "projectId": "DRRYP3ch",
+  "versions": {
+    "6qOx9v5s": {
+      "filename": "combat_effects-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/DRRYP3ch/versions/6qOx9v5s/combat_effects-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-sJBox/h1Imx5widdVOqLKa5Oy31Sh6TpEcj/fGRKSTH2+jjYfs6M9/gNKsde++/DFvjnr6dk93BbQ2cpxNDkuw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "VqDqcyCj": {
+      "filename": "combat_effects-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/DRRYP3ch/versions/VqDqcyCj/combat_effects-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-VB+yEYhxHxt5zCFrFRzbz7guI6JIxhkR/kpMJGEv92jU+G0pGAsT9GkwkoVxh63TDDDUQ5C6wgZejrKxVP481w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "kiHxf9Ak": {
+      "filename": "combat_effects-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/DRRYP3ch/versions/kiHxf9Ak/combat_effects-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-MXl8vFs1AHV3kC7D4BBMpQjplX1RE9OFFvMq3R07FP1QC0vDWY59lLLd+c65CXgj9XnG71KnVfudOW0RY4Nnsw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kiHxf9Ak"
+    ],
+    "1.20.1+quilt": [
+      "kiHxf9Ak"
+    ],
+    "1.21.1+fabric": [
+      "6qOx9v5s"
+    ],
+    "1.21.1+neoforge": [
+      "VqDqcyCj"
+    ],
+    "1.21.1+quilt": [
+      "6qOx9v5s"
+    ]
+  }
+}

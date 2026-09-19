@@ -1,0 +1,109 @@
+{
+  "slug": "gravel-to-flint",
+  "projectId": "2fIty6Xs",
+  "versions": {
+    "2zz9xscO": {
+      "filename": "graveltoflint-1.21.8-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2fIty6Xs/versions/2zz9xscO/graveltoflint-1.21.8-1.0.0.jar",
+      "hash": "sha512-fgmKRDuu4wcZcJkJuyi69MRt3gXc1lSFpZyT3XNuvMA2DAR/uf5a5ZqxpTJ53RS7wnMy/FAiNhcpoPCr17nmBQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Mh5JuQMs": {
+      "filename": "graveltoflint-1.21.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2fIty6Xs/versions/Mh5JuQMs/graveltoflint-1.21.4-1.0.0.jar",
+      "hash": "sha512-YVXRmM0eib7VsSqQpAJhoQu2pmAytG3LpMRZPBjyPXnZKzTiO+vw0w90/bm68S+CJlwIbukJdnzIuf+0Ka63Iw==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Sbfq3HG0": {
+      "filename": "graveltoflint-1.21.7-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2fIty6Xs/versions/Sbfq3HG0/graveltoflint-1.21.7-1.0.0.jar",
+      "hash": "sha512-H86UAbe/ybJUAtec6Mu4dOXA/NDX3/efqfbx7bhmSZmDSzXT9hP8wFfMm7m+woFEpXyec7CU7IPSzh97TbHcvQ==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "durabilitydamagerecipe",
+          "projectId": "VPoxz2fA",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "j76egEXS": {
+      "filename": "graveltoflint-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2fIty6Xs/versions/j76egEXS/graveltoflint-1.21.1-1.0.0.jar",
+      "hash": "sha512-B1XEd1LebhzXD49+kUAO9IdFkJ0Obyya3hn2C+XUjab1YM9un8oeC6i+svOYHIGLsKaXWL5vCgDV+zh1MOHsxg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "j76egEXS"
+    ],
+    "1.21.4+fabric": [
+      "Mh5JuQMs"
+    ],
+    "1.21.5+fabric": [
+      "Mh5JuQMs"
+    ],
+    "1.21.7+fabric": [
+      "Sbfq3HG0"
+    ],
+    "1.21.8+fabric": [
+      "2zz9xscO"
+    ]
+  }
+}

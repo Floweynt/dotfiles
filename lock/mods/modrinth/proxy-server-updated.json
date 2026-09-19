@@ -1,0 +1,149 @@
+{
+  "slug": "proxy-server-updated",
+  "projectId": "RD9G6sAI",
+  "versions": {
+    "Go80VrDt": {
+      "filename": "ProxyServerUpdated-1.9,26.2.jar",
+      "url": "https://cdn.modrinth.com/data/RD9G6sAI/versions/Go80VrDt/ProxyServerUpdated-1.9%2C26.2.jar",
+      "hash": "sha512-Un+09QDtAf4iNMggXp2AAz0TRKGYyI7G5TgPDsAiaskciQC1ekob6FeYB522Iq7xZYDRVK/uPN8MLG0PH459Sg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JspRHerk": {
+      "filename": "ProxyServerUpdated-1.6.jar",
+      "url": "https://cdn.modrinth.com/data/RD9G6sAI/versions/JspRHerk/ProxyServerUpdated-1.6.jar",
+      "hash": "sha512-1UuoVhMb/PUvyJi5CsY39hbdQuKn6jymjTkNWCfQfuExRddIsRaWudhwqcVUirujs9XO10Kn4uugx/4PPxU0tA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nTN5xuGq": {
+      "filename": "ProxyServerUpdated-1.7,26.1-26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/RD9G6sAI/versions/nTN5xuGq/ProxyServerUpdated-1.7%2C26.1-26.1.2.jar",
+      "hash": "sha512-akJxSDg6jN2FipW6/TGoszwLNYpk/nttf2L5esvklFctAx9Lu534leG5KcCMjx25PA3eAd0YdgEchO+YVw7iZQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qL97VuHj": {
+      "filename": "ProxyServerUpdated-1.8,26.1-26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/RD9G6sAI/versions/qL97VuHj/ProxyServerUpdated-1.8%2C26.1-26.1.2.jar",
+      "hash": "sha512-LNT/4FKUYUZkeocw5TCrqEsWVLJb5XyDa394VrGee8kYZUtwVJEuL1uxiTBfCMm112Ql1UEDuMZFkBtvcERg6Q==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rCS02sNp": {
+      "filename": "ProxyServerUpdated-1.5.jar",
+      "url": "https://cdn.modrinth.com/data/RD9G6sAI/versions/rCS02sNp/ProxyServerUpdated-1.5.jar",
+      "hash": "sha512-inWLNw+aX0UIfTdXLHkLO7iuQJ0JMqtI5aioyZyrlWOpw3ZOGDRh9b807F3bBvXicvYaNFDOVsCJdySo2mqmow==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "rCS02sNp"
+    ],
+    "1.21.11+quilt": [
+      "rCS02sNp"
+    ],
+    "26.1+fabric": [
+      "qL97VuHj",
+      "nTN5xuGq",
+      "JspRHerk"
+    ],
+    "26.1+quilt": [
+      "qL97VuHj",
+      "nTN5xuGq",
+      "JspRHerk"
+    ],
+    "26.1.1+fabric": [
+      "qL97VuHj",
+      "nTN5xuGq",
+      "JspRHerk"
+    ],
+    "26.1.1+quilt": [
+      "qL97VuHj",
+      "nTN5xuGq",
+      "JspRHerk"
+    ],
+    "26.1.2+fabric": [
+      "qL97VuHj",
+      "nTN5xuGq",
+      "JspRHerk"
+    ],
+    "26.1.2+quilt": [
+      "qL97VuHj",
+      "nTN5xuGq",
+      "JspRHerk"
+    ],
+    "26.2+fabric": [
+      "Go80VrDt"
+    ],
+    "26.2+quilt": [
+      "Go80VrDt"
+    ]
+  }
+}

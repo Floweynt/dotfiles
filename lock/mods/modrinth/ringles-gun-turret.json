@@ -1,0 +1,84 @@
+{
+  "slug": "ringles-gun-turret",
+  "projectId": "KbT5KRCt",
+  "versions": {
+    "F1cUgr0j": {
+      "filename": "ringlesgunturret-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/KbT5KRCt/versions/F1cUgr0j/ringlesgunturret-0.2.1.jar",
+      "hash": "sha512-ShwL6U5prbAGjYpxI81aWTnJhq292N7tZFlFE3QV72Cs3k97BuNhTGpCPUhkp/Pbb/8xrNANBr+YO2e+2cSbPQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bkAnmqIz": {
+      "filename": "ringlesgunturret-0.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/KbT5KRCt/versions/bkAnmqIz/ringlesgunturret-0.4.0.jar",
+      "hash": "sha512-Ta9Rtde/GhgI8m7xMNffWSEdRluTxhtym6VT5XpXKhfA5AklzA8NN0aZzXUAu6ngetSYDXxdw4BCB6D00/Fo/Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lY9FSDlQ": {
+      "filename": "ringlesgunturret-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/KbT5KRCt/versions/lY9FSDlQ/ringlesgunturret-0.3.0.jar",
+      "hash": "sha512-fhbMm9GBtiugRHFE6ZR5HiPOhF7am2TZ9XyzAx7cZu7Y1bxVdg+d811fHf/OeyWuwp9Cr6KCeX/BFrxBdEyhGA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wrTCrj8l": {
+      "filename": "ringlesgunturret-0.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/KbT5KRCt/versions/wrTCrj8l/ringlesgunturret-0.3.1.jar",
+      "hash": "sha512-hwzKqloPc3vXzyFYnFrbgbo74/+QRAusX//2nPffCrr5oCqN25XkcNHqoAiPS5sAXxb0Fad4cLeux6mlxaC8rA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "bkAnmqIz"
+    ],
+    "1.20.1+fabric": [
+      "bkAnmqIz",
+      "wrTCrj8l",
+      "lY9FSDlQ",
+      "F1cUgr0j"
+    ],
+    "1.20.2+fabric": [
+      "wrTCrj8l"
+    ]
+  }
+}

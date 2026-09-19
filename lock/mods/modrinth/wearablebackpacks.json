@@ -1,0 +1,96 @@
+{
+  "slug": "wearablebackpacks",
+  "projectId": "fOUOUh2p",
+  "versions": {
+    "UHZ3gG2r": {
+      "filename": "wearablebackpacks-4.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fOUOUh2p/versions/UHZ3gG2r/wearablebackpacks-4.1.0.jar",
+      "hash": "sha512-6/BGv9bFDBCgHYhfLFBkZocH4EcRB1hai8SF53jzfKU+tO28VLWFjZZUQR3w8c3yInoeAUKO9sbQ7BmNbp9QLA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "a1CY2nF6": {
+      "filename": "wearablebackpacks-4.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/fOUOUh2p/versions/a1CY2nF6/wearablebackpacks-4.1.1.jar",
+      "hash": "sha512-o6j7dQX8PNyUIcb+liwlXjcDKo2qXsDlBG0zkqPFMC8vBqkBPnBT91X5tSyK3fXZcmDGnZo7wb0b8fYuE1zk6w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "cszJvraJ": {
+      "filename": "wearablebackpacks-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fOUOUh2p/versions/cszJvraJ/wearablebackpacks-4.0.0.jar",
+      "hash": "sha512-2gUHTsuHVlxGgtNUarKroq8dZbshqIMjoOzcaF2ZA92/KoqZ/pj4aCbuM4dsJ77AbcaDMcznGY+cpgUcY2AbGw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "a1CY2nF6",
+      "UHZ3gG2r",
+      "cszJvraJ"
+    ],
+    "1.19.2+quilt": [
+      "a1CY2nF6",
+      "UHZ3gG2r",
+      "cszJvraJ"
+    ]
+  }
+}

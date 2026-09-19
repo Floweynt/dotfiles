@@ -1,0 +1,48 @@
+{
+  "slug": "cobbled",
+  "projectId": "JRkdA21q",
+  "versions": {
+    "Iq81Xs2Q": {
+      "filename": "cobbled-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JRkdA21q/versions/Iq81Xs2Q/cobbled-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-bHiU+wfQuu2fyquYMF7xDYOp4wtkaAZODyFZB3XsXKTa7H+1YhlfVzF2wJ71TirI/hvAXX6pMGALOhB34sf04A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nE3lh9DV": {
+      "filename": "cobbled-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JRkdA21q/versions/nE3lh9DV/cobbled-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-8PsnroQT8qTZGxvMzKT7Gcl4v8+qPJE3NwCR3Crp+AwKbEQ4OU7Re2vFo5l1npMYsX/c2+iFioeLzkB3TC1AbQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nE3lh9DV"
+    ],
+    "1.20.1+forge": [
+      "Iq81Xs2Q"
+    ]
+  }
+}

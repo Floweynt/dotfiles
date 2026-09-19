@@ -1,0 +1,82 @@
+{
+  "slug": "rustic-delight-polymer",
+  "projectId": "ktwag0Ye",
+  "versions": {
+    "Amu4femP": {
+      "filename": "rusticdelightpatch-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/ktwag0Ye/versions/Amu4femP/rusticdelightpatch-1.5.0.jar",
+      "hash": "sha512-wP0jfSut31fYV1uR/HOjOiIpxDC0/c8JFHH2bVdBevxmRrMKcxi3lLQCQBsJw3JfzUQMTZo5iQ/3sekcdS0PFw==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "rustic-delight",
+          "projectId": "foa4fGIH",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "HiwPQXbw": {
+      "filename": "rusticdelightpatch-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/ktwag0Ye/versions/HiwPQXbw/rusticdelightpatch-1.5.1.jar",
+      "hash": "sha512-vZlLql3b2Vmkh8czXOSP/AK4lRJ3WWo+Ols0SyAtrEFo/gy1VHkun/SvBGhJFdVOMlSlWQEZKa/uqJGOjC7xEg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "rustic-delight",
+          "projectId": "foa4fGIH",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "Amu4femP"
+    ],
+    "1.21.11+fabric": [
+      "HiwPQXbw"
+    ],
+    "1.21.8+fabric": [
+      "Amu4femP"
+    ],
+    "1.21.9+fabric": [
+      "Amu4femP"
+    ]
+  }
+}

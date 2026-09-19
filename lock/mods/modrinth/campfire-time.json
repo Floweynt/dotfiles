@@ -1,0 +1,42 @@
+{
+  "slug": "campfire-time",
+  "projectId": "ujE9r73U",
+  "versions": {
+    "NBGUBzfj": {
+      "filename": "CampfireTime-1.1.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ujE9r73U/versions/NBGUBzfj/CampfireTime-1.1.0-neoforge-1.21.1.jar",
+      "hash": "sha512-HkI+lgTOhvpv1WkxxzrnsDdypcnhWRKxS8aRl2P2iHTkwd24rMDd9yMP+lCK2wRetyURAtFb/XJ3Lwc5ghYTVA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tlTAm20p": {
+      "filename": "CampfireTime-1.0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ujE9r73U/versions/tlTAm20p/CampfireTime-1.0.2-1.20.1.jar",
+      "hash": "sha512-BCYPKt+3d02yCH6MEhxfSeOkZmeBsZe/xOveC9VupXYlMifnHvbpI8D9XnkhxtuvJcRKHkSgbjHyLDqN3ZcY3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tlTAm20p"
+    ],
+    "1.21.1+neoforge": [
+      "NBGUBzfj"
+    ]
+  }
+}

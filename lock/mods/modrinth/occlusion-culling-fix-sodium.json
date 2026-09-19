@@ -1,0 +1,215 @@
+{
+  "slug": "occlusion-culling-fix-sodium",
+  "projectId": "jcn9RURP",
+  "versions": {
+    "1xe2nuym": {
+      "filename": "ocrenderfix_sodium-forge-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jcn9RURP/versions/1xe2nuym/ocrenderfix_sodium-forge-1.2.0.jar",
+      "hash": "sha512-/S6lyahYQpA+mXQHUORTfbMLuo6D9QHkyLoas+Tk8lmWAOEJSgKnbwlayOTuDet+GvM1SD/TSj1QZSWpzBvjdQ==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "rubidium",
+          "projectId": "4ZqxOvjD",
+          "type": "required"
+        }
+      ]
+    },
+    "EFdhB7kM": {
+      "filename": "ocrenderfix_sodium-fabric-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jcn9RURP/versions/EFdhB7kM/ocrenderfix_sodium-fabric-1.2.0.jar",
+      "hash": "sha512-1DsFz/0DMdd7mqxGNlxNdf0hFPCrKqsmshvb1zDhzKc1OZxGO4Tf4hYv+IaalIUZFAYTxNHZSci1WU4DINHVAQ==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "W9BLbh7h": {
+      "filename": "ocrenderfix_sodium-forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jcn9RURP/versions/W9BLbh7h/ocrenderfix_sodium-forge-1.1.0.jar",
+      "hash": "sha512-ljFnhh2ikyIqd75QMOldnMnee5ffSQ+G+e8ZsF4xQp4br/8BiFNsE2N/Gcj0Lug/ZebYANUYS3pJHkW9/pPqWQ==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "gBB7wrQm": {
+      "filename": "ocrenderfix_sodium-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jcn9RURP/versions/gBB7wrQm/ocrenderfix_sodium-fabric-1.1.0.jar",
+      "hash": "sha512-B6WTaSGKdSJE9iqHulao/evBq2p/lZuojCQSoW5iFkk//LsDQ8Ig9pQgL+KeTCzLcUpfRcvGwL1FzyFxjDku2w==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "yKqfGLtM": {
+      "filename": "ocrenderfix_sodium-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jcn9RURP/versions/yKqfGLtM/ocrenderfix_sodium-1.0.0.jar",
+      "hash": "sha512-gLpkDxSb2kdA5jnUOpA5OAJIlXZ6jK5/k9KD2Qq7Pcevpgfw+zrQJsXooSxHLv78smyqDJlY+ZdEJJowAMOoKQ==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "yKqfGLtM"
+    ],
+    "1.18.1+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm",
+      "yKqfGLtM"
+    ],
+    "1.18.1+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ],
+    "1.18.2+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm",
+      "yKqfGLtM"
+    ],
+    "1.18.2+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ],
+    "1.19+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm",
+      "yKqfGLtM"
+    ],
+    "1.19+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ],
+    "1.19.1+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm",
+      "yKqfGLtM"
+    ],
+    "1.19.1+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ],
+    "1.19.2+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm",
+      "yKqfGLtM"
+    ],
+    "1.19.2+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ],
+    "1.19.3+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm",
+      "yKqfGLtM"
+    ],
+    "1.19.3+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ],
+    "1.19.4+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm"
+    ],
+    "1.19.4+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ],
+    "1.20+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm"
+    ],
+    "1.20+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ],
+    "1.20.1+fabric": [
+      "EFdhB7kM",
+      "gBB7wrQm"
+    ],
+    "1.20.1+forge": [
+      "1xe2nuym",
+      "W9BLbh7h"
+    ]
+  }
+}

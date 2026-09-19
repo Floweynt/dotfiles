@@ -1,0 +1,78 @@
+{
+  "slug": "chatcalculator",
+  "projectId": "dGv7UYnq",
+  "versions": {
+    "H3TeqDAm": {
+      "filename": "ChatCalculator-Fabric-1.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/dGv7UYnq/versions/H3TeqDAm/ChatCalculator-Fabric-1.6.0.jar",
+      "hash": "sha512-yqHEAOseeO+9HAyJ/8m6JwN8J/mLrfpEY+tmFTKUTsa0wX0ye0Ycirh7CXS7KHqbY1vpt+eUkP/q7yvmpjIlWw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "P0JSsrqi": {
+      "filename": "ChatCalculator-Forge-1.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/dGv7UYnq/versions/P0JSsrqi/ChatCalculator-Forge-1.6.0.jar",
+      "hash": "sha512-H4/7wD5LLuPo830LafXH/ILWjjcUU1UUMb+HXGbHHpbs/WDHBsIlh/Jqfab0BLaVanY0KxXreUMKU5T04zzi4Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cXpstppi": {
+      "filename": "ChatCalculator-Forge-1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/dGv7UYnq/versions/cXpstppi/ChatCalculator-Forge-1.6.1.jar",
+      "hash": "sha512-YeHxgrxF7uG6I813l2WTW23us1B9Y13EWG9zIgG5aFrVpNJ39bU4S28Ov33zkTycsrY+qM8+Lh4oH5NZEcgmzA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "eMyrsj4V": {
+      "filename": "ChatCalculator-Fabric-1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/dGv7UYnq/versions/eMyrsj4V/ChatCalculator-Fabric-1.6.1.jar",
+      "hash": "sha512-s9ZCkFvc8xavVwYMjrnHQMUYTPAwjRbn2xMxX6b2+kDPuGAQv0qPaAzeZPc7Fh4/df1/hpbwqlR8OYfWszwwpg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eMyrsj4V",
+      "H3TeqDAm"
+    ],
+    "1.20.1+forge": [
+      "cXpstppi",
+      "P0JSsrqi"
+    ]
+  }
+}

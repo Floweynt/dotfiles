@@ -1,0 +1,84 @@
+{
+  "slug": "creaturecorner",
+  "projectId": "gJpuDQ18",
+  "versions": {
+    "IONd5DVi": {
+      "filename": "creaturecorner-neoforge-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/gJpuDQ18/versions/IONd5DVi/creaturecorner-neoforge-1.21.1-1.0.jar",
+      "hash": "sha512-WZwwKVtJTJw28u4clqPsGVAUyyDxUjo+cEtfQSa+qmnmSOf4Kb1h8Ok/dUuioeE6Znqs7eTrXRCJ4TAQoMPMSg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "JXhqA9Nq": {
+      "filename": "creaturecorner-0.1-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/gJpuDQ18/versions/JXhqA9Nq/creaturecorner-0.1-BETA.jar",
+      "hash": "sha512-Frq/0EsHzZyoGfTHAr5aOcyIeA9U2MC+cdIamPK9KbGPvr1PBWSbI2oMiWywzuyTFsV2RWC75W6ViRQP6IPyBQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "XmkuYsu5": {
+      "filename": "creaturecorner-fabric-1.21.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/gJpuDQ18/versions/XmkuYsu5/creaturecorner-fabric-1.21.1-0.1.jar",
+      "hash": "sha512-ddfacbuhVMBDVB35sDIhbq3vXm64dRGR4Eml5aO27/+ncTPPtExcxBHtuIY7iDi+N73JhCK5L534CJUDBESGzg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "vWWwIvxo": {
+      "filename": "creaturecorner-neoforge-1.21.1-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/gJpuDQ18/versions/vWWwIvxo/creaturecorner-neoforge-1.21.1-0.1.jar",
+      "hash": "sha512-oAOHsuBZhAnxZ7KY27/tBun13jaZR75LAFRjcmsFCgErAkyqC8jNqL7JNcJjfPFmTpT2ZWJqOAbLcpN1UDm4SA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "XmkuYsu5"
+    ],
+    "1.21.1+neoforge": [
+      "IONd5DVi",
+      "vWWwIvxo",
+      "JXhqA9Nq"
+    ]
+  }
+}

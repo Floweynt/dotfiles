@@ -1,0 +1,118 @@
+{
+  "slug": "cursebound",
+  "projectId": "8lizNWwK",
+  "versions": {
+    "1ZqJGsUJ": {
+      "filename": "Cursebound V4.0.jar",
+      "url": "https://cdn.modrinth.com/data/8lizNWwK/versions/1ZqJGsUJ/Cursebound%20V4.0.jar",
+      "hash": "sha512-R/j120QY23z7Dtl6X9YKl67mmpVOQIVQJ6sLocW1pedcDviDKX6huGvDlasZQC7kUB7kBof9ZdKpsEJEPDzrXw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "272vMUaq": {
+      "filename": "Cursebound V3.0.jar",
+      "url": "https://cdn.modrinth.com/data/8lizNWwK/versions/272vMUaq/Cursebound%20V3.0.jar",
+      "hash": "sha512-gb1JICDl2sdXH43efDR6IIw4m/5Hk3a12NQWycXLRXm6zKIhyG9cAPcSNIE2OGa+x/824eyRqrGaopapvTBcag==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "4VUtx0N5": {
+      "filename": "cursebound-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/8lizNWwK/versions/4VUtx0N5/cursebound-2.0.jar",
+      "hash": "sha512-JzACLM5W+BWyOg4/TSXi6QdI3fhisyVnge+NG4FO5W/UKgu/PKaEbIkT2vYQMvpPPVjSFx3NFMT25ATYLtLxqA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "aNT3T95v": {
+      "filename": "cursebound-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8lizNWwK/versions/aNT3T95v/cursebound-1.0.jar",
+      "hash": "sha512-aeIAq/lRlXejKo5juk29WBowZy+NT81zx+d6ChJU9dShQmcaIRwDigpWlILUwT6ZvGhCaYqPnRitY8pHTWoBcw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1ZqJGsUJ",
+      "272vMUaq",
+      "4VUtx0N5",
+      "aNT3T95v"
+    ],
+    "1.20.1+forge": [
+      "1ZqJGsUJ",
+      "272vMUaq",
+      "4VUtx0N5",
+      "aNT3T95v"
+    ]
+  }
+}

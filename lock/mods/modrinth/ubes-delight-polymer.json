@@ -1,0 +1,96 @@
+{
+  "slug": "ubes-delight-polymer",
+  "projectId": "8hUc0jtB",
+  "versions": {
+    "Lsuihpjc": {
+      "filename": "ubesdelightpatch-fabric-1.21.10-0.4.7.jar",
+      "url": "https://cdn.modrinth.com/data/8hUc0jtB/versions/Lsuihpjc/ubesdelightpatch-fabric-1.21.10-0.4.7.jar",
+      "hash": "sha512-BArAtkG0uviH9mHgxoIOqkZH1jtwiuZHRRbE3HJi6Dl8AyXZXSMS1cW8MnRRVS9ChobL4JLxN76NWzbIVIPpuw==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "ubes-delight",
+          "projectId": "PYjpoAys",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-polymer",
+          "projectId": "TE3NCFiY",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "f0gFGHYf": {
+      "filename": "ubesdelightpatch-fabric-1.21.8-0.4.7.jar",
+      "url": "https://cdn.modrinth.com/data/8hUc0jtB/versions/f0gFGHYf/ubesdelightpatch-fabric-1.21.8-0.4.7.jar",
+      "hash": "sha512-SXX8jrA4EAoCv8kjNDd03fx4NgdDJE76GvijzTKylVAEKmTRhI+5Bqfux3+maDWfFckKXQadAgry4fOP9gcQig==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-polymer",
+          "projectId": "TE3NCFiY",
+          "type": "required"
+        },
+        {
+          "slug": "ubes-delight",
+          "projectId": "PYjpoAys",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "Lsuihpjc"
+    ],
+    "1.21.10+quilt": [
+      "Lsuihpjc"
+    ],
+    "1.21.11+fabric": [
+      "Lsuihpjc"
+    ],
+    "1.21.11+quilt": [
+      "Lsuihpjc"
+    ],
+    "1.21.8+fabric": [
+      "f0gFGHYf"
+    ],
+    "1.21.8+quilt": [
+      "f0gFGHYf"
+    ],
+    "1.21.9+fabric": [
+      "Lsuihpjc"
+    ],
+    "1.21.9+quilt": [
+      "Lsuihpjc"
+    ]
+  }
+}

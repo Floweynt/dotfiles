@@ -1,0 +1,75 @@
+{
+  "slug": "ambient-fireflies",
+  "projectId": "czRQtf69",
+  "versions": {
+    "A4PDg7kz": {
+      "filename": "fireflies-mc1.20-v1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/czRQtf69/versions/A4PDg7kz/fireflies-mc1.20-v1.3.1.jar",
+      "hash": "sha512-zyMNrRAx28XiRpRj0XFK26quE47r6ChGDQKAcAS2Gvp+xjAsX9d9SFg9Lmi+13zovxZOMfur9RWBEcJO+fCDRA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dNSqzbU9": {
+      "filename": "ambient_fireflies-mc1.20.1-v1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/czRQtf69/versions/dNSqzbU9/ambient_fireflies-mc1.20.1-v1.4.0.jar",
+      "hash": "sha512-IG+nKmaCaB25A5skVpgpPghf8j/Fbd2Vne9PzKyEP38vn5c5+nwO1oNk3q7aF4RnlrS9QbiZA1J0Hx7tNE1Agw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zqCLeHqK": {
+      "filename": "ambient_fireflies-mc1.19.4-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/czRQtf69/versions/zqCLeHqK/ambient_fireflies-mc1.19.4-1.3.1.jar",
+      "hash": "sha512-rS9ZuO6TxaXbNyiaMWyixbnnp1LJxW2ecDidtvkYp+B9/tOu/Jm52gp/eaPFvQo0aW1boBCOeotiFURAHOfsiA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "zqCLeHqK"
+    ],
+    "1.20.1+fabric": [
+      "dNSqzbU9",
+      "A4PDg7kz"
+    ]
+  }
+}

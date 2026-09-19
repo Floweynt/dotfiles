@@ -1,0 +1,58 @@
+{
+  "slug": "life-tokens",
+  "projectId": "VapoArU0",
+  "versions": {
+    "u4i1IUKh": {
+      "filename": "life_tokens-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/VapoArU0/versions/u4i1IUKh/life_tokens-1.0.1.jar",
+      "hash": "sha512-X09AXfFisaJRPYoUUoFpfSXyCxgMvbbWaG11kfb0p6rmOzQVQLtQEj8kqL54PWZbzOJDTLUpZOMK7pM6wnoaOw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wMsCRqtr": {
+      "filename": "Life Tokens 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VapoArU0/versions/wMsCRqtr/Life%20Tokens%201.0.0.jar",
+      "hash": "sha512-/4Y/vrhKLJurj5QcQ608Ws1huqyMiBuf4aX55ZhHlzZ2K2trDmckeFmhKcRSH7D7gcjNVXK/Jga1xFhUC1vVIw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "u4i1IUKh",
+      "wMsCRqtr"
+    ],
+    "1.20.1+fabric": [
+      "u4i1IUKh",
+      "wMsCRqtr"
+    ]
+  }
+}

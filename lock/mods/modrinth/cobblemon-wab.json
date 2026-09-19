@@ -1,0 +1,62 @@
+{
+  "slug": "cobblemon-wab",
+  "projectId": "YQirKldB",
+  "versions": {
+    "arkBT4wY": {
+      "filename": "weather-accurate-battles-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQirKldB/versions/arkBT4wY/weather-accurate-battles-1.1.0.jar",
+      "hash": "sha512-oLWX+OJNqAr8Z9ADtaqxDsv5TofzsFjO3htzbceRYpiVzVyIusduPolFAMqmGlOMeq29/aTwBE8UABfS7Rupyg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "particle-rain",
+          "projectId": "nrikgvxm",
+          "type": "required"
+        }
+      ]
+    },
+    "cz707fOu": {
+      "filename": "weather-accurate-battles-battle-accurate-weather-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQirKldB/versions/cz707fOu/weather-accurate-battles-battle-accurate-weather-1.0.0.jar",
+      "hash": "sha512-xuegLuAFRZzsCDfjZv+ZUZHMH8fE5Uf9CffszThgJlsH8wKWMvTqFBVKJYJLlJgVpslTXv2O93TpKGRUTFD/zQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "particle-rain",
+          "projectId": "nrikgvxm",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "arkBT4wY",
+      "cz707fOu"
+    ]
+  }
+}

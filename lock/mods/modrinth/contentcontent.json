@@ -1,0 +1,36 @@
+{
+  "slug": "contentcontent",
+  "projectId": "U7OuNBmH",
+  "versions": {
+    "xg9813ki": {
+      "filename": "contentcontent-1.3.6.jar",
+      "url": "https://cdn.modrinth.com/data/U7OuNBmH/versions/xg9813ki/contentcontent-1.3.6.jar",
+      "hash": "sha512-Pf5y67XY5kqA5UAaTvI2xIMNzthJ5avp6sarN9VaFRe2oMBTgbXLZs8HxpvxnDfCH80sOyjKSCEzl4TPYrd0Og==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "xg9813ki"
+    ]
+  }
+}

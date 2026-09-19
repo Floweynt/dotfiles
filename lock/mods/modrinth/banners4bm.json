@@ -1,0 +1,132 @@
+{
+  "slug": "banners4bm",
+  "projectId": "tkiadW4P",
+  "versions": {
+    "HLiQRojF": {
+      "filename": "Banners4BM-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/tkiadW4P/versions/HLiQRojF/Banners4BM-1.0.1.jar",
+      "hash": "sha512-7Wa6OrjMzV7AnGKO4aTzF4SCq3bx5QU/e2DGLrtfY0dVWunAJtC6hu08uIxmT6T+xXMcDMozLwPEgpfX9VZYOA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        }
+      ]
+    },
+    "bLiE8t8I": {
+      "filename": "Banners4BM-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/tkiadW4P/versions/bLiE8t8I/Banners4BM-1.0.jar",
+      "hash": "sha512-mG2y8FZRS57vsp3CTpey+e+dt/AGBpnTThjp3jSjZj6vDrRrx7CTJMoxgh+HLJFJzSuA37tSemgFq9CLHTsUnQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gJhJyxZC": {
+      "filename": "Banners4BM-1.0.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/tkiadW4P/versions/gJhJyxZC/Banners4BM-1.0.2%2B1.21.jar",
+      "hash": "sha512-/Tce1bl5fDiWodDYgXEk0tmzS2G5LkT80IVzGGwGq74dN6Hu3hdFWtNiol3qN94Ka6JLzwr+n9/WKqSLgjohDA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "w13bBJIC": {
+      "filename": "Banners4BM-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/tkiadW4P/versions/w13bBJIC/Banners4BM-1.0.2.jar",
+      "hash": "sha512-KRT9iABK2OieZfJi71Zb/nmwLXEPuUF1h/7APau+CvzTOiE50RKk7w4FVKjiOo2IzAUeLw4Oqx6Nhcax/VUqbg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "w13bBJIC",
+      "HLiQRojF",
+      "bLiE8t8I"
+    ],
+    "1.21+fabric": [
+      "gJhJyxZC"
+    ],
+    "1.21.1+fabric": [
+      "gJhJyxZC"
+    ],
+    "1.21.2+fabric": [
+      "gJhJyxZC"
+    ],
+    "1.21.3+fabric": [
+      "gJhJyxZC"
+    ],
+    "1.21.4+fabric": [
+      "gJhJyxZC"
+    ]
+  }
+}

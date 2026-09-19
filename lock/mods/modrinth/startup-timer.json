@@ -1,0 +1,127 @@
+{
+  "slug": "startup-timer",
+  "projectId": "oSqzHTSY",
+  "versions": {
+    "2RfkwG8Z": {
+      "filename": "startuptimer-1.0.2+26.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/oSqzHTSY/versions/2RfkwG8Z/startuptimer-1.0.2%2B26.2-fabric.jar",
+      "hash": "sha512-DJi9sf0DLtfrFWZ2ZloFC6NC2AzmwsCoOKuO2bfEDWeyGczvTkSylX5YF1NuOvQCZZBrmlw31Dp4GdRdktPfkA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "8Dz2XU9k": {
+      "filename": "startuptimer-1.0.1+26.1.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/oSqzHTSY/versions/8Dz2XU9k/startuptimer-1.0.1%2B26.1.1-fabric.jar",
+      "hash": "sha512-2wZAGVuzJihbsMsplqhzlvTXQY8bpzSGjkenXzw1cSOqE6pYr6r/MYqAqjFoM5oCfvm/Tv2NYH3hiQGbfuf3FQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "YyeCDoX2": {
+      "filename": "startuptimer-1.0.0+1.21.11-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/oSqzHTSY/versions/YyeCDoX2/startuptimer-1.0.0%2B1.21.11-fabric.jar",
+      "hash": "sha512-BGslTbzeZqMrd66BfbU5NKR6tiIISGSD1nO4rjAmt9ZFCTwq0JKfIknyIl4xukQRCnXJejRbqRAxtfMAHaWSfA==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "YyeCDoX2"
+    ],
+    "1.21.11+fabric": [
+      "YyeCDoX2"
+    ],
+    "1.21.8+fabric": [
+      "YyeCDoX2"
+    ],
+    "1.21.9+fabric": [
+      "YyeCDoX2"
+    ],
+    "26.1+fabric": [
+      "8Dz2XU9k"
+    ],
+    "26.1.1+fabric": [
+      "8Dz2XU9k"
+    ],
+    "26.1.2+fabric": [
+      "8Dz2XU9k"
+    ],
+    "26.2+fabric": [
+      "2RfkwG8Z"
+    ]
+  }
+}

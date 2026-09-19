@@ -1,0 +1,123 @@
+{
+  "slug": "merry-snow",
+  "projectId": "ILblZRQe",
+  "versions": {
+    "VqwJwplX": {
+      "filename": "MerrySnow-fabric-1.21.10-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ILblZRQe/versions/VqwJwplX/MerrySnow-fabric-1.21.10-1.0.0.jar",
+      "hash": "sha512-LXx5/IeHHTH/7xhOcokXEOp7A0wD7ahXNbLHfPDYiv8OR86rIjanUC9mBq+aNGp5xHm8fFO70A22hNRrUULTsg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "cUl74I4i": {
+      "filename": "MerrySnow-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ILblZRQe/versions/cUl74I4i/MerrySnow-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-NwIltGIjeoe2fQ+8agNLjM9yyD4nmTqvMouwAL4VCYDcC7YoqDPfepnV47WQ2pMZUMeBGYqwevJdmlGkZ47BIA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "euDFbACm": {
+      "filename": "MerrySnow-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ILblZRQe/versions/euDFbACm/MerrySnow-1.0.0.jar",
+      "hash": "sha512-q1Z45PB1HGgdEqN/E3bKSL7+YXa/Vvm0iWNTuXD+IsbkoEVmoc3g/8ETVL1z8h29JuPGhwn6TaKfToI58+H1jw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "i99BDus7": {
+      "filename": "MerrySnow-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ILblZRQe/versions/i99BDus7/MerrySnow-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-DOhrSrkBoLrA9jdP6oRu9jCmpQc579oKEXzB7XrdXBZGHBm2UAeuNSFzcGgkRf55urvOYfrY8mN2bPfHtFK9Yw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "i99BDus7"
+    ],
+    "1.20.1+forge": [
+      "euDFbACm"
+    ],
+    "1.20.2+forge": [
+      "euDFbACm"
+    ],
+    "1.20.3+forge": [
+      "euDFbACm"
+    ],
+    "1.20.4+forge": [
+      "euDFbACm"
+    ],
+    "1.20.5+forge": [
+      "euDFbACm"
+    ],
+    "1.20.6+forge": [
+      "euDFbACm"
+    ],
+    "1.21.1+fabric": [
+      "cUl74I4i"
+    ],
+    "1.21.10+fabric": [
+      "VqwJwplX"
+    ],
+    "1.21.9+fabric": [
+      "VqwJwplX"
+    ]
+  }
+}

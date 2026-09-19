@@ -1,0 +1,106 @@
+{
+  "slug": "pings",
+  "projectId": "WLBCMaNq",
+  "versions": {
+    "6FVdMakh": {
+      "filename": "ping-fabric-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WLBCMaNq/versions/6FVdMakh/ping-fabric-1.21-1.0.0.jar",
+      "hash": "sha512-+CCNBt/awI9ClOCmLqSrU1iQxnCZH6RhZFMF3doxi78g611Apk3PBI6D1VvyZQroSmXhLqzdNGUNIMn7GX+TLA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "WhmUGzTw": {
+      "filename": "ping-neoforge-1.21-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WLBCMaNq/versions/WhmUGzTw/ping-neoforge-1.21-1.0.0.jar",
+      "hash": "sha512-sLvRBj1D4zCTPpjunW98QZ5Fp9qod6qR2zrHGtNQFpoHctfyIHSvPZF8ZGNwCxSynutI55M9anqYFWc9SMLVaA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "h8ipF2Bi": {
+      "filename": "ping-fabric-1.21-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/WLBCMaNq/versions/h8ipF2Bi/ping-fabric-1.21-1.0.1.jar",
+      "hash": "sha512-1XqS26xXGGxq9DwmXCj60C97fE+eAcDn1oGlRJ+rrpvpQRDSEOtlltMICWMOOA23muO2qBrf/HlypG3BK5M3Ig==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "p7wtKLQg": {
+      "filename": "ping-neoforge-1.21-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/WLBCMaNq/versions/p7wtKLQg/ping-neoforge-1.21-1.0.1.jar",
+      "hash": "sha512-ojhxbe816F9UycSCPJZBTJdZng55VIA0R48cfbMl1Buu8T6tE+VeU2LTeDAXIV5b9/H572Q1p134EI7Yy3MLpg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "h8ipF2Bi",
+      "6FVdMakh"
+    ],
+    "1.21+neoforge": [
+      "p7wtKLQg",
+      "WhmUGzTw"
+    ],
+    "1.21.1+fabric": [
+      "h8ipF2Bi",
+      "6FVdMakh"
+    ],
+    "1.21.1+neoforge": [
+      "p7wtKLQg",
+      "WhmUGzTw"
+    ]
+  }
+}

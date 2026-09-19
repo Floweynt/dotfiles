@@ -1,0 +1,58 @@
+{
+  "slug": "slots",
+  "projectId": "PcHNKtDe",
+  "versions": {
+    "aNwyoqP4": {
+      "filename": "slots-forge-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/PcHNKtDe/versions/aNwyoqP4/slots-forge-1.20.1-1.2.0.jar",
+      "hash": "sha512-QXhvEKG8/tR3NGl2loCYJ+8HU8+LY4PjGeEXquMcVAB35/2Ex4vf6hACI6dLWx1lbBt1gnOnaLHa13sDDSMM9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        }
+      ]
+    },
+    "xPmk9kmb": {
+      "filename": "slots-fabric-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/PcHNKtDe/versions/xPmk9kmb/slots-fabric-1.20.1-1.2.0.jar",
+      "hash": "sha512-IG7BjEPqN2yrMGbM+IVFnNIFg8caxriV09lAkIyZpkLdapXE5C6+tHlxRI9Q9ZqlMX4TqqGnvUO2ZSTMeRwKbQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "xPmk9kmb"
+    ],
+    "1.20.1+fabric": [
+      "xPmk9kmb"
+    ],
+    "1.20.1+forge": [
+      "aNwyoqP4"
+    ]
+  }
+}

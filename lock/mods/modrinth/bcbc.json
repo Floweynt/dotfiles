@@ -1,0 +1,68 @@
+{
+  "slug": "bcbc",
+  "projectId": "rqv8E8n5",
+  "versions": {
+    "H2Pw4WTr": {
+      "filename": "Better-Combat-Bewitchment-Compat.jar",
+      "url": "https://cdn.modrinth.com/data/rqv8E8n5/versions/H2Pw4WTr/Better-Combat-Bewitchment-Compat.jar",
+      "hash": "sha512-SsQFtFuDHBxb7C8gR5ULbnFgeAmc6Nv9gUInTmjyLNk9g1MLhUgvX66c71oAmlartQbRhcUGNlvCRN9R4W5GyA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "bewitchment",
+          "projectId": "AKbBSvuC",
+          "type": "required"
+        }
+      ]
+    },
+    "qRcVN1VO": {
+      "filename": "Better-Combat-Bewitchment-Compat.zip",
+      "url": "https://cdn.modrinth.com/data/rqv8E8n5/versions/qRcVN1VO/Better-Combat-Bewitchment-Compat.zip",
+      "hash": "sha512-kOehqivibUyB6Dq46wjSubURzKbS7s9yzo1cokl56PE5k2VyswNFGPjsBU4pKLngdjYUsUzh9J486kvA3l2ijw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "bewitchment",
+          "projectId": "AKbBSvuC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "qRcVN1VO"
+    ],
+    "1.20.1+fabric": [
+      "H2Pw4WTr"
+    ],
+    "1.20.1+quilt": [
+      "H2Pw4WTr"
+    ]
+  }
+}

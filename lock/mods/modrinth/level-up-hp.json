@@ -1,0 +1,50 @@
+{
+  "slug": "level-up-hp",
+  "projectId": "5ONHOjm5",
+  "versions": {
+    "RDF6E5Qp": {
+      "filename": "level-up-hp-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ONHOjm5/versions/RDF6E5Qp/level-up-hp-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-vPhdm2U5JcTQXrBvuujK3veYCPMI3M4SCNftZNRqJ2i/JESljQxKVDXLAT1z3mG7qlsoeUn7I4ctmvJzgoMSoA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "RDF6E5Qp"
+    ],
+    "1.21.1+fabric": [
+      "RDF6E5Qp"
+    ]
+  }
+}

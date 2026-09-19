@@ -1,0 +1,147 @@
+{
+  "slug": "cobblemon-trainer-doubles",
+  "projectId": "yc3PNfEX",
+  "versions": {
+    "W9RoOMDd": {
+      "filename": "rct_doubles1-1.jar",
+      "url": "https://cdn.modrinth.com/data/yc3PNfEX/versions/W9RoOMDd/rct_doubles1-1.jar",
+      "hash": "sha512-e1hvhn7JV0CEuRvN2+0mbmwAnSasV+J6+y6weFnhbG33dFEsnRopuD+hRSI0VPcePz/U6tK1Y6PB9wc6dY3fsw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        }
+      ]
+    },
+    "WuJXFyF0": {
+      "filename": "cobblemon-trainer-doubles-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/yc3PNfEX/versions/WuJXFyF0/cobblemon-trainer-doubles-1.0.jar",
+      "hash": "sha512-B5QdZOAuRFHMrPiOlOgeqAlk6OqT3pC2mlUmii74ei7kk7gyjo3mPcVn6LHqAfUzph2WyjrOObrBe4YilL3opw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        }
+      ]
+    },
+    "nw3OiRfd": {
+      "filename": "rct_doubles1-1.zip",
+      "url": "https://cdn.modrinth.com/data/yc3PNfEX/versions/nw3OiRfd/rct_doubles1-1.zip",
+      "hash": "sha512-h7nOR7BYvnpnngqpyHAFJ5FJvMs3RXQQA70Ha+dkPbU5+wILFzI6LywAcjK3mR3R1rpWzZ+l0ctbL1V6qk/+Fg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        }
+      ]
+    },
+    "tXz24XyO": {
+      "filename": "Radical Cobblemon Trainers Doubles.zip",
+      "url": "https://cdn.modrinth.com/data/yc3PNfEX/versions/tXz24XyO/Radical%20Cobblemon%20Trainers%20Doubles.zip",
+      "hash": "sha512-/2d4lwhFE02iREV5BNQjyfT1dHuwQ3K+QpsWnaOj8fatEfje01PYqMEWxpU0JtmUAi2vxnf1KFqLNNt8b3dosQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "nw3OiRfd",
+      "tXz24XyO"
+    ],
+    "1.21.1+fabric": [
+      "W9RoOMDd",
+      "WuJXFyF0"
+    ],
+    "1.21.1+neoforge": [
+      "W9RoOMDd",
+      "WuJXFyF0"
+    ]
+  }
+}

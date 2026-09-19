@@ -1,0 +1,46 @@
+{
+  "slug": "nodamagetilt",
+  "projectId": "Dps5EIYs",
+  "versions": {
+    "1oYbuiqO": {
+      "filename": "nodamagetilt-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Dps5EIYs/versions/1oYbuiqO/nodamagetilt-1.0.0.jar",
+      "hash": "sha512-WcN6TY4Q7Hll8RgO+Pby5Vz8w013axAQ0c4EwVzHutBI8GB7yvhq4A/2fTy4jR0iKPcfyoyuuiYUmWfh7SQsKQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cWvi7EmG": {
+      "filename": "nodamagetilt-1.0.0-fix.jar",
+      "url": "https://cdn.modrinth.com/data/Dps5EIYs/versions/cWvi7EmG/nodamagetilt-1.0.0-fix.jar",
+      "hash": "sha512-ghccFkw/lhzLxt8uyM+sWExJcSX+Mhwrfjl/52R+EQubgfNlmjhiQFQBat9g90T4A7X8bNFBhlWe3k8hyapdCQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "cWvi7EmG",
+      "1oYbuiqO"
+    ],
+    "1.19.2+quilt": [
+      "cWvi7EmG",
+      "1oYbuiqO"
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "creategrowableores-compat",
+  "projectId": "aynwVxtQ",
+  "versions": {
+    "ZTWTugho": {
+      "filename": "Create_GrowableOres_Compat-1.0.0-1.21.1-NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/aynwVxtQ/versions/ZTWTugho/Create_GrowableOres_Compat-1.0.0-1.21.1-NeoForge.jar",
+      "hash": "sha512-evtsRgul/QoMOsRnMIBP+kkN9bCxn5N/73gfsksIVRFizTxIYaj4txrLM2GkoJv/VIA6O9+96NZLoTAlRiCwyw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "growableores",
+          "projectId": "XGvP5TBn",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "pztwzYp4": {
+      "filename": "Create_GrowableOres_Compat-1.0.0-1.20.1+forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/aynwVxtQ/versions/pztwzYp4/Create_GrowableOres_Compat-1.0.0-1.20.1%2Bforge-1.20.1.jar",
+      "hash": "sha512-HiYFUBkE+BMI05UPwO92huW7md2NKtsflOE4IZVhCeIoOdqm1ji5UUO2FBGMjrZoqz2SwbM/Lwbzr9pnd4BNZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "growableores",
+          "projectId": "XGvP5TBn",
+          "type": "required"
+        }
+      ]
+    },
+    "ugIrCMH8": {
+      "filename": "Create_GrowableOres_Compat-1.0.0-1.20.1+fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/aynwVxtQ/versions/ugIrCMH8/Create_GrowableOres_Compat-1.0.0-1.20.1%2Bfabric-1.20.1.jar",
+      "hash": "sha512-9rWfwz7GrO3pJvRVjzH0ViaVQyasxclErIDoLcpMiHHSAnwj9Ct2aava7FNxcpmqe5kB1WCf2c0Mk5H7VC/A9A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "growableores",
+          "projectId": "XGvP5TBn",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ugIrCMH8"
+    ],
+    "1.20.1+forge": [
+      "pztwzYp4"
+    ],
+    "1.21.1+neoforge": [
+      "ZTWTugho"
+    ]
+  }
+}

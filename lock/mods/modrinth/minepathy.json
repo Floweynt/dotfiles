@@ -1,0 +1,36 @@
+{
+  "slug": "minepathy",
+  "projectId": "ZgPEkEnQ",
+  "versions": {
+    "IyoyxPil": {
+      "filename": "minepathy-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZgPEkEnQ/versions/IyoyxPil/minepathy-1.0.0.jar",
+      "hash": "sha512-0eG9v2vFRuXJULwoxOkSSLGjvHw5HNLY2I+gPr35oVAP289WFy7E/jWP91cNklywlzaXp8NJuZrDHWbljK5yRQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "zine",
+          "projectId": "LKEoCBc7",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "IyoyxPil"
+    ]
+  }
+}

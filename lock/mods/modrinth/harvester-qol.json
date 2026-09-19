@@ -1,0 +1,52 @@
+{
+  "slug": "harvester-qol",
+  "projectId": "jLBC4JG7",
+  "versions": {
+    "eMAepd4V": {
+      "filename": "harvester-1.0+mc.1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/jLBC4JG7/versions/eMAepd4V/harvester-1.0%2Bmc.1.21.9.jar",
+      "hash": "sha512-0FWpScPqwozakoIbhy4NAqECRvbGAyMIq/oQKbTtxFR+vxRjkZ/UBbHlRbCQ6NXIApu3kxcjiWMSH/UxQYS2RA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yTPcEjT6": {
+      "filename": "harvester-1.1+mc.1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/jLBC4JG7/versions/yTPcEjT6/harvester-1.1%2Bmc.1.21.10.jar",
+      "hash": "sha512-OFwD/5PoDxYlY/B+E9Yrlb3Mjsj1FFta6R5fXnXtPYaDcTIOr8Szi7byLdkPp7O2ezOsS+mHgeM07N7h0s2aOw==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "yTPcEjT6",
+      "eMAepd4V"
+    ],
+    "1.21.9+fabric": [
+      "yTPcEjT6",
+      "eMAepd4V"
+    ]
+  }
+}

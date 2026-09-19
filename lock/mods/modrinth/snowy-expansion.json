@@ -1,0 +1,54 @@
+{
+  "slug": "snowy-expansion",
+  "projectId": "bd0rlVp6",
+  "versions": {
+    "b3vZnJMR": {
+      "filename": "snowy-expansion-1.jar",
+      "url": "https://cdn.modrinth.com/data/bd0rlVp6/versions/b3vZnJMR/snowy-expansion-1.jar",
+      "hash": "sha512-Bl+RkB74r5bQcPk8f4rME6uPTv1WVa1rLkpSmPgDNqNrqbJSuhi7IqfJZqHp3mG1bbHgFGbJ7YVfE//ELegOXg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "h6DlaRax": {
+      "filename": "Snowy ExpansionDATAPACK.zip",
+      "url": "https://cdn.modrinth.com/data/bd0rlVp6/versions/h6DlaRax/Snowy%20ExpansionDATAPACK.zip",
+      "hash": "sha512-ahdFBXft0PTHhog/oGPoWfo1OWYpbQ167hKBcfoywoF6bNLavH70tfhTNMC2oLjMEi/kXIOhgb/M3LxCvBrLVg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.5+datapack": [
+      "h6DlaRax"
+    ],
+    "1.21.5+fabric": [
+      "b3vZnJMR"
+    ],
+    "1.21.5+forge": [
+      "b3vZnJMR"
+    ],
+    "1.21.5+neoforge": [
+      "b3vZnJMR"
+    ],
+    "1.21.5+quilt": [
+      "b3vZnJMR"
+    ]
+  }
+}

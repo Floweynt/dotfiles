@@ -1,0 +1,54 @@
+{
+  "slug": "create-tab-fix",
+  "projectId": "boqLQE5z",
+  "versions": {
+    "Dt50lUvL": {
+      "filename": "create_tab_fix-1.0.0+fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/boqLQE5z/versions/Dt50lUvL/create_tab_fix-1.0.0%2Bfabric-1.20.1.jar",
+      "hash": "sha512-Ip5zzW9YSn/Si86ywi1tFApnaO9AEIWqpZjUrHIQXxrqwv2UVReNmkwJgLi87pIBXGDVQATzJqywzgrTuqQfPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "y13CrO9L": {
+      "filename": "create_tab_fix-1.0.0+forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/boqLQE5z/versions/y13CrO9L/create_tab_fix-1.0.0%2Bforge-1.20.1.jar",
+      "hash": "sha512-0GfJQ+lOmU48eHFLurjYqGUtBBpz/C/H5msddOxbFxfhvRe09GEshO3ZS1A7KUUDBXtrppqi2zJnbe0mmvp8hg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Dt50lUvL"
+    ],
+    "1.20.1+forge": [
+      "y13CrO9L"
+    ]
+  }
+}

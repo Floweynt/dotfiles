@@ -1,0 +1,80 @@
+{
+  "slug": "cameramodcities",
+  "projectId": "70nexOs2",
+  "versions": {
+    "hZG4zuku": {
+      "filename": "mcity-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/70nexOs2/versions/hZG4zuku/mcity-1.0.1.jar",
+      "hash": "sha512-RkOfXJ/tpKEg39O2X0OJGcw3BrVhbeFcX4ZscTN3xV1ouHqOWQGxYfO3PrLC3HLFjJRA4I/jmMNT9HCT2n8DOQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ivWvN4wi": {
+      "filename": "mcity-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/70nexOs2/versions/ivWvN4wi/mcity-1.0.0.jar",
+      "hash": "sha512-nHF8vBV1JP6b64z+p3WXoaOBqxLT+SK+LLvWytQWc4P3+jfbfBXaItRIA6BCFPaEp0JX4bwNgwEDPRssDsuDdg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "ivWvN4wi"
+    ],
+    "1.20.1+fabric": [
+      "ivWvN4wi"
+    ],
+    "1.20.2+fabric": [
+      "ivWvN4wi"
+    ],
+    "1.20.3+fabric": [
+      "ivWvN4wi"
+    ],
+    "1.20.4+fabric": [
+      "ivWvN4wi"
+    ],
+    "1.21+fabric": [
+      "hZG4zuku"
+    ],
+    "1.21.1+fabric": [
+      "hZG4zuku"
+    ],
+    "1.21.2+fabric": [
+      "hZG4zuku"
+    ],
+    "1.21.3+fabric": [
+      "hZG4zuku"
+    ],
+    "1.21.4+fabric": [
+      "hZG4zuku"
+    ]
+  }
+}

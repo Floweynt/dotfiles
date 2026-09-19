@@ -1,0 +1,31 @@
+{
+  "slug": "timer-hud",
+  "projectId": "UtvYZbZn",
+  "versions": {
+    "se7dYAc7": {
+      "filename": "TimerHUD-0.1-a.jar",
+      "url": "https://cdn.modrinth.com/data/UtvYZbZn/versions/se7dYAc7/TimerHUD-0.1-a.jar",
+      "hash": "sha512-bYlKYgD3zbLgnNVod0ClMnLiegRkonEPmQmLHZGTBP9OlwWK5Ek1WSLe9YFxpZmVYJrrmZuoqpaw1xOBW9YhNg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "se7dYAc7"
+    ]
+  }
+}

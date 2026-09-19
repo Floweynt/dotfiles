@@ -1,0 +1,42 @@
+{
+  "slug": "arrowtrails",
+  "projectId": "hXZ3rcle",
+  "versions": {
+    "9l0QvBA3": {
+      "filename": "arrowtrails-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hXZ3rcle/versions/9l0QvBA3/arrowtrails-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-GF+ExuGrbfGjNVZzpeSLqJDQFVTu4S37tqyiKSRYwKIAF/doW8XKDbI4gyZFGsvCiv1uBYQkkEud4v4rIi4hvQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kfQ6YSJr": {
+      "filename": "arrowtrails-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hXZ3rcle/versions/kfQ6YSJr/arrowtrails-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-pjWWCT3ZZpQIFo6RCFt/m2R1mNZ3GHOxDBBNKvsijUQHilfQrF6E0sOw+wgNAL1yqKbUoTrVvKCH+182P3t+sg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "kfQ6YSJr"
+    ],
+    "1.21.1+neoforge": [
+      "9l0QvBA3"
+    ]
+  }
+}

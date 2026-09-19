@@ -1,0 +1,79 @@
+{
+  "slug": "delicious-cake",
+  "projectId": "xjtAXAaM",
+  "versions": {
+    "A9YlfVId": {
+      "filename": "DeliciousCake-0.1.0+mc1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/xjtAXAaM/versions/A9YlfVId/DeliciousCake-0.1.0%2Bmc1.21.1-neoforge.jar",
+      "hash": "sha512-qBKARLwOnFziQNr6jjQrtA3uUzyV8sedtU0ji5LGgowk5rHMYgLL52Hjj+w7/zrAErqgPN3y92Gpm3s5t++P6w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "m13FqVyJ": {
+      "filename": "DeliciousCake-0.1.0+mc1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/xjtAXAaM/versions/m13FqVyJ/DeliciousCake-0.1.0%2Bmc1.21.1-fabric.jar",
+      "hash": "sha512-Fa93lubbbWvXnxB8CZ9SnYwpTZwNWOrn7xWhaES9FZVXvIYUyGE2phTMxeNW79Lg9LHVWk9OiLjaFZnz1IgcAQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "m13FqVyJ"
+    ],
+    "1.21+neoforge": [
+      "A9YlfVId"
+    ],
+    "1.21+quilt": [
+      "m13FqVyJ"
+    ],
+    "1.21.1+fabric": [
+      "m13FqVyJ"
+    ],
+    "1.21.1+neoforge": [
+      "A9YlfVId"
+    ],
+    "1.21.1+quilt": [
+      "m13FqVyJ"
+    ]
+  }
+}

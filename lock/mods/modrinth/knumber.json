@@ -1,0 +1,137 @@
+{
+  "slug": "knumber",
+  "projectId": "8xaPYoDO",
+  "versions": {
+    "XJXJ03w0": {
+      "filename": "knumber-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/8xaPYoDO/versions/XJXJ03w0/knumber-1.0.2.jar",
+      "hash": "sha512-uyd+6UWTISIN6ECMOTLrh0+vTaEZXoZ5XbRALAopjjtZM3MHBrVC7V+h0Q2dp3jPFK0vFmhf/Le871WNc/Ek5Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bIf3umx6": {
+      "filename": "knumber-1.0.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8xaPYoDO/versions/bIf3umx6/knumber-1.0.2-1.21.1.jar",
+      "hash": "sha512-9G0fiUzE8KX9sUuQOgtQly+JfpRYRMBiaSSlZkxUG2eCgukMp426bGvcvp5qAqHkpoyl/PmGLjmUtE6lhaVjQQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "h9lQu9wE": {
+      "filename": "knumber-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/8xaPYoDO/versions/h9lQu9wE/knumber-1.0.1.jar",
+      "hash": "sha512-9k00kJ2WjClry8JEHYghY1xH8if0usTfZJzz3MsdX0vWhx1wZq3GuwV1FyXvJfHbq/oEfQ5stlJ5OzTgo3HGBQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "jq0aT6kS": {
+      "filename": "knumber-1.0.2-1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/8xaPYoDO/versions/jq0aT6kS/knumber-1.0.2-1.21.5.jar",
+      "hash": "sha512-YaLedBDbM0Sjdl5CRk8dtmWvpeVQlYH6MEgUZIwtdrqE0WpPLQam8vcNerJdLQTFdKexz5WsGBdXBnxE9j0gnA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "of7SAADh": {
+      "filename": "knumber-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8xaPYoDO/versions/of7SAADh/knumber-1.0.0.jar",
+      "hash": "sha512-Cx368iWjV6O/ItOj5QtqQB1jBr7FQGxc6UM/XTTqOnay4P6/6y8jeaztJPZ5LymEhYA2kigkjSUTV0DmPnFNXQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "bIf3umx6"
+    ],
+    "1.21.1+fabric": [
+      "bIf3umx6"
+    ],
+    "1.21.4+fabric": [
+      "XJXJ03w0",
+      "h9lQu9wE",
+      "of7SAADh"
+    ],
+    "1.21.5+fabric": [
+      "jq0aT6kS"
+    ]
+  }
+}

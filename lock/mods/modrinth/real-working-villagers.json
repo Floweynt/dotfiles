@@ -1,0 +1,69 @@
+{
+  "slug": "real-working-villagers",
+  "projectId": "S5NcFghL",
+  "versions": {
+    "I3SE7qhC": {
+      "filename": "RWV.jar",
+      "url": "https://cdn.modrinth.com/data/S5NcFghL/versions/I3SE7qhC/RWV.jar",
+      "hash": "sha512-OhYYE8OY7uV3H20S92a7MqKMHJ77K0hWz3AMw1j5+9CSOTo3/e0VPC1qdevpOOMMFsUIY/qjuESMRfDfr26buw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "MZH66GHA": {
+      "filename": "Real Working Villagers.jar",
+      "url": "https://cdn.modrinth.com/data/S5NcFghL/versions/MZH66GHA/Real%20Working%20Villagers.jar",
+      "hash": "sha512-MQ0rpr1FWn6prpH0E4eNMLer7nfIJ4TaboNlHyXCnHnBK8v8e+7/Pi3JDX494JT6WXmhSroEfYyYxgU+4IbDFg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "h5KgXfn3": {
+      "filename": "RWV.jar",
+      "url": "https://cdn.modrinth.com/data/S5NcFghL/versions/h5KgXfn3/RWV.jar",
+      "hash": "sha512-4q9fj+jsxn+cxA+8PgjLK0dQqc0dYULqZ7YxscV6JBYijk5OfxoTI0l4SKsLzGF4zLLWlrdmhZRBIHJLfHyDxA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "I3SE7qhC",
+      "h5KgXfn3"
+    ],
+    "26.2+fabric": [
+      "MZH66GHA"
+    ]
+  }
+}

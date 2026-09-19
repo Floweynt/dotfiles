@@ -1,0 +1,54 @@
+{
+  "slug": "conquestrecipes",
+  "projectId": "q29DWqht",
+  "versions": {
+    "6d2di2pN": {
+      "filename": "ConquestRecipes-v0.0.6-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/q29DWqht/versions/6d2di2pN/ConquestRecipes-v0.0.6-1.19.2.jar",
+      "hash": "sha512-r+HipKBuvsm8wUXkt+z2/j/AbM6S9s/wR2CvxA9RrLdTJUD115OUss8SNiXA0VgfzbWqvEJg6HZUQ1W8Vlk6eA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "conquest-reforged",
+          "projectId": "s93iojuG",
+          "type": "required"
+        }
+      ]
+    },
+    "P6LG6rJa": {
+      "filename": "ConquestRecipes-v0.0.8-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/q29DWqht/versions/P6LG6rJa/ConquestRecipes-v0.0.8-1.20.1.jar",
+      "hash": "sha512-rMlUHKYp+AhM3M0pyJeBQ1w70x8zZ6ZJpxHkwCVa/IncK5++B87gpZ9qKWNKHQyhlD1RCinoSARTl/Ho+W78Uw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "conquest-reforged",
+          "projectId": "s93iojuG",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "6d2di2pN"
+    ],
+    "1.20.1+fabric": [
+      "P6LG6rJa"
+    ]
+  }
+}

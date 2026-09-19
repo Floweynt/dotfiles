@@ -1,0 +1,120 @@
+{
+  "slug": "small-ships-upgrades",
+  "projectId": "HRWfY2Uh",
+  "versions": {
+    "1wJ0uB67": {
+      "filename": "smallships_upgrades-fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HRWfY2Uh/versions/1wJ0uB67/smallships_upgrades-fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-Nxx+iW2AMH9uzPJ+FpXTb5i0UrpnnLaT0/URauXsBZtrB98A0WIaS/Aw9rUkfGj0hWr8MGdZc9/643ht+LlgxQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KLCPECtz": {
+      "filename": "smallships_upgrades-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HRWfY2Uh/versions/KLCPECtz/smallships_upgrades-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-0GyHydzCOsNSmETYPwbQ41O6oLgz2W5i2ELISG9a2ifSTzHU69/vYW2F9NNYGMKL3kNkZdduns0bruo7T1cr+Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RMV1s428": {
+      "filename": "smallships_upgrades-forge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HRWfY2Uh/versions/RMV1s428/smallships_upgrades-forge-1.20.1-1.0.1.jar",
+      "hash": "sha512-erdsgOS0q9gXF9Un6Si0xS0QBK49V5XY3MqySsUhzZB05nbBhbVk5pEiwKMldJkqrn/BhRglTpy8Pxtj/jfgqw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "small-ships",
+          "projectId": "rGWEHQrP",
+          "type": "required"
+        }
+      ]
+    },
+    "VKcgyDdb": {
+      "filename": "smallships_upgrades-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HRWfY2Uh/versions/VKcgyDdb/smallships_upgrades-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-i/98a+KMbCLWnh8afDhQX6fSC550q8i0npcMiKBwt1dklEmAVa+L6FBAIBn/nvFcQVE3pLdUFPf5scY66c30mw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "small-ships",
+          "projectId": "rGWEHQrP",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1wJ0uB67",
+      "VKcgyDdb"
+    ],
+    "1.20.1+forge": [
+      "RMV1s428",
+      "KLCPECtz"
+    ]
+  }
+}

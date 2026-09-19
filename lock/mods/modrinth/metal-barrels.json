@@ -1,0 +1,99 @@
+{
+  "slug": "metal-barrels",
+  "projectId": "Zdp9LMYf",
+  "versions": {
+    "BtkI9oYW": {
+      "filename": "metalbarrels-neoforge-1.21.1-7.jar",
+      "url": "https://cdn.modrinth.com/data/Zdp9LMYf/versions/BtkI9oYW/metalbarrels-neoforge-1.21.1-7.jar",
+      "hash": "sha512-cPaIPwJjHHd2TfuSte44Mn6uNqOfcAfdpGPBoejh0fVnmrecsvzB8p/AMJ8DsaI0CsnRng6Oyqn3jlydnnfEfA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bgU4dAWf": {
+      "filename": "metalbarrels-neoforge-1.21.1-5.jar",
+      "url": "https://cdn.modrinth.com/data/Zdp9LMYf/versions/bgU4dAWf/metalbarrels-neoforge-1.21.1-5.jar",
+      "hash": "sha512-SN8LpfjOsXCibzrzCVp56+xQnTfsWJwQWnTUIvYMZlchUTsUElHXxb4CS5nuTcaUYzwrwbHN/n3PRQPHs038Hg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "c9NBXddq": {
+      "filename": "metalbarrels-fabric-1.21.1-5.jar",
+      "url": "https://cdn.modrinth.com/data/Zdp9LMYf/versions/c9NBXddq/metalbarrels-fabric-1.21.1-5.jar",
+      "hash": "sha512-Zo2Au9Sa+D3YIdDaqeGYfhrzhXAiXakN/g6eDU0rrK5aszATWgZVhAeO5LcFkBOJhoBKClLQ7+/nqHPzBeXVSQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uWMZR1Ll": {
+      "filename": "metalbarrels-fabric-1.21.1-7.jar",
+      "url": "https://cdn.modrinth.com/data/Zdp9LMYf/versions/uWMZR1Ll/metalbarrels-fabric-1.21.1-7.jar",
+      "hash": "sha512-KNkDLn4Gj9KYfT8wREzGOwrrH3QtkdUF0wINOUi4qApeXupkkR13EZf24vGUkrZ22nNVjrW5aXe5aS6mXbEHUw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "z58nn14Z": {
+      "filename": "metalbarrels-neoforge-1.21.1-6.jar",
+      "url": "https://cdn.modrinth.com/data/Zdp9LMYf/versions/z58nn14Z/metalbarrels-neoforge-1.21.1-6.jar",
+      "hash": "sha512-8sv+xB5Fu2WhsmMyMUDQYhelJVEnyXAfOBKhixr/rOY/g4Vo+14MI/MPzpR58hLqT/eR93N7SdZ8zuLPxw94fA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "uWMZR1Ll",
+      "c9NBXddq"
+    ],
+    "1.21.1+neoforge": [
+      "BtkI9oYW",
+      "z58nn14Z",
+      "bgU4dAWf"
+    ]
+  }
+}

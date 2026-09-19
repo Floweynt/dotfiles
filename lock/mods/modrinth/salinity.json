@@ -1,0 +1,48 @@
+{
+  "slug": "salinity",
+  "projectId": "BS7MCfyc",
+  "versions": {
+    "bcmIFdUI": {
+      "filename": "salinity-1.21.11-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BS7MCfyc/versions/bcmIFdUI/salinity-1.21.11-1.0.jar",
+      "hash": "sha512-4vJfKWBvcSz29oQs3aoYoZRvomCdKU/gekiW1QIXNWTyqWQYcc3MXoNTfzQrv6bqtLTs5eUv04rpSVlIxWo+EQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "nOg7JgO6": {
+      "filename": "salinity-1.21.10-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BS7MCfyc/versions/nOg7JgO6/salinity-1.21.10-1.0.jar",
+      "hash": "sha512-SxLM03zRg3gY8ydwrUi+TyoWz7DKRyGoMk4Boo6WFyENPn4WGHCC45qpxpfOksE8lXeVA7R+ONJ2rfLhnHwk6A==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "nOg7JgO6"
+    ],
+    "1.21.11+fabric": [
+      "bcmIFdUI"
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "ultimate-origins-utility-mod",
+  "projectId": "icYDEgdf",
+  "versions": {
+    "Lo24K8Lg": {
+      "filename": "uo-utils-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/icYDEgdf/versions/Lo24K8Lg/uo-utils-0.2.0.jar",
+      "hash": "sha512-IELjG9nxnV1EsG7VTQIuf2wGT9STazPTT35rR5p62V92004lLceTeTXPltceu7txr4LJOPeySLDYuAsJZt4o7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "Lyk1z3kG": {
+      "filename": "uo-utils-0.2.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/icYDEgdf/versions/Lyk1z3kG/uo-utils-0.2.2-1.20.1.jar",
+      "hash": "sha512-Uz29Ox9HEBJhlbbawmDNqRj2jtBAWT4LF8jHGEa7BAbN/TcbOxydGXHYTz+1FZY07t1wII/pV093uKC6upWxVA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "idQ3f1Hj": {
+      "filename": "uo-utils-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/icYDEgdf/versions/idQ3f1Hj/uo-utils-0.1.0.jar",
+      "hash": "sha512-YTewekxfs2MUO7/tzBTZtvJmnmzrlkeMMSsD/B1a7ewxKRvxJQk/Oi+pOd9xwQLMBErI6qLleGWBS3KXDn+xuw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "k4tjyICW": {
+      "filename": "uo-utils-0.2.2-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/icYDEgdf/versions/k4tjyICW/uo-utils-0.2.2-1.19.2.jar",
+      "hash": "sha512-aHYUZS81UxrA2cUqlEL0uGisLqAs45PbBeI8lCgj+qOL2X0q45/83ZuBabw8NN2OjbEB+Qsit2FzI5hNFolDfA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "k4tjyICW"
+    ],
+    "1.20.1+fabric": [
+      "Lyk1z3kG",
+      "Lo24K8Lg",
+      "idQ3f1Hj"
+    ]
+  }
+}

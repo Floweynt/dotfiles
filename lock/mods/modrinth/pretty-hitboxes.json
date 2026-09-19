@@ -1,0 +1,101 @@
+{
+  "slug": "pretty-hitboxes",
+  "projectId": "i31MwYHP",
+  "versions": {
+    "eaXHQJ81": {
+      "filename": "pretty-hitboxes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/i31MwYHP/versions/eaXHQJ81/pretty-hitboxes-1.0.0.jar",
+      "hash": "sha512-OpPcltYzPra+OB+otRAGm5s2reacmkLYoNDoFC7odrRGOnG+yUZlexal4qrwzXR0CjTueAwkexsoCveDQLSE3w==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "hOyUyDD2": {
+      "filename": "pretty-hitboxes-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/i31MwYHP/versions/hOyUyDD2/pretty-hitboxes-1.1.0.jar",
+      "hash": "sha512-vEqL74tL0Fw/KpZw3k2Y5jFehFq2wQEJPMVodTuSxqSLfOMIjmxPrVGgckl89BIeNoT/jSQ7cooiS5YshdJ+4Q==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "n1Qez2i3": {
+      "filename": "pretty-hitboxes-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/i31MwYHP/versions/n1Qez2i3/pretty-hitboxes-1.2.0.jar",
+      "hash": "sha512-oyP8rR66gaDXZ3LynzfPwwkHCQ2/VotD7zy5JMaRfU9NYf9SawZ5ATwU0zMqC8jc3VDIO0Hdop7LvmMDkFhFfQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "eaXHQJ81"
+    ],
+    "1.20+fabric": [
+      "n1Qez2i3",
+      "hOyUyDD2"
+    ],
+    "1.20+quilt": [
+      "n1Qez2i3"
+    ],
+    "1.20.1+fabric": [
+      "n1Qez2i3"
+    ],
+    "1.20.1+quilt": [
+      "n1Qez2i3"
+    ]
+  }
+}

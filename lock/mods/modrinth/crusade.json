@@ -1,0 +1,97 @@
+{
+  "slug": "crusade",
+  "projectId": "pPSNgJFc",
+  "versions": {
+    "deD9zFW7": {
+      "filename": "crusade-1.2.6.jar",
+      "url": "https://cdn.modrinth.com/data/pPSNgJFc/versions/1.2.6/crusade-1.2.6.jar",
+      "hash": "sha512-o1u7sZxCpAG5XM1L8qrE2eC+LtKN54TzaT+UU2P6+FJT0iuR1jDftDEtw1smUxNA60fn8rKNog4nLyrf0tCzqQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "goXd4Scb": {
+      "filename": "crusade-1.2.7.jar",
+      "url": "https://cdn.modrinth.com/data/pPSNgJFc/versions/1.2.7/crusade-1.2.7.jar",
+      "hash": "sha512-NP1rWOZskpabwwvLa+ltaCaBax6O79OFGc7Xwdw4UFNOI1u9Xhrr45LMzylxYOfaZXkBewAOC+ckh/em8yTj9A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "iMV6aRmP": {
+      "filename": "crusade-1.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/pPSNgJFc/versions/1.2.5/crusade-1.2.5.jar",
+      "hash": "sha512-Bd7z3X6l5uE533xhGY0hJ6mz36AJrpp4V9K1aXgHQXK70txntURl8Kmz7L5deVFd1jHjpySS8pfLyRXlPQ3xbQ==",
+      "gameVersions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "oCb4SA5O": {
+      "filename": "crusade-1.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/pPSNgJFc/versions/1.2.8/crusade-1.2.8.jar",
+      "hash": "sha512-ZI3CXNLoUGdhgEx0zAdUgwkf8X0lKzxxng+EeQKvLNSr4bnVi1Q/El8/drpxd675m3jyHsFphQR2XzXyfO1nBw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "q3MLN47C": {
+      "filename": "crusade-mod-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/pPSNgJFc/versions/1.2.3/crusade-mod-1.2.3.jar",
+      "hash": "sha512-Y92X1Uiv+ZHmGKhq6dzWhOC1nfc/hTIgDZyVnzDoKNZNN1snjh8d8NXzVxzYxKyZEFtZx1QT51ktuIbibU08aw==",
+      "gameVersions": [
+        "1.17-rc1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17-rc1+fabric": [
+      "q3MLN47C"
+    ],
+    "1.18+fabric": [
+      "iMV6aRmP"
+    ],
+    "1.18.2+fabric": [
+      "deD9zFW7"
+    ],
+    "1.19+fabric": [
+      "oCb4SA5O",
+      "goXd4Scb"
+    ],
+    "1.19+quilt": [
+      "oCb4SA5O",
+      "goXd4Scb"
+    ]
+  }
+}

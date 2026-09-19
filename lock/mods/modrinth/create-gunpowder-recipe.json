@@ -1,0 +1,79 @@
+{
+  "slug": "create-gunpowder-recipe",
+  "projectId": "iUOVpPZF",
+  "versions": {
+    "SPsJBp38": {
+      "filename": "gunpowder_forge_1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/iUOVpPZF/versions/SPsJBp38/gunpowder_forge_1.0.0.jar",
+      "hash": "sha512-Hi4VCd/5P/2Ekql2nyGsFIpoAGPPN8W19th7na41axlhTBRE8Cz0K3Mhs2Xw3tvaarP+M9DaceUscJs92cNGww==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2",
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bb2ivd8x": {
+      "filename": "gunpowder_mod.jar",
+      "url": "https://cdn.modrinth.com/data/iUOVpPZF/versions/bb2ivd8x/gunpowder_mod.jar",
+      "hash": "sha512-+ekkMoSBrt5ADu7aP9Mjz/i6ecWF7Trb7b1WK2XAvBucZ4Mc0sCineOlf0wpVv227z4bkTOgzGwhiH42qnmwaA==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2",
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "bb2ivd8x"
+    ],
+    "1.18.2+forge": [
+      "SPsJBp38"
+    ],
+    "1.18.2+neoforge": [
+      "SPsJBp38"
+    ],
+    "1.19.2+fabric": [
+      "bb2ivd8x"
+    ],
+    "1.19.2+forge": [
+      "SPsJBp38"
+    ],
+    "1.19.2+neoforge": [
+      "SPsJBp38"
+    ],
+    "1.20.1+fabric": [
+      "bb2ivd8x"
+    ],
+    "1.20.1+forge": [
+      "SPsJBp38"
+    ],
+    "1.20.1+neoforge": [
+      "SPsJBp38"
+    ],
+    "1.21.1+fabric": [
+      "bb2ivd8x"
+    ],
+    "1.21.1+forge": [
+      "SPsJBp38"
+    ],
+    "1.21.1+neoforge": [
+      "SPsJBp38"
+    ]
+  }
+}

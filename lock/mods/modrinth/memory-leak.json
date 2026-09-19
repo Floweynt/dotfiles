@@ -1,0 +1,119 @@
+{
+  "slug": "memory-leak",
+  "projectId": "Aqk3l0pH",
+  "versions": {
+    "87HzQZxc": {
+      "filename": "ml-fabric-26.1.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Aqk3l0pH/versions/87HzQZxc/ml-fabric-26.1.1-2.0.0.jar",
+      "hash": "sha512-mboqXxXB+cb8amdxCz0Xj1FOaKZ7YbZeXhX22Pa1i0g+4N2rlU5+Oz14SpyFu/tnt0JSGVFfHKfJTA6aoLE0NA==",
+      "gameVersions": [
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "M3wFEkeZ": {
+      "filename": "ml-neoforge-26.1.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Aqk3l0pH/versions/M3wFEkeZ/ml-neoforge-26.1.1-2.0.0.jar",
+      "hash": "sha512-DqMhdkyhm1iHFKLGaNE0V0xGuzbOZhsrlH8nDzYPVRFpyLwq48CKc/AV9yJas/c52hF6SkCEOG0CEUSfdhWySQ==",
+      "gameVersions": [
+        "26.1.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "QCSKB3dA": {
+      "filename": "ml-1.0.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/Aqk3l0pH/versions/QCSKB3dA/ml-1.0.0%2B1.21.10.jar",
+      "hash": "sha512-V5NEf7Q4XA5y7OuYoEhHoYbib2BDBuUEvIVICXZb6wynGBQm8ztl7cqCvNTXqe4ig0jwxwkG0GeUz/biN0A0mA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QbG3fEaZ": {
+      "filename": "ml-1.0.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/Aqk3l0pH/versions/QbG3fEaZ/ml-1.0.0%2B1.21.11.jar",
+      "hash": "sha512-6USa/LxojHKeKuR70vLeZCTZjrDjUZqoKA3WdjOFUiwxX9zdEofMykJ55qpRjlDpamwDnQewiHqf4Cu3dskaKg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pV9IUOdE": {
+      "filename": "ml-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Aqk3l0pH/versions/pV9IUOdE/ml-1.0.0.jar",
+      "hash": "sha512-Cr57WYsCAPUNOEluUYd1dh25B+HRaAXRojjtJR2jvrkJ/uSc9oTFiQlR+LJs6Lupot6XoRDVpD2YmvcLM4DhPA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "QCSKB3dA"
+    ],
+    "1.21.11+fabric": [
+      "QbG3fEaZ",
+      "pV9IUOdE"
+    ],
+    "26.1.1+fabric": [
+      "87HzQZxc"
+    ],
+    "26.1.1+neoforge": [
+      "M3wFEkeZ"
+    ],
+    "26.1.1+quilt": [
+      "87HzQZxc"
+    ]
+  }
+}

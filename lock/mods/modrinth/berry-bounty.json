@@ -1,0 +1,43 @@
+{
+  "slug": "berry-bounty",
+  "projectId": "1xV8GfHp",
+  "versions": {
+    "7hNifspC": {
+      "filename": "berry_bounty-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1xV8GfHp/versions/7hNifspC/berry_bounty-1.0.0.jar",
+      "hash": "sha512-XBdhjep50P3vvXVWgzeCwwvuNqNsWdCd2IbXizeQ//79HNenyGzzLYUZ0SNgg/8LU0zOIvxB9qLCbZVEfCkAoQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "7hNifspC"
+    ],
+    "1.21.2+fabric": [
+      "7hNifspC"
+    ],
+    "1.21.3+fabric": [
+      "7hNifspC"
+    ],
+    "1.21.4+fabric": [
+      "7hNifspC"
+    ]
+  }
+}

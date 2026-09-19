@@ -1,0 +1,90 @@
+{
+  "slug": "goodwill-structures",
+  "projectId": "zCIOEuTG",
+  "versions": {
+    "AKDuOdh8": {
+      "filename": "Goodwill Structures Datapack 1.20.5-1.20.6UNZIP.zip",
+      "url": "https://cdn.modrinth.com/data/zCIOEuTG/versions/AKDuOdh8/Goodwill%20Structures%20Datapack%201.20.5-1.20.6UNZIP.zip",
+      "hash": "sha512-3TnfV4kHBzpLO7+pyw7p+g42+6LxlIGW2f/OPFXkLU6a0XHXb0Z4HgSsX6+XZdhscAMNIWRCrM8guz+Ld34Q8g==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "FOyKMz1x": {
+      "filename": "goodwill_structure-1.0.0_fabric.jar",
+      "url": "https://cdn.modrinth.com/data/zCIOEuTG/versions/FOyKMz1x/goodwill_structure-1.0.0_fabric.jar",
+      "hash": "sha512-gUNwJU7+pXgoqGr46F27lQVmmB5Z5/L474FFZ5HPs6seOaV9VBT8EjvH7e1bfj04N6hJ8mwncIcJ8rBymrx9YQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NMPtBOdO": {
+      "filename": "goodwill_structure-1.0.0_forge.jar",
+      "url": "https://cdn.modrinth.com/data/zCIOEuTG/versions/NMPtBOdO/goodwill_structure-1.0.0_forge.jar",
+      "hash": "sha512-rcVTrjtuXHEgfIzVGVmMFYdVBb871+hdWzryFFRNN9tx5c58P3lP4End3MHzPq/XQORXgZaO0HZsdTLheZ7pdw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xzHd4BT3": {
+      "filename": "Goodwill Structures 1.20.3 - 1.20.4 UNZIP.zip",
+      "url": "https://cdn.modrinth.com/data/zCIOEuTG/versions/xzHd4BT3/Goodwill%20Structures%201.20.3%20-%201.20.4%20UNZIP.zip",
+      "hash": "sha512-78xTo9VrlvOI4xryNu5ftP5GWxx+/u7kh3E0gMQjNx//rJnMcnms8Btn+ZsdTtOWdYAfWoQ64txXA29JFebRjg==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FOyKMz1x"
+    ],
+    "1.20.1+forge": [
+      "NMPtBOdO"
+    ],
+    "1.20.3+datapack": [
+      "xzHd4BT3"
+    ],
+    "1.20.4+datapack": [
+      "xzHd4BT3"
+    ],
+    "1.20.5+datapack": [
+      "AKDuOdh8"
+    ],
+    "1.20.6+datapack": [
+      "AKDuOdh8"
+    ]
+  }
+}

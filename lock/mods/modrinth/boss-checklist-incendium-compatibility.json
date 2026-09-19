@@ -1,0 +1,104 @@
+{
+  "slug": "boss-checklist-incendium-compatibility",
+  "projectId": "yQgpun4Y",
+  "versions": {
+    "8FQUzkIF": {
+      "filename": "Boss Checklist - Incendium Compatibility 1.21.1 1.0.0 NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/yQgpun4Y/versions/8FQUzkIF/Boss%20Checklist%20-%20Incendium%20Compatibility%201.21.1%201.0.0%20NeoForge.jar",
+      "hash": "sha512-4C9iZyvuJO5GQLLZ3QrdJhF1zttK1PmtMWt1MkmFi+LZnJ5NhWxBhdtSukVnBTY4vfzjGwOKVI93iIan7wkgyw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "incendium",
+          "projectId": "ZVzW5oNS",
+          "type": "required"
+        },
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        }
+      ]
+    },
+    "VdvQCfdE": {
+      "filename": "Boss Checklist - Incendium Compatibility 1.20.1 1.0.0 Fabric & Quilt.jar",
+      "url": "https://cdn.modrinth.com/data/yQgpun4Y/versions/VdvQCfdE/Boss%20Checklist%20-%20Incendium%20Compatibility%201.20.1%201.0.0%20Fabric%20%26%20Quilt.jar",
+      "hash": "sha512-Tn4DblHsHJp/qD+1QY/Kx7H4sdLj6Tp2g7oyJ89DcYiAIEX1iQ+Mx+lMauUBfTscjMxP7/7OSgl6iSwmaDO8qw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        },
+        {
+          "slug": "incendium",
+          "projectId": "ZVzW5oNS",
+          "type": "required"
+        }
+      ]
+    },
+    "bHZC2uYc": {
+      "filename": "Boss Checklist - Incendium Compatibility 1.20.1 1.0.0 Forge & NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/yQgpun4Y/versions/bHZC2uYc/Boss%20Checklist%20-%20Incendium%20Compatibility%201.20.1%201.0.0%20Forge%20%26%20NeoForge.jar",
+      "hash": "sha512-7QWvqDDE3SVlJ7kiSgxblVC70XwTNOKNuzMaZyvcXHgQVd4MJ6BpOr6xCp69xE+heCTmVBQSW7aBjkJGMnFu9A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        },
+        {
+          "slug": "incendium",
+          "projectId": "ZVzW5oNS",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VdvQCfdE"
+    ],
+    "1.20.1+forge": [
+      "bHZC2uYc"
+    ],
+    "1.20.1+neoforge": [
+      "bHZC2uYc"
+    ],
+    "1.20.1+quilt": [
+      "VdvQCfdE"
+    ],
+    "1.21+neoforge": [
+      "8FQUzkIF"
+    ],
+    "1.21.1+neoforge": [
+      "8FQUzkIF"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "natures-compass-explorers-edition",
+  "projectId": "f2UC2nn7",
+  "versions": {
+    "Lqtllo32": {
+      "filename": "naturescompass-1.20.1-2.4-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/f2UC2nn7/versions/Lqtllo32/naturescompass-1.20.1-2.4-fabric.jar",
+      "hash": "sha512-AFp/2xwz+PtSW/S0WHpXcikGSkWg3FlplMdoz+z1BtiSEQIdwmTPpOwdTX3WEcjtZR4bp5sKFjG33kg/Ebnh1A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "eXQIBKaY": {
+      "filename": "naturescompass-1.20.1-2.2.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/f2UC2nn7/versions/eXQIBKaY/naturescompass-1.20.1-2.2.3-fabric.jar",
+      "hash": "sha512-+cjNHHEW9Wa41hxPPC2JKuQIyZt5CTtH9trs9zBVMvHp0Dokkh5ib3t/KWl2JeF1JYAMkmymtEUIM0vVeIMEPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Lqtllo32",
+      "eXQIBKaY"
+    ]
+  }
+}

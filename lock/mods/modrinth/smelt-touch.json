@@ -1,0 +1,62 @@
+{
+  "slug": "smelt-touch",
+  "projectId": "GMrbfjiJ",
+  "versions": {
+    "hXIpalEA": {
+      "filename": "smelttouch_v1.0.0_mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/GMrbfjiJ/versions/hXIpalEA/smelttouch_v1.0.0_mc1.20.1.jar",
+      "hash": "sha512-L1hRxtzkFKhGDAzBd8FqSAAkQXiKAcYuj3B50UNIvf/S+Yaoe+KJvLXo5w19gu+tRsqAk8f6ZwQgmh5F9eDCLg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lpCXGMRE": {
+      "filename": "smelttouch_v1.0.1_mc1.20.2-mc1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/GMrbfjiJ/versions/lpCXGMRE/smelttouch_v1.0.1_mc1.20.2-mc1.20.4.jar",
+      "hash": "sha512-Ja1ei3LxGrS9YaMz+swh2ywuQYOmQLdEjOSAd+bLRiFOvekySQJYAgmVU4II4DIOkrnuShD6AvwM2ocUA/BewA==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hXIpalEA"
+    ],
+    "1.20.2+fabric": [
+      "lpCXGMRE"
+    ],
+    "1.20.3+fabric": [
+      "lpCXGMRE"
+    ],
+    "1.20.4+fabric": [
+      "lpCXGMRE"
+    ]
+  }
+}

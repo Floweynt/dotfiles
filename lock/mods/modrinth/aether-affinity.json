@@ -1,0 +1,36 @@
+{
+  "slug": "aether-affinity",
+  "projectId": "lAJKuLDB",
+  "versions": {
+    "UfgIc3Vw": {
+      "filename": "aether-affinity-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lAJKuLDB/versions/UfgIc3Vw/aether-affinity-1.0.0.jar",
+      "hash": "sha512-bOM/sKAZsXvyoR6E56tCzPH6xuKl8lOULv/4QoAHSbnSjvztEWYkkyyJ7t6YrMrtNrVa8pmidkzkqf30b/qlqw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "UfgIc3Vw"
+    ]
+  }
+}

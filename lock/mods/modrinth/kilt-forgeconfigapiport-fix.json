@@ -1,0 +1,36 @@
+{
+  "slug": "kilt-forgeconfigapiport-fix",
+  "projectId": "vgTyEZqm",
+  "versions": {
+    "KFiZDY26": {
+      "filename": "kilt-forgeconfigapiport-fix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vgTyEZqm/versions/KFiZDY26/kilt-forgeconfigapiport-fix-1.0.0.jar",
+      "hash": "sha512-2rI0VB+xcicLnqOTG35uiuz/tlAbmfK9caUdDTmsKKVWKUKykrc98/5r1ya4rD4PYtDXs/juDyke1SzwzEJILQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "kilt",
+          "projectId": "t87XZEqv",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "KFiZDY26"
+    ]
+  }
+}

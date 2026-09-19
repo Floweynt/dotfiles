@@ -1,0 +1,62 @@
+{
+  "slug": "simple-chunkloader-fabric",
+  "projectId": "J30flQVA",
+  "versions": {
+    "ZdJEwVvv": {
+      "filename": "simplechunkloader-1.0.1-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/J30flQVA/versions/simplechunkloader-1.0.1-1.18.2/simplechunkloader-1.0.1-1.18.2.jar",
+      "hash": "sha512-KkkcsDPJpYioH9iL+qjkap0XMPSB+WqtMss3SmPlsG1rpv8+XWBxLhU0CHuKQKxfsSh4rQJyGxRh2APYYT+z9g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sKhtovSu": {
+      "filename": "simplechunkloader-1.0.2-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/J30flQVA/versions/1.0.2/simplechunkloader-1.0.2-1.19.jar",
+      "hash": "sha512-2n1qu6xPQHQPvH1F1j3IlU9ep+VnLvhF8vH91UFa9g8K3IdwM3AyZ9MuBvLe3/hlmyjmxruyIdxhNVj1EmmkxA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "ZdJEwVvv"
+    ],
+    "1.19+fabric": [
+      "sKhtovSu"
+    ],
+    "1.19.1+fabric": [
+      "sKhtovSu"
+    ],
+    "1.19.2+fabric": [
+      "sKhtovSu"
+    ]
+  }
+}

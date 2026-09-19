@@ -1,0 +1,103 @@
+{
+  "slug": "opac-bluemap",
+  "projectId": "y2O53y8j",
+  "versions": {
+    "TrhPEnh4": {
+      "filename": "opac-bluemap-integration-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/y2O53y8j/versions/TrhPEnh4/opac-bluemap-integration-1.0.0.jar",
+      "hash": "sha512-95+tdcGjQB+x7Ejuu+jUA3BNn93wfUY7vxLIdAuLOyuLRMiqTVyOrjfyBCOpK2Z105LXYvcZjAHvr/CFyu+z7Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        }
+      ]
+    },
+    "rmiNkWsE": {
+      "filename": "opac-bluemap-integration-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/y2O53y8j/versions/rmiNkWsE/opac-bluemap-integration-1.0.2.jar",
+      "hash": "sha512-aowlPCM1QYA4KATrcL6m3lB0lbi1SMibhcHSNxbw01xiX4t7XVeivU2bGEGDX8BcY5lEYfho7c6thwo2MpviaA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        },
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sFIR9GDU": {
+      "filename": "opac-bluemap-integration-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/y2O53y8j/versions/sFIR9GDU/opac-bluemap-integration-1.0.1.jar",
+      "hash": "sha512-dqA0cFYeYaL+QJE7Ni70or0DLGO1kzcEL3Q0H4g3hzvH0LGPJoaKOwWQvBqdSmYPOvV8aq4Nf1QChRxUPIKvvA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        },
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "rmiNkWsE",
+      "sFIR9GDU",
+      "TrhPEnh4"
+    ]
+  }
+}

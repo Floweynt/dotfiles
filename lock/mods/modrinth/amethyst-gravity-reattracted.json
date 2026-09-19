@@ -1,0 +1,68 @@
+{
+  "slug": "amethyst-gravity-reattracted",
+  "projectId": "1h2ZthRl",
+  "versions": {
+    "7orhNjz4": {
+      "filename": "amethyst-gravity-reattracted-2.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/1h2ZthRl/versions/7orhNjz4/amethyst-gravity-reattracted-2.0.0%2B1.20.1.jar",
+      "hash": "sha512-x+fMIYs4+ACm4OuXg+eUDRFq5iPceQy4bWaIffrCPODixOSeHWXkCnwI2NIdE8Yjg/2XULgctrfCDDMFfPOlsA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "gravity-api-fork",
+          "projectId": "bqOyYdKi",
+          "type": "required"
+        }
+      ]
+    },
+    "XUe8uQj6": {
+      "filename": "amethyst-gravity-reattracted-2.0.0+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/1h2ZthRl/versions/XUe8uQj6/amethyst-gravity-reattracted-2.0.0%2B1.20.2.jar",
+      "hash": "sha512-m2EPDUXu0eeeOyjFnlTq5HAre2RIY/0a5iLrt/EI0blZ8d0RJqv+UhxP/TC52hqECKTjIeAjYeaujXOtV4+fUw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "gravity-api-fork",
+          "projectId": "bqOyYdKi",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "7orhNjz4"
+    ],
+    "1.20.1+fabric": [
+      "7orhNjz4"
+    ],
+    "1.20.2+fabric": [
+      "XUe8uQj6"
+    ]
+  }
+}

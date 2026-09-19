@@ -1,0 +1,97 @@
+{
+  "slug": "maceutils",
+  "projectId": "cH2pSEes",
+  "versions": {
+    "AahC56Zc": {
+      "filename": "maceutils-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cH2pSEes/versions/AahC56Zc/maceutils-1.0.0.jar",
+      "hash": "sha512-oxnTfLtzt6ykEhK/+v0PDzHDofZ05zR1v3U0kuAhW7PToOlhX/oX9fxDLAPCFFtjZ/AB7bB+nB/co2b3OaZCmw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "StHSvNPW": {
+      "filename": "maceutils-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cH2pSEes/versions/StHSvNPW/maceutils-1.1.0.jar",
+      "hash": "sha512-vEZ19db0oyJd43gHb8+PuspR3l7OEXhsWMUTmkQpi+RMZSY4zhdxAviufLD8S+D+1ycHBXTu+/AdUZDTGbwoRg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cLPWzoEu": {
+      "filename": "maceutils-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/cH2pSEes/versions/cLPWzoEu/maceutils-1.3.0.jar",
+      "hash": "sha512-NO/052xuXvbAlIL59hW8upj62CINR7N4LdOUFtOfZjWv/gOLvtkT1qdCtR6gRTJwCm+STiVQhhn9zRdQQ7FV3w==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "astudiolib",
+          "projectId": "TgTLcDxi",
+          "type": "required"
+        }
+      ]
+    },
+    "o16j5PL1": {
+      "filename": "maceutils-1.2.6.jar",
+      "url": "https://cdn.modrinth.com/data/cH2pSEes/versions/o16j5PL1/maceutils-1.2.6.jar",
+      "hash": "sha512-iBKtMEGISULDoGUI1ygFPPjgC7tGZtkbUA9KhZcVxceZDK5MPG4JnwNAOEL/It6VMIcMmY0gelLyprTQOTyxPQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "o16j5PL1",
+      "StHSvNPW",
+      "AahC56Zc"
+    ],
+    "26.1+fabric": [
+      "cLPWzoEu"
+    ],
+    "26.1.1+fabric": [
+      "cLPWzoEu"
+    ],
+    "26.1.2+fabric": [
+      "cLPWzoEu"
+    ]
+  }
+}

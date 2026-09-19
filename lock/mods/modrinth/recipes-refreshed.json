@@ -1,0 +1,123 @@
+{
+  "slug": "recipes-refreshed",
+  "projectId": "mwNLf2K7",
+  "versions": {
+    "3rTr6nP8": {
+      "filename": "Recipes Refreshed.zip",
+      "url": "https://cdn.modrinth.com/data/mwNLf2K7/versions/3rTr6nP8/Recipes%20Refreshed.zip",
+      "hash": "sha512-8+8WuIzSPTboqliZIzdRFG9dUwi20ud2JXaZFwhTVpuPPA+32fLZPD0lyaX+VpQ5MQ8+rdoJj1Y/LWdtaLT9sg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "M8YhApH0": {
+      "filename": "recipes_refreshed-1.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mwNLf2K7/versions/M8YhApH0/recipes_refreshed-1.3-1.20.1.jar",
+      "hash": "sha512-5/9ZzhwidpcvduE3skTbE3U07zMoph5sbQ34/UmttyT1PFTEvjrz8OJjI/1rtEJBYpKeVm2+SJCWGepSUrfAYA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Zmanzmpz": {
+      "filename": "recipes_refreshed-1.4-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mwNLf2K7/versions/Zmanzmpz/recipes_refreshed-1.4-1.20.1.jar",
+      "hash": "sha512-XqeI0my4enhyvHmq/uLxXp6l2+mWppz0YCNpC6Of0eUHgIjqWT/oNVx+NnNH1ohhbE3Vehvz6Hsu9kQiVpDmjA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ekb2y9pN": {
+      "filename": "recipes_refreshed-2.0.0-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/mwNLf2K7/versions/ekb2y9pN/recipes_refreshed-2.0.0-1.20.6.jar",
+      "hash": "sha512-u7VFyfdwkHlVjdxFo5XO1PUYKexESTwkE2osNc3b/PEELIo+xb95eAEEBX2W3E/5QtfP/yooIRVH0b4kjRRgtQ==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uWkblLN7": {
+      "filename": "recipes_refreshed-1.0.0-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/mwNLf2K7/versions/uWkblLN7/recipes_refreshed-1.0.0-1.20.6.jar",
+      "hash": "sha512-CEk0QkpER4r324DXimB3iDBXuydMVdLK5mdtxoOBfv9K9D2VrZL0pIcpoSXIffKzEMq+Q62vul3aeMcYNVgxFw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "3rTr6nP8"
+    ],
+    "1.20+fabric": [
+      "Zmanzmpz",
+      "M8YhApH0"
+    ],
+    "1.20.1+datapack": [
+      "3rTr6nP8"
+    ],
+    "1.20.1+fabric": [
+      "Zmanzmpz",
+      "M8YhApH0"
+    ],
+    "1.20.6+fabric": [
+      "ekb2y9pN",
+      "uWkblLN7"
+    ]
+  }
+}

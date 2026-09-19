@@ -1,0 +1,106 @@
+{
+  "slug": "sniffers_delight",
+  "projectId": "xhk28oFn",
+  "versions": {
+    "FYLwerLI": {
+      "filename": "sniffers_delightFabric-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/xhk28oFn/versions/FYLwerLI/sniffers_delightFabric-1.0.5.jar",
+      "hash": "sha512-pHCgWWECUS9eZygDoXRN/sIDDlyY5T+prAfK6tXts5WucXNlmDVNxf2be+Ld/BSj4yGkDlByiY7rV0j9uLlxHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    },
+    "QRQzmeoP": {
+      "filename": "sniffers_delightFabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xhk28oFn/versions/QRQzmeoP/sniffers_delightFabric-1.0.jar",
+      "hash": "sha512-b8YYHThh8VuYD2HWvgqX3AQKrjo8pA6kRauf218F9X7ypXzrVXK15v/7KZyHjoYGqqYOvqhloHOpOrNeSGlqIg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WE75BEgz": {
+      "filename": "sniffers_delight-1.0.3-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/xhk28oFn/versions/WE75BEgz/sniffers_delight-1.0.3-forge-1.20.1.jar",
+      "hash": "sha512-IhMzDa63lZeELbBx3LaSqplLdWvmikMfLFAPhs9vVVHzwMGM7+z4kReIEfH9NCkb5LuyW1vtKSFKdGGzlYj7pw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    },
+    "XPTtKLJh": {
+      "filename": "sniffers_delightFabric-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/xhk28oFn/versions/XPTtKLJh/sniffers_delightFabric-1.0.4.jar",
+      "hash": "sha512-jRD+dCt6OCeiTPOJxLK3aL9wpJZBO7ZSOzQndgok648s/jTay3bXcL86IqnfCYWvLHvdL8aRSnFu0uA7dEFFIQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FYLwerLI",
+      "XPTtKLJh",
+      "QRQzmeoP"
+    ],
+    "1.20.1+forge": [
+      "WE75BEgz"
+    ]
+  }
+}

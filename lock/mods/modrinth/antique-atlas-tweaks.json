@@ -1,0 +1,36 @@
+{
+  "slug": "antique-atlas-tweaks",
+  "projectId": "ljpY4NNp",
+  "versions": {
+    "rsNs3JVm": {
+      "filename": "antiqueatlastweaks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ljpY4NNp/versions/rsNs3JVm/antiqueatlastweaks-1.0.0.jar",
+      "hash": "sha512-Je5KVRgftRWetKgs9jnhK3h8rZMgAhn1obcLzZ/G0X82eNo+ACyen5+riijnKNyJ5+w0h013m5fnewieRR3tmw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "surveyor",
+          "projectId": "4KjqhPc9",
+          "type": "required"
+        },
+        {
+          "slug": "antique-atlas-4",
+          "projectId": "Y5Ve4Ui4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "rsNs3JVm"
+    ]
+  }
+}

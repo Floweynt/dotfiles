@@ -1,0 +1,40 @@
+{
+  "slug": "autogg-fabric",
+  "projectId": "aNao4cRD",
+  "versions": {
+    "l9cqM2NO": {
+      "filename": "auto-gg-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aNao4cRD/versions/l9cqM2NO/auto-gg-1.0.0.jar",
+      "hash": "sha512-cFCw0v/1zWKra4PeHP3iiK2CJjgWbNhBNrCoXw6rusirLvGmc5cQjwMqjgK7L0FiAUh5ogMneuMLbvcOJ1gwfA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "l9cqM2NO"
+    ],
+    "1.21.11+fabric": [
+      "l9cqM2NO"
+    ]
+  }
+}

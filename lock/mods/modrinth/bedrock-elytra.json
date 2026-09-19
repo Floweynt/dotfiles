@@ -1,0 +1,94 @@
+{
+  "slug": "bedrock-elytra",
+  "projectId": "1vNVZ1VO",
+  "versions": {
+    "RCaS6VFP": {
+      "filename": "BedrockElytra-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1vNVZ1VO/versions/RCaS6VFP/BedrockElytra-1.0.0.jar",
+      "hash": "sha512-LuLY2WGALr1l+gip6hWfEd040Y1e8cCdyWs87doG1BrCq4M0egn2T7e+vuLIr+GYo9Keonqf4MlQVtAA2/WhhQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dtL35E9N": {
+      "filename": "BedrockElytra-1.0.0+1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/1vNVZ1VO/versions/dtL35E9N/BedrockElytra-1.0.0%2B1.21.5.jar",
+      "hash": "sha512-qZ50KLZ6u/91dlpzc98aAAUMLGuUJF7J1B1rFTF7lWV1I62gFh/uUoBYcr0KS+XBDPm5fqFWh7Bvo5CGzTi3AQ==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "RCaS6VFP"
+    ],
+    "1.21.1+fabric": [
+      "RCaS6VFP"
+    ],
+    "1.21.10+fabric": [
+      "dtL35E9N"
+    ],
+    "1.21.11+fabric": [
+      "dtL35E9N"
+    ],
+    "1.21.2+fabric": [
+      "RCaS6VFP"
+    ],
+    "1.21.3+fabric": [
+      "RCaS6VFP"
+    ],
+    "1.21.4+fabric": [
+      "RCaS6VFP"
+    ],
+    "1.21.5+fabric": [
+      "dtL35E9N"
+    ],
+    "1.21.6+fabric": [
+      "dtL35E9N"
+    ],
+    "1.21.7+fabric": [
+      "dtL35E9N"
+    ],
+    "1.21.8+fabric": [
+      "dtL35E9N"
+    ],
+    "1.21.9+fabric": [
+      "dtL35E9N"
+    ]
+  }
+}

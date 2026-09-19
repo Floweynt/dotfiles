@@ -1,0 +1,68 @@
+{
+  "slug": "tough-as-nails-addon",
+  "projectId": "mTfa1QDx",
+  "versions": {
+    "eVNT8ko9": {
+      "filename": "tough-as-nails-addon-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/mTfa1QDx/versions/eVNT8ko9/tough-as-nails-addon-1.1.0.jar",
+      "hash": "sha512-+BUwdVyHMihIeBY2SIJsJQg3EcMqoYh0roINwDZhOyd8KM8BogXzcUEUa3gK9C8LaPVcwQsLE7BC9FWJTtMs+w==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wir97Vnx": {
+      "filename": "tough-as-nails-addon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mTfa1QDx/versions/wir97Vnx/tough-as-nails-addon-1.0.0.jar",
+      "hash": "sha512-1xbseXLLrPw7qUayS6FJ242BSJFlhuZyJ3Rv57ROQ1mB0QgMNnSqIQ0esowYTy5Xg4q4f7GGQX5aDYhC/mcMfA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "tough-as-nails",
+          "projectId": "ge1sOdFH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "eVNT8ko9",
+      "wir97Vnx"
+    ],
+    "1.21.10+quilt": [
+      "eVNT8ko9"
+    ],
+    "1.21.11+fabric": [
+      "eVNT8ko9",
+      "wir97Vnx"
+    ],
+    "1.21.11+quilt": [
+      "eVNT8ko9"
+    ],
+    "1.21.9+fabric": [
+      "eVNT8ko9",
+      "wir97Vnx"
+    ],
+    "1.21.9+quilt": [
+      "eVNT8ko9"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "breakneck-menu",
+  "projectId": "eZlpOTxM",
+  "versions": {
+    "4bXKtnmx": {
+      "filename": "breakneckmenu-1.20.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eZlpOTxM/versions/4bXKtnmx/breakneckmenu-1.20.4-1.0.0.jar",
+      "hash": "sha512-NJEXI0jag9+8EdMUPhTO0Faj6rWBCA62d4Q4+Ienct1z3o7iWtxO35XOWRee5ksJBnoclO0jWHE1HdYMvwWmDw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "4mszg0dE": {
+      "filename": "breakneckmenu-1.3.0+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/eZlpOTxM/versions/4mszg0dE/breakneckmenu-1.3.0%2Bmc1.21.11.jar",
+      "hash": "sha512-phpW50kj9K8Lpy8ouFARZHdii5uuB4VatakmVsWlhZPnIPLKLeoECaowAJgR7HTjC5oi5gVfANjk1B4L9CqN1g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "AQtFTqW7": {
+      "filename": "breakneckmenu-fabric-1.0.2+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/eZlpOTxM/versions/AQtFTqW7/breakneckmenu-fabric-1.0.2%2Bmc1.21.jar",
+      "hash": "sha512-N2Vkcxizv1oAhISw/5TTr6LWuRGzYJa05FT4E4sSiZaGqZhDZ8Mal38pSEzJvL31ahwaz7ZVgV5cfRhHbZ0g9A==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PgiMmrRA": {
+      "filename": "breakneckmenu-fabric-1.2.0+mc1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/eZlpOTxM/versions/PgiMmrRA/breakneckmenu-fabric-1.2.0%2Bmc1.21.3.jar",
+      "hash": "sha512-dJJbJ/jtoKCvbz8ZZhysaLkEiRu3vq71n/O+52dQ4vW2uCj8WiwVL49MDE6Ce0SbcXYQFyh8+fFJ95vuOove9A==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XGNDfIbO": {
+      "filename": "breakneckmenu-1.20.4-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/eZlpOTxM/versions/XGNDfIbO/breakneckmenu-1.20.4-1.0.1.jar",
+      "hash": "sha512-q+92iGjBsks3IHT8gIuoDKFHBLuLolqRtvWToA5ruWnTRy1vtWeUpOrQgbAqRTY6Qtks+c0CA/kY4U7lUm+SxA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "hSngqZzY": {
+      "filename": "breakneckmenu-fabric-1.1.0+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/eZlpOTxM/versions/hSngqZzY/breakneckmenu-fabric-1.1.0%2Bmc1.21.jar",
+      "hash": "sha512-Sqr419YKJxmoWl9Zy3kjugqEb4kvh7qELo072aHpyanBiM3JIMxX6CFKRnAebcxu9/aBvOBvXlnrPgy0Qh/7hg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "XGNDfIbO",
+      "4bXKtnmx"
+    ],
+    "1.21+fabric": [
+      "hSngqZzY",
+      "AQtFTqW7"
+    ],
+    "1.21+quilt": [
+      "hSngqZzY",
+      "AQtFTqW7"
+    ],
+    "1.21.11+fabric": [
+      "4mszg0dE"
+    ],
+    "1.21.2+fabric": [
+      "PgiMmrRA"
+    ],
+    "1.21.3+fabric": [
+      "PgiMmrRA"
+    ]
+  }
+}

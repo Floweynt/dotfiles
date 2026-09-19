@@ -1,0 +1,75 @@
+{
+  "slug": "ktice",
+  "projectId": "bF74msmx",
+  "versions": {
+    "MZojKaLn": {
+      "filename": "ktice-forge-1.18.2-1.0+1.jar",
+      "url": "https://cdn.modrinth.com/data/bF74msmx/versions/MZojKaLn/ktice-forge-1.18.2-1.0%2B1.jar",
+      "hash": "sha512-+KDZTBJvxFy1W14lz3y7iwDbt9Y6cboEqUrUHOAJioSkCVPfMYgBY4RLgXYrvYaziG+uk+F27deJYTmzJpLy6Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "cIzF1f8Q": {
+      "filename": "Ktice-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bF74msmx/versions/cIzF1f8Q/Ktice-1.0.jar",
+      "hash": "sha512-brUvKmCCYe0Er2mpJeyBRiTBrYF9RyowmsPtWY41sMr1805PKtGaFkj3a0YRbG2vFRTMgDUpEdkqiLfcWhsoJA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "pBlnih8P": {
+      "filename": "ktice-fabric-1.18.2-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bF74msmx/versions/pBlnih8P/ktice-fabric-1.18.2-1.0.jar",
+      "hash": "sha512-UvGLVCO8dJ1FUdI0EhVaq5/+8kFUkYuc+VntgqgPFYoGa40BqsvTPjUBrPNLJsujik53MWKrjDettMt7LJ6ILQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "pBlnih8P"
+    ],
+    "1.18.2+forge": [
+      "MZojKaLn",
+      "cIzF1f8Q"
+    ]
+  }
+}

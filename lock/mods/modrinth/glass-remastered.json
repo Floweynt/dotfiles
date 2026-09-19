@@ -1,0 +1,90 @@
+{
+  "slug": "glass-remastered",
+  "projectId": "5TABPEIf",
+  "versions": {
+    "5GqfRzxS": {
+      "filename": "glass-0.1.0+alpha.jar",
+      "url": "https://cdn.modrinth.com/data/5TABPEIf/versions/5GqfRzxS/glass-0.1.0%2Balpha.jar",
+      "hash": "sha512-dAvMnC0VaFNi1TzCa3/25OeDC9aU+zgQPFsFj1C5zHo5ojxJ9LtbII00Z/S2wPnD2xxdapFILQLne6ejsDwf2g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "75mihtGc": {
+      "filename": "glass-0.1.1+alpha.jar",
+      "url": "https://cdn.modrinth.com/data/5TABPEIf/versions/75mihtGc/glass-0.1.1%2Balpha.jar",
+      "hash": "sha512-SODf9P381GDi2mZYeTYYELfvwCqMeRCizUeT4JXNIC9qw6Oj+qh20dIplGdVavWDcW/Ddg7ip71v70lPWi4a2w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        }
+      ]
+    },
+    "wEFp0avd": {
+      "filename": "glass-0.1.1+alpha+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/5TABPEIf/versions/wEFp0avd/glass-0.1.1%2Balpha%2B1.20.1.jar",
+      "hash": "sha512-txlFVEWHnq44Q723DtKBtCJ5zuQdcdwfCaRSuufyzgC2gQwEaEi6zxHV6n6YixnJQDxpWgi3vV9+My5IT9G60A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wEFp0avd"
+    ],
+    "1.21.1+fabric": [
+      "75mihtGc",
+      "5GqfRzxS"
+    ]
+  }
+}

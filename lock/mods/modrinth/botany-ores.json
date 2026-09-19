@@ -1,0 +1,96 @@
+{
+  "slug": "botany-ores",
+  "projectId": "ZnKCSEiJ",
+  "versions": {
+    "6bq4GjnF": {
+      "filename": "BotanyOres-0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZnKCSEiJ/versions/6bq4GjnF/BotanyOres-0.2-1.20.1.jar",
+      "hash": "sha512-JSdnUT0LQqyLem+rHDE9vfbre9WHCTQXjQLYGvmc5yJOu9ks4ygX1z4mpNZUcPDwIxe6+mfkOxWvYJqo3bSdTA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "botany-pots",
+          "projectId": "U6BUTZ7K",
+          "type": "required"
+        },
+        {
+          "slug": "bookshelf-lib",
+          "projectId": "uy4Cnpcm",
+          "type": "required"
+        }
+      ]
+    },
+    "BPT1SWET": {
+      "filename": "BotanyOres-0.4-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZnKCSEiJ/versions/BPT1SWET/BotanyOres-0.4-1.20.1.jar",
+      "hash": "sha512-NDjXTNMC5BviEH5UVx5xuI7C1EfQGPJdO29fjcWHhD2rdhfHzGDc+DpmTjeEwS+NSLx2guJcmp5kv6YpnpMJHw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bookshelf-lib",
+          "projectId": "uy4Cnpcm",
+          "type": "required"
+        },
+        {
+          "slug": "botany-pots",
+          "projectId": "U6BUTZ7K",
+          "type": "required"
+        }
+      ]
+    },
+    "qAuMJWmD": {
+      "filename": "BotanyOres-0.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZnKCSEiJ/versions/qAuMJWmD/BotanyOres-0.3-1.20.1.jar",
+      "hash": "sha512-DANa3jQh3il6TB07Y1fSnTODlb3ZPne+n7pUoTIGYkx/E5NmyxccS1RIwxn9OAC0+RdLzaoWUSku75BBMowJCQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bookshelf-lib",
+          "projectId": "uy4Cnpcm",
+          "type": "required"
+        },
+        {
+          "slug": "botany-pots",
+          "projectId": "U6BUTZ7K",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "BPT1SWET",
+      "qAuMJWmD",
+      "6bq4GjnF"
+    ],
+    "1.20.1+fabric": [
+      "BPT1SWET",
+      "qAuMJWmD",
+      "6bq4GjnF"
+    ]
+  }
+}

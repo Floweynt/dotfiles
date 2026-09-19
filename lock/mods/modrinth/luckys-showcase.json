@@ -1,0 +1,89 @@
+{
+  "slug": "luckys-showcase",
+  "projectId": "FWO9GQ2I",
+  "versions": {
+    "Aw724gz4": {
+      "filename": "luckysshowcase-fabric-1.21.1-21.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/FWO9GQ2I/versions/Aw724gz4/luckysshowcase-fabric-1.21.1-21.1.0.jar",
+      "hash": "sha512-GIgxAzsBJ+sgZ0bk+RHYZtkzsO4xv77F83maaMLpCSRDB8+f795yFlmGD6iF9wodzNJEwIYh06GJ4dm9jOH4JQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "balm",
+          "projectId": "MBAkmtvl",
+          "type": "required"
+        }
+      ]
+    },
+    "d0DQw3ik": {
+      "filename": "luckysshowcase-neoforge-1.21.1-21.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/FWO9GQ2I/versions/d0DQw3ik/luckysshowcase-neoforge-1.21.1-21.1.0.jar",
+      "hash": "sha512-XPxamzGfQJTqFni0v3hk497UKqk/qzu+iozCcXdDZbpubUMV2aNMqubx2Hzc5R67ATdi6ZJwAouFLTPHzqpVkw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "balm",
+          "projectId": "MBAkmtvl",
+          "type": "required"
+        }
+      ]
+    },
+    "xN2SQcRb": {
+      "filename": "luckysshowcase-forge-1.21.1-21.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/FWO9GQ2I/versions/xN2SQcRb/luckysshowcase-forge-1.21.1-21.1.0.jar",
+      "hash": "sha512-nHCNvLT8u2qkvrxVgmmoVaN3p2f+vtilwza88wYJ152ue8uQQU7r53OTX0m9em12o41XAbyphZV1HRNnKcEVRA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "balm",
+          "projectId": "MBAkmtvl",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "Aw724gz4"
+    ],
+    "1.21+forge": [
+      "xN2SQcRb"
+    ],
+    "1.21+neoforge": [
+      "d0DQw3ik"
+    ],
+    "1.21.1+fabric": [
+      "Aw724gz4"
+    ],
+    "1.21.1+forge": [
+      "xN2SQcRb"
+    ],
+    "1.21.1+neoforge": [
+      "d0DQw3ik"
+    ]
+  }
+}

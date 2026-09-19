@@ -1,0 +1,66 @@
+{
+  "slug": "enchanting-infuser-add-treasure-enchantments",
+  "projectId": "u0YIG3pi",
+  "versions": {
+    "WHUxM5Fn": {
+      "filename": "enchanting-infuser-add-treasure-enchantements-1.jar",
+      "url": "https://cdn.modrinth.com/data/u0YIG3pi/versions/WHUxM5Fn/enchanting-infuser-add-treasure-enchantements-1.jar",
+      "hash": "sha512-c+zpZbLSm6t9+aRi0+RYGPUyZkax+/rBsB9l9xdH8SEmXB/eSGstFxKoo7X1VKXRGrowtYXUht3L+1V8b5BpBQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "enchanting-infuser",
+          "projectId": "ePv85y52",
+          "type": "required"
+        }
+      ]
+    },
+    "o7JPaG5S": {
+      "filename": "enchanting_infuser_treasure.zip",
+      "url": "https://cdn.modrinth.com/data/u0YIG3pi/versions/o7JPaG5S/enchanting_infuser_treasure.zip",
+      "hash": "sha512-cSDqwLlE+CzOCH2vW9FtmVdJ10hv5Om5r1nNG5uRrIVpj3JuHIyfqV3FZjbsI0NFYctqtQuWZ1xUePdnRM31zQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "enchanting-infuser",
+          "projectId": "ePv85y52",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "o7JPaG5S"
+    ],
+    "1.21.1+fabric": [
+      "WHUxM5Fn"
+    ],
+    "1.21.1+forge": [
+      "WHUxM5Fn"
+    ],
+    "1.21.1+neoforge": [
+      "WHUxM5Fn"
+    ],
+    "1.21.1+quilt": [
+      "WHUxM5Fn"
+    ]
+  }
+}

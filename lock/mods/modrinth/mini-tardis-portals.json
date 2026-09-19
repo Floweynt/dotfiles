@@ -1,0 +1,68 @@
+{
+  "slug": "mini-tardis-portals",
+  "projectId": "JpT3LAAC",
+  "versions": {
+    "8XQGueJ6": {
+      "filename": "mini_tardis_portals-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/JpT3LAAC/versions/8XQGueJ6/mini_tardis_portals-1.0.3.jar",
+      "hash": "sha512-jl3pRcTwjCGPc75mYhmHBg4nwcKrC4yNbgpx3yObu1hvurgODSt2i+Mp/XBmVhX0ErnR/NI+XzvhdDMnCj75yA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        },
+        {
+          "slug": "mini-tardis",
+          "projectId": "AnM1UyFW",
+          "type": "required"
+        }
+      ]
+    },
+    "PZcuuR2w": {
+      "filename": "mini_tardis_portals-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JpT3LAAC/versions/PZcuuR2w/mini_tardis_portals-2.0.0.jar",
+      "hash": "sha512-A0dZYdU0xejn6ExSMY4/50c+89sTEVoRHGBiEsCWeW0Ij8S6e1AH+n6K6lvLz+N+i3QawKS8/lNfY5dX3RA+yA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mini-tardis",
+          "projectId": "AnM1UyFW",
+          "type": "required"
+        },
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8XQGueJ6"
+    ],
+    "1.21+fabric": [
+      "PZcuuR2w"
+    ],
+    "1.21.1+fabric": [
+      "PZcuuR2w"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "weaponspack",
+  "projectId": "X7mIbF9F",
+  "versions": {
+    "acmaG7aW": {
+      "filename": "weapons-pack-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/X7mIbF9F/versions/acmaG7aW/weapons-pack-1.0.2.jar",
+      "hash": "sha512-OnF3B9w0IshO0HggZCGexzLeGcWH/bSj18FA1UAILTAhKYqYpM5qmX1wESvk/TL+iCLQnWq1Y1fYWR7cVUyfbw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "k0KNSJRs": {
+      "filename": "weapons-pack-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/X7mIbF9F/versions/k0KNSJRs/weapons-pack-1.0.0.jar",
+      "hash": "sha512-6FIe8Xl17gF7mUwUbsV5IkyTsQdbt8xoaQyhHxUNK5GrHhSlvZZB17lotT6phbr2PGpb4nv1cq9q5PjUZtWXPw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "acmaG7aW",
+      "k0KNSJRs"
+    ],
+    "1.19.1+fabric": [
+      "acmaG7aW",
+      "k0KNSJRs"
+    ],
+    "1.19.2+fabric": [
+      "acmaG7aW",
+      "k0KNSJRs"
+    ],
+    "1.19.3+fabric": [
+      "acmaG7aW",
+      "k0KNSJRs"
+    ],
+    "1.19.4+fabric": [
+      "acmaG7aW",
+      "k0KNSJRs"
+    ]
+  }
+}

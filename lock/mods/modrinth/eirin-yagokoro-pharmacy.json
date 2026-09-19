@@ -1,0 +1,63 @@
+{
+  "slug": "eirin-yagokoro-pharmacy",
+  "projectId": "EhJXlu6k",
+  "versions": {
+    "6WW7l67J": {
+      "filename": "EirinYagokoroPharmacy-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/EhJXlu6k/versions/6WW7l67J/EirinYagokoroPharmacy-1.0.1.jar",
+      "hash": "sha512-2JwaQQoH/z4GL/r6qqiIW44Jlcodt3h9cLYDqd2CBhm+FmPvcaiWOp5Zn5qJpVfzjfLb44HvjMhxJF5NXMXMJw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "8MuXJfHI": {
+      "filename": "eirinyagokoropharmacy-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EhJXlu6k/versions/8MuXJfHI/eirinyagokoropharmacy-1.1.0.jar",
+      "hash": "sha512-ch7JOq5rLX92qTdwh/JqHrNVbagQmxfvtUCXvziOnCJSfsNRvXIxh7K8g6IIz3l7QhGjlk8C8FNLT1pVlBFaIA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "njMD7mn4": {
+      "filename": "EirinYagokoroPharmacy-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EhJXlu6k/versions/njMD7mn4/EirinYagokoroPharmacy-1.0.0.jar",
+      "hash": "sha512-V4RBpu/CXOHOYE3Ii6IVCJrsLUrAmXsmsq32H4pKIU4jh2gjnkMdxTp0Q40n1Dg7yVTvvqTiOnAmw8diWzYl9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "6WW7l67J",
+      "njMD7mn4"
+    ],
+    "1.21.1+neoforge": [
+      "8MuXJfHI"
+    ]
+  }
+}

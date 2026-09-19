@@ -1,0 +1,51 @@
+{
+  "slug": "adaptive-graphics",
+  "projectId": "O3qalpvK",
+  "versions": {
+    "7GigURYY": {
+      "filename": "adaptive-graphics-0.2-beta.jar",
+      "url": "https://cdn.modrinth.com/data/O3qalpvK/versions/7GigURYY/adaptive-graphics-0.2-beta.jar",
+      "hash": "sha512-4m4+mhUbqeJ/5Y9kUDEe0mc2lS+/fRRHD/OWUcs0padDjkb9nIqdDUUrwYoZbyXSK9XHu+XJf9wEhwesnZ6D+g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FNBNoQtg": {
+      "filename": "adaptive-graphics-0.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/O3qalpvK/versions/FNBNoQtg/adaptive-graphics-0.1-beta.jar",
+      "hash": "sha512-prJ8pBrhKeBY75YiueKUKlUglQOWZuuC572EBs/D1n9FSekaI1k/mGNtp4GsLOrO2NCns3Jo8OPoHjUzemWy8Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "7GigURYY",
+      "FNBNoQtg"
+    ]
+  }
+}

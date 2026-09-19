@@ -1,0 +1,69 @@
+{
+  "slug": "simpletpa",
+  "projectId": "HFybT3rM",
+  "versions": {
+    "Kpeib8xy": {
+      "filename": "simpletpa-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HFybT3rM/versions/Kpeib8xy/simpletpa-1.1.0.jar",
+      "hash": "sha512-TgINjTZHnuSINv16tyCFTRyZKsuw8aPnokusU7kssYgJo2mtDjXpP3mr7aEMcOY9pO+pax+oNKFvY5+aU6PNKw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d7Mvzm3G": {
+      "filename": "simpletpa-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HFybT3rM/versions/d7Mvzm3G/simpletpa-1.0.1.jar",
+      "hash": "sha512-waXLJFg8tYmhy8N+QIvagSzO77o2N8nIZQVfVC7FQfaZfIfthApOBG6PF6idemmvoh6ePOskUX2M+YBpCY4wsA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mSou1S7X": {
+      "filename": "simpletpa-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HFybT3rM/versions/mSou1S7X/simpletpa-1.0.0.jar",
+      "hash": "sha512-wRTrf+k76FEBBxuGpmic3SYIWFD0jcp0WJEhUxnJVV6ONKlwZu3a3m/04Xy1ukpQlZxsP/T5F0jsTREeWwjioQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "mSou1S7X"
+    ],
+    "26.1.2+fabric": [
+      "Kpeib8xy",
+      "d7Mvzm3G"
+    ]
+  }
+}

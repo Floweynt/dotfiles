@@ -1,0 +1,45 @@
+{
+  "slug": "skyhands",
+  "projectId": "mRzgckWJ",
+  "versions": {
+    "4smyXKaH": {
+      "filename": "skyhands-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/mRzgckWJ/versions/4smyXKaH/skyhands-1.0.1.jar",
+      "hash": "sha512-/oziBpaozNFuZJX1h3lR/SlxehCgE6zani1ZYp96HoTk3OgyDlynfLUKo1C9YmOJv+YI26uviD1yp84JbR+EKQ==",
+      "gameVersions": [
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "4smyXKaH"
+    ],
+    "26.2+fabric": [
+      "4smyXKaH"
+    ]
+  }
+}

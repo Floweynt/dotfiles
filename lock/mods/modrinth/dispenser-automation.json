@@ -1,0 +1,89 @@
+{
+  "slug": "dispenser-automation",
+  "projectId": "isxaLKMM",
+  "versions": {
+    "NwyyxIeh": {
+      "filename": "dispenser-automation-1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/isxaLKMM/versions/NwyyxIeh/dispenser-automation-1.0%2B1.21.jar",
+      "hash": "sha512-Z+jhHuqCjDF+2P+9cH3RvHaVzMUdr/El2rz6Rw7mBhm9HthP5nsULMbaiNT5BxZT5HFOSaMIBoKKzMI7JBzwqg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nZQFvJnZ": {
+      "filename": "dispenser-automation-1.1+1.21.2.jar",
+      "url": "https://cdn.modrinth.com/data/isxaLKMM/versions/nZQFvJnZ/dispenser-automation-1.1%2B1.21.2.jar",
+      "hash": "sha512-XBoVtEU91p4ZShPmnqZSwqWkPUnZRSNT+awGFA1iVx4RmQ/VaHarDLqko42U2Ny5X7m4+IGm+UhjSyuTj19iOg==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "t7hUGXpc": {
+      "filename": "dispenser-automation-1.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/isxaLKMM/versions/t7hUGXpc/dispenser-automation-1.1%2B1.21.jar",
+      "hash": "sha512-gyD+oJwrrX790LzQ+lZYcvFrRpjmAXQkZ+Fq3Xc6Jk7zqEtSWFFdYlHqyTW2RiP1+LGlVDNca3EckxHxY00w5A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "t7hUGXpc",
+      "NwyyxIeh"
+    ],
+    "1.21.1+fabric": [
+      "t7hUGXpc",
+      "NwyyxIeh"
+    ],
+    "1.21.2+fabric": [
+      "nZQFvJnZ"
+    ],
+    "1.21.3+fabric": [
+      "nZQFvJnZ"
+    ],
+    "1.21.4+fabric": [
+      "nZQFvJnZ"
+    ]
+  }
+}

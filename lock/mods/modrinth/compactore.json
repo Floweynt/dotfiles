@@ -1,0 +1,56 @@
+{
+  "slug": "compactore",
+  "projectId": "Mmkx3Z5U",
+  "versions": {
+    "ILYiIMli": {
+      "filename": "compactore-1.0.1.zip",
+      "url": "https://cdn.modrinth.com/data/Mmkx3Z5U/versions/ILYiIMli/compactore-1.0.1.zip",
+      "hash": "sha512-X/blK4jyC5vl2ivY3NieC/1AYc8MWnZNUmiUDuLXWK3017l6OnCsippi7QIStZNCzX7VA6kRBqtxIHbSEUXrxg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "tsqhxhO1": {
+      "filename": "compactore-1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/Mmkx3Z5U/versions/tsqhxhO1/compactore-1.0.0.zip",
+      "hash": "sha512-bfngFIxK92wO5+4JO551cClLQb9uYifzb7E8kHx7c7sbiAgEbTePRtDb/rB6YFf88Rd5OwTiSoi+kiA1AyMCMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "ILYiIMli",
+      "tsqhxhO1"
+    ],
+    "1.20.1+fabric": [
+      "tsqhxhO1"
+    ]
+  }
+}

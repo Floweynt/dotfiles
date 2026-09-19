@@ -1,0 +1,174 @@
+{
+  "slug": "soft-stepping",
+  "projectId": "4vAvcpEl",
+  "versions": {
+    "IRfYsRF7": {
+      "filename": "softstepping-1.0-forge-mc1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/4vAvcpEl/versions/IRfYsRF7/softstepping-1.0-forge-mc1.19.4.jar",
+      "hash": "sha512-DmxfF8BluYWohF66tVfg896y3YedjX9tkmTY+rFWmulrc0PnM/Vf/BWojP1uB2lt8h0EdIQ2X14RyxHnJ4t+Ww==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PfcNuHU5": {
+      "filename": "softstepping-1.0-forge-mc1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/4vAvcpEl/versions/PfcNuHU5/softstepping-1.0-forge-mc1.19.2.jar",
+      "hash": "sha512-yxww4FrP1nDD7h9pdWIe7H8l//zb392Fb9T/qWmkXIjk+HZTt+sc7uuTQCoFW5Ey3nNWtLuzDKgcws7GoWb6Bg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "m6IKjcP3": {
+      "filename": "softstepping-1.1.1-forge-mc1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/4vAvcpEl/versions/m6IKjcP3/softstepping-1.1.1-forge-mc1.20.4.jar",
+      "hash": "sha512-/l//NsmtvZ2wQURslR55g2mV/Mt0f9JCezJ3Wzll1wsdXMcgnvGPD2gfqkyKjJC47W23ikPzYQAOnOivMJG4wA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qYPS6e1r": {
+      "filename": "softstepping-1.0-fabric-mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/4vAvcpEl/versions/qYPS6e1r/softstepping-1.0-fabric-mc1.20.1.jar",
+      "hash": "sha512-RZCPBgN6HRk3LTzzHnlzZme1Xri0dMUyzkaXEogBszZlLBIlDWd4KpXYOedwmxsnS/aSo5oVnNsXe6ZSDs/KLQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "soe5WdoY": {
+      "filename": "softstepping-1.0-fabric-mc1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/4vAvcpEl/versions/soe5WdoY/softstepping-1.0-fabric-mc1.19.4.jar",
+      "hash": "sha512-ktARFoHWkRRaLuHClYjtu000QKfm4J4tFTt1Fb3QtxcHrZj79MMeozCkT3lqKr+JZfkh9CLy3HkeRD6W1BnHLQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "xoAmSVj1": {
+      "filename": "softstepping-1.0-fabric-mc1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/4vAvcpEl/versions/xoAmSVj1/softstepping-1.0-fabric-mc1.19.2.jar",
+      "hash": "sha512-/ecYcCeGExH/uMa9E4G3zbjnU3p6C049FRe1S+UmLcFsZy8vujH8uUkKTFaYGR/1jjiO6NljFx6suRvDeAWjpA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "xoAmSVj1"
+    ],
+    "1.19.2+forge": [
+      "PfcNuHU5"
+    ],
+    "1.19.2+quilt": [
+      "xoAmSVj1"
+    ],
+    "1.19.4+fabric": [
+      "soe5WdoY"
+    ],
+    "1.19.4+forge": [
+      "IRfYsRF7"
+    ],
+    "1.19.4+quilt": [
+      "soe5WdoY"
+    ],
+    "1.20.1+fabric": [
+      "qYPS6e1r"
+    ],
+    "1.20.1+forge": [
+      "m6IKjcP3"
+    ],
+    "1.20.1+quilt": [
+      "qYPS6e1r"
+    ],
+    "1.20.2+fabric": [
+      "qYPS6e1r"
+    ],
+    "1.20.2+forge": [
+      "m6IKjcP3"
+    ],
+    "1.20.2+quilt": [
+      "qYPS6e1r"
+    ],
+    "1.20.3+forge": [
+      "m6IKjcP3"
+    ],
+    "1.20.4+forge": [
+      "m6IKjcP3"
+    ]
+  }
+}

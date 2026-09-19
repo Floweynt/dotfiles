@@ -1,0 +1,122 @@
+{
+  "slug": "frogvasion",
+  "projectId": "1Ok3lhS4",
+  "versions": {
+    "1b4F96R2": {
+      "filename": "frogvasion-2.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1Ok3lhS4/versions/1b4F96R2/frogvasion-2.2-fabric.jar",
+      "hash": "sha512-vFD94TGX75roWB83reQ4gDd0zqRzusMW9v9fqTu7FOn8HaG7MheW6dDLM+v1pOrVVpkje0IOvwK765vz4IEZBw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PmVwAYo4": {
+      "filename": "frogvasion-2.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1Ok3lhS4/versions/PmVwAYo4/frogvasion-2.1-fabric.jar",
+      "hash": "sha512-QozKLwbc6jjqcFQIOxJQpzOBrDmQmFLp7DzKPr4JkkWjmZgftgbc67SMRvVsEuAQHscjnbMjbO1otbO1oTjREg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "gQwO6EBi": {
+      "filename": "frogvasion-2.4-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1Ok3lhS4/versions/gQwO6EBi/frogvasion-2.4-fabric.jar",
+      "hash": "sha512-xT+6QS6CTXTwSwiPm7c1x4Jq9csDaVKSY73UZ5+u2ae7hmhMQqes8znAIrRYzE82CzqWZuvGcnOhGQq2fveUjA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "q9p1JcyR": {
+      "filename": "frogvasion-1.2.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1Ok3lhS4/versions/q9p1JcyR/frogvasion-1.2.1-fabric.jar",
+      "hash": "sha512-HWG27sOo5ZFjypJWX0xl1evDW4JVJT37QjITVqviB588oPYz88s7Ptyafx7T32gnwSrxPYBqouHG3pypS9wvUw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "sj9x9Hjt": {
+      "filename": "frogvasion-2.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1Ok3lhS4/versions/sj9x9Hjt/frogvasion-2.0-fabric.jar",
+      "hash": "sha512-IlXaQypeqifKCrIhxm/tEMaMDtIuiMU50sfRaZLl8Q2ZubjH7oo7D5xiUPUl8LyPaZEvdJfol3fOhCQfadfyzQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "weAh0RQy": {
+      "filename": "frogvasion-2.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1Ok3lhS4/versions/weAh0RQy/frogvasion-2.3-fabric.jar",
+      "hash": "sha512-sK4lcnvWC33wz6HGEFEQ6qZuCcBg64/N/GiQvePU2izQN/Y62LvTNrmRulKs9R9MLAvcOd9HmUvzCwaAxh8pbQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "q9p1JcyR"
+    ],
+    "1.20.1+fabric": [
+      "1b4F96R2",
+      "PmVwAYo4",
+      "sj9x9Hjt"
+    ],
+    "1.20.4+fabric": [
+      "gQwO6EBi",
+      "weAh0RQy"
+    ]
+  }
+}

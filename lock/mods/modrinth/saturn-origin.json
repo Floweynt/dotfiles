@@ -1,0 +1,79 @@
+{
+  "slug": "saturn-origin",
+  "projectId": "SkGH8CcZ",
+  "versions": {
+    "1HFYjGzV": {
+      "filename": "Saturn Origin (2.0.0).zip",
+      "url": "https://cdn.modrinth.com/data/SkGH8CcZ/versions/1HFYjGzV/Saturn%20Origin%20%282.0.0%29.zip",
+      "hash": "sha512-QNrdbxNqVmKgYUoxmt0+4efZrDssbR2mxL9GqJNAg6xTgBpkIrGzqD4jqj4+Gr1PQPCNP+vvdt5aBdEjDDzjvw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wufpfuUD": {
+      "filename": "saturn-origin-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SkGH8CcZ/versions/wufpfuUD/saturn-origin-2.0.0.jar",
+      "hash": "sha512-ttHdDjuFe19GQzkR0Qpfgde8eBomwk64ouDsyjMDFv8uH+GEWHGnwTKXBaSQwoquwqJxzXv7HAUgcsR8uq8/Xw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "1HFYjGzV"
+    ],
+    "1.21+fabric": [
+      "wufpfuUD"
+    ],
+    "1.21+quilt": [
+      "wufpfuUD"
+    ],
+    "1.21.1+datapack": [
+      "1HFYjGzV"
+    ],
+    "1.21.1+fabric": [
+      "wufpfuUD"
+    ],
+    "1.21.1+quilt": [
+      "wufpfuUD"
+    ]
+  }
+}

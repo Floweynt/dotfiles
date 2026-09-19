@@ -1,0 +1,93 @@
+{
+  "slug": "armor-swap",
+  "projectId": "UqHiQUjv",
+  "versions": {
+    "DF6dRAns": {
+      "filename": "armor-swap-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/UqHiQUjv/versions/v0.1.1/armor-swap-0.1.1.jar",
+      "hash": "sha512-gfCg92nMrYxze+B1c2WpMRlW+fUQxbp/HLkCGTMn883yKdlVuBmhUERKPb5VBTpY3UnrAQuhxJ5YdAUqsoD3Tg==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FbtF99Fx": {
+      "filename": "armor-swap-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/UqHiQUjv/versions/v0.2.0/armor-swap-0.2.0.jar",
+      "hash": "sha512-2YIQ/7tgtP3xCXiiAxVxDn6PYzh/gKiMw1HtzsEL0VE/iu28FWDAb+BcWRB1eD/1Ca8YmSmTIvx8Esl9dUG1ig==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nExoyqSH": {
+      "filename": "armor-swap-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/UqHiQUjv/versions/v0.1.2/armor-swap-0.1.2.jar",
+      "hash": "sha512-pSU1XrmsGAY580WyovrWH19a5KSQI2RzagU+O6x4S4MjbBVCijb3Eni1g0GOOUQ9x5kLmprnOuomBn03CJ6yQQ==",
+      "gameVersions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qGJZPE2R": {
+      "filename": "armor-swap-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/UqHiQUjv/versions/v0.1.3/armor-swap-0.1.3.jar",
+      "hash": "sha512-yMmxa/lIyYDkn1ERPdDNLtkOrxyYkjoZPOdj7F90sh0XsW0ezvAwrvRgeaTRKThQb8hMV5vkjm+W6Htbx/QYgQ==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "DF6dRAns"
+    ],
+    "1.17.1+fabric": [
+      "DF6dRAns"
+    ],
+    "1.18+fabric": [
+      "qGJZPE2R",
+      "nExoyqSH"
+    ],
+    "1.18.1+fabric": [
+      "qGJZPE2R"
+    ],
+    "1.19+fabric": [
+      "FbtF99Fx"
+    ]
+  }
+}

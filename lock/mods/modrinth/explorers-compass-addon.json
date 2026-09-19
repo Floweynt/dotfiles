@@ -1,0 +1,31 @@
+{
+  "slug": "explorers-compass-addon",
+  "projectId": "snJqs4Cd",
+  "versions": {
+    "TnFv4Xka": {
+      "filename": "explorerscompass-addon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/snJqs4Cd/versions/TnFv4Xka/explorerscompass-addon-1.0.0.jar",
+      "hash": "sha512-oOUgiCvCRRWn465QsnuAX8UE/PczvmblBRw5XTHwvUu62z4UoC/WXV7vJKiqgwlvwtM+zjZWQdjutfFBR/Z1JA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "explorers-compass",
+          "projectId": "RV1qfVQ8",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "TnFv4Xka"
+    ]
+  }
+}

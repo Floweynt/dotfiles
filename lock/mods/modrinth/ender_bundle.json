@@ -1,0 +1,114 @@
+{
+  "slug": "ender_bundle",
+  "projectId": "OLQsqQ3o",
+  "versions": {
+    "3zvYJwfG": {
+      "filename": "enderbundle-1.11.0.jar",
+      "url": "https://cdn.modrinth.com/data/OLQsqQ3o/versions/forge-1.11.0/enderbundle-1.11.0.jar",
+      "hash": "sha512-nzDTM1xK648r6+dIsdQzD9eNyNgAu8oxli8xoQwk/6A6tnoBbH2vS0m559A9l6QdXIX7XO2ZWN1eKSg29mrRGA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "5PcXWCrS": {
+      "filename": "enderbundle-fabric-1.11.0.jar",
+      "url": "https://cdn.modrinth.com/data/OLQsqQ3o/versions/fabric-1.11.0/enderbundle-fabric-1.11.0.jar",
+      "hash": "sha512-SRpnTDXqEzBt/pfRXN7JCWBJuZYWyGclTRnEylHYFcQku8qS3AJBncUObvQdgsLZghW5CuEUwW9wYqwSpGLoPg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "DZpqK33z": {
+      "filename": "enderbundle-1.10.1.jar",
+      "url": "https://cdn.modrinth.com/data/OLQsqQ3o/versions/forge-1.10.1/enderbundle-1.10.1.jar",
+      "hash": "sha512-+nF8XopQyTpY9B9y1QXEUW5BCnk0VxkhtURYWfLnb+KkPw/SI15ymJ7W3ribwchlWraDsZlk9t3E4Xj1c0gN2g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "YG4mqebN": {
+      "filename": "enderbundle-1.09.jar",
+      "url": "https://cdn.modrinth.com/data/OLQsqQ3o/versions/-1.09/enderbundle-1.09.jar",
+      "hash": "sha512-2VYyZAqYt5+QXrU5Cc+clQDmFNtUb1MZFdF2hI5O4lNqp+TKLEX30lfSYG1gM3hAAuEHk0WiKeTnnByBwE0A8Q==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ZD9Rdb6X": {
+      "filename": "enderbundle-fabric-1.10.1.jar",
+      "url": "https://cdn.modrinth.com/data/OLQsqQ3o/versions/-fabric-1.10.1/enderbundle-fabric-1.10.1.jar",
+      "hash": "sha512-Oq2TyBDBLh8XbAHm4kPejOe/i/m3c0PV/lHTXLxrEXF6aQ5pK6/VD5VO/BokjL3NydRXOJ+1VRHjKIFIs2kZ/Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "au9fePIn": {
+      "filename": "enderbundle-1.10.jar",
+      "url": "https://cdn.modrinth.com/data/OLQsqQ3o/versions/-1.10/enderbundle-1.10.jar",
+      "hash": "sha512-cHaRtlwUuLT+pU6vegFp35kshp/Y+0hBinG3+svRWX50fuHkgwsb+moSZBrFMSK9p9cTIdGg2yk9DglU/wmlrw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.1+forge": [
+      "YG4mqebN"
+    ],
+    "1.18.2+fabric": [
+      "ZD9Rdb6X"
+    ],
+    "1.18.2+forge": [
+      "DZpqK33z",
+      "au9fePIn"
+    ],
+    "1.19+fabric": [
+      "5PcXWCrS"
+    ],
+    "1.19+forge": [
+      "3zvYJwfG"
+    ]
+  }
+}

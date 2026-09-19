@@ -1,0 +1,48 @@
+{
+  "slug": "squid-utils-api",
+  "projectId": "8R4ml76m",
+  "versions": {
+    "I3ubJCjm": {
+      "filename": "SquidUtils-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/8R4ml76m/versions/I3ubJCjm/SquidUtils-1.5.0.jar",
+      "hash": "sha512-JTn76yFzh4Irj0w3/Wsfg0vp/PXW9xvwYkpAktLKnpbc/XstQRcJxC7HQIHP8R9KfpYJFxclQttMFmD/QqxW8w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "JTg46wXt": {
+      "filename": "squidutils-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8R4ml76m/versions/JTg46wXt/squidutils-1.0.0.jar",
+      "hash": "sha512-wgUYQXIPKrPw6Nyvi67rvdDiSJMjeLuM8zZWUCAbW64ocYQvXPYK0A4wseZP3NZ54RpKK9e5DnG+gl6K7VGfIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lodestonelib",
+          "projectId": "bN3xUWdo",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "JTg46wXt"
+    ],
+    "1.21.1+fabric": [
+      "I3ubJCjm"
+    ]
+  }
+}

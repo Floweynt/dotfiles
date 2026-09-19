@@ -1,0 +1,83 @@
+{
+  "slug": "egapple-recipe",
+  "projectId": "BJeyaWXi",
+  "versions": {
+    "KMp9v3Id": {
+      "filename": "egapplemod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BJeyaWXi/versions/KMp9v3Id/egapplemod-1.0.0.jar",
+      "hash": "sha512-eILjVxbgVz38A4Hn9/VNNeAWcvcpG2oC49Rm77VWq5whA2JSy5wvEYNrZ1w6+Pjtd9M7grdfoTQHtMtxhxAi0Q==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Loc5kdHF": {
+      "filename": "egapplemod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BJeyaWXi/versions/Loc5kdHF/egapplemod-1.0.0.jar",
+      "hash": "sha512-wu5mUeY0oVpxPGzRprCV5UFq83XM+XY5DciivUqlzcFyDHNE9z3knQbHCJMQDhE8xLNxuICS3hLMd+fB6CURfQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Loc5kdHF"
+    ],
+    "1.20.1+quilt": [
+      "Loc5kdHF"
+    ],
+    "1.20.2+fabric": [
+      "Loc5kdHF"
+    ],
+    "1.20.2+quilt": [
+      "Loc5kdHF"
+    ],
+    "1.20.3+fabric": [
+      "Loc5kdHF"
+    ],
+    "1.20.3+quilt": [
+      "Loc5kdHF"
+    ],
+    "1.20.4+fabric": [
+      "Loc5kdHF"
+    ],
+    "1.20.4+quilt": [
+      "Loc5kdHF"
+    ],
+    "1.20.6+fabric": [
+      "KMp9v3Id"
+    ],
+    "1.20.6+quilt": [
+      "KMp9v3Id"
+    ]
+  }
+}

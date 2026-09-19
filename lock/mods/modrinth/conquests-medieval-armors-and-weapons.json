@@ -1,0 +1,97 @@
+{
+  "slug": "conquests-medieval-armors-and-weapons",
+  "projectId": "fYcVkuT5",
+  "versions": {
+    "4RH73JQf": {
+      "filename": "MedievalArmsCR-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fYcVkuT5/versions/4RH73JQf/MedievalArmsCR-2.0.0.jar",
+      "hash": "sha512-X35UFkrOYwtZmSyVp9bfuRukMyS/Az56MfoIZEs4fvHJPs3wKk5OJuANWVmNOxEwnVvMggtVIYqLu3kzks54Sw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "azurelib-armor",
+          "projectId": "pduQXSbl",
+          "type": "required"
+        }
+      ]
+    },
+    "IsdsIo0R": {
+      "filename": "conq_medieval_arms-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fYcVkuT5/versions/IsdsIo0R/conq_medieval_arms-1.0.jar",
+      "hash": "sha512-I4JMWDXfnj+7IGOM4Wmk5FOCTofJHKriMETHUPGeQUHhrc8foU2AmYdYE2BDDr4Kpv6n0govjyjknK4tGoM4HA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SCznMQDd": {
+      "filename": "MedievalArmsCR-forge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fYcVkuT5/versions/SCznMQDd/MedievalArmsCR-forge-2.0.0.jar",
+      "hash": "sha512-vj4T0Kxx1SAuiwN/se3w5oIYpfeI4S3JdeESdkkuFCLXaCWy3wMFLf6ndtf9pLNacfrOWeqS49z7+UzfiLj/Vg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "azurelib-armor",
+          "projectId": "pduQXSbl",
+          "type": "required"
+        }
+      ]
+    },
+    "vSjPxgFQ": {
+      "filename": "MedievalArmsCR-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fYcVkuT5/versions/vSjPxgFQ/MedievalArmsCR-1.0.0.jar",
+      "hash": "sha512-bqMT4tm+aU3EK5/WabnI9+0BqLKgd6siy0lzB09g10mALVw1C+iky/38K9+pnGmivsGke4BiV4ynqxFzk1ya5A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "azurelib-armor",
+          "projectId": "pduQXSbl",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "IsdsIo0R"
+    ],
+    "1.20.1+fabric": [
+      "vSjPxgFQ",
+      "4RH73JQf"
+    ],
+    "1.20.1+forge": [
+      "SCznMQDd"
+    ]
+  }
+}

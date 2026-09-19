@@ -1,0 +1,82 @@
+{
+  "slug": "shape-shifter-curse-sinytra-connector-compatible-version",
+  "projectId": "h01TR5pE",
+  "versions": {
+    "WZtdsrM1": {
+      "filename": "shape-shifter-curse-fabric-1.9.1-sinytra-connector.jar",
+      "url": "https://cdn.modrinth.com/data/h01TR5pE/versions/WZtdsrM1/shape-shifter-curse-fabric-1.9.1-sinytra-connector.jar",
+      "hash": "sha512-QIGqrk1o6xvW1JOwFSN/DQ5KMQ/YWkjPPNU4Jdhx2oyl3vKx0QRkb5x5PbXo4vVNQuk3FCcC6y7z3eEctm7Adg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector-extras",
+          "projectId": "FYpiwiBR",
+          "type": "required"
+        },
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "kGEtBG9f": {
+      "filename": "shape-shifter-curse-fabric-1.9.2-sinytra-connector.jar",
+      "url": "https://cdn.modrinth.com/data/h01TR5pE/versions/kGEtBG9f/shape-shifter-curse-fabric-1.9.2-sinytra-connector.jar",
+      "hash": "sha512-qdEHWb4bHOoUosRx6W1nMmZEs6lOevRIFYftOCN+r5gqslf5WCL5oNzJMoyHvuwTScYXrN0ykhpOCDpLbIGlwQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "connector-extras",
+          "projectId": "FYpiwiBR",
+          "type": "required"
+        },
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kGEtBG9f",
+      "WZtdsrM1"
+    ]
+  }
+}

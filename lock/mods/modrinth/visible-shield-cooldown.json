@@ -1,0 +1,85 @@
+{
+  "slug": "visible-shield-cooldown",
+  "projectId": "prrkaEOx",
+  "versions": {
+    "PJKdw21u": {
+      "filename": "visible_shield_cd-1.20.4+1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/prrkaEOx/versions/PJKdw21u/visible_shield_cd-1.20.4%2B1.0.0.jar",
+      "hash": "sha512-Os4xLjcpeEnboXm7TDZpU1lnsY+brlqZix8zb/ivAuYmd8d+NtrvvdVI3T8Ff6DpDSSgpW9plybjpeiHrBj40w==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "qieHtt5b": {
+      "filename": "visible_shield_cd-1.20.6+1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/prrkaEOx/versions/qieHtt5b/visible_shield_cd-1.20.6%2B1.0.1.jar",
+      "hash": "sha512-YTDi6w+3qWqyg5uyIGjQjZoqHeMHMyjwdvuj9saCxghH0cmLvmPNTBwCtDyZM/bIl5zNROor8pnr4MtyQIdk4w==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "un5C6pFV": {
+      "filename": "visible_shield_cd-1.20.4+1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/prrkaEOx/versions/un5C6pFV/visible_shield_cd-1.20.4%2B1.0.1.jar",
+      "hash": "sha512-xqwe8wt5NVftcqxgbE1X4ZE6e5XBQk5N5iEEcDPeTtQ0VFxTfZfT11hfXO8AIvQQ/mgJMBAF8Q54qj8a3EAI1Q==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.3+fabric": [
+      "un5C6pFV",
+      "PJKdw21u"
+    ],
+    "1.20.4+fabric": [
+      "un5C6pFV",
+      "PJKdw21u"
+    ],
+    "1.20.5+fabric": [
+      "qieHtt5b"
+    ],
+    "1.20.6+fabric": [
+      "qieHtt5b"
+    ]
+  }
+}

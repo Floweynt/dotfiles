@@ -1,0 +1,62 @@
+{
+  "slug": "comfy-beds",
+  "projectId": "2ct8utK2",
+  "versions": {
+    "Es4vQb5e": {
+      "filename": "comfy-beds-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ct8utK2/versions/Es4vQb5e/comfy-beds-1.1.0.jar",
+      "hash": "sha512-dmP+7RlRm/7SeTZrYlK4kicuYaCaB/Jq5XzkqXPMPYE46DaGzubR6+o/Rx9dmStkEo6fMAtYnT7Xuplv9YRBZQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ndogDDo2": {
+      "filename": "comfy-beds-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ct8utK2/versions/ndogDDo2/comfy-beds-1.0.0.jar",
+      "hash": "sha512-XXfqf6I1iyPMICCWSl2IbFmn2W7BccbTgdIFLGn7I5mugZ9heBSyvRRBVkSkbxHiVxAIl46rvzr0yq+3RTURvw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "ndogDDo2"
+    ],
+    "1.19.4+fabric": [
+      "ndogDDo2"
+    ],
+    "1.20+fabric": [
+      "Es4vQb5e"
+    ],
+    "1.20.1+fabric": [
+      "Es4vQb5e"
+    ]
+  }
+}

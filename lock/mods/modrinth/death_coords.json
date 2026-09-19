@@ -1,0 +1,60 @@
+{
+  "slug": "death_coords",
+  "projectId": "7jNZQSMU",
+  "versions": {
+    "Ew3psFYU": {
+      "filename": "death_coords-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7jNZQSMU/versions/Ew3psFYU/death_coords-1.0.0.jar",
+      "hash": "sha512-kMuS6y5eQAM/b17NZNPYZayomWz0EUzPaeZ0F9NNVt0DjgLZA3w0N48y4TjPs4ENKjs+YlOLVSVGJCPMEUliAg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mwPq1tPt": {
+      "filename": "Death-Coords-1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/7jNZQSMU/versions/mwPq1tPt/Death-Coords-1.0.0.zip",
+      "hash": "sha512-WeSs0WWYT+hV0Eu/wgVqYze3PpllJfs8I3t7m5n5UU0+hrzVVvqrQ7Ld7qY5aHeQDJSB9uBAMvP4RmnkBK7B0g==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.5+datapack": [
+      "mwPq1tPt"
+    ],
+    "1.21.5+fabric": [
+      "Ew3psFYU"
+    ],
+    "1.21.5+forge": [
+      "Ew3psFYU"
+    ],
+    "1.21.5+neoforge": [
+      "Ew3psFYU"
+    ],
+    "1.21.5+quilt": [
+      "Ew3psFYU"
+    ]
+  }
+}

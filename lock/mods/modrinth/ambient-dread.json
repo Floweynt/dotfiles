@@ -1,0 +1,48 @@
+{
+  "slug": "ambient-dread",
+  "projectId": "wQ7vBYSM",
+  "versions": {
+    "9CsWNJv3": {
+      "filename": "ambientdread-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wQ7vBYSM/versions/9CsWNJv3/ambientdread-1.0.0.jar",
+      "hash": "sha512-FY/NOQwKdN5ki+YTVMqMT2kvbx5uIX6MOaaETOiFWOnUFNlIf34HMxOir4RYipaYRCCqotvOFKnuN2oBpdR38w==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bllJ9eNB": {
+      "filename": "ambientdread-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wQ7vBYSM/versions/bllJ9eNB/ambientdread-1.0.0.jar",
+      "hash": "sha512-G3dMK3lku4WlxPbizBWXlctmjUGZDDLFPLUpAVDIiDyC3/vzyYoIwxEhY9MRYEwpN89Y/tHxZLmHpL53O/BbDg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "9CsWNJv3"
+    ],
+    "26.2+forge": [
+      "bllJ9eNB"
+    ]
+  }
+}

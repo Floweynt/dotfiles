@@ -1,0 +1,72 @@
+{
+  "slug": "lambdacontrols",
+  "projectId": "W1D3UXEc",
+  "versions": {
+    "NexczI3X": {
+      "filename": "lambdacontrols-fabric-1.6.0+1.16.jar",
+      "url": "https://cdn.modrinth.com/data/W1D3UXEc/versions/1.6.0%2B1.16/lambdacontrols-fabric-1.6.0%2B1.16.jar",
+      "hash": "sha512-usFlGoZvsjOsxLTf60VPFQqG9UbeIaU7flfUAN/PPlbbLZq7zKHf4y8YpORAVcoXQrKXu33AYQyvkz0tgT+5bw==",
+      "gameVersions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "hJZ6lCyM": {
+      "filename": "lambdacontrols-1.7.1+1.17.jar",
+      "url": "https://cdn.modrinth.com/data/W1D3UXEc/versions/1.7.1%2B1.17/lambdacontrols-1.7.1%2B1.17.jar",
+      "hash": "sha512-Kxgg8KuKMs5sICpjnBPaXTTtwGdljpDVq0viUCrryi8qQ2meVykjUSjD0S/9QbhlzqGhox0VnQSNPSiOTMW7uA==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1",
+        "1.18"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.2+fabric": [
+      "NexczI3X"
+    ],
+    "1.16.3+fabric": [
+      "NexczI3X"
+    ],
+    "1.16.4+fabric": [
+      "NexczI3X"
+    ],
+    "1.16.5+fabric": [
+      "NexczI3X"
+    ],
+    "1.17+fabric": [
+      "hJZ6lCyM"
+    ],
+    "1.17+quilt": [
+      "hJZ6lCyM"
+    ],
+    "1.17.1+fabric": [
+      "hJZ6lCyM"
+    ],
+    "1.17.1+quilt": [
+      "hJZ6lCyM"
+    ],
+    "1.18+fabric": [
+      "hJZ6lCyM"
+    ],
+    "1.18+quilt": [
+      "hJZ6lCyM"
+    ]
+  }
+}

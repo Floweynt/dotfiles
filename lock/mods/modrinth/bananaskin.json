@@ -1,0 +1,58 @@
+{
+  "slug": "bananaskin",
+  "projectId": "6KTCf0WR",
+  "versions": {
+    "Esnmc62R": {
+      "filename": "BananaSkin-1.0.2+mc-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/6KTCf0WR/versions/Esnmc62R/BananaSkin-1.0.2%2Bmc-1.21.jar",
+      "hash": "sha512-eukqFXSHq8FVNfdRyW1jwB1m0vrwFj3lXHVXXTtWFPqwqKIxxeSqh5gBK+uEHhhyrB6pJNCnRHPdbjWr/K0lCQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uDCwofgh": {
+      "filename": "BananaSkin-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/6KTCf0WR/versions/uDCwofgh/BananaSkin-1.0.1.jar",
+      "hash": "sha512-1U8pUqtPntw5NZ+qJEy9kzosh59QUphB8SqymiCnjz8vXn1dWPGfNvfhPWfYiSANhNxokb0wFYW8UyZJX4dbhQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "Esnmc62R",
+      "uDCwofgh"
+    ],
+    "1.21.1+fabric": [
+      "Esnmc62R",
+      "uDCwofgh"
+    ]
+  }
+}

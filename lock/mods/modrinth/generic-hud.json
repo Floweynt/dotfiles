@@ -1,0 +1,202 @@
+{
+  "slug": "generic-hud",
+  "projectId": "8vu3y1N4",
+  "versions": {
+    "65qdVeio": {
+      "filename": "generic-hud-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/8vu3y1N4/versions/65qdVeio/generic-hud-1.0.1.jar",
+      "hash": "sha512-kF2zsoaI2xJJm0pPSt83KgcvducHQTPkV9q3R/8l/vBWw6kHibs4vIyyW2xJDnPRnJWUC4V0jeeAm3Tvtdew0w==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "hud-lib",
+          "projectId": "dWIHwNEE",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ju4Z6Dpw": {
+      "filename": "generic-hud-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/8vu3y1N4/versions/Ju4Z6Dpw/generic-hud-1.0.1.jar",
+      "hash": "sha512-ck+Wauyz5xm9BxB5SK+dLF+VorjZdSjgOnQXRelQC3GHYa0ZctshE2OZ20XqqPuH5zoGiKKjwN38MzfryPUTOQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "hud-lib",
+          "projectId": "dWIHwNEE",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "LG8f2Z2l": {
+      "filename": "generic-hud-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/8vu3y1N4/versions/LG8f2Z2l/generic-hud-1.0.1.jar",
+      "hash": "sha512-hJd8VCMxdBNu+Da0+rrekzLhpI/mKc1XBTbFCh1zYullYtffaOg/AE6hmKRPDksXPDr2sH+PaVGissyjiUQhdg==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "hud-lib",
+          "projectId": "dWIHwNEE",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "LkqKbJrn": {
+      "filename": "generic-hud-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8vu3y1N4/versions/LkqKbJrn/generic-hud-1.0.0.jar",
+      "hash": "sha512-hHxGQb1LiMZ1C8+cwypzVbnzREdq/nepqvcBXJWKF4BwObpfF9ZzwKgSVNZUjBUsbsPAOnhcwnYIeu5Bq4bQGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "hud-lib",
+          "projectId": "dWIHwNEE",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Ju4Z6Dpw",
+      "LkqKbJrn"
+    ],
+    "1.20.4+fabric": [
+      "Ju4Z6Dpw"
+    ],
+    "1.20.5+fabric": [
+      "Ju4Z6Dpw"
+    ],
+    "1.20.6+fabric": [
+      "Ju4Z6Dpw"
+    ],
+    "1.21.1+fabric": [
+      "65qdVeio"
+    ],
+    "1.21.10+fabric": [
+      "LG8f2Z2l"
+    ],
+    "1.21.2+fabric": [
+      "65qdVeio"
+    ],
+    "1.21.3+fabric": [
+      "65qdVeio"
+    ],
+    "1.21.4+fabric": [
+      "65qdVeio"
+    ],
+    "1.21.5+fabric": [
+      "65qdVeio"
+    ],
+    "1.21.6+fabric": [
+      "LG8f2Z2l"
+    ],
+    "1.21.7+fabric": [
+      "LG8f2Z2l"
+    ],
+    "1.21.8+fabric": [
+      "LG8f2Z2l"
+    ],
+    "1.21.9+fabric": [
+      "LG8f2Z2l"
+    ]
+  }
+}

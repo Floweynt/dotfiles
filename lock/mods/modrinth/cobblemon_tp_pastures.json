@@ -1,0 +1,68 @@
+{
+  "slug": "cobblemon_tp_pastures",
+  "projectId": "sDSLYSX9",
+  "versions": {
+    "LHrTIf9M": {
+      "filename": "cobblemon_tp_pastures-1.21.1-1.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/sDSLYSX9/versions/LHrTIf9M/cobblemon_tp_pastures-1.21.1-1.1-neoforge.jar",
+      "hash": "sha512-dxEV1ALMj/8RTOIwcntZyRiu5xSP61ReP85aFUOigz9Y+vHzBdVMmMdvcANPP133Q+0N6AcJcT2NW1rohk1d/A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "iMHdZ4Gu": {
+      "filename": "cobblemon_tp_pastures-1.21.1-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/sDSLYSX9/versions/iMHdZ4Gu/cobblemon_tp_pastures-1.21.1-1.1.jar",
+      "hash": "sha512-0LbfcL9MQEZKGQeTlxYsQsSR5oMa2X1NEOX5t9hp+9NryONCvGNqzEuZHucymD5GkLgh1Ivjhe9sXHYRsvCbpw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "mwCubTte": {
+      "filename": "cobblemon_tp_pastures-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/sDSLYSX9/versions/mwCubTte/cobblemon_tp_pastures-1.21.1-1.0.jar",
+      "hash": "sha512-8SxaQuxOFwA9Rjg+kKQiO+hc5S5sMVlzq/TARou8aaD0PQtj8zG6Zm3Gg/7QpfGnokLAJFrl+MBI4kAzFkuDfw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "iMHdZ4Gu",
+      "mwCubTte"
+    ],
+    "1.21.1+neoforge": [
+      "LHrTIf9M"
+    ]
+  }
+}

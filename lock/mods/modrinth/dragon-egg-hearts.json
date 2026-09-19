@@ -1,0 +1,100 @@
+{
+  "slug": "dragon-egg-hearts",
+  "projectId": "kbIam8DN",
+  "versions": {
+    "DgBlsLgA": {
+      "filename": "dragon-egg-hearts-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/kbIam8DN/versions/DgBlsLgA/dragon-egg-hearts-1.0.2.jar",
+      "hash": "sha512-gqN0VIeoGPLHAoWkM2YOACh/r3eZ48ZUPs29HeHVOoHtWOnIXd3QCJHCNFE6F3CAIxn0yE/U+jJ6ACsX5spnpQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KtXztrCY": {
+      "filename": "dragon-egg-hearts-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kbIam8DN/versions/KtXztrCY/dragon-egg-hearts-1.0.1.jar",
+      "hash": "sha512-ySvAq9cgCt6hNPxK2xEb8r/ZOMf7h5KYRnoUf5+MJv7XnZVkSoeIANAaj1hCYmUsu0whcK+D1f+f14ri/q63zg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Lc2t2Zff": {
+      "filename": "dragon-egg-hearts-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/kbIam8DN/versions/Lc2t2Zff/dragon-egg-hearts-1.0.3.jar",
+      "hash": "sha512-30u695yWyEtc3X3QcAWRDDnMmd9vH5dUB5FZJCHthyjnE7fbHRedkv3odcRSvYYtIvxoCg8Fz+hseh4qRxtfuA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VFbJ2aG3": {
+      "filename": "dragon-egg-hearts-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kbIam8DN/versions/VFbJ2aG3/dragon-egg-hearts-1.0.0.jar",
+      "hash": "sha512-/8GmgCGuzSKSbTdqdaRsih7UbBi3Pem/7F06GkrfK+1er9eXyZubjQUGgdM+NVe2LKApVCjrmYvlft4C6APwng==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "KtXztrCY",
+      "VFbJ2aG3"
+    ],
+    "26.1+fabric": [
+      "Lc2t2Zff",
+      "DgBlsLgA"
+    ],
+    "26.1.1+fabric": [
+      "Lc2t2Zff",
+      "DgBlsLgA"
+    ],
+    "26.1.2+fabric": [
+      "Lc2t2Zff"
+    ]
+  }
+}

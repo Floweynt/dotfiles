@@ -1,0 +1,124 @@
+{
+  "slug": "iwt",
+  "projectId": "cji6sacS",
+  "versions": {
+    "6BkCUAQd": {
+      "filename": "immersive-weathering-tweaks-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cji6sacS/versions/6BkCUAQd/immersive-weathering-tweaks-fabric-1.1.0.jar",
+      "hash": "sha512-y+oPW94HG+7zTQGLgRWLZaXmlOBdURW/t+C0UyKUP5ljHlF3FAbN37R5SvsoB/gaTWVrE9Zr//CFaGLhVCYtCg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "7m4XaqbC": {
+      "filename": "immersive-weathering-tweaks-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cji6sacS/versions/7m4XaqbC/immersive-weathering-tweaks-forge-1.0.0.jar",
+      "hash": "sha512-lgAawHlh7od6hQrTQ1diLIGUDveIQm0mEZRqExlwZp/xQXA9tAiZAB16G4Yyt2bUJWUqTLCVs+Ind0fTFkEsVA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quantifiedapi",
+          "projectId": "z4G4OIuV",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-weathering",
+          "projectId": "jkskOO9i",
+          "type": "required"
+        }
+      ]
+    },
+    "9QeLxAWZ": {
+      "filename": "immersive-weathering-tweaks-forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cji6sacS/versions/9QeLxAWZ/immersive-weathering-tweaks-forge-1.1.0.jar",
+      "hash": "sha512-egwdcMF+Z6zAYjhtzMOIBcXvDqJuOqvU4bsU3Fl4hTRZ80ljAymdf92zlw9scdRKeNBMLmKArP/Nl4PScmJTyQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "luErK3zV": {
+      "filename": "immersive-weathering-tweaks-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cji6sacS/versions/luErK3zV/immersive-weathering-tweaks-fabric-1.0.0.jar",
+      "hash": "sha512-YxrTUL9vzP7N8Kgh0cEr8AHhEmD/9zL+V/UN3ui6zR0ss4e8+CN/5LjUZ3cafUhsam9voQ6h2Vj9DpeOutSVkw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersive-weathering",
+          "projectId": "jkskOO9i",
+          "type": "required"
+        },
+        {
+          "slug": "quantifiedapi",
+          "projectId": "z4G4OIuV",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "6BkCUAQd",
+      "luErK3zV"
+    ],
+    "1.20.1+forge": [
+      "9QeLxAWZ",
+      "7m4XaqbC"
+    ],
+    "1.20.2+forge": [
+      "9QeLxAWZ",
+      "7m4XaqbC"
+    ],
+    "1.20.3+forge": [
+      "9QeLxAWZ",
+      "7m4XaqbC"
+    ],
+    "1.20.4+forge": [
+      "9QeLxAWZ",
+      "7m4XaqbC"
+    ],
+    "1.20.5+forge": [
+      "9QeLxAWZ",
+      "7m4XaqbC"
+    ],
+    "1.20.6+forge": [
+      "9QeLxAWZ",
+      "7m4XaqbC"
+    ]
+  }
+}

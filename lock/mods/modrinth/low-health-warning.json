@@ -1,0 +1,77 @@
+{
+  "slug": "low-health-warning",
+  "projectId": "SVlWZeX2",
+  "versions": {
+    "4OJMj28M": {
+      "filename": "lowhelthwarning-1.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/SVlWZeX2/versions/4OJMj28M/lowhelthwarning-1.1.4.jar",
+      "hash": "sha512-sr68QXOnb6HwpV3BgUstORiL5BowUl8g44ugercyow8P+BLuTfp9uIHXV2vTV8GTkjYXLmYdF+o3KuvyMttIFw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "E72Nf5I4": {
+      "filename": "lowhelthwarning-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SVlWZeX2/versions/E72Nf5I4/lowhelthwarning-1.0.0.jar",
+      "hash": "sha512-lqx6i9pAIaYJbhIDcUvF87jzQJZGHRZ+poc6fxMaCwvbrEA93taPmiBsKTRHzw+yvCYTsEMRtVomXPytGBorlw==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ci644wVh": {
+      "filename": "lowhelthwarning-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SVlWZeX2/versions/ci644wVh/lowhelthwarning-1.0.0.jar",
+      "hash": "sha512-3DX5tnC0Qr1m6EOsZNhDw8NqbUk25BTfH6NkAVzViPp6Jl8x0dErflV5KxR3srxCtL8NMYLhFnSURZBM0unUcw==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "ci644wVh",
+      "E72Nf5I4"
+    ],
+    "1.21.5+fabric": [
+      "ci644wVh",
+      "E72Nf5I4"
+    ],
+    "26.1+fabric": [
+      "4OJMj28M"
+    ],
+    "26.1.1+fabric": [
+      "4OJMj28M"
+    ],
+    "26.1.2+fabric": [
+      "4OJMj28M"
+    ]
+  }
+}

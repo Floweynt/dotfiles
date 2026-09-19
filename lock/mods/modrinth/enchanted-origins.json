@@ -1,0 +1,78 @@
+{
+  "slug": "enchanted-origins",
+  "projectId": "Y410Ien5",
+  "versions": {
+    "2ggISL6c": {
+      "filename": "enchanted_origins-1.0.4-Fabric-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/Y410Ien5/versions/2ggISL6c/enchanted_origins-1.0.4-Fabric-1.20.jar",
+      "hash": "sha512-ZHwITI2G+0ULx9X7OqhGq+PsOK90mo3VZyZM/wA3D/qUcRh7KpHd97hOHTtBSpc9gZAG737mdoDJQql7lZH8ag==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "rYb1wN7d": {
+      "filename": "enchanted_origins-1.0.4-Fabric-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/Y410Ien5/versions/rYb1wN7d/enchanted_origins-1.0.4-Fabric-1.19.jar",
+      "hash": "sha512-CzphpnIEHlQHWfPIO8PSzUZOrw9t2tI1sDOUCpT37cz3NYkwO42ltDtOavyFjBPGRB/zJ3hAq3ITZgvHhlIZQw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "rYb1wN7d"
+    ],
+    "1.19.1+fabric": [
+      "rYb1wN7d"
+    ],
+    "1.19.2+fabric": [
+      "rYb1wN7d"
+    ],
+    "1.19.3+fabric": [
+      "rYb1wN7d"
+    ],
+    "1.19.4+fabric": [
+      "rYb1wN7d"
+    ],
+    "1.20+fabric": [
+      "2ggISL6c"
+    ],
+    "1.20.1+fabric": [
+      "2ggISL6c"
+    ],
+    "1.20.2+fabric": [
+      "2ggISL6c"
+    ]
+  }
+}

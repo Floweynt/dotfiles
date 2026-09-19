@@ -1,0 +1,114 @@
+{
+  "slug": "cobbleteams",
+  "projectId": "EmnLd3UT",
+  "versions": {
+    "9aFmzzAA": {
+      "filename": "CobbleTeams-NeoForge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/EmnLd3UT/versions/9aFmzzAA/CobbleTeams-NeoForge-1.0.1.jar",
+      "hash": "sha512-LcJ7kduil3kRo58Cj4Rpo9rtBZpStcivoVoGq9lZOUtH+ApQq0iQm0wxQiZiRHucTf5o3J0lcb5pLvzZhHwzMw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "T8PmJIsR": {
+      "filename": "cobbleteams-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EmnLd3UT/versions/T8PmJIsR/cobbleteams-1.0.0.jar",
+      "hash": "sha512-FRQLcGQ9CDDNcHpgWKX+FpOMTxPQM321ZR7TPeyaVCI6obNFWsmPzHEg1tBrr4j6nxCAHR0tdx6xglKT30bQgg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "eEbNGcNl": {
+      "filename": "CobbleTeams-NeoForge-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/EmnLd3UT/versions/eEbNGcNl/CobbleTeams-NeoForge-1.0.3.jar",
+      "hash": "sha512-+uKL5+TzpUi6C2ZR3vuytXC+cg/e7n+ja+D8V6CHunPJDqfkj8Ieo1wb+IHAZkjCvuCv1tmgQS3sX4rtdOW13g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "iStGW3qw": {
+      "filename": "CobbleTeams-NeoForge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EmnLd3UT/versions/iStGW3qw/CobbleTeams-NeoForge-1.0.0.jar",
+      "hash": "sha512-YmPx/wbNTgAZw8AQFGLsC8Dww+JoW/bDblo79hFN/xNCTsgJC0RR+TAtCr8nPAdui6cOgHnzthLaM+f7K0vSJg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "q0cpmNns": {
+      "filename": "cobbleteams-1.0.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/EmnLd3UT/versions/q0cpmNns/cobbleteams-1.0.3-fabric.jar",
+      "hash": "sha512-JPGQS7hUSvG5Oqy5BxniM/tSI8pnFSn7hqgMm9B6H09zOJrdDgqm9udhuW+6CEh+8vunHPsUsv6fiBUXdF3Uaw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "rzFdpLpv": {
+      "filename": "cobbleteams-1.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/EmnLd3UT/versions/rzFdpLpv/cobbleteams-1.0.1-fabric.jar",
+      "hash": "sha512-EDJHQ3Fz7B9YFAahMu5wr/g2ZZCuNeVmHdoW4CIaiTeUDxchpaCYszFqAkxRd2HL97skTASGgbKNzivImYVM0A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "q0cpmNns",
+      "rzFdpLpv",
+      "T8PmJIsR"
+    ],
+    "1.21.1+neoforge": [
+      "eEbNGcNl",
+      "9aFmzzAA",
+      "iStGW3qw"
+    ]
+  }
+}

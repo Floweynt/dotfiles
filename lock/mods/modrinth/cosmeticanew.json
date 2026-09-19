@@ -1,0 +1,67 @@
+{
+  "slug": "cosmeticanew",
+  "projectId": "WtHgO7gN",
+  "versions": {
+    "7s09Kmpt": {
+      "filename": "cosmeticanew-1.0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/WtHgO7gN/versions/7s09Kmpt/cosmeticanew-1.0.1.2.jar",
+      "hash": "sha512-8f0vJfzBSZgrhSAjPsqD5smzN0C0x1hs04KbKjmDPD2FWxZhVezw1MXDr6DgzcPxsgoDRFal6uMRwCG5+gRm2w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "pebiprHx": {
+      "filename": "cosmeticanew-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/WtHgO7gN/versions/pebiprHx/cosmeticanew-1.1.0.jar",
+      "hash": "sha512-l4cq2CEuNwkgmqQXlEXbDUeiVKpI3e6lTVs1gJ5t/KqbFzdgkrIvppdF/ZBNuDrbKxvXSMHEwMv/KSTAFPBtGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cosmetic-lib",
+          "projectId": "bATGbVcU",
+          "type": "required"
+        }
+      ]
+    },
+    "zBlI1iIB": {
+      "filename": "cosmeticanew-1.0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/WtHgO7gN/versions/zBlI1iIB/cosmeticanew-1.0.1.1.jar",
+      "hash": "sha512-mC9YEm1TTA2VQ3Hu5awQo8rKqlYBN5qO0Wq8f4J0HvgLJRgwNsvPiaqc8i64TL/R6Sz54eR2upH8jw5E2yxQ3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cosmetic-lib",
+          "projectId": "bATGbVcU",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pebiprHx",
+      "7s09Kmpt",
+      "zBlI1iIB"
+    ]
+  }
+}

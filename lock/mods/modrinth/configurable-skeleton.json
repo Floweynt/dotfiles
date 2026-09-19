@@ -1,0 +1,86 @@
+{
+  "slug": "configurable-skeleton",
+  "projectId": "kkufYnfG",
+  "versions": {
+    "WoqLzkFP": {
+      "filename": "config_skeleton-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/kkufYnfG/versions/WoqLzkFP/config_skeleton-1.0.2.jar",
+      "hash": "sha512-F4I3Bb6b3fMS1zLk0YmYQFQssOIGbm6wy3RB0kAnwYUXCKOhzaG7HQ9GR18wKgYDRJM0okbVPuwgFLaNaOUcdw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "XRpRK1VV": {
+      "filename": "config_skeleton-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kkufYnfG/versions/XRpRK1VV/config_skeleton-1.0.1.jar",
+      "hash": "sha512-atMyEv4kLhiZhLGoCJmJTdrySirneedKA08xyZmEKzX0gtU6SzxbOY4drANNORMYEvPbAvuI6TDEoKx9cKkWyQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "fmnGQuiC": {
+      "filename": "config_skeleton-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kkufYnfG/versions/fmnGQuiC/config_skeleton-1.0.0.jar",
+      "hash": "sha512-x4eRoczxrRVwXKGmmAov0uRRZn5s6/uXNFwZqJdN2sPyQhrXHLB/Y4ipWxqPivV7RSlsXHjqh7uYukf4lHSLGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "u08cmdky": {
+      "filename": "config_skeleton-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/kkufYnfG/versions/u08cmdky/config_skeleton-1.0.0-fabric.jar",
+      "hash": "sha512-erdHTslnTounxwhJU4bHCvnbGgQzmNQ1ssbndtIqkInpc6aGyzooNhWLWD3n0/jI8+8oNgvtFvL/gsINtFtOtA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "u08cmdky"
+    ],
+    "1.20.1+forge": [
+      "WoqLzkFP",
+      "XRpRK1VV",
+      "fmnGQuiC"
+    ],
+    "1.20.1+neoforge": [
+      "WoqLzkFP",
+      "XRpRK1VV",
+      "fmnGQuiC"
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "rispwinds-survival-spawn-eggs",
+  "projectId": "pq9qJSar",
+  "versions": {
+    "67XcQY39": {
+      "filename": "rw_spawneggs_110_forge_for_1_20_1.jar",
+      "url": "https://cdn.modrinth.com/data/pq9qJSar/versions/67XcQY39/rw_spawneggs_110_forge_for_1_20_1.jar",
+      "hash": "sha512-SD4c8SiFNZkaNx2SaeJNR9I0UHZNzGk7D5bNIQVTAtH0SpzC5S/YEv1rNtq4DPrj9qJnVi88cZnlczSMO3K/TQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "B2HITeVH": {
+      "filename": "rw_spawneggs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pq9qJSar/versions/B2HITeVH/rw_spawneggs-1.0.0.jar",
+      "hash": "sha512-p7zT0ySibO8bBlzUKiuTjwMktwjyr9QvV/JnSnR4FO1TjFoT79Gpav4I9yKvJlznsFQ0MsuSe46NaNT9KuAEkA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Panskp8h": {
+      "filename": "rw_spawneggs-1.2.1-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/pq9qJSar/versions/Panskp8h/rw_spawneggs-1.2.1-forge-1.20.1.jar",
+      "hash": "sha512-q/m6kJlV+q1+2GJ+YbkHaXr8UxK9wpsKV3+hMSun+puIgwbXhrZ7FRlTeApNRahfS6PWuyT1KjzJeiNca0q8JA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fk67PL6P": {
+      "filename": "rw_spawneggs_110_fabric_for_1_20_1.jar",
+      "url": "https://cdn.modrinth.com/data/pq9qJSar/versions/fk67PL6P/rw_spawneggs_110_fabric_for_1_20_1.jar",
+      "hash": "sha512-cU4BFQ1yQbC7GCH2j1siVYSWqYk1blVBo60ssZcDnqKaYcPof0tuk0mMTODoi4EEKImXkjp/fweSlKcJngqwXQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vCiI6k6Q": {
+      "filename": "rw_spawneggs-1.2.0-neoforge-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/pq9qJSar/versions/vCiI6k6Q/rw_spawneggs-1.2.0-neoforge-1.20.4.jar",
+      "hash": "sha512-1OLT9vSzOPZ70FTCJyrK4Beuz4faDzlD3kTUd7PQY5VfCeRyP3jn+gq3i++l5aA/s9HAby+D+DEczR1wpTbrdw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "fk67PL6P"
+    ],
+    "1.20.1+fabric": [
+      "fk67PL6P"
+    ],
+    "1.20.1+forge": [
+      "Panskp8h",
+      "67XcQY39",
+      "B2HITeVH"
+    ],
+    "1.20.1+neoforge": [
+      "Panskp8h"
+    ],
+    "1.20.2+fabric": [
+      "fk67PL6P"
+    ],
+    "1.20.4+neoforge": [
+      "vCiI6k6Q"
+    ]
+  }
+}

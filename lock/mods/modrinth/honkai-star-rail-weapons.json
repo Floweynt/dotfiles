@@ -1,0 +1,88 @@
+{
+  "slug": "honkai-star-rail-weapons",
+  "projectId": "1nRPzlL3",
+  "versions": {
+    "giw23wx7": {
+      "filename": "hsr_weapons_neoforge-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/1nRPzlL3/versions/giw23wx7/hsr_weapons_neoforge-1.1.1.jar",
+      "hash": "sha512-qIRjMviX8/NhOoPDpCHiseAJyw1iNlxgZYl6fNWiAJ9nnwsBmKkNK1vxYBWBqBRBV5/r+KW/sq/VbQpowhwwCQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kx7uWjuU": {
+      "filename": "hsr_weapons-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/1nRPzlL3/versions/kx7uWjuU/hsr_weapons-1.0.3.jar",
+      "hash": "sha512-Op/+6skmsBoaruDvVqKwNhtJgVwHfI29fgqnjB/2gFtU/MLspBIIINMo2ngz6TAgcb0x+wm8TZmMivSz9YCTnw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        },
+        {
+          "slug": "playeranimatorapi",
+          "projectId": "IkQufrWh",
+          "type": "required"
+        }
+      ]
+    },
+    "wmpXQd6e": {
+      "filename": "hsr_weapons_neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1nRPzlL3/versions/wmpXQd6e/hsr_weapons_neoforge-1.1.0.jar",
+      "hash": "sha512-YNZo9pjaogeMT8Ii+xpGXqI1twbfa3xXBB1H9JLLTh845FB+ZHmunbA6I4SWb86wvbOXyxS1Di6F5sifS7I/LA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kx7uWjuU"
+    ],
+    "1.20.2+fabric": [
+      "kx7uWjuU"
+    ],
+    "1.20.3+fabric": [
+      "kx7uWjuU"
+    ],
+    "1.20.4+fabric": [
+      "kx7uWjuU"
+    ],
+    "1.20.5+fabric": [
+      "kx7uWjuU"
+    ],
+    "1.20.6+fabric": [
+      "kx7uWjuU"
+    ],
+    "1.21.1+neoforge": [
+      "giw23wx7",
+      "wmpXQd6e"
+    ]
+  }
+}

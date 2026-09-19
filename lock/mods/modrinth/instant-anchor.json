@@ -1,0 +1,48 @@
+{
+  "slug": "instant-anchor",
+  "projectId": "ecNT3s4R",
+  "versions": {
+    "4ljoUOdi": {
+      "filename": "instantanchor-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ecNT3s4R/versions/4ljoUOdi/instantanchor-1.0.0.jar",
+      "hash": "sha512-01Y18phQsdFGwAaVAi0TO5+aaLSaczPzK5K4At2vrHHR1AuFgS5Pew8rIETPxxPnhZpXf5l0NzKbd+TwPZA55g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "Q2qGS5N1": {
+      "filename": "instantanchor-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ecNT3s4R/versions/Q2qGS5N1/instantanchor-1.0.0.jar",
+      "hash": "sha512-MT2+LAOklZbzjRa10mzqYcXMIrGjfZaB9JBCZX3sDrRWQFRephBzRwScbL2MvvkaeNU/u6nGDDpnTvIhlrRLgQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Q2qGS5N1"
+    ],
+    "1.20.1+forge": [
+      "4ljoUOdi"
+    ]
+  }
+}

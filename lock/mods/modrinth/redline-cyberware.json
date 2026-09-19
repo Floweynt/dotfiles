@@ -1,0 +1,74 @@
+{
+  "slug": "redline-cyberware",
+  "projectId": "Nth8PqIQ",
+  "versions": {
+    "RuhWr2Ri": {
+      "filename": "Redline-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Nth8PqIQ/versions/RuhWr2Ri/Redline-1.0.0.jar",
+      "hash": "sha512-DAEQw0nZk1RgkxgDOnPQwGZxIxDQe/r/XxeHOc6DHA9SS2g6+WoYjjlBsjCzGtdC2p1c8gBjoXJNZFGj7ZEZ0Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        }
+      ]
+    },
+    "ffnUDHIA": {
+      "filename": "Redline-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Nth8PqIQ/versions/ffnUDHIA/Redline-1.0.1.jar",
+      "hash": "sha512-IpFESqIbxSnFU8lW0SdQqYnfGAsGn8boplRfCUrZbpjhfNc+/JiZSnV8KkD/pJGVV5imJbOVFk0xsGdJrAHDSQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ffnUDHIA",
+      "RuhWr2Ri"
+    ],
+    "1.20.1+forge": [
+      "ffnUDHIA",
+      "RuhWr2Ri"
+    ],
+    "1.20.1+neoforge": [
+      "ffnUDHIA",
+      "RuhWr2Ri"
+    ]
+  }
+}

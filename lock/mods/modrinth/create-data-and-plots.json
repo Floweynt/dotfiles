@@ -1,0 +1,36 @@
+{
+  "slug": "create-data-and-plots",
+  "projectId": "vf089MQY",
+  "versions": {
+    "MzlgYkaI": {
+      "filename": "create-dataplots-1.20.1-19b.jar",
+      "url": "https://cdn.modrinth.com/data/vf089MQY/versions/MzlgYkaI/create-dataplots-1.20.1-19b.jar",
+      "hash": "sha512-84huz0cODzTHzz0OooZzWVjJN4XL/ah0KZC70FQeNB3nRk0LAQ+Q5hyPtknheNvU9b4rfUh352pt2PGLL8QcUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "MzlgYkaI"
+    ]
+  }
+}

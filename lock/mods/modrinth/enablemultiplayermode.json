@@ -1,0 +1,50 @@
+{
+  "slug": "enablemultiplayermode",
+  "projectId": "oH7RCgH6",
+  "versions": {
+    "6K28Qcwx": {
+      "filename": "EnableMultiPlayerMode-1.0.0+Forge1.16.X.jar",
+      "url": "https://cdn.modrinth.com/data/oH7RCgH6/versions/6K28Qcwx/EnableMultiPlayerMode-1.0.0%2BForge1.16.X.jar",
+      "hash": "sha512-tQjRI1TghTuXqWYszEDNpnnaeuFrOGGhMLrC4jynBdTqVlhdg/EhhMaMzNw5RBfiycMK3bhGBWk1Gj2NB+cJLg==",
+      "gameVersions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "tap1OBKS": {
+      "filename": "EnableMultiPlayerMode-1.0.0+Fabric1.16.X.jar",
+      "url": "https://cdn.modrinth.com/data/oH7RCgH6/versions/tap1OBKS/EnableMultiPlayerMode-1.0.0%2BFabric1.16.X.jar",
+      "hash": "sha512-HHFlFLQdft6lIHrK4qnavlu4lKBXxXQzNK93vzwh0m+ABAFT5dOfXbRI7xque9xrzVK5jZQUA084bMpO2bP0eg==",
+      "gameVersions": [
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.4+fabric": [
+      "tap1OBKS"
+    ],
+    "1.16.4+forge": [
+      "6K28Qcwx"
+    ],
+    "1.16.5+fabric": [
+      "tap1OBKS"
+    ],
+    "1.16.5+forge": [
+      "6K28Qcwx"
+    ]
+  }
+}

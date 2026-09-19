@@ -1,0 +1,81 @@
+{
+  "slug": "wannaplaychess",
+  "projectId": "RBYH4web",
+  "versions": {
+    "ZBXF5zYr": {
+      "filename": "wanna_play_chess-1.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/RBYH4web/versions/ZBXF5zYr/wanna_play_chess-1.0%2B1.21.4.jar",
+      "hash": "sha512-4mQkIaQvgr/UHZr85IbUataYcP5eztAhGv3R2TH9waw5AyKEFCMasCS7ptvfHrzEqAtMSXOOV/eL9pg8pEK9ow==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aEJDsPOl": {
+      "filename": "wanna_play_chess-1.0+1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/RBYH4web/versions/aEJDsPOl/wanna_play_chess-1.0%2B1.21-1.21.1.jar",
+      "hash": "sha512-Nveb1ZUJa8DvzKtc1WHox2QELoAk7oOVwSFMmORMp3N3GB2vrpyameuY1s1/nvUe6dEbDcksm6j8djMliXSsOg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "n61SlqWV": {
+      "filename": "wanna_play_chess-1.0+1.21.2.jar",
+      "url": "https://cdn.modrinth.com/data/RBYH4web/versions/n61SlqWV/wanna_play_chess-1.0%2B1.21.2.jar",
+      "hash": "sha512-R2az31FYqBog3L0zvXifZS1SuMtOuYjCQcY8VaJYvor1hsFu0k/6al9Ga+YDSlA3JuPlrUOvYipaGIHnPc0gVg==",
+      "gameVersions": [
+        "1.21.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "aEJDsPOl"
+    ],
+    "1.21.1+fabric": [
+      "aEJDsPOl"
+    ],
+    "1.21.2+fabric": [
+      "n61SlqWV"
+    ],
+    "1.21.4+fabric": [
+      "ZBXF5zYr"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "config-presets",
+  "projectId": "BWJa0e3L",
+  "versions": {
+    "Ag1FGEcH": {
+      "filename": "config-presets-fabric-v0.0.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/BWJa0e3L/versions/Ag1FGEcH/config-presets-fabric-v0.0.1%2B1.21.11.jar",
+      "hash": "sha512-CvrLI2IkfAZcrrQoeCw3/gkJ/oKkvTqP/+E0WJtyyPGXqODbfT60F/BYbl2U6yBBbUCLH2XbvE5QFrB9mDzb8A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Fo6Drtjv": {
+      "filename": "config-presets-neoforge-v0.0.1+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/BWJa0e3L/versions/Fo6Drtjv/config-presets-neoforge-v0.0.1%2B26.1.2.jar",
+      "hash": "sha512-1ViSQnf1pWry2e6O3Ar835eMx9KWBJOYCjkK8Xwi6aUFaFWg8qmgyjUQ5m30Xou3rG5aVwLQT2ZU9QGrgoOOGw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "u6F9oQB8": {
+      "filename": "config-presets-fabric-v0.0.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/BWJa0e3L/versions/u6F9oQB8/config-presets-fabric-v0.0.1%2B26.1.jar",
+      "hash": "sha512-2EpZW1u5ZGfJE5ZBARrHhhNegtSqeOZStBfNOmluqk7oelfRZ6zIaCUndptTTsFyjgB2od1bkUlT1aROYOg2xw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vkJ66cOs": {
+      "filename": "config-presets-neoforge-v0.0.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/BWJa0e3L/versions/vkJ66cOs/config-presets-neoforge-v0.0.1%2B1.21.11.jar",
+      "hash": "sha512-q3SWvGh4lJcYJwMcK2Y7D4AtqUoQdsh36isRa3D71vhVKgXvRNRn/tviBtc+gBvmkkjLTzgL3UT9Yt612ldMwg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "Ag1FGEcH"
+    ],
+    "1.21.11+neoforge": [
+      "vkJ66cOs"
+    ],
+    "26.1+fabric": [
+      "u6F9oQB8"
+    ],
+    "26.1.1+fabric": [
+      "u6F9oQB8"
+    ],
+    "26.1.2+fabric": [
+      "u6F9oQB8"
+    ],
+    "26.1.2+neoforge": [
+      "Fo6Drtjv"
+    ]
+  }
+}

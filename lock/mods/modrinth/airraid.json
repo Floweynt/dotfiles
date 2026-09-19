@@ -1,0 +1,36 @@
+{
+  "slug": "airraid",
+  "projectId": "Y2njpMUn",
+  "versions": {
+    "fyi3Ekk5": {
+      "filename": "airraid-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Y2njpMUn/versions/fyi3Ekk5/airraid-1.0.0.jar",
+      "hash": "sha512-BNxfhnBkTLtbmjCQvbJlxAJJZHiZnypgMPKuzzOx2p64+KJ5iMOgb7IR4hOds3KE3KgRN1H/XwiR0sBotNRG2Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "fyi3Ekk5"
+    ]
+  }
+}

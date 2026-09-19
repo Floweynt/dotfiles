@@ -1,0 +1,36 @@
+{
+  "slug": "shakshuka-delight",
+  "projectId": "Kt3KLrwo",
+  "versions": {
+    "rqkoYVzG": {
+      "filename": "shakdel-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kt3KLrwo/versions/rqkoYVzG/shakdel-1.0.0.jar",
+      "hash": "sha512-0Xi4BW7XAOCVXY5zWsDtOkxJ5/krZr4a9vdwO0yBkT5abnb6Z2Q+FZtRN6rhWLxW9jye/kSPao8pij2LhOAQMQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "rqkoYVzG"
+    ]
+  }
+}

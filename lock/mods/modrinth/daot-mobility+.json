@@ -1,0 +1,119 @@
+{
+  "slug": "daot-mobility+",
+  "projectId": "lh2U8Yzz",
+  "versions": {
+    "GvuL9fCO": {
+      "filename": "mobilityplus-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/lh2U8Yzz/versions/GvuL9fCO/mobilityplus-1.0.3.jar",
+      "hash": "sha512-JU+HU3xQv2eRPfp0MUztMwpYqnDiPJDpraiVI/ngE0Ttr9FPt2tW0ghwHSeKM2tjnFEEdQzKyqQqlIcpiY8V3A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "dannys-aot",
+          "projectId": "7x3oDLDY",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LZky1HrS": {
+      "filename": "mobilityplus-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/lh2U8Yzz/versions/LZky1HrS/mobilityplus-1.0.2.jar",
+      "hash": "sha512-ZG35PD2T+CgRq7j5A5ekDVPk7WpwzO9wt1YN9f8z9bvY5xOObFm9DUldDA9x6gFRWGAP1X5ANFbA4yCFYj0D3A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "dannys-aot",
+          "projectId": "7x3oDLDY",
+          "type": "required"
+        }
+      ]
+    },
+    "ZtceE5hK": {
+      "filename": "mobilityplus-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/lh2U8Yzz/versions/ZtceE5hK/mobilityplus-1.1.0.jar",
+      "hash": "sha512-2W8S1XHWgngKgHk4LWAUL/wsU3YfiAb1fbxYOrW+XQODb9Y8A9iVMUVQlDMQJblek+dVXCeipCCYikkcckLhUA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dannys-aot",
+          "projectId": "7x3oDLDY",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "i9qEERTg": {
+      "filename": "mobilityplus-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/lh2U8Yzz/versions/i9qEERTg/mobilityplus-1.0.1.jar",
+      "hash": "sha512-kqlEvDYYa3BSYAEKDS+lQ+zs3i73cVLRdZJeKqrqdEfNS1HbxfRkIWRU1aPR5SJYOjVYNUby7vBGGUClaxi2gw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "dannys-aot",
+          "projectId": "7x3oDLDY",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "ZtceE5hK",
+      "GvuL9fCO",
+      "LZky1HrS",
+      "i9qEERTg"
+    ]
+  }
+}

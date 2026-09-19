@@ -1,0 +1,97 @@
+{
+  "slug": "bouquet",
+  "projectId": "cJu5Wd3R",
+  "versions": {
+    "4k2TNhGf": {
+      "filename": "bouquet-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/cJu5Wd3R/versions/4k2TNhGf/bouquet-0.3.0.jar",
+      "hash": "sha512-mPYxWN+NWgMouKVh9mwf1Tpa3qyPBcRiXSL3u07nmCXoE1x9Kq2fFTRwpU+1rHMR+LW9payVUs87e1cWwp9zKA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26w14a",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "allium",
+          "projectId": "UGyKB0LR",
+          "type": "required"
+        }
+      ]
+    },
+    "PyJHt2oz": {
+      "filename": "bouquet-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/cJu5Wd3R/versions/PyJHt2oz/bouquet-0.2.1.jar",
+      "hash": "sha512-n+W16sv3a7b/W9So2gtQfW9IInL8pAqsT92ttQKd4MP6BwkxTdAd/IefZIRCEqu4LQmj2ODzcns9Wdc7yl0QBg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "allium",
+          "projectId": "UGyKB0LR",
+          "type": "required"
+        },
+        {
+          "slug": "placeholder-api",
+          "projectId": "eXts2L7r",
+          "type": "required"
+        }
+      ]
+    },
+    "hq46eTwM": {
+      "filename": "bouquet-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/cJu5Wd3R/versions/hq46eTwM/bouquet-0.2.0.jar",
+      "hash": "sha512-tdj6uoI+uZyQxCbwlVhhY4x9k2Qft8UTDnM7gz5nTu9B+jNYlMTTaNMxug9G42M84BC0oepROYNqMOGmczYiZg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "allium",
+          "projectId": "UGyKB0LR",
+          "type": "required"
+        },
+        {
+          "slug": "placeholder-api",
+          "projectId": "eXts2L7r",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "PyJHt2oz",
+      "hq46eTwM"
+    ],
+    "26.1+fabric": [
+      "4k2TNhGf"
+    ],
+    "26.1.1+fabric": [
+      "4k2TNhGf"
+    ],
+    "26.1.2+fabric": [
+      "4k2TNhGf"
+    ],
+    "26w14a+fabric": [
+      "4k2TNhGf"
+    ]
+  }
+}

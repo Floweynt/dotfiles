@@ -1,0 +1,83 @@
+{
+  "slug": "estrogen-tweaks",
+  "projectId": "WWo51Won",
+  "versions": {
+    "M8YnzSkA": {
+      "filename": "estrogen-tweaks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WWo51Won/versions/M8YnzSkA/estrogen-tweaks-1.0.0.jar",
+      "hash": "sha512-UjhShBU0lxIaT+lfZ4TF6uTBZr9iu/w5AJlrdoSDnkSWQ+elwhMIdftAdSBEXL+/u7iUz+CSy3QsR8FXip0OWA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        }
+      ]
+    },
+    "ZLCaVrTh": {
+      "filename": "estrogentweaks-1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/WWo51Won/versions/ZLCaVrTh/estrogentweaks-1.0.0.zip",
+      "hash": "sha512-SsqQRtC4tau/rLEFN5Lax7+7+jxUxTLXENf7cfBcKW8B4ZBa24qz1uqkgX+0vVCkXrR5K1RS4EjLtxRkUMlsGw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "estrogen",
+          "projectId": "HhIJW8n1",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "ZLCaVrTh"
+    ],
+    "1.20+fabric": [
+      "M8YnzSkA"
+    ],
+    "1.20+forge": [
+      "M8YnzSkA"
+    ],
+    "1.20+neoforge": [
+      "M8YnzSkA"
+    ],
+    "1.20+quilt": [
+      "M8YnzSkA"
+    ],
+    "1.20.1+datapack": [
+      "ZLCaVrTh"
+    ],
+    "1.20.1+fabric": [
+      "M8YnzSkA"
+    ],
+    "1.20.1+forge": [
+      "M8YnzSkA"
+    ],
+    "1.20.1+neoforge": [
+      "M8YnzSkA"
+    ],
+    "1.20.1+quilt": [
+      "M8YnzSkA"
+    ]
+  }
+}

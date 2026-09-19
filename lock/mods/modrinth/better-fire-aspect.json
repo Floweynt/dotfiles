@@ -1,0 +1,98 @@
+{
+  "slug": "better-fire-aspect",
+  "projectId": "bLWPghSx",
+  "versions": {
+    "Uvx831cj": {
+      "filename": "better-fire-aspect-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/bLWPghSx/versions/Uvx831cj/better-fire-aspect-1.0.1.jar",
+      "hash": "sha512-uQbKHgMKKrQt2sXVWY/oHPKapfkNdE3UIbSj1uy12sxxAPokqC+Hrp8fDgsAEbJeFFvV5Y0JxthbK+z3aLYbXg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "kskeuEpN": {
+      "filename": "better-fire-aspect-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bLWPghSx/versions/kskeuEpN/better-fire-aspect-1.1.0.jar",
+      "hash": "sha512-d9UIqCYkkxSYOqk/2tDeWo0SKhn9XslBXyWSSW97zDhEb2393LSKIwrKuG7nUmKaqHgf+axTvdHLbx5IQ46Y+A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "monkeylib538",
+          "projectId": "gYap5A8T",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oOU1d962": {
+      "filename": "better-fire-aspect-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bLWPghSx/versions/oOU1d962/better-fire-aspect-1.0.0.jar",
+      "hash": "sha512-GuWXnRF5SXah9dRU9/1EwqhumR5iyRUqy0oCrSTC8/W5pO5e40SL6mg6UFozaAxbeQSd9kfJQZ7SfE4IFo1j6A==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "oOU1d962"
+    ],
+    "1.20+fabric": [
+      "kskeuEpN",
+      "Uvx831cj"
+    ],
+    "1.20.1+fabric": [
+      "kskeuEpN",
+      "Uvx831cj"
+    ],
+    "1.20.2+fabric": [
+      "kskeuEpN"
+    ],
+    "1.20.3+fabric": [
+      "kskeuEpN"
+    ],
+    "1.20.4+fabric": [
+      "kskeuEpN"
+    ],
+    "1.20.5+fabric": [
+      "kskeuEpN"
+    ],
+    "1.20.6+fabric": [
+      "kskeuEpN"
+    ],
+    "1.21+fabric": [
+      "kskeuEpN"
+    ]
+  }
+}

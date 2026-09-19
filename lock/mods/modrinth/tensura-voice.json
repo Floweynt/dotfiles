@@ -1,0 +1,100 @@
+{
+  "slug": "tensura-voice",
+  "projectId": "mvqhEIKn",
+  "versions": {
+    "JMyMSKDd": {
+      "filename": "tensuravoice-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mvqhEIKn/versions/JMyMSKDd/tensuravoice-fabric-1.0.0.jar",
+      "hash": "sha512-2UyyacLDe/kE6NxZdKGBkyCbb4O+o5i/2yDDrS3BQiA0bMGCJ8xxqNu4FgE8JrtVXmhSyEEeRwqQ+hklvsUfAw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "tensura-reincarnated",
+          "projectId": "Br0kXPwc",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "manascore",
+          "projectId": "wRRSWpd1",
+          "type": "required"
+        }
+      ]
+    },
+    "f6vw3Ow9": {
+      "filename": "tensuravoice-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/mvqhEIKn/versions/f6vw3Ow9/tensuravoice-1.2.0.jar",
+      "hash": "sha512-YNAUh+Yt5T8Emh1HJO2kngCbJkYsC74VpFRyyY10GXIGSagizzKN/VCxwwIFLcewIS9btuNAuIgFcZ8Bcb27sg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "manascore",
+          "projectId": "wRRSWpd1",
+          "type": "required"
+        },
+        {
+          "slug": "tensura-reincarnated",
+          "projectId": "Br0kXPwc",
+          "type": "required"
+        }
+      ]
+    },
+    "gWw16Tt2": {
+      "filename": "tensuravoice-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mvqhEIKn/versions/gWw16Tt2/tensuravoice-neoforge-1.0.0.jar",
+      "hash": "sha512-dDGmjIdPQeQKEhEFD7j9eRu1SUe2b8PYOrz7Lj3vPQ41U386oP8vRQzqREaSi6BOvlRZD5Xcy8vPxyIQkynLkA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "tensura-reincarnated",
+          "projectId": "Br0kXPwc",
+          "type": "required"
+        },
+        {
+          "slug": "manascore",
+          "projectId": "wRRSWpd1",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "JMyMSKDd"
+    ],
+    "1.21.1+neoforge": [
+      "gWw16Tt2",
+      "f6vw3Ow9"
+    ]
+  }
+}

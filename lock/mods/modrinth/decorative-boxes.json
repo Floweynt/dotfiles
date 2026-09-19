@@ -1,0 +1,73 @@
+{
+  "slug": "decorative-boxes",
+  "projectId": "BXL0ErLI",
+  "versions": {
+    "OSytClxo": {
+      "filename": "decorativeboxes-1.0.1+1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/BXL0ErLI/versions/OSytClxo/decorativeboxes-1.0.1%2B1.21-1.21.1.jar",
+      "hash": "sha512-BgNst4LdCeFeISvQcNb7D1UVNrFha0xxef3i0c112oobIZIpzYo8S95hOK+fjlsbI6KxTyK3PbbYj9v7SvVopA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VeDsOQKC": {
+      "filename": "decorativeboxes-1.0.0+1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/BXL0ErLI/versions/VeDsOQKC/decorativeboxes-1.0.0%2B1.21-1.21.1.jar",
+      "hash": "sha512-hwURy5HDiG4W6jBtqe4lVbOShGE+sFcgEfsR1K7slqlBT8AzpQnr7dKSs9b0rTvbsN4TUuDk9hNVxwEoA4YP5w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "OSytClxo",
+      "VeDsOQKC"
+    ],
+    "1.21.1+fabric": [
+      "OSytClxo",
+      "VeDsOQKC"
+    ]
+  }
+}

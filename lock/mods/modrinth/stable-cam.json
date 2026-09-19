@@ -1,0 +1,68 @@
+{
+  "slug": "stable-cam",
+  "projectId": "Nh7uM6Qg",
+  "versions": {
+    "MYXASlYy": {
+      "filename": "stablecam-1.0.0-mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Nh7uM6Qg/versions/MYXASlYy/stablecam-1.0.0-mc1.21-1.21.1.jar",
+      "hash": "sha512-pn/ypBr7j5GnXUCb8xE1TH4tPLswj4RhTi6/I02OvemoGlorGW3b8aYxkp8VgLJUiUyKg5RYZf5o915YJuRxVA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    },
+    "RW8gHsPa": {
+      "filename": "stablecam-1.0.0-mc1.21-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Nh7uM6Qg/versions/RW8gHsPa/stablecam-1.0.0-mc1.21-1.21.1.jar",
+      "hash": "sha512-pn/ypBr7j5GnXUCb8xE1TH4tPLswj4RhTi6/I02OvemoGlorGW3b8aYxkp8VgLJUiUyKg5RYZf5o915YJuRxVA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "RW8gHsPa"
+    ],
+    "1.21+forge": [
+      "MYXASlYy"
+    ],
+    "1.21+neoforge": [
+      "MYXASlYy"
+    ],
+    "1.21.1+fabric": [
+      "RW8gHsPa"
+    ],
+    "1.21.1+forge": [
+      "MYXASlYy"
+    ],
+    "1.21.1+neoforge": [
+      "MYXASlYy"
+    ]
+  }
+}

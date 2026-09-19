@@ -1,0 +1,50 @@
+{
+  "slug": "instant-xp",
+  "projectId": "afGTVoZo",
+  "versions": {
+    "Bd8ob3cM": {
+      "filename": "instantxp-1.0-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/afGTVoZo/versions/Bd8ob3cM/instantxp-1.0-26.1.jar",
+      "hash": "sha512-vpTUIQ5C7wJtk32anejn1kLrL8O1blbR5qTPKYEZQN4NMFOdBOgpvmPXFcs+ML2OF9bX4dbgFT5Q+yd6ZP13LA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "CfUUW02G": {
+      "filename": "instantxp-1.0.0-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/afGTVoZo/versions/CfUUW02G/instantxp-1.0.0-1.21.11.jar",
+      "hash": "sha512-B6SCzXztHONMWNzXvtjE5Y61nel58/8AOv7YDbx1A0E3Hx6tCkm5/qomuI27RX45/qPYlI5D/tSaYi8FiT4Vgg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "CfUUW02G"
+    ],
+    "26.1+fabric": [
+      "Bd8ob3cM"
+    ],
+    "26.1.1+fabric": [
+      "Bd8ob3cM"
+    ],
+    "26.1.2+fabric": [
+      "Bd8ob3cM"
+    ]
+  }
+}

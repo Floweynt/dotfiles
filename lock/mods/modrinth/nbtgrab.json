@@ -1,0 +1,132 @@
+{
+  "slug": "nbtgrab",
+  "projectId": "NOfzh1Z6",
+  "versions": {
+    "36ctRoYL": {
+      "filename": "nbtgrab-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/NOfzh1Z6/versions/36ctRoYL/nbtgrab-1.2.2.jar",
+      "hash": "sha512-hZTqG/QqKubinmoOLsck/iXUmzH9qAtgYCm+TtMCjNl+LeVNNbzLdRXR7xMkCNTrZybz5G7r3y4FI/ylqsSUsA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "3vnpyzk9": {
+      "filename": "nbtgrab-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/NOfzh1Z6/versions/3vnpyzk9/nbtgrab-1.2.jar",
+      "hash": "sha512-IUjrKQrSIolwjHOLWTOW9P213ZgPcbc2Wc3KXd1TzwjTuCK7st/28qxqq9JNZx6CA4eKG0SVoeG7DnFdO/CuZA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LjwAZO7h": {
+      "filename": "nbtgrab-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/NOfzh1Z6/versions/LjwAZO7h/nbtgrab-1.3.jar",
+      "hash": "sha512-kPD8nmlP6Citrxz+rrKekLG6sYZKgykxUiCKC12ZEAiBMkjsDjb+yYirzySVrF6ahyxwKfNCbUGGvD/wK/nxbg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "TiEtYFLT": {
+      "filename": "nbtgrab-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/NOfzh1Z6/versions/TiEtYFLT/nbtgrab-1.1.jar",
+      "hash": "sha512-Nj+1mFsSlx/acJ8i8jfHY0XRUjw6VL0SpCuPoqW2YiDnr2wKNHTgozJNTUJ3xBOMvwDRlzjKroVkDBR+U70R4g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aU5ZLAM2": {
+      "filename": "nbtgrab-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/NOfzh1Z6/versions/aU5ZLAM2/nbtgrab-1.2.1.jar",
+      "hash": "sha512-07kcgfYuWQJMTN10ZXHn/SeW2Lzq3ZjWlc5Q8tKWjd0bJTToRa5crE7dDQKKGcBUDJivG4sOVOyBwXrx29ciMQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tEJlsJxc": {
+      "filename": "nbtgrab-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/NOfzh1Z6/versions/tEJlsJxc/nbtgrab-1.0-SNAPSHOT.jar",
+      "hash": "sha512-vzo9K9awrcjtAMYRBwvIv13q1Yfsmu7+692mDlVMSArpQ2eMbwoEp+eUTXkbPx8ikuTxCPqsOiTU8DtmNuVBaQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "TiEtYFLT",
+      "tEJlsJxc"
+    ],
+    "1.19.4+fabric": [
+      "3vnpyzk9"
+    ],
+    "1.20.1+fabric": [
+      "aU5ZLAM2"
+    ],
+    "1.20.2+fabric": [
+      "36ctRoYL"
+    ],
+    "1.20.4+fabric": [
+      "LjwAZO7h"
+    ]
+  }
+}

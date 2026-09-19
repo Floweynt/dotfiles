@@ -1,0 +1,68 @@
+{
+  "slug": "glide",
+  "projectId": "P0qoVWgC",
+  "versions": {
+    "SSgjgT31": {
+      "filename": "glide-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/P0qoVWgC/versions/SSgjgT31/glide-1.0.1.jar",
+      "hash": "sha512-yfl/6yzAlRkTmEPwlLjaxQ5dX52hHDJd8b5MkrMwn1d3vdT9WnDUb1QrKkaM/p0AgbABjoC9G99NHlINTJz0rw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "fymOw9ea": {
+      "filename": "glide-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/P0qoVWgC/versions/fymOw9ea/glide-1.0.0.jar",
+      "hash": "sha512-BAPlYN0gbEfVNYrW+P0DBRo323DNHmy7eduWvhY+zOki4NK67iwt3kDl+p96NmTbSZTOPyy+2yUxN0WkTCTknQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "SSgjgT31",
+      "fymOw9ea"
+    ],
+    "1.20.4+quilt": [
+      "SSgjgT31",
+      "fymOw9ea"
+    ]
+  }
+}

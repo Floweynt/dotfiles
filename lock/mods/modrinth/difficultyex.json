@@ -1,0 +1,76 @@
+{
+  "slug": "difficultyex",
+  "projectId": "qdJ4GLvL",
+  "versions": {
+    "5OpATVc4": {
+      "filename": "difficultyex-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/qdJ4GLvL/versions/5OpATVc4/difficultyex-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-YgMJACj1LdpjdSEBJrZMWHqV94fqjXhHHt2JfOQZb+dh8NOrusRDsU1MweiI12CJo/k1bCkjriIqLEnAWaz4Vg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "playerex-directors-cut",
+          "projectId": "4UKlJSdk",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "GLbX1wQq": {
+      "filename": "difficultyex-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qdJ4GLvL/versions/GLbX1wQq/difficultyex-1.0.0.jar",
+      "hash": "sha512-HcWxfhkeno8+62B23DJLqAfAp2LXVXw/dRKFLE1c7tIyhq72OHb/PEFeYRe71Nti+sQ9IvPgEBAWFhfmgCxc6A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "playerex-directors-cut",
+          "projectId": "4UKlJSdk",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5OpATVc4",
+      "GLbX1wQq"
+    ],
+    "1.20.1+quilt": [
+      "5OpATVc4"
+    ]
+  }
+}

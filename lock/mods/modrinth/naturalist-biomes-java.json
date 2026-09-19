@@ -1,0 +1,59 @@
+{
+  "slug": "naturalist-biomes-java",
+  "projectId": "Agjb9Czt",
+  "versions": {
+    "YuhwbP6v": {
+      "filename": "naturalist_biomes-fabric-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Agjb9Czt/versions/YuhwbP6v/naturalist_biomes-fabric-1.21.1-1.0.1.jar",
+      "hash": "sha512-fCyWq4CDpdlmROpcuA+O8O7Pt+oIM8FH82AIpEIOP9cdt0FKaZec9qQePKzB2YnB4JYQ6JrjcdjoYslqCNZC/Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lithostitched",
+          "projectId": "XaDC71GB",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "g1usbyLp": {
+      "filename": "naturalist_biomes-neoforge-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Agjb9Czt/versions/g1usbyLp/naturalist_biomes-neoforge-1.21.1-1.0.1.jar",
+      "hash": "sha512-zJuxRUYvcZoYobDXYmzhj1b2nebbxjkuITf6lrRyPrziAkavTElnE0LxeItjldinIozXvPfPV0CSwhvxWe1yzA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lithostitched",
+          "projectId": "XaDC71GB",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "YuhwbP6v"
+    ],
+    "1.21.1+neoforge": [
+      "g1usbyLp"
+    ]
+  }
+}

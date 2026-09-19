@@ -1,0 +1,81 @@
+{
+  "slug": "silk-spawners",
+  "projectId": "yD9G9SN0",
+  "versions": {
+    "B4LEAZaA": {
+      "filename": "wraith-silkspawners-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/yD9G9SN0/versions/1.1.1/wraith-silkspawners-1.1.1.jar",
+      "hash": "sha512-9gNP2wic4qU+huBDuVtvdwPydHxizglviaMU1TZcoHa5WYlsooEyeUMl3sjjPProHw/6KbBnlyLaqSakp4Z87w==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tsRJYmTP": {
+      "filename": "wraith-silkspawners-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/yD9G9SN0/versions/1.1.2/wraith-silkspawners-1.1.2.jar",
+      "hash": "sha512-j5e1QRKavbQdmB4Y0HLBG/20vyeM6E7Ql+s8FZBfY5ArY+sq3vOkLxNoL9vx4nCwm7qLEQlJRHEaP7Jo5BHwOg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xnQ3Oilt": {
+      "filename": "wraith-silkspawners-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/yD9G9SN0/versions/xnQ3Oilt/wraith-silkspawners-1.1.3.jar",
+      "hash": "sha512-v/RGVJWzhjDhLt4U9P8WgjfRugLcZD/ItuewkeWwyDSIiVTA6qtPVssCzTo5OgKiTJDUs1+cn/conXlYloIYNQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "B4LEAZaA"
+    ],
+    "1.19+fabric": [
+      "tsRJYmTP"
+    ],
+    "1.20+fabric": [
+      "xnQ3Oilt"
+    ],
+    "1.20.1+fabric": [
+      "xnQ3Oilt"
+    ]
+  }
+}

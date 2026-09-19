@@ -1,0 +1,54 @@
+{
+  "slug": "lockbox",
+  "projectId": "VaLKsDj5",
+  "versions": {
+    "1Em9ydSt": {
+      "filename": "lockbox-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/VaLKsDj5/versions/1Em9ydSt/lockbox-1.0.0-forge.jar",
+      "hash": "sha512-R48DnYH5MTEZqCsn4xsAiwyrt/t6P3UpP53tmLqVvuhNkYxCyk97ziTdMPuefjtUkfMANXkS5/9KNH7c52qkNQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "gDWrdt79": {
+      "filename": "lockbox-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/VaLKsDj5/versions/gDWrdt79/lockbox-1.0.0-fabric.jar",
+      "hash": "sha512-dg6xcR22hpsVx9zPCQkBZ9UudrmWtaYzC+E9FjjhsnNifaUbFHUWMBX4f2pWCTS2CwtjosSRpxQKnLsm6aVpBw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gDWrdt79"
+    ],
+    "1.20.1+forge": [
+      "1Em9ydSt"
+    ]
+  }
+}

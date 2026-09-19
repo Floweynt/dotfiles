@@ -1,0 +1,133 @@
+{
+  "slug": "adm2-ae2",
+  "projectId": "VMK3EOb1",
+  "versions": {
+    "I0usNtse": {
+      "filename": "adm2-ae2-fabric-2.0.0+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/VMK3EOb1/versions/I0usNtse/adm2-ae2-fabric-2.0.0%2Bmc1.21.jar",
+      "hash": "sha512-NRxwVkrIFLWuXOHXHkteGWfM+4pgl1yJKwRd5kch91d/zlVBhh/a/elF9SGmFZ35gyTaQp0YIkXGCPrpLl8mjA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        },
+        {
+          "slug": "adm2",
+          "projectId": "kIjBa4ZK",
+          "type": "required"
+        }
+      ]
+    },
+    "Q0D1cUfZ": {
+      "filename": "adm2-ae2-1.0.0-mc1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/VMK3EOb1/versions/Q0D1cUfZ/adm2-ae2-1.0.0-mc1.20.1-fabric.jar",
+      "hash": "sha512-5dNbAZdnGYAyiGSuDRCnom0Jcho5DmGuwlaByCbFN7jign5W4q2EN62NAu1grefxU7Y4vToNaEqOGjFeIQ2+hg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "adm2",
+          "projectId": "kIjBa4ZK",
+          "type": "required"
+        }
+      ]
+    },
+    "e9i6tzUf": {
+      "filename": "adm2-ae2-neoforge-2.0.0+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/VMK3EOb1/versions/e9i6tzUf/adm2-ae2-neoforge-2.0.0%2Bmc1.21.jar",
+      "hash": "sha512-8kBkuQwYbluHkPtNlhj7Zcfwovf//Qh5unMFDteegH250Css96MyJWoc+OswdjLQ65vl03o0A/tobZyAinhEfA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "adm2",
+          "projectId": "kIjBa4ZK",
+          "type": "required"
+        },
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "uhkBF3Ux": {
+      "filename": "adm2-ae2-1.0.1-mc1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/VMK3EOb1/versions/uhkBF3Ux/adm2-ae2-1.0.1-mc1.20.1-fabric.jar",
+      "hash": "sha512-5siEyIRRlIA6SPKkF8dgc3ssCC75zaptILM3vGBP1wqfWdN6c5+75nQ9E2cHxOXzzZcmVjZzxXf1vbS4BdZYaA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "adm2",
+          "projectId": "kIjBa4ZK",
+          "type": "required"
+        },
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "uhkBF3Ux",
+      "Q0D1cUfZ"
+    ],
+    "1.20.1+quilt": [
+      "uhkBF3Ux",
+      "Q0D1cUfZ"
+    ],
+    "1.21+fabric": [
+      "I0usNtse"
+    ],
+    "1.21+neoforge": [
+      "e9i6tzUf"
+    ],
+    "1.21+quilt": [
+      "I0usNtse"
+    ]
+  }
+}

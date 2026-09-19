@@ -1,0 +1,99 @@
+{
+  "slug": "scarybees",
+  "projectId": "7RuviENd",
+  "versions": {
+    "CqQNaIsa": {
+      "filename": "scarybees-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7RuviENd/versions/CqQNaIsa/scarybees-1.20.1-1.0.0.jar",
+      "hash": "sha512-Kxdb0eSnHaBLl75Plr8DdnK3MAC0cxFfaV82yy2TbMidByiTSl1zblWou3sZ3OgdKT0OjlxjTUkLsxgwq7uaGA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "EDynfMaX": {
+      "filename": "scarybees-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/7RuviENd/versions/EDynfMaX/scarybees-1.21.1-1.0.1.jar",
+      "hash": "sha512-1rfRfsM9hPbGhhmNSLE5NyH56KXTFRCU8Vokl3KBgWK+ejkC/ecxPxWeFZ+5nn3MwCfFp0iiCGui7510XPpsTQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1-rc1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fL1k2Ljs": {
+      "filename": "scarybees-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/7RuviENd/versions/fL1k2Ljs/scarybees-1.20.1-1.0.1.jar",
+      "hash": "sha512-ccTGSxnNZFHiugHQHbTWW5+OsBc2hDfuqTHIBaNUq+CE+8dRsXGGXbuqwyXg+qyNsmmzp/faq8gPfOWrM+jhfg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "fL1k2Ljs",
+      "CqQNaIsa"
+    ],
+    "1.20.1+quilt": [
+      "fL1k2Ljs",
+      "CqQNaIsa"
+    ],
+    "1.21+fabric": [
+      "EDynfMaX"
+    ],
+    "1.21+quilt": [
+      "EDynfMaX"
+    ],
+    "1.21.1+fabric": [
+      "EDynfMaX"
+    ],
+    "1.21.1+quilt": [
+      "EDynfMaX"
+    ],
+    "1.21.1-rc1+fabric": [
+      "EDynfMaX"
+    ],
+    "1.21.1-rc1+quilt": [
+      "EDynfMaX"
+    ]
+  }
+}

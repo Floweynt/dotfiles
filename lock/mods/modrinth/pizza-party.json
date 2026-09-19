@@ -1,0 +1,118 @@
+{
+  "slug": "pizza-party",
+  "projectId": "h96k8n9E",
+  "versions": {
+    "OCVc8KWU": {
+      "filename": "pizza-party-0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/h96k8n9E/versions/OCVc8KWU/pizza-party-0.2-1.20.1.jar",
+      "hash": "sha512-lG8gdOtPPyJTjPOO5usFkTBlAUNEJXH2ZuUcc0cPSdUkXTgMLf0SfOeNe5xMRipK3CJyGUb+sDILCTTzBc3qNQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d48oEe6B": {
+      "filename": "pizza-party-0.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/h96k8n9E/versions/d48oEe6B/pizza-party-0.3-1.20.1.jar",
+      "hash": "sha512-iu8T2/SIF1c1vqsJARnfTIgRizz4vKulEWcGR1n35npd5Af1QPxoaT107FYjMEDN87mCC2Lfx7IKqp5hxDSkuA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eOQgJijf": {
+      "filename": "pizza-party-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/h96k8n9E/versions/eOQgJijf/pizza-party-0.1-1.20.1.jar",
+      "hash": "sha512-6+gHfcQRkw373pVxsRwVdCtcrOLgLJ5s/fKGABKWtw0hVedbPOJ3J4NoTEKVbZXeGL44w+aDEbZbMWd78PjNbg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "pxbbm9qC": {
+      "filename": "pizza-party-0.4-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/h96k8n9E/versions/pxbbm9qC/pizza-party-0.4-1.20.1.jar",
+      "hash": "sha512-P3XhCh7qlH9w4h1xA/KqyyaeO5EYf30HFCLN867kvwPKVsnDEHm1HC4o7MNCpg4h29PSwSSGmNdqdEfm+SF45A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pxbbm9qC",
+      "d48oEe6B",
+      "OCVc8KWU",
+      "eOQgJijf"
+    ],
+    "1.20.1+quilt": [
+      "pxbbm9qC"
+    ]
+  }
+}

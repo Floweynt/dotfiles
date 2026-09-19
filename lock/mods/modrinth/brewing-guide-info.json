@@ -1,0 +1,35 @@
+{
+  "slug": "brewing-guide-info",
+  "projectId": "mMYySLUt",
+  "versions": {
+    "jcZBTqsq": {
+      "filename": "brewingguide-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/mMYySLUt/versions/jcZBTqsq/brewingguide-1.0.0.jar",
+      "hash": "sha512-dC//4smM2MDeqXsoVRkvszATgDIVnEoZfoW1YAyWbKPosmcqjPjpLNhIK+FASIZStLvA4V+nmzpZiN2XQS4lsw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "jcZBTqsq"
+    ],
+    "1.21.11+quilt": [
+      "jcZBTqsq"
+    ]
+  }
+}

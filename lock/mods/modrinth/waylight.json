@@ -1,0 +1,31 @@
+{
+  "slug": "waylight",
+  "projectId": "vc457T3j",
+  "versions": {
+    "zM7w3Tse": {
+      "filename": "waylight-1.0.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/vc457T3j/versions/zM7w3Tse/waylight-1.0.0%2B1.21.11.jar",
+      "hash": "sha512-9d9fAZ8HRwwTsL8zGGQW95wOayFv+bbg1VzoKJtwksUT4vXfpc9fjEWSN58M9F/XuuEzALuc82TN6LH8jylOwg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "lambdynamiclights",
+          "projectId": "yBW8D80W",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "zM7w3Tse"
+    ]
+  }
+}

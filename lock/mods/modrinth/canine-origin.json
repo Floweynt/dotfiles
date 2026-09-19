@@ -1,0 +1,102 @@
+{
+  "slug": "canine-origin",
+  "projectId": "TloBvthQ",
+  "versions": {
+    "DxtmgGDU": {
+      "filename": "canineorigin-mc1.20.1-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TloBvthQ/versions/DxtmgGDU/canineorigin-mc1.20.1-v1.0.jar",
+      "hash": "sha512-6FysQAiEEvQdCutzTM1H1kc3fRJ+SZL3nqjYju5n9D+FcFTSj+O/h5KUzyj1bqrysajO5O2WtI9kItcKYtpTng==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "extra-origins",
+          "projectId": "XWEESDPe",
+          "type": "required"
+        }
+      ]
+    },
+    "MG4QERjH": {
+      "filename": "canineorigin-mc1.20.1-v1.1.jar",
+      "url": "https://cdn.modrinth.com/data/TloBvthQ/versions/MG4QERjH/canineorigin-mc1.20.1-v1.1.jar",
+      "hash": "sha512-1owgvkHbeP+9E1vB+eWeW6HtFO7MdtYSrURxyyGrdsroCX9iLSNfPML41PoYALfBaZWQVs4/LnX6KRU4gJxsUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "eMhczezn": {
+      "filename": "canineorigin-mc1.20.1-v1.2.jar",
+      "url": "https://cdn.modrinth.com/data/TloBvthQ/versions/eMhczezn/canineorigin-mc1.20.1-v1.2.jar",
+      "hash": "sha512-2V64ZfoHAQHJYB2s2M53r+JjxyhaXYxoVqUo39QBvJbnVL6TiZv7ht0FeSeQVOtJFm6hwnHqmNYA7n0usYYocw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eMhczezn",
+      "MG4QERjH",
+      "DxtmgGDU"
+    ],
+    "1.20.2+fabric": [
+      "eMhczezn"
+    ],
+    "1.20.3+fabric": [
+      "eMhczezn"
+    ],
+    "1.20.4+fabric": [
+      "eMhczezn"
+    ],
+    "1.20.5+fabric": [
+      "eMhczezn"
+    ],
+    "1.20.6+fabric": [
+      "eMhczezn"
+    ]
+  }
+}

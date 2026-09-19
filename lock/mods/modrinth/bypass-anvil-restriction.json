@@ -1,0 +1,118 @@
+{
+  "slug": "bypass-anvil-restriction",
+  "projectId": "wYbclck4",
+  "versions": {
+    "G1calfyH": {
+      "filename": "BypassAnvilRestriction-1.0.4+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/wYbclck4/versions/G1calfyH/BypassAnvilRestriction-1.0.4%2B1.19.4.jar",
+      "hash": "sha512-98CGy2OoXIfPkKnw6UmOS7+YLKiwMM/7rXbWWudbZzJJ0JnQmxVkt9y5B3Fu/OqCGRJfDBDzox1KE8AXOjeiZA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "REJcBgXJ": {
+      "filename": "BypassAnvilRestriction-1.0.6+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/wYbclck4/versions/REJcBgXJ/BypassAnvilRestriction-1.0.6%2B1.20.1.jar",
+      "hash": "sha512-TQpZzmeWPu5wI3fGK7F7BysmBt1nEwTcGEzEeGBgohBi2BjCDy+XhQ9nFbEaA2fS9ZGstDciS2dKcFPsdSeHIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TMMYXlN8": {
+      "filename": "BypassAnvilRestriction-1.0.8+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/wYbclck4/versions/TMMYXlN8/BypassAnvilRestriction-1.0.8%2B1.20.4.jar",
+      "hash": "sha512-O9sGPh4jaWnvjGJ0MLAYM91EXJqgHR2KpwLOSzLnZl67fYzlCHylUZ27JCwNojFmNMHFWxFhe5R3IfEdnIS+Rg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dy2199ec": {
+      "filename": "BypassAnvilRestriction-1.0.7+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/wYbclck4/versions/dy2199ec/BypassAnvilRestriction-1.0.7%2B1.20.1.jar",
+      "hash": "sha512-WBS2Fyyio3vR7aahOwOo4THAAm1VLM05Whb7obagBgC/0+sOPFh0Bcmk3vHOkMMYDOjuAer5X/suFZM1XmJCoA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "G1calfyH"
+    ],
+    "1.20.1+fabric": [
+      "dy2199ec",
+      "REJcBgXJ"
+    ],
+    "1.20.4+fabric": [
+      "TMMYXlN8"
+    ]
+  }
+}

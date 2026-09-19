@@ -1,0 +1,100 @@
+{
+  "slug": "screenshot--to-clipboard",
+  "projectId": "ulMLQfNL",
+  "versions": {
+    "233JxtVL": {
+      "filename": "ClipboardScreenshot-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/ulMLQfNL/versions/233JxtVL/ClipboardScreenshot-1.0.8.jar",
+      "hash": "sha512-apK9Z66kRiE1/GcaM/LyNes2fBeGiaTbDv+Ox7CBkgXIxLBbPXy32BsabX5z10IhsDv7SiwLwS21i8lRqzMlyg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "xBUiSGJV": {
+      "filename": "ClipboardScreenshot-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/ulMLQfNL/versions/xBUiSGJV/ClipboardScreenshot-1.0.6.jar",
+      "hash": "sha512-1DXy6MiO9n3egqG6rOoutpS/ufqSFK0Io6RQjlo33FrwpO+PDv5MsyNeFPRkAYAOLO+H+cC2Nf9sEGJLd6Z0AQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "xBUiSGJV"
+    ],
+    "1.21.11+fabric": [
+      "xBUiSGJV"
+    ],
+    "1.21.9+fabric": [
+      "xBUiSGJV"
+    ],
+    "26.1+fabric": [
+      "233JxtVL"
+    ],
+    "26.1.1+fabric": [
+      "233JxtVL"
+    ],
+    "26.1.2+fabric": [
+      "233JxtVL"
+    ]
+  }
+}

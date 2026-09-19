@@ -1,0 +1,36 @@
+{
+  "slug": "chunky-guns",
+  "projectId": "1Hb0s0Ty",
+  "versions": {
+    "FJMcrwyd": {
+      "filename": "chunky-guns-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1Hb0s0Ty/versions/FJMcrwyd/chunky-guns-1.0.0.jar",
+      "hash": "sha512-gWGx3afTeyDtFEfsPXlhaWFFfRxT5DHOBJcsrBuoA6zpLHVyHwNYzxpox6tLKnR7cGA2PukV3PqHEVNTC72qWw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "FJMcrwyd"
+    ]
+  }
+}

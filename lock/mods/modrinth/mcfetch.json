@@ -1,0 +1,183 @@
+{
+  "slug": "mcfetch",
+  "projectId": "5mHjkCAr",
+  "versions": {
+    "3Q6M3F2D": {
+      "filename": "mcfetch-quilt-1.0.0-1.20-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/5mHjkCAr/versions/3Q6M3F2D/mcfetch-quilt-1.0.0-1.20-1.21.jar",
+      "hash": "sha512-QCNOqbcWE0V6OWj8O3kqKmrNw7Ho1+ECzdZNibqpDt1DjUZFwnKiBOBnZNb115Wu2co5rc0KAoR3DakPpQPL+w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "NtAL2NWg": {
+      "filename": "mcfetch-neoforge-1.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/5mHjkCAr/versions/NtAL2NWg/mcfetch-neoforge-1.0.0-1.21.jar",
+      "hash": "sha512-93U8ZX0+3tio9tyfaYw8go/kM+nYxYOE8AfqJU7I/4KaXE4187fAN02BOLgv2qSd7Qnsj0IlC5vQAh7z+cvfeA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cgZJj3LK": {
+      "filename": "mcfetch-fabric-1.0.0-1.19-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/5mHjkCAr/versions/cgZJj3LK/mcfetch-fabric-1.0.0-1.19-1.21.jar",
+      "hash": "sha512-Ae/LTv+BhjRDw7BUX7lIBTL0xmDns/JaWShY1XjVI5LVyskcua8E7R8IYPMMw/22Ijv8LwAkQGDsGnLiI+GGyQ==",
+      "gameVersions": [
+        "1.16.5",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.17+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.17.1+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.18+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.18.1+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.18.2+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.19+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.19.1+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.19.2+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.19.3+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.19.4+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.20+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.20+quilt": [
+      "3Q6M3F2D"
+    ],
+    "1.20.1+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.20.1+quilt": [
+      "3Q6M3F2D"
+    ],
+    "1.20.2+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.20.2+quilt": [
+      "3Q6M3F2D"
+    ],
+    "1.20.3+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.20.3+quilt": [
+      "3Q6M3F2D"
+    ],
+    "1.20.4+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.20.4+quilt": [
+      "3Q6M3F2D"
+    ],
+    "1.20.5+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.20.5+quilt": [
+      "3Q6M3F2D"
+    ],
+    "1.20.6+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.20.6+quilt": [
+      "3Q6M3F2D"
+    ],
+    "1.21+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.21+neoforge": [
+      "NtAL2NWg"
+    ],
+    "1.21+quilt": [
+      "3Q6M3F2D"
+    ],
+    "1.21.1+fabric": [
+      "cgZJj3LK"
+    ],
+    "1.21.1+neoforge": [
+      "NtAL2NWg"
+    ],
+    "1.21.1+quilt": [
+      "3Q6M3F2D"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "fabric-tree-chopper",
+  "projectId": "nuvrbzBD",
+  "versions": {
+    "WCIZjCLt": {
+      "filename": "fabric-tree-chopper-0.8.7.jar",
+      "url": "https://cdn.modrinth.com/data/nuvrbzBD/versions/WCIZjCLt/fabric-tree-chopper-0.8.7.jar",
+      "hash": "sha512-dO6FYyrE6OvS/jv+XhZjNT/skPfSVfozSyQlpZ0LLmXmjUu362/cEJrmJ5P9D+M4m519nIg05CqWCBDxDKubXg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ydb55dWr": {
+      "filename": "fabric-tree-chopper-0.8.9.jar",
+      "url": "https://cdn.modrinth.com/data/nuvrbzBD/versions/Ydb55dWr/fabric-tree-chopper-0.8.9.jar",
+      "hash": "sha512-7BpfU4B6x4hteO2CDCxK9VvKu0oT7E5EjnqFnBKy0nOfeEK6fglYNVnTgeAcI6k1aGLYGbxwFLUDkfGjue67lA==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "flXlFz9A": {
+      "filename": "fabric-tree-chopper-0.8.10.jar",
+      "url": "https://cdn.modrinth.com/data/nuvrbzBD/versions/flXlFz9A/fabric-tree-chopper-0.8.10.jar",
+      "hash": "sha512-Rbdr72qo5kSo6gk7x9QKn/iPs7wAZFsNdwm7Ys4iXiJiFRUMQcdQlZCtEy5qBIfEjmtU7kApxhTx98Ce34K+Jw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "WCIZjCLt"
+    ],
+    "1.19+quilt": [
+      "WCIZjCLt"
+    ],
+    "1.19.1+fabric": [
+      "Ydb55dWr"
+    ],
+    "1.19.1+quilt": [
+      "Ydb55dWr"
+    ],
+    "1.19.2+fabric": [
+      "flXlFz9A"
+    ],
+    "1.19.2+quilt": [
+      "flXlFz9A"
+    ]
+  }
+}

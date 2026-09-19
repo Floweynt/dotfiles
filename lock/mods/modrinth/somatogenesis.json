@@ -1,0 +1,62 @@
+{
+  "slug": "somatogenesis",
+  "projectId": "jsudl1uU",
+  "versions": {
+    "LIjVb17H": {
+      "filename": "somatogenesis-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jsudl1uU/versions/LIjVb17H/somatogenesis-fabric-0.1.0.jar",
+      "hash": "sha512-OB4H8iJu3aWDOn7NhIopkIZsxZAhEyoBtlIupF3ZVYREOoUDT02QmPXewcHkkJcu5UhAe6QUlG0/8hRMsVUNVw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "lmmrJmTY": {
+      "filename": "somatogenesis-fabric-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/jsudl1uU/versions/lmmrJmTY/somatogenesis-fabric-0.1.1.jar",
+      "hash": "sha512-vTBalqEb7H1g9nZWvth+XeIZV2cp0KE6OFYQtlTvvl5mGrImmeRvx97CfDhUThcSMK8JcAYOktgjBPCtaNLKmg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "lmmrJmTY",
+      "LIjVb17H"
+    ]
+  }
+}

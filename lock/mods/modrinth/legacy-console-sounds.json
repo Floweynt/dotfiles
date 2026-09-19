@@ -1,0 +1,91 @@
+{
+  "slug": "legacy-console-sounds",
+  "projectId": "RYs6frPB",
+  "versions": {
+    "22ykwhI7": {
+      "filename": "consolesounds-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/RYs6frPB/versions/22ykwhI7/consolesounds-1.3.jar",
+      "hash": "sha512-vSRq/0Wlvfte6xKLezMAwt/Kzb47mmL8Fcqn9cF9jLZGh4Si/WmX0VOQhL0w6GREvhQ/dN4tsF+f2BkB4e8oig==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VJs9bQ4G": {
+      "filename": "consolesounds-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/RYs6frPB/versions/VJs9bQ4G/consolesounds-1.2.0.jar",
+      "hash": "sha512-JPot8f31WMlNNfE6G2/1e5bd3d9RjYouWyDaOHluEnU8mtwX8CF+Z8BwEwIYkQ29kPecnFrN6X0eyrCiJu3hDw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "npdgNvvy": {
+      "filename": "consolesounds118.jar",
+      "url": "https://cdn.modrinth.com/data/RYs6frPB/versions/npdgNvvy/consolesounds118.jar",
+      "hash": "sha512-tpzdMDHXhi3eMmLy5QGBpX0HP+NmIp+0iUX1IUX/3AKYeNwI4EkY/RgvHIfVMNCt7qvAUv98IVkL8oSR4HMwVA==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "npdgNvvy"
+    ],
+    "1.18.1+fabric": [
+      "npdgNvvy"
+    ],
+    "1.18.2+fabric": [
+      "npdgNvvy"
+    ],
+    "1.19+fabric": [
+      "22ykwhI7"
+    ],
+    "1.19.1+fabric": [
+      "22ykwhI7"
+    ],
+    "1.19.2+fabric": [
+      "22ykwhI7"
+    ],
+    "1.20.1+fabric": [
+      "VJs9bQ4G"
+    ],
+    "1.20.1+quilt": [
+      "VJs9bQ4G"
+    ]
+  }
+}

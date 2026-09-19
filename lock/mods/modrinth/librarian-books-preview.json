@@ -1,0 +1,82 @@
+{
+  "slug": "librarian-books-preview",
+  "projectId": "lF5RdI3O",
+  "versions": {
+    "50lnhPfD": {
+      "filename": "lbp-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/lF5RdI3O/versions/50lnhPfD/lbp-1.0.2.jar",
+      "hash": "sha512-udjv2ERZJqeqW1kf4HkL2NO5ZcZaDDaroHGLXN62z2zljYBh8PehPQTYTE+9ST3HZv03/zd6O2YLS40Nri5zPg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "Qcz23ZVJ": {
+      "filename": "show-enchantments-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lF5RdI3O/versions/Qcz23ZVJ/show-enchantments-1.0.0.jar",
+      "hash": "sha512-GMGkzIjWXI7R9FKxbn2UGw38WTJfU+5RVpufl7MmlZzuxntjnufE+SFudrbG/09H7VvgL7AOdAFdEZdCsTAUpQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "T95cDJxs": {
+      "filename": "show-enchantments-1.0.3+mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/lF5RdI3O/versions/T95cDJxs/show-enchantments-1.0.3%2Bmc26.2.jar",
+      "hash": "sha512-e5SFX3gk7UDDBWN7P7My3M51hvucueyzU19Z/RcC8hWl5WcaQBzn8fZ15a1zEx0GTjnX2npPwNmw9eZtabhTew==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "qSdTu7pY": {
+      "filename": "show-enchantments-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/lF5RdI3O/versions/qSdTu7pY/show-enchantments-1.0.1.jar",
+      "hash": "sha512-pGawML2F+EjrQLwlZnfr41LrO1/1CoxNfWdf7Oo6YpFiU4+ER+pY7kRWRpE5boU9YeRKCKN9qgn6tLK+zA6DFg==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "Qcz23ZVJ"
+    ],
+    "26.1+fabric": [
+      "qSdTu7pY"
+    ],
+    "26.1.2+fabric": [
+      "50lnhPfD"
+    ],
+    "26.2+fabric": [
+      "T95cDJxs"
+    ]
+  }
+}

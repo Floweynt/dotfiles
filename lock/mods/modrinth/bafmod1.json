@@ -1,0 +1,68 @@
+{
+  "slug": "bafmod1",
+  "projectId": "ltfOYkvI",
+  "versions": {
+    "JP2hNqVk": {
+      "filename": "bafmod-katana-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ltfOYkvI/versions/JP2hNqVk/bafmod-katana-1.20.1.jar",
+      "hash": "sha512-UuBobSrj+y8IHGIVuCbJoKos33Z2hoZFmywF/b/sFsTH4wV9sV+DRwptMTU3G++Q2lKjpLIX17lkW8vtTgdaQg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pClIKhUx": {
+      "filename": "bafmod-katana-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/ltfOYkvI/versions/pClIKhUx/bafmod-katana-1.20.jar",
+      "hash": "sha512-D78yw7LLCLEkL1qKDRCg4gw7OhY4+bdkiby++F0HpgvOVSaC7tOfSv5UhkoRotBEvCVO0sx1Wx48RcBtN+Xmng==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "JP2hNqVk",
+      "pClIKhUx"
+    ],
+    "1.20.1+fabric": [
+      "JP2hNqVk",
+      "pClIKhUx"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "mc-cigs",
+  "projectId": "aGMSd17u",
+  "versions": {
+    "ScMjKG0O": {
+      "filename": "McCigs-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/aGMSd17u/versions/ScMjKG0O/McCigs-1.1.jar",
+      "hash": "sha512-lis5qumi2bZ6+HSvTjnwdWbR61Jep/Ls9YSLpvI5aVcmWs0R4bFLm41FkWrdpYTw3Rzq2DuF5RYDNu6tgt3IAw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jYSwYx3Y": {
+      "filename": "McCigs-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/aGMSd17u/versions/jYSwYx3Y/McCigs-1.0.jar",
+      "hash": "sha512-BWU3ZSvcr/1M3b+WTclG1P63ozgYquZfFwcqGuy8sx8LByGHXXzxkt1g4n//6JlTPbZ+YWEJN64qbzPNW+Am0w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ScMjKG0O",
+      "jYSwYx3Y"
+    ]
+  }
+}

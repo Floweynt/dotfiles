@@ -1,0 +1,75 @@
+{
+  "slug": "cobblezones",
+  "projectId": "J9D0Llko",
+  "versions": {
+    "fCTLB7Ze": {
+      "filename": "cobblezones-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/J9D0Llko/versions/fCTLB7Ze/cobblezones-1.0.0.jar",
+      "hash": "sha512-AjclF9P9KYvBWDDWADgsw8k47X3MgiiJoaL3Bu2a3Vj8Y8NcR/Br38YcerhmixmG31S8DDv/6lISF+WeJv2cvA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "omqUKpcZ": {
+      "filename": "cobblezones-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/J9D0Llko/versions/omqUKpcZ/cobblezones-neoforge-1.0.0.jar",
+      "hash": "sha512-dlVF0yopN2/aPYiwu+MpEHkYPYEjHaWZS+pVpRmTnLU1BA2kRt4P45DNdh/QZ0EMLeTdHXFQ3DpwqTuMcSSE+Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "wjKR3AYU": {
+      "filename": "cobblezones-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/J9D0Llko/versions/wjKR3AYU/cobblezones-fabric-1.0.0.jar",
+      "hash": "sha512-xj6ag059ypZC55yoPIKb4EZp5kAPRUFcxzCWVJxhSEl0JqhQ/+F03mHAJl8fUQNVLxqk8jIX5oFJgWb2guItag==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "wjKR3AYU",
+      "fCTLB7Ze"
+    ],
+    "1.21.1+neoforge": [
+      "omqUKpcZ"
+    ]
+  }
+}

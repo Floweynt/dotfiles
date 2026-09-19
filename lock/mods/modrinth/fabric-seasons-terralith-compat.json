@@ -1,0 +1,60 @@
+{
+  "slug": "fabric-seasons-terralith-compat",
+  "projectId": "D53qveoj",
+  "versions": {
+    "MJ2OF7eg": {
+      "filename": "fabric-seasons-terralith-2.3.7-compat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/D53qveoj/versions/MJ2OF7eg/fabric-seasons-terralith-2.3.7-compat-1.0.jar",
+      "hash": "sha512-fvBqHi6TKKmILES6RMTZISStH9WHLOyF1Up1WPaJAimKMe7uniu0n6PGMYmPSKszz3e7KpEUUP0Kxh+ldXH41w==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20.1",
+        "1.20.2",
+        "1.20.4",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-seasons",
+          "projectId": "KJe6y9Eu",
+          "type": "required"
+        },
+        {
+          "slug": "terralith",
+          "projectId": "8oi3bsk5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "MJ2OF7eg"
+    ],
+    "1.19.3+fabric": [
+      "MJ2OF7eg"
+    ],
+    "1.19.4+fabric": [
+      "MJ2OF7eg"
+    ],
+    "1.20.1+fabric": [
+      "MJ2OF7eg"
+    ],
+    "1.20.2+fabric": [
+      "MJ2OF7eg"
+    ],
+    "1.20.4+fabric": [
+      "MJ2OF7eg"
+    ],
+    "1.21.1+fabric": [
+      "MJ2OF7eg"
+    ]
+  }
+}

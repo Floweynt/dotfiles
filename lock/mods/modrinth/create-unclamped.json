@@ -1,0 +1,125 @@
+{
+  "slug": "create-unclamped",
+  "projectId": "kfKiyEXs",
+  "versions": {
+    "2RxumCkS": {
+      "filename": "unclamped-forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kfKiyEXs/versions/2RxumCkS/unclamped-forge-1.1.0.jar",
+      "hash": "sha512-rdS+DzhPnLE5O4P5fSxYB2bBhmjJn098BKpSaCQILZt8jsiF/0lkL6OQaX5CrvnVgoOjNnEZ1C0G2dC5S5kcZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "2vaH4TDr": {
+      "filename": "unclamped-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kfKiyEXs/versions/2vaH4TDr/unclamped-fabric-1.1.0.jar",
+      "hash": "sha512-Dk5zNfDVKdgvMb5q/D0cSV+ZAozYIb1DwGjQ5Q1wtdZ80TxFoQR/v1rsUyiNJxaGU9RsBZ0xBx8Wi+O4w4eTGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "WKi2iewm": {
+      "filename": "unclamped-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kfKiyEXs/versions/WKi2iewm/unclamped-neoforge-1.1.0.jar",
+      "hash": "sha512-G/5Evw4mnVuwjy0MWURGEXMdmPeSqGsv4PYzNrXVV+xQ/mp4MjH7hWcGGVJUSE1untfmhwPsg81+KPKjGUHtjA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "oajaWRQR": {
+      "filename": "unclamped-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kfKiyEXs/versions/oajaWRQR/unclamped-forge-1.0.0.jar",
+      "hash": "sha512-6DX5guzVkgA+V3eqA7FwZyDzpXJFLfH4ucnoqJni754RJADkzaVZ1+PgqbiofBD5jqdi+LTHh9S4hpEZvzXRjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "tHqfkOP4": {
+      "filename": "unclamped-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kfKiyEXs/versions/tHqfkOP4/unclamped-fabric-1.0.0.jar",
+      "hash": "sha512-wOkQg7kc9O/vqI4fHadzIrgf4G6kCV0W3kgafljyeMe2OQp01siSzG9eg9sFq1dxYrFfQm35um51cqaI3lzxQA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2vaH4TDr",
+      "tHqfkOP4"
+    ],
+    "1.20.1+forge": [
+      "2RxumCkS",
+      "oajaWRQR"
+    ],
+    "1.20.1+neoforge": [
+      "2RxumCkS",
+      "oajaWRQR"
+    ],
+    "1.21.1+neoforge": [
+      "WKi2iewm"
+    ]
+  }
+}

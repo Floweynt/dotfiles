@@ -1,0 +1,132 @@
+{
+  "slug": "origins-size-bender",
+  "projectId": "AJxq7Bo4",
+  "versions": {
+    "cbknPrpn": {
+      "filename": "Size-bender-origin.jar",
+      "url": "https://cdn.modrinth.com/data/AJxq7Bo4/versions/cbknPrpn/Size-bender-origin.jar",
+      "hash": "sha512-43SOvXARV/pO9LBXTc03rBNDSvAE6jwRYWhOD/kALB8LnjyOSkRa9QhY1B9QRoE6bpawDzZPMAjMWeFE7QaPOg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "k51Zh8nf": {
+      "filename": "Extraorigins_z 1.0.1 1.20.3-4.jar",
+      "url": "https://cdn.modrinth.com/data/AJxq7Bo4/versions/k51Zh8nf/Extraorigins_z%201.0.1%201.20.3-4.jar",
+      "hash": "sha512-sGMc5YQHGDskOtkG0N67oGVELoqv2Ewlwiz4k6bM3LnEGEzFlWY1hsxPlMJCE7wAZJzO/9jJr2AAunkB/SpQ0A==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "xoG5bYo4": {
+      "filename": "Extraorigins_z 1.0.0 (1).jar",
+      "url": "https://cdn.modrinth.com/data/AJxq7Bo4/versions/xoG5bYo4/Extraorigins_z%201.0.0%20%281%29.jar",
+      "hash": "sha512-v90UhYfgwSv7lmPlK1UjKeo0GX/B48GDoQStYS6FSzQEuJTnWTqcPHvcpT7HHMIt+ZPeN/o6lT/5CsuaJKfXDQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "xoG5bYo4",
+      "cbknPrpn"
+    ],
+    "1.20.1+fabric": [
+      "xoG5bYo4",
+      "cbknPrpn"
+    ],
+    "1.20.3+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.20.4+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.20.5+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.20.6+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.21+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.21.1+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.21.2+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.21.3+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.21.4+fabric": [
+      "k51Zh8nf"
+    ],
+    "1.21.5+fabric": [
+      "k51Zh8nf"
+    ]
+  }
+}

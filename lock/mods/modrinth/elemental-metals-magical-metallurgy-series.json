@@ -1,0 +1,122 @@
+{
+  "slug": "elemental-metals-magical-metallurgy-series",
+  "projectId": "mqF8xISJ",
+  "versions": {
+    "9AIfO4V1": {
+      "filename": "elemental_metals-0.0.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mqF8xISJ/versions/9AIfO4V1/elemental_metals-0.0.3-1.20.1.jar",
+      "hash": "sha512-C/HZDTMbBc4cGEv+BtzcIboFKWATLhpgzkbgEseLR99dgwv3nFcuN0ymNBwLdlpukB62eRatDh1MriGbIg9nhA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RJ3bTBxj": {
+      "filename": "elemental_metals-0.0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mqF8xISJ/versions/RJ3bTBxj/elemental_metals-0.0.2-1.20.1.jar",
+      "hash": "sha512-7lES00zyVXFho07xjlZYRZBxxX0I6dPPtv0dfAAz5wcoT+i6y8f+oPF/B9OBYvafwAxil99zMynzscBE/a+8tg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "runes",
+          "projectId": "lP9Yrr1E",
+          "type": "required"
+        }
+      ]
+    },
+    "V3556zts": {
+      "filename": "elemental_metals-0.0.4-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/mqF8xISJ/versions/V3556zts/elemental_metals-0.0.4-1.21.1.jar",
+      "hash": "sha512-S+Dng9rGz5d2AGmvXqG6opDchA9v10aLQSV5mZ28u9efo+lsjds6A0jw3GdHpyIhalqCdgz0mniQ23bz4c5+Qw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Xpn3n2zS": {
+      "filename": "elemental_metals-0.0.3-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/mqF8xISJ/versions/Xpn3n2zS/elemental_metals-0.0.3-1.21.1.jar",
+      "hash": "sha512-iCxRH/dw7XMxrzv/8s5ScgJgiyhGo9LaJj9LXn/z3G0PmVvEQuFyDvm38/r9hy84S5qfSMi79Us75i80IMNHJQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qkJeD0T9": {
+      "filename": "elemental_metals-nf-0.0.4-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/mqF8xISJ/versions/qkJeD0T9/elemental_metals-nf-0.0.4-1.21.1.jar",
+      "hash": "sha512-h5h39Gg3B/Aczb1fPX3PRTEyZndEJB61h5nmZGbIiOQaih9I2sFx0jGCVzw+FAAtjidARi/126FCXvds6MrWRw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rFFebGeV": {
+      "filename": "elemental_metals-0.0.2-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/mqF8xISJ/versions/rFFebGeV/elemental_metals-0.0.2-1.19.2.jar",
+      "hash": "sha512-kvAfAlvX1j4nehPwnUjpBAY//SK9xw0foFECQjPuAdTP3WnARqFuCSgh3tUfkM8oOLZLGLiBT9LciSed5O/Bug==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "runes",
+          "projectId": "lP9Yrr1E",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "rFFebGeV"
+    ],
+    "1.20.1+fabric": [
+      "9AIfO4V1",
+      "RJ3bTBxj"
+    ],
+    "1.21+fabric": [
+      "V3556zts"
+    ],
+    "1.21.1+fabric": [
+      "V3556zts",
+      "Xpn3n2zS"
+    ],
+    "1.21.1+neoforge": [
+      "qkJeD0T9"
+    ]
+  }
+}

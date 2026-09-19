@@ -1,0 +1,66 @@
+{
+  "slug": "aurora-pvp",
+  "projectId": "Fsj0WbT4",
+  "versions": {
+    "QcqnzYK9": {
+      "filename": "aurorapvp-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Fsj0WbT4/versions/QcqnzYK9/aurorapvp-1.0.1.jar",
+      "hash": "sha512-KL2/r2qD2+iEnXYQydJvPyZXejdbRK5A7HQkLsczKZeWU1KgJ+uris5pb5no5miE6r40wm6vshCzPn3uSpui9w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "bJgthfUs": {
+      "filename": "aurorapvp-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Fsj0WbT4/versions/bJgthfUs/aurorapvp-1.0.0.jar",
+      "hash": "sha512-O1EBRXICrSuHGeU58PIAJWhkmpDSyinKCdnjmBYZD9qVmhcrXeMOcNp6M3WjYamNbla5E/4XECqsEwNkaxSUgA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "pPWXTouo": {
+      "filename": "aurorapvp-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Fsj0WbT4/versions/pPWXTouo/aurorapvp-1.0.1.jar",
+      "hash": "sha512-7WO130dHy66+SJhfxVLwFYhVdEuGMY5u+n+Tvbqj5efSZ6lBKlTZKsV6bFgjC+86j8WKeZZV/cabdqrkx+jF5Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "pPWXTouo",
+      "QcqnzYK9",
+      "bJgthfUs"
+    ]
+  }
+}

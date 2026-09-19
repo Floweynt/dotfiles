@@ -1,0 +1,86 @@
+{
+  "slug": "modmenu-command",
+  "projectId": "D9dmyZzD",
+  "versions": {
+    "MLmbLxqz": {
+      "filename": "modmenucommand-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/D9dmyZzD/versions/MLmbLxqz/modmenucommand-1.0.0.jar",
+      "hash": "sha512-Mx+gyne90FZh7I25xWirp4e5N6vIrHrJP5TNOfV8Z3+kviesyGbYpo8HXAmjxD1M3lF0bDWr7uHkGmCYXvnUfw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "mxM3OnVO": {
+      "filename": "modmenucommand-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/D9dmyZzD/versions/mxM3OnVO/modmenucommand-1.0.1.jar",
+      "hash": "sha512-r9vCNj9FzT+KuiC7Ah7Rxs08UPsOzPY/b9JIDPVk04j12/4XZ4H3Z5tQRlyK5FnIdHyQ23wC5smAhxYh1uvCzA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "MLmbLxqz"
+    ],
+    "1.20.2+fabric": [
+      "MLmbLxqz"
+    ],
+    "1.20.3+fabric": [
+      "MLmbLxqz"
+    ],
+    "1.20.4+fabric": [
+      "MLmbLxqz"
+    ],
+    "1.21+fabric": [
+      "mxM3OnVO"
+    ]
+  }
+}

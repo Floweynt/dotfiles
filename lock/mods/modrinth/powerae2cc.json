@@ -1,0 +1,40 @@
+{
+  "slug": "powerae2cc",
+  "projectId": "ooC9pr8V",
+  "versions": {
+    "8BZs3EKD": {
+      "filename": "PowerAE2CCBridge-1.1.0.0-1.20.1-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/ooC9pr8V/versions/8BZs3EKD/PowerAE2CCBridge-1.1.0.0-1.20.1-FABRIC.jar",
+      "hash": "sha512-bgYu/Wh6K9bSiLjTWjL20psSQzDLfk8dJkVkz7FVQrLLUk3rA5GfBMlgOE0YhS3E0urfiiAfmGesIo0P2gUO1Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        },
+        {
+          "slug": "cc-tweaked",
+          "projectId": "gu7yAYhd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8BZs3EKD"
+    ],
+    "1.20.1+quilt": [
+      "8BZs3EKD"
+    ]
+  }
+}

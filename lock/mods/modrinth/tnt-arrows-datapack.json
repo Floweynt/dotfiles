@@ -1,0 +1,57 @@
+{
+  "slug": "tnt-arrows-datapack",
+  "projectId": "8UpX9BnS",
+  "versions": {
+    "o1mrFewj": {
+      "filename": "tntarrowsdmod.jar",
+      "url": "https://cdn.modrinth.com/data/8UpX9BnS/versions/o1mrFewj/tntarrowsdmod.jar",
+      "hash": "sha512-4ez4xzaIjlWMpqfsmRL+hTWQQbi1rASkPAqvySmx4LfFJ/2LLuV34KsSC24BgdMTI9jGfzhg4hhUhHIBXsgX7w==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "sEK6i2WL": {
+      "filename": "tntarrowsdatapack.zip",
+      "url": "https://cdn.modrinth.com/data/8UpX9BnS/versions/sEK6i2WL/tntarrowsdatapack.zip",
+      "hash": "sha512-wVHMLqORe1Bmk9h4JPPruBL61ZHUQnasyLU3DMMbvNWK6tHRfBra1tSJvCOCm8nwatGIwHOp2TUsko4IlHHOYQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+datapack": [
+      "sEK6i2WL"
+    ],
+    "1.21.10+fabric": [
+      "o1mrFewj"
+    ],
+    "1.21.10+forge": [
+      "o1mrFewj"
+    ],
+    "1.21.11+datapack": [
+      "sEK6i2WL"
+    ],
+    "1.21.11+fabric": [
+      "o1mrFewj"
+    ],
+    "1.21.11+forge": [
+      "o1mrFewj"
+    ]
+  }
+}

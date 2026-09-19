@@ -1,0 +1,64 @@
+{
+  "slug": "player-pressure-plates",
+  "projectId": "EaXYr9Rx",
+  "versions": {
+    "faGfLteg": {
+      "filename": "player-pressure-plates-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/EaXYr9Rx/versions/1.0.2/player-pressure-plates-1.0.2.jar",
+      "hash": "sha512-BDOKw1T6g/wk69updWhUV9pb5uxhcJIKn9IWiXxFTnj6WXw3uEDQD2NsiohmZQqTUzh27mX+ElZ18aQDDZIH5A==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fnUpR6eb": {
+      "filename": "player-pressure-plates-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/EaXYr9Rx/versions/fnUpR6eb/player-pressure-plates-1.0.3.jar",
+      "hash": "sha512-OmKOO0VrOlwZnN5H4PRLTees950lwlPOVtwJxge4WGCyqZVsi09RGDSjShrDiJLEH05zhvDbkc7x4Oc6KEpsIw==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "fnUpR6eb",
+      "faGfLteg"
+    ],
+    "1.19+fabric": [
+      "fnUpR6eb"
+    ],
+    "1.19.1+fabric": [
+      "fnUpR6eb"
+    ],
+    "1.19.2+fabric": [
+      "fnUpR6eb"
+    ]
+  }
+}

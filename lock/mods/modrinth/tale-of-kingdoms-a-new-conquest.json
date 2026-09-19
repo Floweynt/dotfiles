@@ -1,0 +1,71 @@
+{
+  "slug": "tale-of-kingdoms-a-new-conquest",
+  "projectId": "AEWkDOWi",
+  "versions": {
+    "710yIKwp": {
+      "filename": "taleofkingdoms-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/AEWkDOWi/versions/710yIKwp/taleofkingdoms-1.0.6.jar",
+      "hash": "sha512-3bitcHeQ/eOeUwGtDu8ED2zlglaKUPSssKt3T9xJrXZei/ndN+WweHIUf5AH0k8RJErg5gke5CYuVYnoT7bJpg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eIyHaT29": {
+      "filename": "taleofkingdoms-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AEWkDOWi/versions/1.0.0/taleofkingdoms-1.0.0.jar",
+      "hash": "sha512-aH0XjAJX6+eZX0fbrnHAxjO1krAIo4lISJq5UPb6wQVYMuej80kl58Cm1mtUNVAadD7T//AmwDmYfsrC9waNYQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "gvix2upE": {
+      "filename": "taleofkingdoms-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/AEWkDOWi/versions/gvix2upE/taleofkingdoms-1.0.5.jar",
+      "hash": "sha512-6JAvyWF8YCSruSImkBrvcgjKC4unfNfFMRcmQlUrp/yYlGKVdlKpMNpzfsjWUWpp6WJfDx+fUnaUAnq5kZ60Dw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "eIyHaT29"
+    ],
+    "1.20.1+fabric": [
+      "gvix2upE"
+    ],
+    "1.21.1+fabric": [
+      "710yIKwp"
+    ]
+  }
+}

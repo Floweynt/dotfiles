@@ -1,0 +1,85 @@
+{
+  "slug": "chroma-api",
+  "projectId": "ukQFIcFQ",
+  "versions": {
+    "GqcqhX8G": {
+      "filename": "chroma-api-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ukQFIcFQ/versions/GqcqhX8G/chroma-api-1.1.1.jar",
+      "hash": "sha512-cmbZqntL+SuHVL2uZhADGoeKlGZ/hFr8hKUBs4SeuFLzsNKZ2eNA2nP6nnJwefC1JDFQyTWyXTQ6keIY3WK+zA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "T6BH7BQ6": {
+      "filename": "chroma-api-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ukQFIcFQ/versions/T6BH7BQ6/chroma-api-1.1.0.jar",
+      "hash": "sha512-cFUg5+7N8pFg44pVOARwrhGhXQ5PCjojWJWB4xnJTlX5maLtNtMBgKFlAJQX+kCvKtzCdhf+4X9PqkLApwOJzw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bTvm7UHu": {
+      "filename": "chroma-api-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ukQFIcFQ/versions/bTvm7UHu/chroma-api-1.0.0.jar",
+      "hash": "sha512-TCJDX9wRiGcESRonOqli0rE1ksp4zn3O7Xp5VSW2vp1FJEzpFWG5r4gZFPHckuoUbLdjzCymQTVBYBsIluJgng==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "bTvm7UHu"
+    ],
+    "26.1+fabric": [
+      "T6BH7BQ6"
+    ],
+    "26.1.1+fabric": [
+      "T6BH7BQ6"
+    ],
+    "26.1.2+fabric": [
+      "T6BH7BQ6"
+    ],
+    "26.2+fabric": [
+      "GqcqhX8G"
+    ]
+  }
+}

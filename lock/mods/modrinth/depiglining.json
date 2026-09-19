@@ -1,0 +1,90 @@
+{
+  "slug": "depiglining",
+  "projectId": "XK8jr8zn",
+  "versions": {
+    "JreWAK2H": {
+      "filename": "Depiglining-1.0.0+fabric-1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/XK8jr8zn/versions/JreWAK2H/Depiglining-1.0.0%2Bfabric-1.16.5.jar",
+      "hash": "sha512-hZqDvD7VCTjFmiQK5Coeo7QpY2Er3PFtIko64gEOBB94N1i9UmRtsNFuvNcHjRfxvW0O9C7jgGNjwq7lA7HsNQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aIXUFFP9": {
+      "filename": "Depiglining-1.0.1+fabric-1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/XK8jr8zn/versions/aIXUFFP9/Depiglining-1.0.1%2Bfabric-1.16.5.jar",
+      "hash": "sha512-AxbIQNykort/um/fwAaRvQ7NQlLpLxwqQ4qqNBytK5ctaH5nK5QELnnVcURuKXlU8iSpamMEP99xJ1q1KSBw+g==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dOPOTPuv": {
+      "filename": "Depiglining-1.0.1+forge-1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/XK8jr8zn/versions/dOPOTPuv/Depiglining-1.0.1%2Bforge-1.16.5.jar",
+      "hash": "sha512-YOSQzYDORQwpqkOFG8eI80pJhsvTbF2dl9bApouqgRIjQ1/H+pPeMZ03cRBYOeenHOM5UPRekpRcPrbwvdM7Dg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "rCGCcvSp": {
+      "filename": "Depiglining-1.0.0+forge-1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/XK8jr8zn/versions/rCGCcvSp/Depiglining-1.0.0%2Bforge-1.16.5.jar",
+      "hash": "sha512-UGxnRUbPoBvH7I4csunx8Cx94vdt62pTAnKG1S0OfmM43kL8v6OJwc8DZzko7E8qc+CV+9OPW+WQEszZ4k0rZQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "aIXUFFP9",
+      "JreWAK2H"
+    ],
+    "1.16.5+forge": [
+      "dOPOTPuv",
+      "rCGCcvSp"
+    ],
+    "1.16.5+quilt": [
+      "aIXUFFP9",
+      "JreWAK2H"
+    ]
+  }
+}

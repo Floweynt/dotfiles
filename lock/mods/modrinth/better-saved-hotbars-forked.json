@@ -1,0 +1,79 @@
+{
+  "slug": "better-saved-hotbars-forked",
+  "projectId": "GdSOHJIu",
+  "versions": {
+    "UxJa34Oq": {
+      "filename": "BetterSavedHotbars-Forked-1.3.9-26.2.jar",
+      "url": "https://cdn.modrinth.com/data/GdSOHJIu/versions/UxJa34Oq/BetterSavedHotbars-Forked-1.3.9-26.2.jar",
+      "hash": "sha512-xsDOAS9w1MBK+TZRSLbPJ3ptEVzPDcSTdand6gc8uLbw1CTKBwvyRlOTAmVlbW0hX5G5zlph0PcBMhhOxOA8qg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gTNRdsXZ": {
+      "filename": "BetterSavedHotbars-Forked-1.3.9.jar",
+      "url": "https://cdn.modrinth.com/data/GdSOHJIu/versions/gTNRdsXZ/BetterSavedHotbars-Forked-1.3.9.jar",
+      "hash": "sha512-yQZ45+VhlQOD0XzrnKpzeYtKuO8Wsh0wlQRqWRJ2+Mmg4njnNVdDTIN0oNDkbulXfC/57ej0fuQVmaZLJMPiSw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "sOmmQPQo": {
+      "filename": "BetterSavedHotbars-Forked-1.3.9-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/GdSOHJIu/versions/sOmmQPQo/BetterSavedHotbars-Forked-1.3.9-26.1.jar",
+      "hash": "sha512-eeHHTF/IFbKg9Lt+IltkTYy1o4EI2janw/8JKxpq1xlzGlxuVYI0t1MwOKhR3v7harhi62SZT5QC3R6Nhaagvg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "gTNRdsXZ"
+    ],
+    "26.1+fabric": [
+      "sOmmQPQo"
+    ],
+    "26.1.1+fabric": [
+      "sOmmQPQo"
+    ],
+    "26.1.2+fabric": [
+      "sOmmQPQo"
+    ],
+    "26.2+fabric": [
+      "UxJa34Oq"
+    ]
+  }
+}

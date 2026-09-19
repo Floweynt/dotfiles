@@ -1,0 +1,31 @@
+{
+  "slug": "dream-skills-mod",
+  "projectId": "eoxNwJsx",
+  "versions": {
+    "FdBAOepa": {
+      "filename": "dreamskills-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/eoxNwJsx/versions/FdBAOepa/dreamskills-1.0.0.jar",
+      "hash": "sha512-CDPlQgEYCOEIB3IyUEEa/xCASyWsmzYwocJjzIPDfZGcYR68ElL6Yd2HjnxwblvhFcbkbsGEMxFRmVrHC0C5ig==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "FdBAOepa"
+    ]
+  }
+}

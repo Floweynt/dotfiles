@@ -1,0 +1,105 @@
+{
+  "slug": "rekindled-combat",
+  "projectId": "VeR8ldhM",
+  "versions": {
+    "6dexwIy0": {
+      "filename": "rekindledcombat-forge-1.8.6+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VeR8ldhM/versions/6dexwIy0/rekindledcombat-forge-1.8.6%2B1.20.1.jar",
+      "hash": "sha512-hSAqmApUWGa6jzrbg6ik5HPiuaRvPXYDIWogaUEUabFaTgzigsCatxN9XhhDUOfaWVOEZmE2qsr+pl+IDCuaLA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "FqCZwaBe": {
+      "filename": "rekindledcombat-forge-2.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VeR8ldhM/versions/FqCZwaBe/rekindledcombat-forge-2.0.0%2B1.20.1.jar",
+      "hash": "sha512-l6pe+upYLg8QoX5GavFpPg7F1d1pvhLbITAaoNa+lHRyUsZ5Vsxm1pA3aI7c9L1a0M5zxknaaudfupcfBiLhhA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "l43pk0ut": {
+      "filename": "rekindledcombat-fabric-1.8.6+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VeR8ldhM/versions/l43pk0ut/rekindledcombat-fabric-1.8.6%2B1.20.1.jar",
+      "hash": "sha512-lcvq/7eUVy+OuTaWlOl8fwy/O6BX7T/ruDfwWpYKIrHNEmUnvHuJUA44JH2y75rSPgpU6HFD3milRxurY4c8gA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "l43pk0ut"
+    ],
+    "1.20+forge": [
+      "FqCZwaBe",
+      "6dexwIy0"
+    ],
+    "1.20.1+fabric": [
+      "l43pk0ut"
+    ],
+    "1.20.1+forge": [
+      "FqCZwaBe",
+      "6dexwIy0"
+    ]
+  }
+}

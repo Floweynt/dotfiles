@@ -1,0 +1,41 @@
+{
+  "slug": "overfletched",
+  "projectId": "VKN78Ni9",
+  "versions": {
+    "Qfmnb0JF": {
+      "filename": "Overfletched-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VKN78Ni9/versions/Qfmnb0JF/Overfletched-1.0.0.jar",
+      "hash": "sha512-5DbsriA2NQL/8ZgrSgWWKQRM4nvXHnP92nQwF+iGTkzmDyxrvXsQGKk8hJwLse//3sFH20YDdx3zalj5HxO16g==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "zine",
+          "projectId": "LKEoCBc7",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.6+fabric": [
+      "Qfmnb0JF"
+    ]
+  }
+}

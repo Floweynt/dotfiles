@@ -1,0 +1,64 @@
+{
+  "slug": "numismatic-waystones",
+  "projectId": "23XgPgKp",
+  "versions": {
+    "a7yPvxZq": {
+      "filename": "numismatic-waystones-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/23XgPgKp/versions/a7yPvxZq/numismatic-waystones-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-JmazlF6uF97A+4bioyQGWPqIJnmIAWhfqUEw+zUT1HnmxT0t6od/oXMvQicP7cq/1c8xun5KGbrtbZGOx+gioQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fwaystones",
+          "projectId": "sTZr7NVo",
+          "type": "required"
+        },
+        {
+          "slug": "numismatic-overhaul",
+          "projectId": "ZXm8hVxN",
+          "type": "required"
+        }
+      ]
+    },
+    "lkvoSiGw": {
+      "filename": "numismatic-waystones-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/23XgPgKp/versions/lkvoSiGw/numismatic-waystones-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-b9atMKfPGtlLRh8ZgAhqH0ugPFBbBqvlbSEYJgKBJ8LEBrUKgJAuHk50zog3aQNs7lrdQLjHUsY+Tb7SLM+QNA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "numismatic-overhaul",
+          "projectId": "ZXm8hVxN",
+          "type": "required"
+        },
+        {
+          "slug": "fwaystones",
+          "projectId": "sTZr7NVo",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "lkvoSiGw"
+    ],
+    "1.21.1+fabric": [
+      "a7yPvxZq"
+    ]
+  }
+}

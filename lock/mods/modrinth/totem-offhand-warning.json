@@ -1,0 +1,52 @@
+{
+  "slug": "totem-offhand-warning",
+  "projectId": "E9FELrX5",
+  "versions": {
+    "JoRvjRZi": {
+      "filename": "TotemOffhandWarning-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/E9FELrX5/versions/JoRvjRZi/TotemOffhandWarning-1.0.0.jar",
+      "hash": "sha512-7aiXEcMQCEDrUSeb/EbtgJ7IVCykNLU2SHQWjbFCX3IIr0S5Qp1j7Rze00V2XRB5u8UWILXcvyHdZJJJOKgybw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rJqcHbiV": {
+      "filename": "TotemOffhandWarning-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/E9FELrX5/versions/rJqcHbiV/TotemOffhandWarning-1.0.1.jar",
+      "hash": "sha512-BVbjqvlssNl7G5d8lY7zpWZt+CKRISMezzT+Q3Td2ig7KohOXcJPFG1AC0JSkfih+9KWYKXeAawUohSnWEnDGQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "rJqcHbiV",
+      "JoRvjRZi"
+    ]
+  }
+}

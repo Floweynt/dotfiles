@@ -1,0 +1,50 @@
+{
+  "slug": "plated",
+  "projectId": "VdcrRmXs",
+  "versions": {
+    "E6JEydWh": {
+      "filename": "plated-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/VdcrRmXs/versions/2.3.0/plated-2.3.0.jar",
+      "hash": "sha512-mzvstbyWoxns88I14ZqTWjJKC+nTatFB861GeJeIoC8GurjXVKfkg4e1p6So4Mmouazi1VoryKcNxNb9E63Fmg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fafQVBAo": {
+      "filename": "plated-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/VdcrRmXs/versions/2.2.0/plated-2.2.0.jar",
+      "hash": "sha512-84WQ3mrkif3C04sxNjwtOfu5t+Pq0e4G4GuWSEXpDeoxXVOvDXUZSCe0HY92ENyNTAU1YEXh/zp+eOuCE7TDWg==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "fafQVBAo"
+    ],
+    "1.18.1+fabric": [
+      "fafQVBAo"
+    ],
+    "1.18.2+fabric": [
+      "fafQVBAo"
+    ],
+    "1.19+fabric": [
+      "E6JEydWh"
+    ]
+  }
+}

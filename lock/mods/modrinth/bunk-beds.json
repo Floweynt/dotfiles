@@ -1,0 +1,85 @@
+{
+  "slug": "bunk-beds",
+  "projectId": "AYrOhk54",
+  "versions": {
+    "YBNZDZSV": {
+      "filename": "bunk-beds-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/AYrOhk54/versions/YBNZDZSV/bunk-beds-1.0.1.jar",
+      "hash": "sha512-+f4VTFu21qDW60u8lT2PG2gVRFbMAh/qDwmUiOMnst2Z3KQqyDTe0V4MTuaJu0WOo2IS07yACVZtMjLfHrdq4g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "szl9QBJB": {
+      "filename": "bunk-beds-1.0.4+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/AYrOhk54/versions/szl9QBJB/bunk-beds-1.0.4%2B1.21.11.jar",
+      "hash": "sha512-bGEAoxKTZYRPuB2QX9XNikVk6Qjaey+LDXNH+Lz5vTuwzvHnfb0eauKnL2agxWZuTuqcZRg50x7aS14WLNQhZA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "v6LTIhu3": {
+      "filename": "bunk-beds-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AYrOhk54/versions/v6LTIhu3/bunk-beds-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-hV6aHncbh/DJLWh9epg02CWYHd72hlaioA7fnzHRgyOiRLv2oxQkmOmGxBTJs4Ez0eTE396WNVDdkqsr64tGLA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "v6LTIhu3"
+    ],
+    "1.20.1+fabric": [
+      "v6LTIhu3"
+    ],
+    "1.20.4+fabric": [
+      "YBNZDZSV"
+    ],
+    "1.21.11+fabric": [
+      "szl9QBJB"
+    ]
+  }
+}

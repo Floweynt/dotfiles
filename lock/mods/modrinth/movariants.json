@@ -1,0 +1,35 @@
+{
+  "slug": "movariants",
+  "projectId": "il1Aa7hO",
+  "versions": {
+    "gbFiZIOB": {
+      "filename": "MoreVariants.jar",
+      "url": "https://cdn.modrinth.com/data/il1Aa7hO/versions/gbFiZIOB/MoreVariants.jar",
+      "hash": "sha512-lQjoUVnvhQEPaDiiKuDhoePMqpr1qf6vZYgNmTYskYNJDrYdS+ByFtC8H3vpfT6If2MB3PQ9lHZMcV5EujB/4Q==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "variantapi",
+          "projectId": "E4q8dYNM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gbFiZIOB"
+    ],
+    "1.21.1+fabric": [
+      "gbFiZIOB"
+    ]
+  }
+}

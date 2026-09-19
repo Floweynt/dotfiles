@@ -1,0 +1,52 @@
+{
+  "slug": "colorcompass",
+  "projectId": "KTuFndRI",
+  "versions": {
+    "Rfdnq8mx": {
+      "filename": "color-compass-mc1.20.1-v1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/KTuFndRI/versions/Rfdnq8mx/color-compass-mc1.20.1-v1.0.1.jar",
+      "hash": "sha512-ZuY56ywgMINsgm/sb6fayrtjh4Jjlx9zsPYvh4kEx0nZ4atiY0scRVKOhF1TgsnfTnaiHnwNHGja8kFdz4lGng==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UaJhk3ld": {
+      "filename": "color-compass-mc1.20.1-v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KTuFndRI/versions/UaJhk3ld/color-compass-mc1.20.1-v1.0.0.jar",
+      "hash": "sha512-6WpvQZ4AhUFtj5KbLr1nn3rPn8sHNf62RIh6ou4tOjkIKA/tNdljtbjLVljIuFDToYotW7E5tVokYUEHRogBvg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Rfdnq8mx",
+      "UaJhk3ld"
+    ]
+  }
+}

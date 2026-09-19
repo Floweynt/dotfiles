@@ -1,0 +1,67 @@
+{
+  "slug": "polydex-bridge",
+  "projectId": "cjSHexOj",
+  "versions": {
+    "1SDiwoUn": {
+      "filename": "polydex-bridge-1.0.1+mc.1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/cjSHexOj/versions/1SDiwoUn/polydex-bridge-1.0.1%2Bmc.1.21.1.jar",
+      "hash": "sha512-y8Q5xhihebPsoncaLIkScMjTKVGt8rR0uzP9j/EkM5mpw7Ytc423aHrgXodgug/hfkHzplYIH8JcXBy+ngeXYw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polydex",
+          "projectId": "m5NB7FJE",
+          "type": "required"
+        }
+      ]
+    },
+    "CioEqIcj": {
+      "filename": "polydex-bridge-1.0.0+mc.1.21.jar",
+      "url": "https://cdn.modrinth.com/data/cjSHexOj/versions/CioEqIcj/polydex-bridge-1.0.0%2Bmc.1.21.jar",
+      "hash": "sha512-2Q8nDcc7v6OqZbjmFLMnEkspnmCIrGdd3apPNGutHIn1H/WUu0eVp8d29Wb7k15MMUfTnmlo6uIQ2dPj44KEOA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "CioEqIcj"
+    ],
+    "1.21+quilt": [
+      "CioEqIcj"
+    ],
+    "1.21.1+fabric": [
+      "1SDiwoUn"
+    ],
+    "1.21.1+quilt": [
+      "1SDiwoUn"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "gotcha-origin",
+  "projectId": "9HVN9WMy",
+  "versions": {
+    "LHr4YBL8": {
+      "filename": "gotcha_origin_1.20.1_0.1.jar",
+      "url": "https://cdn.modrinth.com/data/9HVN9WMy/versions/LHr4YBL8/gotcha_origin_1.20.1_0.1.jar",
+      "hash": "sha512-T4PycPM45i6HkCfTSZBnIdaZ4uZjIBf+q/eExsC6IhqMPQ7Aa1ScZQXPO1ysKVPmkDL/uf8QorKv9LpabGvWJg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "LHr4YBL8"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "time-loop",
+  "projectId": "Iq0ETcbp",
+  "versions": {
+    "2dhMupTF": {
+      "filename": "iForgotMyPills.jar",
+      "url": "https://cdn.modrinth.com/data/Iq0ETcbp/versions/2dhMupTF/iForgotMyPills.jar",
+      "hash": "sha512-XX3MUJqXtgA9bY7ZYmiYgfJEvd8Dh0XWytxqqkKS8lyZYNJXZAfhVD6LgAadEyspDJ3icClfEmc2ZsdBGeVf5w==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "motion-capture",
+          "projectId": "gWu44BYU",
+          "type": "required"
+        }
+      ]
+    },
+    "8CrMQUZh": {
+      "filename": "iForgotMyPills 5 mins.jar",
+      "url": "https://cdn.modrinth.com/data/Iq0ETcbp/versions/8CrMQUZh/iForgotMyPills%205%20mins.jar",
+      "hash": "sha512-DKApA/9LjPPvN8IwLKTcy0ZT85ybjYqTtBfRlzqFzEsajE7NlxDlcsEheeJq8I7N45INRrHtrCRGuU/drk3YHw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "motion-capture",
+          "projectId": "gWu44BYU",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "8CrMQUZh",
+      "2dhMupTF"
+    ]
+  }
+}

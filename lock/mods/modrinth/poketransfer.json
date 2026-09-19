@@ -1,0 +1,31 @@
+{
+  "slug": "poketransfer",
+  "projectId": "8tmRFKdT",
+  "versions": {
+    "LrmHJAE5": {
+      "filename": "poketransfer.jar",
+      "url": "https://cdn.modrinth.com/data/8tmRFKdT/versions/LrmHJAE5/poketransfer.jar",
+      "hash": "sha512-t2TbjAxIFMxb32/h0I8yu1rxhhg+s1N/qVk4Fh6KCN4t5I95t45H7z/C0kTK2/E3Dmku7uVJo22iQAhXnoenVQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "LrmHJAE5"
+    ]
+  }
+}

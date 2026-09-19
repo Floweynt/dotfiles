@@ -1,0 +1,69 @@
+{
+  "slug": "cobblemon-pc-resizer",
+  "projectId": "WN7pMqaN",
+  "versions": {
+    "9NRrLKQ0": {
+      "filename": "pebbles-pc-resizer-1.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/WN7pMqaN/versions/9NRrLKQ0/pebbles-pc-resizer-1.0.1-1.21.1.jar",
+      "hash": "sha512-GLCAFHjgpTGfXG79VuE9wh3GKtjWYpyebJTMYFi8ppkS0P04uPR2ddT4cIy6+rwgIwAOEpx0Z+edQfYa+UPggw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "uX8P9tZU": {
+      "filename": "pebbles-pc-resizer-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/WN7pMqaN/versions/uX8P9tZU/pebbles-pc-resizer-1.0.1.jar",
+      "hash": "sha512-aqIyV+r1WyMFdQY7CerndFvAA+5MsZ2zw0T6ZN44SSUcvYTtkwc2/vU8y4hqnzQ4frb0GIe7vFb1CihLsGTLsg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "uX8P9tZU"
+    ],
+    "1.21.1+fabric": [
+      "9NRrLKQ0"
+    ]
+  }
+}

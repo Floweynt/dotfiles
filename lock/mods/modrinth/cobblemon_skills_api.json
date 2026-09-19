@@ -1,0 +1,99 @@
+{
+  "slug": "cobblemon_skills_api",
+  "projectId": "spjMKJzG",
+  "versions": {
+    "NlGBWYMT": {
+      "filename": "cobblemon_pufferfish_api_neoforge-0.9.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/spjMKJzG/versions/NlGBWYMT/cobblemon_pufferfish_api_neoforge-0.9.1-beta.jar",
+      "hash": "sha512-Gicpx1DavFMYxkt110TaOokZ8ZmFsJ4zQqJv9GSz9dCtqhSqO/txUs9EpoykRMDoAaxGcn2zEtgj434PdS+8eg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RbcWfT0L": {
+      "filename": "cobblemon_pufferfish_api_fabric-0.9.jar",
+      "url": "https://cdn.modrinth.com/data/spjMKJzG/versions/RbcWfT0L/cobblemon_pufferfish_api_fabric-0.9.jar",
+      "hash": "sha512-s0MAtSVIXWN1jA/8GclsvzzlRlOPpEkC78ll84TI8Qge7+v6C1umwRqG+8O+CkLxNUEya/brdLerCT2Wv/SULg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "skills",
+          "projectId": "hqQqvaa4",
+          "type": "required"
+        }
+      ]
+    },
+    "TV7dj4eU": {
+      "filename": "cobblemon_pufferfish_api_neoforge-0.9.jar",
+      "url": "https://cdn.modrinth.com/data/spjMKJzG/versions/TV7dj4eU/cobblemon_pufferfish_api_neoforge-0.9.jar",
+      "hash": "sha512-Txdz1ZT1VknxxEwiciTc5I6JyNQt7pYu4Ixm5/T/nGeoz8iM3vRUCIl+wweVYBqLMUjxDPKMEdmEGwXHaPLFMw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "skills",
+          "projectId": "hqQqvaa4",
+          "type": "required"
+        }
+      ]
+    },
+    "epRYBLKL": {
+      "filename": "cobblemon_pufferfish_api_fabric-0.9.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/spjMKJzG/versions/epRYBLKL/cobblemon_pufferfish_api_fabric-0.9.1-beta.jar",
+      "hash": "sha512-2lU7ud9EByFoeawrXDXZiUnQ+Szm6aSkIsZ34gAeSSSgPcSuRZ+RyNKMcx9QVmUxro3KzQp+QuboLk+rNKcAqA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "epRYBLKL",
+      "RbcWfT0L"
+    ],
+    "1.21.1+neoforge": [
+      "NlGBWYMT",
+      "TV7dj4eU"
+    ]
+  }
+}

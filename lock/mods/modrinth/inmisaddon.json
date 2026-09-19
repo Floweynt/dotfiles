@@ -1,0 +1,148 @@
+{
+  "slug": "inmisaddon",
+  "projectId": "c4aa1Mqq",
+  "versions": {
+    "M30uCaTP": {
+      "filename": "inmisaddon-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/c4aa1Mqq/versions/M30uCaTP/inmisaddon-1.0.4.jar",
+      "hash": "sha512-AhiPy3Z/Nwgw3g4AiEWL+2TXhBm2HjVsi3F7FGHchjXlBLx1lZd0aNRPXHGqTM5ORpuvSvJ9ZUwqhVQziwwLuA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "QaTVb4Cq": {
+      "filename": "inmisaddon-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/c4aa1Mqq/versions/QaTVb4Cq/inmisaddon-1.0.3.jar",
+      "hash": "sha512-6zcNGcin/HkcBlX5vYdK8C9c1FGFdkbII8FhT0PGUG7SUEkfVDPWtcWBCtDlSlCWmJmEMuJAQ8u0VeREoYX5fg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "akYLpLPq": {
+      "filename": "inmisaddon-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/c4aa1Mqq/versions/akYLpLPq/inmisaddon-1.0.4.jar",
+      "hash": "sha512-hWqR4+LF/yIm3/wGjvuu1KraXkzF2x3+CZhiq37v6Vor4BBJ4/TK04PX+XrCtcM/GC6oqDSsGEi76b5VqCPRMQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "inmis",
+          "projectId": "I0UYcPa0",
+          "type": "required"
+        }
+      ]
+    },
+    "e74mtqLw": {
+      "filename": "inmisaddon-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/c4aa1Mqq/versions/e74mtqLw/inmisaddon-1.0.4.jar",
+      "hash": "sha512-t3kCdJwGAsu6kE4yVbPp8PlfR26hvSikCeZ1mvIK4He2DbDulUmJ7wp6ES5kT6z33Gea0p2pQdtKpznKTYp6jg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "inmis",
+          "projectId": "I0UYcPa0",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hCy8749f": {
+      "filename": "inmisaddon-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/c4aa1Mqq/versions/hCy8749f/inmisaddon-1.0.5.jar",
+      "hash": "sha512-UsSpKp8g1qeyF+d8o4X2WdCrSG2bNdFtdlVZPm38N52+dlnYJ4BDogVNwCqVGxmp9BZJN5VYrjjc7mKIIJmCvg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "inmis",
+          "projectId": "I0UYcPa0",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iVsDuofY": {
+      "filename": "inmisaddon-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/c4aa1Mqq/versions/iVsDuofY/inmisaddon-1.0.6.jar",
+      "hash": "sha512-5TIibPmVdTowK7zRmACkjY2Xn98yr7Kp/5xsVp72t6aPrTMKcKDS6FwfJ2ZS+Yj277cnpnjXCsgCuHUONb/q9A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "inmis",
+          "projectId": "I0UYcPa0",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "M30uCaTP",
+      "QaTVb4Cq"
+    ],
+    "1.20.1+fabric": [
+      "e74mtqLw"
+    ],
+    "1.21.1+fabric": [
+      "iVsDuofY",
+      "hCy8749f",
+      "akYLpLPq"
+    ]
+  }
+}

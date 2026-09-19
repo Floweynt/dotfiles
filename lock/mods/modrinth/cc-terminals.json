@@ -1,0 +1,78 @@
+{
+  "slug": "cc-terminals",
+  "projectId": "mbjglPPW",
+  "versions": {
+    "3VT1i1B2": {
+      "filename": "ccterminals-1.21.1-forge-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/mbjglPPW/versions/3VT1i1B2/ccterminals-1.21.1-forge-0.1.1.jar",
+      "hash": "sha512-GYTX3NH7nvGtljHBpkUR62ecJ8q0OjMXb4oNRY+CyRrIgDqJl25ZBpvEqLDVygN9wE+qUkw4C0r6U0OdI2Gn2Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SdSTi2ie": {
+      "filename": "ccterminals-1.21.1-fabric-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/mbjglPPW/versions/SdSTi2ie/ccterminals-1.21.1-fabric-0.1.1.jar",
+      "hash": "sha512-xVFV9STJ5kB6cx4fFi+HkVk9RkADmvPTh7hE8KRV8Cir5qfJKCRsvWKTNpmDMHosRXHI9QmwTdKIJJin00K7Cw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "t3Q3vacn": {
+      "filename": "ccterminals-1.21.1-forge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/mbjglPPW/versions/t3Q3vacn/ccterminals-1.21.1-forge-0.1.0.jar",
+      "hash": "sha512-EsYGb6a+QSOo3GMIsLVdtn2A5soTArPVSPTkXwtf3DRoxenlzFaAo++yNDcHXuhs6oOndBbrauB4HDNg9CDnxA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vsj1b8xD": {
+      "filename": "ccterminals-1.21.1-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/mbjglPPW/versions/vsj1b8xD/ccterminals-1.21.1-fabric-0.1.0.jar",
+      "hash": "sha512-UOqbRP4en4rlqijnLW5u1sfn1MHdmfhJzMLX38Kj9BD6teUFbYVOQxNMOrBP/TOVMBy5fw2kz8Fah6yoVMAdVA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cc-tweaked",
+          "projectId": "gu7yAYhd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "SdSTi2ie",
+      "vsj1b8xD"
+    ],
+    "1.21.1+neoforge": [
+      "3VT1i1B2",
+      "t3Q3vacn"
+    ]
+  }
+}

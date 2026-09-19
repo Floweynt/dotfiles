@@ -1,0 +1,56 @@
+{
+  "slug": "wisb",
+  "projectId": "c5KLWbdS",
+  "versions": {
+    "CK6CW51J": {
+      "filename": "what-it-should-be-1.0.1-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/c5KLWbdS/versions/CK6CW51J/what-it-should-be-1.0.1-BETA.jar",
+      "hash": "sha512-fIKfe69diSdgG4AXqeGdyRImEmvo4TRc06QEqmwbnYKeuh9oV4mwIvQuokin3THiqALkX0rTDUyCyGHMULilqQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sIwMh3o3": {
+      "filename": "what-it-should-be-1.0-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/c5KLWbdS/versions/sIwMh3o3/what-it-should-be-1.0-BETA.jar",
+      "hash": "sha512-ufkWeVHvDfnaKSgtxhqs07iasM5vjWerwB6ZS4bfeKFsyGcRJEuVlmTXttMGOWA2TMr7WRQYsYk5grSl56KpQg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "CK6CW51J",
+      "sIwMh3o3"
+    ],
+    "1.20.1+quilt": [
+      "CK6CW51J"
+    ]
+  }
+}

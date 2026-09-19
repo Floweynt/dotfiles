@@ -1,0 +1,31 @@
+{
+  "slug": "perf-boost",
+  "projectId": "ezjdSR8F",
+  "versions": {
+    "ennc2Cwi": {
+      "filename": "perfboost-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ezjdSR8F/versions/ennc2Cwi/perfboost-1.0.0.jar",
+      "hash": "sha512-4IgEJH4QUb/atxH1CIic9v9nPTwC2XfQILdMvSquGZdVvOlcfOTOTZXXmObaKPuQXWpQseKdgt9U/v8g2T5mMQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "ennc2Cwi"
+    ]
+  }
+}

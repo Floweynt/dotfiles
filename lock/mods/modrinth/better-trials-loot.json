@@ -1,0 +1,51 @@
+{
+  "slug": "better-trials-loot",
+  "projectId": "Vcp31qWg",
+  "versions": {
+    "HheBbBvi": {
+      "filename": "Better Trials Loot.jar",
+      "url": "https://cdn.modrinth.com/data/Vcp31qWg/versions/HheBbBvi/Better%20Trials%20Loot.jar",
+      "hash": "sha512-g9YviMSwApbGKWA8Z50Ct8ZYwaLrmNBl/TtnFTPBxH0NzrqSqag5bP5XaMWVR89O0MiC0CwJW22k+pcYxbetPw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "TP58VZkF": {
+      "filename": "(Nerfed) Trials Loot - Netherite.jar",
+      "url": "https://cdn.modrinth.com/data/Vcp31qWg/versions/TP58VZkF/%28Nerfed%29%20Trials%20Loot%20-%20Netherite.jar",
+      "hash": "sha512-A3UecT3QRMcHLM1NC4iNnBezOy80Y+fcSsYHWwsi1essbEsrvFOWihxCCDcce3+qIUQqgiwHozJzgBH7N65yog==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "HheBbBvi",
+      "TP58VZkF"
+    ],
+    "1.21+neoforge": [
+      "HheBbBvi"
+    ],
+    "1.21.1+fabric": [
+      "HheBbBvi"
+    ],
+    "1.21.1+neoforge": [
+      "HheBbBvi"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "oneblocked",
+  "projectId": "jyFnnkrr",
+  "versions": {
+    "ggxVMR4g": {
+      "filename": "Oneblocked-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jyFnnkrr/versions/ggxVMR4g/Oneblocked-1.0.1.jar",
+      "hash": "sha512-ZY1m92e113B28tYiUz84PdQuCQEc4JuV7KedhP0YWXdNXsQdOvHP19Ps2mRTU+gzJZFKTbTKbTCyOocBjv84lA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rgVw9dos": {
+      "filename": "Oneblocked-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jyFnnkrr/versions/rgVw9dos/Oneblocked-0.1.jar",
+      "hash": "sha512-2YCeIfj2wjTIznhlawcc/vMPN64OA4gkriU2ZubxQMM9Hqdhjy3jB0+KjijesVDOxUJBiyBG5W7s//STvL3a+Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ggxVMR4g",
+      "rgVw9dos"
+    ]
+  }
+}

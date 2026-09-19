@@ -1,0 +1,52 @@
+{
+  "slug": "let-me-play-iris",
+  "projectId": "14WOtTBN",
+  "versions": {
+    "bGzo3kLq": {
+      "filename": "let-me-play-iris-1.0.1-dev.jar",
+      "url": "https://cdn.modrinth.com/data/14WOtTBN/versions/bGzo3kLq/let-me-play-iris-1.0.1-dev.jar",
+      "hash": "sha512-f82R92vE1Cvg8gjeD1tZ5VPdfmezbBiRlrTc6IMZ2i191b1qOLBs+LriLXKVYi2mzLjb/Hqa2v1LyHGrYCD2Rg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        },
+        {
+          "slug": "notenoughcrashes",
+          "projectId": "yM94ont6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "bGzo3kLq"
+    ],
+    "1.19.1+fabric": [
+      "bGzo3kLq"
+    ],
+    "1.19.2+fabric": [
+      "bGzo3kLq"
+    ],
+    "1.19.3+fabric": [
+      "bGzo3kLq"
+    ],
+    "1.19.4+fabric": [
+      "bGzo3kLq"
+    ]
+  }
+}

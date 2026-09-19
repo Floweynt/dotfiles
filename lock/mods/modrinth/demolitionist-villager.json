@@ -1,0 +1,79 @@
+{
+  "slug": "demolitionist-villager",
+  "projectId": "CrxQiC0p",
+  "versions": {
+    "5Nv7wPHZ": {
+      "filename": "tntvillager-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/CrxQiC0p/versions/5Nv7wPHZ/tntvillager-1.1.1.jar",
+      "hash": "sha512-lk1Uxc512UF8eWPfmz/UWkXd/31vHPpka2N8CWMCtlSgl/qBJAM83hCS2rQ+I5ITx6JWAmNQCX+yf6c+WPG9oA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Fw0XUl6m": {
+      "filename": "tntvillager-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/CrxQiC0p/versions/Fw0XUl6m/tntvillager-1.1.0.jar",
+      "hash": "sha512-3O3gXzpHBXgIitl311Hxgomq8IZNFm5VEIHi7njwWtSVatuorgjPtQxA2j5LG0vId3bWri1lQ28DhaeNWAT2ow==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "aYWxdCHK": {
+      "filename": "tntvillager-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/CrxQiC0p/versions/aYWxdCHK/tntvillager-1.2.0.jar",
+      "hash": "sha512-eA3/B8vCiyrMH+TNojzKEQtSNq/MpgNKwKNxjeuLnMzSvtNaOsgZRvfnNVYm388Vmg1ZgVOf6I/lNL1y9t8vig==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "aYWxdCHK",
+      "5Nv7wPHZ",
+      "Fw0XUl6m"
+    ],
+    "1.20.2+fabric": [
+      "aYWxdCHK",
+      "5Nv7wPHZ",
+      "Fw0XUl6m"
+    ],
+    "1.20.3+fabric": [
+      "aYWxdCHK",
+      "5Nv7wPHZ"
+    ],
+    "1.20.4+fabric": [
+      "aYWxdCHK"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "particle-interactions-forgified",
+  "projectId": "z0nJlqgw",
+  "versions": {
+    "56jpCr65": {
+      "filename": "eg_particle_interactions-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/z0nJlqgw/versions/56jpCr65/eg_particle_interactions-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-Rcc4b1BeboOaKIZjN7zAPzQHxXEz11VEjjvwilWZyRDSs5gQso7XHSEN7J3jVbfXNL8+8H7CvPfEPY5jqsInOg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "I5jtQpvt": {
+      "filename": "eg_particle_interactions-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/z0nJlqgw/versions/I5jtQpvt/eg_particle_interactions-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-wYfPE3ixkbbnu8acKDU3x8WHzyFqoisRywImiYoM9vhGNsNU+2AVRzlxkLDYn/0ILanN1XHUcdt21Ko/AXU0TA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "I5jtQpvt"
+    ],
+    "1.20.1+forge": [
+      "56jpCr65"
+    ]
+  }
+}

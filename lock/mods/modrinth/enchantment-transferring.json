@@ -1,0 +1,103 @@
+{
+  "slug": "enchantment-transferring",
+  "projectId": "fwQwOFzh",
+  "versions": {
+    "BYBHxFnr": {
+      "filename": "enchantmenttransferring-1.0_fabric_mc+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/fwQwOFzh/versions/BYBHxFnr/enchantmenttransferring-1.0_fabric_mc%2B1.21.11.jar",
+      "hash": "sha512-BiRbEsIjoSIl1oBe4hhTUd9vt75nWwdVhbkU53h5xnEDDs5A0ohkt8IQYLSpA4T52plZy45icyxTlCmSXac9Ag==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UMfuIuYw": {
+      "filename": "Enchantment Transferring-1.0.1_fabric-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/fwQwOFzh/versions/UMfuIuYw/Enchantment%20Transferring-1.0.1_fabric-mc26.2.jar",
+      "hash": "sha512-xWeDJsjZwe3CRknjCBKs0LmIYTmMn84ulcato0FKJf+9+pSAPfVIAX7AyGI7Cn3bgE/XFzOCSV1YU5mAdPu7Fg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YmeA3tdW": {
+      "filename": "Enchantment Transferring-1.1_fabric-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/fwQwOFzh/versions/YmeA3tdW/Enchantment%20Transferring-1.1_fabric-mc26.2.jar",
+      "hash": "sha512-Kpw8kJTBYrIAISoUDIu+fHkzM7YClkZ0KEybxE0pqO66sXPG0G9WcdmtyYE5cVWsrpWgXYc9qwdn11w1Zz8n9A==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dillon-lib",
+          "projectId": "bClkejk5",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YsFIVN3f": {
+      "filename": "enchantmenttransferring-1.0.1_fabric-mc26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/fwQwOFzh/versions/YsFIVN3f/enchantmenttransferring-1.0.1_fabric-mc26.1.2.jar",
+      "hash": "sha512-3BSkc7bUsipyO+8YMPXUNXQwhASCVuf1At3vWp2qb2bKdgvCTGcKXeM3FWgNhZL6j8NXbDK+CKo1p9AsPjkA3w==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "BYBHxFnr"
+    ],
+    "26.1.2+fabric": [
+      "YsFIVN3f"
+    ],
+    "26.2+fabric": [
+      "YmeA3tdW",
+      "UMfuIuYw"
+    ]
+  }
+}

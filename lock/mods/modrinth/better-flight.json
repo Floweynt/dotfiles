@@ -1,0 +1,79 @@
+{
+  "slug": "better-flight",
+  "projectId": "l3hWTlyy",
+  "versions": {
+    "FFKuz6n7": {
+      "filename": "betterflight-1.0.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/l3hWTlyy/versions/FFKuz6n7/betterflight-1.0.1%2Bmc1.21.1.jar",
+      "hash": "sha512-dQlsExD6uVhXmOod1pA1GwHhgCDiMgGlYWtz68C85XopI4m0p6aMUtw3mDwh6eo4+3Sa425+mYoXfHwap/lshA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Nhbn43I7": {
+      "filename": "betterflight-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/l3hWTlyy/versions/Nhbn43I7/betterflight-1.0.1.jar",
+      "hash": "sha512-KHgZ7CcxAXQYH5nh66CVb9Z9kiCpc2hcdXHC26jZm8rtbE8QAscWm6oFKQyWKg1BoH8zxMIa6/p+dYX85m2BqQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Nhbn43I7"
+    ],
+    "1.20.2+fabric": [
+      "Nhbn43I7"
+    ],
+    "1.20.3+fabric": [
+      "Nhbn43I7"
+    ],
+    "1.20.4+fabric": [
+      "Nhbn43I7"
+    ],
+    "1.20.5+fabric": [
+      "Nhbn43I7"
+    ],
+    "1.20.6+fabric": [
+      "Nhbn43I7"
+    ],
+    "1.21.1+fabric": [
+      "FFKuz6n7"
+    ]
+  }
+}

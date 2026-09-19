@@ -1,0 +1,133 @@
+{
+  "slug": "sleepy-hollows",
+  "projectId": "d7LLnfx8",
+  "versions": {
+    "jk6NywbT": {
+      "filename": "sleepy_hollows-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/d7LLnfx8/versions/jk6NywbT/sleepy_hollows-1.1.0.jar",
+      "hash": "sha512-S6GlN1bx4VK3wdaZmRlih21qm+lLi2JuKTF2ZANy6O3i3RRnHMszK+4Cg2FUAnRt1GNNPpHQx0FVHPgx2P305A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "biolith",
+          "projectId": "iGEl6Crx",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "klwzDwbs": {
+      "filename": "sleepy_hollows-forge-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/d7LLnfx8/versions/klwzDwbs/sleepy_hollows-forge-1.0.2.jar",
+      "hash": "sha512-aNDqkTnt2qW2ZzmlwBr/S4bak+lOqnp3t+bO5oRpSoQPRgG9i9IJNbDyKiCA2m5zZbH+BBeUo3ONWcvmyMVFrw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "wDeelpy6": {
+      "filename": "sleepy_hollows-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/d7LLnfx8/versions/wDeelpy6/sleepy_hollows-fabric-1.0.2.jar",
+      "hash": "sha512-tOQmEkebMQN9vYUSIr+IK7ATjngBxedXxhwfwjqZZ4p72We7BwgrYX8Hu9AC2WOb2O5gUaaWwzcsVpwRhCE/Fw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "z7Qdl7aN": {
+      "filename": "sleepyhollows-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/d7LLnfx8/versions/z7Qdl7aN/sleepyhollows-neoforge-1.1.0.jar",
+      "hash": "sha512-fU8Sv7gLyRMzH3ZozMzzOnbZQm65SipeBqRN2bUAOQB0C2qsH8YY7Gy+IEfGfn7tNND89kwbRYmCWMydjSX04w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "biolith",
+          "projectId": "iGEl6Crx",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wDeelpy6"
+    ],
+    "1.20.1+forge": [
+      "klwzDwbs"
+    ],
+    "1.20.1+neoforge": [
+      "klwzDwbs"
+    ],
+    "1.20.1+quilt": [
+      "wDeelpy6"
+    ],
+    "1.21.1+fabric": [
+      "jk6NywbT"
+    ],
+    "1.21.1+neoforge": [
+      "z7Qdl7aN"
+    ]
+  }
+}

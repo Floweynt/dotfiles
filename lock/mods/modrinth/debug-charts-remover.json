@@ -1,0 +1,50 @@
+{
+  "slug": "debug-charts-remover",
+  "projectId": "jYNDkiC5",
+  "versions": {
+    "521setC5": {
+      "filename": "DebugChartsRemover-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jYNDkiC5/versions/521setC5/DebugChartsRemover-1.0.1.jar",
+      "hash": "sha512-YsRUINfg/sCd/tZHsiiUJ++uici7SPmBbsUdi9PTZGsCqWsDx2X7wPrb6+nBDlG2vOaaVsI03MrY3oHl1AvNkA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "AbSXwhra": {
+      "filename": "DebugChartsRemover-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jYNDkiC5/versions/AbSXwhra/DebugChartsRemover-1.0.jar",
+      "hash": "sha512-CykBvKmMEwxeSQa1Fc4KTORA89FFhYv57emXph4YvbsnBwaFiCIxH4DNNDR6E6B4UKBHHftOW36PUp+mD/Uz1g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "AbSXwhra"
+    ],
+    "26.1+fabric": [
+      "521setC5"
+    ],
+    "26.1.1+fabric": [
+      "521setC5"
+    ],
+    "26.1.2+fabric": [
+      "521setC5"
+    ]
+  }
+}

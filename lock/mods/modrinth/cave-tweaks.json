@@ -1,0 +1,50 @@
+{
+  "slug": "cave-tweaks",
+  "projectId": "HAcf9pfM",
+  "versions": {
+    "e194T8pY": {
+      "filename": "Cave_Tweaks_v1.2_Forge.jar",
+      "url": "https://cdn.modrinth.com/data/HAcf9pfM/versions/e194T8pY/Cave_Tweaks_v1.2_Forge.jar",
+      "hash": "sha512-QwLrH9hs+8mAOavFWBqLIUjhYUlg3SJ+cZLASvCCm5vc5AFxOkoZgza1ED8mD3ztfZqORtf9HaO40hzLZ+lu4w==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "zK6gLHBe": {
+      "filename": "Cave_Tweaks_v1.2_Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/HAcf9pfM/versions/zK6gLHBe/Cave_Tweaks_v1.2_Fabric.jar",
+      "hash": "sha512-bfZZdGRRira5eq4lq2e5Uc9SDRd4ZqUH+R+MlR7LBR1cMM563uOAl9b9gogD++jehROSDvqEh/jKIeqLzQAMyg==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "zK6gLHBe"
+    ],
+    "1.18+forge": [
+      "e194T8pY"
+    ],
+    "1.18.1+fabric": [
+      "zK6gLHBe"
+    ],
+    "1.18.1+forge": [
+      "e194T8pY"
+    ]
+  }
+}

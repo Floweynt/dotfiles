@@ -1,0 +1,31 @@
+{
+  "slug": "mace-backport",
+  "projectId": "pmgbD6IS",
+  "versions": {
+    "5Gd7KGrE": {
+      "filename": "Maced-Fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pmgbD6IS/versions/5Gd7KGrE/Maced-Fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-WrgcfuH3+japVSrLbpLodjAfxnejMlREujR7xVAEZ2V+mzSWCabsK3zGJwlVKf3Qx9kEdfgZXoa27IQKPxPFfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5Gd7KGrE"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "auto-rejoin",
+  "projectId": "s0yGeJqN",
+  "versions": {
+    "I9qlXPa5": {
+      "filename": "autorejoin-1.1.1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/s0yGeJqN/versions/I9qlXPa5/autorejoin-1.1.1.21.11.jar",
+      "hash": "sha512-DTLJjW4Va3Q14kgxTZm/uD0I0spRAN43qPycHz1rQhsuSvtqeSbyCqOOVy9VTHgzF9yzdi2QVXhtkVH4Wr19Yw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nqPd0ofI": {
+      "filename": "autorejoin-1.2.1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/s0yGeJqN/versions/nqPd0ofI/autorejoin-1.2.1.21.11.jar",
+      "hash": "sha512-DTLJjW4Va3Q14kgxTZm/uD0I0spRAN43qPycHz1rQhsuSvtqeSbyCqOOVy9VTHgzF9yzdi2QVXhtkVH4Wr19Yw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "nqPd0ofI",
+      "I9qlXPa5"
+    ]
+  }
+}

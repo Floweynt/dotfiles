@@ -1,0 +1,61 @@
+{
+  "slug": "utamis-futon",
+  "projectId": "UIPt1pmM",
+  "versions": {
+    "WRULDiMw": {
+      "filename": "futonsmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UIPt1pmM/versions/WRULDiMw/futonsmod-1.0.0.jar",
+      "hash": "sha512-yUJBTtFx1Btuowz59lKNBDw3ui6QcnWOQ98l3pNTXOw6r5FYFtrIv4DjlaRd5cEMZesSEl4FXBGWYJNa9274Rw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "g0UiiGGd": {
+      "filename": "futonsmod-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UIPt1pmM/versions/g0UiiGGd/futonsmod-1.0.1.jar",
+      "hash": "sha512-t8FlVVICvdQYM6YEWqL1ab930c0gvjLgXMV/cDBcsJqlcq0dZywBfIUuOqhtktdlQGDF7fiYmzhRSdRYgH4hJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nvs0Vjju": {
+      "filename": "futonsmod-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UIPt1pmM/versions/nvs0Vjju/futonsmod-1.1.0.jar",
+      "hash": "sha512-3KH08854W3EpmHZRWkGdr1KdWbw7HOIUnuzrzuASJT+cpprz5DuH+L7onz1pjb7p1TMb+PqQMpvPgTMPQYCV8w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nvs0Vjju",
+      "g0UiiGGd",
+      "WRULDiMw"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "indrevjei",
+  "projectId": "dxJ23KIQ",
+  "versions": {
+    "8y4h3uQf": {
+      "filename": "IndRevJEI-19.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/dxJ23KIQ/versions/8y4h3uQf/IndRevJEI-19.2.0.jar",
+      "hash": "sha512-henzVOBJu/L62sEWalU2m4ytR1qLkViyBxdGHf4ZGIZ410HeNUoKmcHk4QEXXd7G+Zq6UWEQEzG7SW7Xrlv9Sg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "industrial-revolution",
+          "projectId": "kFs9AeXi",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    },
+    "aMJOW2Aj": {
+      "filename": "IndRevJEI-20.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/dxJ23KIQ/versions/aMJOW2Aj/IndRevJEI-20.1.0.jar",
+      "hash": "sha512-TVxDSSo3Au+g2+VC2TJC4aw2MB4vOtwUrdiqs75Ctu9lNNM8J2mJ1gjeEVGssjr/WbWvXD4KMl8xaEMB3JKO3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "industrial-revolution",
+          "projectId": "kFs9AeXi",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    },
+    "yi2hTKO5": {
+      "filename": "IndRevJEI-18.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/dxJ23KIQ/versions/yi2hTKO5/IndRevJEI-18.2.0.jar",
+      "hash": "sha512-XqaM99EoAY1YFNN82Ci3CEW1ylSl1i7qcJ6xdQrqZ5B79MiCnqsY1hDPqA9h1VgHQS5XcV6d13qjqFUsyJhmHg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        },
+        {
+          "slug": "industrial-revolution",
+          "projectId": "kFs9AeXi",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "yi2hTKO5"
+    ],
+    "1.19.2+fabric": [
+      "8y4h3uQf"
+    ],
+    "1.20.1+fabric": [
+      "aMJOW2Aj"
+    ]
+  }
+}

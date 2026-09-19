@@ -1,0 +1,95 @@
+{
+  "slug": "player-skins",
+  "projectId": "6mxll3f9",
+  "versions": {
+    "5iHF9U0m": {
+      "filename": "player-skins-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/6mxll3f9/versions/5iHF9U0m/player-skins-1.0.2.jar",
+      "hash": "sha512-O3Kf2KJGOpE8MZpRbe/w86ptsDy/DTSrI06uumUw04zqa6HmT2T447CZxl9rY8e6mDM3y3qmAcmCeGby92Vqfg==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "HcfJK0E8": {
+      "filename": "player-skins-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/6mxll3f9/versions/HcfJK0E8/player-skins-1.0.1.jar",
+      "hash": "sha512-CE31HMbdCfFUAKEyhz/N434euqAoxUS3FbFdR8yiYWFNaAISkUopGecWIJk2X1k/NSzhNtp+O8f5myOxu3x6xg==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "JQuI76pU": {
+      "filename": "player-skins-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6mxll3f9/versions/JQuI76pU/player-skins-1.0.0.jar",
+      "hash": "sha512-ZpcaH+76sWtjpOVZy0IWMQanVet4VZPNvVsOuXE9g87AM7VCRBlePjUFRX90Q0Uaa5Pweki+kvRMaIdBkJj33Q==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    },
+    "yTMyYiWR": {
+      "filename": "player-skins-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/6mxll3f9/versions/yTMyYiWR/player-skins-1.0.2.jar",
+      "hash": "sha512-0cMw0h0QgmQfYzH39tFNJRORBzEm/gRAsasxdXO+I2UKT7L7kdzI3OfRLf2NOMDIXRYer/hI8LgWcO9XRJSsFw==",
+      "gameVersions": [
+        "b1.8",
+        "b1.8.1"
+      ],
+      "loaders": [
+        "fabric",
+        "ornithe"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "5iHF9U0m",
+      "HcfJK0E8",
+      "JQuI76pU"
+    ],
+    "b1.7.3+fabric": [
+      "5iHF9U0m",
+      "HcfJK0E8"
+    ],
+    "b1.8+fabric": [
+      "yTMyYiWR"
+    ],
+    "b1.8+ornithe": [
+      "yTMyYiWR"
+    ],
+    "b1.8.1+fabric": [
+      "yTMyYiWR"
+    ],
+    "b1.8.1+ornithe": [
+      "yTMyYiWR"
+    ]
+  }
+}

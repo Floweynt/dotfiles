@@ -1,0 +1,77 @@
+{
+  "slug": "vs-wakes-compat",
+  "projectId": "ujSzXmLo",
+  "versions": {
+    "AYBEIT1E": {
+      "filename": "vs-wakes-compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ujSzXmLo/versions/AYBEIT1E/vs-wakes-compat-1.0.0.jar",
+      "hash": "sha512-xg+fA+y2bBnnc86XTrOw4egSeWHFTd77PdBDqOcFooACOFAspe8xLP+j/bYwBqw/SZFR844Wv/gxT/OfVd0Y5Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "wakes",
+          "projectId": "dlNu0RQY",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "jiw2BlSW": {
+      "filename": "vs-wakes-compat-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ujSzXmLo/versions/jiw2BlSW/vs-wakes-compat-1.1.0.jar",
+      "hash": "sha512-ZeqqUq9c9Kqu9LtrLIzMP9OkBQKr5+abGE+bsxyJQiaPjz55CvwI5nVjG/X9Px9gfj5eqFA/RhC/bfB87mQRCA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "wakes",
+          "projectId": "dlNu0RQY",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "jiw2BlSW",
+      "AYBEIT1E"
+    ]
+  }
+}

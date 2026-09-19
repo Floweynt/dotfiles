@@ -1,0 +1,74 @@
+{
+  "slug": "tenkaichi-evolution",
+  "projectId": "TTnPGfP0",
+  "versions": {
+    "AWxpCrj7": {
+      "filename": "tenkaichi_evolution(0.20).jar",
+      "url": "https://cdn.modrinth.com/data/TTnPGfP0/versions/AWxpCrj7/tenkaichi_evolution%280.20%29.jar",
+      "hash": "sha512-VZmdWTtGzD7Trl4PqpkN1gRM6OMLqdmhG3DUlQM6wi3gnqTG/f/kc5DeeX7SfrNA4MfMugUGZLpwYhL1dGItAw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GhI6vT2d": {
+      "filename": "tenkaichi_evolution.jar",
+      "url": "https://cdn.modrinth.com/data/TTnPGfP0/versions/GhI6vT2d/tenkaichi_evolution.jar",
+      "hash": "sha512-57n6vivs7YHbtPO/DjksaIbhsJbwNll9ILBgH1emVN14roe0k7b5XC/ftOR5FFDNQPnXBMWonf3hFBuPrueirQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    },
+    "vqD0diiH": {
+      "filename": "tenkaichi_evolution0.25.8.jar",
+      "url": "https://cdn.modrinth.com/data/TTnPGfP0/versions/vqD0diiH/tenkaichi_evolution0.25.8.jar",
+      "hash": "sha512-xF+U6SAj0QXFw54/LFHfVME8GeKY2PP11RhteXJm76FmJP9/sN74kN4Uhawzh0Ul1IlhnR0iKcO3RsqceQA++w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "vqD0diiH",
+      "AWxpCrj7",
+      "GhI6vT2d"
+    ],
+    "1.20.1+forge": [
+      "vqD0diiH",
+      "AWxpCrj7",
+      "GhI6vT2d"
+    ]
+  }
+}

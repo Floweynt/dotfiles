@@ -1,0 +1,65 @@
+{
+  "slug": "reach",
+  "projectId": "B019msQ1",
+  "versions": {
+    "81dq3C6R": {
+      "filename": "reach-reducer-2.0.1-1.17.1.jar",
+      "url": "https://cdn.modrinth.com/data/B019msQ1/versions/2.0.1-1.17.1/reach-reducer-2.0.1-1.17.1.jar",
+      "hash": "sha512-CEuUGuIOM7YwytxMmN2Fmk5uKtZoQpxqtHFMTtgoTnFTb8XDcqw8hFqzBu6JWiywbJe86G5HC8d+nFINeJNm0Q==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FBXjbN0a": {
+      "filename": "reach-reducer-2.0.1-1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/B019msQ1/versions/2.0.1/reach-reducer-2.0.1-1.16.5.jar",
+      "hash": "sha512-wUMw1NcljJoiBNk90fz5HGL5KbENLdBOmrNjzEMyjm+uqLWUORjkTqXzXamgJNiBOqeO4MHyJpIvdnjRVG/4vA==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "X1OIdk70": {
+      "filename": "reach-reducer-2.0.3-1.18.1.jar",
+      "url": "https://cdn.modrinth.com/data/B019msQ1/versions/2.0.3/reach-reducer-2.0.3-1.18.1.jar",
+      "hash": "sha512-XVWyUtqDNf55+fGEt2gWAis9cBr4NlN9I/JHatyZlMf/oCYslQdIpSQzOvU1VsRIxOZUN4dO0QTf2qIO++JB+w==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "FBXjbN0a"
+    ],
+    "1.17.1+fabric": [
+      "81dq3C6R"
+    ],
+    "1.18.1+fabric": [
+      "X1OIdk70"
+    ]
+  }
+}

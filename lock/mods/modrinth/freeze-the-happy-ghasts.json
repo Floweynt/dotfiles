@@ -1,0 +1,158 @@
+{
+  "slug": "freeze-the-happy-ghasts",
+  "projectId": "9Ae5gWms",
+  "versions": {
+    "H9J1EZgs": {
+      "filename": "FHG-NeoForge-1.21.7-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9Ae5gWms/versions/H9J1EZgs/FHG-NeoForge-1.21.7-1.0.0.jar",
+      "hash": "sha512-UAUgDrh7hF2bt7W3uio7oyZML5tPhnKxGjqGzx96iSvQHu4cDu868dTHxg8/kn75CFTY8PqIJtdgssMLcvo6nA==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HmlGSJrZ": {
+      "filename": "FHG-Forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9Ae5gWms/versions/HmlGSJrZ/FHG-Forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-VK6v3jX4EWUEWuDYoKFvOIimaApamJO10WjaZ8x5dOjpw2agRhPP5gt329ZTjVHMnHtMmCtfECWIR2Ht7/1ing==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanillabackport",
+          "projectId": "6xwxDTgf",
+          "type": "required"
+        }
+      ]
+    },
+    "JhOhv9Ug": {
+      "filename": "FHG-NeoForge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9Ae5gWms/versions/JhOhv9Ug/FHG-NeoForge-1.21.1-1.0.0.jar",
+      "hash": "sha512-wx0EfqAHw4V68XzGLh2lENiuqSSCoomGPUfvkc/Ziz454KDwlVhLzldUNlTlAVhCDv89B+cmAWKXXsGb1LvK6w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanillabackport",
+          "projectId": "6xwxDTgf",
+          "type": "required"
+        }
+      ]
+    },
+    "UZKIzfx1": {
+      "filename": "FHG-Fabric-1.21.7-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9Ae5gWms/versions/UZKIzfx1/FHG-Fabric-1.21.7-1.0.0.jar",
+      "hash": "sha512-21K/qXLX/HDECinJ+zbW4zPgayI1KvMzzNeYjv+lWTQa47Yyh8jbOsxFNxzhQWI74mrv+OLHK0ZSO4LSznflyQ==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "WKIcBGfP": {
+      "filename": "FHG-Fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9Ae5gWms/versions/WKIcBGfP/FHG-Fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-SN4hnAk5uHzJ9w5KYCu7GKl5vs3i7koLSiYafGYL1gDs9qlOAjpp/A0QgnHG2RDesatXiuK6c9wHaCZmCfUSxA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanillabackport",
+          "projectId": "6xwxDTgf",
+          "type": "required"
+        }
+      ]
+    },
+    "gFjfuDa1": {
+      "filename": "FHG-Fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9Ae5gWms/versions/gFjfuDa1/FHG-Fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-TGPzD8YjMOCOEYL/HmdPjoMNZQbA2AGJf7517Uk2GsvIENJNjSvL0+BVzF/+MXQXDDgKgzW4SCMdTLCoh+nZLg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanillabackport",
+          "projectId": "6xwxDTgf",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "WKIcBGfP"
+    ],
+    "1.20.1+forge": [
+      "HmlGSJrZ"
+    ],
+    "1.21+fabric": [
+      "gFjfuDa1"
+    ],
+    "1.21+neoforge": [
+      "JhOhv9Ug"
+    ],
+    "1.21.1+fabric": [
+      "gFjfuDa1"
+    ],
+    "1.21.1+neoforge": [
+      "JhOhv9Ug"
+    ],
+    "1.21.6+fabric": [
+      "UZKIzfx1"
+    ],
+    "1.21.6+neoforge": [
+      "H9J1EZgs"
+    ],
+    "1.21.7+fabric": [
+      "UZKIzfx1"
+    ],
+    "1.21.7+neoforge": [
+      "H9J1EZgs"
+    ],
+    "1.21.8+fabric": [
+      "UZKIzfx1"
+    ],
+    "1.21.8+neoforge": [
+      "H9J1EZgs"
+    ]
+  }
+}

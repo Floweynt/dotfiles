@@ -1,0 +1,48 @@
+{
+  "slug": "reachping",
+  "projectId": "HBrhY3nY",
+  "versions": {
+    "C0HQSfJC": {
+      "filename": "reachping-1.1-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/HBrhY3nY/versions/C0HQSfJC/reachping-1.1-26.1.jar",
+      "hash": "sha512-BIXDAu8BHnwyaX/Uvw3RYKTsSCrgfX2Uq4l9q6t11dkwHA6YjoEOQjd80eh3Vt3z+0wZPbfb4N7c7OykroWyMw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "E71GWikA": {
+      "filename": "reachping-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/HBrhY3nY/versions/E71GWikA/reachping-1.0-SNAPSHOT.jar",
+      "hash": "sha512-jltwxYPvAsFYKObMafgqLpFeSe1ZxZzcXmmZ9bZOLK3CO4OY30BHUBg4PlcDfeSDKE8S+7FCPFELd6NEVf2BZA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "E71GWikA"
+    ],
+    "26.1+fabric": [
+      "C0HQSfJC"
+    ]
+  }
+}

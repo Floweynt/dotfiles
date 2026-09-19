@@ -1,0 +1,96 @@
+{
+  "slug": "way-too-many-ingredients",
+  "projectId": "z7dGega1",
+  "versions": {
+    "UIJVaMBj": {
+      "filename": "wtmi-neoforge-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/z7dGega1/versions/UIJVaMBj/wtmi-neoforge-1.0-SNAPSHOT.jar",
+      "hash": "sha512-W9Ch13F47AbmU0lmE54kd69J/A9UTS6kgkQALqmr+UA0RqypDZOweU+s4o2JWIiXFenoS8+x/Q/xF7fwofCQZw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "XaXUXk6S": {
+      "filename": "wtmi-fabric-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/z7dGega1/versions/XaXUXk6S/wtmi-fabric-1.0-SNAPSHOT.jar",
+      "hash": "sha512-5vm++FC+rqEmmS1Gpm4yNBp3VOTpzTY7knrDJ/HBAf68BMIAFBeLBOr3LQ+ZX8rY0J1jB+NWDzf9+K3cWz7flg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "YpYx2bnm": {
+      "filename": "wtmi-fabric-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/z7dGega1/versions/YpYx2bnm/wtmi-fabric-1.1.jar",
+      "hash": "sha512-4VLgCt85RRmJZhOoHuoxqZBn7Yb604nvzxz84qPyLtLjt7zgr0GNm+a+WmHs/YZ5lDPzy21kK7OOc/LlWYScrw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "dfTIxdwD": {
+      "filename": "wtmi-neoforge-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/z7dGega1/versions/dfTIxdwD/wtmi-neoforge-1.1.jar",
+      "hash": "sha512-yvOKiTVdr6e4iALJEAWScNR9kYaqxJfnRkKCoL0KLg9R45dVNFG9b0OYXffRFgZnKkKeCjL9o4a8fnNXHAvBXg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "YpYx2bnm",
+      "XaXUXk6S"
+    ],
+    "1.21.1+neoforge": [
+      "dfTIxdwD",
+      "UIJVaMBj"
+    ]
+  }
+}

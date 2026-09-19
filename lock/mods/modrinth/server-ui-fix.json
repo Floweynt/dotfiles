@@ -1,0 +1,96 @@
+{
+  "slug": "server-ui-fix",
+  "projectId": "eYhgGSfC",
+  "versions": {
+    "4SRhpfrW": {
+      "filename": "serveruifix-0.3.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/eYhgGSfC/versions/4SRhpfrW/serveruifix-0.3.0%2B1.21.jar",
+      "hash": "sha512-5vnyr/Q2XfkqaosR7JVFwOScHgCDF2RR2Z1fwBvKUL5CjX8iaylVPm8mu1AfGKfSgFh2FtRWwHOlflKoL7+dXQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "K8E6GakU": {
+      "filename": "serveruifix-0.2.0+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/eYhgGSfC/versions/K8E6GakU/serveruifix-0.2.0%2B1.20.6.jar",
+      "hash": "sha512-Y+eY2eub/P8FagDrvmylPlT+d2q7KcDSgeHEmhMVH8EZz515+8pN0pl9IppaF02+SlvKinN9pmFT6GQYqkQHuQ==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "xtnglp7n": {
+      "filename": "serveruifix-0.1.0+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/eYhgGSfC/versions/xtnglp7n/serveruifix-0.1.0%2B1.20.4.jar",
+      "hash": "sha512-j6OMkPZOTqbL8gtoz82lILZh447GrGi0fzUB/xorks3NxsZep+0KEF8I5/2lDqZFVfqms+zF7Flmp4ObpYbHfg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "xtnglp7n"
+    ],
+    "1.20.4+quilt": [
+      "xtnglp7n"
+    ],
+    "1.20.6+fabric": [
+      "K8E6GakU"
+    ],
+    "1.20.6+quilt": [
+      "K8E6GakU"
+    ],
+    "1.21+fabric": [
+      "4SRhpfrW"
+    ],
+    "1.21+quilt": [
+      "4SRhpfrW"
+    ],
+    "1.21.1+fabric": [
+      "4SRhpfrW"
+    ],
+    "1.21.1+quilt": [
+      "4SRhpfrW"
+    ]
+  }
+}

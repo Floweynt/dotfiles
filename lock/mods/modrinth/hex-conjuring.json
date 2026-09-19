@@ -1,0 +1,75 @@
+{
+  "slug": "hex-conjuring",
+  "projectId": "RWZR0OYJ",
+  "versions": {
+    "pCdAZOvK": {
+      "filename": "hexconjuring-fabric-1.19.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RWZR0OYJ/versions/pCdAZOvK/hexconjuring-fabric-1.19.2-1.0.0.jar",
+      "hash": "sha512-HNuZImEMohWcIC/aDanTwDJHoSGRMwjb//PSH5JFHwi2uweePJdueVREq7ZewX2ileveYzOEt74z1Lao6WwDpg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "w2Zfp10H": {
+      "filename": "hexconjuring-fabric-1.19.2-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/RWZR0OYJ/versions/w2Zfp10H/hexconjuring-fabric-1.19.2-1.0.1.jar",
+      "hash": "sha512-QMQQfx4YpZstA+uajrAbSRpRmGs/buHKY/E3omYmsbflJkiI4c6ue9HlLyugXiaIw0bUP6/3LzQzgCAgsubLyw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "ztAMdPpk": {
+      "filename": "hexconjuring-forge-1.19.2-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/RWZR0OYJ/versions/ztAMdPpk/hexconjuring-forge-1.19.2-1.0.1.jar",
+      "hash": "sha512-Vi9haiu0DEqFMipCQuOVnCU5dSmTLRAuCBf97ZGs2htqncCZyw+Q9ddXuVHqHjieMwCa0YVlK5c62vaqVk4VfQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "w2Zfp10H",
+      "pCdAZOvK"
+    ],
+    "1.19.2+forge": [
+      "ztAMdPpk"
+    ]
+  }
+}

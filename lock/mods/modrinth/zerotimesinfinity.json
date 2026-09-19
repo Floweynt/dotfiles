@@ -1,0 +1,82 @@
+{
+  "slug": "zerotimesinfinity",
+  "projectId": "Ihslanqc",
+  "versions": {
+    "KbjWWECN": {
+      "filename": "zero-times-infinity-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ihslanqc/versions/KbjWWECN/zero-times-infinity-1.0.0.jar",
+      "hash": "sha512-odN85sMkxEFkggwB/Fjpe6lrlLaUip340EXfPTxjAUOnjtsvxCaW7PhNDLTY+mequkaSy5k4ccgLzyORrKyPFA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dcCXJRMw": {
+      "filename": "zero-times-infinity-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ihslanqc/versions/dcCXJRMw/zero-times-infinity-1.0.0.jar",
+      "hash": "sha512-eKN7/e2WWsOmKm5ZMD98w5T54fK59cYNrrV8nvGqAcMEd9gFKoILbIZYXfP4vIEdza6RwVhbLmg1NYmunvkUoA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "KbjWWECN"
+    ],
+    "1.20.1+fabric": [
+      "KbjWWECN"
+    ],
+    "1.20.2+fabric": [
+      "KbjWWECN"
+    ],
+    "1.20.3+fabric": [
+      "KbjWWECN"
+    ],
+    "1.20.4+fabric": [
+      "KbjWWECN"
+    ],
+    "1.20.5+fabric": [
+      "KbjWWECN"
+    ],
+    "1.20.6+fabric": [
+      "KbjWWECN"
+    ],
+    "1.21+fabric": [
+      "dcCXJRMw"
+    ],
+    "1.21+quilt": [
+      "dcCXJRMw"
+    ]
+  }
+}

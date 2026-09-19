@@ -1,0 +1,168 @@
+{
+  "slug": "elytra-hud",
+  "projectId": "pWQYLnss",
+  "versions": {
+    "bE03mNE0": {
+      "filename": "elytrahud-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pWQYLnss/versions/bE03mNE0/elytrahud-1.1.0.jar",
+      "hash": "sha512-cRh3YDbNhMjl448WqQoC9TuKi33COt4kGVHueUwuLPhu/6+4U4CwFFC7AbqOIlXqLs8E014mMJkuQY6DP1guvQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ku4I2okK": {
+      "filename": "elytrahud-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pWQYLnss/versions/ku4I2okK/elytrahud-1.0.0.jar",
+      "hash": "sha512-l3YJOK43cujOU3gBYiWNG/ZF+vBBZ6aOcC2xy8gmHlumaXiY0Uyg7+ijGWk6sEFoC7YET67a2V1R7VkD9bh0sw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "peQxn2iF": {
+      "filename": "elytrahud-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/pWQYLnss/versions/peQxn2iF/elytrahud-1.0.2.jar",
+      "hash": "sha512-LuZvmEp229Gu4n+4Lsh+koMdK1jDHUAW1l0layyie8WrPktAUYzUuGq9qG4ye0RPT/Vx+3KGdJu1S7vqnrIzEg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pgzFDTAM": {
+      "filename": "elytrahud-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pWQYLnss/versions/pgzFDTAM/elytrahud-1.0.1.jar",
+      "hash": "sha512-Yb2E++egq1zCBqKFr9E+dlvBaaz6RcgbBBt6e2ZtePBWrSEgwsSGQvvRjSLKriduqJOxpHOLPM5+6CXNwDaZgg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "peQxn2iF",
+      "pgzFDTAM",
+      "ku4I2okK"
+    ],
+    "1.20.1+fabric": [
+      "peQxn2iF",
+      "pgzFDTAM",
+      "ku4I2okK"
+    ],
+    "1.20.2+fabric": [
+      "peQxn2iF",
+      "pgzFDTAM",
+      "ku4I2okK"
+    ],
+    "1.20.3+fabric": [
+      "peQxn2iF",
+      "pgzFDTAM",
+      "ku4I2okK"
+    ],
+    "1.20.4+fabric": [
+      "peQxn2iF",
+      "pgzFDTAM",
+      "ku4I2okK"
+    ],
+    "1.21+fabric": [
+      "bE03mNE0"
+    ]
+  }
+}

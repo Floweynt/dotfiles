@@ -1,0 +1,77 @@
+{
+  "slug": "randoms-early-progression",
+  "projectId": "lqst6FIq",
+  "versions": {
+    "Ul5ro7OV": {
+      "filename": "randoms-early-progression-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/lqst6FIq/versions/Ul5ro7OV/randoms-early-progression-1.1.0.jar",
+      "hash": "sha512-k3bb33x7oNSJMoVBEl9m+LLLv3zSnMZvw36Y5DbV6fBFb7ohgW44Edc+bOtGPjYrVGFssi1bWmLVDWMniPiV6Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gZM3PiAW": {
+      "filename": "randoms-early-progression-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lqst6FIq/versions/gZM3PiAW/randoms-early-progression-1.0.0.jar",
+      "hash": "sha512-yXaGXyFDUMNQ6qLNvEr65lnqBfO+MmDfxfKieAZognWBRJTyRJx1ld4/4pwlYo+hH97FHnCqYWZk3ECw+/yPfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tewsifA8": {
+      "filename": "randoms-early-progression-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/lqst6FIq/versions/tewsifA8/randoms-early-progression-1.2.0.jar",
+      "hash": "sha512-LczNfboFXgJm4UBpKPSJt/UXYj2HLe+vM0ekyufaKF52OAkeTYl4nrojmb+SX2rcw9hCBO5mafThOBaIPZe8vg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tewsifA8",
+      "Ul5ro7OV",
+      "gZM3PiAW"
+    ],
+    "1.20.2+fabric": [
+      "tewsifA8"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "cerulean-advancements",
+  "projectId": "dv57xmf9",
+  "versions": {
+    "BsvL0CXe": {
+      "filename": "cerulean-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dv57xmf9/versions/BsvL0CXe/cerulean-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-C+n7Us1hfl+jAJDhUq2dQa0mQSxr5TlMx/iG7/evTWorV8fisemD1GXFvOKxOaB8P7f4KhMCzqL08F2NDgB2Gg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "eVJq5HOt": {
+      "filename": "cerulean-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dv57xmf9/versions/eVJq5HOt/cerulean-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-rX/yjJ27mMZPZgJ134b9V+MSHLMs7009bJ+3gf9FNSbXBvIb5MFnAlo0990r7CRFepgJyHs1L2JgxpaOIiMDbQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "i5PXO3P7": {
+      "filename": "cerulean-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dv57xmf9/versions/i5PXO3P7/cerulean-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-+YCLNgdG9pF2XUIrHfUSx9Yn71ihwDrXW9EvjYR8H1BuFkOQCQ/p/Y1eqhT4W7J0UQ22PRzie6ykYkodwqo7pw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    },
+    "znxRjAmZ": {
+      "filename": "cerulean-forge-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dv57xmf9/versions/znxRjAmZ/cerulean-forge-1.0.0-1.20.1.jar",
+      "hash": "sha512-ehz4/31bs5dQNgmTZnPrs1/L2N+nibmsdKD50R3QrTl5ioEfjPHo2/13y6lqtIvPJ7BmIgOZaojdaZsJs2fnfw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "txnilib",
+          "projectId": "vBbPDuOs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "BsvL0CXe"
+    ],
+    "1.20+forge": [
+      "znxRjAmZ"
+    ],
+    "1.20.1+fabric": [
+      "BsvL0CXe"
+    ],
+    "1.20.1+forge": [
+      "znxRjAmZ"
+    ],
+    "1.21.1+fabric": [
+      "eVJq5HOt"
+    ],
+    "1.21.1+neoforge": [
+      "i5PXO3P7"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "quality-of-life-qol-fixes",
+  "projectId": "Ui62rEr7",
+  "versions": {
+    "2QcMsRTz": {
+      "filename": "qolfixes-1.4.1-1.18.jar",
+      "url": "https://cdn.modrinth.com/data/Ui62rEr7/versions/2QcMsRTz/qolfixes-1.4.1-1.18.jar",
+      "hash": "sha512-B1J0P17lgh3eIiOxrEg4cVVOow9Misc17ZTDve7w/uWqooCA9ogJTgpMVfjppWNi9OaQnIlak+/Uh/RSPB3l/A==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pV5Lihy6": {
+      "filename": "qolfixes-3.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ui62rEr7/versions/pV5Lihy6/qolfixes-3.0-1.20.1.jar",
+      "hash": "sha512-yWyBIPwBvmB3z+SKQchL7n6UG/eiE/ifBQJ/pbXggdtA1U86/Vllx2EukjgKVsJqYaaEitX2KukLscUUrVWjtQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vA5jr4eg": {
+      "filename": "qolfixes-2.0.7-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/Ui62rEr7/versions/vA5jr4eg/qolfixes-2.0.7-1.19.jar",
+      "hash": "sha512-4i3EhZXYWaYi64ykLq1mbWX61TS5eciRVQ5U1h1KKjmv08pmW1lm13wGdvSqxoPbk1wyVVSp2bOBGm3SZGknfg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "2QcMsRTz"
+    ],
+    "1.18.1+fabric": [
+      "2QcMsRTz"
+    ],
+    "1.18.2+fabric": [
+      "2QcMsRTz"
+    ],
+    "1.19+fabric": [
+      "vA5jr4eg"
+    ],
+    "1.19.1+fabric": [
+      "vA5jr4eg"
+    ],
+    "1.19.2+fabric": [
+      "vA5jr4eg"
+    ],
+    "1.19.3+fabric": [
+      "vA5jr4eg"
+    ],
+    "1.19.4+fabric": [
+      "vA5jr4eg"
+    ],
+    "1.20+fabric": [
+      "pV5Lihy6"
+    ],
+    "1.20.1+fabric": [
+      "pV5Lihy6"
+    ]
+  }
+}

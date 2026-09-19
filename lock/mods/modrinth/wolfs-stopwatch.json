@@ -1,0 +1,84 @@
+{
+  "slug": "wolfs-stopwatch",
+  "projectId": "Ym38MCIp",
+  "versions": {
+    "QRBAFzAU": {
+      "filename": "stopwatch-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/Ym38MCIp/versions/QRBAFzAU/stopwatch-1.0.3.jar",
+      "hash": "sha512-638zuoIIQuucI5ZNdPRa+DBWzt+22+P4iI9lHo2RC51OdRVL6vCUSHudDtm2Mta5MGdXiB40D1lItDwNA/Mx8Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dQdwMdUs": {
+      "filename": "stopwatch-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ym38MCIp/versions/dQdwMdUs/stopwatch-1.0.1.jar",
+      "hash": "sha512-gf3dP4VDFxK3ZTM5Lc4Y6XvdcAtBqYFpFoEVWqbWd6Z+Zuso2Kg3UxZtpuqCnijGqcaoQJZOMKep1Y47GqvoKA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "mAVafjKZ": {
+      "filename": "stopwatch-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Ym38MCIp/versions/mAVafjKZ/stopwatch-1.0.2.jar",
+      "hash": "sha512-yDw3zaP6UKhsLX4AmRM+oUWtrGuouI601h04cbHF0OD189X36/iKNsLCcvI+T0/zBlY8KG4x+++tZBjdV4xq6Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "yqy9S5dk": {
+      "filename": "stopwatch-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ym38MCIp/versions/yqy9S5dk/stopwatch-1.0.0.jar",
+      "hash": "sha512-/vZDQF+UmY5jLW55CQXTfqluTITqQMmxAyQ/aQcVM9dzsKz6iJvvEdbd3hX+aLVTGpaHrwoa45lpaOBz8J4kyQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "dQdwMdUs",
+      "yqy9S5dk"
+    ],
+    "1.20.4+quilt": [
+      "dQdwMdUs",
+      "yqy9S5dk"
+    ],
+    "1.21+fabric": [
+      "mAVafjKZ"
+    ],
+    "1.21.1+fabric": [
+      "mAVafjKZ"
+    ],
+    "1.21.4+fabric": [
+      "QRBAFzAU"
+    ]
+  }
+}

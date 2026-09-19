@@ -1,0 +1,115 @@
+{
+  "slug": "scooters",
+  "projectId": "IKFLk1zc",
+  "versions": {
+    "26uMce5S": {
+      "filename": "scooters-2.0.0-beta.5+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IKFLk1zc/versions/26uMce5S/scooters-2.0.0-beta.5%2B1.20.1.jar",
+      "hash": "sha512-c4yqX15WcDWCHGF+FELOccuHzxUdMB8GCEU/LAP+nwatpsiw/GszvMtKsSgMt6bgnWDW9xwJtHlyfFIl7zgpgw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "P3Bz68Fb": {
+      "filename": "scooters-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IKFLk1zc/versions/1.0.0/scooters-1.0.0.jar",
+      "hash": "sha512-bpiR73AHeHTT6bnoAs61eN4gRHcpN0c7Gzb/e2zak3zweTyPK2I9SNvWZZOEKp446DdWxwVbFviO6pxm6GrOqQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Yw9ohOHa": {
+      "filename": "scooters-2.0.0-beta.4+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IKFLk1zc/versions/Yw9ohOHa/scooters-2.0.0-beta.4%2B1.20.1.jar",
+      "hash": "sha512-hOXy0h+9dGAHFc4KAKdusQtVDbPQe1g3Exrn4NAqkK8noLOn6ZcZkyq+bUBOCedNdo3uhjLGXc7xZfxJg9lOjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "wPiyZx8Y": {
+      "filename": "scooters-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/IKFLk1zc/versions/1.0.1/scooters-1.0.1.jar",
+      "hash": "sha512-SK8SD8XHBTICWhUc1Sk7vOzYwhlyVCp0jSsxdHnwSuiv0slphBFlcFeU9TmVNQoFguHhC7/ENhioLYi57dSb9A==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xf5ITS38": {
+      "filename": "scooters-2.0.0-beta.3+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IKFLk1zc/versions/xf5ITS38/scooters-2.0.0-beta.3%2B1.20.1.jar",
+      "hash": "sha512-7qUdkqLLchI3gE0+k9tOekwLXD8uxWZ5BQIAxMIp1m+hnHexDFXkmC7Pv0NWUv1+3qFsYSHkoTn0kl5FRW08rQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "wPiyZx8Y",
+      "P3Bz68Fb"
+    ],
+    "1.18.2+quilt": [
+      "P3Bz68Fb"
+    ],
+    "1.20.1+quilt": [
+      "26uMce5S",
+      "Yw9ohOHa",
+      "xf5ITS38"
+    ]
+  }
+}

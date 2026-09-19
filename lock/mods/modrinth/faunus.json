@@ -1,0 +1,124 @@
+{
+  "slug": "faunus",
+  "projectId": "bBmZyAxk",
+  "versions": {
+    "3DqFhnf5": {
+      "filename": "faunus-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/bBmZyAxk/versions/3DqFhnf5/faunus-1.0.2.jar",
+      "hash": "sha512-piWzcYrQ5IVwyRkD8KF++RcZ7Q5ye8JjDF3z54AbreX8Sus9ymK4qK2XEqzGVSNcUxc7hAPvilAewKqLeCHG2Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "smartbrainlib",
+          "projectId": "PuyPazRT",
+          "type": "required"
+        }
+      ]
+    },
+    "AwfZ5d1h": {
+      "filename": "faunus-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/bBmZyAxk/versions/AwfZ5d1h/faunus-1.0.5.jar",
+      "hash": "sha512-pYViGwggDwTvkQOSKfbtkQ0JmUM39OQTPYvOe/TbTLOQ07c4ShThb3KJ9nwnDlUlSKiutDBP+nVn8WQRDYGpSA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HPMaTDhA": {
+      "filename": "faunus-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bBmZyAxk/versions/HPMaTDhA/faunus-1.0.0.jar",
+      "hash": "sha512-a+yyIk6wv9hARJ57D3ooPd/u77yTi9eNteGW7POVWcwdZHpyUtkNWwBqxnDFR+5gS6T1aUtlJSQuCQxpPe/ZiQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "smartbrainlib",
+          "projectId": "PuyPazRT",
+          "type": "required"
+        }
+      ]
+    },
+    "nCyKtqy0": {
+      "filename": "faunus-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bBmZyAxk/versions/nCyKtqy0/faunus-1.0.0.jar",
+      "hash": "sha512-eK/uyD3eBHjC2Gu+9bUJinHk532T/n4JwT1UB448m5bz8NQ7vwk/4JKbvbmnFGmcdVmlxED77zlp/G3EU6CCTg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "smartbrainlib",
+          "projectId": "PuyPazRT",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "3DqFhnf5",
+      "nCyKtqy0",
+      "HPMaTDhA"
+    ],
+    "1.20.1+quilt": [
+      "3DqFhnf5"
+    ],
+    "1.21.1+fabric": [
+      "AwfZ5d1h"
+    ]
+  }
+}

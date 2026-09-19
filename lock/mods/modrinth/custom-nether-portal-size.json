@@ -1,0 +1,31 @@
+{
+  "slug": "custom-nether-portal-size",
+  "projectId": "ix3Ub2k3",
+  "versions": {
+    "AQ0omJ6y": {
+      "filename": "customportals-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ix3Ub2k3/versions/AQ0omJ6y/customportals-3.0.0.jar",
+      "hash": "sha512-RrHK87kmuqfSMXVDosHoDAy1yGLOAsrWNdw3LkPJcEE3s0sWpGBYgqkZr0zxTaKWJsvp7ZksQagFz0i8eIBFXw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "AQ0omJ6y"
+    ]
+  }
+}

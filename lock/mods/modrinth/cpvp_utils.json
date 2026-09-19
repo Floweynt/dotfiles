@@ -1,0 +1,62 @@
+{
+  "slug": "cpvp_utils",
+  "projectId": "SbBJTTOT",
+  "versions": {
+    "GxPkhoQF": {
+      "filename": "cpvp_utils-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/SbBJTTOT/versions/GxPkhoQF/cpvp_utils-1.0.jar",
+      "hash": "sha512-GAsDouQrtyJnIAn7jK+FLxhMy9UQxdjmH7/JWSHgl9nfhZkg+7s2E2mB0q0effFT1mW51RTNv2oRY6p3BD8q0Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Im3j97Nu": {
+      "filename": "cpvp_utils-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/SbBJTTOT/versions/Im3j97Nu/cpvp_utils-1.0.jar",
+      "hash": "sha512-VA9TJumREKbW5xc4ZyqqaReXpsl17dIfdnRZXMbr9frosvkZkJXrmZlnlIQygXBd9fueteNyANa1fCqKXNiwdw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "GxPkhoQF"
+    ],
+    "1.21.11+quilt": [
+      "GxPkhoQF"
+    ],
+    "26.1+fabric": [
+      "Im3j97Nu"
+    ],
+    "26.1+quilt": [
+      "Im3j97Nu"
+    ]
+  }
+}

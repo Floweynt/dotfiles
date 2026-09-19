@@ -1,0 +1,122 @@
+{
+  "slug": "bundle-tweaks",
+  "projectId": "DOktb3wi",
+  "versions": {
+    "W46D3ARD": {
+      "filename": "bundlescroll-1.19.2-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DOktb3wi/versions/W46D3ARD/bundlescroll-1.19.2-1.1.0.jar",
+      "hash": "sha512-VwygmyBsaA9R03oWEUYxbbdXH4/II5xG6y2QSWY5KS6KuH5Mcx0wthGMrLOEhgs7httqm7gWmpRXVV8K4JbqSw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lLbRUUjc": {
+      "filename": "bundlescroll-1.19.3+-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DOktb3wi/versions/lLbRUUjc/bundlescroll-1.19.3%2B-1.1.0.jar",
+      "hash": "sha512-Nm9L4sN3Uq8X96slPkNrNawFSytoDOAO3PLy/xaUtjEZb1XWGSy7bUUivFrwwZ0Qmcom0I42NPRgOX+kl4/rgg==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rqiHP0B0": {
+      "filename": "bundlescroll-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/DOktb3wi/versions/rqiHP0B0/bundlescroll-1.0.1.jar",
+      "hash": "sha512-eHREwDk7ifkVQRaa2H/SqD5mGTbFeZVdOvfaZHSsrYUW5T0mQkgEO0SgkJArViKyeq0E+p5l6XSa4hY+3TRf/A==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "s2MpEaEo": {
+      "filename": "bundlescroll-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DOktb3wi/versions/s2MpEaEo/bundlescroll-1.0.0.jar",
+      "hash": "sha512-PGWJEyBPcPV1BRvF536GCErNCJTPtWwDQ9MYKiHmFkOtSyx6gwkhn9Z8VaKXJPAhGkbA49+s1qgXTmqFWZ2/fA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "s2MpEaEo"
+    ],
+    "1.19.1+fabric": [
+      "s2MpEaEo"
+    ],
+    "1.19.2+fabric": [
+      "W46D3ARD",
+      "rqiHP0B0",
+      "s2MpEaEo"
+    ],
+    "1.19.3+fabric": [
+      "lLbRUUjc",
+      "rqiHP0B0",
+      "s2MpEaEo"
+    ],
+    "1.19.4+fabric": [
+      "lLbRUUjc",
+      "rqiHP0B0",
+      "s2MpEaEo"
+    ],
+    "1.20+fabric": [
+      "lLbRUUjc",
+      "rqiHP0B0"
+    ],
+    "1.20.1+fabric": [
+      "lLbRUUjc",
+      "rqiHP0B0"
+    ]
+  }
+}

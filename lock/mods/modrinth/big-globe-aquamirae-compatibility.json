@@ -1,0 +1,140 @@
+{
+  "slug": "big-globe-aquamirae-compatibility",
+  "projectId": "kC88bmcc",
+  "versions": {
+    "VMdXzkl0": {
+      "filename": "big-globe-aquamirae-compatibility-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kC88bmcc/versions/VMdXzkl0/big-globe-aquamirae-compatibility-1.0.jar",
+      "hash": "sha512-Ig/2ugT4ATZFiwlLaOUuIhI7o94ciaCz2Qkzh2GKNuyZ7PSKUImK7m7dIYcBVbI9fQDECmi+PcFn54LixMx1gA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        },
+        {
+          "slug": "aquamirae",
+          "projectId": "k23mNPhZ",
+          "type": "required"
+        },
+        {
+          "slug": "obscure-api",
+          "projectId": "fU7jbFHc",
+          "type": "required"
+        }
+      ]
+    },
+    "YbxQenTI": {
+      "filename": "bigglobe_aquamirae.zip",
+      "url": "https://cdn.modrinth.com/data/kC88bmcc/versions/YbxQenTI/bigglobe_aquamirae.zip",
+      "hash": "sha512-ExcaxRAKjZg34k242QNbmAhA6B1tRT8kIder5TjFekaJFjHheiI596S+lUjwMPIODEbdjiKcDbfyOAeSRLOmcw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "aquamirae",
+          "projectId": "k23mNPhZ",
+          "type": "required"
+        },
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        },
+        {
+          "slug": "obscure-api",
+          "projectId": "fU7jbFHc",
+          "type": "required"
+        }
+      ]
+    },
+    "gVD3Ks8o": {
+      "filename": "big-globe-aquamirae-compatibility-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kC88bmcc/versions/gVD3Ks8o/big-globe-aquamirae-compatibility-1.0.jar",
+      "hash": "sha512-5KkghIYTBy4n4USI6GyEmbZYrFmh6FWN16Z1iVgzCfdRD3WJbhRiHm3HEtTo4+HgdX8e1tj5ubVIgm8WbsuolQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "obscure-api",
+          "projectId": "fU7jbFHc",
+          "type": "required"
+        },
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        },
+        {
+          "slug": "aquamirae",
+          "projectId": "k23mNPhZ",
+          "type": "required"
+        }
+      ]
+    },
+    "ly498gCn": {
+      "filename": "big-globe-aquamirae-compatibility-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kC88bmcc/versions/ly498gCn/big-globe-aquamirae-compatibility-1.0.jar",
+      "hash": "sha512-UW4MrDSz+LdU7x43oNj/54rqGjU9lWgUBM1W4vskMyvobA0wEBp+ZCHzWfVRe725gEyaCxc0BpmaLveu2Z7G/w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "big-globe",
+          "projectId": "xsng1aJf",
+          "type": "required"
+        },
+        {
+          "slug": "obscure-api",
+          "projectId": "fU7jbFHc",
+          "type": "required"
+        },
+        {
+          "slug": "aquamirae",
+          "projectId": "k23mNPhZ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "YbxQenTI"
+    ],
+    "1.20.1+fabric": [
+      "ly498gCn",
+      "VMdXzkl0"
+    ],
+    "1.20.1+forge": [
+      "ly498gCn",
+      "gVD3Ks8o"
+    ]
+  }
+}

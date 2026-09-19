@@ -1,0 +1,62 @@
+{
+  "slug": "walkers",
+  "projectId": "K0br4bKQ",
+  "versions": {
+    "OdfkpKSJ": {
+      "filename": "walkers-1.2-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/K0br4bKQ/versions/OdfkpKSJ/walkers-1.2-forge-1.20.1.jar",
+      "hash": "sha512-z6HsGih4T82jELiuG0SFyKurgOO3YF37HdzGbDN4xBeNZAqvqYH4CjewFBYtoL1kwHBBsN/Xnb/ZqgODX3sqJw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "wHfvZKOc": {
+      "filename": "walkers-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/K0br4bKQ/versions/wHfvZKOc/walkers-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-tpUMhuro/t+IJ9aCpaZ4lbysH31ibb1V0Vc6qZUC8n/OSmjaPDLRt3i0j4LIOoNHwur5KfpxDHFcMXNVvqdBhg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "OdfkpKSJ",
+      "wHfvZKOc"
+    ],
+    "1.20.1+neoforge": [
+      "OdfkpKSJ"
+    ],
+    "1.20.2+forge": [
+      "wHfvZKOc"
+    ],
+    "1.20.3+forge": [
+      "wHfvZKOc"
+    ],
+    "1.20.4+forge": [
+      "wHfvZKOc"
+    ]
+  }
+}

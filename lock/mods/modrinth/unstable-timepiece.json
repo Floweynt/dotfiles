@@ -1,0 +1,58 @@
+{
+  "slug": "unstable-timepiece",
+  "projectId": "Xt9hp0ch",
+  "versions": {
+    "lJ4dddL9": {
+      "filename": "unstable_timepiece-1.0.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/Xt9hp0ch/versions/lJ4dddL9/unstable_timepiece-1.0.1%2B1.21.jar",
+      "hash": "sha512-VdKVidth99A19sLiRUVs1YRohm7VOo3OpjWzKa13NKAQrHbwcfYQtjj6dqGQRQa6ho6dd3YLGuRgeSKSO9EVPQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "onoyyNN6": {
+      "filename": "unstable_timepiece-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/Xt9hp0ch/versions/onoyyNN6/unstable_timepiece-1.0.0%2B1.21.jar",
+      "hash": "sha512-uL+lzUi8UH6WdgEHfILPZ0swUDkss6/ItQCBPCcBKigswpb4Qj+pTL9z7YShvtRAd8v6NLEj4MrZNdr/QobP0w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "lJ4dddL9",
+      "onoyyNN6"
+    ],
+    "1.21.1+fabric": [
+      "lJ4dddL9",
+      "onoyyNN6"
+    ]
+  }
+}

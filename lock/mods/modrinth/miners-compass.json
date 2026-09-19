@@ -1,0 +1,72 @@
+{
+  "slug": "miners-compass",
+  "projectId": "tPs9k0db",
+  "versions": {
+    "SRH6VmrN": {
+      "filename": "miners-compass-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/tPs9k0db/versions/SRH6VmrN/miners-compass-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-jAX/5Oyv9601YzXhQX8MXPnTTBUIQOkgsd86JK8efK5wQNqupuginxfDSjW/G7DnZjGuIe9mufwbVUnS7BEGgA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "bnhtiXQf": {
+      "filename": "miners-compass-2.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/tPs9k0db/versions/bnhtiXQf/miners-compass-2.0.0%2B1.20.1.jar",
+      "hash": "sha512-XJA96E9EuLKA/VYWPx2Zin5NbtL7Fr/sash3v1OYXf/SlRKj6ljghrdZDC7TVMlx+2UhXsWOc4SenymK1q7GkQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "bnhtiXQf",
+      "SRH6VmrN"
+    ],
+    "1.20.2+fabric": [
+      "bnhtiXQf",
+      "SRH6VmrN"
+    ],
+    "1.20.3+fabric": [
+      "bnhtiXQf",
+      "SRH6VmrN"
+    ],
+    "1.20.4+fabric": [
+      "bnhtiXQf",
+      "SRH6VmrN"
+    ],
+    "1.20.5+fabric": [
+      "bnhtiXQf"
+    ],
+    "1.20.6+fabric": [
+      "bnhtiXQf"
+    ]
+  }
+}

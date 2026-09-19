@@ -1,0 +1,72 @@
+{
+  "slug": "pupper-client",
+  "projectId": "zN1WBfNk",
+  "versions": {
+    "Xjzh96uf": {
+      "filename": "pupper-8.6.3.jar",
+      "url": "https://cdn.modrinth.com/data/zN1WBfNk/versions/Xjzh96uf/pupper-8.6.3.jar",
+      "hash": "sha512-DX5sem6tzugCPXJrOT4n70W0Mh+CT9874rjpz2u/nEHcvWE1qRllcyEB6NiVAcEJJehOtxuP8vOjG5Zd86TIlw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "viafabricplus",
+          "projectId": "rIC2XJV4",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "in-game-account-switcher",
+          "projectId": "cudtvDnd",
+          "type": "required"
+        }
+      ]
+    },
+    "ymBtmLj6": {
+      "filename": "pupper-8.6.4.jar",
+      "url": "https://cdn.modrinth.com/data/zN1WBfNk/versions/ymBtmLj6/pupper-8.6.4.jar",
+      "hash": "sha512-/qOf07hMt+bGUv7O74aYzGoApyw3wkl11iCsIM62GmdjNAj5jjXeBm8ocxhvVwpLpvnB7WRSeKdvnoodk+7Ehg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "viafabricplus",
+          "projectId": "rIC2XJV4",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "in-game-account-switcher",
+          "projectId": "cudtvDnd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "ymBtmLj6",
+      "Xjzh96uf"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "creates-cardboard",
+  "projectId": "kJyW7Om3",
+  "versions": {
+    "9YXN242b": {
+      "filename": "cardboard-1.0.1-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/kJyW7Om3/versions/9YXN242b/cardboard-1.0.1-fabric-1.20.1.jar",
+      "hash": "sha512-w8xnfjrErpW8r16f7ul7c4p5bEoTeaUDau76LUbblBBVXtes+DRWyxF9Dwg64qs3M4mQ+bT/DW8LcPq5cRVW+A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "BhxeT2nc": {
+      "filename": "cardboard-1.0.0(1).jar",
+      "url": "https://cdn.modrinth.com/data/kJyW7Om3/versions/BhxeT2nc/cardboard-1.0.0%281%29.jar",
+      "hash": "sha512-T47vmz2RoCq+8HJThUfxjGf7XlhSH6FMz+XENq9ZwFGWY9VQPCeXk0k6a06vcypZObJvcD6w0HgZ8/6JQMsuTA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "9YXN242b",
+      "BhxeT2nc"
+    ]
+  }
+}

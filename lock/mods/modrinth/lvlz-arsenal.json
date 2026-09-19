@@ -1,0 +1,36 @@
+{
+  "slug": "lvlz-arsenal",
+  "projectId": "hsxfxgHd",
+  "versions": {
+    "OAKmRkKO": {
+      "filename": "lvlz_arsenal-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hsxfxgHd/versions/OAKmRkKO/lvlz_arsenal-1.21.1-1.0.jar",
+      "hash": "sha512-Pr8e8NkfUX0zAU4ky714H5dhg0DwRrbE2oDwzUGDmazxV2fWHJlaUQTnp+ON5OfR7K7VV3HCv6+G3Mq6yqib/g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "arsenal-rpg-series",
+          "projectId": "LiP9Q3KV",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "OAKmRkKO"
+    ]
+  }
+}

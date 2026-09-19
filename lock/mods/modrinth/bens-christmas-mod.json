@@ -1,0 +1,52 @@
+{
+  "slug": "bens-christmas-mod",
+  "projectId": "Um8yLrY7",
+  "versions": {
+    "2THVUD0v": {
+      "filename": "bens-christmas-mod-1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Um8yLrY7/versions/2THVUD0v/bens-christmas-mod-1.1-1.20.1.jar",
+      "hash": "sha512-DVq9Ve2V3rlkIYNfqledgIeZSXxjQroLQ+xGkhs94Q05Na+8uIHd/fkBjaNUn5zDoExypJSGXAQsXVO7cfAMBA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "8UsKqFHS": {
+      "filename": "bens-christmas-mod-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Um8yLrY7/versions/8UsKqFHS/bens-christmas-mod-0.1-1.20.1.jar",
+      "hash": "sha512-C2d2nasonOD/g5FJzsPgFm7nQu4z/0XhFvTOdtkSQ1e4LfL0661+EKi21hYp6Re2dLoA/ehrpTgyZXWw1rilrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2THVUD0v",
+      "8UsKqFHS"
+    ]
+  }
+}

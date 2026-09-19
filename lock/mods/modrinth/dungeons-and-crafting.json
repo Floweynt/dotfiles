@@ -1,0 +1,131 @@
+{
+  "slug": "dungeons-and-crafting",
+  "projectId": "B208oBPN",
+  "versions": {
+    "5yKbyJKE": {
+      "filename": "dncmod-1.4.2-1.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/B208oBPN/versions/5yKbyJKE/dncmod-1.4.2-1.9.2.jar",
+      "hash": "sha512-AoDwJwljEdsBdF8RJUyVFyJFp3yiMannjbQdGUTpjnaUFKuUW7zcQvHL5TxMNv8DNyvNop86PxT6ZUso1FZ3xg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "RLzAp7Ye": {
+      "filename": "dncmod-1.4.4-1.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/B208oBPN/versions/RLzAp7Ye/dncmod-1.4.4-1.9.2.jar",
+      "hash": "sha512-RqX8oIf1vZxTy7t3dQFddpcj2kLsEt7wn+GSyDq6GoxfsqkFq5B50jh2AueoFmvDe1dQsO057GvTnLhU9LktPw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "jGXXw1C2": {
+      "filename": "dncmod-1.4.0-1.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/B208oBPN/versions/jGXXw1C2/dncmod-1.4.0-1.9.2.jar",
+      "hash": "sha512-Udl47MOBdWaxePSvkEFU1X/PYh9eDj13dzfPg842sXiOKEvO6UCZNMkcvqJ7kQTQbTGa3dXaP/oYhGC0HeufYg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kNQAblAr": {
+      "filename": "dncmod-1.4.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/B208oBPN/versions/kNQAblAr/dncmod-1.4.5-1.20.1.jar",
+      "hash": "sha512-GozUMP3gJiiBASC2HUtZG7Juocry5fZOW3i4lz4D6T6b42sKXL6P8OQO3k3X+LtAijeImBy5T6lceC5nyw66Lw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sNxD3Z4J": {
+      "filename": "dncmod-1.3.0-1.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/B208oBPN/versions/sNxD3Z4J/dncmod-1.3.0-1.9.2.jar",
+      "hash": "sha512-6PgbjwfNT8c3C+KwKny9lrNVb01AWQeItuYq/HQ/r7IyKhZKuUakosvwOl4SYDQ3awQpObpgbMSiX6YBJ56/nA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yxaKUHEl": {
+      "filename": "dncmod-1.2.8-1.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/B208oBPN/versions/yxaKUHEl/dncmod-1.2.8-1.9.2.jar",
+      "hash": "sha512-VroyOsfh6A/NMjvuKPWp4ouZxzLYQ5uagVLoLz+F30iIfXQWP2Mm1g8B1itcVSKKppGyzqcSo+JJYpbkNmq63Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "RLzAp7Ye",
+      "5yKbyJKE",
+      "jGXXw1C2",
+      "sNxD3Z4J",
+      "yxaKUHEl"
+    ],
+    "1.20.1+fabric": [
+      "kNQAblAr"
+    ]
+  }
+}

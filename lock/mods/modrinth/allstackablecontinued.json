@@ -1,0 +1,62 @@
+{
+  "slug": "allstackablecontinued",
+  "projectId": "UNTGotXI",
+  "versions": {
+    "T13rhpCA": {
+      "filename": "AllStackableContinued-v3.0.1-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/UNTGotXI/versions/T13rhpCA/AllStackableContinued-v3.0.1-1.21.jar",
+      "hash": "sha512-YBw0DW/xQQ5o4cyJZUMXMnAP3GE2pImVsCO0NTIQ1Ta4egi75jrkiCbheZ4WHGGY7k/XmJ0/v8VHYzA2yGB7sA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gV67EKpJ": {
+      "filename": "AllStackableContinued-v3.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/UNTGotXI/versions/gV67EKpJ/AllStackableContinued-v3.0.0-1.21.jar",
+      "hash": "sha512-KIekMf3Otsu9nv4WAtMZEyPyA1br20ZIgv0fn1Vjes+IjPfM6m0nLNH9HHGOiwzKRwlovi9wLZjSkKsngyIGdQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "T13rhpCA",
+      "gV67EKpJ"
+    ],
+    "1.21+quilt": [
+      "T13rhpCA",
+      "gV67EKpJ"
+    ],
+    "1.21.1+fabric": [
+      "T13rhpCA",
+      "gV67EKpJ"
+    ],
+    "1.21.1+quilt": [
+      "T13rhpCA",
+      "gV67EKpJ"
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "trinkets-elytra-support",
+  "projectId": "md0lxAjO",
+  "versions": {
+    "EdZTvymn": {
+      "filename": "trinkets_elytra.zip",
+      "url": "https://cdn.modrinth.com/data/md0lxAjO/versions/EdZTvymn/trinkets_elytra.zip",
+      "hash": "sha512-4vdbTSHxa5JG+faWY7WEx4vf2s30Okw9RjEdGb7Io9lToNJCOIjS1WxZ+kjcUKix49LfqQreI6yyOb+Hbmug8g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "trinkets-updated",
+          "projectId": "XaT8sLP6",
+          "type": "required"
+        }
+      ]
+    },
+    "dVbRqjFk": {
+      "filename": "trinkets-elytra-support-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/md0lxAjO/versions/dVbRqjFk/trinkets-elytra-support-1.0.0.jar",
+      "hash": "sha512-MNeIRIrJiIVRusyJR++NuMAc7CTVULgS9DB2RkrhZxW+DrUO1YM+H4XhDJUOtr9+vdBG6+xRWncSOjUUgJuxXg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "trinkets-updated",
+          "projectId": "XaT8sLP6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+datapack": [
+      "EdZTvymn"
+    ],
+    "26.1+fabric": [
+      "dVbRqjFk"
+    ],
+    "26.1+neoforge": [
+      "dVbRqjFk"
+    ],
+    "26.1.1+datapack": [
+      "EdZTvymn"
+    ],
+    "26.1.1+fabric": [
+      "dVbRqjFk"
+    ],
+    "26.1.1+neoforge": [
+      "dVbRqjFk"
+    ],
+    "26.1.2+datapack": [
+      "EdZTvymn"
+    ],
+    "26.1.2+fabric": [
+      "dVbRqjFk"
+    ],
+    "26.1.2+neoforge": [
+      "dVbRqjFk"
+    ],
+    "26.2+datapack": [
+      "EdZTvymn"
+    ],
+    "26.2+fabric": [
+      "dVbRqjFk"
+    ],
+    "26.2+neoforge": [
+      "dVbRqjFk"
+    ]
+  }
+}

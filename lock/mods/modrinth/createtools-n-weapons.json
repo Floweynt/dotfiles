@@ -1,0 +1,80 @@
+{
+  "slug": "createtools-n-weapons",
+  "projectId": "2aBDweGI",
+  "versions": {
+    "WjIYFkRr": {
+      "filename": "create_tools_n_weapons-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2aBDweGI/versions/WjIYFkRr/create_tools_n_weapons-1.0.1-1.20.1.jar",
+      "hash": "sha512-pm258CBO0YzhG4wYid0/koBQ3OTZO+L/sm4OQZZ4huU8+dTqjbHSzVdIj1RiD+H2B7haftoN6TUh6VJxo7SRIg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fd0dltow": {
+      "filename": "create_tools_n_weapons-1.0.1-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/2aBDweGI/versions/fd0dltow/create_tools_n_weapons-1.0.1-neoforge-1.21.1.jar",
+      "hash": "sha512-uwjOqSE34IMKDkYEl2H4r2mvLYmQCcMUWIYVe/rbwDI8eRLQh6er6uwHkl7QdtrS8BwseKfBaDTQq0e6p2MMUQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jvc85val": {
+      "filename": "create_tools_n_weapons-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2aBDweGI/versions/jvc85val/create_tools_n_weapons-1.0.0-1.20.1.jar",
+      "hash": "sha512-4SJJt3ktyXrQTLS3+k+SMwIbFqSORIKEkL26D+nAjHjUTb7OwcXDeHIv7IBeuCN7VwEmexKgr2pizlZoXXIODg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "rSchgTag": {
+      "filename": "create_tools_n_weapons-1.0.1-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/2aBDweGI/versions/rSchgTag/create_tools_n_weapons-1.0.1-forge-1.20.1.jar",
+      "hash": "sha512-re196SueimN5W9ER0aDxkDm9B/bfGpoPDx6PU32FzKxtQgTqWhnBLyGHYsxTnAwcy4Ub8Pzjfj7YX/VWR9QNAg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "WjIYFkRr",
+      "jvc85val"
+    ],
+    "1.20.1+forge": [
+      "rSchgTag"
+    ],
+    "1.21.1+neoforge": [
+      "fd0dltow"
+    ]
+  }
+}

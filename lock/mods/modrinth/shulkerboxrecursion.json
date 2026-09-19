@@ -1,0 +1,81 @@
+{
+  "slug": "shulkerboxrecursion",
+  "projectId": "4Gr29pCl",
+  "versions": {
+    "2Z8F5GaR": {
+      "filename": "ShulkerBoxRecursion-0.0.4+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/4Gr29pCl/versions/2Z8F5GaR/ShulkerBoxRecursion-0.0.4%2B1.20.1.jar",
+      "hash": "sha512-83WSrz1Pv//VuOrvLhPHzFh4uwDR4A+l3I1FRQhqYuZeIDUbfURhfSjk89pwpD8/ucz8LkUW2TYr2rzFaOLUpw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "BodmaZS3": {
+      "filename": "ShulkerBoxRecursion-0.0.3+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/4Gr29pCl/versions/BodmaZS3/ShulkerBoxRecursion-0.0.3%2B1.19.4.jar",
+      "hash": "sha512-QiXr7NnzvAP9MgtHC7m+ff+KAMPHreqIzQFFaYX+fPa9+HinpegdYIrIIufX2ICmL7O4XBKfDk+kjvrQveRqiA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RC0It7O3": {
+      "filename": "ShulkerBoxRecursion-0.0.5+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/4Gr29pCl/versions/RC0It7O3/ShulkerBoxRecursion-0.0.5%2B1.20.4.jar",
+      "hash": "sha512-qp82y/4jhRPiHG+CtaBucayBLru1Td8TYCxbGb5gUev8smVPjg8PROzYu8hGNXiVzmRGcQDuXDrEfVXihfsFJA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "BodmaZS3"
+    ],
+    "1.20.1+fabric": [
+      "2Z8F5GaR"
+    ],
+    "1.20.4+fabric": [
+      "RC0It7O3"
+    ]
+  }
+}

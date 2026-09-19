@@ -1,0 +1,48 @@
+{
+  "slug": "xinexlib",
+  "projectId": "oGrU3Dzt",
+  "versions": {
+    "dezZHijw": {
+      "filename": "xinexlib-fabric-1.21.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/oGrU3Dzt/versions/dezZHijw/xinexlib-fabric-1.21.1-0.1.0.jar",
+      "hash": "sha512-XfMWir40xk2uGInz/++L67vtwQz2O3rG725S0hdYSffSem0gqTho0j4zWDMLjgZnYKEfGKLXi+9G1AeqydbW5g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "plxDlILv": {
+      "filename": "xinexlib-neoforge-1.21.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/oGrU3Dzt/versions/plxDlILv/xinexlib-neoforge-1.21.1-0.1.0.jar",
+      "hash": "sha512-LQJOKs9e8jzRKAJ7NkfCTNYqmIqkA+0oemZ6MmGtwX6y7DyclnjsOgVT+v8zaKVSFyZqMPu1anYEd2/VpCX9bQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "dezZHijw"
+    ],
+    "1.21.1+neoforge": [
+      "plxDlILv"
+    ]
+  }
+}

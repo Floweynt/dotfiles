@@ -1,0 +1,67 @@
+{
+  "slug": "euphorics",
+  "projectId": "cDtGr9hZ",
+  "versions": {
+    "9pCP6Iu8": {
+      "filename": "euphorics-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/cDtGr9hZ/versions/9pCP6Iu8/euphorics-1.3.2.jar",
+      "hash": "sha512-3cw/MHz1EZsRGQ3jkMFJyUtMI2HzDVfs77BP2XNciwJzIw6Ss9Okd/kCd5FhZznDNBRRw2a+J/MxD3Id/AL68w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "sob6WjuC": {
+      "filename": "euphorics-1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/cDtGr9hZ/versions/sob6WjuC/euphorics-1.3.3.jar",
+      "hash": "sha512-xDnBGblWbquf4AgIs0kqP5ZT4QdS0WC8gQ0U7qPboJ2U1Qk8eAyGxo2qyN0qIfNF44OCIOZNhuLfakVixuxKog==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "sob6WjuC",
+      "9pCP6Iu8"
+    ]
+  }
+}

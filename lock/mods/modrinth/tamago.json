@@ -1,0 +1,111 @@
+{
+  "slug": "tamago",
+  "projectId": "5UjtxD5a",
+  "versions": {
+    "9iBXDHKy": {
+      "filename": "tamago-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/5UjtxD5a/versions/9iBXDHKy/tamago-2.0.jar",
+      "hash": "sha512-aQ5mGYOGv3nBxQNpDp19k01xolubPl6DFGpL54vo67CSqnzopTbmYxu7cP/Yu6PUEI2cQFRRlEnpIQ+xkPM5Bg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "porting_lib",
+          "projectId": "tEJPA4Ty",
+          "type": "required"
+        },
+        {
+          "slug": "porting_lib",
+          "projectId": "tEJPA4Ty",
+          "type": "required"
+        }
+      ]
+    },
+    "AHNKX5nY": {
+      "filename": "tamago-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/5UjtxD5a/versions/AHNKX5nY/tamago-3.0.jar",
+      "hash": "sha512-ZVji+HrZImWN8Y4n2X325RAEh5WySkGBVgcNr6O6BWRS2gEbOb+FHZ835sdW+0SsTFKe1RQjboc4qAiJeuw9sw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kejw5agR": {
+      "filename": "tamago-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/5UjtxD5a/versions/kejw5agR/tamago-2.2.jar",
+      "hash": "sha512-LQBH8DAwAH3j8mWokVGEpqi4Y61Mq7dvmuuKzMsx9Ftuqr/m7wGfXPG4mZyvgaihfXnQ3NEmpTKGCEC+soZZmQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mUpv4P4f": {
+      "filename": "tamago-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/5UjtxD5a/versions/mUpv4P4f/tamago-2.1.jar",
+      "hash": "sha512-jt3c8m7od33k/r9He/vyAj4+odfQcwQH+mC4z59RjmMYPDq5NukOtGljVYf19pBccMFF9oAzaXVkVvyCktVneA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sVGakBQO": {
+      "filename": "tamago-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/5UjtxD5a/versions/sVGakBQO/tamago-1.0.jar",
+      "hash": "sha512-iQ3GeoBJ6MTfkkVZ/uv4fyut7MsBPGV8PO5HchJ57ebvu4z+adDHZO4fSL5cLTiB8pfiE3RBNqzg79MnZtI9ew==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "sVGakBQO"
+    ],
+    "1.18.2+quilt": [
+      "sVGakBQO"
+    ],
+    "1.20.1+fabric": [
+      "AHNKX5nY",
+      "kejw5agR",
+      "mUpv4P4f",
+      "9iBXDHKy"
+    ],
+    "1.20.2+fabric": [
+      "mUpv4P4f"
+    ]
+  }
+}

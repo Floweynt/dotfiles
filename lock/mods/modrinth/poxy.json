@@ -1,0 +1,54 @@
+{
+  "slug": "poxy",
+  "projectId": "T7cmoJzD",
+  "versions": {
+    "BVxMfYIE": {
+      "filename": "poxy-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/T7cmoJzD/versions/BVxMfYIE/poxy-1.0.0.jar",
+      "hash": "sha512-UEOTjypmcafGhK6ZRCoXBebisOubC8WZsoPL0B7dpd2m7THBP/UsxsIVRPdKp2Nvgk3v0xsxuolD5tqNvf5SDQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        }
+      ]
+    },
+    "UWeSHRT5": {
+      "filename": "poxy-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/T7cmoJzD/versions/UWeSHRT5/poxy-1.1.0.jar",
+      "hash": "sha512-/JhzyVZwBO6S7tKMRdxFQghdcW47rtRyv2/1B4RzRR71K5IUuQnzuB/8BrsAg2UJa3zU8dDvUsUrkWJV1qzLtQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "voxy",
+          "projectId": "fxxUqruK",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "BVxMfYIE"
+    ],
+    "26.2+fabric": [
+      "UWeSHRT5"
+    ]
+  }
+}

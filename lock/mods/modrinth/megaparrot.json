@@ -1,0 +1,69 @@
+{
+  "slug": "megaparrot",
+  "projectId": "9usMkV26",
+  "versions": {
+    "VdoXl5PT": {
+      "filename": "megaparrots-2.0.0-1.21.3-neo.jar",
+      "url": "https://cdn.modrinth.com/data/9usMkV26/versions/VdoXl5PT/megaparrots-2.0.0-1.21.3-neo.jar",
+      "hash": "sha512-gSdYyhe7PCOlH6Pvu6rQ56aA3V3PA4QkaKWuNg6d+ZmSnfQG5WJKmCCSv80vq3BR1sALhATFqCTQNBxIiUrN5Q==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "s8n5skzQ": {
+      "filename": "megaparrot-1.0.7-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/9usMkV26/versions/s8n5skzQ/megaparrot-1.0.7-1.19.2.jar",
+      "hash": "sha512-f4qwZsAhyxNKed77goXbp0nFmXHXWVNMsyaJxjU4mbQI/33nmBq2INoxEzXvFKiORfrdsVJNSYMqWciZib0rLA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "skylib",
+          "projectId": "SXYcZO3i",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "s8n5skzQ"
+    ],
+    "1.21.3+neoforge": [
+      "VdoXl5PT"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "nonames",
+  "projectId": "ZIcXqFCi",
+  "versions": {
+    "C4AyL8Ft": {
+      "filename": "NoName-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZIcXqFCi/versions/C4AyL8Ft/NoName-1.0.1.jar",
+      "hash": "sha512-+GR81kTS5aBPNedNH0YFbZWV+a5JkgeS/4elixg9wot8uwucdpJ/B0Kc2+CRmLJlT8esQ8IsaGt1xwddE+cdkg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jDrM42eJ": {
+      "filename": "NoName-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZIcXqFCi/versions/jDrM42eJ/NoName-1.0.0.jar",
+      "hash": "sha512-HMzf+ro4HoSRhuoGAFAU75P9YZvHpciqPXQG/q6cPNRgd8muLyyE+zRamsMRpc9tsxJ8R1a06IaraILPe/4K7g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uIbVlwpN": {
+      "filename": "NoName-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZIcXqFCi/versions/uIbVlwpN/NoName-1.0.0.jar",
+      "hash": "sha512-WE/us7zgJKjkPovSeBaQj1LDsLXr/YkrIbJtHg07XNDLDON+P8XFPKem0qep+JUZe6h6Xrm3nPgyMpsi1cxgPA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "C4AyL8Ft",
+      "uIbVlwpN"
+    ],
+    "1.21+fabric": [
+      "jDrM42eJ"
+    ]
+  }
+}

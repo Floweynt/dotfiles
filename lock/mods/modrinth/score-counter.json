@@ -1,0 +1,42 @@
+{
+  "slug": "score-counter",
+  "projectId": "DyxlTY19",
+  "versions": {
+    "4FcNqoYC": {
+      "filename": "score-counter-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/DyxlTY19/versions/4FcNqoYC/score-counter-1.0.0-forge.jar",
+      "hash": "sha512-zHtSrZzs1CTfnCL+gmhUwuaUndv5g8KSFoUfcjsD0U+IqbPO6kSsb8hPN8N9RwpX9vwOaJ4dDTN1Y11GN5F9cw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "5SRnI0yM": {
+      "filename": "score-counter-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/DyxlTY19/versions/5SRnI0yM/score-counter-1.0.0-fabric.jar",
+      "hash": "sha512-fFNkh04rVOglXTdZe8yKh56Zxw7BP4oSWR4hPRX2jbNuBuOLK5d1w2dJCjhVXn92d7QU0RMzJwYok511qwK7Yw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5SRnI0yM"
+    ],
+    "1.20.1+forge": [
+      "4FcNqoYC"
+    ]
+  }
+}

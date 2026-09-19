@@ -1,0 +1,68 @@
+{
+  "slug": "wizardz",
+  "projectId": "sstDyAxN",
+  "versions": {
+    "5hwBnr2J": {
+      "filename": "wizardz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/sstDyAxN/versions/5hwBnr2J/wizardz-1.0.jar",
+      "hash": "sha512-PSwT3HV1wagYaulL9BWOEpCnM7iATSn++AqQzgFXJpjudLCneyUzgeFzG54osEfereRN4qxvyyqypIb2wx15hQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "Q8F3uAj4": {
+      "filename": "WizardZ.zip",
+      "url": "https://cdn.modrinth.com/data/sstDyAxN/versions/Q8F3uAj4/WizardZ.zip",
+      "hash": "sha512-XyK+2o3NJ7b9Kt0iYBt9C/NKj5szcEm9GD+oC66i9KrW2IXAxg4Qvu81xBE9vRJQjSwadWbIeJCeF11rhSHWbw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "wizards",
+          "projectId": "NkGaQMDA",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "Q8F3uAj4"
+    ],
+    "1.20.1+fabric": [
+      "5hwBnr2J"
+    ],
+    "1.20.1+quilt": [
+      "5hwBnr2J"
+    ]
+  }
+}

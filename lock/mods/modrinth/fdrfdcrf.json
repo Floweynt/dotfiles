@@ -1,0 +1,68 @@
+{
+  "slug": "fdrfdcrf",
+  "projectId": "gulQYoue",
+  "versions": {
+    "laTMuI7F": {
+      "filename": "fdrfdcrf-v0.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/gulQYoue/versions/laTMuI7F/fdrfdcrf-v0.0.0.zip",
+      "hash": "sha512-ji6+W0qFoKbbOyVwrvs4gxv40/shzyT5drDpTKj8SvY/kPk/3jDTVWo0iTorm6SzK8olwk80Hg3v44jgvFjDHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "delightful-creators",
+          "projectId": "jmJ87gsb",
+          "type": "required"
+        }
+      ]
+    },
+    "u3uog0VA": {
+      "filename": "fdrfdcrf-0.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gulQYoue/versions/u3uog0VA/fdrfdcrf-0.0.0.jar",
+      "hash": "sha512-Oyk8s2gtpU2XZT/u9NCkioQFrYvkKsaJx9mGNiPpjHoliIBWH4rCKCzyM9wvXlgeYT5jW27pBPD7s4oJI7USHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "delightful-creators",
+          "projectId": "jmJ87gsb",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "laTMuI7F"
+    ],
+    "1.20.1+fabric": [
+      "u3uog0VA"
+    ],
+    "1.20.1+quilt": [
+      "u3uog0VA"
+    ]
+  }
+}

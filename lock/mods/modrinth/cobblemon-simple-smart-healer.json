@@ -1,0 +1,64 @@
+{
+  "slug": "cobblemon-simple-smart-healer",
+  "projectId": "KfWzdowK",
+  "versions": {
+    "HfHKG4hl": {
+      "filename": "cobblemon_smart_healer-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KfWzdowK/versions/HfHKG4hl/cobblemon_smart_healer-fabric-1.1.0.jar",
+      "hash": "sha512-IEwU6IA/HMz4S05dVEW4MTqIgSEWxPio262fitH2T8n2WdkUB7VCNR5TpEd9Cv3nkStI1pSWcRyLyX5NXz5WQA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "enYrt36A": {
+      "filename": "cobblemon_smart_healer-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KfWzdowK/versions/enYrt36A/cobblemon_smart_healer-neoforge-1.1.0.jar",
+      "hash": "sha512-YkbcUzKqAOGDdz6XkCYYqc+IDQyYXm1yGUbflY/+4+VoSmymJmQQuB3K8bncVIWakB0WXYCj7TsB3Pe0j/mfcw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "HfHKG4hl"
+    ],
+    "1.21.1+neoforge": [
+      "enYrt36A"
+    ]
+  }
+}

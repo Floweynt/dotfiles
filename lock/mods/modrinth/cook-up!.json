@@ -1,0 +1,100 @@
+{
+  "slug": "cook-up!",
+  "projectId": "Bu6vTyGn",
+  "versions": {
+    "52pOkcvx": {
+      "filename": "cook-up-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Bu6vTyGn/versions/52pOkcvx/cook-up-0.2.0.jar",
+      "hash": "sha512-GBaeZxrEp9xvHM0sES1iZLTj9lz8bZ63K/5Xnq0e8JJv1dtQVfw99NtvHgOJGQwdrMwpvorFz4RGamvcV5us1A==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "CStSitFQ": {
+      "filename": "cook-up-1.0.0-beta.0.jar",
+      "url": "https://cdn.modrinth.com/data/Bu6vTyGn/versions/CStSitFQ/cook-up-1.0.0-beta.0.jar",
+      "hash": "sha512-Svl8pM46lF37T9IK12zW7dB4C4O/zzUF4RqiaH6byRw68bXKvIs/EWZlJeYooZ9CeMJBkLebbOa3iYVQX6TVHA==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aeuF5y0t": {
+      "filename": "cook-up-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/Bu6vTyGn/versions/aeuF5y0t/cook-up-0.2.1.jar",
+      "hash": "sha512-sfF1YdhOeGc/UEKZ0EiudZnmX1uxSDCGGy83ctObgZeaGsJkI/7t0YW+nwZc5Cr7aBWAtGmkOFuUkG6gBE+HeA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "n0frvvSg": {
+      "filename": "cook-up-0.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/Bu6vTyGn/versions/n0frvvSg/cook-up-0.2.2.jar",
+      "hash": "sha512-4ZMgqJDSKjZoGbDZfolwdpoYiAfc4Q2J8tvBRQcNazSm7yfUrYke3E+EuSxTYLN+3pDLsUMEIWjmC8/3nBDwbg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "CStSitFQ"
+    ],
+    "1.21.11+fabric": [
+      "CStSitFQ"
+    ],
+    "1.21.5+fabric": [
+      "CStSitFQ",
+      "n0frvvSg",
+      "aeuF5y0t",
+      "52pOkcvx"
+    ],
+    "1.21.6+fabric": [
+      "CStSitFQ"
+    ],
+    "1.21.7+fabric": [
+      "CStSitFQ"
+    ],
+    "1.21.8+fabric": [
+      "CStSitFQ"
+    ],
+    "1.21.9+fabric": [
+      "CStSitFQ"
+    ]
+  }
+}

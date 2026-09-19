@@ -1,0 +1,69 @@
+{
+  "slug": "shulker-box-quick-open",
+  "projectId": "QJy7pOYm",
+  "versions": {
+    "Eh8OIhij": {
+      "filename": "shulker-box-quick-open-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QJy7pOYm/versions/Eh8OIhij/shulker-box-quick-open-1.0.0.jar",
+      "hash": "sha512-RtJRyYccPFog3JmUkUXyysehx/wLIZ0s722dDvLcF316mhMrfCkqIXAN12+ab9dyDkTuv0zC0uFSAzoItlvmSA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JCgwH4j0": {
+      "filename": "shulker-box-quick-open-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QJy7pOYm/versions/JCgwH4j0/shulker-box-quick-open-1.1.0.jar",
+      "hash": "sha512-VcgBgkQo6KNhnL5IVwArhfsYjfLITJLkfPUON06ngHmhJXaVH+PddZIs+ZKQnq2KslLaN943gLcs2aEqjFa1ww==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "tYGLEElP": {
+      "filename": "shulker-box-quick-open-neoforge-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/QJy7pOYm/versions/tYGLEElP/shulker-box-quick-open-neoforge-1.2.0.jar",
+      "hash": "sha512-21yiAFRB03kBqz8D6IgkrOrbiRq4/aINY8QHC5rhCHrCAgHbvMSajXopjdDYizWDD40acBGvrd70M2gBJXFrgA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "JCgwH4j0",
+      "Eh8OIhij"
+    ],
+    "1.21.10+neoforge": [
+      "tYGLEElP"
+    ],
+    "1.21.11+fabric": [
+      "JCgwH4j0",
+      "Eh8OIhij"
+    ]
+  }
+}

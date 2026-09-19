@@ -1,0 +1,84 @@
+{
+  "slug": "nether-structure-tweaks",
+  "projectId": "tE1u6dj1",
+  "versions": {
+    "7DfQ9DKq": {
+      "filename": "nether_tweaks-forge-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/tE1u6dj1/versions/7DfQ9DKq/nether_tweaks-forge-1.20.1-1.2.0.jar",
+      "hash": "sha512-RFgyrq7jN4Xgdblz4oblWWpmU1iSUGIvVrHcy2/xYI9Pf8QObfU6MW/DixPAT2pzUKtJ7MYK9J90CskZKWLRXQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "BnXG22r3": {
+      "filename": "nether-tweaks-1.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/tE1u6dj1/versions/BnXG22r3/nether-tweaks-1.1.0%2B1.20.1.jar",
+      "hash": "sha512-6/fzQPG6D6JXzjaR7EwPTksYWXrPfgQfEH5N9Bd0Ohlm/YzGVjwr8Ov3i7h+CkvknFkK2+MI4jxbbEypEBWmbQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "b4YbLLca": {
+      "filename": "nether_tweaks-fabric-1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/tE1u6dj1/versions/b4YbLLca/nether_tweaks-fabric-1.20.1-1.2.0.jar",
+      "hash": "sha512-DvVdlPNZVJl0O7GeLVIfr9OwcMTFPuqZWBJWxSGpRxvAV4AnBCW+9dP78929310RI5BhVhSM7/Lqagu4VRoImg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "uVsTyXEp": {
+      "filename": "nether_tweaks-forge-1.20.1-1.2.0-1.jar",
+      "url": "https://cdn.modrinth.com/data/tE1u6dj1/versions/uVsTyXEp/nether_tweaks-forge-1.20.1-1.2.0-1.jar",
+      "hash": "sha512-oRWAqOvm7f586W56S9gr8HGsh6mym7h8IXWejFgayK/GJcO8eVy8WXMAEKdynWdnH7LuXgoWhVVjiRGBZR5hVQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "b4YbLLca",
+      "BnXG22r3"
+    ],
+    "1.20.1+forge": [
+      "uVsTyXEp",
+      "7DfQ9DKq"
+    ]
+  }
+}

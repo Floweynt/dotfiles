@@ -1,0 +1,54 @@
+{
+  "slug": "mobmons",
+  "projectId": "cAOHQ0KB",
+  "versions": {
+    "Qq7Apkej": {
+      "filename": "MobMons.zip",
+      "url": "https://cdn.modrinth.com/data/cAOHQ0KB/versions/Qq7Apkej/MobMons.zip",
+      "hash": "sha512-EeQqVuAqJ5pTyOLAQX6uYCzQuB/khXqkOQPmBFxx87WtLGMgccMHCkiikrhYKrl7Q3WXLhb6u0EAiUJj1dn3BQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "Uiua0aor": {
+      "filename": "mobmons-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cAOHQ0KB/versions/Uiua0aor/mobmons-1.0.0.jar",
+      "hash": "sha512-QP1ZJmL9BlSFEX+aCtMxUjU2GQIMJp8wYOF8H0huRQ2pSyGJ19e17pcvfL+XY6UIaR2EHXPmsXjuX/6cgythJw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "Qq7Apkej"
+    ],
+    "1.21.1+fabric": [
+      "Uiua0aor"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "mtautotool",
+  "projectId": "2nqAWkMm",
+  "versions": {
+    "SkE9b1en": {
+      "filename": "autotool-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2nqAWkMm/versions/SkE9b1en/autotool-1.0.0.jar",
+      "hash": "sha512-I39HntGABmYwT0K75tQBXfaTepwN4iG8FrdXX4FK7UBoO1ncdm+fiRLKeBpGw6K1Qe7BT9x02h9geX+WFLuTjA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "SkE9b1en"
+    ]
+  }
+}

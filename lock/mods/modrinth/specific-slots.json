@@ -1,0 +1,52 @@
+{
+  "slug": "specific-slots",
+  "projectId": "s1E1o3zZ",
+  "versions": {
+    "dAeWEIx6": {
+      "filename": "SpecificSlots-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/s1E1o3zZ/versions/dAeWEIx6/SpecificSlots-1.0.0.jar",
+      "hash": "sha512-O5FhAzOMukA9OIEdbRRsO5SZvzUsXfPkJOBUrHQQA3kCDbz5Fdj+qlysmkht2t9fC8QLs1xFOrYcaDTThE887w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "dAeWEIx6"
+    ],
+    "1.20+quilt": [
+      "dAeWEIx6"
+    ],
+    "1.20.1+fabric": [
+      "dAeWEIx6"
+    ],
+    "1.20.1+quilt": [
+      "dAeWEIx6"
+    ]
+  }
+}

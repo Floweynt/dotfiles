@@ -1,0 +1,36 @@
+{
+  "slug": "aethersteel-knives",
+  "projectId": "PiNyYjl6",
+  "versions": {
+    "4mdOYuLU": {
+      "filename": "aethersteel-knives-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PiNyYjl6/versions/4mdOYuLU/aethersteel-knives-1.0.0.jar",
+      "hash": "sha512-VVWHScTtz5kqt1pIG8I5Hn2H1J4CWZK5Pb8C8BNgHhxwgv4e/ME6GNgWRGrgWbHDbK4EzGOav19SRep+KwV9Lw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "paradise-lost",
+          "projectId": "IKpsG0nF",
+          "type": "required"
+        },
+        {
+          "slug": "endgame-reborn",
+          "projectId": "B0Fm7Yqw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "4mdOYuLU"
+    ]
+  }
+}

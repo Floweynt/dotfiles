@@ -1,0 +1,71 @@
+{
+  "slug": "techo-addon",
+  "projectId": "XkfAECeL",
+  "versions": {
+    "Hj8156GA": {
+      "filename": "techo_1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XkfAECeL/versions/Hj8156GA/techo_1.20.1-1.0.0.jar",
+      "hash": "sha512-yakKhMbSU+7gR9TgUGwLf3DvVcvi2ZGpg25BcQhigX6T2rpohUazvG6lywcKdC4TTkugCu482LhALNAkyA7wQw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "KU4XNAH3": {
+      "filename": "techo_1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XkfAECeL/versions/KU4XNAH3/techo_1.20.1-1.1.0.jar",
+      "hash": "sha512-gt2kcm39Mi0Ut1aGyTVAadNFm9oZodQoWvndJxt+fiGaZi3NnK7Rofu9amUSxzSiG3tzgEfIebiGffxjGE+x0g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "ckhFwzPp": {
+      "filename": "techo_1.20.1-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/XkfAECeL/versions/ckhFwzPp/techo_1.20.1-1.2.0.jar",
+      "hash": "sha512-pjJimgJVyO9QzxYRURi9QHnUH8q0uu8DeddP3o5CxHZMC/SAHiP1lKO941WUN5CBxo95PkQjE+1O1hQKhCS5gg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ckhFwzPp",
+      "KU4XNAH3",
+      "Hj8156GA"
+    ],
+    "1.20.1+forge": [
+      "ckhFwzPp"
+    ]
+  }
+}

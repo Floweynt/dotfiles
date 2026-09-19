@@ -1,0 +1,62 @@
+{
+  "slug": "breed-more-mobs",
+  "projectId": "zljfI4dh",
+  "versions": {
+    "XBtXz6Zd": {
+      "filename": "breed-more-mobs-1.1.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/zljfI4dh/versions/XBtXz6Zd/breed-more-mobs-1.1.0%2B1.21.10.jar",
+      "hash": "sha512-ySqShB8x7Mbks+AuW4TjilQjItc60SX7vtLDBzH3wDHXcs+eYFE0X1AUGWbSH+Nbdnn2l0PyYNxQ57IzKKguEA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZHwCe43j": {
+      "filename": "breed-more-mobs-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zljfI4dh/versions/ZHwCe43j/breed-more-mobs-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-gr8LO42iguY2Hyum9R3dGZ51mc8AI54/kFpos5IvUugUIXy0/EfpUbdU++MvmL0T4CZYPZWcVtaxpiEIzNqC3A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "ZHwCe43j"
+    ],
+    "1.21.1+fabric": [
+      "ZHwCe43j"
+    ],
+    "1.21.10+fabric": [
+      "XBtXz6Zd"
+    ],
+    "1.21.9+fabric": [
+      "XBtXz6Zd"
+    ]
+  }
+}

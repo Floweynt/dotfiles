@@ -1,0 +1,147 @@
+{
+  "slug": "dark-chidori-origin",
+  "projectId": "qVg3SzUC",
+  "versions": {
+    "6LSzAUGn": {
+      "filename": "darkchidori-fabric-1.20.1-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/qVg3SzUC/versions/6LSzAUGn/darkchidori-fabric-1.20.1-1.0.8.jar",
+      "hash": "sha512-h//rUK6tRlWojAeH26av4ARFX5R4QtS2d5FvZJ6Rv9H0D/BckwsiIH2JhLfMTu8izV0XnmH9u73WeUPWzOC+Yg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "8iBUSwgF": {
+      "filename": "darkchidori-forge-120.1-1.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/qVg3SzUC/versions/8iBUSwgF/darkchidori-forge-120.1-1.0.7.jar",
+      "hash": "sha512-+ZQ2LR795/RKOW2DNyLZiVY/7TNiV4TuTcs/6J+kNtN49zLm82Wsi1i5xYxeKoxGV+UiDK7imJtiSzrGlXPsGA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "QXLoDnEX": {
+      "filename": "dark_chidori-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/qVg3SzUC/versions/QXLoDnEX/dark_chidori-1.0.4.jar",
+      "hash": "sha512-AhObH4RQWmXplmFjdpnFou7SD9uAMeZ20avyXPvexWC4Sz/DUk+sONuPsyNpqi7KX0P42pBZHHEpV3ODeQLCrw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "gs6xiUi2": {
+      "filename": "dark_chidori-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/qVg3SzUC/versions/gs6xiUi2/dark_chidori-1.0.5.jar",
+      "hash": "sha512-u1cpE6VJXIBgTNCTSi1y8ClHKC3zJCKMQJcHlHQ5SSd7z4IGJUe4XJaM747hUjhopFi6R2VBNqB1cN47zI1QSQ==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "pcKiaS7K": {
+      "filename": "dark_chidori-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/qVg3SzUC/versions/pcKiaS7K/dark_chidori-1.0.6.jar",
+      "hash": "sha512-9pcCRM5HD1+4reMdY9NT6zmvv33vRZhyVtFvsXqQOIBPSko1yySuZlZknQgGA2Hj3tYzVDNwoeJYyqnqPkwYxA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "pcKiaS7K"
+    ],
+    "1.19+fabric": [
+      "QXLoDnEX"
+    ],
+    "1.19.1+fabric": [
+      "QXLoDnEX"
+    ],
+    "1.19.2+fabric": [
+      "QXLoDnEX"
+    ],
+    "1.19.3+fabric": [
+      "QXLoDnEX"
+    ],
+    "1.19.4+fabric": [
+      "QXLoDnEX"
+    ],
+    "1.20+fabric": [
+      "QXLoDnEX"
+    ],
+    "1.20.1+fabric": [
+      "6LSzAUGn",
+      "QXLoDnEX"
+    ],
+    "1.20.1+forge": [
+      "8iBUSwgF"
+    ],
+    "1.20.2+fabric": [
+      "gs6xiUi2"
+    ],
+    "1.20.3+fabric": [
+      "gs6xiUi2"
+    ],
+    "1.20.4+fabric": [
+      "gs6xiUi2"
+    ]
+  }
+}

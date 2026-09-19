@@ -1,0 +1,82 @@
+{
+  "slug": "jschlatt-music-discs",
+  "projectId": "As1mfoRi",
+  "versions": {
+    "10U0ERSe": {
+      "filename": "jschlatt_music_discs-1.0.0-neoforge-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/As1mfoRi/versions/10U0ERSe/jschlatt_music_discs-1.0.0-neoforge-1.21.8.jar",
+      "hash": "sha512-PWDrk7hOf5Ep6Nkx0FzkFHXDR+HG5jTHk7BBW/tUWZhxefJdn55DV2gOyAAsTMlK+lgNIRmEK7llFxvu2Eu6ZA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "MQgyKIBs": {
+      "filename": "jschlatt_music_discs-1.0.0-neoforge-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/As1mfoRi/versions/MQgyKIBs/jschlatt_music_discs-1.0.0-neoforge-1.21.4.jar",
+      "hash": "sha512-RgLzTCC98kceydXMXWW6lVOLOXrOdeRVDUKoeli5FNpayFn8tAPsqWErq01mSTIxwdc+eg+1L4rLrtO5n1cU6g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "XGrx4Evi": {
+      "filename": "jschlatt_music_discs-1.0.0-fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/As1mfoRi/versions/XGrx4Evi/jschlatt_music_discs-1.0.0-fabric-1.21.8.jar",
+      "hash": "sha512-aY036e1rOwu4V8mhIQA9a8BWTwgqBVNhN1VSKSJ/qQjnpqJUoGXMVruNvKlywTUezYL7pXEYhP/eETTmPN29jA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ctC7MOhW": {
+      "filename": "jschlatt_music_discs-1.0.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/As1mfoRi/versions/ctC7MOhW/jschlatt_music_discs-1.0.0-neoforge-1.21.1.jar",
+      "hash": "sha512-I7A5zB2kZxksr+5ZrhGD+G/I1ctKBxpIQbWvh0rfNhjaKj1sFd/tAaX/RX9EFcvPhbcRpXlV0CLiFKRVFn3PqQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+neoforge": [
+      "ctC7MOhW"
+    ],
+    "1.21.4+neoforge": [
+      "MQgyKIBs"
+    ],
+    "1.21.8+fabric": [
+      "XGrx4Evi"
+    ],
+    "1.21.8+neoforge": [
+      "10U0ERSe"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "project-eevolve",
+  "projectId": "vnLzB0jf",
+  "versions": {
+    "5BTPElWJ": {
+      "filename": "Project Eevolve Data.zip",
+      "url": "https://cdn.modrinth.com/data/vnLzB0jf/versions/5BTPElWJ/Project%20Eevolve%20Data.zip",
+      "hash": "sha512-pylYInyXv1rZzNCEhwCNe+OxPIrJXtCXVTfqigYziFj6iWEOCmyfVvMzWT5h2Pdw195pYDW4U8Oq5gtrQ+NanQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "MPXpYrus": {
+      "filename": "Project Eevolve Data.zip",
+      "url": "https://cdn.modrinth.com/data/vnLzB0jf/versions/MPXpYrus/Project%20Eevolve%20Data.zip",
+      "hash": "sha512-g+to7aAscU6/4PC3Eh28jYXIoQBZMBy1zJzLjVhPLUC/OmtpM++8uWv9dN8UOMyja5l/1ISbibkGJhgeLQeR5Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "NRtj2MHn": {
+      "filename": "Project Eevolve v1.2a.zip",
+      "url": "https://cdn.modrinth.com/data/vnLzB0jf/versions/NRtj2MHn/Project%20Eevolve%20v1.2a.zip",
+      "hash": "sha512-n8s+8/Eilab9O87qvAAH3J1LltskIq0ydQOKCDfVEd3SXX8o2lAfXt1su+uupF47EPToAtw5rY+onDdAaGt6mw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "kPRkpoVA": {
+      "filename": "Project Eevolve Data.zip",
+      "url": "https://cdn.modrinth.com/data/vnLzB0jf/versions/kPRkpoVA/Project%20Eevolve%20Data.zip",
+      "hash": "sha512-xJXfnQLnc5BdC4DUu1MxGcsMPPKI2or5uRaS5mid8am56xgSYyXK3OfvDOkn8G8tUtjUqhrn7KMojvfqxLI9fA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "5BTPElWJ",
+      "kPRkpoVA",
+      "MPXpYrus"
+    ],
+    "1.21.1+datapack": [
+      "NRtj2MHn"
+    ],
+    "1.21.1+fabric": [
+      "NRtj2MHn"
+    ]
+  }
+}

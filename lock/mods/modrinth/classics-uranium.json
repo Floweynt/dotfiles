@@ -1,0 +1,35 @@
+{
+  "slug": "classics-uranium",
+  "projectId": "5iOXzNU0",
+  "versions": {
+    "CphHX83y": {
+      "filename": "classic_uranium-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5iOXzNU0/versions/CphHX83y/classic_uranium-1.0.0.jar",
+      "hash": "sha512-CqYWYeZ/VDbM3Kwoe01ULCUs8NbnpmtpcvKsoGTb0ArJ6N8Kssg+qe4OLgO73dhFuIbc7J2n9w61GveSrfs2mQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "CphHX83y"
+    ],
+    "1.20.1+fabric": [
+      "CphHX83y"
+    ]
+  }
+}

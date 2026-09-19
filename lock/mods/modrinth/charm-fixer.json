@@ -1,0 +1,39 @@
+{
+  "slug": "charm-fixer",
+  "projectId": "wofAHCXj",
+  "versions": {
+    "nvh4XPN9": {
+      "filename": "charm_fixer-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wofAHCXj/versions/nvh4XPN9/charm_fixer-1.0.0.jar",
+      "hash": "sha512-INZ1KpDTyjy1LT0sy/Nc//veHrKE4lYkJJt6ykO28VNZhAdDaj4dNsnwZ3mKPR+nyTzl+nCOyjEJOlwhAN+KAA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "charm",
+          "projectId": "pOQTcQmj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "nvh4XPN9"
+    ],
+    "1.19.1+fabric": [
+      "nvh4XPN9"
+    ],
+    "1.19.2+fabric": [
+      "nvh4XPN9"
+    ]
+  }
+}

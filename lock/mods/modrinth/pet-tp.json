@@ -1,0 +1,52 @@
+{
+  "slug": "pet-tp",
+  "projectId": "XPYfYNXW",
+  "versions": {
+    "EcNASQJn": {
+      "filename": "pet-tp-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XPYfYNXW/versions/EcNASQJn/pet-tp-1.1.0.jar",
+      "hash": "sha512-rbZnqYucvvW2IHGArieaGPoHDOB674rcJD7dffwSQJgeNy3KDB8b3geuR5fqBWalw0xNz0RI60jZ81GLQx04nw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "UtBF90is": {
+      "filename": "pet-tp-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XPYfYNXW/versions/UtBF90is/pet-tp-1.0.0.jar",
+      "hash": "sha512-e8oS7tWv18Z6iuEM7oFrJBQO06J/XoOkPMGGbxcStwJ47v6WhaEjRyi591TyVq14VoqZ3XYExIEMYje9a/Mi6w==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "UtBF90is"
+    ],
+    "1.21.11+fabric": [
+      "UtBF90is"
+    ],
+    "26.1+fabric": [
+      "EcNASQJn"
+    ]
+  }
+}

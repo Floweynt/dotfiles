@@ -1,0 +1,106 @@
+{
+  "slug": "smartsearch",
+  "projectId": "N5EQhK31",
+  "versions": {
+    "XreUACfL": {
+      "filename": "smartsearch-1.0.0+alpha3.jar",
+      "url": "https://cdn.modrinth.com/data/N5EQhK31/versions/XreUACfL/smartsearch-1.0.0%2Balpha3.jar",
+      "hash": "sha512-72jf6pnc5G+ot9a6o9XF+PnlTrY/P+hNN/QK692w9GHkRaBRb0Y61NxJY+HXeYT7s017HbqH03ruRXprgoWdtQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.4",
+        "1.21.5",
+        "1.21.8",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "oneconfig",
+          "projectId": "AibBIVmj",
+          "type": "required"
+        }
+      ]
+    },
+    "uyazbeMM": {
+      "filename": "smartsearch-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/N5EQhK31/versions/uyazbeMM/smartsearch-1.0.0.jar",
+      "hash": "sha512-O5hDP7HrO8CHm6WgQSnEaH/A8NX/lkT055BOwFbnWIRmvFKBxuxJBY0Fb6almQTJWnZkJOvkzI1mTJH3bR7Wdg==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.4",
+        "1.21.5",
+        "1.21.8",
+        "1.21.10",
+        "1.21.11",
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "oneconfig",
+          "projectId": "AibBIVmj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "1.21.10+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "1.21.11+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "1.21.4+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "1.21.5+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "1.21.8+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "26.1+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "26.1.1+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "26.1.2+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ],
+    "26.2+fabric": [
+      "uyazbeMM",
+      "XreUACfL"
+    ]
+  }
+}

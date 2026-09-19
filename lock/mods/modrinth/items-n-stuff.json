@@ -1,0 +1,131 @@
+{
+  "slug": "items-n-stuff",
+  "projectId": "uaW97oAS",
+  "versions": {
+    "KeN1V41S": {
+      "filename": "items-n-stuff-1.20.1-v0.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/uaW97oAS/versions/KeN1V41S/items-n-stuff-1.20.1-v0.1-neoforge.jar",
+      "hash": "sha512-c/tzSfPiLzl9KzHqp2UfowKjQ0RgVxRY0vcKjB1t4ERp82Oez96RO0kdf12ZOeZOW18+wkyxnCZz18We01CWDQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    },
+    "KkVs0POK": {
+      "filename": "itemsnstuff-1.0+quilt.jar",
+      "url": "https://cdn.modrinth.com/data/uaW97oAS/versions/KkVs0POK/itemsnstuff-1.0%2Bquilt.jar",
+      "hash": "sha512-HQFJDvf2znQEEMdDgbpHp5wZvF5zflMO1SCOLD5LgOGkXGHVSUforEi3wcIDQtwy2EIxLDhSTY2IlUROQKbMXw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NnNzLsgt": {
+      "filename": "itemsnstuff-1.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/uaW97oAS/versions/NnNzLsgt/itemsnstuff-1.0-neoforge.jar",
+      "hash": "sha512-rFwhUtbUyVkMP8RKFe6uzPdngdIPWU02LzctyKSHzZUm6BUFGJafVVUvIDLmfTOAj5Jhcaia4lHEMdNuTG2Eqw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    },
+    "XNcaXbRb": {
+      "filename": "itemsnstuff-1.0-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/uaW97oAS/versions/XNcaXbRb/itemsnstuff-1.0-Fabric.jar",
+      "hash": "sha512-r9yteNUlCfSH3ul5S4yZSwW24hilJi6Pi1sBNo3q/AmILB4+oq2/U7oeNrw3DfAtpp7UXWwOTgOdk31sKfV1QQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lr6Bfvcf": {
+      "filename": "items-n-stuff 1.20.1 V 0.1 .jar",
+      "url": "https://cdn.modrinth.com/data/uaW97oAS/versions/lr6Bfvcf/items-n-stuff%201.20.1%20V%200.1%20.jar",
+      "hash": "sha512-g51f9fULe4aQIxhjuaanqlw5vyIhjzrD9VElgOWsVFxVpnAM1ETL6x/m0QH12xKCcQ723pysLrX8IJT1eV6AbQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "lr6Bfvcf"
+    ],
+    "1.20.1+forge": [
+      "KeN1V41S"
+    ],
+    "1.20.1+neoforge": [
+      "KeN1V41S"
+    ],
+    "1.21.1+fabric": [
+      "XNcaXbRb"
+    ],
+    "1.21.1+neoforge": [
+      "NnNzLsgt"
+    ],
+    "1.21.1+quilt": [
+      "KkVs0POK"
+    ]
+  }
+}

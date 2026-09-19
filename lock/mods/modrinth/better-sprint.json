@@ -1,0 +1,111 @@
+{
+  "slug": "better-sprint",
+  "projectId": "YoPHrQEF",
+  "versions": {
+    "tb7JD0IF": {
+      "filename": "bettersprint-v1.0-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/YoPHrQEF/versions/tb7JD0IF/bettersprint-v1.0-26.1.jar",
+      "hash": "sha512-HH3Koyytut9bny+fThikHNNw0jJvwuGy6JdgUTk8LboGGsymNBFbD5Kl5aBXFD2kJwxxkHvC91onf03Wyfc/sA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "tl8nKmnF": {
+      "filename": "bettersprint-1.0-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/YoPHrQEF/versions/tl8nKmnF/bettersprint-1.0-1.21.11.jar",
+      "hash": "sha512-KHBX9QztqM/FfMkQfmijzN6boN2cg0Pz6O8SMYv5l2dV8hmVDv5CO5iIzpopyU7zsyMFVqCAuwy7oA2sqLrwvA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "yEoQv8es": {
+      "filename": "bettersprint-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YoPHrQEF/versions/yEoQv8es/bettersprint-1.0.jar",
+      "hash": "sha512-J0tansUesJRO7X3JfLfPxOAE8iZxjl7VKV0+JWbd3dA+r3tiXdnT4xm+0JqbbKAN5OhiJ1uoLxF8co0ujpq10A==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "yEoQv8es"
+    ],
+    "1.21.11+fabric": [
+      "tl8nKmnF"
+    ],
+    "26.1+fabric": [
+      "tb7JD0IF"
+    ],
+    "26.1.1+fabric": [
+      "tb7JD0IF"
+    ]
+  }
+}

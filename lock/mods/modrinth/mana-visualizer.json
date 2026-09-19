@@ -1,0 +1,57 @@
+{
+  "slug": "mana-visualizer",
+  "projectId": "YcdpjV3k",
+  "versions": {
+    "DRfNMDX3": {
+      "filename": "ManaVisualizer-1.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/YcdpjV3k/versions/DRfNMDX3/ManaVisualizer-1.0%2B1.19.2.jar",
+      "hash": "sha512-2bicT7OJszWP+Hsjg11u0JbccWNI3/dUnMpNiWVW85hBbOHnvXw0P6gZzNnQldwB2lDynIs2V2yP5Zm/cpb1TQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "emi",
+          "projectId": "fRiHVvU7",
+          "type": "required"
+        },
+        {
+          "slug": "botania",
+          "projectId": "pfjLUfGv",
+          "type": "required"
+        }
+      ]
+    },
+    "LJYBvVR1": {
+      "filename": "ManaVisualizer-1.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/YcdpjV3k/versions/LJYBvVR1/ManaVisualizer-1.1%2B1.19.2.jar",
+      "hash": "sha512-Kczq6DUhBJtn09Jd6kILyu2TOtgAbZic1Wxr9Qyi3vTh9e05RT0RKwPZA3AR/fjrxhwqPKsOqiwPikDaeOpgsA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "botania",
+          "projectId": "pfjLUfGv",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "LJYBvVR1",
+      "DRfNMDX3"
+    ]
+  }
+}

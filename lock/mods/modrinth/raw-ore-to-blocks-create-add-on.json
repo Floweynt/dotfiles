@@ -1,0 +1,76 @@
+{
+  "slug": "raw-ore-to-blocks-create-add-on",
+  "projectId": "nE5Ewe4j",
+  "versions": {
+    "OGOCZ5j2": {
+      "filename": "ROtB_Create_addon_1.4.4.zip",
+      "url": "https://cdn.modrinth.com/data/nE5Ewe4j/versions/OGOCZ5j2/ROtB_Create_addon_1.4.4.zip",
+      "hash": "sha512-E9ssNLGWYQAiHH05z17VqQaHiELypcuMQzFXkBJ1+ogiIpFV0T0Tz0KHL20zO2ZiToz4t+lw3b+uGzrCQuYhmg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "efficient-raw-ore-blocks-smelting",
+          "projectId": "ErbaoFMu",
+          "type": "required"
+        }
+      ]
+    },
+    "xEBR8XpY": {
+      "filename": "raw-ore-to-blocks-create-add-on-1.4.4.jar",
+      "url": "https://cdn.modrinth.com/data/nE5Ewe4j/versions/xEBR8XpY/raw-ore-to-blocks-create-add-on-1.4.4.jar",
+      "hash": "sha512-XcKDvlvCkyrbEHIy2Jys2X3vP4Yv2/uQKfOBl+SR53gg9kpPXhroYNLrdz82Q7Oq+9IF7a6rf7cGJeLpQYo1ZQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "efficient-raw-ore-blocks-smelting",
+          "projectId": "ErbaoFMu",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "OGOCZ5j2"
+    ],
+    "1.21.1+fabric": [
+      "xEBR8XpY"
+    ],
+    "1.21.1+forge": [
+      "xEBR8XpY"
+    ],
+    "1.21.1+neoforge": [
+      "xEBR8XpY"
+    ],
+    "1.21.1+quilt": [
+      "xEBR8XpY"
+    ]
+  }
+}

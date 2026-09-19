@@ -1,0 +1,66 @@
+{
+  "slug": "upgrade-template-vaults",
+  "projectId": "32WsPXBn",
+  "versions": {
+    "GFapX0aI": {
+      "filename": "upgrade-template-vaults-v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/32WsPXBn/versions/GFapX0aI/upgrade-template-vaults-v1.0.0.jar",
+      "hash": "sha512-k76XyYgbDG5YUZ0VTvGnQKrBsPX5KPqgilcLpUIceXJ96sK+zKEa9AmKzpVo+WtJmPxjkxc8BXEhrvaXvV/RPA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ICs49xVP": {
+      "filename": "Upgrade_Template_Vaults.zip",
+      "url": "https://cdn.modrinth.com/data/32WsPXBn/versions/ICs49xVP/Upgrade_Template_Vaults.zip",
+      "hash": "sha512-KdeoucyBUqy32ky15bNUO6LTYO2eNUlwQ594sDk6b2rtaKAEx/ja7gOUsce9TbmW10Uf62guwvYYsa8WRHSFkw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "ICs49xVP"
+    ],
+    "1.21+fabric": [
+      "GFapX0aI"
+    ],
+    "1.21+forge": [
+      "GFapX0aI"
+    ],
+    "1.21+quilt": [
+      "GFapX0aI"
+    ],
+    "1.21.1+datapack": [
+      "ICs49xVP"
+    ],
+    "1.21.2+datapack": [
+      "ICs49xVP"
+    ],
+    "1.21.3+datapack": [
+      "ICs49xVP"
+    ],
+    "1.21.4+datapack": [
+      "ICs49xVP"
+    ]
+  }
+}

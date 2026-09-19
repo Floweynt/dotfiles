@@ -1,0 +1,51 @@
+{
+  "slug": "cobbledollars-bridge",
+  "projectId": "woSardTa",
+  "versions": {
+    "5R54PfiB": {
+      "filename": "CobbleDollarsBridge-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/woSardTa/versions/5R54PfiB/CobbleDollarsBridge-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-adEJsOY2loDEnnn7iWugzaKeKmrwtPzo+K9fLXBTncuFvsmZ/YLkNIz3u3xL583/udl93QSLa9rhvymHGAOU2Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobbledollars",
+          "projectId": "s7N7AsqL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "impactor",
+          "projectId": "LdBYVaPS",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "5R54PfiB"
+    ]
+  }
+}

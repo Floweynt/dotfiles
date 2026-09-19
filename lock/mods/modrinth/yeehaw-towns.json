@@ -1,0 +1,128 @@
+{
+  "slug": "yeehaw-towns",
+  "projectId": "Cz0fHRKU",
+  "versions": {
+    "10SAkmlL": {
+      "filename": "YeehawTowns-1.0.3-1.21.x-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/Cz0fHRKU/versions/10SAkmlL/YeehawTowns-1.0.3-1.21.x-neoforge.jar",
+      "hash": "sha512-eMXFQrFHCqjIWX21oDXxxMpBxu3duAZLURdQI3NQGWB7K2lKpMhVzSik24EbnapO2yz1MmS2JpGv4J+MFlk8gw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "7nZIadF1": {
+      "filename": "YeehawTowns-1.0.3-1.21.x-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Cz0fHRKU/versions/7nZIadF1/YeehawTowns-1.0.3-1.21.x-fabric.jar",
+      "hash": "sha512-nOxpPTffcHg0alZ+APGyLR9ZTm/VqATmzXrnwXgTq8x/aVF1YpQXONIsFV3Cx6hzQLDl5ZDHcMcYIH5LHSHZyg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "T98blQQY": {
+      "filename": "YeehawTowns-1.0.2-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/Cz0fHRKU/versions/T98blQQY/YeehawTowns-1.0.2-1.20.1-forge.jar",
+      "hash": "sha512-PizJEv2KiyJZBnTc4WVoDlzzy+Sm4bKKnB6A107wHI8sNr3rjBTwbL3k1vQa4WehmNn6mEY80DiPBDVoXYRxeQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "pEzhTWub": {
+      "filename": "YeehawTowns-1.0.1-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Cz0fHRKU/versions/pEzhTWub/YeehawTowns-1.0.1-1.20.1-fabric.jar",
+      "hash": "sha512-xR/lM0t1m+kkgyuxeF4AvOXAdj+gn5iwxdjRSiUkEaOYiKddinrY8wYj/K99EAlMa1ETHVNyiLWVaj6hbdD/1Q==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "pEzhTWub"
+    ],
+    "1.20.1+forge": [
+      "T98blQQY"
+    ],
+    "1.20.2+fabric": [
+      "pEzhTWub"
+    ],
+    "1.20.2+forge": [
+      "T98blQQY"
+    ],
+    "1.20.3+fabric": [
+      "pEzhTWub"
+    ],
+    "1.20.3+forge": [
+      "T98blQQY"
+    ],
+    "1.20.4+fabric": [
+      "pEzhTWub"
+    ],
+    "1.20.4+forge": [
+      "T98blQQY"
+    ],
+    "1.20.5+fabric": [
+      "pEzhTWub"
+    ],
+    "1.20.5+forge": [
+      "T98blQQY"
+    ],
+    "1.21+fabric": [
+      "7nZIadF1"
+    ],
+    "1.21+neoforge": [
+      "10SAkmlL"
+    ],
+    "1.21.1+fabric": [
+      "7nZIadF1"
+    ],
+    "1.21.1+neoforge": [
+      "10SAkmlL"
+    ]
+  }
+}

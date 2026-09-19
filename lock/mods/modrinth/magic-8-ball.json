@@ -1,0 +1,54 @@
+{
+  "slug": "magic-8-ball",
+  "projectId": "eUmV7trt",
+  "versions": {
+    "9MUcF1SV": {
+      "filename": "magic_8_ball-1.0.0+build.12-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/eUmV7trt/versions/9MUcF1SV/magic_8_ball-1.0.0%2Bbuild.12-mc1.21.1.jar",
+      "hash": "sha512-P+MpFerqhX/PpJSpltEnYT3Xdj1xLBAyjK11at7oz5Fmizm2nYpCU7mRRptIHTJ2b6s9j3Oo3VCzAqnUVD1QUw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "znqgJERG": {
+      "filename": "magic_8_ball-1.0.0-build.10+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/eUmV7trt/versions/znqgJERG/magic_8_ball-1.0.0-build.10%2Bmc1.20.1.jar",
+      "hash": "sha512-iWzJN18WAjraMpnaHyQYWp5aiA1qV7ef2SAHRHZw7BBif8cxb1d0dmtg1ro2eJySfcBoMlKtcS2alPiauNnZuQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+quilt": [
+      "znqgJERG"
+    ],
+    "1.21.1+fabric": [
+      "9MUcF1SV"
+    ]
+  }
+}

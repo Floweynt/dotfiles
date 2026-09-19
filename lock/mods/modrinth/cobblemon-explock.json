@@ -1,0 +1,64 @@
+{
+  "slug": "cobblemon-explock",
+  "projectId": "o7rsdpdp",
+  "versions": {
+    "4iZiMAy6": {
+      "filename": "cobblemon-explock-1.0.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/o7rsdpdp/versions/4iZiMAy6/cobblemon-explock-1.0.0%2B1.19.2.jar",
+      "hash": "sha512-gtwKetwcijRThi+pZ0op6yQVpzNUnsh2QdMNs2bEi4ZwQtIen5QHwE/cogZv2paXxDz1vfkAKOzs/g2N7y+E8A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Tvk31uHS": {
+      "filename": "cobblemon-explock-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/o7rsdpdp/versions/Tvk31uHS/cobblemon-explock-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-E5uBbfDpQiuBzxYOJbrPWJ6DxZkRju0QxzxEz0YYra2Hp/mO5SN/cnP2Sf2koz0dOzlxUCFnDkC/18RtblnJ4w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "4iZiMAy6"
+    ],
+    "1.20.1+fabric": [
+      "Tvk31uHS"
+    ]
+  }
+}

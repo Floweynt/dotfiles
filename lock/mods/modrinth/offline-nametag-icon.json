@@ -1,0 +1,65 @@
+{
+  "slug": "offline-nametag-icon",
+  "projectId": "bxqsTc3n",
+  "versions": {
+    "CMP7HSjs": {
+      "filename": "offlinenametagicon-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bxqsTc3n/versions/CMP7HSjs/offlinenametagicon-3.0.0.jar",
+      "hash": "sha512-ZSf+LSTJp0OZAEQlZ4lNBSIlCMKu2gfYwzlui55bOub4Vj+PQ0SHcaB7N4zZzRQk19FS8fMHVLlOXSfNUcEr4w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "jxHIsM9Z": {
+      "filename": "offlinenametagicon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bxqsTc3n/versions/jxHIsM9Z/offlinenametagicon-1.0.0.jar",
+      "hash": "sha512-Oe0jOAjdUwmY2jh4CQ1n3Tem+qKpXRrljH1J+ZR1rJesY+RuwrE9s7GfEP3EuzyOOGphtUvI5L/sOv5rY0rImQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "show-own-nametag",
+          "projectId": "HnGNQANl",
+          "type": "required"
+        }
+      ]
+    },
+    "l2z1pejI": {
+      "filename": "offlinenametagicon-2.0.0 (2).jar",
+      "url": "https://cdn.modrinth.com/data/bxqsTc3n/versions/l2z1pejI/offlinenametagicon-2.0.0%20%282%29.jar",
+      "hash": "sha512-4KL/LFhPnLL85e43/aI8+BpOpqD1OPhsZdzd1Sw5fk64Ch/kQDNhcL9WAZPLLlVkojRT35KiNDSkMtiqJC+d4Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "jxHIsM9Z"
+    ],
+    "1.21.1+fabric": [
+      "l2z1pejI"
+    ],
+    "1.21.11+fabric": [
+      "CMP7HSjs"
+    ]
+  }
+}

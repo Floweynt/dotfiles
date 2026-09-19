@@ -1,0 +1,125 @@
+{
+  "slug": "more-craftings-of-runes",
+  "projectId": "kv3gfOjN",
+  "versions": {
+    "Fztd0HhM": {
+      "filename": "mcrmod-0.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/kv3gfOjN/versions/Fztd0HhM/mcrmod-0.0.1-1.20.1.jar",
+      "hash": "sha512-0/g8NMPsFMY0Ew9rNytpuY4YlMcZCwGMXdO8n5nPABNdsjk+cbqPX8TOOTQ7ytgr2sYZOdLC7xlrCiEjp+TwhQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "runes",
+          "projectId": "lP9Yrr1E",
+          "type": "required"
+        }
+      ]
+    },
+    "L2pgt4wb": {
+      "filename": "mcrmod-nf-0.0.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/kv3gfOjN/versions/L2pgt4wb/mcrmod-nf-0.0.2-1.21.1.jar",
+      "hash": "sha512-hrZdyuYCpTfyNr2lE3mdfu42vKffqscYwrikaA9XLw7UZyRzgMv7uv4cSPPG9P0lEXTqOusReuiRY41hJU5uVg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "runes",
+          "projectId": "lP9Yrr1E",
+          "type": "required"
+        }
+      ]
+    },
+    "M2AZbqjI": {
+      "filename": "mcrmod-0.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/kv3gfOjN/versions/M2AZbqjI/mcrmod-0.0.1-1.21.1.jar",
+      "hash": "sha512-oCNqciHxGYJRuhWIwuiNT8VQG/IG4n1RHt5lpfDEiMj1tTfyHCXgLWXH6CsGHrfdk8fSkETEkJ3RbSm+kvRVfw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "runes",
+          "projectId": "lP9Yrr1E",
+          "type": "required"
+        }
+      ]
+    },
+    "hQ26okpg": {
+      "filename": "mcrmod-0.0.1-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/kv3gfOjN/versions/hQ26okpg/mcrmod-0.0.1-1.19.2.jar",
+      "hash": "sha512-C+w6ZyX9W3sp8IO33uiLlBdQqPDpFDpLnlEdLF/abgHJi7NFdxwHxo+ZkKJiFG5lkbuHw2NnWJervKKPVF/F7A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "runes",
+          "projectId": "lP9Yrr1E",
+          "type": "required"
+        }
+      ]
+    },
+    "ze7tRyx6": {
+      "filename": "mcrmod-0.0.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/kv3gfOjN/versions/ze7tRyx6/mcrmod-0.0.2-1.21.1.jar",
+      "hash": "sha512-t6zDPSq6l7Ybk62iN6jZDJ1xRxEVwAKjwgTuh5OEIc+FGiVPzpiJMO+avtOzN3GFbxYeIebfmm7Ol+HVsZYv7g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "runes",
+          "projectId": "lP9Yrr1E",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "hQ26okpg"
+    ],
+    "1.20.1+fabric": [
+      "Fztd0HhM"
+    ],
+    "1.21+fabric": [
+      "ze7tRyx6"
+    ],
+    "1.21.1+fabric": [
+      "ze7tRyx6",
+      "M2AZbqjI"
+    ],
+    "1.21.1+neoforge": [
+      "L2pgt4wb"
+    ]
+  }
+}

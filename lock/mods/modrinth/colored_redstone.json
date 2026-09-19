@@ -1,0 +1,71 @@
+{
+  "slug": "colored_redstone",
+  "projectId": "OgPD1lv4",
+  "versions": {
+    "DUsLXazF": {
+      "filename": "colored_lamps-0.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/OgPD1lv4/versions/DUsLXazF/colored_lamps-0.0.1-fabric.jar",
+      "hash": "sha512-Domvg/tXZF/dt+mNa/Cuq2Ds59hk67rI+SxbOefOonGDnKEZztVyJufv84hzxkariUZSZjRtnygPqOAH6/NQrw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cxftPe9q": {
+      "filename": "colored_lamps-0.0.1-1.20.6-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/OgPD1lv4/versions/cxftPe9q/colored_lamps-0.0.1-1.20.6-fabric.jar",
+      "hash": "sha512-ecyqR0PbLFNJ9SQdTCFjeeIEJXhSOBaAlZf9Y6g0C0gW346hRfcHdj6xCloYnHmVoc0fk3qs3DRWkL96bpUp8w==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yqj9RocA": {
+      "filename": "colored-restone-lights-0.2-dev.jar",
+      "url": "https://cdn.modrinth.com/data/OgPD1lv4/versions/yqj9RocA/colored-restone-lights-0.2-dev.jar",
+      "hash": "sha512-3W8xKMPUP2uLuRMuhKcyZBaI7v7ZWZDiJnSs6MVfwx1/9rQ0hEMRSu/IoqrW8kARz+qr4lzzKHWjPzqw6djaJQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "DUsLXazF"
+    ],
+    "1.20.6+fabric": [
+      "cxftPe9q"
+    ],
+    "1.21.4+fabric": [
+      "yqj9RocA"
+    ]
+  }
+}

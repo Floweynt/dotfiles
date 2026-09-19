@@ -1,0 +1,54 @@
+{
+  "slug": "vs-safe-and-sound",
+  "projectId": "7vKnSQkd",
+  "versions": {
+    "JhF8jxan": {
+      "filename": "vsafe-forge-1201-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/7vKnSQkd/versions/JhF8jxan/vsafe-forge-1201-1.1.1.jar",
+      "hash": "sha512-txG1vRqzkRQCK6Oz1Rw40GqmO/fI3/OET5/vFKrMzI3+DVxKNX9Nwmik2bBNTNVmSkaMcL8S3mLJyoeTLyazQw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "atIaEIcQ": {
+      "filename": "vsafe-fabric-1201-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/7vKnSQkd/versions/atIaEIcQ/vsafe-fabric-1201-1.1.1.jar",
+      "hash": "sha512-U0mFJUKuPl4YPXe4DtfAiloVoA2v9XAzFLMOqBHtaPVdgYoI+uRbEkJNCpDISncSoNfPJH7WyBpgVf81y5F8ag==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "atIaEIcQ"
+    ],
+    "1.20.1+forge": [
+      "JhF8jxan"
+    ]
+  }
+}

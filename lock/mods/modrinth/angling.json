@@ -1,0 +1,62 @@
+{
+  "slug": "angling",
+  "projectId": "yxfPh2QX",
+  "versions": {
+    "TB30h6E2": {
+      "filename": "angling-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/yxfPh2QX/versions/TB30h6E2/angling-1.0.1.jar",
+      "hash": "sha512-rdA9IzcV3gEC/gHJYsq5VLhfEuRKox48VrP88bcJJ3i7re44Da4e5qEC0XXaFQzf+1lnnKRiUmEU8ZRtk5WXhw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XcxqhCbn": {
+      "filename": "angling-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yxfPh2QX/versions/XcxqhCbn/angling-1.0.0.jar",
+      "hash": "sha512-P+eI+h5PMU2KtUpK2kl2k903hAw2Z7QGlQcwqjfSRMiclSLvm8rC6iwMmvRPAzJIDskb1XRTTtkMFas+tZIvkg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "TB30h6E2",
+      "XcxqhCbn"
+    ]
+  }
+}

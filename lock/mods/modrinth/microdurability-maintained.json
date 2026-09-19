@@ -1,0 +1,59 @@
+{
+  "slug": "microdurability-maintained",
+  "projectId": "bYzs56g2",
+  "versions": {
+    "8DAIK4Z2": {
+      "filename": "microdurability-1.21.11-NeoForge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bYzs56g2/versions/8DAIK4Z2/microdurability-1.21.11-NeoForge-1.0.0.jar",
+      "hash": "sha512-pFQc+iAcyfZRqaS5myiKBF8rsT5iTOCeJQVCk99caB88EeShnN6snMOl4VIQQl98tzVRedc9iNUavIPObjrxKw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "JWTtpJfm": {
+      "filename": "microdurability-1.21.11-Forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bYzs56g2/versions/JWTtpJfm/microdurability-1.21.11-Forge-1.0.0.jar",
+      "hash": "sha512-mJBjynNLu8Y75A+nTHf9yGIwCqqlobqnuPM1fj/uoUQFlUoZwUxGnyYeCQAjkUJTA38pdTlJjT4A3ob4Vtg2eQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "cZ38MvSX": {
+      "filename": "microdurability-1.21.11-Fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bYzs56g2/versions/cZ38MvSX/microdurability-1.21.11-Fabric-1.0.0.jar",
+      "hash": "sha512-1N0IvjveGIRfA17zJ+vRK4nJgXEdebDYsMNuTTtH26xx+Y0uAxkS+VQlXt7thQYsnylYctqgBIuzwrD7hSYp1A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "cZ38MvSX"
+    ],
+    "1.21.11+forge": [
+      "JWTtpJfm"
+    ],
+    "1.21.11+neoforge": [
+      "8DAIK4Z2"
+    ]
+  }
+}

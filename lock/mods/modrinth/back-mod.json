@@ -1,0 +1,31 @@
+{
+  "slug": "back-mod",
+  "projectId": "6UuD0Dx3",
+  "versions": {
+    "FxHYbhsS": {
+      "filename": "backmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6UuD0Dx3/versions/FxHYbhsS/backmod-1.0.0.jar",
+      "hash": "sha512-uBq9zLfbYnFp5ReCn/8gQW4c8MItqvNwwyGLHyDP/eBR4a4Ho8M9ZrO4Hl+sDyWuKXuQozCQSC6VZ2wRDdibuw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "FxHYbhsS"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "slug": "pitch-shifter",
+  "projectId": "KKE2tqWP",
+  "versions": {
+    "19LwiMmo": {
+      "filename": "PitchShifter-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/KKE2tqWP/versions/19LwiMmo/PitchShifter-1.2.jar",
+      "hash": "sha512-y0MJbCRttgPaufwRofFP0Wl54OfIJPdpu8w1gJdQICu4qMysxQs7fjTgh6AlnSMCGYQbA2iYeEMJqRRPNunHKA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        }
+      ]
+    },
+    "J6E0Rga3": {
+      "filename": "PitchShifter-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KKE2tqWP/versions/J6E0Rga3/PitchShifter-1.0.jar",
+      "hash": "sha512-bUNLVLfNDdp1MyrPoGwcRS/moZYVIK7lxetq77xU0mb+YsJlhpiLnB7mvLwHA1Di4Dk685EbumhT0svJtsrDVg==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        }
+      ]
+    },
+    "sKyHh2m8": {
+      "filename": "PitchShifter-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/KKE2tqWP/versions/sKyHh2m8/PitchShifter-1.1.jar",
+      "hash": "sha512-zslj6RFTTIjHIvZEVdFEq5ZWDTr8wFwtAw8aLqlJuz7kNDE9mrewf93kL0qzYuepjWkqgs+2Bg86Y94GaWubqA==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "19LwiMmo"
+    ],
+    "1.21.11+fabric": [
+      "19LwiMmo"
+    ],
+    "1.21.6+fabric": [
+      "sKyHh2m8",
+      "J6E0Rga3"
+    ],
+    "1.21.7+fabric": [
+      "sKyHh2m8",
+      "J6E0Rga3"
+    ],
+    "1.21.8+fabric": [
+      "sKyHh2m8",
+      "J6E0Rga3"
+    ],
+    "1.21.9+fabric": [
+      "19LwiMmo"
+    ]
+  }
+}

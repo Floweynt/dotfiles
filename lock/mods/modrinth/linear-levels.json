@@ -1,0 +1,88 @@
+{
+  "slug": "linear-levels",
+  "projectId": "rG9gF2tf",
+  "versions": {
+    "dERjAd4I": {
+      "filename": "linearlevels-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/rG9gF2tf/versions/dERjAd4I/linearlevels-1.1.2.jar",
+      "hash": "sha512-1AQ7UFthp55Sh8DoEr5HSR40kRjhne9HyYtSs+fiZM4XdRV2BogLdGuDJLMwB/F8k/hkBt8o3g3fh5PnPCZNCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "sQljcjg4": {
+      "filename": "linearlevels-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/rG9gF2tf/versions/sQljcjg4/linearlevels-1.0.0.jar",
+      "hash": "sha512-g5OGtBXTIzA8Y8ZSUIkxuNI7aXtp+sVQD2jvKoxrbrZ8Seiqn0Cl8FLzX/fwp018RxvOClsW+s6YKJfCqowRfQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "xdBQEwl1": {
+      "filename": "linearlevels-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/rG9gF2tf/versions/xdBQEwl1/linearlevels-1.1.1.jar",
+      "hash": "sha512-WhrT7AxQ2o7WhUzbgp4Q+yoiPgCxB22dzKAJ2mouX9UJFsAMzISDbOrUMoS7TiQAPt+UrMF6G3FTdFV7rRZZ1w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "dERjAd4I",
+      "xdBQEwl1",
+      "sQljcjg4"
+    ],
+    "1.20.1+quilt": [
+      "dERjAd4I",
+      "xdBQEwl1"
+    ],
+    "1.20.2+fabric": [
+      "sQljcjg4"
+    ]
+  }
+}

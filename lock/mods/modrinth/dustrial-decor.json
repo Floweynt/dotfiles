@@ -1,0 +1,83 @@
+{
+  "slug": "dustrial-decor",
+  "projectId": "3UOoqLkR",
+  "versions": {
+    "4YdVbKN7": {
+      "filename": "dustrial-decor-fabric-0.5.jar",
+      "url": "https://cdn.modrinth.com/data/3UOoqLkR/versions/0.5.1/dustrial-decor-fabric-0.5.jar",
+      "hash": "sha512-xYYxtLBRD8mq5QkVcq4LqQbylL2WYxIPknHsJrWp1Fv7jgbP3Rgi4bbOv3LkpaTUpRu5dCKovREz6akgOwB27A==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "azDhjt31": {
+      "filename": "dustrial-decor-fabric-0.5.jar",
+      "url": "https://cdn.modrinth.com/data/3UOoqLkR/versions/0.5/dustrial-decor-fabric-0.5.jar",
+      "hash": "sha512-ezpN/Zn2F3cmJeV5lWDCCfyiMJcVZb4uhJ8ScC5eyRY9shmjMbYUz4OLdz9PRzA4YUDD7w6Ux3D7tRTZattD7g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mp5j0JA3": {
+      "filename": "dustrial-decor-fabric-0.5.jar",
+      "url": "https://cdn.modrinth.com/data/3UOoqLkR/versions/0.5.0/dustrial-decor-fabric-0.5.jar",
+      "hash": "sha512-P+3vMv/3mGZUEFl3NJRQePyTulRQb4V535WevA+BB9/m8fp2fsUNEO+9WB7kv+5yLVWwRJR+1Pdb7swqkygxrg==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "mp5j0JA3"
+    ],
+    "1.18.1+fabric": [
+      "mp5j0JA3"
+    ],
+    "1.18.2+fabric": [
+      "azDhjt31"
+    ],
+    "1.19+fabric": [
+      "4YdVbKN7"
+    ],
+    "1.19.1+fabric": [
+      "4YdVbKN7"
+    ],
+    "1.19.2+fabric": [
+      "4YdVbKN7"
+    ]
+  }
+}

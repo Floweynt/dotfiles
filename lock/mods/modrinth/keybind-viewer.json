@@ -1,0 +1,48 @@
+{
+  "slug": "keybind-viewer",
+  "projectId": "6hBwxuKW",
+  "versions": {
+    "6SgFqhY6": {
+      "filename": "keybind_view-1.0.0-fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/6hBwxuKW/versions/6SgFqhY6/keybind_view-1.0.0-fabric-1.21.8.jar",
+      "hash": "sha512-SjJIdNaLUEza+PnAojUFXXrgrmACjgmhyaxTwTOkwhKxuKbp+9G/CGilgLOCKcJyHjBKnQDxhv3h4Wxlr4Fvhw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dXkmrnVC": {
+      "filename": "keybind-view-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/6hBwxuKW/versions/dXkmrnVC/keybind-view-1.1.jar",
+      "hash": "sha512-E9DDcrAXZy9Dg72TXYcg7AyIQiCuc3nMKZjkDbUgPXEvbHFUbCPVRLwe2/vLXacwFGxKQahAvg6MGIR+0AghWA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "dXkmrnVC"
+    ],
+    "1.21.8+fabric": [
+      "6SgFqhY6"
+    ]
+  }
+}

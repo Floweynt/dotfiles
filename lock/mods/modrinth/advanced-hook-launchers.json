@@ -1,0 +1,123 @@
+{
+  "slug": "advanced-hook-launchers",
+  "projectId": "g8IglZRr",
+  "versions": {
+    "FlKIp5EI": {
+      "filename": "adhooks-26.2.0.0-forge-build.0070.jar",
+      "url": "https://cdn.modrinth.com/data/g8IglZRr/versions/FlKIp5EI/adhooks-26.2.0.0-forge-build.0070.jar",
+      "hash": "sha512-4TA4IKMaBTwXakxQ7c1FQS2EzFSlNnd4+hT8VbwMds8by0gj7uu6oBV41uKnVDjQ7h3yv2THOCvljFQOUuoknw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forgeendertech",
+          "projectId": "EgS8gGp8",
+          "type": "required"
+        }
+      ]
+    },
+    "NM2vWiWC": {
+      "filename": "adhooks-26.2.0.0-fabric-build.0068.jar",
+      "url": "https://cdn.modrinth.com/data/g8IglZRr/versions/NM2vWiWC/adhooks-26.2.0.0-fabric-build.0068.jar",
+      "hash": "sha512-0AdmbnQYYQDRn8/y7TIVtzTmk7sw0kyRnVEyiZKNh39tJUo8b5Lh66hdSiR04Sl+1zCv8SwtxYeYCyuSENji/w==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forgeendertech",
+          "projectId": "EgS8gGp8",
+          "type": "required"
+        }
+      ]
+    },
+    "PwDytiV9": {
+      "filename": "adhooks-26.2.0.0-neoforge-build.0066.jar",
+      "url": "https://cdn.modrinth.com/data/g8IglZRr/versions/PwDytiV9/adhooks-26.2.0.0-neoforge-build.0066.jar",
+      "hash": "sha512-s0s+8Vc/4mTpLKy3otWQWMgm3IFR8xWoX5PA6NSd2oSk0/ILqZk6EBUfgFAmLBF7vKCoDlcaQiTdCObz3tl1bA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forgeendertech",
+          "projectId": "EgS8gGp8",
+          "type": "required"
+        }
+      ]
+    },
+    "v61aYHS7": {
+      "filename": "AdHooks-1.21.1-11.1.1.1-NeoForge-build.0821.jar",
+      "url": "https://cdn.modrinth.com/data/g8IglZRr/versions/v61aYHS7/AdHooks-1.21.1-11.1.1.1-NeoForge-build.0821.jar",
+      "hash": "sha512-TUhrvzRISVE70wsKNu7K3c67ihjN51BF+pT/OpgeBP0oh2R13kFYfSTGraCGetuqTpiNzOCDcDn/DJWh2cgXcg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forgeendertech",
+          "projectId": "EgS8gGp8",
+          "type": "required"
+        }
+      ]
+    },
+    "yFTImCbk": {
+      "filename": "AdHooks-1.20.1-10.1.3.0-build.1919.jar",
+      "url": "https://cdn.modrinth.com/data/g8IglZRr/versions/yFTImCbk/AdHooks-1.20.1-10.1.3.0-build.1919.jar",
+      "hash": "sha512-R4qUs64xm/g9f6b12qcanEGKeZo65IMg/nSwGiVqQSk61QcSkWINlhfPE8MExobrfLXWMPKByiyyir7paw2VJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forgeendertech",
+          "projectId": "EgS8gGp8",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "yFTImCbk"
+    ],
+    "1.21.1+neoforge": [
+      "v61aYHS7"
+    ],
+    "26.2+fabric": [
+      "NM2vWiWC"
+    ],
+    "26.2+forge": [
+      "FlKIp5EI"
+    ],
+    "26.2+neoforge": [
+      "PwDytiV9"
+    ]
+  }
+}

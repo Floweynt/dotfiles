@@ -1,0 +1,62 @@
+{
+  "slug": "whisperoo",
+  "projectId": "Ve66sndl",
+  "versions": {
+    "FR4HB0GG": {
+      "filename": "whisperoo-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ve66sndl/versions/FR4HB0GG/whisperoo-1.0.jar",
+      "hash": "sha512-h9cKu+JU7dGlOwOI0CNFHKohjcSReQ1DL2DjkP7w63fH36MRmUVF9Ou7t4KzjrNHEpsCclmQH++9LcC8wnkfgw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ynpOlzf5": {
+      "filename": "whisperoo-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ve66sndl/versions/ynpOlzf5/whisperoo-1.0.jar",
+      "hash": "sha512-XUck+/Owi0fx0Z8AtCq02bWxa/yn7+Ce58+erV7mqxGWGw+/MR7EmwHd+RyDoeRaVkWdrQhtJYPooLX4PJX2og==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ynpOlzf5"
+    ],
+    "1.20.1+quilt": [
+      "ynpOlzf5"
+    ],
+    "1.20.4+fabric": [
+      "FR4HB0GG"
+    ],
+    "1.20.4+quilt": [
+      "FR4HB0GG"
+    ]
+  }
+}

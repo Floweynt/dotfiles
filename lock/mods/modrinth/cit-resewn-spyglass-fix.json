@@ -1,0 +1,31 @@
+{
+  "slug": "cit-resewn-spyglass-fix",
+  "projectId": "ISERAaSw",
+  "versions": {
+    "wh1WpISu": {
+      "filename": "citresewnspyglassfix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ISERAaSw/versions/wh1WpISu/citresewnspyglassfix-1.0.0.jar",
+      "hash": "sha512-1h6QULUnDPiet+AddCcYCLMH9k9jrlANkg/jOaatIgulcHhkwWuAe3WOu/N/wPlRmrJQALVaDT8IvqQjd1z9mQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cit-resewn",
+          "projectId": "otVJckYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "wh1WpISu"
+    ]
+  }
+}

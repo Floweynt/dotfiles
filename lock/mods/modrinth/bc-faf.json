@@ -1,0 +1,74 @@
+{
+  "slug": "bc-faf",
+  "projectId": "MaLm8Xqc",
+  "versions": {
+    "ujgSqNb2": {
+      "filename": "bc-faf-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/MaLm8Xqc/versions/ujgSqNb2/bc-faf-1.0.jar",
+      "hash": "sha512-JWPGHQMukTx+68+sGqYEH5ESKalUuzErbz/FcmeCmGEyTkR1JzoC29BzYbIMNF7XXlsNjA4DZulIrHlSFsXWJQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        },
+        {
+          "slug": "friends-and-foes",
+          "projectId": "POQ2i9zu",
+          "type": "required"
+        }
+      ]
+    },
+    "yNtTJih9": {
+      "filename": "bc-faf-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/MaLm8Xqc/versions/yNtTJih9/bc-faf-2.0.jar",
+      "hash": "sha512-2fvY1K/Yz6zpNaqFAJLi9SSrms+AKaC8XjNuFpdns4CY+qEBuU80j1ysvpxsGk52uR6mYF0qSI0F/azcfA1Mmw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "friends-and-foes",
+          "projectId": "POQ2i9zu",
+          "type": "required"
+        },
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yNtTJih9",
+      "ujgSqNb2"
+    ],
+    "1.20.4+fabric": [
+      "yNtTJih9",
+      "ujgSqNb2"
+    ],
+    "1.21.1+fabric": [
+      "yNtTJih9",
+      "ujgSqNb2"
+    ]
+  }
+}

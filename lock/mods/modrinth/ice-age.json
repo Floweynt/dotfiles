@@ -1,0 +1,90 @@
+{
+  "slug": "ice-age",
+  "projectId": "BQ1MzggY",
+  "versions": {
+    "2Lqx3TjW": {
+      "filename": "ice_age-1.0.0-1.21.2.jar",
+      "url": "https://cdn.modrinth.com/data/BQ1MzggY/versions/2Lqx3TjW/ice_age-1.0.0-1.21.2.jar",
+      "hash": "sha512-zhX4y6M/LoYa8NsNSxTs4N8BUEWjloPYLKrxAmgaUiyTNZoIxwEOJGpv0kp3aQ2DViVr9laBxGLWMBvnj8orpQ==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "HFQzpZKp": {
+      "filename": "snowed-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/BQ1MzggY/versions/HFQzpZKp/snowed-1.1.0.jar",
+      "hash": "sha512-NWGz/vNd9+h7uQ2+duzYB1gBOD4ukCLT/JE3yoVMX54sFZj1Splc9sP04SO50+03nQFEm1SlPnZt1y50wSE5VQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Q4MjdUff": {
+      "filename": "ice-age-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BQ1MzggY/versions/Q4MjdUff/ice-age-fabric-1.0.0.jar",
+      "hash": "sha512-eXbgVTo2etIApLWjmkoOaBelrpw4RgIA0OaJDb4JPGd5Q5dIYwvJ2psoPHZpWpGomgidXlTP3X3CApXx90BCiA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "h9TtYhLJ": {
+      "filename": "ice_age-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BQ1MzggY/versions/h9TtYhLJ/ice_age-1.0.0.jar",
+      "hash": "sha512-Y5u7PjuGjNabs8XC3zp9Fe8vX6wdSNoYaQaCtqoTcKdPYDyXhBkONW/tfYH6o1Vt3/3ujloKOPmzTH6cUAq80g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "HFQzpZKp"
+    ],
+    "1.21+neoforge": [
+      "h9TtYhLJ"
+    ],
+    "1.21.1+neoforge": [
+      "h9TtYhLJ"
+    ],
+    "1.21.11+fabric": [
+      "Q4MjdUff"
+    ],
+    "1.21.2+neoforge": [
+      "2Lqx3TjW"
+    ],
+    "1.21.3+neoforge": [
+      "2Lqx3TjW"
+    ]
+  }
+}

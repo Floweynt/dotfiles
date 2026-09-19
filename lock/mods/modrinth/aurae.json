@@ -1,0 +1,117 @@
+{
+  "slug": "aurae",
+  "projectId": "hCdWhw9o",
+  "versions": {
+    "5cwGeY3P": {
+      "filename": "ambiance-fabric-1.21-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hCdWhw9o/versions/5cwGeY3P/ambiance-fabric-1.21-1.1.0.jar",
+      "hash": "sha512-lSZh2//bFsyX63A1TIz4pxqyDhM0LjpF3gLIXLTuCHEH5stJPxbxlIP7WCXkVaul0eUQjWiWEjlU+D/6ifbCgw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "configuration",
+          "projectId": "3WjjSM5O",
+          "type": "required"
+        }
+      ]
+    },
+    "Pvzim5nr": {
+      "filename": "ambiance-v1.0.0-fabric-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hCdWhw9o/versions/Pvzim5nr/ambiance-v1.0.0-fabric-1.21.1.jar",
+      "hash": "sha512-FhYaMLlKKpYa3DMukao8AIl1/iuEimrwPbCexz/up5sKAlKqauQ0tCoPLGhm7iwrp0GJhdZ+8MZ4X2hY0RIzSA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "UCaHNxLz": {
+      "filename": "1.1.0-fabric-1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/hCdWhw9o/versions/UCaHNxLz/1.1.0-fabric-1.16.5.jar",
+      "hash": "sha512-HWB36NNx3Fz9b3f+u6B8XzvCNaV/8x4bxXJ1cqGnl2H8MRdW5Y2TybUDVVxtLbzVm1dboIJY7h23TrrfvM4y7w==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XSmY8lV2": {
+      "filename": "1.1.0-forge-1.16.5.jar",
+      "url": "https://cdn.modrinth.com/data/hCdWhw9o/versions/XSmY8lV2/1.1.0-forge-1.16.5.jar",
+      "hash": "sha512-ft7rq9r7xJFSQKk5A7TlfJ4FuawnZMf+QmkTCu5xeAr7svfBiRh311OLyteEyyRrK9lR5T9635yNks+42eaNeA==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "configuration",
+          "projectId": "3WjjSM5O",
+          "type": "required"
+        }
+      ]
+    },
+    "dzhhyyOv": {
+      "filename": "ambiance-neoforge-1.21-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hCdWhw9o/versions/dzhhyyOv/ambiance-neoforge-1.21-1.1.0.jar",
+      "hash": "sha512-VTw3cPkLSkZdkt/CTFXArSySnjPZQNuqgcSR+PslBKZGbajvGP4AIKtznK3wdbg6VdSXPnp10vdGQxMY02hwBA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "configuration",
+          "projectId": "3WjjSM5O",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "UCaHNxLz"
+    ],
+    "1.16.5+forge": [
+      "XSmY8lV2"
+    ],
+    "1.21+fabric": [
+      "5cwGeY3P"
+    ],
+    "1.21+neoforge": [
+      "dzhhyyOv"
+    ],
+    "1.21.1+fabric": [
+      "5cwGeY3P",
+      "Pvzim5nr"
+    ],
+    "1.21.1+neoforge": [
+      "dzhhyyOv"
+    ]
+  }
+}

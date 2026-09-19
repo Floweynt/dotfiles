@@ -1,0 +1,144 @@
+{
+  "slug": "automatic-clutch",
+  "projectId": "RIZyD6HA",
+  "versions": {
+    "7m1AKniq": {
+      "filename": "autoclutch-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RIZyD6HA/versions/7m1AKniq/autoclutch-1.0.0.jar",
+      "hash": "sha512-TCJj96WfrCOViDfC1JuVtW5XfMyTcxQ3KM5Lt6Jv1JitXgq7U9hb/zmh0O4Kqmewfy50038ylmPj+0uAPb2qcw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "QdLPeig2": {
+      "filename": "autoclutch-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/RIZyD6HA/versions/QdLPeig2/autoclutch-1.0.3.jar",
+      "hash": "sha512-FJex00Xa+Z874b+n5mep7V5bwcxDA1ZMhYvhzXpr7vDyDUJ4Re7Axbs5yEGr6FwJ61KQN3dyjzBhb7nDPe3/mA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cgzy2ZyO": {
+      "filename": "autoclutch-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RIZyD6HA/versions/cgzy2ZyO/autoclutch-1.0.0.jar",
+      "hash": "sha512-q7ne26kP2+9bxPLReCfYiqg6cat5gw82wcInc+nK639+u8sA+7d3ocajxzWdKHVQh66FBwHm61Ib1EHyHzS4NQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "f5lLR2XK": {
+      "filename": "autoclutch-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/RIZyD6HA/versions/f5lLR2XK/autoclutch-1.0.4.jar",
+      "hash": "sha512-Qfs+YAvPtHxtectRUvcLjTznEADtZMK5A0Tgp8YdhKGF17n7t74p5w2pUbfHv05xQer4u1Vxy09lAk35WxCSng==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "sEQj1HPD": {
+      "filename": "autoclutch-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/RIZyD6HA/versions/sEQj1HPD/autoclutch-1.0.2.jar",
+      "hash": "sha512-BDT/mQmS6IFzHW2DbgPWF2I7yzsN0dtPU9lqW+ezldnIJszMQQncyx+XmEeynb2wHUD6aZUeG4agPvAVOqWSmQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "7m1AKniq"
+    ],
+    "26.1.2+fabric": [
+      "sEQj1HPD",
+      "cgzy2ZyO"
+    ],
+    "26.2+fabric": [
+      "f5lLR2XK",
+      "QdLPeig2"
+    ]
+  }
+}

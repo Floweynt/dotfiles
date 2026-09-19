@@ -1,0 +1,106 @@
+{
+  "slug": "advancement-border",
+  "projectId": "5CeMwTPT",
+  "versions": {
+    "4TBEM9wm": {
+      "filename": "advancementborder-1.0.1+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/5CeMwTPT/versions/4TBEM9wm/advancementborder-1.0.1%2B1.21.3.jar",
+      "hash": "sha512-hl2SOBcy/128K1tEjeY6qRn4eBr68R8sz6uPebJYizA23w/tj5vwkgCckzueJtJzInmKy6kLQsgik27EWc4biQ==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "configuration",
+          "projectId": "3WjjSM5O",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Jat4FiHy": {
+      "filename": "advancementborder-1.1.0+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/5CeMwTPT/versions/Jat4FiHy/advancementborder-1.1.0%2B1.21.3.jar",
+      "hash": "sha512-BAubEJ+9E2JnPylf4hA1d/dvAzewXzlpXv0+FWLT55RnRrSUnK8g2mOifg5euHTFXSyPrbCzt5CRq1lwG9JLcA==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "configuration",
+          "projectId": "3WjjSM5O",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jfFqsUdj": {
+      "filename": "advancementborder-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5CeMwTPT/versions/jfFqsUdj/advancementborder-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-YB3y9mu1fiUgpWLQM+F4PHhwLI1WiaJyOgNd/QDF4Ro6juHn8p5MdUVC8kb4gLtH0/ukKHOmFoPcKFgbkMqqQg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "configuration",
+          "projectId": "3WjjSM5O",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "jfFqsUdj"
+    ],
+    "1.21.1+fabric": [
+      "jfFqsUdj"
+    ],
+    "1.21.2+fabric": [
+      "Jat4FiHy",
+      "4TBEM9wm"
+    ],
+    "1.21.3+fabric": [
+      "Jat4FiHy",
+      "4TBEM9wm"
+    ],
+    "1.21.4+fabric": [
+      "Jat4FiHy",
+      "4TBEM9wm"
+    ]
+  }
+}

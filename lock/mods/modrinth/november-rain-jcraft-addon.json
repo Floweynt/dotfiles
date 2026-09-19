@@ -1,0 +1,54 @@
+{
+  "slug": "november-rain-jcraft-addon",
+  "projectId": "BmKXtqT5",
+  "versions": {
+    "CtKX6i6h": {
+      "filename": "jcraft-november-rain-addon-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BmKXtqT5/versions/CtKX6i6h/jcraft-november-rain-addon-fabric-1.0.0.jar",
+      "hash": "sha512-9dIQV1jF9xJJ6hjJusl9z8eP5V3663D1z15gvmB0z8Zl9uIGeSuwCE/k1DYFMXo91Op7KkfjkZS/U1nYLszdFQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jcraft-additions",
+          "projectId": "kjWHJg7F",
+          "type": "required"
+        }
+      ]
+    },
+    "aCbusFKj": {
+      "filename": "jcraft-november-rain-addon-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BmKXtqT5/versions/aCbusFKj/jcraft-november-rain-addon-forge-1.0.0.jar",
+      "hash": "sha512-l5bnhS+ygF//0p2b7uwD1OEuIbC2fz8mfR0FVkVDWRn8GboPR1iaUMjBT7Z+qNh7s3lOeB+PDFfmGKvj713nVw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "jcraft-additions",
+          "projectId": "kjWHJg7F",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "CtKX6i6h"
+    ],
+    "1.20.1+forge": [
+      "aCbusFKj"
+    ]
+  }
+}

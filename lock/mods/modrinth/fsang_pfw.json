@@ -1,0 +1,68 @@
+{
+  "slug": "fsang_pfw",
+  "projectId": "UMLxXgp5",
+  "versions": {
+    "mkJow9bi": {
+      "filename": "FSang18's Power from Wisdom v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UMLxXgp5/versions/mkJow9bi/FSang18%27s%20Power%20from%20Wisdom%20v1.0.0.jar",
+      "hash": "sha512-Z6Ko/8eRyXJyuygKh6ZCzdRUH+18CXmwpQ4UxWOmlmyuirEKCQxiZIfdBIyXitzQ2plud6AfUeSARolFkjyPmw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "uLx61ZRs": {
+      "filename": "FSang18's Power from Wisdom v1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UMLxXgp5/versions/uLx61ZRs/FSang18%27s%20Power%20from%20Wisdom%20v1.0.1.jar",
+      "hash": "sha512-RXXZ3u1ak3iFVDRC9/reEstYFgZVjdzBHGyDojC48L5Wu06XaWVdHITx7bFtY4ngHSI8gq/4yWdC6oNIBUJexw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "uLx61ZRs",
+      "mkJow9bi"
+    ],
+    "1.20.1+forge": [
+      "uLx61ZRs",
+      "mkJow9bi"
+    ]
+  }
+}

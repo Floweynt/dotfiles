@@ -1,0 +1,36 @@
+{
+  "slug": "cobblerun",
+  "projectId": "f3YlFSGV",
+  "versions": {
+    "Vs8iNEju": {
+      "filename": "cobblerun-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/f3YlFSGV/versions/Vs8iNEju/cobblerun-1.1.0.jar",
+      "hash": "sha512-6aDEkjR1ZOM1iSsw07jEk3Zb957TCEsfH2CG5QDG/iUfWfSTRHzRJgkwvk3nSAVOvCPFjLscvXD0WLNXG86+HQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Vs8iNEju"
+    ]
+  }
+}

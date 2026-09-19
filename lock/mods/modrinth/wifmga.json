@@ -1,0 +1,40 @@
+{
+  "slug": "wifmga",
+  "projectId": "Bd0qbro8",
+  "versions": {
+    "iu24XAcc": {
+      "filename": "wifmga-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Bd0qbro8/versions/iu24XAcc/wifmga-1.0.0.jar",
+      "hash": "sha512-spt8bVW7IKUmao98jAY6bV3G9mtAC1s3NQxgQRsCxCYg2hZOdj4f8kPl6OSqaeslwa4yvUQbPhzAEoDQlVW5DQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "iu24XAcc"
+    ],
+    "1.20.1+quilt": [
+      "iu24XAcc"
+    ]
+  }
+}

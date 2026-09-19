@@ -1,0 +1,154 @@
+{
+  "slug": "edible-blocks",
+  "projectId": "uiwJyfpz",
+  "versions": {
+    "1q38ZW9z": {
+      "filename": "edible_blocks-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/uiwJyfpz/versions/1q38ZW9z/edible_blocks-0.1.0.jar",
+      "hash": "sha512-gir+bu9VfmZi1JP+R66EP1UYL3N+PBO4H3dIOh6prSDXk70BsNeeJujv52/hlhkireg0PUVB1/TmjVnXIxF1Xw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "48d3VrLQ": {
+      "filename": "edible_blocks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uiwJyfpz/versions/48d3VrLQ/edible_blocks-1.0.0.jar",
+      "hash": "sha512-Pg5fgcBiTu6Rs21JBSELdF6goD2dNy2u7EWNaz7fNZ2GL6h3s7a54q770QAngkivGH9zmVjcdsOuL25Bo71Tng==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9XzDc18J": {
+      "filename": "edible_blocks-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/uiwJyfpz/versions/9XzDc18J/edible_blocks-0.2.0.jar",
+      "hash": "sha512-eeydaAzTnPiKla5vP8z0xsACC3vLHAWUU+fTPzccxkuAQQUW3vgtrWbGrfigZLmbMCwzmziHwv25IXQljZcD4w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "EExDAA30": {
+      "filename": "edible_blocks-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/uiwJyfpz/versions/EExDAA30/edible_blocks-0.0.1.jar",
+      "hash": "sha512-AaBOC0wozOWy+sanGbrIqf1wetmBVeseyRHXQpNlfX2jAIU8wa3WsVUFd0DLW1Va2PkZPkEkFiuCX6hxIzwTXA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "48d3VrLQ"
+    ],
+    "1.19.3+quilt": [
+      "48d3VrLQ"
+    ],
+    "1.19.4+fabric": [
+      "48d3VrLQ"
+    ],
+    "1.19.4+quilt": [
+      "48d3VrLQ"
+    ],
+    "1.20+fabric": [
+      "48d3VrLQ"
+    ],
+    "1.20+quilt": [
+      "48d3VrLQ",
+      "9XzDc18J",
+      "1q38ZW9z",
+      "EExDAA30"
+    ],
+    "1.20.1+fabric": [
+      "48d3VrLQ"
+    ],
+    "1.20.1+quilt": [
+      "48d3VrLQ",
+      "9XzDc18J",
+      "1q38ZW9z",
+      "EExDAA30"
+    ],
+    "1.20.2+fabric": [
+      "48d3VrLQ"
+    ],
+    "1.20.2+quilt": [
+      "48d3VrLQ",
+      "9XzDc18J",
+      "1q38ZW9z",
+      "EExDAA30"
+    ],
+    "1.20.3+fabric": [
+      "48d3VrLQ"
+    ],
+    "1.20.3+quilt": [
+      "48d3VrLQ",
+      "EExDAA30"
+    ],
+    "1.20.4+fabric": [
+      "48d3VrLQ"
+    ],
+    "1.20.4+quilt": [
+      "48d3VrLQ",
+      "9XzDc18J",
+      "1q38ZW9z",
+      "EExDAA30"
+    ]
+  }
+}

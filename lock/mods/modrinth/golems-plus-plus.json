@@ -1,0 +1,56 @@
+{
+  "slug": "golems-plus-plus",
+  "projectId": "umkRhSil",
+  "versions": {
+    "Fcpx8yCa": {
+      "filename": "golemsplusplus-fabric-1.0.0+1.19.3-sources.jar",
+      "url": "https://cdn.modrinth.com/data/umkRhSil/versions/Fcpx8yCa/golemsplusplus-fabric-1.0.0%2B1.19.3-sources.jar",
+      "hash": "sha512-98++QeoYEaTmxtqftKrcK7KcVEay4MmDuHWZbLzkNINcKjGDsUMfBvdE541xghRODsrHutGf5jipl59M7zuCrw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d1TB032S": {
+      "filename": "golemsplusplus-forge-1.0.0+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/umkRhSil/versions/d1TB032S/golemsplusplus-forge-1.0.0%2B1.19.3.jar",
+      "hash": "sha512-vBrnCQAUtlhT1Yg6IZVXZoTG78Ij10yjzaYd/jHOTzDJthc2Hya3RI74URZKx0X1b4pJtsIlMWCaOjdqouzMZA==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "Fcpx8yCa"
+    ],
+    "1.19.3+forge": [
+      "d1TB032S"
+    ],
+    "1.19.4+fabric": [
+      "Fcpx8yCa"
+    ],
+    "1.19.4+forge": [
+      "d1TB032S"
+    ]
+  }
+}

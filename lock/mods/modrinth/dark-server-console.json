@@ -1,0 +1,62 @@
+{
+  "slug": "dark-server-console",
+  "projectId": "dn7JkZqB",
+  "versions": {
+    "erQ26Ez4": {
+      "filename": "dark-console-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dn7JkZqB/versions/erQ26Ez4/dark-console-1.0.0.jar",
+      "hash": "sha512-a6HfrKXecMBo+CuiiHNRJNxSmGf6yi9VwIpk5JIpqqNHUyMC3P+OjTS/tq0aT1p9b8P0Gqn8fbLSpL9tjbIqJQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "x40hDXBb": {
+      "filename": "dark-console-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dn7JkZqB/versions/x40hDXBb/dark-console-1.0.0.jar",
+      "hash": "sha512-dcF5q2KXLhqqtiOPW63kiXy4DSyaysDE0CFlkv1a/PaSEKBFw+hYfUVXBxLcRV+l5f15W8+rXHLJuW/+dp0F0g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "erQ26Ez4"
+    ],
+    "1.20+forge": [
+      "x40hDXBb"
+    ],
+    "1.20.1+fabric": [
+      "erQ26Ez4"
+    ],
+    "1.20.1+forge": [
+      "x40hDXBb"
+    ]
+  }
+}

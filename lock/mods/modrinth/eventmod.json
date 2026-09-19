@@ -1,0 +1,31 @@
+{
+  "slug": "eventmod",
+  "projectId": "XblyRc8S",
+  "versions": {
+    "NdQ4eYSl": {
+      "filename": "eventmod-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/XblyRc8S/versions/NdQ4eYSl/eventmod-1.0.5.jar",
+      "hash": "sha512-pLKcplGaEHR06m1hPJoRFu1JfwZBuS/FzN9qbVPkFLal1X3ocQFH3mVb5G2Cp48Gu3W08vmA9AWOEPk8Zh6zfQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "NdQ4eYSl"
+    ]
+  }
+}

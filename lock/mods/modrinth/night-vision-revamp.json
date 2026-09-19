@@ -1,0 +1,62 @@
+{
+  "slug": "night-vision-revamp",
+  "projectId": "slMVGYmo",
+  "versions": {
+    "7rILbPXv": {
+      "filename": "night-vision-revamp-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/slMVGYmo/versions/7rILbPXv/night-vision-revamp-1.1.0.jar",
+      "hash": "sha512-4diGDZ34vEZnbo9TSjqUqBflXeBSjRnBEVlDL2GsbnLuwrUNhi8ApZ4OFa5xyiBTO4dapyixdl9EBcXYJz/AGw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DNaBxqsT": {
+      "filename": "night-vision-revamp-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/slMVGYmo/versions/DNaBxqsT/night-vision-revamp-1.0.0.jar",
+      "hash": "sha512-1EwYHef5UbQ7c/IEvt/g6QY37/nWR4CMX/NGGs3q1Zr/HBDIB0Ox1J61cV9Evq+ZmEPqhtZqMHFvS5elQvnVpQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "7rILbPXv",
+      "DNaBxqsT"
+    ]
+  }
+}

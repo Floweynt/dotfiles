@@ -1,0 +1,31 @@
+{
+  "slug": "pyros-redstone-tools",
+  "projectId": "aq5M8G90",
+  "versions": {
+    "CCrV2w7a": {
+      "filename": "RedstoneTools-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aq5M8G90/versions/CCrV2w7a/RedstoneTools-1.0.0.jar",
+      "hash": "sha512-hHPnTTuwvfO8Tc3+vm5QgjB6VNm4Ab2nT8nWQpmCmVAoOzzKkGqSZZsMH2GdEDcxg4TV8SKvQ2loKfaH8Bwl+w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "CCrV2w7a"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "bettormc",
+  "projectId": "M5SbZWwO",
+  "versions": {
+    "JxcZZp0M": {
+      "filename": "BettorMC-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/M5SbZWwO/versions/JxcZZp0M/BettorMC-1.0.0.jar",
+      "hash": "sha512-cqKXZ565c/DAXinvAb/fWT2m2hT2gpJdLInQfRQc4zxqyDDI+gv8vObGRm1VtNQdwoJslXRdbpDWgqG4E+qZ2A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "zine",
+          "projectId": "LKEoCBc7",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "JxcZZp0M"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "create-astra-fabric",
+  "projectId": "vwvhmUzC",
+  "versions": {
+    "JngFvWCa": {
+      "filename": "createastrafabric-1.0+1.20.1-2.jar",
+      "url": "https://cdn.modrinth.com/data/vwvhmUzC/versions/JngFvWCa/createastrafabric-1.0%2B1.20.1-2.jar",
+      "hash": "sha512-p2HhJ6a2gCoE/cf9HJUvwDT/ZX/g6Q64RClL6mGXLFlMsJDHBRjT+hChQdOzr60mPpjyk9q+mv9liFubsw6Ttw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    },
+    "RkyLr3iH": {
+      "filename": "createastrafabric-1.0+1.20.1-3.jar",
+      "url": "https://cdn.modrinth.com/data/vwvhmUzC/versions/RkyLr3iH/createastrafabric-1.0%2B1.20.1-3.jar",
+      "hash": "sha512-2xReg3yU1QpxF0vYKeO/11XS3X73zq7Jc8ssKyEEx7dqaInUMkbEe1AP0cxL0OWGjk/GF3F+lneL9YG383qKhw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    },
+    "VBq78i37": {
+      "filename": "createastrafabric-1.0+1.20.1-4.jar",
+      "url": "https://cdn.modrinth.com/data/vwvhmUzC/versions/VBq78i37/createastrafabric-1.0%2B1.20.1-4.jar",
+      "hash": "sha512-jvdxrDYsAOXOZP7NJjALsFsdKU9oNqA/Hkx0Ac88RUCd3zfsXyYiXwodQ/0tL5apizRQS2XtLBdLX9x7rn2rlQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VBq78i37",
+      "RkyLr3iH",
+      "JngFvWCa"
+    ]
+  }
+}

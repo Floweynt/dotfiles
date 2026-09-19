@@ -1,0 +1,64 @@
+{
+  "slug": "originsxtrinkets",
+  "projectId": "7C1yl0Ps",
+  "versions": {
+    "gsN3bM0t": {
+      "filename": "originsxtrinkets-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7C1yl0Ps/versions/gsN3bM0t/originsxtrinkets-1.21.1-1.0.0.jar",
+      "hash": "sha512-NmkCT6ipvB4TRrKtXkKxwgbXVY9uJyNzpuWMibO4Dv+5eLAXCsl22nhA5JnVIQLSzs/ZH6mV4+9DIQh1GfqbKQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "wb14UXdt": {
+      "filename": "originsxtrinkets-1.20.X-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7C1yl0Ps/versions/wb14UXdt/originsxtrinkets-1.20.X-1.0.0.jar",
+      "hash": "sha512-FVjgPXua6RBsD/oSrn2Cv277y4dDrcaOhZ+pGrlPZ1ru1VpEk3EUidnCTr2iSUGjLlb0aqxxFpoKb26iQikgOA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wb14UXdt"
+    ],
+    "1.21.1+fabric": [
+      "gsN3bM0t"
+    ]
+  }
+}

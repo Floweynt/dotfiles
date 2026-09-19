@@ -1,0 +1,62 @@
+{
+  "slug": "better-bed-messages",
+  "projectId": "GMMEUJuU",
+  "versions": {
+    "Hje7xiDC": {
+      "filename": "betterbedmessages-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/GMMEUJuU/versions/Hje7xiDC/betterbedmessages-1.0.0-fabric.jar",
+      "hash": "sha512-CogNZiIjXWDFRnjPUBtXKg436s642hwTY6z3ND6VdvAXKg4jRoSIk9yMVbl8gREJcvALJMpVf0q2Xs8pGAHdJA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "hpBoeADv": {
+      "filename": "betterbedmessages-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/GMMEUJuU/versions/hpBoeADv/betterbedmessages-1.0.0-forge.jar",
+      "hash": "sha512-i1Kv2c+ZtETIVGWI+so98fCr/b5uVb6UL/MCOcsUa/J+0cCXhg/8C0e6NH1YAb5ctsPD5LhUjyWpHPXU+d4b3Q==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Hje7xiDC"
+    ],
+    "1.20.1+forge": [
+      "hpBoeADv"
+    ],
+    "1.20.2+fabric": [
+      "Hje7xiDC"
+    ],
+    "1.20.2+forge": [
+      "hpBoeADv"
+    ]
+  }
+}

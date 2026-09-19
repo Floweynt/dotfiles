@@ -1,0 +1,66 @@
+{
+  "slug": "wilder-world",
+  "projectId": "YIRNrKHy",
+  "versions": {
+    "UmrMtyLg": {
+      "filename": "wilderworld-2.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/YIRNrKHy/versions/UmrMtyLg/wilderworld-2.4.1.jar",
+      "hash": "sha512-5RcMvfyI+dyAKaDBf0qvAZk9P7DmsnlTrUMF5amURbmebD6pbrjKAeATccTvPoV12nVE3/lYCIEWt1ETXb9Xuw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "creo-api",
+          "projectId": "hjZhuEZs",
+          "type": "required"
+        }
+      ]
+    },
+    "kWBJBEIL": {
+      "filename": "wilderworld-2.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/YIRNrKHy/versions/kWBJBEIL/wilderworld-2.4.0.jar",
+      "hash": "sha512-4l1sjpXXhrLekLXvjt64jGzs52Ktt3kLBk+JMLdkaYzjjKw/OkVPtaZ1y0xbnKLrO6JrNSDLrsjHKaW/TXJ0lQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "creo-api",
+          "projectId": "hjZhuEZs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "kWBJBEIL"
+    ],
+    "1.20.1+fabric": [
+      "UmrMtyLg",
+      "kWBJBEIL"
+    ]
+  }
+}

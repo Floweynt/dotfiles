@@ -1,0 +1,85 @@
+{
+  "slug": "healthindicators",
+  "projectId": "5uHXoloI",
+  "versions": {
+    "BkFWvHgL": {
+      "filename": "HealthIndicators-1.21-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5uHXoloI/versions/BkFWvHgL/HealthIndicators-1.21-0.0.1.jar",
+      "hash": "sha512-/fPyMB9kdeYWp2F3CrlPv6O8Wt+8n/sbBEL5tIJtGEaqVU32DoTtX9o8DSXCx8bXIqrj+Py2xdOke8E6dXaFag==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "improperui",
+          "projectId": "rizRiwPL",
+          "type": "required"
+        }
+      ]
+    },
+    "RZfKPET4": {
+      "filename": "HealthIndicators-26.1-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5uHXoloI/versions/RZfKPET4/HealthIndicators-26.1-0.0.1.jar",
+      "hash": "sha512-1nEJ2PsZrzRGxE6d/AbV7+PoakVgA9M0JlRanuLqe6DolCUjfS1nbMozLSGYqvuPp4zDDaPmo2h0coIcffRAFQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "improperui",
+          "projectId": "rizRiwPL",
+          "type": "required"
+        }
+      ]
+    },
+    "w5iWcfnZ": {
+      "filename": "HealthIndicators-1.21.11-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5uHXoloI/versions/w5iWcfnZ/HealthIndicators-1.21.11-0.0.1.jar",
+      "hash": "sha512-byMPzYLcc/81zDqtqCaC7ImYe+X17QGKxlaALWLC26VHmxOq/tsEYR3immWTwhXMrQMqP92oWi6tYOqapwIrNg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "improperui",
+          "projectId": "rizRiwPL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "BkFWvHgL"
+    ],
+    "1.21.11+fabric": [
+      "w5iWcfnZ"
+    ],
+    "26.1+fabric": [
+      "RZfKPET4"
+    ],
+    "26.1.1+fabric": [
+      "RZfKPET4"
+    ],
+    "26.1.2+fabric": [
+      "RZfKPET4"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "slug": "cherished-trades",
+  "projectId": "zLIZRYYZ",
+  "versions": {
+    "80PGbFQn": {
+      "filename": "cherishedtrades-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zLIZRYYZ/versions/80PGbFQn/cherishedtrades-1.1.0.jar",
+      "hash": "sha512-XJGKatTiGcADjW92uA64PvQlLpIi4L3XxmHwUVBpjsbsG0VXW4lYR10orj4P4Jsa8Isl+1mKU56GAEouxOZlFQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "IiM2pB6x": {
+      "filename": "cherishedtrades-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zLIZRYYZ/versions/IiM2pB6x/cherishedtrades-1.0.0.jar",
+      "hash": "sha512-Dx0y+fnEJl4voAJeGjFR1HhE3MMQ8anmV/kfNswyLCPscHk4zyhuRtZ1LjzA2Xz0+gber7ZhT8q8TyRFJad11w==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "80PGbFQn",
+      "IiM2pB6x"
+    ],
+    "1.21.11+fabric": [
+      "80PGbFQn"
+    ]
+  }
+}

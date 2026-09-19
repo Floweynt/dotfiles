@@ -1,0 +1,62 @@
+{
+  "slug": "tikfinity",
+  "projectId": "NXYeNPNG",
+  "versions": {
+    "uSfBWNuh": {
+      "filename": "tikfinity-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/NXYeNPNG/versions/uSfBWNuh/tikfinity-1.1.jar",
+      "hash": "sha512-gd54Ybn7J+XVkaBPkH5WiXwXKxg6VJ2+jBcJyhka7wQt7/4E5E3HKwPVvie3270LavrvpMZR08sYf6/KUZ0+XQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zlkU1veA": {
+      "filename": "tikfinity-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/NXYeNPNG/versions/zlkU1veA/tikfinity-1.0.jar",
+      "hash": "sha512-TqLp3LesgRRfllQzvZ9BjcTO6qUX6J7wejGz/WaE6RSjoFliAsVBBreD7WKo5fy0Fsa7PusfUhOLGzBsLVsLhA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "uSfBWNuh",
+      "zlkU1veA"
+    ]
+  }
+}

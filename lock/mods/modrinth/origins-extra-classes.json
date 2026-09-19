@@ -1,0 +1,84 @@
+{
+  "slug": "origins-extra-classes",
+  "projectId": "viFMZUQm",
+  "versions": {
+    "fccKz5Nr": {
+      "filename": "Extra-classes-1.3.1-1.18.jar",
+      "url": "https://cdn.modrinth.com/data/viFMZUQm/versions/fccKz5Nr/Extra-classes-1.3.1-1.18.jar",
+      "hash": "sha512-fABRp8Vzf7bTh7TITIixxBCa9UJbE2I2gh35Kk907UZzmc1Hjrs0YICEvEXDkoQMba6FuCqEi2YKYwOh3O6ZYw==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "origins-classes",
+          "projectId": "FiDptjtR",
+          "type": "required"
+        }
+      ]
+    },
+    "jKc5haZn": {
+      "filename": "Extra-classes-1.3.3-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/viFMZUQm/versions/jKc5haZn/Extra-classes-1.3.3-1.19.jar",
+      "hash": "sha512-IqpBJcQkAJn0QGcPVD3YO5upLPQCuTefLIFKooPkXk6mT9LA2915KRG9EuaIm1CDe/geR/Wgm1wMG2danaQArg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "origins-classes",
+          "projectId": "FiDptjtR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "fccKz5Nr"
+    ],
+    "1.18.1+fabric": [
+      "fccKz5Nr"
+    ],
+    "1.18.2+fabric": [
+      "fccKz5Nr"
+    ],
+    "1.19+fabric": [
+      "jKc5haZn"
+    ],
+    "1.19.1+fabric": [
+      "jKc5haZn"
+    ],
+    "1.19.2+fabric": [
+      "jKc5haZn"
+    ],
+    "1.19.3+fabric": [
+      "jKc5haZn"
+    ]
+  }
+}

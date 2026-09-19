@@ -1,0 +1,85 @@
+{
+  "slug": "trim-resonance",
+  "projectId": "3Pw16A0l",
+  "versions": {
+    "UrjucMfd": {
+      "filename": "TrimResonance-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/3Pw16A0l/versions/UrjucMfd/TrimResonance-1.21.11.jar",
+      "hash": "sha512-vEvzYjI96w8W5tO0VU+3ZY4zrygi4KdbpJXnjs22jOgQke0ZhBoBdm+4ZtZiKadT2LJtMQv2NnAvU7X3mLA9lg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "YucBHI6u": {
+      "filename": "trimresonance-neoforge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3Pw16A0l/versions/YucBHI6u/trimresonance-neoforge-2.0.0.jar",
+      "hash": "sha512-C4IO+DCa1NEI8IM5n2uFAE5Vt2wkno7jfYigknQpGKPRXzOiRr3MM1yA5Zs+xvwisKklwXGSKiteQnV+Cjwrtg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "njUfLVBH": {
+      "filename": "TrimResonance-1.21.11-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/3Pw16A0l/versions/njUfLVBH/TrimResonance-1.21.11-1.2.jar",
+      "hash": "sha512-rj400/zWuqUfstciSIg6pgzo8z7UFWUnJb8NrWF546CKld5ksRqU2b/uoCtEkK/htLXOn0wNaLcgU5XNUotVrQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tcMafYLA": {
+      "filename": "trimresonance-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3Pw16A0l/versions/tcMafYLA/trimresonance-fabric-2.0.0.jar",
+      "hash": "sha512-iHZAVrM1V5xZpN0xvbJG17uPpyBT9jbP9F+JVPE4QD1lVnI88nJqtii9RU3Sb1ccJY2WU75tTk4m33OjJVSVFw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "njUfLVBH",
+      "UrjucMfd"
+    ],
+    "26.1.2+fabric": [
+      "tcMafYLA"
+    ],
+    "26.1.2+neoforge": [
+      "YucBHI6u"
+    ]
+  }
+}

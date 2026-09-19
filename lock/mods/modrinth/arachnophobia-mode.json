@@ -1,0 +1,98 @@
+{
+  "slug": "arachnophobia-mode",
+  "projectId": "Lybg3a9j",
+  "versions": {
+    "Ab8JOHiC": {
+      "filename": "arachnophobia-mode-for-minecraft-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Lybg3a9j/versions/1.1.0/arachnophobia-mode-for-minecraft-1.1.0.jar",
+      "hash": "sha512-NP44SDqvS79cVxoCA8jwGgZa74o53uNeD6ACiTkofVxfdUoJgCK+vJyorfZT+sDawoW2yIzv22vdWxmw90Mziw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "ApPVs0ol": {
+      "filename": "arachnophobia-mode-for-minecraft-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Lybg3a9j/versions/1.0.1/arachnophobia-mode-for-minecraft-1.0.1.jar",
+      "hash": "sha512-z8JtM/wT1W35zX1W4QLTT7JRAZVokSiFsLTFSqeOx6SxAtyjh/hvw4B4VRnM2hwSEuvLDZkEfwb05yCM+igh4w==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "Zsi4wUH0": {
+      "filename": "arachnophobia-mode-for-minecraft-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Lybg3a9j/versions/1.0.0/arachnophobia-mode-for-minecraft-1.0.0.jar",
+      "hash": "sha512-lgMH+CRftVFLI0wYz+EF2wQdnlEmgaUROfP9LG1HCsfkgPWtO+MCIbvPstPfZYGRmuYJWhAIF5CIh9Bt4M/TUw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "ApPVs0ol",
+      "Zsi4wUH0"
+    ],
+    "1.19+fabric": [
+      "Ab8JOHiC"
+    ],
+    "1.19+quilt": [
+      "Ab8JOHiC"
+    ],
+    "1.19.1+fabric": [
+      "Ab8JOHiC"
+    ],
+    "1.19.1+quilt": [
+      "Ab8JOHiC"
+    ],
+    "1.19.2+fabric": [
+      "Ab8JOHiC"
+    ],
+    "1.19.2+quilt": [
+      "Ab8JOHiC"
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "cmdcam-fabric",
+  "projectId": "GOQ3z2ek",
+  "versions": {
+    "p2qCtOmW": {
+      "filename": "CMDCam-Fabric-new.jar",
+      "url": "https://cdn.modrinth.com/data/GOQ3z2ek/versions/p2qCtOmW/CMDCam-Fabric-new.jar",
+      "hash": "sha512-vo5HkniWOSEba51uOOOwSF6eSW7lrre/dCaPf9gODr3LCfzLg/RpjF40CujeeEW5Aiaa88JWEwCSa4NSiaTVrQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "creativecore",
+          "projectId": "OsZiaDHq",
+          "type": "required"
+        }
+      ]
+    },
+    "vwzf3bXq": {
+      "filename": "CMDCam-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/GOQ3z2ek/versions/vwzf3bXq/CMDCam-Fabric.jar",
+      "hash": "sha512-GBqUbUMw1MyTC+z0/k/Q48t0B3ZEpNixinMLjTx3gFA2Z6uvjw5LOp7EwBsfzmzzk9DvHzV0RCoHFJpCN8GksQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "creativecore",
+          "projectId": "OsZiaDHq",
+          "type": "required"
+        }
+      ]
+    },
+    "zPOXCfOw": {
+      "filename": "CMDCam-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/GOQ3z2ek/versions/zPOXCfOw/CMDCam-Fabric.jar",
+      "hash": "sha512-2uoqUvtm1EGv4lzWhsmbjhwck1jPpJGltcn4QkAua+nDFNZKn9MiJ5s7VFE5m1FNB3Bby7W2ers6cGHPAf1IiQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "creativecore",
+          "projectId": "OsZiaDHq",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "zPOXCfOw",
+      "vwzf3bXq"
+    ],
+    "1.21.1+fabric": [
+      "p2qCtOmW"
+    ]
+  }
+}

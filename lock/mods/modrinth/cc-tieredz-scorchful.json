@@ -1,0 +1,64 @@
+{
+  "slug": "cc-tieredz-scorchful",
+  "projectId": "SsIiMaa3",
+  "versions": {
+    "W2l6GkkZ": {
+      "filename": "tieredz-scorchful_compat.zip",
+      "url": "https://cdn.modrinth.com/data/SsIiMaa3/versions/W2l6GkkZ/tieredz-scorchful_compat.zip",
+      "hash": "sha512-j2UrVIvskJRtSji8GLx+TvFhXQqbkLA1PDsbKqgwiRsAyXMPIby1wm4AuZPiSgnYHLE75nIHwLt4SbXJ5tHlPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "scorchful",
+          "projectId": "SZQ5qcdn",
+          "type": "required"
+        },
+        {
+          "slug": "tieredz",
+          "projectId": "z6sMEexp",
+          "type": "required"
+        }
+      ]
+    },
+    "nB1Z5gHE": {
+      "filename": "compat-pack-hub-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SsIiMaa3/versions/nB1Z5gHE/compat-pack-hub-1.0.0.jar",
+      "hash": "sha512-fOPGwsiRT0z2uiuRx8rkSTDCe+VmneplslYVeWjbUopgNmh7lJpMqvAUeVbzLXAngOoKo6pOELWE5VSAu1JlGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "scorchful",
+          "projectId": "SZQ5qcdn",
+          "type": "required"
+        },
+        {
+          "slug": "tieredz",
+          "projectId": "z6sMEexp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "W2l6GkkZ"
+    ],
+    "1.20.1+fabric": [
+      "nB1Z5gHE"
+    ]
+  }
+}

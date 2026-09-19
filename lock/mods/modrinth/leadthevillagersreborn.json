@@ -1,0 +1,40 @@
+{
+  "slug": "leadthevillagersreborn",
+  "projectId": "eeEeX44l",
+  "versions": {
+    "N4y5t9q9": {
+      "filename": "LeadTheVillagersReborn-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eeEeX44l/versions/N4y5t9q9/LeadTheVillagersReborn-fabric-0.1.0.jar",
+      "hash": "sha512-J0xmHP1wZKIlC6saZXHHoVE6GhMJWqK8GecBz/XrMufXUKoAKT7DQUw3A/ANPwILP1WtBLpJi68vNs3vunPSxQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "N4y5t9q9"
+    ],
+    "1.21.1+fabric": [
+      "N4y5t9q9"
+    ]
+  }
+}

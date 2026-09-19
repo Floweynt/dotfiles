@@ -1,0 +1,129 @@
+{
+  "slug": "starbound-evo",
+  "projectId": "eg68MuRx",
+  "versions": {
+    "OdI02u8g": {
+      "filename": "StarBound1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/eg68MuRx/versions/OdI02u8g/StarBound1.0.2.jar",
+      "hash": "sha512-bNxC9H6WhTsVrnw2HoKnCj58FwEiLjj73rWEMRU+o7K1zuXnd7Qms724Jbzql6PIc6JMEw3f+sHCzUzSAotvDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        }
+      ]
+    },
+    "mvLbKSqg": {
+      "filename": "StarBound.jar",
+      "url": "https://cdn.modrinth.com/data/eg68MuRx/versions/mvLbKSqg/StarBound.jar",
+      "hash": "sha512-zLFNhO4NhvPBXZG7/2FF+o9kibimyjfScYrQBoXPtwutLDR3AEp+e7mDwrGEXihG89DwEK0xKsr9fjXYipEosw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "vkoKgFRE": {
+      "filename": "StarMan.jar",
+      "url": "https://cdn.modrinth.com/data/eg68MuRx/versions/vkoKgFRE/StarMan.jar",
+      "hash": "sha512-3jiMzj/64YCgudphyxIp6/fHKElcJRryjFPkhavuPY+1+ii35CKGaPJD6rz4A38B3LhuMsjNi6imCAMeAa12QA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        }
+      ]
+    },
+    "wEJ44U5U": {
+      "filename": "StarBound.jar",
+      "url": "https://cdn.modrinth.com/data/eg68MuRx/versions/wEJ44U5U/StarBound.jar",
+      "hash": "sha512-cvFKFTuop2oQTmCxS56aZBM5GVnXa3VJ5LtB0c1RAvcU8D0nEp4Az4Ht7SxXaPK9Dsr/s+3PPd1k/VRMQOo2Ow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wEJ44U5U",
+      "vkoKgFRE",
+      "OdI02u8g",
+      "mvLbKSqg"
+    ],
+    "1.20.1+forge": [
+      "wEJ44U5U",
+      "vkoKgFRE",
+      "OdI02u8g",
+      "mvLbKSqg"
+    ]
+  }
+}

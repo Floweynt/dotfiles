@@ -1,0 +1,126 @@
+{
+  "slug": "ability-upgrade-cobblemon",
+  "projectId": "XWn1feZf",
+  "versions": {
+    "BEvZdel3": {
+      "filename": "ability-upgrade-cobblemon-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/XWn1feZf/versions/BEvZdel3/ability-upgrade-cobblemon-1.2.jar",
+      "hash": "sha512-xieT1HIyqNKTxvISjB8vWf79Vrwy9pkWqt++82E+vlNsfi7jHCj3XB/bMCkT6LAhVmEB80P4er693itqr2FDAA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "Cv5nW93a": {
+      "filename": "ability-upgrade-cobblemon-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/XWn1feZf/versions/Cv5nW93a/ability-upgrade-cobblemon-1.1.jar",
+      "hash": "sha512-U1vNvblNa3QbgeMN1Cxf7VFYt3551T5hTTw8GwchwCngplqNW3mPHgouCIQ1/qawN1izJAtmzdYTbrIVuKFyqw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "F0qxq7yS": {
+      "filename": "COBBLEMON ABILITY RECIPES.zip",
+      "url": "https://cdn.modrinth.com/data/XWn1feZf/versions/F0qxq7yS/COBBLEMON%20ABILITY%20RECIPES.zip",
+      "hash": "sha512-pV8SrPkETICewoo6nPbRyI+FU4TkqBLWRaYJHB03jeGksxh76BtpogrW00tOBTW9/fRtl7qS0AJt1BoBwmi5cA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "IDIu1Vyx": {
+      "filename": "ability-upgrade-cobblemon-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XWn1feZf/versions/IDIu1Vyx/ability-upgrade-cobblemon-1.0.jar",
+      "hash": "sha512-Qh0Hghu/T4qEzYHr0k1UNkdPo6fKJwv4c0+yZjKmeUaibk5fe1f10dTejGKqjjYC+iBSPPCi/P3LycbLwBcGiQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "otGNA7k9": {
+      "filename": "COBBLEMON ABILITY RECIPES.zip",
+      "url": "https://cdn.modrinth.com/data/XWn1feZf/versions/otGNA7k9/COBBLEMON%20ABILITY%20RECIPES.zip",
+      "hash": "sha512-EnNvtWC1uja1B0UH+XBOS1kuIGiOD/+tzgciphlMInZMHGABNcSEKLPO8Y3U8whOT17LK7InCNWHrqLdA8l+EQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "xHyxvPwD": {
+      "filename": "ABILITY RECIPES.zip",
+      "url": "https://cdn.modrinth.com/data/XWn1feZf/versions/xHyxvPwD/ABILITY%20RECIPES.zip",
+      "hash": "sha512-LWT4f2seeuzgEOLI5rC74b8k1ol+k3d8AG7dLJbBxDKYQaAn9Sz4lxj5Psp4Hqtp9Vc/0EZKN/HShvFE6KqsRQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "xHyxvPwD",
+      "otGNA7k9",
+      "F0qxq7yS"
+    ],
+    "1.21.1+fabric": [
+      "BEvZdel3",
+      "Cv5nW93a",
+      "IDIu1Vyx"
+    ],
+    "1.21.1+forge": [
+      "BEvZdel3"
+    ],
+    "1.21.1+neoforge": [
+      "BEvZdel3"
+    ],
+    "1.21.1+quilt": [
+      "BEvZdel3"
+    ]
+  }
+}

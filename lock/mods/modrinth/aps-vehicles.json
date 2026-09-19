@@ -1,0 +1,64 @@
+{
+  "slug": "aps-vehicles",
+  "projectId": "rw7Lsau3",
+  "versions": {
+    "B15D17V6": {
+      "filename": "aps_vehicles-neoforge-1.21.1-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/rw7Lsau3/versions/B15D17V6/aps_vehicles-neoforge-1.21.1-0.0.2.jar",
+      "hash": "sha512-45mY9R497CbJy0xPT1IHT5ISHDlcNgtUoFjwTK9wtfXzf3QMEPacNgSdO9ijrQCitY9DYm5ZvWQNs9zIF7swvA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-machinery",
+          "projectId": "kGP3J2TW",
+          "type": "required"
+        }
+      ]
+    },
+    "csrkSQL4": {
+      "filename": "aps_vehicles-fabric-1.21.1-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/rw7Lsau3/versions/csrkSQL4/aps_vehicles-fabric-1.21.1-0.0.2.jar",
+      "hash": "sha512-apHbQGt/8cTpAqNo5nXF0Utt8kxOAA7amEJd7Ccfr4cnhCrMV1CS1ASwzO9wDEU1rZsppzpazUqy5vEHMySpJA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersive-machinery",
+          "projectId": "kGP3J2TW",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "csrkSQL4"
+    ],
+    "1.21.1+neoforge": [
+      "B15D17V6"
+    ]
+  }
+}

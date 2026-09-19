@@ -1,0 +1,64 @@
+{
+  "slug": "night-eye",
+  "projectId": "LFJe1kRL",
+  "versions": {
+    "BktuoqVf": {
+      "filename": "NightEye-1.20.6-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LFJe1kRL/versions/BktuoqVf/NightEye-1.20.6-1.1.0.jar",
+      "hash": "sha512-Hh/vPa75R6WXHICEyT7RkmQCaNc7b2+fevE541lLeoxjrdYVU+b55zsBrk9Vs6iePlqnZH7gvFEsO/9jBEFDKA==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QagQLC90": {
+      "filename": "NightEye-1.21-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LFJe1kRL/versions/QagQLC90/NightEye-1.21-1.1.0.jar",
+      "hash": "sha512-21lH6Q5D3+N1DZkj79pFpYh6GQ6pU17tNPo3X1VEbX9FF7+QDLU2mRykvwc3CNbyib9k0qA+PXJs1Re/7beYpA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "BktuoqVf"
+    ],
+    "1.21+fabric": [
+      "QagQLC90"
+    ]
+  }
+}

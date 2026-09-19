@@ -1,0 +1,103 @@
+{
+  "slug": "enchantment-level-fix",
+  "projectId": "dzHbokZI",
+  "versions": {
+    "DiFCcWuf": {
+      "filename": "elchantment-level-fix-[1.21.X].jar",
+      "url": "https://cdn.modrinth.com/data/dzHbokZI/versions/DiFCcWuf/elchantment-level-fix-%5B1.21.X%5D.jar",
+      "hash": "sha512-vLYC+0uVw748EL62F8gNKqYOijYhuvMP46Qjj7ecmJ3VDsKMYwJBVwB/VaIdx44r3CfcapEUjXaA5heWGaRpkQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ggoXt9VN": {
+      "filename": "enchantment-level-fix-[Fabric 1.20.X].jar",
+      "url": "https://cdn.modrinth.com/data/dzHbokZI/versions/ggoXt9VN/enchantment-level-fix-%5BFabric%201.20.X%5D.jar",
+      "hash": "sha512-75kuy72cY+HiZtCueXscxL9gkH52YgDeSiF0WOF4Gkhjxrz1hyp5KtQM4iDnM7EmU9btsGSo4ET9shLTxLzhgw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "lLk0iK5g": {
+      "filename": "Enchantment-Level-Fix-[1.20.X-1.1.0].jar",
+      "url": "https://cdn.modrinth.com/data/dzHbokZI/versions/lLk0iK5g/Enchantment-Level-Fix-%5B1.20.X-1.1.0%5D.jar",
+      "hash": "sha512-wpVGHU9gjF3liZwcFW4y9ED13rnBnP4VW9urC2gAUkumBEimwsa7zQ1mwbI5fyQhaqllfzLVZmxzp9l9XQTvPQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "lLk0iK5g"
+    ],
+    "1.20.1+fabric": [
+      "lLk0iK5g",
+      "ggoXt9VN"
+    ],
+    "1.20.2+fabric": [
+      "lLk0iK5g"
+    ],
+    "1.20.3+fabric": [
+      "lLk0iK5g"
+    ],
+    "1.20.4+fabric": [
+      "lLk0iK5g"
+    ],
+    "1.20.5+fabric": [
+      "lLk0iK5g"
+    ],
+    "1.20.6+fabric": [
+      "lLk0iK5g"
+    ],
+    "1.21+fabric": [
+      "DiFCcWuf"
+    ],
+    "1.21.1+fabric": [
+      "DiFCcWuf"
+    ],
+    "1.21.2+fabric": [
+      "DiFCcWuf"
+    ],
+    "1.21.3+fabric": [
+      "DiFCcWuf"
+    ],
+    "1.21.4+fabric": [
+      "DiFCcWuf"
+    ]
+  }
+}

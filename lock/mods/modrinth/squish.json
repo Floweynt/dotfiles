@@ -1,0 +1,81 @@
+{
+  "slug": "squish",
+  "projectId": "3z1Z8gDY",
+  "versions": {
+    "HhjNVt6a": {
+      "filename": "squish-0.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3z1Z8gDY/versions/HhjNVt6a/squish-0.3-1.20.1.jar",
+      "hash": "sha512-u8UROLbbGh3sGy5TLjbBWQ1CvlKdRiePRz2mls/KgSzOyn+jn+FledKevmUERtYp1MJpfU7wt4zjr6u3rMILiQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cjrgiZJ3": {
+      "filename": "squish-0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3z1Z8gDY/versions/cjrgiZJ3/squish-0.2-1.20.1.jar",
+      "hash": "sha512-o6Ier1GXjYD2mhbDRJfCebsM/RcXc7WBBXO0Fvv2uEH1xyQfZ0aJuPjDIcv11dTQYIMDawWHN9nE0LHSsHtlKQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "jsB2qHme": {
+      "filename": "squish-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3z1Z8gDY/versions/jsB2qHme/squish-0.1-1.20.1.jar",
+      "hash": "sha512-jtnmdy6lAGvZCZhs08d1YPr85VYHOIfkzfyySoAXeaV2Ww2n9eDUpb4Wf+IGsXWllV7MeaAdEtOueOpgDfeR2g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    },
+    "zmp1gZyy": {
+      "filename": "squish-fabric-0.4-SNAPSHOT+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/3z1Z8gDY/versions/zmp1gZyy/squish-fabric-0.4-SNAPSHOT%2Bmc1.20.1.jar",
+      "hash": "sha512-v8nq1Ba0P53cGyBvEopmuypzNZpe7B9w9yhOfsBBbeGY4HB88dQPfozdabpjjITS7o5xOlJ67GbripBB5snXKw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "zmp1gZyy",
+      "HhjNVt6a",
+      "cjrgiZJ3",
+      "jsB2qHme"
+    ]
+  }
+}

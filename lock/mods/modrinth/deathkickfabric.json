@@ -1,0 +1,44 @@
+{
+  "slug": "deathkickfabric",
+  "projectId": "dWKOtYq2",
+  "versions": {
+    "jj4E6w5k": {
+      "filename": "deathkickfabric.jar",
+      "url": "https://cdn.modrinth.com/data/dWKOtYq2/versions/jj4E6w5k/deathkickfabric.jar",
+      "hash": "sha512-LzdwSJKMuqBveK7GMFburhQYPuSnJkQw2Ek994jCoiXxnulFQGZWHe4r9jyMnWOi5/9jzMYTNbLGU7rfkqGNqw==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "q8MzxCWl": {
+      "filename": "Deathkick.jar",
+      "url": "https://cdn.modrinth.com/data/dWKOtYq2/versions/q8MzxCWl/Deathkick.jar",
+      "hash": "sha512-1bMzMc6HNPliISPnJuccoxR/Ti2FnBrkNcQg7sMz9k2Lo6iT6DU41fxjp0vCF9RzHdRsIYR4AwcZD5LRsB+7iA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "q8MzxCWl",
+      "jj4E6w5k"
+    ],
+    "1.21.11+fabric": [
+      "jj4E6w5k"
+    ]
+  }
+}

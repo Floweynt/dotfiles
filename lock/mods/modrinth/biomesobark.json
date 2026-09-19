@@ -1,0 +1,69 @@
+{
+  "slug": "biomesobark",
+  "projectId": "rVrGcXB6",
+  "versions": {
+    "4Rx062kv": {
+      "filename": "BiomesOBark-1.21.1-1.21.1-4.0.jar",
+      "url": "https://cdn.modrinth.com/data/rVrGcXB6/versions/4Rx062kv/BiomesOBark-1.21.1-1.21.1-4.0.jar",
+      "hash": "sha512-OBV4H02jSTAjXAgqZ/AFoKu5vMh5RyOniQ0PCL7Kri5L6xwlb9H8Cq0RRMWZ4DPTfr7f793EeFEJdCflzwR4Mw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "treebark",
+          "projectId": "EyYeXJN7",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "biomes-o-plenty",
+          "projectId": "HXF82T3G",
+          "type": "required"
+        }
+      ]
+    },
+    "8coywzyi": {
+      "filename": "BiomesOBark-1.19.2-v3.0.jar",
+      "url": "https://cdn.modrinth.com/data/rVrGcXB6/versions/8coywzyi/BiomesOBark-1.19.2-v3.0.jar",
+      "hash": "sha512-QpfGSh0pYt0OG1+N6g0+swIa/zkADz7ZGesQy9BMYh7HeaLa1Zul71zBASaT8jBgrxdqhoElyQN7gvvk0E2Hpw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "biomes-o-plenty",
+          "projectId": "HXF82T3G",
+          "type": "required"
+        },
+        {
+          "slug": "treebark",
+          "projectId": "EyYeXJN7",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "8coywzyi"
+    ],
+    "1.21.1+fabric": [
+      "4Rx062kv"
+    ]
+  }
+}

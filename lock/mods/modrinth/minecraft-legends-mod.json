@@ -1,0 +1,75 @@
+{
+  "slug": "minecraft-legends-mod",
+  "projectId": "v4Bp6NnP",
+  "versions": {
+    "5IkkMrPQ": {
+      "filename": "minecraft_legends-1.19.2-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/v4Bp6NnP/versions/5IkkMrPQ/minecraft_legends-1.19.2-0.1.0.jar",
+      "hash": "sha512-Avdx+RIMWYCOFpsuhOa5F9lZMHSyJ33aMirZfHjvuz2WEnZ/N6dHcgyTLCpKV4hhu+qyuRTfavJ5WERjSvKCLQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QVd48dQ7": {
+      "filename": "minecraft_legends-1.19.2-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/v4Bp6NnP/versions/QVd48dQ7/minecraft_legends-1.19.2-0.2.1.jar",
+      "hash": "sha512-kWQMEfmsW9zidd4W62tGjiyTtQtJ/ZpMNHHi1YGQt+Jg5dhBf9T3JRLC/xrftvHSCoqYVECDheZ2PqJLSwfqsQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "UsYjOdof": {
+      "filename": "minecraft_legends-1.19.2-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/v4Bp6NnP/versions/UsYjOdof/minecraft_legends-1.19.2-0.2.0.jar",
+      "hash": "sha512-909BzKhN89n+b+DbcmR3WTh4E0nxFXYUMTZbuIut/f0XqEXtF+F3IgMsIzKIsT2WDaaoCLREsMPrSn+nunhNaw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "QVd48dQ7",
+      "UsYjOdof",
+      "5IkkMrPQ"
+    ],
+    "1.19.2+quilt": [
+      "QVd48dQ7",
+      "UsYjOdof",
+      "5IkkMrPQ"
+    ]
+  }
+}

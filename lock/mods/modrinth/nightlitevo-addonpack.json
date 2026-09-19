@@ -1,0 +1,118 @@
+{
+  "slug": "nightlitevo-addonpack",
+  "projectId": "M5Md8AaS",
+  "versions": {
+    "da1mfNBp": {
+      "filename": "NightlitEvo_update_1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/M5Md8AaS/versions/da1mfNBp/NightlitEvo_update_1.3.3.jar",
+      "hash": "sha512-XcD2zvE8mEaLMio93BIq0adW+iy3B/chDH1PMyPRl792HNV1y4mm7YVi/h8KYBQT/Tv/vPaX6ps1UHc5tbSXsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "iSAjFpKY": {
+      "filename": "NightlitEvo_update_1.3.4.jar",
+      "url": "https://cdn.modrinth.com/data/M5Md8AaS/versions/iSAjFpKY/NightlitEvo_update_1.3.4.jar",
+      "hash": "sha512-YHEny8g7GkwdcJ9u5c0rBfAZLrPlIuwrKNCk1fssh3K3YNBJmq0WZJh3zatwoBAUZ68WatEPm2Tji66tMsEOZA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "iSAjFpKY",
+      "da1mfNBp"
+    ],
+    "1.20.1+forge": [
+      "iSAjFpKY",
+      "da1mfNBp"
+    ]
+  }
+}

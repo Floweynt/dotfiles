@@ -1,0 +1,63 @@
+{
+  "slug": "ftq",
+  "projectId": "yvUdq6x7",
+  "versions": {
+    "CIbTa3a6": {
+      "filename": "§lFTQ.zip",
+      "url": "https://cdn.modrinth.com/data/yvUdq6x7/versions/CIbTa3a6/%C2%A7lFTQ.zip",
+      "hash": "sha512-72F9OX31eLk6+8tqgZmmaE0sQ+AP8Dfokdaf0Mjtd55hw4KaP/A7e72Dj+I64WTAc1YlW1rakXIkfpyLQBc2Lw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "QIdehsqA": {
+      "filename": "ftq-optimized-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/yvUdq6x7/versions/QIdehsqA/ftq-optimized-1.2.1.jar",
+      "hash": "sha512-vyWpSt1Omi4RsQGhoI30i3sLVPtaMyvmJUlnUTKMSK15IkiNdQ4XhzdmpUSKfaDWTte8mF8SdH+Ds87rk15HoA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "ckirAzFK": {
+      "filename": "ftq-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/yvUdq6x7/versions/ckirAzFK/ftq-1.2.1.jar",
+      "hash": "sha512-9PeY+7UiCCW1nUfacXdtFgzo/4rzCob0RN9sFVgNsml2lyDXA7vH5aDfeLtsXayEOdD8VFYywGjzrOduy8t7dg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "CIbTa3a6"
+    ],
+    "1.20.1+fabric": [
+      "QIdehsqA"
+    ],
+    "1.20.1+forge": [
+      "ckirAzFK"
+    ],
+    "1.20.1+quilt": [
+      "QIdehsqA"
+    ]
+  }
+}

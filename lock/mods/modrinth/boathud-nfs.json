@@ -1,0 +1,135 @@
+{
+  "slug": "boathud-nfs",
+  "projectId": "YX5MpFiJ",
+  "versions": {
+    "AMvJzCGN": {
+      "filename": "boathud-nfs-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YX5MpFiJ/versions/AMvJzCGN/boathud-nfs-1.0.1.jar",
+      "hash": "sha512-HZ42nwbsFDHTT6ei2Sfs9ECU5dYopcEjoXk8BctquWhoRWvZlzJwcrTEUvDwweSa6HgpQZWrcHjXTS8vtDqqJw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gCKFnvNF": {
+      "filename": "boathud-nfs-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YX5MpFiJ/versions/gCKFnvNF/boathud-nfs-1.1.0.jar",
+      "hash": "sha512-ehPUDWt3ZRGFrdih+hSmv1YovXfD0wSn1XJohwos7QmxS80binPK/iUek+PCuoPz/p12Pkg5rcE7Tpt4IihS+w==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ly1d6qyG": {
+      "filename": "boathud-nfs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YX5MpFiJ/versions/ly1d6qyG/boathud-nfs-1.0.0.jar",
+      "hash": "sha512-W1/XWJXKKeS5vt8XZSboXowQxPc0J1nu3b7UbBQ2fYkNf6xXoo1g8BhQ4nfTer0jGuRQu0o1VhmXx6uK/JZP2w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "AMvJzCGN",
+      "ly1d6qyG"
+    ],
+    "1.20.1+fabric": [
+      "AMvJzCGN",
+      "ly1d6qyG"
+    ],
+    "1.20.2+fabric": [
+      "AMvJzCGN",
+      "ly1d6qyG"
+    ],
+    "1.20.3+fabric": [
+      "AMvJzCGN",
+      "ly1d6qyG"
+    ],
+    "1.20.4+fabric": [
+      "AMvJzCGN",
+      "ly1d6qyG"
+    ],
+    "1.20.5+fabric": [
+      "AMvJzCGN",
+      "ly1d6qyG"
+    ],
+    "1.21+fabric": [
+      "gCKFnvNF"
+    ]
+  }
+}

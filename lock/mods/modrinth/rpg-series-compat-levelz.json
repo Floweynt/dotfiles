@@ -1,0 +1,31 @@
+{
+  "slug": "rpg-series-compat-levelz",
+  "projectId": "JI10TSYV",
+  "versions": {
+    "4UYmbR1M": {
+      "filename": "rpgseriescompatlevelz-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JI10TSYV/versions/4UYmbR1M/rpgseriescompatlevelz-1.0.0.jar",
+      "hash": "sha512-q7SO1MlrKqRKrIuIjSmLtNEjQpNsdrR4Ee3f9NHdFAY3WgPWkDDjRQFSyU00e/n3qmmdFTvHfyeO+L0T6MF/LA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "4UYmbR1M"
+    ]
+  }
+}

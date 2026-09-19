@@ -1,0 +1,68 @@
+{
+  "slug": "happier-ghasts",
+  "projectId": "kvhgWidf",
+  "versions": {
+    "1EhPATwq": {
+      "filename": "HappierGhasts-1.0.1-mc1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/kvhgWidf/versions/1EhPATwq/HappierGhasts-1.0.1-mc1.21.5.jar",
+      "hash": "sha512-fzziQzZAMmdEXP4qeXzVJkRvmM5lqOUE5TM/m6ERPDcRBnH8M6f0DlnMyz6LnYFZIizjUKtVuOi2oO37oxMVVQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "frozenlib",
+          "projectId": "9KawNmQc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QyMvAVwV": {
+      "filename": "HappierGhasts-1.0-mc1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/kvhgWidf/versions/QyMvAVwV/HappierGhasts-1.0-mc1.21.5.jar",
+      "hash": "sha512-9tJGmWoHbvxhFSejzbYZbtyq4iu3qk0Oo7EIfopI978hF3kyt0PJ1BS0PvQf78looyP8BY33SuqOyLGq1Zw4fA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "frozenlib",
+          "projectId": "9KawNmQc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "1EhPATwq",
+      "QyMvAVwV"
+    ],
+    "1.21.5+quilt": [
+      "1EhPATwq",
+      "QyMvAVwV"
+    ]
+  }
+}

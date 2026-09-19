@@ -1,0 +1,82 @@
+{
+  "slug": "big-cry",
+  "projectId": "k0zSbJKB",
+  "versions": {
+    "5seLC9tb": {
+      "filename": "big_cry-neoforge1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/k0zSbJKB/versions/5seLC9tb/big_cry-neoforge1.21.1-1.0.0.jar",
+      "hash": "sha512-bmprAYvBZ10+3EeAR1M4BPtRX7Zpg9qmuqCbMMuEE9bh628atOZ1tUTYqZWAxfeoblGjcq/qKDggWnTnSfywuw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "V8l2kvYu": {
+      "filename": "big_cry-1.0.0-fabric1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/k0zSbJKB/versions/V8l2kvYu/big_cry-1.0.0-fabric1.21.1.jar",
+      "hash": "sha512-4W/zGxuHpUMBc4tOtAEsLZfP0Cre70HQc9Y4p39amPG+d7xSTng9dX6bFXr8nfq68Ns1whuVq8q8T8+mQiVJbA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "oikA26g0": {
+      "filename": "big_cry-forge1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/k0zSbJKB/versions/oikA26g0/big_cry-forge1.20.1-1.0.0.jar",
+      "hash": "sha512-5zLF9NZ54HvlZHlDZ74js48X/VP7F0HFl6qIw43i6+JviSc/RqEjwuXlikE7Ao1Espo1vuRTAeCjNRdRwnd/Ig==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "oikA26g0"
+    ],
+    "1.21.1+fabric": [
+      "V8l2kvYu"
+    ],
+    "1.21.1+neoforge": [
+      "5seLC9tb"
+    ]
+  }
+}

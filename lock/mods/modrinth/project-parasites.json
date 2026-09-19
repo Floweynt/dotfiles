@@ -1,0 +1,61 @@
+{
+  "slug": "project-parasites",
+  "projectId": "O70IvchH",
+  "versions": {
+    "BbwQ6UnF": {
+      "filename": "projectparasites-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/O70IvchH/versions/BbwQ6UnF/projectparasites-1.1.0.jar",
+      "hash": "sha512-BCL4d2WHQhDmNhJarZRH8zniBVTTQVYilbnwJUy9ULE+E57v7re8GiQzA649KBdIQ9GLE7ecln7IKs1S3Vt5bw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "M38QO8jO": {
+      "filename": "projectparasites-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/O70IvchH/versions/M38QO8jO/projectparasites-1.0.0.jar",
+      "hash": "sha512-szdzhq5D6Vnm+VNr/3nNHc2QPINMCxmeBnQRA6YUSV877Nk8BsHaddG9fGnu7z/sqkrKOhyILi4wGxx9dkYdKw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "xKvRt522": {
+      "filename": "projectparasites-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/O70IvchH/versions/xKvRt522/projectparasites-1.0.0.jar",
+      "hash": "sha512-ey2G3Ujv79tPXzOen6nI5xomcpjfq312YdOu26rbAk6hM8HIPwu//BF/PxUtWLFYvGybaMyVGe+dxGlMJmleHw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "BbwQ6UnF",
+      "xKvRt522",
+      "M38QO8jO"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "xylene",
+  "projectId": "X3JsdcbI",
+  "versions": {
+    "DqcXIVV7": {
+      "filename": "xylene-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/X3JsdcbI/versions/DqcXIVV7/xylene-1.0.0.jar",
+      "hash": "sha512-u/ShL/KqsFTewXmAt/h8ZN2iYlWMAKh6wt1TriBDii8uijdNtY0WZ8UclZF8KaAa3bTucfwlU9HY3++q1s4acw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "E9Q4cxDR": {
+      "filename": "xylene-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/X3JsdcbI/versions/E9Q4cxDR/xylene-1.1.1.jar",
+      "hash": "sha512-Tfhx6sEMm/bb7Jsv2FN2kkWESyvf+LNM0NeTsN8/eLJshRecIc+jYGu1uzyUUNd4A2AVeWLFgWtjDBW3ElhGoA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "E9Q4cxDR",
+      "DqcXIVV7"
+    ]
+  }
+}

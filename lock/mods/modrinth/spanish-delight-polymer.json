@@ -1,0 +1,103 @@
+{
+  "slug": "spanish-delight-polymer",
+  "projectId": "Hoj0HHPe",
+  "versions": {
+    "QcEgMWSn": {
+      "filename": "spanishdelight-patch-1.21.8-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/Hoj0HHPe/versions/QcEgMWSn/spanishdelight-patch-1.21.8-1.0.6.jar",
+      "hash": "sha512-mAWpdNq1hvUy2ZEOFa9exXXK0fqbt9VS+0dHxJYHatgfxPlHkKefhocCtg67DY0HsFO0vFPoG3A+7SJ/WKso5w==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "spanish-delight-refabricated",
+          "projectId": "E2LV3K2B",
+          "type": "required"
+        }
+      ]
+    },
+    "j391omiq": {
+      "filename": "spanishdelight-patch-1.21.10-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/Hoj0HHPe/versions/j391omiq/spanishdelight-patch-1.21.10-1.0.6.jar",
+      "hash": "sha512-GFJQip5UvFG/YXJwNvXBRkSI3zawMEe7RSlIwX5MGKmqNbXtE/k1aG1jLcoComVkVncVxz4CqqNOPNaPtstJ/w==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "spanish-delight",
+          "projectId": "ZNwp9Ods",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "j391omiq"
+    ],
+    "1.21.10+quilt": [
+      "j391omiq"
+    ],
+    "1.21.6+fabric": [
+      "QcEgMWSn"
+    ],
+    "1.21.6+quilt": [
+      "QcEgMWSn"
+    ],
+    "1.21.7+fabric": [
+      "QcEgMWSn"
+    ],
+    "1.21.7+quilt": [
+      "QcEgMWSn"
+    ],
+    "1.21.8+fabric": [
+      "QcEgMWSn"
+    ],
+    "1.21.8+quilt": [
+      "QcEgMWSn"
+    ],
+    "1.21.9+fabric": [
+      "j391omiq"
+    ],
+    "1.21.9+quilt": [
+      "j391omiq"
+    ]
+  }
+}

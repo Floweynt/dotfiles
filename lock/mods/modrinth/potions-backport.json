@@ -1,0 +1,69 @@
+{
+  "slug": "potions-backport",
+  "projectId": "zWbABCLz",
+  "versions": {
+    "8ksIv93k": {
+      "filename": "potions_backport-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zWbABCLz/versions/8ksIv93k/potions_backport-1.0.0.jar",
+      "hash": "sha512-1aEVGs23U1lMektLQc3J08/X7kEzlwQ3oFYb1J6pE7cSkaQUrO5EwW7KDS1eNgSkigkcBf3L7/qurQAua9gpuA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "NjRMF4aq": {
+      "filename": "potions_backport-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zWbABCLz/versions/NjRMF4aq/potions_backport-2.1.0.jar",
+      "hash": "sha512-ocGInSqoN1qSxFDgqTBDLaLZes2MbN5NUUF9fHTgPq9Fcmi+PbQTfk+NpoceVfuxziEQMotqwK3hQ6pfmNN2wg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "Vr3cl3vg": {
+      "filename": "potions_backport-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/zWbABCLz/versions/Vr3cl3vg/potions_backport-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-O3le1PM9EzcY0FQWzELESQgHErpztJRqCpqVmpEegiJX6Lq7K7FWk1JP/N3ukoaMTplHUBLLrMTkerfkZ+o0cA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "NjRMF4aq",
+      "8ksIv93k"
+    ],
+    "1.20.1+forge": [
+      "Vr3cl3vg"
+    ]
+  }
+}

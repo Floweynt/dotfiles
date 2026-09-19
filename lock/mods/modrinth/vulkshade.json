@@ -1,0 +1,52 @@
+{
+  "slug": "vulkshade",
+  "projectId": "cI42FcTE",
+  "versions": {
+    "5sT46X6t": {
+      "filename": "VulkShade_1.21.10-1.0.3 (1).jar",
+      "url": "https://cdn.modrinth.com/data/cI42FcTE/versions/5sT46X6t/VulkShade_1.21.10-1.0.3%20%281%29.jar",
+      "hash": "sha512-d6iQQNBxvfU1MJnanxunqKsu1Lu9Kn606BGpPEMEQQ+vTPbm2l2gBGD3TY3C/PcsRR/PLu27y87LQ6kLNgMWJQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "z0sxOdIk": {
+      "filename": "VulkShade_1.21.10-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/cI42FcTE/versions/z0sxOdIk/VulkShade_1.21.10-1.0.2.jar",
+      "hash": "sha512-/kTof7JsXwUmTsdrMm6hALTHTjjdWPxUchklw8Z0nHxbbLgaXhpP4lPeN14hvZP5wRsMylJgCO2Xo57aIP/BvA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "5sT46X6t",
+      "z0sxOdIk"
+    ],
+    "1.21.9+fabric": [
+      "5sT46X6t",
+      "z0sxOdIk"
+    ]
+  }
+}

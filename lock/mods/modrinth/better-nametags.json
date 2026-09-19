@@ -1,0 +1,35 @@
+{
+  "slug": "better-nametags",
+  "projectId": "qGUCdI0w",
+  "versions": {
+    "9kAjFhkH": {
+      "filename": "better-name-tags-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/qGUCdI0w/versions/9kAjFhkH/better-name-tags-1.0.0.jar",
+      "hash": "sha512-3DgqZ4J75BqdvGVg8RWo/5hUV8YN0KswCOcTlkT9joUhrCQ7tg7SMPkDIvz3TrLumOjUFQ+C4Ljx3M7qIuwq+w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "9kAjFhkH"
+    ],
+    "1.21.1+fabric": [
+      "9kAjFhkH"
+    ]
+  }
+}

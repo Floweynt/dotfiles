@@ -1,0 +1,36 @@
+{
+  "slug": "goat-horn-speech-amplifier",
+  "projectId": "wS2PAuek",
+  "versions": {
+    "bggcxYue": {
+      "filename": "goat-horn-speech-amplifier-1.21.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wS2PAuek/versions/bggcxYue/goat-horn-speech-amplifier-1.21.4-1.0.0.jar",
+      "hash": "sha512-T/7JwdcNF63p6agUJKn4rNuoy6f+i3+QyQsTuLg0NY0eFwO/+TWjLY2YWOlVZf3slMq/5mApvyFDAAOJk9nP5Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "bggcxYue"
+    ]
+  }
+}

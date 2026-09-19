@@ -1,0 +1,78 @@
+{
+  "slug": "slime-chunk-viewer",
+  "projectId": "qM2QtyXV",
+  "versions": {
+    "1xeyN3L1": {
+      "filename": "slime-chunk-viewer-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/qM2QtyXV/versions/1xeyN3L1/slime-chunk-viewer-0.0.2.jar",
+      "hash": "sha512-ZTtHOFivpsHgAtIAmBUvCu0LThtgR0m02assO28kpclLhIyRcu5hwqWV0v5GeUHFoCNvRVXU+DPSW72IUV7JHQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "YgeLIBjW": {
+      "filename": "slime-chunk-viewer-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/qM2QtyXV/versions/YgeLIBjW/slime-chunk-viewer-0.0.1.jar",
+      "hash": "sha512-JmV641yoPjk9j1iTDDWtL3ra3UpHw9SwhIRgICdfw4qMKJriT+bkx+oESfh1uKUezEIizyPi5uhUHIdlPNQJxg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "1xeyN3L1",
+      "YgeLIBjW"
+    ],
+    "1.20.4+quilt": [
+      "1xeyN3L1",
+      "YgeLIBjW"
+    ]
+  }
+}

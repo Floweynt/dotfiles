@@ -1,0 +1,82 @@
+{
+  "slug": "craftable-gunpowder(bonemealcharcoal)",
+  "projectId": "QSmYFnmQ",
+  "versions": {
+    "3LUSONWM": {
+      "filename": "Craftable Gunpowder.jar",
+      "url": "https://cdn.modrinth.com/data/QSmYFnmQ/versions/3LUSONWM/Craftable%20Gunpowder.jar",
+      "hash": "sha512-utxHUHT1BjWTYCuO69q+fobETb1ohuBV9v2tbwepcry/YzqZc+zLY1IKqJ6v7n80P2oGx+dSPppLa0SJJSImyA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "GllYhm3I": {
+      "filename": "Craftable Gunpowder.zip",
+      "url": "https://cdn.modrinth.com/data/QSmYFnmQ/versions/GllYhm3I/Craftable%20Gunpowder.zip",
+      "hash": "sha512-34J42n/Fe8E9Vy48IvP4VFeUhTP//5/O2wBnsWAFLDMkzNk9w34v2KgDigkZMxSjsqMF6f2eIfSrvVX2lyEW8w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "mkP4B0ca": {
+      "filename": "Craftable Gunpowder.jar",
+      "url": "https://cdn.modrinth.com/data/QSmYFnmQ/versions/mkP4B0ca/Craftable%20Gunpowder.jar",
+      "hash": "sha512-eZ0geFk9h2GN3UwVAw4kOKfXgl/0XJKO4uKJU9cFh22TNvmBZk6O1PK97wAL48gOIVp0w2IlYSW0nOMSs/xC8Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "mkP4B0ca"
+    ],
+    "1.21+forge": [
+      "mkP4B0ca"
+    ],
+    "1.21+neoforge": [
+      "mkP4B0ca"
+    ],
+    "1.21+quilt": [
+      "mkP4B0ca"
+    ],
+    "1.21.1+datapack": [
+      "GllYhm3I"
+    ],
+    "1.21.1+fabric": [
+      "mkP4B0ca",
+      "3LUSONWM"
+    ],
+    "1.21.1+forge": [
+      "mkP4B0ca"
+    ],
+    "1.21.1+neoforge": [
+      "mkP4B0ca"
+    ],
+    "1.21.1+quilt": [
+      "mkP4B0ca"
+    ]
+  }
+}

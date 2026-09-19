@@ -1,0 +1,132 @@
+{
+  "slug": "hydrophobe",
+  "projectId": "n7IQPVLy",
+  "versions": {
+    "EButnHsT": {
+      "filename": "hydrophobe-forge-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/n7IQPVLy/versions/EButnHsT/hydrophobe-forge-1.0.5.jar",
+      "hash": "sha512-Tg33MCz4iJj8UXDMqtPI/xz8IuvWtvqO5+iDvWtqVPzi4x3/pE0g6J3waZ9jIASvP00VSZmXayGvfWGSxXfF8g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "Ii5uee1w": {
+      "filename": "hydrophobe-fabric-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/n7IQPVLy/versions/Ii5uee1w/hydrophobe-fabric-1.1.5.jar",
+      "hash": "sha512-UTtkROPNWsmXAqXBOx4RaSf0Po9WAXzl3ldkCUG6U8Js0q2vb/7wXeFQYeRiUa1nn/d+kPpTOVWqm/IdgYIALw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "L1m2mwOM": {
+      "filename": "hydrophobe-forge-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/n7IQPVLy/versions/L1m2mwOM/hydrophobe-forge-1.1.5.jar",
+      "hash": "sha512-XoTxtv5u0sg9zvXNGfn7uGobM0m7/Oq2LH/warAJubWqJZZMywPZlYmnQiASj4a09J5l1ns/yegUO8wE8ZnZsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "eFgUw6M8": {
+      "filename": "hydrophobe-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/n7IQPVLy/versions/eFgUw6M8/hydrophobe-1.2.0.jar",
+      "hash": "sha512-MDPx0lOyDKHigIZPBOb2zWQsRBW2rWYQWV40f+LIo0dyZ4BfECQV8MCu2b7mqPepzGU2qfCLXGDvJIUVqZAWAg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fLWVkjtR": {
+      "filename": "hydrophobe-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/n7IQPVLy/versions/fLWVkjtR/hydrophobe-1.2.1.jar",
+      "hash": "sha512-CfhrvPXVfWY6iB5wFbonYkYlUzNM9LCjUrIB7e3lB+nU2DAaIIkXGCL2rceGKmzhAQVjvagU6uArWPDi238jVA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "j4sUqWO0": {
+      "filename": "hydrophobe-fabric-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/n7IQPVLy/versions/j4sUqWO0/hydrophobe-fabric-1.0.5.jar",
+      "hash": "sha512-9Gx9YnAmM2QoxFOooOovTCeEZV42WiTrnGPGpm5C5NjPsDDmTLnhSc5b63KJY4iVU61Fwjvvftamy1kJ+jaoCg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "j4sUqWO0"
+    ],
+    "1.19.2+forge": [
+      "EButnHsT"
+    ],
+    "1.20.1+fabric": [
+      "Ii5uee1w"
+    ],
+    "1.20.1+forge": [
+      "L1m2mwOM"
+    ],
+    "1.21+neoforge": [
+      "fLWVkjtR",
+      "eFgUw6M8"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "semperhud",
+  "projectId": "olET1hDx",
+  "versions": {
+    "4NW6H586": {
+      "filename": "semperhud-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/olET1hDx/versions/4NW6H586/semperhud-0.2.0.jar",
+      "hash": "sha512-RVvlCoTlczRkWuqgzH9MoL+oj8zz+OF+63cvJ5v/ogFwHK+h4dIm1/51lKv9Tl5v7Qp0h8FU8XD4vsorJELY+A==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qdBHCwDv": {
+      "filename": "semperhud-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/olET1hDx/versions/qdBHCwDv/semperhud-0.1.3.jar",
+      "hash": "sha512-FvBEzI821JnvGXt31dQzKx/6BpBMYtGOC+ViwOVdfkNZKwFug2t+nMkicyr/s7Fyw1LFMnM4p3p0VxX2OQOW9Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "4NW6H586"
+    ],
+    "1.19.1+fabric": [
+      "4NW6H586"
+    ],
+    "1.19.2+fabric": [
+      "4NW6H586",
+      "qdBHCwDv"
+    ]
+  }
+}

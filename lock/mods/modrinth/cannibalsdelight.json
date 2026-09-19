@@ -1,0 +1,72 @@
+{
+  "slug": "cannibalsdelight",
+  "projectId": "JDI6wqPY",
+  "versions": {
+    "4buGXfTg": {
+      "filename": "cannibalsdelight-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JDI6wqPY/versions/4buGXfTg/cannibalsdelight-1.1.0.jar",
+      "hash": "sha512-/7nuLP5QmXUKqbKbfKIxLAsByIHSYMKc5EQBQttktlj3udT60jx1Prxd6RqVE3nIqfLmIvia3TOwHSv3ADJirQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "wi8mPtyg": {
+      "filename": "cannibalsdelight-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/JDI6wqPY/versions/wi8mPtyg/cannibalsdelight-1.2.0.jar",
+      "hash": "sha512-2iUGEdG0PLMVMqv98m+JrWOxdZ/tBCxJE6eJx2WurSB4luMUJ/oXMY2CAU5bBM1bfGBP8GihcSSooTOowszp3w==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "4buGXfTg"
+    ],
+    "26.1+fabric": [
+      "wi8mPtyg"
+    ],
+    "26.1.1+fabric": [
+      "wi8mPtyg"
+    ],
+    "26.1.2+fabric": [
+      "wi8mPtyg"
+    ]
+  }
+}

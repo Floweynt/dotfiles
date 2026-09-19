@@ -1,0 +1,81 @@
+{
+  "slug": "sprout",
+  "projectId": "m7Az3ZOX",
+  "versions": {
+    "QWlveWh6": {
+      "filename": "sprout-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/m7Az3ZOX/versions/QWlveWh6/sprout-1.5.0.jar",
+      "hash": "sha512-vbWKJhxpXLTCTq7dDGR+CUeFTkIB4GKqoKiP2M86ynnAGqKIeCFuu+7I+LXjCIzBgYhI9TrGkfAvIkBH5EmfVg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "VCvH5BFd": {
+      "filename": "sprout-1.4.4-forge.jar",
+      "url": "https://cdn.modrinth.com/data/m7Az3ZOX/versions/VCvH5BFd/sprout-1.4.4-forge.jar",
+      "hash": "sha512-dtiCEe9Lrmun/vSTZQGPNC5z7qrJY2hAnvkZupE2oUcnXxnNbpMa8R68VI9zwolb72BuZIJ0hgiEUUCXNjVqOQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "YEtV6QTx": {
+      "filename": "sprout-1.4.4-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/m7Az3ZOX/versions/YEtV6QTx/sprout-1.4.4-fabric.jar",
+      "hash": "sha512-6FPQ+FX3+DLInxxuaIQxyec2qSckGJQDwHPUIHTtSaZNgidfZax8on45+GhY6rfFddn0+x6MCPKo70lkszoI0w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "YEtV6QTx"
+    ],
+    "1.19.2+forge": [
+      "VCvH5BFd"
+    ],
+    "1.20+fabric": [
+      "QWlveWh6"
+    ],
+    "1.20.1+fabric": [
+      "QWlveWh6"
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "ctov-create-structures",
+  "projectId": "l9fldtN4",
+  "versions": {
+    "HLBuQatN": {
+      "filename": "ctov-creates-structures-add-on-v1-0.zip",
+      "url": "https://cdn.modrinth.com/data/l9fldtN4/versions/HLBuQatN/ctov-creates-structures-add-on-v1-0.zip",
+      "hash": "sha512-TD1Nbud+yZdWrTJBmhrxV1QToyFKLM6MnopSW+0YCLejdXutp58m4MLUDETlDWWNHPvpZE2uPUuW2tG3LNfrpA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "ct-overhaul-village",
+          "projectId": "fgmhI8kH",
+          "type": "required"
+        },
+        {
+          "slug": "create-structures",
+          "projectId": "IAnP4np7",
+          "type": "required"
+        }
+      ]
+    },
+    "hwClzDIs": {
+      "filename": "ctov-create-structures-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/l9fldtN4/versions/hwClzDIs/ctov-create-structures-1.0.jar",
+      "hash": "sha512-EF5TrhehT5GMiPR6BGWtg28wAAc4E7VTi/m19yIEBQEG2NCBNWHEZjBtFqdrYDDBOUVDloWI2NuowZuXLpw4lQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-structures",
+          "projectId": "IAnP4np7",
+          "type": "required"
+        },
+        {
+          "slug": "ct-overhaul-village",
+          "projectId": "fgmhI8kH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "HLBuQatN"
+    ],
+    "1.20+fabric": [
+      "hwClzDIs"
+    ],
+    "1.20+forge": [
+      "hwClzDIs"
+    ],
+    "1.20+quilt": [
+      "hwClzDIs"
+    ],
+    "1.20.1+datapack": [
+      "HLBuQatN"
+    ],
+    "1.20.1+fabric": [
+      "hwClzDIs"
+    ],
+    "1.20.1+forge": [
+      "hwClzDIs"
+    ],
+    "1.20.1+quilt": [
+      "hwClzDIs"
+    ],
+    "1.20.2+datapack": [
+      "HLBuQatN"
+    ],
+    "1.20.2+fabric": [
+      "hwClzDIs"
+    ],
+    "1.20.2+forge": [
+      "hwClzDIs"
+    ],
+    "1.20.2+quilt": [
+      "hwClzDIs"
+    ]
+  }
+}

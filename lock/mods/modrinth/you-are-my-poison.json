@@ -1,0 +1,90 @@
+{
+  "slug": "you-are-my-poison",
+  "projectId": "6XSTKnYM",
+  "versions": {
+    "FHLcn1rj": {
+      "filename": "youaremypoison-1.0.1-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/6XSTKnYM/versions/FHLcn1rj/youaremypoison-1.0.1-1.20.1-fabric.jar",
+      "hash": "sha512-xPfs+RBgn7jm6lC8zerVbyPvFoT/9fM1/YxZSrDnU1EscTy0ZSYxuEFwLflEp2xoRR/7SYmuEMm6F5x661w4kA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "HcB8OMl2": {
+      "filename": "youaremypoison-1.0.1-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6XSTKnYM/versions/HcB8OMl2/youaremypoison-1.0.1-forge-1.20.1.jar",
+      "hash": "sha512-CzVTSytv37zthvxhss2tf/xYkKse1uGdCYhe3C5ltIcz7MBrovEB0ZYykIvbskWzfStMjZF3jjQ82iIepA6qEw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "O8KJ97YH": {
+      "filename": "youaremypoison-1.0.0-FORGE-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6XSTKnYM/versions/O8KJ97YH/youaremypoison-1.0.0-FORGE-1.20.1.jar",
+      "hash": "sha512-PukUgxH9VQ7dFIDQ6hl7HYsGCl11KxkTu59NKpHhKFCeYd5l+LKn6dr3sBkI1L8GSmR+PEbWD/LGHJisCVo4iQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "njPLYYmb": {
+      "filename": "youaremypoison-1.0.0-FABRIC-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6XSTKnYM/versions/njPLYYmb/youaremypoison-1.0.0-FABRIC-1.20.1.jar",
+      "hash": "sha512-KNDDQ9hseUHztOx9hG4YWfO3H4umR7UARRTxZVo5YC3GQXU3GXgtpNdaVHNVSU15gEkg8hmxn4Gw5Y4Joe7oMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FHLcn1rj",
+      "njPLYYmb"
+    ],
+    "1.20.1+forge": [
+      "HcB8OMl2",
+      "O8KJ97YH"
+    ],
+    "1.20.2+forge": [
+      "HcB8OMl2"
+    ],
+    "1.20.3+forge": [
+      "HcB8OMl2"
+    ],
+    "1.20.4+forge": [
+      "HcB8OMl2"
+    ]
+  }
+}

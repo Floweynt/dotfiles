@@ -1,0 +1,58 @@
+{
+  "slug": "goc",
+  "projectId": "jLPg3uy6",
+  "versions": {
+    "5IPxvVQS": {
+      "filename": "Good ol' commands.jar",
+      "url": "https://cdn.modrinth.com/data/jLPg3uy6/versions/5IPxvVQS/Good%20ol%27%20commands.jar",
+      "hash": "sha512-LPFyhWvaZYTD7/QhnIITQgkZviqd6E7Wi1qMe05dt9dSDv9/mWljVWR3yevS0DbhsDcZIPC8KDikg3dvvhZTFg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bkcXaCBj": {
+      "filename": "Good ol' commands.jar",
+      "url": "https://cdn.modrinth.com/data/jLPg3uy6/versions/bkcXaCBj/Good%20ol%27%20commands.jar",
+      "hash": "sha512-Wzk+Q0DRbMui7RxoCVYHvzEbiYBCflV4Nn5t2GjkBlLh9V29hCbJMOgZ6CipD9WGB+K8lckNML0bhZqmqZqkeQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "5IPxvVQS",
+      "bkcXaCBj"
+    ],
+    "1.20.1+fabric": [
+      "5IPxvVQS",
+      "bkcXaCBj"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "slug": "kowo-lib",
+  "projectId": "rDufDd8o",
+  "versions": {
+    "IjhGBqiV": {
+      "filename": "kowo-0.12.20b+1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/rDufDd8o/versions/IjhGBqiV/kowo-0.12.20b%2B1.21.5.jar",
+      "hash": "sha512-lmgD7m0zfPWLWmXSrNJ5smw12xrk3a7s6CzQPBcTp5vYqXAVs+UoWqGerb5kIvCNoja9kt+PscV2LDOJfYWQCQ==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "UFIwbOat": {
+      "filename": "kowo-lib-0.12.8+1.20.5.jar",
+      "url": "https://cdn.modrinth.com/data/rDufDd8o/versions/UFIwbOat/kowo-lib-0.12.8%2B1.20.5.jar",
+      "hash": "sha512-BXVKVxbWlcHaua6blYkBuGqZCzRs8yUTL9W+sk6jO5APc1TOYFanQ8QGGDQUOVmC/DObA93x56S4v+j1id++Tg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZF5pQIlI": {
+      "filename": "kowo-lib-0.12.10+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/rDufDd8o/versions/ZF5pQIlI/kowo-lib-0.12.10%2B1.21.jar",
+      "hash": "sha512-PQfruhA25c9fTN0pcYZRhsixapICIGehWMmgyUWw5nZvVHNz9LyffnpYahCfLdqP93OpKT7kqw+FDL6GSOhy8A==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "ZnhhpEFE": {
+      "filename": "kowo-0.12.20+1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/rDufDd8o/versions/ZnhhpEFE/kowo-0.12.20%2B1.21.5.jar",
+      "hash": "sha512-7ip7CAYcu8yXCTbbZjHbiVYVZlRUZdRkoints2KMMmmG8JFdz/ALSyLkeNDxFpij5TWpZbL3nB+tBqOiQJf0sg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.5+fabric": [
+      "UFIwbOat"
+    ],
+    "1.20.5+quilt": [
+      "UFIwbOat"
+    ],
+    "1.20.6+fabric": [
+      "UFIwbOat"
+    ],
+    "1.20.6+quilt": [
+      "UFIwbOat"
+    ],
+    "1.21+fabric": [
+      "ZF5pQIlI"
+    ],
+    "1.21+quilt": [
+      "ZF5pQIlI"
+    ],
+    "1.21.5+fabric": [
+      "IjhGBqiV",
+      "ZnhhpEFE"
+    ],
+    "1.21.5+quilt": [
+      "IjhGBqiV",
+      "ZnhhpEFE"
+    ],
+    "1.21.6+fabric": [
+      "IjhGBqiV"
+    ],
+    "1.21.6+quilt": [
+      "IjhGBqiV"
+    ],
+    "1.21.7+fabric": [
+      "IjhGBqiV"
+    ],
+    "1.21.7+quilt": [
+      "IjhGBqiV"
+    ],
+    "1.21.8+fabric": [
+      "IjhGBqiV"
+    ],
+    "1.21.8+quilt": [
+      "IjhGBqiV"
+    ]
+  }
+}

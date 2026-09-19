@@ -1,0 +1,54 @@
+{
+  "slug": "barrel-bombs",
+  "projectId": "UwgrBa9Y",
+  "versions": {
+    "K7Y1OxZT": {
+      "filename": "barrel_bombs-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UwgrBa9Y/versions/K7Y1OxZT/barrel_bombs-forge-1.0.0.jar",
+      "hash": "sha512-101lKI0i7oft+X1iWwdLvtdgohWjh6qHc1krEv9v1V8tR3Qf9eecUdEG5f/N9YvCyYgQ25tJ1r8xPuuvLse8Zw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "O0YAJDmH": {
+      "filename": "barrel_bombs-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UwgrBa9Y/versions/O0YAJDmH/barrel_bombs-fabric-1.0.0.jar",
+      "hash": "sha512-wZZ53D0UIRxabgEHtxj064KnOtdVC8ZkObcyWyJiudll0D59pkL16Pydme/+XBKJSsmvfac81/OvlVPQsRWe7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "O0YAJDmH"
+    ],
+    "1.20.1+forge": [
+      "K7Y1OxZT"
+    ]
+  }
+}

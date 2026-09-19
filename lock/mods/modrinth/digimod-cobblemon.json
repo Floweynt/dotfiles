@@ -1,0 +1,98 @@
+{
+  "slug": "digimod-cobblemon",
+  "projectId": "dYhF7GFb",
+  "versions": {
+    "IInvZfaJ": {
+      "filename": "digimodcobblemon-1.3+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dYhF7GFb/versions/IInvZfaJ/digimodcobblemon-1.3%2B1.21.1.jar",
+      "hash": "sha512-RTJl214Ss8c3bVrKWFTGt8NohPsYVt1F4jhNcsa/SPFfBJaKK5AJQgO0saXoMBHJRx4+zWyBUWLUWwtn+F+k1A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "nhMlPIR5": {
+      "filename": "digimodcobblemon-1.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dYhF7GFb/versions/nhMlPIR5/digimodcobblemon-1.2%2B1.20.1.jar",
+      "hash": "sha512-DnBj1WzbfLIV8GALrrDE/N9mNfznoFIUi0Z7tK0/eihhGHupL2cNrOU5zaLQfiYv8r0fazyoqJzeYf6UuTmf8Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rjzX3fFr": {
+      "filename": "digimodcobblemon-1.3+1.21.1[Fabric].jar",
+      "url": "https://cdn.modrinth.com/data/dYhF7GFb/versions/rjzX3fFr/digimodcobblemon-1.3%2B1.21.1%5BFabric%5D.jar",
+      "hash": "sha512-GZHXe3SwJCLkLKPnDX0ULyz9WwdME5QMjWjsm3YEvL4hWnPfbwW7d73OqLda5WUcKruqN+Vved0opjggSVmOnQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "yS4kPWtk": {
+      "filename": "digimodcobblemon-1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dYhF7GFb/versions/yS4kPWtk/digimodcobblemon-1.1%2B1.20.1.jar",
+      "hash": "sha512-WicHNaCFQrLVRKMsfTpQGuENyP+3qj+7mRwmcd25jnigKxovZJbfdBe0lNd6geL5TsU+1fp73Sdk88XOyHH8ow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "nhMlPIR5",
+      "yS4kPWtk"
+    ],
+    "1.20.1+neoforge": [
+      "nhMlPIR5",
+      "yS4kPWtk"
+    ],
+    "1.21.1+fabric": [
+      "rjzX3fFr"
+    ],
+    "1.21.1+neoforge": [
+      "IInvZfaJ"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "chatheads",
+  "projectId": "dA3tSDmV",
+  "versions": {
+    "YlrZzCaT": {
+      "filename": "ChatHeads-1.5-MC1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/dA3tSDmV/versions/YlrZzCaT/ChatHeads-1.5-MC1.19.4.jar",
+      "hash": "sha512-vkBgHsT4PVdakyA4+oSMnNTu5TDdvcKWcyin4byXD9P8B3af6BYIPhEkl7irAcZAPhKtlr1jbG4SzQjV6dCnNg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "YlrZzCaT"
+    ]
+  }
+}

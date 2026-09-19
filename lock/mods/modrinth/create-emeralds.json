@@ -1,0 +1,409 @@
+{
+  "slug": "create-emeralds",
+  "projectId": "pk44WkA1",
+  "versions": {
+    "MZimsvYS": {
+      "filename": "CreateEnhancedEmeralds.zip",
+      "url": "https://cdn.modrinth.com/data/pk44WkA1/versions/MZimsvYS/CreateEnhancedEmeralds.zip",
+      "hash": "sha512-UEzaF5JN5IoJbi4HakZlxCuhc0RNC7mCKfX2qn7RY34BH8McNLKYMN40M7FJwT/yVU/dANb9OWw3nbY/rQqWpQ==",
+      "gameVersions": [
+        "1.16.4",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.21.1",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "x9Mssq76": {
+      "filename": "create-emeralds-RTM.jar",
+      "url": "https://cdn.modrinth.com/data/pk44WkA1/versions/x9Mssq76/create-emeralds-RTM.jar",
+      "hash": "sha512-ao34as+UEyQnlXu21Yr0IkgrK2nFOpNCxFD6uXECp5F3bKCU4lMLLbKR6JaFZWcXND6F2/+8l47R93ZGavyDGg==",
+      "gameVersions": [
+        "1.16.4",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.21.1",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.4+datapack": [
+      "MZimsvYS"
+    ],
+    "1.16.4+fabric": [
+      "x9Mssq76"
+    ],
+    "1.16.4+forge": [
+      "x9Mssq76"
+    ],
+    "1.16.4+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.16.4+quilt": [
+      "x9Mssq76"
+    ],
+    "1.17+datapack": [
+      "MZimsvYS"
+    ],
+    "1.17+fabric": [
+      "x9Mssq76"
+    ],
+    "1.17+forge": [
+      "x9Mssq76"
+    ],
+    "1.17+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.17+quilt": [
+      "x9Mssq76"
+    ],
+    "1.17.1+datapack": [
+      "MZimsvYS"
+    ],
+    "1.17.1+fabric": [
+      "x9Mssq76"
+    ],
+    "1.17.1+forge": [
+      "x9Mssq76"
+    ],
+    "1.17.1+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.17.1+quilt": [
+      "x9Mssq76"
+    ],
+    "1.18+datapack": [
+      "MZimsvYS"
+    ],
+    "1.18+fabric": [
+      "x9Mssq76"
+    ],
+    "1.18+forge": [
+      "x9Mssq76"
+    ],
+    "1.18+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.18+quilt": [
+      "x9Mssq76"
+    ],
+    "1.18.1+datapack": [
+      "MZimsvYS"
+    ],
+    "1.18.1+fabric": [
+      "x9Mssq76"
+    ],
+    "1.18.1+forge": [
+      "x9Mssq76"
+    ],
+    "1.18.1+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.18.1+quilt": [
+      "x9Mssq76"
+    ],
+    "1.18.2+datapack": [
+      "MZimsvYS"
+    ],
+    "1.18.2+fabric": [
+      "x9Mssq76"
+    ],
+    "1.18.2+forge": [
+      "x9Mssq76"
+    ],
+    "1.18.2+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.18.2+quilt": [
+      "x9Mssq76"
+    ],
+    "1.19+datapack": [
+      "MZimsvYS"
+    ],
+    "1.19+fabric": [
+      "x9Mssq76"
+    ],
+    "1.19+forge": [
+      "x9Mssq76"
+    ],
+    "1.19+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.19+quilt": [
+      "x9Mssq76"
+    ],
+    "1.19.1+datapack": [
+      "MZimsvYS"
+    ],
+    "1.19.1+fabric": [
+      "x9Mssq76"
+    ],
+    "1.19.1+forge": [
+      "x9Mssq76"
+    ],
+    "1.19.1+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.19.1+quilt": [
+      "x9Mssq76"
+    ],
+    "1.19.2+datapack": [
+      "MZimsvYS"
+    ],
+    "1.19.2+fabric": [
+      "x9Mssq76"
+    ],
+    "1.19.2+forge": [
+      "x9Mssq76"
+    ],
+    "1.19.2+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.19.2+quilt": [
+      "x9Mssq76"
+    ],
+    "1.19.3+datapack": [
+      "MZimsvYS"
+    ],
+    "1.19.3+fabric": [
+      "x9Mssq76"
+    ],
+    "1.19.3+forge": [
+      "x9Mssq76"
+    ],
+    "1.19.3+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.19.3+quilt": [
+      "x9Mssq76"
+    ],
+    "1.19.4+datapack": [
+      "MZimsvYS"
+    ],
+    "1.19.4+fabric": [
+      "x9Mssq76"
+    ],
+    "1.19.4+forge": [
+      "x9Mssq76"
+    ],
+    "1.19.4+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.19.4+quilt": [
+      "x9Mssq76"
+    ],
+    "1.20+datapack": [
+      "MZimsvYS"
+    ],
+    "1.20+fabric": [
+      "x9Mssq76"
+    ],
+    "1.20+forge": [
+      "x9Mssq76"
+    ],
+    "1.20+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.20+quilt": [
+      "x9Mssq76"
+    ],
+    "1.20.1+datapack": [
+      "MZimsvYS"
+    ],
+    "1.20.1+fabric": [
+      "x9Mssq76"
+    ],
+    "1.20.1+forge": [
+      "x9Mssq76"
+    ],
+    "1.20.1+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.20.1+quilt": [
+      "x9Mssq76"
+    ],
+    "1.21.1+datapack": [
+      "MZimsvYS"
+    ],
+    "1.21.1+fabric": [
+      "x9Mssq76"
+    ],
+    "1.21.1+forge": [
+      "x9Mssq76"
+    ],
+    "1.21.1+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.21.1+quilt": [
+      "x9Mssq76"
+    ],
+    "1.21.10+datapack": [
+      "MZimsvYS"
+    ],
+    "1.21.10+fabric": [
+      "x9Mssq76"
+    ],
+    "1.21.10+forge": [
+      "x9Mssq76"
+    ],
+    "1.21.10+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.21.10+quilt": [
+      "x9Mssq76"
+    ],
+    "1.21.11+datapack": [
+      "MZimsvYS"
+    ],
+    "1.21.11+fabric": [
+      "x9Mssq76"
+    ],
+    "1.21.11+forge": [
+      "x9Mssq76"
+    ],
+    "1.21.11+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.21.11+quilt": [
+      "x9Mssq76"
+    ],
+    "1.21.8+datapack": [
+      "MZimsvYS"
+    ],
+    "1.21.8+fabric": [
+      "x9Mssq76"
+    ],
+    "1.21.8+forge": [
+      "x9Mssq76"
+    ],
+    "1.21.8+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.21.8+quilt": [
+      "x9Mssq76"
+    ],
+    "1.21.9+datapack": [
+      "MZimsvYS"
+    ],
+    "1.21.9+fabric": [
+      "x9Mssq76"
+    ],
+    "1.21.9+forge": [
+      "x9Mssq76"
+    ],
+    "1.21.9+neoforge": [
+      "x9Mssq76"
+    ],
+    "1.21.9+quilt": [
+      "x9Mssq76"
+    ],
+    "26.1.2+datapack": [
+      "MZimsvYS"
+    ],
+    "26.1.2+fabric": [
+      "x9Mssq76"
+    ],
+    "26.1.2+forge": [
+      "x9Mssq76"
+    ],
+    "26.1.2+neoforge": [
+      "x9Mssq76"
+    ],
+    "26.1.2+quilt": [
+      "x9Mssq76"
+    ],
+    "26.2+datapack": [
+      "MZimsvYS"
+    ],
+    "26.2+fabric": [
+      "x9Mssq76"
+    ],
+    "26.2+forge": [
+      "x9Mssq76"
+    ],
+    "26.2+neoforge": [
+      "x9Mssq76"
+    ],
+    "26.2+quilt": [
+      "x9Mssq76"
+    ]
+  }
+}

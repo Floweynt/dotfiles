@@ -1,0 +1,114 @@
+{
+  "slug": "playerhealthindicatorplus",
+  "projectId": "xJbFsSuk",
+  "versions": {
+    "TXx75sgV": {
+      "filename": "PlayerIndicatorPlus-1.0.3-26.2.jar",
+      "url": "https://cdn.modrinth.com/data/xJbFsSuk/versions/TXx75sgV/PlayerIndicatorPlus-1.0.3-26.2.jar",
+      "hash": "sha512-+gEiBj+YhN5e9eCsSS49G+BcAEaqRLW+B7uZe/R8AlMMqM8xqUQc63Khn6cleco5AhdI8MmehYIQCXiESpRfQg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XCCXONTk": {
+      "filename": "PlayerIndicatorPlus-1.0.2-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/xJbFsSuk/versions/XCCXONTk/PlayerIndicatorPlus-1.0.2-26.1.jar",
+      "hash": "sha512-L64jG1pddUNj1xMLIhhBApvGOugSyLwdcdeajpGSi923De5sCTWff95b6wWsAfGBsEQOg13IoTGljJdsjQt3NQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "byEMX140": {
+      "filename": "PlayerIndicatorPlus-1.0.0,1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/xJbFsSuk/versions/byEMX140/PlayerIndicatorPlus-1.0.0%2C1.21.11.jar",
+      "hash": "sha512-T9mmSZfaPB+SK87/RMUUu+w/ab5ISVZQ1G8tClommEUDFnAC0dmTbCVt7KdpPeoYNwdLCpHYNFyZ0RflSwWMdw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qLQ0JM2g": {
+      "filename": "PlayerIndicatorPlus-1.0.1-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/xJbFsSuk/versions/qLQ0JM2g/PlayerIndicatorPlus-1.0.1-26.1.jar",
+      "hash": "sha512-dnX9MO1pXTkLhgTJ7ocbBh2xo0uezIy5WITyUbYFk6dopaD6asPZvoeBWnMeGZhTiTAZSVJ9y7nvb82vnk/RqA==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "byEMX140"
+    ],
+    "1.21.11+quilt": [
+      "byEMX140"
+    ],
+    "26.1+fabric": [
+      "XCCXONTk",
+      "qLQ0JM2g"
+    ],
+    "26.1+quilt": [
+      "XCCXONTk",
+      "qLQ0JM2g"
+    ],
+    "26.1.1+fabric": [
+      "XCCXONTk"
+    ],
+    "26.1.1+quilt": [
+      "XCCXONTk"
+    ],
+    "26.1.2+fabric": [
+      "XCCXONTk"
+    ],
+    "26.1.2+quilt": [
+      "XCCXONTk"
+    ],
+    "26.2+fabric": [
+      "TXx75sgV"
+    ],
+    "26.2+quilt": [
+      "TXx75sgV"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "totem-overhall",
+  "projectId": "zK2wehNS",
+  "versions": {
+    "5lJKalOO": {
+      "filename": "totem-plus-26.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zK2wehNS/versions/5lJKalOO/totem-plus-26.2-1.0.0.jar",
+      "hash": "sha512-JnwEuZ6b61NeH3hhvLB2vs00Sj5t2YF31qyaWZrFdrw9gO8YHxK+GhZgRvvNbPfkezLW+0qTRXFsFutNTzGlIQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "qalHXoAH": {
+      "filename": "Totem Overhall 1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zK2wehNS/versions/qalHXoAH/Totem%20Overhall%201.0.jar",
+      "hash": "sha512-EbwDYl2AYVZGxQK76TfJQe8Ixs0A4LU2oU+hV1TCBEEM4fcl0X7EhLnnyftFbgVGUTUmxiuLTUXSBLHzY81uHA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "qalHXoAH"
+    ],
+    "1.21.11+fabric": [
+      "qalHXoAH"
+    ],
+    "26.2+fabric": [
+      "5lJKalOO"
+    ]
+  }
+}

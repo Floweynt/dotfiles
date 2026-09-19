@@ -1,0 +1,99 @@
+{
+  "slug": "horizon-fix",
+  "projectId": "k2uMwHtz",
+  "versions": {
+    "BFTyLnwF": {
+      "filename": "horizon-fix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/k2uMwHtz/versions/BFTyLnwF/horizon-fix-1.0.0.jar",
+      "hash": "sha512-AxLJmbByWoWt2KRKz97TqAM8K1l63jgM/yUnZpKr1CiM2Cx6k+AfsChTV6BP/9uW17eeneQvcsQz5fRockTxpA==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XoZ9SrBl": {
+      "filename": "horizon-fix-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/k2uMwHtz/versions/XoZ9SrBl/horizon-fix-1.0.2.jar",
+      "hash": "sha512-QHygw2kjYDha29VXD30c14eKwlH+inmvFYrA1l5J2kAD/o32O/cyW/NpMkzyzuIKOraOydYwTNuy7Q9OoOCxSg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZrczeVVF": {
+      "filename": "horizon-fix-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/k2uMwHtz/versions/ZrczeVVF/horizon-fix-1.0.1.jar",
+      "hash": "sha512-NsyqphM7T5XDUzOMnDA0LIigxK3SGhi37MagRnyEjfVY95EE/AiX8/BOK3WU8ucKq8N0U6QHLclS9Xr8R/sJlw==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "XoZ9SrBl"
+    ],
+    "1.21.11+fabric": [
+      "XoZ9SrBl"
+    ],
+    "1.21.4+fabric": [
+      "BFTyLnwF"
+    ],
+    "1.21.5+fabric": [
+      "BFTyLnwF"
+    ],
+    "1.21.6+fabric": [
+      "BFTyLnwF"
+    ],
+    "1.21.7+fabric": [
+      "BFTyLnwF"
+    ],
+    "1.21.8+fabric": [
+      "BFTyLnwF"
+    ],
+    "1.21.9+fabric": [
+      "XoZ9SrBl",
+      "ZrczeVVF"
+    ]
+  }
+}

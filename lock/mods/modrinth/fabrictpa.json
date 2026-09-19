@@ -1,0 +1,81 @@
+{
+  "slug": "fabrictpa",
+  "projectId": "VWgEMCCl",
+  "versions": {
+    "AEQZKNfD": {
+      "filename": "FabricTPA-3.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/VWgEMCCl/versions/v3.1.1/FabricTPA-3.1.1.jar",
+      "hash": "sha512-FA35Q00xwO127FwneVMjk6TML0BRq0Un6izBX61BmnJG45ST7Uk5sUAIlXMT1T0o0Nn2ryxEO31dd26BS10JSg==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "UDBFjCw1": {
+      "filename": "FabricTPA-3.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/VWgEMCCl/versions/3.2.1/FabricTPA-3.2.1.jar",
+      "hash": "sha512-N68qGczKeReI5qhWfvZtpzJf5iE/RtMbzlfIrtMnpqzP53S8gU2h6RCW11qbgXegW2xASzava3PgMjGIHgDUxQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "mR0VjQCr": {
+      "filename": "FabricTPA-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/VWgEMCCl/versions/3.2.0/FabricTPA-3.2.0.jar",
+      "hash": "sha512-f+OB4AD4wJ2Zrr4nmDMh+u8Smw0O6Ei7wtB4338bxOD9YS9eUiLpRJSQYmv0g8g4IGv3hM8IzZhP0MuCk95ZZQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "AEQZKNfD"
+    ],
+    "1.18.1+fabric": [
+      "AEQZKNfD"
+    ],
+    "1.19+fabric": [
+      "UDBFjCw1",
+      "mR0VjQCr"
+    ],
+    "1.19+quilt": [
+      "UDBFjCw1",
+      "mR0VjQCr"
+    ],
+    "1.19.1+fabric": [
+      "UDBFjCw1"
+    ],
+    "1.19.1+quilt": [
+      "UDBFjCw1"
+    ],
+    "1.19.2+fabric": [
+      "UDBFjCw1"
+    ],
+    "1.19.2+quilt": [
+      "UDBFjCw1"
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "create-bigger-storage",
+  "projectId": "6TmBmVOK",
+  "versions": {
+    "82RRaZEj": {
+      "filename": "Create-Better-Storages-1.20.1-1.0a.Release.jar",
+      "url": "https://cdn.modrinth.com/data/6TmBmVOK/versions/82RRaZEj/Create-Better-Storages-1.20.1-1.0a.Release.jar",
+      "hash": "sha512-2A97ZvrE2duZS7ac8lFtUk+dagL00Oz9VsGp6Xl3+3eaUYKgg//V6k4LGIhtO4zRsk90cuhUkw/dEn8mlF11qQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "RBnOsKvv": {
+      "filename": "Create-Better-Storages-Forge-1.20.1-1.0b.Release.jar",
+      "url": "https://cdn.modrinth.com/data/6TmBmVOK/versions/RBnOsKvv/Create-Better-Storages-Forge-1.20.1-1.0b.Release.jar",
+      "hash": "sha512-VlHdwIHlUTkEbWSdQYTZidAZCA3xgV+wX5uONIfnVYIi6a+JWM2WBRbP2JguRYRFOgsqo+bwz7kli72ljAlxrw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "l8L0yA05": {
+      "filename": "Create-Better-Storages-Fabric-1.20.1-1.0b.Release.jar",
+      "url": "https://cdn.modrinth.com/data/6TmBmVOK/versions/l8L0yA05/Create-Better-Storages-Fabric-1.20.1-1.0b.Release.jar",
+      "hash": "sha512-G9Ilvl0hCpCceglms9JljiYWWPl2JTKMRLtv30j+TU+qy0hUyHLEcZS/HPtespGwA2hTscNxeBPD8Wnu7UkkeQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "snPiIYcu": {
+      "filename": "Create-Better-Storages-1.20.1-1.0a.Release.jar",
+      "url": "https://cdn.modrinth.com/data/6TmBmVOK/versions/snPiIYcu/Create-Better-Storages-1.20.1-1.0a.Release.jar",
+      "hash": "sha512-f0LhTc9J0BpmSf1B9M7b8C++yep1+/paBEyNc6X9MvWPpxQLtKXm0PuKJc/MA+9WBaFPF5XiWXj5y2Wta2Jp2A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "l8L0yA05",
+      "82RRaZEj"
+    ],
+    "1.20.1+forge": [
+      "RBnOsKvv",
+      "snPiIYcu"
+    ],
+    "1.20.1+neoforge": [
+      "RBnOsKvv",
+      "snPiIYcu"
+    ],
+    "1.20.1+quilt": [
+      "l8L0yA05",
+      "82RRaZEj"
+    ]
+  }
+}

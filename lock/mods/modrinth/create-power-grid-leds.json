@@ -1,0 +1,79 @@
+{
+  "slug": "create-power-grid-leds",
+  "projectId": "JwbLciXQ",
+  "versions": {
+    "FAnuRzEA": {
+      "filename": "powergrid_leds-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JwbLciXQ/versions/FAnuRzEA/powergrid_leds-fabric-0.1.0.jar",
+      "hash": "sha512-50B1zCswduckj0wOHipa7XuOesEDomaYoj1E643mL76ARj02P6VeknMgAspYNeo5w+TWeobs2245vXJUv/Syeg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "power-grid",
+          "projectId": "eWiBLJ9R",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "GlI3AHq2": {
+      "filename": "powergrid_leds-forge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JwbLciXQ/versions/GlI3AHq2/powergrid_leds-forge-0.1.0.jar",
+      "hash": "sha512-KbKWzRyunMQG/p6qstgp1uPOd7RGNhTT3KlDVkC1kE/A5xqjUdhfZrOmVCSdBvE1PbcFjQUXPbN23re0sr1XDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "power-grid",
+          "projectId": "eWiBLJ9R",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FAnuRzEA"
+    ],
+    "1.20.1+forge": [
+      "GlI3AHq2"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "advancementsplus",
+  "projectId": "IxflOLbY",
+  "versions": {
+    "6LXHg307": {
+      "filename": "ADV+-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/IxflOLbY/versions/6LXHg307/ADV%2B-1.20.1-1.0.2.jar",
+      "hash": "sha512-zph6QBQA+00d2onY8E3+x1OtTd/CnDkaaLHzCAv5VywZH8AW0nw+pc7YTG+KNEmpaiGLtkqM8Wf2jSlH41jFCA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PXMH8w6B": {
+      "filename": "AP-V1.0.1-(1.20.1).jar",
+      "url": "https://cdn.modrinth.com/data/IxflOLbY/versions/PXMH8w6B/AP-V1.0.1-%281.20.1%29.jar",
+      "hash": "sha512-6A0ub1z8HpSxs+y8AVVACS/CWPLrUiLF2rkr1dRkJrOx62p47wN6NG+bOyr2E9r7szFKFRxm3/5lI19RR1wijg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "6LXHg307"
+    ],
+    "1.20.1+fabric": [
+      "6LXHg307",
+      "PXMH8w6B"
+    ],
+    "1.20.2+fabric": [
+      "6LXHg307"
+    ],
+    "1.20.3+fabric": [
+      "6LXHg307"
+    ],
+    "1.20.4+fabric": [
+      "6LXHg307"
+    ]
+  }
+}

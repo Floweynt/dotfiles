@@ -1,0 +1,133 @@
+{
+  "slug": "saltbrush",
+  "projectId": "6PwItBMj",
+  "versions": {
+    "5Ujnhf6R": {
+      "filename": "saltbrush-1.1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/6PwItBMj/versions/5Ujnhf6R/saltbrush-1.1.0%2B1.21.1.jar",
+      "hash": "sha512-HXlAsaICZ04HIomkl5R0oyi6Xs1QUB6ddmFyzdRRulq6rH81sTBInojVfXy5Qvw8PnvvYQa+H4YWPdavIbpdbg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "USaFCw58": {
+      "filename": "saltbrush-1.2.0+1.21.2.jar",
+      "url": "https://cdn.modrinth.com/data/6PwItBMj/versions/USaFCw58/saltbrush-1.2.0%2B1.21.2.jar",
+      "hash": "sha512-paHDId1GaW/DmeWMErdS4sZSmUC24Yb8Yu4TXO/WA36QXbte5TADob9umiOfNVSozmnekqhcfmh8QVcpX6oJxQ==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "cdyxbKgQ": {
+      "filename": "saltbrush-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/6PwItBMj/versions/cdyxbKgQ/saltbrush-1.0.0%2B1.21.jar",
+      "hash": "sha512-i5QfrqEyySgrKAV2OjobUImPESJUiEF/IYiZmzoFh9Q/6TM07ARzJxAnpswvikEurKVlM+mOsEndlbUyTviDKQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "f32DtS4k": {
+      "filename": "saltbrush-1.2.1+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/6PwItBMj/versions/f32DtS4k/saltbrush-1.2.1%2B1.21.3.jar",
+      "hash": "sha512-7cGS47rCzMgf7L1VJcTeO1u7nm6l17ir+KeSRwzEsp7u/pcMfKJ6uYbL73Kmwnh42OfobJ/YjQhaVwWcKAfInQ==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+quilt": [
+      "cdyxbKgQ"
+    ],
+    "1.21.1+fabric": [
+      "5Ujnhf6R"
+    ],
+    "1.21.1+quilt": [
+      "5Ujnhf6R"
+    ],
+    "1.21.2+fabric": [
+      "USaFCw58"
+    ],
+    "1.21.2+quilt": [
+      "USaFCw58"
+    ],
+    "1.21.3+fabric": [
+      "f32DtS4k",
+      "USaFCw58"
+    ],
+    "1.21.3+quilt": [
+      "USaFCw58"
+    ]
+  }
+}

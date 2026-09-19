@@ -1,0 +1,91 @@
+{
+  "slug": "mace-aim",
+  "projectId": "tRaHQkmI",
+  "versions": {
+    "HDCVi15q": {
+      "filename": "mace-helper-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tRaHQkmI/versions/HDCVi15q/mace-helper-1.0.0.jar",
+      "hash": "sha512-+DSdUSr7snlv+WVS+nxa8ZnYGauSuZFp0RfWS732NhajAjKcjpQs0mBaedxhFcEtumE6AJeSLA46F3JsoxdJ8w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KdxtBmi7": {
+      "filename": "Mace Helper.jar",
+      "url": "https://cdn.modrinth.com/data/tRaHQkmI/versions/KdxtBmi7/Mace%20Helper.jar",
+      "hash": "sha512-mjTst0VCpZRIBYdSPRBPqKS6TiPoapVtnTkY0h6oj1C2TWnA7jPBtt3rIXHxelJV8AlVq7A2Jh7U4X5b2Ow4yg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XpZVcWPz": {
+      "filename": "mace-helper-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tRaHQkmI/versions/XpZVcWPz/mace-helper-1.0.0.jar",
+      "hash": "sha512-f9an22q4Av+YCcfaNUfF8SGX90HeJoiWQxhPSGZOVSnGqFTvEMMmOy1AYIrC1thlDdwjwQG54txnJqwrB1yaFQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "oFIjvVDE": {
+      "filename": "Macehelper+sword mode.jar",
+      "url": "https://cdn.modrinth.com/data/tRaHQkmI/versions/oFIjvVDE/Macehelper%2Bsword%20mode.jar",
+      "hash": "sha512-3eOo6m3EUWNrZm/Xy9gt+fMJYmW+iLghSp+ujfoyT3G+g7/sxglGAm8q9xfs3osN1qsacpwgCr8NQWn+v8YqXw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "KdxtBmi7"
+    ],
+    "1.21.11+fabric": [
+      "oFIjvVDE",
+      "HDCVi15q"
+    ],
+    "1.21.8+fabric": [
+      "XpZVcWPz"
+    ]
+  }
+}

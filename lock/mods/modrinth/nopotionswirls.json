@@ -1,0 +1,123 @@
+{
+  "slug": "nopotionswirls",
+  "projectId": "Y6qNq53P",
+  "versions": {
+    "BRhTIA3s": {
+      "filename": "nopotionswirls-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Y6qNq53P/versions/BRhTIA3s/nopotionswirls-1.0.2.jar",
+      "hash": "sha512-Z5mhSpB3vevkIffRNt8f/5ddnf0K0eZF7+M4qe2Oy4yLQqyxyEKDrUrc3N+51u5eAVWXOTbHperbUriHS6Pc6Q==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "brewerylib",
+          "projectId": "7g6ucdsG",
+          "type": "required"
+        }
+      ]
+    },
+    "FTCkMlVb": {
+      "filename": "nopotionswirls-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Y6qNq53P/versions/FTCkMlVb/nopotionswirls-1.0.0.jar",
+      "hash": "sha512-2D+GjrJtJkmIxd8TtRl6/Cj0KU3MQykec9at5CwOYkmfjS2nrl8SGihU4kOifSsQgrn00tmLWUuJGPrycn+eJg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "brewerylib",
+          "projectId": "7g6ucdsG",
+          "type": "required"
+        }
+      ]
+    },
+    "TYGlUYjd": {
+      "filename": "nopotionswirls-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Y6qNq53P/versions/TYGlUYjd/nopotionswirls-1.0.1.jar",
+      "hash": "sha512-6FPp7cKgIe3mSKuHqGgUtXkEdaHSJehZxBLIxXDikUYqE8rrw88ppM+lomMtlVeZziI/y1ikTDJnWEA0z/xHzg==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "e2zcLUiy": {
+      "filename": "nopotionswirls-1.0.0-1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/Y6qNq53P/versions/e2zcLUiy/nopotionswirls-1.0.0-1.21.9.jar",
+      "hash": "sha512-VnNt3rasJvMw7UDsmYYfQ0x1f6GPwA2MNFDWHPFpNBkJLLFNlwh/sILHKKssa6SEXkjDAaXowr6jW67l+cJ+tA==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "brewerylib",
+          "projectId": "7g6ucdsG",
+          "type": "required"
+        }
+      ]
+    },
+    "tAiBLQKe": {
+      "filename": "nopotionswirls-1.0.0-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/Y6qNq53P/versions/tAiBLQKe/nopotionswirls-1.0.0-1.21.10.jar",
+      "hash": "sha512-vOkfUvPO8qv/HMqpARIAifOWdamuNu8Aprg2W3FPsnaOraLQZjZw5EVtV3sTxk2kAUuDIcMc/yASl2QaxTWOpQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "brewerylib",
+          "projectId": "7g6ucdsG",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "TYGlUYjd",
+      "tAiBLQKe"
+    ],
+    "1.21.11+fabric": [
+      "TYGlUYjd"
+    ],
+    "1.21.8+fabric": [
+      "TYGlUYjd",
+      "FTCkMlVb"
+    ],
+    "1.21.9+fabric": [
+      "TYGlUYjd",
+      "e2zcLUiy"
+    ],
+    "26.2+fabric": [
+      "BRhTIA3s"
+    ]
+  }
+}

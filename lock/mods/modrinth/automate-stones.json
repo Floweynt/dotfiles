@@ -1,0 +1,183 @@
+{
+  "slug": "automate-stones",
+  "projectId": "dMfGYPJH",
+  "versions": {
+    "N1yvfvxU": {
+      "filename": "automate_stones_0.0.2-datapack.zip",
+      "url": "https://cdn.modrinth.com/data/dMfGYPJH/versions/N1yvfvxU/automate_stones_0.0.2-datapack.zip",
+      "hash": "sha512-rJlpn3fZ3MQsJd5p26+CByjsIw/2Pokd7oKBzAR2TeXgkILOloY6qgKEjFw6BdebuhC2rkC1oJoggq014f6UpQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "PjVTvohV": {
+      "filename": "Create_automate_stones.jar",
+      "url": "https://cdn.modrinth.com/data/dMfGYPJH/versions/PjVTvohV/Create_automate_stones.jar",
+      "hash": "sha512-S/NaGEBGyq/FULGe2MRAhEzNRHCUqzamSQvD7FJqiBhBfe241YXmDaOIuJxt+T3Qt37HYys6vX8VLj8XB01hBw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "U8f6IJYY": {
+      "filename": "Create_automate_stones.zip",
+      "url": "https://cdn.modrinth.com/data/dMfGYPJH/versions/U8f6IJYY/Create_automate_stones.zip",
+      "hash": "sha512-S/NaGEBGyq/FULGe2MRAhEzNRHCUqzamSQvD7FJqiBhBfe241YXmDaOIuJxt+T3Qt37HYys6vX8VLj8XB01hBw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "awWfCMTA": {
+      "filename": "Automatestones.jar",
+      "url": "https://cdn.modrinth.com/data/dMfGYPJH/versions/awWfCMTA/Automatestones.jar",
+      "hash": "sha512-Y4Ii7NdGdlp0KYxg10kyUTOpPOY2wemQ/fdKMlJcAaVtJTMPV2wQm0C0Zcm2JNsGjmX7yh0l6PUl3w7jLZW5gQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "j7Dlmwu3": {
+      "filename": "Automatestones.jar",
+      "url": "https://cdn.modrinth.com/data/dMfGYPJH/versions/j7Dlmwu3/Automatestones.jar",
+      "hash": "sha512-nBw8U6ufx/lc1hepDP3qq3p1xgyNdJ/Fa+UJClXyagGl4X4oMDYeIKJy4N+VPj1z88qUk2ZjVnjeto0wixYoZw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "k5n4fvEi": {
+      "filename": "automate_stones_0.0.2-datapack.jar",
+      "url": "https://cdn.modrinth.com/data/dMfGYPJH/versions/k5n4fvEi/automate_stones_0.0.2-datapack.jar",
+      "hash": "sha512-rJlpn3fZ3MQsJd5p26+CByjsIw/2Pokd7oKBzAR2TeXgkILOloY6qgKEjFw6BdebuhC2rkC1oJoggq014f6UpQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "N1yvfvxU"
+    ],
+    "1.20+fabric": [
+      "k5n4fvEi"
+    ],
+    "1.20+quilt": [
+      "k5n4fvEi"
+    ],
+    "1.20.1+datapack": [
+      "N1yvfvxU",
+      "U8f6IJYY"
+    ],
+    "1.20.1+fabric": [
+      "j7Dlmwu3",
+      "k5n4fvEi",
+      "PjVTvohV"
+    ],
+    "1.20.1+neoforge": [
+      "awWfCMTA"
+    ],
+    "1.20.1+quilt": [
+      "j7Dlmwu3",
+      "k5n4fvEi",
+      "PjVTvohV"
+    ],
+    "1.21+datapack": [
+      "N1yvfvxU",
+      "U8f6IJYY"
+    ],
+    "1.21+fabric": [
+      "k5n4fvEi",
+      "PjVTvohV"
+    ],
+    "1.21+quilt": [
+      "k5n4fvEi",
+      "PjVTvohV"
+    ],
+    "1.21.1+datapack": [
+      "N1yvfvxU",
+      "U8f6IJYY"
+    ],
+    "1.21.1+fabric": [
+      "k5n4fvEi",
+      "PjVTvohV"
+    ],
+    "1.21.1+neoforge": [
+      "awWfCMTA"
+    ],
+    "1.21.1+quilt": [
+      "k5n4fvEi",
+      "PjVTvohV"
+    ]
+  }
+}

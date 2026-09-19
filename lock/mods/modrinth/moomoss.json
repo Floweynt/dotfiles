@@ -1,0 +1,115 @@
+{
+  "slug": "moomoss",
+  "projectId": "5NjqK0gD",
+  "versions": {
+    "63wpQJWE": {
+      "filename": "moomoss-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5NjqK0gD/versions/63wpQJWE/moomoss-1.0.1.jar",
+      "hash": "sha512-LRepZMWHnKrGINvy815ADHpy1vWyJ327xeXqEhgpA/wIejQx5W9j+oJ3Ek0KU6fcUYrWlEC4OQ90x/7OoFwiog==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "8dS3nTe7": {
+      "filename": "moomoss-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5NjqK0gD/versions/8dS3nTe7/moomoss-1.0.0.jar",
+      "hash": "sha512-FD/wSVRzkVvnRoJ+AL0Fi4uiw749qopJoT6owgIGPCdxrjanmSUyWiiN9wpwrN6X2sUUXBR6n0ekQKLS/bxYVA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8dS3nTe7"
+    ],
+    "1.20.1+quilt": [
+      "8dS3nTe7"
+    ],
+    "1.20.2+fabric": [
+      "8dS3nTe7"
+    ],
+    "1.20.2+quilt": [
+      "8dS3nTe7"
+    ],
+    "1.20.3+fabric": [
+      "8dS3nTe7"
+    ],
+    "1.20.3+quilt": [
+      "8dS3nTe7"
+    ],
+    "1.20.4+fabric": [
+      "8dS3nTe7"
+    ],
+    "1.20.4+quilt": [
+      "8dS3nTe7"
+    ],
+    "1.20.5+fabric": [
+      "8dS3nTe7"
+    ],
+    "1.20.5+quilt": [
+      "8dS3nTe7"
+    ],
+    "1.20.6+fabric": [
+      "8dS3nTe7"
+    ],
+    "1.20.6+quilt": [
+      "8dS3nTe7"
+    ],
+    "1.21+fabric": [
+      "63wpQJWE",
+      "8dS3nTe7"
+    ],
+    "1.21+quilt": [
+      "63wpQJWE",
+      "8dS3nTe7"
+    ],
+    "1.21.1+fabric": [
+      "63wpQJWE",
+      "8dS3nTe7"
+    ],
+    "1.21.1+quilt": [
+      "63wpQJWE",
+      "8dS3nTe7"
+    ]
+  }
+}

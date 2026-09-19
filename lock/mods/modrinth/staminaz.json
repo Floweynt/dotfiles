@@ -1,0 +1,90 @@
+{
+  "slug": "staminaz",
+  "projectId": "XzdAOdOJ",
+  "versions": {
+    "McQphWzh": {
+      "filename": "stamina-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XzdAOdOJ/versions/McQphWzh/stamina-1.0.0.jar",
+      "hash": "sha512-MDaUi/THs4KLLvdidpEsH/+vIjtay8C5MQRpDxSMnZ7kJj2p+1B8UnN9kPRoElGYRXw5lyfrO85Lav1IUIiJqw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Wkd64cUQ": {
+      "filename": "stamina-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/XzdAOdOJ/versions/Wkd64cUQ/stamina-1.0.1.jar",
+      "hash": "sha512-FY5jRTDzwUoDFGCHL2SmGzGAP0D676zaOb/T7fZqGb8G+6QA6pgbg45fR42dPJNAPnMhXpNUBaQ04qf9iVGF1Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ob2kSiVv": {
+      "filename": "stamina-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XzdAOdOJ/versions/ob2kSiVv/stamina-1.0.0.jar",
+      "hash": "sha512-DA+7Q3bfbhttAXl//nAb/j1CsV3ZuctirbQt6HIrijOQofRRxBQx+gI5rwu9NQishzcXyssGdo00A0qTecn/5w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ob2kSiVv"
+    ],
+    "1.21.1+fabric": [
+      "Wkd64cUQ",
+      "McQphWzh"
+    ]
+  }
+}

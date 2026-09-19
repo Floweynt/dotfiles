@@ -1,0 +1,52 @@
+{
+  "slug": "nosilktouchnobreaking",
+  "projectId": "35qcGomh",
+  "versions": {
+    "OpHrfWZP": {
+      "filename": "nosilktouchnobreaking-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/35qcGomh/versions/OpHrfWZP/nosilktouchnobreaking-1.1.jar",
+      "hash": "sha512-uqX6HCwKppj80EcRY3Zw/MImJmKxtHdSAtoPIz6NKlfkMacOnpw10PgEOYZuoQvk0t3bpbGirXROvNFPZrYO4g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "eCetJ3pY": {
+      "filename": "nosilktouchnobreak-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/35qcGomh/versions/eCetJ3pY/nosilktouchnobreak-0.1-1.20.1.jar",
+      "hash": "sha512-ayles9elkPRY2qE9tBMNzbSB6TzKL7Z07QyyVFalp6DPTHkwUBSHr0cPSpIh5rS73MPz+eKwLPFGPFY4kkusHA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "eCetJ3pY"
+    ],
+    "1.20.1+fabric": [
+      "eCetJ3pY"
+    ],
+    "1.21+fabric": [
+      "OpHrfWZP"
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "variant-sticks-stuff",
+  "projectId": "LxkCN3jf",
+  "versions": {
+    "NKDYBLFG": {
+      "filename": "vsas-4.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/LxkCN3jf/versions/NKDYBLFG/vsas-4.1.5.jar",
+      "hash": "sha512-VNV7T6bt8HiPLx8tvwq2RV+FEKRFQUzODQJbKZRmdy/12qtvvSj7Sc5XBle2oG7o9JGK/66HdDBLZmpPYnx6cw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QV8tkXxY": {
+      "filename": "vsas-4.2.6.jar",
+      "url": "https://cdn.modrinth.com/data/LxkCN3jf/versions/QV8tkXxY/vsas-4.2.6.jar",
+      "hash": "sha512-S28lpa0/V6NZhd4HLkFzNRW5M+44fiy/Yw/9v31Ik6u+kWttuN/0eHSe9OEqfhHZO9xMKl5kmJfv2TE9EjvkPg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kHtiZdl3": {
+      "filename": "vsas-4.2.6.jar",
+      "url": "https://cdn.modrinth.com/data/LxkCN3jf/versions/kHtiZdl3/vsas-4.2.6.jar",
+      "hash": "sha512-Sqkb//ZpQTgmGKZdGrQb6fEBvbl7tMz4jeO0UhBLSKI7IhuClhJKxXvsTz0E/0pPzmqEkXdQOLxZ8Lv1LNCGQw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mG4KHTNg": {
+      "filename": "vsas-4.2.jar",
+      "url": "https://cdn.modrinth.com/data/LxkCN3jf/versions/mG4KHTNg/vsas-4.2.jar",
+      "hash": "sha512-wefyQoQcEegJKOprMNFMCxSPowUez8vlKm+HtnLi+PLBROdHMQrfkTfKYI8a733EMrccAQecCeoCW2y2impBuw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "kHtiZdl3",
+      "mG4KHTNg"
+    ],
+    "1.20.1+fabric": [
+      "kHtiZdl3",
+      "mG4KHTNg",
+      "NKDYBLFG"
+    ],
+    "1.20.1+quilt": [
+      "NKDYBLFG"
+    ],
+    "1.20.2+fabric": [
+      "QV8tkXxY"
+    ]
+  }
+}

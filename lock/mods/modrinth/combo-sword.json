@@ -1,0 +1,65 @@
+{
+  "slug": "combo-sword",
+  "projectId": "AaykbVpf",
+  "versions": {
+    "U6aCUrxm": {
+      "filename": "Combo_Sword_Forge_0.2.jar",
+      "url": "https://cdn.modrinth.com/data/AaykbVpf/versions/U6aCUrxm/Combo_Sword_Forge_0.2.jar",
+      "hash": "sha512-xpbMGl78BGuH80h5oy1pYnNKP+0lUJdTs2xusutYynSfwk8XqyPZUz4b9zo81QuSGe4SL3NBOBa/xAtJ5laHIA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Ws2wRFEm": {
+      "filename": "Combo_Sword.jar",
+      "url": "https://cdn.modrinth.com/data/AaykbVpf/versions/Ws2wRFEm/Combo_Sword.jar",
+      "hash": "sha512-pUuAG9H/4j7ffrc4CXrKwJN997ToTfFgZP4Wx4/FzbacIZV3fQnu+GNcdJJkLS4TmkOGq1iEM+OKCy1tpwaKgA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "YEJIUL3h": {
+      "filename": "Combo_Sword_0.2.jar",
+      "url": "https://cdn.modrinth.com/data/AaykbVpf/versions/YEJIUL3h/Combo_Sword_0.2.jar",
+      "hash": "sha512-ziAMcCGu4vn9wLDhgsUoOoYhRDcvXKS/jHpAi7YF5Xto/13hyvkozTaHjdaP2JJZLMKjQzX1gy7v2f5Dj6jmSQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "YEJIUL3h"
+    ],
+    "1.20+forge": [
+      "U6aCUrxm"
+    ],
+    "1.20.1+fabric": [
+      "YEJIUL3h",
+      "Ws2wRFEm"
+    ],
+    "1.20.1+forge": [
+      "U6aCUrxm"
+    ]
+  }
+}

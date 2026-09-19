@@ -1,0 +1,93 @@
+{
+  "slug": "no-death-scatter",
+  "projectId": "479ufu98",
+  "versions": {
+    "MdHAw7Ac": {
+      "filename": "nodeathscatter-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/479ufu98/versions/MdHAw7Ac/nodeathscatter-0.1.0.jar",
+      "hash": "sha512-bTRV/ONZpVjZ6rM4+QyR7el1L50rNLWsU5VdgPSjLi8MBAJQho+CmUBixj7XInN/cx87PpECZBSAk3YAYhgeuQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "nv2abElW": {
+      "filename": "nodeathscatter-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/479ufu98/versions/nv2abElW/nodeathscatter-forge-1.0.0.jar",
+      "hash": "sha512-RUYvatSBu/Rj3PxtxPzZBaI1fF/ADvVcAz514TnmXoox0M6XZTl5+9TADfZTNTnnSF92ieAhVc7qMhO3z7+THw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "q5ROjny9": {
+      "filename": "nodeathscatter-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/479ufu98/versions/q5ROjny9/nodeathscatter-fabric-1.0.0.jar",
+      "hash": "sha512-qrKNcM/JCUFzSxdph8RMlC3D3tEvpOUtWunfbzgfYhmMu9cT9BQQln5mzRRQgaIxknJpXLjaye52tB/M94yijA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "q5ROjny9",
+      "MdHAw7Ac"
+    ],
+    "1.20.1+forge": [
+      "nv2abElW"
+    ],
+    "1.20.2+fabric": [
+      "q5ROjny9",
+      "MdHAw7Ac"
+    ],
+    "1.20.3+fabric": [
+      "q5ROjny9",
+      "MdHAw7Ac"
+    ],
+    "1.20.4+fabric": [
+      "q5ROjny9",
+      "MdHAw7Ac"
+    ],
+    "1.20.5+fabric": [
+      "q5ROjny9",
+      "MdHAw7Ac"
+    ],
+    "1.20.6+fabric": [
+      "q5ROjny9",
+      "MdHAw7Ac"
+    ]
+  }
+}

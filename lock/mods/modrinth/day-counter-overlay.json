@@ -1,0 +1,56 @@
+{
+  "slug": "day-counter-overlay",
+  "projectId": "38QjVq4O",
+  "versions": {
+    "JPe1hjiZ": {
+      "filename": "daycounter-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/38QjVq4O/versions/JPe1hjiZ/daycounter-1.0.0.jar",
+      "hash": "sha512-Hhwxav14mafFFNKV6Ih3rrsHSJQR2UoZhmQSWZ7yq91MBoS+Y8Pd56+BcMdQkjDKKNg/OAtBNivu5xHSLx8XHQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vLrcNBdk": {
+      "filename": "daycounter-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/38QjVq4O/versions/vLrcNBdk/daycounter-1.0.0.jar",
+      "hash": "sha512-VoaWZ0gkRe060fuxpYK5J/wcYJzasIW58yHz3KcGZ2dc3DEf0Xep1VrHTJwczobidh0b9WXVfZArr8rJfXw6jw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "JPe1hjiZ"
+    ],
+    "26.1+fabric": [
+      "vLrcNBdk"
+    ],
+    "26.1.1+fabric": [
+      "vLrcNBdk"
+    ],
+    "26.1.2+fabric": [
+      "vLrcNBdk"
+    ]
+  }
+}

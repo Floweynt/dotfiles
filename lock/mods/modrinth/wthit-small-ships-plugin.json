@@ -1,0 +1,72 @@
+{
+  "slug": "wthit-small-ships-plugin",
+  "projectId": "zPDxO1Zp",
+  "versions": {
+    "RCLYR16W": {
+      "filename": "waila_smallships-1.2.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/zPDxO1Zp/versions/RCLYR16W/waila_smallships-1.2.0%2B1.20.1.jar",
+      "hash": "sha512-l3B6lVB3a+sCZRZkINcVMWLYduGSibzbUCTvVGGXb4qCiJ6DJIX+FNc92KIF442PfmaM4bX09gVaVQVi2cSJcw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "small-ships",
+          "projectId": "rGWEHQrP",
+          "type": "required"
+        },
+        {
+          "slug": "badpackets",
+          "projectId": "ftdbN0KK",
+          "type": "required"
+        },
+        {
+          "slug": "wthit",
+          "projectId": "6AQIaxuO",
+          "type": "required"
+        }
+      ]
+    },
+    "s3VWlEkS": {
+      "filename": "waila_smallships-1.1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/zPDxO1Zp/versions/s3VWlEkS/waila_smallships-1.1.1%2B1.20.1.jar",
+      "hash": "sha512-4wHogBGOAINvrQS1KAAtK4VEPkn1RDVtBU7iG6FMZYfdtBeXXLQtOct5iXUmaC7ghV3z8juxjBuUqr6McanqQA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "wthit",
+          "projectId": "6AQIaxuO",
+          "type": "required"
+        },
+        {
+          "slug": "small-ships",
+          "projectId": "rGWEHQrP",
+          "type": "required"
+        },
+        {
+          "slug": "badpackets",
+          "projectId": "ftdbN0KK",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "RCLYR16W",
+      "s3VWlEkS"
+    ]
+  }
+}

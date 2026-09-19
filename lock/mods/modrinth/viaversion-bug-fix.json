@@ -1,0 +1,70 @@
+{
+  "slug": "viaversion-bug-fix",
+  "projectId": "eYu6RNGB",
+  "versions": {
+    "BrrydANH": {
+      "filename": "ViaVersion-Bug-Fix-1.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/eYu6RNGB/versions/BrrydANH/ViaVersion-Bug-Fix-1.0%2B1.21.10.jar",
+      "hash": "sha512-2MNK9gM8P3+FWI5uu/k4a/fykeqeGcl+4K+kwSYfJUhF2d9GcRiGmPqOkIroAuqXrrWP6FhyTbPDPhLEWmhE6w==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "viaversion",
+          "projectId": "P1OZGk5p",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "giW2V1Yy": {
+      "filename": "ViaVersion-Bug-Fix-1.1+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/eYu6RNGB/versions/giW2V1Yy/ViaVersion-Bug-Fix-1.1%2B26.2.jar",
+      "hash": "sha512-jsntRDFCK1fxs7lYF/VfMoFLGJpr25ZDtbnCa4ftiEETKaAzRRgRNeXOSY/gbP02qvozFrOqFmm8TthL0q4Zcw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "nTzubpC3": {
+      "filename": "ViaVersion-Bug-Fix-1.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/eYu6RNGB/versions/nTzubpC3/ViaVersion-Bug-Fix-1.1%2B1.21.11.jar",
+      "hash": "sha512-TW37PURSTRWOFYV0hoK+yQ5iMJR5PfPms5rldoHiOU1rY+HDpHEAZwMib5VloNCjhH9MkWZqCNFjnVtNJjmLYQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "BrrydANH"
+    ],
+    "1.21.11+fabric": [
+      "nTzubpC3"
+    ],
+    "26.2+fabric": [
+      "giW2V1Yy"
+    ]
+  }
+}

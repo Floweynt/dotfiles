@@ -1,0 +1,81 @@
+{
+  "slug": "gadgets-of-the-sky",
+  "projectId": "MYMJv9Fu",
+  "versions": {
+    "KrtWsfxN": {
+      "filename": "GadgetsOfTheSky-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MYMJv9Fu/versions/KrtWsfxN/GadgetsOfTheSky-1.0.0.jar",
+      "hash": "sha512-XwW7LwWYq0ZY4gAELYG3uqtv8DW2hQQgtvum9fAH08udmnKIeguZ4m2lHfio+a1Y3r7paYm5Zxb1IbDQqwVpww==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RdHzOZKN": {
+      "filename": "GadgetsOfTheSky-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/MYMJv9Fu/versions/RdHzOZKN/GadgetsOfTheSky-1.0.1.jar",
+      "hash": "sha512-r0YvU6N4+AUR3WP/3+M6xGU3WEnHNs5W/uETXJW1wma6pzUXh+ntsHJT1jD799Mhk9chbpaf2BSE7Co6xk40tg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pvgE6was": {
+      "filename": "GadgetsOfTheSky-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/MYMJv9Fu/versions/pvgE6was/GadgetsOfTheSky-1.0.2.jar",
+      "hash": "sha512-ZDqP7le91m7zmVEVRvyi6NCZRXN5c4zpz17ctOikWpaqB6quEsVcHTHUAwYw8IUyE+/4inD7PRT60LZ96ulJyA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "pvgE6was",
+      "RdHzOZKN",
+      "KrtWsfxN"
+    ],
+    "1.20.4+quilt": [
+      "pvgE6was",
+      "RdHzOZKN",
+      "KrtWsfxN"
+    ]
+  }
+}

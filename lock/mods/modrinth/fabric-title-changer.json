@@ -1,0 +1,69 @@
+{
+  "slug": "fabric-title-changer",
+  "projectId": "M9i6zRjB",
+  "versions": {
+    "71bXbjwc": {
+      "filename": "fabric-title-changer-local.jar",
+      "url": "https://cdn.modrinth.com/data/M9i6zRjB/versions/71bXbjwc/fabric-title-changer-local.jar",
+      "hash": "sha512-8euGLWJf/ZmsoYUtqijUNSpMjNHEytKYr5BogBCf9nRaXLWVg97/B0Z+b4OvNx2hMXmofEJpd4+5t5HKmnlpeA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Y8MsB5yG": {
+      "filename": "fabric-title-changer-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/M9i6zRjB/versions/1.06/fabric-title-changer-1.0.6.jar",
+      "hash": "sha512-paMh7UyM+s/VdnR2OlDccb+gjAIfkjrE+BDLHPm/6Cl2hrCJbBqTePuu9UYDwBpEJzF5YURuaNHJ03Ea6bgwcg==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "uUysV3S3": {
+      "filename": "fabric-title-changer-1.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/M9i6zRjB/versions/1.0.7/fabric-title-changer-1.0.7.jar",
+      "hash": "sha512-aArdoAMG5V3bNVIL4Z+RaCuqUX+9/JgNleS4p0cDaFLwEIIN7QEE9J1MPgaaWvQTZfiXW9nPM0MPXEQYgVSxVA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.1+fabric": [
+      "Y8MsB5yG"
+    ],
+    "1.18.2+fabric": [
+      "Y8MsB5yG"
+    ],
+    "1.19+fabric": [
+      "uUysV3S3"
+    ],
+    "1.19.4+fabric": [
+      "71bXbjwc"
+    ]
+  }
+}

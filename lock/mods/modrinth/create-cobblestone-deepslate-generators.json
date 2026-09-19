@@ -1,0 +1,112 @@
+{
+  "slug": "create-cobblestone-deepslate-generators",
+  "projectId": "F2XXc3ws",
+  "versions": {
+    "32o6qJ9q": {
+      "filename": "CreateCobblestone_deepslate_generators_1.0.zip",
+      "url": "https://cdn.modrinth.com/data/F2XXc3ws/versions/32o6qJ9q/CreateCobblestone_deepslate_generators_1.0.zip",
+      "hash": "sha512-S6HuGNZP6dlLPxXb09Zh0NE1uIuMzFUc5vBTVc6OaeGJKtM9yzI4f8fVc91EBju//NQxHdm8zZqo7gL+WrrXyg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-cobblestone",
+          "projectId": "ihpnEd80",
+          "type": "required"
+        }
+      ]
+    },
+    "DOVoDprR": {
+      "filename": "create-cobblestone-deepslate-generators-1.4.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/F2XXc3ws/versions/DOVoDprR/create-cobblestone-deepslate-generators-1.4.1%2B1.20.1.jar",
+      "hash": "sha512-bx940FxiJBqd7iwM0yRBNfUiuAJ1VhfRMOS5QWVqmNQ3S1TGBHMpqXzy0jfc+VMTOselmSIxDpwYl8ocER+zxg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-cobblestone",
+          "projectId": "ihpnEd80",
+          "type": "required"
+        }
+      ]
+    },
+    "GBDR4YSy": {
+      "filename": "create-cobblestone-deepslate-generators-1.4.6-neoforge+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/F2XXc3ws/versions/GBDR4YSy/create-cobblestone-deepslate-generators-1.4.6-neoforge%2B1.21.1.jar",
+      "hash": "sha512-CCdyEhJ/rno8TSrQWHbZmbiIONPHEYqjdSC5860RldLA1B4gdDd4vX0x94JNUcLwIJRoY9ORhAx+doOHHkGyIQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-cobblestone",
+          "projectId": "ihpnEd80",
+          "type": "required"
+        }
+      ]
+    },
+    "cvOVJEuS": {
+      "filename": "CreateCobblestone_deepslate_generators_1.0.zip",
+      "url": "https://cdn.modrinth.com/data/F2XXc3ws/versions/cvOVJEuS/CreateCobblestone_deepslate_generators_1.0.zip",
+      "hash": "sha512-S6HuGNZP6dlLPxXb09Zh0NE1uIuMzFUc5vBTVc6OaeGJKtM9yzI4f8fVc91EBju//NQxHdm8zZqo7gL+WrrXyg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-cobblestone",
+          "projectId": "ihpnEd80",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "cvOVJEuS"
+    ],
+    "1.20.1+fabric": [
+      "DOVoDprR"
+    ],
+    "1.20.1+forge": [
+      "DOVoDprR"
+    ],
+    "1.20.1+neoforge": [
+      "DOVoDprR"
+    ],
+    "1.20.1+quilt": [
+      "DOVoDprR"
+    ],
+    "1.21.1+datapack": [
+      "32o6qJ9q"
+    ],
+    "1.21.1+neoforge": [
+      "GBDR4YSy"
+    ]
+  }
+}

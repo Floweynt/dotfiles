@@ -1,0 +1,40 @@
+{
+  "slug": "cutteryeet",
+  "projectId": "hCSDKIUl",
+  "versions": {
+    "trRBrqNk": {
+      "filename": "cutteryeet-1.0.0-fabric-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hCSDKIUl/versions/trRBrqNk/cutteryeet-1.0.0-fabric-1.21.1.jar",
+      "hash": "sha512-XHcBGiitx583s95KG7YxEETJXKQcklMqYlFBSKcmt7f7pTH75NBuYQk0PVNYo8sLOgZy6L/QN8PSAJvSOh5bCg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "trRBrqNk"
+    ],
+    "1.21.1+fabric": [
+      "trRBrqNk"
+    ]
+  }
+}

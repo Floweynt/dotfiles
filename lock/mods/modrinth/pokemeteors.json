@@ -1,0 +1,77 @@
+{
+  "slug": "pokemeteors",
+  "projectId": "HtxY1wzS",
+  "versions": {
+    "g05qmJAM": {
+      "filename": "pokemeteors-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HtxY1wzS/versions/g05qmJAM/pokemeteors-fabric-0.1.0.jar",
+      "hash": "sha512-ET60I/yPP+iao4iJk9TG+8GWEmOiOTMJ74kBdXAvMXn5QqJrhcPO6GR0+JVh9w4NHVJBvYT5Hc7jciw8rz87vQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ohmymeteors",
+          "projectId": "O9ayDkK0",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "leAnrvIS": {
+      "filename": "pokemeteors-neoforge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HtxY1wzS/versions/leAnrvIS/pokemeteors-neoforge-0.1.0.jar",
+      "hash": "sha512-mLomPdgWx5nloUo3LzIvYBLsNmJIgn7gXgUURxBOyHzzhrwNLmkwZJf23qPdCjwebLAAdykkd2DLXa3ynU9V2g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "ohmymeteors",
+          "projectId": "O9ayDkK0",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "g05qmJAM"
+    ],
+    "1.21+neoforge": [
+      "leAnrvIS"
+    ],
+    "1.21.1+fabric": [
+      "g05qmJAM"
+    ],
+    "1.21.1+neoforge": [
+      "leAnrvIS"
+    ]
+  }
+}

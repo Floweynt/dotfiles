@@ -1,0 +1,57 @@
+{
+  "slug": "cobbledex",
+  "projectId": "ndHMQRdh",
+  "versions": {
+    "KSCbcoi2": {
+      "filename": "Cobbledex-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ndHMQRdh/versions/KSCbcoi2/Cobbledex-1.0.0.jar",
+      "hash": "sha512-SoAvQDdcUt/eRCCL/1QH+xnlYht6QNe1AKfaetgROZPwjrMPXL59qoTbZQMS4QdTm9WLxQsCp5fNCO33chwoHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "Xd43k1Ha": {
+      "filename": "CobbledDex-Beta.jar",
+      "url": "https://cdn.modrinth.com/data/ndHMQRdh/versions/Xd43k1Ha/CobbledDex-Beta.jar",
+      "hash": "sha512-ZbmOiEKEHb4Py/UVzASFGCzTZgMTI4Z/ZMHoNDgEtBmJomms11EUb7GMoyTQDMSqG0BjNTkeGEyWJir9+BtKJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "KSCbcoi2",
+      "Xd43k1Ha"
+    ]
+  }
+}

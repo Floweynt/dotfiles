@@ -1,0 +1,52 @@
+{
+  "slug": "items-stack",
+  "projectId": "lMLWfLiS",
+  "versions": {
+    "9GkRXhED": {
+      "filename": "itemsstack-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/lMLWfLiS/versions/9GkRXhED/itemsstack-1.2.0.jar",
+      "hash": "sha512-YMZ5TG5nGPNN9yvKMpnu7hFSRe4WG0L9XBT/ISCdBajLU0JVaiSCXsnHMCf4+xFzfUbt0CvlOdsnirr+wlQKKw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "P6Cl4nSC": {
+      "filename": "itemsstack-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lMLWfLiS/versions/P6Cl4nSC/itemsstack-1.0.0.jar",
+      "hash": "sha512-kboDXcYci6e6xAFSk6Oinx0BYOWIeqHQ2S6RWPyFPuhtnBJd6itiUGlt77R1qse96BnlQccwSx2qSEKBXzk/uA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "9GkRXhED",
+      "P6Cl4nSC"
+    ]
+  }
+}

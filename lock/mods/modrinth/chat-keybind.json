@@ -1,0 +1,69 @@
+{
+  "slug": "chat-keybind",
+  "projectId": "YrwL8LU8",
+  "versions": {
+    "1B7JYGm7": {
+      "filename": "chatkeybind-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YrwL8LU8/versions/1B7JYGm7/chatkeybind-1.0.1.jar",
+      "hash": "sha512-FASRebPU1PVxgq6XHMyH4Cf9pUIBw2Wl+O80DTFQKIl//8SSsflQdNDAgb1kH64dnkYljcY2Lw1vkWpCWitkog==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "AQC6W7PZ": {
+      "filename": "chatkeybind-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YrwL8LU8/versions/AQC6W7PZ/chatkeybind-1.0.1.jar",
+      "hash": "sha512-p7T29gFvxP1lrnC+wSdoFFkAi9QHV95vDFiLIJM8cj24k1H7i2/aaK2WXBGwA3Fpz3cYOkTEwK6vZX5bWknMHQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "aOGE57RX": {
+      "filename": "chatkeybind-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YrwL8LU8/versions/aOGE57RX/chatkeybind-1.0.0.jar",
+      "hash": "sha512-BteulQzBEOzkKtIpkTbgK2eD0T6U+dw6E5wPwKyiZuqbls3tTA/uExMDDDk0CgWzaw5CMu2seIcYCt/5hWr1sQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "1B7JYGm7",
+      "AQC6W7PZ",
+      "aOGE57RX"
+    ],
+    "1.21.11+fabric": [
+      "1B7JYGm7",
+      "AQC6W7PZ",
+      "aOGE57RX"
+    ]
+  }
+}

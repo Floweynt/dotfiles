@@ -1,0 +1,42 @@
+{
+  "slug": "client-info-fix",
+  "projectId": "s6PL65cx",
+  "versions": {
+    "l3Nj7foZ": {
+      "filename": "clientinfofix-1.0.4+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/s6PL65cx/versions/l3Nj7foZ/clientinfofix-1.0.4%2B1.20.6.jar",
+      "hash": "sha512-/vgnDQopkHNJ9+actMoqG2h4zA+tm0yn27nKC1bpri1vlRnV/lWjkKVjlEo/bQ8egboOureQaSDtKtkvbytEIg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "y1HKT4Cg": {
+      "filename": "clientinfofix-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/s6PL65cx/versions/y1HKT4Cg/clientinfofix-1.0.4.jar",
+      "hash": "sha512-QOOYRyEpHe7k8whUZjrYDNWXLSUREwpA9qdXOtOw2OVOX4kpHauYS+Qr5satLN1wRoxd2UEAdr2lcR07s6PmBQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "y1HKT4Cg"
+    ],
+    "1.20.6+fabric": [
+      "l3Nj7foZ"
+    ]
+  }
+}

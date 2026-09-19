@@ -1,0 +1,76 @@
+{
+  "slug": "easy-shulker-sacks",
+  "projectId": "kkkCzGnx",
+  "versions": {
+    "gSTivtLl": {
+      "filename": "easy-shulker-sacks-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kkkCzGnx/versions/gSTivtLl/easy-shulker-sacks-1.0.jar",
+      "hash": "sha512-9vKi51ZwF3Q3TfwlT5aBNNu5lOkbigkfnh0dPSUWQsR1CBco75T6qhNvXf9o0r2c1FmyrBMZKv+TurBxxrojXA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "supplementaries",
+          "projectId": "fFEIiSDQ",
+          "type": "required"
+        },
+        {
+          "slug": "easy-shulker-boxes",
+          "projectId": "gA5euN8S",
+          "type": "required"
+        }
+      ]
+    },
+    "pwEvm6PW": {
+      "filename": "EasyShulkerSacks.zip",
+      "url": "https://cdn.modrinth.com/data/kkkCzGnx/versions/pwEvm6PW/EasyShulkerSacks.zip",
+      "hash": "sha512-iHSCSRS+CaXbaWuoN6kb4Wl6HY16WoVPGJPf/7RAcfKMZ6L09ak3uOI96uAqha1J4afcKclFQFks2btQYft5FQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "supplementaries",
+          "projectId": "fFEIiSDQ",
+          "type": "required"
+        },
+        {
+          "slug": "easy-shulker-boxes",
+          "projectId": "gA5euN8S",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "pwEvm6PW"
+    ],
+    "1.20.1+fabric": [
+      "gSTivtLl"
+    ],
+    "1.20.1+forge": [
+      "gSTivtLl"
+    ],
+    "1.20.1+neoforge": [
+      "gSTivtLl"
+    ],
+    "1.20.1+quilt": [
+      "gSTivtLl"
+    ]
+  }
+}

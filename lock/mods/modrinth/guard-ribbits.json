@@ -1,0 +1,74 @@
+{
+  "slug": "guard-ribbits",
+  "projectId": "t7UhdlGh",
+  "versions": {
+    "KZXDQqCj": {
+      "filename": "GuardRibbits-1.20.1-Fabric-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/t7UhdlGh/versions/KZXDQqCj/GuardRibbits-1.20.1-Fabric-1.0.4.jar",
+      "hash": "sha512-a53AmZ3T7hTL7DY9sNlp/taoxWAYlXjLIdV2BG9K8xQ/+cHSxUbeOuSR8OioDYg1O42pqdQnWWZ0+YQfnlGFWA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "ribbits",
+          "projectId": "8YcE8y4T",
+          "type": "required"
+        },
+        {
+          "slug": "yungs-api",
+          "projectId": "Ua7DFN59",
+          "type": "required"
+        }
+      ]
+    },
+    "Lru2gIBE": {
+      "filename": "GuardRibbits-1.20.1-Forge-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/t7UhdlGh/versions/Lru2gIBE/GuardRibbits-1.20.1-Forge-1.0.4.jar",
+      "hash": "sha512-HxffTkPkc8p5u2bp9ySaXzUjrNUCyWTdVQ2TJquJXU80eOcu7JGLASwJr1lHo1g3B6XadUjkFTPfuxEMnecTUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ribbits",
+          "projectId": "8YcE8y4T",
+          "type": "required"
+        },
+        {
+          "slug": "yungs-api",
+          "projectId": "Ua7DFN59",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "KZXDQqCj"
+    ],
+    "1.20.1+forge": [
+      "Lru2gIBE"
+    ]
+  }
+}

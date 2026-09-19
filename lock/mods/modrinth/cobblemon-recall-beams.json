@@ -1,0 +1,74 @@
+{
+  "slug": "cobblemon-recall-beams",
+  "projectId": "NJ9d8FIk",
+  "versions": {
+    "5VtHrSGG": {
+      "filename": "RecallBeams-0.1.0-onecolor.jar",
+      "url": "https://cdn.modrinth.com/data/NJ9d8FIk/versions/5VtHrSGG/RecallBeams-0.1.0-onecolor.jar",
+      "hash": "sha512-YtbCHfopcsc5ynm5/Lch2ZM5vSVXjmKLTSN30Ybay01Bwk6/2KcPEFePdemU8ADCgWYpVj8p5C5B3UHyUhBtjw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "iTbzRxZ7": {
+      "filename": "RecallBeams-0.1.0-onecolor.jar",
+      "url": "https://cdn.modrinth.com/data/NJ9d8FIk/versions/iTbzRxZ7/RecallBeams-0.1.0-onecolor.jar",
+      "hash": "sha512-ZNzgWt/Ztm3NUmwbmZKpK27IujnzA1ju4tL4gNCsmLFHiso49dG3fSMcC+UcZL2hBDb2NxPt7mAQjmaSYRPaIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "iTbzRxZ7"
+    ],
+    "1.21.1+fabric": [
+      "5VtHrSGG"
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "slug": "roughly-enough-loot-tables",
+  "projectId": "5hppfLUZ",
+  "versions": {
+    "1Upsg7s8": {
+      "filename": "RoughlyEnoughLootTables-1.20.6-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/5hppfLUZ/versions/1Upsg7s8/RoughlyEnoughLootTables-1.20.6-1.0.jar",
+      "hash": "sha512-o4cyboDeM+ISlxPxYLTuFsfUG8/SHCW69X0FzYRSi8OV4c6Ve3WC3gT3TMIpBlgID1xQb2SZbtPX0p0zShSdOg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "rei",
+          "projectId": "nfn13YXA",
+          "type": "required"
+        }
+      ]
+    },
+    "GvXMNQdq": {
+      "filename": "RoughlyEnoughLootTables-1.19-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/5hppfLUZ/versions/GvXMNQdq/RoughlyEnoughLootTables-1.19-1.0.jar",
+      "hash": "sha512-IRdbYMCtfJPsJ7RyOKDebKOBZ4/hj2pe5q2iAiGUnjR/Y7DxzMDnIyPsql12oisTlvzqaT3QhKUgc4xGetVdeg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "KKusFWSq": {
+      "filename": "RoughlyEnoughLootTables-1.18-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/5hppfLUZ/versions/KKusFWSq/RoughlyEnoughLootTables-1.18-1.1.jar",
+      "hash": "sha512-bBD4DjP1fojFLDP2OdUuf6bfGoPWHHVsGVwrXye50fHpnrdja4QOup7r0zImr+6eEvObw2GM5oYCrP5C+Ytxug==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "KKusFWSq"
+    ],
+    "1.18.1+fabric": [
+      "KKusFWSq"
+    ],
+    "1.18.2+fabric": [
+      "KKusFWSq"
+    ],
+    "1.19+fabric": [
+      "GvXMNQdq"
+    ],
+    "1.19.1+fabric": [
+      "GvXMNQdq"
+    ],
+    "1.19.2+fabric": [
+      "GvXMNQdq"
+    ],
+    "1.19.3+fabric": [
+      "GvXMNQdq"
+    ],
+    "1.20.6+fabric": [
+      "1Upsg7s8"
+    ]
+  }
+}

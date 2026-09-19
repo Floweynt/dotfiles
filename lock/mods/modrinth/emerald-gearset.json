@@ -1,0 +1,75 @@
+{
+  "slug": "emerald-gearset",
+  "projectId": "1Ou7DGdM",
+  "versions": {
+    "NDB9MDNF": {
+      "filename": "emerald-gearset-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1Ou7DGdM/versions/NDB9MDNF/emerald-gearset-1.0.jar",
+      "hash": "sha512-/e1+D3wU91P1gZ+U6pVrik7qUhOaY9hilUMRQkhYU6clCSRZ5GqkmusPcuFgwPAz3xQgxdEljzENIzB640EZ8g==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aKys31Nu": {
+      "filename": "emerald-gearset-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1Ou7DGdM/versions/aKys31Nu/emerald-gearset-1.0.jar",
+      "hash": "sha512-9amqEFOPnwfuNM3GQu98yAxq0nn/HHPPTMfs3JGao2WTznJLnYxCfERSqDjJITSiJFZV3pUu+ADPCtfayar9RQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fP0tm5g1": {
+      "filename": "emerald-gearset-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/1Ou7DGdM/versions/fP0tm5g1/emerald-gearset-1.1.jar",
+      "hash": "sha512-F1RwyOB6LviuIFaAS3buUxhaFR5HIWUWQ/wIwcXkfcO/n3C03YBZR3w0IjnVTQ3Y1nEq+YHLq0XU9/qR+IsLVQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "NDB9MDNF",
+      "aKys31Nu"
+    ],
+    "1.21.11+fabric": [
+      "fP0tm5g1"
+    ]
+  }
+}

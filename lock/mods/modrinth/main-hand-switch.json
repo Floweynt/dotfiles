@@ -1,0 +1,75 @@
+{
+  "slug": "main-hand-switch",
+  "projectId": "Fjk3Tv4l",
+  "versions": {
+    "Q9EsCXJX": {
+      "filename": "mainhandswitch-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Fjk3Tv4l/versions/Q9EsCXJX/mainhandswitch-1.1.jar",
+      "hash": "sha512-TGYoIxf7RgJEU/e/VhWnlw5xiP+GE1PlsULwVCxUt5Lew48vKInu1bgmt+ke733ZZE7++ONhVs4Rim6HXejL6g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "jMQTMbOS": {
+      "filename": "mainhandswitch-0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Fjk3Tv4l/versions/jMQTMbOS/mainhandswitch-0.2-1.20.1.jar",
+      "hash": "sha512-EvaEuzUa4CLyexZ0tyL2DdEP/t6yqInkMoDTJhdoj9/lV81vjld7IJTNAvzsx6CbDSyeBcD+bkSR7kfkEcAu5w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qUMYsAnS": {
+      "filename": "mainhandswitch-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Fjk3Tv4l/versions/qUMYsAnS/mainhandswitch-0.1-1.20.1.jar",
+      "hash": "sha512-YV92RnDXkQCq+dlJYURri1NF2zbqq9mQ6WB4FlGFyo9sL7jD3McWEpy2PJcQxgMfZTuV+LrwUMuypWPiZ5oixw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "jMQTMbOS",
+      "qUMYsAnS"
+    ],
+    "1.20.1+fabric": [
+      "jMQTMbOS",
+      "qUMYsAnS"
+    ],
+    "1.21+fabric": [
+      "Q9EsCXJX"
+    ]
+  }
+}

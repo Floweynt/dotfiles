@@ -1,0 +1,83 @@
+{
+  "slug": "regions-unexplored-expansion",
+  "projectId": "UUT3UbDH",
+  "versions": {
+    "5Wgh27UC": {
+      "filename": "RUExpansion-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/UUT3UbDH/versions/5Wgh27UC/RUExpansion-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-YenN5PRqB4bO/gPE4k1GhEiSaSDOP6fWDFElME+Xjs2NO2CTpg9nHLSa8a7jlmHuFt00d58siYriV/npxWWQhA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "regions-unexplored",
+          "projectId": "Tkikq67H",
+          "type": "required"
+        }
+      ]
+    },
+    "dDbOFyme": {
+      "filename": "RUVanillaBiomes-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/UUT3UbDH/versions/dDbOFyme/RUVanillaBiomes-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-KqlhrsRN350VTl9fdHCLetdWtzILSssNdl9/+twpQz9BxBDyi74LB0UzoJdIABnYm1KiaeWSK8NgZtNniN1jCQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "regions-unexplored",
+          "projectId": "Tkikq67H",
+          "type": "required"
+        }
+      ]
+    },
+    "oRkSj0n9": {
+      "filename": "RUExpansion-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/UUT3UbDH/versions/oRkSj0n9/RUExpansion-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-IofskOvf1iiDlqtfYQmfNf3gh4iVmHYQDM0lzWcb1ulstaUDEzbxgTZvo3XZTFi/QoqwnJOjHBiGkjPox9aCyQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "regions-unexplored",
+          "projectId": "Tkikq67H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "oRkSj0n9",
+      "dDbOFyme"
+    ],
+    "1.21.1+fabric": [
+      "5Wgh27UC"
+    ],
+    "1.21.1+forge": [
+      "5Wgh27UC"
+    ],
+    "1.21.1+neoforge": [
+      "5Wgh27UC"
+    ]
+  }
+}

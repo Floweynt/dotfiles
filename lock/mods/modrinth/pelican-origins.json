@@ -1,0 +1,100 @@
+{
+  "slug": "pelican-origins",
+  "projectId": "eOIUkopP",
+  "versions": {
+    "4gjWnHGz": {
+      "filename": "pelican-origins-forge-fabric-1-20.X.jar",
+      "url": "https://cdn.modrinth.com/data/eOIUkopP/versions/4gjWnHGz/pelican-origins-forge-fabric-1-20.X.jar",
+      "hash": "sha512-gE7e8SBPnnQLLfmUVmy40nol18aCChX5l4Idkv3S/oOYZOyhnQ4Bp7kzTWm7pl6iNCQgAlWE5jPe73kVYy1VFw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "I65YmWfW": {
+      "filename": "pelican-origins-forge-fabric-1-19-X.jar",
+      "url": "https://cdn.modrinth.com/data/eOIUkopP/versions/I65YmWfW/pelican-origins-forge-fabric-1-19-X.jar",
+      "hash": "sha512-KlUyxBmNO3WnKucxvWG/UYsABlWssteoD7h1iS4NW7tR2AeuSuidP9xYTsLKZoLmkTEK80ulH+tCDyBkTkKqkQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "I65YmWfW"
+    ],
+    "1.19+forge": [
+      "I65YmWfW"
+    ],
+    "1.19.1+fabric": [
+      "I65YmWfW"
+    ],
+    "1.19.1+forge": [
+      "I65YmWfW"
+    ],
+    "1.19.2+fabric": [
+      "I65YmWfW"
+    ],
+    "1.19.2+forge": [
+      "I65YmWfW"
+    ],
+    "1.19.3+fabric": [
+      "I65YmWfW"
+    ],
+    "1.19.3+forge": [
+      "I65YmWfW"
+    ],
+    "1.20+fabric": [
+      "4gjWnHGz"
+    ],
+    "1.20+forge": [
+      "4gjWnHGz"
+    ],
+    "1.20.1+fabric": [
+      "4gjWnHGz"
+    ],
+    "1.20.1+forge": [
+      "4gjWnHGz"
+    ]
+  }
+}

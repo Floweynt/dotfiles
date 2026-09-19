@@ -1,0 +1,48 @@
+{
+  "slug": "blazingbamboo",
+  "projectId": "qeChSM8z",
+  "versions": {
+    "5IE23JrO": {
+      "filename": "BlazingBamboo-Forge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/qeChSM8z/versions/5IE23JrO/BlazingBamboo-Forge-1.20.1-1.0.1.jar",
+      "hash": "sha512-Dp17OuEQMZ1NXPIgd6aVIqWmEOFVKmfGQAgog4shFKobxcOs4dv1WhhhXsbK8l9GSkm+zblvo4j7QqgKh+FE0g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UVCeAwd8": {
+      "filename": "BlazingBamboo-Fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/qeChSM8z/versions/UVCeAwd8/BlazingBamboo-Fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-ATuRaCwqMk1za2sAhkIet8is0oHbHGmDmWNMu6zBFQ48hW9U0mP0KzdZtabCr/XnJLs/gL8z1496hewe6PZ8zg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "UVCeAwd8"
+    ],
+    "1.20.1+forge": [
+      "5IE23JrO"
+    ]
+  }
+}

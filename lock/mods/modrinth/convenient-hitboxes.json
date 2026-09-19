@@ -1,0 +1,35 @@
+{
+  "slug": "convenient-hitboxes",
+  "projectId": "jkyLlpJ3",
+  "versions": {
+    "gii4Aqn3": {
+      "filename": "1.20.1-convenient-hitboxes-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/jkyLlpJ3/versions/gii4Aqn3/1.20.1-convenient-hitboxes-1.0.5.jar",
+      "hash": "sha512-FnoXR9vM+PRgd1TzGtR3g2SKgR/Yl6AEjPOtvTP+fQGPWNVx2xR1tNqLIe0C+8QEYF3pEb9ElNvayOXEhWmT4Q==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gii4Aqn3"
+    ],
+    "1.20.2+fabric": [
+      "gii4Aqn3"
+    ]
+  }
+}

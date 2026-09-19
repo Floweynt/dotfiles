@@ -1,0 +1,68 @@
+{
+  "slug": "voicechat-groupnames",
+  "projectId": "ysVXpAeC",
+  "versions": {
+    "ARIvCa6x": {
+      "filename": "voicechat-names-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ysVXpAeC/versions/ARIvCa6x/voicechat-names-1.1.0.jar",
+      "hash": "sha512-80C8Y4jb9/Srxr8E2I+0nx9y9Wm6PGNsJyqSJMmMvh3DSujv22OJhKPbOZFqpaHFLPRJwuuSqLUfCvdqPeJtSA==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        }
+      ]
+    },
+    "To2IvhSy": {
+      "filename": "voicechat-names-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ysVXpAeC/versions/To2IvhSy/voicechat-names-1.0.0.jar",
+      "hash": "sha512-UhDqH3xyMc8AqlKd/tvWaxUYmX7Z9LMIkZ1Zca8KU80x9sC3FxIqi9CfggXVeiYLVQ6F1XPvJ5CqA8Hm6Ig6nQ==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "simple-voice-chat",
+          "projectId": "9eGKb6K1",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "ARIvCa6x",
+      "To2IvhSy"
+    ],
+    "1.21.11+fabric": [
+      "ARIvCa6x"
+    ],
+    "1.21.8+fabric": [
+      "ARIvCa6x",
+      "To2IvhSy"
+    ],
+    "1.21.9+fabric": [
+      "ARIvCa6x",
+      "To2IvhSy"
+    ]
+  }
+}

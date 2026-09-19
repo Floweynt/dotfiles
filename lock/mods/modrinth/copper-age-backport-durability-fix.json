@@ -1,0 +1,54 @@
+{
+  "slug": "copper-age-backport-durability-fix",
+  "projectId": "sH7YRQbz",
+  "versions": {
+    "Uacz9jxf": {
+      "filename": "copperagebackport_durability_fix-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/sH7YRQbz/versions/Uacz9jxf/copperagebackport_durability_fix-fabric-0.1.0.jar",
+      "hash": "sha512-snYJ8I3ajHYeeAyaLi4gWt9Mhjd3XOX/gWUnnVSh93DNzTw3EWwzld3FoNvcKb3MNahiyDS4vHKLs2MsK6z9iQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "backport-copper-age",
+          "projectId": "a1llHwl4",
+          "type": "required"
+        }
+      ]
+    },
+    "yMNIN9AU": {
+      "filename": "copperagebackport_durability_fix-neoforge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/sH7YRQbz/versions/yMNIN9AU/copperagebackport_durability_fix-neoforge-0.1.0.jar",
+      "hash": "sha512-zJvfHYeW5fy6uR9+Lo8atYJ1uWs1ntT9V/KYhspPqd8235tUeh8HRbCYspHcppa0RcN26uxXgbiR5NHWxFEzLg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "backport-copper-age",
+          "projectId": "a1llHwl4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Uacz9jxf"
+    ],
+    "1.21.1+neoforge": [
+      "yMNIN9AU"
+    ]
+  }
+}

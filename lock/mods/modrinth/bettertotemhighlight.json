@@ -1,0 +1,84 @@
+{
+  "slug": "bettertotemhighlight",
+  "projectId": "xh0xITjC",
+  "versions": {
+    "IG3fud3H": {
+      "filename": "bettertotemhighlight-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xh0xITjC/versions/IG3fud3H/bettertotemhighlight-1.0.jar",
+      "hash": "sha512-7+zlE82nNDtDu7a3j04TqSJkE8ZdgYCMuIWVXBo9D72dU7nEKwM5Imfy6wVlG0k4aZxddgtrwiZJg1Qp0hlZzQ==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "kgcquPVa": {
+      "filename": "bettertotemhighlight-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xh0xITjC/versions/kgcquPVa/bettertotemhighlight-1.0.jar",
+      "hash": "sha512-Qu1PtXkS61/Vbiw+RIHc/EZDPk97ImI8j6FeASUSJBHdhj2HA9Ggj59vglqNhN3C9XqU4u8sqKv02TOVosF8Bw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "tBstFc75": {
+      "filename": "bettertotemhighlight-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xh0xITjC/versions/tBstFc75/bettertotemhighlight-1.0.jar",
+      "hash": "sha512-4WEyAsGMo/QiqgrLYNwbXhdqjwiTQbOb1tUPwP2/ZraPKrzp5i6SYFpqoBBYobRA2Dh7nZPztHfLzY5TnxDE+Q==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "tBstFc75"
+    ],
+    "1.21.5+fabric": [
+      "kgcquPVa"
+    ],
+    "1.21.6+fabric": [
+      "IG3fud3H"
+    ],
+    "1.21.7+fabric": [
+      "IG3fud3H"
+    ],
+    "1.21.8+fabric": [
+      "IG3fud3H"
+    ]
+  }
+}

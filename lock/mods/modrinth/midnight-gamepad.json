@@ -1,0 +1,87 @@
+{
+  "slug": "midnight-gamepad",
+  "projectId": "pjbihdv3",
+  "versions": {
+    "7As4Wrzr": {
+      "filename": "midnight-gamepad-pre-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/pjbihdv3/versions/7As4Wrzr/midnight-gamepad-pre-alpha.jar",
+      "hash": "sha512-D7KLE/mYXIMUUU9qgtRA2vlsB3GOVPh6a1ZKgxjBbjq1dlKpByzgKc1nnb14cCrypxKeknpa89ymNrSiQp8pIA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "M4AEBjHg": {
+      "filename": "midnight-gamepad-pre-alpha.2.jar",
+      "url": "https://cdn.modrinth.com/data/pjbihdv3/versions/M4AEBjHg/midnight-gamepad-pre-alpha.2.jar",
+      "hash": "sha512-Vr+asywbIL523OtJ5lXy+Cdm7a9Psa1x/GlE+H7GIV+S10OpCchlP5wadLyLPDhTKnknf1zW5gU5jYyCf0ZMjg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "m2BT2Z2S": {
+      "filename": "midnight-gamepad-1.0.2-sources.jar",
+      "url": "https://cdn.modrinth.com/data/pjbihdv3/versions/m2BT2Z2S/midnight-gamepad-1.0.2-sources.jar",
+      "hash": "sha512-hjHOzUBxM1aLLE4o6ztSIqP7FgpCeqzgG1SA8y9lAYw74JzUvFlCwa0z6zcD0bu7qh9+V9iefBtrjDY21UG0eQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "m2BT2Z2S",
+      "M4AEBjHg",
+      "7As4Wrzr"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "slug": "hex-casting-media-display",
+  "projectId": "WUaqJBWj",
+  "versions": {
+    "QBePaU0F": {
+      "filename": "hexcasting-media-display-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/WUaqJBWj/versions/QBePaU0F/hexcasting-media-display-1.1.1.jar",
+      "hash": "sha512-rF7LVExFsmm/hPDI8MN6oChJdg5wKi/LA2Kw9sq2VK9cXGIfBvFCLz5ztKnx1EGgooYulaH6D+qjAOP9099P1Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "glMCyexX": {
+      "filename": "hexcasting-media-display-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/WUaqJBWj/versions/glMCyexX/hexcasting-media-display-1.2.0.jar",
+      "hash": "sha512-OV4ungsT5YeJCcuNwIzj/P9PjzqfuZbX4k1b4z8+Poukppf6rYK6Hta1jPx1gULQ8cSYRWkbgmAOiTjfK8ka9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "inline",
+          "projectId": "fin1PX4m",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "glMCyexX",
+      "QBePaU0F"
+    ]
+  }
+}

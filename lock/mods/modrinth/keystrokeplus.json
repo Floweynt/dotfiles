@@ -1,0 +1,46 @@
+{
+  "slug": "keystrokeplus",
+  "projectId": "nTqqetF7",
+  "versions": {
+    "F3FaaQuc": {
+      "filename": "keystrokeplus-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nTqqetF7/versions/F3FaaQuc/keystrokeplus-1.0.0.jar",
+      "hash": "sha512-KJNLlTFiozHiWmhOQWRNNbq+S/EqENGiD+4AknVbh/AzgocHNmdshLmd8xsUMxnQ4+DSpNe4m8NOwwj41G3JDA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "onHn6TJa": {
+      "filename": "keystrokeplusFixedw.jar",
+      "url": "https://cdn.modrinth.com/data/nTqqetF7/versions/onHn6TJa/keystrokeplusFixedw.jar",
+      "hash": "sha512-Ah2hrQyIQ/qgfwc7FcBZYbWmGPPOfpjEQluqBY2jrAo78jaHqEe91UYAwtF76SwNXVsKpNqG1i+5Xw5YtnSVKw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "onHn6TJa",
+      "F3FaaQuc"
+    ]
+  }
+}

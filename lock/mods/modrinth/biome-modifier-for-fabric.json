@@ -1,0 +1,162 @@
+{
+  "slug": "biome-modifier-for-fabric",
+  "projectId": "LisiviFp",
+  "versions": {
+    "1YHnp52w": {
+      "filename": "biome_modifier-1.20.1+1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/LisiviFp/versions/1YHnp52w/biome_modifier-1.20.1%2B1.0.1.jar",
+      "hash": "sha512-hOsWyGSR06FftlFyaoOpdXib4nah6Z9HcIq2f5sr7e3yRfsJ3BpK7BcQclBvLlj8zdPETa0w4JcB7BeRmR2JRA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "2wVKSKDI": {
+      "filename": "biome_modifier-1.20.1+1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/LisiviFp/versions/2wVKSKDI/biome_modifier-1.20.1%2B1.0.2.jar",
+      "hash": "sha512-Oc+bKNekc2lewFemQB6c0x7N9r/KtCxv+B/QCnucmIz4AVmWHiuUnY4BK9FJyJT/ViI8VyzV289xcOgPfm55pQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "F1SkXI8B": {
+      "filename": "biome_modifier-1.21.2+1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/LisiviFp/versions/F1SkXI8B/biome_modifier-1.21.2%2B1.0.2.jar",
+      "hash": "sha512-Hhhc5j8EEGAsDJnAxdhwI5K/UMfKuPSSxT1FYmh38Ydmok5vOCBmB1AiuHUO5t01T+2m4xH352RZdVojLS5a6Q==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "HZnxmnQS": {
+      "filename": "biome_modifier-1.20.1+1.0.1-pre.jar",
+      "url": "https://cdn.modrinth.com/data/LisiviFp/versions/HZnxmnQS/biome_modifier-1.20.1%2B1.0.1-pre.jar",
+      "hash": "sha512-3EB9/F6zBxDz/eH0hBmqbxxldZ84Tmkfxksn4PitZ3H8F+NAReRG9CIez9IY3mEQlPBtlP/aJKjrQrCpkNyZ/w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PMcbOtF8": {
+      "filename": "biome_modifier-1.20.6+1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/LisiviFp/versions/PMcbOtF8/biome_modifier-1.20.6%2B1.0.2.jar",
+      "hash": "sha512-sKzQ4nosY6uMkMANtAKyLFOUgGpxpAPoK1JwziN4XBkEDRJsxMjvyJqZXO9S1pWgFqpHe3m00GluZsOs4/njiw==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "QTr8mr6K": {
+      "filename": "biome_modifier-1.21+1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/LisiviFp/versions/QTr8mr6K/biome_modifier-1.21%2B1.0.2.jar",
+      "hash": "sha512-UGON4KTITi4IodYhebOIFQvW4+aRI81nV1o5LjU8nBlUy30ENedD4aK6Rie+Pkb+I7SyByv1SWnMQfDt3FeNrA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "2wVKSKDI",
+      "1YHnp52w",
+      "HZnxmnQS"
+    ],
+    "1.20.1+fabric": [
+      "2wVKSKDI",
+      "1YHnp52w",
+      "HZnxmnQS"
+    ],
+    "1.20.2+fabric": [
+      "2wVKSKDI",
+      "1YHnp52w"
+    ],
+    "1.20.3+fabric": [
+      "2wVKSKDI",
+      "1YHnp52w"
+    ],
+    "1.20.4+fabric": [
+      "2wVKSKDI",
+      "1YHnp52w"
+    ],
+    "1.20.5+fabric": [
+      "PMcbOtF8"
+    ],
+    "1.20.6+fabric": [
+      "PMcbOtF8"
+    ],
+    "1.21+fabric": [
+      "QTr8mr6K"
+    ],
+    "1.21.1+fabric": [
+      "QTr8mr6K"
+    ],
+    "1.21.2+fabric": [
+      "F1SkXI8B"
+    ],
+    "1.21.3+fabric": [
+      "F1SkXI8B"
+    ]
+  }
+}

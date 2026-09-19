@@ -1,0 +1,145 @@
+{
+  "slug": "reden-mev",
+  "projectId": "Ga2Rew3L",
+  "versions": {
+    "beueIQIW": {
+      "filename": "reden-mev-1.0.2-0.16.5-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ga2Rew3L/versions/beueIQIW/reden-mev-1.0.2-0.16.5-1.21.1.jar",
+      "hash": "sha512-oZiUgrrFG0s/5+u6sYOYHhpypWNjAUp9/sOmV26r03pJP8WJ8IyCrHLuj+Gvg5HIOua6Lm2yzT2cUUymyyopnA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "litematica",
+          "projectId": "bEpr0Arc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        }
+      ]
+    },
+    "jO74MPyQ": {
+      "filename": "reden-mev-1.0.2-0.16.5-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ga2Rew3L/versions/jO74MPyQ/reden-mev-1.0.2-0.16.5-1.20.1.jar",
+      "hash": "sha512-tOXDZD1SBiBJAJ7GGqDUsLlffDcE1sEUe2WV0rWv9A34tgAolc6MtXKPPIq7ur12IphU5i0IvPIXl5iKbCeyKg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "litematica",
+          "projectId": "bEpr0Arc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "oc3aRqxs": {
+      "filename": "reden-mev-1.0.2-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/Ga2Rew3L/versions/oc3aRqxs/reden-mev-1.0.2-1.21.4.jar",
+      "hash": "sha512-9zM8+EEfLxLyG3I8ex0+wwCdmomVxS3U+X39WBxWF3tFZkDloItLOdWvNVZ4eFLbiLdcgssKL+woot7B/NXPRA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "litematica",
+          "projectId": "bEpr0Arc",
+          "type": "required"
+        },
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "jO74MPyQ"
+    ],
+    "1.20.1+fabric": [
+      "jO74MPyQ"
+    ],
+    "1.21+fabric": [
+      "beueIQIW"
+    ],
+    "1.21.1+fabric": [
+      "beueIQIW"
+    ],
+    "1.21.4+fabric": [
+      "oc3aRqxs"
+    ]
+  }
+}

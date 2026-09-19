@@ -1,0 +1,41 @@
+{
+  "slug": "ftb-ultimine-cobblemon-compat",
+  "projectId": "PbTAQA4c",
+  "versions": {
+    "8dlppdYC": {
+      "filename": "ftbultimine-cobblemon-compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PbTAQA4c/versions/8dlppdYC/ftbultimine-cobblemon-compat-1.0.0.jar",
+      "hash": "sha512-tQYO8JqcOwKMzd255LqIVwhKvHc8+JsvTszbqMWHIVHmSUwYHtHlft3beNsxIqE4hr6Wcm5cIK2+kefvcgXfJA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "8dlppdYC"
+    ]
+  }
+}

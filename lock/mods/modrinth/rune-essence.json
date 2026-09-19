@@ -1,0 +1,52 @@
+{
+  "slug": "rune-essence",
+  "projectId": "ZIyDiKyX",
+  "versions": {
+    "393F74HO": {
+      "filename": "rune-essence-1.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZIyDiKyX/versions/393F74HO/rune-essence-1.0.1-fabric.jar",
+      "hash": "sha512-3LQEYQ2krF5XBpJDtBcTvG3bNakRCT73cnLrocujuQYN13jJjjRmnzGIiF2ZUe6aWYLEzf94xMFPNSodUpnwYg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qsR44c2f": {
+      "filename": "rune-essence-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ZIyDiKyX/versions/qsR44c2f/rune-essence-1.0.0-fabric.jar",
+      "hash": "sha512-NCQ540EEMR+gpFm8wdEw9+utdzKGPXmmRwLQcwK52HrdAYZ+Yh5sv1Pg2Ljze1+lt5VNLuBsCWn1o0fVV4pp4w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "393F74HO",
+      "qsR44c2f"
+    ]
+  }
+}

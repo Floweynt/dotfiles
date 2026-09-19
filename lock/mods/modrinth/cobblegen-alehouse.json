@@ -1,0 +1,117 @@
+{
+  "slug": "cobblegen-alehouse",
+  "projectId": "nLLTQifP",
+  "versions": {
+    "DK4zeGva": {
+      "filename": "cobblegen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nLLTQifP/versions/DK4zeGva/cobblegen-1.0.0.jar",
+      "hash": "sha512-E3tadAWUR8eT9K5WmqCRZC949N9s3qaEoifqpW22NdDZrIbGul0QUXx+8KIhWQgwYKjxTRa7JRFPQx3b9XQJVg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MkU1hu64": {
+      "filename": "cobblegen-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/nLLTQifP/versions/MkU1hu64/cobblegen-1.0.1.jar",
+      "hash": "sha512-oqMIAtLEnUdYhBrtZDUPEqAS1ApQ4W2MKjH0VTMORW2LolEARrQVl5nOn4lQhJ9mVkDbWqfndLcVg75X5sq1UA==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nAtWGmIc": {
+      "filename": "cobblegen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nLLTQifP/versions/nAtWGmIc/cobblegen-1.0.0.jar",
+      "hash": "sha512-9K4LeEzLb50GVUhXLIAOR3CYUAKXlbpz/2UWBwS78qixFO2TTlQ91vrhEVe13L2CVifpE/Ql+Cip4CErY5zcmA==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qYVLezWO": {
+      "filename": "cobblegen-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/nLLTQifP/versions/qYVLezWO/cobblegen-1.0.2.jar",
+      "hash": "sha512-JaGoOcLfmpKsAwsnFs4OM3MYxsUfg9c+PbeFTMuC76XsMKx6Vc1P66SmXMPkyJiTiaYL+JaMgWGFy5IZu4B6mA==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vbzAHJ0E": {
+      "filename": "cobblegen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nLLTQifP/versions/vbzAHJ0E/cobblegen-1.0.0.jar",
+      "hash": "sha512-702XHJXgrEODbFTttqnp0+oEo4IH8s1akL9Z89IdyWJSNvkO1nWudTG7Q9LQNOcnTNKq4QD8jMcDCD51aSVxtg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "qYVLezWO",
+      "MkU1hu64",
+      "vbzAHJ0E"
+    ],
+    "1.21.11+fabric": [
+      "qYVLezWO"
+    ],
+    "1.21.8+fabric": [
+      "qYVLezWO",
+      "MkU1hu64",
+      "DK4zeGva"
+    ],
+    "1.21.9+fabric": [
+      "qYVLezWO",
+      "nAtWGmIc"
+    ]
+  }
+}

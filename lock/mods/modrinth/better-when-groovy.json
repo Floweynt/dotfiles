@@ -1,0 +1,57 @@
+{
+  "slug": "better-when-groovy",
+  "projectId": "WJSGf25Z",
+  "versions": {
+    "FC8BsUEq": {
+      "filename": "better-when-groovy-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WJSGf25Z/versions/FC8BsUEq/better-when-groovy-1.0.0.jar",
+      "hash": "sha512-AD0Aeo9m4a57QSy523KL15H1Ndy/XfUxI97PuIQVawvMZbpV65dCq6kjX2VMwOitd+CcmYIialbJfFXPg+3QAw==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mod-menu-bta",
+          "projectId": "BnSCrq6A",
+          "type": "required"
+        },
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        }
+      ]
+    },
+    "xex1epUU": {
+      "filename": "better-when-groovy-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/WJSGf25Z/versions/xex1epUU/better-when-groovy-1.0.1.jar",
+      "hash": "sha512-AvDPgbIBt/jrbO3Sj6c1wXmu+tAQYLUQf1egz86I9iF/imC+YUK5kRlYqEekjiZ0Rmu+UhUF+GXHLUNRHvO9Ug==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+fabric": [
+      "xex1epUU",
+      "FC8BsUEq"
+    ]
+  }
+}

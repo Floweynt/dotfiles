@@ -1,0 +1,61 @@
+{
+  "slug": "enchancementos",
+  "projectId": "gNTbqiFw",
+  "versions": {
+    "KjNOsRkn": {
+      "filename": "enchancementos-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/gNTbqiFw/versions/KjNOsRkn/enchancementos-1.0.4.jar",
+      "hash": "sha512-fKJyybnIFuIiVCG8ke2RMMUqhoQxsd0R63tUYO5AlMZyht2qj8XQz/NOmVKzw8JYsXbZsuD0PPIqobBgh5KSUw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NS4IJjOI": {
+      "filename": "enchancementos-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/gNTbqiFw/versions/NS4IJjOI/enchancementos-1.0.3.jar",
+      "hash": "sha512-RpkLCI4ICaR6e12jvVhnsjJ/vuTsiddlVXHL+MuJ6ZmK7yb2+GIv93O0qlt1fmMclyTphQ1gWaNh7upZqDiRFQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enchancement",
+          "projectId": "6hN1V6wJ",
+          "type": "required"
+        }
+      ]
+    },
+    "TJoIWSkI": {
+      "filename": "enchancementos-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/gNTbqiFw/versions/TJoIWSkI/enchancementos-1.0.2.jar",
+      "hash": "sha512-hUIK71ioB/CHiL7Bo+gCIiI/9KnWoOz/Fin7OoJDMvayfd/owBh/lNveSvKqCKkGqXF24YLGTtx/ysvxgu9BAQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "KjNOsRkn",
+      "NS4IJjOI",
+      "TJoIWSkI"
+    ]
+  }
+}

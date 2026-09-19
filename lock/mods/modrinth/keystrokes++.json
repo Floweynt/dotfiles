@@ -1,0 +1,65 @@
+{
+  "slug": "keystrokes++",
+  "projectId": "UeLu4Aro",
+  "versions": {
+    "2MvM8DTw": {
+      "filename": "keystrokes-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/UeLu4Aro/versions/2MvM8DTw/keystrokes-1.21.10.jar",
+      "hash": "sha512-8s+aRXKdP9zZd81bhu2k8NGgIqtSOZO6vHM/q8p08zVvY90HpkYmutuP66aOLSaw7ReCnIPjWBXSOaeN/i6etA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "PJGCVeWJ": {
+      "filename": "keystrokes-1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/UeLu4Aro/versions/PJGCVeWJ/keystrokes-1.21.9.jar",
+      "hash": "sha512-WaltY9d+ASN8kT4tg1CXjkjrzOOhABL9ya99o9r0/46zj6yyB63W73f5pTG1tTYADvi2JXkUxR4uGn0fK4jdPw==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qG1ZVGlL": {
+      "filename": "keystrokes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UeLu4Aro/versions/qG1ZVGlL/keystrokes-1.0.0.jar",
+      "hash": "sha512-8+tRMNzTdoj/PrrW9ghImKQmVRNBLVhTD1aR1iV3Aj32Pqe0Tg7pPIJzrccMTHhupYn47bzg8fNFAWpMfcexzw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "PJGCVeWJ",
+      "2MvM8DTw"
+    ],
+    "1.21.11+fabric": [
+      "PJGCVeWJ",
+      "2MvM8DTw",
+      "qG1ZVGlL"
+    ],
+    "1.21.9+fabric": [
+      "PJGCVeWJ"
+    ]
+  }
+}

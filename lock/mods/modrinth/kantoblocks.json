@@ -1,0 +1,51 @@
+{
+  "slug": "kantoblocks",
+  "projectId": "O69n76AH",
+  "versions": {
+    "lIWqnEzK": {
+      "filename": "kantoblocks-1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/O69n76AH/versions/lIWqnEzK/kantoblocks-1.0.9.jar",
+      "hash": "sha512-qHOXhIWt3kaQlERXJSPxE0m/S1WD0K8KlnT4Ga+Xe4AbkPKxwG/FPRHLWNvSA7I9scoW0KhgV7yRKl5fqYy3mA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "athena-ctm",
+          "projectId": "b1ZV3DIJ",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "p1Xx7EAP": {
+      "filename": "kantoblocks-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/O69n76AH/versions/p1Xx7EAP/kantoblocks-1.1.0.jar",
+      "hash": "sha512-kBOfskURIHq17lpmVTmtz4laBfp83rCx6ZSwNG0xTjt8D9t9ibOlzfM8z3Rwl1WUKqJZG79/30zWCYJkJja6Sw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "p1Xx7EAP",
+      "lIWqnEzK"
+    ]
+  }
+}

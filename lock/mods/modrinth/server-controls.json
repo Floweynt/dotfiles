@@ -1,0 +1,70 @@
+{
+  "slug": "server-controls",
+  "projectId": "SMaORwAr",
+  "versions": {
+    "KtDDJDdb": {
+      "filename": "servercontrols-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/SMaORwAr/versions/KtDDJDdb/servercontrols-1.1.0.jar",
+      "hash": "sha512-FoRojhqOWa3x5GWq9PXYCx5MI49kF+YIE3TTXY0c11ZO2aBPJiHC8Rt3aCCBxw4S8rY4ak4Vsv1e2WGP5vQ61A==",
+      "gameVersions": [
+        "1.20-rc1",
+        "1.20",
+        "1.20.1-rc1",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NKaA2Adf": {
+      "filename": "servercontrols-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SMaORwAr/versions/NKaA2Adf/servercontrols-1.0.0.jar",
+      "hash": "sha512-367uF3x6qZMen7QvbQpQOfGhtu/HQABo+8xRsaRVszrjE4cBB81CpJFPmzRlu04LsLdMOagfBXr/RvK07CssUw==",
+      "gameVersions": [
+        "1.20-rc1",
+        "1.20",
+        "1.20.1-rc1",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "KtDDJDdb",
+      "NKaA2Adf"
+    ],
+    "1.20-rc1+fabric": [
+      "KtDDJDdb",
+      "NKaA2Adf"
+    ],
+    "1.20.1+fabric": [
+      "KtDDJDdb",
+      "NKaA2Adf"
+    ],
+    "1.20.1-rc1+fabric": [
+      "KtDDJDdb",
+      "NKaA2Adf"
+    ]
+  }
+}

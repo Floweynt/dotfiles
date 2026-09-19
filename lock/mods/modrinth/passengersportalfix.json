@@ -1,0 +1,118 @@
+{
+  "slug": "passengersportalfix",
+  "projectId": "LI0BrUQA",
+  "versions": {
+    "SKDIzGMy": {
+      "filename": "passengersportalfix-forge-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/LI0BrUQA/versions/SKDIzGMy/passengersportalfix-forge-0.0.2.jar",
+      "hash": "sha512-/T1Is+yiyN03EuZh/m5k2HnnPdONcn0P1tOtWESLg6enCE34EfK+ZOQPGcf2rDn/08FyHDhl1khy8WkULDiNLg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "aQ6ucraw": {
+      "filename": "passengersportalfix-fabric-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/LI0BrUQA/versions/aQ6ucraw/passengersportalfix-fabric-0.0.1.jar",
+      "hash": "sha512-aaKdTqN0A9Npj7bHKrKQYgZONQ/QvcbonQ3PRtfTeLbi12FKlMwDDb8FwLBO/EbKjm7ouNxPM9ipsciDcVa/1w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "jSSaT5Gu": {
+      "filename": "passengersportalfix-fabric-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/LI0BrUQA/versions/jSSaT5Gu/passengersportalfix-fabric-0.0.1.jar",
+      "hash": "sha512-qO4zde9n7g8WGHHaIj62stRtHp3YSUaYcWBKUnspkNMh5eutHY/t1e39w1fQNz+BRbdpuGAbTnNvy87XLU1Wng==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "o3ecx7Io": {
+      "filename": "passengersportalfix-forge-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/LI0BrUQA/versions/o3ecx7Io/passengersportalfix-forge-0.0.1.jar",
+      "hash": "sha512-DHJxnp9dqEscO4lSCPoKOEDjuz+hNI4GcA1VwrK+285SllbHFx10vhWhPjH0Iq0PMPn08a48y7+zoXmUUPlGvQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "pZ4GyRJf": {
+      "filename": "passengersportalfix-forge-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/LI0BrUQA/versions/pZ4GyRJf/passengersportalfix-forge-0.0.1.jar",
+      "hash": "sha512-w0n24Uf62+xCmpbMAQop3zH81TsETV8BE7841RF22nrYsAnECWjgcCU5a5MxZpw4zazlemPGAdhRG/iun6gdWA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "vc5a62BO": {
+      "filename": "passengersportalfix-fabric-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/LI0BrUQA/versions/vc5a62BO/passengersportalfix-fabric-0.0.2.jar",
+      "hash": "sha512-kfpaQbAOuK1R+wKFx1GEiFKPt/VLvcC4JHDH7lWOmZs8o4YEPH5gIULuwFfeOathPeWmgrnuh1bc7ZyE8fqDeA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "jSSaT5Gu"
+    ],
+    "1.16.5+forge": [
+      "o3ecx7Io"
+    ],
+    "1.20.1+fabric": [
+      "vc5a62BO",
+      "aQ6ucraw"
+    ],
+    "1.20.1+forge": [
+      "SKDIzGMy",
+      "pZ4GyRJf"
+    ],
+    "1.20.1+neoforge": [
+      "SKDIzGMy",
+      "pZ4GyRJf"
+    ]
+  }
+}

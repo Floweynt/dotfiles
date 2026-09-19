@@ -1,0 +1,88 @@
+{
+  "slug": "custom-blocks-mod",
+  "projectId": "bkeb9YwJ",
+  "versions": {
+    "5gTuf3pA": {
+      "filename": "CustomBlocks-1.6.0-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/bkeb9YwJ/versions/5gTuf3pA/CustomBlocks-1.6.0-1.18.2.jar",
+      "hash": "sha512-cb+jQNB07FLYoyWew6nZiMOLWsUG1n6yj++QZpjeC1gHgeQ2tfDu9ArvN+Do7eUrPJuSP2DySsB+ddEGfbdHow==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "U0Mf8xV5": {
+      "filename": "CustomBlocks-1.6.0-forge-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/bkeb9YwJ/versions/U0Mf8xV5/CustomBlocks-1.6.0-forge-1.19.jar",
+      "hash": "sha512-2laykZxAtpSVLQMoHQ6zz66txceZ5k12pELy0zjJXHTAchfbooz0Cmw6n5MJDSYLwNaQzTYj96LtQ1kj8ewI6A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UmIYn49c": {
+      "filename": "CustomBlocks-1.6.0-forge-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/bkeb9YwJ/versions/UmIYn49c/CustomBlocks-1.6.0-forge-1.18.2.jar",
+      "hash": "sha512-Khmu/avL3hoD3eUXQ/6DNuCp9sZX3UGuBZ+d1t76Gt293GJ/LE9rUVNZIH9NdcLq4ZE5lx55WzZNjVexIKxEUg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qVJqnQaE": {
+      "filename": "CustomBlocks-1.6.0-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/bkeb9YwJ/versions/qVJqnQaE/CustomBlocks-1.6.0-1.19.jar",
+      "hash": "sha512-maZjjhYsAc3f+M0zKgeflsEbiOWM9KhFdWgXNu+kQjxp5XxvzZMFGWOvAEFoToykLlIBC9i7wOS/KYHmnn6D5A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "5gTuf3pA"
+    ],
+    "1.18.2+forge": [
+      "UmIYn49c"
+    ],
+    "1.19+fabric": [
+      "qVJqnQaE"
+    ],
+    "1.19+forge": [
+      "U0Mf8xV5"
+    ]
+  }
+}

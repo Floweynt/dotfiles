@@ -1,0 +1,81 @@
+{
+  "slug": "gwg",
+  "projectId": "wR7IjW4q",
+  "versions": {
+    "2M9rTX22": {
+      "filename": "gridgen-1.1.0-1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/wR7IjW4q/versions/2M9rTX22/gridgen-1.1.0-1.21.7.jar",
+      "hash": "sha512-VLoAVZW1BctlP+aGoSf+ibze62miYEhhJ/A2cXkEXaq/sS8AQbEvB/bXAha4zzIJaXerRjsA/HFAvxyV/vxDYA==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "2fczkBhP": {
+      "filename": "gridgen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wR7IjW4q/versions/2fczkBhP/gridgen-1.0.0.jar",
+      "hash": "sha512-AyGcFf8D7yHLRKfEXZVsHzEO/ffk79wpH+T8KlWuRxdKsogrCBNCXuQMbaWgsj0z90CIj1rrOcFYqJzy0xEYEw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9Hvr1TZc": {
+      "filename": "gridgen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wR7IjW4q/versions/9Hvr1TZc/gridgen-1.0.0.jar",
+      "hash": "sha512-zfzlW6Mddrk6oGh929jjH855aon5fEj/OCyUPTZd2FDvcdlpMCIE0DSUN6EccmVNjuguvaI200eSFzXYzhtM4g==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "2fczkBhP"
+    ],
+    "1.21.6+fabric": [
+      "9Hvr1TZc"
+    ],
+    "1.21.7+fabric": [
+      "2M9rTX22"
+    ],
+    "1.21.8+fabric": [
+      "2M9rTX22"
+    ]
+  }
+}

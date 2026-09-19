@@ -1,0 +1,42 @@
+{
+  "slug": "japanese-katana",
+  "projectId": "WXtgId8k",
+  "versions": {
+    "NSYfmTrR": {
+      "filename": "japanese_katana-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/WXtgId8k/versions/NSYfmTrR/japanese_katana-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-EjbIWI0C356btya1qjTh+nrYIVbHE/1rtcJo00/kUfwSe5enRILiKrzkuxTrFNnbjbYFHfkU9c/V6DiYvMTDwA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PowEHx53": {
+      "filename": "japanese_katana1-1.0.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/WXtgId8k/versions/PowEHx53/japanese_katana1-1.0.0-fabric-1.20.1.jar",
+      "hash": "sha512-Yp1j9HcwO9p64KdWSlUUroRmwZTz3xnCWhsbomND0FWzGFDVgkiB9yt0yW4SWzFwjK3mxLIrKA09hui3WkpP5g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "PowEHx53"
+    ],
+    "1.20.1+forge": [
+      "NSYfmTrR"
+    ]
+  }
+}

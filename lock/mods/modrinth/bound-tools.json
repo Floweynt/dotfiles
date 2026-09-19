@@ -1,0 +1,36 @@
+{
+  "slug": "bound-tools",
+  "projectId": "xvZkGRvl",
+  "versions": {
+    "bvaTzOSW": {
+      "filename": "boundweapons-1.0.2-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/xvZkGRvl/versions/bvaTzOSW/boundweapons-1.0.2-1.19.2.jar",
+      "hash": "sha512-D5ULIqhy/Ry4sNqPqXMhtR2D5b8mDQfZJ1N/y41XOV0UKXu/zfcQkt5k7haC/5wKW/smuohLRWdOXAIafQLyWA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "skylib",
+          "projectId": "SXYcZO3i",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "bvaTzOSW"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "potato_cannon_additions",
+  "projectId": "rCVoESQM",
+  "versions": {
+    "iRYeDQmw": {
+      "filename": "potato_cannon_additions-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/rCVoESQM/versions/iRYeDQmw/potato_cannon_additions-1.0.jar",
+      "hash": "sha512-4tIbTw8WzXk8l2Cfvt3u17sQaf5neSLHPBVbtDeNdiiV4S3KQjY3+8aKHX/Hd9w7mcCiGvRLb8jvtEipiwHTEA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "rO3WmrT8": {
+      "filename": "PotatoCannonAdditions.zip",
+      "url": "https://cdn.modrinth.com/data/rCVoESQM/versions/rO3WmrT8/PotatoCannonAdditions.zip",
+      "hash": "sha512-k3wQhbrUCi5GjfOch0Rqfmvo+6GPVfo7v1EOSP1iHXNgsU9jMSojIczb/KaAbqwWDhPghFCtWpw0DQWqbmjpUw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "rO3WmrT8"
+    ],
+    "1.20.1+fabric": [
+      "iRYeDQmw"
+    ]
+  }
+}

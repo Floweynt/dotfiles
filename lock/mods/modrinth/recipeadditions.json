@@ -1,0 +1,123 @@
+{
+  "slug": "recipeadditions",
+  "projectId": "5964ODb0",
+  "versions": {
+    "6mpPR1xL": {
+      "filename": "create-recipeadditions-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/5964ODb0/versions/6mpPR1xL/create-recipeadditions-1.20.1-fabric.jar",
+      "hash": "sha512-APbRdg28T1KG84Mr2njgE+7I99U9J5FlajeTKyAttT6oK1XrBV1NuJQ7/IlX5tS8Z69IeeiRoEJe71695XQJCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "Bs7Y7LRJ": {
+      "filename": "recipeadditions-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/5964ODb0/versions/Bs7Y7LRJ/recipeadditions-1.0.2.jar",
+      "hash": "sha512-+BMcgODlz0q/jBTkbkoAPVzj/0WhqXCM6TJNUmNEdsmE71AuauDePORTYznXWsTfPgFJORhnOu1aAg0CmLyyZA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "J4X30ofK": {
+      "filename": "recipeadditions-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/5964ODb0/versions/J4X30ofK/recipeadditions-1.0.3.jar",
+      "hash": "sha512-cWpebdJWck9+cPkpvNBrTY7jlcKQWCS44YcmQlkdEtp3CKN0U2mzAdpOuJ9tNZmo6I64OrugRlETyusC0rfdLg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "TP4tBA70": {
+      "filename": "recipeadditions-1.0.4b.jar",
+      "url": "https://cdn.modrinth.com/data/5964ODb0/versions/TP4tBA70/recipeadditions-1.0.4b.jar",
+      "hash": "sha512-FcCJ+Ohh89oFayX9bUr8dZzbeCJNsmXeXLm/1zkWrIPPWV120+rMW7TVwtnE5Sh6E/QK/BCKbNSqmaP5uvrLgg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "kxlYGgGk": {
+      "filename": "create-recipeadditions-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/5964ODb0/versions/kxlYGgGk/create-recipeadditions-1.20.1-fabric.jar",
+      "hash": "sha512-APbRdg28T1KG84Mr2njgE+7I99U9J5FlajeTKyAttT6oK1XrBV1NuJQ7/IlX5tS8Z69IeeiRoEJe71695XQJCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "6mpPR1xL",
+      "kxlYGgGk"
+    ],
+    "1.20.1+quilt": [
+      "6mpPR1xL",
+      "kxlYGgGk"
+    ],
+    "1.21.1+neoforge": [
+      "TP4tBA70",
+      "J4X30ofK",
+      "Bs7Y7LRJ"
+    ]
+  }
+}

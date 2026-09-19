@@ -1,0 +1,148 @@
+{
+  "slug": "cobblemonxoritech",
+  "projectId": "9aM5Liw0",
+  "versions": {
+    "9WwTyvc3": {
+      "filename": "cobbletech-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9aM5Liw0/versions/9WwTyvc3/cobbletech-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-W8VF6R2lFRrBA7DvXYMiTcIvQjgTDqzhtKORvyMQPSMsCYqSfQVHElK4C48imv3rHHvOI8QhydHsl6TU2xg8kw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "oritech",
+          "projectId": "4sYI62kA",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        }
+      ]
+    },
+    "GWASpidD": {
+      "filename": "CobblemonXOritech.zip",
+      "url": "https://cdn.modrinth.com/data/9aM5Liw0/versions/GWASpidD/CobblemonXOritech.zip",
+      "hash": "sha512-y7B+iqCK6QHF5/hRzH2IMTAVBVMKRlPNYDt0ni7xbJB0uzH/g3gdzdpl2cXgmwHPXFD0UXyWZ6H1j1sVX3V5Iw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "TJ2r0Nv3": {
+      "filename": "cobbletech-neoforge-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/9aM5Liw0/versions/TJ2r0Nv3/cobbletech-neoforge-1.21.1-1.1.0.jar",
+      "hash": "sha512-CdE8TgDxofi44O52oG5EYGaJzouSwSZ9o83ftKOFP1QKodVAsk+PQfRqQKzEFUIlfrrcroHL8WYD7/ZDzdEgiw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "oritech",
+          "projectId": "4sYI62kA",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        }
+      ]
+    },
+    "uQ92zjmH": {
+      "filename": "cobbletech-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9aM5Liw0/versions/uQ92zjmH/cobbletech-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-hpSUvmTEzxzFaLzKZ9ggiXBPn8TiKiol9te3XYvCMnWyS8/Z4MJxoqgO/0SMWIgr6B6BJYE1U+dkv7Cwu5CX9A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "wquyGUOc": {
+      "filename": "cobbletech-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9aM5Liw0/versions/wquyGUOc/cobbletech-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-hG7/+aMLmg6NUYTrJts0R8VzMxCTNPPJC4UTnLM3Vwes938YOc3/yZa/arjnx3FD4h52EUDuEREXiObuWEgWow==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        },
+        {
+          "slug": "oritech",
+          "projectId": "4sYI62kA",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "GWASpidD"
+    ],
+    "1.21.1+fabric": [
+      "9WwTyvc3",
+      "wquyGUOc"
+    ],
+    "1.21.1+neoforge": [
+      "TJ2r0Nv3",
+      "uQ92zjmH"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "vanity-elementals",
+  "projectId": "dUoQpVe2",
+  "versions": {
+    "PEXL8CwF": {
+      "filename": "elemental-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/dUoQpVe2/versions/PEXL8CwF/elemental-1.1.jar",
+      "hash": "sha512-UsaCKyY9otKu0K1Y3+soVlgaEyQ2UMi/NwgOPzRrLM5O9LpTZJXiAoaJqS0ABBlfGEPHHyca8+9wAy7XlqHE7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    },
+    "td0NBBjD": {
+      "filename": "elemental-v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/dUoQpVe2/versions/td0NBBjD/elemental-v1.0.jar",
+      "hash": "sha512-demmqNcVetdp2M4pKL/DwQ6ydojcma/6gOPDkKFfZ8JtkrP7HkP/779Ifd3uKHLemwHTzuWpPqqaQqby1Ob9Vg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "PEXL8CwF",
+      "td0NBBjD"
+    ],
+    "1.20.1+forge": [
+      "PEXL8CwF",
+      "td0NBBjD"
+    ]
+  }
+}

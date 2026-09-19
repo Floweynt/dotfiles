@@ -1,0 +1,166 @@
+{
+  "slug": "boathud-f1",
+  "projectId": "aWc5Zy1M",
+  "versions": {
+    "BCA9T963": {
+      "filename": "boathud-f1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aWc5Zy1M/versions/BCA9T963/boathud-f1-1.0.0.jar",
+      "hash": "sha512-ZfN+P5BH4wzBTtEQKRLzjqliq6YUCjcgu58DzyOkblpJTIHAcdWDB7Nx5Sh8oRfKL2JRcxRzlUmHCYR0hMaP8A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JtbYVkzW": {
+      "filename": "boathud-f1-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/aWc5Zy1M/versions/JtbYVkzW/boathud-f1-1.1.1.jar",
+      "hash": "sha512-ye5/vQaVO28aXrqCMrHOBdUCTzACyqj2L/9BDczmDp1MEiyzVONq118z/Yw8Jm9kG/SRAu9KVmKz7zMyQGt8kQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Zn4BHBtl": {
+      "filename": "boathud-f1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/aWc5Zy1M/versions/Zn4BHBtl/boathud-f1-1.1.0.jar",
+      "hash": "sha512-F58+dCz3YInN4CshUb/CD9bUTKyzZgmVuaFuIpuIEl8d753+S2Z0rTPlj7YBECgWdS77wkbK5Z0BrNOsdEjNSA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "nkaoCciV": {
+      "filename": "boathud-f1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/aWc5Zy1M/versions/nkaoCciV/boathud-f1-1.0.1.jar",
+      "hash": "sha512-Nf6I+Z9eJkVNSDc9/TJrNRQ0zXCqDCjJvNVcPDA4eiz+5VBgjB6Nqg3XOkAdwu8NXMd7rVFJXpiikU+1HqC3LA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "nkaoCciV",
+      "BCA9T963"
+    ],
+    "1.20.1+fabric": [
+      "nkaoCciV",
+      "BCA9T963"
+    ],
+    "1.20.2+fabric": [
+      "nkaoCciV",
+      "BCA9T963"
+    ],
+    "1.20.3+fabric": [
+      "nkaoCciV",
+      "BCA9T963"
+    ],
+    "1.20.4+fabric": [
+      "nkaoCciV",
+      "BCA9T963"
+    ],
+    "1.20.5+fabric": [
+      "nkaoCciV",
+      "BCA9T963"
+    ],
+    "1.21+fabric": [
+      "JtbYVkzW",
+      "Zn4BHBtl"
+    ]
+  }
+}

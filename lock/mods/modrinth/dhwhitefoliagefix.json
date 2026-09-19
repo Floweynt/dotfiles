@@ -1,0 +1,31 @@
+{
+  "slug": "dhwhitefoliagefix",
+  "projectId": "NUmZPjWL",
+  "versions": {
+    "u1AwJH43": {
+      "filename": "dhpolytonecompat-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/NUmZPjWL/versions/u1AwJH43/dhpolytonecompat-1.0-SNAPSHOT.jar",
+      "hash": "sha512-hoSB9bXffBmxiQzLn46qRJPhfRffMfvzmNKLsDdrvnn0gjvciYUMvDbujOh+L8OcWaID48P3Cndp3gibllt1cg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "distanthorizons",
+          "projectId": "uCdwusMi",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "u1AwJH43"
+    ]
+  }
+}

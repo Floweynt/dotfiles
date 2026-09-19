@@ -1,0 +1,36 @@
+{
+  "slug": "scale-pills",
+  "projectId": "YDAOuiqw",
+  "versions": {
+    "e4oSksHx": {
+      "filename": "scale_pills-1.0.0-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/YDAOuiqw/versions/e4oSksHx/scale_pills-1.0.0-1.20.4.jar",
+      "hash": "sha512-W/yCz8pp9mj+CqvL6Gho1srAsroYwRxmBWuzin9rhCsyUBx8HJ60Z5H1O8W9AQbWygd4PzNCGizIjg8xqS7Q2A==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "e4oSksHx"
+    ]
+  }
+}

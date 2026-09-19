@@ -1,0 +1,52 @@
+{
+  "slug": "knarfys-dumb-enchantments",
+  "projectId": "jEEzLOmA",
+  "versions": {
+    "gmAOpXMv": {
+      "filename": "wemc-candidate5_1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jEEzLOmA/versions/gmAOpXMv/wemc-candidate5_1.0.0.jar",
+      "hash": "sha512-MLtIlUEoUbct6GhS4Gkph/6qgL549/pnzUMGSmnGIj5E3AZil1Ma6J3u6c65YdzdZWdvd7g4Sd4qsF65u9OGZA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "rpcALVHS": {
+      "filename": "wemc-candidate6_1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jEEzLOmA/versions/rpcALVHS/wemc-candidate6_1.0.0.jar",
+      "hash": "sha512-QHmASUBQL8IIeEvTXLY2Y42cuk94MbFsSMReilKCCMoTwyff6EHo5cuBpG3OTWfwqcj6GzUVanruw4jwr15rSQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "rpcALVHS",
+      "gmAOpXMv"
+    ]
+  }
+}

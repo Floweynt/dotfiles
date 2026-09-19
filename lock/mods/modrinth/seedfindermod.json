@@ -1,0 +1,73 @@
+{
+  "slug": "seedfindermod",
+  "projectId": "RXf06G9Z",
+  "versions": {
+    "AOcBUmMu": {
+      "filename": "cm-seed-finder-mod-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RXf06G9Z/versions/AOcBUmMu/cm-seed-finder-mod-0.1.0.jar",
+      "hash": "sha512-s/QvkCzygC6jLGy6/bEyAkQPHBY73nd6g/PRH17JGt/dWzGqMGHol9KlrNGgeaKYvk0VBB4dRM1CQkD/FaZwqA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PClNbp7k": {
+      "filename": "cm-seed-finder-mod-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/RXf06G9Z/versions/PClNbp7k/cm-seed-finder-mod-0.1.3.jar",
+      "hash": "sha512-/N/auHJx67DEVn6hxuYv3LeqlasuHzn6a0s8d8gK1hNv9zqk8hzZ5DHdWfvmXqYp7s0gHAzlrdzlRm6TWIC0Tg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "qtu4uT97": {
+      "filename": "cm-seed-finder-mod-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/RXf06G9Z/versions/qtu4uT97/cm-seed-finder-mod-0.1.1.jar",
+      "hash": "sha512-8vf9jgqOcVhp0lD6qp44P0//gvPS/E7HnCOOxTj2NMuyoWuIjqIIsKQ5Xc4uFmDLQtu2MCGV+4Qv0Ikru55lkQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "qtu4uT97",
+      "AOcBUmMu"
+    ],
+    "1.20+fabric": [
+      "PClNbp7k"
+    ],
+    "1.20.1+fabric": [
+      "PClNbp7k"
+    ]
+  }
+}

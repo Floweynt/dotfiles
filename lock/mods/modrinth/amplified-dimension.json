@@ -1,0 +1,50 @@
+{
+  "slug": "amplified-dimension",
+  "projectId": "vMtT05RL",
+  "versions": {
+    "4B4WRWy8": {
+      "filename": "amplifieddimension.zip",
+      "url": "https://cdn.modrinth.com/data/vMtT05RL/versions/4B4WRWy8/amplifieddimension.zip",
+      "hash": "sha512-JWDxPTYlWBSEHRyUUUKFwj7iz4vDSwT9198Aq2P7MoLocknXuHmgcnnzMr6uzPFo57PzvTIyBqvJ3PyMUNmxIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "mCM7HjJk": {
+      "filename": "amplified-dimension-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vMtT05RL/versions/mCM7HjJk/amplified-dimension-1.0.1.jar",
+      "hash": "sha512-93iVcYytjtYD8YmX1FWNShLFnhyB/u4hBT78afG3mSvkqP7twfSeUKffSgbY2wOtcy95av7tZCNO3lHe3t5nBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "4B4WRWy8"
+    ],
+    "1.20.1+fabric": [
+      "mCM7HjJk"
+    ],
+    "1.20.1+forge": [
+      "mCM7HjJk"
+    ],
+    "1.20.1+quilt": [
+      "mCM7HjJk"
+    ]
+  }
+}

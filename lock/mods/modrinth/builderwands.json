@@ -1,0 +1,54 @@
+{
+  "slug": "builderwands",
+  "projectId": "cQ0r3u5T",
+  "versions": {
+    "kB7qsM6S": {
+      "filename": "builderwands-1.0.0+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/cQ0r3u5T/versions/kB7qsM6S/builderwands-1.0.0%2B1.19.3.jar",
+      "hash": "sha512-t7RQmIglN9BcG4CVE9Y1aTDCaKAQI4AoR2ZVTeNGhQnEwsE2ywKbdrCJEA5uRv2Gm11KoxUoUaJD1gLA2SZHTQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yyz3Yp4W": {
+      "filename": "builderwands-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cQ0r3u5T/versions/yyz3Yp4W/builderwands-1.0.0.jar",
+      "hash": "sha512-gMBZRpZyaxqD6gkmFBhGjr0MHsTggy1/XwTk+5iZAnR3OyHXraC/3Xkqd6TYuT/EKqoc9oHXJkfiPgAsw/ioAg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "yyz3Yp4W"
+    ],
+    "1.19.3+fabric": [
+      "kB7qsM6S"
+    ]
+  }
+}

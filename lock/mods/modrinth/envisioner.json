@@ -1,0 +1,69 @@
+{
+  "slug": "envisioner",
+  "projectId": "htCUhsL5",
+  "versions": {
+    "rckNfQlb": {
+      "filename": "envisioner-1.jar",
+      "url": "https://cdn.modrinth.com/data/htCUhsL5/versions/rckNfQlb/envisioner-1.jar",
+      "hash": "sha512-cAn852p4trmPmNp9JbOPBiARTZ9JUq9AZUjBnUENzRdn65nZfB6X5sZgUjjaJgPPJ1XC6zGhxN5pSTp8Yuhfpw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "zLoeeCRR": {
+      "filename": "Envisioner.zip",
+      "url": "https://cdn.modrinth.com/data/htCUhsL5/versions/zLoeeCRR/Envisioner.zip",
+      "hash": "sha512-IiYMfcmtGeM9O67kbwxoCRxWtn0VRE2RMtYJmVdn+c0UosJZCYoTV31o1kPzMaoLno40goG88PFFAcD3EDfcRQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "zLoeeCRR"
+    ],
+    "1.20.1+fabric": [
+      "rckNfQlb"
+    ],
+    "1.20.1+quilt": [
+      "rckNfQlb"
+    ],
+    "1.20.2+datapack": [
+      "zLoeeCRR"
+    ],
+    "1.20.2+fabric": [
+      "rckNfQlb"
+    ],
+    "1.20.2+quilt": [
+      "rckNfQlb"
+    ]
+  }
+}

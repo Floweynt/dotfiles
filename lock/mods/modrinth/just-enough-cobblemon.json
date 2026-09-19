@@ -1,0 +1,53 @@
+{
+  "slug": "just-enough-cobblemon",
+  "projectId": "8ZP0JLoK",
+  "versions": {
+    "RLKJNkpk": {
+      "filename": "justenoughcobblemon-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8ZP0JLoK/versions/RLKJNkpk/justenoughcobblemon-neoforge-1.1.0.jar",
+      "hash": "sha512-kqAbkddzhLsIYYUprQ8uPNFTKGiTOwyzQ0m3wj3WkJ+qYmveYsjiYPUbVcjTJjeWzbsKMtFAJMuNxrEk9xMHiA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "zQywOEBD": {
+      "filename": "justenoughcobblemon-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8ZP0JLoK/versions/zQywOEBD/justenoughcobblemon-fabric-1.1.0.jar",
+      "hash": "sha512-CCMVvs8kJv9x52gC9LSeHkOjexNJ0G03qfL07JQJJO/Xkh7IIEUH61oC1g2rtJm1BtKnqG7EkRBOQJp/joW5YQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "zQywOEBD"
+    ],
+    "1.21.1+neoforge": [
+      "RLKJNkpk"
+    ]
+  }
+}

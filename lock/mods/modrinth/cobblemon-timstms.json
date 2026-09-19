@@ -1,0 +1,36 @@
+{
+  "slug": "cobblemon-timstms",
+  "projectId": "LtybRQXl",
+  "versions": {
+    "wJUR3ajB": {
+      "filename": "cobblemon-timstms-1.6-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/LtybRQXl/versions/wJUR3ajB/cobblemon-timstms-1.6-fabric-1.0.0.jar",
+      "hash": "sha512-rTBvzzYz+oiixCDZaKodNWs2tunvWw+YHCGXwrnR3+PlUADe7I0/3JIK60PcCEmx5I30wQA0advdKUCjmRYPGg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "wJUR3ajB"
+    ]
+  }
+}

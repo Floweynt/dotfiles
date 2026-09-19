@@ -1,0 +1,87 @@
+{
+  "slug": "hexxyattributes",
+  "projectId": "hXknBxN6",
+  "versions": {
+    "LZPMnifU": {
+      "filename": "hexxyattributes-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hXknBxN6/versions/LZPMnifU/hexxyattributes-1.0.jar",
+      "hash": "sha512-INrZ4YlRhzkDqZ6MegXIVkGb4yN9/fateWTTpfpbU87Q2P6ID3UDvLePuwHjJUVoU6/FuReEG24QRnS232n9Hg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XqL5hjvj": {
+      "filename": "hexxyattributes-Fabric-1.19.2-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/hXknBxN6/versions/XqL5hjvj/hexxyattributes-Fabric-1.19.2-1.1.jar",
+      "hash": "sha512-xodLTqK2VwmnZC/bdHe9efcDU3hGkx15PaIIh2xdMHZnoegbY4J6WpFno8N2YhTd5h4rN1KZ6swjDfwPHLCg5A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hqxxqyB1": {
+      "filename": "hexxyattributes-Forge-1.19.2-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/hXknBxN6/versions/hqxxqyB1/hexxyattributes-Forge-1.19.2-1.1.jar",
+      "hash": "sha512-9jiu2tOqfTvjCGWwiXhRlXU14SiF9GamrdJEKVLGGkMTi+Vb8WL8+57yr1AijAUo3jL736AQ7J4SoPnghzWZPw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "XqL5hjvj"
+    ],
+    "1.19.2+forge": [
+      "hqxxqyB1"
+    ],
+    "1.20.1+fabric": [
+      "LZPMnifU"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "jsonem-mult",
+  "projectId": "Xw1cq523",
+  "versions": {
+    "63izGhZo": {
+      "filename": "jsonem_1.20.1_fabrge-forge-0.2.2+1.20-fabrge.jar",
+      "url": "https://cdn.modrinth.com/data/Xw1cq523/versions/63izGhZo/jsonem_1.20.1_fabrge-forge-0.2.2%2B1.20-fabrge.jar",
+      "hash": "sha512-rIVT7v3aCPpLzdBAVQisgPmFfR2MreditU9ECzLPjqsKo2iOq00pC69HfG/4jvZoKV5/w8dwQfa0NL8Kf3XvEw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "QLCvJAPa": {
+      "filename": "jsonem_1.20.1_fabrge-forge-0.2.1+1.20-fabrge.jar",
+      "url": "https://cdn.modrinth.com/data/Xw1cq523/versions/QLCvJAPa/jsonem_1.20.1_fabrge-forge-0.2.1%2B1.20-fabrge.jar",
+      "hash": "sha512-sDmXcKGjWb96IXeo1JKsYjmQ2rzDLIX6bq6teNCkHvExbZdtyBV2kM6X881B/ZE+aTSGdy/8mJYONpYO46O6ZA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "QmPzLNff": {
+      "filename": "jsonem_1.21.1_fabrge-neoforge-0.3+1.21.1-fabrge.jar",
+      "url": "https://cdn.modrinth.com/data/Xw1cq523/versions/QmPzLNff/jsonem_1.21.1_fabrge-neoforge-0.3%2B1.21.1-fabrge.jar",
+      "hash": "sha512-Ex7DTrcJhEJdKg7nRDZPNqpfFnign21oi2pLVTueJ14rNjYIUrSWMNq8llCs1CmYUQd9pxJVqNOmzo2p1jN8GA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "YrJDhnDH": {
+      "filename": "jsonem_1.20.1_fabrge-fabric-0.2.1+1.20-fabrge.jar",
+      "url": "https://cdn.modrinth.com/data/Xw1cq523/versions/YrJDhnDH/jsonem_1.20.1_fabrge-fabric-0.2.1%2B1.20-fabrge.jar",
+      "hash": "sha512-ddHUxNWlmlpEUEIPfS57401PdaTsShfRkSr7DG74rpVn1IHTcyZru2tsngAXLoRRbv3mZ+tuKgCMkO0Eu7dGsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rZP6p1LM": {
+      "filename": "jsomem-mc1.21.1-0.3+1.21.1-fabrge.jar",
+      "url": "https://cdn.modrinth.com/data/Xw1cq523/versions/rZP6p1LM/jsomem-mc1.21.1-0.3%2B1.21.1-fabrge.jar",
+      "hash": "sha512-xvsYPucQF9/WnEbgErpOARJZMogCfZ8DmCKX/HgziLxUSmRnoK7Tey+CYEEtu0qHBgmeFH7Kur/kSu1F38O6tw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "YrJDhnDH"
+    ],
+    "1.20.1+forge": [
+      "63izGhZo",
+      "QLCvJAPa"
+    ],
+    "1.20.1+quilt": [
+      "YrJDhnDH"
+    ],
+    "1.21.1+fabric": [
+      "rZP6p1LM"
+    ],
+    "1.21.1+neoforge": [
+      "QmPzLNff"
+    ],
+    "1.21.1+quilt": [
+      "rZP6p1LM"
+    ]
+  }
+}

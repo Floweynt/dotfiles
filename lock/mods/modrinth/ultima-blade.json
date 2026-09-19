@@ -1,0 +1,109 @@
+{
+  "slug": "ultima-blade",
+  "projectId": "hyP1h78v",
+  "versions": {
+    "9FihZ9ei": {
+      "filename": "ultimablade_v2_FORGE_1_20_1.jar",
+      "url": "https://cdn.modrinth.com/data/hyP1h78v/versions/9FihZ9ei/ultimablade_v2_FORGE_1_20_1.jar",
+      "hash": "sha512-/ymGGojpX0sTyllRS7hOEEQee/McoqAKx95tui401LQId3A/26zQw3oGM/9nukgE4/lcKfegXJ6vnjxqoAD/lA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "AxlIMXla": {
+      "filename": "ultimaBlade_v2_FABRIC_1_20_x.jar",
+      "url": "https://cdn.modrinth.com/data/hyP1h78v/versions/AxlIMXla/ultimaBlade_v2_FABRIC_1_20_x.jar",
+      "hash": "sha512-NNE24lyrsWsaXsnt34GM60od0XO5+on3U8f3J7TzuITOwcrujc3wE0NGzi1mDggGbCpdn8px6iZyX99pWXesoA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ggy9udrv": {
+      "filename": "rw_ultima_blade_FORGE_1_20_1.jar",
+      "url": "https://cdn.modrinth.com/data/hyP1h78v/versions/Ggy9udrv/rw_ultima_blade_FORGE_1_20_1.jar",
+      "hash": "sha512-D5JWsNmkvhLlk5OyFwi52Sf+mE+NdAFWKe099c6ipgLtL3AKZFB7U3BdfmBaT/OUXqhgMi+fMixt1NeQtdy32w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ZEKnFgqm": {
+      "filename": "rw_ultima_blade-1.1.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hyP1h78v/versions/ZEKnFgqm/rw_ultima_blade-1.1.0-neoforge-1.21.1.jar",
+      "hash": "sha512-COMsZd8vCn0u9dHDu2QReNb5V3ngq7pBmMfK00fiEX72oAK+SWL3uEhRsAqS5+y/XnpZdBesa1eIIOE2yBfEiA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "i29gTk0K": {
+      "filename": "ultimaBlade_v2_FORGE_1_19_4.jar",
+      "url": "https://cdn.modrinth.com/data/hyP1h78v/versions/i29gTk0K/ultimaBlade_v2_FORGE_1_19_4.jar",
+      "hash": "sha512-GPlS2pV7xhvUS9CKCi35igW9gbEMW+EFw30KS/KLzFfBEAG06EUy0w1rdwaCVnBdcU8Zk8YUX8RodBMoUYjD8w==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+forge": [
+      "i29gTk0K"
+    ],
+    "1.20.1+fabric": [
+      "AxlIMXla"
+    ],
+    "1.20.1+forge": [
+      "9FihZ9ei",
+      "Ggy9udrv"
+    ],
+    "1.20.2+fabric": [
+      "AxlIMXla"
+    ],
+    "1.20.3+fabric": [
+      "AxlIMXla"
+    ],
+    "1.20.4+fabric": [
+      "AxlIMXla"
+    ],
+    "1.21+neoforge": [
+      "ZEKnFgqm"
+    ]
+  }
+}

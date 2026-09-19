@@ -1,0 +1,35 @@
+{
+  "slug": "name-changer",
+  "projectId": "Eo5aslAD",
+  "versions": {
+    "utO1A1Ej": {
+      "filename": "namechanger-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Eo5aslAD/versions/utO1A1Ej/namechanger-1.0.0.jar",
+      "hash": "sha512-p16S70F8Xmn1u5OFHU0rETLP3zPRUwq/zkDC/huto/Al6tWQn2XUf49gWgnrJzcDDUYtrYQiHdkjKNrapQ10Wg==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "utO1A1Ej"
+    ],
+    "1.21.5+fabric": [
+      "utO1A1Ej"
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "telekinesis-addonpack",
+  "projectId": "9zkmLJTF",
+  "versions": {
+    "Lb9odBZr": {
+      "filename": "telekinesis-b1.2.jar",
+      "url": "https://cdn.modrinth.com/data/9zkmLJTF/versions/Lb9odBZr/telekinesis-b1.2.jar",
+      "hash": "sha512-ZkOy03XSTkwYr43V/PTwHXFQ6faq9weELtgzRoXn9AnFFH2KIFX3YhNdrvTLi4yJrWaQ8Q40haV6ie9hmniQMw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "PjsLYqUp": {
+      "filename": "telekinesis-b1.0.jar",
+      "url": "https://cdn.modrinth.com/data/9zkmLJTF/versions/PjsLYqUp/telekinesis-b1.0.jar",
+      "hash": "sha512-9i1WmRVFifoYzoAcpQ4Qd4tfIoeuy96o4Ak9B8zdJSG6S+/AY0BgOqgUyr/UR5+sY0st6E7yBlGGDYoHar4+xQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "fkmHZtBc": {
+      "filename": "telekinesis-b1.1.jar",
+      "url": "https://cdn.modrinth.com/data/9zkmLJTF/versions/fkmHZtBc/telekinesis-b1.1.jar",
+      "hash": "sha512-UcCVLsfGQc70GMzXPhpyogEx8a9AMym/vfndU9od2DV78aKAjqWODY4IDH0Upox+tKQ+8Dkqv+qGQj2n4WDB0A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Lb9odBZr",
+      "fkmHZtBc",
+      "PjsLYqUp"
+    ],
+    "1.20.1+forge": [
+      "Lb9odBZr",
+      "fkmHZtBc",
+      "PjsLYqUp"
+    ],
+    "1.20.1+quilt": [
+      "Lb9odBZr",
+      "fkmHZtBc",
+      "PjsLYqUp"
+    ]
+  }
+}

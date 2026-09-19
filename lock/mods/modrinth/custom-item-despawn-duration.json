@@ -1,0 +1,111 @@
+{
+  "slug": "custom-item-despawn-duration",
+  "projectId": "xk6QJbVG",
+  "versions": {
+    "CAcWrQGN": {
+      "filename": "custom-item-despawn-duration-neoforge-0.1.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/xk6QJbVG/versions/CAcWrQGN/custom-item-despawn-duration-neoforge-0.1.0-1.21.jar",
+      "hash": "sha512-pA6xaQRy0UdllJJjKULPXhXQceyPPp+DWuNx8baZZwl+63cugDsGOzFs+Gz56mbrVLqQGY+Hkgn/oK2ChIJVhQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "I3psV2uH": {
+      "filename": "custom-item-despawn-duration-fabric-0.1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/xk6QJbVG/versions/I3psV2uH/custom-item-despawn-duration-fabric-0.1.0-1.20.1.jar",
+      "hash": "sha512-tCA+ukSqusBFusQ3VdUYliqhWnRt0esULIc+DnY25QQFOSohCxVV2tS9W9GtqxA5xO+HFC0Ipzyg/OfRIHUfBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rU62QQ6Q": {
+      "filename": "custom-item-despawn-duration-fabric-0.1.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/xk6QJbVG/versions/rU62QQ6Q/custom-item-despawn-duration-fabric-0.1.0-1.21.jar",
+      "hash": "sha512-S23H3ABb9HQ7TXAQW1KkOdMwGL8AjFpgKCkuVkOl/WvovvsYatBkwpugBxmnqgBQwY4jKZf5rGe8VLKpHoGFMA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xEQDnJwG": {
+      "filename": "custom-item-despawn-duration-forge-0.1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/xk6QJbVG/versions/xEQDnJwG/custom-item-despawn-duration-forge-0.1.0-1.20.1.jar",
+      "hash": "sha512-2u32wv9h9auiyrI4GZd2nOiwULB61tAOeSLFR0hlsYcdVX090iLZ0ZO53jHardfALlhqeU7r3dwg/m3LmE4XjQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "yrMOIjWW": {
+      "filename": "custom-item-despawn-duration-neoforge-0.1.1-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/xk6QJbVG/versions/yrMOIjWW/custom-item-despawn-duration-neoforge-0.1.1-1.21.jar",
+      "hash": "sha512-NDKjnQ+VvOZgSko+3RlIW0/USktkVcp7qB0EVk7rsLBqUcTfEMNV5O+o5gwTG2tfE0JsEsyoCSc/aaUjdaDUOg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "I3psV2uH"
+    ],
+    "1.20.1+forge": [
+      "xEQDnJwG"
+    ],
+    "1.21+fabric": [
+      "rU62QQ6Q"
+    ],
+    "1.21+neoforge": [
+      "yrMOIjWW",
+      "CAcWrQGN"
+    ],
+    "1.21.1+fabric": [
+      "rU62QQ6Q"
+    ],
+    "1.21.1+neoforge": [
+      "yrMOIjWW"
+    ]
+  }
+}

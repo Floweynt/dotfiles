@@ -1,0 +1,36 @@
+{
+  "slug": "cobbleverse-progress",
+  "projectId": "vMnqcwpO",
+  "versions": {
+    "XZdXzMci": {
+      "filename": "cobbleverseprogress-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vMnqcwpO/versions/XZdXzMci/cobbleverseprogress-1.0.0.jar",
+      "hash": "sha512-Uuuyyzvr8fh3mhHVOcYXqSXeuYzj95wrJlSSifT4BGA4Eu9DdTEv/1oP07GJCNL/4iDt02VHxYGh/iFvYCUK+A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "XZdXzMci"
+    ]
+  }
+}

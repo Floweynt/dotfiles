@@ -1,0 +1,82 @@
+{
+  "slug": "origin-deities",
+  "projectId": "yd8mxLwc",
+  "versions": {
+    "PKTgGPP2": {
+      "filename": "origin-deities-2.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/yd8mxLwc/versions/PKTgGPP2/origin-deities-2.1.1.jar",
+      "hash": "sha512-SLfUetfMM1wDnGUl7LAuqBfWofjr34e8MbkLh/ioYWyJQt7uReBeMHrUWMEw2DFcw7jY1vKWPxd/jFNsyXWGjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "doublejumpattribute",
+          "projectId": "4nXV6zEk",
+          "type": "required"
+        }
+      ]
+    },
+    "SItK9HZ2": {
+      "filename": "origin-deities-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/yd8mxLwc/versions/SItK9HZ2/origin-deities-2.1.0.jar",
+      "hash": "sha512-QVnA22i0XnL8Aqyjq8LN1hCsT2g2BDvore5ApoJCOmoA6rgDoqtVI4lEoOqol05/DAtPhOKjbTQPQMsVQTYp6w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "doublejumpattribute",
+          "projectId": "4nXV6zEk",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "PKTgGPP2",
+      "SItK9HZ2"
+    ]
+  }
+}

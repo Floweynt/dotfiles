@@ -1,0 +1,118 @@
+{
+  "slug": "multieconomy",
+  "projectId": "rCEje2Lt",
+  "versions": {
+    "8woosmS3": {
+      "filename": "multieconomy-2.0.0-forge-1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/rCEje2Lt/versions/8woosmS3/multieconomy-2.0.0-forge-1.19.4.jar",
+      "hash": "sha512-hKvpEhtJkRmGQERw8C1AV/YEPxR2qTICAYxHi3C0sVZBAC8sARa5jY68nzEc6dbr8gWPVbRuw8V5COuw71cl1A==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    },
+    "LKxcHhpz": {
+      "filename": "multieconomy-2.0.0-fabric-1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/rCEje2Lt/versions/LKxcHhpz/multieconomy-2.0.0-fabric-1.19.4.jar",
+      "hash": "sha512-gqu2jO4ybdbI6FzhM78t7Of24nbSlQ5F4bWAYdjVHHBhAT8SD/Ue82tnkt4bT4eowbxAbvmUio1E33PgTbkqJQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    },
+    "WwDXplEg": {
+      "filename": "multieconomy-3.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/rCEje2Lt/versions/WwDXplEg/multieconomy-3.0.0-forge.jar",
+      "hash": "sha512-/147BS5fm/hrFNPnH++eL9mYMD2JkhLfqSdaO+V6+Q/7y85DR/uDFscWPBr8szlp0ZZ8mwaOJns2zLU3nzAoFA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    },
+    "bTyKGlcm": {
+      "filename": "multieconomy-3.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/rCEje2Lt/versions/bTyKGlcm/multieconomy-3.0.0-fabric.jar",
+      "hash": "sha512-+KRvE0cZPy9AyuIKwSdWyMtzRGlhmQpuubinpaUQ1ft+2FINj8KHv9qCfGVMU0++9JfQfFK0kaKmnRft+sqaKA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "LKxcHhpz"
+    ],
+    "1.19.4+forge": [
+      "8woosmS3"
+    ],
+    "1.20+fabric": [
+      "bTyKGlcm"
+    ],
+    "1.20+forge": [
+      "WwDXplEg"
+    ],
+    "1.20.1+fabric": [
+      "bTyKGlcm"
+    ],
+    "1.20.1+forge": [
+      "WwDXplEg"
+    ]
+  }
+}

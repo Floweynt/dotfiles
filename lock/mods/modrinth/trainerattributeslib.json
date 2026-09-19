@@ -1,0 +1,66 @@
+{
+  "slug": "trainerattributeslib",
+  "projectId": "P7tBjBML",
+  "versions": {
+    "CAoa3iMJ": {
+      "filename": "trainerattributeslib-1.7.2-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/P7tBjBML/versions/CAoa3iMJ/trainerattributeslib-1.7.2-1.0.2.jar",
+      "hash": "sha512-1X45f46YbqJjbitbkW7Xv5xVSQnwSCTKq5OHnY28zzJdPGg458WXioJ/zi8dZjFvrKWd9NMCIGZBHDxV6KxZrw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jXdjKzt6": {
+      "filename": "trainerattributeslib-1.7.3-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/P7tBjBML/versions/jXdjKzt6/trainerattributeslib-1.7.3-1.0.2.jar",
+      "hash": "sha512-VtSyBR0fm62gb//D5P33aI77O4vAd95cXiWDVaaddUt0tiYSN7bvEJGMm5/DDBP4+BX4pS6701DeMHfT9GBEuA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ppKuKrBM": {
+      "filename": "trainerattributeslib-1.7.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/P7tBjBML/versions/ppKuKrBM/trainerattributeslib-1.7.1-1.0.0.jar",
+      "hash": "sha512-ZjnIuZoXsYk3q0sRqqWO75SStuy3a45GWrYWFcmai6/WGxB0z1l0MpTtHrA4I6ed3KRvPMqCRb79Koz7Dve1HQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "accessories",
+          "projectId": "jtmvUHXj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "CAoa3iMJ",
+      "jXdjKzt6",
+      "ppKuKrBM"
+    ]
+  }
+}

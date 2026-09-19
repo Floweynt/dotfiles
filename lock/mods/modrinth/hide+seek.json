@@ -1,0 +1,41 @@
+{
+  "slug": "hide+seek",
+  "projectId": "lDyeWtte",
+  "versions": {
+    "STuY9ex9": {
+      "filename": "Hide-and-Seek-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lDyeWtte/versions/STuY9ex9/Hide-and-Seek-1.0.0.jar",
+      "hash": "sha512-qVQMBq4k+maTKnqPzMrd4BlZNxZUbVNjQ7AHbPPAD5tdpr3Ksk894qK06tEDprTbxnVxSQEdyTYHedGkULbcfQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "zine",
+          "projectId": "LKEoCBc7",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "STuY9ex9"
+    ]
+  }
+}

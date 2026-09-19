@@ -1,0 +1,54 @@
+{
+  "slug": "bloody-moon",
+  "projectId": "mnVsOYyG",
+  "versions": {
+    "MXuIU8Tu": {
+      "filename": "bloody-moon-1.jar",
+      "url": "https://cdn.modrinth.com/data/mnVsOYyG/versions/MXuIU8Tu/bloody-moon-1.jar",
+      "hash": "sha512-RucOzUW+zb8FEYCrc3tCvVvB9D7yiI6AjDzsX4zdKKjeqj/YMiYJVb0OoxlvRyfsNHLCp0CpHB4WahUSZwBvDA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ZpU3k1oO": {
+      "filename": "bloodMoon1.21.4.zip",
+      "url": "https://cdn.modrinth.com/data/mnVsOYyG/versions/ZpU3k1oO/bloodMoon1.21.4.zip",
+      "hash": "sha512-m1wGeM4ef/CKy1Ut3i+eIWZS3gKThbMJoy8uDxfcHVYLftS7i4aINcGpOK1/HQSc+hhWfRhG8t7Xo0A/Imo7gg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+datapack": [
+      "ZpU3k1oO"
+    ],
+    "1.21.4+fabric": [
+      "MXuIU8Tu"
+    ],
+    "1.21.4+forge": [
+      "MXuIU8Tu"
+    ],
+    "1.21.4+neoforge": [
+      "MXuIU8Tu"
+    ],
+    "1.21.4+quilt": [
+      "MXuIU8Tu"
+    ]
+  }
+}

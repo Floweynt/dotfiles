@@ -1,0 +1,122 @@
+{
+  "slug": "hzlib",
+  "projectId": "KxsiDURd",
+  "versions": {
+    "BCBWHBoR": {
+      "filename": "hzlib-fabric-1.21.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KxsiDURd/versions/BCBWHBoR/hzlib-fabric-1.21.1-0.1.0.jar",
+      "hash": "sha512-rgZR05EoaNV+7KcPLaiTQWVBZReFFSveXRGonuJArNimlQtzaGaLM7T323q1/vYq3z+Xb7H3PSvBlmUpt7sBHw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "LBXTdSPD": {
+      "filename": "hzlib-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KxsiDURd/versions/LBXTdSPD/hzlib-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-5fRG38qYmwg/8K6ExfEGbE5ZoYGMnYzUwoPN4Y7xUAja/wYMxERtAlipw1PYyQ68vPUIAtkYzBkZ4v1MGBvIuQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NXxK0KPx": {
+      "filename": "hzlib-forge-1.21.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KxsiDURd/versions/NXxK0KPx/hzlib-forge-1.21.1-0.1.0.jar",
+      "hash": "sha512-PqJGHTyvb6ALQCQDOnRvDwR3a/aGIMOPT2//CCp92vTVuvzU44oVYtKw0mcd2O9CXcIDQ1SaY1Ub7xy2hAcuqg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "QPjGyJV8": {
+      "filename": "hzlib-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KxsiDURd/versions/QPjGyJV8/hzlib-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-Id6bGHu4inq00E1/3QSFgJOyRjEFLoSs+NTRJxVedbvqfx3sS+HhOgV78RepPAol9Aw4WtupQLx0qrHIWCzNwg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Z8JgUnjJ": {
+      "filename": "hzlib-forge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KxsiDURd/versions/Z8JgUnjJ/hzlib-forge-1.21.1-1.0.0.jar",
+      "hash": "sha512-ibBpjJxW86rRLoYc0hP0O4iMVRhEl2aHSvRd21CbtSeFjj+wF+Rj5/n1Zq3hSA4ErXOzOIs4NpuQEH44kmI3Kg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "urNWYlzo": {
+      "filename": "hzlib-neoforge-1.21.1-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KxsiDURd/versions/urNWYlzo/hzlib-neoforge-1.21.1-0.1.0.jar",
+      "hash": "sha512-iKsJszwUg3Qe3ONuWU4OsK/EuftfQFEbYSjGa/R6it1mmBZKjvIQZQRQgQGXxfFsB4Vqsk98NM/0hqdmXDujCg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "LBXTdSPD",
+      "BCBWHBoR"
+    ],
+    "1.21.1+forge": [
+      "Z8JgUnjJ",
+      "NXxK0KPx"
+    ],
+    "1.21.1+neoforge": [
+      "QPjGyJV8",
+      "urNWYlzo"
+    ]
+  }
+}

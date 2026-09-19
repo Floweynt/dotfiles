@@ -1,0 +1,75 @@
+{
+  "slug": "embyui",
+  "projectId": "kus0jbHN",
+  "versions": {
+    "1q13V8SU": {
+      "filename": "embyui-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kus0jbHN/versions/1q13V8SU/embyui-1.0.0.jar",
+      "hash": "sha512-fr0nYMzNSsZDeVO00vqoPhPjxJ7gHOU6vykeXbu/tF93hMVZQoT0uLX05o/M5s3T4a6QRM9J2rcYo7GlXsXgMA==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "embeddium",
+          "projectId": "sk9rgfiA",
+          "type": "required"
+        }
+      ]
+    },
+    "GvWQQHdA": {
+      "filename": "embyui-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/kus0jbHN/versions/GvWQQHdA/embyui-1.1.1.jar",
+      "hash": "sha512-QLVFai3NuPns5muYD2SzbCkux4T7FnJ344FyrEy/m9oiHBE1tayBzLOu4DMB3K01XOKl/VttJ9dn4yzQS7HtSQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "embeddium",
+          "projectId": "sk9rgfiA",
+          "type": "required"
+        }
+      ]
+    },
+    "xdJrWI3h": {
+      "filename": "embyui-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kus0jbHN/versions/xdJrWI3h/embyui-1.1.0.jar",
+      "hash": "sha512-Nprj6sMmEgQhBP/oxXvmN3HwJUzozcNWW4ow/4ydSyAh7qD4suoadBKAvsqOMeT81CgYE64W4WbQSM8wy3D8WA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "embeddium",
+          "projectId": "sk9rgfiA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "1q13V8SU"
+    ],
+    "1.21+neoforge": [
+      "GvWQQHdA",
+      "xdJrWI3h"
+    ]
+  }
+}

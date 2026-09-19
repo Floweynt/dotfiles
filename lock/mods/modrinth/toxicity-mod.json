@@ -1,0 +1,72 @@
+{
+  "slug": "toxicity-mod",
+  "projectId": "pPPLJpNs",
+  "versions": {
+    "aNjvn1TF": {
+      "filename": "Toxicity-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pPPLJpNs/versions/aNjvn1TF/Toxicity-fabric-0.1.0.jar",
+      "hash": "sha512-+cISoJnj3q8RFjDUkA/rPupswG8U5E2Ro5Abo2UR6vRk+EMWnlrRMt5vwoHyToCPCO78E0IizFsL5CTtiPstCw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "m9DL9Wxe": {
+      "filename": "Toxicity-forge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pPPLJpNs/versions/m9DL9Wxe/Toxicity-forge-0.1.0.jar",
+      "hash": "sha512-QVZR6P2rY3HvBpEYFaa7X71nd2OLQAtbhk2NPRsgEdjmINsyYy1pNNZ5lizeLNAHeyEGyVFfO5QaLATR3ZZNgw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "aNjvn1TF"
+    ],
+    "1.20.1+forge": [
+      "m9DL9Wxe"
+    ],
+    "1.20.1+neoforge": [
+      "m9DL9Wxe"
+    ],
+    "1.20.1+quilt": [
+      "aNjvn1TF"
+    ]
+  }
+}

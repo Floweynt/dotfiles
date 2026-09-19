@@ -1,0 +1,54 @@
+{
+  "slug": "experience-nuggets",
+  "projectId": "XFlMwijA",
+  "versions": {
+    "8dyWaRGt": {
+      "filename": "dp.dash_experience_nuggets_V1.0.zip",
+      "url": "https://cdn.modrinth.com/data/XFlMwijA/versions/8dyWaRGt/dp.dash_experience_nuggets_V1.0.zip",
+      "hash": "sha512-kbQkQ06oc8n+qzGU32TJ/8wT1D+RDQcXvh2JoGdwQMVkmjH6aGUKEpaAhOw9PnTEs+Ga4yrQ5pB4qczUxyh25Q==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "CwQ3T5oq": {
+      "filename": "experience-nuggets-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XFlMwijA/versions/CwQ3T5oq/experience-nuggets-1.0.jar",
+      "hash": "sha512-q81psL90WOeJzGcYAN6BRVia3WfTxxJHxh7XjZQNUThLk1Au7/qIiv5oNd8OYwzmEDVKtT1bVw6OQW5o9/Tm6A==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.5+datapack": [
+      "8dyWaRGt"
+    ],
+    "1.21.5+fabric": [
+      "CwQ3T5oq"
+    ],
+    "1.21.5+forge": [
+      "CwQ3T5oq"
+    ],
+    "1.21.5+neoforge": [
+      "CwQ3T5oq"
+    ],
+    "1.21.5+quilt": [
+      "CwQ3T5oq"
+    ]
+  }
+}

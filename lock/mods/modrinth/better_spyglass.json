@@ -1,0 +1,153 @@
+{
+  "slug": "better_spyglass",
+  "projectId": "PFXsBnJl",
+  "versions": {
+    "AyEUSB76": {
+      "filename": "better_spyglass-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PFXsBnJl/versions/AyEUSB76/better_spyglass-fabric-1.0.0.jar",
+      "hash": "sha512-p2hD+C4GLSNEnZN3IjvE0/b6STrlM9vfGuDAfjw5jrUi8pTeBNwDXXskhoYzkzuTV/+Z3jxrJLJ83MH7ayvEkw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "FKnpmVBl": {
+      "filename": "better_spyglass-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/PFXsBnJl/versions/FKnpmVBl/better_spyglass-fabric-1.1.0.jar",
+      "hash": "sha512-8Hg4SAq62hN5eutjv42iOrXYOtWvLnyl2AOhR9EtvpQM8arbGZxIGiz+HtKl3WJJOuq/Y4WEHBH+r7y/B2v6Fw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "oyDACCjR": {
+      "filename": "better_spyglass-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PFXsBnJl/versions/oyDACCjR/better_spyglass-forge-1.0.0.jar",
+      "hash": "sha512-5UkDViJj0sz2EYPA5Q6pI7ELN9tlThLjcho/LnfN6Ya5TaS3DU8J+ILfjymaNqlNgKCJKfenMjwPE7mpKxsaeQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "raAwUWf4": {
+      "filename": "better_spyglass-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/PFXsBnJl/versions/raAwUWf4/better_spyglass-neoforge-1.1.0.jar",
+      "hash": "sha512-dVG683wve73sjF7W+gXNDnW3/1Rt92EcWmeOJ8kfqpVgLr3K+HiWdyu5t27vTvDjPUEkLDD/o6qxOtKBObQYMg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "AyEUSB76"
+    ],
+    "1.20.1+forge": [
+      "oyDACCjR"
+    ],
+    "1.20.2+fabric": [
+      "AyEUSB76"
+    ],
+    "1.20.2+forge": [
+      "oyDACCjR"
+    ],
+    "1.20.3+fabric": [
+      "AyEUSB76"
+    ],
+    "1.20.3+forge": [
+      "oyDACCjR"
+    ],
+    "1.20.4+fabric": [
+      "AyEUSB76"
+    ],
+    "1.20.4+forge": [
+      "oyDACCjR"
+    ],
+    "1.20.5+fabric": [
+      "AyEUSB76"
+    ],
+    "1.20.5+forge": [
+      "oyDACCjR"
+    ],
+    "1.20.6+fabric": [
+      "AyEUSB76"
+    ],
+    "1.20.6+forge": [
+      "oyDACCjR"
+    ],
+    "1.21+neoforge": [
+      "raAwUWf4"
+    ],
+    "1.21.1+fabric": [
+      "FKnpmVBl"
+    ],
+    "1.21.1+neoforge": [
+      "raAwUWf4"
+    ]
+  }
+}

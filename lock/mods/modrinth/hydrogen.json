@@ -1,0 +1,61 @@
+{
+  "slug": "hydrogen",
+  "projectId": "AZomiSrC",
+  "versions": {
+    "aOtQ7hz2": {
+      "filename": "hydrogen-fabric-mc1.16.5-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.16.5-v0.2.0/hydrogen-fabric-mc1.16.5-0.2.jar",
+      "hash": "sha512-Vx5RyH2jASdKdlD8S8JJxjOvKishvEIJErA6dD0Gzbdgm8+fzfmmzU3vsdkIvnylKYjhyVEmrcWUftu/d9Y2ng==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "gqJWYgtD": {
+      "filename": "hydrogen-fabric-mc1.17.1-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.17.1-0.3.1/hydrogen-fabric-mc1.17.1-0.3.jar",
+      "hash": "sha512-20B5wmvyezjTKuYKR+fTR+AdQ971mH5cLLJSGOQnsvEPf8s2+d5dSGoJU2N3k82QRQ+NLX/xoxz4qQrzeUZGrQ==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "nc84mXki": {
+      "filename": "hydrogen-fabric-mc1.17-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/AZomiSrC/versions/mc1.17-v0.3.0/hydrogen-fabric-mc1.17-0.3.jar",
+      "hash": "sha512-fHlY0tBkayDo5fWH5QWBxDtLBIOZIbY0DG5Np29S+c3iFxOiDcGYV9ofNYqdDPLCWzIffJxFmOu7Rn/OZr4Fsw==",
+      "gameVersions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "aOtQ7hz2"
+    ],
+    "1.17+fabric": [
+      "gqJWYgtD",
+      "nc84mXki"
+    ],
+    "1.17.1+fabric": [
+      "gqJWYgtD"
+    ]
+  }
+}

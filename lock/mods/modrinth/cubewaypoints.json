@@ -1,0 +1,36 @@
+{
+  "slug": "cubewaypoints",
+  "projectId": "cV03VDxS",
+  "versions": {
+    "NfUf7YkB": {
+      "filename": "cubewaypoints-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cV03VDxS/versions/NfUf7YkB/cubewaypoints-1.0.jar",
+      "hash": "sha512-M8XaW96j0jthY+6JiSje7epTpJzYOcnqTzFKwg5VZlJ2ImsdrLTOMD6gZK6V3EdUMkpGZl9Tj4omSjer5IXpFA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "NfUf7YkB"
+    ]
+  }
+}

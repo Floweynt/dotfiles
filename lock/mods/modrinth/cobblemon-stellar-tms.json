@@ -1,0 +1,103 @@
+{
+  "slug": "cobblemon-stellar-tms",
+  "projectId": "wGCjYuba",
+  "versions": {
+    "Nt9be9Ff": {
+      "filename": "StellarTMs-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wGCjYuba/versions/Nt9be9Ff/StellarTMs-1.0.jar",
+      "hash": "sha512-DxE3/aopDaqkGBEqy1DuAin+lprdw+/Wx+miBLzQgJ1iYxMJAnJAozyofwlJNfXvFZ3GYNQdre9ffP1ZIleyVA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "hG9enqjB": {
+      "filename": "StellarTMs-1.0.1-1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/wGCjYuba/versions/hG9enqjB/StellarTMs-1.0.1-1.6.1.jar",
+      "hash": "sha512-b0Roc7Bd+H6uv518IwgMGg87yrFc6wlrCBtOUwgvX4xWMVA6TRzQX2edYK2T1Kg+BlOD8VSb1cbpRMeSOdO3FQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "pDl3c18k": {
+      "filename": "StellarTMs-1.0.2-1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/wGCjYuba/versions/pDl3c18k/StellarTMs-1.0.2-1.6.1.jar",
+      "hash": "sha512-Nwz/bW1uFNahNyWa26RcIArh0/UISvePsXWY5WawpFuQcRGo1hG+QPm2No4LYui/Ft2iHBrCS0G5z+rankv5uw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "pDl3c18k",
+      "hG9enqjB",
+      "Nt9be9Ff"
+    ]
+  }
+}

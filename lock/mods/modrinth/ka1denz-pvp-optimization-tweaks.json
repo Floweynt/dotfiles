@@ -1,0 +1,92 @@
+{
+  "slug": "ka1denz-pvp-optimization-tweaks",
+  "projectId": "tdCfMOVq",
+  "versions": {
+    "ICGvf4MM": {
+      "filename": "ka1den-pvp-optimizer-1.0.1-release+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/tdCfMOVq/versions/ICGvf4MM/ka1den-pvp-optimizer-1.0.1-release%2B1.21.11.jar",
+      "hash": "sha512-HAR7Nc3Xj2qoTUjH14jDG4cWb/jLLz9R5FBsudqc3x5ee87QYEIh9e4TxmiSvnrSQGvNyzegrZpN+RV8x/PVGg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "totemcounter",
+          "projectId": "T9R7YTnA",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "ukulib",
+          "projectId": "Y8uFrUil",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NThcbtRC": {
+      "filename": "ka1den-pvp-optimizer-1.0.0-release+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/tdCfMOVq/versions/NThcbtRC/ka1den-pvp-optimizer-1.0.0-release%2B1.21.11.jar",
+      "hash": "sha512-HAR7Nc3Xj2qoTUjH14jDG4cWb/jLLz9R5FBsudqc3x5ee87QYEIh9e4TxmiSvnrSQGvNyzegrZpN+RV8x/PVGg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "ukulib",
+          "projectId": "Y8uFrUil",
+          "type": "required"
+        },
+        {
+          "slug": "totemcounter",
+          "projectId": "T9R7YTnA",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "ICGvf4MM",
+      "NThcbtRC"
+    ]
+  }
+}

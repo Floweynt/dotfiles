@@ -1,0 +1,36 @@
+{
+  "slug": "infinite-ae2-fluid-cards",
+  "projectId": "rWxV2UDA",
+  "versions": {
+    "Dm3gB67p": {
+      "filename": "infinite-ae2-cards-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/rWxV2UDA/versions/Dm3gB67p/infinite-ae2-cards-1.0.0.jar",
+      "hash": "sha512-8aYwpKpvjfBkpsR9GPxRJTnTYnAAejz1YxcDBmlXD6vuzXChEqnLV1GGMVNa5xT6ZJkotOst6jQLHQlXU7C+0w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Dm3gB67p"
+    ]
+  }
+}

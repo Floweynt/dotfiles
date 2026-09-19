@@ -1,0 +1,82 @@
+{
+  "slug": "fedora",
+  "projectId": "CsuH5pa4",
+  "versions": {
+    "5OFagBLp": {
+      "filename": "fedora-1.1.1-fabric-1.16.4.jar",
+      "url": "https://cdn.modrinth.com/data/CsuH5pa4/versions/v1.1.1/fedora-1.1.1-fabric-1.16.4.jar",
+      "hash": "sha512-w4uj+GEwXHx76Y/7rxesqU3Ft48uAEpioNE442dVkklM3bJkfznwryv4qFAdSYeREzJhjiFYL0K/6Y7o65bEDg==",
+      "gameVersions": [
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "LQ6ETfRi": {
+      "filename": "fedora-1.0.0-1.16.4.jar",
+      "url": "https://cdn.modrinth.com/data/CsuH5pa4/versions/v1.0.0/fedora-1.0.0-1.16.4.jar",
+      "hash": "sha512-A0miyH8MatWgAfWxs+ZDcfE9wicXehzTxDTTCjWZFqwyfZjwRVwi4QG30fb0IantjSggLOUs5yesnYL5JmdaMQ==",
+      "gameVersions": [
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "OcKRG9WR": {
+      "filename": "fedora-1.2.0-fabric-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/CsuH5pa4/versions/1.2.0/fedora-1.2.0-fabric-1.18.2.jar",
+      "hash": "sha512-z6DNiKCb4Y80l72lpLhYyOxHCcRrHKsacnGoiu2f3jICRg+lPJVwHENapJL4QmX3pTUuqQpl6fVaOw/z+dg6TQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PUx2Uppq": {
+      "filename": "fedora-1.1.0-fabric-1.16.4.jar",
+      "url": "https://cdn.modrinth.com/data/CsuH5pa4/versions/v1.1.0/fedora-1.1.0-fabric-1.16.4.jar",
+      "hash": "sha512-UKCG6nGFsrkWdrn8VwlHvenxboiVpN16XQ4dyk8hVv1xMY2ZL9qXuKK87NEu7LDT9a4UeICaFrDP12pudqF7MQ==",
+      "gameVersions": [
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.4+fabric": [
+      "5OFagBLp",
+      "PUx2Uppq",
+      "LQ6ETfRi"
+    ],
+    "1.18.2+fabric": [
+      "OcKRG9WR"
+    ],
+    "1.18.2+quilt": [
+      "OcKRG9WR"
+    ]
+  }
+}

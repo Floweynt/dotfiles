@@ -1,0 +1,46 @@
+{
+  "slug": "hero-necklace",
+  "projectId": "o2wcBWAo",
+  "versions": {
+    "eOp7vQK2": {
+      "filename": "heronecklace-0.1-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/o2wcBWAo/versions/eOp7vQK2/heronecklace-0.1-1.21.jar",
+      "hash": "sha512-PYukiFuId/uX8aG2XZ73uHTfba+di4h7sLwPzNN4rvaluh83Z79lRoBgAqkiTXhyVLnThqIKQ9n98Oy3FWl58g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zgEgxNvG": {
+      "filename": "heronecklace-1.1-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/o2wcBWAo/versions/zgEgxNvG/heronecklace-1.1-1.21.jar",
+      "hash": "sha512-TogsMVF+o7v0zB2hmf0IrJOYhdXQtUDKngH+g6HwVw0gyV04Titupmghxdr/Dlmda4hfUTYuS1iFXMabSR8+YQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "zgEgxNvG",
+      "eOp7vQK2"
+    ],
+    "1.21.1+fabric": [
+      "zgEgxNvG",
+      "eOp7vQK2"
+    ]
+  }
+}

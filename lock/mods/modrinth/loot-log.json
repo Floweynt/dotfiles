@@ -1,0 +1,88 @@
+{
+  "slug": "loot-log",
+  "projectId": "w0gH5swS",
+  "versions": {
+    "4hV1WTv4": {
+      "filename": "lootlog-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/w0gH5swS/versions/4hV1WTv4/lootlog-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-vE6kbMdVM/dvJudKL3dqPm0ZGRZ7AD+0R8T42Wt0rJWWxEiSSrszjX/Z85V50oat06gwtjEhvnos/MR1xJRIrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "I3RNsslS": {
+      "filename": "lootlog-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/w0gH5swS/versions/I3RNsslS/lootlog-neoforge-1.0.0.jar",
+      "hash": "sha512-LILZ6tlS3jJMjI0I/SDtAT9UkhY1RZc46EW1vK8TydYoLYhUQe5qElHqRjHlledK7hlw+EfPKSJRxc5klGem+A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "w86KE0G5": {
+      "filename": "lootlog-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/w0gH5swS/versions/w86KE0G5/lootlog-forge-1.0.0.jar",
+      "hash": "sha512-NZKClVo4vEtR8OMruW7f/gf6hsBDsKm6RrYqkrkCnsFCpnTs29SB2dQHVXHwr5slGbxVxeJEHS+9tGbq92J2uw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "x6QsCdkE": {
+      "filename": "lootlog-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/w0gH5swS/versions/x6QsCdkE/lootlog-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-ZwCtiXgqEJEdTYIH/J0z3QYtIoQwwuy+NOsSL262HkRuDIe5BgAsv+5gFNSIFwFnaG2SiPpsLxq1hxIxzw3nCw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "4hV1WTv4"
+    ],
+    "1.20.1+forge": [
+      "w86KE0G5"
+    ],
+    "1.21.1+fabric": [
+      "x6QsCdkE"
+    ],
+    "1.21.1+neoforge": [
+      "I3RNsslS"
+    ]
+  }
+}

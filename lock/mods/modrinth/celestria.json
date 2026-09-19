@@ -1,0 +1,125 @@
+{
+  "slug": "celestria",
+  "projectId": "GoCfVRkX",
+  "versions": {
+    "FHjuuotQ": {
+      "filename": "celestria-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GoCfVRkX/versions/1.0.0/celestria-1.0.0.jar",
+      "hash": "sha512-BHEG17JnzInZ1ONl7JL+/lb+2pE1WM8Am+cFKOIjnCHy98em/Q8MmhdnB5x2U9//6fQB1VeGiki58GH4oGXaJA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "UJ6yOC98": {
+      "filename": "celestria-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/GoCfVRkX/versions/UJ6yOC98/celestria-1.1.0.jar",
+      "hash": "sha512-Vkrn+rvjwdmd2ikYj7FKRlYnj3pLV3xKIPODFdZga3YTi3Kafb0+LMRWQdYvBZp7zSOYX63iebbZxwL93lCx2g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "dF6C5XqT": {
+      "filename": "celestria-neoforge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GoCfVRkX/versions/dF6C5XqT/celestria-neoforge-2.0.0.jar",
+      "hash": "sha512-q0jxXJLRNWLrvE3II9+i1vkkQe6TI8+0kh5HQ18usKgKf/q9246EfGFKmLvuKFLaxz+2CbQoDAQ81oiIYz+C3Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "vz64cT5u": {
+      "filename": "celestria-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GoCfVRkX/versions/vz64cT5u/celestria-fabric-2.0.0.jar",
+      "hash": "sha512-GNQzW4oSyZy0JUAD/hw90PlmXD7m16gUm2FBTyRyiJhR4a1ffEpmjW0W2bHkWtCfX1H4mW2y52MNlaCI3tBW8Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xj3gZp9J": {
+      "filename": "celestria-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/GoCfVRkX/versions/xj3gZp9J/celestria-1.1.1.jar",
+      "hash": "sha512-kqQvWDPemtazN6GiWngavZ3oCEUhbRjEthHBJMTGZK1eR7wrQbF8JuIZx64hflvNEemzeKXvugc1tZC3APbSiw==",
+      "gameVersions": [
+        "1.19.2",
+        "22w42a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "xj3gZp9J",
+      "UJ6yOC98",
+      "FHjuuotQ"
+    ],
+    "1.19.2+quilt": [
+      "xj3gZp9J",
+      "UJ6yOC98",
+      "FHjuuotQ"
+    ],
+    "1.21+fabric": [
+      "vz64cT5u"
+    ],
+    "1.21+neoforge": [
+      "dF6C5XqT"
+    ],
+    "1.21+quilt": [
+      "vz64cT5u"
+    ],
+    "1.21.1+fabric": [
+      "vz64cT5u"
+    ],
+    "1.21.1+neoforge": [
+      "dF6C5XqT"
+    ],
+    "1.21.1+quilt": [
+      "vz64cT5u"
+    ],
+    "22w42a+fabric": [
+      "xj3gZp9J"
+    ],
+    "22w42a+quilt": [
+      "xj3gZp9J"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "mints-craft-dyes",
+  "projectId": "NDjf1V69",
+  "versions": {
+    "ZnOKJDmv": {
+      "filename": "mints-craft-dyes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NDjf1V69/versions/ZnOKJDmv/mints-craft-dyes-1.0.0.jar",
+      "hash": "sha512-b/zGllhX0rNip5HGB0IN4zBQDtE4Eo/yoUzy9ZYTHIc12ZuMCu//Z1bgBumjeIcEBr3znpMZgBwyiNuWTT6hRg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "ttENtCCL": {
+      "filename": "mints_craft_dyes-1.0.0-datapack-1.21.1.zip",
+      "url": "https://cdn.modrinth.com/data/NDjf1V69/versions/ttENtCCL/mints_craft_dyes-1.0.0-datapack-1.21.1.zip",
+      "hash": "sha512-3u0BBW97N4EjHJ6dF9fl/c3AEzwjkoZiKURnrIQXd4v/x5RJBBE1OQUOifoCgmZbk+N3MSz9uVadtkp6rC2eiQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "ttENtCCL"
+    ],
+    "1.20.1+fabric": [
+      "ZnOKJDmv"
+    ],
+    "1.20.1+forge": [
+      "ZnOKJDmv"
+    ],
+    "1.20.1+neoforge": [
+      "ZnOKJDmv"
+    ],
+    "1.21.1+datapack": [
+      "ttENtCCL"
+    ],
+    "1.21.1+fabric": [
+      "ZnOKJDmv"
+    ],
+    "1.21.1+forge": [
+      "ZnOKJDmv"
+    ],
+    "1.21.1+neoforge": [
+      "ZnOKJDmv"
+    ]
+  }
+}

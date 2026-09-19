@@ -1,0 +1,133 @@
+{
+  "slug": "boats-but-long",
+  "projectId": "XtQQvdGI",
+  "versions": {
+    "gc3FSLvM": {
+      "filename": "long_boats-neoforge-1.21-1.1-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/XtQQvdGI/versions/gc3FSLvM/long_boats-neoforge-1.21-1.1-ALPHA.jar",
+      "hash": "sha512-+R6ClTdeo2RV0yQLd8xN0kYo3DE37sxBsjwNbWAGRKty3NFOKTKmJMBbQ5TzRwdV9PC9w4fYcPEKPDEZeCnDUw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quirky-vehicles-framework",
+          "projectId": "JnkPexWc",
+          "type": "required"
+        }
+      ]
+    },
+    "vAgKaoLd": {
+      "filename": "long_boats-fabric-1.21-1.1-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/XtQQvdGI/versions/vAgKaoLd/long_boats-fabric-1.21-1.1-ALPHA.jar",
+      "hash": "sha512-MQE4hOQJFyIcG9gLmtOIoHF+HiqbImMD+TipYqbyd7Q56cQ7gtCoMaV47SzL3/pFIJ/xI8KH+bZRuvA5C5n4Xg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quirky-vehicles-framework",
+          "projectId": "JnkPexWc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zDQc8fYf": {
+      "filename": "Long boats-forge-1.21-1.1-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/XtQQvdGI/versions/zDQc8fYf/Long%20boats-forge-1.21-1.1-ALPHA.jar",
+      "hash": "sha512-rbdDT6TzOwrt6HY9joDXAtUzJB8jDyidEBu/iz6tXzFC3LpgvElruwFgiTyqjWwgSv8Q2rfztSUxw7CQ/kB1Gg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quirky-vehicles-framework",
+          "projectId": "JnkPexWc",
+          "type": "required"
+        }
+      ]
+    },
+    "zrzthQtw": {
+      "filename": "long_boats-neoforge-1.21-1.0-ALPHA.jar",
+      "url": "https://cdn.modrinth.com/data/XtQQvdGI/versions/zrzthQtw/long_boats-neoforge-1.21-1.0-ALPHA.jar",
+      "hash": "sha512-7CRf6TlUKBY+INGVhbzUk3l/F9Uy+QInzSfKgk3zObFgvbn8iqG2SoF4LFC+WKuMfGjoL3shd8XZNAcC2w+wqA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quirky-vehicles-framework",
+          "projectId": "JnkPexWc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "vAgKaoLd"
+    ],
+    "1.21+forge": [
+      "zDQc8fYf"
+    ],
+    "1.21+neoforge": [
+      "gc3FSLvM",
+      "zrzthQtw"
+    ],
+    "1.21.1+forge": [
+      "zDQc8fYf"
+    ],
+    "1.21.1+neoforge": [
+      "gc3FSLvM",
+      "zrzthQtw"
+    ],
+    "1.21.2+forge": [
+      "zDQc8fYf"
+    ],
+    "1.21.2+neoforge": [
+      "gc3FSLvM",
+      "zrzthQtw"
+    ],
+    "1.21.3+forge": [
+      "zDQc8fYf"
+    ],
+    "1.21.3+neoforge": [
+      "gc3FSLvM",
+      "zrzthQtw"
+    ]
+  }
+}

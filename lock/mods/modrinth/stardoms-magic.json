@@ -1,0 +1,106 @@
+{
+  "slug": "stardoms-magic",
+  "projectId": "LRuyfCnn",
+  "versions": {
+    "8Ed9ZKFE": {
+      "filename": "stardomsmagic-1.2.0-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/LRuyfCnn/versions/8Ed9ZKFE/stardomsmagic-1.2.0-1.21.11.jar",
+      "hash": "sha512-xkZZMeVTpWWk050jEoia7OqvipRvq9UyIpdITCiUAjULOz5MKRuMBTMFthf/2BZZcPNBGbxv0K94QYUKox1Ggg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "YAtrVkSR": {
+      "filename": "stardomsmagic-1.2.0-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/LRuyfCnn/versions/YAtrVkSR/stardomsmagic-1.2.0-1.21.8.jar",
+      "hash": "sha512-WKN1kUfy7xR/W98RhlFu+IULze927myuvjJAgc73Zxcf3eAG9gtCVHDzdPsooq3BCXSGj1XiUJ9s89Ww7aW7Rw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bsWthbsx": {
+      "filename": "stardomsmagic-1.1.0-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/LRuyfCnn/versions/bsWthbsx/stardomsmagic-1.1.0-1.21.8.jar",
+      "hash": "sha512-rJ1pjMZHhrD4gLY9H/HjMkDAIB/d+yYP/vFy/PuHH8+aThMF+CV4ozmBhfT/XVD1X7ou2GqQjA068zcFImlTyA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "hboo2Aar": {
+      "filename": "stardomsmagic-1.0.1-1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/LRuyfCnn/versions/hboo2Aar/stardomsmagic-1.0.1-1.21.7.jar",
+      "hash": "sha512-rNJWOoI6eU1JNDdMrgmOmmGcEpuz5eBvp3/d644dD+/eRbUTVKP4R77Q9xaypdlk/fhZYsgrT+SHkxmZrEctjg==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uOCtwgdv": {
+      "filename": "stardomsmagic-1.0.0-1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/LRuyfCnn/versions/uOCtwgdv/stardomsmagic-1.0.0-1.21.7.jar",
+      "hash": "sha512-MfzqXPNlxKEUAQldwhTaDBq6qIGjCkcAM19jZj3J/vGIJ7XyiqB4uuoEj8Gx2EhSfEGy8Kem5ZYNSs+WhsPIOA==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "8Ed9ZKFE"
+    ],
+    "1.21.7+fabric": [
+      "hboo2Aar",
+      "uOCtwgdv"
+    ],
+    "1.21.8+fabric": [
+      "YAtrVkSR",
+      "bsWthbsx"
+    ]
+  }
+}

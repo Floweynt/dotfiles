@@ -1,0 +1,105 @@
+{
+  "slug": "primeval",
+  "projectId": "hm0xaL3j",
+  "versions": {
+    "7fZSwmjj": {
+      "filename": "Primeval-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/hm0xaL3j/versions/0.0.1/Primeval-0.0.1.jar",
+      "hash": "sha512-g4KkD8WAtL0zKykiLO3JI7hJQgrObEQ9G8mIbU7qM5TtuiUrSV7TSPQW/xX3IzK7REVkm+Z6VHRbDuzfA46x/Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "FjBMe2BL": {
+      "filename": "Primeval-0.0.7+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/hm0xaL3j/versions/FjBMe2BL/Primeval-0.0.7%2B1.21.4.jar",
+      "hash": "sha512-PzR3xdWYQAccryKaCWcbav6RyxSPQADehpxttSdVL/YVBMO5bbXipMWkvyLfH5VuXx/lRmwQ+nTS9aEQg5LYrA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "S9aMTjvK": {
+      "filename": "Primeval-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/hm0xaL3j/versions/S9aMTjvK/Primeval-0.0.2.jar",
+      "hash": "sha512-odKnb5Fsnnsv59DVCZo7bgdA+24ffW7C2ZNHIGpJ4tAp6XB3Gxc3hNcrQzhN2qnq385pdyFtfFEnGDzJjJJACQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "SD38IvBT": {
+      "filename": "Primeval-0.0.5+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/hm0xaL3j/versions/SD38IvBT/Primeval-0.0.5%2B1.21.4.jar",
+      "hash": "sha512-MmvpIgFjUhQmhLCDJssgYMk6D31nErCAn6/55OcTe507VlTHJpbZ7li140tkrcNJD93z/Q0lNro18bMorUlnuw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oLeWQbls": {
+      "filename": "Primeval-0.0.6+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/hm0xaL3j/versions/oLeWQbls/Primeval-0.0.6%2B1.21.4.jar",
+      "hash": "sha512-Om/MTZxQ4trrRgGYmIYN2/EWCSv9RxVbl1dYp+UBU7ZdIlL6YNtIzJCK2xmpeU7JeAtdyr4aZh1i4rfxgc8xzA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "S9aMTjvK",
+      "7fZSwmjj"
+    ],
+    "1.21.4+fabric": [
+      "FjBMe2BL",
+      "oLeWQbls",
+      "SD38IvBT"
+    ]
+  }
+}

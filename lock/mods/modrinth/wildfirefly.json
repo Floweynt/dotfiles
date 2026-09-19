@@ -1,0 +1,106 @@
+{
+  "slug": "wildfirefly",
+  "projectId": "CLsLjOJs",
+  "versions": {
+    "2rvNwqe9": {
+      "filename": "WildFireFly-1.2-release.jar",
+      "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/1.2/WildFireFly-1.2-release.jar",
+      "hash": "sha512-WJdUpTKpRdU/sCJtAKsy69T7ytA4ahQZtLRCIHoVDNAOq1JYfR4BuP6GNfMxal99DaaO5Tuo6HV/C2hWP7Y8PQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ErsaDqNW": {
+      "filename": "WildFireFly-1.19.x-1.2.1-release.jar",
+      "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/ErsaDqNW/WildFireFly-1.19.x-1.2.1-release.jar",
+      "hash": "sha512-MyIQbxa5YYyMY3B9RRR2VkxyTlHE7Zc046pLiBr7j+ykLBfY0tkyyT+sv8AK5SDAPZlXUwACuHBLBtDUNgI02A==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "RPDDFOlF": {
+      "filename": "WildFireFly-1.1-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/1.1-release/WildFireFly-1.1-1.19.jar",
+      "hash": "sha512-MhNUOP42uBG+Ek2mdUny8ivCt2rjVPKVhotJ3WYqRLK/sGy7asUuQcZNRYJe8hh7nE6HH/MbSaWPx9pXhGIpqg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ceEp1eqQ": {
+      "filename": "WildFireFly-1.0-1.19_rc2-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/1.0/WildFireFly-1.0-1.19_rc2-alpha.jar",
+      "hash": "sha512-IzMQWMGcYW0zPSIuvZqHhpuswClaJX6RnBY8pJmSCAcmNJJZtYErdTpHufq7h6BG4mKxHa4ZT4w4uFlRXHJUow==",
+      "gameVersions": [
+        "1.19-rc2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s4oJWQYW": {
+      "filename": "WildFireFly-1.0-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/CLsLjOJs/versions/1.0-release/WildFireFly-1.0-1.19.jar",
+      "hash": "sha512-PfGaXgPZTcOSNXyhgZR+NOuKsGIHq8nkQjplfbPiqleiEMU+x0f77Q0tMTTBRF5KDGo2ag4GhqC4PL6fl/2DTw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "ErsaDqNW",
+      "2rvNwqe9",
+      "RPDDFOlF",
+      "s4oJWQYW"
+    ],
+    "1.19-rc2+fabric": [
+      "ceEp1eqQ"
+    ],
+    "1.19.1+fabric": [
+      "ErsaDqNW"
+    ],
+    "1.19.2+fabric": [
+      "ErsaDqNW"
+    ]
+  }
+}

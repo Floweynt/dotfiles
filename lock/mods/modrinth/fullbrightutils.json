@@ -1,0 +1,127 @@
+{
+  "slug": "fullbrightutils",
+  "projectId": "Fv4LsFZS",
+  "versions": {
+    "9daDcZW9": {
+      "filename": "fullbrightutils-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Fv4LsFZS/versions/9daDcZW9/fullbrightutils-1.1.0.jar",
+      "hash": "sha512-GK5XhuMDJ2htYRaQxuwUHKSemorXuP7UWDG01rfQUoUwBHtUZPdKESWda7X9S1fgWrzaM+q0yTXPa4H/iqDyMQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        }
+      ]
+    },
+    "Iat3bBLP": {
+      "filename": "fullbrightutils-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Fv4LsFZS/versions/Iat3bBLP/fullbrightutils-1.0.0.jar",
+      "hash": "sha512-/f82Yu/4mU4TLG23+9VNNp5DMsQWVQ/FsVVncT3qHR0p0kz7/fo8ZFfa+O6p+zhoHFIo5QeryEmmo/hh0UXtYA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        }
+      ]
+    },
+    "nJcv2uKp": {
+      "filename": "fullbrightutils-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Fv4LsFZS/versions/nJcv2uKp/fullbrightutils-1.0.1.jar",
+      "hash": "sha512-4Zf/f824esU0uA9e4OHhD7ZT4zCxhxTfTKR21iEjDnI2VksmfhPmIafyRSz2nXiq78ZtCvqQgLB0uGhEG1SjBQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        }
+      ]
+    },
+    "qBvVVSCk": {
+      "filename": "fullbrightutils-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Fv4LsFZS/versions/qBvVVSCk/fullbrightutils-1.2.0.jar",
+      "hash": "sha512-m6yk/0xVHfH2RjpzllX2cTkvg9DzfP0LThHS4KQMoRU+dRB+646orlky+lrA/rypqCjwyj1oc43WW90x0NF4Jw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fweigel-util-lib",
+          "projectId": "9vET5JXT",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "9daDcZW9",
+      "nJcv2uKp",
+      "Iat3bBLP"
+    ],
+    "26.1.1+fabric": [
+      "9daDcZW9",
+      "nJcv2uKp",
+      "Iat3bBLP"
+    ],
+    "26.1.2+fabric": [
+      "9daDcZW9",
+      "nJcv2uKp",
+      "Iat3bBLP"
+    ],
+    "26.2+fabric": [
+      "qBvVVSCk"
+    ]
+  }
+}

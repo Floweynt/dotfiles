@@ -1,0 +1,54 @@
+{
+  "slug": "tradepreview",
+  "projectId": "lSDW66CH",
+  "versions": {
+    "Ir9KKGyu": {
+      "filename": "TradePreview-Fabric-1.0.0+01.jar",
+      "url": "https://cdn.modrinth.com/data/lSDW66CH/versions/Ir9KKGyu/TradePreview-Fabric-1.0.0%2B01.jar",
+      "hash": "sha512-cCU1IzXgbj40vJi37/GiGCaJ3ZVjVcleMiNTKheXAVcI3cvAh/aGtidTKTNkdZJ0jG1dl94icX0mRd2bnqeJDQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "chassis",
+          "projectId": "KzYZSCSR",
+          "type": "required"
+        }
+      ]
+    },
+    "ltS076bx": {
+      "filename": "TradePreview-Fabric-1.0.0+02.jar",
+      "url": "https://cdn.modrinth.com/data/lSDW66CH/versions/ltS076bx/TradePreview-Fabric-1.0.0%2B02.jar",
+      "hash": "sha512-hk+GWsSRGw98ot1fyofZJx2aUtfv2P08nDICmzb7Sa6F3/oTC5XKJ+oVeaKfk21DGraz3990xLGTcBhtVfl3Rw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "chassis",
+          "projectId": "KzYZSCSR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Ir9KKGyu"
+    ],
+    "1.20.2+fabric": [
+      "ltS076bx"
+    ]
+  }
+}

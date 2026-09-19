@@ -1,0 +1,31 @@
+{
+  "slug": "soul-pearl",
+  "projectId": "KtTLYkG6",
+  "versions": {
+    "LfIjglyM": {
+      "filename": "soul-pearl-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/KtTLYkG6/versions/LfIjglyM/soul-pearl-0.2.1.jar",
+      "hash": "sha512-p7W/DbHWE/SXU13hjthX6pJgTYgkIZfe2x7jKKOBfNdGyT0TSOMWKJvUrl3oUV8n7ckKN5ASFFU6xm/ISzLiwA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "LfIjglyM"
+    ]
+  }
+}

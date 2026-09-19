@@ -1,0 +1,51 @@
+{
+  "slug": "voxyworldgenxaero-bridge",
+  "projectId": "aM6MTeRi",
+  "versions": {
+    "1o51Sx67": {
+      "filename": "xaero-worldgen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/aM6MTeRi/versions/1o51Sx67/xaero-worldgen-1.0.0.jar",
+      "hash": "sha512-Eo6nqnEeT9fAw4TBT538Fgo1JHrpFJxNMg31958a9hw8ZVkIoH7u7/9ReaHo/YwS3OczHDeg7ZAr1H7ZgL0Alw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "voxy-worldgen",
+          "projectId": "xT0lnNE9",
+          "type": "required"
+        },
+        {
+          "slug": "xaeros-world-map",
+          "projectId": "NcUtCpym",
+          "type": "required"
+        }
+      ]
+    },
+    "HVI28W6Z": {
+      "filename": "xaero-worldgen-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/aM6MTeRi/versions/HVI28W6Z/xaero-worldgen-1.0.1.jar",
+      "hash": "sha512-cfNQRSNf9wewwUm6TgL+nyyeiEzyIo5kT01Lwf+0479ZZg7d99gnFsJ2AhgK08T1Dc4uYkkKTyGnJLbj8NC/mg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "HVI28W6Z",
+      "1o51Sx67"
+    ]
+  }
+}

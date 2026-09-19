@@ -1,0 +1,44 @@
+{
+  "slug": "expanded-classes",
+  "projectId": "4MFkGPj1",
+  "versions": {
+    "rcPs2TXe": {
+      "filename": "Expanded-Classes-1.19-4.0.2-FABRIC.jar",
+      "url": "https://cdn.modrinth.com/data/4MFkGPj1/versions/rcPs2TXe/Expanded-Classes-1.19-4.0.2-FABRIC.jar",
+      "hash": "sha512-eWTwZHks6kSWA4RgCxkCGC5GowpnOnbjo0ByIBzpx/cvvZ/PC9R9XAj4knZfoN3tCU7cwSfF+skE74CG+/QLPA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "origins-classes",
+          "projectId": "FiDptjtR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "rcPs2TXe"
+    ],
+    "1.19.1+fabric": [
+      "rcPs2TXe"
+    ],
+    "1.19.2+fabric": [
+      "rcPs2TXe"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "tridentfix",
+  "projectId": "89L3LDsb",
+  "versions": {
+    "DEQOCfCw": {
+      "filename": "tridentfix-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/89L3LDsb/versions/DEQOCfCw/tridentfix-1.0.0%2B1.20.jar",
+      "hash": "sha512-KjKdvaVK8zc9Hnro1HBFZa37okHJ4Fv9JZvXxaGyDyUXAaBD2lQB2CXA8r0bIcBpRGM9DXjO7XCz548mkSEYMg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "usrapXQ5": {
+      "filename": "tridentfix-1.1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/89L3LDsb/versions/usrapXQ5/tridentfix-1.1%2B1.20.jar",
+      "hash": "sha512-8bpcEr26fBWYY6SeeMJF2O48ny7oBct8G/RoDbjOkVwk+S0+SHStymswn6bDeW/cr2j2uzmRzUhPgTt1cypHFA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "usrapXQ5",
+      "DEQOCfCw"
+    ],
+    "1.20.1+fabric": [
+      "usrapXQ5",
+      "DEQOCfCw"
+    ],
+    "1.20.2+fabric": [
+      "usrapXQ5",
+      "DEQOCfCw"
+    ],
+    "1.20.3+fabric": [
+      "usrapXQ5",
+      "DEQOCfCw"
+    ],
+    "1.20.4+fabric": [
+      "usrapXQ5",
+      "DEQOCfCw"
+    ]
+  }
+}

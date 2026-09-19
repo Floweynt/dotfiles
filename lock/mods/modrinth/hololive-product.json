@@ -1,0 +1,111 @@
+{
+  "slug": "hololive-product",
+  "projectId": "d7K0Tk0H",
+  "versions": {
+    "AtiTYECv": {
+      "filename": "holoproduct-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d7K0Tk0H/versions/AtiTYECv/holoproduct-1.0.0.jar",
+      "hash": "sha512-iBVFLMS2P2CCK6NeVyZ0toYhGMIoodjuDSmG/eXZUUKiBZ7CFIivIR6GUcqAfPRZGifl9WzKiKgCamGqnB9kVg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uCCrPy1H": {
+      "filename": "holoproduct-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d7K0Tk0H/versions/uCCrPy1H/holoproduct-1.0.0.jar",
+      "hash": "sha512-b59RdptaGMOpft2r+boek54B0gioJkh030eTr/2M1aaVqJTqRcdXTS6hYqmJZqZSxohbS63r+GhMKlSLqNLG8A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "v7oLA9eu": {
+      "filename": "holoproduct-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d7K0Tk0H/versions/v7oLA9eu/holoproduct-1.0.0.jar",
+      "hash": "sha512-oZs0wfGlodoYxxVSJY9HaQ70XyBMI0HxZFvrJn4+ks6iGyWgqmBmn6SiRIvaI380eXYKZQS+DFkitIAnlC3/RQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "v7oLA9eu"
+    ],
+    "1.20.1+forge": [
+      "uCCrPy1H"
+    ],
+    "1.20.2+fabric": [
+      "v7oLA9eu"
+    ],
+    "1.20.2+forge": [
+      "uCCrPy1H"
+    ],
+    "1.20.3+fabric": [
+      "v7oLA9eu"
+    ],
+    "1.20.3+forge": [
+      "uCCrPy1H"
+    ],
+    "1.20.4+fabric": [
+      "v7oLA9eu"
+    ],
+    "1.20.4+forge": [
+      "uCCrPy1H"
+    ],
+    "1.20.5+fabric": [
+      "v7oLA9eu"
+    ],
+    "1.20.5+forge": [
+      "uCCrPy1H"
+    ],
+    "1.20.6+fabric": [
+      "v7oLA9eu"
+    ],
+    "1.20.6+forge": [
+      "uCCrPy1H"
+    ],
+    "1.21.1+fabric": [
+      "AtiTYECv"
+    ]
+  }
+}

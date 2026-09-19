@@ -1,0 +1,128 @@
+{
+  "slug": "astrochem",
+  "projectId": "HypLMmGv",
+  "versions": {
+    "7tbK9NEB": {
+      "filename": "astrochem-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/HypLMmGv/versions/7tbK9NEB/astrochem-1.0.3.jar",
+      "hash": "sha512-DQ6DnR5k+ZAOlkvYTh1OSbZrkXB8hKJF/vshW0M1+NVZJfwuxW5XpYRQ1lA7K2rDRMugszJIG1mjED+if8+e0Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-lib",
+          "projectId": "G1hIVOrD",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "botarium",
+          "projectId": "2u6LRnMa",
+          "type": "required"
+        }
+      ]
+    },
+    "9lmVQ40r": {
+      "filename": "astrochem-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HypLMmGv/versions/9lmVQ40r/astrochem-1.1.0.jar",
+      "hash": "sha512-9dnGop6KP/xprxpavx5PSPa7Y35ErjN+MkkroBiVN11wbE9j1dVK59nyvjO+0CDlWVYgMeu2WTIV4vpSXI1GUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    },
+    "J1GuJE5g": {
+      "filename": "astrochem-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HypLMmGv/versions/J1GuJE5g/astrochem-1.1.0.jar",
+      "hash": "sha512-93O2moKh4tZNT+Os1J51irkjVKpouZo64ZEdGIiJ4y7Ef9UeA6pPoXrwF8ZBrSyeqiIEV6BOxrxyjhrOg9DTbw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        }
+      ]
+    },
+    "kDlsT5DL": {
+      "filename": "astrochem-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/HypLMmGv/versions/kDlsT5DL/astrochem-1.0.2.jar",
+      "hash": "sha512-aq8iC8DYkuJpCCJ92jLM9NDk6ydGeK/uxKNQTJp/dARDzHjZ6C2ahD7oMk/7qMySlw9hNhmaMjSfR/hukW6vMw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "botarium",
+          "projectId": "2u6LRnMa",
+          "type": "required"
+        },
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-config",
+          "projectId": "M1953qlQ",
+          "type": "required"
+        },
+        {
+          "slug": "resourceful-lib",
+          "projectId": "G1hIVOrD",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "kDlsT5DL"
+    ],
+    "1.19.2+forge": [
+      "J1GuJE5g",
+      "7tbK9NEB"
+    ],
+    "1.20.1+forge": [
+      "9lmVQ40r"
+    ]
+  }
+}

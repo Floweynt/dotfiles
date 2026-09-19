@@ -1,0 +1,62 @@
+{
+  "slug": "cave-dweller-reimagined-(fabric)",
+  "projectId": "DcbG8MdA",
+  "versions": {
+    "LYaRFpkn": {
+      "filename": "cave_dweller-1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/DcbG8MdA/versions/LYaRFpkn/cave_dweller-1.19.4.jar",
+      "hash": "sha512-qbzVRwoydS5cZtkcyQmSriLPLfrMYNUpLGCYVT38J/KSn7gRGBL/eIsBo1YoGLYRvlqmZ7Ntdhxfbc8BuKHvNQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "Vpo4KTCH": {
+      "filename": "cave_dweller-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/DcbG8MdA/versions/Vpo4KTCH/cave_dweller-1.20.1.jar",
+      "hash": "sha512-i6E/MX0CNMuMHVSU13bMx4B8rbxqA/MN+y3se38b19K4+7s1wOMz14ksYEYF9Sb7MfXsSOZdxqKHDW8joaK0qw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "LYaRFpkn"
+    ],
+    "1.19.4+quilt": [
+      "LYaRFpkn"
+    ],
+    "1.20.1+fabric": [
+      "Vpo4KTCH"
+    ],
+    "1.20.1+quilt": [
+      "Vpo4KTCH"
+    ]
+  }
+}

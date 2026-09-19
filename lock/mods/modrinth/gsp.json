@@ -1,0 +1,76 @@
+{
+  "slug": "gsp",
+  "projectId": "j7VEesUi",
+  "versions": {
+    "5YMc4yXW": {
+      "filename": "gsp-2.5.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/j7VEesUi/versions/5YMc4yXW/gsp-2.5.0-fabric.jar",
+      "hash": "sha512-FZO+h7vuo7kWC1i0A3bBDosGdOlnkdtu/r/A6X4TjQnUGfiFYrtflZX9kN0a8bMWPw/8m73h/QI73IMEXYpI6A==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fcl",
+          "projectId": "FsnSr7bC",
+          "type": "required"
+        },
+        {
+          "slug": "fvtm",
+          "projectId": "uwxnSBu4",
+          "type": "required"
+        }
+      ]
+    },
+    "BpL2rliE": {
+      "filename": "gsp-2.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/j7VEesUi/versions/BpL2rliE/gsp-2.5.0.jar",
+      "hash": "sha512-8xspLgAd2t+AcFOjYiWV9NpMmAs8KyCyIjLGX3/wUFhd7bB0v+gBOlKD+yl+UpXm/N7QUbbUsxW66zFk48Nwgw==",
+      "gameVersions": [
+        "1.12.2",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fcl",
+          "projectId": "FsnSr7bC",
+          "type": "required"
+        },
+        {
+          "slug": "fvtm",
+          "projectId": "uwxnSBu4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.12.2+forge": [
+      "BpL2rliE"
+    ],
+    "1.20.1+forge": [
+      "BpL2rliE"
+    ],
+    "26.1+fabric": [
+      "5YMc4yXW"
+    ],
+    "26.1.1+fabric": [
+      "5YMc4yXW"
+    ],
+    "26.1.2+fabric": [
+      "5YMc4yXW"
+    ]
+  }
+}

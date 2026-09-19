@@ -1,0 +1,46 @@
+{
+  "slug": "cobbletcg-resorcepack2",
+  "projectId": "FfSpw7du",
+  "versions": {
+    "2OWCwYdB": {
+      "filename": "CobbleTCG_ResourcePack2.zip",
+      "url": "https://cdn.modrinth.com/data/FfSpw7du/versions/2OWCwYdB/CobbleTCG_ResourcePack2.zip",
+      "hash": "sha512-0SVzgXFcgfc3wvK6q44VWK03m5RWFbBkvIkUNeEysXElv4c0d1VyOrHq3B2O7m+LjlVVtff2hrFJcUE4BhFHrQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "KA1Z06cQ": {
+      "filename": "CobbleTCG_ResourcePack22.zip",
+      "url": "https://cdn.modrinth.com/data/FfSpw7du/versions/KA1Z06cQ/CobbleTCG_ResourcePack22.zip",
+      "hash": "sha512-MVxd4NdkOv07e2WU6DZuWA4ZjKwD/qg3ksAx+F9/owED8npAO0JM52gJY0bIQoMNDOuCEvEOtS0DBO+GZdKnhg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobbletcg",
+          "projectId": "MoZJE0bI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+minecraft": [
+      "2OWCwYdB",
+      "KA1Z06cQ"
+    ]
+  }
+}

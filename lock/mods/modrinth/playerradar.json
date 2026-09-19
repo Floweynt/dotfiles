@@ -1,0 +1,112 @@
+{
+  "slug": "playerradar",
+  "projectId": "iRi6unhQ",
+  "versions": {
+    "IxaItMni": {
+      "filename": "RadarAlert2-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/iRi6unhQ/versions/IxaItMni/RadarAlert2-1.0.jar",
+      "hash": "sha512-HwYewU4fsL6sXB9hKm4kkI0Mo6oW3DRb+rCggEz2CMZ1/zcDmorbDDVUNmTKDe/EKuQ7itSPw4JfQlHMrfL4Og==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "LYq2SYsC": {
+      "filename": "RadarAlert2-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/iRi6unhQ/versions/LYq2SYsC/RadarAlert2-1.0.jar",
+      "hash": "sha512-+NRxdZPKAD0A3yw0GnMB1X0w8NwJcuW02OhEyUM0jwUZvePX2jXxLjfTVlwEvgJoa6dquy+mUJPX9nuU70/ETA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XPlAegUY": {
+      "filename": "RadarAlert2-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/iRi6unhQ/versions/XPlAegUY/RadarAlert2-1.0.jar",
+      "hash": "sha512-nUepExR+Tlfk1fvjyiD1tm6RuPFIX6ab5lqoINoi6lurz9JPGBuwVlh8nFJ3ZaNLAXh2TVO9MpPagDC0xQ+PgA==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "XfaAPH41": {
+      "filename": "radaralert-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/iRi6unhQ/versions/XfaAPH41/radaralert-1.0.jar",
+      "hash": "sha512-za6ZTJjZrXp8e/9QtRU0oCn++UUWtPS7y6BgL5E/Q2gjo5+2a2uYnvKO2jvKA8MgYd8JLNGkiEIErekoaehQzQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "XPlAegUY",
+      "IxaItMni",
+      "XfaAPH41"
+    ],
+    "1.21.11+fabric": [
+      "XPlAegUY",
+      "IxaItMni",
+      "LYq2SYsC"
+    ],
+    "1.21.6+fabric": [
+      "XPlAegUY",
+      "IxaItMni"
+    ],
+    "1.21.7+fabric": [
+      "XPlAegUY",
+      "IxaItMni"
+    ],
+    "1.21.8+fabric": [
+      "XPlAegUY",
+      "IxaItMni"
+    ],
+    "1.21.9+fabric": [
+      "XPlAegUY",
+      "IxaItMni"
+    ]
+  }
+}

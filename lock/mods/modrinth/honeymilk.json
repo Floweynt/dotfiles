@@ -1,0 +1,84 @@
+{
+  "slug": "honeymilk",
+  "projectId": "12YhzhCc",
+  "versions": {
+    "7qmqw2VQ": {
+      "filename": "honeymilk-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/12YhzhCc/versions/7qmqw2VQ/honeymilk-1.0-1.20.1.jar",
+      "hash": "sha512-eSWmBVCPaeM2GhPpO3zwOX2bDjezcz9/b7MPEz2R/ajpZN78vTTt0IoZT2mELhTo1UUg/aj24SAT9v6JC7JK1Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YVZqwZor": {
+      "filename": "honeymilk-forge-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/12YhzhCc/versions/YVZqwZor/honeymilk-forge-1.0.1-1.20.1.jar",
+      "hash": "sha512-vS1Gi84267OXaOBJ9b26Y/r6PyQMjfniJCsnmdVp3mcYAAfTDtMMJj6iscDH4EPfv5lr8wudYqpaox43MlJ7gA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "bYh3gaEL": {
+      "filename": "honeymilk-fabric-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/12YhzhCc/versions/bYh3gaEL/honeymilk-fabric-1.0.1-1.20.1.jar",
+      "hash": "sha512-+7t2IbKHwoOZfZyN2co5k10HR2V9KOM1z3G0x6zXorXbeyyZwmTtaA+kTJC06EtRe53WqBV50W4Pfpah4/dtFw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "bYh3gaEL",
+      "7qmqw2VQ"
+    ],
+    "1.20.1+forge": [
+      "YVZqwZor"
+    ],
+    "1.20.1+quilt": [
+      "bYh3gaEL"
+    ]
+  }
+}

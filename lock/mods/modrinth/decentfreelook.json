@@ -1,0 +1,86 @@
+{
+  "slug": "decentfreelook",
+  "projectId": "BQOgClUt",
+  "versions": {
+    "LaNWEBa6": {
+      "filename": "decentfreelook-1.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/BQOgClUt/versions/LaNWEBa6/decentfreelook-1.0%2B1.21.11.jar",
+      "hash": "sha512-dzVxUR54Hi1pQUcZoBbma8wLi9kzsYodz412XJayIPj7agsert0ZtQqcDPQIg+cxXHVXoQT8In67az4WUtnRbA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "QNOyoj7G": {
+      "filename": "decentfreelook-1.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/BQOgClUt/versions/QNOyoj7G/decentfreelook-1.1%2B1.21.11.jar",
+      "hash": "sha512-nSsn2bLch29F+E9KWNMWQbEgy48IUngI7VayEA/4Hx52TqUxk+LnMf4qQvXPV3r3Dv3RqOyUS3uEhbb2/BvS9Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "bPtuybxb": {
+      "filename": "decentfreelook-1.3+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/BQOgClUt/versions/bPtuybxb/decentfreelook-1.3%2B26.2.jar",
+      "hash": "sha512-Z1Qo4oKZBTMFRBUZBEvtix2JCEWWxszmeKB3t6vfF0QTQtDJaHadDkEyCKtkuRSKK+jOdBTPdXcXzyCuL0Izqw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d3RhoABV": {
+      "filename": "decentfreelook-1.3+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/BQOgClUt/versions/d3RhoABV/decentfreelook-1.3%2B26.1.2.jar",
+      "hash": "sha512-aQ0A32TzlvyrnTl5dSoXqUr0GwnqNbA/tfKo2nCq4rvE7RoAmIyqas506I1OIlCxautCoaBAjdMdKnLdu+IMXg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "QNOyoj7G",
+      "LaNWEBa6"
+    ],
+    "26.1.2+fabric": [
+      "d3RhoABV"
+    ],
+    "26.2+fabric": [
+      "bPtuybxb"
+    ]
+  }
+}

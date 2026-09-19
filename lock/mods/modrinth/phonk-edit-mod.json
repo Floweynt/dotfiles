@@ -1,0 +1,58 @@
+{
+  "slug": "phonk-edit-mod",
+  "projectId": "7LH9mz1r",
+  "versions": {
+    "ktbmFKk9": {
+      "filename": "phonk-edit-mod-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/7LH9mz1r/versions/ktbmFKk9/phonk-edit-mod-1.1.0.jar",
+      "hash": "sha512-C3FOz3Gu3U3v37a2NY9acwMk3CI9zBVkV4BnUUI2vnjvWOOXyjqxcPoI2ow//V/XSvpH79Xf9x8FBhif+Qwo2w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xmfGdbKj": {
+      "filename": "phonk-edit-mod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7LH9mz1r/versions/xmfGdbKj/phonk-edit-mod-1.0.0.jar",
+      "hash": "sha512-VL0hz+7hMwqbOB4oDK8kMQHbz7/OdbudPH4RQxyqEMR3LuAg/ol+AqlkmnZnx6EOAAAnzV7sOjoIs6XH3Uz+rw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "ktbmFKk9",
+      "xmfGdbKj"
+    ],
+    "1.21.1+fabric": [
+      "ktbmFKk9",
+      "xmfGdbKj"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "hyros-pswg-additions-compatibility",
+  "projectId": "qlf1Q2BX",
+  "versions": {
+    "15cla3Bz": {
+      "filename": "Hyro's PSWG Additions & Compatibility v0.0.1.zip",
+      "url": "https://cdn.modrinth.com/data/qlf1Q2BX/versions/15cla3Bz/Hyro%27s%20PSWG%20Additions%20%26%20Compatibility%20v0.0.1.zip",
+      "hash": "sha512-MKeQqnyXDWFbxWUbHenB8jgGK7Fkx/i1EP8l6BnqYikbER4z0zwsDAAaQHWmJwgnR8bmf29FldN/KFquoPwImw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "pswg",
+          "projectId": "9rBI0wQz",
+          "type": "required"
+        }
+      ]
+    },
+    "TJred8R2": {
+      "filename": "Hyro's PSWG Additions & Compatibility v2.0.zip",
+      "url": "https://cdn.modrinth.com/data/qlf1Q2BX/versions/TJred8R2/Hyro%27s%20PSWG%20Additions%20%26%20Compatibility%20v2.0.zip",
+      "hash": "sha512-ZYSRN7lEyuj22VDM5oXlvmBnweFRkG5RHsS4tt4M8cLfBHox4NPcRrNqXvubRcJDVoEayUIiJ/Cm6UyMF/8hPw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pswg",
+          "projectId": "9rBI0wQz",
+          "type": "required"
+        },
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    },
+    "jVOe9SMX": {
+      "filename": "hyros-pwsg-additions-compatibility-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/qlf1Q2BX/versions/jVOe9SMX/hyros-pwsg-additions-compatibility-0.0.2.jar",
+      "hash": "sha512-gDThvoO2aK31OhxEMiyFgx3v8fa94BG9Q4QVwQh1qauJlnUlWamMDxjDZ2KEk92Qy0KSobGeaOjz6hxwo5TDLg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pswg",
+          "projectId": "9rBI0wQz",
+          "type": "required"
+        },
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    },
+    "punGn3qb": {
+      "filename": "Hyro's PSWG Additions & Compatibility v2.1.zip",
+      "url": "https://cdn.modrinth.com/data/qlf1Q2BX/versions/punGn3qb/Hyro%27s%20PSWG%20Additions%20%26%20Compatibility%20v2.1.zip",
+      "hash": "sha512-Mu2O9ICKaIv0RFi7SRSs1gSoTpQP5wAC2HMwkYeiSi3ClZ87lG9s7IGdDGU6zz9emC9sdsG9oodHllHvSUYRSQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "pswg",
+          "projectId": "9rBI0wQz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+datapack": [
+      "15cla3Bz",
+      "punGn3qb",
+      "TJred8R2"
+    ],
+    "1.20.2+fabric": [
+      "jVOe9SMX",
+      "15cla3Bz",
+      "punGn3qb",
+      "TJred8R2"
+    ]
+  }
+}

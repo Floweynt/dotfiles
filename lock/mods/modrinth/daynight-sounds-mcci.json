@@ -1,0 +1,72 @@
+{
+  "slug": "daynight-sounds-mcci",
+  "projectId": "K1baCB35",
+  "versions": {
+    "C7WoSaYG": {
+      "filename": "daynight-sounds-1.0.1_1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/K1baCB35/versions/C7WoSaYG/daynight-sounds-1.0.1_1.21.5.jar",
+      "hash": "sha512-dKOTyMizQYkmrJ9cYVi7VmyAfkt2NV7SnNlM4zj2PBXOh8kwgHlLTFh8ARZPZgEMRHVsnC7opxH7eIEJysYK1Q==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "CAEdof9v": {
+      "filename": "daynight-sounds-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/K1baCB35/versions/CAEdof9v/daynight-sounds-1.0.0.jar",
+      "hash": "sha512-aKq6N4lKLaxDGxYBpg8kMlxGkLHMlBwNc66jQ+xk3UKD5nHFQ7DKe6uC7BUGzzGiaZo26FqUBE3kG6voOK+giQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "CAEdof9v"
+    ],
+    "1.21.2+fabric": [
+      "CAEdof9v"
+    ],
+    "1.21.3+fabric": [
+      "CAEdof9v"
+    ],
+    "1.21.4+fabric": [
+      "CAEdof9v"
+    ],
+    "1.21.5+fabric": [
+      "C7WoSaYG"
+    ],
+    "1.21.6+fabric": [
+      "C7WoSaYG"
+    ],
+    "1.21.7+fabric": [
+      "C7WoSaYG"
+    ],
+    "1.21.8+fabric": [
+      "C7WoSaYG"
+    ]
+  }
+}

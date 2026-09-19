@@ -1,0 +1,111 @@
+{
+  "slug": "create-sweets-and-treats",
+  "projectId": "FS7yzdnX",
+  "versions": {
+    "VmMoC1nN": {
+      "filename": "create_snt-2.0 NO-APPLE-SYRUP.jar",
+      "url": "https://cdn.modrinth.com/data/FS7yzdnX/versions/VmMoC1nN/create_snt-2.0%20NO-APPLE-SYRUP.jar",
+      "hash": "sha512-Dv4wL+h6jKBQyc29EU6jIfwF+Ud01XZiFBlUEYEKyJ1bHfTmOabHWN9DDoPZQCj+zDsgc4M36xjJ892A5A0FYA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "XnJHBvU7": {
+      "filename": "create_snt-2.0 WITH-APPLE-SYRUP.jar",
+      "url": "https://cdn.modrinth.com/data/FS7yzdnX/versions/XnJHBvU7/create_snt-2.0%20WITH-APPLE-SYRUP.jar",
+      "hash": "sha512-L3/8Nq8NH6ownDPZTCqH4bqelwu5jujzmri8Z/QetiZDFI/0rcPnh2j4dJ/XkglpqOtr3C6T4FucIq5FApS3nw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "jnXSgRQ8": {
+      "filename": "Create Sweets And Treats 1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/FS7yzdnX/versions/jnXSgRQ8/Create%20Sweets%20And%20Treats%201.1.1.jar",
+      "hash": "sha512-ycQ8mqerWeAgeMe1X/mDGfg0XzGvJz5yd64PlfGRuK5Rc2vC7NsFNuFx2XqLlWYKdwKEIxJejBgQ1rGaIm1uiA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "quqA6XES": {
+      "filename": "Create Sweets And Treats 1.1.jar",
+      "url": "https://cdn.modrinth.com/data/FS7yzdnX/versions/quqA6XES/Create%20Sweets%20And%20Treats%201.1.jar",
+      "hash": "sha512-kYolEcjgjOdUWb57aZAdeSXWhnOMvILmZUB0rS4oBiSKFkiEKyfSqzXX8mdSzwCPDXJHt4LGV407Ekuoz6Ya7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "tnu3rbmT": {
+      "filename": "Create Sweets And Treets Addon.jar",
+      "url": "https://cdn.modrinth.com/data/FS7yzdnX/versions/tnu3rbmT/Create%20Sweets%20And%20Treets%20Addon.jar",
+      "hash": "sha512-Xmqk2Q0XgmzdhWAq+3+APx0rZ2GXsGOfGMp9k1dXtxYfH5qydf5B56G8FiltPnB3A9vyXIhVwMUcIosSOHyKuQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "XnJHBvU7",
+      "VmMoC1nN"
+    ],
+    "1.20.1+forge": [
+      "jnXSgRQ8",
+      "quqA6XES",
+      "tnu3rbmT"
+    ]
+  }
+}

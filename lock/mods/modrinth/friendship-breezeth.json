@@ -1,0 +1,127 @@
+{
+  "slug": "friendship-breezeth",
+  "projectId": "Q2xxNCJT",
+  "versions": {
+    "Bd86vn4u": {
+      "filename": "friendship-1.0.4-neoforge1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Q2xxNCJT/versions/Bd86vn4u/friendship-1.0.4-neoforge1.21.1.jar",
+      "hash": "sha512-fBfWA5LevllGigGIlnrYs6l2rcqqwv68k2L8kQEVAWPy6TDTnwnbSgk8j8htNYjHRpwimy/uvl0RWR+5+2B3ug==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "G752S77D": {
+      "filename": "friendship-1.0.0b-neoforge1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Q2xxNCJT/versions/G752S77D/friendship-1.0.0b-neoforge1.21.1.jar",
+      "hash": "sha512-iJA+t7cnZSzPxSqDpLM3on+UQkulqfEZsRS7smRBh7UAnO+nklZxxf5e7AW7SqjXXlKtJx2a6wtf8/rQCqv+/A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "bJZwf9mg": {
+      "filename": "friendship-1.0.0b-fabric1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Q2xxNCJT/versions/bJZwf9mg/friendship-1.0.0b-fabric1.21.1.jar",
+      "hash": "sha512-DYslExN8dm/HwM8p5fAQFIp/wVlZzmkWrHsHyvjRLaci2IzV7+0w7ZRasXHE0mMSeTUTfMI2edDXuEZc96MGeQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "elr0Ay2d": {
+      "filename": "friendship-1.0.3-neoforge1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Q2xxNCJT/versions/elr0Ay2d/friendship-1.0.3-neoforge1.21.1.jar",
+      "hash": "sha512-iZfFoz3KdERCZPewGDeM5w4vRd15b4WZ7Qwi1/yC1YQgRnxBbBXPga0iA1alQ55Ya3km2fIQKteQhcCF8inMxQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "lm0SYDvn": {
+      "filename": "friendship-0.2.4.jar",
+      "url": "https://cdn.modrinth.com/data/Q2xxNCJT/versions/lm0SYDvn/friendship-0.2.4.jar",
+      "hash": "sha512-cQifANuPVVf3oVoKDm+dJO+JU6whPfDq6/3k/2gfurSzS713yYjdDIqGZELGP8F6KqErPud440SQn5CLqvzGXQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "bJZwf9mg",
+      "lm0SYDvn"
+    ],
+    "1.21.1+neoforge": [
+      "Bd86vn4u",
+      "elr0Ay2d",
+      "G752S77D"
+    ]
+  }
+}

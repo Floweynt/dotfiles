@@ -1,0 +1,106 @@
+{
+  "slug": "iron-smelters",
+  "projectId": "il2omh0z",
+  "versions": {
+    "5DFWQ4mk": {
+      "filename": "IronSmelters-neoforge-1.21.1-21.1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/il2omh0z/versions/5DFWQ4mk/IronSmelters-neoforge-1.21.1-21.1.0.3.jar",
+      "hash": "sha512-V9Hw0LUtyjOFxA05AO7VYW0IgJE/MXENjFvpd4HTyzSqSCwI7t28iv+BS+G83XFMj8tzbiUDoIBBihcXd8VHNw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "prickle",
+          "projectId": "aaRl8GiW",
+          "type": "required"
+        }
+      ]
+    },
+    "JWxwr9H1": {
+      "filename": "IronSmelters-fabric-1.21.1-21.1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/il2omh0z/versions/JWxwr9H1/IronSmelters-fabric-1.21.1-21.1.0.3.jar",
+      "hash": "sha512-c1jl0NwPFLL2hKStbuxZH4sJpJEfNvUWMIXBbs2roJygQIFS/vmcNyud4zEmo7bIRP6gXzAlyu72vFETCBpq4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "prickle",
+          "projectId": "aaRl8GiW",
+          "type": "required"
+        }
+      ]
+    },
+    "OTLRZe5a": {
+      "filename": "IronSmelters-neoforge-1.21.1-21.1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/il2omh0z/versions/OTLRZe5a/IronSmelters-neoforge-1.21.1-21.1.0.2.jar",
+      "hash": "sha512-70K9OqGBJyD3+0GNWIjo3grTZFkVwPTC63WWgBnHPW6Dx7+HTjKkNBgi31mxY/8WxzTYKSnExyjwqFyrUH+UBg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "prickle",
+          "projectId": "aaRl8GiW",
+          "type": "required"
+        }
+      ]
+    },
+    "t2Ioxobi": {
+      "filename": "IronSmelters-fabric-1.21.1-21.1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/il2omh0z/versions/t2Ioxobi/IronSmelters-fabric-1.21.1-21.1.0.2.jar",
+      "hash": "sha512-3A7l8r61KOzMTwdvk5WEHP3c2kDI/J+pGkIgTgGJfLLnYumwahi7Jsh2VYs2IYwVk2h3WAsOk5gYT/9Yf6ufqw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "prickle",
+          "projectId": "aaRl8GiW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "JWxwr9H1",
+      "t2Ioxobi"
+    ],
+    "1.21.1+neoforge": [
+      "5DFWQ4mk",
+      "OTLRZe5a"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "botarmy",
+  "projectId": "osqcEmiP",
+  "versions": {
+    "YFMRnUOg": {
+      "filename": "godeyearmy-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/osqcEmiP/versions/YFMRnUOg/godeyearmy-1.2.0.jar",
+      "hash": "sha512-UW0Os1Y8Vfr5Z+G8FpVw1oNiwlDnzzab0pIenGHt0O1aViXeRTewvrJHYtYDmkr9MeAYvLRDnF9MthwTzoO9uQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "YFMRnUOg"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "create-pizza",
+  "projectId": "F3Uy18CF",
+  "versions": {
+    "I1rYd5iN": {
+      "filename": "create_pizza-0.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/F3Uy18CF/versions/I1rYd5iN/create_pizza-0.1.0%2B1.20.1.jar",
+      "hash": "sha512-il0tSNEKJZBptWILBxdwV6+aZCM2S92myupHf/1jto8rWue+9mp16uqDUw8EFpkv5OQz8np6Nz8sKlFaKe3r8g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "RzchngsV": {
+      "filename": "create_pizza-0.1.1-patched2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/F3Uy18CF/versions/RzchngsV/create_pizza-0.1.1-patched2%2B1.20.1.jar",
+      "hash": "sha512-KdDArjBRUy/YFEAKGKxzo3oM0uQ9i4COD7mYSGE2fRtZj2c0UzAGSINuWsHpJkN3Fx77z8ak3fubb788hBgdmQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "RzchngsV",
+      "I1rYd5iN"
+    ],
+    "1.20.1+quilt": [
+      "RzchngsV",
+      "I1rYd5iN"
+    ]
+  }
+}

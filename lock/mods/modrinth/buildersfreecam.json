@@ -1,0 +1,36 @@
+{
+  "slug": "buildersfreecam",
+  "projectId": "47qRA7ni",
+  "versions": {
+    "vjA3lX5f": {
+      "filename": "buildersfreecam-fabric-1.4.1-alpha.1-SNAPSHOT+mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/47qRA7ni/versions/vjA3lX5f/buildersfreecam-fabric-1.4.1-alpha.1-SNAPSHOT%2Bmc26.2.jar",
+      "hash": "sha512-1FXxFo6DMcv1iKFpJtN6o6jNv7p2GmgYdQU3kBKMYHfw3pJgfPXDf+4QhrM7R7IZxGB66vc4fyBq3F2AnaXzAA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "vjA3lX5f"
+    ]
+  }
+}

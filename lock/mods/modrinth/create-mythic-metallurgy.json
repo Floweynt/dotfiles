@@ -1,0 +1,31 @@
+{
+  "slug": "create-mythic-metallurgy",
+  "projectId": "JwkwLmYM",
+  "versions": {
+    "x9RSjU9R": {
+      "filename": "mythic-metallurgy-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JwkwLmYM/versions/x9RSjU9R/mythic-metallurgy-1.0.0.jar",
+      "hash": "sha512-/cVVrYgFBh5tubVvQBOjf39Ymw6BKDd7z7TtGJ5KCZ14tKg9OeEP1vS7g9nXAbbPoBYAl2ZyvjjajGWxLb09Rw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mythicmetals",
+          "projectId": "bAWzYNRd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "x9RSjU9R"
+    ]
+  }
+}

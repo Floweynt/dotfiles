@@ -1,0 +1,74 @@
+{
+  "slug": "cobblemon-poke-stops",
+  "projectId": "HiwZaUgN",
+  "versions": {
+    "61rZNyhD": {
+      "filename": "cobblemon_poke_stops-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HiwZaUgN/versions/61rZNyhD/cobblemon_poke_stops-fabric-1.0.0.jar",
+      "hash": "sha512-jtktB+7mJMEKDf2Dj8oB4MktrymxpD6E02j/oNMFJmXpGeeZkQIYP97fCCfl9peSIejnFVsAsjYfmcWghVibNA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemore-library",
+          "projectId": "VYP2vmDS",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "wqu6aaC0": {
+      "filename": "cobblemon_poke_stops-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/HiwZaUgN/versions/wqu6aaC0/cobblemon_poke_stops-neoforge-1.0.0.jar",
+      "hash": "sha512-bNGrVjm/Cz+NMbKDyG9H7Y80UTCh7bIYk2aZZwO+OaE906BczLdJuVfizQrX8Mjyj+UlSl4SweKD3GqQiaVUgg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemore-library",
+          "projectId": "VYP2vmDS",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "61rZNyhD"
+    ],
+    "1.21.1+neoforge": [
+      "wqu6aaC0"
+    ]
+  }
+}

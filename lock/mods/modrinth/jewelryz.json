@@ -1,0 +1,90 @@
+{
+  "slug": "jewelryz",
+  "projectId": "vpSS695E",
+  "versions": {
+    "cuD9kkhb": {
+      "filename": "jewelryz_1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vpSS695E/versions/cuD9kkhb/jewelryz_1.0.jar",
+      "hash": "sha512-geRjghmxLRTNh+LApLptCEp/TUtzplOaQ5ySn2VOi40OeBTvtvvLCMkLc2vauy9scDH0y/+vX5ojY+qOsbdS0g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "guPPPtPD": {
+      "filename": "lvlz_jewelry-1.21.1-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/vpSS695E/versions/guPPPtPD/lvlz_jewelry-1.21.1-1.1.jar",
+      "hash": "sha512-/UXtNMfadgkZ9bCgP/OMSMzyXqv2gcbtNkqs3eJNDpbWSSs86xW8RZpP1nRcnKdwiihqnO9/9fJDJs/HobIM4Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        }
+      ]
+    },
+    "mMiOOsgP": {
+      "filename": "lvlz_jewelry-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/vpSS695E/versions/mMiOOsgP/lvlz_jewelry-2.0.jar",
+      "hash": "sha512-2LoQNg6/JfvcKxxb3TBQ7GmhvlsW1qWtsQxjzRUhKomEJZVDysnmVBaaOIthITvdfpkAVu1JVy+Ne4XVKqRUFw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "jewelry",
+          "projectId": "sNJAIjUm",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "cuD9kkhb"
+    ],
+    "1.21.1+fabric": [
+      "guPPPtPD",
+      "mMiOOsgP"
+    ]
+  }
+}

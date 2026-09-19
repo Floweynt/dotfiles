@@ -1,0 +1,53 @@
+{
+  "slug": "vr-getting-over-it",
+  "projectId": "tBDbZkTu",
+  "versions": {
+    "vWOcZhgS": {
+      "filename": "vrgettingoverit-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/tBDbZkTu/versions/vWOcZhgS/vrgettingoverit-1.0.2.jar",
+      "hash": "sha512-vnoCGivhyZ1zw8+pkP9INJ1FjvbcL9nSgjPIbnuPYrr0kBWa/QgX06JzJUnH6MrRDM1g7nE008V1CRSrZlsdhg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mc-vr-api",
+          "projectId": "B3INNxum",
+          "type": "required"
+        },
+        {
+          "slug": "vivecraft",
+          "projectId": "wGoQDPN5",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "vWOcZhgS"
+    ],
+    "1.20.2+fabric": [
+      "vWOcZhgS"
+    ],
+    "1.20.3+fabric": [
+      "vWOcZhgS"
+    ],
+    "1.20.4+fabric": [
+      "vWOcZhgS"
+    ]
+  }
+}

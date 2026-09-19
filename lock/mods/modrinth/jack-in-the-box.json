@@ -1,0 +1,62 @@
+{
+  "slug": "jack-in-the-box",
+  "projectId": "wOJqgaNV",
+  "versions": {
+    "NFWxnolc": {
+      "filename": "jack-in-the-box-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wOJqgaNV/versions/NFWxnolc/jack-in-the-box-1.0.jar",
+      "hash": "sha512-1AnpyRj5mkLHybcMIMRnzq0QmVwH6dkoXzKJ5IWoFKI474N9LEpgbVp2lNbpbZMFNTDT0+pfk0UfaTh8ILy7Ug==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "S4JebXpM": {
+      "filename": "jack-in-the-box-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/wOJqgaNV/versions/S4JebXpM/jack-in-the-box-1.1.jar",
+      "hash": "sha512-xL3W7rZWj+i0S5R7YFciEVJDc5cdjlcG0Gr4JMhTyqMY/cDjZt6bEMCd9PgSfpncrKHv0PpvdDGUaaSJ2qT67w==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "S4JebXpM",
+      "NFWxnolc"
+    ]
+  }
+}

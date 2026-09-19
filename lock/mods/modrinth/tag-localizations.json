@@ -1,0 +1,103 @@
+{
+  "slug": "tag-localizations",
+  "projectId": "dJZCkoBx",
+  "versions": {
+    "NWLv7nUx": {
+      "filename": "tagfixes-1.0.3-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dJZCkoBx/versions/NWLv7nUx/tagfixes-1.0.3-forge-1.20.1.jar",
+      "hash": "sha512-OitMoYMXWNCJOh2/N+CTXSZc6EGaBxjE+SL0xVykJ4I1mcwxkzspds2n69s4gJT8vKULFymwuly8ikU10aKnOQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "PXG09hIV": {
+      "filename": "taglocalizations-1.0.5-universal-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dJZCkoBx/versions/PXG09hIV/taglocalizations-1.0.5-universal-1.20.1.jar",
+      "hash": "sha512-WK5QjLUUqm/Aj5faGNfFxKj2V3GPMRltfEnFy55n3XO1sWwp6UZe1s8hklKK1TjxMsSCLRe8ie96oVv8d1eSkQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VHvqZcHm": {
+      "filename": "taglocalizations-1.0.6-universal-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dJZCkoBx/versions/VHvqZcHm/taglocalizations-1.0.6-universal-1.21.1.jar",
+      "hash": "sha512-n+kNn9hj5gevqpYWixkVMfrsPhDKfz2CvU6k104QSL1Uoyst+Rv6du0FFb6jwzGF7JcOYuw93Iv9pfd4qvpsPw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "lmft",
+          "projectId": "67kVxsaO",
+          "type": "required"
+        }
+      ]
+    },
+    "euFVljmz": {
+      "filename": "tagfixes-1.21.1-1.0.3-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/dJZCkoBx/versions/euFVljmz/tagfixes-1.21.1-1.0.3-neoforge.jar",
+      "hash": "sha512-PcjFsWr/J1SkxJBFYFFavTzR9mTEMVKqqqyKxNkBGqxsd1NAgxFwJn6iyXK0KO8mqOelOshwv2hNdBzE019zsw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "yEkjKK6Y": {
+      "filename": "taglocalizations-1.0.6-universal-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dJZCkoBx/versions/yEkjKK6Y/taglocalizations-1.0.6-universal-1.20.1.jar",
+      "hash": "sha512-GvdGTPpSGveYqGeRIsSp6AmTZH4jF5REytjedVoq9909gfnoE+i/XzFQbfvKFKlYXGLtJzYO21BSpske5YCbgA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yEkjKK6Y",
+      "PXG09hIV"
+    ],
+    "1.20.1+forge": [
+      "yEkjKK6Y",
+      "PXG09hIV",
+      "NWLv7nUx"
+    ],
+    "1.21.1+fabric": [
+      "VHvqZcHm"
+    ],
+    "1.21.1+neoforge": [
+      "VHvqZcHm",
+      "euFVljmz"
+    ]
+  }
+}

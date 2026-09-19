@@ -1,0 +1,54 @@
+{
+  "slug": "enchant-tooltips",
+  "projectId": "uZGu7slq",
+  "versions": {
+    "8UuWsPBV": {
+      "filename": "enchant-tooltips-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uZGu7slq/versions/8UuWsPBV/enchant-tooltips-1.0.0.jar",
+      "hash": "sha512-QMZ26rWrk76rvkYk4cKKNj3SzCmdBlAVMFJEXjwZhhGrJz2qxmUwjKCcXBNc9doH6wTytYuFJggi/TFgtzShog==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "LG18ZrUE": {
+      "filename": "enchant-tooltips-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/uZGu7slq/versions/LG18ZrUE/enchant-tooltips-1.0.1.jar",
+      "hash": "sha512-1p1mURDyYksRqp4GE3Ze8YzB/TDFfp45260Mo/6t+JY2cSysbOH+Z0xc56qxz8tiSFdMM1pqSBuzGeKhNl5N3w==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "8UuWsPBV"
+    ],
+    "1.21+fabric": [
+      "LG18ZrUE"
+    ]
+  }
+}

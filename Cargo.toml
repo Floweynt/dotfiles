@@ -1,0 +1,29 @@
+[package]
+name = "minecraft"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "minecraft"
+path = "src/lib.rs"
+
+[dependencies]
+anyhow = "1"
+minecraft-msa-auth = "0.4"
+base64 = "0.22"
+clap = { version = "4", features = ["derive"] }
+hex = "0.4"
+indicatif = "0.17"
+sha1 = "0.10"
+reqwest = { version = "0.12", default-features = false, features = ["rustls-tls", "http2", "json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time", "sync"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+regex = "1.13.1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1

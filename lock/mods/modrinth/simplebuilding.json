@@ -1,0 +1,82 @@
+{
+  "slug": "simplebuilding",
+  "projectId": "oOJVKQwZ",
+  "versions": {
+    "6Vy2xXG3": {
+      "filename": "simplebuilding-1.2.52.jar",
+      "url": "https://cdn.modrinth.com/data/oOJVKQwZ/versions/6Vy2xXG3/simplebuilding-1.2.52.jar",
+      "hash": "sha512-um82HDPUfUe7TRWJpt0/t4V/FDuuZj1f++TNtiFnnE9saui+4HhQg819FUEoYAng/FGj1OQDgna5Z0HC0fiRdg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "WE70bXzl": {
+      "filename": "simplebuilding-1.2.50.jar",
+      "url": "https://cdn.modrinth.com/data/oOJVKQwZ/versions/WE70bXzl/simplebuilding-1.2.50.jar",
+      "hash": "sha512-G2At60kS/av7jSCZxoBGQv7xYypK7C2K5/ksIuDmCeffgSbc89GtSJh7aDdrPPVawr2TeCsKr+iXfGU6chP+0A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "vnWrdzQx": {
+      "filename": "simplebuilding-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/oOJVKQwZ/versions/vnWrdzQx/simplebuilding-1.3.jar",
+      "hash": "sha512-9GiwHDiOUgaX7F4xDEmlOslCj2ku9S3NBbbsFIVUNrlNuigRpFspjMIZNCGZwYH9JjVJ6AVpaTNg69k1+vAcsQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "vnWrdzQx"
+    ],
+    "1.21.11+fabric": [
+      "vnWrdzQx",
+      "6Vy2xXG3",
+      "WE70bXzl"
+    ]
+  }
+}

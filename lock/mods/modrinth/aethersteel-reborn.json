@@ -1,0 +1,36 @@
+{
+  "slug": "aethersteel-reborn",
+  "projectId": "1c056gQF",
+  "versions": {
+    "XYpEVODb": {
+      "filename": "aethersteel-reborn-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1c056gQF/versions/XYpEVODb/aethersteel-reborn-1.0.0.jar",
+      "hash": "sha512-uhEZONKKcuSfXl2wpx4u2YMWkjq7KZDy9j7nx+PofG5PpKjR6FIvOLylJe3QyC9OWkWetKciwAawdeVgbFxFpw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "paradise-lost",
+          "projectId": "IKpsG0nF",
+          "type": "required"
+        },
+        {
+          "slug": "endgame-reborn",
+          "projectId": "B0Fm7Yqw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "XYpEVODb"
+    ]
+  }
+}

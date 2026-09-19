@@ -1,0 +1,58 @@
+{
+  "slug": "bbs-light-form",
+  "projectId": "sqtySy3i",
+  "versions": {
+    "3SJ5ClYA": {
+      "filename": "bbs-mclights-addon-1.0-preview.jar",
+      "url": "https://cdn.modrinth.com/data/sqtySy3i/versions/3SJ5ClYA/bbs-mclights-addon-1.0-preview.jar",
+      "hash": "sha512-PKEDOwSI6R/Nt4R/A15mLSZNLE324UDXADVrRDZZMiKRg/2dNy/50IkyzNTx5OtDrqnFh1FXHLSjeLwbyTTBzA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bbs-mod",
+          "projectId": "HNsMvuaQ",
+          "type": "required"
+        }
+      ]
+    },
+    "EC6507C2": {
+      "filename": "bbs-mclights-addon-1.0-rc2.jar",
+      "url": "https://cdn.modrinth.com/data/sqtySy3i/versions/EC6507C2/bbs-mclights-addon-1.0-rc2.jar",
+      "hash": "sha512-uUZ38Bj3mfn/Ai+krT2Q0NtM0PxrSItgg0uCM0MPGJO1rfg134Y0XVfgJiA5lj7Q4LVAc1gGFKaq1MNpDV1rNA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bbs-mod",
+          "projectId": "HNsMvuaQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "EC6507C2",
+      "3SJ5ClYA"
+    ],
+    "1.20.4+fabric": [
+      "EC6507C2",
+      "3SJ5ClYA"
+    ]
+  }
+}

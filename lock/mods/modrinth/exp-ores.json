@@ -1,0 +1,103 @@
+{
+  "slug": "exp-ores",
+  "projectId": "a8H99agr",
+  "versions": {
+    "THOIz766": {
+      "filename": "expores-1.0.0+mc1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/a8H99agr/versions/THOIz766/expores-1.0.0%2Bmc1.20.4.jar",
+      "hash": "sha512-rzjPLLKlgGpAXbkXNJKxsvibpwKZDwXAqg6mxidsgXU2kDys+tSDCSpQ03Yvm4MpmQ2B/IXtCJH3g+8/tZiSvA==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YoqvMpEq": {
+      "filename": "expores-1.0.0+mc1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/a8H99agr/versions/YoqvMpEq/expores-1.0.0%2Bmc1.20.2.jar",
+      "hash": "sha512-yQhKHnC5ZGkFgr6aCavIFn1JaibOQLqvk/DQRlxd3pYO4iPuthgKvUq8Vvk5ZC7A2kklno+AbntTiRQaQxKlvQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eYO04MhB": {
+      "filename": "expores-1.0.0+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/a8H99agr/versions/eYO04MhB/expores-1.0.0%2Bmc1.20.1.jar",
+      "hash": "sha512-pdaB5OPQEtGoPAoSiairjJnknceq7SylBCdvi3tyluc+yK/gLpPhvo6kie+pX7jrICq58g6bv4+15ZEKNk5O2g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "eYO04MhB"
+    ],
+    "1.20+quilt": [
+      "eYO04MhB"
+    ],
+    "1.20.1+fabric": [
+      "eYO04MhB"
+    ],
+    "1.20.1+quilt": [
+      "eYO04MhB"
+    ],
+    "1.20.2+fabric": [
+      "YoqvMpEq"
+    ],
+    "1.20.2+quilt": [
+      "YoqvMpEq"
+    ],
+    "1.20.3+fabric": [
+      "THOIz766"
+    ],
+    "1.20.3+quilt": [
+      "THOIz766"
+    ],
+    "1.20.4+fabric": [
+      "THOIz766"
+    ],
+    "1.20.4+quilt": [
+      "THOIz766"
+    ]
+  }
+}

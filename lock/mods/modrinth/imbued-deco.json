@@ -1,0 +1,172 @@
+{
+  "slug": "imbued-deco",
+  "projectId": "JXpse07v",
+  "versions": {
+    "MQ3tJ0Sd": {
+      "filename": "imbued_deco-0.1.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JXpse07v/versions/MQ3tJ0Sd/imbued_deco-0.1.1%2B1.20.1.jar",
+      "hash": "sha512-2CFJJmpKwgwsKdtuwb+U2omM6sWH1kkh2jz4MfgTTIUZAWTNj5WLBExe3TWlO3negcHRpARePZEHvFqCSgtLcw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "amethyst-imbuement",
+          "projectId": "fThucCjR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-core",
+          "projectId": "LJ5wlCDr",
+          "type": "required"
+        }
+      ]
+    },
+    "QrN0n0sG": {
+      "filename": "imbued_deco-0.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JXpse07v/versions/QrN0n0sG/imbued_deco-0.1.0%2B1.20.1.jar",
+      "hash": "sha512-9Y7xQ2tJkBy9H2u+a/nlO1RdT8/24aAvmvTKH5QSJ0Iy6JU8l+2rOmQb/VJ3aMcJQ/8IhGdCWd2iamn116kpyQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "amethyst-imbuement",
+          "projectId": "fThucCjR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-core",
+          "projectId": "LJ5wlCDr",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RgkMwgzL": {
+      "filename": "imbued_deco-0.1.3+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JXpse07v/versions/RgkMwgzL/imbued_deco-0.1.3%2B1.20.1.jar",
+      "hash": "sha512-j+NykmDS5hyOhJPuOSeSwgd/gIe7fx1S19EtoKXv0g3hfBGt56mBya3mjBOHjLoWlGrkc5F0UiAYRodcm0Tnhw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "amethyst-imbuement",
+          "projectId": "fThucCjR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-core",
+          "projectId": "LJ5wlCDr",
+          "type": "required"
+        }
+      ]
+    },
+    "scGhLeTz": {
+      "filename": "imbued_deco-0.1.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/JXpse07v/versions/scGhLeTz/imbued_deco-0.1.2%2B1.20.1.jar",
+      "hash": "sha512-FFm1kctlaQGOYGBb4sCdIm/ZX4aUnRqN0Xw282eiRlQZph9MPL2YhJGk0jFnkIEAgRao/qIHVumQgdFxSNsgRA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-core",
+          "projectId": "LJ5wlCDr",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "amethyst-imbuement",
+          "projectId": "fThucCjR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "MQ3tJ0Sd",
+      "QrN0n0sG"
+    ],
+    "1.20+quilt": [
+      "MQ3tJ0Sd",
+      "QrN0n0sG"
+    ],
+    "1.20.1+fabric": [
+      "RgkMwgzL",
+      "scGhLeTz",
+      "MQ3tJ0Sd",
+      "QrN0n0sG"
+    ],
+    "1.20.1+quilt": [
+      "scGhLeTz",
+      "MQ3tJ0Sd",
+      "QrN0n0sG"
+    ]
+  }
+}

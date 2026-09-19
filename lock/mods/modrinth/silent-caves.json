@@ -1,0 +1,48 @@
+{
+  "slug": "silent-caves",
+  "projectId": "44uCzPEr",
+  "versions": {
+    "UpFahPmY": {
+      "filename": "evil_stone_golem-merged-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/44uCzPEr/versions/UpFahPmY/evil_stone_golem-merged-1.21.1-1.0.0.jar",
+      "hash": "sha512-QPdidTId8ZoaSx84g+BBN4JHBVAkQ66mnozyxYGIq8v+8eR97I+58cWCMrs4DrdLv7uN7rZ7vpU/ytedIhH7Bg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "k9mv6Vx9": {
+      "filename": "silent_caves-neoforge-1.21.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/44uCzPEr/versions/k9mv6Vx9/silent_caves-neoforge-1.21.1-1.1.0.jar",
+      "hash": "sha512-XTWrd9ymNlajDYEbwLPMl5n3fhZeJEiAqrKu6XM2Enove6k1F3WslekK1KWQ8J2REBN+tm+F4LSct1MPtno6Sg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+neoforge": [
+      "k9mv6Vx9"
+    ],
+    "1.21.1+fabric": [
+      "UpFahPmY"
+    ],
+    "1.21.1+neoforge": [
+      "k9mv6Vx9",
+      "UpFahPmY"
+    ]
+  }
+}

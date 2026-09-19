@@ -1,0 +1,65 @@
+{
+  "slug": "running-skeleton-jumpscare",
+  "projectId": "8Buo90Nk",
+  "versions": {
+    "OvpPSSCw": {
+      "filename": "running_skeleton_jumpscare-2.2-neoforge-26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/8Buo90Nk/versions/OvpPSSCw/running_skeleton_jumpscare-2.2-neoforge-26.1.2.jar",
+      "hash": "sha512-E+vuDpC56lHXDEFM8r9j/Bx4G8i5aA8sh51E2M0l7M1or30WS3ToPd24SSnVg/l1P6bqoSJXEHTLh8yHSSYAZQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "su1EIpyV": {
+      "filename": "1_in_5000_chance_for_running_skeleton_1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8Buo90Nk/versions/su1EIpyV/1_in_5000_chance_for_running_skeleton_1.21.1.jar",
+      "hash": "sha512-6yP+vlLAoBgR07tdSBInixnus7u/a6qbkT3zlR4rJyyyPGteq0xsrt6ahy/rsx5uGo7XTP/jEPTWlwLdLgFWKQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ycIa3Ow3": {
+      "filename": "running_skeleton_jumpscare-2.3-fabric-26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/8Buo90Nk/versions/ycIa3Ow3/running_skeleton_jumpscare-2.3-fabric-26.1.2.jar",
+      "hash": "sha512-YMCTeonyNTPAY8Wx9xcITxDC9XPaSWQZ5Gk8uu1r7CkMz6WKz9p7a27aWKD1MANCJzW+oh+CNEbzjx7y6RkeIA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+neoforge": [
+      "su1EIpyV"
+    ],
+    "26.1.2+fabric": [
+      "ycIa3Ow3"
+    ],
+    "26.1.2+neoforge": [
+      "OvpPSSCw"
+    ]
+  }
+}

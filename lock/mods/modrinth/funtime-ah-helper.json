@@ -1,0 +1,83 @@
+{
+  "slug": "funtime-ah-helper",
+  "projectId": "vlUsQPHM",
+  "versions": {
+    "VgelrWZV": {
+      "filename": "auction-cheapest-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vlUsQPHM/versions/VgelrWZV/auction-cheapest-1.1.0.jar",
+      "hash": "sha512-qma+wopzPLt91NbJqYSyCr9KhUGbNRDFvrjk8NAxm8CMqMKnjmrRe0D9ZJgcnCnI9ofKwNN/HUKZS0rPm8UMiA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nXjmpzEN": {
+      "filename": "auction-cheapest-1.5.5.jar",
+      "url": "https://cdn.modrinth.com/data/vlUsQPHM/versions/nXjmpzEN/auction-cheapest-1.5.5.jar",
+      "hash": "sha512-nYUAKlsEjRg9v6DjAX8+TujCcbh9kXn9J86asIH6lLNiEIpqAOXNrgNvYwgstc2VjYZrNBnQ/AtV9EEVngM2rg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "tY72pmDl": {
+      "filename": "auction-cheapest-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vlUsQPHM/versions/tY72pmDl/auction-cheapest-1.0.0.jar",
+      "hash": "sha512-viCKgVvbukm7HYC/Elm1HdTpI+0DnOGFk7I6lGbN/lHZRI9D5UhWUKyxvjuHYKLMPH7KnQ2GO34/ps2oKqaywA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tgVVDuRW": {
+      "filename": "auction-cheapest-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vlUsQPHM/versions/tgVVDuRW/auction-cheapest-1.1.0.jar",
+      "hash": "sha512-MjHivsS30bi23/TuNuXGLK2ZiXF+qgfwas8TpGMC9/7EGADOo1/nQuEkAnEH79ijxkC4BmEwt0Z/vorQQdxbBw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "nXjmpzEN",
+      "tgVVDuRW"
+    ],
+    "1.21.4+fabric": [
+      "VgelrWZV",
+      "tY72pmDl"
+    ]
+  }
+}

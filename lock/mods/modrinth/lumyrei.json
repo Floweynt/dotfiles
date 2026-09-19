@@ -1,0 +1,98 @@
+{
+  "slug": "lumyrei",
+  "projectId": "FVADf9wU",
+  "versions": {
+    "7DzWORhV": {
+      "filename": "LumyREI-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/FVADf9wU/versions/7DzWORhV/LumyREI-1.0.jar",
+      "hash": "sha512-eI8GzxYb2W3jVjWd0xJC1MME7pZhXo/b3XN+IzfIMSDIbi+seYEMtWWBauU0PltgxICsgEyfvLmF8BEFJgNJFw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ClE7Zrf2": {
+      "filename": "LumyREI-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/FVADf9wU/versions/ClE7Zrf2/LumyREI-1.1.2.jar",
+      "hash": "sha512-6UbNQqxpdC6pOljrUZCHqhv6lQEllYjVh3YT7aA+fhgye6ngur0eflOhkr8K+HmOcxuJVpYnnDsjMegiDYDMQw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "rei",
+          "projectId": "nfn13YXA",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PnYguaC2": {
+      "filename": "LumyREI-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/FVADf9wU/versions/PnYguaC2/LumyREI-1.1.3.jar",
+      "hash": "sha512-ZDP/46N+YGkr8tAgCbIC4xew+gii90PQ/xWrrkBUfru4UQ67ZnZC1B/BG4u8B7Ea0uagic8tBGqh51xvWGiYcw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "rei",
+          "projectId": "nfn13YXA",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "PnYguaC2",
+      "ClE7Zrf2",
+      "7DzWORhV"
+    ]
+  }
+}

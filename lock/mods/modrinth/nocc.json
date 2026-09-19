@@ -1,0 +1,148 @@
+{
+  "slug": "nocc",
+  "projectId": "cygPPnN1",
+  "versions": {
+    "7Kvz60Ss": {
+      "filename": "NoCC-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/cygPPnN1/versions/7Kvz60Ss/NoCC-1.0-SNAPSHOT.jar",
+      "hash": "sha512-gqqSGEp8mU8TDyRHuaMcGzfA7nryzSV+8B1rJ3jg+yWpk/1o95PPfp8L8BXB1LQ3vajLHUjRiXXsOITrvBlZSA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "A4qd4OeA": {
+      "filename": "NoCC-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cygPPnN1/versions/A4qd4OeA/NoCC-1.1.0.jar",
+      "hash": "sha512-pO/0gqdVcQPXBkprHE2Vr1GeZvZSETHZxqZxvGUNARmqZaL4Q5D8Fu8njS9ji/98bncyDtSZWSDdnrb0Po99aA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YH9puNVX": {
+      "filename": "NoCC-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/cygPPnN1/versions/YH9puNVX/NoCC-1.3.0.jar",
+      "hash": "sha512-5NSz2ZYXMAHZ+Oc+1ONKpbqHvFVSlnb80xzS8lW2T8qb1jNmWJZ5DYblHdgBzq8R2RxAVvMYT2+QFcn/68kc1g==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fKeisY64": {
+      "filename": "NoCC-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/cygPPnN1/versions/fKeisY64/NoCC-1.2.0.jar",
+      "hash": "sha512-V9hGXS4wLadFpbv8qYrPLVabXcMZ8Vj1InPiD9Y7n1ekMouf640N+H+SUik49fEyikYktqdeeCXltyGQ6okavQ==",
+      "gameVersions": [
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hAtoGuKE": {
+      "filename": "NoCC-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/cygPPnN1/versions/hAtoGuKE/NoCC-1.3.1.jar",
+      "hash": "sha512-KCFPLRdb5NgoOekSnvxoVndSyMs+JhFhoSL90Gq5LLT6F4f+tDhg9UX32h5mcsAHTzQ91QJaJp8c0671bDiN7g==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qRcYKvf4": {
+      "filename": "NoCC-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cygPPnN1/versions/qRcYKvf4/NoCC-1.0.0.jar",
+      "hash": "sha512-+X4vc77Hmlwqac/hYkeEZPSEgp2jCKxdg65AikvFtSrQztS8Ce00gZgwIG87YtY8z7IKpg3H52rV1dH+Y9pRmg==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "qRcYKvf4"
+    ],
+    "1.21.11+fabric": [
+      "A4qd4OeA"
+    ],
+    "1.21.8+fabric": [
+      "qRcYKvf4",
+      "7Kvz60Ss"
+    ],
+    "1.21.9+fabric": [
+      "qRcYKvf4"
+    ],
+    "26.1.1+fabric": [
+      "fKeisY64"
+    ],
+    "26.1.2+fabric": [
+      "fKeisY64"
+    ],
+    "26.2+fabric": [
+      "hAtoGuKE",
+      "YH9puNVX"
+    ]
+  }
+}

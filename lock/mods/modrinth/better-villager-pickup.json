@@ -1,0 +1,31 @@
+{
+  "slug": "better-villager-pickup",
+  "projectId": "OV9kFSuq",
+  "versions": {
+    "ncqqNGHd": {
+      "filename": "villagerpickup-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/OV9kFSuq/versions/ncqqNGHd/villagerpickup-1.1.0.jar",
+      "hash": "sha512-OWYWO+vCWOn4SGSUvtIh5XW68dmwsQ3embkCfb6VZjEiFrC7Jh/9SIyrhnxBr1qCvr1bHQym9cf9NE5767aMkA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "ncqqNGHd"
+    ]
+  }
+}

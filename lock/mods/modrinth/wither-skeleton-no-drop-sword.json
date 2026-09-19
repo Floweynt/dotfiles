@@ -1,0 +1,65 @@
+{
+  "slug": "wither-skeleton-no-drop-sword",
+  "projectId": "cVeczv70",
+  "versions": {
+    "3kHjNUVY": {
+      "filename": "witherskeletonnds-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cVeczv70/versions/3kHjNUVY/witherskeletonnds-0.1.0.jar",
+      "hash": "sha512-AQfQSf45N6oAtnICtvcv4GypJtbQ5TIuGAAY/i3QOshGo+QZ3uxZmd7o1g/gLOk7v78YySKENNETWPYhK8f+WQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "m4qTgQ1B": {
+      "filename": "witherskeletonnds-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/cVeczv70/versions/m4qTgQ1B/witherskeletonnds-0.1.1.jar",
+      "hash": "sha512-XALW6qn8xT2CGLzzj6g/Al0lZDuEuh41bCv/lwCcXjN5Z/RGhfJS19ztr4iqWIsWFC4DPx+Q9UOE+hu9NoNDNA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "3kHjNUVY"
+    ],
+    "1.20.1+forge": [
+      "3kHjNUVY"
+    ],
+    "1.20.2+fabric": [
+      "3kHjNUVY"
+    ],
+    "1.20.2+forge": [
+      "3kHjNUVY"
+    ],
+    "1.21+fabric": [
+      "m4qTgQ1B"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "ez-healing",
+  "projectId": "UtlYOhGJ",
+  "versions": {
+    "N2UYl0v2": {
+      "filename": "1.20.2-ez-healing-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/UtlYOhGJ/versions/N2UYl0v2/1.20.2-ez-healing-1.0.2.jar",
+      "hash": "sha512-VnYFswAdfc5IphEWVCe41xqftmDlUtATICEpz7DgFTpsrdM1mOzSMuN552YzBhAR+8mWKMwbtlwpa0Hs+SHSQw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pXAf8kHg": {
+      "filename": "1.19.3-ez-healing-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/UtlYOhGJ/versions/pXAf8kHg/1.19.3-ez-healing-1.0.2.jar",
+      "hash": "sha512-/mp+nNPllipYw66kn3gwnvBSsVYKCJkfl3ueakzeCFU8rkePsFV9X6cfNW7y50r+sqw8aymmHubwZcQInpOTgg==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "pXAf8kHg"
+    ],
+    "1.19.4+fabric": [
+      "pXAf8kHg"
+    ],
+    "1.20+fabric": [
+      "N2UYl0v2"
+    ],
+    "1.20.1+fabric": [
+      "N2UYl0v2"
+    ],
+    "1.20.2+fabric": [
+      "N2UYl0v2"
+    ]
+  }
+}

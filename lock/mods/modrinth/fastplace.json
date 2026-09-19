@@ -1,0 +1,128 @@
+{
+  "slug": "fastplace",
+  "projectId": "e6zs4vcE",
+  "versions": {
+    "9J7d26N0": {
+      "filename": "fastplace-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/e6zs4vcE/versions/9J7d26N0/fastplace-1.1.0.jar",
+      "hash": "sha512-csOtAYvJRycsRXTXMQVU/F7T1JnWiuFisRNmUllEXXLOy2TcYM3mKwNCYJlWDA4Mj4Leu7iJIloA1U9ntjlcUQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "IrBqIbwL": {
+      "filename": "fastplace-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/e6zs4vcE/versions/IrBqIbwL/fastplace-1.0.0.jar",
+      "hash": "sha512-zi+MsPrYgvVuDxaakCSCIvkZxrEz5W1gsMZC7w6OCimAvcevMsDXLiWyKiEPibangAGeR3aJ+FfaMKwecLdUuA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "JQLAply9": {
+      "filename": "FastPlaceExtrasRemake-3.0.0-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/e6zs4vcE/versions/JQLAply9/FastPlaceExtrasRemake-3.0.0-1.21.4.jar",
+      "hash": "sha512-8Tv1Ln+wywYUDr/9JsqsUTRLLQasPnx3mvGN5jwcIMo/pdWpvGimFfFr7xoBx1g5XMF8PuCfyl5M6TRvMsKu2A==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "TxmbHs2K": {
+      "filename": "FastPlaceExtras-2.1.1-Extras.jar",
+      "url": "https://cdn.modrinth.com/data/e6zs4vcE/versions/TxmbHs2K/FastPlaceExtras-2.1.1-Extras.jar",
+      "hash": "sha512-FG4umW1aZo6OruIublVPkseefdbYrWnbcvyeocubN26a66Sjl1NUJkZVyVlfHc/yp+IZc2E9A8qDenDPSMeRdA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "aHPIZw6V": {
+      "filename": "FastPlaceExtras-2.1.2-Extras-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/e6zs4vcE/versions/aHPIZw6V/FastPlaceExtras-2.1.2-Extras-1.21.1.jar",
+      "hash": "sha512-V0CrXqj+oYsOMN/VWcjOH+8vU7SzdsdnP5kGXn2yGnXu/ka2YrGDtSjDKV16CfCAelJUXNX824R3K49pax+dKw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "dRMysX4H": {
+      "filename": "FastPlaceExtras-2.1.2-Extras-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/e6zs4vcE/versions/dRMysX4H/FastPlaceExtras-2.1.2-Extras-1.21.11.jar",
+      "hash": "sha512-t1DfjTPEBgUt8/66Aoyaxioxq88UdfBcFvoKayXMIr9HDiANjz3eHXa/hSZ3kHxnXVfsKQVYdZOi07q+s2vaRw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IrBqIbwL"
+    ],
+    "1.21.1+fabric": [
+      "aHPIZw6V",
+      "9J7d26N0"
+    ],
+    "1.21.11+fabric": [
+      "dRMysX4H"
+    ],
+    "1.21.4+fabric": [
+      "JQLAply9",
+      "TxmbHs2K"
+    ]
+  }
+}

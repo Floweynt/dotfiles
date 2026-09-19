@@ -1,0 +1,31 @@
+{
+  "slug": "cobblemon-battle-logger",
+  "projectId": "hpf08xql",
+  "versions": {
+    "BhrTxOoV": {
+      "filename": "dystoria-logger-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hpf08xql/versions/BhrTxOoV/dystoria-logger-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-5pE/4/IAhdYkLubUxmsdaoCiOvVBibm/cUgrmurS79nkdMAUi95BqTNA+qvIN5JycCEQGNNKkK/M9dlB/NGPXw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "BhrTxOoV"
+    ]
+  }
+}

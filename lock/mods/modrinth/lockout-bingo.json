@@ -1,0 +1,103 @@
+{
+  "slug": "lockout-bingo",
+  "projectId": "G3kZ4E8g",
+  "versions": {
+    "PDOPPer0": {
+      "filename": "lockoutbingo-fabric-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/G3kZ4E8g/versions/PDOPPer0/lockoutbingo-fabric-3.0.1.jar",
+      "hash": "sha512-m18PalXqUd5rH2ZTDJvziS6rFUW3ymybKRmA937OVxh+cZFJ3YJC98dt9gcRci/rpmGRfZ+4B6LpqtZXfD++rw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TqghBYWo": {
+      "filename": "lockoutbingo-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/G3kZ4E8g/versions/TqghBYWo/lockoutbingo-3.0.jar",
+      "hash": "sha512-+Q7hUjuJil2PzroAmnVvOoBIyKvyQtE4NJhWhzU4gAx8cNUTQEH48tnoYTXtKUccp1vActibEVm0A0NNg7osFg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "e6WYEAao": {
+      "filename": "lockoutbingo-neoforge-3.1.jar",
+      "url": "https://cdn.modrinth.com/data/G3kZ4E8g/versions/e6WYEAao/lockoutbingo-neoforge-3.1.jar",
+      "hash": "sha512-ftdS+ji/N5B13qLLhbsXX/2OE33j5PUaifaglQuIfdzjsyUoWyaG5qNLBvqhIhKl+XiFJds+ZjKxC2hPlWCGcQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "gkLAczDL": {
+      "filename": "lockoutbingo-fabric-3.1.jar",
+      "url": "https://cdn.modrinth.com/data/G3kZ4E8g/versions/gkLAczDL/lockoutbingo-fabric-3.1.jar",
+      "hash": "sha512-I/yFMf6VvE9UbhZULqcahu0pprLty24IGsF/Q7E52BFE/pP5T/LHoY3US+AzLVHkLGItplkBwDAkaYVc0WxqZQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tPJxKenl": {
+      "filename": "lockoutbingo-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/G3kZ4E8g/versions/tPJxKenl/lockoutbingo-3.0.1.jar",
+      "hash": "sha512-Esosnp7TKuvTSHEeN7QMPru2t3eWD/8PKC9Bvn7MQKvGt6KOebEhvsVWM/wK/kudtBzmofoduA0bDJt3WfbTVA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "PDOPPer0"
+    ],
+    "26.1.2+neoforge": [
+      "tPJxKenl",
+      "TqghBYWo"
+    ],
+    "26.2+fabric": [
+      "gkLAczDL"
+    ],
+    "26.2+neoforge": [
+      "e6WYEAao"
+    ]
+  }
+}

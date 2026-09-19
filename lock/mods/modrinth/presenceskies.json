@@ -1,0 +1,54 @@
+{
+  "slug": "presenceskies",
+  "projectId": "o0V8Gumz",
+  "versions": {
+    "VlIHRHYQ": {
+      "filename": "presenceskies-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/o0V8Gumz/versions/VlIHRHYQ/presenceskies-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-g0QjIsYg8ls72fbQ//cdLszEZpddb+2X6rZvFjpl+AP3/1WRHfNNhkjKbCQh4AcKbfPpgYT0rG1wwdqsFQkZHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "ZO0dMWzQ": {
+      "filename": "presenceskies-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/o0V8Gumz/versions/ZO0dMWzQ/presenceskies-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-cctSb3ID+Rrx4LKyvYnkBrj6boqQxCoQVXZCYmjPduOaIRr7yDq8CRqXSgEj7IfwTKG7TTX9p2oxspwpA9SvOg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VlIHRHYQ"
+    ],
+    "1.20.1+forge": [
+      "ZO0dMWzQ"
+    ]
+  }
+}

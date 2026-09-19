@@ -1,0 +1,48 @@
+{
+  "slug": "fishing-indicators",
+  "projectId": "ywl0HO2d",
+  "versions": {
+    "4FJdEyo4": {
+      "filename": "fishingindicators-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ywl0HO2d/versions/4FJdEyo4/fishingindicators-fabric-1.0.jar",
+      "hash": "sha512-pVSiS2u8DX54Gf3UZkwZ2Mcq68x7AO64qZxdjy45Qx51ReNcIdgKs8ZtCPJ0I2GKaJDXCtmZ9875DxWfBdmEyg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "YtntFtcT": {
+      "filename": "fishingindicators-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ywl0HO2d/versions/YtntFtcT/fishingindicators-neoforge-1.0.jar",
+      "hash": "sha512-9WRAK16jMoTqG63Ey34PssCUmrA0rkQdWvEx5A5P1z8MOijxF0WM45NlwXWw2FWx+w0tOK5dE4RYl4zoaYnuIg==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "4FJdEyo4"
+    ],
+    "1.21.5+neoforge": [
+      "YtntFtcT"
+    ]
+  }
+}

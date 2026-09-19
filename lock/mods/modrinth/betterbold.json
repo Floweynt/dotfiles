@@ -1,0 +1,105 @@
+{
+  "slug": "betterbold",
+  "projectId": "R1GfLcpK",
+  "versions": {
+    "AFmxTqV1": {
+      "filename": "BetterBold-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1GfLcpK/versions/AFmxTqV1/BetterBold-1.3.0.jar",
+      "hash": "sha512-2tFsXz5joGip8SEGX5pYWMeWscC7LbSXjnXkvrCCniD5q1ucafTGdwJNQ3d2h2/zVDVa8YQsoWT5X+0ZteaDxQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "AVNfZbIT": {
+      "filename": "BetterBold-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1GfLcpK/versions/AVNfZbIT/BetterBold-1.4.0.jar",
+      "hash": "sha512-voStjvVHVL1Ctv/fe8kmXkGW2gcgfQNfJ1VDZGZ0r/MBswXnFgXf1hV8NU60UQvpsDgTepKkxB3j0ClYzAfRuQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ip5sTfUz": {
+      "filename": "BetterBold-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1GfLcpK/versions/Ip5sTfUz/BetterBold-1.2.0.jar",
+      "hash": "sha512-RDZ44q0rTGBMmMN7XFvWXNfOcGIbVmId8iiA8DMhzcTuTWeW2jIqy0DiJo+bnzi8bZE5uOLTwVjxHjW3/j3BRA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "aAM8uniT": {
+      "filename": "BetterBold-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1GfLcpK/versions/aAM8uniT/BetterBold-1.0.0.jar",
+      "hash": "sha512-DKsSaFe8SJRwSOgpBy4ViMbSnouDII8KE6UPBx0AxJ/+gZXaPaLPSnXrl+y7kk9SN5lHSgWICG2VJU0V1TWjhg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xqITuwU2": {
+      "filename": "BetterBold-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1GfLcpK/versions/xqITuwU2/BetterBold-1.1.0.jar",
+      "hash": "sha512-ULR5WPI0rj05Ym7Y9mks1Bjj3X1l2x+qbn4Yfj9ZRLbVZb2AG236hheTO7fO+qaBNlLYzzgelEdnKB1LP5L0mA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "aAM8uniT"
+    ],
+    "1.21.1+fabric": [
+      "xqITuwU2"
+    ],
+    "1.21.11+fabric": [
+      "AVNfZbIT"
+    ],
+    "1.21.4+fabric": [
+      "Ip5sTfUz"
+    ],
+    "1.21.5+fabric": [
+      "AFmxTqV1"
+    ]
+  }
+}

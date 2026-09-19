@@ -1,0 +1,63 @@
+{
+  "slug": "excavator",
+  "projectId": "9bvvWeNk",
+  "versions": {
+    "6hnLTFnR": {
+      "filename": "Excavator-2.1.0-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9bvvWeNk/versions/6hnLTFnR/Excavator-2.1.0-Fabric.jar",
+      "hash": "sha512-NsBIS6/+8mpyCuDUAPse4GzULhoin24XmCnrDJ1ZfWNDdrLrrvUWzI57oyKCk+r/cOcx+G2aHMe6j0DpgQaiHg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "782uRlTh": {
+      "filename": "Excavator-2.0.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9bvvWeNk/versions/782uRlTh/Excavator-2.0.1-Fabric.jar",
+      "hash": "sha512-uPNC7OKpE/mHl+g9eYVh29xsSEHinkgj1ESP8Iuik9nJpw4PkqDUrKN4//k23xdkZogtedbWfdX39HmAg6eDkw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "riQh3J3J": {
+      "filename": "Excavator-2.0.0-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9bvvWeNk/versions/riQh3J3J/Excavator-2.0.0-Fabric.jar",
+      "hash": "sha512-ROm8oninB4D0fcG43WfpYepX5MrFUbLoI9Xz7Oyuef+MtgVvDJi/8bPxmewkHYFSk8ggPXi84+/W6rEuD3/VUA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "782uRlTh",
+      "riQh3J3J"
+    ],
+    "1.20.4+fabric": [
+      "6hnLTFnR"
+    ]
+  }
+}

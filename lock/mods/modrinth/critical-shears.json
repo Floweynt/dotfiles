@@ -1,0 +1,105 @@
+{
+  "slug": "critical-shears",
+  "projectId": "gBQkNKbO",
+  "versions": {
+    "2N6YLXpP": {
+      "filename": "critical-shears-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/gBQkNKbO/versions/2N6YLXpP/critical-shears-1.0.4.jar",
+      "hash": "sha512-A3+SIZjAL2aINMeM040wv62AJZxZX2Fqa6+4rOJ/WWIWuLK49qTuRbsNx6oNLnjHXJBg6xrsrLJ/ZqcFjLQKnw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ZQa15iOv": {
+      "filename": "critical-shears-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/gBQkNKbO/versions/1.0.3-1.19/critical-shears-1.0.3.jar",
+      "hash": "sha512-RcNZq/1abu39UvP62vudRSU40ryPVRXarLgvSr97kKgp/7NcoW60EnC8wFujHqOCfW62HQLPsmrsZcE4DtcKDQ==",
+      "gameVersions": [
+        "1.16.4",
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.4+fabric": [
+      "ZQa15iOv"
+    ],
+    "1.16.4+quilt": [
+      "ZQa15iOv"
+    ],
+    "1.17+fabric": [
+      "ZQa15iOv"
+    ],
+    "1.17+quilt": [
+      "ZQa15iOv"
+    ],
+    "1.17.1+fabric": [
+      "ZQa15iOv"
+    ],
+    "1.17.1+quilt": [
+      "ZQa15iOv"
+    ],
+    "1.18+fabric": [
+      "ZQa15iOv"
+    ],
+    "1.18+quilt": [
+      "ZQa15iOv"
+    ],
+    "1.18.1+fabric": [
+      "ZQa15iOv"
+    ],
+    "1.18.1+quilt": [
+      "ZQa15iOv"
+    ],
+    "1.18.2+fabric": [
+      "ZQa15iOv"
+    ],
+    "1.18.2+quilt": [
+      "ZQa15iOv"
+    ],
+    "1.19+fabric": [
+      "ZQa15iOv"
+    ],
+    "1.19+quilt": [
+      "ZQa15iOv"
+    ],
+    "1.20+fabric": [
+      "2N6YLXpP"
+    ],
+    "1.20+quilt": [
+      "2N6YLXpP"
+    ],
+    "1.20.1+fabric": [
+      "2N6YLXpP"
+    ],
+    "1.20.1+quilt": [
+      "2N6YLXpP"
+    ]
+  }
+}

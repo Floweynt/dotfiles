@@ -1,0 +1,35 @@
+{
+  "slug": "simplepaxels",
+  "projectId": "2Q1x8f5c",
+  "versions": {
+    "7VAPJP0R": {
+      "filename": "simple-paxels-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2Q1x8f5c/versions/7VAPJP0R/simple-paxels-1.0.0.jar",
+      "hash": "sha512-POUgOmxgb1zsE9i90zmsCTlpIZTWhLAdrB0FfPaMtcr/zIti1vqmPmsPY15ltqzsCVPMjq/iV0pKqnWageWMhg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "7VAPJP0R"
+    ],
+    "1.20.1+fabric": [
+      "7VAPJP0R"
+    ]
+  }
+}

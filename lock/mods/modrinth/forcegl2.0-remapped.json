@@ -1,0 +1,621 @@
+{
+  "slug": "forcegl2.0-remapped",
+  "projectId": "FxHOzOxa",
+  "versions": {
+    "2Pn84lSh": {
+      "filename": "forcegl20-forge-1.2.1+1.20.x.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/2Pn84lSh/forcegl20-forge-1.2.1%2B1.20.x.jar",
+      "hash": "sha512-zimLutuc9kcfDUoMRpH1G3bq5YVAlhQqCAxq3SDlAn5XYPBLAsshOMBNaELYI4CXIxdoEkV2oomvI44GqRU1+A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "4i9fsApp": {
+      "filename": "forcegl20-neoforge-1.21.x.1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/4i9fsApp/forcegl20-neoforge-1.21.x.1.2.1.jar",
+      "hash": "sha512-Snr29+1octvjO9pdH7rCiu96IqcQFaLqZdZ18NXrTLdGMyIxrwYad59KPqRMfT8NTu91cI21ZsJNgjgrQETQAA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ApSkpff6": {
+      "filename": "forcegl20-neoforge-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/ApSkpff6/forcegl20-neoforge-1.2.1.jar",
+      "hash": "sha512-MpvG94nWHZ7/dHxGXgKCmyXsk+ZYvYx4F2syaADErx8qfO2MtCNckrn5zeKjEOam5BeiYy6Aak4TBDMl7OIGMA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "BOs2uQCo": {
+      "filename": "forcegl20-fabric-1.2.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/BOs2uQCo/forcegl20-fabric-1.2.0%2B1.21.jar",
+      "hash": "sha512-hN72U+nUYNyzGf4L6fEUBS24V3Gl1qVJxQZQy4FmNWfR2qgqbHTiGvcI05C3Q2uGN9AXOfO0qxYRcgbU7+e1Zw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "By5Ly3HK": {
+      "filename": "forcegl-ars-3.0.0-beta.5-r4.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/By5Ly3HK/forcegl-ars-3.0.0-beta.5-r4.jar",
+      "hash": "sha512-Hoh7PDJ10SedaOP60ckk7Jx+VcP7BxOY61z6GTFzJ8FRw4YcVHogpg3/U3lN5LrEfnKczGlTqk6ikc+wHez/ig==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "DudemR2S": {
+      "filename": "forcegl-ars-3.0.0-beta.3.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/DudemR2S/forcegl-ars-3.0.0-beta.3.jar",
+      "hash": "sha512-OSNFBtEBC6ICw08+cPUkT4i3VPnSB2sVFY6lHDD4TrSXhiFduw2ZteNg+Z7gQzgN6XLi0huj9QSQIavMc6LvBw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GlUPHWv2": {
+      "filename": "forcegl-ars-3.0.0-beta.5-r3.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/GlUPHWv2/forcegl-ars-3.0.0-beta.5-r3.jar",
+      "hash": "sha512-tsdQG32ghpA20AFjaRWuSeOYuq9ZaR6fyMYj0rdE13kvgyP/uKhONEm09pfqowbrGSg4B/jD67xiWxYrHGaSLw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LampBlNX": {
+      "filename": "forcegl-2.0.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/LampBlNX/forcegl-2.0.0%2B1.21.4.jar",
+      "hash": "sha512-5a6+zNVYHRi3mrdEPd03/Do1JqBt2GglOcogIMZo3ceTAAgyhYFGcaOyrSNCrroIPhQTctyRHDqlXjz7jSe6BQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "PK6vSUU6": {
+      "filename": "forcegl-ars-3.0.0-beta.5-r4.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/PK6vSUU6/forcegl-ars-3.0.0-beta.5-r4.jar",
+      "hash": "sha512-eZeMJ9RkvD5UlSiCaFnuliKQPFhB2yWUSn9iIOicaDHowyrUx2QyeDTNbF7vyw59mv+xV4C4S9hKmLK0xAjZXA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "PkR5V0en": {
+      "filename": "forcegl20-fabric-1.2.1+1.17.x++1.20.x.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/PkR5V0en/forcegl20-fabric-1.2.1%2B1.17.x%2B%2B1.20.x.jar",
+      "hash": "sha512-NgqPVyBjxf3IUdepwGH+Qu6oRqWprO7dHj3qBOwdCRC6K/iq3A2rt9A4rBWqmpacNmXfzT5j2uv0eer9X0QEgg==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Tijmvwws": {
+      "filename": "forcegl-ars-3.0.0-beta.2.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/Tijmvwws/forcegl-ars-3.0.0-beta.2.jar",
+      "hash": "sha512-Uz8jcAbImpGmddFE89z6y5rO6AWU0BBLp4CcIfWypDj678FkFZ709YVYQM2+uckaPOtDCLRwHBwBTkxOfzBQbQ==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hYRbgW7Q": {
+      "filename": "forcegl20-forge-1.2.1+1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/hYRbgW7Q/forcegl20-forge-1.2.1%2B1.21.x.jar",
+      "hash": "sha512-hh6wVdz1ZUJRbzbBsQohVIFUfejRqpkNcMekH2QSU5MZybatxHbbWIXxatXzIeUB+8Bxd/KKyxaSXC1WnXutTw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "iMQ2PDwc": {
+      "filename": "forcegl-ars-3.0.0-beta.4-r1.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/iMQ2PDwc/forcegl-ars-3.0.0-beta.4-r1.jar",
+      "hash": "sha512-PC1g/DGUqyU0ynMDGIaSbsSLQXBkM4OkQQoq9J3xB0vYnNsifPUV9zPdgUZrzNYxTUtCvRjnJjNBvqv6iPZGmw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "jaUtYZin": {
+      "filename": "forcegl-2.2.1+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/jaUtYZin/forcegl-2.2.1%2B1.21.4.jar",
+      "hash": "sha512-DRvik+5tixi8viFH9LWp9E7C3lphJFqTkf4R6xGMlV5+42JEYU+AOOwPlWG5bFw0aaMP8h7Umr7hW4biwUlXIQ==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mv5zuk4l": {
+      "filename": "forcegl-ars-3.0.0-beta.4-r2.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/mv5zuk4l/forcegl-ars-3.0.0-beta.4-r2.jar",
+      "hash": "sha512-S6S7Pml4VMlrDF6/N5bl495MIEKNj1GQhB4nTwIwMTbxtClnVMdTwOnikrKb9yHtvuTYhBjvx8qVEn7amIyQxQ==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oItxMGv5": {
+      "filename": "forcegl20-fabric-1.2.0+1.20.x.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/oItxMGv5/forcegl20-fabric-1.2.0%2B1.20.x.jar",
+      "hash": "sha512-/T7B0TFVcPPg6qO3MhkKmsYPe9nsuRKK9heoLa+0PGMxdbaNai7Y6oSbY3s+uzP5EzKavaIh8g/1EY5rr7Nviw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ojsEuebk": {
+      "filename": "forcegl20-forge-1.2.0+1.17.x-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/ojsEuebk/forcegl20-forge-1.2.0%2B1.17.x-1.21.x.jar",
+      "hash": "sha512-p6RbKuBzK2YXD5+E44Yw4+fhFurJBaXSyzI8ARe6RjAUy/dUMYzBibdGFlDUsHXiRptNpy1U7jNkbMzWGFdJeA==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1",
+        "1.18",
+        "1.18.1",
+        "1.18.2",
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "x831iJzz": {
+      "filename": "forcegl20-fabric-1.2.1+1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/x831iJzz/forcegl20-fabric-1.2.1%2B1.21.x.jar",
+      "hash": "sha512-XBqs4lg2GVNHkKRoe/tJPtrqM+3nwHRaXC1tXi8wEo3xWMqzgQth70T7LbQO8HHYSKhLN4OK91XeampjUMIKiw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "y3NQpCqh": {
+      "filename": "forcegl-ars-3.0.0-beta.5-r2.jar",
+      "url": "https://cdn.modrinth.com/data/FxHOzOxa/versions/y3NQpCqh/forcegl-ars-3.0.0-beta.5-r2.jar",
+      "hash": "sha512-c4HN9ZrsAOlb3DfVqD9SQnTJB6jYsIIGlKbHs8xiWp3gBcLBPjHfW8SKVl9OuK2lPc04rcBItWXIxp++yG6PrA==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "PkR5V0en"
+    ],
+    "1.17+forge": [
+      "ojsEuebk"
+    ],
+    "1.17.1+fabric": [
+      "PkR5V0en"
+    ],
+    "1.17.1+forge": [
+      "ojsEuebk"
+    ],
+    "1.18+fabric": [
+      "PkR5V0en"
+    ],
+    "1.18+forge": [
+      "ojsEuebk"
+    ],
+    "1.18.1+fabric": [
+      "PkR5V0en"
+    ],
+    "1.18.1+forge": [
+      "ojsEuebk"
+    ],
+    "1.18.2+fabric": [
+      "PkR5V0en"
+    ],
+    "1.18.2+forge": [
+      "ojsEuebk"
+    ],
+    "1.19+fabric": [
+      "PkR5V0en"
+    ],
+    "1.19+forge": [
+      "ojsEuebk"
+    ],
+    "1.19.1+fabric": [
+      "PkR5V0en"
+    ],
+    "1.19.1+forge": [
+      "ojsEuebk"
+    ],
+    "1.19.2+fabric": [
+      "PkR5V0en"
+    ],
+    "1.19.2+forge": [
+      "ojsEuebk"
+    ],
+    "1.19.3+fabric": [
+      "PkR5V0en"
+    ],
+    "1.19.3+forge": [
+      "ojsEuebk"
+    ],
+    "1.19.4+fabric": [
+      "PkR5V0en"
+    ],
+    "1.19.4+forge": [
+      "ojsEuebk"
+    ],
+    "1.20+fabric": [
+      "PkR5V0en",
+      "oItxMGv5"
+    ],
+    "1.20+forge": [
+      "ojsEuebk"
+    ],
+    "1.20.1+fabric": [
+      "PkR5V0en",
+      "oItxMGv5"
+    ],
+    "1.20.1+forge": [
+      "2Pn84lSh",
+      "ojsEuebk"
+    ],
+    "1.20.2+fabric": [
+      "PkR5V0en",
+      "oItxMGv5"
+    ],
+    "1.20.2+forge": [
+      "2Pn84lSh",
+      "ojsEuebk"
+    ],
+    "1.20.3+fabric": [
+      "PkR5V0en",
+      "oItxMGv5"
+    ],
+    "1.20.3+forge": [
+      "2Pn84lSh",
+      "ojsEuebk"
+    ],
+    "1.20.4+fabric": [
+      "PkR5V0en",
+      "oItxMGv5"
+    ],
+    "1.20.4+forge": [
+      "2Pn84lSh",
+      "ojsEuebk"
+    ],
+    "1.20.5+fabric": [
+      "PkR5V0en",
+      "oItxMGv5"
+    ],
+    "1.20.5+forge": [
+      "2Pn84lSh",
+      "ojsEuebk"
+    ],
+    "1.20.6+fabric": [
+      "PkR5V0en",
+      "oItxMGv5"
+    ],
+    "1.20.6+forge": [
+      "2Pn84lSh",
+      "ojsEuebk"
+    ],
+    "1.21+fabric": [
+      "x831iJzz",
+      "BOs2uQCo"
+    ],
+    "1.21+forge": [
+      "hYRbgW7Q"
+    ],
+    "1.21+neoforge": [
+      "4i9fsApp"
+    ],
+    "1.21+quilt": [
+      "x831iJzz"
+    ],
+    "1.21.1+fabric": [
+      "x831iJzz"
+    ],
+    "1.21.1+forge": [
+      "hYRbgW7Q"
+    ],
+    "1.21.1+neoforge": [
+      "ApSkpff6"
+    ],
+    "1.21.1+quilt": [
+      "x831iJzz"
+    ],
+    "1.21.10+fabric": [
+      "PK6vSUU6"
+    ],
+    "1.21.11+fabric": [
+      "PK6vSUU6"
+    ],
+    "1.21.2+fabric": [
+      "x831iJzz"
+    ],
+    "1.21.2+forge": [
+      "hYRbgW7Q"
+    ],
+    "1.21.2+neoforge": [
+      "ApSkpff6"
+    ],
+    "1.21.2+quilt": [
+      "x831iJzz"
+    ],
+    "1.21.3+fabric": [
+      "x831iJzz"
+    ],
+    "1.21.3+forge": [
+      "hYRbgW7Q"
+    ],
+    "1.21.3+neoforge": [
+      "ApSkpff6"
+    ],
+    "1.21.3+quilt": [
+      "x831iJzz"
+    ],
+    "1.21.4+fabric": [
+      "jaUtYZin",
+      "LampBlNX",
+      "x831iJzz"
+    ],
+    "1.21.4+forge": [
+      "hYRbgW7Q"
+    ],
+    "1.21.4+neoforge": [
+      "ApSkpff6"
+    ],
+    "1.21.4+quilt": [
+      "x831iJzz"
+    ],
+    "1.21.5+fabric": [
+      "iMQ2PDwc",
+      "DudemR2S",
+      "Tijmvwws",
+      "jaUtYZin"
+    ],
+    "1.21.5+forge": [
+      "hYRbgW7Q"
+    ],
+    "1.21.6+fabric": [
+      "mv5zuk4l"
+    ],
+    "1.21.6+forge": [
+      "hYRbgW7Q"
+    ],
+    "1.21.7+fabric": [
+      "y3NQpCqh"
+    ],
+    "1.21.8+fabric": [
+      "GlUPHWv2"
+    ],
+    "1.21.9+fabric": [
+      "PK6vSUU6",
+      "By5Ly3HK"
+    ]
+  }
+}

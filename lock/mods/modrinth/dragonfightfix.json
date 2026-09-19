@@ -1,0 +1,79 @@
+{
+  "slug": "dragonfightfix",
+  "projectId": "Lpd0Hkwt",
+  "versions": {
+    "2RNE3NpS": {
+      "filename": "DragonFightFix-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/Lpd0Hkwt/versions/2RNE3NpS/DragonFightFix-1.0.2.jar",
+      "hash": "sha512-IRkGgQICEUBNe4XeVqkm9punrArjq3sEEwzGijHWXVSsvBW81BHc1lDgjpSOs4XPobCk1SkoWTjv6+OQVHOXzQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "O2s2lrAg": {
+      "filename": "DragonFightFix-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Lpd0Hkwt/versions/O2s2lrAg/DragonFightFix-1.1.jar",
+      "hash": "sha512-22xWWTzABV4LZKbmp3teWvh8KuTV8zoFDahdTgTLQXMogjBAr7UCd2iMOd82Q2wARjiN3oZCQQT5iquDS/FwDg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VNe1JheY": {
+      "filename": "DragonFightFix-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Lpd0Hkwt/versions/VNe1JheY/DragonFightFix-1.0.jar",
+      "hash": "sha512-PvyGJ+ohsMD2R1z0T3b3yP6ywc0baVwOyA7xfBoGQP8uHCgCA78nzEvhJ3rXtaALCsnvC0O5HpCCfLRK/qec1A==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "2RNE3NpS"
+    ],
+    "1.20.1+fabric": [
+      "2RNE3NpS"
+    ],
+    "1.20.2+fabric": [
+      "2RNE3NpS"
+    ],
+    "1.20.3+fabric": [
+      "2RNE3NpS"
+    ],
+    "1.20.4+fabric": [
+      "2RNE3NpS",
+      "VNe1JheY"
+    ],
+    "1.21+fabric": [
+      "O2s2lrAg"
+    ]
+  }
+}

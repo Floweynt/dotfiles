@@ -1,0 +1,117 @@
+{
+  "slug": "dreyse-heroes",
+  "projectId": "zOWTQKYt",
+  "versions": {
+    "flJlrwdH": {
+      "filename": "Dreyse Heroes 1.0 Forge.jar",
+      "url": "https://cdn.modrinth.com/data/zOWTQKYt/versions/flJlrwdH/Dreyse%20Heroes%201.0%20Forge.jar",
+      "hash": "sha512-alA0xweByYj+AYgQ7mLBVWEUWLY0L9tIBA/+mk+rtUdQArxx25IvhKlOpajz2jo0KhpdyFv7616ty1+eWsB7UA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "kEbZi3uv": {
+      "filename": "Dreyse Heroes 1.0 Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/zOWTQKYt/versions/kEbZi3uv/Dreyse%20Heroes%201.0%20Fabric.jar",
+      "hash": "sha512-kIS/5UdxA6X3Hxgy1tYMm6N4n1NjELtJtLmcyQNP9EiQf0z6S9ue4kzvYkFuMk7eoSCKi8SekhKpnA1A+4tY+A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "xUSsbHDF": {
+      "filename": "dreyseheroes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zOWTQKYt/versions/xUSsbHDF/dreyseheroes-1.0.0.jar",
+      "hash": "sha512-x481Uc4bbNdd6qK3Pim6451RiXG8mh6ozNR5UPNHckswjl1rVDp9yy3BiX8a65s/ohHkAwq5McgU68/ETRtZLA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kEbZi3uv",
+      "xUSsbHDF"
+    ],
+    "1.20.1+forge": [
+      "flJlrwdH",
+      "xUSsbHDF"
+    ]
+  }
+}

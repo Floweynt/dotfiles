@@ -1,0 +1,85 @@
+{
+  "slug": "bygone-nether-fixes",
+  "projectId": "pDTvIzHb",
+  "versions": {
+    "Q2sh7Cou": {
+      "filename": "bygone_nether_fixes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pDTvIzHb/versions/Q2sh7Cou/bygone_nether_fixes-1.0.0.jar",
+      "hash": "sha512-FZQO5ZHfQcwKaJNjxHLx4b4uxswAHD05EmSqTExLy2NRO9PbyDSDer2eiR6RvUUtDIVu4jH1JGN3v7mxgjCR9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "bygone-nether",
+          "projectId": "kt3BLgXB",
+          "type": "required"
+        }
+      ]
+    },
+    "tqJvvUF5": {
+      "filename": "bygone_nether_fixes-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pDTvIzHb/versions/tqJvvUF5/bygone_nether_fixes-1.1.0.jar",
+      "hash": "sha512-KSkarMW6wJ3/YT+B7hU9SQKl1ZslEfMLTyf23vie7HefUtMl7ruYBPjyzY6AmUQ9avEQ71u8y+RCQL/Ga3reqQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "bygone-nether",
+          "projectId": "kt3BLgXB",
+          "type": "required"
+        }
+      ]
+    },
+    "ydMcSGzY": {
+      "filename": "bygone_nether_fixes-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pDTvIzHb/versions/ydMcSGzY/bygone_nether_fixes-2.0.0.jar",
+      "hash": "sha512-aGV7WOYF4yqIcs84DsNkBCrQHzvtKoF8IrGf373ACokvtOZS3Y6rdlZACkLX3QzFkrYxXDI+7YhDPVZb0SXRUw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "eternal-nether",
+          "projectId": "s6R4jmL8",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tqJvvUF5",
+      "Q2sh7Cou"
+    ],
+    "1.20.1+quilt": [
+      "tqJvvUF5",
+      "Q2sh7Cou"
+    ],
+    "1.21.1+fabric": [
+      "ydMcSGzY"
+    ],
+    "1.21.1+quilt": [
+      "ydMcSGzY"
+    ]
+  }
+}

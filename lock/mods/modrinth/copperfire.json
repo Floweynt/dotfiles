@@ -1,0 +1,126 @@
+{
+  "slug": "copperfire",
+  "projectId": "afn7Sdzl",
+  "versions": {
+    "5ypgAU73": {
+      "filename": "copperfire-1.0.0+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/afn7Sdzl/versions/5ypgAU73/copperfire-1.0.0%2B1.21.7.jar",
+      "hash": "sha512-idCsjret1Dg3gNUpG3Er8OI/tdCidZYq/qtSELbKtvwJb/VD4XpptfrGPj7y4dGYVuNrAI3fqz4q/xzkUNi2IQ==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        }
+      ]
+    },
+    "DP6qFJJ1": {
+      "filename": "copperfire-1.0.1+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/afn7Sdzl/versions/DP6qFJJ1/copperfire-1.0.1%2B1.21.7.jar",
+      "hash": "sha512-GvmuZfRr+CwiJlIL/8KYRr6j9b7a/Mq6CkmcbJjQfkdRWNDWXxTrm4Z7sWiE98RwEShaInJLYWFH4SfOgYJCEQ==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8",
+        "1.21.9-rc1",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        }
+      ]
+    },
+    "GgJReKtc": {
+      "filename": "copperfire-1.0.2+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/afn7Sdzl/versions/GgJReKtc/copperfire-1.0.2%2B1.21.7.jar",
+      "hash": "sha512-/TGJofBHeURz3fP4jFefVvFEb649caqO5dIrpIBTo9F9LiKDsEwO8n+3kGcJgvuuYBU3DQf3aWR/x/NmtE4a5Q==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "filament",
+          "projectId": "yANxwqSX",
+          "type": "required"
+        }
+      ]
+    },
+    "t3khdv3q": {
+      "filename": "copperfire-1.0.3+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/afn7Sdzl/versions/t3khdv3q/copperfire-1.0.3%2B26.1.jar",
+      "hash": "sha512-vp9AAHaqMEZHoJkB6VnAxRJvF0zD94qSKwioA0CDs0yQsM6wc3zaUbHbR65KRfxRNhFdC78XxHDACiXbEc+JdQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "GgJReKtc",
+      "DP6qFJJ1"
+    ],
+    "1.21.11+fabric": [
+      "GgJReKtc"
+    ],
+    "1.21.7+fabric": [
+      "GgJReKtc",
+      "DP6qFJJ1",
+      "5ypgAU73"
+    ],
+    "1.21.8+fabric": [
+      "GgJReKtc",
+      "DP6qFJJ1",
+      "5ypgAU73"
+    ],
+    "1.21.9+fabric": [
+      "GgJReKtc",
+      "DP6qFJJ1"
+    ],
+    "1.21.9-rc1+fabric": [
+      "DP6qFJJ1"
+    ],
+    "26.1+fabric": [
+      "t3khdv3q"
+    ],
+    "26.1.1+fabric": [
+      "t3khdv3q"
+    ],
+    "26.1.2+fabric": [
+      "t3khdv3q"
+    ]
+  }
+}

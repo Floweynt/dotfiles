@@ -1,0 +1,79 @@
+{
+  "slug": "tooltip-tool-tips",
+  "projectId": "1HbturJi",
+  "versions": {
+    "Js43GpJC": {
+      "filename": "tooltip-tool-tips-1.1.0+fabric-mc1.20.jar",
+      "url": "https://cdn.modrinth.com/data/1HbturJi/versions/Js43GpJC/tooltip-tool-tips-1.1.0%2Bfabric-mc1.20.jar",
+      "hash": "sha512-9pnm07IOPuXL+VMbFf41A7s/+9gnkGZcY3W8M6ixa5w7jP8cfKj3wKTmtxbvJ5o6om9JS3NLKMk4pn4ngFrJ/g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hhShQHqI": {
+      "filename": "tooltip-tool-tips-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/1HbturJi/versions/hhShQHqI/tooltip-tool-tips-1.0.0.jar",
+      "hash": "sha512-uY20szuF0CI45EtSEl6h/OdfQ+k76qVU1mvXe5HYUIf5bGdyhV/6op3V5D3v337yS9jMhTmSdrieAtWkSASnpw==",
+      "gameVersions": [
+        "1.16.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tt7482ao": {
+      "filename": "tooltip-tool-tips-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/1HbturJi/versions/tt7482ao/tooltip-tool-tips-1.0.1.jar",
+      "hash": "sha512-+RALXXeHmfolyo5eO07JlG7CqWIH8Uez4HCnZvpNOZ/o2avr5crl5DbnnQx4UduXgBWnbm/yKJn3r1TLX9RJCg==",
+      "gameVersions": [
+        "1.16.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.2+fabric": [
+      "tt7482ao",
+      "hhShQHqI"
+    ],
+    "1.20+fabric": [
+      "Js43GpJC"
+    ],
+    "1.20.1+fabric": [
+      "Js43GpJC"
+    ]
+  }
+}

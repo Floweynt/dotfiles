@@ -1,0 +1,94 @@
+{
+  "slug": "jade-hiteffects",
+  "projectId": "QkuvZ0z8",
+  "versions": {
+    "AXOv7Uc5": {
+      "filename": "hiteffects-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QkuvZ0z8/versions/AXOv7Uc5/hiteffects-1.0.jar",
+      "hash": "sha512-+fpp6ruFR2hvqVSrPbj3bk1uv5YSgHbvIlwUqwGf5PQxcGTPEhJJHdsRCEVnNTeou4y5owybNOCDXgS5ay9cTw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "EdXwutTF": {
+      "filename": "Meow-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/QkuvZ0z8/versions/EdXwutTF/Meow-1.0-SNAPSHOT.jar",
+      "hash": "sha512-XPUbOj+m3hhqdwvw6VLNmkhZTfOPR0YKmBjRymzUJ5NA2oJZYemEznTBCQwU6Aa2Gv+NYvMEerGaCXhAy48j0A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "MCvaYf5L": {
+      "filename": "hiteffects-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/QkuvZ0z8/versions/MCvaYf5L/hiteffects-1.1.jar",
+      "hash": "sha512-kelwxGJOgzpIPfhUGBG/BtxKCAZhxJ+14iqNNtZPMDLqPkNDzSiAwYdDPNxzsCBqQnuzBr6eTjhX5WjvvI7fSA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "fjlKl1mw": {
+      "filename": "hiteffects-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QkuvZ0z8/versions/fjlKl1mw/hiteffects-1.0.jar",
+      "hash": "sha512-anMdMFGQ2X9Dja819c6FusqXC9DNTkItQXmOoPqlz5dfSO1QxGfC5SINgrwuqb3QqIrkvS9Pqa2dfMIJNuVlpw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "AXOv7Uc5",
+      "EdXwutTF"
+    ],
+    "1.20.4+fabric": [
+      "MCvaYf5L",
+      "fjlKl1mw"
+    ]
+  }
+}

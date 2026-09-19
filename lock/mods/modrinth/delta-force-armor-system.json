@@ -1,0 +1,36 @@
+{
+  "slug": "delta-force-armor-system",
+  "projectId": "WAgTbE32",
+  "versions": {
+    "w2jU8T6A": {
+      "filename": "dfas-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WAgTbE32/versions/w2jU8T6A/dfas-1.0.0.jar",
+      "hash": "sha512-9d4NCda1QiIVw+Mxmkm6zyvGaxPW64JeznaDK3Y9Dx5j+2Utg9vLhvOnVkpOiMfjrENsBRiQ4lA//ht/xK0rZA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "w2jU8T6A"
+    ]
+  }
+}

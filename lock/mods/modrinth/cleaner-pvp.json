@@ -1,0 +1,54 @@
+{
+  "slug": "cleaner-pvp",
+  "projectId": "d6qxKoRl",
+  "versions": {
+    "fQjEwjXo": {
+      "filename": "cleanpvp-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d6qxKoRl/versions/fQjEwjXo/cleanpvp-1.0.0.jar",
+      "hash": "sha512-NXeyfdcsfdE/NFJIGXM8uN7AQ5aBX24L1knKdXgAxbZttbvEvev4wvkptRB8/Lp/UbYPGgSsiv67yOTwG2EOyA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gdvJvP2F": {
+      "filename": "cleanpvp-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/d6qxKoRl/versions/gdvJvP2F/cleanpvp-1.0.jar",
+      "hash": "sha512-snEtzkG/kv29SCYM7SATlrfyFNOS5V/rAi3buYhHmcsJThYWT9PEylmRhI/+F+ULeWXMJX8bzBBkH1tbVBqLxQ==",
+      "gameVersions": [
+        "1.8.9"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.8.9+forge": [
+      "gdvJvP2F"
+    ],
+    "26.1.2+fabric": [
+      "fQjEwjXo"
+    ]
+  }
+}

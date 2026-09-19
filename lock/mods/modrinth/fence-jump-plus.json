@@ -1,0 +1,80 @@
+{
+  "slug": "fence-jump-plus",
+  "projectId": "WQByZEKE",
+  "versions": {
+    "3V9tiHBR": {
+      "filename": "jumpoverfences-fabric-26.1.x-1.13.2.jar",
+      "url": "https://cdn.modrinth.com/data/WQByZEKE/versions/3V9tiHBR/jumpoverfences-fabric-26.1.x-1.13.2.jar",
+      "hash": "sha512-RUgsYeLAbW4JrDJ7gOKyQkZgs1vY3QT+h90Eid9mZehu3k2zKsJPF4fHso4OEMno5iXxajFyobd9oFJAnaZCCw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9KvuJmQf": {
+      "filename": "jumpoverfences-fabric-1.21.9-1.21.11-1.13.2.jar",
+      "url": "https://cdn.modrinth.com/data/WQByZEKE/versions/9KvuJmQf/jumpoverfences-fabric-1.21.9-1.21.11-1.13.2.jar",
+      "hash": "sha512-glG12gBEMZKHMAiz4iKRM74c+Nlqqkvb2q1OGgzOYYYDTY+6Bm5njkV7dQ7ByUHpnpzYudR7C71OTQ7IKRxhJg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "9KvuJmQf"
+    ],
+    "1.21.11+fabric": [
+      "9KvuJmQf"
+    ],
+    "1.21.9+fabric": [
+      "9KvuJmQf"
+    ],
+    "26.1+fabric": [
+      "3V9tiHBR"
+    ],
+    "26.1.1+fabric": [
+      "3V9tiHBR"
+    ],
+    "26.1.2+fabric": [
+      "3V9tiHBR"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "create-bulk-freezing-compat",
+  "projectId": "SQLnc1aF",
+  "versions": {
+    "bMaqMptg": {
+      "filename": "CreateBulkFreezingCompat.zip",
+      "url": "https://cdn.modrinth.com/data/SQLnc1aF/versions/bMaqMptg/CreateBulkFreezingCompat.zip",
+      "hash": "sha512-X9uoUPf9cSBqxCy2T9IziQ4iHNoDSwiis6Eb+Mm32C+SbKnyRlu95aIdogjITM93U5OfiofQn/9t8auD4PFZyg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "patched",
+          "projectId": "IBlGrJtC",
+          "type": "required"
+        },
+        {
+          "slug": "create-dreams-and-desires",
+          "projectId": "JmybsfWs",
+          "type": "required"
+        },
+        {
+          "slug": "create-garnished",
+          "projectId": "6e2SlzR4",
+          "type": "required"
+        }
+      ]
+    },
+    "ngFaOn0K": {
+      "filename": "create-bulk-freezing-compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SQLnc1aF/versions/ngFaOn0K/create-bulk-freezing-compat-1.0.0.jar",
+      "hash": "sha512-f33b7LChdJDjMK3uEjh/VwxFDcHPounoWQHFDgYcAABroDM0jKhf77vcwSeOwwHWNIZ1x6R0R/9o4VX+H7J78Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-dreams-and-desires",
+          "projectId": "JmybsfWs",
+          "type": "required"
+        },
+        {
+          "slug": "create-garnished",
+          "projectId": "6e2SlzR4",
+          "type": "required"
+        },
+        {
+          "slug": "patched",
+          "projectId": "IBlGrJtC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "bMaqMptg"
+    ],
+    "1.20.1+fabric": [
+      "ngFaOn0K"
+    ],
+    "1.20.1+forge": [
+      "ngFaOn0K"
+    ],
+    "1.20.1+neoforge": [
+      "ngFaOn0K"
+    ],
+    "1.20.1+quilt": [
+      "ngFaOn0K"
+    ]
+  }
+}

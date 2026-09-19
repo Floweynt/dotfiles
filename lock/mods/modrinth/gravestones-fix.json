@@ -1,0 +1,58 @@
+{
+  "slug": "gravestones-fix",
+  "projectId": "nFIzW822",
+  "versions": {
+    "rlQV9QFX": {
+      "filename": "gravestonesfix-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/nFIzW822/versions/rlQV9QFX/gravestonesfix-1.1.0.jar",
+      "hash": "sha512-H2U2voW+yR72GCaxJOd9VmobKl0mPRRBCgdwXkLDGDEEphMuh5KwUXvCeWXb0M19+yBRLe75CTSFRlyfX/71TQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "gravestones",
+          "projectId": "ssUbhMkL",
+          "type": "required"
+        }
+      ]
+    },
+    "vJzsnLh1": {
+      "filename": "gravestonesfix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nFIzW822/versions/vJzsnLh1/gravestonesfix-1.0.0.jar",
+      "hash": "sha512-IW1PHr4t6GD4KMNc+Vlm7mXvGCXPEr1AAWwM2rFXKNUMUyDYCk/hqDqQ+NoVo3C1WIp0xA1xhiwZVEP8RAcWeg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "gravestones",
+          "projectId": "ssUbhMkL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "rlQV9QFX",
+      "vJzsnLh1"
+    ],
+    "1.20.1+fabric": [
+      "rlQV9QFX",
+      "vJzsnLh1"
+    ]
+  }
+}

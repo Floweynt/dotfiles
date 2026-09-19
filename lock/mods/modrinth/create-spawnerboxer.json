@@ -1,0 +1,124 @@
+{
+  "slug": "create-spawnerboxer",
+  "projectId": "MutgVePM",
+  "versions": {
+    "8GRiqUT6": {
+      "filename": "CreateSpawnerBoxer-0.1.1+fabric-1.20.1-20.jar",
+      "url": "https://cdn.modrinth.com/data/MutgVePM/versions/8GRiqUT6/CreateSpawnerBoxer-0.1.1%2Bfabric-1.20.1-20.jar",
+      "hash": "sha512-3iCSkDCCIVfQMmGoDh8VbOZROPXUFYDvTE+CECO2a3AM7kZm4ncP4xK0cv12rr6awEsWnoQlD/Mioiu9ifNYNw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "BiGS6QiS": {
+      "filename": "CreateSpawnerBoxer-0.1.0+forge-1.20.1-6.jar",
+      "url": "https://cdn.modrinth.com/data/MutgVePM/versions/BiGS6QiS/CreateSpawnerBoxer-0.1.0%2Bforge-1.20.1-6.jar",
+      "hash": "sha512-3ISKxNi5Z8stfSyFRL91wLqfUsWejBEccFXB4K/6SWTSgY+9fleVO12m3Hzx6PCHG1PUpLz0Wmn4Pup4zDls+Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "Sh8W9EM9": {
+      "filename": "CreateSpawnerBoxer-0.1.1+forge-1.21.1-18.jar",
+      "url": "https://cdn.modrinth.com/data/MutgVePM/versions/Sh8W9EM9/CreateSpawnerBoxer-0.1.1%2Bforge-1.21.1-18.jar",
+      "hash": "sha512-CyT/fyTalIC/ycw2NRUGmsfwLqE7KT0SuK6JnaF3rq9tyg2eiPVVT414zxVey14wTcoQDsmWn0Wqbqk3mpX3Pg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "UX5ollxk": {
+      "filename": "CreateSpawnerBoxer-0.1.1+forge-1.20.1-17.jar",
+      "url": "https://cdn.modrinth.com/data/MutgVePM/versions/UX5ollxk/CreateSpawnerBoxer-0.1.1%2Bforge-1.20.1-17.jar",
+      "hash": "sha512-1iTHmUBna57EBU+8XgD3Mi649VegN7u9hQ0xreT+wQfa2DESuZwz2AP0brjxR9sdExviJFr2PFb63t53hgVljw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "dcmWBOCa": {
+      "filename": "CreateSpawnerBoxer-0.1.0+fabric-1.20.1-9.jar",
+      "url": "https://cdn.modrinth.com/data/MutgVePM/versions/dcmWBOCa/CreateSpawnerBoxer-0.1.0%2Bfabric-1.20.1-9.jar",
+      "hash": "sha512-CZ4kyY1nbpU7els6FqA8lK5b4SmYzRcHzbl/XFg/6qtl0NsZopbNqEY8KY2uJJmJ3fxagB7G6++4fuSGpAoUOw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "8GRiqUT6",
+      "dcmWBOCa"
+    ],
+    "1.20.1+forge": [
+      "UX5ollxk",
+      "BiGS6QiS"
+    ],
+    "1.21.1+neoforge": [
+      "Sh8W9EM9"
+    ]
+  }
+}

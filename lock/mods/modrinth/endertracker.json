@@ -1,0 +1,43 @@
+{
+  "slug": "endertracker",
+  "projectId": "UBWnOzAZ",
+  "versions": {
+    "Y0oA459V": {
+      "filename": "ender-tracker-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UBWnOzAZ/versions/Y0oA459V/ender-tracker-1.0.0.jar",
+      "hash": "sha512-47/Z+p3s8ymaKS2GrJ0uNBtPklLf3EI+gY6NwM+b7RC5uTAQ42tK0jf6pFMXi0MZhQT5E0bQTMT0TxUUktZ5sw==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "Y0oA459V"
+    ],
+    "1.21.11+fabric": [
+      "Y0oA459V"
+    ],
+    "1.21.8+fabric": [
+      "Y0oA459V"
+    ],
+    "1.21.9+fabric": [
+      "Y0oA459V"
+    ]
+  }
+}

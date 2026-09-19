@@ -1,0 +1,47 @@
+{
+  "slug": "carbons-viltrumite-origin",
+  "projectId": "CW5wtHwe",
+  "versions": {
+    "TVfQN3BC": {
+      "filename": "Viltrumite.zip",
+      "url": "https://cdn.modrinth.com/data/CW5wtHwe/versions/TVfQN3BC/Viltrumite.zip",
+      "hash": "sha512-JriF/Bept/NRcmp5iF4gTFPs4E9iXYxM2GhNbnduvetywRNYjhvlUu8/auv6LWLxcjbW6Q3Wl85V4CtTEs+2qw==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.3+datapack": [
+      "TVfQN3BC"
+    ],
+    "1.20.3+fabric": [
+      "TVfQN3BC"
+    ],
+    "1.20.4+datapack": [
+      "TVfQN3BC"
+    ],
+    "1.20.4+fabric": [
+      "TVfQN3BC"
+    ]
+  }
+}

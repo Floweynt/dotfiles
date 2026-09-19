@@ -1,0 +1,105 @@
+{
+  "slug": "apple-wood-rebarked",
+  "projectId": "DQXAzWtW",
+  "versions": {
+    "FlAPIJmU": {
+      "filename": "applewoodrebarked-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DQXAzWtW/versions/FlAPIJmU/applewoodrebarked-neoforge-1.0.0.jar",
+      "hash": "sha512-ed5e0/YbafL6Qj/XTu0nkeIKdsKlXp5bBGmvKdvCii3EkmqS0xoHbBnKdNS2QRga9yI8EPy9i0syv/usBgtRdQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "JcnDYIln": {
+      "filename": "applewoodrebarked-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DQXAzWtW/versions/JcnDYIln/applewoodrebarked-fabric-1.1.0.jar",
+      "hash": "sha512-5Wlup24XROc8qqyK1xUde/gU1JPnA7fkqH+dRTzu48eDaQLuBrd8UUiOFPfcS3rgjrqWmgXPpCkLomHHUEckPw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lets-do-vinery",
+          "projectId": "1DWmBJVA",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "YiEe15qx": {
+      "filename": "applewoodrebarked-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DQXAzWtW/versions/YiEe15qx/applewoodrebarked-neoforge-1.1.0.jar",
+      "hash": "sha512-ISD/n24FUCBGLJxr4Zp5fhVIzMAlSXK69v55JxylIviyGAh5UoTqKEbYA07NHy/RVHiGVVrvg+YtHCeuBpQPOA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "lets-do-vinery",
+          "projectId": "1DWmBJVA",
+          "type": "required"
+        }
+      ]
+    },
+    "eaGpG00n": {
+      "filename": "applewoodrebarked-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DQXAzWtW/versions/eaGpG00n/applewoodrebarked-fabric-1.0.0.jar",
+      "hash": "sha512-UVS4Rot4JzuF6XK9AHZM0Iy8LjSBdZd5l/Ml/o7eaR+h+6igAZ86nClUXoy3n+YpIBhpZFe+RQ/UaOUEVutTuQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "lets-do-vinery",
+          "projectId": "1DWmBJVA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "JcnDYIln",
+      "eaGpG00n"
+    ],
+    "1.21.1+neoforge": [
+      "YiEe15qx",
+      "FlAPIJmU"
+    ]
+  }
+}

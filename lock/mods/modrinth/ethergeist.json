@@ -1,0 +1,58 @@
+{
+  "slug": "ethergeist",
+  "projectId": "HpXG7D2m",
+  "versions": {
+    "3KMGn8Ml": {
+      "filename": "ethergeist-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HpXG7D2m/versions/3KMGn8Ml/ethergeist-1.0.jar",
+      "hash": "sha512-IXyRizQvM6BKXa1/uXIvXKlJA1dKfqpGen5xJvO2ibXfsCP/QShoXC9r7NKcDA9Ksdfai3/RqjcyreXGb/KbZg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "kkT1hMfC": {
+      "filename": "Ethergeist.zip",
+      "url": "https://cdn.modrinth.com/data/HpXG7D2m/versions/kkT1hMfC/Ethergeist.zip",
+      "hash": "sha512-f4jITQZDgaxHDY7QH/HZ4EWaFHW4Pe8p76ZVr43i1rPhvEtEI3DLa7zmqZxW4lWXp8HEenAyzJmutlFB/o0w/A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "kkT1hMfC"
+    ],
+    "1.20.1+fabric": [
+      "3KMGn8Ml"
+    ],
+    "1.20.1+quilt": [
+      "3KMGn8Ml"
+    ]
+  }
+}

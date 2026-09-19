@@ -1,0 +1,52 @@
+{
+  "slug": "more-aspects",
+  "projectId": "DRzJPZ5e",
+  "versions": {
+    "D3F904OQ": {
+      "filename": "aspects-1.jar",
+      "url": "https://cdn.modrinth.com/data/DRzJPZ5e/versions/D3F904OQ/aspects-1.jar",
+      "hash": "sha512-N8Wd0/2cmk5zq1OkLZpohNLGurJRlbX6Ij47DcbHMEVZ2dCphTjzI+hrIsNGa9O+YHJUodl3SKex73b7IdW6/A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "D3F904OQ"
+    ],
+    "1.20.1+fabric": [
+      "D3F904OQ"
+    ],
+    "1.20.2+fabric": [
+      "D3F904OQ"
+    ],
+    "1.20.3+fabric": [
+      "D3F904OQ"
+    ],
+    "1.20.4+fabric": [
+      "D3F904OQ"
+    ]
+  }
+}

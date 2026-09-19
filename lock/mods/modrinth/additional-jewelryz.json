@@ -1,0 +1,68 @@
+{
+  "slug": "additional-jewelryz",
+  "projectId": "ezerDRkb",
+  "versions": {
+    "OmOZaXny": {
+      "filename": "lvlz_additional_jewelry-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ezerDRkb/versions/OmOZaXny/lvlz_additional_jewelry-1.21.1-1.0.jar",
+      "hash": "sha512-4Gi9T78RTI6OpghXRgfvjg04/l6ODlNvyvD2sN1Jt5qHBdzU//Z279C7wUJOKtSKsVLEOCDOjUru3PXWte/yNA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "additional-rpg-jewelry",
+          "projectId": "rULzJh3O",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "PB8hzdpB": {
+      "filename": "additional_jewelryz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ezerDRkb/versions/PB8hzdpB/additional_jewelryz-1.0.jar",
+      "hash": "sha512-iH8PjjqvTfASIyZ1jEEmRljRndcUlf9X2khvPMOiEsb2ttsajak+jHR8JFRhjBAI28WwOTW6bMtKf/6IfQ8vvw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "additional-rpg-jewelry",
+          "projectId": "rULzJh3O",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "PB8hzdpB"
+    ],
+    "1.21.1+fabric": [
+      "OmOZaXny"
+    ],
+    "1.21.1+quilt": [
+      "OmOZaXny"
+    ]
+  }
+}

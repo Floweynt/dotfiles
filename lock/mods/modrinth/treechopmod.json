@@ -1,0 +1,86 @@
+{
+  "slug": "treechopmod",
+  "projectId": "WYceNBJS",
+  "versions": {
+    "AC2lvEJJ": {
+      "filename": "treechopmod-1.1.0+mc26.1.x.jar",
+      "url": "https://cdn.modrinth.com/data/WYceNBJS/versions/AC2lvEJJ/treechopmod-1.1.0%2Bmc26.1.x.jar",
+      "hash": "sha512-hS9hB6NSzLh3spWklxLDI6x06HEo/BksxEdDnobGwS0rD5vVMsRb9ABViMzQnMXxrZ+hpmnJtvhBCepnA65aAw==",
+      "gameVersions": [
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Fw98mBi4": {
+      "filename": "treechopmod-1.0.0+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/WYceNBJS/versions/Fw98mBi4/treechopmod-1.0.0%2Bmc1.21.11.jar",
+      "hash": "sha512-RiDi5vzXy9p1Jy28/TSmG+1ZJEl3kKeDxb11ryeaOtC/nEEAUkRgXIOBPg1kFRCgJR3a8lBosD2jcRXZpcJCgQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "placeholder-api",
+          "projectId": "eXts2L7r",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lEuiny31": {
+      "filename": "treechopmod-1.2.0+mc26.2.x.jar",
+      "url": "https://cdn.modrinth.com/data/WYceNBJS/versions/lEuiny31/treechopmod-1.2.0%2Bmc26.2.x.jar",
+      "hash": "sha512-RAlEya/+tockEiIucQ6rSadqnqA8foS5ReRX1v2SX/iky+ZPIS0qyblMg4RG1N9vxP08w0/HJ/CIQx3D/1wKeA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "Fw98mBi4"
+    ],
+    "26.1.1+fabric": [
+      "AC2lvEJJ"
+    ],
+    "26.1.2+fabric": [
+      "AC2lvEJJ"
+    ],
+    "26.2+fabric": [
+      "lEuiny31"
+    ]
+  }
+}

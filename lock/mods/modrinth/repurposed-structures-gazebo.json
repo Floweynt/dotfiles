@@ -1,0 +1,92 @@
+{
+  "slug": "repurposed-structures-gazebo",
+  "projectId": "H0lxoIBE",
+  "versions": {
+    "TCMUgq2d": {
+      "filename": "repurposed_structures_gazebo_compat_v3.jar",
+      "url": "https://cdn.modrinth.com/data/H0lxoIBE/versions/TCMUgq2d/repurposed_structures_gazebo_compat_v3.jar",
+      "hash": "sha512-HMebDnV8gj05QHTx4FHaIUetRpk1wAhJWZ/O6Hf46baRuM4DhyI3ppIs6l3eqScyyOLubUUgx2YMIHqfeTvyWA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "gazebos",
+          "projectId": "XIpMGI6r",
+          "type": "required"
+        },
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        }
+      ]
+    },
+    "Ui3kVOdx": {
+      "filename": "Repurposed_Structures-Gazebo_v2.zip",
+      "url": "https://cdn.modrinth.com/data/H0lxoIBE/versions/Ui3kVOdx/Repurposed_Structures-Gazebo_v2.zip",
+      "hash": "sha512-aGATMXKiCxUfQZlCC6n2A7VpnWCytxALt5fvjhe72DrfizP5j8IP+Mip5J0sdkekro1MuPm+oQXF/Kq/wxvy3Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        },
+        {
+          "slug": "gazebos",
+          "projectId": "XIpMGI6r",
+          "type": "required"
+        }
+      ]
+    },
+    "jJzq6uee": {
+      "filename": "Repurposed_Structures-Gazebo_v1.zip",
+      "url": "https://cdn.modrinth.com/data/H0lxoIBE/versions/jJzq6uee/Repurposed_Structures-Gazebo_v1.zip",
+      "hash": "sha512-7zpk1suUUHW0BO1G5rCNY/UskoVY31aUlRCvWeyXC89R9CEfD90U72jDIhTJhq1vkwnawbjOUjhodXdTKirL1w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "repurposed-structures-fabric",
+          "projectId": "muf0XoRe",
+          "type": "required"
+        },
+        {
+          "slug": "gazebos",
+          "projectId": "XIpMGI6r",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "jJzq6uee"
+    ],
+    "1.20.1+datapack": [
+      "Ui3kVOdx"
+    ],
+    "1.21.1+fabric": [
+      "TCMUgq2d"
+    ]
+  }
+}

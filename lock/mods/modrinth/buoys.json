@@ -1,0 +1,68 @@
+{
+  "slug": "buoys",
+  "projectId": "dFz831HS",
+  "versions": {
+    "51rWijfq": {
+      "filename": "buoys-0.1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dFz831HS/versions/51rWijfq/buoys-0.1.0%2B1.21.1.jar",
+      "hash": "sha512-sDB7+08eiThk4kCXxugiX/bY0oi8sidbUltHGF1AmUiWWmpcfpdHcrrK6LrofqPMTPTVJONQXUQU/kFYwEeXTQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dAVfI3Io": {
+      "filename": "buoys-0.1.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/dFz831HS/versions/dAVfI3Io/buoys-0.1.1%2B1.21.1.jar",
+      "hash": "sha512-4HtRTJrc2bu7U/K6kB2EwmIyhxubQHVZYmUe9dLOKkxaGubBmdcDxHw8onSExjWunLeXplTXnv53CqEU6yRnzQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "dAVfI3Io",
+      "51rWijfq"
+    ],
+    "1.21+quilt": [
+      "dAVfI3Io",
+      "51rWijfq"
+    ],
+    "1.21.1+fabric": [
+      "dAVfI3Io",
+      "51rWijfq"
+    ],
+    "1.21.1+quilt": [
+      "dAVfI3Io",
+      "51rWijfq"
+    ]
+  }
+}

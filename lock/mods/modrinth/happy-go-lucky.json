@@ -1,0 +1,152 @@
+{
+  "slug": "happy-go-lucky",
+  "projectId": "c8HzJCul",
+  "versions": {
+    "2YvlUKFz": {
+      "filename": "happygolucky-fabric-26.1-1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/c8HzJCul/versions/2YvlUKFz/happygolucky-fabric-26.1-1.0.9.jar",
+      "hash": "sha512-LhRIndjikLYBShDb+0s9yKFZf3t5Q4DQ+mOZVLewoHIkiwTUtqh+ERyFyAQFAz5fnuSEYoz5RlZ73rgeCwEMEg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "632pj9SG": {
+      "filename": "happygolucky-fabric-1.20.1-1.20.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c8HzJCul/versions/632pj9SG/happygolucky-fabric-1.20.1-1.20.4-1.0.0.jar",
+      "hash": "sha512-nuAsCBIPHrC76N2c1ruMaQNkb1KOZOEsJFqrI4vPQp7pHFkifEBZwemo7YgY6Q6xXM4V52TQo5+2FExf/LSVfQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "8MNXeDMQ": {
+      "filename": "happygolucky-forge-1.20.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c8HzJCul/versions/8MNXeDMQ/happygolucky-forge-1.20.4-1.0.0.jar",
+      "hash": "sha512-/JhlyVNd6WuO3ZqSDbjMKAtORIIoRszPs7TIkMZzC6C7D8/PR0Z7k+DqNLAMJl94mnOKntAPYHCLFssZWiHFDA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "lhfWTtcV": {
+      "filename": "happygolucky-neoforge-26.1-1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/c8HzJCul/versions/lhfWTtcV/happygolucky-neoforge-26.1-1.0.9.jar",
+      "hash": "sha512-pW5uLVEYu8nNHGa7iPl/q6G6dqsYjSsCrJK4DLjfJ8MAlq8E83qu2aYdXRm5Z0Qq5ftNfdNBVcwmxIJcQfhC4Q==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mOrqyx78": {
+      "filename": "happygolucky-forge-26.1-1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/c8HzJCul/versions/mOrqyx78/happygolucky-forge-26.1-1.0.9.jar",
+      "hash": "sha512-BCYdPW55e/a7g48uz6dHoOVB+GRHW5Zj8oEBKtXjeoe2olWqaGr+imcZI6vAL50U21YNE4wO1s5TPVOgoeLgGg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "wcQuMmFf": {
+      "filename": "happygolucky-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/c8HzJCul/versions/wcQuMmFf/happygolucky-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-yZHXl86pKWcdr/kF4ueXTihCQ0e9yrntIYk94EWIWaZWH/KgR6h6XyHfecj/4dHaRdLaO3x9YmJ3T/pEtqA/kQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "632pj9SG"
+    ],
+    "1.20.1+forge": [
+      "wcQuMmFf"
+    ],
+    "1.20.2+fabric": [
+      "632pj9SG"
+    ],
+    "1.20.3+fabric": [
+      "632pj9SG"
+    ],
+    "1.20.4+fabric": [
+      "632pj9SG"
+    ],
+    "1.20.4+forge": [
+      "8MNXeDMQ"
+    ],
+    "26.1+fabric": [
+      "2YvlUKFz"
+    ],
+    "26.1+forge": [
+      "mOrqyx78"
+    ],
+    "26.1+neoforge": [
+      "lhfWTtcV"
+    ],
+    "26.1.1+fabric": [
+      "2YvlUKFz"
+    ],
+    "26.1.1+forge": [
+      "mOrqyx78"
+    ],
+    "26.1.1+neoforge": [
+      "lhfWTtcV"
+    ],
+    "26.1.2+fabric": [
+      "2YvlUKFz"
+    ],
+    "26.1.2+forge": [
+      "mOrqyx78"
+    ],
+    "26.1.2+neoforge": [
+      "lhfWTtcV"
+    ]
+  }
+}

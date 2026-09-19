@@ -1,0 +1,150 @@
+{
+  "slug": "dimensional-kitsune",
+  "projectId": "JjhocwD9",
+  "versions": {
+    "1LeSLhNX": {
+      "filename": "Dimensional Kitsune v1.0.0 FABRIC.zip",
+      "url": "https://cdn.modrinth.com/data/JjhocwD9/versions/1LeSLhNX/Dimensional%20Kitsune%20v1.0.0%20FABRIC.zip",
+      "hash": "sha512-dJP1PSmYXwp4EMYyVH7ws+G4YbIXzIYhtDXeX+LDE+2ch2I3jfDtuLk+lXmpgatO5eZ8cJu6BeWcecg4Otw2rg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "origins-extra-keybinds-fabric",
+          "projectId": "6b2RpJpx",
+          "type": "required"
+        }
+      ]
+    },
+    "HF0VqxeB": {
+      "filename": "dimensional-kitsune-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JjhocwD9/versions/HF0VqxeB/dimensional-kitsune-1.0.0.jar",
+      "hash": "sha512-Ag3i1/G/hwYWjqNy0ifCQTxV0klIfMrCfPpkHhkaT0oEQMYBN3gBG2+MciJf020gDHTrgg7lM+EcrIBD42Q+6Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        }
+      ]
+    },
+    "ZqM9XhLm": {
+      "filename": "dimensional-kitsune-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JjhocwD9/versions/ZqM9XhLm/dimensional-kitsune-1.0.0.jar",
+      "hash": "sha512-j5xdn4T6f7UTNIGrjNdDiJDSnwbiVk+mvaPFuSIu91erXLeflz08Fe8QJomx/oF/VakSn2gugRqSVhSBKt3otg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "origins-extra-keybinds-fabric",
+          "projectId": "6b2RpJpx",
+          "type": "required"
+        }
+      ]
+    },
+    "gNoqDVpb": {
+      "filename": "Dimensional Kitsune v1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/JjhocwD9/versions/gNoqDVpb/Dimensional%20Kitsune%20v1.0.0.zip",
+      "hash": "sha512-6i9NyH95ineBvXpZ4OCGwcrY0D/35OFHIMWt22TeA8lWmZrw0IEU6XS2v6BouuWn+fLPbMWiKGnsbPYihvX/Jg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "gNoqDVpb",
+      "1LeSLhNX"
+    ],
+    "1.20.1+fabric": [
+      "ZqM9XhLm",
+      "1LeSLhNX"
+    ],
+    "1.20.1+forge": [
+      "HF0VqxeB",
+      "gNoqDVpb"
+    ],
+    "1.20.1+neoforge": [
+      "HF0VqxeB",
+      "gNoqDVpb"
+    ],
+    "1.20.1+quilt": [
+      "ZqM9XhLm",
+      "1LeSLhNX"
+    ],
+    "1.20.2+datapack": [
+      "1LeSLhNX"
+    ],
+    "1.20.2+fabric": [
+      "ZqM9XhLm",
+      "1LeSLhNX"
+    ],
+    "1.20.2+quilt": [
+      "ZqM9XhLm",
+      "1LeSLhNX"
+    ],
+    "1.20.4+datapack": [
+      "1LeSLhNX"
+    ],
+    "1.20.4+fabric": [
+      "ZqM9XhLm",
+      "1LeSLhNX"
+    ],
+    "1.20.4+quilt": [
+      "ZqM9XhLm",
+      "1LeSLhNX"
+    ]
+  }
+}

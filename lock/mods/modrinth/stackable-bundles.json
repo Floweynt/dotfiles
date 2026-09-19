@@ -1,0 +1,77 @@
+{
+  "slug": "stackable-bundles",
+  "projectId": "Hs0QCDz6",
+  "versions": {
+    "Mk2K9ezb": {
+      "filename": "stackable-bundles-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Hs0QCDz6/versions/Mk2K9ezb/stackable-bundles-1.1.jar",
+      "hash": "sha512-knBwBCMOXtgQvaxcdR83tGbjJyTDp0sM0h0YqtOqt+Js3yxItxYrjtNJOC28PJ/mssqEjbCECAZ5F/A1tktF6w==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "YO94NtV2": {
+      "filename": "stackable-bundles-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Hs0QCDz6/versions/YO94NtV2/stackable-bundles-1.1.jar",
+      "hash": "sha512-t1eLDBglIRX0te3j8CBc4Sg+G6k1pP2z5SBjRC/NGi5V3E+eLyWJSNK/h+3Feo76SKfs1oZ/FxbEA96Mo+i70g==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "bLYyi6my": {
+      "filename": "stackable-bundles-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Hs0QCDz6/versions/bLYyi6my/stackable-bundles-1.0.jar",
+      "hash": "sha512-OmrxVmWi2eXg9PFSAftlFbKJlQiT5CaS9rXTUZixvR0fTgIRub13O6NBRY/9UHBujt6BSB3hJtHCy06+7i8cSg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "bLYyi6my"
+    ],
+    "1.21.5+fabric": [
+      "Mk2K9ezb"
+    ],
+    "1.21.6+fabric": [
+      "YO94NtV2"
+    ]
+  }
+}

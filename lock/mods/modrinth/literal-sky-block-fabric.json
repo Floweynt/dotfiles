@@ -1,0 +1,62 @@
+{
+  "slug": "literal-sky-block-fabric",
+  "projectId": "MYeliX3Q",
+  "versions": {
+    "7zLKbRj3": {
+      "filename": "literal-sky-block-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/MYeliX3Q/versions/7zLKbRj3/literal-sky-block-1.0.0.jar",
+      "hash": "sha512-tAzrmE2Pip7+LGQLNT0ja7St7BRw5a+t64gA2jsfa//ni14iEc2O8Ptvpd+z9NRL9DUckICiWL6NVUEsYXR75A==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Z1ebOzYc": {
+      "filename": "literal-sky-block-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/MYeliX3Q/versions/Z1ebOzYc/literal-sky-block-1.1.0.jar",
+      "hash": "sha512-PgB+rc4qnIf9kgxOMLWTR85iRb0ey7rouXFf7Gd3t59a1LzU0zeiMgG5IXL6QVF6PIbeEcjiczznGSItquHYyg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "7zLKbRj3"
+    ],
+    "1.18.2+quilt": [
+      "7zLKbRj3"
+    ],
+    "1.19.2+fabric": [
+      "Z1ebOzYc"
+    ],
+    "1.19.2+quilt": [
+      "Z1ebOzYc"
+    ]
+  }
+}

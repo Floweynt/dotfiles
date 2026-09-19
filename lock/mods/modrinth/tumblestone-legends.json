@@ -1,0 +1,74 @@
+{
+  "slug": "tumblestone-legends",
+  "projectId": "4xQ7weZ9",
+  "versions": {
+    "B10qxTv8": {
+      "filename": "tumblestone-legends-0.1.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/4xQ7weZ9/versions/B10qxTv8/tumblestone-legends-0.1.1-beta.jar",
+      "hash": "sha512-ZzKXRG8iTIuPpV1H1czQ90ohVFQborPw2KQWJIEEzZPXkla7S350IHt6cVpQv+zXJq80ht5hPtwRu/VvE/VedA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "ue44vO4C": {
+      "filename": "tumblestone-legends-0.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/4xQ7weZ9/versions/ue44vO4C/tumblestone-legends-0.1-beta.jar",
+      "hash": "sha512-ZP7qvWrXVALogVcL+EA+0Sb0+TsZwXFuvvFO0G6luSFQDB2A6O4ZJ2PC9Mb8vyHM4vN14Jm9Zv37vdQ8E7eUDQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "uhJLNn5e": {
+      "filename": "tumblestonelegends-neoforge-0.1.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/4xQ7weZ9/versions/uhJLNn5e/tumblestonelegends-neoforge-0.1.1-beta.jar",
+      "hash": "sha512-hM0N7xC1acBuKBxrHND5cLwHqs+Nu7pgUbM8VeZKfmpowm94nZ4iOsB3Owne9Sq1ekFbNIE3pL3W1IY41t6xbg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "B10qxTv8",
+      "ue44vO4C"
+    ],
+    "1.21.1+neoforge": [
+      "uhJLNn5e"
+    ]
+  }
+}

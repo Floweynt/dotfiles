@@ -1,0 +1,36 @@
+{
+  "slug": "flyd",
+  "projectId": "28oSGRNC",
+  "versions": {
+    "hlf37ej1": {
+      "filename": "flyd-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/28oSGRNC/versions/hlf37ej1/flyd-0.1.0.jar",
+      "hash": "sha512-PeFI7u+jchfk8/WI2qdo1zlaHHbQsTD1nUxd4PGsLStt5ZYjkiFWMB+E5O2oH+JjotYsdzlKrhHOdiH3PjPQ/g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "hlf37ej1"
+    ]
+  }
+}

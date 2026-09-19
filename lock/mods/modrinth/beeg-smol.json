@@ -1,0 +1,52 @@
+{
+  "slug": "beeg-smol",
+  "projectId": "TtKxsI01",
+  "versions": {
+    "DfVLjUqM": {
+      "filename": "beeg-smol-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TtKxsI01/versions/DfVLjUqM/beeg-smol-1.1.0.jar",
+      "hash": "sha512-T1tK0cOwDVmslVVZdM5ohi2GVRcFpcxCycfkcn1BYkMB2FxYUm2QyVX51yFjYsXDB87j0ZwO/nai130YMTgiPQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qwfbuVZ6": {
+      "filename": "beeg-smol-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TtKxsI01/versions/qwfbuVZ6/beeg-smol-1.0.0.jar",
+      "hash": "sha512-EMx/iKFc+EjXYhneDRH61hILJPRslFvKsQUqW3bsMYtHtErGwjG2blL5bgMPZARr6It6aWoHXzrcTzYT9LDBtg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "DfVLjUqM",
+      "qwfbuVZ6"
+    ]
+  }
+}

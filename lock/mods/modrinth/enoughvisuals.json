@@ -1,0 +1,78 @@
+{
+  "slug": "enoughvisuals",
+  "projectId": "5otNeFmH",
+  "versions": {
+    "58YtrIPN": {
+      "filename": "enoughvisuals-2.5.jar",
+      "url": "https://cdn.modrinth.com/data/5otNeFmH/versions/58YtrIPN/enoughvisuals-2.5.jar",
+      "hash": "sha512-MjDwb/LU+Kes2rZx1fTcaLRSktUaR6DUTE6FG0aymRR1sYbKDPw6LVXas3agmIV/l1J5p6ZYFjdK4+1+bX+qgA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FrGZCNGp": {
+      "filename": "enoughvisuals-2.5.3.jar",
+      "url": "https://cdn.modrinth.com/data/5otNeFmH/versions/FrGZCNGp/enoughvisuals-2.5.3.jar",
+      "hash": "sha512-LIt0TzUtSuu5vxYIu2+12tByvaSxL9pSqqhUeu9ABrtp9PSWantS61fyNHGcON19Tt0QNIh3jSrwj3qHF1IoAg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Vo7focWN": {
+      "filename": "enoughvisuals-2.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/5otNeFmH/versions/Vo7focWN/enoughvisuals-2.5.1.jar",
+      "hash": "sha512-8hyHkFStwWdkMCPebMnR/xQQV1upjoA8igonNVLrj/8OlGBk7V3w6JVAUMOLH19wC9raMpN11DnaWB5Mv8WEXA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dmrZKG90": {
+      "filename": "enoughvisuals-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/5otNeFmH/versions/dmrZKG90/enoughvisuals-1.0.jar",
+      "hash": "sha512-7sUjb7oj2YQ2TmDB9xos6dw5qGmLkiYpLRfCTcZmCWeWTc67z7HNoMGao8q0XtavoMGBXLFNk0qIlqfhmZjl8g==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+forge": [
+      "dmrZKG90"
+    ],
+    "1.21.4+fabric": [
+      "FrGZCNGp",
+      "Vo7focWN",
+      "58YtrIPN"
+    ]
+  }
+}

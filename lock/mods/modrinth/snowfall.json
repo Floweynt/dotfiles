@@ -1,0 +1,42 @@
+{
+  "slug": "snowfall",
+  "projectId": "hN4P46yA",
+  "versions": {
+    "MFB5rh69": {
+      "filename": "snowfall-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hN4P46yA/versions/MFB5rh69/snowfall-1.0.0.jar",
+      "hash": "sha512-vXSoj0U0T+pBUY78SuvVhbxyuJbMntfe/yzkuta3t9WK4S1Ui21zw4e5+fq1XS9rZCNAAlfhK8EeqaLYWuJFTw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kQaZgtnC": {
+      "filename": "snowfall-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/hN4P46yA/versions/kQaZgtnC/snowfall-1.0.0-fabric.jar",
+      "hash": "sha512-Gs2lYenPcKMiELm8W9x5brHAGXay8AIeOMxomuUslGOBr59dQ5cHK7qvTcerhtlMW5x4GjvNdCLj16ROh8DbkQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kQaZgtnC"
+    ],
+    "1.20.1+forge": [
+      "MFB5rh69"
+    ]
+  }
+}

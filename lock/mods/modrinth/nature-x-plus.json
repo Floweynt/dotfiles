@@ -1,0 +1,63 @@
+{
+  "slug": "nature-x-plus",
+  "projectId": "VYVjUrQY",
+  "versions": {
+    "DhVPHwKC": {
+      "filename": "nature-x-plus-2.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/VYVjUrQY/versions/DhVPHwKC/nature-x-plus-2.0.3.jar",
+      "hash": "sha512-y1oOl3sJVdDeWIaZnohse/FL2qSM3J9uz8F+vwVGu+adcE00OrEWY+2IuCVpSyuc4kWq93CWWZLv8SMRBsd53g==",
+      "gameVersions": [
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "OBM0ELAV": {
+      "filename": "nature-x-plus-2.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/VYVjUrQY/versions/OBM0ELAV/nature-x-plus-2.0.8.jar",
+      "hash": "sha512-IzVAJF9tgYNYW0F40j4UuNAWINNtefyHWgnMOZq/WnKazOPesr0LsqocbBE8hN9m/4uikBa2fcVQbHCSuk1+qg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Sqcwa6Ju": {
+      "filename": "nature-x-plus-2.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/VYVjUrQY/versions/Sqcwa6Ju/nature-x-plus-2.0.9.jar",
+      "hash": "sha512-btcmizX/klndMjfS88agQCRq209rkyPMCz12bIQlyhfkFi1h0oe2BjC/wLsXgL/2KDTzWUSI2nQr7/LVkKT3RQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1.1+fabric": [
+      "DhVPHwKC"
+    ],
+    "26.1.2+fabric": [
+      "Sqcwa6Ju",
+      "OBM0ELAV"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "disable-new-world-creation-screen",
+  "projectId": "hpXiq9nb",
+  "versions": {
+    "auhQqyX1": {
+      "filename": "disable_new_world_screen-fabric-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/hpXiq9nb/versions/auhQqyX1/disable_new_world_screen-fabric-1.20.1-1.1.0.jar",
+      "hash": "sha512-XapeoDfj8F2dO49y19OE/Sij22eJuWmIkullHxsdO81s3AS1rfu6lgnSn4eTF1We0wniUHrVHScw3k+yantZqQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "library-ferret",
+          "projectId": "DOB2l4oJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "auhQqyX1"
+    ]
+  }
+}

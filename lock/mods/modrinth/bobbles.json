@@ -1,0 +1,100 @@
+{
+  "slug": "bobbles",
+  "projectId": "7tqMHDsZ",
+  "versions": {
+    "867QHvS5": {
+      "filename": "bobbles-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/7tqMHDsZ/versions/867QHvS5/bobbles-1.0.1.jar",
+      "hash": "sha512-5qcqPcrW2tTqUJWsd+QmBZKRipn489t1U7SnvCp1i0TmJSKy6F8PUhDQOW7FfcIlOML5Qzil1RRhoXulBUC1dQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "AUTQ0EI2": {
+      "filename": "bobbles-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/7tqMHDsZ/versions/AUTQ0EI2/bobbles-1.1.jar",
+      "hash": "sha512-HndlGgUs8lwnPkiog46NbbBKxFy61/kWIGNYwA2FSLWcBkjboLXT6hC7WH3HKGz2cJyKqpCSPddYLB7Nt+wM/Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "EBmP9tz4": {
+      "filename": "bobbles-1.1-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/7tqMHDsZ/versions/EBmP9tz4/bobbles-1.1-1.21.10.jar",
+      "hash": "sha512-aM3n4YBwzOj9TKL1gU9u7CbrAP6wD/3pjP+mGuUI0s87kwM3VCdlTCr1IUoVfvo7qx85OgMmEsqNXjmBCnbGWA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sJ2oebet": {
+      "filename": "hand-bobbing-only-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/7tqMHDsZ/versions/sJ2oebet/hand-bobbing-only-1.0.0.jar",
+      "hash": "sha512-gtBF39O4KtKmT9rgjNc/iv9KGzXJjoqtOIwBLsQjEuY0RXPNTupxg+ZZRSlZMgCFacoGPaZhGeuz9+LG2Kzocw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "EBmP9tz4",
+      "867QHvS5",
+      "sJ2oebet"
+    ],
+    "1.21.11+fabric": [
+      "AUTQ0EI2"
+    ]
+  }
+}

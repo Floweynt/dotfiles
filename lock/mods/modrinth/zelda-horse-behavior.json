@@ -1,0 +1,77 @@
+{
+  "slug": "zelda-horse-behavior",
+  "projectId": "D8xCAjWo",
+  "versions": {
+    "5tQLdSee": {
+      "filename": "zelda-horse-behavior-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/D8xCAjWo/versions/5tQLdSee/zelda-horse-behavior-1.0.2.jar",
+      "hash": "sha512-BWx1o94rsC+1cqjw7qJi2NKjBuVatoyZ5jGwv4Uqol9KqaY0m3QXINEBaOqc1Mk1x8jDzUcrjEinMqVz0PXJHA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MCS3ObHF": {
+      "filename": "zelda-horse-behavior-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/D8xCAjWo/versions/MCS3ObHF/zelda-horse-behavior-1.0.1.jar",
+      "hash": "sha512-0Iz2LMNCaofYmgQ4kX+mXFgQkfsYqA2U5PI1WfoPWUw3n2rSasS2DO2jbFLA/eZDMPiU7m04tKFl2rPLtm1Wng==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VdUuhNCF": {
+      "filename": "zelda-horse-behavior-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/D8xCAjWo/versions/VdUuhNCF/zelda-horse-behavior-1.0.0.jar",
+      "hash": "sha512-zLvOifWlAjkZDD3mM635PsOTaG5rOyUjBjlyDfIR6Np6ZRb/HJ9oBRfuLVRYLHpCOuye/64xnltr8KUYNzaNLA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VdUuhNCF"
+    ],
+    "1.21.1+fabric": [
+      "MCS3ObHF"
+    ],
+    "1.21.10+fabric": [
+      "5tQLdSee"
+    ]
+  }
+}

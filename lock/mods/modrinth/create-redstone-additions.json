@@ -1,0 +1,136 @@
+{
+  "slug": "create-redstone-additions",
+  "projectId": "AoEzBC2h",
+  "versions": {
+    "6tTdwr0O": {
+      "filename": "create_redstone_additions-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AoEzBC2h/versions/6tTdwr0O/create_redstone_additions-forge-1.0.0.jar",
+      "hash": "sha512-Eqxn+53hAJk79PaVu6nKX8VRpDolnsNfMhjuBq6Q8HCrfDq20JiK+k9ifEb7xdbcLU09D7KbIvwJXCHsor1oSw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "87aIL0Z4": {
+      "filename": "create_redstone_additions-forge-1.0.1-12.jar",
+      "url": "https://cdn.modrinth.com/data/AoEzBC2h/versions/87aIL0Z4/create_redstone_additions-forge-1.0.1-12.jar",
+      "hash": "sha512-scsl11R6KMg++b0m6r6G/9Jbe95o717fq7osyCGv0rUNNOZqQjIuTOEwT7Xm7N8/KljTxq1vUc8Vok1k2R5a8g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "F0RWAd0z": {
+      "filename": "create_redstone_additions-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AoEzBC2h/versions/F0RWAd0z/create_redstone_additions-fabric-1.0.0.jar",
+      "hash": "sha512-4Mk97UMvI/6mO45VHYtROQ7kQ0bmRfqxvNYsN7/w7wmLTt92RThRzd3z7OSOseDgsFTPvUED9uGwoxC8fWpl9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "edVteMfh": {
+      "filename": "create-redstone-additions-forge-0.9+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AoEzBC2h/versions/edVteMfh/create-redstone-additions-forge-0.9%2Bmc1.20.1.jar",
+      "hash": "sha512-4FpXvgty5PkNfNlRX8g8r2a0YG/QGNIlGvu6dnMEiaW0GjL9mZFTtlF+We/vpnBWOXYLyw37idslAbOw3ENfGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "f9e3YZ0g": {
+      "filename": "create_redstone_additions-fabric-1.0.1-12.jar",
+      "url": "https://cdn.modrinth.com/data/AoEzBC2h/versions/f9e3YZ0g/create_redstone_additions-fabric-1.0.1-12.jar",
+      "hash": "sha512-LWhr4QzrvpCVwrRhdAk64gqof9T4rrE4aiGBfyq7+wzILyaMRhjYvi8abfUhm2d+JnrbP5rWxzEP6+iXr1Bj+A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "tS8PP38W": {
+      "filename": "create-redstone-additions-fabric-0.9+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/AoEzBC2h/versions/tS8PP38W/create-redstone-additions-fabric-0.9%2Bmc1.20.1.jar",
+      "hash": "sha512-Xjikla1NYsO+E+6aUPgsb4Mb4NpHkzh/Nuq/1p3T6bgUQGPvMmJfoqSNKZ412eXpuhGK5K8b/hIImivwmhV8/w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "f9e3YZ0g",
+      "F0RWAd0z",
+      "tS8PP38W"
+    ],
+    "1.20.1+forge": [
+      "87aIL0Z4",
+      "6tTdwr0O",
+      "edVteMfh"
+    ]
+  }
+}

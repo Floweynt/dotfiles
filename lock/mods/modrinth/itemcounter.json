@@ -1,0 +1,118 @@
+{
+  "slug": "itemcounter",
+  "projectId": "3S3yMqrs",
+  "versions": {
+    "ADbg3NRc": {
+      "filename": "itemcounter-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/3S3yMqrs/versions/ADbg3NRc/itemcounter-1.0.jar",
+      "hash": "sha512-I6hQxXTxUTIU4Nb5XahI7IeTqTLn9G9b6doc4a4A7fKroXb44bU6c6xvk81PIdTuyybno4tfytGLkme+vYsGag==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "crafted-core",
+          "projectId": "Dg7PHdkJ",
+          "type": "required"
+        }
+      ]
+    },
+    "ApoJid8q": {
+      "filename": "itemcounter-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/3S3yMqrs/versions/ApoJid8q/itemcounter-1.0.jar",
+      "hash": "sha512-z0DwvYaSX2v7ZDPtd0p18qqIQvHestanNMEtETjN1kM8tdKqWSGu6ZBv3ktkp1Q2SJIlK64CptM9aVvd1seY6A==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "crafted-core",
+          "projectId": "Dg7PHdkJ",
+          "type": "required"
+        }
+      ]
+    },
+    "gtaUrt83": {
+      "filename": "itemcounter-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/3S3yMqrs/versions/gtaUrt83/itemcounter-1.0.jar",
+      "hash": "sha512-XYO/0nperbgnYT0qD36UfCsLByOJDJmoheD3MPmZYHgt/hJ6y8vUgBuLaxH2AdgFWHpMF1kM7XLWT6Ksfg/UUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "crafted-core",
+          "projectId": "Dg7PHdkJ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qZpBQfzJ": {
+      "filename": "itemcounter-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/3S3yMqrs/versions/qZpBQfzJ/itemcounter-1.0.jar",
+      "hash": "sha512-7q6E+P80btUhEcApgG/McsgvM6r2tHDbRwx1aVQ7mFFZJ3MwyiCROCF5wDTxmy9HwGoUEtWtNlj6vSI7TRQEqw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "crafted-core",
+          "projectId": "Dg7PHdkJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "ApoJid8q"
+    ],
+    "1.19.2+forge": [
+      "qZpBQfzJ"
+    ],
+    "1.19.2+quilt": [
+      "ApoJid8q"
+    ],
+    "1.20.1+fabric": [
+      "gtaUrt83"
+    ],
+    "1.20.1+forge": [
+      "ADbg3NRc"
+    ],
+    "1.20.1+quilt": [
+      "gtaUrt83"
+    ]
+  }
+}

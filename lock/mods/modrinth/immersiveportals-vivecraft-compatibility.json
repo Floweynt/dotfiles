@@ -1,0 +1,36 @@
+{
+  "slug": "immersiveportals-vivecraft-compatibility",
+  "projectId": "vKaTkLXu",
+  "versions": {
+    "cILqiCTr": {
+      "filename": "ImmersivePortalsVivecraftCompatibility 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vKaTkLXu/versions/cILqiCTr/ImmersivePortalsVivecraftCompatibility%201.0.0.jar",
+      "hash": "sha512-VLPpzb77pJ6hdn/9zjRudfIqGey9I84Un5Iex+yf0lDMYLQDzpj04qyQq4kTp+FOzYmHRL1qkSEy/YDyyQrELA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "vivecraft",
+          "projectId": "wGoQDPN5",
+          "type": "required"
+        },
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "cILqiCTr"
+    ]
+  }
+}

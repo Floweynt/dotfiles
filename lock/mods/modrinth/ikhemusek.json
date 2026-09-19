@@ -1,0 +1,61 @@
+{
+  "slug": "ikhemusek",
+  "projectId": "IAkmvVSK",
+  "versions": {
+    "Dt5vIB5k": {
+      "filename": "ikhemusek-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/IAkmvVSK/versions/Dt5vIB5k/ikhemusek-1.0.3.jar",
+      "hash": "sha512-zaPZ0No8nutZ/UrjjSC7Zepr0LIsgUPtUZP7EXrKAcVsbYtw1tBIzUsCFWdGRDhN6YEtAW38UYZr1kUww9swpQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "W9Jx8pvQ": {
+      "filename": "ikhemusek-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IAkmvVSK/versions/W9Jx8pvQ/ikhemusek-1.0.0.jar",
+      "hash": "sha512-tSxyaH4HmwXqBBtCD0pcIFl+sBm82h0pzrZCl7kq511VTgM6awKzuVFALCJsGaPwDHqVnMQipySW3vqZvtVZnQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tTkUhC8r": {
+      "filename": "ikhemusek-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/IAkmvVSK/versions/tTkUhC8r/ikhemusek-1.0.1.jar",
+      "hash": "sha512-9jiAeMWMv6gpIiq4yFpoUjSDc/McWxQN3Z/6iY83LdMyxRqVSvZ6OGAfgRvCyCsFHnQ4OwiPe2g+y6pjqr3pqA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "Dt5vIB5k",
+      "tTkUhC8r",
+      "W9Jx8pvQ"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "sculkling-origin",
+  "projectId": "2wqICE0p",
+  "versions": {
+    "7oKo8Ngc": {
+      "filename": "Sculkling-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/2wqICE0p/versions/7oKo8Ngc/Sculkling-1.20.jar",
+      "hash": "sha512-d3qj09ZxH4CoGbOoieZMUcNPcWuO1XIcaQu7QQeQZ1BsOcO0ljz93lAUJL3OfR30Ooy8RoPRfknIYrQE/ygHIg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "7oKo8Ngc"
+    ],
+    "1.20+quilt": [
+      "7oKo8Ngc"
+    ],
+    "1.20.1+fabric": [
+      "7oKo8Ngc"
+    ],
+    "1.20.1+quilt": [
+      "7oKo8Ngc"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "create-aeronautics-ultimatefactory-recipe-fix",
+  "projectId": "mFXRseBe",
+  "versions": {
+    "6jilnoQc": {
+      "filename": "recipefixX.zip",
+      "url": "https://cdn.modrinth.com/data/mFXRseBe/versions/6jilnoQc/recipefixX.zip",
+      "hash": "sha512-hqgSfAAaqkjHIh1nJ+1kh5OQwWAfsU/CT6u+pbK/3NIGW950s0fAFYU8d5xGtSKkNAI1OvomWPiCaDZbrl39Qg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-aeronautics",
+          "projectId": "oWaK0Q19",
+          "type": "required"
+        },
+        {
+          "slug": "create-ultimate-factory",
+          "projectId": "N9QToVpw",
+          "type": "required"
+        }
+      ]
+    },
+    "NSN8DKNx": {
+      "filename": "create-aeronautics-ultimatefactory-recipe-fix-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/mFXRseBe/versions/NSN8DKNx/create-aeronautics-ultimatefactory-recipe-fix-0.1.jar",
+      "hash": "sha512-zZxbSfq0F33rXxSSXyyU+kf+liIw4qSFDxUtUeae5sLbjDuQskOs6BpYEwyQX/V+JSzhjCDWgoz9Lm3Lhomk8w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-ultimate-factory",
+          "projectId": "N9QToVpw",
+          "type": "required"
+        },
+        {
+          "slug": "create-aeronautics",
+          "projectId": "oWaK0Q19",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "6jilnoQc"
+    ],
+    "1.21+fabric": [
+      "NSN8DKNx"
+    ],
+    "1.21+forge": [
+      "NSN8DKNx"
+    ],
+    "1.21+neoforge": [
+      "NSN8DKNx"
+    ],
+    "1.21+quilt": [
+      "NSN8DKNx"
+    ],
+    "1.21.1+datapack": [
+      "6jilnoQc"
+    ],
+    "1.21.1+fabric": [
+      "NSN8DKNx"
+    ],
+    "1.21.1+forge": [
+      "NSN8DKNx"
+    ],
+    "1.21.1+neoforge": [
+      "NSN8DKNx"
+    ],
+    "1.21.1+quilt": [
+      "NSN8DKNx"
+    ]
+  }
+}

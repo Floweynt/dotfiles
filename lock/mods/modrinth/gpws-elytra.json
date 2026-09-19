@@ -1,0 +1,36 @@
+{
+  "slug": "gpws-elytra",
+  "projectId": "dfprbXqF",
+  "versions": {
+    "YTgLOHMO": {
+      "filename": "gpws-elytra-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/dfprbXqF/versions/YTgLOHMO/gpws-elytra-0.0.2.jar",
+      "hash": "sha512-Ly3yZ1Li2aqUBO1GoaLMYFjjn/u2v4Ihasz/yODRdSdcp8/s32Td8MVPB6YnYynNGvyvMLKNloBnb3np10ljPA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "YTgLOHMO"
+    ]
+  }
+}

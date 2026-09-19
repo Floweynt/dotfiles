@@ -1,0 +1,118 @@
+{
+  "slug": "creator-tools",
+  "projectId": "4nCNvl1W",
+  "versions": {
+    "4lgX7kjE": {
+      "filename": "creatortools-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4nCNvl1W/versions/4lgX7kjE/creatortools-2.0.0.jar",
+      "hash": "sha512-8vFOnw73GR/Af3QD5EPD2EoS1eCi0AAD72QIcLnpylds5b2/J5Mmvz1y3qgtyo5Nh888NOki/sQYfGWmBu8scQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "BtU67epP": {
+      "filename": "creatortools-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4nCNvl1W/versions/BtU67epP/creatortools-1.0.0.jar",
+      "hash": "sha512-zAVcmhG0dfxDGNiDNA8Wqzi/urst/8PWApqs/svXBdwPP/eKZspPBlA3w2Oq2j4CnbV2IBeFrI8Mqm+lxgp57A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "HTOdmbPn": {
+      "filename": "creatortools-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/4nCNvl1W/versions/HTOdmbPn/creatortools-2.1.0.jar",
+      "hash": "sha512-6K7h2Q9ZIG2JANFAQuzTIlYfLfKee07k+FbWsHLQ0tIqepNQhKK9Igz7bXD01PP5q4EbrB9WQvsNfJNrjJMMPA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mVDcHhY8": {
+      "filename": "creatortools-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/4nCNvl1W/versions/mVDcHhY8/creatortools-1.0.1.jar",
+      "hash": "sha512-b8b73ZoXwmyJwit1TCVdR1jp20YLpyY+QtjQpja9UD4u/pBoxmq45PXcKIEy0wYrSxpMEO8eR1u4s9DBiCN3nw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HTOdmbPn",
+      "4lgX7kjE",
+      "mVDcHhY8",
+      "BtU67epP"
+    ],
+    "1.20.2+fabric": [
+      "HTOdmbPn"
+    ]
+  }
+}

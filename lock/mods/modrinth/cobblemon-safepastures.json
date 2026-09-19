@@ -1,0 +1,134 @@
+{
+  "slug": "cobblemon-safepastures",
+  "projectId": "qpe01spE",
+  "versions": {
+    "1HjxHmNv": {
+      "filename": "SafePastures-1.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/qpe01spE/versions/1HjxHmNv/SafePastures-1.1.0%2B1.20.1.jar",
+      "hash": "sha512-AuEqi1iZG0vmP8fy/wORYpzsg9PdQkUH0i7iL5Xs4zhqFOHz9hOjrHdfJ/RFjsCHJjFdGacu743+ldaaeyUUvQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZIowP3NQ": {
+      "filename": "SafePastures-1.1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/qpe01spE/versions/ZIowP3NQ/SafePastures-1.1.0%2B1.21.1.jar",
+      "hash": "sha512-Wevmk6FldSY3aYMJj9qpLAZRrPCkKP4cdB+aXFC5zrzqj9/NQ6QfEvXg49ukSJSTLNcF6tX44AgCbyTxTenl7w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ahfbSTCi": {
+      "filename": "SafePastures-1.1.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/qpe01spE/versions/ahfbSTCi/SafePastures-1.1.1%2B1.21.1.jar",
+      "hash": "sha512-xb/9Q4w+AmfNsH9OrO5Auk/LQThwZMDzEXJlHk4TdEPVPFUsr0B63bsTsiLF2K1NDBCZWT5v290bYL+LP9qJ4A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "ksQrqbFQ": {
+      "filename": "SafePastures-1.1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/qpe01spE/versions/ksQrqbFQ/SafePastures-1.1.0%2B1.21.1.jar",
+      "hash": "sha512-Brgxtkva0qvCtTUjDfN7ANYc0yRcIn3Kb2t6xxclcvUx91D2QwuWcv43nsDU85v9vg6eeS1N6AA201ohHf+QjA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "s58N9Vy1": {
+      "filename": "SafePastures-1.1.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/qpe01spE/versions/s58N9Vy1/SafePastures-1.1.1%2B1.21.1.jar",
+      "hash": "sha512-9x3Uu6TRhtsOd9ytGSnuz0uTZM2mM5ttTxltB7+6jYcBrm6yotk487eJa+rrErOAW774rKHhSoKzpakNWJ/Abg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1HjxHmNv"
+    ],
+    "1.21.1+fabric": [
+      "ahfbSTCi",
+      "ZIowP3NQ"
+    ],
+    "1.21.1+neoforge": [
+      "s58N9Vy1",
+      "ksQrqbFQ"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "pvp-hitboxes",
+  "projectId": "JjuYpidr",
+  "versions": {
+    "KcnuwQsZ": {
+      "filename": "PVPHitboxes-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JjuYpidr/versions/KcnuwQsZ/PVPHitboxes-fabric-1.0.jar",
+      "hash": "sha512-02EbfmJpECVo1WUYCEHr2MEmATuvLrT1os+6Pk5+35DoKAt01lExylMnk1Ba/w4W0GORofpf+wVBdtd8KqzyQA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "mq9JWxJ8": {
+      "filename": "PVPHitboxes-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JjuYpidr/versions/mq9JWxJ8/PVPHitboxes-neoforge-1.0.jar",
+      "hash": "sha512-IWJwrkXbVKlfnM0GDfrt3eccPIxl3cKZzwCwRqFZOXAzQXfsIP05eDX6tMV1b3hnxLVV1DIP4PLDPNH8CG6g4g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "yUNUHEav": {
+      "filename": "PVPHitboxes-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JjuYpidr/versions/yUNUHEav/PVPHitboxes-fabric-1.0.jar",
+      "hash": "sha512-wR5jr7wlaO0If9ooW3NTfHTZYAMZayPyMXXfAoxAPkSU4HneNzhHfDSv8xJnzpT6LZvy17yViXhllKvgsy6Hpw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "za6Myb4n": {
+      "filename": "PVPHitboxes-forge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JjuYpidr/versions/za6Myb4n/PVPHitboxes-forge-1.0.jar",
+      "hash": "sha512-ZLwbLJdDYz3WTMo3egVNY0gSVRNM7ahBxeEV75CzhSQy0Qkl7a7Unr9QHDGokExstOJHE4pMH3uKnFW9fTgi8g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yUNUHEav"
+    ],
+    "1.20.1+forge": [
+      "za6Myb4n"
+    ],
+    "1.21.1+fabric": [
+      "KcnuwQsZ"
+    ],
+    "1.21.1+neoforge": [
+      "mq9JWxJ8"
+    ]
+  }
+}

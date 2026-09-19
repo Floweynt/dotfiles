@@ -1,0 +1,68 @@
+{
+  "slug": "paladinz",
+  "projectId": "wzV50iIw",
+  "versions": {
+    "i2ikunqX": {
+      "filename": "PaladinZ.zip",
+      "url": "https://cdn.modrinth.com/data/wzV50iIw/versions/i2ikunqX/PaladinZ.zip",
+      "hash": "sha512-hdBTccC1dO/1AqMjgu7bKqq6wBGFvGhGiAwf1TOGUPlHvEpk1CsRSe/v1EScEoaZ3KKP6vMKucyLQ/5iq74UNQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "oZJ4HH5O": {
+      "filename": "paladinz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wzV50iIw/versions/oZJ4HH5O/paladinz-1.0.jar",
+      "hash": "sha512-7092Pw0AZJtPs/dGPzZ4Uw+hOvKJStfnKJKUtbOxdKA6+K8qFXos/vArh0m9R6ks/IwwcqMVPxP2ud6UZE6jTg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "paladins-and-priests",
+          "projectId": "FxXkHaLe",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "i2ikunqX"
+    ],
+    "1.20.1+fabric": [
+      "oZJ4HH5O"
+    ],
+    "1.20.1+quilt": [
+      "oZJ4HH5O"
+    ]
+  }
+}

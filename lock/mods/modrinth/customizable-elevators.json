@@ -1,0 +1,122 @@
+{
+  "slug": "customizable-elevators",
+  "projectId": "vgOzYJ3e",
+  "versions": {
+    "XnM3C3Th": {
+      "filename": "Customizable-Elevators_DP_v1-0-0_1-21-11.zip",
+      "url": "https://cdn.modrinth.com/data/vgOzYJ3e/versions/XnM3C3Th/Customizable-Elevators_DP_v1-0-0_1-21-11.zip",
+      "hash": "sha512-2vqUswDLSBIarCWJZEPJpNY/rPVSjn7+wZosxz2dg3t60ObX0vAm4RoDkk2ht0dORDtcA+//H6w/AiN9pmlpFQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack",
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "midwut",
+          "projectId": "X0au4r5X",
+          "type": "required"
+        }
+      ]
+    },
+    "qBM8LjeN": {
+      "filename": "customizable-elevators-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vgOzYJ3e/versions/qBM8LjeN/customizable-elevators-1.0.0.jar",
+      "hash": "sha512-MBOWOcszypG1XhI+8NPx0Q/Ff01C9TSPyApmkZJ1p+Z2jHgMf/6qndI8VS8OvSHOlxw82bBVuWd6S0Y7rkqr+w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "midwut",
+          "projectId": "X0au4r5X",
+          "type": "required"
+        }
+      ]
+    },
+    "tGl7lrVu": {
+      "filename": "Customizable-Elevators_DP_v0-9-1_1-21-8.zip",
+      "url": "https://cdn.modrinth.com/data/vgOzYJ3e/versions/tGl7lrVu/Customizable-Elevators_DP_v0-9-1_1-21-8.zip",
+      "hash": "sha512-sGgSvfD8tXfwuCtetjSTFBnWr+tE3/e5t6UbkbIkPicBF2GwxCuy9VL+VZ6HcIvALx6URTEXqhSGrT0cDHbpCg==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "midwut",
+          "projectId": "X0au4r5X",
+          "type": "required"
+        }
+      ]
+    },
+    "uMS2Bupk": {
+      "filename": "Customizable-Elevators_DP_v0-9-0_1-21-8.zip",
+      "url": "https://cdn.modrinth.com/data/vgOzYJ3e/versions/uMS2Bupk/Customizable-Elevators_DP_v0-9-0_1-21-8.zip",
+      "hash": "sha512-4XNbLLFDUZ+DYtf6tFphMFoFZA7V5eWGiRh4DbdxBDy8J88ieIvxAllp0fO7P2MBgOKrImECWauRSBtTjWEj+A==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "midwut",
+          "projectId": "X0au4r5X",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+datapack": [
+      "XnM3C3Th"
+    ],
+    "1.21.11+fabric": [
+      "qBM8LjeN"
+    ],
+    "1.21.11+minecraft": [
+      "XnM3C3Th"
+    ],
+    "1.21.11+neoforge": [
+      "qBM8LjeN"
+    ],
+    "1.21.11+quilt": [
+      "qBM8LjeN"
+    ],
+    "1.21.6+datapack": [
+      "tGl7lrVu",
+      "uMS2Bupk"
+    ],
+    "1.21.7+datapack": [
+      "tGl7lrVu",
+      "uMS2Bupk"
+    ],
+    "1.21.8+datapack": [
+      "tGl7lrVu",
+      "uMS2Bupk"
+    ]
+  }
+}

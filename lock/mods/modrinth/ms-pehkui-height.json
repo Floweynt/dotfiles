@@ -1,0 +1,54 @@
+{
+  "slug": "ms-pehkui-height",
+  "projectId": "ZZ8Lak8H",
+  "versions": {
+    "C5SjqMyg": {
+      "filename": "msheight_utility-3.5.5.jar",
+      "url": "https://cdn.modrinth.com/data/ZZ8Lak8H/versions/C5SjqMyg/msheight_utility-3.5.5.jar",
+      "hash": "sha512-K735RS5FQfJnXrU9NA2hHSMFM5uQg0Tl9tS+qay4E2pCWkD6850Im3uRlf088kX1NvK25MxA60GlQUOiJb/fRQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "hiTHKgkN": {
+      "filename": "Msheight_utility-Fabric3.5.8.jar",
+      "url": "https://cdn.modrinth.com/data/ZZ8Lak8H/versions/hiTHKgkN/Msheight_utility-Fabric3.5.8.jar",
+      "hash": "sha512-0tJxzV+YXHGcYcsxEdXFIZXqo3K1AtS0KKPgl5YDx339ieSOvX8ewox5jgTUmMOMq3IW+x/TjSqbd8Y2spYqsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hiTHKgkN"
+    ],
+    "1.20.1+forge": [
+      "C5SjqMyg"
+    ]
+  }
+}

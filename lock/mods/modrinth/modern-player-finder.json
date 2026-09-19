@@ -1,0 +1,85 @@
+{
+  "slug": "modern-player-finder",
+  "projectId": "C3cYPsLx",
+  "versions": {
+    "Cv1fWHmi": {
+      "filename": "modernplayerfinder-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/C3cYPsLx/versions/Cv1fWHmi/modernplayerfinder-1.21.1-1.0.0.jar",
+      "hash": "sha512-7r3R4cQKNVvlrXUd5moYbC3tL2yPXMvBNpigQpKEOvNMthiuLJHclyJ1ZjXzjJ4MAX6LerpmVor26D9TZhb2zw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "KxSi5hYn": {
+      "filename": "modernplayerfinder-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/C3cYPsLx/versions/KxSi5hYn/modernplayerfinder-1.21.1-1.0.1.jar",
+      "hash": "sha512-f6rqI5P3yUpHKtKSL/B43IXlAKGMGCRTNmxDt7hvHnhTzhwGuo+M7/o3miyp3apPfg14C8L+O5jxdnJt1Ap5mw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ZmGnVSm2": {
+      "filename": "modernplayerfinder-1.21.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/C3cYPsLx/versions/ZmGnVSm2/modernplayerfinder-1.21.4-1.0.0.jar",
+      "hash": "sha512-bO0S1AtlDmw3uKLSQW6xOPaHAZzunnDUVY0v6zfUPYGfQ96JcWnWPv+nc0ZhAP9Kr/Hd0vKJJypEaB+VlARpDg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "KxSi5hYn",
+      "Cv1fWHmi"
+    ],
+    "1.21.1+neoforge": [
+      "KxSi5hYn",
+      "Cv1fWHmi"
+    ],
+    "1.21.4+fabric": [
+      "ZmGnVSm2"
+    ],
+    "1.21.4+neoforge": [
+      "ZmGnVSm2"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "failrun",
+  "projectId": "3dd6IyNK",
+  "versions": {
+    "IYwplfN4": {
+      "filename": "Failrun 1.11.jar",
+      "url": "https://cdn.modrinth.com/data/3dd6IyNK/versions/IYwplfN4/Failrun%201.11.jar",
+      "hash": "sha512-KNKR1sOpihtTT6w1CnnpQcIaUYaR9Sbw47a1AFhPcRUwnh2CUVdChB1SC7I4eYBLQVvLL1Odfpmk75bWdeYp0g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "MABxtCTR": {
+      "filename": "Failrun 1.0.jar",
+      "url": "https://cdn.modrinth.com/data/3dd6IyNK/versions/MABxtCTR/Failrun%201.0.jar",
+      "hash": "sha512-gFo5ZDlKBFRrKYcgvdhNohpd4skKzr1X87RcFKkXKs/Dk9tWZI2j3xiPsD16ZiXOKSU15bXEnxc+Jt6Q3loPtQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "OWTdlvgQ": {
+      "filename": "Failrun 1.1.zip",
+      "url": "https://cdn.modrinth.com/data/3dd6IyNK/versions/OWTdlvgQ/Failrun%201.1.zip",
+      "hash": "sha512-ydN4XclO68o4CJMG/5Gzt4MCXtKph+C53ZYHBlZWV4KUylokRgSn0GCoNl1nHF42xzl5yKu3klmRRbMIkIaKVA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "PBTdyKFW": {
+      "filename": "Failrun 1.1.jar",
+      "url": "https://cdn.modrinth.com/data/3dd6IyNK/versions/PBTdyKFW/Failrun%201.1.jar",
+      "hash": "sha512-FPDGmIzFrKE5UzsezsoRkid0WhFf7qk2kCiWa6lJPn+cLWHXqmNFImIcqPIZmM+KhDMA/gNAU7graAatv2+yrg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": []
+    },
+    "hMO0xY1E": {
+      "filename": "Failrun 0.1.zip",
+      "url": "https://cdn.modrinth.com/data/3dd6IyNK/versions/hMO0xY1E/Failrun%200.1.zip",
+      "hash": "sha512-3bi0Mm31EwkQH5lg9SE2ypNdTxpcdjmrZx7P/3/obYQiHtIk+RSvKwRm01nB2ok4EvK/IM1LBYs3Zg8xBkq8Qw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "rctmod",
+          "projectId": "lRwTUnD7",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "simpletms-tms-and-trs-for-cobblemon",
+          "projectId": "yFqR0DNc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "OWTdlvgQ",
+      "hMO0xY1E"
+    ],
+    "1.21.1+fabric": [
+      "IYwplfN4",
+      "PBTdyKFW",
+      "MABxtCTR"
+    ],
+    "1.21.1+forge": [
+      "PBTdyKFW",
+      "MABxtCTR"
+    ],
+    "1.21.1+neoforge": [
+      "IYwplfN4",
+      "PBTdyKFW",
+      "MABxtCTR"
+    ],
+    "1.21.1+quilt": [
+      "PBTdyKFW",
+      "MABxtCTR"
+    ]
+  }
+}

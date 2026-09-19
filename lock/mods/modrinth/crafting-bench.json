@@ -1,0 +1,128 @@
+{
+  "slug": "crafting-bench",
+  "projectId": "qesnEzsX",
+  "versions": {
+    "72rbOMFP": {
+      "filename": "crafting-bench-0.4-BETA+1.18.jar",
+      "url": "https://cdn.modrinth.com/data/qesnEzsX/versions/72rbOMFP/crafting-bench-0.4-BETA%2B1.18.jar",
+      "hash": "sha512-0Nr8UmBs8TVuQm4IJ0i1pXpG2QmS2x69L5+uR7o7jtlZwyBmx1+rP1/pqxNy2DbQ1oYsEm9KBJFjVkVkEPP0vA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "H1wjsFRc": {
+      "filename": "crafting-bench-0.2-ALPHA+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/qesnEzsX/versions/H1wjsFRc/crafting-bench-0.2-ALPHA%2B1.19.jar",
+      "hash": "sha512-YdcJtzABEvcGMo1VQo35PEOkmQ2xIbNlp1QfDH4FG2EuQnQBJkQOJh16tYhHGugg2cIuULqgvm83bzXxO179NA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "iqgdLeDI": {
+      "filename": "crafting-bench-0.4-BETA+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/qesnEzsX/versions/iqgdLeDI/crafting-bench-0.4-BETA%2B1.19.jar",
+      "hash": "sha512-haNWhyyUZaWogH6zICuor9bYpuYNS6vyvktckq1veTWVoGLdK4tQYr+WYWVxfCPxEKu59TkSF5ToD7LUJPgpUw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "oL9JHRce": {
+      "filename": "crafting-bench-0.1-ALPHA+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/qesnEzsX/versions/oL9JHRce/crafting-bench-0.1-ALPHA%2B1.19.jar",
+      "hash": "sha512-E1nGg6Fxl5adMINBfyxu7D4KZygXpHZ0XLXiNQhyvlvu2329e7sP4cIswY3KkKfWM9wwhx35atjRJWaXS4oanA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "tPbA1KTm": {
+      "filename": "crafting-bench-0.3-ALPHA+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/qesnEzsX/versions/tPbA1KTm/crafting-bench-0.3-ALPHA%2B1.19.jar",
+      "hash": "sha512-Vxbi9FyX5JSKj2OR4RNCRGQR/EaSHHSF4QNcEn/L3oMufPoHRSbjkhg+BazHlaNspWh8odaUjet3PSETTcE/Fg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "72rbOMFP"
+    ],
+    "1.19.2+fabric": [
+      "iqgdLeDI",
+      "tPbA1KTm",
+      "H1wjsFRc",
+      "oL9JHRce"
+    ],
+    "1.19.2+quilt": [
+      "tPbA1KTm",
+      "H1wjsFRc",
+      "oL9JHRce"
+    ]
+  }
+}

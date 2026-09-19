@@ -1,0 +1,92 @@
+{
+  "slug": "banana-baking",
+  "projectId": "ZggqxIPF",
+  "versions": {
+    "22aPp9Uf": {
+      "filename": "bananabaking-1.8-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZggqxIPF/versions/22aPp9Uf/bananabaking-1.8-1.21.1.jar",
+      "hash": "sha512-xC5xJ5uvdFEkjZSD1XrckS+932ub96PaTr7cREmD4mVftROMF6vMWM085BlpVF9pxhUyYVaCgiMS6+o4dUS9Pg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UWhEYHEi": {
+      "filename": "bananabaking-1.7-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ZggqxIPF/versions/UWhEYHEi/bananabaking-1.7-1.21.jar",
+      "hash": "sha512-lPSnbI5saiJDvbxEqVezmgmy0g81uT9Lp4fCJ4raxV80EMoVxOKGJEqYF0SKHvG6p6tVwPuxRAD+KLj47U7Ftw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VC5ucTkX": {
+      "filename": "bananabaking-1.0-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/ZggqxIPF/versions/VC5ucTkX/bananabaking-1.0-1.20.4.jar",
+      "hash": "sha512-qvGzpE98cu4CoUY1Zqzt18uDQumZjuYsjgkeATnOI2KjGv76ecXByNhk2FUJannG0VOcL19FQVCkxrGSc9izsQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "e6pDfthp": {
+      "filename": "bananabaking-1.3-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ZggqxIPF/versions/e6pDfthp/bananabaking-1.3-1.21.jar",
+      "hash": "sha512-em2zPDOORxuDEV+yJPEBGaqgmZiHhTlNghSHjoKOok0c7WB9hwXHVBhfT02kiu+aGS/YM6oInbZQJg57XykxDw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "VC5ucTkX"
+    ],
+    "1.21+fabric": [
+      "UWhEYHEi",
+      "e6pDfthp"
+    ],
+    "1.21.1+fabric": [
+      "22aPp9Uf"
+    ]
+  }
+}

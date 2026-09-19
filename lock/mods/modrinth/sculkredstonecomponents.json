@@ -1,0 +1,119 @@
+{
+  "slug": "sculkredstonecomponents",
+  "projectId": "6u4oqJr1",
+  "versions": {
+    "4PC0cyq0": {
+      "filename": "sculk_redstone_components-1.0.4+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/6u4oqJr1/versions/4PC0cyq0/sculk_redstone_components-1.0.4%2B1.21.11.jar",
+      "hash": "sha512-APFvUmHJpsroVzR/aMf8uMQeAUBq77ZnyTaCekCAISzu3d8yDQ3uVaUZ7+w69tkDRCf2tuhbsPrz3ecl4TrzaQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "4xgOT3e8": {
+      "filename": "sculk_redstone_components-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/6u4oqJr1/versions/4xgOT3e8/sculk_redstone_components-1.0.1.jar",
+      "hash": "sha512-JyOPha7GcxV3ihJ2mrjv2Dxlg4Q45VWTs7mR/IGtcVfxmP1sszSJsyz4mLxxppPien4RSRpyBFwnATig0yvMBQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KUOOqgF1": {
+      "filename": "sculk_redstone_components-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6u4oqJr1/versions/KUOOqgF1/sculk_redstone_components-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-QdP44Tdn0cCH89+JJzO9euU58s8OAzPNMeO/PYJ0M6/Ys4QilddRa3hFaB23bFnIFStJKsxr3hJDGqKYWowsfQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WHjFPyEh": {
+      "filename": "sculk_redstone_components-1.0.3+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/6u4oqJr1/versions/WHjFPyEh/sculk_redstone_components-1.0.3%2B1.21.jar",
+      "hash": "sha512-Ei0fGLiQbZb6otATPO1B9uHn7TmHGFZlpdALKI7qb4XkE93swrORIeu0u4b6WjkyzFoPrRK+IA8pZXQbCDYm7g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vNzVCeeD": {
+      "filename": "sculk_redstone_components-1.0.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/6u4oqJr1/versions/vNzVCeeD/sculk_redstone_components-1.0.2%2B1.21.jar",
+      "hash": "sha512-SGYNjbm2WTDIF1NwLjtaDjjjitRVaOopaKMusvCi+VJycec532B3/tSzZs2cq+l0rxnasPy7dIP0FXSPYt526g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "KUOOqgF1"
+    ],
+    "1.20.1+fabric": [
+      "KUOOqgF1"
+    ],
+    "1.20.4+fabric": [
+      "4xgOT3e8"
+    ],
+    "1.21+fabric": [
+      "WHjFPyEh",
+      "vNzVCeeD"
+    ],
+    "1.21.11+fabric": [
+      "4PC0cyq0"
+    ]
+  }
+}

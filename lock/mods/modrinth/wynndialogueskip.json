@@ -1,0 +1,118 @@
+{
+  "slug": "wynndialogueskip",
+  "projectId": "uLXSu7GY",
+  "versions": {
+    "6zuvZoJD": {
+      "filename": "WynnDialogueSkip-1.21.11-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/uLXSu7GY/versions/6zuvZoJD/WynnDialogueSkip-1.21.11-1.0.1.jar",
+      "hash": "sha512-PCwWt6MZhhjGReSb1vH8qnG4nzzhdw3b6wATj396vJ0lQizfrO340Ce2Yi2IaLSQL6VyEB5cVdx467+yyRdNiA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "RdDt3yI7": {
+      "filename": "WynnDialogueSkip-1.21.11+1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/uLXSu7GY/versions/RdDt3yI7/WynnDialogueSkip-1.21.11%2B1.0.2.jar",
+      "hash": "sha512-yHzZ3fHpeiQmRPGhHXVtws9j8sRZZ9qP4+bKpk52fZDIaDZRBonGrwB8Cs46LMA0vooak2KuwtYIcmxPaf4nlA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "wynntils",
+          "projectId": "dU5Gb9Ab",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "gnz3SZQT": {
+      "filename": "WynnDialogueSkip-1.21.11+1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/uLXSu7GY/versions/gnz3SZQT/WynnDialogueSkip-1.21.11%2B1.0.3.jar",
+      "hash": "sha512-H7ckHD4zRDvM/HlKIV2joRfhFaUb7Af5trt5stpKjvQh0erWitqHEmmgeOb8S4hZkRR9f9rypniXOWe6XXw2mA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "wynntils",
+          "projectId": "dU5Gb9Ab",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "tfyinvYp": {
+      "filename": "WynnDialogueSkip-1.21.11-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uLXSu7GY/versions/tfyinvYp/WynnDialogueSkip-1.21.11-1.0.0.jar",
+      "hash": "sha512-HlsckqVyFiEg1hLVSWIJ6z8QZnldWnuWamK4Ph+9MaqouPOX0dy0cb2pRzpgPb7OC/OGU75mkLkhGUL6i9rPEg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "wynntils",
+          "projectId": "dU5Gb9Ab",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "gnz3SZQT",
+      "RdDt3yI7",
+      "6zuvZoJD",
+      "tfyinvYp"
+    ]
+  }
+}

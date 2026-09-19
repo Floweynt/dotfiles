@@ -1,0 +1,160 @@
+{
+  "slug": "ctov-villagers-plus-compat",
+  "projectId": "UiaFErsS",
+  "versions": {
+    "3qwnyBbm": {
+      "filename": "ctov-villager-plus-add-on-v1-0.zip",
+      "url": "https://cdn.modrinth.com/data/UiaFErsS/versions/3qwnyBbm/ctov-villager-plus-add-on-v1-0.zip",
+      "hash": "sha512-YCaeOpUXncO2HRlsGlS2AJ5blCDJ6QqwKyIXJXSw3lMeypobLVjfDjMZ4JICYSzGuo8W8wtbO14tKuW8wT2JgA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "villagersplus",
+          "projectId": "oHGMwNDR",
+          "type": "required"
+        },
+        {
+          "slug": "ct-overhaul-village",
+          "projectId": "fgmhI8kH",
+          "type": "required"
+        }
+      ]
+    },
+    "JsH6Gt4b": {
+      "filename": "ctov-villagers-plus-compat-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/UiaFErsS/versions/JsH6Gt4b/ctov-villagers-plus-compat-2.0.jar",
+      "hash": "sha512-iAcsTyAUSA5MwGDrMLm2n8/ZamXfaWm6ULQiJ9YUnwFNGcWNXnSaUk5yeQd/3IjZlP92pX8mTzMTGmDnXd+bIQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "villagersplus",
+          "projectId": "oHGMwNDR",
+          "type": "required"
+        },
+        {
+          "slug": "ct-overhaul-village",
+          "projectId": "fgmhI8kH",
+          "type": "required"
+        }
+      ]
+    },
+    "PFFmLtfC": {
+      "filename": "ctov-villagers-plus-compat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UiaFErsS/versions/PFFmLtfC/ctov-villagers-plus-compat-1.0.jar",
+      "hash": "sha512-F0klrIUkiIRYMG5kk9F99TL06j1KiCWnEohxxdcM+0vTBlRzhNUCh5Pe4+UYDZ1QQxfGT+20N11pTKV1XNfE/A==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "ct-overhaul-village",
+          "projectId": "fgmhI8kH",
+          "type": "required"
+        },
+        {
+          "slug": "villagersplus",
+          "projectId": "oHGMwNDR",
+          "type": "required"
+        }
+      ]
+    },
+    "euk0xaRL": {
+      "filename": "ctov-villager-plus-add-on-v2-0.zip",
+      "url": "https://cdn.modrinth.com/data/UiaFErsS/versions/euk0xaRL/ctov-villager-plus-add-on-v2-0.zip",
+      "hash": "sha512-5RqwPjUIGQMfbMD0UHOJYc22L1X0HQmbsuL06jeeI/GyCz+FmIfD/4V/1xiraO9nMdcqjQJvQmY5H3sL/59U6g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "ct-overhaul-village",
+          "projectId": "fgmhI8kH",
+          "type": "required"
+        },
+        {
+          "slug": "villagersplus",
+          "projectId": "oHGMwNDR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+datapack": [
+      "3qwnyBbm"
+    ],
+    "1.19+fabric": [
+      "PFFmLtfC"
+    ],
+    "1.19.1+datapack": [
+      "3qwnyBbm"
+    ],
+    "1.19.1+fabric": [
+      "PFFmLtfC"
+    ],
+    "1.19.2+datapack": [
+      "3qwnyBbm"
+    ],
+    "1.19.2+fabric": [
+      "PFFmLtfC"
+    ],
+    "1.19.3+datapack": [
+      "3qwnyBbm"
+    ],
+    "1.19.3+fabric": [
+      "PFFmLtfC"
+    ],
+    "1.19.4+datapack": [
+      "3qwnyBbm"
+    ],
+    "1.19.4+fabric": [
+      "PFFmLtfC"
+    ],
+    "1.20+datapack": [
+      "euk0xaRL"
+    ],
+    "1.20+fabric": [
+      "JsH6Gt4b"
+    ],
+    "1.20.1+datapack": [
+      "euk0xaRL"
+    ],
+    "1.20.1+fabric": [
+      "JsH6Gt4b"
+    ]
+  }
+}

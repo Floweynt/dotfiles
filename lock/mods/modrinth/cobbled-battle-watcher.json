@@ -1,0 +1,135 @@
+{
+  "slug": "cobbled-battle-watcher",
+  "projectId": "TLAQgl7d",
+  "versions": {
+    "2iDiBpxt": {
+      "filename": "cobbledbattlehp-fabric-2.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/TLAQgl7d/versions/2iDiBpxt/cobbledbattlehp-fabric-2.0.0-1.20.1.jar",
+      "hash": "sha512-yyxqhetIR81Z0HHDFD7oAkUT5/BBIfzuQdIwV0F2bF07qwfVl35zO0B34vKSXK7KG6dWGo3Jf/W3OzXNjs8ghg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "MKaHUU9s": {
+      "filename": "cobbledbattlehp-forge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TLAQgl7d/versions/MKaHUU9s/cobbledbattlehp-forge-2.0.0.jar",
+      "hash": "sha512-Bfobp5huWjwOHQqzWyu8t7nbxAlS+Eit5KP0wycT7SCIDura7g/FZ5RsM7ZKlj3MaiB6BIU8OrmDnRAveZFJIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "iAw0ly4A": {
+      "filename": "cobbledbattlehp-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TLAQgl7d/versions/iAw0ly4A/cobbledbattlehp-forge-1.0.0.jar",
+      "hash": "sha512-Ml92I5Cbehy04sZk7vjFpd+7CuLoSjzSOg6zu4YmA0rJsY0/vdxyVvvLevYJGo/7RxsISZjHCUbmb29+uLAnnw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ugmnPgVK": {
+      "filename": "cobbledbattlehp-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TLAQgl7d/versions/ugmnPgVK/cobbledbattlehp-fabric-1.0.0.jar",
+      "hash": "sha512-CMhMwC3dZCaZsEtjKiM559OEjZmOfVS9KeRk4FsBZfLoTymEighjaO17w1fpNuUrhCUNIFqKc9njNsVrtV03Ww==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "ugmnPgVK"
+    ],
+    "1.19.2+forge": [
+      "iAw0ly4A"
+    ],
+    "1.20.1+fabric": [
+      "2iDiBpxt"
+    ],
+    "1.20.1+forge": [
+      "MKaHUU9s"
+    ]
+  }
+}

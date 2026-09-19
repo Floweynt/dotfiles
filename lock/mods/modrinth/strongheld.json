@@ -1,0 +1,120 @@
+{
+  "slug": "strongheld",
+  "projectId": "u5gSoHAh",
+  "versions": {
+    "8S495Jun": {
+      "filename": "Strongheld Datapack.zip",
+      "url": "https://cdn.modrinth.com/data/u5gSoHAh/versions/8S495Jun/Strongheld%20Datapack.zip",
+      "hash": "sha512-i/cq7gxho6LoHwc9JDBxNf+9vMJTW5QEzaDTxWoXvux5kMQ3/hLRdR9xOaiMbelmE/9nWAsISxHc38g5l0ls5g==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.4",
+        "1.21",
+        "1.21.1",
+        "1.21.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "yungs-better-strongholds",
+          "projectId": "kidLKymU",
+          "type": "required"
+        },
+        {
+          "slug": "yungs-api",
+          "projectId": "Ua7DFN59",
+          "type": "required"
+        }
+      ]
+    },
+    "R5nEXb1B": {
+      "filename": "strongheld-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/u5gSoHAh/versions/R5nEXb1B/strongheld-1.20.1.jar",
+      "hash": "sha512-4WeIdxJqY4PlM/oE9x6ABdo7yq6/emd4u0wPU8GmY6TetsWy1oaUONkKq+XDvIbRmlm7JfZleN6ATWUBa/nd9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "yungs-api",
+          "projectId": "Ua7DFN59",
+          "type": "required"
+        },
+        {
+          "slug": "yungs-better-strongholds",
+          "projectId": "kidLKymU",
+          "type": "required"
+        }
+      ]
+    },
+    "bfw8MQMb": {
+      "filename": "strongheld-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/u5gSoHAh/versions/bfw8MQMb/strongheld-1.21.1.jar",
+      "hash": "sha512-A9f0ydTkCUF2BWYDT+tuZ241nHdzjCrD8Hz0NPH7ZkysBMgI2Xjet+kNK7YyWVK7rbRlW9G0p4KKhE7wWk2jCw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "yungs-better-strongholds",
+          "projectId": "kidLKymU",
+          "type": "required"
+        },
+        {
+          "slug": "yungs-api",
+          "projectId": "Ua7DFN59",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+datapack": [
+      "8S495Jun"
+    ],
+    "1.19.4+datapack": [
+      "8S495Jun"
+    ],
+    "1.20+datapack": [
+      "8S495Jun"
+    ],
+    "1.20.1+datapack": [
+      "8S495Jun"
+    ],
+    "1.20.1+fabric": [
+      "R5nEXb1B"
+    ],
+    "1.20.4+datapack": [
+      "8S495Jun"
+    ],
+    "1.21+datapack": [
+      "8S495Jun"
+    ],
+    "1.21.1+datapack": [
+      "8S495Jun"
+    ],
+    "1.21.1+fabric": [
+      "bfw8MQMb"
+    ],
+    "1.21.4+datapack": [
+      "8S495Jun"
+    ]
+  }
+}

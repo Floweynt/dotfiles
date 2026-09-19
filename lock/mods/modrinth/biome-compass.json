@@ -1,0 +1,69 @@
+{
+  "slug": "biome-compass",
+  "projectId": "IPBNX8hi",
+  "versions": {
+    "MjRribQG": {
+      "filename": "biomecompass-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IPBNX8hi/versions/MjRribQG/biomecompass-1.0.0.jar",
+      "hash": "sha512-JgKpKGdFsejw+CMhAvqYGpdrGtwUi3b/oxb87gfDBWPcY5WihTCs8U9emxpu5cdn59A8EuDfhYwUS428nOvdUw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sqdr8bKD": {
+      "filename": "biomecompass-2.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/IPBNX8hi/versions/sqdr8bKD/biomecompass-2.0.0%2B1.20.1.jar",
+      "hash": "sha512-N69YFF/6GtUKW7UttO3JfeZZDib/QmYBat6fsjB0tZXe8rA7na8N1QlPb6qhA1gnvxPZJHwoxv07VJuh0yf+sA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "MjRribQG"
+    ],
+    "1.19.2+quilt": [
+      "MjRribQG"
+    ],
+    "1.20.1+fabric": [
+      "sqdr8bKD"
+    ],
+    "1.20.1+quilt": [
+      "sqdr8bKD"
+    ],
+    "1.20.2+fabric": [
+      "sqdr8bKD"
+    ],
+    "1.20.2+quilt": [
+      "sqdr8bKD"
+    ]
+  }
+}

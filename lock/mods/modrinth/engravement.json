@@ -1,0 +1,75 @@
+{
+  "slug": "engravement",
+  "projectId": "AvS6OnMn",
+  "versions": {
+    "DTNiel2a": {
+      "filename": "engraved-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/AvS6OnMn/versions/DTNiel2a/engraved-1.0.1.jar",
+      "hash": "sha512-AS6hEJbqiYiEe7IOr1jfVHxeAu7esm+IgSMfl1ZqJi/WXjmdLXM/dxFnEnYqLgzPbzHSE34AwMdJwtWFsli/zQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kwT75zhL": {
+      "filename": "engraved-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/AvS6OnMn/versions/kwT75zhL/engraved-1.1.1.jar",
+      "hash": "sha512-5gwgbrXcmnP7tA7/ClBBIVY41RmlQEo8+vkguWCFL3NJADd+NmgxDZSZHaLRnlLIVfRKTo3+RtSMrD/bI/PA0A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "s5voLipF": {
+      "filename": "engraved-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AvS6OnMn/versions/s5voLipF/engraved-1.1.0.jar",
+      "hash": "sha512-WR3OIJRJkTVdKhRNBH35QvGzoybPTRxT+Jd1pxGbIExEVFeFOGo6jS8D4VjRHUBFivt4FboOeXN6L5m1uYco6Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "kwT75zhL",
+      "s5voLipF",
+      "DTNiel2a"
+    ],
+    "1.21.11+quilt": [
+      "kwT75zhL",
+      "s5voLipF",
+      "DTNiel2a"
+    ]
+  }
+}

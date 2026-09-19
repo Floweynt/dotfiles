@@ -1,0 +1,44 @@
+{
+  "slug": "even-more-levelz-support",
+  "projectId": "8xdxVRnh",
+  "versions": {
+    "PUL1Yw64": {
+      "filename": "even-more-levelz-support-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8xdxVRnh/versions/PUL1Yw64/even-more-levelz-support-1.0.0.jar",
+      "hash": "sha512-oUSgrtMxCm2pnzirFST8lDW71j9fNsOFdPNH/CH5LFkTELwmA3qoHEGJLfze5p3WVqlYOe8g+vfjGqKLwpE36A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "i0hqQuvj": {
+      "filename": "Even more LevelZ support.zip",
+      "url": "https://cdn.modrinth.com/data/8xdxVRnh/versions/i0hqQuvj/Even%20more%20LevelZ%20support.zip",
+      "hash": "sha512-SPV9sUgLlGx+HXAKui4/vmHHVMACMrQ8bwMdyKYWFFjgTutnxQDB/KcwJYmGovOjd1CM/TBOOktQpbIebE+Uqw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "i0hqQuvj"
+    ],
+    "1.20.1+fabric": [
+      "PUL1Yw64",
+      "i0hqQuvj"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "liege-wie",
+  "projectId": "F5ejec6V",
+  "versions": {
+    "CkJZyGck": {
+      "filename": "liege-wie-1.1.1+1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/F5ejec6V/versions/CkJZyGck/liege-wie-1.1.1%2B1.21.9.jar",
+      "hash": "sha512-OM7EM592JECW005L+N9CkH4CSwUcXUGLjj4kTE+jTJVKOJmwrqvhvxJIaQwae+kkjp4wcB8ve7+eR1q2Koz9Xg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ITHew0br": {
+      "filename": "liege-wie-1.0.1+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/F5ejec6V/versions/ITHew0br/liege-wie-1.0.1%2B1.21.8.jar",
+      "hash": "sha512-gI/dGlAGJWzKwrJw+T9pryatKUfaM41gUtbIRsoWoGaf35LBweOfys80XBHlS3zH0Ynldor2QqC4A5ZAOaD9DQ==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tfPjItC0": {
+      "filename": "liege-wie-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/F5ejec6V/versions/tfPjItC0/liege-wie-1.0.0.jar",
+      "hash": "sha512-zGshBI/s0ZK6obKJSxUA4PbEekKrYPPplnXgGYAy16e0DdnsNwKBBWCfX7tvl41tPXGsQApHSOUyMjkLLUfqMQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "CkJZyGck"
+    ],
+    "1.21.8+fabric": [
+      "ITHew0br",
+      "tfPjItC0"
+    ],
+    "1.21.9+fabric": [
+      "CkJZyGck",
+      "ITHew0br"
+    ]
+  }
+}

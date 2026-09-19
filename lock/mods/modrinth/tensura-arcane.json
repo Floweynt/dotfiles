@@ -1,0 +1,54 @@
+{
+  "slug": "tensura-arcane",
+  "projectId": "n02nG9Jj",
+  "versions": {
+    "Vh0p0z8W": {
+      "filename": "trarcane-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/n02nG9Jj/versions/Vh0p0z8W/trarcane-fabric-1.0.jar",
+      "hash": "sha512-8EKM092Y2CJApbHhYx/UuwfY2ptci/z09yHtQwf6+8gJU3SP6Z4fGbWaYx9vArGXeEx5A5XQCX/hRYbRFdqJAA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "tensura-reincarnated",
+          "projectId": "Br0kXPwc",
+          "type": "required"
+        }
+      ]
+    },
+    "Y4fJ5Cim": {
+      "filename": "trarcane-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/n02nG9Jj/versions/Y4fJ5Cim/trarcane-neoforge-1.0.jar",
+      "hash": "sha512-pwFHX/Mad7pXHhzSoHtHMJAi+SE0osdoqCPLQML2twdg8BXyhcJnFhONgArqGkvQnP4T/j56G0hM8h3W0iKhdA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "tensura-reincarnated",
+          "projectId": "Br0kXPwc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Vh0p0z8W"
+    ],
+    "1.21.1+neoforge": [
+      "Y4fJ5Cim"
+    ]
+  }
+}

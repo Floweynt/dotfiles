@@ -1,0 +1,126 @@
+{
+  "slug": "stackit",
+  "projectId": "yxxBTX9o",
+  "versions": {
+    "PFyHfj1j": {
+      "filename": "stackit-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/yxxBTX9o/versions/PFyHfj1j/stackit-1.1.jar",
+      "hash": "sha512-iaMI/2xNUUfMI0n4N4dw6vNLxEB4MTIwbKoVxl3wa9oxgbwGgFG+XN4YBFast98AFq38LhubEje/AD1NJ+khAA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "colon3lib",
+          "projectId": "O2cL5hGm",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YTlfdUZe": {
+      "filename": "stackit-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/yxxBTX9o/versions/YTlfdUZe/stackit-1.2.jar",
+      "hash": "sha512-P2uDs6X17kyLHDR9X75wq82QVK+ht3PHFr3EG0ZFiabgbFUamFHWrJvExOJIYsiIp7VAjVMTgivV3Z/JURE5/g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "colon3lib",
+          "projectId": "O2cL5hGm",
+          "type": "required"
+        }
+      ]
+    },
+    "i7N2Vlwe": {
+      "filename": "stackit-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/yxxBTX9o/versions/i7N2Vlwe/stackit-1.2.1.jar",
+      "hash": "sha512-RzubFJBEggMLoFhQLDTXl0uYh9hGdF2TgHDoqkG0vHy4jU+UQ+rW+r3MRglZBwz4EjEWvF4ifTeON9YvFYve0A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "colon3lib",
+          "projectId": "O2cL5hGm",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "o0PIstlB": {
+      "filename": "stackit-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/yxxBTX9o/versions/o0PIstlB/stackit-1.0.jar",
+      "hash": "sha512-G1eOHw7IA/6QtDyNoThvR2T21r3hnMxsFHp/JHf3p99tFl/3o4m1uKDAWXmvyiVC04dd7roir4EWCL3Olla3yQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "i7N2Vlwe",
+      "YTlfdUZe",
+      "PFyHfj1j",
+      "o0PIstlB"
+    ],
+    "1.21.1+fabric": [
+      "i7N2Vlwe"
+    ],
+    "1.21.2+fabric": [
+      "i7N2Vlwe"
+    ],
+    "1.21.3+fabric": [
+      "i7N2Vlwe"
+    ]
+  }
+}

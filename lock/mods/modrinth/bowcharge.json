@@ -1,0 +1,43 @@
+{
+  "slug": "bowcharge",
+  "projectId": "ItS6sJ8f",
+  "versions": {
+    "GcK3PYO8": {
+      "filename": "bowcharge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ItS6sJ8f/versions/GcK3PYO8/bowcharge-1.0.0.jar",
+      "hash": "sha512-nJoTGVSw0viDjPqoaofnPjhn6ioKob4pmPgXvA2XZoVU4VhZzEwWY6WhHlqxHBmBbIXbNHWrxuqDae2da7+lDA==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "GcK3PYO8"
+    ],
+    "1.21.11+fabric": [
+      "GcK3PYO8"
+    ],
+    "1.21.8+fabric": [
+      "GcK3PYO8"
+    ],
+    "1.21.9+fabric": [
+      "GcK3PYO8"
+    ]
+  }
+}

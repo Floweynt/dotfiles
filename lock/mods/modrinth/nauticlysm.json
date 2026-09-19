@@ -1,0 +1,78 @@
+{
+  "slug": "nauticlysm",
+  "projectId": "QJRwyFS5",
+  "versions": {
+    "dD3zMHOP": {
+      "filename": "Nauticlysm DP.zip",
+      "url": "https://cdn.modrinth.com/data/QJRwyFS5/versions/dD3zMHOP/Nauticlysm%20DP.zip",
+      "hash": "sha512-xvcl8UcYPwamt+8YRhkLuTVLDvPkk+ecn8Loowy3UD/DR3lN7JfaAWWFXqZ8D/h3iLOAjGX/xXVaewhlWq+fIQ==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "jVVBCORO": {
+      "filename": "nauticlysm-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QJRwyFS5/versions/jVVBCORO/nauticlysm-1.0.0.jar",
+      "hash": "sha512-rGFEtX9IwN12XxM7NrE/owW3w/hDXImB150p5zPnb75eSRMR7B5zpjqWTEXWvnfA2KJZi5otyFNDukLoTdp9kQ==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.2+datapack": [
+      "dD3zMHOP"
+    ],
+    "1.20.2+fabric": [
+      "jVVBCORO"
+    ],
+    "1.20.2+forge": [
+      "jVVBCORO"
+    ],
+    "1.20.2+quilt": [
+      "jVVBCORO"
+    ],
+    "1.20.3+datapack": [
+      "dD3zMHOP"
+    ],
+    "1.20.3+fabric": [
+      "jVVBCORO"
+    ],
+    "1.20.3+forge": [
+      "jVVBCORO"
+    ],
+    "1.20.3+quilt": [
+      "jVVBCORO"
+    ],
+    "1.20.4+datapack": [
+      "dD3zMHOP"
+    ],
+    "1.20.4+fabric": [
+      "jVVBCORO"
+    ],
+    "1.20.4+forge": [
+      "jVVBCORO"
+    ],
+    "1.20.4+quilt": [
+      "jVVBCORO"
+    ]
+  }
+}

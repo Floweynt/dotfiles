@@ -1,0 +1,44 @@
+{
+  "slug": "more-crustacean",
+  "projectId": "H6wY3SJ7",
+  "versions": {
+    "VGw7vcx4": {
+      "filename": "More_Crustacean-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/H6wY3SJ7/versions/VGw7vcx4/More_Crustacean-1.2.2.jar",
+      "hash": "sha512-wACiAs0zPBL2nijCrb3iEPkx3Rm1N7H64PAdkOz4+9ofJF5YPMzQf3p1WnQKROKY3+/TmJAeAEUNrssEPIdGPg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VGw7vcx4"
+    ],
+    "1.20.2+fabric": [
+      "VGw7vcx4"
+    ],
+    "1.20.3+fabric": [
+      "VGw7vcx4"
+    ]
+  }
+}

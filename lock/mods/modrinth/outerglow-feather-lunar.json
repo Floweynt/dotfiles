@@ -1,0 +1,101 @@
+{
+  "slug": "outerglow-feather-lunar",
+  "projectId": "pA1ygUVO",
+  "versions": {
+    "6ddUMaCG": {
+      "filename": "outerglow-feather-1.20-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/pA1ygUVO/versions/6ddUMaCG/outerglow-feather-1.20-1.20.1.jar",
+      "hash": "sha512-e2rI0pPLsMBuUUKtRJxtvYYDjy/n2gbt6O3fBs1/KrmHgPttqKYSg5/toQ3UxOx1o4umRHU9mmeBSI3eQE5aWQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "c0FCaINa": {
+      "filename": "outerglow-feather-1.20.2-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/pA1ygUVO/versions/c0FCaINa/outerglow-feather-1.20.2-1.20.6.jar",
+      "hash": "sha512-8ZKq9iCuGkdW1lRA9Kr0PSTCgUD+uZrVqhXqBqg16ciwvSJOkj5NdFdZa5ahlr4xol2jXdNDjBcKv8Zqsm7Daw==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "j6puOxeo": {
+      "filename": "outerglow-feather-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/pA1ygUVO/versions/j6puOxeo/outerglow-feather-1.21.x.jar",
+      "hash": "sha512-tUni9k9Aw9wvvqp2xqvJBOGBW1mtBl6BfdzORU1/Cni0x70kp22Zq7nqpNmb2liv+ap+sEZMy2q92Qi2QAwXKg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "6ddUMaCG"
+    ],
+    "1.20.1+fabric": [
+      "6ddUMaCG"
+    ],
+    "1.20.2+fabric": [
+      "c0FCaINa"
+    ],
+    "1.20.3+fabric": [
+      "c0FCaINa"
+    ],
+    "1.20.4+fabric": [
+      "c0FCaINa"
+    ],
+    "1.20.5+fabric": [
+      "c0FCaINa"
+    ],
+    "1.20.6+fabric": [
+      "c0FCaINa"
+    ],
+    "1.21+fabric": [
+      "j6puOxeo"
+    ],
+    "1.21.1+fabric": [
+      "j6puOxeo"
+    ]
+  }
+}

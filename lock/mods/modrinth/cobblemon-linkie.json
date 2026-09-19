@@ -1,0 +1,116 @@
+{
+  "slug": "cobblemon-linkie",
+  "projectId": "CJd9sbE5",
+  "versions": {
+    "1Xqz3g4L": {
+      "filename": "cobblemonlinkie-fabric-1.7.3-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/CJd9sbE5/versions/1Xqz3g4L/cobblemonlinkie-fabric-1.7.3-1.0.1.jar",
+      "hash": "sha512-gI8NlRvanQ5H+P8nZQEiVarAsVxp7c614kxaop7ElDjtTszpNVAlDq4UO9p0g4mniFLVy827c42HS9X11op2xw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon-tim-core",
+          "projectId": "lVP9aUaY",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "70qmfLax": {
+      "filename": "cobblemonlinkie-fabric-1.7.3-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/CJd9sbE5/versions/70qmfLax/cobblemonlinkie-fabric-1.7.3-1.1.0.jar",
+      "hash": "sha512-gT08qodLMPVSjpiD/AHFAjSK2aNFQOAcIS0Xo4zLtKIQrtHlh6DIXCu2g70qfiepk4GuuU00+En51zRbcFu9KA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon-tim-core",
+          "projectId": "lVP9aUaY",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "7zgm9lJd": {
+      "filename": "cobblemonlinkie-neoforge-1.7.3-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/CJd9sbE5/versions/7zgm9lJd/cobblemonlinkie-neoforge-1.7.3-1.1.0.jar",
+      "hash": "sha512-KrA2CMt6TVRkJciA57uY2NDjBnrvl4QeYJFeC1a5k21TpreznY6sxl17Ycyh61pyRJrxQAcR2NLbBE+brmVAjg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-tim-core",
+          "projectId": "lVP9aUaY",
+          "type": "required"
+        }
+      ]
+    },
+    "evgP3BPd": {
+      "filename": "cobblemonlinkie-fabric-1.7.3-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CJd9sbE5/versions/evgP3BPd/cobblemonlinkie-fabric-1.7.3-1.0.0.jar",
+      "hash": "sha512-Hct79hn7tLIRbOfVXuUctpS7tta4Idz/0DZcULjcZrPuzuTun9xhMB85MQTsXUnMK2u4UJLNV512YiMERYlnxg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-tim-core",
+          "projectId": "lVP9aUaY",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "70qmfLax",
+      "1Xqz3g4L",
+      "evgP3BPd"
+    ],
+    "1.21.1+neoforge": [
+      "7zgm9lJd"
+    ]
+  }
+}

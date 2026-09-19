@@ -1,0 +1,61 @@
+{
+  "slug": "cobblemon-scoremons",
+  "projectId": "dy0z9ILX",
+  "versions": {
+    "G6D9tk4y": {
+      "filename": "ScoreMons-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/dy0z9ILX/versions/G6D9tk4y/ScoreMons-2.2.jar",
+      "hash": "sha512-3KnwSRSLgHdK922EM7XdH4cAhgTYqXwToyOifm6P87VcWeC8QtqcALbAnKXLeU93/Cgr9k61NqiSsENE0DUMNA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VPlqpVdV": {
+      "filename": "Scoremons-3.1+Cobblemon-1.7.1.jar",
+      "url": "https://cdn.modrinth.com/data/dy0z9ILX/versions/VPlqpVdV/Scoremons-3.1%2BCobblemon-1.7.1.jar",
+      "hash": "sha512-rBY5mPZ9R/rzD0WjbcD3b8XBwKstJGsT8z1aD7HqHQqtbpjVhEic7AhtHt0NexLjy+CtmJjCeMWYNfrs5+Cgmg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "sPJkpbB5": {
+      "filename": "Scoremons-3.1+Cobblemon-1.7.2.jar",
+      "url": "https://cdn.modrinth.com/data/dy0z9ILX/versions/sPJkpbB5/Scoremons-3.1%2BCobblemon-1.7.2.jar",
+      "hash": "sha512-Af4Nl25fMv5luczCbkmboQYm4HtIvOKNCRYytBEcrDWX+zhOhTQYhquODj5PDlTx81Ow8kjVpJcDNnC7pNQz3Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "sPJkpbB5",
+      "VPlqpVdV",
+      "G6D9tk4y"
+    ]
+  }
+}

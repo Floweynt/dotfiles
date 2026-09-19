@@ -1,0 +1,48 @@
+{
+  "slug": "toobee-optimization",
+  "projectId": "ThZv6LS0",
+  "versions": {
+    "Ey1QY1xA": {
+      "filename": "TooBee-Optimization-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ThZv6LS0/versions/Ey1QY1xA/TooBee-Optimization-0.1.1.jar",
+      "hash": "sha512-dsrtHkYah+LPGP6Uv91veE2GmuHxA7cJrPZvvUMYP/IQMEaBtV9aRQlkBepT/mwbueZ2933y28xSmhjs2/n1lA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "oj3O3NBn": {
+      "filename": "TooBee-Optimization-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ThZv6LS0/versions/oj3O3NBn/TooBee-Optimization-0.1.0.jar",
+      "hash": "sha512-l+R9nZkwjNi5xLT3EBg4MIo5eivjlDpRCFBN4RrEE8hi1gOJsezsaEbjaeeY2n7APEWAXc3KGLH3P5dwZzoHqQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "lithium",
+          "projectId": "gvQqBUqZ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "oj3O3NBn"
+    ],
+    "1.21.11+fabric": [
+      "Ey1QY1xA"
+    ]
+  }
+}

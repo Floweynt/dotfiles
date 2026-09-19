@@ -1,0 +1,144 @@
+{
+  "slug": "ezrstorage",
+  "projectId": "5Mqu9qpV",
+  "versions": {
+    "Os4truWF": {
+      "filename": "EZR-Storage-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/5Mqu9qpV/versions/Os4truWF/EZR-Storage-1.1.2.jar",
+      "hash": "sha512-bme0EDk8uAUhTtYQg4eHMDn+l0AqZZQuGjtkLMO5YYftWyJrt6Kh3s1MQGDySGpDp1tsSabNbCytJFrM5RzTlg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "avugRqDR": {
+      "filename": "EZR-Storage-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/5Mqu9qpV/versions/avugRqDR/EZR-Storage-1.1.1.jar",
+      "hash": "sha512-7EgBPqZCeb1t/U560b2VqVx4umNNFPhUtgVcMzhxdxHQzZ6TmW+atLmY/T+B3jarI49KZb891P2Mpw4DpUb/AQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cdaToKgi": {
+      "filename": "ezrstorage-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/5Mqu9qpV/versions/cdaToKgi/ezrstorage-1.1.0.jar",
+      "hash": "sha512-ZfIIBjprueaSe5IF2L1gjIzeB/hR47jic69JgsqoW+KqbkUFigr/qucmzLtw9zChhe+tX5YX65SjJTfS1hHlQA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "retZlwzk": {
+      "filename": "ezrstorage-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/5Mqu9qpV/versions/retZlwzk/ezrstorage-1.0.2.jar",
+      "hash": "sha512-Y01pRWiYRwOLgok9hwurdAfp9Sig+9qBiJ7pluKFrhV4XGiEdwTzv7J561tXPqN90QQ3xmBvFR8U05Y0gKZLpg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tuSCGSu6": {
+      "filename": "ezrstorage-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5Mqu9qpV/versions/tuSCGSu6/ezrstorage-1.0.0.jar",
+      "hash": "sha512-Rsmad0dUMUEjcANnLA26VyJC2l+lr5X3sMrpsfcd0KC8VsSrn8dbmC0LzJbQB1dKLWVtXmyyvxpJo76Ox4BfZg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uyg2R906": {
+      "filename": "ezrstorage-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5Mqu9qpV/versions/uyg2R906/ezrstorage-1.0.1.jar",
+      "hash": "sha512-Ic1jhs4Lpq9nSUTeDtoVqtgRz06YSUuKJyaHD6kyQbCyseFALAUhEOkjYfhEgQv06Hf1k/itHn1kqKkkI48J0g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "retZlwzk",
+      "uyg2R906",
+      "tuSCGSu6"
+    ],
+    "1.18.2+quilt": [
+      "retZlwzk",
+      "uyg2R906",
+      "tuSCGSu6"
+    ],
+    "1.19.2+fabric": [
+      "Os4truWF",
+      "avugRqDR",
+      "cdaToKgi"
+    ],
+    "1.19.2+quilt": [
+      "cdaToKgi"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "metalrender",
+  "projectId": "V2fEL3PE",
+  "versions": {
+    "6ryWhau2": {
+      "filename": "metalrender-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/V2fEL3PE/versions/6ryWhau2/metalrender-0.2.jar",
+      "hash": "sha512-9EwSTpCaFMNbl3RG6GG3TsbZ5Z7/NOVSBKZQUiv9Lr2ah6XBvGx4N4yymtfdXm52Q8rUJHr1BmVkVJIVrO0F5g==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "EBnQYVZl": {
+      "filename": "metalrender-0.4.jar",
+      "url": "https://cdn.modrinth.com/data/V2fEL3PE/versions/EBnQYVZl/metalrender-0.4.jar",
+      "hash": "sha512-drypt4JPJspUtq0J4AyYeWMsJIPyKfRfnrRISXo4XKcgGJOBB1R3HGAV2Kd+2BLxzvawiNDayouyECdpguEyUg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "P2aqzYS5": {
+      "filename": "metalrender-v0.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/V2fEL3PE/versions/P2aqzYS5/metalrender-v0.1.6.jar",
+      "hash": "sha512-vTddPGuUJ54F5P59Y4mHqftR0H2v+9KJ8FfVrj4xPsRnfAsB7Ozw4VNNhci+AiSA3tS0nI0ZqOQ/xSgRVCHCVg==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "k1Z3yx5I": {
+      "filename": "metalrender-0.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/V2fEL3PE/versions/k1Z3yx5I/metalrender-0.1.5.jar",
+      "hash": "sha512-6SAnn92M+fUcsnNS/GlT34bc0DWSe7pkFk+hqL1Ds7xnSCM65vfA9m3s5JNi4ZveUFzz/ZUa1PF4Rzoqt7nESg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "w0nf6rMc": {
+      "filename": "metalrender-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/V2fEL3PE/versions/w0nf6rMc/metalrender-0.1.jar",
+      "hash": "sha512-zgoQ7/31S0XhPRZDcL8nGdwfYEbNzCz0fqi+gqVf4HXtPkbpctM533q1OkaUXIha49zGFVvKe3jFbhkVfKzeHA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "wGVjiezx": {
+      "filename": "metalrender-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/V2fEL3PE/versions/wGVjiezx/metalrender-0.3.jar",
+      "hash": "sha512-HzAMB+Ebet0y4kGfgGRs4Cv8N3qsVmtvKunW0SfSVXMvp1zdPZgjenG8dxzcwrnuFboyvj/47kUoYCS4uePlhA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "P2aqzYS5",
+      "k1Z3yx5I"
+    ],
+    "1.21.8+fabric": [
+      "P2aqzYS5",
+      "EBnQYVZl",
+      "wGVjiezx",
+      "6ryWhau2",
+      "w0nf6rMc"
+    ],
+    "1.21.9+fabric": [
+      "P2aqzYS5",
+      "k1Z3yx5I"
+    ]
+  }
+}

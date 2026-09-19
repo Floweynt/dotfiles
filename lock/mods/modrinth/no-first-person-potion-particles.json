@@ -1,0 +1,89 @@
+{
+  "slug": "no-first-person-potion-particles",
+  "projectId": "JbEK6LRx",
+  "versions": {
+    "4A88Qiqq": {
+      "filename": "nofirstpersonpotions-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JbEK6LRx/versions/4A88Qiqq/nofirstpersonpotions-1.0.0.jar",
+      "hash": "sha512-AZCDWTOzuX52RTxEiIOKGVS19x0pRCUM2eia3zV8Tbks4juoEyYconAh2btmwdAm97KLhPnQxkMK8mVnmY98BQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "7NpbiYL9": {
+      "filename": "nofirstpersonpotions-1.2.0-26.2.jar",
+      "url": "https://cdn.modrinth.com/data/JbEK6LRx/versions/7NpbiYL9/nofirstpersonpotions-1.2.0-26.2.jar",
+      "hash": "sha512-Yn1LMq4mxeb8lWP3pVoKIwJMhQ4xojZ+8KkNBBCb2+Y5BO/vmXnfhFyJ3aR5v4E+u866ru/GZuxTKrKHmXzhKQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Herx3up0": {
+      "filename": "nofirstpersonpotions-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/JbEK6LRx/versions/Herx3up0/nofirstpersonpotions-1.2.0.jar",
+      "hash": "sha512-BzS9Wy6bUyBUhwxhJHuH4cQ/vRVIOKY5LYPUojfLTjPAdSGUfHm5jyo7hBSAHLmkD4eX3pnagt/A/V44CVu8+A==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "uj4eDOmq": {
+      "filename": "nofirstpersonpotions-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JbEK6LRx/versions/uj4eDOmq/nofirstpersonpotions-1.1.0.jar",
+      "hash": "sha512-iXBrVuHxRBFjFS686FVHP1gqh3iNnKgNKxpplj0k997xYq1VzpUmH+arHjNjfWQYTA8F16VamHlDp1DQclEizA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "uj4eDOmq",
+      "4A88Qiqq"
+    ],
+    "26.1+fabric": [
+      "Herx3up0"
+    ],
+    "26.1.1+fabric": [
+      "Herx3up0"
+    ],
+    "26.2+fabric": [
+      "7NpbiYL9"
+    ]
+  }
+}

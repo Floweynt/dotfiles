@@ -1,0 +1,36 @@
+{
+  "slug": "wyr",
+  "projectId": "fdHxJ4Dv",
+  "versions": {
+    "Hr6PwpZA": {
+      "filename": "wyr-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fdHxJ4Dv/versions/Hr6PwpZA/wyr-1.0.0.jar",
+      "hash": "sha512-YLzEQ1aAqtTEaFWssb6wlRI/EeN21WXCUNXxvjuSg9sQx+JWHnxW79BlXXOjWoCoHy1obN6BmbOl6nkhxNwMuA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "Hr6PwpZA"
+    ]
+  }
+}

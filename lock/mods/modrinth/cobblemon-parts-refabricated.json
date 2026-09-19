@@ -1,0 +1,67 @@
+{
+  "slug": "cobblemon-parts-refabricated",
+  "projectId": "hwZMhblf",
+  "versions": {
+    "8ZP0LeNE": {
+      "filename": "cobblemonpartsrefabricated-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/hwZMhblf/versions/8ZP0LeNE/cobblemonpartsrefabricated-1.0.2.jar",
+      "hash": "sha512-wMuWkmfrDIb7bM+Erpid2HH/9X0pavUFuQqi3lNbOYczcEDFKZ8tSlYV/hc8j/Ldg59HvY+Tk00Cpouas13E6Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mNF3YTcv": {
+      "filename": "cobblemonpartsrefabricated-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/hwZMhblf/versions/mNF3YTcv/cobblemonpartsrefabricated-1.0.1.jar",
+      "hash": "sha512-sIxluJcbNRQEd8Rtbp/+Eeifd+lD5i8TbDy6JiQjcQAynHkngKIAlmjybHV/B6/l164a04WsfaQ6n0HrGxqtyg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "rqKNO3WP": {
+      "filename": "cobblemonpartsrefabricated-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hwZMhblf/versions/rqKNO3WP/cobblemonpartsrefabricated-1.0.0.jar",
+      "hash": "sha512-lGR3xt/5emtf0U3xlPwC9PhgRf/FCZw2UR+L8ynk3iKKzs2XaCWTtdY4VZNTFhW9JixvkLD43609DaVGc3fDRw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "8ZP0LeNE",
+      "mNF3YTcv",
+      "rqKNO3WP"
+    ]
+  }
+}

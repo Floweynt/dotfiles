@@ -1,0 +1,46 @@
+{
+  "slug": "wax-instead",
+  "projectId": "kqDKmgda",
+  "versions": {
+    "43KoSFWW": {
+      "filename": "wax-instead-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/kqDKmgda/versions/43KoSFWW/wax-instead-1.1.jar",
+      "hash": "sha512-9hHVpDQwjf8nME8PBGXeaMzRhu+HtwQtnPiEUH8eJOrVBHjEJr92/jRQvOD2aF0zMBa6buXpqIVndFKZVcLzag==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "da59cP7x": {
+      "filename": "wax-instead-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kqDKmgda/versions/da59cP7x/wax-instead-1.0.jar",
+      "hash": "sha512-RGSKw6gebzYPSDAgzHNXvbIMsL0wkijw09ShwwpYtZS2cJSehRZhjqxt5Wv5kapdP6+o3rFqNMjgfsgMLJMVfQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "43KoSFWW",
+      "da59cP7x"
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "eessentials",
+  "projectId": "L8TVvPvs",
+  "versions": {
+    "AKlZw9vh": {
+      "filename": "EEssentials-2.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/L8TVvPvs/versions/AKlZw9vh/EEssentials-2.2.5.jar",
+      "hash": "sha512-AhiM11AxrLLuefEkzZy7GVIQ/g8lf2skaY9U1EDWUGKL3tNoAk0fqPFe3jFi3q/gcKhi2PFK3KfNsVKUDWB1CQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "FokLYvnd": {
+      "filename": "EEssentials-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/L8TVvPvs/versions/FokLYvnd/EEssentials-2.2.0.jar",
+      "hash": "sha512-pVWYCoFhRF00vxbtbd+nX8SeObqA159pKgI57pCF1NOEq55jgtvtPuszlZlp5jOpO/Y+ID/mWtPaclNSdiBfNg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    },
+    "HtDbQy1v": {
+      "filename": "EEssentials-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L8TVvPvs/versions/HtDbQy1v/EEssentials-1.1.0.jar",
+      "hash": "sha512-ZZlogB4/fw85jHSrvaPMQLX8Ain2HKf+oMVx6V9t/xxo2CBemPd4JCi2e44n7CubXUFFCuzcE5IYuH5UYxtggg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    },
+    "PRnBNt2P": {
+      "filename": "EEssentials-2.2.4.jar",
+      "url": "https://cdn.modrinth.com/data/L8TVvPvs/versions/PRnBNt2P/EEssentials-2.2.4.jar",
+      "hash": "sha512-6SynjlMuL1IY5pucx/IruVMkEg2kwMONwTzTomK6q03WbV6JSocVbgriWqMdGfyelHpNZWRwq+pUIc1mUh9jVw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "kU24qCMf": {
+      "filename": "EEssentials-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/L8TVvPvs/versions/kU24qCMf/EEssentials-2.0.0.jar",
+      "hash": "sha512-thDSDHqHypsSWkKQLs/sAAAMd4IOPX74XXsZ8svsB/mnKQkMrAcPvyY/C19seTFzjHkv+OyXoPTos1N0SU5eMQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    },
+    "sQ26kkiY": {
+      "filename": "EEssentials-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L8TVvPvs/versions/sQ26kkiY/EEssentials-2.1.0.jar",
+      "hash": "sha512-ZKDWkbFwdZ3e/cUaYtPmSbBWIN5yXUF2k4S7MZKSorq/Ik8zhUFeIgCfGx0rXmdU6jO53RGLlYyykOz9EpEB/Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HtDbQy1v"
+    ],
+    "1.21+fabric": [
+      "FokLYvnd",
+      "kU24qCMf"
+    ],
+    "1.21.1+fabric": [
+      "AKlZw9vh",
+      "PRnBNt2P",
+      "FokLYvnd",
+      "sQ26kkiY",
+      "kU24qCMf"
+    ]
+  }
+}

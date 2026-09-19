@@ -1,0 +1,52 @@
+{
+  "slug": "pie-delight-compact",
+  "projectId": "QKhjSXvT",
+  "versions": {
+    "5g92qAzx": {
+      "filename": "piedelight-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QKhjSXvT/versions/5g92qAzx/piedelight-1.0.0.jar",
+      "hash": "sha512-GAxD6KaEtrCUUHjO0XG5yFfwgIYe6RQWARVKcmpZf89ThE/7Jen8v6rjhOr03oTP5p5QkPuMivL8td13W3lb/w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "KZsMObTN": {
+      "filename": "piedelight-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QKhjSXvT/versions/KZsMObTN/piedelight-1.0.1.jar",
+      "hash": "sha512-hzb5zN7CMMNKxKkZ3CXyc05npNO3h4opib8oCIPrdjwlqzUViXa5aL+crm3hP03fgaMTpbQRE/GhbaJTR8I2hQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "KZsMObTN",
+      "5g92qAzx"
+    ]
+  }
+}

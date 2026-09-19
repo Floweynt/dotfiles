@@ -1,0 +1,69 @@
+{
+  "slug": "biomes-of-bountiful-fares",
+  "projectId": "i9DQjWXe",
+  "versions": {
+    "Ouqmw5m8": {
+      "filename": "biomesbf-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/i9DQjWXe/versions/Ouqmw5m8/biomesbf-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-oBl2PGGE/1Mgt5r9zG9E319pTP8YVIup5mBNBOURmZgtYI5Ij7PYGDbasQAIsBPTd4c9POlhoGLIzs0YJrLuHg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bountiful-fares",
+          "projectId": "YgrSDjlb",
+          "type": "required"
+        },
+        {
+          "slug": "nexuslib",
+          "projectId": "bgDhVmqz",
+          "type": "required"
+        }
+      ]
+    },
+    "e1jRJ6Ci": {
+      "filename": "biomesbf-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/i9DQjWXe/versions/e1jRJ6Ci/biomesbf-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-IFUnpv9A0P7J28DnoYk4zYNTEi6iJ4RX9sMPYTTjkdAd5fdYkDEXbh4XLVKUIIcVfSmE/k6paAtD4HyGk8WNOA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "nexuslib",
+          "projectId": "bgDhVmqz",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "bountiful-fares",
+          "projectId": "YgrSDjlb",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "e1jRJ6Ci"
+    ],
+    "1.21.1+neoforge": [
+      "Ouqmw5m8"
+    ]
+  }
+}

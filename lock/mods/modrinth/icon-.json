@@ -1,0 +1,92 @@
+{
+  "slug": "icon-",
+  "projectId": "d1GIewqD",
+  "versions": {
+    "9iDH3Czr": {
+      "filename": "icon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d1GIewqD/versions/9iDH3Czr/icon-1.0.0.jar",
+      "hash": "sha512-hkgcwisvLpReaqLvvWhkmxVR+cwmXjf9Svyhr5qWZa+jCfAkXdhh74ocRvoAVNpo/Gec7W3JXOReIWSwfNegDQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CMnStn0y": {
+      "filename": "icon-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/d1GIewqD/versions/CMnStn0y/icon-1.0.1.jar",
+      "hash": "sha512-8yXmV0ofJfPZqfdUCkDw47IfhUGPjV2hCEg3iqAtt4C8GnZGZ/UTcZJ6SMTDJ4jbv0APw5jX0Mtq1656HEmXWw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "s14PwjQP": {
+      "filename": "icon-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/d1GIewqD/versions/s14PwjQP/icon-1.0.2.jar",
+      "hash": "sha512-FxQRvqXVksXfEE5ZcWy0w4TDLI7Iiw3YUEAGgQIjcdEjLJ+hwlPWsDKEUvLpqjyyQJFF3kozl4IdzU2+AjeqjQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "9iDH3Czr"
+    ],
+    "1.21+quilt": [
+      "9iDH3Czr"
+    ],
+    "1.21.1+fabric": [
+      "9iDH3Czr"
+    ],
+    "1.21.1+quilt": [
+      "9iDH3Czr"
+    ],
+    "1.21.4+fabric": [
+      "s14PwjQP",
+      "CMnStn0y"
+    ],
+    "1.21.4+quilt": [
+      "s14PwjQP",
+      "CMnStn0y"
+    ]
+  }
+}

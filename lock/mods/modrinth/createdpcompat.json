@@ -1,0 +1,36 @@
+{
+  "slug": "createdpcompat",
+  "projectId": "1k95061B",
+  "versions": {
+    "gosofPYB": {
+      "filename": "createdpcompat-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/1k95061B/versions/gosofPYB/createdpcompat-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-8fxHqHZW+kYg6uxjzgv79sJTTeI/QdH+TRFk7/TzaLkbRK7uopUlEgxn3DP9fVIMsjmXyIIxtVcRtyaRWSUIhA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "datapackportals",
+          "projectId": "LwFVdT1s",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gosofPYB"
+    ]
+  }
+}

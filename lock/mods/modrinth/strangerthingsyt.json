@@ -1,0 +1,67 @@
+{
+  "slug": "strangerthingsyt",
+  "projectId": "PofblhOr",
+  "versions": {
+    "DyjYP0Nl": {
+      "filename": "ST2-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/PofblhOr/versions/DyjYP0Nl/ST2-1.0.8.jar",
+      "hash": "sha512-s61s/NNuDm+PX3HMNX7Hj9SLirwejJrT6yXdiRVcFx6jEUTyOFE+gM3N9jBbg9i4Qe9OUQ8F/+9B2nNpL71SnQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    },
+    "VpN3ij9G": {
+      "filename": "ST2-1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/PofblhOr/versions/VpN3ij9G/ST2-1.0.9.jar",
+      "hash": "sha512-MhA3ZCsH3xVDy9q9dspGynjAtUGJygd+MoHjuUpjUdzuhR8iIr66ssn6GycI447j7+Qme92sB76g4oHV+Dk2iw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "VpN3ij9G",
+      "DyjYP0Nl"
+    ]
+  }
+}

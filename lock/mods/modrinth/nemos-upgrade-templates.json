@@ -1,0 +1,127 @@
+{
+  "slug": "nemos-upgrade-templates",
+  "projectId": "EldTQC1J",
+  "versions": {
+    "EKemDmlg": {
+      "filename": "nemos-upgrade-templates-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EldTQC1J/versions/EKemDmlg/nemos-upgrade-templates-1.0.jar",
+      "hash": "sha512-Gy4xhJBmaa4BXfuvrjxzA8NTiCEcOy1BcKmUSa3kP4ZFoW/89Btua9QtUfbfVSTyGgpwxLoW0JhDjYJ4qMAfXA==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "H3BwJkuR": {
+      "filename": "nemos-upgrade-templates-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EldTQC1J/versions/H3BwJkuR/nemos-upgrade-templates-1.0.jar",
+      "hash": "sha512-ZkPEAI0W7mBTS7h6OeZYWm3BJfukXE+2X36fDy8+MijyHcR32vVZH3OglT15qHkwUlLa67A2fgLAvPsT1uK4TQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gAXYdu5u": {
+      "filename": "nemos-upgrade-templates-26.1-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/EldTQC1J/versions/gAXYdu5u/nemos-upgrade-templates-26.1-1.1.jar",
+      "hash": "sha512-ttA41XzdDxKbqE9Fl7QfTtd3Ud9zjgJJgkr7ivx6UfUPWVBpESGBkS4K7WPBcbZVEOwk8smYPQIop6jXFJ8tPg==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "v9k5Wxgh": {
+      "filename": "nemos-upgrade-templates-26.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/EldTQC1J/versions/v9k5Wxgh/nemos-upgrade-templates-26.1-1.0.1.jar",
+      "hash": "sha512-XFYSaz5GhzStOKG2razYhiONSEDMRaX/PGrqbK5aKAGup/4+YGYckZwT9h5wFd11RtIFh5VpL/igOF08KxU1VQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zqcZPncn": {
+      "filename": "nemos-upgrade-templates-26.2-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/EldTQC1J/versions/zqcZPncn/nemos-upgrade-templates-26.2-1.2.jar",
+      "hash": "sha512-GUgs5NQGVk5drivO7sDnaycwFlchtD+tUIF5xn+ewazrGiECqMfVyMeuDJUJnHpQHwlpYX8ty9fmM3jEs6HyZQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "H3BwJkuR"
+    ],
+    "26.1+fabric": [
+      "gAXYdu5u",
+      "v9k5Wxgh",
+      "EKemDmlg"
+    ],
+    "26.1.1+fabric": [
+      "v9k5Wxgh"
+    ],
+    "26.1.2+fabric": [
+      "v9k5Wxgh"
+    ],
+    "26.2+fabric": [
+      "zqcZPncn"
+    ]
+  }
+}

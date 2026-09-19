@@ -1,0 +1,92 @@
+{
+  "slug": "apple-skin-lunge-fix",
+  "projectId": "X8whoGUt",
+  "versions": {
+    "1YKIGsLs": {
+      "filename": "apple-skin-fix-1.21.11-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/X8whoGUt/versions/1YKIGsLs/apple-skin-fix-1.21.11-1.0.1.jar",
+      "hash": "sha512-9qRusMfNid5KxbpQWhTw51rrAoK3UaCNQc9qBDZ6lnZtF4aBDjJPJKcKXoLFS0PQjcHUdqTvz56Kt1Po+NVlXQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "appleskin",
+          "projectId": "EsAfCjCV",
+          "type": "required"
+        }
+      ]
+    },
+    "ONeDuI2J": {
+      "filename": "apple-skin-fix-26.2-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/X8whoGUt/versions/ONeDuI2J/apple-skin-fix-26.2-1.0.1.jar",
+      "hash": "sha512-k5oOhUH7x8cX79uiGSsujvUQ3JsPuPrWZ/X1yYKJUMwXwISoqgwL9cuwl7+0c87x6R8LEInhB5sDaNMJTZItjg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "appleskin",
+          "projectId": "EsAfCjCV",
+          "type": "required"
+        }
+      ]
+    },
+    "q8GCvhaL": {
+      "filename": "apple-skin-fix-26.1.2-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/X8whoGUt/versions/q8GCvhaL/apple-skin-fix-26.1.2-1.0.1.jar",
+      "hash": "sha512-v2YeFJR6AXJF+f2lUGmPYbKbKm40GHMyfYRdeTPLUbaBTo1pW0j1gP5Z5ZWSi01zT+JLvuMxFQXTwmyOF8+M3Q==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "appleskin",
+          "projectId": "EsAfCjCV",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "1YKIGsLs"
+    ],
+    "26.1.2+fabric": [
+      "q8GCvhaL"
+    ],
+    "26.2+fabric": [
+      "ONeDuI2J"
+    ]
+  }
+}

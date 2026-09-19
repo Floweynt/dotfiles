@@ -1,0 +1,96 @@
+{
+  "slug": "pronounmc-neo",
+  "projectId": "SrkzlZZ1",
+  "versions": {
+    "65acIDza": {
+      "filename": "pronounmc-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SrkzlZZ1/versions/65acIDza/pronounmc-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-4ZN26w4kjjBEeCxvstKvxDODnyu36f/04GkPWOOjeb9fVrecEU2K6b+kFRyk3rZfnw8ei63/gaTDePuK2n97DQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "8WuA1CEM": {
+      "filename": "pronounmc-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/SrkzlZZ1/versions/8WuA1CEM/pronounmc-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-plcbiEWEUEoyGEhojGD7yCoDS1uHqMxwZjHjHbMcpM4G84xS76skMrmK25KAlwazZmeqZrcK2tzlQcxgisj85Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UdFQAePh": {
+      "filename": "pronounmc-forge-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/SrkzlZZ1/versions/UdFQAePh/pronounmc-forge-1.0.0-1.20.1.jar",
+      "hash": "sha512-Kuh2EHbajX44RgX8BkKBg1uFYuUxVqkYGOgOaZpsd83LV3GIfXCUc8Uu8PFeICJuIiM2Psf4IGED74D3glE6Cw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VCNmNTaO": {
+      "filename": "pronounmc-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SrkzlZZ1/versions/VCNmNTaO/pronounmc-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-OHB44fb56DVRfth74iTpjQiGq4XFYh3eH9P80d2XUHlnY3geFy+FxkXlo4j5EAbw6amsnD3cO1tZ8iv2OkdLWw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "8WuA1CEM"
+    ],
+    "1.20+forge": [
+      "UdFQAePh"
+    ],
+    "1.20.1+fabric": [
+      "8WuA1CEM"
+    ],
+    "1.20.1+forge": [
+      "UdFQAePh"
+    ],
+    "1.21.1+fabric": [
+      "VCNmNTaO"
+    ],
+    "1.21.1+neoforge": [
+      "65acIDza"
+    ]
+  }
+}

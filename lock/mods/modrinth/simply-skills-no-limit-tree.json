@@ -1,0 +1,79 @@
+{
+  "slug": "simply-skills-no-limit-tree",
+  "projectId": "g5sz926o",
+  "versions": {
+    "A9SWSyEy": {
+      "filename": "TreeNoLimit.zip",
+      "url": "https://cdn.modrinth.com/data/g5sz926o/versions/A9SWSyEy/TreeNoLimit.zip",
+      "hash": "sha512-CEDDRALANnz0LVHTL6czEGJYpDJYQqMqxISuJUFpnhlFJ2CHsCNyiSuzZzu7cjO5s2M6oUHrcsiP8W3ZXxoIyA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "simply-skills",
+          "projectId": "lyvwxqAy",
+          "type": "required"
+        }
+      ]
+    },
+    "NdpERQSI": {
+      "filename": "TREENOLIMIT.zip",
+      "url": "https://cdn.modrinth.com/data/g5sz926o/versions/NdpERQSI/TREENOLIMIT.zip",
+      "hash": "sha512-aluYcwnAUL5ncxhlpGbeJzTWl3KmfNTulimfZtIiLDtnl50wo/rOygFz/2coTuAUTWJ7sF2MaORtvyMNDwNDvQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "simply-skills",
+          "projectId": "lyvwxqAy",
+          "type": "required"
+        }
+      ]
+    },
+    "qmFWt1sv": {
+      "filename": "simply-skills-no-limit-tree-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/g5sz926o/versions/qmFWt1sv/simply-skills-no-limit-tree-1.0.1.jar",
+      "hash": "sha512-fi5MTAXnlotZji4ImJ4QNZtN2Dh4tX8n7E0OLC7+h6YXSsjkF8C766+3gRNVG1VoeZBFsmo90CZkgtf/ZaQRJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "simply-skills",
+          "projectId": "lyvwxqAy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "NdpERQSI",
+      "A9SWSyEy"
+    ],
+    "1.20.1+fabric": [
+      "qmFWt1sv"
+    ],
+    "1.20.1+forge": [
+      "qmFWt1sv"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "ultra-precision-mechanism",
+  "projectId": "JdYxo9Cq",
+  "versions": {
+    "BCR55vXL": {
+      "filename": "Ultra-Precision-Mechanism.zip",
+      "url": "https://cdn.modrinth.com/data/JdYxo9Cq/versions/BCR55vXL/Ultra-Precision-Mechanism.zip",
+      "hash": "sha512-T0McJ2wFl2DbOn5EANrJlaXEbW+l+0WtlPJAlV5JKvpX/ApeX4MRZJcCOq8l8gB+59aHd7e5J13TULVwgsXHYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "mYe7MuQe": {
+      "filename": "ultra-precision-mechanism-1.20.1_1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JdYxo9Cq/versions/mYe7MuQe/ultra-precision-mechanism-1.20.1_1.0.0.jar",
+      "hash": "sha512-+YGXm6DtrLou6ScJDCag0loUxSKsIaSfWTPGPR5rU8ZZNzeNilK9hqk/n7sW9lMmLNUDD24O4omtFEUK5RSm2A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "BCR55vXL"
+    ],
+    "1.20.1+fabric": [
+      "mYe7MuQe"
+    ],
+    "1.20.1+forge": [
+      "mYe7MuQe"
+    ],
+    "1.20.1+neoforge": [
+      "mYe7MuQe"
+    ],
+    "1.20.1+quilt": [
+      "mYe7MuQe"
+    ]
+  }
+}

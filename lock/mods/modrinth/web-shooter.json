@@ -1,0 +1,46 @@
+{
+  "slug": "web-shooter",
+  "projectId": "sXxGCbJ3",
+  "versions": {
+    "MM6pU2I7": {
+      "filename": "spidermod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sXxGCbJ3/versions/MM6pU2I7/spidermod-1.0.0.jar",
+      "hash": "sha512-gt62PUFE5FtpjHO+43IRDZQPmNsEY5KWgsZ3lOE0z0WCxCPvNNrbX/O3zZiYvvn5xmCI3L0ObNk9vUkFYjBbDA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QYYtSVla": {
+      "filename": "spidermod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sXxGCbJ3/versions/QYYtSVla/spidermod-1.0.0.jar",
+      "hash": "sha512-RYPSRXuxoZSRaFv7SUYtL3wquuZ07v/kWtaIb4dp2LRKI8glapKUYkXKqRmTajDs9ZX0s9NYI8YQr6L+6pHI5Q==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "MM6pU2I7",
+      "QYYtSVla"
+    ]
+  }
+}

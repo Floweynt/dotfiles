@@ -1,0 +1,148 @@
+{
+  "slug": "no-recipe-book-shift",
+  "projectId": "CnII1zAB",
+  "versions": {
+    "cWyhqeDv": {
+      "filename": "norecipebookshift-1.0.0+1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/CnII1zAB/versions/cWyhqeDv/norecipebookshift-1.0.0%2B1.21.1-neoforge.jar",
+      "hash": "sha512-tUVHQQ4kY31FMVZb4MG03icSSDa/O+MPbEEyPPBiIaOm+7TIXnArQWfoYloMNciGRaCDFo77NrHh+HDd1WN9vw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "uXXTbpj5": {
+      "filename": "norecipebookshift-1.0.0+1.21.4-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/CnII1zAB/versions/uXXTbpj5/norecipebookshift-1.0.0%2B1.21.4-fabric.jar",
+      "hash": "sha512-z2IpB5L55GEaRTFQBB+2iJ0WO8TPerYshSqqwBI5l+OCAIxtBvWM6p1uf6LiLpmscg9NvnUvtkl4N6w69HhO0Q==",
+      "gameVersions": [
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.8",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "vSIy9OKV": {
+      "filename": "norecipebookshift-1.0.0+1.21.4-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/CnII1zAB/versions/vSIy9OKV/norecipebookshift-1.0.0%2B1.21.4-neoforge.jar",
+      "hash": "sha512-RHYTJyi1NEvszXytTNFMb0VMMkXaEHfgH1agtfX5yJFxgJix2ZaMccl8h2JjmAGbsTlbpcurmlK2dmAGvvGi9Q==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5",
+        "1.21.8",
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "xk2EG4Qh": {
+      "filename": "norecipebookshift-1.0.0+1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/CnII1zAB/versions/xk2EG4Qh/norecipebookshift-1.0.0%2B1.21.1-fabric.jar",
+      "hash": "sha512-GH9jW5DgB8SWFAOZuke6a+qhGpO+ILWMbRStMD/5ScZuSyWW2Y4MBRjK7wK6ixpqmHtvwWliCuXmkuKdONPdWg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "xk2EG4Qh"
+    ],
+    "1.21.1+neoforge": [
+      "cWyhqeDv"
+    ],
+    "1.21.10+fabric": [
+      "uXXTbpj5"
+    ],
+    "1.21.10+neoforge": [
+      "vSIy9OKV"
+    ],
+    "1.21.3+fabric": [
+      "uXXTbpj5"
+    ],
+    "1.21.4+fabric": [
+      "uXXTbpj5"
+    ],
+    "1.21.4+neoforge": [
+      "vSIy9OKV"
+    ],
+    "1.21.5+fabric": [
+      "uXXTbpj5"
+    ],
+    "1.21.5+neoforge": [
+      "vSIy9OKV"
+    ],
+    "1.21.8+fabric": [
+      "uXXTbpj5"
+    ],
+    "1.21.8+neoforge": [
+      "vSIy9OKV"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "difficulty-extensions",
+  "projectId": "AYwPB5Hm",
+  "versions": {
+    "6b5To2UE": {
+      "filename": "sihywtcamd_extensions-1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/AYwPB5Hm/versions/6b5To2UE/sihywtcamd_extensions-1.0%2B1.21.jar",
+      "hash": "sha512-0Os+jT20w8XGj0L2SeX2eEIKT9TxNXcji07mGi5hnTZoFWQ25MtYXLRxsRhjHVNp+gAxJsElyxy4BMMIcClxPw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "difficulty",
+          "projectId": "EutyxFnb",
+          "type": "required"
+        }
+      ]
+    },
+    "bM4ORVhF": {
+      "filename": "sihywtcamd_extensions-1.0.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/AYwPB5Hm/versions/bM4ORVhF/sihywtcamd_extensions-1.0.1%2B1.21.jar",
+      "hash": "sha512-oygwIg7iLiI4JqHXxkQjF2w7tE+djxYy9gmBc/oOLORxNSH/xByiWVVRpcG+W1E5NbOEFS16wXDikH4DKGOfUw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "bM4ORVhF",
+      "6b5To2UE"
+    ],
+    "1.21.1+fabric": [
+      "bM4ORVhF",
+      "6b5To2UE"
+    ]
+  }
+}

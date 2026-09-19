@@ -1,0 +1,148 @@
+{
+  "slug": "item-counter-fx",
+  "projectId": "z2ktbVdj",
+  "versions": {
+    "BvFvJJjV": {
+      "filename": "ItemCounter-1.0.1+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/z2ktbVdj/versions/BvFvJJjV/ItemCounter-1.0.1%2B1.21.8.jar",
+      "hash": "sha512-v665V841YYL8LwDDJidfB6VPGrDvZhLmzSt3/TbT4OGp4cKQmaR9wLWc+wSd7uM1v5HsTSQ7lYOZ7/wXufksYw==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "settingsmanagerlib",
+          "projectId": "1dU3bHt8",
+          "type": "required"
+        }
+      ]
+    },
+    "TXPerniC": {
+      "filename": "ItemCounter-1.0.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/z2ktbVdj/versions/TXPerniC/ItemCounter-1.0.1%2B26.1.jar",
+      "hash": "sha512-2Mx5ZIGZfWgAPvvKylorEv1V3rwK6ja9OmtN/km/0AdxGej0Ljb1xvdpgxqU3PGthLtFIN3QRY8N99WQKXGjEA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "settingsmanagerlib",
+          "projectId": "1dU3bHt8",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "l7z9LE1a": {
+      "filename": "ItemCounter-1.0.0+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/z2ktbVdj/versions/l7z9LE1a/ItemCounter-1.0.0%2B1.21.8.jar",
+      "hash": "sha512-9FA3Juhf69gLJBx8Nuh7wFHMvzELv4AvKrJm5e4NwbMm9RkC4QusFagc1QjWVpUqX0GNtiifBGRkqh8YU4DgXw==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "settingsmanagerlib",
+          "projectId": "1dU3bHt8",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "BvFvJJjV",
+      "l7z9LE1a"
+    ],
+    "1.21.11+fabric": [
+      "BvFvJJjV",
+      "l7z9LE1a"
+    ],
+    "1.21.6+fabric": [
+      "BvFvJJjV",
+      "l7z9LE1a"
+    ],
+    "1.21.7+fabric": [
+      "BvFvJJjV",
+      "l7z9LE1a"
+    ],
+    "1.21.8+fabric": [
+      "BvFvJJjV",
+      "l7z9LE1a"
+    ],
+    "1.21.9+fabric": [
+      "BvFvJJjV",
+      "l7z9LE1a"
+    ],
+    "26.1+fabric": [
+      "TXPerniC"
+    ],
+    "26.1.1+fabric": [
+      "TXPerniC"
+    ],
+    "26.1.2+fabric": [
+      "TXPerniC"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "impaled-soulfork-fix",
+  "projectId": "UnWeHpnE",
+  "versions": {
+    "SpFkUZ4U": {
+      "filename": "ImpaledSoulforkFix_1.0.0_fabric_1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/UnWeHpnE/versions/SpFkUZ4U/ImpaledSoulforkFix_1.0.0_fabric_1.19.2.jar",
+      "hash": "sha512-yVqVV577b1jsCt5F68JOKibP/AFrFXEFMSoNGuk+h1ec0Dv7vfrTsOhjJiUM7l+gRM1o9ZmIoCxW4ZZcPWo/lQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "impaled",
+          "projectId": "AiHAhIP5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "SpFkUZ4U"
+    ],
+    "1.19.2+quilt": [
+      "SpFkUZ4U"
+    ]
+  }
+}

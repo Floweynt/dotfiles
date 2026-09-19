@@ -1,0 +1,137 @@
+{
+  "slug": "potato-golem",
+  "projectId": "aAaM95Nh",
+  "versions": {
+    "5EkA4uuc": {
+      "filename": "potato-golem-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/aAaM95Nh/versions/5EkA4uuc/potato-golem-0.1.jar",
+      "hash": "sha512-rLaGRyDRV998uuE0ei2br6CVi+5QvLYOj8qjBdS/34M1SHHxgcT0rJ+Gzr83UFyWHbHfukeA99G+OdjILXUJBg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "5xJXbEML": {
+      "filename": "potato-golem-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/aAaM95Nh/versions/5xJXbEML/potato-golem-0.1.jar",
+      "hash": "sha512-46ztIA3+sVtZrHdZK9jHqC47yzE7jIdrSvyZA2KXponwyQJ1yU+jFSQoXsVHj/EJ1xje3/sPrGm/cDU0fqHBhg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Y55yJm8w": {
+      "filename": "potato-golem-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/aAaM95Nh/versions/Y55yJm8w/potato-golem-0.2.jar",
+      "hash": "sha512-I7bob1L7NYJEp8tLIaSnPZJ9ny5nLbafp/YeTFJCbbdTtnAJ9OD0Nm7phBcLor0A8X0qiaqNK3yNPoI1fgfBFw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cr2DU87X": {
+      "filename": "potato-golem-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/aAaM95Nh/versions/cr2DU87X/potato-golem-0.2.jar",
+      "hash": "sha512-DfU8qF0WlJjETiP/yfbVXbuxpRQnZhCXpWDYESi2tJai/1KFWkRvGeCBXrkxIrYueMG6TCGWDYxs7/LNnhXzEw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sS5RO69z": {
+      "filename": "potato-golem-fabric-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/aAaM95Nh/versions/sS5RO69z/potato-golem-fabric-2.0.jar",
+      "hash": "sha512-pIlZTqALG/nE4bQypCmxVKt3Hl81bCUFKSfJooVDFv9rdQLweoKyDvGEedl77dK10WIJDlsdvIA770LXoqCEQw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "x00WWBNj": {
+      "filename": "potato-golem-forge-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/aAaM95Nh/versions/x00WWBNj/potato-golem-forge-2.0.jar",
+      "hash": "sha512-2HMyHqmB0DZm4fU0bED3PPYkUPejcn2p288GuQvk0fd7WwA8tczH2b3QPchD7rlqU7P0FxhBCC0XyOqBBeP0+A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sS5RO69z",
+      "Y55yJm8w",
+      "5EkA4uuc"
+    ],
+    "1.20.1+forge": [
+      "x00WWBNj",
+      "cr2DU87X",
+      "5xJXbEML"
+    ],
+    "1.20.1+neoforge": [
+      "cr2DU87X",
+      "5xJXbEML"
+    ],
+    "1.20.1+quilt": [
+      "Y55yJm8w",
+      "5EkA4uuc"
+    ]
+  }
+}

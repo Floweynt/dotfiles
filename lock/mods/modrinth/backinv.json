@@ -1,0 +1,149 @@
+{
+  "slug": "backinv",
+  "projectId": "V9bB5izm",
+  "versions": {
+    "MvNpnFal": {
+      "filename": "backinv1.20.1-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/V9bB5izm/versions/MvNpnFal/backinv1.20.1-1.1.5.jar",
+      "hash": "sha512-ZavHnzVmuALPkXHZXkxTFfa7PaTPMux2s+ngD+N9vFARYTDxm/FYGY5lBHexxOQCj3yfncGhnwAcGSfmPZ85Gg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "QDGvkBlp": {
+      "filename": "backinv-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/V9bB5izm/versions/QDGvkBlp/backinv-1.0.1.jar",
+      "hash": "sha512-vFucHleax9NlkU+wXfQOVPJ4nzBoadiEoQFDe1ZQ72ZIji9Q5I2w/mrb9OkwpC8XKFsssjnA4FB/y5ynkuSLug==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "5q12s-yaml-api",
+          "projectId": "jkWXDybF",
+          "type": "required"
+        }
+      ]
+    },
+    "Tx0tKeCl": {
+      "filename": "backinv1.20.1-1.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/V9bB5izm/versions/Tx0tKeCl/backinv1.20.1-1.1.6.jar",
+      "hash": "sha512-NS+HYBO/za4eDxwIfEAQwKM1BWb/ObKpNc0DYPZOMeZTOu9HppYHp8+smZnlylb2InpJM0RZIh/vqO/7QrLgjw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        }
+      ]
+    },
+    "ZZesaluy": {
+      "filename": "backinv-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/V9bB5izm/versions/ZZesaluy/backinv-1.1.0.jar",
+      "hash": "sha512-K/E0gCJf89N2KR9pM8FS3lx8fpl+4yYKLi8dWcCNH+bepPjAntfM8za0gttGJW68IEyDQfVJ9WD+h60qBtIKRw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Tx0tKeCl",
+      "MvNpnFal"
+    ],
+    "1.20.1+fabric": [
+      "Tx0tKeCl",
+      "MvNpnFal"
+    ],
+    "1.20.2+fabric": [
+      "Tx0tKeCl"
+    ],
+    "1.20.3+fabric": [
+      "Tx0tKeCl"
+    ],
+    "1.20.4+fabric": [
+      "Tx0tKeCl"
+    ],
+    "1.20.5+fabric": [
+      "Tx0tKeCl"
+    ],
+    "1.20.6+fabric": [
+      "Tx0tKeCl"
+    ],
+    "1.21+fabric": [
+      "ZZesaluy",
+      "QDGvkBlp"
+    ],
+    "1.21.1+fabric": [
+      "ZZesaluy"
+    ],
+    "1.21.2+fabric": [
+      "ZZesaluy"
+    ],
+    "1.21.3+fabric": [
+      "ZZesaluy"
+    ]
+  }
+}

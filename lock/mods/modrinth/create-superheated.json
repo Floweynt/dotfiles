@@ -1,0 +1,31 @@
+{
+  "slug": "create-superheated",
+  "projectId": "JvgoPyAV",
+  "versions": {
+    "bCUnM882": {
+      "filename": "superheated-0.0.2+1.18.2-14.jar",
+      "url": "https://cdn.modrinth.com/data/JvgoPyAV/versions/bCUnM882/superheated-0.0.2%2B1.18.2-14.jar",
+      "hash": "sha512-lZlbFydnJVSTkgNJUHUm8zwSxy5uIZlHMtXKqq+oHU4Am0ESO9HMw+DZAK6021M3BagXbshHbkS+AISyAL9EqA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "bCUnM882"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "create-train-fix",
+  "projectId": "DLSSuDeh",
+  "versions": {
+    "bvuuGPpW": {
+      "filename": "create-trainfix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DLSSuDeh/versions/bvuuGPpW/create-trainfix-1.0.0.jar",
+      "hash": "sha512-I9X+/rWD7nohavK6brgYal4chKRvHmXlzV8S5R7UYKQrbY7Epij+flcx+0wJKvyqLHM0C9KgprQzEs3LX3qssA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "bvuuGPpW"
+    ],
+    "1.20.1+quilt": [
+      "bvuuGPpW"
+    ]
+  }
+}

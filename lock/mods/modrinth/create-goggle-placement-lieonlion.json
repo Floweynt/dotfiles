@@ -1,0 +1,136 @@
+{
+  "slug": "create-goggle-placement-lieonlion",
+  "projectId": "dQG1xfZI",
+  "versions": {
+    "6K4cYhAB": {
+      "filename": "CreateGogglePlacement-1.0.0+1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/dQG1xfZI/versions/6K4cYhAB/CreateGogglePlacement-1.0.0%2B1.20.1-fabric.jar",
+      "hash": "sha512-f7H7/JLavjBvihMGrzromptfoQqslikPSrMZhiaa5UHLPeB8B8bLlKgaUd+Z3PKcGBF1SfU7h4AVDLTDJK5Pkw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "B84Fe80F": {
+      "filename": "CreateGogglePlacement-1.0.1+1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/dQG1xfZI/versions/B84Fe80F/CreateGogglePlacement-1.0.1%2B1.20.1-fabric.jar",
+      "hash": "sha512-5lo5d4/jUZbr2vQ9Wy1Z1udVGtOB/1MmZKhdl+1ZpItQyZgNOw2Yvk0drgMLO6YDawmjSLjgnsrR3IGIp/OUfg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "WNaqymFH": {
+      "filename": "CreateGogglePlacement-1.0.0+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/dQG1xfZI/versions/WNaqymFH/CreateGogglePlacement-1.0.0%2B1.20.1-forge.jar",
+      "hash": "sha512-rZGsnJoRb5e36rkEdFc/FjXwudjeHOfnuvy+GFEsNo5JOx3dLuRJ+wOsawouBL2MK2+RkH2lAwV5GCD+DGPX9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "curios",
+          "projectId": "vvuO3ImH",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "yUfpnPxM": {
+      "filename": "CreateGogglePlacement-1.0.1+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/dQG1xfZI/versions/yUfpnPxM/CreateGogglePlacement-1.0.1%2B1.20.1-forge.jar",
+      "hash": "sha512-cAlhNti2EZp5JuhvMaJuQL1+ZqJ1tKyA6w3BkD0xkEBg1KnNT7CGHlaeVzN6Ilrnkr46QSdDim7OpFSxEMwzTQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "curios",
+          "projectId": "vvuO3ImH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "B84Fe80F",
+      "6K4cYhAB"
+    ],
+    "1.20.1+forge": [
+      "yUfpnPxM",
+      "WNaqymFH"
+    ]
+  }
+}

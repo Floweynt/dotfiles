@@ -1,0 +1,88 @@
+{
+  "slug": "subtly-camera-shake",
+  "projectId": "bNHfFMBo",
+  "versions": {
+    "C8hM48hP": {
+      "filename": "subtlycs-2.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/bNHfFMBo/versions/C8hM48hP/subtlycs-2.0%2B1.21.1.jar",
+      "hash": "sha512-/dTQmtjqg8xQBUGDGHg0+PkEJCII1Qz/3JGzB/kiiwIs2Snk524Z1zrLgDy4DdBA1ieG7GQGNKg9AxANkK3L4g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RCG8bSh9": {
+      "filename": "subtlycs-2.0+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/bNHfFMBo/versions/RCG8bSh9/subtlycs-2.0%2B26.2.jar",
+      "hash": "sha512-bmxthF/WTVYeFsNLRQ4ay4b7IogfOfnE32rMEoN6tsDQIBjVA7a6aVZpMb+0xHW4EdN7LAMj/FayEeuQpH2MbA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hYiPNRjn": {
+      "filename": "subtlycs-1.0.0+1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/bNHfFMBo/versions/hYiPNRjn/subtlycs-1.0.0%2B1.21.10.jar",
+      "hash": "sha512-ATRzvc+PCnTgPz1Z+8fOE9hyUXrjw9WyaRcR5w/ts/ak4RUPfRzQTE1fCEV9YycLheifHpb7r+ezrZs6zusgOA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "t9M3dcPV": {
+      "filename": "subtlycs-1.2.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/bNHfFMBo/versions/t9M3dcPV/subtlycs-1.2.0%2B1.21.11.jar",
+      "hash": "sha512-N0gt3TcVml9xjw6T8S2SZENcEp+20BSXS8lIx2QCIH2pdlHzCubyN8E5cRG6d05KIP2AC/Ci0Gj0Bq+gGw+D2g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "C8hM48hP"
+    ],
+    "1.21.10+fabric": [
+      "hYiPNRjn"
+    ],
+    "1.21.11+fabric": [
+      "t9M3dcPV"
+    ],
+    "26.2+fabric": [
+      "RCG8bSh9"
+    ]
+  }
+}

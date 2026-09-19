@@ -1,0 +1,116 @@
+{
+  "slug": "votifier-for-fabric",
+  "projectId": "8k8d2Dbx",
+  "versions": {
+    "NCHvcB1x": {
+      "filename": "votifier-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8k8d2Dbx/versions/NCHvcB1x/votifier-1.1.jar",
+      "hash": "sha512-cpmP/GoKUgTT5y94x1nT6FXaN7sJQMbJLuYQAescu7TN8MywI2hgkDZ0hZrQTvmh+yE5l7lnEW0W19KUbzyt4w==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Wgv4OqdL": {
+      "filename": "votifier-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8k8d2Dbx/versions/Wgv4OqdL/votifier-1.1.jar",
+      "hash": "sha512-K8itiRICJECsUAAyNsPrwXytQZwWi2QGqJKA+w7jkbp0iFsN+n6XDpvv5i9IlPQQeJspTNfp7lFB/rw9TglaLA==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mNC20BnM": {
+      "filename": "votifier-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8k8d2Dbx/versions/mNC20BnM/votifier-1.1.jar",
+      "hash": "sha512-FVo0xRtzTIscXljPqx2upbeS5QQY0jPuNAdILNBxWjGfvRNPnhcFJ7bTS1sK4B6cYXRY/abLFfIU32MCrNUE8g==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oLTPPYWG": {
+      "filename": "votifier-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8k8d2Dbx/versions/oLTPPYWG/votifier-1.1.jar",
+      "hash": "sha512-yDRaPjLQRPnoBzkJocYBqR8pZl07QOGtENxFQalgn9pUTYySDET8ftAC4x2yPKhw6es4lVzfiZoQDaq6fMBGww==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "oLTPPYWG"
+    ],
+    "1.20.1+quilt": [
+      "oLTPPYWG"
+    ],
+    "1.20.4+fabric": [
+      "mNC20BnM"
+    ],
+    "1.20.4+quilt": [
+      "mNC20BnM"
+    ],
+    "1.20.6+fabric": [
+      "Wgv4OqdL"
+    ],
+    "1.20.6+quilt": [
+      "Wgv4OqdL"
+    ],
+    "1.21+fabric": [
+      "NCHvcB1x"
+    ],
+    "1.21+quilt": [
+      "NCHvcB1x"
+    ]
+  }
+}

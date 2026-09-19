@@ -1,0 +1,127 @@
+{
+  "slug": "mcv-biome-makeover-lieonlion",
+  "projectId": "meHEWmih",
+  "versions": {
+    "5cTtSGga": {
+      "filename": "MCV-BiomeMakeover-1.0.0+1.20.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/meHEWmih/versions/5cTtSGga/MCV-BiomeMakeover-1.0.0%2B1.20.1-Fabric.jar",
+      "hash": "sha512-qMQkL6kqnQZA5FAhu23uqAbHCy4HFX/8BXnymqL0BCDc8tD2FhZn30gLam8EEPJ9MG9bOwhTOkt/lcm0WnrIMg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "biome-makeover",
+          "projectId": "jG8Q2YwT",
+          "type": "required"
+        },
+        {
+          "slug": "more-chest-variants-lieonlion",
+          "projectId": "HKKqmr2p",
+          "type": "required"
+        }
+      ]
+    },
+    "82EEoZYA": {
+      "filename": "MCV-BiomeMakeover-1.0.0+1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/meHEWmih/versions/82EEoZYA/MCV-BiomeMakeover-1.0.0%2B1.20.1-Forge.jar",
+      "hash": "sha512-U6mOw05QC1qptzneJLoBeShsRDQ4qe3qpy0jCrhFG3IO9mntgFpGBQzvd//KYyNOMXF9Z13+dv/gzpZWp+8Ehw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "biome-makeover",
+          "projectId": "jG8Q2YwT",
+          "type": "required"
+        },
+        {
+          "slug": "more-chest-variants-lieonlion",
+          "projectId": "HKKqmr2p",
+          "type": "required"
+        }
+      ]
+    },
+    "m0z1fkVQ": {
+      "filename": "MCV-BiomeMakeover-1.0.1+1.20.2-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/meHEWmih/versions/m0z1fkVQ/MCV-BiomeMakeover-1.0.1%2B1.20.2-Forge.jar",
+      "hash": "sha512-jC9fg1pr3mMsZwrm+klnlkJZEAtpIGthMuw6w6UFkoCJDXontX3N2+sN2brhTUIIpnOKlqw1kZDoKc2WeBkcNQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "qyLEAY7f": {
+      "filename": "MCV-BiomeMakeover-1.0.1+1.20.2-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/meHEWmih/versions/qyLEAY7f/MCV-BiomeMakeover-1.0.1%2B1.20.2-Fabric.jar",
+      "hash": "sha512-BRmuidv3xV2I4V9WphNxWWPFjdBUP7LIPdQuIa4o6LBm06bscHGcuqPvh4bS7KepsYB2MbF77bZJZ11ntX/O7A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "qyLEAY7f",
+      "5cTtSGga"
+    ],
+    "1.20+forge": [
+      "m0z1fkVQ",
+      "82EEoZYA"
+    ],
+    "1.20+quilt": [
+      "qyLEAY7f",
+      "5cTtSGga"
+    ],
+    "1.20.1+fabric": [
+      "qyLEAY7f",
+      "5cTtSGga"
+    ],
+    "1.20.1+forge": [
+      "m0z1fkVQ",
+      "82EEoZYA"
+    ],
+    "1.20.1+quilt": [
+      "qyLEAY7f",
+      "5cTtSGga"
+    ],
+    "1.20.2+fabric": [
+      "qyLEAY7f"
+    ],
+    "1.20.2+forge": [
+      "m0z1fkVQ"
+    ],
+    "1.20.2+quilt": [
+      "qyLEAY7f"
+    ]
+  }
+}

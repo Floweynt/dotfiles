@@ -1,0 +1,52 @@
+{
+  "slug": "pvp-client-helper",
+  "projectId": "oRThVANc",
+  "versions": {
+    "9Rk1VemE": {
+      "filename": "PvP Client.jar",
+      "url": "https://cdn.modrinth.com/data/oRThVANc/versions/9Rk1VemE/PvP%20Client.jar",
+      "hash": "sha512-M1xhD/gLlcrZ98zZYS38mEfsXeHx+BcSr7CxX4bnjw+pubphiMOEPudrjdeEWssVjWwexeKN1x5HFPXFRkI+jw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xbrDi9lC": {
+      "filename": "More Visuals-1.16.5-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/oRThVANc/versions/xbrDi9lC/More%20Visuals-1.16.5-1.1.0.jar",
+      "hash": "sha512-yjHW7Kq8TaiPbvpLVjBKHiST06BgDalzrMuAA08NqaHAmSkXwI0XYf9BMtO2pzh9xfI5hX9mTzeKLNyvzGTc0w==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "xbrDi9lC",
+      "9Rk1VemE"
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "slug": "hydra",
+  "projectId": "AeWJERUq",
+  "versions": {
+    "3VnYA14s": {
+      "filename": "hydra-0.5.3.jar",
+      "url": "https://cdn.modrinth.com/data/AeWJERUq/versions/3VnYA14s/hydra-0.5.3.jar",
+      "hash": "sha512-AXIEaTaNXCVkCQcP+nUHrppA4KzNq4FluNaFLMb3nq15p0UmmfH6SpGxmKE//EodVG+TrNGFjnpoZHDvBl3Zuw==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "KLQCYuUJ": {
+      "filename": "hydra-0.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/AeWJERUq/versions/KLQCYuUJ/hydra-0.8.0.jar",
+      "hash": "sha512-xqzCtW38TggYdZXtYWJV5aWxBECMHOOUpx1XGevC4JM4lQrXnHc/N/3+U1RD61hJrJyfYwznrBPL09fEzwyCiw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "twitch4j",
+          "projectId": "CmHD69Pj",
+          "type": "required"
+        }
+      ]
+    },
+    "KuL6tTTR": {
+      "filename": "hydra-0.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/AeWJERUq/versions/KuL6tTTR/hydra-0.7.0.jar",
+      "hash": "sha512-HE+svBzgPg478GozhGOM6g761SuH0ujPIQyuo8cPI553ZgumS4OyqBrz/roPd9CJw48q4Fd90YEyNpnOwnUcGA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "twitch4j",
+          "projectId": "CmHD69Pj",
+          "type": "required"
+        }
+      ]
+    },
+    "jkYvoNDk": {
+      "filename": "hydra-0.5.2.jar",
+      "url": "https://cdn.modrinth.com/data/AeWJERUq/versions/jkYvoNDk/hydra-0.5.2.jar",
+      "hash": "sha512-cl1FY8AukcUPNlc7WLA5LvxdfM7E+m1KUTzq8aG4UC4ArrRs+fFC+MoeyRjX2+6YBUyo9NLS76ys781EAv3MZA==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "twitch4j",
+          "projectId": "CmHD69Pj",
+          "type": "required"
+        }
+      ]
+    },
+    "lmMAKXgy": {
+      "filename": "hydra-0.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/AeWJERUq/versions/lmMAKXgy/hydra-0.5.1.jar",
+      "hash": "sha512-fI0oyMP7MV42+T3C8FEkZ1qYDAk2CHGncBJ8dOKmg+G4X7Zg4TBNGqQJEbPgzsevPZTpUTBOTEwXn845aTcaOg==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "twitch4j",
+          "projectId": "CmHD69Pj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.1+fabric": [
+      "3VnYA14s",
+      "jkYvoNDk",
+      "lmMAKXgy"
+    ],
+    "1.19.1+quilt": [
+      "3VnYA14s",
+      "jkYvoNDk",
+      "lmMAKXgy"
+    ],
+    "1.19.2+fabric": [
+      "3VnYA14s",
+      "jkYvoNDk",
+      "lmMAKXgy"
+    ],
+    "1.19.2+quilt": [
+      "3VnYA14s",
+      "jkYvoNDk",
+      "lmMAKXgy"
+    ],
+    "1.21.1+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.1+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.10+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.10+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.11+fabric": [
+      "KLQCYuUJ",
+      "KuL6tTTR"
+    ],
+    "1.21.11+quilt": [
+      "KLQCYuUJ",
+      "KuL6tTTR"
+    ],
+    "1.21.2+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.2+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.3+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.3+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.4+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.4+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.5+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.5+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.6+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.6+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.7+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.7+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.8+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.8+quilt": [
+      "KuL6tTTR"
+    ],
+    "1.21.9+fabric": [
+      "KuL6tTTR"
+    ],
+    "1.21.9+quilt": [
+      "KuL6tTTR"
+    ]
+  }
+}

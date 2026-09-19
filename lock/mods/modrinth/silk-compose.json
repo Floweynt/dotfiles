@@ -1,0 +1,99 @@
+{
+  "slug": "silk-compose",
+  "projectId": "xmi76FJb",
+  "versions": {
+    "3XRWbtno": {
+      "filename": "silk-compose-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xmi76FJb/versions/1.0.0/silk-compose-1.0.0.jar",
+      "hash": "sha512-NxGSeDUwCXokgTng7Izv1neiMJCq9fAkZdzELgrOG+WYa1QWERPM72I/tws23Juqg4KfO7lmwdwUhKOTGvSFTA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        }
+      ]
+    },
+    "FkgPdYro": {
+      "filename": "silk-compose-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/xmi76FJb/versions/1.0.1/silk-compose-1.0.1.jar",
+      "hash": "sha512-+y9eQVUgRmkuuy+VTyKjXGV4nQJNMuYkdWDFm6CfGevwHnIyGccCZGN4QJ6/HzZdMpopYDCZBIX1cfAkqHtK5A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "OSTCUkgS": {
+      "filename": "silk-compose-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/xmi76FJb/versions/OSTCUkgS/silk-compose-1.0.3.jar",
+      "hash": "sha512-DBwaYWeQFvcUx7DOV9JeJntjN/IO6e554Zszd+MuxB0WVaEEnvrZvrRP4qIXcJVmhW2DgtZF1HotIB43MHgWzg==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "FkgPdYro",
+      "3XRWbtno"
+    ],
+    "1.19.1+fabric": [
+      "OSTCUkgS"
+    ],
+    "1.19.2+fabric": [
+      "OSTCUkgS"
+    ]
+  }
+}

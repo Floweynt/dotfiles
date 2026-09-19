@@ -1,0 +1,75 @@
+{
+  "slug": "backport-gamerules",
+  "projectId": "wbuhhPKY",
+  "versions": {
+    "5SLWf81e": {
+      "filename": "backportgamerules-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wbuhhPKY/versions/5SLWf81e/backportgamerules-1.0.0.jar",
+      "hash": "sha512-Zz2jQcb9hquH8CkZSvlNvucaxEQdsvAmwzq4MIBClORQUabViQlvUUuZ40wVaA97Ci1LdKy5WzAXMi/9NrVMQA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PRkI3FBQ": {
+      "filename": "backportgamerules-1.0.1+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/wbuhhPKY/versions/PRkI3FBQ/backportgamerules-1.0.1%2B1.18.2.jar",
+      "hash": "sha512-YTC/LMlpPPx7FNoIDx4YJK36f77koftQAueXg+juW2+8i77brSQisWiPuRtvcx4qmM06AIIFOlx+4iBxZlAlmQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qu3x5odZ": {
+      "filename": "backportgamerules-1.0.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/wbuhhPKY/versions/qu3x5odZ/backportgamerules-1.0.1%2B1.19.2.jar",
+      "hash": "sha512-VS3VYqtTqLvHdRciOy0vd9l0OLs4zix1hTdFBbMyrEoCE0RxR/Wuxr0iyUAzmoWe1GM9ZiZyw8ThKK+tyfGuKQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "PRkI3FBQ"
+    ],
+    "1.19.2+fabric": [
+      "qu3x5odZ",
+      "5SLWf81e"
+    ]
+  }
+}

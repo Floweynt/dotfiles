@@ -1,0 +1,54 @@
+{
+  "slug": "slot-lock",
+  "projectId": "vV6VREzw",
+  "versions": {
+    "duZRXyxi": {
+      "filename": "slotlock-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vV6VREzw/versions/duZRXyxi/slotlock-1.0.1.jar",
+      "hash": "sha512-4nJrQQ1VtQxk87D5mi2J4v2NOKbr1CnxDj4ukLtIygO6k++iR4SVx3BfQe4PYagPCpXir5ikvh+A4+ISIoWGgA==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kFZJTZZ2": {
+      "filename": "slotlock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vV6VREzw/versions/kFZJTZZ2/slotlock-1.0.0.jar",
+      "hash": "sha512-GQXcEBX/kD6tnqedubtfNV3cJPpqYDgzxvNnead7F2dR3IfQkrpkMFYZqyNHBQd2v9r7feIJIHZzrfSCrmwIFw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "kFZJTZZ2"
+    ],
+    "26.1+fabric": [
+      "duZRXyxi"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "wynn-damageindicator",
+  "projectId": "AO71apLW",
+  "versions": {
+    "8DLPczQD": {
+      "filename": "fabric-1.21.11-damageindicator-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/AO71apLW/versions/8DLPczQD/fabric-1.21.11-damageindicator-0.2.0.jar",
+      "hash": "sha512-XsjAaO8k9UKmWWIkqhMHkpiJ3NN5TXL6WeTguulmrMyRV2RAGT4m3gP/wnt4la6FUJvofn10/tVLBudBq1Zdow==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "9hB8CfCp": {
+      "filename": "fabric-1.21.11-damageindicator-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AO71apLW/versions/9hB8CfCp/fabric-1.21.11-damageindicator-0.1.0.jar",
+      "hash": "sha512-ByXqcWjHLByd3GYHaLbj72k4LHyuswzgGsY2MQxhFPTSSX3aDwOTpelDkM7rm00kimjjSudlQxV0jR9UdWIZgQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "8DLPczQD",
+      "9hB8CfCp"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "slug": "createtraintankmod",
+  "projectId": "5yhozSar",
+  "versions": {
+    "Aa2f7pME": {
+      "filename": "createtraintankmod-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/5yhozSar/versions/Aa2f7pME/createtraintankmod-1.0.3.jar",
+      "hash": "sha512-d0aWkhRXssOrn3uRvguWlu7I/vdy/m01FTneZz7wtHoiRtELKdjTTVSuOCN4EUMvlfn7s6VTVDulXg9iQov3VQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s6b0dqeg": {
+      "filename": "createtraintankmod-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/5yhozSar/versions/s6b0dqeg/createtraintankmod-1.0.3.jar",
+      "hash": "sha512-bx9AhbOZunrRMoVO+MT8bbKklHw6HQvesyUzJwJsbSA38m8mwrPIQNAKA4jaZgOZjhTxLzS0n4CLAXiGG6UqqQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "suWiBjak": {
+      "filename": "createtraintankmod-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/5yhozSar/versions/suWiBjak/createtraintankmod-1.0.2.jar",
+      "hash": "sha512-FSAaeyYqVW0+6TwAPBqJ7+WKgpNCpZ0U+orzww0d7QkdUzCQM5SBfQGmegx2d+j497r7anP1SoF682bONkONiA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "wXKtlCLF": {
+      "filename": "createtraintankmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5yhozSar/versions/wXKtlCLF/createtraintankmod-1.0.0.jar",
+      "hash": "sha512-ykhp+p5wSRvy7ug5ABpB/j4oXAZPbSb0wbIpgqChzmzdn0vRQ9E7dTMbKTH8eJXpo0TP7ES0UEAkZ5HVs6jXmQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "s6b0dqeg"
+    ],
+    "1.21.1+neoforge": [
+      "suWiBjak",
+      "wXKtlCLF"
+    ],
+    "1.21.8+fabric": [
+      "Aa2f7pME"
+    ]
+  }
+}

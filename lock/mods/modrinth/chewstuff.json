@@ -1,0 +1,69 @@
+{
+  "slug": "chewstuff",
+  "projectId": "Vma7ZDvU",
+  "versions": {
+    "m9steTng": {
+      "filename": "chewstuff-mc1.19.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vma7ZDvU/versions/m9steTng/chewstuff-mc1.19.2-1.0.0.jar",
+      "hash": "sha512-ImSe1enriL8Rbe1xLCUldYA4oCywqLI2FxryAJ/nEJJl+rwDTHrmcuOxm0H85LBE4s+LPDTVLA9DK8fPAU3xJA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "t9afjbhS": {
+      "filename": "chewstuff-1.0.1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/Vma7ZDvU/versions/t9afjbhS/chewstuff-1.0.1%2B1.20.jar",
+      "hash": "sha512-jHEm1z6esrVxEMLQzIcQtPmV13SV+evx6xl6pIih6mi9JOIwqQSw1QHuhz7oWfrP6PGuEzTd9HweDjM4BUCBGw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "m9steTng"
+    ],
+    "1.19.2+quilt": [
+      "m9steTng"
+    ],
+    "1.20+fabric": [
+      "t9afjbhS"
+    ],
+    "1.20+quilt": [
+      "t9afjbhS"
+    ],
+    "1.20.1+fabric": [
+      "t9afjbhS"
+    ],
+    "1.20.1+quilt": [
+      "t9afjbhS"
+    ]
+  }
+}

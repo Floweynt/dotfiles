@@ -1,0 +1,78 @@
+{
+  "slug": "pyrofrost",
+  "projectId": "z4DmLNR1",
+  "versions": {
+    "GGjoh4tD": {
+      "filename": "Pyrofrost-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/z4DmLNR1/versions/GGjoh4tD/Pyrofrost-1.0.0-1.20.1.jar",
+      "hash": "sha512-6IIgwsym3WOouOz5Pv0W/dr3lF0SNAiAd2wCQVuB86y5gJoJyXwjKLVkMET6nod8rSN2uIgxhTa1Ry/JjM3UqA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "zKRT073G": {
+      "filename": "pyrofrost-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/z4DmLNR1/versions/zKRT073G/pyrofrost-1.0.1.jar",
+      "hash": "sha512-e7rg1tW9ujvBOVyu2QtWH9METDTWzYZmw0jy+ncxIpkQJ4TBhtYl6BKajW9T7jywr2AqGCFJ1cC8p/p4n7kE4Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "zKRT073G",
+      "GGjoh4tD"
+    ],
+    "1.20+quilt": [
+      "zKRT073G",
+      "GGjoh4tD"
+    ],
+    "1.20.1+fabric": [
+      "zKRT073G",
+      "GGjoh4tD"
+    ],
+    "1.20.1+quilt": [
+      "zKRT073G",
+      "GGjoh4tD"
+    ]
+  }
+}

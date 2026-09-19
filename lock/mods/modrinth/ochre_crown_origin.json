@@ -1,0 +1,58 @@
+{
+  "slug": "ochre_crown_origin",
+  "projectId": "bHzJ6LfG",
+  "versions": {
+    "BruAiVgr": {
+      "filename": "OC-1.20.1-V1.1.zip",
+      "url": "https://cdn.modrinth.com/data/bHzJ6LfG/versions/BruAiVgr/OC-1.20.1-V1.1.zip",
+      "hash": "sha512-yz6VYCdR+UbCD5yg5khmiQ5J+yvnZTZsF6bwJI6ewsbXXsw+ZFgcAXfdjXjHTR9mo9rSu1rMT1DJszXpUo+Eaw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "g0Pnn4LM": {
+      "filename": "OC-1.20.1-V1.2.zip",
+      "url": "https://cdn.modrinth.com/data/bHzJ6LfG/versions/g0Pnn4LM/OC-1.20.1-V1.2.zip",
+      "hash": "sha512-bA+uVBndWT9FOSmxx/CO2bhh4NzvbYJ7pc0jVF1OAdmHPGq92t++NbWpwJk4x/CdJKFYsD13LInaDjpaZavfJw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "g0Pnn4LM",
+      "BruAiVgr"
+    ],
+    "1.20.1+fabric": [
+      "g0Pnn4LM",
+      "BruAiVgr"
+    ]
+  }
+}

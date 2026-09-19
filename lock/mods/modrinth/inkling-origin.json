@@ -1,0 +1,148 @@
+{
+  "slug": "inkling-origin",
+  "projectId": "N12FwM7J",
+  "versions": {
+    "RYtUroOi": {
+      "filename": "Inkling origin 1.0.1.zip",
+      "url": "https://cdn.modrinth.com/data/N12FwM7J/versions/RYtUroOi/Inkling%20origin%201.0.1.zip",
+      "hash": "sha512-o+dVa3LXikeEInjaEnHoiF4rzvdgY5oMTflmDx/1opAKxP1G5KFdQUHzSdVyoTFz36lalBMSdwaFZtlTK+xwKw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "defile",
+          "projectId": "DfvI9QGt",
+          "type": "required"
+        }
+      ]
+    },
+    "hhkZAIlQ": {
+      "filename": "Inkling origin 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/N12FwM7J/versions/hhkZAIlQ/Inkling%20origin%201.0.0.jar",
+      "hash": "sha512-rFIw3VFVwUROvbgYonB7khkNgPfBZaKMcNhn9McZXNbkQpE0h7mSWFvLU0vY+dcKnpdADKuKK6YZ2sCyULRRIA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "defile",
+          "projectId": "DfvI9QGt",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "lbhxtzcv": {
+      "filename": "Inkling origin 1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/N12FwM7J/versions/lbhxtzcv/Inkling%20origin%201.0.0.zip",
+      "hash": "sha512-04MI1M+FETjvCRAM4RZ3yPW5sFk/lKnXAIe9XzyUClHVdkZJR2xsQmyM1ccEuFF+JL4HPuLXcoD/G1tcEdL7Sg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "defile",
+          "projectId": "DfvI9QGt",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "wNglyYDe": {
+      "filename": "Inkling origin 1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/N12FwM7J/versions/wNglyYDe/Inkling%20origin%201.0.1.jar",
+      "hash": "sha512-Tnv7vj7kKzbybqtV2kJ9qcmBI5jyNAj4dXVwukCVLEtWyau3y/XFhV9W2cLxb54t47R2U7rBlEwL6Jlp/XAyLw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "defile",
+          "projectId": "DfvI9QGt",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "RYtUroOi",
+      "lbhxtzcv"
+    ],
+    "1.20+fabric": [
+      "wNglyYDe",
+      "hhkZAIlQ"
+    ],
+    "1.20.1+datapack": [
+      "RYtUroOi",
+      "lbhxtzcv"
+    ],
+    "1.20.1+fabric": [
+      "wNglyYDe",
+      "hhkZAIlQ"
+    ]
+  }
+}

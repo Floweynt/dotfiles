@@ -1,0 +1,77 @@
+{
+  "slug": "more-rails",
+  "projectId": "NnkzAZ0g",
+  "versions": {
+    "YQ8S3M3c": {
+      "filename": "MoreRails-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/NnkzAZ0g/versions/YQ8S3M3c/MoreRails-1.1.0.jar",
+      "hash": "sha512-RQDTa/SWcS6PtP0RKilQ6ZyvutTpDBjB2WBeH4V8wfUztW0BCkaavFITZmjCB3tJfjigo6gsjd+hWdtZlPNHSw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZktumEvS": {
+      "filename": "BalancedTransport-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/NnkzAZ0g/versions/ZktumEvS/BalancedTransport-1.0.0.jar",
+      "hash": "sha512-cx0IaB5Y06A7QedFJ+BhAiOn0BZWwrXiKZtYH/iRdRc8hNInUBG41wXXF1ztwKokkkEXotgzEEwRtUbYYzGQoQ==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZrgYyQDs": {
+      "filename": "BalancedTransport-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/NnkzAZ0g/versions/ZrgYyQDs/BalancedTransport-1.0.1.jar",
+      "hash": "sha512-lY5F8wVk3b6ZmrAVAd9teAMBv0V8t6TEo4MjvkGwMzT3mo1GhxPuSk59JZTUGldw33YtTcNWt5Dr8F3npmye6g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.3+fabric": [
+      "ZktumEvS"
+    ],
+    "1.21.4+fabric": [
+      "ZrgYyQDs"
+    ],
+    "1.21.8+fabric": [
+      "YQ8S3M3c"
+    ]
+  }
+}

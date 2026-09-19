@@ -1,0 +1,42 @@
+{
+  "slug": "enchant-anything",
+  "projectId": "N4QoriyX",
+  "versions": {
+    "9fRhWqdf": {
+      "filename": "enchantanything-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/N4QoriyX/versions/9fRhWqdf/enchantanything-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-mPh+/0Su36KwCFESLqWHZJ0EACV7cSV6a2z8+TNQG25NN5ZTX9ybqj3/GO8oPKKfevk8g3pX8HE7+KsXt95thQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ddnETc5w": {
+      "filename": "enchantanything-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/N4QoriyX/versions/ddnETc5w/enchantanything-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-qkeYHfLnCj8avlNHQ8krxrvFBWEJs/ZX1c+0FJX1Py+Hi/zZOY5E34XqAwcD0VbKhs2yFuGCzxm2xwGs4GZkew==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ddnETc5w"
+    ],
+    "1.20.1+forge": [
+      "9fRhWqdf"
+    ]
+  }
+}

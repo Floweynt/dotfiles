@@ -1,0 +1,139 @@
+{
+  "slug": "coords-finder",
+  "projectId": "kEdo9yMz",
+  "versions": {
+    "2BiJxo9Q": {
+      "filename": "coords_finder-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kEdo9yMz/versions/2BiJxo9Q/coords_finder-neoforge-1.1.0.jar",
+      "hash": "sha512-WkWo5x814CBdJTzLG3gcjW7mpfE2XFeFtrgSOCk1xn8EaOjHK83/TkLHFofBGSE73JfA3gYh0iYIqHKzJaNadQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "82tdL8T0": {
+      "filename": "coords-finder-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kEdo9yMz/versions/82tdL8T0/coords-finder-1.0.0.jar",
+      "hash": "sha512-45sBwsKzoUKoIP6wtq1UNo8kJD6jmcchb43CcH2htIm61zmTm2HcGb6C9jsplqxtWDYc6dfsBns8YesLyBllzQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "O8Viky1i": {
+      "filename": "coords_finder-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kEdo9yMz/versions/O8Viky1i/coords_finder-fabric-1.1.0.jar",
+      "hash": "sha512-uYUglGa4q7KVfFwfz4rTL5z+A70GEfehva5drv1iCt2HniOhK+QirmjR9VX+xwABqFA7qCeRU+da5MDDBoloUg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "S2AyDjHh": {
+      "filename": "coords-finder-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kEdo9yMz/versions/S2AyDjHh/coords-finder-1.0.0.jar",
+      "hash": "sha512-5Fr1qdfpzzugvQQEGZKRsyw1LTLZTMxmK9EWXTrBPqrkOvJjcl4YWLYb6JOM/xpmJ4ngPWK2tLBjskerE9u3aA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cXcszsyf": {
+      "filename": "coords-finder-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/kEdo9yMz/versions/cXcszsyf/coords-finder-1.0.2.jar",
+      "hash": "sha512-f8/AvelG0RlgF7YCATx7BTKw6gId2djpXil6QfbHXXYz+Sws3aoHOIRzsR0MvtayUgz3qIUD1GKwbX1c9HEQqg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "O8Viky1i"
+    ],
+    "1.21.10+neoforge": [
+      "2BiJxo9Q"
+    ],
+    "1.21.4+fabric": [
+      "cXcszsyf",
+      "S2AyDjHh",
+      "82tdL8T0"
+    ]
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "slug": "railways-additions",
+  "projectId": "UTtUaTGf",
+  "versions": {
+    "2NR0Xkgu": {
+      "filename": "railwaysuntold_additions-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UTtUaTGf/versions/2NR0Xkgu/railwaysuntold_additions-forge-1.0.0.jar",
+      "hash": "sha512-RvgH6h5PHVNZRohojLNEkq+P8iGhhAyueaqjMMHU2QAhLMpcK+XQ7aMeZy3tNjaF3aEq3fBlMMC6y/5RiCVxvA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OCXCVU8x": {
+      "filename": "railwaysuntold_additions-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UTtUaTGf/versions/OCXCVU8x/railwaysuntold_additions-neoforge-1.0.0.jar",
+      "hash": "sha512-4+5koca1s4FsY9rfLOijGPvo2P5d9xewbvOAXhlV8o8if3rG32ERz5226w+zY5Fgi/g4MJS8MhThKxf01iUNAA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "pKVShkku": {
+      "filename": "railwaysuntold_additions-forge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UTtUaTGf/versions/pKVShkku/railwaysuntold_additions-forge-1.0.1.jar",
+      "hash": "sha512-RHuSLxq9bnYUp5Y1CuTD1z0ILE1RgLDG3sChDm3CAoqRqzn1eE0LVaBC6HMC8F3pk/jqrgBpDGiUyDOE+EZz8g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "sB02MR6U": {
+      "filename": "railwaysuntold_additions-neoforge-1.0.1a.jar",
+      "url": "https://cdn.modrinth.com/data/UTtUaTGf/versions/sB02MR6U/railwaysuntold_additions-neoforge-1.0.1a.jar",
+      "hash": "sha512-L8iN2pYVrVMwQipVb0L+MQqT31KHsJbcyOlTR8JLS7MJkm6muZaqsmf3SiLg/BbQnK32sElAiupmAvFECgjaeg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "t7maYWs1": {
+      "filename": "railwaysuntold_additions-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UTtUaTGf/versions/t7maYWs1/railwaysuntold_additions-fabric-1.0.1.jar",
+      "hash": "sha512-YD7oBk2XTjgggGybVdTPCRgW3ajlj3RGoOJI6db2V/DKe8NNFPeRc1mKL2zgYqrQYWsx7r4kxZNnHt3UBWE15g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vmzWDAcc": {
+      "filename": "railwaysuntold_additions-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UTtUaTGf/versions/vmzWDAcc/railwaysuntold_additions-fabric-1.0.0.jar",
+      "hash": "sha512-zvXnAAI8tvwe/YU/76+B6mfwFRr20T0u+NlTlhqFU1bYKnPGskjNCeNWZashXb0p3D6+ZlD7MiIT3XDSO5vkcg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "t7maYWs1",
+      "vmzWDAcc"
+    ],
+    "1.20.1+forge": [
+      "pKVShkku",
+      "2NR0Xkgu"
+    ],
+    "1.21.1+neoforge": [
+      "sB02MR6U",
+      "OCXCVU8x"
+    ]
+  }
+}

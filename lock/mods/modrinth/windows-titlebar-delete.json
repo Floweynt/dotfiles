@@ -1,0 +1,42 @@
+{
+  "slug": "windows-titlebar-delete",
+  "projectId": "QRT35UEn",
+  "versions": {
+    "BKVUC5y2": {
+      "filename": "windowstitlebardelete-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QRT35UEn/versions/BKVUC5y2/windowstitlebardelete-1.0.0.jar",
+      "hash": "sha512-m8X2+bOggfHmPO3o85ebnHLb5164wCIL4xdx+wihaKU2fQCoJtZCgwBsuMUtAwDXx/FuqScV31guY0tIjth54g==",
+      "gameVersions": [
+        "1.8.9"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "fuGjBJIZ": {
+      "filename": "windowstitlebardelete-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QRT35UEn/versions/fuGjBJIZ/windowstitlebardelete-1.0.0.jar",
+      "hash": "sha512-cWgsSbrVuirCeA1Ex/UkJjSZzSQ/yq/t3gTaDC5zu7W8Slajd+3cqFvv/9ZtK4Aimm8fN0b7o1fHQLTXki3BWA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "fuGjBJIZ"
+    ],
+    "1.8.9+forge": [
+      "BKVUC5y2"
+    ]
+  }
+}

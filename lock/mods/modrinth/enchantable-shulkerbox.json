@@ -1,0 +1,118 @@
+{
+  "slug": "enchantable-shulkerbox",
+  "projectId": "FrMKw3Rd",
+  "versions": {
+    "18ZZGBpx": {
+      "filename": "enchantableshulkerbox-0.2.0-mc1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/FrMKw3Rd/versions/18ZZGBpx/enchantableshulkerbox-0.2.0-mc1.21-neoforge.jar",
+      "hash": "sha512-cSMfmhbQdnYHJv1YIsvyW7J7F/GCRPGWNRCa4mgio0GLQHiATeJ2TB9mDAkv9UlXAC/FxOlhB+0iSGeLwSEwhg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "CWVGG6PT": {
+      "filename": "enchantableshulkerbox-0.1.0-mc1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/FrMKw3Rd/versions/CWVGG6PT/enchantableshulkerbox-0.1.0-mc1.21-fabric.jar",
+      "hash": "sha512-PaVRpFmKk1S+5npFs7CsjK0FumyriiNmwdQGnChkzw1P1LFMwB1FvWosUi/hzIyLDyUKJOiYGSPffhWV7ThqVQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Q49AdH9P": {
+      "filename": "enchantableshulkerbox-0.1.0-mc1.21-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/FrMKw3Rd/versions/Q49AdH9P/enchantableshulkerbox-0.1.0-mc1.21-neoforge.jar",
+      "hash": "sha512-maV/p1RYnocgdEra6VJof/yMKPeqISmjoASzJWSCAzN/sY1dOzL8WwJ5RtVu0xmgUCcspiUoGX06mTpvOjM1Kw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "bYvujVD9": {
+      "filename": "enchantableshulkerbox-0.2.0-mc1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/FrMKw3Rd/versions/bYvujVD9/enchantableshulkerbox-0.2.0-mc1.21-fabric.jar",
+      "hash": "sha512-8ilIvpIS4PhfriCRG4SYAeqmGP3lIqmRajQ2lOVey027wUf9PgZPwJf7Ldb0Zfk2xcwN4tlJyq9kNqC9xpY3pA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "bYvujVD9",
+      "CWVGG6PT"
+    ],
+    "1.21+neoforge": [
+      "18ZZGBpx",
+      "Q49AdH9P"
+    ],
+    "1.21.1+fabric": [
+      "bYvujVD9",
+      "CWVGG6PT"
+    ],
+    "1.21.1+neoforge": [
+      "18ZZGBpx",
+      "Q49AdH9P"
+    ]
+  }
+}

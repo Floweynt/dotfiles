@@ -1,0 +1,56 @@
+{
+  "slug": "rispwinds-sporetoise",
+  "projectId": "Lxa6jXvO",
+  "versions": {
+    "M8I9zzHo": {
+      "filename": "rw_sporetoise_FABRIC_1_20_1.jar",
+      "url": "https://cdn.modrinth.com/data/Lxa6jXvO/versions/M8I9zzHo/rw_sporetoise_FABRIC_1_20_1.jar",
+      "hash": "sha512-p7mGZ2kSf9hX1SQKrMbFjA3ifhXcf9v5KRu0AqQg6C+PYj5wqSrxkm4VP3yMkqvTNQhF/oQwxA+cw+Qtwh6s/Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "teFFBVac": {
+      "filename": "rw_sporetoise_FORGE_1_20_1.jar",
+      "url": "https://cdn.modrinth.com/data/Lxa6jXvO/versions/teFFBVac/rw_sporetoise_FORGE_1_20_1.jar",
+      "hash": "sha512-HhYRVclRwz0X6bbKXs+8K+Blh88wkMfVMTIcCRciUpZSczqovR/al1cD6cpIMwTSAGRzx5clOWsIsr1tJWxAtA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "M8I9zzHo"
+    ],
+    "1.20.1+fabric": [
+      "M8I9zzHo"
+    ],
+    "1.20.1+forge": [
+      "teFFBVac"
+    ],
+    "1.20.2+fabric": [
+      "M8I9zzHo"
+    ]
+  }
+}

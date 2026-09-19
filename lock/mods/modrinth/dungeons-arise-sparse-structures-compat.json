@@ -1,0 +1,48 @@
+{
+  "slug": "dungeons-arise-sparse-structures-compat",
+  "projectId": "dOIoIOlr",
+  "versions": {
+    "bI23vAlR": {
+      "filename": "wdasscompat.jar",
+      "url": "https://cdn.modrinth.com/data/dOIoIOlr/versions/bI23vAlR/wdasscompat.jar",
+      "hash": "sha512-sYszT3RGaXPnWayk+RihT7viKtANFAU56Jb1LPNer0mJse43TuyTTNhcyFTj0xC/jI70S2N40hin5HBp2L3uqg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "when-dungeons-arise-seven-seas",
+          "projectId": "ZsrrjDbP",
+          "type": "required"
+        },
+        {
+          "slug": "sparsestructures",
+          "projectId": "qwvI41y9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "bI23vAlR"
+    ],
+    "1.20.1+forge": [
+      "bI23vAlR"
+    ],
+    "1.20.1+neoforge": [
+      "bI23vAlR"
+    ],
+    "1.20.1+quilt": [
+      "bI23vAlR"
+    ]
+  }
+}

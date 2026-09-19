@@ -1,0 +1,107 @@
+{
+  "slug": "offlinegrowth",
+  "projectId": "nXQMGDKe",
+  "versions": {
+    "HQDXdUmq": {
+      "filename": "offline-growth-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nXQMGDKe/versions/HQDXdUmq/offline-growth-1.0.0.jar",
+      "hash": "sha512-NLGQZ07aIAu71elobTGcLul7rU52tQe7MxRrGQd1FthXkr2H16rTD1GSddoVUeE5uc1Lx38qNFg6ocoYbl6iTQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cYG6oLPN": {
+      "filename": "offline-crop-catchup-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nXQMGDKe/versions/cYG6oLPN/offline-crop-catchup-1.0.0.jar",
+      "hash": "sha512-xjdXuQxlqE3u0v1+tIiiniJXDpJ3YZRnvVOYEdwAgH7E9VX2gy4EPoAb+Oti8LmyGwHMeKmq8mqwRV5ebnHNNw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "jXgj9yXT": {
+      "filename": "offline-crop-catchup.jar",
+      "url": "https://cdn.modrinth.com/data/nXQMGDKe/versions/jXgj9yXT/offline-crop-catchup.jar",
+      "hash": "sha512-eL1nG8qZe3oAWD5lpF7p2QCDVqdC1ego95cc9nqtfZIyqEhHPQ8kmk1GXVLHj+Z7Zq4dvsRO1PYZNz9cvEiMCw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "k5BHYBLo": {
+      "filename": "offlinegrowth-1.21.1-1.0.1neo.jar",
+      "url": "https://cdn.modrinth.com/data/nXQMGDKe/versions/k5BHYBLo/offlinegrowth-1.21.1-1.0.1neo.jar",
+      "hash": "sha512-PUGxPfyGAFf//o5ttt5ciEYauXjVhEhttNlLesBQ3kYua16HMettZQVj1ZyvfC48Qp6EoPz6/FR7RhQskOrmpw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "m3qvooII": {
+      "filename": "offline-growth-1.20.4-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/nXQMGDKe/versions/m3qvooII/offline-growth-1.20.4-1.0.1.jar",
+      "hash": "sha512-+bEdjMMpbYo0GqaVL5q2naBPxCbTJ4LC5zBxujp43N6oqUHyl5Zjrhb7/4kKInmbMjGoHHXdBsSycudsMhsM0w==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "m3qvooII",
+      "HQDXdUmq"
+    ],
+    "1.21.1+fabric": [
+      "jXgj9yXT"
+    ],
+    "1.21.1+neoforge": [
+      "k5BHYBLo",
+      "cYG6oLPN"
+    ]
+  }
+}

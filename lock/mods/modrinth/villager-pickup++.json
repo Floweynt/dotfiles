@@ -1,0 +1,54 @@
+{
+  "slug": "villager-pickup++",
+  "projectId": "K3vJ9Bce",
+  "versions": {
+    "EyAIPx3V": {
+      "filename": "villager-pickup-plus-plus-1.0.0-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/K3vJ9Bce/versions/EyAIPx3V/villager-pickup-plus-plus-1.0.0-1.21.8.jar",
+      "hash": "sha512-DvWdNF5qWnqLBwG85zeyhfDptwRY7t69Edtqec0F80EQ0bq/v3qzRqS82KGlHS2/ZCvB2GO6N4fRoQ6CFM388g==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "H8orbHUz": {
+      "filename": "villager-pickup-plus-plus-1.1.0-1.21.9.jar",
+      "url": "https://cdn.modrinth.com/data/K3vJ9Bce/versions/H8orbHUz/villager-pickup-plus-plus-1.1.0-1.21.9.jar",
+      "hash": "sha512-sDJRIM4i0LdoREOpbW9bBX0wg6OmJ9koW8dgaXufTncssNJgi3cmZGsP9ScAN8VHTmDZXgzsA3dGJNgcdnfmNg==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "EyAIPx3V"
+    ],
+    "1.21.9+fabric": [
+      "H8orbHUz"
+    ]
+  }
+}

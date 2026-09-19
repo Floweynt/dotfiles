@@ -1,0 +1,140 @@
+{
+  "slug": "quickstack",
+  "projectId": "NdeIBctc",
+  "versions": {
+    "FEZa2h7a": {
+      "filename": "quickstack-1.0.0-beta4+1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/FEZa2h7a/quickstack-1.0.0-beta4%2B1.19.3.jar",
+      "hash": "sha512-Kvc1eRqx/DjeFrJf00LXNo5a1hQdPNa648zSWZ+y/pgn5iA5PpGgqROQ4NsdLBCimDa87vNfJ3WR3WOC6gEQ4A==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Q0IBH3hq": {
+      "filename": "quickstack-1.0.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/Q0IBH3hq/quickstack-1.0.2%2B1.20.1.jar",
+      "hash": "sha512-9ATFvYxQCPtwPlihkWIro+6gQn/ETTb62pzmaYKFMoA80GFI08DX876wQrjAMHsfIxPJmmy9VEcs9dkdQXYguw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TKmGPC6D": {
+      "filename": "quickstack-1.0.1-beta1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/TKmGPC6D/quickstack-1.0.1-beta1%2B1.20.1.jar",
+      "hash": "sha512-eucyw2xRkUyY/qtHWM3/rSu8EMG5N5B9NlHytcAJ++eNcK/WLsaJ3Z2gag4cA8tSc2zZb76gISFoTgNjDtnShA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "m0jjA6Sy": {
+      "filename": "quickstack-1.0.0-beta4+1.19.4-sources.jar",
+      "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/m0jjA6Sy/quickstack-1.0.0-beta4%2B1.19.4-sources.jar",
+      "hash": "sha512-VhbgPbyBIcamTBWBTC2zrxeSux5W3vbu1EhsBq5Mca04GKioVT/VcNcVIaWiS8jh5pLuuBX0AGH+6P/CAsXGwQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pBldPtfC": {
+      "filename": "quickstack-1.0.2+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/NdeIBctc/versions/pBldPtfC/quickstack-1.0.2%2B1.20.4.jar",
+      "hash": "sha512-rYj7IZlEXPmfwjPhB7BZXOljF6KMOplVJuiqG6isj+BKOqzSkffhbOBX6fAnmQagCG9yCkX6vQAuTtxqTG4jXA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "FEZa2h7a"
+    ],
+    "1.19.3+quilt": [
+      "FEZa2h7a"
+    ],
+    "1.19.4+fabric": [
+      "m0jjA6Sy"
+    ],
+    "1.19.4+quilt": [
+      "m0jjA6Sy"
+    ],
+    "1.20+fabric": [
+      "TKmGPC6D"
+    ],
+    "1.20+quilt": [
+      "TKmGPC6D"
+    ],
+    "1.20.1+fabric": [
+      "Q0IBH3hq",
+      "TKmGPC6D"
+    ],
+    "1.20.1+quilt": [
+      "TKmGPC6D"
+    ],
+    "1.20.4+fabric": [
+      "pBldPtfC"
+    ]
+  }
+}

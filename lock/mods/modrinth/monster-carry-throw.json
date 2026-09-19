@@ -1,0 +1,90 @@
+{
+  "slug": "monster-carry-throw",
+  "projectId": "VoBaY7n0",
+  "versions": {
+    "FWEFkx4P": {
+      "filename": "SuperEnderman-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VoBaY7n0/versions/FWEFkx4P/SuperEnderman-neoforge-1.0.jar",
+      "hash": "sha512-0bg+IFYJ71ggd109k5CSIhnZ1frkVAkAZTjnO1ZX8+qaYnlPKhIEvYaXBTznA6eOw7WKrWujf1kr61wlCtHmfA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "cWgh9GSZ": {
+      "filename": "SuperEnderman-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VoBaY7n0/versions/cWgh9GSZ/SuperEnderman-fabric-1.0.jar",
+      "hash": "sha512-fETAdbpQEsjduYiZCdQ3tleqthfThvl/0gqbbqoeNp4trjfALeUgnKhRbdtFCTnbOLv81i5JvGTTdkRFnFBgZQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+neoforge": [
+      "FWEFkx4P"
+    ],
+    "1.21.1+fabric": [
+      "cWgh9GSZ"
+    ],
+    "1.21.1+neoforge": [
+      "FWEFkx4P"
+    ],
+    "1.21.2+fabric": [
+      "cWgh9GSZ"
+    ],
+    "1.21.2+neoforge": [
+      "FWEFkx4P"
+    ],
+    "1.21.3+fabric": [
+      "cWgh9GSZ"
+    ],
+    "1.21.3+neoforge": [
+      "FWEFkx4P"
+    ],
+    "1.21.4+fabric": [
+      "cWgh9GSZ"
+    ],
+    "1.21.4+neoforge": [
+      "FWEFkx4P"
+    ],
+    "1.21.5+fabric": [
+      "cWgh9GSZ"
+    ],
+    "1.21.5+neoforge": [
+      "FWEFkx4P"
+    ]
+  }
+}

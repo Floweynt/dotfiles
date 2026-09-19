@@ -1,0 +1,36 @@
+{
+  "slug": "coin-loot",
+  "projectId": "oGBs1VTm",
+  "versions": {
+    "PCTx30cV": {
+      "filename": "coin_loot-0.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/oGBs1VTm/versions/PCTx30cV/coin_loot-0.0.1-1.20.1.jar",
+      "hash": "sha512-5FLwYYh7srmNwiOEO3AbQoZDJliyvqgc1nrd6y64v96gM+y7zRIntAKGCNHoN2u4jXnlNM1kQkH7DXHv/k5ROw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "useless-coins",
+          "projectId": "gW4lwByG",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "PCTx30cV"
+    ]
+  }
+}

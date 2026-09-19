@@ -1,0 +1,51 @@
+{
+  "slug": "burnt-x-saints-dragons-compat",
+  "projectId": "fhSJjKR0",
+  "versions": {
+    "JloYssU9": {
+      "filename": "burntxsaintsdragons-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fhSJjKR0/versions/JloYssU9/burntxsaintsdragons-1.0.0.jar",
+      "hash": "sha512-aX8qutn2MunN/xF6tu5QxsNsjVCdEpZODR5m+CYz0NdttIMHRyW0v+UXkn8cHPqRMnaZPGVE1mzCrqyswfjgUQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "saints-dragons",
+          "projectId": "rjcsjwEU",
+          "type": "required"
+        },
+        {
+          "slug": "burnt-basic",
+          "projectId": "aclfPzta",
+          "type": "required"
+        }
+      ]
+    },
+    "nrBweLwn": {
+      "filename": "burntxsaintsdragons-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/fhSJjKR0/versions/nrBweLwn/burntxsaintsdragons-1.0.1.jar",
+      "hash": "sha512-damBw5OwsRn643Ifp6NimtCZH9uq+eDlicdsTOzupTg9M8JP86VcZ3Dw0F/qDlpOqdy6V5jIITspyBnsm81BVQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "nrBweLwn",
+      "JloYssU9"
+    ]
+  }
+}

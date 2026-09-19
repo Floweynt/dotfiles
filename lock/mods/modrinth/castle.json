@@ -1,0 +1,128 @@
+{
+  "slug": "castle",
+  "projectId": "etpVl23u",
+  "versions": {
+    "CunnAN48": {
+      "filename": "castle_dungeons-4.0.0-1.19.4-forge.jar",
+      "url": "https://cdn.modrinth.com/data/etpVl23u/versions/CunnAN48/castle_dungeons-4.0.0-1.19.4-forge.jar",
+      "hash": "sha512-7s96pXpy7v2hzOMgH8v6FqJ0ZplJT8PJXLMKiQGNLedQmr/Ip/D8Cdx6Gn+v+/AwBWrK/60RT2G3qkzImpHHvg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "W6GovVDN": {
+      "filename": "castle_dungeons-4.0.0-1.19.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/etpVl23u/versions/W6GovVDN/castle_dungeons-4.0.0-1.19.2-fabric.jar",
+      "hash": "sha512-LbiCb2oTXIRybm5XHUrUErVijmag89hCwxSpkMdICRwa3v0oR2cwN9fhZ3rbfTz0ql0iL4f9rDroowANrPut/Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WpZpgvMd": {
+      "filename": "castle_dungeons-4.0.0-1.20-forge.jar",
+      "url": "https://cdn.modrinth.com/data/etpVl23u/versions/WpZpgvMd/castle_dungeons-4.0.0-1.20-forge.jar",
+      "hash": "sha512-Z3SiVr4dRpZHGUqIWj6AZ0/rpv68/f3fw571lGhvZk/WGjisdFmfr16WsUOczszsPTT1qHCuy7AQVR1MSX29Wg==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "gig0erm6": {
+      "filename": "castle_dungeons-4.0.0-1.19.2-forge.jar",
+      "url": "https://cdn.modrinth.com/data/etpVl23u/versions/gig0erm6/castle_dungeons-4.0.0-1.19.2-forge.jar",
+      "hash": "sha512-pmMVKIpXM3nahsOVipdYd/Do3P4zGUlM8z/r5y/gL67ZSm0/hGV7DslSxcngBBbFAv2wcENjtcjUNG306mFzqg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ik37fhQp": {
+      "filename": "castle_dungeons-4.0.0-1.19.4-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/etpVl23u/versions/ik37fhQp/castle_dungeons-4.0.0-1.19.4-fabric.jar",
+      "hash": "sha512-8jA+dNZAlxe4Y3u04Dp64QUzfYE8M8XsDDbJD6Fqnx/25Aw2B33zjuGaMZcXtQvpEl7R5bxK9s9jd97AxTP6qg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "r3nXOzuY": {
+      "filename": "castle_dungeons-4.0.0-1.20-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/etpVl23u/versions/r3nXOzuY/castle_dungeons-4.0.0-1.20-fabric.jar",
+      "hash": "sha512-JzNrIIuGxexSFb2GkdG/Cms1DY1ZApdC9roABIWXVAPr2ytepuy32csq52PlIWSsLjPkaaCKVgqI2kpVjmsK0g==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "W6GovVDN"
+    ],
+    "1.19.2+forge": [
+      "gig0erm6"
+    ],
+    "1.19.4+fabric": [
+      "ik37fhQp"
+    ],
+    "1.19.4+forge": [
+      "CunnAN48"
+    ],
+    "1.20+fabric": [
+      "r3nXOzuY"
+    ],
+    "1.20+forge": [
+      "WpZpgvMd"
+    ]
+  }
+}

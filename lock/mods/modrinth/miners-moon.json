@@ -1,0 +1,133 @@
+{
+  "slug": "miners-moon",
+  "projectId": "HuJzK25C",
+  "versions": {
+    "7TBaXNAD": {
+      "filename": "MinersMoon1.20.jar",
+      "url": "https://cdn.modrinth.com/data/HuJzK25C/versions/7TBaXNAD/MinersMoon1.20.jar",
+      "hash": "sha512-mpUPWFvzWEzbd1RH7/pj64Ow6XgnP+4xhxEXKAiOXEpmW0h1bREUr5SaeAzh8BoLCoY6mENoUihSFTMZUyqBAA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "E05MUilj": {
+      "filename": "MinersMoon1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HuJzK25C/versions/E05MUilj/MinersMoon1.20.1-1.0.1.jar",
+      "hash": "sha512-Jq2z0w9M9I59vTgY6/MU2Tye7JyFTyRkf/oBJi3nSDwK3WgNvmJPL9VpgSa4geU/97T8ujR8wY9psEowd6JTYw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "X2i7DHej": {
+      "filename": "MinersMoon1.20-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HuJzK25C/versions/X2i7DHej/MinersMoon1.20-1.0.1.jar",
+      "hash": "sha512-0ewHTiHaHmsltxb2iwKWFuVblZA/zJp6l0XrN+Q9g/0661hUi9I9sjWa33iBII+0cVagBFUlYq2oqzCMRo+mzQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "YYP7LIJW": {
+      "filename": "MinersMoon-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/HuJzK25C/versions/YYP7LIJW/MinersMoon-1.0.jar",
+      "hash": "sha512-suhFn6LHDXduQiMd4ACUU1e7eV4CUhVNDdSrZXunmLpPCBPzemg4JjrJsSSdbxLkVzCAsvRL8Ts7k05zJgJCvg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "YqNtOgSV": {
+      "filename": "MinersMoon1.21.1-NeoForge-Fabric-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/HuJzK25C/versions/YqNtOgSV/MinersMoon1.21.1-NeoForge-Fabric-1.0.3.jar",
+      "hash": "sha512-/SuEPkMI+Cjy/Fc+Hp16WC/q5BrB4RBeL0o/+FdntKzZGq2AnvwE1CjI4se03+7EF+2ofwkM/iUPeHFrn6+e+w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bCbS43Jc": {
+      "filename": "MinersMoon-fabric-1.20-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/HuJzK25C/versions/bCbS43Jc/MinersMoon-fabric-1.20-1.0.2.jar",
+      "hash": "sha512-EWdhE3xbo3AVN43VREE6H8cyCJb1Ei5TgTZ6U3HjoXwjE2ghEGexTaO1hYM9PR5++ed4nQYV4PQWWQ/boTXbjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "YYP7LIJW"
+    ],
+    "1.20+forge": [
+      "7TBaXNAD"
+    ],
+    "1.20+neoforge": [
+      "7TBaXNAD"
+    ],
+    "1.20.1+fabric": [
+      "bCbS43Jc"
+    ],
+    "1.20.1+forge": [
+      "E05MUilj",
+      "X2i7DHej",
+      "7TBaXNAD"
+    ],
+    "1.20.1+neoforge": [
+      "7TBaXNAD"
+    ],
+    "1.21.1+fabric": [
+      "YqNtOgSV"
+    ],
+    "1.21.1+neoforge": [
+      "YqNtOgSV"
+    ]
+  }
+}

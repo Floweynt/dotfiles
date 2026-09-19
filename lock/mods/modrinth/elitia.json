@@ -1,0 +1,48 @@
+{
+  "slug": "elitia",
+  "projectId": "6U9tjZdW",
+  "versions": {
+    "9xzRglth": {
+      "filename": "Elitia_fabric_v0.4.2_mc1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/6U9tjZdW/versions/9xzRglth/Elitia_fabric_v0.4.2_mc1.19.2.jar",
+      "hash": "sha512-e9U6QTiZi2SZenJB7A9mi9+mDPQvWszMy8kKJMoC+/RpaBtcqEOQvNZXbVEvLA7n2qsv+Z0J4xjfZaaQjjGKIQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OA5BBDXZ": {
+      "filename": "elitia-0.7.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/6U9tjZdW/versions/OA5BBDXZ/elitia-0.7.0-forge-1.20.1.jar",
+      "hash": "sha512-JKMPx93pYLVsQG4SSah2Z6QE1sHSRDP6tNMae2gEUNckcMRBOWslYAuor9OaW02uecEVEEFiO5giDktPYBSbww==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "9xzRglth"
+    ],
+    "1.20.1+forge": [
+      "OA5BBDXZ"
+    ]
+  }
+}

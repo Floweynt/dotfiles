@@ -1,0 +1,50 @@
+{
+  "slug": "bleached",
+  "projectId": "1GMryyum",
+  "versions": {
+    "J9M3QXJH": {
+      "filename": "bleached-1.1.4-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/1GMryyum/versions/J9M3QXJH/bleached-1.1.4-fabric-1.20.1.jar",
+      "hash": "sha512-TLPVfdI5dKhEPHtd5550L9eoy4Kuc+QbKBUX2XwscfYa5i2fQewDWxkkFG7njyYJ2lq/1sHjNdN9LuMOYlBdJQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RyMRm1KX": {
+      "filename": "bleached-1.1.5-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/1GMryyum/versions/RyMRm1KX/bleached-1.1.5-fabric-1.20.1.jar",
+      "hash": "sha512-0A1dqZnxi3urDHG0qCFBJ+72X2mvCWMd+B0V02OmjeArlH6BTcP/tne+rNEIsBwTYaor/ooTn216DiK8i8O2uw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "RyMRm1KX",
+      "J9M3QXJH"
+    ],
+    "1.20.2+fabric": [
+      "J9M3QXJH"
+    ]
+  }
+}

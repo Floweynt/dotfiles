@@ -1,0 +1,68 @@
+{
+  "slug": "soulz",
+  "projectId": "Sz15eTAU",
+  "versions": {
+    "BOfZgRU9": {
+      "filename": "soulz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Sz15eTAU/versions/BOfZgRU9/soulz-1.0.jar",
+      "hash": "sha512-q1Qv1mx7QpbxWA8N2cdB6os3Z/iWfXoxbQlNrnYid18c9/yT7Vy0YEkDnE04PlAZteyofJ71m2Z/Ij/3NYi6oQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "mariums-soulslike-weaponry",
+          "projectId": "oX6SohLj",
+          "type": "required"
+        }
+      ]
+    },
+    "OB9AIK5B": {
+      "filename": "SoulZ.zip",
+      "url": "https://cdn.modrinth.com/data/Sz15eTAU/versions/OB9AIK5B/SoulZ.zip",
+      "hash": "sha512-6TzwukOP++eufsNy0hcm40tY+TbbNk78eUfXHtYDER22H+iy69G2vp2UHc4ELEa4gmZ7LlFzwD49WlNCfYDf5Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "mariums-soulslike-weaponry",
+          "projectId": "oX6SohLj",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "OB9AIK5B"
+    ],
+    "1.20.1+fabric": [
+      "BOfZgRU9"
+    ],
+    "1.20.1+quilt": [
+      "BOfZgRU9"
+    ]
+  }
+}

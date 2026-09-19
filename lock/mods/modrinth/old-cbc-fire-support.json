@@ -1,0 +1,69 @@
+{
+  "slug": "old-cbc-fire-support",
+  "projectId": "kFEOrCHb",
+  "versions": {
+    "8JdJFEs3": {
+      "filename": "cbcfiresupport-dp.zip",
+      "url": "https://cdn.modrinth.com/data/kFEOrCHb/versions/8JdJFEs3/cbcfiresupport-dp.zip",
+      "hash": "sha512-VkMBvtqvm0AlJGT0KoPRRCPMQ4SNeu8mfi6GCxKgZ6GdvybUV3umSfSszHeTXCChUyOOwtSmKVRp8kI6cdsLJw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-big-cannons",
+          "projectId": "GWp4jCJj",
+          "type": "required"
+        }
+      ]
+    },
+    "stU3XKHP": {
+      "filename": "cbc-fire-support-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kFEOrCHb/versions/stU3XKHP/cbc-fire-support-1.0.jar",
+      "hash": "sha512-kl0REhPTupj0MI0PgxJ2uJ3MDz2YAnHtuSwjQ3f2rR2VH6N8Is9PBjb/gAkm3IoDHeDDcaOne3QTjCkObQMnbg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-big-cannons",
+          "projectId": "GWp4jCJj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "8JdJFEs3"
+    ],
+    "1.20+fabric": [
+      "stU3XKHP"
+    ],
+    "1.20+forge": [
+      "stU3XKHP"
+    ],
+    "1.20.1+datapack": [
+      "8JdJFEs3"
+    ],
+    "1.20.1+fabric": [
+      "stU3XKHP"
+    ],
+    "1.20.1+forge": [
+      "stU3XKHP"
+    ]
+  }
+}

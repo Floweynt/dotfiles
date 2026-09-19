@@ -1,0 +1,111 @@
+{
+  "slug": "boosters",
+  "projectId": "tupXPxrf",
+  "versions": {
+    "BJMP8qBA": {
+      "filename": "boosters-1.3.2+26.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/tupXPxrf/versions/BJMP8qBA/boosters-1.3.2%2B26.2-fabric.jar",
+      "hash": "sha512-geGeqEeEu3pIDqY7cf0zrx2eKqBGrb6NqHjDDezMfP14yObi2TDC/TMRI3D0ftTJF5TY5yDDf3fC9kwA6DiZ7Q==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "Pa6Hn1zO": {
+      "filename": "boosters-1.3.1+26.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/tupXPxrf/versions/Pa6Hn1zO/boosters-1.3.1%2B26.2-fabric.jar",
+      "hash": "sha512-6fhtnIBT46COBQDRlDAWD4g8dn/0ifEYjI7jeE4Egd8j/sq2JQx2lPZRXU9Y6WcT8mRXdwLYr8aO9lfZn5aRyg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "iuYqEWlS": {
+      "filename": "boosters-1.3.0+26.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/tupXPxrf/versions/iuYqEWlS/boosters-1.3.0%2B26.2-fabric.jar",
+      "hash": "sha512-11u/3ZWjty4nMewhDniNIzXKuZOoG1iJ8GpKHAo/5Y7hUQVXIROZkfbVFYSkmwfX3b2Io3BN9a1kYvHRcR//Hg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kWWnkKRA": {
+      "filename": "boosters-1.3.2+26.2-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/tupXPxrf/versions/kWWnkKRA/boosters-1.3.2%2B26.2-neoforge.jar",
+      "hash": "sha512-sOViVjzyiueNTAYyZQmhbT5RheFvIB80Xpcltop/MfprZo/vAnTkxhiQKLROvG/s45B6IzIHRiKtBIV+/XA/hg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "BJMP8qBA",
+      "Pa6Hn1zO",
+      "iuYqEWlS"
+    ],
+    "26.2+neoforge": [
+      "kWWnkKRA"
+    ]
+  }
+}

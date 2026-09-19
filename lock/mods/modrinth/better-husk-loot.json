@@ -1,0 +1,64 @@
+{
+  "slug": "better-husk-loot",
+  "projectId": "DxCpa8RB",
+  "versions": {
+    "57RQavG0": {
+      "filename": "better husk loot.zip",
+      "url": "https://cdn.modrinth.com/data/DxCpa8RB/versions/57RQavG0/better%20husk%20loot.zip",
+      "hash": "sha512-HxMXUwK5SIJNGZBXXc63UD3FgJCtxjeGy5RVPF91kSVDJCZe0QiwWV/FX8zZlQ81amG19SRwtT3E2kNRNl1xbA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "GefCioer": {
+      "filename": "better-husk-loot-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DxCpa8RB/versions/GefCioer/better-husk-loot-1.0.jar",
+      "hash": "sha512-VRrODp8wMZSLkW8emUB5aIdt8UjYrJZiEjLMYd7PYsI4pMfkVXNvZGjXf9lJYRh5zbUu9oqgliXAw+Hq7s7bEw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "57RQavG0"
+    ],
+    "1.20+fabric": [
+      "GefCioer"
+    ],
+    "1.20+forge": [
+      "GefCioer"
+    ],
+    "1.20+quilt": [
+      "GefCioer"
+    ],
+    "1.20.1+datapack": [
+      "57RQavG0"
+    ],
+    "1.20.1+fabric": [
+      "GefCioer"
+    ],
+    "1.20.1+forge": [
+      "GefCioer"
+    ],
+    "1.20.1+quilt": [
+      "GefCioer"
+    ]
+  }
+}

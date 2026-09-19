@@ -1,0 +1,104 @@
+{
+  "slug": "ambiclick",
+  "projectId": "gg0aK8cI",
+  "versions": {
+    "4733PWCD": {
+      "filename": "ambiclick-fabric-1.3.0+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/gg0aK8cI/versions/4733PWCD/ambiclick-fabric-1.3.0%2Bmc1.21.11.jar",
+      "hash": "sha512-naiyF604/0HS6Fzi2pQMWXNDytMqTu8AXT+2AL8igIncMyiTTGmqQ/LwlVrcGaACY7R3peNxUeHSFKJXlF4Cyw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MIbUyDtp": {
+      "filename": "ambiclick-fabric-1.2.0+mc1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/gg0aK8cI/versions/MIbUyDtp/ambiclick-fabric-1.2.0%2Bmc1.21.10.jar",
+      "hash": "sha512-MxTJAHUkFsBY2DJghHyQ56Jg6fy6zEGVPjVmdY2pRtuBKiHu/ytUQmI7ZeHG6yAXeZg+PkYK91VWnWWaedal5Q==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "WT4dIxyt": {
+      "filename": "ambiclick-fabric-1.1.0+mc1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/gg0aK8cI/versions/WT4dIxyt/ambiclick-fabric-1.1.0%2Bmc1.21.10.jar",
+      "hash": "sha512-QBzUsAFBuJWt2G4Fgf3qmhR9FfTQ3R8htzahlBwRQz22qbYXys8LLYddkQV3op0abe5kRUDFfxP4vptoBEad0g==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "oYJESELi": {
+      "filename": "ambiclick-fabric-1.0.0+mc1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/gg0aK8cI/versions/oYJESELi/ambiclick-fabric-1.0.0%2Bmc1.21.10.jar",
+      "hash": "sha512-R5yoydyVm7VPT3YMWPY5A2vafIo1kLtn8fnUeDl5jnP/4TjMp7SQ8UUoUjtJtWTn1VMDcSVTzzUlgSMh1vv5ug==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "MIbUyDtp",
+      "WT4dIxyt",
+      "oYJESELi"
+    ],
+    "1.21.11+fabric": [
+      "4733PWCD"
+    ]
+  }
+}

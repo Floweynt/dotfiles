@@ -1,0 +1,78 @@
+{
+  "slug": "betterz",
+  "projectId": "LOy78UQh",
+  "versions": {
+    "49wfNpDV": {
+      "filename": "betterz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LOy78UQh/versions/49wfNpDV/betterz-1.0.jar",
+      "hash": "sha512-D1RBqSntJ2jaZlLHNrXmw/xaiwHl+Ujvdg9+ViZIbAeOYxPiDVCZbN93uBtmcrXeBvHqiAyx32+qftPE/6CjOQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "betternether",
+          "projectId": "MpzVLzy5",
+          "type": "required"
+        },
+        {
+          "slug": "betterend",
+          "projectId": "gc8OEnCC",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "E6Qp15ei": {
+      "filename": "BetterZ.zip",
+      "url": "https://cdn.modrinth.com/data/LOy78UQh/versions/E6Qp15ei/BetterZ.zip",
+      "hash": "sha512-CTCLJ48Ql4o8uakUYcH5sprTPXLEoesT5BACN85Kzr3YDjYdKi6hFTsQzfSOq8emgJd/nCNk5PsNpn5QD8D6iw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "betternether",
+          "projectId": "MpzVLzy5",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "betterend",
+          "projectId": "gc8OEnCC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "E6Qp15ei"
+    ],
+    "1.20.1+fabric": [
+      "49wfNpDV"
+    ],
+    "1.20.1+quilt": [
+      "49wfNpDV"
+    ]
+  }
+}

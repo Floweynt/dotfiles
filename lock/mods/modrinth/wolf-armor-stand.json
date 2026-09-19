@@ -1,0 +1,36 @@
+{
+  "slug": "wolf-armor-stand",
+  "projectId": "EYzisMoM",
+  "versions": {
+    "9mlo0ZGt": {
+      "filename": "wolfarmorstand-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/EYzisMoM/versions/9mlo0ZGt/wolfarmorstand-1.0.0-1.21.1.jar",
+      "hash": "sha512-eht2sHvfjxA/ve0qmE3W9SdhG4WBjWl8WfgET7yfwwaqKc8SPP8uRsI92eQDVkhj1LcwT0H8sYHb8D/QaorQGA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "9mlo0ZGt"
+    ]
+  }
+}

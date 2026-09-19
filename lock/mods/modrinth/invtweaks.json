@@ -1,0 +1,132 @@
+{
+  "slug": "invtweaks",
+  "projectId": "xWacFE2z",
+  "versions": {
+    "EEwfSDHC": {
+      "filename": "invtweaks-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xWacFE2z/versions/EEwfSDHC/invtweaks-2.0.0.jar",
+      "hash": "sha512-cZlodvDqdE7ZAQKkhycMU8B8p8jIWS7UA2d+VjgwKO+g20H63Jv2vYUlptZgXIXkNa3gDLnf7RigXUZP9lbDUA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ii8pS78v": {
+      "filename": "invtweaks-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/xWacFE2z/versions/Ii8pS78v/invtweaks-2.0.1.jar",
+      "hash": "sha512-h2SGn4dLlSvZZgb4l4ky+34gdxiE3ZKh5CVTjkTIZalaWkxBOi/mK49lXaEwmV+TQOJgL1wFe+1SoYSg233pYg==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "M5Fwpknr": {
+      "filename": "invtweaks-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xWacFE2z/versions/M5Fwpknr/invtweaks-2.1.0.jar",
+      "hash": "sha512-6e1R0aSZc+Hm4qAda8jzpyf5Bi8No42tpM/BQFse5sbWOf4Lr8BDDpW4z4cCnVIR0gMUI4RVyQLHbUycSYsUsQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "gbUsW29D": {
+      "filename": "invtweaks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xWacFE2z/versions/gbUsW29D/invtweaks-1.0.0.jar",
+      "hash": "sha512-ss3PBOHV3JLa9HPBEwRq26IdRchV36Ry9tVR7dKqWQ/OOn2PI699qlsvtUxh0+Q1EHgrFO6qDCtHR07X7N9OOA==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kuosniAA": {
+      "filename": "invtweaks-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xWacFE2z/versions/kuosniAA/invtweaks-2.1.0.jar",
+      "hash": "sha512-RcHgoflPA4nsmUazfACQfyHHa/3bFmK4rdQaf+IGeAggOMbnnDIEPsKRCwtNYm7SQTbzV2pomeGl0s0bLmhRlQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ou8MNxbG": {
+      "filename": "invtweaks-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xWacFE2z/versions/ou8MNxbG/invtweaks-2.1.0.jar",
+      "hash": "sha512-/VDRPdy3IqwIzP0pHLLNjrrg/53BZk2ZDrIeaHAkXA/OMwHc+qGQkhD3u4umNptXeFgW79GFijxdw/AaZBhW9A==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "kuosniAA",
+      "Ii8pS78v",
+      "gbUsW29D"
+    ],
+    "1.21.11+fabric": [
+      "kuosniAA",
+      "Ii8pS78v",
+      "EEwfSDHC",
+      "gbUsW29D"
+    ],
+    "26.1+fabric": [
+      "ou8MNxbG",
+      "M5Fwpknr"
+    ],
+    "26.1.1+fabric": [
+      "ou8MNxbG",
+      "M5Fwpknr"
+    ],
+    "26.1.2+fabric": [
+      "ou8MNxbG"
+    ]
+  }
+}

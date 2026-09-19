@@ -1,0 +1,119 @@
+{
+  "slug": "entity-health-display",
+  "projectId": "84H12Z4u",
+  "versions": {
+    "GundTmAy": {
+      "filename": "entity-health-display-0.3.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/84H12Z4u/versions/GundTmAy/entity-health-display-0.3.1%2B1.21.jar",
+      "hash": "sha512-iKfjRg0kn/GVrJjOSZH9TyLE5ZNr0fxBbHxJFuOE8yFhEXNYGmsTm3CcnNpBYxXo/R8IjfJYdWnd7EgaJlDcgQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "L61BrHgC": {
+      "filename": "entity-health-display-0.3.1+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/84H12Z4u/versions/L61BrHgC/entity-health-display-0.3.1%2B1.21.3.jar",
+      "hash": "sha512-j/K20Xb/2qHnIJmQPuBCv20sOr63fMJdZacDIejCBtq7AQNloVJgpp57dPtOmFIJ1W5RGJ0Kv/H73qcIgeiL7g==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LqwnoQqJ": {
+      "filename": "entity-health-display-0.3.1+1.20.3.jar",
+      "url": "https://cdn.modrinth.com/data/84H12Z4u/versions/LqwnoQqJ/entity-health-display-0.3.1%2B1.20.3.jar",
+      "hash": "sha512-fQ7hgu7XD7KGahgf6PtjOnemLmz8myDXMZHWl7I8vcaelA2Kg42PjEt+4e0fFcdOd7KHRWQayKEwi8YGw5Pb+g==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NDsylLu0": {
+      "filename": "entity-health-display-0.3.1+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/84H12Z4u/versions/NDsylLu0/entity-health-display-0.3.1%2B1.20.2.jar",
+      "hash": "sha512-W/vovXz3N/eG6ftbxz6AL2lbj449DyEDyrAA7Clsz4/in7NrnMSZFlV5nd+2eRDEQjVINllj18X1FPkCneAtBA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "NDsylLu0"
+    ],
+    "1.20.2+quilt": [
+      "NDsylLu0"
+    ],
+    "1.20.3+fabric": [
+      "LqwnoQqJ"
+    ],
+    "1.20.3+quilt": [
+      "LqwnoQqJ"
+    ],
+    "1.20.4+fabric": [
+      "LqwnoQqJ"
+    ],
+    "1.20.4+quilt": [
+      "LqwnoQqJ"
+    ],
+    "1.21+fabric": [
+      "GundTmAy"
+    ],
+    "1.21.1+fabric": [
+      "GundTmAy"
+    ],
+    "1.21.3+fabric": [
+      "L61BrHgC"
+    ]
+  }
+}

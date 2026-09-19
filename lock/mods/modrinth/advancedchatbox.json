@@ -1,0 +1,95 @@
+{
+  "slug": "advancedchatbox",
+  "projectId": "8WeCY8Xd",
+  "versions": {
+    "9lFAhgtP": {
+      "filename": "AdvancedChatBox-1.19-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/8WeCY8Xd/versions/1.19-1.1.5/AdvancedChatBox-1.19-1.1.5.jar",
+      "hash": "sha512-d0oaRRvWVOV3ekTtsmSoDS9jEUwlspoB9dIOawEkJ325KW+itPoStbzFXdpnrtUf8Jc9Z7wvvs0fVmOAkyvBSw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "AEogR9zj": {
+      "filename": "AdvancedChatBox-1.19.2-1.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/8WeCY8Xd/versions/AEogR9zj/AdvancedChatBox-1.19.2-1.1.6.jar",
+      "hash": "sha512-aErpQAvTF9C+SwP6gr/LU10LJxyIyp+CS7QumOM5PlrluBK4S044MG9EqEv5sdKoMF9eRO/Qsap/UptxHRAl5A==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ovTAfr1d": {
+      "filename": "AdvancedChatBox-1.18-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/8WeCY8Xd/versions/1.18-1.1.3/AdvancedChatBox-1.18-1.1.3.jar",
+      "hash": "sha512-ar45hc8Fs/rR4TFrHBoUN4UyV5LYzBn+mP2Dg8xxLdkXBVB9yBNxm3V/224Z9GjcbZu3CYTPRHpXxXr9vqhs2g==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "advancedchatcore",
+          "projectId": "1l6k9gvT",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "ovTAfr1d"
+    ],
+    "1.18.1+fabric": [
+      "ovTAfr1d"
+    ],
+    "1.18.2+fabric": [
+      "ovTAfr1d"
+    ],
+    "1.19+fabric": [
+      "9lFAhgtP"
+    ],
+    "1.19+quilt": [
+      "9lFAhgtP"
+    ],
+    "1.19.1+fabric": [
+      "9lFAhgtP"
+    ],
+    "1.19.1+quilt": [
+      "9lFAhgtP"
+    ],
+    "1.19.2+fabric": [
+      "AEogR9zj"
+    ],
+    "1.19.2+quilt": [
+      "AEogR9zj"
+    ],
+    "1.19.3+fabric": [
+      "AEogR9zj"
+    ],
+    "1.19.3+quilt": [
+      "AEogR9zj"
+    ]
+  }
+}

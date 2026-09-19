@@ -1,0 +1,105 @@
+{
+  "slug": "spider-moon",
+  "projectId": "jruQ9YSp",
+  "versions": {
+    "7N7b1NsP": {
+      "filename": "SpiderMoon-1.20-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jruQ9YSp/versions/7N7b1NsP/SpiderMoon-1.20-1.0.1.jar",
+      "hash": "sha512-OGrZbAlwSZ3ymxtBz0VukrvX3UsE6NRlgv+TBrLDIBFueJ5ccSjW44yBmQCNaUgAf4lwnar/X5pLsEETJmSkGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GgzmU8S1": {
+      "filename": "SpiderMoon-fabric-1.20-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/jruQ9YSp/versions/GgzmU8S1/SpiderMoon-fabric-1.20-1.0.2.jar",
+      "hash": "sha512-KOsUoo1n34asKqesvf5mB6Do/Nhy+Xf+S7tryormFCQoUvLMFn2V8HhsHP57zmUY/NxLJSnvTIRN/Ih/pr7F/Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "KALw7L7d": {
+      "filename": "SpiderMoon-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/jruQ9YSp/versions/KALw7L7d/SpiderMoon-1.20.jar",
+      "hash": "sha512-TVIhKPCQdtQ6tE7RikQd6wydWYoWurZ2+jiM0mzmK7qE4c576gC0qDa1bH4ytPTcnOfyqrkpLyfj5FOZ4tuEaQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    },
+    "Mo9nqguF": {
+      "filename": "SpiderMoon-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/jruQ9YSp/versions/Mo9nqguF/SpiderMoon-1.20.1-1.0.2.jar",
+      "hash": "sha512-2prazMpWn+FdKRES/xarBucLP9F0I28CcqOQGhGyAiJopqfuWCMs0trB1uEpn6tb/9AMBQpwLzYy2RAgufiCPQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "TR58oHEr": {
+      "filename": "SpiderMoon-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jruQ9YSp/versions/TR58oHEr/SpiderMoon-1.0.jar",
+      "hash": "sha512-EkI0AJnq8gzT0UoxvVdMgHtnLrLqnbUD3uYErw/f89lFvx/HLkWvyG+WfbO2vfT1s6iXDUtbfuO6GSEl2mJvDw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "enhanced-celestials",
+          "projectId": "2rL16t1O",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "TR58oHEr"
+    ],
+    "1.20+forge": [
+      "KALw7L7d"
+    ],
+    "1.20.1+fabric": [
+      "GgzmU8S1"
+    ],
+    "1.20.1+forge": [
+      "Mo9nqguF",
+      "7N7b1NsP",
+      "KALw7L7d"
+    ]
+  }
+}

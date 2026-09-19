@@ -1,0 +1,63 @@
+{
+  "slug": "betternether-ambient-mobs",
+  "projectId": "LPEpnqLw",
+  "versions": {
+    "AHsE8qOy": {
+      "filename": "BetterNether-AmbientMobs-1.1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/LPEpnqLw/versions/AHsE8qOy/BetterNether-AmbientMobs-1.1.0-1.20.1.jar",
+      "hash": "sha512-SfVPKfImwh/veupnCZeralatYX5F1yjVmiJQmIJNu9ZHzJ7dTU77PmfAm/6vo62KOAcgrA+cwF41Bsfe58RCSA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "K3am9JlG": {
+      "filename": "BetterNether-Ambient-Mobs-1.0.0-1.20.X.jar",
+      "url": "https://cdn.modrinth.com/data/LPEpnqLw/versions/K3am9JlG/BetterNether-Ambient-Mobs-1.0.0-1.20.X.jar",
+      "hash": "sha512-WUAG3CbB2g2fxf91tQU+zoqPYNsORu5DX0OECkrOKTyPw1D3uEx5MeSHzWwId0IAVaUymb3K4ocqh9FItUj7Og==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bclib",
+          "projectId": "BgNRHReB",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "AHsE8qOy",
+      "K3am9JlG"
+    ],
+    "1.20.1+fabric": [
+      "AHsE8qOy",
+      "K3am9JlG"
+    ]
+  }
+}

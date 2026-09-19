@@ -1,0 +1,74 @@
+{
+  "slug": "create-truly-modular",
+  "projectId": "yi2BJuVN",
+  "versions": {
+    "QvFyx1kF": {
+      "filename": "truly_modular_create_compat-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yi2BJuVN/versions/QvFyx1kF/truly_modular_create_compat-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-1tlzuBSFWrWLwZnwJDQhgX6ZZfGZwbBRDD4H47uFD5oNOjjl/JdHX85mLyEOFAuOhFpzY2nYUIlBIBRFHVuKxQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "truly-modular-armory",
+          "projectId": "6mUV27DN",
+          "type": "required"
+        },
+        {
+          "slug": "modular-item-api",
+          "projectId": "c4Uf1TKc",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "SqIbr2pr": {
+      "filename": "truly_modular_create_compat-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yi2BJuVN/versions/SqIbr2pr/truly_modular_create_compat-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-V9AxNUkaNKLg+WULKX1VFXYz0cpAPL8yQWf+3F6GLquCWArvEW3f8vlLPOkfv1elVoKDPfCM7UqeUJtGKcGG0A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "modular-item-api",
+          "projectId": "c4Uf1TKc",
+          "type": "required"
+        },
+        {
+          "slug": "truly-modular-armory",
+          "projectId": "6mUV27DN",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "SqIbr2pr"
+    ],
+    "1.20.1+forge": [
+      "QvFyx1kF"
+    ]
+  }
+}

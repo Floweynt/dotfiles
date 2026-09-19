@@ -1,0 +1,100 @@
+{
+  "slug": "explore-ruins-aether",
+  "projectId": "spwhkPqk",
+  "versions": {
+    "1tD3BviR": {
+      "filename": "explore_ruins_aether-1.0.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/spwhkPqk/versions/1tD3BviR/explore_ruins_aether-1.0.0-fabric-1.20.1.jar",
+      "hash": "sha512-zCoMPCLLgOah0V/F7pE+XXUOO9EgeA9ue/3mgNk76chc1eoarW/2jd16zSwq4MnbANmNrRLaKYsBA+5jpXzCrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        }
+      ]
+    },
+    "KawC2nmh": {
+      "filename": "explore_ruins_aether-1.0.0-forge-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/spwhkPqk/versions/KawC2nmh/explore_ruins_aether-1.0.0-forge-1.19.2.jar",
+      "hash": "sha512-JU+TpTxLN/bXuG9+D4aeoB9c1yXNjC5+XxPdPHQiMwZZYkxsj57AywTB5SNUkZ+amOazjI7Cpt3/5ZkYFGqaEg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        }
+      ]
+    },
+    "MSnKhGt4": {
+      "filename": "explore_ruins_aether-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/spwhkPqk/versions/MSnKhGt4/explore_ruins_aether-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-1Ds1ZzTpxmw8Xjme6Tamd3yVdkRxx/BVgVL7lG2jHye8CidUM92xnGrrb+lePkrOjqBfy9lYUhThGzA2Zlku6Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        }
+      ]
+    },
+    "hXttxA3w": {
+      "filename": "explore_ruins_aether-1.0.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/spwhkPqk/versions/hXttxA3w/explore_ruins_aether-1.0.0-neoforge-1.21.1.jar",
+      "hash": "sha512-AtoKFolonwgXBDwfQvcmTwRGKSz7pdlChjDZy/jqJPUJ50AVszmg5MwhFoCyG+0ZQBc2dy04yri/usyzT+3laQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "KawC2nmh"
+    ],
+    "1.20.1+fabric": [
+      "1tD3BviR"
+    ],
+    "1.20.1+forge": [
+      "MSnKhGt4"
+    ],
+    "1.21.1+neoforge": [
+      "hXttxA3w"
+    ]
+  }
+}

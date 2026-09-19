@@ -1,0 +1,89 @@
+{
+  "slug": "rats-mischief",
+  "projectId": "Jjc1149h",
+  "versions": {
+    "2kkkXRjU": {
+      "filename": "ratsmischief-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Jjc1149h/versions/2kkkXRjU/ratsmischief-2.0.jar",
+      "hash": "sha512-rxTdJAIVMX4nqwRjhnq6pUtCwEijJtRYKRirYLzWGVXzGpLWat6KYC8KSQ06asdwg/Q/+7NVrEt9X7suqF0YeA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "TO8D9XBT": {
+      "filename": "ratsmischief-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/Jjc1149h/versions/TO8D9XBT/ratsmischief-1.4.0.jar",
+      "hash": "sha512-7gSTQ6lVVUVRokYysGxBf7Xh9upxAfwJiHvkpnjQR4hmNi8xHQnRrt1tH8B+yZswFKwFAL10pIUJpSo6R9c/Yw==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "fKAvwKdl": {
+      "filename": "ratsmischief-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Jjc1149h/versions/fKAvwKdl/ratsmischief-2.0.1.jar",
+      "hash": "sha512-gXckVdldhhXUq3op2LtIrycSsw7f4t9PM7FquT3mxLi72D5Lnc3UmViDxQIXsd81PQW46ehzpA5dca4dBev2xA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "TO8D9XBT"
+    ],
+    "1.19+quilt": [
+      "TO8D9XBT"
+    ],
+    "1.19.1+fabric": [
+      "TO8D9XBT"
+    ],
+    "1.19.1+quilt": [
+      "TO8D9XBT"
+    ],
+    "1.19.2+fabric": [
+      "TO8D9XBT"
+    ],
+    "1.19.2+quilt": [
+      "fKAvwKdl",
+      "2kkkXRjU",
+      "TO8D9XBT"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "fast-right-click",
+  "projectId": "bwMgm1AL",
+  "versions": {
+    "ohHXhd27": {
+      "filename": "RightClickMod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bwMgm1AL/versions/ohHXhd27/RightClickMod-1.0.0.jar",
+      "hash": "sha512-QZc2a77DsO9aMtNzlT+b+107xwuJSBEf/LoBuO/yY9hnzDKsS0bi+cPqO+DxYEQxSqU56BfWxViy3T+UT0HGQA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "ohHXhd27"
+    ]
+  }
+}

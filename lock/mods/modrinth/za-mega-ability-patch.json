@@ -1,0 +1,61 @@
+{
+  "slug": "za-mega-ability-patch",
+  "projectId": "zufq1khk",
+  "versions": {
+    "AaJFkmLb": {
+      "filename": "za-mega-ability-patch-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zufq1khk/versions/AaJFkmLb/za-mega-ability-patch-1.0.0.jar",
+      "hash": "sha512-jy7nlnuIoEtXe5Ee+QqjR9VSyZREoMxLqR0WyRgqCVmlHcQwjz+UWJz0i4+S9bkBkI45RCHSzEim1jGRuLH1VA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "navas-zamega",
+          "projectId": "2V1Y86sc",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "accessories",
+          "projectId": "jtmvUHXj",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "AaJFkmLb"
+    ]
+  }
+}

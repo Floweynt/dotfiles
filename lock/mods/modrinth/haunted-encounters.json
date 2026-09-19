@@ -1,0 +1,94 @@
+{
+  "slug": "haunted-encounters",
+  "projectId": "SHOk9B0j",
+  "versions": {
+    "39ZzSeKk": {
+      "filename": "haunted_encounters-neoforge-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SHOk9B0j/versions/39ZzSeKk/haunted_encounters-neoforge-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-obGyLi8FxTBMg4+4k4QreY9HqEqHTEpUnc+AHVyRipptezuxuBnXql6+NgHQmdY8PZ+PNCx01CvwybeG5CxBYQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "9C5I4jXb": {
+      "filename": "haunted_encounters-neoforge-1.0.2+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SHOk9B0j/versions/9C5I4jXb/haunted_encounters-neoforge-1.0.2%2B1.21.1.jar",
+      "hash": "sha512-6yDzGnEHVklbQCmDykP0z/qngve2iQXO83vWtDNxttuMYAMcilqVTOQDFSpZezd6mjAEgCZ4Ai0M6xC2O1Zs2g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "CYzp5yub": {
+      "filename": "haunted_encounters-fabric-1.0.2+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SHOk9B0j/versions/CYzp5yub/haunted_encounters-fabric-1.0.2%2B1.21.1.jar",
+      "hash": "sha512-Mbn4l8wXWpaLJmU67hLSaG7TFen7LNZyc/5H+uJco5iFlYzX6CbnE2WAXDN9HfzgB0FPys1KPWgz4l0ohKBX0A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sJokMrwW": {
+      "filename": "haunted_encounters-fabric-1.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SHOk9B0j/versions/sJokMrwW/haunted_encounters-fabric-1.0.1%2B1.21.1.jar",
+      "hash": "sha512-2ridMUrC974PY/0nyFx8yPWfKAyFmaGFej8nk8DnBLhKygxRkvYrM7UCqthAkcSWw5YAh0UI32J4r30Ec8rrJA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "CYzp5yub",
+      "sJokMrwW"
+    ],
+    "1.21.1+neoforge": [
+      "9C5I4jXb",
+      "39ZzSeKk"
+    ]
+  }
+}

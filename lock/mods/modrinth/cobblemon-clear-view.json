@@ -1,0 +1,54 @@
+{
+  "slug": "cobblemon-clear-view",
+  "projectId": "JpsJqB2N",
+  "versions": {
+    "CuJ7kLVZ": {
+      "filename": "clearview-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/JpsJqB2N/versions/CuJ7kLVZ/clearview-1.0.4.jar",
+      "hash": "sha512-0krdX9UsrGoSEozq00iY2orYiW/HL6gJ7wKDchpnF1Z3goYyD07UF+dcocAz0g6j+pf47Exk25kEZ3Ya+RG7mg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "Mamb4mX4": {
+      "filename": "clearview-fabric-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/JpsJqB2N/versions/Mamb4mX4/clearview-fabric-1.0.4.jar",
+      "hash": "sha512-volm/30jNV+qT7N3c82xy6T8bJZ+B/S8cRkReoW4IJRSw4LWKweCOUhe7X1E715MlFPBJ+Bqn6HyqKpZxL8lLQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "Mamb4mX4"
+    ],
+    "1.21.1+neoforge": [
+      "CuJ7kLVZ"
+    ]
+  }
+}

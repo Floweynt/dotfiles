@@ -1,0 +1,70 @@
+{
+  "slug": "woodlandsthe-core",
+  "projectId": "OjcLiatI",
+  "versions": {
+    "CPOfAhL7": {
+      "filename": "Woodlands_Vanilla-Universal-1.21.1-v1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/OjcLiatI/versions/CPOfAhL7/Woodlands_Vanilla-Universal-1.21.1-v1.2.2.jar",
+      "hash": "sha512-YshOdFMX7pfsnRvBJ+MTPBgOi7tEk8DoZY9K2YAYmq0gIKR7wB1UOu/yWluSlQWuL8VW3HxK1HcPHM7DZvptbg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "oh-the-trees-youll-grow",
+          "projectId": "g8NOG5OR",
+          "type": "required"
+        }
+      ]
+    },
+    "kN6iRBiu": {
+      "filename": "Woodlands_Vanilla-Universal-1.20.1-v1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/OjcLiatI/versions/kN6iRBiu/Woodlands_Vanilla-Universal-1.20.1-v1.2.2.jar",
+      "hash": "sha512-Ih9CFyGR/t3WjhyidmCuUiFf+4E+MMmgW0JoENHBXPitbfCAFBB+4z5Hili2lN+TTyfGaBJ7hnFH7ZTROP4U6w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "oh-the-trees-youll-grow",
+          "projectId": "g8NOG5OR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kN6iRBiu"
+    ],
+    "1.20.1+forge": [
+      "kN6iRBiu"
+    ],
+    "1.20.1+neoforge": [
+      "kN6iRBiu"
+    ],
+    "1.21.1+fabric": [
+      "CPOfAhL7"
+    ],
+    "1.21.1+forge": [
+      "CPOfAhL7"
+    ],
+    "1.21.1+neoforge": [
+      "CPOfAhL7"
+    ]
+  }
+}

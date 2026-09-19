@@ -1,0 +1,565 @@
+{
+  "slug": "refined-netherite",
+  "projectId": "R3WDkz4b",
+  "versions": {
+    "1k4NFdJ8": {
+      "filename": "refined_netherite-1.3.1-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/1k4NFdJ8/refined_netherite-1.3.1-neoforge-1.21.1.jar",
+      "hash": "sha512-tQwDO0F8lJZldynSnhexuclAAV9IaKSJ1hNA3H1AbAncvVdH+rlONAqT8TDy9wpZfTP5sP56AOC2mYPzPfrkbw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "kilt",
+          "projectId": "t87XZEqv",
+          "type": "required"
+        }
+      ]
+    },
+    "2ZE4L9b1": {
+      "filename": "refined_netherite_forge-1.1.2-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/2ZE4L9b1/refined_netherite_forge-1.1.2-forge-1.20.1.jar",
+      "hash": "sha512-fTVt/4NWdEt7m/2XiMe7NCuAW6TTz98IzzgHDUbD5Ta+YyFFiv6uIht/DdP0rVqq3aPzcFQR913ON8Q9RZQ6yg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kilt",
+          "projectId": "t87XZEqv",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "4GsXWWNI": {
+      "filename": "refined_netherite-1.3.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/4GsXWWNI/refined_netherite-1.3.0-fabric-1.20.1.jar",
+      "hash": "sha512-UJRzl2/symO9LHIp8YqCRptSuQ2P1MspNV4MzK8tvw6jEGefCUbiqso/DxMq0ItBmBMHTSVBq+OElIpFR64KuA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "9Uqvrto9": {
+      "filename": "refined_netherite-1.3.1-neoforge-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/9Uqvrto9/refined_netherite-1.3.1-neoforge-1.21.4.jar",
+      "hash": "sha512-qbOrxMIaDABP5zHaqG1egBy22Shj8d8EnLfBEf1xCSXSMwd+ixqWAt48zrmJTSmD/vSORLmT3rXSN3Q8V8kJUQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "EAXuB1XK": {
+      "filename": "refined_netherite-1.3.1-neoforge-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/EAXuB1XK/refined_netherite-1.3.1-neoforge-1.21.8.jar",
+      "hash": "sha512-T5hajo8By64AWENgtc6ajdbXWtlPiZPpYa/13LumYkiB74EoZLuRAFTCLathyETW+us/O1BZjHlZwIMCKcJGiw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "F6WQTaMP": {
+      "filename": "refined_netherite-1.1.1-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/F6WQTaMP/refined_netherite-1.1.1-fabric-1.20.1.jar",
+      "hash": "sha512-6i5cZxUB9ZeTeAFlTtN86JPcci5IzUmyLE7FLkIy9wrFs399lGOGlQnZAt44SKK+6JBHazmtQwp73lxGCExpNA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "I1E6EOXb": {
+      "filename": "refined_netherite_forge-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/I1E6EOXb/refined_netherite_forge-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-qWbiL1U2s49LaQTJvFIbxNsKEUw8EAxTFxVSurbDUPVj41r6zkGuPwNqzMiV1F6m7gDWTA5yghpetsUGAhD/3g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "kilt",
+          "projectId": "t87XZEqv",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "RaQbiGwC": {
+      "filename": "refined_netherite-1.3.1-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/RaQbiGwC/refined_netherite-1.3.1-fabric-1.20.1.jar",
+      "hash": "sha512-lMGPQFLfZkJmE6GvG2SE8ingpgwbrugsQb33UmN1XeZYt/5F5F8mi8iL8G/5E6ypbtyURFt1vYsVcGEd+KXTuQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Ut7ECIMV": {
+      "filename": "refined_netherite-1.3.1-fabric-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/Ut7ECIMV/refined_netherite-1.3.1-fabric-1.21.8.jar",
+      "hash": "sha512-L20uiupn28aH/6wwnt263p5ZvL7S/Mi6DZkqnqQJcG7dy0pDE38qc0G7ULeGIMt967wW1RuYrdGMohml81gncQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bj290pWr": {
+      "filename": "refined_netherite_neoforge-1.1.2-neoforge-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/bj290pWr/refined_netherite_neoforge-1.1.2-neoforge-1.21.4.jar",
+      "hash": "sha512-n9Q4gWpPNiBQl4/xomElqFxclq2Y2uRYv3gayjTr6KJX6ApPWIuD+ebp9sgrjXkYLBE7DZampcpImPunajiEBw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hGtmpsXK": {
+      "filename": "refined_netherite-1.1.2-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/hGtmpsXK/refined_netherite-1.1.2-fabric-1.20.1.jar",
+      "hash": "sha512-P62qeCzfpa1gtd7GYPV1cKT0L2vhM1z1zapEQ0IsXh5bebV04rSs4SSTg5QLZMj+f4g/i0xGjixOLDjk/ynZGw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "iVSoaBOC": {
+      "filename": "refined_netherite-1.3.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/iVSoaBOC/refined_netherite-1.3.0-neoforge-1.21.1.jar",
+      "hash": "sha512-05Iafzb2fABWi4kHIHc/BuInW3PHdjXWTuBNZzKQhVmqKPM8+Dojnn+HK672GtbhdSbWOLcPscDlbjXqL2Meyg==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jTUYQyJH": {
+      "filename": "refined_netherite-1.0.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/jTUYQyJH/refined_netherite-1.0.0-fabric-1.20.1.jar",
+      "hash": "sha512-rsxXaubCQYdmHqZ2VjTJW/pJ3erLswKHkUU9Gv/EQKPdy/VNmFcvDiv2EnNMYHsEfzWAtw2EgSPqVxpA+5SZzA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "n10tXski": {
+      "filename": "refined_netherite-1.0.1-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/n10tXski/refined_netherite-1.0.1-fabric-1.20.1.jar",
+      "hash": "sha512-vuZvOz6JMhkKz2Sp+Tg4c2Kz4ugHJA5Rj+76w/WKbXv5H12XH3SkB5Jvf4yBJk6Jks8dsSlf7vnZrDmTInLHLg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rbOuY6eo": {
+      "filename": "refined_netherite_forge-1.0.1-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/rbOuY6eo/refined_netherite_forge-1.0.1-forge-1.20.1.jar",
+      "hash": "sha512-H/B9PK5YqQUuTK3//OL2oSEm/0tr+KR/joahVRvKOIeG/HPmElVJ5uyo8oMQxGdrdMJTS/6otHjpUOun70rmLw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kilt",
+          "projectId": "t87XZEqv",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "s0wAldwC": {
+      "filename": "refined_netherite-1.1.25-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/s0wAldwC/refined_netherite-1.1.25-fabric-1.20.1.jar",
+      "hash": "sha512-YG8uP5P+gpnVcU4enmNeoDpuDMAXmNT160s6rTqhV+RUOspi5+l+IE8XcR6how1SH2JK6Lm44aOVAB4n1etTWg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sFhQRkvC": {
+      "filename": "refined_netherite-1.3.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/sFhQRkvC/refined_netherite-1.3.0-forge-1.20.1.jar",
+      "hash": "sha512-q0anW/WOfYl3oozTMfFdRQoRS1qQe+TzFJmxQYQezSfL/TvTQD9sXVfEkPKYowy7zFx06a0RvyZz0CJdp8BiMQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uTCvU8dU": {
+      "filename": "refined_netherite_forge-1.1.1-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/R3WDkz4b/versions/uTCvU8dU/refined_netherite_forge-1.1.1-forge-1.20.1.jar",
+      "hash": "sha512-2xbxS2+C2GqkeQ4qXtOQopWy227bOP5Ol9IBS5QpE4WxfuYUBT2oZPGoyBRiJ477McvAjJLkHVLy7DdKCoJqxQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "kilt",
+          "projectId": "t87XZEqv",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.20+quilt": [
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.20.1+fabric": [
+      "RaQbiGwC",
+      "4GsXWWNI",
+      "s0wAldwC",
+      "2ZE4L9b1",
+      "hGtmpsXK",
+      "uTCvU8dU",
+      "F6WQTaMP",
+      "rbOuY6eo",
+      "n10tXski",
+      "I1E6EOXb",
+      "jTUYQyJH"
+    ],
+    "1.20.1+forge": [
+      "sFhQRkvC",
+      "2ZE4L9b1",
+      "uTCvU8dU",
+      "rbOuY6eo",
+      "I1E6EOXb"
+    ],
+    "1.20.1+neoforge": [
+      "sFhQRkvC",
+      "2ZE4L9b1",
+      "uTCvU8dU",
+      "rbOuY6eo",
+      "I1E6EOXb"
+    ],
+    "1.20.1+quilt": [
+      "RaQbiGwC",
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.20.2+fabric": [
+      "RaQbiGwC",
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.20.2+quilt": [
+      "RaQbiGwC",
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.20.3+fabric": [
+      "RaQbiGwC",
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.20.3+quilt": [
+      "RaQbiGwC",
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.20.4+fabric": [
+      "RaQbiGwC",
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.20.4+quilt": [
+      "RaQbiGwC",
+      "4GsXWWNI",
+      "s0wAldwC",
+      "hGtmpsXK",
+      "F6WQTaMP",
+      "n10tXski",
+      "jTUYQyJH"
+    ],
+    "1.21.1+fabric": [
+      "1k4NFdJ8"
+    ],
+    "1.21.1+neoforge": [
+      "1k4NFdJ8",
+      "iVSoaBOC"
+    ],
+    "1.21.2+neoforge": [
+      "iVSoaBOC"
+    ],
+    "1.21.3+neoforge": [
+      "iVSoaBOC"
+    ],
+    "1.21.4+neoforge": [
+      "9Uqvrto9",
+      "iVSoaBOC",
+      "bj290pWr"
+    ],
+    "1.21.5+neoforge": [
+      "iVSoaBOC"
+    ],
+    "1.21.6+neoforge": [
+      "iVSoaBOC"
+    ],
+    "1.21.7+neoforge": [
+      "iVSoaBOC"
+    ],
+    "1.21.8+fabric": [
+      "Ut7ECIMV"
+    ],
+    "1.21.8+neoforge": [
+      "EAXuB1XK",
+      "iVSoaBOC"
+    ],
+    "1.21.8+quilt": [
+      "Ut7ECIMV"
+    ]
+  }
+}

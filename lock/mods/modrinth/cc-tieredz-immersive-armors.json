@@ -1,0 +1,64 @@
+{
+  "slug": "cc-tieredz-immersive-armors",
+  "projectId": "fAeEYYZ2",
+  "versions": {
+    "HPDtv9hI": {
+      "filename": "cc-tieredz-immersive-armors-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fAeEYYZ2/versions/HPDtv9hI/cc-tieredz-immersive-armors-1.0.0.jar",
+      "hash": "sha512-86W63H40pEcls/YM3byWxGTk9C+wDmMeILRL7TrVtedb/1PXH+yc2puODFMbPLyDvbn/ey0jyDUSZBeqssWgmg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "immersive-armors",
+          "projectId": "eE2Db4YU",
+          "type": "required"
+        },
+        {
+          "slug": "tieredz",
+          "projectId": "z6sMEexp",
+          "type": "required"
+        }
+      ]
+    },
+    "KcPUbUCX": {
+      "filename": "tieredz-immersive_armors_compat.zip",
+      "url": "https://cdn.modrinth.com/data/fAeEYYZ2/versions/KcPUbUCX/tieredz-immersive_armors_compat.zip",
+      "hash": "sha512-UKlrukFNLaLsHoaz08NZwGMd40jp4db1J/AkT1/5W6TRvf+aseWUREnBouAZ5rAD9D+2cvJNwuELqiIg2NJnXw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "tieredz",
+          "projectId": "z6sMEexp",
+          "type": "required"
+        },
+        {
+          "slug": "immersive-armors",
+          "projectId": "eE2Db4YU",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "KcPUbUCX"
+    ],
+    "1.20.1+fabric": [
+      "HPDtv9hI"
+    ]
+  }
+}

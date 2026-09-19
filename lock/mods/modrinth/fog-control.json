@@ -1,0 +1,104 @@
+{
+  "slug": "fog-control",
+  "projectId": "StFP8sqm",
+  "versions": {
+    "ANt3mBlP": {
+      "filename": "fog-control-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/StFP8sqm/versions/1.0.3/fog-control-1.0.3.jar",
+      "hash": "sha512-7XWXBChlkA6ElQ0MlmD2wLVrK+uheqVWbltmOPLzwo6/IzpxW6Tor6TA1b/uVleb922SY0h1x3R7dNTwu3mWNg==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "UpTAQYnp": {
+      "filename": "fog-control-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/StFP8sqm/versions/UpTAQYnp/fog-control-1.1.0.jar",
+      "hash": "sha512-EKGM0vGcypKAaRDrEElrpO/v9SGHcWYoUApyuP1RVC1p2I9Ysa1BBsw2VB8DCmp4Jbqt9P4rEkyzA8eIhNJ/pQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "sCSSXgjA": {
+      "filename": "fog-control-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/StFP8sqm/versions/1.0.1/fog-control-1.0.1.jar",
+      "hash": "sha512-hfmSMVywSq6Gipoe6PWGlqJQaBc5zDO+g7kaimNFdS8eUWD1WWvvnEVXWHTB96un6qFv85u6GL9wMxv1E7pOmA==",
+      "gameVersions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vRGXXYE6": {
+      "filename": "fog-control-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/StFP8sqm/versions/1.0.2/fog-control-1.0.2.jar",
+      "hash": "sha512-hojsX8yQ9RW+VuKrYavHFLL96rYwAzn89JqcJqoaMzxQIW7GXv/UP1VjBoYGnmyJjMxZWG/zR25gUiuCfiaCDQ==",
+      "gameVersions": [
+        "1.17"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "yT60FIJ5": {
+      "filename": "fog-control-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/StFP8sqm/versions/1.0.4%2B1.17/fog-control-1.0.4.jar",
+      "hash": "sha512-41QuKnd2xOK/TkD8j6eRuHlCo2mboXOMod0m4v7umFcbCKMIDICj0fWLOlIsO+aBUB39rO2fcITbWtlD+7Khmw==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "yT60FIJ5",
+      "ANt3mBlP",
+      "vRGXXYE6",
+      "sCSSXgjA"
+    ],
+    "1.17.1+fabric": [
+      "yT60FIJ5",
+      "ANt3mBlP"
+    ],
+    "1.20.4+fabric": [
+      "UpTAQYnp"
+    ]
+  }
+}

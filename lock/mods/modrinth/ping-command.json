@@ -1,0 +1,74 @@
+{
+  "slug": "ping-command",
+  "projectId": "6qnR9xXx",
+  "versions": {
+    "h5cGPR7O": {
+      "filename": "ping-command-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/6qnR9xXx/versions/h5cGPR7O/ping-command-0.0.1.jar",
+      "hash": "sha512-KwHb8npswzKDQkZXk+ahlrQ3aeDaxaRq4+9d+bDDQpjdAem7hz8SCGAdJ9+34zpjLxjyWEvRcZ6YLA4lk6quew==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.4",
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pH8YzM7L": {
+      "filename": "ping-command-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/6qnR9xXx/versions/pH8YzM7L/ping-command-0.0.2.jar",
+      "hash": "sha512-QOVd2M3X/U/RA52WjqiuGv8KTC+CMvSRrazwB0Bq/O1SjkW9HEzjAzxcIxiGNLgO8e91TxC+Lr/8igAwX4hSkQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "h5cGPR7O"
+    ],
+    "1.19.4+fabric": [
+      "h5cGPR7O"
+    ],
+    "1.20+fabric": [
+      "h5cGPR7O"
+    ],
+    "1.21+fabric": [
+      "pH8YzM7L"
+    ],
+    "1.21.1+fabric": [
+      "pH8YzM7L"
+    ],
+    "1.21.2+fabric": [
+      "pH8YzM7L"
+    ],
+    "1.21.3+fabric": [
+      "pH8YzM7L"
+    ]
+  }
+}

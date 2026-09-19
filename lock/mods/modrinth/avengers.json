@@ -1,0 +1,48 @@
+{
+  "slug": "avengers",
+  "projectId": "jaRugO3N",
+  "versions": {
+    "NXW83o3j": {
+      "filename": "avengersmod-2.0.0 .jar",
+      "url": "https://cdn.modrinth.com/data/jaRugO3N/versions/NXW83o3j/avengersmod-2.0.0%20.jar",
+      "hash": "sha512-19iFm0SlC5ud9+EfOAuZhMGPskR+IyJPE/XHGb/gql/gEL6HwUbddHMc7tdY5xvVko6fzx+vIm5bMxu3p+871g==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Tzyuo8jf": {
+      "filename": "avengersmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jaRugO3N/versions/Tzyuo8jf/avengersmod-1.0.0.jar",
+      "hash": "sha512-O+p7xm9YCyk/DOvxKkzjs1QLyodYnjkNSN4gXiTl9zd4Q5JrW6pNl7nFfLZxEZ/3oC0ffHThzNYvpV3DGz5gMw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "Tzyuo8jf"
+    ],
+    "26.2+fabric": [
+      "NXW83o3j"
+    ]
+  }
+}

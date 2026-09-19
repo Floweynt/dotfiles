@@ -1,0 +1,31 @@
+{
+  "slug": "worlddownloader",
+  "projectId": "5MIEfkMt",
+  "versions": {
+    "pH1n7DDT": {
+      "filename": "worlddownloader-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5MIEfkMt/versions/pH1n7DDT/worlddownloader-1.0.1.jar",
+      "hash": "sha512-EsIUO+hE4MdxRTsKegEu8TDPk/EIdm/QwrT+4EQYQYCYuXw2dv14JBU6VVg6bgy5mPwQtBYbXcSkIVwIJ0hLnQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "pH1n7DDT"
+    ]
+  }
+}

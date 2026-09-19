@@ -1,0 +1,65 @@
+{
+  "slug": "tifyi",
+  "projectId": "xFLc8N8Z",
+  "versions": {
+    "1n53v9To": {
+      "filename": "tifyi-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/xFLc8N8Z/versions/1n53v9To/tifyi-1.1.0.jar",
+      "hash": "sha512-P07hi3+zjukPO9oapyeea09/j2nOq/nJR4yg7ZBWo7TeIsq1XNCK9hz0WQ7xELMCW5wmkjWa7HdsV8Tijn9Rxw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dHaxtr8f": {
+      "filename": "tifyi-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xFLc8N8Z/versions/dHaxtr8f/tifyi-1.0.0.jar",
+      "hash": "sha512-rwom1YECFsnH7c1TphUNQJ+PYDFczfMB4S0HZxIgPSySC19Gq9oLIRFNhUheKJOOvVTvMmNscJLwNZn3towNmQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "1n53v9To",
+      "dHaxtr8f"
+    ],
+    "1.20+quilt": [
+      "1n53v9To"
+    ],
+    "1.20.1+fabric": [
+      "1n53v9To",
+      "dHaxtr8f"
+    ],
+    "1.20.1+quilt": [
+      "1n53v9To"
+    ]
+  }
+}

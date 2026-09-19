@@ -1,0 +1,81 @@
+{
+  "slug": "conveniented-forge-tags",
+  "projectId": "AyiRHxpO",
+  "versions": {
+    "1p1OsKOY": {
+      "filename": "cftags-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/AyiRHxpO/versions/1p1OsKOY/cftags-0.1.1.jar",
+      "hash": "sha512-aJR/sWYGvv5M/mxZx4bM9EmoXAme5+itRUoxsdUTQrHnxl7ucGZ+DUD6vas/Nu3kFehFTF0vh83ZKZRW+bnd1Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "99KluJZk": {
+      "filename": "cftags-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/AyiRHxpO/versions/99KluJZk/cftags-0.1.2.jar",
+      "hash": "sha512-+xEUNsDa4klAt5iCgsJO2dCeCzFNBhH9vNONruHWP2vzOdP5nuUwepvAuYeHXnsN2zvl12vap1KgpO+CtG68xw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VjYE99gR": {
+      "filename": "cftags-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/AyiRHxpO/versions/VjYE99gR/cftags-0.1.0.jar",
+      "hash": "sha512-Ld6ok986gYEvurYWffnrZZz2icZXIt2Py7m4WDjt1O7Uef63cpIYwhNyq5wggbouEQ/gtSzSzwgp6MAHFI1qbA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "99KluJZk",
+      "1p1OsKOY",
+      "VjYE99gR"
+    ],
+    "1.18.2+quilt": [
+      "99KluJZk",
+      "1p1OsKOY",
+      "VjYE99gR"
+    ]
+  }
+}

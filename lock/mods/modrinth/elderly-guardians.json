@@ -1,0 +1,88 @@
+{
+  "slug": "elderly-guardians",
+  "projectId": "fNCcTiv1",
+  "versions": {
+    "KQ5sIDHF": {
+      "filename": "ElderlyGuardians-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fNCcTiv1/versions/KQ5sIDHF/ElderlyGuardians-fabric-1.0.jar",
+      "hash": "sha512-ArEBFqPB9ArjTPhe+qXmVmKR9GIlUW4EqmQHcTez4cVYpRBOo+yiTO12pM7ZyjNC/6R7+JZSHa74edKhCeWRBw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "csQDZawc": {
+      "filename": "ElderlyGuardians-forge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fNCcTiv1/versions/csQDZawc/ElderlyGuardians-forge-1.0.jar",
+      "hash": "sha512-TBa0cU7vxnWGBlA2mWyBArMQx1g1Bdk44GNdHl+H5hn2eVs7Cqxr0hD4T0kpc6VqX8dXAcvzmeSVkGqes6w7Fw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "p1ijJboe": {
+      "filename": "ElderlyGuardians-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fNCcTiv1/versions/p1ijJboe/ElderlyGuardians-neoforge-1.0.jar",
+      "hash": "sha512-f4Pg92upEqsx5CvSqUCZGQGsd8WDBz9arLDuOip4F14o8tLi9Yox39B+vppGsscy62izJffBGgVUNS8epiOgww==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "t9RGQGsc": {
+      "filename": "ElderlyGuardians-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fNCcTiv1/versions/t9RGQGsc/ElderlyGuardians-fabric-1.0.jar",
+      "hash": "sha512-A8eAnGXP52uf1nWH16ViU291+kNeHCkGFeP8AS7DDwbK8WfxiniHwlj1zfKFQuIkUfLXroTJRQebHn9gnoqKIQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "t9RGQGsc"
+    ],
+    "1.20.1+forge": [
+      "csQDZawc"
+    ],
+    "1.20.1+neoforge": [
+      "csQDZawc"
+    ],
+    "1.20.1+quilt": [
+      "t9RGQGsc"
+    ],
+    "1.21.4+fabric": [
+      "KQ5sIDHF"
+    ],
+    "1.21.4+neoforge": [
+      "p1ijJboe"
+    ],
+    "1.21.4+quilt": [
+      "KQ5sIDHF"
+    ]
+  }
+}

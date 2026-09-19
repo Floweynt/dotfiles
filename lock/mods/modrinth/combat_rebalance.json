@@ -1,0 +1,54 @@
+{
+  "slug": "combat_rebalance",
+  "projectId": "kNC9yEDU",
+  "versions": {
+    "fvk4HJSE": {
+      "filename": "combat_rebalance-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kNC9yEDU/versions/fvk4HJSE/combat_rebalance-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-T6y1ll6rBkbdCR6emKm5QNw6piU35Z53IesC7udBrqUZmXDMXpVOlHRMUH1Jm8Ls9NfhmY86cKbs0llvW8bOEQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "iTI4dIhL": {
+      "filename": "combat_rebalance-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kNC9yEDU/versions/iTI4dIhL/combat_rebalance-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-KO7Sarzk0tnOlhtEYY66qUJqxO3mQNLmEh4mRVSySMoRfSm0ujYnslehKQxtaeaaeoc0UjfToiUl0QzG87yK2A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "fvk4HJSE"
+    ],
+    "1.21.1+neoforge": [
+      "iTI4dIhL"
+    ]
+  }
+}

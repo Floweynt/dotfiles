@@ -1,0 +1,31 @@
+{
+  "slug": "fogcontrol",
+  "projectId": "xCsS1xAo",
+  "versions": {
+    "JzPETBFT": {
+      "filename": "fog-control-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/xCsS1xAo/versions/JzPETBFT/fog-control-1.0.0.jar",
+      "hash": "sha512-hczB4pLa9HPSwATRJriyhjJIEEQL1FMEAFrVZT04gFeBRXaaAJVYKBqMZEQlqpnU7FEqHesYT5HAtn89MVhViQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "JzPETBFT"
+    ]
+  }
+}

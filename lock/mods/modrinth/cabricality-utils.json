@@ -1,0 +1,83 @@
+{
+  "slug": "cabricality-utils",
+  "projectId": "E7zuoNO7",
+  "versions": {
+    "B9rppD87": {
+      "filename": "cabricality-utils-0.1-alpha1-build1.jar",
+      "url": "https://cdn.modrinth.com/data/E7zuoNO7/versions/B9rppD87/cabricality-utils-0.1-alpha1-build1.jar",
+      "hash": "sha512-OS7B0wms04zgErmhYVX5ZQ3tpvE6fWz9FMmaagz9sOfrnhcEWE6ypeoqwu60es1vTwWv877RYchyKjohPvqwEw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "bits-and-chisels",
+          "projectId": "q8MC5tW2",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d5GjSc7v": {
+      "filename": "cabricality-utils-0.1-alpha1-build2.jar",
+      "url": "https://cdn.modrinth.com/data/E7zuoNO7/versions/d5GjSc7v/cabricality-utils-0.1-alpha1-build2.jar",
+      "hash": "sha512-KrQo4mV6fbMcs1Z69/Ru1yrzjw0Fgw93Tpmi8a1Gg0oa4tudZeyaL6Qc5T/yp0/J0Z4XlrkkR0WlXEwJfxbrTA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "d5GjSc7v",
+      "B9rppD87"
+    ],
+    "1.18.2+quilt": [
+      "d5GjSc7v",
+      "B9rppD87"
+    ]
+  }
+}

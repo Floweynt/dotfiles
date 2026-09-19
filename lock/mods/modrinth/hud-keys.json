@@ -1,0 +1,46 @@
+{
+  "slug": "hud-keys",
+  "projectId": "3NZSMTjY",
+  "versions": {
+    "4DeCv0T4": {
+      "filename": "hudk-0.1.1-fabric-0.18.4.jar",
+      "url": "https://cdn.modrinth.com/data/3NZSMTjY/versions/4DeCv0T4/hudk-0.1.1-fabric-0.18.4.jar",
+      "hash": "sha512-3GQP3kz0JjsHFtsLHFU4hLK6zNPsASR1GmIrcMf7zNPSqZms+aFht3Sfe7X7EQtxTCmmxi8YwcV8lB19DM4gWg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "h6jIyXRy": {
+      "filename": "hudk-0.1-fabric-0.18.4.jar",
+      "url": "https://cdn.modrinth.com/data/3NZSMTjY/versions/h6jIyXRy/hudk-0.1-fabric-0.18.4.jar",
+      "hash": "sha512-qLoijZbcWeNFcW9kn/Vx8epEQ6AyOejKoiHho67tZhXM6onaIYl8GPpHriRwhsBNTeKBLtzYRK1TWxe7+vAhfQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "4DeCv0T4",
+      "h6jIyXRy"
+    ]
+  }
+}

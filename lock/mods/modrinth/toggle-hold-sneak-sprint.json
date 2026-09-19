@@ -1,0 +1,54 @@
+{
+  "slug": "toggle-hold-sneak-sprint",
+  "projectId": "OoUYVksc",
+  "versions": {
+    "37dZd8WO": {
+      "filename": "alternate-sneaksprint-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/OoUYVksc/versions/37dZd8WO/alternate-sneaksprint-1.0.0.jar",
+      "hash": "sha512-gaH6mKHJhMTPnpGaV2NZz/roq+Bh+lHIDpdzHWlfPiaOxz8QNeH11qhO2EbVir+0BB4x+tKJSzjulEAgOr6hMg==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "HKheCYFa": {
+      "filename": "alternate-sneaksprint-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/OoUYVksc/versions/HKheCYFa/alternate-sneaksprint-1.0.1.jar",
+      "hash": "sha512-yMIkovtTWfQ42k9FBplv2zzKA4QZiCz6skOGs3tcsIEtRBmc3jWpKehjjgLV21gSNwIkoWgTpY2pIN38iECnmg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.3+fabric": [
+      "37dZd8WO"
+    ],
+    "1.21.4+fabric": [
+      "HKheCYFa"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "easy-item-despawn",
+  "projectId": "5ZyS84Sn",
+  "versions": {
+    "hvqVQWBE": {
+      "filename": "easy-item-despawn-1.1.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/5ZyS84Sn/versions/hvqVQWBE/easy-item-despawn-1.1.0%2B1.21.jar",
+      "hash": "sha512-GS+2pvtS9cu1A/CfjIDYWhzN+9Eqm6sj8zmNOiRHYnrpLk1RzDL28E9pXO3/E95mw9WMEsS8uZNDsg8DBZZtuA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "monkeylib538",
+          "projectId": "gYap5A8T",
+          "type": "required"
+        }
+      ]
+    },
+    "kJIWnT5J": {
+      "filename": "easy-item-despawn-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ZyS84Sn/versions/kJIWnT5J/easy-item-despawn-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-q/NctEHER/D8tAXFUobqoBvewUrWucHTIhZWVfwvrKlv7cpPbbITQIhL9v8TmQ45aCbDFfbVPuADpEeC9hNnow==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1-rc1",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "hvqVQWBE",
+      "kJIWnT5J"
+    ],
+    "1.20.1+fabric": [
+      "hvqVQWBE",
+      "kJIWnT5J"
+    ],
+    "1.20.1-rc1+fabric": [
+      "kJIWnT5J"
+    ],
+    "1.20.2+fabric": [
+      "hvqVQWBE"
+    ],
+    "1.20.3+fabric": [
+      "hvqVQWBE"
+    ],
+    "1.20.4+fabric": [
+      "hvqVQWBE"
+    ],
+    "1.20.5+fabric": [
+      "hvqVQWBE"
+    ],
+    "1.20.6+fabric": [
+      "hvqVQWBE"
+    ],
+    "1.21+fabric": [
+      "hvqVQWBE"
+    ]
+  }
+}

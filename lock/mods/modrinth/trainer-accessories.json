@@ -1,0 +1,82 @@
+{
+  "slug": "trainer-accessories",
+  "projectId": "tefSTxCo",
+  "versions": {
+    "o7WoJgKI": {
+      "filename": "TrainerAccessories-1.7.3-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tefSTxCo/versions/o7WoJgKI/TrainerAccessories-1.7.3-1.0.0.jar",
+      "hash": "sha512-Qk1VEd7aU7quVzsleZgXcmsx1Gk3OuJlaxYxPxD8WY2mTPBKtu+ecAyKf8TKhJAYmEUqT3mOeLNXsAoHzSVaEw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trainerattributeslib",
+          "projectId": "P7tBjBML",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "accessories",
+          "projectId": "jtmvUHXj",
+          "type": "required"
+        }
+      ]
+    },
+    "xOE9NT5v": {
+      "filename": "TrainerAccessories-1.7.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tefSTxCo/versions/xOE9NT5v/TrainerAccessories-1.7.2-1.0.0.jar",
+      "hash": "sha512-BrBnxt5sWdkroGovE2jJR40isr4TowpiEHDWEhrFgBFUVrd+DWYfqSuk+l6fpIc55fQZ7nZNxusJysbg2VLZfA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "trainerattributeslib",
+          "projectId": "P7tBjBML",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "accessories",
+          "projectId": "jtmvUHXj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "xOE9NT5v",
+      "o7WoJgKI"
+    ]
+  }
+}

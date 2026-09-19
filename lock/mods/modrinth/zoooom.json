@@ -1,0 +1,113 @@
+{
+  "slug": "zoooom",
+  "projectId": "DMHWFuKy",
+  "versions": {
+    "7xwFV6ZZ": {
+      "filename": "Zoooom-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DMHWFuKy/versions/7xwFV6ZZ/Zoooom-forge-1.0.0.jar",
+      "hash": "sha512-BZR55vgsKyWiMGRwWKvqgSAWHlhtsbWcwCC9LvvAw2V4W5HE8urIw+/7d2HBs4WSK9goHu0ew9qww63B14blwA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "DENlWoYX": {
+      "filename": "zoooom-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DMHWFuKy/versions/DENlWoYX/zoooom-neoforge-1.0.0.jar",
+      "hash": "sha512-12oe73RRuLSmMj2fWA+H9Qig3rUQQ11xUXKS6O9QOws6Yfj5SlgI1f7EdHSMPB8fzAG/i/tM0QGlh7fvdHFRfA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "y9HXNfbX": {
+      "filename": "zoooom-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DMHWFuKy/versions/y9HXNfbX/zoooom-fabric-1.0.0.jar",
+      "hash": "sha512-pxxpNfmnwbMgjoTYkOxGtN1e9epcP/2WSZ0XOBMjMG8fvCQ2bBCmS4VvSCxS/xa9Or+m0YG3Ibawtr27OHOpoQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "y9HXNfbX"
+    ],
+    "1.21.1+forge": [
+      "7xwFV6ZZ"
+    ],
+    "1.21.1+neoforge": [
+      "DENlWoYX"
+    ],
+    "1.21.2+fabric": [
+      "y9HXNfbX"
+    ],
+    "1.21.2+forge": [
+      "7xwFV6ZZ"
+    ],
+    "1.21.2+neoforge": [
+      "DENlWoYX"
+    ],
+    "1.21.3+fabric": [
+      "y9HXNfbX"
+    ],
+    "1.21.3+forge": [
+      "7xwFV6ZZ"
+    ],
+    "1.21.3+neoforge": [
+      "DENlWoYX"
+    ],
+    "1.21.4+fabric": [
+      "y9HXNfbX"
+    ],
+    "1.21.4+forge": [
+      "7xwFV6ZZ"
+    ],
+    "1.21.4+neoforge": [
+      "DENlWoYX"
+    ]
+  }
+}

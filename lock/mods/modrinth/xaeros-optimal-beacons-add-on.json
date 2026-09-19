@@ -1,0 +1,77 @@
+{
+  "slug": "xaeros-optimal-beacons-add-on",
+  "projectId": "3pNfuOS8",
+  "versions": {
+    "BaII9vEq": {
+      "filename": "xaeros-optimal-beacons-add-on-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3pNfuOS8/versions/BaII9vEq/xaeros-optimal-beacons-add-on-1.0.0.jar",
+      "hash": "sha512-UlCx3MRSD87l5r/+GANv6ApTh6NPdj4yQo21OPoyj+F/T9RMI5MZoF40Z+P4YVAo99izmjW1RY1qVB/yE68chg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "xaeros-world-map",
+          "projectId": "NcUtCpym",
+          "type": "required"
+        }
+      ]
+    },
+    "RsrPT4IY": {
+      "filename": "xaeros-optimal-beacons-add-on-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/3pNfuOS8/versions/RsrPT4IY/xaeros-optimal-beacons-add-on-1.1.0.jar",
+      "hash": "sha512-FFbXMvbdq9jpYMTknXKEtR3+j781ZepLXdN+QQrN43V6vwBKkE+I/aLjsMriUqF42jP1jW9vCm9Dmni70/4GsQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "xaeros-world-map",
+          "projectId": "NcUtCpym",
+          "type": "required"
+        }
+      ]
+    },
+    "axhYZWML": {
+      "filename": "xaeros-optimal-beacons-add-on-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/3pNfuOS8/versions/axhYZWML/xaeros-optimal-beacons-add-on-1.2.0.jar",
+      "hash": "sha512-WxpDi+pBQifOovb6UazC1U/mQof9UgkPLe35YpOE/j0ilcQeAgwoQZRL/3TNa93KFlDf2hYTGicFSe0PAeSQWw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "xaeros-world-map",
+          "projectId": "NcUtCpym",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "BaII9vEq"
+    ],
+    "26.1.2+fabric": [
+      "RsrPT4IY"
+    ],
+    "26.2+fabric": [
+      "axhYZWML"
+    ]
+  }
+}

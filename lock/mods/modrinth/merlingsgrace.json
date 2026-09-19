@@ -1,0 +1,41 @@
+{
+  "slug": "merlingsgrace",
+  "projectId": "XqDlbn3P",
+  "versions": {
+    "u4OKj3XN": {
+      "filename": "merlingsgrace-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XqDlbn3P/versions/u4OKj3XN/merlingsgrace-1.0.0.jar",
+      "hash": "sha512-gTexWCmEnCzw7jMo2LF2b/muziMMoqSMNM07QBvRz2YLQlwhN1+LThWuF2obOnp5SKKIY4gWsRXjiPDi8WB38w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "u4OKj3XN"
+    ]
+  }
+}

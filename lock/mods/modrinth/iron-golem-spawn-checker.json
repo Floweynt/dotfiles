@@ -1,0 +1,75 @@
+{
+  "slug": "iron-golem-spawn-checker",
+  "projectId": "FJUuXVYX",
+  "versions": {
+    "TxkeI18q": {
+      "filename": "golem-spawn-checker-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/FJUuXVYX/versions/TxkeI18q/golem-spawn-checker-2.0.0.jar",
+      "hash": "sha512-3vM39IBR2cPSwGCAE2SMckVs08tXo9otIw0XXIGHKjYhnLpevduvREAOmr/+DBHIre3y+m5adwZejFZhHMMIkA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ldf2Z0wY": {
+      "filename": "golem-spawn-checker-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/FJUuXVYX/versions/ldf2Z0wY/golem-spawn-checker-1.0-SNAPSHOT.jar",
+      "hash": "sha512-4gl0Ei6epng/au3SP4TlLJcBSuveVXg2gjvgxj757lVXBHJexxwgkCureCca6h6MiOdWuMl4K0sxmCxD8X03nA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tIdywLKJ": {
+      "filename": "golem-spawn-checker-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/FJUuXVYX/versions/tIdywLKJ/golem-spawn-checker-1.1.0.jar",
+      "hash": "sha512-pf66s3R3BTlsBKaUdp97ihOMyMAF3d+Pl2GjFN3T91Sig4kg8ggFcgodCVyK80FH1R7Dc/4aC1FRTYC1TmMjfQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "tIdywLKJ",
+      "ldf2Z0wY"
+    ],
+    "1.21.5+fabric": [
+      "TxkeI18q"
+    ]
+  }
+}

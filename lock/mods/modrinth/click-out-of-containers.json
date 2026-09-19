@@ -1,0 +1,104 @@
+{
+  "slug": "click-out-of-containers",
+  "projectId": "eRP8svna",
+  "versions": {
+    "2VrtGEIg": {
+      "filename": "clickoutofcontainers-1.0.0+1.21.6-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/eRP8svna/versions/2VrtGEIg/clickoutofcontainers-1.0.0%2B1.21.6-neoforge.jar",
+      "hash": "sha512-Ijr/VfC/F6WkSCmx6wqsMIkmQQxex2oumLl2ZQsN2pnZY7KbYuxn9ftUzITz2EKekvOHpI0RtFUADcqfIBfSMQ==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.8",
+        "1.21.10"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "L3yj8czX": {
+      "filename": "clickoutofcontainers-1.0.0+1.21.6-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/eRP8svna/versions/L3yj8czX/clickoutofcontainers-1.0.0%2B1.21.6-fabric.jar",
+      "hash": "sha512-R2Jc9jb/Iew2fDhJERI6UsgwV6dFVg8aKS7NI2MRiOhPpfG+VdAKUI/HT8xRIhTAy2+nzZpT7P1Y566f6YireA==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.8",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "L3yj8czX"
+    ],
+    "1.21.1+neoforge": [
+      "2VrtGEIg"
+    ],
+    "1.21.10+fabric": [
+      "L3yj8czX"
+    ],
+    "1.21.10+neoforge": [
+      "2VrtGEIg"
+    ],
+    "1.21.3+fabric": [
+      "L3yj8czX"
+    ],
+    "1.21.3+neoforge": [
+      "2VrtGEIg"
+    ],
+    "1.21.4+fabric": [
+      "L3yj8czX"
+    ],
+    "1.21.4+neoforge": [
+      "2VrtGEIg"
+    ],
+    "1.21.5+fabric": [
+      "L3yj8czX"
+    ],
+    "1.21.5+neoforge": [
+      "2VrtGEIg"
+    ],
+    "1.21.8+fabric": [
+      "L3yj8czX"
+    ],
+    "1.21.8+neoforge": [
+      "2VrtGEIg"
+    ]
+  }
+}

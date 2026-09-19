@@ -1,0 +1,40 @@
+{
+  "slug": "hattened",
+  "projectId": "W18bTipg",
+  "versions": {
+    "PTDh4UWz": {
+      "filename": "hattened-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/W18bTipg/versions/PTDh4UWz/hattened-1.0.0.jar",
+      "hash": "sha512-6/+d+IYAAUaofdLTLGn7p8PLLdaeUQMbGmGvAgR6fYMZsQ83Tnp3dBImqGuYxNcZXVNoNblE951Jn86hKaZ8UQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "playeranimator",
+          "projectId": "gedNE4y2",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "PTDh4UWz"
+    ],
+    "1.21.8+quilt": [
+      "PTDh4UWz"
+    ]
+  }
+}

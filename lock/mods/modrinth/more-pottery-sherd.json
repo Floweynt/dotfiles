@@ -1,0 +1,62 @@
+{
+  "slug": "more-pottery-sherd",
+  "projectId": "dgDRZrIB",
+  "versions": {
+    "Cx9hJNFM": {
+      "filename": "more_pottery_sherd_fabric_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dgDRZrIB/versions/Cx9hJNFM/more_pottery_sherd_fabric_1.20.1.jar",
+      "hash": "sha512-kd4xFlmv1XZjf1ZoHoDo+jiKAg33y838XmhOy4T5/ey3FzFq1VF3Nmv2y+jk4hQPkeJxLiZGCj0JHgv8JWBAGw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sherdsapi",
+          "projectId": "nOUYhAZV",
+          "type": "required"
+        }
+      ]
+    },
+    "KtXeezMB": {
+      "filename": "more_pottery_sherd_forge_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dgDRZrIB/versions/KtXeezMB/more_pottery_sherd_forge_1.20.1.jar",
+      "hash": "sha512-T61MBC/i/L/I+1x56VcZwhMDxZelL+xum7M/9fru1Q1j+X+lfsjQjztf6mTo7kValoLr2Q+vjBcV94eYZUah1w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "sherdsapi",
+          "projectId": "nOUYhAZV",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Cx9hJNFM"
+    ],
+    "1.20.1+forge": [
+      "KtXeezMB"
+    ],
+    "1.20.1+neoforge": [
+      "KtXeezMB"
+    ],
+    "1.20.1+quilt": [
+      "Cx9hJNFM"
+    ]
+  }
+}

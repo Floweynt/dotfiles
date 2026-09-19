@@ -1,0 +1,112 @@
+{
+  "slug": "origins-player-sizes",
+  "projectId": "b87QjdBO",
+  "versions": {
+    "3QVuAvfD": {
+      "filename": "origins-sizes1.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/b87QjdBO/versions/3QVuAvfD/origins-sizes1.2-1.20.1.jar",
+      "hash": "sha512-7/74X6rQNNJ7dPOxKIugaBsUVdhYwx4gTHcEV0gv/jzoUoLQDo3LMwIBvxtzz7rUBhx0Eqd4dFohhjYROr4zFw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "hb12YN3d": {
+      "filename": "originssizes1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/b87QjdBO/versions/hb12YN3d/originssizes1.1-1.20.1.jar",
+      "hash": "sha512-FKfLWAWcZIsL4mg/M7QjRpfjn4CfiFFSpOyUBE8Ct7YOan+eC129PPwgwkmyiBryoQ2OFT6CAzfqA3XwS0vL9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "kcGvOipO": {
+      "filename": "originsscale1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/b87QjdBO/versions/kcGvOipO/originsscale1.0-1.20.1.jar",
+      "hash": "sha512-zx2w/JC1cIjiiAajNariYuAlzz7z8R5n+lzzmP4wksOoghZQr2FxoiMV8iRkEdS0DkjpgRjFfMwGhVcL3sumQA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "3QVuAvfD",
+      "hb12YN3d",
+      "kcGvOipO"
+    ],
+    "1.20.1+forge": [
+      "3QVuAvfD",
+      "hb12YN3d",
+      "kcGvOipO"
+    ],
+    "1.20.1+neoforge": [
+      "3QVuAvfD",
+      "hb12YN3d",
+      "kcGvOipO"
+    ],
+    "1.20.1+quilt": [
+      "3QVuAvfD",
+      "hb12YN3d",
+      "kcGvOipO"
+    ]
+  }
+}

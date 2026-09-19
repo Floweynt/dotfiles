@@ -1,0 +1,46 @@
+{
+  "slug": "difficulty+",
+  "projectId": "WfZNLe65",
+  "versions": {
+    "eA4WaWA2": {
+      "filename": "difficultyplus-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/WfZNLe65/versions/eA4WaWA2/difficultyplus-1.0.2.jar",
+      "hash": "sha512-VjA76Md4Gg6qEfnH4mRcjiWXBHGNAas6VzPgUvvuJw723mfqu/iIQsfyx34D6h27bVMrc9fRla+DA0WeK7i3UA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "skylib",
+          "projectId": "SXYcZO3i",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "eA4WaWA2"
+    ]
+  }
+}

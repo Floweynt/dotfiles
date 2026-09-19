@@ -1,0 +1,59 @@
+{
+  "slug": "sync-client-server-scs",
+  "projectId": "of4KEiKt",
+  "versions": {
+    "H5BfEonw": {
+      "filename": "scs-1.1.4+forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/of4KEiKt/versions/H5BfEonw/scs-1.1.4%2Bforge-1.20.1.jar",
+      "hash": "sha512-ioshE3y//apGv+AYp6wEUMTbNWhGpa+oTPlsswki47Jm4ns/CRlNMercSy16psG4GyHHC019etW5A2lz4NEaiw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "IwZCcZvb": {
+      "filename": "scs-1.1.1-fabric.1.jar",
+      "url": "https://cdn.modrinth.com/data/of4KEiKt/versions/IwZCcZvb/scs-1.1.1-fabric.1.jar",
+      "hash": "sha512-lQxpwhn/ASAxdT8fs1YlIWwyxR7ivQmVsT65oCAiYpupExlVq/VxetsNyftEjnpmu+b95hDvWOqI+s6YVfndHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rsdahbZZ": {
+      "filename": "scs-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/of4KEiKt/versions/rsdahbZZ/scs-1.1.1.jar",
+      "hash": "sha512-dnzlKruMfY5jtJeXniFKHe3a2mCRvUcWGNPB1mifnG2mVg2z0VaHNrwMRiPa8CeVBQr8JaQFDJ/Mu/cHUo3yfA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IwZCcZvb"
+    ],
+    "1.20.1+forge": [
+      "H5BfEonw"
+    ],
+    "1.21.1+neoforge": [
+      "rsdahbZZ"
+    ]
+  }
+}

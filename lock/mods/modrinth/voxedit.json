@@ -1,0 +1,58 @@
+{
+  "slug": "voxedit",
+  "projectId": "1LRmxOES",
+  "versions": {
+    "RZmmYPaj": {
+      "filename": "voxedit-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/1LRmxOES/versions/RZmmYPaj/voxedit-0.1.0.jar",
+      "hash": "sha512-1OmI7hP9hk4KE7qtF7RAOJTgZfrdAYQYPykUAGIs7ENQZdzRvO7dIkym4sldrQssccRaYDhjz3sl6rMoCqWXPw==",
+      "gameVersions": [
+        "1.20.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vJN0Vrlg": {
+      "filename": "voxedit-0.2.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/1LRmxOES/versions/vJN0Vrlg/voxedit-0.2.0%2B1.21.1.jar",
+      "hash": "sha512-IinA1tGIJfjrXCxzfO/XZAvdYnhcpUlegiAgXW6QJo0nAi/amziZdS0pU2t1pi9nah0GmignZN7kUEPWYuMdBw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.3+fabric": [
+      "RZmmYPaj"
+    ],
+    "1.21+fabric": [
+      "vJN0Vrlg"
+    ],
+    "1.21.1+fabric": [
+      "vJN0Vrlg"
+    ]
+  }
+}

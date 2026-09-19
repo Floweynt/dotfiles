@@ -1,0 +1,76 @@
+{
+  "slug": "palette256",
+  "projectId": "RChmhhVp",
+  "versions": {
+    "IHB399jh": {
+      "filename": "palette256-1.19.x-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RChmhhVp/versions/1.19.x-1.0.0/palette256-1.19.x-1.0.0.jar",
+      "hash": "sha512-msQhUzRgHe8tKsuDeuR96dm+TIpqMFLZFT2CjH57Zj136/SlY+hwpQxMpmx01bH/3tP8adj9mTqokliIIgYhxg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wWnjLKjT": {
+      "filename": "palette256-1.18.2-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RChmhhVp/versions/1.18.2-1.0.0/palette256-1.18.2-1.0.0.jar",
+      "hash": "sha512-wPNg/5JeXoYw63Cv8kn8Zax9HoLba1L6QK3H3pljFYCHedbWj2nDKYsPxIJQgUxInPiPKrw2CGrk6Ka1vpf82Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "wWnjLKjT"
+    ],
+    "1.18.2+quilt": [
+      "wWnjLKjT"
+    ],
+    "1.19+fabric": [
+      "IHB399jh"
+    ],
+    "1.19+quilt": [
+      "IHB399jh"
+    ],
+    "1.19.1+fabric": [
+      "IHB399jh"
+    ],
+    "1.19.1+quilt": [
+      "IHB399jh"
+    ],
+    "1.19.2+fabric": [
+      "IHB399jh"
+    ],
+    "1.19.2+quilt": [
+      "IHB399jh"
+    ]
+  }
+}

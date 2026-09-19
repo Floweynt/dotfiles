@@ -1,0 +1,58 @@
+{
+  "slug": "christmas-delight",
+  "projectId": "2ERLzX5g",
+  "versions": {
+    "TSTnyAm4": {
+      "filename": "christmas-delight-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ERLzX5g/versions/TSTnyAm4/christmas-delight-1.0.0.jar",
+      "hash": "sha512-cXlZzkVBptTE2EkRX3XUWgoFb9tZdc0EhW0zmlURxU/l9BL5s3ukIRADrCudnXnRfmPDeFv5J3evN47oMMwsQQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    },
+    "dVqJUIxU": {
+      "filename": "christmas-delight-NoRemandier-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ERLzX5g/versions/dVqJUIxU/christmas-delight-NoRemandier-1.0.0.jar",
+      "hash": "sha512-1TqhKNOjVjUfHOZxga7NjTkM7cFdEoNpAuqbk0HQnasJdL+8ncYzrFVvra4SNqQnV+dpY3fstMqik6dt1JYfBQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "dVqJUIxU",
+      "TSTnyAm4"
+    ],
+    "1.21.1+fabric": [
+      "dVqJUIxU",
+      "TSTnyAm4"
+    ]
+  }
+}

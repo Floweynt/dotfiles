@@ -1,0 +1,79 @@
+{
+  "slug": "easier-recipes-fabric",
+  "projectId": "uqnhwPGi",
+  "versions": {
+    "MStqYJh0": {
+      "filename": "easierrecipes-1.1.0+1.21_fabric.jar",
+      "url": "https://cdn.modrinth.com/data/uqnhwPGi/versions/MStqYJh0/easierrecipes-1.1.0%2B1.21_fabric.jar",
+      "hash": "sha512-j1TU2vSiigx/qgjF/LccTcDkBg1XugKp7E8AnMMHFpzg/AQ+Td4W2Ku1tDTRrTBCAHtPmplHF+jzMnTPoUAbxQ==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "TH6ClAEs": {
+      "filename": "easierrecipes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uqnhwPGi/versions/TH6ClAEs/easierrecipes-1.0.0.jar",
+      "hash": "sha512-PB71/rhKLu7fWrIJdWZgUqhQwe+tsXC4BqJdjZVuLEkEwchO8c7J8cj50HWKo2Z4xopzr/mgUrOeih0GzRIkVA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ts15ksTp": {
+      "filename": "easierrecipes-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uqnhwPGi/versions/ts15ksTp/easierrecipes-1.0.0.jar",
+      "hash": "sha512-H+upYJtm77USVf4pu1J6HqbxUeyOeDn7dAiUCyDfOBY5dSascA+W8V5A+Vt0w2X4pSsgAI1pPfwBLOi9apLgxA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "MStqYJh0"
+    ],
+    "1.21.11+fabric": [
+      "MStqYJh0",
+      "TH6ClAEs"
+    ],
+    "1.21.9+fabric": [
+      "MStqYJh0"
+    ],
+    "26.1+fabric": [
+      "ts15ksTp"
+    ],
+    "26.1.1+fabric": [
+      "ts15ksTp"
+    ],
+    "26.1.2+fabric": [
+      "ts15ksTp"
+    ]
+  }
+}

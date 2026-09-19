@@ -1,0 +1,42 @@
+{
+  "slug": "21paintings",
+  "projectId": "PycRSMhs",
+  "versions": {
+    "CUcKiRrT": {
+      "filename": "21paintings-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/PycRSMhs/versions/CUcKiRrT/21paintings-1.0.0-forge.jar",
+      "hash": "sha512-XP5lzVlDX7NuJETHRJ6dv+8ddkIkpPTH9bppAG9tpAwMaR3ufj53jwClnmDtrnEm9cFeKHi0sf5u25/YTkHGOQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yQ6QiZcE": {
+      "filename": "21paintings-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PycRSMhs/versions/yQ6QiZcE/21paintings-1.0.0.jar",
+      "hash": "sha512-OPJVr4xb4eah8mMZJgir9v2kCMv9srF0TVDeG+9eYc9VI3RFqD1wStf9ObSmGmqxVm1R9YRqjnTIqUs1V0UXPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yQ6QiZcE"
+    ],
+    "1.20.1+forge": [
+      "CUcKiRrT"
+    ]
+  }
+}

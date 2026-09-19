@@ -1,0 +1,31 @@
+{
+  "slug": "ranky",
+  "projectId": "6oETTPg1",
+  "versions": {
+    "62e5AVgn": {
+      "filename": "ranky-1.6.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/6oETTPg1/versions/62e5AVgn/ranky-1.6.0%2B1.21.1.jar",
+      "hash": "sha512-KFG47gtmr1/E/ERf+zh1VO+tFXQ+4D3JdfWvelVbfaTKzQI8DT0dsEYeni2Pe7z4mDSGojHxOtnlOJLInL/D4Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "luckperms",
+          "projectId": "Vebnzrzj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "62e5AVgn"
+    ]
+  }
+}

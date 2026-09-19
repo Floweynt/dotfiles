@@ -1,0 +1,47 @@
+{
+  "slug": "fabricae-ex-nihilo-ae2-addon",
+  "projectId": "jvSbMxFq",
+  "versions": {
+    "5tV8wnZv": {
+      "filename": "fabricae-ex-nihilo-ae2-addon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jvSbMxFq/versions/5tV8wnZv/fabricae-ex-nihilo-ae2-addon-1.0.0.jar",
+      "hash": "sha512-xs4KmRPOe/oVPSgUdhQgN+enzMz6vAOtssL9b8Y1r4DeHFL4XsxAloa3elujTeK0IdOX/j/oyH0IU4RyFq0hcw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        },
+        {
+          "slug": "fabricae-ex-nihilo",
+          "projectId": "j9JARqmz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "5tV8wnZv"
+    ],
+    "1.20+quilt": [
+      "5tV8wnZv"
+    ],
+    "1.20.1+fabric": [
+      "5tV8wnZv"
+    ],
+    "1.20.1+quilt": [
+      "5tV8wnZv"
+    ]
+  }
+}

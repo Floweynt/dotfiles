@@ -1,0 +1,36 @@
+{
+  "slug": "little-ants",
+  "projectId": "RqwYNJDE",
+  "versions": {
+    "uXT1ud5S": {
+      "filename": "little-ants-1.19.2-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/RqwYNJDE/versions/uXT1ud5S/little-ants-1.19.2-1.2.1.jar",
+      "hash": "sha512-Q6w4O2KFV+OA7rlQj8qSpIo81zK5v7e1C5fdGT1pDQIcszoiPL9GioEL/q0cu0pumxdHpOKoWm+m+3RT6fKvUw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "uXT1ud5S"
+    ]
+  }
+}

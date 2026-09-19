@@ -1,0 +1,81 @@
+{
+  "slug": "terminal-stapi",
+  "projectId": "YnjcSaRF",
+  "versions": {
+    "DFld60tm": {
+      "filename": "Terminal-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YnjcSaRF/versions/DFld60tm/Terminal-0.1.0.jar",
+      "hash": "sha512-KpswBRzyUBV2+dQAvNvLg0MVMHWKwj8ntGdPP7APsxg3eiX1+Zl4FjFztR++VuT/lu26jjKJy1S8OnZhRZTWww==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    },
+    "ilebNykr": {
+      "filename": "terminal-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/YnjcSaRF/versions/ilebNykr/terminal-0.2.0.jar",
+      "hash": "sha512-Kji/mV1421HOdgMkRaEoReymoGvwYPn4WZp9f/OnKrEboI34YYwOj4x2X5bGjn3PiJZ7RuJrfPPxE9/JdOt7YQ==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    },
+    "zsUWrtCG": {
+      "filename": "terminal-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/YnjcSaRF/versions/zsUWrtCG/terminal-0.3.0.jar",
+      "hash": "sha512-YBavuPr5dVzooJTc7WPepxxrrfPadeTZTeqnuD5qtOA4b/d9evLdKs8keSvDWdfhqRb1Fk05nq9IoASju2RQLg==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "zsUWrtCG",
+      "ilebNykr",
+      "DFld60tm"
+    ],
+    "b1.7.3+fabric": [
+      "zsUWrtCG",
+      "ilebNykr",
+      "DFld60tm"
+    ]
+  }
+}

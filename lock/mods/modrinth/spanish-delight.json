@@ -1,0 +1,52 @@
+{
+  "slug": "spanish-delight",
+  "projectId": "ZNwp9Ods",
+  "versions": {
+    "HZ6lXoAQ": {
+      "filename": "spanishdelight-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZNwp9Ods/versions/HZ6lXoAQ/spanishdelight-1.0.0-1.20.1.jar",
+      "hash": "sha512-NH9zbhlGUkgy9xDRN9phifvi1ljjvtingmx1O3Jj7zRrEyVt2e49DMEpzW7CKI/K8WfzMXD76pmZNmHcrmU/rg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    },
+    "pQjEVIws": {
+      "filename": "spanishdelight-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZNwp9Ods/versions/pQjEVIws/spanishdelight-1.0.1-1.20.1.jar",
+      "hash": "sha512-Q9KarvktLwvbUKwtR1ohYlFSeLQ5xRe7VouC5qUGwwLcOiF27ojScRunsMWuFghKTE5xbGgjDmMymedNdjdDsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "pQjEVIws",
+      "HZ6lXoAQ"
+    ]
+  }
+}

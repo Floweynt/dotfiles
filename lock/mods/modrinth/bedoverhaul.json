@@ -1,0 +1,77 @@
+{
+  "slug": "bedoverhaul",
+  "projectId": "3RDCjrMO",
+  "versions": {
+    "A0R6NTCv": {
+      "filename": "bedoverhaul-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/3RDCjrMO/versions/A0R6NTCv/bedoverhaul-1.0.1.jar",
+      "hash": "sha512-jojdCmwD0EAU54npVxKTDBKxTV0OlFSTcMQaxwI3o98ingBUqJUnq2Wj/2A6ORo+tsnqbhNVXJxIxJ8d8Yp/5w==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "BdSMhu34": {
+      "filename": "bedoverhaul-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3RDCjrMO/versions/BdSMhu34/bedoverhaul-1.0.0.jar",
+      "hash": "sha512-tzs3d18q1hOkvwJCo4mtqkiPg1Q/nUYpaprauu3YZ9P0LuqUXAYbIPckokjU+DTPLkPKEPi8uVPGsxH8DmB7mA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "yAxEzTjb": {
+      "filename": "bedoverhaul-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/3RDCjrMO/versions/yAxEzTjb/bedoverhaul-1.0.2.jar",
+      "hash": "sha512-1X+10XZyppUNPFS6u2l16fNftyKNCNB1DDSiVwoiWu/41EGW6hdTBia1MsOP13pK5edpqB2JblZ6ahX5YVy1Qw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "A0R6NTCv"
+    ],
+    "1.19.2+quilt": [
+      "A0R6NTCv"
+    ],
+    "1.19.3+fabric": [
+      "A0R6NTCv",
+      "BdSMhu34"
+    ],
+    "1.19.3+quilt": [
+      "A0R6NTCv",
+      "BdSMhu34"
+    ],
+    "1.19.4+fabric": [
+      "A0R6NTCv"
+    ],
+    "1.19.4+quilt": [
+      "A0R6NTCv"
+    ],
+    "1.20.1+fabric": [
+      "yAxEzTjb"
+    ]
+  }
+}

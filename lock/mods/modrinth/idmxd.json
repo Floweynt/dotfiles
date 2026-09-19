@@ -1,0 +1,42 @@
+{
+  "slug": "idmxd",
+  "projectId": "jFQiiKbr",
+  "versions": {
+    "8DsycCw5": {
+      "filename": "idmxd-1.1.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/jFQiiKbr/versions/8DsycCw5/idmxd-1.1.2-1.21.1.jar",
+      "hash": "sha512-yfykiPll4S26VM5/5R1WMU2RHTtJnN8yK3fy5Hq13KW7qSkIMoRuapVAeUhSudLpmrtnuQaOuPThb2jAFBTmrg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "eP8GQrHe": {
+      "filename": "idmxd-1.1.2-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/jFQiiKbr/versions/eP8GQrHe/idmxd-1.1.2-1.21.jar",
+      "hash": "sha512-Di+NZLooRHboV8V2SYfs7SSve9Y3sh0FliNhHoqLVEYFqtkYnzW4CqzLRbMPGlBL0RB2mEgMvQi/SvzvUVoIHg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "eP8GQrHe"
+    ],
+    "1.21.1+fabric": [
+      "8DsycCw5"
+    ]
+  }
+}

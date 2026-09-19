@@ -1,0 +1,126 @@
+{
+  "slug": "soul-squad",
+  "projectId": "mnypVvDu",
+  "versions": {
+    "49P0h9Z6": {
+      "filename": "SoulSquad-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/mnypVvDu/versions/49P0h9Z6/SoulSquad-0.1.0.jar",
+      "hash": "sha512-3EIVepF//RDHuZqqBEhUs1DsJcSw0jjnCBA/cSSi6Ics9kmXNtKu9oF0pzJVDzeeLI16qe/3gdN7bCVieS1SSA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "J6yMCF0p": {
+      "filename": "SoulSquad_1.20.1-0.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/mnypVvDu/versions/J6yMCF0p/SoulSquad_1.20.1-0.1.3.jar",
+      "hash": "sha512-qR6O1p1nqPSJHsynV7nI6/N5xdDB9iDmjiO538ixKo+pPBmIDaWyD27+6zhsdgzDBvjYAzRiK27iECb2/5bTQQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "ce9SXnH4": {
+      "filename": "SoulSquad-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/mnypVvDu/versions/ce9SXnH4/SoulSquad-0.1.1.jar",
+      "hash": "sha512-I/ogIDuAhmrgALEQdPjSEBVaDrj+yQVoSD8jdPsCi1KaEtgVLYk8cJmg5fNk5k4v8gSnxR/5okRhceBd5EvmBw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "zTnYIqpy": {
+      "filename": "SoulSquad-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/mnypVvDu/versions/zTnYIqpy/SoulSquad-0.1.2.jar",
+      "hash": "sha512-irs+Uy8wmvuybWI1jtkK3L99k2G1Cny2EHvsV5KfoSx45+QeJBgBWnJpMVnQyKV3bgORsjap2+8cvkFi1+GrMg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "zTnYIqpy",
+      "ce9SXnH4",
+      "49P0h9Z6"
+    ],
+    "1.20.1+fabric": [
+      "J6yMCF0p"
+    ]
+  }
+}

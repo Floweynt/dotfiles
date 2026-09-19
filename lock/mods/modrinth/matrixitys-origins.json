@@ -1,0 +1,131 @@
+{
+  "slug": "matrixitys-origins",
+  "projectId": "QKONKonF",
+  "versions": {
+    "QyOqbRoF": {
+      "filename": "Matrixity's Origins.jar",
+      "url": "https://cdn.modrinth.com/data/QKONKonF/versions/QyOqbRoF/Matrixity%27s%20Origins.jar",
+      "hash": "sha512-G/WRUGRMNct+IWp/39ZSBOn7TfH2nMxDu0cLGVNGQ+42MSPwRanZU6WaZAYntRH3WM8R6QPq4GRvOo6W4Fj23Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "bZJowIgP": {
+      "filename": "Matrixity's Origins 1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QKONKonF/versions/bZJowIgP/Matrixity%27s%20Origins%201.0.0.jar",
+      "hash": "sha512-bV5nm26OkqiHSAFEPWiMOIL8cno9lX95eU9FFTRWlQCp1U3Ac/CK+/D33P01q9LwL5eURTpgXAlIsPIBfLtKbQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "dEKE4tga": {
+      "filename": "Matrixity's Origins 1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/QKONKonF/versions/dEKE4tga/Matrixity%27s%20Origins%201.1.5.jar",
+      "hash": "sha512-LGLoTagLlXE43nGQDviPar+Ar9jGzZ7VeffP1h5HioYR5f2KbD/Ay7kNelFMmLWdBiV6FYq5i5hFT8MVOkze1A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "appli",
+          "projectId": "r0tBWK04",
+          "type": "required"
+        }
+      ]
+    },
+    "hHvXeaPY": {
+      "filename": "Matrix's Origins 1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/QKONKonF/versions/hHvXeaPY/Matrix%27s%20Origins%201.2.0.jar",
+      "hash": "sha512-h5fRWEyqkIf5tYlgwytR8+Lka8VQ3J8U/fS3f33z5DchgZGpvkUrMGKWBlSDDjNB01dr3kCGDXutySTpS3J6Hw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "eggolib",
+          "projectId": "uFJODQCA",
+          "type": "required"
+        },
+        {
+          "slug": "appli",
+          "projectId": "r0tBWK04",
+          "type": "required"
+        }
+      ]
+    },
+    "m3kMSuKh": {
+      "filename": "matrixitys-origins-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/QKONKonF/versions/m3kMSuKh/matrixitys-origins-1.2.0.jar",
+      "hash": "sha512-eLrdJs9dz8x6pfSmCzBcAnAKNLUsEtRlPM9jQ2mEfkSccjvZl+KFq6cwkMzj1u7UeqxdSsYFX8KlNt05N2SMEA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "appli",
+          "projectId": "r0tBWK04",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "hHvXeaPY",
+      "dEKE4tga",
+      "bZJowIgP",
+      "QyOqbRoF"
+    ],
+    "1.20+forge": [
+      "hHvXeaPY"
+    ],
+    "1.20.1+fabric": [
+      "hHvXeaPY",
+      "m3kMSuKh",
+      "dEKE4tga",
+      "bZJowIgP",
+      "QyOqbRoF"
+    ],
+    "1.20.1+forge": [
+      "hHvXeaPY",
+      "m3kMSuKh"
+    ],
+    "1.20.1+quilt": [
+      "m3kMSuKh"
+    ]
+  }
+}

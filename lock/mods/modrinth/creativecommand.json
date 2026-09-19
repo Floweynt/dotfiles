@@ -1,0 +1,52 @@
+{
+  "slug": "creativecommand",
+  "projectId": "IwZrnPJh",
+  "versions": {
+    "DJz2cCch": {
+      "filename": "creativecommand-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/IwZrnPJh/versions/DJz2cCch/creativecommand-1.1.0.jar",
+      "hash": "sha512-wAxT7bfSy7H6qvF8qygSLYmPVqZ7H77lkmuqR50kvNxFc3fBvwHQGaLW8J3/CzxC1S0lvU2f/7u52AMKK+F63g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "O3N363bd": {
+      "filename": "creativecommand-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IwZrnPJh/versions/O3N363bd/creativecommand-1.0.0.jar",
+      "hash": "sha512-39ts8YCgOIE5+mhrP6VdW3K6cZOL0VRMcDrQDMJvJj0xeDFVL9ptcW/sAgCNcsrZGz9eD6iZhsdJVmGTWOjRxg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "DJz2cCch",
+      "O3N363bd"
+    ]
+  }
+}

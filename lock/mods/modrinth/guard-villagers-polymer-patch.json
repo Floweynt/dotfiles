@@ -1,0 +1,36 @@
+{
+  "slug": "guard-villagers-polymer-patch",
+  "projectId": "o73tkpZK",
+  "versions": {
+    "XBjXmXqu": {
+      "filename": "guardvillagers-polymer-patch-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/o73tkpZK/versions/XBjXmXqu/guardvillagers-polymer-patch-1.0.0.jar",
+      "hash": "sha512-v2ukDZH98N+JjBzShKayhoRzNwZ0mOGAIJ2YvJnUIGc3strJkcTRl11qJW90uNARyGrYqSaKvGnb/GxyLNeMFg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "guard-villagers-(fabricquilt)",
+          "projectId": "59rkB3YY",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "XBjXmXqu"
+    ]
+  }
+}

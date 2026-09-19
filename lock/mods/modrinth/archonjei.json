@@ -1,0 +1,120 @@
+{
+  "slug": "archonjei",
+  "projectId": "oaN2MnKC",
+  "versions": {
+    "Gu92ccBG": {
+      "filename": "ArchonJEI-20.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/oaN2MnKC/versions/Gu92ccBG/ArchonJEI-20.1.0.jar",
+      "hash": "sha512-vTzLStFDxYoNbUXIYcYsbrTfQy2OffCZ4Q8WQxmzG7PhkUzjniaj+ikzCYfhj/zzr0uOEbnjYkCaAYJlXkZPgg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        },
+        {
+          "slug": "archon",
+          "projectId": "td9zQQBq",
+          "type": "required"
+        }
+      ]
+    },
+    "gjc0KNqb": {
+      "filename": "ArchonJEI-18.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/oaN2MnKC/versions/gjc0KNqb/ArchonJEI-18.2.0.jar",
+      "hash": "sha512-tOPyM3xQWGhPIJ6mEcxuPfhO05GP8QPRg/khnELaDcRziVSOTHOO+HTrjlY7RJQszeC0mK6JDj/aaX6SM/3mag==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "archon",
+          "projectId": "td9zQQBq",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    },
+    "lQ71EMU7": {
+      "filename": "ArchonJEI-19.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/oaN2MnKC/versions/lQ71EMU7/ArchonJEI-19.2.0.jar",
+      "hash": "sha512-mI9fwaXrCfwxMaPfigw1BJ6n+hQI2MaS+3A4LIZ1m+iupDa2MviaWi48f3a9iqocymktfxaVnK7lbtuhYjpTZw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "archon",
+          "projectId": "td9zQQBq",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    },
+    "xFLVRnyG": {
+      "filename": "ArchonJEI-19.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/oaN2MnKC/versions/xFLVRnyG/ArchonJEI-19.3.0.jar",
+      "hash": "sha512-u1Y7v5dUvYgz+PmK8QYxraZotmJqZ/eYLDNMh1drGWtjKskcGK2q4fhr3eZyS0EuKQFF/jTBRGkpwBt0UiRnqQ==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "archon",
+          "projectId": "td9zQQBq",
+          "type": "required"
+        },
+        {
+          "slug": "jei",
+          "projectId": "u6dRKJwZ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "gjc0KNqb"
+    ],
+    "1.19.2+fabric": [
+      "lQ71EMU7"
+    ],
+    "1.19.3+fabric": [
+      "xFLVRnyG"
+    ],
+    "1.20.1+fabric": [
+      "Gu92ccBG"
+    ]
+  }
+}

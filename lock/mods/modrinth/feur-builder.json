@@ -1,0 +1,82 @@
+{
+  "slug": "feur-builder",
+  "projectId": "aYUGK1CP",
+  "versions": {
+    "7XtACRLe": {
+      "filename": "feur_builder_1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/aYUGK1CP/versions/7XtACRLe/feur_builder_1.19.2.jar",
+      "hash": "sha512-PSY5e2I43axxpm2KlDhmDBbrkN9z52t5hkUOqQaDueEmWomXL5O/viZzupZGcy5SPUFz8me+AkcZy3TZl68UXw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "coUdbaey": {
+      "filename": "feur_builder_1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/aYUGK1CP/versions/coUdbaey/feur_builder_1.19.4.jar",
+      "hash": "sha512-9eX6pGGi3+1S0iFOQEDgqspITahLxv8LODkszb7Bcd2dbf78i43xClG2R2d6GHVMii5XXyjhUaG+Az6hhMcRiQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "jpfekjTd": {
+      "filename": "feur_builder-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/aYUGK1CP/versions/jpfekjTd/feur_builder-1.20.1-fabric.jar",
+      "hash": "sha512-CTGFSxULjZpgJ8rz6DfMLlbuQAlEmwrxleRM3v3BzeLT+d8oiHY/SoOUtAEw0Q6HX0o6lQndwJZ4NNH5dbyMow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "quPUWpph": {
+      "filename": "feur_builder_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/aYUGK1CP/versions/quPUWpph/feur_builder_1.20.1.jar",
+      "hash": "sha512-XWIoO0OONCI37sPWmc1GKpwryT/UhZnEF49TSSBySdMgz2Lr/EoSagAgalVEQfYlLn7H7DxCPrd/NYx3Vc0UHQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+forge": [
+      "7XtACRLe"
+    ],
+    "1.19.4+forge": [
+      "coUdbaey"
+    ],
+    "1.20.1+fabric": [
+      "jpfekjTd"
+    ],
+    "1.20.1+forge": [
+      "quPUWpph"
+    ]
+  }
+}

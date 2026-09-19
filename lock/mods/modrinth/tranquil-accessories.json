@@ -1,0 +1,42 @@
+{
+  "slug": "tranquil-accessories",
+  "projectId": "yPSGGdFc",
+  "versions": {
+    "ZF5DWNIP": {
+      "filename": "tranquil_accessories_forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yPSGGdFc/versions/ZF5DWNIP/tranquil_accessories_forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-MNgAeH+tRJ4WGHfnlUq8UunubSM1oAwjhl6pURsGvQH7hLSe1oz9vCzh5B/bjdIxekmkiclv6OwqUILM330LVQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "dhpcVKqV": {
+      "filename": "tranquil_accessories_fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/yPSGGdFc/versions/dhpcVKqV/tranquil_accessories_fabric-1.0.1.jar",
+      "hash": "sha512-GcD7ZHm0uu2jmVU5UIEFdEhZcOt5+6t9guW+q0PZsbAEnc71EIdw2JxtycYamSgBRxIQ11tq50Vc0RLBicZFhg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "dhpcVKqV"
+    ],
+    "1.20.1+forge": [
+      "ZF5DWNIP"
+    ]
+  }
+}

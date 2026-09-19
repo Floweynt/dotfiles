@@ -1,0 +1,31 @@
+{
+  "slug": "jbe",
+  "projectId": "q4TnN0bA",
+  "versions": {
+    "XLc2VUcW": {
+      "filename": "jbe-1.1.3+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/q4TnN0bA/versions/XLc2VUcW/jbe-1.1.3%2B1.20.4.jar",
+      "hash": "sha512-+L7icrPrTAgjqMSqXrqj+85CstzlOD81N/Z5EWKO//68IAuR19cQZqTudXhPqt4LIEXVCOq+bh1LR/PfZeg7dw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "XLc2VUcW"
+    ]
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "biotania",
+  "projectId": "BvTAwKjV",
+  "versions": {
+    "SYNIngVc": {
+      "filename": "biotania-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BvTAwKjV/versions/SYNIngVc/biotania-1.0.1.jar",
+      "hash": "sha512-D84JoRLIhfsaBw3rk7jzUeI8WH5wZj2XLzcZhG0AtWQAqtX2ohXZTS9Gr36Z6q6cR4379dp/5YSIe+veja4ivw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "biolith",
+          "projectId": "iGEl6Crx",
+          "type": "required"
+        },
+        {
+          "slug": "botania",
+          "projectId": "pfjLUfGv",
+          "type": "required"
+        }
+      ]
+    },
+    "TZrlydJj": {
+      "filename": "biotania-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/BvTAwKjV/versions/TZrlydJj/biotania-1.0.1.jar",
+      "hash": "sha512-HpCi/tLTgDQ63ECEdnMDQXeMOpE6zSycA6Mhz3LAs2D7RaLt7r41XedVBQrk1MhlomxPvVfhZqTeJnItQmfy7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "botania",
+          "projectId": "pfjLUfGv",
+          "type": "required"
+        },
+        {
+          "slug": "biolith",
+          "projectId": "iGEl6Crx",
+          "type": "required"
+        }
+      ]
+    },
+    "nrsnPDMs": {
+      "filename": "biotania-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/BvTAwKjV/versions/nrsnPDMs/biotania-1.0.0.jar",
+      "hash": "sha512-jA6dxwDxCBOz2aZSe5PTOz4aiTKCVk7WByKnYGQuJ7ujqEEpn+NdtoCIyPfKKSR2leTuj+rJtzytgD2mLLRKng==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "biolith",
+          "projectId": "iGEl6Crx",
+          "type": "required"
+        },
+        {
+          "slug": "botania",
+          "projectId": "pfjLUfGv",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "TZrlydJj",
+      "nrsnPDMs"
+    ],
+    "1.20.1+forge": [
+      "SYNIngVc"
+    ],
+    "1.20.1+neoforge": [
+      "SYNIngVc"
+    ]
+  }
+}

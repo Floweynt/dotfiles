@@ -1,0 +1,87 @@
+{
+  "slug": "pams-harvestcraft-2-food-extended",
+  "projectId": "bdPeAbPS",
+  "versions": {
+    "8Jv3MDxv": {
+      "filename": "pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bdPeAbPS/versions/8Jv3MDxv/pamhc2foodextended-NEOFORGE-1.21.1-1.0.0.jar",
+      "hash": "sha512-vaSrfc0XKo9s0aqY3nxmO8aAOqKFbfldDCHO2Q5KLGwn6ZdqeICcoHjnSJZ4wBBv2BsH7sesQpYo3ZlFN17ssA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pams-harvestcraft-2-food-core",
+          "projectId": "Z9OywhE4",
+          "type": "required"
+        }
+      ]
+    },
+    "ZHPzQtqH": {
+      "filename": "pamhc2foodextended-1.20.4-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/bdPeAbPS/versions/ZHPzQtqH/pamhc2foodextended-1.20.4-1.0.1.jar",
+      "hash": "sha512-G6wKudJXPv0qr7kuxaz32HjLriNFFg0DMS+Hb89qMohs6yu9F8kpdYdK1FTdz6///ZpLxU6Ni4531MqdMBheKw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "pams-harvestcraft-2-food-core",
+          "projectId": "Z9OywhE4",
+          "type": "required"
+        }
+      ]
+    },
+    "ydM7QMdd": {
+      "filename": "pamhc2foodextended-NeoForge-1.20.4-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/bdPeAbPS/versions/ydM7QMdd/pamhc2foodextended-NeoForge-1.20.4-1.0.2.jar",
+      "hash": "sha512-dd+uRHrslESZK1Nc/B0uajUxle361+RxlruTT5AT+7ULz9Uj1LjJDV7UIO/NOeMaHQ3UI+rDXpNViUfwMpBlUg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+forge": [
+      "ZHPzQtqH"
+    ],
+    "1.20.1+forge": [
+      "ZHPzQtqH"
+    ],
+    "1.20.2+forge": [
+      "ZHPzQtqH"
+    ],
+    "1.20.3+forge": [
+      "ZHPzQtqH"
+    ],
+    "1.20.4+forge": [
+      "ZHPzQtqH"
+    ],
+    "1.20.4+neoforge": [
+      "ydM7QMdd"
+    ],
+    "1.21.1+neoforge": [
+      "8Jv3MDxv"
+    ]
+  }
+}

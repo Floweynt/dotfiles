@@ -1,0 +1,108 @@
+{
+  "slug": "zenith-renewed",
+  "projectId": "GTDFctVr",
+  "versions": {
+    "8szr8axm": {
+      "filename": "zenith_renewed-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GTDFctVr/versions/8szr8axm/zenith_renewed-2.0.1.jar",
+      "hash": "sha512-rbttF8QwZc1WWiBbhhMofto1eW2LhhaqXfUPdmBgbdbSVDrHyxjU2UV/sFOvXI40BU8ZGl9yrPGXSY2z8a8UrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fakerlib",
+          "projectId": "ORX9fPw1",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    },
+    "T6bH9nd3": {
+      "filename": "zenith_renewed-2.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/GTDFctVr/versions/T6bH9nd3/zenith_renewed-2.0.2.jar",
+      "hash": "sha512-jrCgtf8YTqEgtUTlegMKh/2+CwGO0n5yRtorPn9cqeUYvLutyTNQQ1sBM8ZejFV4TZKPL/+hXjPht6X3GVSp/g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fakerlib",
+          "projectId": "ORX9fPw1",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        },
+        {
+          "slug": "zenith-attributes-renewed",
+          "projectId": "Ewlys7Si",
+          "type": "required"
+        }
+      ]
+    },
+    "dbR3ow2i": {
+      "filename": "zenith_renewed-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GTDFctVr/versions/dbR3ow2i/zenith_renewed-2.0.0.jar",
+      "hash": "sha512-UclwHJTCzi4j0EPKMm/hMdAbppA5Iux7Ee7nzubgHZOEhgJxRvEwffqfdqLTspHeDTNCbj0xTsqjkMegmmlK/w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fakerlib",
+          "projectId": "ORX9fPw1",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "T6bH9nd3",
+      "8szr8axm",
+      "dbR3ow2i"
+    ]
+  }
+}

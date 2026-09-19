@@ -1,0 +1,145 @@
+{
+  "slug": "svvideo",
+  "projectId": "AXu6jzkV",
+  "versions": {
+    "3EmnT6ZN": {
+      "filename": "svvideo-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/AXu6jzkV/versions/3EmnT6ZN/svvideo-1.0.3.jar",
+      "hash": "sha512-QT7Duxe+v/C8qzaFeFXxsrdcSBTxTH0lswgseNRy0naGv/ltyid7aErd9mjPneq5CFxAZKX1Lux5XdGgRTs9+A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Gk1VZ4mY": {
+      "filename": "svvideo-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AXu6jzkV/versions/Gk1VZ4mY/svvideo-1.0.0.jar",
+      "hash": "sha512-Eya5V6aG1eo6NRfxbX13PO+7jUHk7pC3okGpYPk/HrAvhUkyKkVzDP46AJm3dCQofHeahQ9tuqI7LzYpjyO1vA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "JVvF4QV7": {
+      "filename": "svvideoforge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/AXu6jzkV/versions/JVvF4QV7/svvideoforge-1.0.1.jar",
+      "hash": "sha512-l2md1RawhM8EX79aZRrEAMNGIQEPzizw9fN6bkqQZr2TOTwkC60uo41I+jxvr6ZyLfryrU4srNadRbPmwPt1Xg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "YZpXi2Db": {
+      "filename": "svvideo-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AXu6jzkV/versions/YZpXi2Db/svvideo-1.0.0.jar",
+      "hash": "sha512-/uln4/pumRvv6W4iPOnVl856170w0cXelodEqZAcFDqVS7V4ADae5BBKd0qvjtFJi0ouBGSS/D8MX6FUU7PK1g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia-binaries",
+          "projectId": "4997XcoK",
+          "type": "required"
+        }
+      ]
+    },
+    "mvWBNk63": {
+      "filename": "svvideo-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/AXu6jzkV/versions/mvWBNk63/svvideo-1.0.3.jar",
+      "hash": "sha512-hsb4+ZSZeaoLnWh4XYyiwTyo44MfIbh+/hsq4QmdA6GezIfjYHyhehIMVPq0NwZ1/2dJCxn1ncA0lAQCxDq1XQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "watermedia-yt-plugin",
+          "projectId": "P0w3IrnX",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia-binaries",
+          "projectId": "4997XcoK",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        }
+      ]
+    },
+    "tcyVMeCV": {
+      "filename": "svvideo-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/AXu6jzkV/versions/tcyVMeCV/svvideo-1.0.2.jar",
+      "hash": "sha512-L9FnMK+FsV4qinFnquYEKfTU5XG4IufarUVF7pirXnzWBWFVK5UEWWkcaRMX84jHHJ+czPUet5rerM8aybKgWQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "watermedia",
+          "projectId": "G922NeHS",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia-binaries",
+          "projectId": "4997XcoK",
+          "type": "required"
+        },
+        {
+          "slug": "watermedia-yt-plugin",
+          "projectId": "P0w3IrnX",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "JVvF4QV7"
+    ],
+    "1.21.1+fabric": [
+      "mvWBNk63",
+      "3EmnT6ZN",
+      "tcyVMeCV",
+      "Gk1VZ4mY",
+      "YZpXi2Db"
+    ]
+  }
+}

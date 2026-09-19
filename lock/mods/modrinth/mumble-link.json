@@ -1,0 +1,85 @@
+{
+  "slug": "mumble-link",
+  "projectId": "3QyVJtCB",
+  "versions": {
+    "AvNl6rHd": {
+      "filename": "fabric-mumblelink-mod-0.10.4.jar",
+      "url": "https://cdn.modrinth.com/data/3QyVJtCB/versions/AvNl6rHd/fabric-mumblelink-mod-0.10.4.jar",
+      "hash": "sha512-PQq5+2ddmhfXx2EwUywqmlxSV4kiGI2jM9VL8IB4B/n33ZgiYu+xBE3zNRmAsBLE/IfxtsrInWj89ipO3zjjZw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gzyK0ulf": {
+      "filename": "fabric-mumblelink-mod-0.10.0.jar",
+      "url": "https://cdn.modrinth.com/data/3QyVJtCB/versions/gzyK0ulf/fabric-mumblelink-mod-0.10.0.jar",
+      "hash": "sha512-7Z3s2EBwdMUauvFqNSGwHU14miHHSQ/MylU8eotY/NRQgCAbNpGO+3P+HkdTlmvRfsOgZAWQwPlbvV5KtB+XVw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "t44gZjN1": {
+      "filename": "fabric-mumblelink-mod-0.10.2.jar",
+      "url": "https://cdn.modrinth.com/data/3QyVJtCB/versions/t44gZjN1/fabric-mumblelink-mod-0.10.2.jar",
+      "hash": "sha512-eEJzajoh0Ikc6Epxz29lyTbtTcxL8Vjpbom9P4QZKto/Tr6iK0lpt9jvEi7ddcMu0fQxz9HKGuXg9P7Rudm/cg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "gzyK0ulf"
+    ],
+    "1.19+quilt": [
+      "gzyK0ulf"
+    ],
+    "1.19.2+fabric": [
+      "AvNl6rHd",
+      "t44gZjN1"
+    ],
+    "1.19.2+quilt": [
+      "AvNl6rHd",
+      "t44gZjN1"
+    ]
+  }
+}

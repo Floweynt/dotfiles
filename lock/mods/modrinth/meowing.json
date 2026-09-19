@@ -1,0 +1,58 @@
+{
+  "slug": "meowing",
+  "projectId": "RogAzYR5",
+  "versions": {
+    "dIOlSYI8": {
+      "filename": "Meowing-1.0.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/RogAzYR5/versions/dIOlSYI8/Meowing-1.0.0%2B1.19.2.jar",
+      "hash": "sha512-ALkyA5aW1+D8yEUtO3WKS2pJHkq49RSBJqmW5FUDAXOdLbOWfu4jO3xCm1Nn2ZA5Boxs71joE/PVTnUFTxSOTg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mAhpHmzd": {
+      "filename": "Meowing-1.0.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/RogAzYR5/versions/mAhpHmzd/Meowing-1.0.1%2B1.19.2.jar",
+      "hash": "sha512-YWCPRRv/IHkKbS/Mb7Mfg2TNVPOAhK5KkmvhHW8QR1WPnmn1bJ+IRzdHVyeCS6RBk8WsaKXnRXCo22MpmLBUMQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "mAhpHmzd",
+      "dIOlSYI8"
+    ],
+    "1.19.2+quilt": [
+      "mAhpHmzd",
+      "dIOlSYI8"
+    ]
+  }
+}

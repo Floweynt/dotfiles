@@ -1,0 +1,46 @@
+{
+  "slug": "isocraft",
+  "projectId": "LVdphWEu",
+  "versions": {
+    "A5V1UO6A": {
+      "filename": "isocraft-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LVdphWEu/versions/A5V1UO6A/isocraft-0.1.0.jar",
+      "hash": "sha512-2v574D6k5PWdowapbnZeBe5Jn0ITeJ9mtRlQlNR5hPSKjFaCe8Hk+MhhM++BtvN1981kMVTXMF3WvE9Tn51csg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "i44Uzr4s": {
+      "filename": "isocraft-0.1.1+1.21.11-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/LVdphWEu/versions/i44Uzr4s/isocraft-0.1.1%2B1.21.11-fabric.jar",
+      "hash": "sha512-fA0QxTBJHLYFyba9DpaFAJKzwGJNLBqg+m1h1HapSB2+3qJ9OLfAhA9kACvOPTAJj/0VtwcvPJQRVT1heCGwKw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "i44Uzr4s",
+      "A5V1UO6A"
+    ]
+  }
+}

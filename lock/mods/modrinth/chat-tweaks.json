@@ -1,0 +1,144 @@
+{
+  "slug": "chat-tweaks",
+  "projectId": "69pdUAIH",
+  "versions": {
+    "1SRLAM9Y": {
+      "filename": "Chat-Tweaks-2.0.0-alpha.1+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/69pdUAIH/versions/1SRLAM9Y/Chat-Tweaks-2.0.0-alpha.1%2B1.21.4.jar",
+      "hash": "sha512-f/zwXV/csfGnqKCEar68x+vS/9GQ1SX3Vc7xhu4EFjRQyunaldqiWaOOrrKncUH5LQ8Rlhe0ClOkvDLulxyVrg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "WFkCuQvh": {
+      "filename": "Chat-Tweaks-1.0.0+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/69pdUAIH/versions/WFkCuQvh/Chat-Tweaks-1.0.0%2B1.21.3.jar",
+      "hash": "sha512-mQt2lvxYZ6M9yTtxYSZfq5IC5UUTLQAdtSrKDLCOXoEWKQbFng4jTZnd0ZbgYw+vPrWotkLGxY7r9bhd+CBvaw==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "vrOnPA0p": {
+      "filename": "Chat-Tweaks-1.1.0+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/69pdUAIH/versions/vrOnPA0p/Chat-Tweaks-1.1.0%2B1.21.3.jar",
+      "hash": "sha512-jXaGZCp4EknLyjL+dFGf8lWyf0ZMFAvmyF22SF8PQjzV7fbEUyvu0i01NzZqwgPNbf0BPrmE1Ox8MOSR5yFCcg==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "w1fotxj9": {
+      "filename": "Chat-Tweaks-1.2.0+1.21.3.jar",
+      "url": "https://cdn.modrinth.com/data/69pdUAIH/versions/w1fotxj9/Chat-Tweaks-1.2.0%2B1.21.3.jar",
+      "hash": "sha512-mU17e3elc6hIwEdQc6pDlcQKHKYjANM5q7Z4N+iUucXr8JzXfsrwYK8jqcCHSGHrZ+3kch23d4Dtk7EPDHvO+g==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.2+fabric": [
+      "w1fotxj9",
+      "vrOnPA0p",
+      "WFkCuQvh"
+    ],
+    "1.21.3+fabric": [
+      "w1fotxj9",
+      "vrOnPA0p",
+      "WFkCuQvh"
+    ],
+    "1.21.4+fabric": [
+      "1SRLAM9Y"
+    ]
+  }
+}

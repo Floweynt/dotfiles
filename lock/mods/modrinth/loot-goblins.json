@@ -1,0 +1,46 @@
+{
+  "slug": "loot-goblins",
+  "projectId": "C2NPhwqM",
+  "versions": {
+    "x1zXGepA": {
+      "filename": "lootgoblins-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/C2NPhwqM/versions/x1zXGepA/lootgoblins-1.0.8.jar",
+      "hash": "sha512-nRqer1vP1FCUEbUWb7Q6WD/L1luelNZZTzBcb059TVbY8JT8G7JwZEZD71OVc09ZFvy15EFpi5EwfZCiSUmNWg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "skylib",
+          "projectId": "SXYcZO3i",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "x1zXGepA"
+    ]
+  }
+}

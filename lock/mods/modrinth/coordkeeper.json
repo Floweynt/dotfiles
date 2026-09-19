@@ -1,0 +1,122 @@
+{
+  "slug": "coordkeeper",
+  "projectId": "Z0RscO4U",
+  "versions": {
+    "9qVNVvnQ": {
+      "filename": "lop01-coordkeeper-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0RscO4U/versions/9qVNVvnQ/lop01-coordkeeper-1.5.0.jar",
+      "hash": "sha512-Y5wj20UW4XdNPBa/O8rIVDZKwapuRcDB+5jjxVlE1uSvHcuJMviWMem+JmCO4lGyJFJX7oi6BWHzEPsoM0aaNg==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "U2TJPRWj": {
+      "filename": "lop01-coordkeeper-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0RscO4U/versions/U2TJPRWj/lop01-coordkeeper-1.0.0.jar",
+      "hash": "sha512-fLQAr6F+kG+5NfixRqTJwMt4quTwSL8OfHKUMHXS0zxDZuQOxLvM/NJXxl52b7Ju5F1shAQ6UiqHq/YMHfyw+g==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "lm1SNSg8": {
+      "filename": "coordinate-book-1.7.5.jar",
+      "url": "https://cdn.modrinth.com/data/Z0RscO4U/versions/lm1SNSg8/coordinate-book-1.7.5.jar",
+      "hash": "sha512-1jrlEit34lxXUM6hWrm2Ndm6EO5H/cadOpKH9N0fI8RYAIBmlKKczPgVPIyLXAvZ/E94vUbdEKXEFMXFAdC9dA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pruKpMaB": {
+      "filename": "coordkeeper-1.6.0_1-19-4.jar",
+      "url": "https://cdn.modrinth.com/data/Z0RscO4U/versions/pruKpMaB/coordkeeper-1.6.0_1-19-4.jar",
+      "hash": "sha512-gFiDEGl1aQCUwPpT2tP9hUh/doYuRg7aiUy34Gd3nHlmcM7FsA06jZJhUyA1AWXsRRM1rbgsrrOiq52/czFRAQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "s8AEJLoT": {
+      "filename": "lop01-coordkeeper-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0RscO4U/versions/s8AEJLoT/lop01-coordkeeper-1.1.0.jar",
+      "hash": "sha512-O9H2JdX9Ki6wrL+SI+yNVAU0OqD9vB/E58Bfh0T6iQbwfIFE1ha0lZYIOMmMoYZ7STv1Fn1Djx2+oUGL0Veh+w==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "smkM0S4z": {
+      "filename": "coordkeeper-1.7.0_1-19-4.jar",
+      "url": "https://cdn.modrinth.com/data/Z0RscO4U/versions/smkM0S4z/coordkeeper-1.7.0_1-19-4.jar",
+      "hash": "sha512-U9+JNtmjr/1DmAuAkhVzZsESVaO5VKJllUpnyUDdr83hx8WWOs8v8bmiIvVyb8Q6gHr1nQLDc47NtqL/4l4lXQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "9qVNVvnQ",
+      "s8AEJLoT",
+      "U2TJPRWj"
+    ],
+    "1.19.4+fabric": [
+      "smkM0S4z",
+      "pruKpMaB"
+    ],
+    "1.20.4+fabric": [
+      "lm1SNSg8"
+    ]
+  }
+}

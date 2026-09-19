@@ -1,0 +1,77 @@
+{
+  "slug": "amethyst-update",
+  "projectId": "FWQpLO6Z",
+  "versions": {
+    "BNHE2fCo": {
+      "filename": "amethyst_update-1.19.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/FWQpLO6Z/versions/BNHE2fCo/amethyst_update-1.19.4.1.jar",
+      "hash": "sha512-95XQuLGOtxMlVUS8XolxRkhVBNm1vf5B/BgAJY3i5yJWNE7t1HNvzsITnyt+l2TrxO6KyB2yuFmpDOfNCW6XCw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bA1K3NoR": {
+      "filename": "amethyst_update-1.20.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/FWQpLO6Z/versions/bA1K3NoR/amethyst_update-1.20.1.1.jar",
+      "hash": "sha512-8bWw69fHFXuBra9neQ/QxLDfR3M3IPWVwZ9E/QVVjxWFgO7NAYpJdkiBL8kDRSzlLCJW30X0GSSdSU6yDfF+MA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tyQmwyPX": {
+      "filename": "amethyst_update-1.20.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/FWQpLO6Z/versions/tyQmwyPX/amethyst_update-1.20.0.1.jar",
+      "hash": "sha512-WhXIabOyVUy7AQ3g8/yQUtAqqgJULLT74jtnZbvKMauqwsyDmRUUiOFW2qk7LNzTyMqpMgVLEvPik2GyP538Jg==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "BNHE2fCo"
+    ],
+    "1.20+fabric": [
+      "tyQmwyPX"
+    ],
+    "1.20.1+fabric": [
+      "bA1K3NoR"
+    ]
+  }
+}

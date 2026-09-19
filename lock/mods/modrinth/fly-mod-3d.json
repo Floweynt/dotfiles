@@ -1,0 +1,119 @@
+{
+  "slug": "fly-mod-3d",
+  "projectId": "Whfy5hcL",
+  "versions": {
+    "DLweSUIw": {
+      "filename": "flymod-2.0-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/Whfy5hcL/versions/DLweSUIw/flymod-2.0-1.21.10.jar",
+      "hash": "sha512-y+G0qM0JX2TZ4iC9q20llS5t55mGJddSfnsKDL3Puc+I/4n9sVAjoPPYafOPNv/uY0r7LVUewIXuEy7STBsGWw==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "EoTloBrI": {
+      "filename": "flymod-2.0-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/Whfy5hcL/versions/EoTloBrI/flymod-2.0-1.20.jar",
+      "hash": "sha512-mecY/aBlvSASnjCrOjL/LlRDjA8QCLFmc9ufUM2iw+c8I3DaPF02BC3ZjANZ2igKHDzeWNlbjW8n7M/9bQCqBQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "dK5HGqN5": {
+      "filename": "flymod-2.0-1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/Whfy5hcL/versions/dK5HGqN5/flymod-2.0-1.21.5.jar",
+      "hash": "sha512-HQHP8dQdUYoOp2ULYr9SFyXav5YnnRjbZSXxZEKiIsTl/PGRd2qt6IAReDaP2xE0nbjoqazzt8NMhAZwQHmIMw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "dX13LcMY": {
+      "filename": "flymod-2.0-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/Whfy5hcL/versions/dX13LcMY/flymod-2.0-1.20.6.jar",
+      "hash": "sha512-0dIHg5xIJDObBAHJeqg3ZqlL48W4Td0nQ3v7zIXkNOTU3wXhrcrl5Csx8+QkXAbBl/tzDsLF4hM+D2hFh3F6fg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "EoTloBrI"
+    ],
+    "1.20.1+fabric": [
+      "EoTloBrI"
+    ],
+    "1.20.6+fabric": [
+      "dX13LcMY"
+    ],
+    "1.21.10+fabric": [
+      "DLweSUIw"
+    ],
+    "1.21.5+fabric": [
+      "dK5HGqN5"
+    ]
+  }
+}

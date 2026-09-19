@@ -1,0 +1,50 @@
+{
+  "slug": "anti-chunkbans",
+  "projectId": "wcTsQZ86",
+  "versions": {
+    "PY6umdAK": {
+      "filename": "antichunkban-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wcTsQZ86/versions/PY6umdAK/antichunkban-1.0.0.jar",
+      "hash": "sha512-AxeRvTUh3mViGDJ1EYxKRkGife1hWyvg7fbP2K4s1xy1mQKoRsw+wNPSK0zb+GAXVyTGRX3KqDgQnDL4zZFyyw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nkUumcXt": {
+      "filename": "antichunkban-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wcTsQZ86/versions/nkUumcXt/antichunkban-1.0.0.jar",
+      "hash": "sha512-4fAZiX12g4AaWlzwyD1HH7cOAqt1glltDlpGg4MKdAWhj8muu4R3IDr0syELeU6Z6XOsKX5B4bRBnELPCrRENQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "nkUumcXt"
+    ],
+    "26.1+fabric": [
+      "PY6umdAK"
+    ],
+    "26.1.1+fabric": [
+      "PY6umdAK"
+    ],
+    "26.1.2+fabric": [
+      "PY6umdAK"
+    ]
+  }
+}

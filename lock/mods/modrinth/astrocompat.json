@@ -1,0 +1,100 @@
+{
+  "slug": "astrocompat",
+  "projectId": "ekQnvYYr",
+  "versions": {
+    "FoTE0iLj": {
+      "filename": "astrocompat-1.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/ekQnvYYr/versions/FoTE0iLj/astrocompat-1.2.5.jar",
+      "hash": "sha512-YxxDeES9fZOgp5ZJJ7IzbPR3YvPuuRK5mznlIhp+UTwnumGn3eXHXSr4hIMEy3l8jB2rH5K4qLCzHRXk1uV/og==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        },
+        {
+          "slug": "astrocraft",
+          "projectId": "DCWEXia7",
+          "type": "required"
+        }
+      ]
+    },
+    "TE2t4XmK": {
+      "filename": "astrocompat-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ekQnvYYr/versions/TE2t4XmK/astrocompat-1.1.jar",
+      "hash": "sha512-uRFXRtwrCutEu7CGAAqznvdAsAK0/q43YfTCXObQ9NQtPjNZwPayi7IIUdUDxyXKN8cVscpGhCHp4wMyrsm4Lg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        },
+        {
+          "slug": "astrocraft",
+          "projectId": "DCWEXia7",
+          "type": "required"
+        }
+      ]
+    },
+    "oL4S18yb": {
+      "filename": "astrocompat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ekQnvYYr/versions/oL4S18yb/astrocompat-1.0.jar",
+      "hash": "sha512-BPgojFcfz+C4+m+5HWN0Xt24PHkfPicWAVJdvkm7bWiw8+Fnu99PwHO0WKsPpxr91RqSaa83ZfbSAWArN/JwiA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "ad-astra",
+          "projectId": "3ufwT9JF",
+          "type": "required"
+        },
+        {
+          "slug": "astrocraft",
+          "projectId": "DCWEXia7",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FoTE0iLj",
+      "TE2t4XmK",
+      "oL4S18yb"
+    ],
+    "1.20.2+fabric": [
+      "FoTE0iLj"
+    ],
+    "1.20.3+fabric": [
+      "FoTE0iLj"
+    ],
+    "1.20.4+fabric": [
+      "FoTE0iLj"
+    ]
+  }
+}

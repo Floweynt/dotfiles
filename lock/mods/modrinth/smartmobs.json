@@ -1,0 +1,54 @@
+{
+  "slug": "smartmobs",
+  "projectId": "hvbQANV1",
+  "versions": {
+    "h7uNHOcE": {
+      "filename": "smartmobs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hvbQANV1/versions/h7uNHOcE/smartmobs-1.0.0.jar",
+      "hash": "sha512-jtUtUsjdC9Uf/SoGorYjzjZK/BxOutvc9wJm8h87VIDKvT25Fb5Ncups96n44dwXWb03wJXw4bY/o+tNWtEfZA==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "nCJoUJBW": {
+      "filename": "smartmobs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/hvbQANV1/versions/nCJoUJBW/smartmobs-1.0.0.jar",
+      "hash": "sha512-rFRp0wfXyagUWrRNpzZGTzY2l0E18/z6KcurYSmqn1WuoYUssIxi3s6TqZA+xARX+arNOPWp7p6ooVimwuX8qg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "nCJoUJBW"
+    ],
+    "1.21.5+fabric": [
+      "h7uNHOcE"
+    ]
+  }
+}

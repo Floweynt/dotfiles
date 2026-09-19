@@ -1,0 +1,121 @@
+{
+  "slug": "librarianlib",
+  "projectId": "9uQhkMe5",
+  "versions": {
+    "3y8Z9s1B": {
+      "filename": "librarianlib-5.0.0-alpha.9.jar",
+      "url": "https://cdn.modrinth.com/data/9uQhkMe5/versions/5.0.0-alpha.9/librarianlib-5.0.0-alpha.9.jar",
+      "hash": "sha512-iA0/CS+PhMXUCmwTO6flxRTG29Ugv6wlEPR68dHbm8RLLvXlB0mM8MXspE5wgzCC/e4ZGEuHEtG2kx1U/iItOA==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "6Jgcbioe": {
+      "filename": "librarianlib-5.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9uQhkMe5/versions/6Jgcbioe/librarianlib-5.0.0-fabric.jar",
+      "hash": "sha512-f5OvWJIRJj0eekeNK+7A8nRGiNwzEHreJpoujTYH6ZMiJ+jWwEPCX+ZHZ3fztVamL3P4Wp445x8ADdYdrRVqug==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "EPJt5SAp": {
+      "filename": "librarianlib-5.0.0-alpha.10.jar",
+      "url": "https://cdn.modrinth.com/data/9uQhkMe5/versions/5.0.0-alpha.10/librarianlib-5.0.0-alpha.10.jar",
+      "hash": "sha512-PcaoRJxbCLZaUcf2jTSKxp+E2/3lXbdCHGR1Oo1uZlis7IqUTywyevk7otIPiAzqAT+qIa1oHXzKGb2u3Mm3Mw==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NJ9cDoRW": {
+      "filename": "librarianlib-5.0.0-alpha.7.jar",
+      "url": "https://cdn.modrinth.com//data/9uQhkMe5/versions/5.0.0-alpha.7/librarianlib-5.0.0-alpha.7.jar",
+      "hash": "sha512-Xy05HpYOXRgRgAXDihYD9TDVtYyVs2peItBR8+W7VPUJyQu9X8KMRwIsPHDpG4aDTnjmuOxx8IPZm+efbSNMpg==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QO6UzxHR": {
+      "filename": "librarianlib-5.0.0-alpha.8.jar",
+      "url": "https://cdn.modrinth.com//data/9uQhkMe5/versions/5.0.0-alpha.8/librarianlib-5.0.0-alpha.8.jar",
+      "hash": "sha512-LTXJ4pNZiRAJ8RByEgwrIQtO29DB0HDHM+U6qZqVgCosODKTfeEQ1g2YGKyAtCX+Aqgz57QjuF1Hkvm74uKi6w==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cjdV1zT2": {
+      "filename": "librarianlib-5.0.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/9uQhkMe5/versions/cjdV1zT2/librarianlib-5.0.0-neoforge.jar",
+      "hash": "sha512-n/ZiLLUJuVjCT7o7xspIwAUd10tjFx8iWwdvjJvWZCBP+dn+nRS70oTZKbVaAgjitgL6bnWqFXlDFd8dXmfaGw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17.1+fabric": [
+      "EPJt5SAp",
+      "3y8Z9s1B",
+      "QO6UzxHR",
+      "NJ9cDoRW"
+    ],
+    "1.21.1+fabric": [
+      "6Jgcbioe"
+    ],
+    "1.21.1+neoforge": [
+      "cjdV1zT2"
+    ]
+  }
+}

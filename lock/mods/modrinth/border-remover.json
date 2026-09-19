@@ -1,0 +1,31 @@
+{
+  "slug": "border-remover",
+  "projectId": "C9VyT7ZA",
+  "versions": {
+    "WZfFut04": {
+      "filename": "brr1201-1.0-Debug.jar",
+      "url": "https://cdn.modrinth.com/data/C9VyT7ZA/versions/WZfFut04/brr1201-1.0-Debug.jar",
+      "hash": "sha512-NpkRqWjxEnTb9C037KbIwmGpz6TH2/Inl3TV893rR4o+otOOSeFkKD5JKzqQZpPNVeyyYBneA1HOgPTQCjesGA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "WZfFut04"
+    ]
+  }
+}

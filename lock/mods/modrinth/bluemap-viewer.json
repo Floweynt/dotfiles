@@ -1,0 +1,152 @@
+{
+  "slug": "bluemap-viewer",
+  "projectId": "naz8Kcvp",
+  "versions": {
+    "APrAfZzL": {
+      "filename": "bluemap_viewer-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/naz8Kcvp/versions/APrAfZzL/bluemap_viewer-0.1.jar",
+      "hash": "sha512-uVasDz7qrfTN/TeeFz2glVhzyR/H+Q7honCzeskMHVauRQ4Qyg72xa+8slxlrwAE3bW4f3H99NMsXecBJdJH7A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "mcef",
+          "projectId": "TObQ0HxZ",
+          "type": "required"
+        }
+      ]
+    },
+    "Gc3rX3pN": {
+      "filename": "bluemap_viewer-0.3-hotfix.jar",
+      "url": "https://cdn.modrinth.com/data/naz8Kcvp/versions/Gc3rX3pN/bluemap_viewer-0.3-hotfix.jar",
+      "hash": "sha512-VEBk+w+mP4c3lMAetuwpCgE7xrcE4JCpSVGdqgFPlNGvswwRQpZW/BoLyoFpoDOE8yFtyAWwHu9MjDuIDQO1gA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "mcef",
+          "projectId": "TObQ0HxZ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "HzKjdXmI": {
+      "filename": "bluemap_viewer-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/naz8Kcvp/versions/HzKjdXmI/bluemap_viewer-0.3.jar",
+      "hash": "sha512-7EYM3xg3knyKwTaqDmRS+95TEVMobgpEmUYyg4PXf2Cz8yEaPBQI+uCd4mpWiXztnrxzOA6IY+k5jbPUYqaNDQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "mcef",
+          "projectId": "TObQ0HxZ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "QwsQ5LhI": {
+      "filename": "bluemap_viewer-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/naz8Kcvp/versions/QwsQ5LhI/bluemap_viewer-0.2.jar",
+      "hash": "sha512-ziSCF/HldqBDt86Nq4fPXm9JHJ/7IW+fz/aN0xBnMBLQ7Q2Vc6z115nKiuxoz46HUAxw9OywHRqnbeqA80WnBw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "mcef",
+          "projectId": "TObQ0HxZ",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Gc3rX3pN",
+      "HzKjdXmI",
+      "QwsQ5LhI"
+    ],
+    "1.20.1+forge": [
+      "Gc3rX3pN",
+      "HzKjdXmI"
+    ],
+    "1.20.2+fabric": [
+      "QwsQ5LhI"
+    ],
+    "1.20.3+fabric": [
+      "QwsQ5LhI"
+    ],
+    "1.20.4+fabric": [
+      "QwsQ5LhI"
+    ],
+    "1.20.5+fabric": [
+      "QwsQ5LhI"
+    ],
+    "1.20.6+fabric": [
+      "QwsQ5LhI"
+    ],
+    "1.21.1+neoforge": [
+      "APrAfZzL"
+    ]
+  }
+}

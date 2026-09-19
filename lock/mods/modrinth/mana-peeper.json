@@ -1,0 +1,54 @@
+{
+  "slug": "mana-peeper",
+  "projectId": "qujAl2To",
+  "versions": {
+    "n7ve6zRr": {
+      "filename": "ManaPeeper-1.4+1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/qujAl2To/versions/n7ve6zRr/ManaPeeper-1.4%2B1.20.1-fabric.jar",
+      "hash": "sha512-BDfC4opHZ7tqhY5p0dB6FOtP5wfn9kmdGDjdzTPY0qWD3jUTl0viUY/MBcQmi9FVXQ70LZInm9XuovI601h9EQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "botania",
+          "projectId": "pfjLUfGv",
+          "type": "required"
+        }
+      ]
+    },
+    "qno0zLoX": {
+      "filename": "ManaPeeper-1.4+1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/qujAl2To/versions/qno0zLoX/ManaPeeper-1.4%2B1.20.1-forge.jar",
+      "hash": "sha512-dN/AKzN/OMUJc+VSDkPNM7E/5j1IfS1J/TzEn9pEEfSXTg/nyIJtI4LOdEK0wdQYTyUxL0v938H6udM/FNVkDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "botania",
+          "projectId": "pfjLUfGv",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "n7ve6zRr"
+    ],
+    "1.20.1+forge": [
+      "qno0zLoX"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "more-horse-armor",
+  "projectId": "jCEmfHBM",
+  "versions": {
+    "Ag33k71D": {
+      "filename": "MoreHorseArmour-2.0.0-1.20.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/jCEmfHBM/versions/Ag33k71D/MoreHorseArmour-2.0.0-1.20.1-Fabric.jar",
+      "hash": "sha512-TwHoSpxt9bO2wuUBEKyQXZTclksmyP+30RvqpZhhCxhzyIjM18RK+3RQKo75pxNA88HFQxmpoFbnINtfvCN5Og==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UcUbeEqC": {
+      "filename": "MoreHorseArmour-2.0.0-1.20.1-Forge.jar",
+      "url": "https://cdn.modrinth.com/data/jCEmfHBM/versions/UcUbeEqC/MoreHorseArmour-2.0.0-1.20.1-Forge.jar",
+      "hash": "sha512-Hq5KiXxanP6S8d2/0PPp3uW3uE4CpcRMghOVjnqCZg56FASWinI933zHyvYp7kiku4MUPuWW4FKPrS+tP+up9w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+forge": [
+      "UcUbeEqC"
+    ],
+    "1.20.1+fabric": [
+      "Ag33k71D"
+    ],
+    "1.20.1+forge": [
+      "UcUbeEqC"
+    ]
+  }
+}

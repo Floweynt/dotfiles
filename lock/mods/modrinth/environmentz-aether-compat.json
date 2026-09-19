@@ -1,0 +1,120 @@
+{
+  "slug": "environmentz-aether-compat",
+  "projectId": "a1D6jCkB",
+  "versions": {
+    "1X0bBKCF": {
+      "filename": "EnvironmentZCompat-The-Aether1.21.1.zip",
+      "url": "https://cdn.modrinth.com/data/a1D6jCkB/versions/1X0bBKCF/EnvironmentZCompat-The-Aether1.21.1.zip",
+      "hash": "sha512-pRFf5Pmgmm/R2Nz1z3qYPXgF+TmDkR7gh0E9xH7T3ZBGttsk45LsNG6cflMVWkpeilMyPfuuLYiMqFVrimp0rw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "environmentz",
+          "projectId": "TggYmc6t",
+          "type": "required"
+        },
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        }
+      ]
+    },
+    "agzq9cGd": {
+      "filename": "EnvironmentZCompat-The-Aether.zip",
+      "url": "https://cdn.modrinth.com/data/a1D6jCkB/versions/agzq9cGd/EnvironmentZCompat-The-Aether.zip",
+      "hash": "sha512-QcHFalKseQNc5ZKrGPnXKU6jNidEWDONJTmwKj4/xTmZ3lim5vO2dSXh4zbpBtFqXPaVRXB8IUDdQDRMncUubw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        },
+        {
+          "slug": "environmentz",
+          "projectId": "TggYmc6t",
+          "type": "required"
+        }
+      ]
+    },
+    "bk0ViA2f": {
+      "filename": "environmentz-aether-compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a1D6jCkB/versions/bk0ViA2f/environmentz-aether-compat-1.0.0.jar",
+      "hash": "sha512-qvSBVvW+2+sHZqIyP+qKejQxIDWxkOGMvKoScUSx8+PBCetizj+5wml9iFiconNamA98vFsU5FyYaP4gBCxAZw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        },
+        {
+          "slug": "environmentz",
+          "projectId": "TggYmc6t",
+          "type": "required"
+        }
+      ]
+    },
+    "qllb4vLD": {
+      "filename": "environmentz-aether-compat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a1D6jCkB/versions/qllb4vLD/environmentz-aether-compat-1.0.0.jar",
+      "hash": "sha512-p3tk9u+tO6YG53nrDapyQ2IJwescxRLtwWZTfQnOgqgDbTSDQSJWFkHHOhzCcoc+QFWUatdW57f60nZ8CX4fGQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        },
+        {
+          "slug": "environmentz",
+          "projectId": "TggYmc6t",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "agzq9cGd"
+    ],
+    "1.20.1+fabric": [
+      "bk0ViA2f"
+    ],
+    "1.21.1+datapack": [
+      "1X0bBKCF"
+    ],
+    "1.21.1+fabric": [
+      "qllb4vLD"
+    ]
+  }
+}

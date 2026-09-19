@@ -1,0 +1,84 @@
+{
+  "slug": "manasqueue",
+  "projectId": "Kf4vo5wy",
+  "versions": {
+    "Ht3I3oJ8": {
+      "filename": "manas_queue-fabric-1.0.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kf4vo5wy/versions/Ht3I3oJ8/manas_queue-fabric-1.0.0.0.jar",
+      "hash": "sha512-D0bO8orlw1bZuTdsro2pRvZSVjFX3ruGX+bb6Sa86lEBCNWKP0m0D1JoLtwrr0RFlVwjODOx5RtKNPuPjf0C4Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "manascore",
+          "projectId": "wRRSWpd1",
+          "type": "required"
+        }
+      ]
+    },
+    "bllUdWKS": {
+      "filename": "manas_queue-neoforge-1.0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Kf4vo5wy/versions/bllUdWKS/manas_queue-neoforge-1.0.0.1.jar",
+      "hash": "sha512-CBT8Vo+yW3FTA/kIU7YOCYk39HV4mi+HxQiak86ApXywetxfudgqjcnQvoTw61YNHDOYC2W/Ax51GY6ksWGukg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "manascore",
+          "projectId": "wRRSWpd1",
+          "type": "required"
+        }
+      ]
+    },
+    "bxx9g8SM": {
+      "filename": "manas_queue-neoforge-1.0.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Kf4vo5wy/versions/bxx9g8SM/manas_queue-neoforge-1.0.0.0.jar",
+      "hash": "sha512-wRA3NfiVf2t6d5tCbYspdyTlJXpqCS85T3fc76WxfW6lNqs3G0UspwrotoXW5h4FS6PuJKe5cw1EjK/KhRJ2Nw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sl6nUo0y": {
+      "filename": "manas_queue-fabric-1.0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Kf4vo5wy/versions/sl6nUo0y/manas_queue-fabric-1.0.0.1.jar",
+      "hash": "sha512-Xj7+hg1COxsotkVLMB6eDQ/fpVlTn3w83idla3JN34eRJY8Lj1Qd0b1DzPOHpTSU6pYuLou+68RJqRoOoJN7cA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "sl6nUo0y",
+      "Ht3I3oJ8"
+    ],
+    "1.21.1+neoforge": [
+      "bllUdWKS",
+      "bxx9g8SM"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "roles-among-the-train",
+  "projectId": "Z6NeW2hh",
+  "versions": {
+    "4FcyaJhY": {
+      "filename": "rat-0.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/Z6NeW2hh/versions/4FcyaJhY/rat-0.2.2.jar",
+      "hash": "sha512-Hr/jAKyYaDiXCx4xCUuK1/vL2PCvVTcf0cmuJ7Fo5mRAVLsY+EwOM6+tF5NjbwmQDQlGOd6fpjtyMSmhB3bhHg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "harpymodloader",
+          "projectId": "JRhdijgD",
+          "type": "required"
+        },
+        {
+          "slug": "wathe",
+          "projectId": "XoU7Lf7D",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "x1tBBroz": {
+      "filename": "rat-0.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/Z6NeW2hh/versions/x1tBBroz/rat-0.1.6.jar",
+      "hash": "sha512-+DKru8SI5k5ERT5OoePSbpfQa1OGQAxCXF9iQ/VH+bzU+nKWD3Uelm2j1w8XR3fQOooFAtbOTy5UYj7kZYgiHw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "4FcyaJhY",
+      "x1tBBroz"
+    ]
+  }
+}

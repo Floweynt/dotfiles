@@ -1,0 +1,118 @@
+{
+  "slug": "fireflallay",
+  "projectId": "cDayI6Y7",
+  "versions": {
+    "7w1cWGsx": {
+      "filename": "fireflallay-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/cDayI6Y7/versions/1.2.0/fireflallay-1.2.0.jar",
+      "hash": "sha512-0ZTZm7veyN+efz40xhKwwsJIXFTJNkjRbjROAcPOdRw1xpgKKynbj+2OgVDQjZzaCHWBWMwDW3SYuJSwRIJKYQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9Bdq1yPd": {
+      "filename": "fireflallay-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cDayI6Y7/versions/1.0.0/fireflallay-1.0.0.jar",
+      "hash": "sha512-Tch7SNBXhwIlOSD2zMKQEmMpT9Mc7LrRhwqelE9nHWnB5E7+s1WcRHy8cri0sDgkGulMAcOYEOFiQqvPQb0y0A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CEK1tj3z": {
+      "filename": "fireflallay-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cDayI6Y7/versions/1.1.0/fireflallay-1.1.0.jar",
+      "hash": "sha512-LD5NzjzKMAFMWUxrZKPKjMxtWy/BUlMz4MavBO1eJbEUCLWZZE3G3HjTkzaOi+zPPg/UMut3qLV2Mmsi5Mq4Xw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "knex3Ghi": {
+      "filename": "fireflallay-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/cDayI6Y7/versions/knex3Ghi/fireflallay-1.3.0.jar",
+      "hash": "sha512-0Tipoflg8KLvEhaz1EsWxXqYe8Q4PgrmH1HGDukVkeswRQXAVwdbeHL25t0XAT5CUZTjSim1YtncMpm0QNVYzQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "knex3Ghi",
+      "7w1cWGsx",
+      "CEK1tj3z",
+      "9Bdq1yPd"
+    ],
+    "1.19+quilt": [
+      "knex3Ghi",
+      "7w1cWGsx",
+      "CEK1tj3z",
+      "9Bdq1yPd"
+    ],
+    "1.19.1+fabric": [
+      "knex3Ghi"
+    ],
+    "1.19.1+quilt": [
+      "knex3Ghi"
+    ],
+    "1.19.2+fabric": [
+      "knex3Ghi"
+    ],
+    "1.19.2+quilt": [
+      "knex3Ghi"
+    ]
+  }
+}

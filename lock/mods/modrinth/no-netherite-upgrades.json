@@ -1,0 +1,136 @@
+{
+  "slug": "no-netherite-upgrades",
+  "projectId": "jpQ3NtUv",
+  "versions": {
+    "Fb2sRtO7": {
+      "filename": "no-netherite-upgrades-1.1.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/jpQ3NtUv/versions/Fb2sRtO7/no-netherite-upgrades-1.1.1-1.21.1.jar",
+      "hash": "sha512-+yF2QDBObUG2xTz123Iyk59B/nV8/crJCoDYbc8/guR6buPJ8iu02m7nvukOi0BTJXNSJa5BFQRJMYOpwPl3Gw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "wH2LLP6D": {
+      "filename": "no-netherite-upgrades-1.1.0-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/jpQ3NtUv/versions/wH2LLP6D/no-netherite-upgrades-1.1.0-1.20.6.jar",
+      "hash": "sha512-dg8wTq+dmzes9yLMkZyUDXzIg5vjkiBHAIDeZ7ASQPKwpQ2tzdy7lEo0zXoZsTtod1YG66lrkm1smTTKKSI07w==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xXkFw8Fk": {
+      "filename": "nonetheriteupgrades-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/jpQ3NtUv/versions/xXkFw8Fk/nonetheriteupgrades-1.0.0.jar",
+      "hash": "sha512-s4fL8b41oDN8NPL8pVpS9zCxqNuC6yOcjTmC7JTQnsLwL5/3R7lKi/fRmVl6LtQQog+K/+IJbBTglksSFArwRg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "z1PiY3BU": {
+      "filename": "no-netherite-upgrades-1.1.0-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/jpQ3NtUv/versions/z1PiY3BU/no-netherite-upgrades-1.1.0-1.20.4.jar",
+      "hash": "sha512-6Fj8ITYfs2r9Dwljz5t1WKPwcRklu4b8MGOm5GUdwPtJlgzLStRSO9jSkI5DRQ0dgDL6x1acvpC2Y3AdNfaRaw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Fb2sRtO7",
+      "z1PiY3BU"
+    ],
+    "1.20.1+fabric": [
+      "Fb2sRtO7",
+      "z1PiY3BU"
+    ],
+    "1.20.2+fabric": [
+      "Fb2sRtO7",
+      "z1PiY3BU"
+    ],
+    "1.20.3+fabric": [
+      "Fb2sRtO7",
+      "z1PiY3BU"
+    ],
+    "1.20.4+fabric": [
+      "Fb2sRtO7",
+      "z1PiY3BU"
+    ],
+    "1.20.5+fabric": [
+      "Fb2sRtO7",
+      "wH2LLP6D"
+    ],
+    "1.20.5+forge": [
+      "xXkFw8Fk"
+    ],
+    "1.20.6+fabric": [
+      "Fb2sRtO7",
+      "wH2LLP6D"
+    ],
+    "1.20.6+forge": [
+      "xXkFw8Fk"
+    ],
+    "1.21+fabric": [
+      "Fb2sRtO7",
+      "wH2LLP6D"
+    ],
+    "1.21+forge": [
+      "xXkFw8Fk"
+    ],
+    "1.21.1+fabric": [
+      "Fb2sRtO7"
+    ]
+  }
+}

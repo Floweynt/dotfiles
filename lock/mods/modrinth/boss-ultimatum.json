@@ -1,0 +1,110 @@
+{
+  "slug": "boss-ultimatum",
+  "projectId": "8SrFEqh3",
+  "versions": {
+    "5akmyh71": {
+      "filename": "bossultimatum-fabric-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/8SrFEqh3/versions/5akmyh71/bossultimatum-fabric-1.0.0-1.20.1.jar",
+      "hash": "sha512-U59ms/jGXDcp1fC8hF01WHuSdsZ/LzPgK7rMoCeShu1rXv/+D3hm6deV6YXDi0miZsJNKNFN8sWQ6mwZMbkjUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "faux-custom-entity-data",
+          "projectId": "E7ZFR7qk",
+          "type": "required"
+        }
+      ]
+    },
+    "OVsvBPyD": {
+      "filename": "bossultimatum-fabric-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8SrFEqh3/versions/OVsvBPyD/bossultimatum-fabric-1.0.0-1.21.1.jar",
+      "hash": "sha512-kr/SzLBChFukEIQT+GoUE84/vbjtVZCPpudsDPZPxgXrS5i2+J3TihWgsL9uvA9540sX1fqDJh2ca+vzr1cBiQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        },
+        {
+          "slug": "faux-custom-entity-data",
+          "projectId": "E7ZFR7qk",
+          "type": "required"
+        }
+      ]
+    },
+    "b3avy0pK": {
+      "filename": "bossultimatum-neoforge-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8SrFEqh3/versions/b3avy0pK/bossultimatum-neoforge-1.0.0-1.21.1.jar",
+      "hash": "sha512-KeyCvOWTDrxF4hkUNEhiuoyLQEjyuit3RF2W1LS7TXKpYZhpfPv0yvEoG3TJ5w2JBAzDRs3J65RiukzV5KJ4Zw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    },
+    "nGFYE1ok": {
+      "filename": "bossultimatum-forge-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/8SrFEqh3/versions/nGFYE1ok/bossultimatum-forge-1.0.0-1.20.1.jar",
+      "hash": "sha512-P+m3wqKnOKxH+eIRhkaU7linJXGmGNTJhtuevk6JdXBaSe94TyAEM0R23Or0Spx2NRDsstjah696QaOMttpXcg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "necronomicon",
+          "projectId": "P1Kv5EAO",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5akmyh71"
+    ],
+    "1.20.1+forge": [
+      "nGFYE1ok"
+    ],
+    "1.21.1+fabric": [
+      "OVsvBPyD"
+    ],
+    "1.21.1+neoforge": [
+      "b3avy0pK"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "slug": "loot-patcher",
+  "projectId": "Qc3Wx1Hk",
+  "versions": {
+    "ColTjvsO": {
+      "filename": "extra-loot-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Qc3Wx1Hk/versions/ColTjvsO/extra-loot-1.0.0.jar",
+      "hash": "sha512-mrnU6atC88MtJZE5ErIlSaWXII6VDPEx85LRHxPTg7tFJCfmScEle6NA2uTdg/HKKbgBaWGqEQMt7zymP3piZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "LUCKaamP": {
+      "filename": "loot-patcher-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Qc3Wx1Hk/versions/LUCKaamP/loot-patcher-1.1.1.jar",
+      "hash": "sha512-gritF+lP57S4SLAaehT7INcDDY3HvTWQv6H57NUsbasCCokaQH0dp5+7KOBmXYR9421I92gh+ex84FWshns4Zg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "OP3W4ovr": {
+      "filename": "loot-patcher-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/Qc3Wx1Hk/versions/OP3W4ovr/loot-patcher-1.2.0.jar",
+      "hash": "sha512-l7vETAmgRpK0VXZ4CBTtnnhJC/qkYrst3gVMeESQdVIzE0NrFCVhHDwQTz+p1vnKMV3Kd2h/+puvUqGAzkldKg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zPz0PEzn": {
+      "filename": "loot-patcher-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Qc3Wx1Hk/versions/zPz0PEzn/loot-patcher-1.1.0.jar",
+      "hash": "sha512-5RbCZS3ziqU8nBgzb8OyoQhr28SxyHRRRbAB6qFT2WW5jYW24zl+JwfXYVC0V9DLBDurR7J/YrR24UK6iVFKRA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "OP3W4ovr",
+      "LUCKaamP",
+      "zPz0PEzn",
+      "ColTjvsO"
+    ]
+  }
+}

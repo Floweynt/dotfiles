@@ -1,0 +1,84 @@
+{
+  "slug": "hideplayers",
+  "projectId": "jurAuF2M",
+  "versions": {
+    "HFWTHNnP": {
+      "filename": "hideplayers-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jurAuF2M/versions/1.0/hideplayers-1.0.jar",
+      "hash": "sha512-6tUr1uIy1CFV0/J/bW68Foz4MmQ0e9zDbvm7YdBnf6Rk1nJFD7cb2fOjBFbKffaKnZ1Fn2bBPIJ9VCaddb2pVw==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Ob7LlYGL": {
+      "filename": "hideplayers-1.19-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/jurAuF2M/versions/1.19-1.3/hideplayers-1.19-1.3.jar",
+      "hash": "sha512-UPvJ2nOZSv6SDfsVDVL0IOghSGT996LyBIYqaFxlHfZ0zELHqzfA7B+5+yfJG73NzSs+qj3cwW2CmVrm7pKTiw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oGvxjx7I": {
+      "filename": "hideplayers-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/jurAuF2M/versions/v1.1/hideplayers-1.1.jar",
+      "hash": "sha512-A275IjxvOHjAAbIKG7l93E+T9JGPcQ9031AjNSXpnP2MhFohN9bv/74oyOTWU8UsID/t2PrOl/LN/FpcsDt+Sg==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "sNI3qKTy": {
+      "filename": "hideplayers-1.18.1-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/jurAuF2M/versions/1.18.1-1.2/hideplayers-1.18.1-1.2.jar",
+      "hash": "sha512-4uTo5fcfylbPEBQMwuM+6nKhfilfOXKl3V+XWsnjnh4O6CcJCd2q6QW0GgssfNAse/fr7QexBsPT50E3IUuCNQ==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17.1+fabric": [
+      "oGvxjx7I",
+      "HFWTHNnP"
+    ],
+    "1.18.1+fabric": [
+      "sNI3qKTy"
+    ],
+    "1.18.2+fabric": [
+      "sNI3qKTy"
+    ],
+    "1.19+fabric": [
+      "Ob7LlYGL"
+    ]
+  }
+}

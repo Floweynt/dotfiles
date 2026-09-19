@@ -1,0 +1,123 @@
+{
+  "slug": "create-diamond-production",
+  "projectId": "jxcqrCWz",
+  "versions": {
+    "Jc20mwEw": {
+      "filename": "create-diamond-production-1.jar",
+      "url": "https://cdn.modrinth.com/data/jxcqrCWz/versions/Jc20mwEw/create-diamond-production-1.jar",
+      "hash": "sha512-D4/5c6iqG1WnQj/7QkMmaQVyEoyJHU+F54/B7N8MFrZrqMFPqhwXAHTwTag54E5qS1NNhgql2hqiflp0lEjq1A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "oTCmkwmD": {
+      "filename": "create-diamond-production-1.jar",
+      "url": "https://cdn.modrinth.com/data/jxcqrCWz/versions/oTCmkwmD/create-diamond-production-1.jar",
+      "hash": "sha512-AYnyFUSaP6Cw2sBokxnhaodCLW29+QOtHN6cyVfituZLEkdIixVB54whhXWdLPPzC4DdVy7x1HNJaUqW/viu0Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "voYDsBA4": {
+      "filename": "diamond.zip",
+      "url": "https://cdn.modrinth.com/data/jxcqrCWz/versions/voYDsBA4/diamond.zip",
+      "hash": "sha512-+a2oRnEyamouL2nQUIGc51xR0NSVePmx55OOL+SzdbdD7TvD3KHoIyp8NNw4rQ66ahOqvnsnNKbQQ8m1C0R40w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "w9Ta2ajJ": {
+      "filename": "create-diamond-production-1.jar",
+      "url": "https://cdn.modrinth.com/data/jxcqrCWz/versions/w9Ta2ajJ/create-diamond-production-1.jar",
+      "hash": "sha512-lmqib+aGXpONnlMvfqUDTc3vnwFUHM7c6H+KzA7+SfFtvcjxUkWAggsN7cW39eQxTiW+YlzoUHhYlXHPKbjebg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "yf0irZoU": {
+      "filename": "Diamond_Production.zip",
+      "url": "https://cdn.modrinth.com/data/jxcqrCWz/versions/yf0irZoU/Diamond_Production.zip",
+      "hash": "sha512-69iaEeLNsW3knJKjM2L/6kfqFGVw1777fFt875KeJtH1kpHnomN7R55AhiRt3JwHMZpfZl7MrYgNABuqO3aQiQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "voYDsBA4"
+    ],
+    "1.20.1+fabric": [
+      "oTCmkwmD"
+    ],
+    "1.20.1+forge": [
+      "w9Ta2ajJ"
+    ],
+    "1.21.1+datapack": [
+      "yf0irZoU"
+    ],
+    "1.21.1+neoforge": [
+      "Jc20mwEw"
+    ]
+  }
+}

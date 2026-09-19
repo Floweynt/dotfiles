@@ -1,0 +1,31 @@
+{
+  "slug": "dynamite",
+  "projectId": "w3Yjic6j",
+  "versions": {
+    "HzXHiavd": {
+      "filename": "dynamite-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/w3Yjic6j/versions/HzXHiavd/dynamite-1.0.0.jar",
+      "hash": "sha512-xzpekC3trEy4k5/qkNFD/quHTrLMGVqNNC9S9QG6/dFoJdHshTKTYyedle9E2UjHnZDd4qVPtGIUT2lOyqskag==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "HzXHiavd"
+    ]
+  }
+}

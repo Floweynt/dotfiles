@@ -1,0 +1,62 @@
+{
+  "slug": "vsails-rope-compat",
+  "projectId": "LtKvNwmL",
+  "versions": {
+    "EKmzoXZa": {
+      "filename": "vs_sails_compat.zip",
+      "url": "https://cdn.modrinth.com/data/LtKvNwmL/versions/EKmzoXZa/vs_sails_compat.zip",
+      "hash": "sha512-SwDV65BrlKHdqrw/lhpmENVZ6EuISR9jPxsGHYSUzrt3gB7GXtcSFPlcUiXiZN+RVaPHX+zA/C9i5bMacB/FqA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "valkyrien-sails",
+          "projectId": "esFadCt9",
+          "type": "required"
+        }
+      ]
+    },
+    "kKq4BkRd": {
+      "filename": "vsails-rope-compat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/LtKvNwmL/versions/kKq4BkRd/vsails-rope-compat-1.0.jar",
+      "hash": "sha512-z1DhqKoLqfZOExxACyKdG06AztZGUrcYUE17TrV8iEv/DCxAcfpMndOgviy1ewlAO9ERcx3ptGFtWd6G8yf4FA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "valkyrien-sails",
+          "projectId": "esFadCt9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "EKmzoXZa"
+    ],
+    "1.20.1+fabric": [
+      "kKq4BkRd"
+    ],
+    "1.20.1+forge": [
+      "kKq4BkRd"
+    ],
+    "1.20.1+neoforge": [
+      "kKq4BkRd"
+    ]
+  }
+}

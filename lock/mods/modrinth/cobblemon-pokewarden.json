@@ -1,0 +1,59 @@
+{
+  "slug": "cobblemon-pokewarden",
+  "projectId": "d0JtL5Nh",
+  "versions": {
+    "Zt2MKZir": {
+      "filename": "cobblewarden_boss-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d0JtL5Nh/versions/Zt2MKZir/cobblewarden_boss-neoforge-1.0.0.jar",
+      "hash": "sha512-m9iy6LSCd3dBxZbtWdiZby5ubBLCQGrt0kLtKxG8JbXKh2BX6VrHiQVY4XKMKuFltWg3HAJaJk7mEFFasPc4mA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "ZyeX2g9o": {
+      "filename": "cobblewarden_boss-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d0JtL5Nh/versions/ZyeX2g9o/cobblewarden_boss-fabric-1.0.0.jar",
+      "hash": "sha512-U514+bXj65+UaiOhXPJZCxuGf3p5waCyPWYSW1BZeeqMhihmwyJxtDY9nC5pK1yV+q19Heb5PsBAnEmIa4J1SQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-fight-or-flight-reborn",
+          "projectId": "cTdIg5HZ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "ZyeX2g9o"
+    ],
+    "1.21.1+neoforge": [
+      "Zt2MKZir"
+    ]
+  }
+}

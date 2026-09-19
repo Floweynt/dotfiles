@@ -1,0 +1,74 @@
+{
+  "slug": "simplecrown",
+  "projectId": "L3CUI6Ec",
+  "versions": {
+    "EjGKbhfK": {
+      "filename": "SimpleCrown-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L3CUI6Ec/versions/EjGKbhfK/SimpleCrown-1.0.jar",
+      "hash": "sha512-3tb3Mun4FqSo4VIovGSjhirkMS/B8kosIJn8MbAFnzumS3R7spnmHzCXghJ3HOCnvl+z3ZDxwdlMYwaB8EnXPg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "HGn2sEAF": {
+      "filename": "SimpleCrown-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/L3CUI6Ec/versions/HGn2sEAF/SimpleCrown-1.1.jar",
+      "hash": "sha512-f7HWhQ2Eefq/O5DWYW+246IQgmODLAs+ZU07HbK0a1/BRu7F63QWl7hE9congheE7rNgg9t7wRDQ+uaRPS5KXg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "HGn2sEAF",
+      "EjGKbhfK"
+    ],
+    "1.20+quilt": [
+      "EjGKbhfK"
+    ],
+    "1.20.1+fabric": [
+      "HGn2sEAF",
+      "EjGKbhfK"
+    ],
+    "1.20.1+quilt": [
+      "EjGKbhfK"
+    ],
+    "1.20.2+fabric": [
+      "HGn2sEAF",
+      "EjGKbhfK"
+    ],
+    "1.20.2+quilt": [
+      "EjGKbhfK"
+    ]
+  }
+}

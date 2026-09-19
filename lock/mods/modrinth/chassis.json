@@ -1,0 +1,77 @@
+{
+  "slug": "chassis",
+  "projectId": "KzYZSCSR",
+  "versions": {
+    "4IZRPY3s": {
+      "filename": "Chassis-Fabric-1.3.0+01.jar",
+      "url": "https://cdn.modrinth.com/data/KzYZSCSR/versions/4IZRPY3s/Chassis-Fabric-1.3.0%2B01.jar",
+      "hash": "sha512-dmBjdgtuNOVP3MAw5XIFHp35nPF6QI4XfaIO2Nih+e9AoB2jRUDiZe+yR6W7EvlpvKTn2avFHobh34D7+NtJGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "A4xrYuKK": {
+      "filename": "Chassis-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/KzYZSCSR/versions/A4xrYuKK/Chassis-1.2.3.jar",
+      "hash": "sha512-Mv+YVzHijAhin0n+Vv6k2SX2jYGY6d/RyoPB+8xFcFAZDPWRoXTPx5n4SHyiaCzfkGWe8gRqn3rtCg9QifAgTw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FWNF3Ius": {
+      "filename": "Chassis-Fabric-1.3.0+02.jar",
+      "url": "https://cdn.modrinth.com/data/KzYZSCSR/versions/FWNF3Ius/Chassis-Fabric-1.3.0%2B02.jar",
+      "hash": "sha512-CExHvtOwBcPlt7n/dFO0Qj1jcYz/0QDEes6dQSnJv/NDowDa0VJ9FegofGbg6fUH9D4vkc66DUntl3AoagQZTA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "A4xrYuKK"
+    ],
+    "1.20.1+fabric": [
+      "4IZRPY3s"
+    ],
+    "1.20.2+fabric": [
+      "FWNF3Ius"
+    ]
+  }
+}

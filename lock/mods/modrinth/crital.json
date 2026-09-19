@@ -1,0 +1,57 @@
+{
+  "slug": "crital",
+  "projectId": "OWU18ipz",
+  "versions": {
+    "Cr7WuWGz": {
+      "filename": "Crital-1.1.5.jar",
+      "url": "https://cdn.modrinth.com/data/OWU18ipz/versions/Cr7WuWGz/Crital-1.1.5.jar",
+      "hash": "sha512-zJL7LNLCIE4LtnkEf2hj/kW8xUCQmOH/PcX58sFdZYaSCTbj+biIHZtgkbmIFobreiADbcf1eY1VbSRk2W8Gpg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hH7mDW1B": {
+      "filename": "Crital-1.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/OWU18ipz/versions/hH7mDW1B/Crital-1.1.6.jar",
+      "hash": "sha512-lr6LVbPeaMuN5bq5z4gc3RBJ2OKlisfVsNfZTRNMCAbswNgSIEMy0e42Ci/HtmADabCAYKPNSM4z4jRBmDXKBQ==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "hH7mDW1B",
+      "Cr7WuWGz"
+    ],
+    "1.21+quilt": [
+      "hH7mDW1B",
+      "Cr7WuWGz"
+    ]
+  }
+}

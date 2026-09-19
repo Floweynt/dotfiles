@@ -1,0 +1,105 @@
+{
+  "slug": "mdu",
+  "projectId": "pN79HaW4",
+  "versions": {
+    "9muQCcjL": {
+      "filename": "MagicDonutUtils-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pN79HaW4/versions/9muQCcjL/MagicDonutUtils-0.1.0.jar",
+      "hash": "sha512-FX15AZ7Qnjj70eO6PFybKy9oZir5RiUiW1Zc2MW3rSGbrkHtozyxYtFi/w1/nwSVyZnpMynWjgU4dWi4nMLeKg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "KzOkIX2U": {
+      "filename": "MagicDonutUtils-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pN79HaW4/versions/KzOkIX2U/MagicDonutUtils-0.1.0.jar",
+      "hash": "sha512-YTEblLKXzyyfzrftcc42+H61UDqeebcgf4+RFFALZDy7/YJJgJGRF2dciG2dVSdsDDhAxJE1pOqnyVBbvt0ISQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "OwYZtcTs": {
+      "filename": "MagicDonutUtils-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pN79HaW4/versions/OwYZtcTs/MagicDonutUtils-0.1.0.jar",
+      "hash": "sha512-MT2VoOUBH7UnDJN2goHQGO5JwkOj3SaNyH+B0GHcDEwEzNomDZWDRtYSb9SsCHF6M3HEAxCLiDx7bIrCrLnc+g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "f87hHGRx": {
+      "filename": "MagicDonutUtils-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pN79HaW4/versions/f87hHGRx/MagicDonutUtils-0.1.0.jar",
+      "hash": "sha512-MvinLIgmLUUzz663atMpZz+Ho88tBMI1ibBFSgByClLWsnUNGLk4KMJm6ycQe8KeGny2D7UvGL7ilnXI8f/lNw==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "xmYjzPZ1": {
+      "filename": "MagicDonutUtils-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/pN79HaW4/versions/xmYjzPZ1/MagicDonutUtils-0.1.0.jar",
+      "hash": "sha512-6moe3GCmMgj9hce5t96yeI6Hkbv73n5/F0RTvlKzXwrEdp9+BHiesWhIYu5nZVRDmQUAFWZbDEc2+CEheEpK/w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "xmYjzPZ1",
+      "OwYZtcTs",
+      "KzOkIX2U"
+    ],
+    "26.1.2+fabric": [
+      "f87hHGRx"
+    ],
+    "26.2+fabric": [
+      "9muQCcjL"
+    ]
+  }
+}

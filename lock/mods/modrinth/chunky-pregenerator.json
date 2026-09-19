@@ -1,0 +1,62 @@
+{
+  "slug": "chunky-pregenerator",
+  "projectId": "zGcC8G7O",
+  "versions": {
+    "ELOSSq1X": {
+      "filename": "chunkypregen-fabric-1.21.11-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zGcC8G7O/versions/ELOSSq1X/chunkypregen-fabric-1.21.11-1.0.0.jar",
+      "hash": "sha512-SHvqinyc0k6Ferddi9nQZVhUeh2VJNeq/MoniD1tlF5aDnPRBUWr5uOxkwEiaeFD9xUm4vVEW5Bs+KoKy+HZhw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "chunky",
+          "projectId": "fALzjamp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pWelKGB8": {
+      "filename": "chunkypregen-fabric-1.21.11-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/zGcC8G7O/versions/pWelKGB8/chunkypregen-fabric-1.21.11-2.2.0.jar",
+      "hash": "sha512-h+NmY3BC/bEFJKRhBhnRx3Icgs4tv7ANoVXugg0TbT+rDYafWlTtxogxSSl55mhSdamS9h1NWersAHZOU3poHg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "chunky",
+          "projectId": "fALzjamp",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "pWelKGB8",
+      "ELOSSq1X"
+    ]
+  }
+}

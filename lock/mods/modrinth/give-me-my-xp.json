@@ -1,0 +1,82 @@
+{
+  "slug": "give-me-my-xp",
+  "projectId": "gYZSyuwR",
+  "versions": {
+    "IZbcpGFA": {
+      "filename": "give-me-my-xp-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/gYZSyuwR/versions/IZbcpGFA/give-me-my-xp-1.0.jar",
+      "hash": "sha512-we2w9Afy1SIsBU1IMq9ZbSemCYGRKXaQGL/1Qr8syc4AIimCj5IyKuKL6L67CwNfRB34aBcZOdQ4c+ZHkBw8Ig==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "X6SKSXQQ": {
+      "filename": "GiveMeMyXp1.0.zip",
+      "url": "https://cdn.modrinth.com/data/gYZSyuwR/versions/X6SKSXQQ/GiveMeMyXp1.0.zip",
+      "hash": "sha512-MsF/F7nJuoJ7BpmA2SBLOw3dwxFpSkJhiYkubMk8t7vrYVCjGsOoEW0ADcKIDcLs+3p5t4CQH+SfcCl8KnzDbg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "X6SKSXQQ"
+    ],
+    "1.20+fabric": [
+      "IZbcpGFA"
+    ],
+    "1.20+forge": [
+      "IZbcpGFA"
+    ],
+    "1.20+neoforge": [
+      "IZbcpGFA"
+    ],
+    "1.20+quilt": [
+      "IZbcpGFA"
+    ],
+    "1.20.1+datapack": [
+      "X6SKSXQQ"
+    ],
+    "1.20.1+fabric": [
+      "IZbcpGFA"
+    ],
+    "1.20.1+forge": [
+      "IZbcpGFA"
+    ],
+    "1.20.1+neoforge": [
+      "IZbcpGFA"
+    ],
+    "1.20.1+quilt": [
+      "IZbcpGFA"
+    ]
+  }
+}

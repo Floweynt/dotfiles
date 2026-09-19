@@ -1,0 +1,114 @@
+{
+  "slug": "bedrockplayermodel",
+  "projectId": "eF4pGz4U",
+  "versions": {
+    "gJeYHvL3": {
+      "filename": "BedrockPlayerModel-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eF4pGz4U/versions/gJeYHvL3/BedrockPlayerModel-1.0.jar",
+      "hash": "sha512-SVuRISB1dBpRuVRvi/OqFbhvA8gqAEQ3fLNTWSVzcJAkur/nCw17kKgvTxb0P0O1vwuTU8lcFFJgLaPF1eDvKg==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "p4S6EQcr": {
+      "filename": "BedrockPlayerModel-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eF4pGz4U/versions/p4S6EQcr/BedrockPlayerModel-1.0.jar",
+      "hash": "sha512-X9NPw+MflQqKKd2y2l3rfs5wZF+jpXMHCwsBSIPvF/XW9wzh2LkSYmpl7GgoPsfK5sM1H6lmIDL2ZrzVe94f5g==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "pCTyhZDz": {
+      "filename": "BedrockPlayerModel-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eF4pGz4U/versions/pCTyhZDz/BedrockPlayerModel-1.0.jar",
+      "hash": "sha512-rIdGUDmxB12dbkt+EmgwPMIHnQfzyA4uAcz9ggAbAGrL8L4vHmbD2F2QMBjrlWj3hiXgRw5jnxHqUg+v0st0jA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sfZKgNoK": {
+      "filename": "BedrockPlayerModel-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eF4pGz4U/versions/sfZKgNoK/BedrockPlayerModel-1.0.jar",
+      "hash": "sha512-o4ChxcWg6gAPZtTq55rkg1BczLyiGxLM6puit3T1ee0EpSyCvQUpbea8u5htjm2R44sKmWcEZyq+i0ha/OgALA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "pCTyhZDz"
+    ],
+    "1.21.1+fabric": [
+      "pCTyhZDz"
+    ],
+    "1.21.10+fabric": [
+      "sfZKgNoK"
+    ],
+    "1.21.11+fabric": [
+      "sfZKgNoK"
+    ],
+    "1.21.2+fabric": [
+      "p4S6EQcr"
+    ],
+    "1.21.3+fabric": [
+      "p4S6EQcr"
+    ],
+    "1.21.4+fabric": [
+      "p4S6EQcr"
+    ],
+    "1.21.5+fabric": [
+      "p4S6EQcr"
+    ],
+    "1.21.6+fabric": [
+      "gJeYHvL3"
+    ],
+    "1.21.7+fabric": [
+      "gJeYHvL3"
+    ],
+    "1.21.8+fabric": [
+      "gJeYHvL3"
+    ],
+    "1.21.9+fabric": [
+      "sfZKgNoK"
+    ]
+  }
+}

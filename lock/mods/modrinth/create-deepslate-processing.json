@@ -1,0 +1,99 @@
+{
+  "slug": "create-deepslate-processing",
+  "projectId": "eV1eX9u6",
+  "versions": {
+    "3aLbjcHq": {
+      "filename": "create-deepslate-processing-1.0.0+fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/eV1eX9u6/versions/3aLbjcHq/create-deepslate-processing-1.0.0%2Bfabric-1.20.1.jar",
+      "hash": "sha512-Uxxybk/F2Rt5/3DIPfymiLyO17cfXalvO7OfL67BPNqnQqvucEv9egYG+ebC9BH9W9YXNFDJFHGnhysAhO69Qg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "BvUxVx46": {
+      "filename": "create_deepslate_processing-2.0.0+forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/eV1eX9u6/versions/BvUxVx46/create_deepslate_processing-2.0.0%2Bforge-1.20.1.jar",
+      "hash": "sha512-aOe7ll+AUpMGZ6hwXzmB7ScFe4QbKPqkRn4rJLhDwUbx8FLnIn232LSQK3zRZAGLXHJUpzFaza3YKgiI7vWmcg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "EZbnhvrt": {
+      "filename": "create_deepslate_processing-2.0.0+fabric-1.20.1-sources.jar",
+      "url": "https://cdn.modrinth.com/data/eV1eX9u6/versions/EZbnhvrt/create_deepslate_processing-2.0.0%2Bfabric-1.20.1-sources.jar",
+      "hash": "sha512-uI5u6PvC6xSC52NYSyz3NkrPeZu1bxS09vsWHE+8nZpJbIEbFMhj1H9WateKIKLjmwQa3m2p8yuV5bsPdFswaQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RsTFIBzU": {
+      "filename": "create_deepslate_processing-2.0.1+fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/eV1eX9u6/versions/RsTFIBzU/create_deepslate_processing-2.0.1%2Bfabric-1.20.1.jar",
+      "hash": "sha512-TONW2Wga5PJBEguNGq6JPDFBTP7NH6Co+Ks4BMIMC2q16sXu/dRNRlmmSfD1IiWnbalBzqIpufnSTrH/N/5+CA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "gV4duWTb": {
+      "filename": "create_deepslate_processing-2.0.1+forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/eV1eX9u6/versions/gV4duWTb/create_deepslate_processing-2.0.1%2Bforge-1.20.1.jar",
+      "hash": "sha512-xG5B6prmF1XPLuZ7UIgt+omspbvBwD64nQdAPrmMV41aZyAQyvdbBG6pQVWOsCp92sy0Um6vX0bi3TniQFj/QQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "RsTFIBzU",
+      "EZbnhvrt",
+      "3aLbjcHq"
+    ],
+    "1.20.1+forge": [
+      "gV4duWTb",
+      "BvUxVx46"
+    ]
+  }
+}

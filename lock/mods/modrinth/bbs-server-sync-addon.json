@@ -1,0 +1,65 @@
+{
+  "slug": "bbs-server-sync-addon",
+  "projectId": "yWwOsHyX",
+  "versions": {
+    "ACGsVt8c": {
+      "filename": "bbs_server_sync-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yWwOsHyX/versions/ACGsVt8c/bbs_server_sync-1.20.1-1.0.0.jar",
+      "hash": "sha512-vc0yQN33x12gHXIHhqiuxk2Hyo7akB00znovhHZrf/PY3LAKVhplldu5WtUKKKL1WQx2srqezeL99rYaXjUijw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bbs-mod",
+          "projectId": "HNsMvuaQ",
+          "type": "required"
+        }
+      ]
+    },
+    "IvbeVBCJ": {
+      "filename": "bbs_extended_sync-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/yWwOsHyX/versions/IvbeVBCJ/bbs_extended_sync-1.0.0-1.20.1.jar",
+      "hash": "sha512-1QX/unGdO5V3ozyMBlrFYs/InCYoGpezMwRf8MiZp0C9jkm6yr3S6j2cIDbd/wxawiIV92YbDuXzcB99LcV35A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bbs-mod",
+          "projectId": "HNsMvuaQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "IvbeVBCJ",
+      "ACGsVt8c"
+    ],
+    "1.20.1+forge": [
+      "IvbeVBCJ",
+      "ACGsVt8c"
+    ],
+    "1.20.4+fabric": [
+      "IvbeVBCJ"
+    ],
+    "1.20.4+forge": [
+      "IvbeVBCJ"
+    ]
+  }
+}

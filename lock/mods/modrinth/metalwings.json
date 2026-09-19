@@ -1,0 +1,106 @@
+{
+  "slug": "metalwings",
+  "projectId": "L80STraX",
+  "versions": {
+    "EyJAmFWp": {
+      "filename": "metalwings-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/L80STraX/versions/EyJAmFWp/metalwings-1.0.0.jar",
+      "hash": "sha512-DsjT1Dn42Y0FN3KuLZaG3Co4bSNseDmsbI/0NkQ3aWJhf4aaaUckb4Nvmf02UYaXyEKp077QcXLMfnkGlcRW3w==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XtesgUAR": {
+      "filename": "metalwings-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L80STraX/versions/XtesgUAR/metalwings-1.1.0.jar",
+      "hash": "sha512-kk62umAzTTiZI4G7XTvKQ3N3iV6DfdHD9Uxn9ZJVrZMm6+VfXb33fk68zetw10VtuAkeykVKhg9Rgo/r+qhXGQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vvdrGQP8": {
+      "filename": "metalwings-1.1.0+1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/L80STraX/versions/vvdrGQP8/metalwings-1.1.0%2B1.21.4.jar",
+      "hash": "sha512-rQn01pidDPvihOT68L60xWVRg4fF+R4o+1BRhNgmrru3LgApZ/Rl4Wyobr+N4Rpcmzx0kh/gcgiPiIOp6omi4A==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.5+fabric": [
+      "XtesgUAR"
+    ],
+    "1.20.5+quilt": [
+      "XtesgUAR"
+    ],
+    "1.20.6+fabric": [
+      "XtesgUAR"
+    ],
+    "1.20.6+quilt": [
+      "XtesgUAR"
+    ],
+    "1.21+fabric": [
+      "XtesgUAR",
+      "EyJAmFWp"
+    ],
+    "1.21+quilt": [
+      "XtesgUAR",
+      "EyJAmFWp"
+    ],
+    "1.21.1+fabric": [
+      "XtesgUAR"
+    ],
+    "1.21.1+quilt": [
+      "XtesgUAR"
+    ],
+    "1.21.4+fabric": [
+      "vvdrGQP8"
+    ],
+    "1.21.4+quilt": [
+      "vvdrGQP8"
+    ]
+  }
+}

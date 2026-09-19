@@ -1,0 +1,56 @@
+{
+  "slug": "backhome",
+  "projectId": "glUnTxQ4",
+  "versions": {
+    "141LVxbh": {
+      "filename": "backhome-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/glUnTxQ4/versions/141LVxbh/backhome-0.1.0.jar",
+      "hash": "sha512-acWAbAFTW5qAxi7hoa3RUrRXebQIqTuSlMzJyj/10eDN4Rvj8EVu95Ml1qzpmFFOYqESFefHWcpE4n+8RsWs5Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "HLaG9OU6": {
+      "filename": "backhome-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/glUnTxQ4/versions/HLaG9OU6/backhome-0.1.1.jar",
+      "hash": "sha512-FgXWDVnpMvoEjF81sOxLuMV0Fp0swl3kaNHNaUuC6Q/KFer1lMhWp5f0U5XPwrtiezN4TYSS9Sx9VJ2TrwZpHw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "HLaG9OU6"
+    ],
+    "1.20.1+fabric": [
+      "HLaG9OU6",
+      "141LVxbh"
+    ]
+  }
+}

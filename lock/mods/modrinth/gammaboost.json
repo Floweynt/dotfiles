@@ -1,0 +1,127 @@
+{
+  "slug": "gammaboost",
+  "projectId": "7tZEgyix",
+  "versions": {
+    "CykMyWgx": {
+      "filename": "undergroundambientlighting-2.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/2.1.0%2B1.17-fabric/undergroundambientlighting-2.1.0-fabric.jar",
+      "hash": "sha512-NV3JYfKIiz6LGAKE2ghmcy0N0apdsBLSblXolfD8Ok0uTS1cwulLVfGbgGdDp1m+elkYMOzV0Femo/mg03aPGA==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Mjzvtn9D": {
+      "filename": "undergroundambientlighting-2.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/2.0.0%2B1.17-fabric/undergroundambientlighting-2.0.0-fabric.jar",
+      "hash": "sha512-BET1muV4z8aWi5HDjgmuBM1kxlxWcxHnGOjs8Fi0HDztLhFXmHEoeP19yUmEwxPXFmoSLeY8ev/RBhxNeEnLng==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "iBCTaEIR": {
+      "filename": "undergroundambientlighting-2.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/2.1.0%2B1.17-forge/undergroundambientlighting-2.1.0-forge.jar",
+      "hash": "sha512-1bYyFBbJDtNJv1Lx2oO3BB5zVEWTTV/5dzUl7peTYYMaz42R1QCaGYxoblvgw66mkkHSy1zS0oU1AvVKnHZnrA==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "laSwBhuK": {
+      "filename": "undergroundambientlighting-2.0.0+1.18-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/2.0.0%2B1.18_exp-fabric/undergroundambientlighting-2.0.0%2B1.18-fabric.jar",
+      "hash": "sha512-hsHQHZoK4Ps8Ro6duG4SqJOpJUJO+ypv6GjoXlXWypi1Oy4vEW3YBwWzooREwxH2xNp18wNq5vUrdKq9yMmpFQ==",
+      "gameVersions": [
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rSOCzzqU": {
+      "filename": "undergroundambientlighting-1.0.0+21w06a-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/1.0.0%2B21w06a-fabric/undergroundambientlighting-1.0.0%2B21w06a-fabric.jar",
+      "hash": "sha512-DBsPThZvGwfeW7MNQ1z5OHtWk6HeYEigtt1gZH92OmZVQGPuaJ2YNllurl4JuQR5Y164Tyeb9Oa30hWvkXG4eg==",
+      "gameVersions": [
+        "21w06a"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "sRn09feV": {
+      "filename": "gammaboost-fabric-3.0.0-beta.1+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/7tZEgyix/versions/3.0.0-beta.1%2B1.19/gammaboost-fabric-3.0.0-beta.1%2B1.19.jar",
+      "hash": "sha512-/pWa67dOE1Zfsld44P+OZExZI4YNICY9AxShvVGHxZ10rXtPb32I73X/QdDmS49etGO3UDIu+8inhVncoQe3yQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "frame-api",
+          "projectId": "dY183GiL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "CykMyWgx",
+      "Mjzvtn9D"
+    ],
+    "1.17+forge": [
+      "iBCTaEIR"
+    ],
+    "1.17.1+fabric": [
+      "CykMyWgx",
+      "laSwBhuK",
+      "Mjzvtn9D"
+    ],
+    "1.17.1+forge": [
+      "iBCTaEIR"
+    ],
+    "1.19+fabric": [
+      "sRn09feV"
+    ],
+    "21w06a+fabric": [
+      "rSOCzzqU"
+    ]
+  }
+}

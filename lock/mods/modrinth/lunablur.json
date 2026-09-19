@@ -1,0 +1,36 @@
+{
+  "slug": "lunablur",
+  "projectId": "IzKvHB1O",
+  "versions": {
+    "7idt0mxf": {
+      "filename": "lunablur-1.0.0+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/IzKvHB1O/versions/7idt0mxf/lunablur-1.0.0%2Bmc1.21.11.jar",
+      "hash": "sha512-FUdDMds+UnX7SPGKq732bBgjftPAK/+J8Dtn5UgXsDzLES6NrLrBVNP7gnQ3DuTlmZa23faikWobqf78e1OfqA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "7idt0mxf"
+    ]
+  }
+}

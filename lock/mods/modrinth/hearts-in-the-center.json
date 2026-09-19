@@ -1,0 +1,42 @@
+{
+  "slug": "hearts-in-the-center",
+  "projectId": "WKSTUfuN",
+  "versions": {
+    "PGWX6iOl": {
+      "filename": "Hearts-centerfabric-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/WKSTUfuN/versions/PGWX6iOl/Hearts-centerfabric-1.0-SNAPSHOT.jar",
+      "hash": "sha512-eFLQCRsrbBGOq2ZN90zC3e/EQZ88gevG6oiXKxfrKeJiBuVGf0Eb5Q1sD067v8sO/Yx7cPEqCUEtAN1SjlfYtQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yC5lWU82": {
+      "filename": "healtem-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/WKSTUfuN/versions/yC5lWU82/healtem-1.0.jar",
+      "hash": "sha512-nwga7MJY3X2bvbHlmt5ozayxA/+heHu7FMUodz+Ua4vnMKsqguHa/ue9uQO8d/Ne/7I2hcPEq08ZYr8IAmvu7Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "yC5lWU82"
+    ],
+    "1.21.1+fabric": [
+      "PGWX6iOl"
+    ]
+  }
+}

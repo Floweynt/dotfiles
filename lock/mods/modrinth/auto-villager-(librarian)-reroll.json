@@ -1,0 +1,50 @@
+{
+  "slug": "auto-villager-(librarian)-reroll",
+  "projectId": "zfSXPh2b",
+  "versions": {
+    "JQzOHHJP": {
+      "filename": "villager_reroll-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/zfSXPh2b/versions/JQzOHHJP/villager_reroll-1.0.1.jar",
+      "hash": "sha512-lsalCLR0mq34XRzh+tcYAy4ilh76zvPnkdmHoU44RrhHzcntxdplpVKX2VNu/K2kKTDf0JlESWs7ElBuqUii6Q==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "um3AGewg": {
+      "filename": "villager_reroll-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zfSXPh2b/versions/um3AGewg/villager_reroll-1.0.0.jar",
+      "hash": "sha512-kQgFRmQ7V6cxrlD9jopmAnn1t5WNrxkHVNhnmBpx/oWRw0FzlRwSbD+D/vKNuiPPToPP2migUkbCcdHHb3Lztw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "um3AGewg"
+    ],
+    "26.1.1+fabric": [
+      "um3AGewg"
+    ],
+    "26.1.2+fabric": [
+      "um3AGewg"
+    ],
+    "26.2+fabric": [
+      "JQzOHHJP"
+    ]
+  }
+}

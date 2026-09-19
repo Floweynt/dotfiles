@@ -1,0 +1,79 @@
+{
+  "slug": "elemental-creepers-stapi",
+  "projectId": "pspD5n3C",
+  "versions": {
+    "6miYTmSY": {
+      "filename": "elementalcreepers-1.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/pspD5n3C/versions/6miYTmSY/elementalcreepers-1.9.0.jar",
+      "hash": "sha512-FpSoXNNoEWYH+gh1MpnrFQ7tfH4QOW5aUKd1+4mOFs1WGqLBJAtXUlIeGQ3884SLV+JOw8EseYt0VZw9jd+uew==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    },
+    "BNcC4dB1": {
+      "filename": "elementalcreepers-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/pspD5n3C/versions/BNcC4dB1/elementalcreepers-1.7.0.jar",
+      "hash": "sha512-HtHqisjlY6n8D3OUFHj0MMPEg0U+MJ80brfrh6XcwMWJjEXSkV6VLoMy03kmSOJlpwE6H/AGCeslA2K3g3wSOA==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    },
+    "YMdQk2PT": {
+      "filename": "elementalcreepers-1.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/pspD5n3C/versions/YMdQk2PT/elementalcreepers-1.8.0.jar",
+      "hash": "sha512-JwD6oXIHQifDrqfMyjkY+nZHdpIdnjHIqB9nGRQgP0XaXvN6xA3zMlIQGm8LXWSqtp5PuIUP0iW3j8V5v1A+ZQ==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "6miYTmSY",
+      "YMdQk2PT",
+      "BNcC4dB1"
+    ],
+    "b1.7.3+fabric": [
+      "6miYTmSY",
+      "YMdQk2PT"
+    ]
+  }
+}

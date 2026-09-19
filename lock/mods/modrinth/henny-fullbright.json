@@ -1,0 +1,77 @@
+{
+  "slug": "henny-fullbright",
+  "projectId": "V5W5lcXu",
+  "versions": {
+    "14sUTJIX": {
+      "filename": "hennyfullbright-neoforge-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/V5W5lcXu/versions/14sUTJIX/hennyfullbright-neoforge-1.21.1-1.0.jar",
+      "hash": "sha512-Mz0S4OScWOoQCxzBHYSoVu3bvUnsavVSPMWuEc0sRp2GBfBguqt7hKibeVR/+cBPJIx8AeEQylomod6bl1Xgdw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "TMMBx3DI": {
+      "filename": "hennyfullbright-fabric-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/V5W5lcXu/versions/TMMBx3DI/hennyfullbright-fabric-1.21.1-1.0.jar",
+      "hash": "sha512-TKpSzhR7SrmSTypcVyBoydzJXnqRLC0fPeUuqCYGvVTywwJq1nNx2YH4F47Nt0Q8pRrzoIKH+fUHDjlyqhMOuw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "f9MRaHHl": {
+      "filename": "HennyFullbright-forge-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/V5W5lcXu/versions/f9MRaHHl/HennyFullbright-forge-1.21.1-1.0.jar",
+      "hash": "sha512-JwLWThygGEO2KLAMTQW/0CwxTobZaPCuLtFFemHV2VGC7V8jNVZqFLE1IbbzFqUeD14QYUf9L4cFi0g/x16x5w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "TMMBx3DI"
+    ],
+    "1.21+forge": [
+      "f9MRaHHl"
+    ],
+    "1.21+neoforge": [
+      "14sUTJIX"
+    ],
+    "1.21.1+fabric": [
+      "TMMBx3DI"
+    ],
+    "1.21.1+forge": [
+      "f9MRaHHl"
+    ],
+    "1.21.1+neoforge": [
+      "14sUTJIX"
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "teams-hud-plus",
+  "projectId": "Qe30Rl2r",
+  "versions": {
+    "eC8IlglK": {
+      "filename": "TeamsHUDPlus-fabric-1.20.1-1.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/Qe30Rl2r/versions/eC8IlglK/TeamsHUDPlus-fabric-1.20.1-1.6.0.jar",
+      "hash": "sha512-/a0lgZClOj8U/U9V9pcuB02kHZU3kqyra6VNwPgtKtd6yWQUDpxHPR7lOayJaSeYsOQ70vZeHyMjOVhIode9tg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gUXNVDNX": {
+      "filename": "TeamsHUDPlus-forge-1.20.1-1.6.0.jar",
+      "url": "https://cdn.modrinth.com/data/Qe30Rl2r/versions/gUXNVDNX/TeamsHUDPlus-forge-1.20.1-1.6.0.jar",
+      "hash": "sha512-oJ+3DaNAUYWqftI9yvg/4+ojjSOpweCfsPlt7w4D596S2Nf0vcG1jx8DVrvBfsDSxflNyMCJO5cnL2QLJCyEdA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eC8IlglK"
+    ],
+    "1.20.1+forge": [
+      "gUXNVDNX"
+    ]
+  }
+}

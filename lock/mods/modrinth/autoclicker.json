@@ -1,0 +1,88 @@
+{
+  "slug": "autoclicker",
+  "projectId": "SWXQEp21",
+  "versions": {
+    "PAejRASF": {
+      "filename": "AutoClicker-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/SWXQEp21/versions/PAejRASF/AutoClicker-0.0.2.jar",
+      "hash": "sha512-HYJxbDBRoAVK27v9n9PTMu1ppRQiIjdyJJyit0dwAipzDzQwKCb9y7trCWzLwtlMN3gj2kgPJzXPMZghW8ktEw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "improperui",
+          "projectId": "rizRiwPL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Qc9XtN35": {
+      "filename": "AutoClicker-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/SWXQEp21/versions/Qc9XtN35/AutoClicker-0.0.1.jar",
+      "hash": "sha512-yK0VxpnrHFsBpG/48WhowP0SNeFR38sab/5+iK0XYvEbMjSYqR/F9HRsV0SynfGzbaxFUfZgdU7o2c6prLt5vQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "improperui",
+          "projectId": "rizRiwPL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Qc9XtN35"
+    ],
+    "1.20.1+fabric": [
+      "Qc9XtN35"
+    ],
+    "1.20.2+fabric": [
+      "Qc9XtN35"
+    ],
+    "1.20.3+fabric": [
+      "Qc9XtN35"
+    ],
+    "1.20.4+fabric": [
+      "Qc9XtN35"
+    ],
+    "1.20.5+fabric": [
+      "Qc9XtN35"
+    ],
+    "1.20.6+fabric": [
+      "Qc9XtN35"
+    ],
+    "1.21.11+fabric": [
+      "PAejRASF"
+    ]
+  }
+}

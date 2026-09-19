@@ -1,0 +1,76 @@
+{
+  "slug": "walletresourcepacks",
+  "projectId": "HlZBqN2J",
+  "versions": {
+    "NnLyVhUQ": {
+      "filename": "Wallet2.0-Resourse-Pack.zip",
+      "url": "https://cdn.modrinth.com/data/HlZBqN2J/versions/NnLyVhUQ/Wallet2.0-Resourse-Pack.zip",
+      "hash": "sha512-s4ZaF2ernZrHknsBfNMmcy2lUW7UzytCHOQ9BEQBxNRLyz1wF9LKBICncSZGVQ7vwcF7fEe9MsSCf6aMMzDw8w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "WfrDRYVx": {
+      "filename": "wallet-rp.zip",
+      "url": "https://cdn.modrinth.com/data/HlZBqN2J/versions/WfrDRYVx/wallet-rp.zip",
+      "hash": "sha512-KNGQ1+f5J+uvTeQCz4iDSx6IGNn0VB6CfLISL1QPc9pf2XGDB7pxeGO/s+/ZDI6wDayS/UuPCfCGWtKSm7cjxQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "wallet",
+          "projectId": "PhINBcEt",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+minecraft": [
+      "WfrDRYVx"
+    ],
+    "1.20.1+minecraft": [
+      "WfrDRYVx"
+    ],
+    "1.20.2+minecraft": [
+      "WfrDRYVx"
+    ],
+    "1.20.3+minecraft": [
+      "WfrDRYVx"
+    ],
+    "1.20.4+minecraft": [
+      "WfrDRYVx"
+    ],
+    "1.21+minecraft": [
+      "NnLyVhUQ"
+    ],
+    "1.21.1+minecraft": [
+      "NnLyVhUQ"
+    ],
+    "1.21.2+minecraft": [
+      "NnLyVhUQ"
+    ],
+    "1.21.3+minecraft": [
+      "NnLyVhUQ"
+    ]
+  }
+}

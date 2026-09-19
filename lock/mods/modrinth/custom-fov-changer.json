@@ -1,0 +1,48 @@
+{
+  "slug": "custom-fov-changer",
+  "projectId": "NpY0Dr2x",
+  "versions": {
+    "50GRSvk2": {
+      "filename": "custom-fov-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/NpY0Dr2x/versions/50GRSvk2/custom-fov-1.0.1.jar",
+      "hash": "sha512-3s4sAqrePx/Co37b+2q6AFUXtDttzojcXKUYtb2r75LPePX75bz1X7ECiGCh/Dh+5J9FM0OvhBkC8w2sY5oLDg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TkNZMR3j": {
+      "filename": "custom-fov-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/NpY0Dr2x/versions/TkNZMR3j/custom-fov-1.0.2.jar",
+      "hash": "sha512-q9bBpROGrn5OPC1s8QqIgB9Ph1jbwIqot0wxMGll/AndYDsnrJPT0qw9Iu/igfRvxKYLa2/jP2TjqCqwYoG4iA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "50GRSvk2"
+    ],
+    "1.21.4+fabric": [
+      "TkNZMR3j"
+    ]
+  }
+}

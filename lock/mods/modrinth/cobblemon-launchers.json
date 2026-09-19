@@ -1,0 +1,36 @@
+{
+  "slug": "cobblemon-launchers",
+  "projectId": "ha1gSkoo",
+  "versions": {
+    "QeyH9gcc": {
+      "filename": "Cobblemon_Launchers-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ha1gSkoo/versions/QeyH9gcc/Cobblemon_Launchers-1.0.0.jar",
+      "hash": "sha512-LWsDBoTjhLV2JofPx8QLDthzbsRBjJO/Fx5eUBT+KNYeueJtG9YGuXrGh1q2fTV6uEFYGxh0vNDlK4C2Q78Iyg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "QeyH9gcc"
+    ]
+  }
+}

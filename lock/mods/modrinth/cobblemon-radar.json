@@ -1,0 +1,66 @@
+{
+  "slug": "cobblemon-radar",
+  "projectId": "nFfd1Ek4",
+  "versions": {
+    "kvo7zECp": {
+      "filename": "CobblemonRadar-1.0.4+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nFfd1Ek4/versions/kvo7zECp/CobblemonRadar-1.0.4%2B1.21.1.jar",
+      "hash": "sha512-JKVYXy46llz6/1Y7Z/3uHLRR0Peq5Yp0Di4pJH1rm51+yU3Zd2rF25e9k0no/fV7xj+v9i8+Z7110GHAsINQdw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    },
+    "qMAfjfvZ": {
+      "filename": "CobblemonRadar-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nFfd1Ek4/versions/qMAfjfvZ/CobblemonRadar-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-t/RE1vC1KQM1eLTR1YfcpEnWqgRY0mTEhp4bo4MzYKkgFqlpOZzo4OjEoxpPzkSY7reIZ1cRCn9BgIjhHpAOKA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "z7yDoj8N": {
+      "filename": "CobblemonRadar-1.0.3+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nFfd1Ek4/versions/z7yDoj8N/CobblemonRadar-1.0.3%2B1.21.1.jar",
+      "hash": "sha512-pXabaRWp1vexENe/Mu8n+kTe5KWDi8JrQJAgZd1t0Ub6CCptB0eVnToAQmVCYd33dB3NkBRQE6Vrm7c1rkvj9g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "kvo7zECp",
+      "z7yDoj8N",
+      "qMAfjfvZ"
+    ]
+  }
+}

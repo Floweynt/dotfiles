@@ -1,0 +1,50 @@
+{
+  "slug": "hide-name-tags",
+  "projectId": "JHGtLN17",
+  "versions": {
+    "O0ebmqPL": {
+      "filename": "hidenametags-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JHGtLN17/versions/O0ebmqPL/hidenametags-1.0.0.jar",
+      "hash": "sha512-/O2XxY8529F5L+t7xEsqWECc0mkWcdK8IwCuYg3NmieSU2KA75n+UeNumICMOo6Kliy67nFoZawRHsaC2rqibA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "iTCrR8RH": {
+      "filename": "hidenametags-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JHGtLN17/versions/iTCrR8RH/hidenametags-1.0.0.jar",
+      "hash": "sha512-ZNPRTbX2QBTlieNJPQV3QKPYcuubwxZFO+AwNxhHE3k3LPXVACLSVRSLaczEoB6v9rDXftYTDHPFfbHjMndpEQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "iTCrR8RH"
+    ],
+    "1.21+forge": [
+      "O0ebmqPL"
+    ],
+    "1.21.1+fabric": [
+      "iTCrR8RH"
+    ],
+    "1.21.1+forge": [
+      "O0ebmqPL"
+    ]
+  }
+}

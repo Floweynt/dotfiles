@@ -1,0 +1,42 @@
+{
+  "slug": "optis",
+  "projectId": "UIeq6Y0P",
+  "versions": {
+    "Cpq1XV5T": {
+      "filename": "Optis-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UIeq6Y0P/versions/Cpq1XV5T/Optis-2.0.0.jar",
+      "hash": "sha512-0M7rvrYxElUR8J/FNQpUxP0tjC1FnnhC5DBvLBhDgFba2x+H+k0cazSPTCP14a/fq0RRFdthAnL6YprfRmpdUA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "bCtcBM2h": {
+      "filename": "osmium-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UIeq6Y0P/versions/bCtcBM2h/osmium-1.0.0.jar",
+      "hash": "sha512-LuEuOv2jVOv85n7f3afSame9HDZ7Ud11yty1y3ffcrT779pJAu2xOhR5OE5194CGpGFVAFzntYmudczS/Oe+nA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "bCtcBM2h"
+    ],
+    "26.2+fabric": [
+      "Cpq1XV5T"
+    ]
+  }
+}

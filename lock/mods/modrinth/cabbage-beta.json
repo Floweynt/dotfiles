@@ -1,0 +1,89 @@
+{
+  "slug": "cabbage-beta",
+  "projectId": "8RjbGGoC",
+  "versions": {
+    "N4TAd3RA": {
+      "filename": "cabbagebeta-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8RjbGGoC/versions/N4TAd3RA/cabbagebeta-1.1.0.jar",
+      "hash": "sha512-eDPes+/NZUJeAR4caLkuYssKd1J3GIZ8mCs6M8OFS5GTBrfzAMwYzEuBJFuTXiz7YzZQVKOlf1UTuaHdtcG7eg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cKB6Urvj": {
+      "filename": "cabbagebeta-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8RjbGGoC/versions/cKB6Urvj/cabbagebeta-1.1.1.jar",
+      "hash": "sha512-1e52guhYtw6yT1YSskf2Z97I3qgy5DexMq8PYhXNMs3rZNbhFLLXQjzk7oOxmkFoQ8s6bLSlG5s1hiLJVoArhg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pPpskyZi": {
+      "filename": "cabbagebeta-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8RjbGGoC/versions/pPpskyZi/cabbagebeta-1.0.0.jar",
+      "hash": "sha512-eCeQxAYzfpGFvSEZEyyfD1on+X5Mz4fjVyFZvL/EngmkriW6WNyG7rUgF/WRFRsc/IaL1FQm7wWiXuWNCiUFcA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "cKB6Urvj",
+      "N4TAd3RA",
+      "pPpskyZi"
+    ],
+    "1.19.1+fabric": [
+      "cKB6Urvj",
+      "N4TAd3RA",
+      "pPpskyZi"
+    ],
+    "1.19.2+fabric": [
+      "cKB6Urvj",
+      "N4TAd3RA",
+      "pPpskyZi"
+    ]
+  }
+}

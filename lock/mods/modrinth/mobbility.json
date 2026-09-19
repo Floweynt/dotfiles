@@ -1,0 +1,136 @@
+{
+  "slug": "mobbility",
+  "projectId": "Es8xro21",
+  "versions": {
+    "4un1l9nY": {
+      "filename": "mobbility-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Es8xro21/versions/4un1l9nY/mobbility-fabric-1.0.0.jar",
+      "hash": "sha512-dnkRh/nTn0k/RRquYVnDvZYlJIgHSD+6uwiAUQIjw3KvFPVPxOrEM/7LQpfhe75Ol3wLj+j/AD96c7O6ecYXeg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-mob-combat-fix",
+          "projectId": "5kLNgKXJ",
+          "type": "required"
+        },
+        {
+          "slug": "better-mob-combat",
+          "projectId": "KU8N7kPc",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ScNv92LW": {
+      "filename": "mobbility-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Es8xro21/versions/ScNv92LW/mobbility-fabric-1.0.1.jar",
+      "hash": "sha512-AL1r6fRL8FyG8sCVcVy4n3y1OB85u3AjqFDTGg1xpzwNVP9SKdMJS1RnnepdhXbsq8wAXSCix19LyNlj25hqnw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mob-player-animator",
+          "projectId": "zkK9lPaS",
+          "type": "required"
+        },
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "V3l7KDMe": {
+      "filename": "mobbility-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Es8xro21/versions/V3l7KDMe/mobbility-forge-1.0.0.jar",
+      "hash": "sha512-7gx0uQnyAgHWf+8cn+fwTjpaWdsziLSTx1DRdxr71AIYH7IH5k62ZcjHBIGXBUJn9jdjPwMmYYMN9rJINpicUg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "better-mob-combat-fix",
+          "projectId": "5kLNgKXJ",
+          "type": "required"
+        },
+        {
+          "slug": "better-mob-combat",
+          "projectId": "KU8N7kPc",
+          "type": "required"
+        }
+      ]
+    },
+    "YkI93edk": {
+      "filename": "mobbility-forge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Es8xro21/versions/YkI93edk/mobbility-forge-1.0.1.jar",
+      "hash": "sha512-s5kpxJzocT6WnNiMYHv7IyVm1Hpyd8wx8Mw1FhbunlsTzqMvh10dGH9nfCw9KdATbN47vpxXFN54p9fSayk/Ow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "mob-player-animator",
+          "projectId": "zkK9lPaS",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ScNv92LW",
+      "4un1l9nY"
+    ],
+    "1.20.1+forge": [
+      "YkI93edk",
+      "V3l7KDMe"
+    ]
+  }
+}

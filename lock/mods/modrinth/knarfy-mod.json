@@ -1,0 +1,31 @@
+{
+  "slug": "knarfy-mod",
+  "projectId": "8MuXvdWU",
+  "versions": {
+    "AOgbkiFH": {
+      "filename": "knarfy-1.0.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/8MuXvdWU/versions/AOgbkiFH/knarfy-1.0.0-fabric-1.20.1.jar",
+      "hash": "sha512-6E6TJAuT8T6b5ZKw7S4Wyf1oVXnemjDciRqI4lNbnX5JK/7U5i6StqVMYK+XKOSYNOCa+u8nLIZYyYcnA0Yk/A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "AOgbkiFH"
+    ]
+  }
+}

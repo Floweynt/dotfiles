@@ -1,0 +1,54 @@
+{
+  "slug": "betterpiglintrades",
+  "projectId": "s8TYvpGc",
+  "versions": {
+    "Co83ItY0": {
+      "filename": "BetterPiglinBartering.jar",
+      "url": "https://cdn.modrinth.com/data/s8TYvpGc/versions/Co83ItY0/BetterPiglinBartering.jar",
+      "hash": "sha512-qhf4T2dnTfph+rgVFISvtS3s58h5YdgjE8k6W4rv43P1Wh9VI03kjekhswo9Dt9h2oD2Ul0fppIH3DOIi8uUSw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "GxLh7wrM": {
+      "filename": "BetterPiglinBartering.zip",
+      "url": "https://cdn.modrinth.com/data/s8TYvpGc/versions/GxLh7wrM/BetterPiglinBartering.zip",
+      "hash": "sha512-TU7gTCWvfRg3O8g7Oqx87yG9ec6DrDJpqDPYGES1wBxcat+BbDJ9A9YpZT8iMuSo1vC5vGWj70tcY52cTqcfcg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+datapack": [
+      "GxLh7wrM"
+    ],
+    "1.21.11+fabric": [
+      "Co83ItY0"
+    ],
+    "1.21.11+forge": [
+      "Co83ItY0"
+    ],
+    "1.21.11+neoforge": [
+      "Co83ItY0"
+    ],
+    "1.21.11+quilt": [
+      "Co83ItY0"
+    ]
+  }
+}

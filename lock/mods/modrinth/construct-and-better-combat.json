@@ -1,0 +1,54 @@
+{
+  "slug": "construct-and-better-combat",
+  "projectId": "EHyfipTl",
+  "versions": {
+    "zpiqngK6": {
+      "filename": "construct-and-better-combat-1.jar",
+      "url": "https://cdn.modrinth.com/data/EHyfipTl/versions/zpiqngK6/construct-and-better-combat-1.jar",
+      "hash": "sha512-f5wQmgjYjCXpA7iol4H93xjTQmNsK3wVH2+6dvNk1xupXMXjAs2G0xF69qjyQp8JIReFk0HEzWLN73q9jfUA6A==",
+      "gameVersions": [
+        "1.18.2",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        },
+        {
+          "slug": "tinkers-construct",
+          "projectId": "rxIIYO6c",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "zpiqngK6"
+    ],
+    "1.18.2+forge": [
+      "zpiqngK6"
+    ],
+    "1.18.2+quilt": [
+      "zpiqngK6"
+    ],
+    "1.19.2+fabric": [
+      "zpiqngK6"
+    ],
+    "1.19.2+forge": [
+      "zpiqngK6"
+    ],
+    "1.19.2+quilt": [
+      "zpiqngK6"
+    ]
+  }
+}

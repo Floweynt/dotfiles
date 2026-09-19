@@ -1,0 +1,77 @@
+{
+  "slug": "appspec",
+  "projectId": "9qN7Lbex",
+  "versions": {
+    "6Vf0HUfp": {
+      "filename": "appspec-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9qN7Lbex/versions/6Vf0HUfp/appspec-1.0.0.jar",
+      "hash": "sha512-Vp4j48WIwHBQGyOVGT5fR21s4bTVbZukkgYz/fhaJjFyJO+di2A8bPcMD2qssOEA6RdXXtd1mxGiFs97ZzZJ3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "spectrum",
+          "projectId": "3rc31Hgo",
+          "type": "required"
+        },
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        }
+      ]
+    },
+    "bioxtul0": {
+      "filename": "appspec-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/9qN7Lbex/versions/bioxtul0/appspec-1.0.2.jar",
+      "hash": "sha512-xDB8+L/DljNQiLXCkdLA+ZiQFNJ2vl6rDqB5jWrHleW2VEXSFLEjHinj19SkLvNdV0vKPAiwjSBYu0iSYScwJA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vYtoPSXr": {
+      "filename": "appspec-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/9qN7Lbex/versions/vYtoPSXr/appspec-1.0.1.jar",
+      "hash": "sha512-kKk2gEu48PEQrqXxWiX+KUPYhyHLrUQRUg0jAD4P2QFvkQVu4BqZcsaTsTqxm1FqWi34gA1TW2zyAdGpe5QsEw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "spectrum",
+          "projectId": "3rc31Hgo",
+          "type": "required"
+        },
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "bioxtul0",
+      "vYtoPSXr",
+      "6Vf0HUfp"
+    ]
+  }
+}

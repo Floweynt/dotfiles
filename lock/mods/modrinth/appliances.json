@@ -1,0 +1,84 @@
+{
+  "slug": "appliances",
+  "projectId": "p8iT7tbc",
+  "versions": {
+    "1IkalopZ": {
+      "filename": "appliances-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/p8iT7tbc/versions/1IkalopZ/appliances-1.1.0.jar",
+      "hash": "sha512-khnjvNi8ScN0fDcsMNkfmIjVZDppugIGa9sy10keFQxyTB9yTEAwszSYNbkN/OSsKO8mjkNPStgFvpmsY4Hzqg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        }
+      ]
+    },
+    "3SeLoHUd": {
+      "filename": "appliances-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/p8iT7tbc/versions/3SeLoHUd/appliances-1.1.0.jar",
+      "hash": "sha512-khnjvNi8ScN0fDcsMNkfmIjVZDppugIGa9sy10keFQxyTB9yTEAwszSYNbkN/OSsKO8mjkNPStgFvpmsY4Hzqg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "I0c3avC4": {
+      "filename": "appliances-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/p8iT7tbc/versions/I0c3avC4/appliances-1.0.0.jar",
+      "hash": "sha512-wlarvk8DnWYZAG7KTPKTbBKm2kjZCxRzfvautSibA6sMBTU4ZXK/CyPKH3IpaAs077IewC4SjLZlUoPkqTyifg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zO3cOxUE": {
+      "filename": "appliances-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/p8iT7tbc/versions/zO3cOxUE/appliances-1.0.0.jar",
+      "hash": "sha512-wlarvk8DnWYZAG7KTPKTbBKm2kjZCxRzfvautSibA6sMBTU4ZXK/CyPKH3IpaAs077IewC4SjLZlUoPkqTyifg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "3SeLoHUd",
+      "I0c3avC4"
+    ],
+    "1.21.1+neoforge": [
+      "1IkalopZ",
+      "zO3cOxUE"
+    ]
+  }
+}

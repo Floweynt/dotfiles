@@ -1,0 +1,84 @@
+{
+  "slug": "cobblemon-exp.-all",
+  "projectId": "CjhzwixS",
+  "versions": {
+    "Y7kAcsME": {
+      "filename": "cobblemonexpall-neoforge-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/CjhzwixS/versions/Y7kAcsME/cobblemonexpall-neoforge-0.0.2.jar",
+      "hash": "sha512-6T7+YnuSdxNWzJl8zmzno1FhkPb2Y3AuaYOGAn50JdZcYzIqhP+o0oekxqN1P2r9tc765ZwaldMHv+1E9JTW9A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "ljxTnuYX": {
+      "filename": "cobblemonexpall-neoforge-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/CjhzwixS/versions/ljxTnuYX/cobblemonexpall-neoforge-0.0.1.jar",
+      "hash": "sha512-Eeoe1GXyEwYPLS41oP3aJOnBs5AvxqRPNGjpfNxta+NziCdlyeqhiXqwqnHcdnMeSi9gy4SKAIYvejy7YeaD+A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "oWeShpzu": {
+      "filename": "cobblemonexpall-fabric-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/CjhzwixS/versions/oWeShpzu/cobblemonexpall-fabric-0.0.1.jar",
+      "hash": "sha512-SZRbqM2yvqy0JyduEEJZK2zjXBNmKx8Sio0XFUOJYJDmPDG5hdwzIySCXSzFXk/j3QIS3+KhuPcWdap3ZhedVw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rDd91lLw": {
+      "filename": "cobblemonexpall-fabric-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/CjhzwixS/versions/rDd91lLw/cobblemonexpall-fabric-0.0.2.jar",
+      "hash": "sha512-vg0Ri8yHlZaMZAGHCfPwIVo8B4+puuDdA7rrKtYH1gWsYt0AVYS+2mkCczO0GbAXR7hdOqd5Zi6TUSBgYA4rjA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "rDd91lLw",
+      "oWeShpzu"
+    ],
+    "1.21.1+neoforge": [
+      "Y7kAcsME",
+      "ljxTnuYX"
+    ]
+  }
+}

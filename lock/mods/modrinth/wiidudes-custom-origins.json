@@ -1,0 +1,100 @@
+{
+  "slug": "wiidudes-custom-origins",
+  "projectId": "eaqEFY9F",
+  "versions": {
+    "GrZWpVKe": {
+      "filename": "wiicustomorigins-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/eaqEFY9F/versions/2.2.0/wiicustomorigins-2.2.0.jar",
+      "hash": "sha512-wEoQIAPet0GkNBxU6qpkontEwXLwDWaAQr7irdDRFaPS0DvP4UwMXsf6xPUF9Zy7lUP+rcIjN+NciUCMqko8ww==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "MMSB63zG": {
+      "filename": "wiicustomorigins-1.19-5.jar",
+      "url": "https://cdn.modrinth.com/data/eaqEFY9F/versions/MMSB63zG/wiicustomorigins-1.19-5.jar",
+      "hash": "sha512-a/kyD776W3Lz5G51L6Wu3YeUlEPvnGNlxjX/+37s7JLn+misNvwJN7KPcEFXBf6HMPWwenDGVe9KpCB2IhrLoA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "P5MZvSIZ": {
+      "filename": "fox_origin.jar",
+      "url": "https://cdn.modrinth.com/data/eaqEFY9F/versions/1.0.0/fox_origin.jar",
+      "hash": "sha512-FwwtTW7MB9Z/I2cK7N5S+WyKu7kkEhTtjhKdVj4ZpcX+ExhmaHQro3IsxotLW5s/Mjq2RajC0o7Oz9LkHcnwCw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QuCPZjSa": {
+      "filename": "wiicustomorigins-1.16.5-12.jar",
+      "url": "https://cdn.modrinth.com/data/eaqEFY9F/versions/1.0.1/wiicustomorigins-1.16.5-12.jar",
+      "hash": "sha512-VndC2q09NrpJREIGYyRK7ePiK3BXe8bgcZh03GoZivoQpQ32ydzJyRE4YPbemBUbAkWiyuKzSlr0GUjNITD0Lg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "hlRYfpTi": {
+      "filename": "wiicustomorigins-1.16.5-13-dev.jar",
+      "url": "https://cdn.modrinth.com/data/eaqEFY9F/versions/1.0.5/wiicustomorigins-1.16.5-13-dev.jar",
+      "hash": "sha512-u/dGHq/Pu26ifWy2QrhMEwe7ZoyXMcyj4BRfo1MxAzsC3ClOu1TWVmvnhFd4ZPpGP9iCgE/2jMrtSNM6jahzHw==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "hlRYfpTi",
+      "QuCPZjSa",
+      "P5MZvSIZ"
+    ],
+    "1.18.1+fabric": [
+      "GrZWpVKe"
+    ],
+    "1.19.4+fabric": [
+      "MMSB63zG"
+    ]
+  }
+}

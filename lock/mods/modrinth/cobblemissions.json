@@ -1,0 +1,62 @@
+{
+  "slug": "cobblemissions",
+  "projectId": "MuXVwgP2",
+  "versions": {
+    "WLacuhT6": {
+      "filename": "CobbleMissions-1.7.1-1.21.1-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/MuXVwgP2/versions/WLacuhT6/CobbleMissions-1.7.1-1.21.1-fabric-1.0.2.jar",
+      "hash": "sha512-irM/7Cz1vpgsHZ7cTlVLRvT+wLHPZ1knvI2OVEdinqWYB36MILCw3Bhey7gDGeJAni8ixueGGyctgfB4wCemKw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "cobblelibs",
+          "projectId": "kO8gQFVN",
+          "type": "required"
+        },
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        }
+      ]
+    },
+    "rHiIPvt5": {
+      "filename": "CobbleMissions-1.7.0-1.21.1-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/MuXVwgP2/versions/rHiIPvt5/CobbleMissions-1.7.0-1.21.1-fabric-1.0.1.jar",
+      "hash": "sha512-6jOTVCwXguLe0B2s/fU7XhcZTI6xoN9ju5hpXDMV3Q1JhA8gBJGUKFDF01sLpVaO9ZEyA4gRTOCYpyDJ34YdHA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "gooeylibs",
+          "projectId": "KzjvlKEN",
+          "type": "required"
+        },
+        {
+          "slug": "cobblelibs",
+          "projectId": "kO8gQFVN",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "WLacuhT6",
+      "rHiIPvt5"
+    ]
+  }
+}

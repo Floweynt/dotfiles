@@ -1,0 +1,57 @@
+{
+  "slug": "charm-of-return",
+  "projectId": "Vjm3Tn4u",
+  "versions": {
+    "5bNtGoXn": {
+      "filename": "CharmOfReturn-forge-1.20.1-2.0.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/Vjm3Tn4u/versions/5bNtGoXn/CharmOfReturn-forge-1.20.1-2.0.0-all.jar",
+      "hash": "sha512-O317GAbVdrDt5PUftkRpH1JIeu6yPrGVf027/enrHeUogfLUz0W9JpKggn6CnNGi+x9yCirAo6AcXj43OazVfg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "u0JAjpVp": {
+      "filename": "CharmOfReturn-fabric-1.20.1-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vjm3Tn4u/versions/u0JAjpVp/CharmOfReturn-fabric-1.20.1-2.0.0.jar",
+      "hash": "sha512-/GdhI0g4iTDobxt4RWm44+DCrjKDvVKPxLKcruqumDecHScRWLhnqY803Nu14fiX5SKjRj8PJ3f/vf5ggCqq4A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "u0JAjpVp"
+    ],
+    "1.20+forge": [
+      "5bNtGoXn"
+    ],
+    "1.20+quilt": [
+      "u0JAjpVp"
+    ],
+    "1.20.1+fabric": [
+      "u0JAjpVp"
+    ],
+    "1.20.1+forge": [
+      "5bNtGoXn"
+    ],
+    "1.20.1+quilt": [
+      "u0JAjpVp"
+    ]
+  }
+}

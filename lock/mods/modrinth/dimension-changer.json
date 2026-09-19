@@ -1,0 +1,65 @@
+{
+  "slug": "dimension-changer",
+  "projectId": "kxACJcLr",
+  "versions": {
+    "bjC2UgDK": {
+      "filename": "dimension_changer-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/kxACJcLr/versions/bjC2UgDK/dimension_changer-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-8g5AfrXG4K/9vrBK0Qecyv/EDEWEwiR3qI3lxH77JbPZ7fj8DZ4fZgvPPri6WGuuolnuum6JtlSga0QGXR029A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "kk9sxjJm": {
+      "filename": "dimension_changer_fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kxACJcLr/versions/kk9sxjJm/dimension_changer_fabric-1.0.0.jar",
+      "hash": "sha512-sD7/VG6RKd5FLpfEZAyHowIN5D4xvZOGtRStARdW+PquC25FVoknXDEwDCtZTt5FKbdUerhXZnvq1T21HbFINQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "n1YMX7DF": {
+      "filename": "dimension_changer_neoforge-1.0.0-neoforge-1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/kxACJcLr/versions/n1YMX7DF/dimension_changer_neoforge-1.0.0-neoforge-1.20.6.jar",
+      "hash": "sha512-MC9012Vbb7JqIeeuZalu3kJpTqEQClkB+2IyxoB0zC1YldF2FBeSOCBbz6kwy3XJnWinKGX/usTLpy/ePXUo3Q==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kk9sxjJm"
+    ],
+    "1.20.1+forge": [
+      "bjC2UgDK"
+    ],
+    "1.20.6+neoforge": [
+      "n1YMX7DF"
+    ]
+  }
+}

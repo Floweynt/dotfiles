@@ -1,0 +1,31 @@
+{
+  "slug": "carpet-permissions",
+  "projectId": "fwaRTdM1",
+  "versions": {
+    "MJHnaYbj": {
+      "filename": "carpet-permissions-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/fwaRTdM1/versions/MJHnaYbj/carpet-permissions-1.0-SNAPSHOT.jar",
+      "hash": "sha512-SBfFG4ycNLZBoMsiZnQyBuCoGYUGKMSraIUhpRnDE7CiqeqMoXymqnMkuJPMHD0w5rXLr5f6YTKbm0MBcseLlw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "MJHnaYbj"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "repairsmith",
+  "projectId": "IEl3ICKv",
+  "versions": {
+    "XMcuMTZr": {
+      "filename": "repairsmith-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/IEl3ICKv/versions/XMcuMTZr/repairsmith-1.0.0%2B1.21.jar",
+      "hash": "sha512-mU9lVHg2n6NxMdv8lJy9xMJAvwa0hhFQDkiRoTR9S6xpW5QeNMm4pPgCSDT1tSjnRWCdjvlXGczyBiPlb/MIbw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "structure-pool-api",
+          "projectId": "LrYZi08Q",
+          "type": "required"
+        }
+      ]
+    },
+    "aJKl7pKB": {
+      "filename": "repairsmith-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IEl3ICKv/versions/aJKl7pKB/repairsmith-1.0.0.jar",
+      "hash": "sha512-JrxMGvMMh4U9b68yc3fRh8zpFLmLNhguTcRZ+exiwD2TJayQklies4Npyc6qD/XqL/SO+2e0kr+XhIdNKLL+Zg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "structure-pool-api",
+          "projectId": "LrYZi08Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "aJKl7pKB"
+    ],
+    "1.21+fabric": [
+      "XMcuMTZr"
+    ],
+    "1.21.1+fabric": [
+      "XMcuMTZr"
+    ]
+  }
+}

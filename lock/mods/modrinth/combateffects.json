@@ -1,0 +1,39 @@
+{
+  "slug": "combateffects",
+  "projectId": "5v3sTuiP",
+  "versions": {
+    "l2NbY1TU": {
+      "filename": "combateffects-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/5v3sTuiP/versions/l2NbY1TU/combateffects-0.0.1.jar",
+      "hash": "sha512-MDungESW5CZTYPsD7XD01lhm5gbYUzUeooT3LqV1C4zsvlYr1tgPYkhQ/tEqf24dFA/scRPWESQ8ZrHhd5LHgQ==",
+      "gameVersions": [
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.6+fabric": [
+      "l2NbY1TU"
+    ],
+    "1.21.7+fabric": [
+      "l2NbY1TU"
+    ],
+    "1.21.8+fabric": [
+      "l2NbY1TU"
+    ]
+  }
+}

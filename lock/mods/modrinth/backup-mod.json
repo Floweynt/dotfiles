@@ -1,0 +1,79 @@
+{
+  "slug": "backup-mod",
+  "projectId": "wAkbquJa",
+  "versions": {
+    "XvEE2xYR": {
+      "filename": "backupmod-0.1-1-21.8.jar",
+      "url": "https://cdn.modrinth.com/data/wAkbquJa/versions/XvEE2xYR/backupmod-0.1-1-21.8.jar",
+      "hash": "sha512-m57zkVCcXWla+T0F+zkmtZA2WtFdMRb/6nobmbz3Jtd8znjvJ0dcYTUsAJYmTNuXQ9y+ZQ4uho9Bd5D0u6MTuw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "cyhNvyZR": {
+      "filename": "backupmod-0.2.1-1.21.9-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/wAkbquJa/versions/cyhNvyZR/backupmod-0.2.1-1.21.9-1.21.10.jar",
+      "hash": "sha512-9v/9lj8IZcwIKcHUgyJTWdARtxGU/777Z+ug+3OiTqFKI95D/Fi9uieCkNYCE7Cp7uQKu3LrI+s7AysvSYzJLA==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ha9LcR4h": {
+      "filename": "backupmod-0.2-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/wAkbquJa/versions/ha9LcR4h/backupmod-0.2-1.21.8.jar",
+      "hash": "sha512-GEZc+LQQv/kD43H/zmijr8C3m4KFqwy2kGyttSXJvwYnn+SesXiJ4NuAHVhIbwa4V4FG1O3lFwgm2GNfIpWjtg==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "cyhNvyZR"
+    ],
+    "1.21.8+fabric": [
+      "ha9LcR4h",
+      "XvEE2xYR"
+    ],
+    "1.21.9+fabric": [
+      "cyhNvyZR"
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "lava-java",
+  "projectId": "bAG8MlLc",
+  "versions": {
+    "20myz2np": {
+      "filename": "lava-java-0.4.3.jar",
+      "url": "https://cdn.modrinth.com/data/bAG8MlLc/versions/20myz2np/lava-java-0.4.3.jar",
+      "hash": "sha512-w1tuRJ6+nK9WZdHx38iyA5ykrSBfoAikEU2AQrGbwENw6hKXF9GKzfjXzFgUZuS2Z4P7shYKN0VVpAsZp7cI7Q==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "rzd10uia": {
+      "filename": "lava-java-0.4.4.jar",
+      "url": "https://cdn.modrinth.com/data/bAG8MlLc/versions/rzd10uia/lava-java-0.4.4.jar",
+      "hash": "sha512-0jPhlAKmOAs0zne+eXCh7iKoWLJ0UjpPK4c0B0mEItQmjcNFEJIZHAafxJr44Tuc7yShlZjvKEz1gBWqIlAHNQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "st4OKWqJ": {
+      "filename": "lava-java-0.4.2.jar",
+      "url": "https://cdn.modrinth.com/data/bAG8MlLc/versions/st4OKWqJ/lava-java-0.4.2.jar",
+      "hash": "sha512-kEqSJVp9iwRml6BofVShJV1DOvcumh9wNtdY9bODXjbEFtM4L9TeVb1UIahi8iAA4nWZ6Ip1uB+GlM/M9JOFkQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "20myz2np",
+      "st4OKWqJ"
+    ],
+    "1.19.1+fabric": [
+      "20myz2np",
+      "st4OKWqJ"
+    ],
+    "1.19.2+fabric": [
+      "20myz2np",
+      "st4OKWqJ"
+    ],
+    "1.20+fabric": [
+      "rzd10uia"
+    ],
+    "1.20.1+fabric": [
+      "rzd10uia"
+    ],
+    "1.20.2+fabric": [
+      "rzd10uia"
+    ],
+    "1.20.3+fabric": [
+      "rzd10uia"
+    ],
+    "1.20.4+fabric": [
+      "rzd10uia"
+    ]
+  }
+}

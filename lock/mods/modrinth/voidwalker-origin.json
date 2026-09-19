@@ -1,0 +1,156 @@
+{
+  "slug": "voidwalker-origin",
+  "projectId": "FBlsDyry",
+  "versions": {
+    "I530QMs2": {
+      "filename": "Voidwalker Origin (2.0.1).zip",
+      "url": "https://cdn.modrinth.com/data/FBlsDyry/versions/I530QMs2/Voidwalker%20Origin%20%282.0.1%29.zip",
+      "hash": "sha512-0H6O2/4uqwso7SXxbewtxI/XTnN/P3eEzQICVvITLIPnfT+gILNNjUTUWhXfiJ82u8ujy5sbIil8Maz9GXTN4A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "NixcZ39s": {
+      "filename": "voidwalker-origin-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/FBlsDyry/versions/NixcZ39s/voidwalker-origin-2.0.1.jar",
+      "hash": "sha512-2qD8MnlcMyBcQ+0syQHSwfxYsoU+6mAEG8M7K8rSP88Br009x7xw3FIwmRMt6YcjJOLnyy8r8FNJDb6f/QV/jg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "I530QMs2"
+    ],
+    "1.20+fabric": [
+      "NixcZ39s"
+    ],
+    "1.20+forge": [
+      "NixcZ39s"
+    ],
+    "1.20+quilt": [
+      "NixcZ39s"
+    ],
+    "1.20.1+datapack": [
+      "I530QMs2"
+    ],
+    "1.20.1+fabric": [
+      "NixcZ39s"
+    ],
+    "1.20.1+forge": [
+      "NixcZ39s"
+    ],
+    "1.20.1+quilt": [
+      "NixcZ39s"
+    ],
+    "1.20.2+datapack": [
+      "I530QMs2"
+    ],
+    "1.20.2+fabric": [
+      "NixcZ39s"
+    ],
+    "1.20.2+forge": [
+      "NixcZ39s"
+    ],
+    "1.20.2+quilt": [
+      "NixcZ39s"
+    ],
+    "1.20.3+datapack": [
+      "I530QMs2"
+    ],
+    "1.20.3+fabric": [
+      "NixcZ39s"
+    ],
+    "1.20.3+forge": [
+      "NixcZ39s"
+    ],
+    "1.20.3+quilt": [
+      "NixcZ39s"
+    ],
+    "1.20.4+datapack": [
+      "I530QMs2"
+    ],
+    "1.20.4+fabric": [
+      "NixcZ39s"
+    ],
+    "1.20.4+forge": [
+      "NixcZ39s"
+    ],
+    "1.20.4+quilt": [
+      "NixcZ39s"
+    ],
+    "1.20.5+datapack": [
+      "I530QMs2"
+    ],
+    "1.20.5+fabric": [
+      "NixcZ39s"
+    ],
+    "1.20.5+forge": [
+      "NixcZ39s"
+    ],
+    "1.20.5+quilt": [
+      "NixcZ39s"
+    ],
+    "1.20.6+datapack": [
+      "I530QMs2"
+    ],
+    "1.20.6+fabric": [
+      "NixcZ39s"
+    ],
+    "1.20.6+forge": [
+      "NixcZ39s"
+    ],
+    "1.20.6+quilt": [
+      "NixcZ39s"
+    ]
+  }
+}

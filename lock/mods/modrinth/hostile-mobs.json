@@ -1,0 +1,62 @@
+{
+  "slug": "hostile-mobs",
+  "projectId": "ZBHeQoZ5",
+  "versions": {
+    "4ZZOlX6s": {
+      "filename": "hostilemobs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZBHeQoZ5/versions/4ZZOlX6s/hostilemobs-1.0.0.jar",
+      "hash": "sha512-Umae9zgOAw7T8I0PX1WE/MaYy7vAQgxkZ2x+ZtQVXcpzBxvLQ65PiVr3v3q83gFjB1R40Pz9JG0dwDyMekWOYA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "GW2y3GtH": {
+      "filename": "hostilemobs-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZBHeQoZ5/versions/GW2y3GtH/hostilemobs-1.0.1.jar",
+      "hash": "sha512-trq68EKsI1pAku86XV+W2DIr2kqElLaCsB8pZ34rwYwnRnsRDU6xZZmiK4T6izH70LDqUioBEEAjCeLNxKKZKQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "GW2y3GtH",
+      "4ZZOlX6s"
+    ]
+  }
+}

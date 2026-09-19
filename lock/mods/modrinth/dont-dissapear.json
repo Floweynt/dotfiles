@@ -1,0 +1,54 @@
+{
+  "slug": "dont-dissapear",
+  "projectId": "xjPujqzZ",
+  "versions": {
+    "aPp1OcG0": {
+      "filename": "Dont-Disappear-On-Me-1.0.1-mc1.14.4.jar",
+      "url": "https://cdn.modrinth.com/data/xjPujqzZ/versions/aPp1OcG0/Dont-Disappear-On-Me-1.0.1-mc1.14.4.jar",
+      "hash": "sha512-fWJzPx+yUGS3UFYEGEtEp4ZtQbT9KUrAcvBbd4+CxqqpFU6idPMepynt8lJ3nx7Fy8DjUXhH+a9V8f6ZLN+PGA==",
+      "gameVersions": [
+        "1.14.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lMCGktZ4": {
+      "filename": "Dont-Disappear-On-Me-1.1.1-mc1.15.2.jar",
+      "url": "https://cdn.modrinth.com/data/xjPujqzZ/versions/lMCGktZ4/Dont-Disappear-On-Me-1.1.1-mc1.15.2.jar",
+      "hash": "sha512-sYT4xeGrnMOtHz7IHaJe6rLguFvTPZDCMzLliUR0On6IWdX+guNkHCf87fSm7tuEZldVT8URaC90RyPjMKFZbg==",
+      "gameVersions": [
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.14.4+fabric": [
+      "aPp1OcG0"
+    ],
+    "1.15.2+fabric": [
+      "lMCGktZ4"
+    ]
+  }
+}

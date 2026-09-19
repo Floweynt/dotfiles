@@ -1,0 +1,74 @@
+{
+  "slug": "simplified-ai-logic",
+  "projectId": "NwQM8Lpl",
+  "versions": {
+    "Aytz5EJ2": {
+      "filename": "simplified_ai_logic-forge-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/NwQM8Lpl/versions/Aytz5EJ2/simplified_ai_logic-forge-2.0.jar",
+      "hash": "sha512-RWxVd4YN8e3dSeoAGRMt5q2R4AnXpKqy6EGQRr8eBFdsgFqeK4L7ziiWKgMw+dLftfw1GChY1iflWJcbSbATCg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "MJXbxJ3G": {
+      "filename": "simplified_ai_logic-fabric-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/NwQM8Lpl/versions/MJXbxJ3G/simplified_ai_logic-fabric-2.0.jar",
+      "hash": "sha512-0Tn5FlXLL82Kmzp4ZSDoi0ZNfL68Yp6X93gQpEypmpyLhE5ugBtTG9dw5lI9AXspVJy+iqCEgEhmx6sGYkwreA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "m33h827u": {
+      "filename": "SimplifiedAILogic_1.0.jar",
+      "url": "https://cdn.modrinth.com/data/NwQM8Lpl/versions/m33h827u/SimplifiedAILogic_1.0.jar",
+      "hash": "sha512-55/ornsvRWM3MxYPAt+WIqsa9vSlQyszMa6zKgrOszTxyM3du2Cmyj4CNkHu7nhmbj8FTotTJ7oJbwFy4QB0bQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "MJXbxJ3G"
+    ],
+    "1.20.1+forge": [
+      "Aytz5EJ2",
+      "m33h827u"
+    ]
+  }
+}

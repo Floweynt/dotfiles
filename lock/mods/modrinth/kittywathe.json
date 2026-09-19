@@ -1,0 +1,66 @@
+{
+  "slug": "kittywathe",
+  "projectId": "iLf7rjCV",
+  "versions": {
+    "AVOgnXEo": {
+      "filename": "kittyWathe-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/iLf7rjCV/versions/AVOgnXEo/kittyWathe-1.1.1.jar",
+      "hash": "sha512-ycZ2AkMJjdu/EUZ1HXJPVmvFcpksFAM6Ng8Q2V+dvGN/5O82eWz6yy9hBP0IBvh6w6dAhbak+YEGgtMMl95F9g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "HWJapzx1": {
+      "filename": "kittyWathe-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/iLf7rjCV/versions/HWJapzx1/kittyWathe-1.1.0.jar",
+      "hash": "sha512-UJRaIwrKzaA3tspe3z0ifNwgbspDZtF3SeuIRY5mWKJTuOfB1I5z9KC9KCg8Ft12aryDE+nFFgCuJzG0rovjrw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Rizku2to": {
+      "filename": "kittyWathe-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/iLf7rjCV/versions/Rizku2to/kittyWathe-1.0.1.jar",
+      "hash": "sha512-J6NWVljwg7PUjzj9p6kVGz+wHi4EEH3QCRZc1Pju/N1wSguR3q7pEIGbAkF7ptDTF+s90eqSAHI0OjiSxNWa9A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "wathe",
+          "projectId": "XoU7Lf7D",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "AVOgnXEo",
+      "HWJapzx1",
+      "Rizku2to"
+    ]
+  }
+}

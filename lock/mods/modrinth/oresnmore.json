@@ -1,0 +1,35 @@
+{
+  "slug": "oresnmore",
+  "projectId": "zVyGCo5G",
+  "versions": {
+    "8WvZFKan": {
+      "filename": "oresnmore-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/zVyGCo5G/versions/8WvZFKan/oresnmore-0.1-1.20.1.jar",
+      "hash": "sha512-eU02x14DBze5zpIlJsxLO+tbv1YV8aTcQtzel82VLWt09ubq2kiG4MlsLMuay95pwv0CSmiNu//PZAs8Pspqdg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "8WvZFKan"
+    ],
+    "1.20.1+fabric": [
+      "8WvZFKan"
+    ]
+  }
+}

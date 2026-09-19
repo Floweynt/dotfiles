@@ -1,0 +1,140 @@
+{
+  "slug": "lets-do-addon-apple-wood",
+  "projectId": "vIxesWnr",
+  "versions": {
+    "MhIhTGfT": {
+      "filename": "letsdo-addon-applewood-forge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vIxesWnr/versions/MhIhTGfT/letsdo-addon-applewood-forge-1.0.1.jar",
+      "hash": "sha512-OLXaSW1pIMMHFCoF7gwjWBEjb99DfFGz3Trlut1H3wiXyYpLse3XfE1ywQ++ritzkIPzrmzxIJl0XN0nXpSn2g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "lets-do-vinery",
+          "projectId": "1DWmBJVA",
+          "type": "required"
+        },
+        {
+          "slug": "do-api",
+          "projectId": "4XJZeZbM",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "gh3784p8": {
+      "filename": "letsdo-addon-applewood-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/vIxesWnr/versions/gh3784p8/letsdo-addon-applewood-fabric-1.0.1.jar",
+      "hash": "sha512-nc/U378ALju8C+4LMF7rO8o/3DIqGHECCVWsMqP33Lpq5hE7VxKdVJaD/As2yDG8C93im2Qp7pc5M58BIFJ5/g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "do-api",
+          "projectId": "4XJZeZbM",
+          "type": "required"
+        },
+        {
+          "slug": "lets-do-vinery",
+          "projectId": "1DWmBJVA",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "hixelITA": {
+      "filename": "letsdo-addon-applewood-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vIxesWnr/versions/hixelITA/letsdo-addon-applewood-forge-1.0.0.jar",
+      "hash": "sha512-3S9dv0pQ8l2NyjPIOufdQv8wPXAmXKQHEXok8QnNO0wteZaJd97uEDyU7p5sXLnzVElyk0B/UOhWnAd2W2zgfA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "do-api",
+          "projectId": "4XJZeZbM",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "lets-do-vinery",
+          "projectId": "1DWmBJVA",
+          "type": "required"
+        }
+      ]
+    },
+    "k0NN6Rmi": {
+      "filename": "letsdo-addon-applewood-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vIxesWnr/versions/k0NN6Rmi/letsdo-addon-applewood-fabric-1.0.0.jar",
+      "hash": "sha512-KyH8WZDzMu8pPc1OpHWuq+PoLugii973+RzdwESgcSYvxqTgnvAR39xTGDYDVUYihHGPDZ3FjhNjvWSAxLMAEw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "lets-do-vinery",
+          "projectId": "1DWmBJVA",
+          "type": "required"
+        },
+        {
+          "slug": "do-api",
+          "projectId": "4XJZeZbM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gh3784p8",
+      "k0NN6Rmi"
+    ],
+    "1.20.1+forge": [
+      "MhIhTGfT",
+      "hixelITA"
+    ],
+    "1.20.1+neoforge": [
+      "MhIhTGfT"
+    ]
+  }
+}

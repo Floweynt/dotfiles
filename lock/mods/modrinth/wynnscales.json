@@ -1,0 +1,74 @@
+{
+  "slug": "wynnscales",
+  "projectId": "wtbCXR05",
+  "versions": {
+    "OqAH40RZ": {
+      "filename": "wynnscales-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/wtbCXR05/versions/OqAH40RZ/wynnscales-1.0.1.jar",
+      "hash": "sha512-DcoyztxEUuLZQMgGUMFfH98Q33Bq+C7bGjYiqsu4b5jXaOgfvBFLqEnKre38Rp7gwwx1P67i5ke9EW1sWQhacg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "wynntils",
+          "projectId": "dU5Gb9Ab",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "QFNSRyCU": {
+      "filename": "wynnscales-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wtbCXR05/versions/QFNSRyCU/wynnscales-1.0.0.jar",
+      "hash": "sha512-k8nT3YORi9rY613nhjzOlcvPegjtNAcentLPCTVPTWKiyowDC1hmq73RogtogKDUfCMi0WywyQ8M9SoPSapa6g==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "wynntils",
+          "projectId": "dU5Gb9Ab",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "OqAH40RZ"
+    ],
+    "1.21.4+fabric": [
+      "QFNSRyCU"
+    ]
+  }
+}

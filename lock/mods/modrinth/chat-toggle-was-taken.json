@@ -1,0 +1,62 @@
+{
+  "slug": "chat-toggle-was-taken",
+  "projectId": "nNMIed3k",
+  "versions": {
+    "R1gn4RP8": {
+      "filename": "toggle-chat-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/nNMIed3k/versions/R1gn4RP8/toggle-chat-1.0.1.jar",
+      "hash": "sha512-UufG+iAMpsZPPpPueAcP082oC1lelzTKXOUI8pDxTE8nIjxuXoaGnMyTUcR4rUYgVLxUORuJ1TNgGwkamkgAJQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bUEdXLKu": {
+      "filename": "toggle-chat-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/nNMIed3k/versions/bUEdXLKu/toggle-chat-1.0.0.jar",
+      "hash": "sha512-RL9PuxgK7XbvMVkuojlX6psy5YkRrUWq7j6lKOM93z8LrMG9/tOxFLyZqvAnKiZA5Oab+8ZXc5Nm5XErftiMgw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "bUEdXLKu"
+    ],
+    "26.1+fabric": [
+      "R1gn4RP8"
+    ],
+    "26.1.1+fabric": [
+      "R1gn4RP8"
+    ],
+    "26.1.2+fabric": [
+      "R1gn4RP8"
+    ]
+  }
+}

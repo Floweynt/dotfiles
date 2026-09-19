@@ -1,0 +1,96 @@
+{
+  "slug": "catchlevelcap",
+  "projectId": "KzRpfMzU",
+  "versions": {
+    "FBZspAP8": {
+      "filename": "catchlevelcap-forge-0.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/KzRpfMzU/versions/FBZspAP8/catchlevelcap-forge-0.3.3.jar",
+      "hash": "sha512-c2omWnD91Z8eOLG7qMrtJ4kL7OlWGZUBXap/sO2eZhnX5JjUTucNyhcym25a7myA/EYRg9b8nQrNHeHx61e7QQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "NDBBcCxv": {
+      "filename": "catchlevelcap-fabric-0.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/KzRpfMzU/versions/NDBBcCxv/catchlevelcap-fabric-0.3.2.jar",
+      "hash": "sha512-5yRMu9dz0UDJbh7WLkPgUHDeM9OLmtIWXhH4Ol3DQpkZer4a9HCjPSw2kmE/SNnHXkmdmXgiWV96nw9CPeJLlQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "Pmackuj7": {
+      "filename": "catchlevelcap-fabric-0.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/KzRpfMzU/versions/Pmackuj7/catchlevelcap-fabric-0.3.3.jar",
+      "hash": "sha512-hh5/ssjqOLRsqzl8q5H2tObK5vlb+v/qWic1xG2n/lUhQ4DbxSFbY5xcDrA6EjnAm29ZAcOf8GM3T5M17K96NA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "u4tqBzDB": {
+      "filename": "catchlevelcap-forge-0.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/KzRpfMzU/versions/u4tqBzDB/catchlevelcap-forge-0.3.2.jar",
+      "hash": "sha512-6HzMwhju31Z1OUNH8K7+90i35JepYn2TCJvOg2ysXQEbgmyS2BOLVr+OaNs8rBbwvDMUaM31FMb0hQ6a9tuxlw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Pmackuj7",
+      "NDBBcCxv"
+    ],
+    "1.20.1+forge": [
+      "FBZspAP8",
+      "u4tqBzDB"
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "combat-timer",
+  "projectId": "4BBIALAi",
+  "versions": {
+    "Oe6izVSj": {
+      "filename": "combat-timer-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/4BBIALAi/versions/Oe6izVSj/combat-timer-1.0.1.jar",
+      "hash": "sha512-KCEeYBQaA9l/09Zuo6au6EFCQShQgqu3Q5J1hs7WtTWG/sBL6ZYyjxy5xKQEFoGnNDEXsocH8QIMicwLbtF/6g==",
+      "gameVersions": [
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tYcpblwp": {
+      "filename": "combat-timer-2.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/4BBIALAi/versions/tYcpblwp/combat-timer-2.0-beta.jar",
+      "hash": "sha512-5HXQzpTRCUbfSFQf54CMobygCtpHfcAtddZcPMLE4TwTdWaF3ZRQ82kmfiUB/YrRr4VMFPwjrU5kjZCTvd5+Yw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "wuiFzEC8": {
+      "filename": "combat-timer-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4BBIALAi/versions/wuiFzEC8/combat-timer-1.0.0.jar",
+      "hash": "sha512-uTS7vyX08xOxmPFqsJtZkVMTuRlpRYGtkpu+I2I4X2NxvFoCdRz8cErdLPgdoWh8lO1M5+nUL1FQ5FcEnadVYQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wuiFzEC8"
+    ],
+    "1.20.2+fabric": [
+      "wuiFzEC8"
+    ],
+    "1.20.3+fabric": [
+      "wuiFzEC8"
+    ],
+    "1.20.4+fabric": [
+      "wuiFzEC8"
+    ],
+    "1.20.5+fabric": [
+      "Oe6izVSj"
+    ],
+    "1.21+fabric": [
+      "tYcpblwp"
+    ]
+  }
+}

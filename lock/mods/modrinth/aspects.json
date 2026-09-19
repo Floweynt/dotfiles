@@ -1,0 +1,132 @@
+{
+  "slug": "aspects",
+  "projectId": "Xl0THQwg",
+  "versions": {
+    "6e6tIf6i": {
+      "filename": "aspects-1.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/Xl0THQwg/versions/6e6tIf6i/aspects-1.0.7.jar",
+      "hash": "sha512-xnikrQB7PKe45BPQLF/Q/JF5I4B6cgAxIPKKFZyZ53NR592jV2woUq/nwCzXTtnnaSQ90Ln+f0qZ9eJGHW400Q==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "AmKKCl21": {
+      "filename": "aspects-1.0.9-1.20.x.jar",
+      "url": "https://cdn.modrinth.com/data/Xl0THQwg/versions/AmKKCl21/aspects-1.0.9-1.20.x.jar",
+      "hash": "sha512-GpUbiAHMzPaWDH2RXvynfXkPCa7N1Kxq4+U5Hfg3hguH8EySdnJotfski0+F5lUbpTkGUmNSDo/DnZY4OT2atA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wUgAsasC": {
+      "filename": "aspects-1.0.8-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/Xl0THQwg/versions/wUgAsasC/aspects-1.0.8-1.18.2.jar",
+      "hash": "sha512-2gAqyMJ2d9nA9Y8HS3yTGl2754Mjba3AFjLpLrBAMHeOHwU206TVLBjfyLu97KL1CJ286ldTd0rRfJgyyO6Beg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yM1rLv4e": {
+      "filename": "aspects-1.0.9-1.19.x.jar",
+      "url": "https://cdn.modrinth.com/data/Xl0THQwg/versions/yM1rLv4e/aspects-1.0.9-1.19.x.jar",
+      "hash": "sha512-MBRW0+hx3KZdQB7DNmr62vK1i29HnrkgcOxyECau8m1Jq9BarFVxlxI8Aq0c77BDBq8B2ymqeejK6YMhkJRmOQ==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "wUgAsasC"
+    ],
+    "1.19+fabric": [
+      "6e6tIf6i"
+    ],
+    "1.19.1+fabric": [
+      "yM1rLv4e"
+    ],
+    "1.19.2+fabric": [
+      "yM1rLv4e"
+    ],
+    "1.20+fabric": [
+      "AmKKCl21"
+    ],
+    "1.20.1+fabric": [
+      "AmKKCl21"
+    ],
+    "1.20.2+fabric": [
+      "AmKKCl21"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "bclib-jsonifier",
+  "projectId": "lxjWUMkB",
+  "versions": {
+    "bA5lilwF": {
+      "filename": "bclib-jsonifier-1.0+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/lxjWUMkB/versions/bA5lilwF/bclib-jsonifier-1.0%2B1.19.2.jar",
+      "hash": "sha512-gbA8hVgoDF1nigAADokWDnk3+R5luDTtoHwBgJxx7Zd96FzLy208/nTnXW0KuEu9mZvZsEDkXAig9pxInUUPjw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bclib",
+          "projectId": "BgNRHReB",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    },
+    "uMWbdY19": {
+      "filename": "bclib-jsonifier-1.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/lxjWUMkB/versions/uMWbdY19/bclib-jsonifier-1.1%2B1.19.2.jar",
+      "hash": "sha512-G3b8/3mazTpMn5pX3zMdQvzZcHHyLGawZ1fHybMvenQHlqB35g6YWD6iHV0Xk+lXZfbeU8f9UCs7KsiFmsBzwA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "uMWbdY19",
+      "bA5lilwF"
+    ]
+  }
+}

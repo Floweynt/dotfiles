@@ -1,0 +1,54 @@
+{
+  "slug": "combind",
+  "projectId": "PMxAZxeu",
+  "versions": {
+    "FI91jgs2": {
+      "filename": "combind-1.0.0+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/PMxAZxeu/versions/FI91jgs2/combind-1.0.0%2B26.2.jar",
+      "hash": "sha512-wZJyo8smNp/bTBj3kK86k+lGl6bKAARn5JZRlrf473h4PvTN4s0ciiiwgvJRNHjRtV8TL/P4Js83CORjCgfMbg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "N27CGtZQ": {
+      "filename": "combind-1.0.0+26.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/PMxAZxeu/versions/N27CGtZQ/combind-1.0.0%2B26.1.2.jar",
+      "hash": "sha512-gvy0IoXdfkkKtu5FBx+PdCwqqxktKgwiD3iy1Zitmyd0DvNitrbOBp8bI3OSQyfSD00rxAodZ3Y4i7NaiT+fhQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "N27CGtZQ"
+    ],
+    "26.2+fabric": [
+      "FI91jgs2"
+    ]
+  }
+}

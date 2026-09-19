@@ -1,0 +1,31 @@
+{
+  "slug": "fpv-drone",
+  "projectId": "nsUNoKy4",
+  "versions": {
+    "tR9utER4": {
+      "filename": "FPV_Drone-Fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/nsUNoKy4/versions/tR9utER4/FPV_Drone-Fabric-1.20.1.jar",
+      "hash": "sha512-mt/GqfYeJp9EsCaw9HSemLyyw8tQfltJwVerGreIH+zMQuG67nwwQXrM591mTT7p1X7rmKT/lYn5x4Xk2oNlDw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tR9utER4"
+    ]
+  }
+}

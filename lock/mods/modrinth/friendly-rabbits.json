@@ -1,0 +1,82 @@
+{
+  "slug": "friendly-rabbits",
+  "projectId": "937zdc23",
+  "versions": {
+    "E6aYW9xo": {
+      "filename": "friendly-rabbits-0.0.1-26.2.jar",
+      "url": "https://cdn.modrinth.com/data/937zdc23/versions/E6aYW9xo/friendly-rabbits-0.0.1-26.2.jar",
+      "hash": "sha512-Wc1KJOjPDH1GDmS6fXETFwniUp6EUHoc+qvw/iXTet7aXictZ2FAv4PLN+29Uv6ZtNRTyaL9zFl00SxbWLKoIw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Hi8WchEb": {
+      "filename": "friendly-rabbits-0.0.1-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/937zdc23/versions/Hi8WchEb/friendly-rabbits-0.0.1-26.1.jar",
+      "hash": "sha512-WYe12kpQwbYK+BGzF8QBCsZ5FPRLUI0ZsmTRDZSxYK/vaECQPgvg3N53rushTZgDZENQZx6bs/eMOVL4HiG5Fw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OvsuQ6mm": {
+      "filename": "friendly-rabbits-0.0.1-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/937zdc23/versions/OvsuQ6mm/friendly-rabbits-0.0.1-1.21.10.jar",
+      "hash": "sha512-Rb8S+kqw+SGTojFhiu3pW3F+0pN84Q5dpS75KJNYkZg54goXz4uJu8vzJ/OyTcADJIT1JUwuBRsWw3afLuXawQ==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PkeCaJcc": {
+      "filename": "friendly-rabbits-0.0.1-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/937zdc23/versions/PkeCaJcc/friendly-rabbits-0.0.1-1.21.11.jar",
+      "hash": "sha512-oC+2/8U3HPwCFW5gGr7tLyLhFRzl5ek0sBpsrn1orlgIM/9YyWeBCWpi+v0gJFTsY2fwQ5/3Tdf7jugqdkOPCw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "OvsuQ6mm"
+    ],
+    "1.21.11+fabric": [
+      "PkeCaJcc"
+    ],
+    "26.1+fabric": [
+      "Hi8WchEb"
+    ],
+    "26.2+fabric": [
+      "E6aYW9xo"
+    ]
+  }
+}

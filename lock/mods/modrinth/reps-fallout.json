@@ -1,0 +1,67 @@
+{
+  "slug": "reps-fallout",
+  "projectId": "bQSbqqsS",
+  "versions": {
+    "n42nEyhf": {
+      "filename": "repsfallout-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bQSbqqsS/versions/n42nEyhf/repsfallout-1.0.0-1.20.1.jar",
+      "hash": "sha512-69LRql2xZapmPt19b04kTubZUF/mFkxfKE8hBifPZMR8iQ1ISPfBjs3cPkjS9Yu/XAwk30i3mnySTxvPAA0T5w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "om6qwLEP": {
+      "filename": "repsfallout-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/bQSbqqsS/versions/om6qwLEP/repsfallout-1.0.1-1.20.1.jar",
+      "hash": "sha512-yUgxaW+/3Nw6kP3QHwbSZ/E/v0yvfmF1hOMFfGvH/nYdfwFs7n6Qw04A3Ybu1NXTN/5jG/YsgbNEdIawCgmdIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "om6qwLEP",
+      "n42nEyhf"
+    ]
+  }
+}

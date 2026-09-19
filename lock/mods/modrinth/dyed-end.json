@@ -1,0 +1,31 @@
+{
+  "slug": "dyed-end",
+  "projectId": "WHO6lEQb",
+  "versions": {
+    "QoopW59e": {
+      "filename": "dyedend-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WHO6lEQb/versions/QoopW59e/dyedend-1.20.1-1.0.0.jar",
+      "hash": "sha512-beYDpx13xu229m6RdC8e8olzEPSEaz5o8Gfg/Lbu2qrgMuuKPx5wTtNczPV1P/CEdMnOK2aXC2z4AmR+auob8Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "QoopW59e"
+    ]
+  }
+}

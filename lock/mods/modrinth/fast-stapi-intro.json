@@ -1,0 +1,35 @@
+{
+  "slug": "fast-stapi-intro",
+  "projectId": "TFx28ISQ",
+  "versions": {
+    "zGVZTsML": {
+      "filename": "stapi-fast-intro-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TFx28ISQ/versions/zGVZTsML/stapi-fast-intro-2.0.0.jar",
+      "hash": "sha512-ehNkwQmSGyWm4twZ9L68bvUP3MRbgvHI66/LL2TDyjwxCJVqSWFdi8LMRzufNT5YjyB39fUFbG5q8X6YM3AHgA==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "stationapi",
+          "projectId": "472oW63Q",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "zGVZTsML"
+    ],
+    "b1.7.3+fabric": [
+      "zGVZTsML"
+    ]
+  }
+}

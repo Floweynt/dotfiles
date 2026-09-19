@@ -1,0 +1,31 @@
+{
+  "slug": "trial-cooldown",
+  "projectId": "KaIfxtRh",
+  "versions": {
+    "24OyFkrt": {
+      "filename": "trialcooldown-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KaIfxtRh/versions/24OyFkrt/trialcooldown-1.0.0.jar",
+      "hash": "sha512-fcPy07tzVSiEpmcXkKWsGTQ2LFhHKg7uybpiyqIqKvmcnYNDgvaRIPTGd+DQaEUK3aqIgRImhzMdwBAgK5b+Ig==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "24OyFkrt"
+    ]
+  }
+}

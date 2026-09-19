@@ -1,0 +1,90 @@
+{
+  "slug": "instant-portal-nether",
+  "projectId": "vRM59tUF",
+  "versions": {
+    "S64Mddws": {
+      "filename": "instant-nether-portal-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/vRM59tUF/versions/S64Mddws/instant-nether-portal-1.1.0.jar",
+      "hash": "sha512-v6g4dMi7dFuLwdH18dyWiColkV3KAyL8O2U+rpz9ywMdTAv6M+hRTxgxGXtdXbz2ZhtgDr+BPS3cA6JWs5nkPQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Yx5F0sS0": {
+      "filename": "instant-nether-portal-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/vRM59tUF/versions/Yx5F0sS0/instant-nether-portal-1.2.0.jar",
+      "hash": "sha512-E4LCtRo7b7ExgKOLkjhiDos1U07wkkWTt1A0ICTLDjKBZuhIQmctrnuZKWgcx67ogcAcXMnafZ3zTgBpE6qX3w==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "lENQjiob": {
+      "filename": "instant-nether-portal-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/vRM59tUF/versions/lENQjiob/instant-nether-portal-1.3.0.jar",
+      "hash": "sha512-3hWAhGAEvzSj3n4EdTxFjvimbzTBQIsKJTbsy08I8zKaG/RwofOj1pfkToNLrzo0+lQ7C8xk3hgY1AVnRIiyHQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "om3NUCab": {
+      "filename": "instant-nether-portal-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/vRM59tUF/versions/om3NUCab/instant-nether-portal-1.0.0.jar",
+      "hash": "sha512-t+NkyObx55czN/H8EDG4by758JUh8Gd0ghvRwHY6Uw3pXhU+fbUI1a0nuVgLfLldFJTaIZrJBHYW1gMDhApuiQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "Yx5F0sS0",
+      "S64Mddws",
+      "om3NUCab"
+    ],
+    "26.2+fabric": [
+      "lENQjiob"
+    ]
+  }
+}

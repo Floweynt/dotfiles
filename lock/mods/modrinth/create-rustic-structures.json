@@ -1,0 +1,126 @@
+{
+  "slug": "create-rustic-structures",
+  "projectId": "lmbZMkEZ",
+  "versions": {
+    "WeXjf3zz": {
+      "filename": "create_rustic_structures-1.0.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/lmbZMkEZ/versions/WeXjf3zz/create_rustic_structures-1.0.0-neoforge-1.21.1.jar",
+      "hash": "sha512-vqPJf3RwMquux0aawd2HmSNJoPdUBQ3hGcSxkS743MNcjIHLYCiO11QlAn0t/symcfxvO1E4PBim0EFrhN33ww==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "c7aqxq4b": {
+      "filename": "create_rustic_structures-1.0.0-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/lmbZMkEZ/versions/c7aqxq4b/create_rustic_structures-1.0.0-forge-1.20.1.jar",
+      "hash": "sha512-2lz72kaNnFCo4q3WN73VnMxWqQvD+JtzA2Fl+PwXxTfGIzuWSIwySG7yGCKncOgZrYXWmuDu1a2pHTyxxdSxTg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "d0sTQvqS": {
+      "filename": "create_rustic_structures-1.0.1-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/lmbZMkEZ/versions/d0sTQvqS/create_rustic_structures-1.0.1-neoforge-1.21.1.jar",
+      "hash": "sha512-ddel9nhso7fMpv4MisA6vfzMvFIF7BIPAeN4ZFVqxFCjPCPbp1JlOF28avlqcr+/9NcKq+Ggwea2ZmVFAUifhg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "yZ434GdD": {
+      "filename": "create_rustic_structures-1.0.0-fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/lmbZMkEZ/versions/yZ434GdD/create_rustic_structures-1.0.0-fabric-1.20.1.jar",
+      "hash": "sha512-ge+sOTLJ4hCpp+BExgiFfmBv7BYEo6SBFpY2Sn+vX0Iea2r6f8vUVMnROYM91N5WkARBO8bqsSmbvTkjluEDjA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "yZ434GdD"
+    ],
+    "1.20+forge": [
+      "c7aqxq4b"
+    ],
+    "1.20+neoforge": [
+      "c7aqxq4b"
+    ],
+    "1.20+quilt": [
+      "yZ434GdD"
+    ],
+    "1.20.1+fabric": [
+      "yZ434GdD"
+    ],
+    "1.20.1+forge": [
+      "c7aqxq4b"
+    ],
+    "1.20.1+neoforge": [
+      "c7aqxq4b"
+    ],
+    "1.20.1+quilt": [
+      "yZ434GdD"
+    ],
+    "1.21+neoforge": [
+      "d0sTQvqS",
+      "WeXjf3zz"
+    ],
+    "1.21.1+neoforge": [
+      "d0sTQvqS",
+      "WeXjf3zz"
+    ]
+  }
+}

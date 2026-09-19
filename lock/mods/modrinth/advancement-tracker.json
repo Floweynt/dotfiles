@@ -1,0 +1,71 @@
+{
+  "slug": "advancement-tracker",
+  "projectId": "R0rNuV3q",
+  "versions": {
+    "RmsT08Pb": {
+      "filename": "advancement-tracker-1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/R0rNuV3q/versions/RmsT08Pb/advancement-tracker-1.21.8.jar",
+      "hash": "sha512-+jfP4vchyPuoVfp98w+pXvsmf1zEnnqIzHlQ4aHxIJka+MCqD5RgeABtKOgGwoZKAjYI0A6KWjd5+vc/nzr6ZA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "akEvQdGX": {
+      "filename": "advancement-tracker-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/R0rNuV3q/versions/akEvQdGX/advancement-tracker-1.21.1.jar",
+      "hash": "sha512-xv6RNRMt2JbK3EODKDMIZoD8f11+lvCPJ7RVzYJvqx7HkgLK7b3ZjQ28wc5z6wRLlsXHkydH8jjSk5Xk+1KDqA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tGtzCtIr": {
+      "filename": "advancement-tracker-26.2.jar",
+      "url": "https://cdn.modrinth.com/data/R0rNuV3q/versions/tGtzCtIr/advancement-tracker-26.2.jar",
+      "hash": "sha512-8LZmZDEmUaz8/vmMxQMNiqBrKAegct+tely4G+fu31Naeik8Q0wkOVUfI9cjki70ZALg3cl6Xp4vWXJzfdoeKw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "akEvQdGX"
+    ],
+    "1.21.8+fabric": [
+      "RmsT08Pb"
+    ],
+    "26.2+fabric": [
+      "tGtzCtIr"
+    ]
+  }
+}

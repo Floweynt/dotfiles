@@ -1,0 +1,242 @@
+{
+  "slug": "levelsplus",
+  "projectId": "Z0SEksUE",
+  "versions": {
+    "DPlWxAT8": {
+      "filename": "levels-forge-1.12.2-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0SEksUE/versions/DPlWxAT8/levels-forge-1.12.2-4.0.0.jar",
+      "hash": "sha512-geJJAtbERKzawIyK0vf0h1NWRfHb2BzRPXsGulLYOFh4o4Tr6jd5trOcdhk0f5DHkW04jSNsdzJpBv1HawPomg==",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PCCZHj6v": {
+      "filename": "levels-fabric-1.16.5-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0SEksUE/versions/PCCZHj6v/levels-fabric-1.16.5-4.0.0.jar",
+      "hash": "sha512-3bm9eSuZ19KTY1HC8l5Pq/a5dDpZ6AqssmIdM7KMRf/M20k5XVhUk3GlLRa9nSm/cnkpbPE+SsZBMqkWcyyR/w==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Vcpm610y": {
+      "filename": "levels-fabric-1.20.1-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0SEksUE/versions/Vcpm610y/levels-fabric-1.20.1-4.0.0.jar",
+      "hash": "sha512-v/2pVKxlUArtV0rkAuXmoUKyaIQoxabqeHsZL9Lcos/xSGv4YdkHiH5CdwzhnnDsyd6mmqZzuCfq0DwOUIBXmw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "VgcPwgrI": {
+      "filename": "levels-forge-1.16.5-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0SEksUE/versions/VgcPwgrI/levels-forge-1.16.5-4.0.0.jar",
+      "hash": "sha512-k5a6vwLBFrYn6zMTwn3pDgL27VXjrAhqky0fwZugbCX1zLWhesF3gBB8xD6HYVJ6EHcpoydroJtPipMXUJxolQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "d0w9yzHj": {
+      "filename": "levels-forge-1.20.1-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Z0SEksUE/versions/d0w9yzHj/levels-forge-1.20.1-4.0.0.jar",
+      "hash": "sha512-InXbm1IYtWVNisQb1TGQiX9AhWVIjncHpmBthry09qsKecu4cFaVt8Jn8BTtyurhgpGh/OGNP2u/WL/vk4hHYA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "t2edhRN4": {
+      "filename": "levels-bukkit-4.0.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/Z0SEksUE/versions/t2edhRN4/levels-bukkit-4.0.0-all.jar",
+      "hash": "sha512-w0Tg+oNiW6Nnbt7Z77xvOwH3NIEbsGzwU7wbFUkzNoXUHLRYo+XFigAnYQGoGU0B5vadYn1Z2d/6Q67gbDbtxA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "bukkit",
+        "paper",
+        "spigot"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.12.2+forge": [
+      "DPlWxAT8"
+    ],
+    "1.16.5+fabric": [
+      "PCCZHj6v"
+    ],
+    "1.16.5+forge": [
+      "VgcPwgrI"
+    ],
+    "1.20.1+fabric": [
+      "Vcpm610y"
+    ],
+    "1.20.1+forge": [
+      "d0w9yzHj"
+    ],
+    "1.20.5+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.20.5+paper": [
+      "t2edhRN4"
+    ],
+    "1.20.5+spigot": [
+      "t2edhRN4"
+    ],
+    "1.20.6+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.20.6+paper": [
+      "t2edhRN4"
+    ],
+    "1.20.6+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21+paper": [
+      "t2edhRN4"
+    ],
+    "1.21+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21.1+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21.1+paper": [
+      "t2edhRN4"
+    ],
+    "1.21.1+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21.2+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21.2+paper": [
+      "t2edhRN4"
+    ],
+    "1.21.2+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21.3+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21.3+paper": [
+      "t2edhRN4"
+    ],
+    "1.21.3+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21.4+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21.4+paper": [
+      "t2edhRN4"
+    ],
+    "1.21.4+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21.5+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21.5+paper": [
+      "t2edhRN4"
+    ],
+    "1.21.5+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21.6+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21.6+paper": [
+      "t2edhRN4"
+    ],
+    "1.21.6+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21.7+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21.7+paper": [
+      "t2edhRN4"
+    ],
+    "1.21.7+spigot": [
+      "t2edhRN4"
+    ],
+    "1.21.8+bukkit": [
+      "t2edhRN4"
+    ],
+    "1.21.8+paper": [
+      "t2edhRN4"
+    ],
+    "1.21.8+spigot": [
+      "t2edhRN4"
+    ]
+  }
+}

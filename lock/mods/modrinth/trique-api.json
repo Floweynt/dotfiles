@@ -1,0 +1,135 @@
+{
+  "slug": "trique-api",
+  "projectId": "RhzuAoZx",
+  "versions": {
+    "B6HfSfAK": {
+      "filename": "triqueapi-1.1.1+mc1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/RhzuAoZx/versions/B6HfSfAK/triqueapi-1.1.1%2Bmc1.20.2.jar",
+      "hash": "sha512-lOm/ptVGJve/9naHC7MjPw1uM7URmsmRxEISlyHdIx/TFs8SJmKpC57+ei3vXOFR9+eTVd8YkFPOPQeDcXlLdw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "BrcIOqH1": {
+      "filename": "triqueapi-1.1.1+mc1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/RhzuAoZx/versions/BrcIOqH1/triqueapi-1.1.1%2Bmc1.20.4.jar",
+      "hash": "sha512-f8aINbuZiOyUhWAlMlgwbmN6WbK2NUmkkXXivvhUX1+fq+kM7W2w6rLHQ+BCIaNvThaixPcfaFACt2/vEagoNg==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FtBAZkxS": {
+      "filename": "triqueapi-mc1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RhzuAoZx/versions/FtBAZkxS/triqueapi-mc1.20.1-1.1.0.jar",
+      "hash": "sha512-5Q2AwINnSrgSwLOAQ9bRnSnNE9evSoN8zqk2gkIvahOiyFwFyCxWS/0KoxaMPSE5JgXZs52lZYVBBGNmn7Bmbw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KWVobJd7": {
+      "filename": "triqueapi-mc1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RhzuAoZx/versions/KWVobJd7/triqueapi-mc1.20.1-1.0.0.jar",
+      "hash": "sha512-xxEFaSYPszMPW7ZbCSgcO9Dl3bv+FBmy64ZFZLS14AkpzZYFXtmg+3mIC8NgWeWGFkN7YKNyVS3ij3Bbj/Mnlg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "warden-tools",
+          "projectId": "KuQueJOG",
+          "type": "required"
+        },
+        {
+          "slug": "mythic-upgrades",
+          "projectId": "ERH7cFoy",
+          "type": "required"
+        }
+      ]
+    },
+    "uN4bHTVF": {
+      "filename": "triqueapi-1.1.0+mc1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/RhzuAoZx/versions/uN4bHTVF/triqueapi-1.1.0%2Bmc1.20.2.jar",
+      "hash": "sha512-hLM4hK5oNRKJVKIXb24sZEWAcT1lCTY0eUU3WoDzWDiHCqVV4fGWwDtsk/zANUnak2GB89V/MlokwdXGB6KNrA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FtBAZkxS",
+      "KWVobJd7"
+    ],
+    "1.20.2+fabric": [
+      "B6HfSfAK",
+      "uN4bHTVF"
+    ],
+    "1.20.3+fabric": [
+      "BrcIOqH1"
+    ],
+    "1.20.3+quilt": [
+      "BrcIOqH1"
+    ],
+    "1.20.4+fabric": [
+      "BrcIOqH1"
+    ],
+    "1.20.4+quilt": [
+      "BrcIOqH1"
+    ]
+  }
+}

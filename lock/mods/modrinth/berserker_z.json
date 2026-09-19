@@ -1,0 +1,96 @@
+{
+  "slug": "berserker_z",
+  "projectId": "kv8u1sJc",
+  "versions": {
+    "GrEWdV3j": {
+      "filename": "berserkerz-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kv8u1sJc/versions/GrEWdV3j/berserkerz-1.0.jar",
+      "hash": "sha512-yimI0HaOo3FYatrlXw8TjLpRcZOtmI/3aKr4RYdkc3+B5fVPssuncev8Bd5iMZe5puJ2lPCCzTupBQOpdLTB+A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "berserker-rpg-class",
+          "projectId": "8hqOZzxM",
+          "type": "required"
+        }
+      ]
+    },
+    "TfbW529K": {
+      "filename": "lvlz_berserker-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kv8u1sJc/versions/TfbW529K/lvlz_berserker-1.21.1-1.0.jar",
+      "hash": "sha512-W7+V3hjkEBAdVfjy32gcjGmd3/9cjzlqisBOReZl84ML3Fiq4KHetc4Z3a3EYVbl/tYuXJGbWxx4yigQujdxxw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "berserker-rpg-class",
+          "projectId": "8hqOZzxM",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    },
+    "Ti0ODRcB": {
+      "filename": "lvlz_berserker-1.21.1-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/kv8u1sJc/versions/Ti0ODRcB/lvlz_berserker-1.21.1-1.1.jar",
+      "hash": "sha512-SRudlA3mVTPVUTKrSmKWfQCVSgtlk1IiSVlTSHu1BqHpBVFUC76H81H9/4PFXn6Wyf/f/rCYKeP5j3wQyCqwUg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        },
+        {
+          "slug": "berserker-rpg-class",
+          "projectId": "8hqOZzxM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "GrEWdV3j"
+    ],
+    "1.21.1+fabric": [
+      "Ti0ODRcB",
+      "TfbW529K"
+    ],
+    "1.21.1+quilt": [
+      "Ti0ODRcB",
+      "TfbW529K"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "ice-boat-rear-view-mirror",
+  "projectId": "q0MANkh0",
+  "versions": {
+    "cXsA7idp": {
+      "filename": "ice_boat_rear_view_mirror-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/q0MANkh0/versions/cXsA7idp/ice_boat_rear_view_mirror-1.0.jar",
+      "hash": "sha512-U376SmUIIm6HYP0s++vBffCPQzHjLhgvXqInTXlp4I4ZacY1AQCQqCKykCjQKmJqKyUM8PHjMc0eHc47Ubplzw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "r4jnirgK": {
+      "filename": "ice_boat_rear_view_mirror-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/q0MANkh0/versions/r4jnirgK/ice_boat_rear_view_mirror-1.1.jar",
+      "hash": "sha512-ExviuJHfEGInj1H++FIyESbZRnPWuoMNfr4yIXeYenoVmmr/ut1M/zKAVATtPMb0EX1tZRBDZaBZ+6zREIIlyw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "umMhkQbE": {
+      "filename": "ice_boat_rear_view_mirror-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/q0MANkh0/versions/umMhkQbE/ice_boat_rear_view_mirror-1.3.jar",
+      "hash": "sha512-a5RgL9QQ0YWu7rdkpbPdJEZ31Gwg20EwQhvlj7pvODD1VApkz2ETLTE1IUQEikXCraf9iCj2y5BumNFH0HLBnw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "umMhkQbE",
+      "r4jnirgK",
+      "cXsA7idp"
+    ]
+  }
+}

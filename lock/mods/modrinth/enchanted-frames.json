@@ -1,0 +1,82 @@
+{
+  "slug": "enchanted-frames",
+  "projectId": "CcdCVUtP",
+  "versions": {
+    "aaa5CWkJ": {
+      "filename": "enchframe-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/CcdCVUtP/versions/aaa5CWkJ/enchframe-0.1.jar",
+      "hash": "sha512-KoX8FuuG+DBzCMMKDaOTaP7W/MuDZUBVt1p7ZSNJGFo4e2unDuP4yO3eMiBX11XktuyTkZOruec5hcSAu0TuDA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "grcMHuw7": {
+      "filename": "EnchantedFrames-Refresh-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CcdCVUtP/versions/grcMHuw7/EnchantedFrames-Refresh-1.0.0.jar",
+      "hash": "sha512-tQZCM5TVJp23iuU344V452xcDDj1kN4DJgg04XgrRsaQqETC2twtG6teYI5xHgT4+QyzwH/Gibl6A1FeYVVvmg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "p324Za7s": {
+      "filename": "EnchantedFrames-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/CcdCVUtP/versions/p324Za7s/EnchantedFrames-1.0.1.jar",
+      "hash": "sha512-LLf6DhzonvCjinYjIGerQV7T4XQL20zsosLvpkXP2Do2augBCymhtxYfutETpJieU0RSNcnXfKq1rjp4WArlcw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "aaa5CWkJ"
+    ],
+    "1.21+fabric": [
+      "p324Za7s"
+    ],
+    "1.21.10+fabric": [
+      "grcMHuw7"
+    ]
+  }
+}

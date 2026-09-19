@@ -1,0 +1,42 @@
+{
+  "slug": "cobblequalityoflife",
+  "projectId": "Frfnj1m7",
+  "versions": {
+    "XHAZIu4c": {
+      "filename": "cobbleqol-neoforge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Frfnj1m7/versions/XHAZIu4c/cobbleqol-neoforge-0.1.0.jar",
+      "hash": "sha512-O9mQ8P6ZJAnIp0SJ0OtCVu6ZS/01Dcrp+kEwRYp1r4WURUqliU8kCm9LRnWGz9peE0MMhTrkMXGlf//EUvTVMw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "xiNaMaJZ": {
+      "filename": "cobbleqol-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Frfnj1m7/versions/xiNaMaJZ/cobbleqol-fabric-0.1.0.jar",
+      "hash": "sha512-fj7jwnXYz8WnvE/HBtZX6LQ7eUlDa8txePuc8jOW7WieO5b9hVsrcSA3yHTHQ47RjtYjsR9O7xoyDLck53UC8g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "xiNaMaJZ"
+    ],
+    "1.21.1+neoforge": [
+      "XHAZIu4c"
+    ]
+  }
+}

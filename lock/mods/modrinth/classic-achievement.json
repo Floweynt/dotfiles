@@ -1,0 +1,42 @@
+{
+  "slug": "classic-achievement",
+  "projectId": "H9k7Wisr",
+  "versions": {
+    "As9ki3Vr": {
+      "filename": "classicachievement-1.21.1-1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/H9k7Wisr/versions/As9ki3Vr/classicachievement-1.21.1-1.0-fabric.jar",
+      "hash": "sha512-ggHLO1D7jHtm1Eihir/Md4s646pD1O3lToY8fWHwpaSslCMldxu40k45EuYm8u7wjYL9sx5AASgcFDghajZwHw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "NPwFiIHV": {
+      "filename": "classic_achievement-1.0.3-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/H9k7Wisr/versions/NPwFiIHV/classic_achievement-1.0.3-forge-1.20.1.jar",
+      "hash": "sha512-xyrOO+J61X67bwJhZbRg44WTY95tQFMRxpiHeY2TwqbhI/OEXYDSWI+iFsU8YsTddg2INJurycTDT9c5ZhgPFQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+forge": [
+      "NPwFiIHV"
+    ],
+    "1.21.1+fabric": [
+      "As9ki3Vr"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "wearable-lanterns",
+  "projectId": "HzK9IrCM",
+  "versions": {
+    "FkTLB5q1": {
+      "filename": "trinketlantern-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/HzK9IrCM/versions/FkTLB5q1/trinketlantern-1.0.1.jar",
+      "hash": "sha512-+BuRBYRNwYOwUSD2NV5HBzMzHCQK4OR7VNicxsxGScJtVJkFOfkUa57XnJub+frjGzwhwYS6S8/y/xhEqk6oUA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "radiant-gear",
+          "projectId": "AtT9wm5O",
+          "type": "required"
+        },
+        {
+          "slug": "lambdynamiclights",
+          "projectId": "yBW8D80W",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "FkTLB5q1"
+    ]
+  }
+}

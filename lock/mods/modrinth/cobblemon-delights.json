@@ -1,0 +1,90 @@
+{
+  "slug": "cobblemon-delights",
+  "projectId": "U6TbMVNM",
+  "versions": {
+    "8Hbt06hC": {
+      "filename": "cfarmersint-0.0.2-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/U6TbMVNM/versions/8Hbt06hC/cfarmersint-0.0.2-1.19.2.jar",
+      "hash": "sha512-SUvsMHCxgz0qskrofC9eYsSvY7HQq6XVAGDDMvN19ZT/wFAeQ4Q5nXyDBcHssc4jvZkOw1l9MkIahN2FAvmedQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "Y7G7ru0n": {
+      "filename": "cfarmersint-0.0.1-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/U6TbMVNM/versions/Y7G7ru0n/cfarmersint-0.0.1-1.19.2.jar",
+      "hash": "sha512-zKDv9vrJmi2KEz72T5U4CfluVlCehuWynyAB9zsOdtm62JaoG7eSb73yDFklDPyEbG0AKcS5AA4ygZmjNqZaow==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-fabric",
+          "projectId": "4EakbH8e",
+          "type": "required"
+        }
+      ]
+    },
+    "wOC3OLn1": {
+      "filename": "cfarmersint-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/U6TbMVNM/versions/wOC3OLn1/cfarmersint-1.0.jar",
+      "hash": "sha512-h9F0nkdgX4p56Ulwbt1Ij4511sK75/eo/KNLC7TPVSQ6lyAiDbpQKrQnn/IbHl6/7V3ZPo1p0epF9wucGY/2ZA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "8Hbt06hC",
+      "Y7G7ru0n"
+    ],
+    "1.19.2+forge": [
+      "wOC3OLn1"
+    ]
+  }
+}

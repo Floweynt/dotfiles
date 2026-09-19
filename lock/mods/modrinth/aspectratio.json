@@ -1,0 +1,56 @@
+{
+  "slug": "aspectratio",
+  "projectId": "Hsr3kBTI",
+  "versions": {
+    "PsYWqYAO": {
+      "filename": "aspectratio-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Hsr3kBTI/versions/PsYWqYAO/aspectratio-1.0.0.jar",
+      "hash": "sha512-B33aBPsOs1jlFAAKbLwB05TsvuC5EYW2y/oUxzgZ2kGiDRDligw7vaE8K+sufy/2pqh5YM09EGYApI0fKtHzow==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "PsYWqYAO"
+    ],
+    "1.20.2+fabric": [
+      "PsYWqYAO"
+    ],
+    "1.20.3+fabric": [
+      "PsYWqYAO"
+    ],
+    "1.20.4+fabric": [
+      "PsYWqYAO"
+    ],
+    "1.20.5+fabric": [
+      "PsYWqYAO"
+    ],
+    "1.20.6+fabric": [
+      "PsYWqYAO"
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "goodall",
+  "projectId": "koiNUJ8V",
+  "versions": {
+    "3TYjkxtV": {
+      "filename": "goodall-1.2.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/koiNUJ8V/versions/3TYjkxtV/goodall-1.2.0-forge.jar",
+      "hash": "sha512-KrDhYgRdw9c6rhtbz2AWZzFUGCL/JLN8cP6Mq9/6mKf/ViDGgS9iBeSVxBVMvU/DqQ4fCXekG0r6cdm8KWyZ9w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "C3nuzCi7": {
+      "filename": "goodall-1.1.0-forge (1).jar",
+      "url": "https://cdn.modrinth.com/data/koiNUJ8V/versions/C3nuzCi7/goodall-1.1.0-forge%20%281%29.jar",
+      "hash": "sha512-8TKsTJGs4D7YBLL59+FgkmQo6ey3MF8ncQTADM8NogiHGFS1pcQiYsc5pmAO8R15pbXxCndV6onWhuvAvALxcw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "q296MLZm": {
+      "filename": "goodall-1.1.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/koiNUJ8V/versions/q296MLZm/goodall-1.1.1-fabric.jar",
+      "hash": "sha512-bSFI5NQ616515cJVcNem1FpO60W29USLdPVQ9/L5zyoSGDlVS4kK6/rsLpjX06UqRODCkBSAoqF3TOgm1SFDTw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "sVmTTxpz": {
+      "filename": "goodall-1.2.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/koiNUJ8V/versions/sVmTTxpz/goodall-1.2.0-fabric.jar",
+      "hash": "sha512-kmlA7zfJVuGRTjLTAUCTMg15vOWYeEriAHV7jwyNe4l4jzvMC0sT8jD0GWA1wJAGMirxfszjNVRUMRG8TaeUOw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "sVmTTxpz",
+      "q296MLZm"
+    ],
+    "1.19.2+forge": [
+      "3TYjkxtV",
+      "C3nuzCi7"
+    ]
+  }
+}

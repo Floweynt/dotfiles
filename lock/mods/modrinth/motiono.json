@@ -1,0 +1,58 @@
+{
+  "slug": "motiono",
+  "projectId": "oa75A0sN",
+  "versions": {
+    "6REXOWiG": {
+      "filename": "motioNO-1.0.0+1.15.jar",
+      "url": "https://cdn.modrinth.com/data/oa75A0sN/versions/1.0.0%2B1.15/motioNO-1.0.0%2B1.15.jar",
+      "hash": "sha512-/21nEVs1OboJUp/bjXpS58MnOMszaR65q+t31Jep/MjCQ2m6FKTrFbZr39rAxOQ64jwfAGX+XL4r+s8Mn5ZKFA==",
+      "gameVersions": [
+        "1.15",
+        "1.15.1",
+        "1.15.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "PD4Wc7DR": {
+      "filename": "motioNO-1.0.1+1.16.jar",
+      "url": "https://cdn.modrinth.com/data/oa75A0sN/versions/1.0.1%2B1.16/motioNO-1.0.1%2B1.16.jar",
+      "hash": "sha512-Gsbe47QdR4o1+FSnXaAcrThmWOvWuhalBAOxpSzRdEDq8+WVftbDcfZ8l5Pp5Ep+tt7S9iJVAKlyZIldY4xBrA==",
+      "gameVersions": [
+        "1.16-rc1",
+        "1.16",
+        "1.16.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.15+fabric": [
+      "6REXOWiG"
+    ],
+    "1.15.1+fabric": [
+      "6REXOWiG"
+    ],
+    "1.15.2+fabric": [
+      "6REXOWiG"
+    ],
+    "1.16+fabric": [
+      "PD4Wc7DR"
+    ],
+    "1.16-rc1+fabric": [
+      "PD4Wc7DR"
+    ],
+    "1.16.1+fabric": [
+      "PD4Wc7DR"
+    ]
+  }
+}

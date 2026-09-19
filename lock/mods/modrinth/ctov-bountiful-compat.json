@@ -1,0 +1,114 @@
+{
+  "slug": "ctov-bountiful-compat",
+  "projectId": "890hHez9",
+  "versions": {
+    "OSRvnGJH": {
+      "filename": "ctov-bounty-board-add-on-v1-0.zip",
+      "url": "https://cdn.modrinth.com/data/890hHez9/versions/OSRvnGJH/ctov-bounty-board-add-on-v1-0.zip",
+      "hash": "sha512-O/M6NmTYSFlAkTUkEP28tzY59Tv3I9gyVdkVh0NSMR/s+gX6KB8PrElxXq8k+LiRlIVFgTvZ4szMxRt74gwBgg==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "ct-overhaul-village",
+          "projectId": "fgmhI8kH",
+          "type": "required"
+        },
+        {
+          "slug": "bountiful",
+          "projectId": "BpwWFOVM",
+          "type": "required"
+        }
+      ]
+    },
+    "axISrKTr": {
+      "filename": "ctov-bountiful-compat-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/890hHez9/versions/axISrKTr/ctov-bountiful-compat-1.0.jar",
+      "hash": "sha512-QTWGc4Dg+qjPvmWIM9Y5aO1BIOuqXfwnFHhRf0sXtE27G/nOnHuAmy6CBy4Ibret52QB7OGOSYvAUpDAJtSS+A==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "ct-overhaul-village",
+          "projectId": "fgmhI8kH",
+          "type": "required"
+        },
+        {
+          "slug": "bountiful",
+          "projectId": "BpwWFOVM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+datapack": [
+      "OSRvnGJH"
+    ],
+    "1.19+fabric": [
+      "axISrKTr"
+    ],
+    "1.19+forge": [
+      "axISrKTr"
+    ],
+    "1.19+quilt": [
+      "axISrKTr"
+    ],
+    "1.19.1+datapack": [
+      "OSRvnGJH"
+    ],
+    "1.19.1+fabric": [
+      "axISrKTr"
+    ],
+    "1.19.1+forge": [
+      "axISrKTr"
+    ],
+    "1.19.1+quilt": [
+      "axISrKTr"
+    ],
+    "1.19.2+datapack": [
+      "OSRvnGJH"
+    ],
+    "1.19.2+fabric": [
+      "axISrKTr"
+    ],
+    "1.19.2+forge": [
+      "axISrKTr"
+    ],
+    "1.19.2+quilt": [
+      "axISrKTr"
+    ],
+    "1.19.3+datapack": [
+      "OSRvnGJH"
+    ],
+    "1.19.3+fabric": [
+      "axISrKTr"
+    ],
+    "1.19.3+forge": [
+      "axISrKTr"
+    ],
+    "1.19.3+quilt": [
+      "axISrKTr"
+    ]
+  }
+}

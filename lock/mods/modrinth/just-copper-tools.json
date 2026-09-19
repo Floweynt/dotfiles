@@ -1,0 +1,122 @@
+{
+  "slug": "just-copper-tools",
+  "projectId": "l3i89Nlz",
+  "versions": {
+    "8Y0q4yCt": {
+      "filename": "jct-fabric-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/l3i89Nlz/versions/8Y0q4yCt/jct-fabric-1.0.1.jar",
+      "hash": "sha512-1Mwdq+fmpuuItTdroZ3oay6davWjCWkW9xeve8R2Fgei3EDdNhBB383Z97e29yPjZz8uw+yrbeVuxHgf6DqgMA==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4",
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "W6GKEKM0": {
+      "filename": "jct-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/l3i89Nlz/versions/W6GKEKM0/jct-fabric-1.0.jar",
+      "hash": "sha512-P3PKL0yn8/3SLCNId3VDrqWhDeWuH11E9t8B5sN4UqTD+r7nCx6JFgfCMxpL79S24/PyAVdlPZE5C6JNj5zEBw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "diajWl8n": {
+      "filename": "jct-forge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/l3i89Nlz/versions/diajWl8n/jct-forge-1.0.jar",
+      "hash": "sha512-0X3PZFEoNyjtnLVU8TrNX+3ZfK2/LSSZzXE25JtTUvbmyVppRQWbkOG6kDE12CInNtg3AJevReVHMjqyrl8hbw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "jQvbBoI6": {
+      "filename": "jct-forge-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/l3i89Nlz/versions/jQvbBoI6/jct-forge-1.0.1.jar",
+      "hash": "sha512-iIERy+lUADdjJgCuew6fCTAM50FmOUEES2W2eSDcFB8Lkz5UpDY5gJnie3C8M525z3C8BB4ePVz1mim7r5kbTA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "8Y0q4yCt"
+    ],
+    "1.19.3+fabric": [
+      "8Y0q4yCt"
+    ],
+    "1.19.4+fabric": [
+      "8Y0q4yCt"
+    ],
+    "1.20+fabric": [
+      "8Y0q4yCt"
+    ],
+    "1.20.1+fabric": [
+      "8Y0q4yCt",
+      "W6GKEKM0"
+    ],
+    "1.20.1+forge": [
+      "jQvbBoI6",
+      "diajWl8n"
+    ]
+  }
+}

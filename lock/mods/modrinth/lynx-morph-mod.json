@@ -1,0 +1,46 @@
+{
+  "slug": "lynx-morph-mod",
+  "projectId": "Ukl9QeN7",
+  "versions": {
+    "mpWff49i": {
+      "filename": "morph-mod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ukl9QeN7/versions/mpWff49i/morph-mod-1.0.0.jar",
+      "hash": "sha512-4EDfw26GIveW4e4iqxXIzvPG/frL9qga31I8witIyucsucm5g95gF9vAtTgpOokGPVsxshU1OMP+uUDg7cBkQQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wyJdXTWu": {
+      "filename": "morph-mod-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Ukl9QeN7/versions/wyJdXTWu/morph-mod-1.0.1.jar",
+      "hash": "sha512-bnJGQP/QrAfr69439VT+f4jsfJ/he1elK7dDnPYV0nQlFPZBd4pNFZ0TFo3y/FEWT4pLxcmZU/cTisQ1CKudAA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "wyJdXTWu",
+      "mpWff49i"
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "slug": "physex_reborn",
+  "projectId": "pXIm49wN",
+  "versions": {
+    "TMxeH1BY": {
+      "filename": "wpo-1.16.5-0.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/pXIm49wN/versions/TMxeH1BY/wpo-1.16.5-0.3.0.jar",
+      "hash": "sha512-EgukKZZ7xIoro+4Wl6kytJ7pqLpbw88YCjzx2X11JMWwle9NmckJs+O6WllPZX3nLRFe8eQauZYZDGfSUsyIsg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "skds-core",
+          "projectId": "Zj0nufqF",
+          "type": "required"
+        }
+      ]
+    },
+    "TwTys4Zi": {
+      "filename": "PhysEx-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/pXIm49wN/versions/TwTys4Zi/PhysEx-2.0.0.jar",
+      "hash": "sha512-Na+7EJNm4Wbhjzn0CfTSnvAJraDgvDx/Jienv2XE0YcZsLz0ULLT+WzDjGcDXgSCkGrqoLGZWgIvrziEvplAjw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+forge": [
+      "TMxeH1BY"
+    ],
+    "1.21.11+fabric": [
+      "TwTys4Zi"
+    ]
+  }
+}

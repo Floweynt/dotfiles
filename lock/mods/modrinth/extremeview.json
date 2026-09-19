@@ -1,0 +1,44 @@
+{
+  "slug": "extremeview",
+  "projectId": "x65p5LSV",
+  "versions": {
+    "D4dWBcMH": {
+      "filename": "ExtremeView-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/x65p5LSV/versions/D4dWBcMH/ExtremeView-0.1.0.jar",
+      "hash": "sha512-fnpyXncoF2BarYhGyyPEs/eLpAgvEoZrcfk+a+V7X9PFzlpzL3D5KPd2/Hbrd+uTRKzj0qLfzYWopi1CKjjhaA==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "enSlRz6T": {
+      "filename": "ExtremeView-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/x65p5LSV/versions/enSlRz6T/ExtremeView-0.1.1.jar",
+      "hash": "sha512-LRAQbnW9LmocEYEIqT1/jeQVmlvkLVYGdOTM4eykhI5xUBnaQDYyxQdOEDutMPuj0rAnzmuR8ydkbjDY6bOJiQ==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "babric",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "b1.7.3+babric": [
+      "enSlRz6T"
+    ],
+    "b1.7.3+fabric": [
+      "enSlRz6T",
+      "D4dWBcMH"
+    ]
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "slug": "la-cucaracha",
+  "projectId": "yi4Wpizw",
+  "versions": {
+    "8uSmL3fh": {
+      "filename": "la_cucaracha-1.0.3+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/yi4Wpizw/versions/8uSmL3fh/la_cucaracha-1.0.3%2B1.19.jar",
+      "hash": "sha512-Z06EhhGNDz5+gsbcYgi/S/ALHhNnvt8ngCFOmd+lUCimFhDL+huP5/Ows+cV/jtbx2j1FeKKk5RVVw3sSXMFnw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "KqqspTro": {
+      "filename": "la_cucaracha-1.0.3+1.19-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/yi4Wpizw/versions/KqqspTro/la_cucaracha-1.0.3%2B1.19-fabric.jar",
+      "hash": "sha512-DBxU/N03xPaGYwRipXKqIO31jqARoJBhIG5IW5eR2eAOCXMoMh8JgfMn5geyKqTZPJwNxdvm5JhMMa/fAjlXVg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "XLaz4m1Y": {
+      "filename": "la_cucaracha-1.0.2+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/yi4Wpizw/versions/XLaz4m1Y/la_cucaracha-1.0.2%2B1.19.jar",
+      "hash": "sha512-KD8CIMUkvJ9e0MJFT/nfz/JaNTGptn1xyu1eRxPlWJV5nGKJESDcT+lN7pHs3iShWrOAyMXrADfqRk2ib0Be7Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "i9IKgpr0": {
+      "filename": "la_cucaracha-1.0.1+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/yi4Wpizw/versions/i9IKgpr0/la_cucaracha-1.0.1%2B1.19.jar",
+      "hash": "sha512-R2tLF1NXna5ITnYaFzryFTC2R1lq4zHD3Ag4bS5aIl69C8N2LmdgJ4QeWNu8TptU/zJMdsRtf2W3jz6fYWCT+g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "mbaNi8xx": {
+      "filename": "la_cucaracha-1.0.0+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/yi4Wpizw/versions/mbaNi8xx/la_cucaracha-1.0.0%2B1.19.jar",
+      "hash": "sha512-eiNIXduS1N/ZcQJAJJbZStJmaMtrQQN0/H4IL1XkAEQbkRydeQaNIfqxJM7ylKUMF37U8xXVqgFu8ZEbkLQYSw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "KqqspTro"
+    ],
+    "1.19.2+quilt": [
+      "KqqspTro",
+      "8uSmL3fh",
+      "XLaz4m1Y",
+      "i9IKgpr0",
+      "mbaNi8xx"
+    ]
+  }
+}

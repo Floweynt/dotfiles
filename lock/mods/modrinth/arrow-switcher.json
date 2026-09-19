@@ -1,0 +1,31 @@
+{
+  "slug": "arrow-switcher",
+  "projectId": "8C8KE57B",
+  "versions": {
+    "S7sxvGAu": {
+      "filename": "arrow-switcher-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8C8KE57B/versions/S7sxvGAu/arrow-switcher-1.0.0.jar",
+      "hash": "sha512-+yyjIeeFh0poxgz3pz78oC67Js7nJPWOBt0lmErfBrMQlRXf9xmDcliSBz+CKmYfA5G94A8JkGmUnOHQ+fCRKQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "S7sxvGAu"
+    ]
+  }
+}

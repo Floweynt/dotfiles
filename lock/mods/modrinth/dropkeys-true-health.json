@@ -1,0 +1,63 @@
+{
+  "slug": "dropkeys-true-health",
+  "projectId": "Pq36UzO8",
+  "versions": {
+    "PgH7noqY": {
+      "filename": "truehealth-26.2-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Pq36UzO8/versions/PgH7noqY/truehealth-26.2-1.1.jar",
+      "hash": "sha512-ZnGdE/Hs2d7q81ZS2eQFPhSwDE1jK8fEIPZEMmzRoGhW2DxQumpwiEHq0L19DEObRaPRpSTLSOgImEnGRaLMDw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "RMe4rQy9": {
+      "filename": "truehealth-1.21.11-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Pq36UzO8/versions/RMe4rQy9/truehealth-1.21.11-1.1.jar",
+      "hash": "sha512-aR7Qbd3uHfYeYgNYTRPTOjA5etyR3Dxf13yuM3FBso5IFbptPmxrldsNkkf5Zdejotd/Jb+WFZmMhu02s7FkLA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "hk1jjkDD": {
+      "filename": "truehealth-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Pq36UzO8/versions/hk1jjkDD/truehealth-1.0.1.jar",
+      "hash": "sha512-TsUEIpYmZfH8isNQkyW8P9zUBpR9nHYbVGhQmVhh+eLuucGe0gHQsgNicJTM986DtcKey2O5c7GUyRXaYzuthA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "RMe4rQy9",
+      "hk1jjkDD"
+    ],
+    "26.2+fabric": [
+      "PgH7noqY"
+    ]
+  }
+}

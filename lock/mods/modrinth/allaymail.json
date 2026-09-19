@@ -1,0 +1,31 @@
+{
+  "slug": "allaymail",
+  "projectId": "py8M44vl",
+  "versions": {
+    "jxW4xCAY": {
+      "filename": "allaymail-v1.jar",
+      "url": "https://cdn.modrinth.com/data/py8M44vl/versions/jxW4xCAY/allaymail-v1.jar",
+      "hash": "sha512-g0NXcEBrnawZrBjjqloRH8gkWAkMOBgCRBA+vp2ZVQiJ69iyfM+BGGQuK6hWYsacZh9DDZkj1VHBWQVwgRk/MA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "jxW4xCAY"
+    ]
+  }
+}

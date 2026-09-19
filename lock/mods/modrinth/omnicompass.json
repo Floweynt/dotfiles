@@ -1,0 +1,132 @@
+{
+  "slug": "omnicompass",
+  "projectId": "eCgKR4yS",
+  "versions": {
+    "67zX1iPu": {
+      "filename": "OmniCompass-neoforge-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/eCgKR4yS/versions/67zX1iPu/OmniCompass-neoforge-1.1.jar",
+      "hash": "sha512-66Hw2DaOXUd40XrLIFdsbYQq0b5nfLkA390NcvrewlVU/70uWQLyYSc7SDs7cJxrmhjOxv0+RbqaDvzI/Ru/kA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "WpnUf6Vc": {
+      "filename": "OmniCompass-neoforge-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eCgKR4yS/versions/WpnUf6Vc/OmniCompass-neoforge-1.0.jar",
+      "hash": "sha512-qlwA6rC7EYxF/nXhwBNc5iVAGxrWG7TwPjfqsIGu+e0HaZ1XhCYM9kI5RuIxgUIDHlUIkS/0TR2mXU1Qwf2RSA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "b17FtxRl": {
+      "filename": "OmniCompass-fabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/eCgKR4yS/versions/b17FtxRl/OmniCompass-fabric-1.0.jar",
+      "hash": "sha512-ytjolCcA5X/hrjn/iYq+TVdpREAfbOvHk32ItGmVyG42thQnObfvh4F6AnuCE6Y8bS6X26hUkeo1Nb/RDTSl0Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "cscwJiAZ": {
+      "filename": "OmniCompass-neoforge-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/eCgKR4yS/versions/cscwJiAZ/OmniCompass-neoforge-1.1.1.jar",
+      "hash": "sha512-dVNyaP0a3bLhKuYeMHkUg0s6UNJDIqVLK84ge7I/ONZ/ohSq2RZtG737NqLAfBZNLpHlTMqU4EpX9DJF1rkfEQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "es8NWIus": {
+      "filename": "OmniCompass-fabric-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/eCgKR4yS/versions/es8NWIus/OmniCompass-fabric-1.1.jar",
+      "hash": "sha512-hFq7dk61sfji+tlrBNNbhAxBtaxr8yynU6SrdoQLpsk8ijVIcrkZHmLWL5FiKsJrsCTp5b6wjgFarZr+DQg5MQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "es8NWIus",
+      "b17FtxRl"
+    ],
+    "1.21.1+neoforge": [
+      "cscwJiAZ",
+      "67zX1iPu",
+      "WpnUf6Vc"
+    ]
+  }
+}

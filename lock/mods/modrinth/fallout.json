@@ -1,0 +1,64 @@
+{
+  "slug": "fallout",
+  "projectId": "bk7ipjnG",
+  "versions": {
+    "Z3RRT96V": {
+      "filename": "fallout-0.2-1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/bk7ipjnG/versions/Z3RRT96V/fallout-0.2-1.20.2.jar",
+      "hash": "sha512-FnRoFXNtK8h1qIFuw30/2zHINOFXluBl9hnX/pnG1ZXPu7J+mZBbB9PKM7E/eHISXJhvQYtLb2mPU5XZhJfbhw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "jML6LNpG": {
+      "filename": "fallout-0.3-1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/bk7ipjnG/versions/jML6LNpG/fallout-0.3-1.20.2.jar",
+      "hash": "sha512-KKAdfPk6bbkot7i10iq+1HW7AU1B+L2FvzZuNybqHNeMBvLrgHufK54OBi7ze/cJfntUvQ5QjzMFnkYkMjfrxg==",
+      "gameVersions": [
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "jML6LNpG",
+      "Z3RRT96V"
+    ],
+    "1.20.3+fabric": [
+      "jML6LNpG"
+    ],
+    "1.20.4+fabric": [
+      "jML6LNpG"
+    ],
+    "1.20.5+fabric": [
+      "jML6LNpG"
+    ]
+  }
+}

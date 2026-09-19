@@ -1,0 +1,77 @@
+{
+  "slug": "realistic-combat",
+  "projectId": "kpW5O8sd",
+  "versions": {
+    "QfH4GwWL": {
+      "filename": "realistic_combat-1.19.1+0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kpW5O8sd/versions/1.19.1%2B0.0.1/realistic_combat-1.19.1%2B0.0.1.jar",
+      "hash": "sha512-Zk8dfabmQd4tAGEKXss4Vstkmz+I92hYNlgSvemJTWcX0g5mfUCgIjFqawxDA+Edb9gTbfM1rU53xe8py2oEjg==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VL7YJP9v": {
+      "filename": "realistic_combat-1.18.2+0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kpW5O8sd/versions/0.0.1/realistic_combat-1.18.2%2B0.0.1.jar",
+      "hash": "sha512-vFAyDGxvg2dZ9+Mrwflt1+uSHgNp7xAzNwuYrdbAqan/Z7rZx+/Fwj5z4M2yzgbafgFHNmmhhB7SeNDrTauahg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wyLZ9qDZ": {
+      "filename": "realistic_combat-1.19+0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/kpW5O8sd/versions/1.19%2B0.0.1/realistic_combat-1.19%2B0.0.1.jar",
+      "hash": "sha512-srZuiq0bSKHSQzduvGUUINRDkW5vDo3CjuTklBFWHBH08KZoGSMKs3IHafWA1mC45OSlbU4uUSmwFPjaKju2hg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "VL7YJP9v"
+    ],
+    "1.19+fabric": [
+      "wyLZ9qDZ"
+    ],
+    "1.19.1+fabric": [
+      "QfH4GwWL"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "knarfys-dumb-weapons",
+  "projectId": "cR7NdHoW",
+  "versions": {
+    "vtkmMv0z": {
+      "filename": "wecom-release-candidate-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/cR7NdHoW/versions/vtkmMv0z/wecom-release-candidate-1.0.3.jar",
+      "hash": "sha512-62VuYyXMMmuWiHMRpUYY4lav6OSoSQSdm20Z1OkNUL18glM6aWAymzxsTRt34njeimjvg8fEQUuXvF/O+OyhhA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "vtkmMv0z"
+    ]
+  }
+}

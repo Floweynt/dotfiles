@@ -1,0 +1,46 @@
+{
+  "slug": "ukrainiandelight",
+  "projectId": "XvdDyGln",
+  "versions": {
+    "kzozsx2Z": {
+      "filename": "ukrainian-delight-0.5-alpha+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/XvdDyGln/versions/kzozsx2Z/ukrainian-delight-0.5-alpha%2B1.20.1.jar",
+      "hash": "sha512-L3d4FbodRdvNYTZ2q938PUQZqeuyDX+ehHUO9fAx2XEhquJ0VN3ybwc2CuAsQkfDh1tvLSvxCXe/+XKbRZNSPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "kzozsx2Z"
+    ]
+  }
+}

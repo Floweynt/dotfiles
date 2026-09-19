@@ -1,0 +1,89 @@
+{
+  "slug": "diagonal-panes",
+  "projectId": "mGyrHcS3",
+  "versions": {
+    "CSOzxklZ": {
+      "filename": "fabric-diagonal-panes-0.6.2.jar",
+      "url": "https://cdn.modrinth.com/data/mGyrHcS3/versions/CSOzxklZ/fabric-diagonal-panes-0.6.2.jar",
+      "hash": "sha512-oxGWhbX+4zUgtPbxZF1kWXJFT5GBDGNjfNop3b17i/b8n4BkY0K9N0cDW5PsiK2S7+Ryqv6eJoxpkmYiwMe54g==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZPaPHwPy": {
+      "filename": "fabric-diagonal-panes-0.6.4.jar",
+      "url": "https://cdn.modrinth.com/data/mGyrHcS3/versions/ZPaPHwPy/fabric-diagonal-panes-0.6.4.jar",
+      "hash": "sha512-hVhSX7BKbfYSa1YDtY3WcA8YvxnVDcXTFbaNVZaWsc+PQZlhkqiLny8LMR7KihSdBmkj+r060BegLkb824pktA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zbA2VXQR": {
+      "filename": "fabric-diagonal-panes-0.6.3.jar",
+      "url": "https://cdn.modrinth.com/data/mGyrHcS3/versions/zbA2VXQR/fabric-diagonal-panes-0.6.3.jar",
+      "hash": "sha512-C3ztvN0vsNuUjO3uGhLQloZWcn6lS0LQE314ekwR+U+Rm24+1p9WJj22T/4Oc0Z5cwiVapqyIk6NEvNd0zEggA==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "CSOzxklZ"
+    ],
+    "1.19+quilt": [
+      "CSOzxklZ"
+    ],
+    "1.19.1+fabric": [
+      "zbA2VXQR"
+    ],
+    "1.19.1+quilt": [
+      "zbA2VXQR"
+    ],
+    "1.19.2+fabric": [
+      "ZPaPHwPy"
+    ],
+    "1.19.2+quilt": [
+      "ZPaPHwPy"
+    ]
+  }
+}

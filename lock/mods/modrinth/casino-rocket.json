@@ -1,0 +1,41 @@
+{
+  "slug": "casino-rocket",
+  "projectId": "Lk3EWIOE",
+  "versions": {
+    "cNABNHK1": {
+      "filename": "casinorocket-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Lk3EWIOE/versions/cNABNHK1/casinorocket-1.0.0.jar",
+      "hash": "sha512-bCoQjK5UIbVO3C5Xwftb98/U9SPMLOGvS0z0nCyEIL3z+r5kSQLUJhwaVSKsVcFApxXDSCHzKFq54/bPsD0XSg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobbledollars",
+          "projectId": "s7N7AsqL",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "cNABNHK1"
+    ]
+  }
+}

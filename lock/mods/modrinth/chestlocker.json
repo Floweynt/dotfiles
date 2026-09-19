@@ -1,0 +1,63 @@
+{
+  "slug": "chestlocker",
+  "projectId": "oJS1ZjRd",
+  "versions": {
+    "FHspqBhE": {
+      "filename": "ChestLocker-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oJS1ZjRd/versions/FHspqBhE/ChestLocker-1.0.0.jar",
+      "hash": "sha512-aB7JmskqZFlNMhlBp9txrEGc7fn+p9GpoFNfjD7iILNp1MN37LOzb4UcX0gEMT3THDEC6BkSiae6II2BCO3CFw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Ua99S7OJ": {
+      "filename": "chestlogger-1.0.0-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/oJS1ZjRd/versions/Ua99S7OJ/chestlogger-1.0.0-alpha.jar",
+      "hash": "sha512-qN/WVQcILOmNZKGpivJ5liIFg1FjEQwUyJSgFbEXpB/ZFNr03qCTGuBXnpyE+XqxWoR3YHWuAvk0ABoxH0Tv7g==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wI8QKFBs": {
+      "filename": "ChestLocker-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oJS1ZjRd/versions/wI8QKFBs/ChestLocker-2.0.0.jar",
+      "hash": "sha512-kcr6eiIzlOh64L7ioQyL696z4DeiIYrU3S0EQcy8n3fYJdo3/LYuVDuTnXDPRWOYMv0wnRWT/XOhbYGPgP5JmQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "Ua99S7OJ"
+    ],
+    "1.20.1+fabric": [
+      "wI8QKFBs",
+      "FHspqBhE"
+    ]
+  }
+}

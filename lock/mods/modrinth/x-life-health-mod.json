@@ -1,0 +1,89 @@
+{
+  "slug": "x-life-health-mod",
+  "projectId": "oWDu46gQ",
+  "versions": {
+    "eEiqIG4q": {
+      "filename": "xlife-1.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/oWDu46gQ/versions/eEiqIG4q/xlife-1.2-fabric.jar",
+      "hash": "sha512-EA2r4GOQzkjJaEz0j3aYK77CaDoKFer+JnXkWbzIRFo6D98g1PWtS1M8Byv+aWPRMbN95vBiydpgHHj/Qod7jw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "supermartijn642s-config-lib",
+          "projectId": "LN9BxssP",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "t6BPYiql": {
+      "filename": "xlifehealthmod-1.16.3-2.0.2 (1).jar",
+      "url": "https://cdn.modrinth.com/data/oWDu46gQ/versions/t6BPYiql/xlifehealthmod-1.16.3-2.0.2%20%281%29.jar",
+      "hash": "sha512-s8JpZTqahSniRtTtHpY3rdxCha44OWkBeUe1Z5cfpADGIVUTEJi9EZ9hzGLovkOyPuWDAe8CZQumoy7jdlp5ng==",
+      "gameVersions": [
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uO0CKSFb": {
+      "filename": "xlife-1.2-forge.jar",
+      "url": "https://cdn.modrinth.com/data/oWDu46gQ/versions/uO0CKSFb/xlife-1.2-forge.jar",
+      "hash": "sha512-+1IhbMztxWnxpJTaEQJiCLTP83S04USf2UpJVltKgd7WjOhNJUZp+6RKUG07HLM7UQnAdGfn9QyBg1iWo4eFdw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "supermartijn642s-config-lib",
+          "projectId": "LN9BxssP",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.3+forge": [
+      "t6BPYiql"
+    ],
+    "1.16.4+forge": [
+      "t6BPYiql"
+    ],
+    "1.16.5+forge": [
+      "t6BPYiql"
+    ],
+    "1.20.1+fabric": [
+      "eEiqIG4q"
+    ],
+    "1.20.1+forge": [
+      "uO0CKSFb"
+    ]
+  }
+}

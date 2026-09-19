@@ -1,0 +1,75 @@
+{
+  "slug": "pebbles-cosmetic-render-api",
+  "projectId": "N8rzOYzC",
+  "versions": {
+    "SlBvYKWh": {
+      "filename": "pebbles-cosmetics-1.1.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/N8rzOYzC/versions/SlBvYKWh/pebbles-cosmetics-1.1.0-1.21.1.jar",
+      "hash": "sha512-gTVEoOoeQ+OBiQzcJRA0pA2gs8Quey7JsoUofA4fq6WrgKiYnqIyOov4W3y0eATQ8YNtRwiZwSQiOdH2pOh3vQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "gZxb6IWb": {
+      "filename": "pebbles-cosmetics-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/N8rzOYzC/versions/gZxb6IWb/pebbles-cosmetics-1.1.0.jar",
+      "hash": "sha512-7X0tI5PBR4ECw8uzc2+TAnLONQVdpp1fJ+Cqno+MhbpA5p1GZ2QYyNyr1b1VlSeqSfu9DJNyfrp08ZK4zx2yFA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "oDZcUVcN": {
+      "filename": "pebbles-cosmetics-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/N8rzOYzC/versions/oDZcUVcN/pebbles-cosmetics-1.0.0.jar",
+      "hash": "sha512-ZdKVoC1MBNaeIUf7MtFuUzSkHJsS5T/qbCClTEZxjMCN3yVCIkByCtK47Qj8YgKAkxLSvqKW26LbQU1bFT3FYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gZxb6IWb",
+      "oDZcUVcN"
+    ],
+    "1.21.1+fabric": [
+      "SlBvYKWh"
+    ]
+  }
+}

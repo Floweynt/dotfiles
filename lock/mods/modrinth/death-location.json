@@ -1,0 +1,52 @@
+{
+  "slug": "death-location",
+  "projectId": "QSLjUjT2",
+  "versions": {
+    "NgPWle1M": {
+      "filename": "deathlocation-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QSLjUjT2/versions/NgPWle1M/deathlocation-1.0.0.jar",
+      "hash": "sha512-zRVXgIuX37pZ4Uhmj6hBghacjBKjxS89CIfqp/EBqYhyZllC3alPhPEjxNmC+xVkoBRCmc8Mt8vUGJHdKrdREA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "bJPVyGsS": {
+      "filename": "deathlocation-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/QSLjUjT2/versions/bJPVyGsS/deathlocation-1.1.jar",
+      "hash": "sha512-DqreWTAom2IFUNIwMfh57rz+7syK0+3P7EfxpcNsuO8cuMJrjr/VzWqlxMKtH1O4tr22ziy8TQLRY5yzv8mASQ==",
+      "gameVersions": [
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "bJPVyGsS",
+      "NgPWle1M"
+    ],
+    "1.20.5+fabric": [
+      "bJPVyGsS"
+    ],
+    "1.20.6+fabric": [
+      "bJPVyGsS"
+    ],
+    "1.21+fabric": [
+      "bJPVyGsS"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "annoying-villagers-legacy",
+  "projectId": "1XNzFgSy",
+  "versions": {
+    "4kPh7bJQ": {
+      "filename": "AnnoyingVillagers-0.2-forge.jar",
+      "url": "https://cdn.modrinth.com/data/1XNzFgSy/versions/4kPh7bJQ/AnnoyingVillagers-0.2-forge.jar",
+      "hash": "sha512-6ouIJgK73zbr4mW5LJm0f2lwy2Z44+tRgo0mjvzWHRAcRTEoN+KXCEo3ZRPdQpggObnk9jagFSy9lZaOHAVpjw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "neptune",
+          "projectId": "1imAYnrk",
+          "type": "required"
+        }
+      ]
+    },
+    "MM0FTEWB": {
+      "filename": "AnnoyingVillagers-0.2-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1XNzFgSy/versions/MM0FTEWB/AnnoyingVillagers-0.2-fabric.jar",
+      "hash": "sha512-4LK00hg3cL5hQaRnHupc+YlQf2NskZvrDEL2sDB4YBL7oJ9x2DAyI3ZXC/92FYG9y/UCkXVRNqwMYbvtk5wtPw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "neptune",
+          "projectId": "1imAYnrk",
+          "type": "required"
+        }
+      ]
+    },
+    "r7NBk3ef": {
+      "filename": "AnnoyingVillagers-0.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/1XNzFgSy/versions/r7NBk3ef/AnnoyingVillagers-0.1-forge.jar",
+      "hash": "sha512-LyFhCuxX/0k5TJhPTiGmRNpWjLCa6uWVhoXUl7pmwZtmixDWTJkbODHGuaE6RatnbEmBT8fKQ6KrPCL4ZibQvw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "tjTqyu4b": {
+      "filename": "AnnoyingVillagers-0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1XNzFgSy/versions/tjTqyu4b/AnnoyingVillagers-0.1-fabric.jar",
+      "hash": "sha512-0zcsoXLrO/reAvX9Wq7I8vtLfxdeZk4AlxybRbkfm17+CqIOZv3cKgRWP4R4yOxwUeKtBeDrT0ceRkKrWzgc+w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "MM0FTEWB",
+      "tjTqyu4b"
+    ],
+    "1.20.1+forge": [
+      "4kPh7bJQ",
+      "r7NBk3ef"
+    ]
+  }
+}

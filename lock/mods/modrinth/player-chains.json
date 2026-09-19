@@ -1,0 +1,58 @@
+{
+  "slug": "player-chains",
+  "projectId": "Wik6OAVM",
+  "versions": {
+    "8mJjUsPC": {
+      "filename": "PlayerChains-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wik6OAVM/versions/8mJjUsPC/PlayerChains-1.1.jar",
+      "hash": "sha512-hr3VAxIZMAX5LQZWQCuLVh+ppb9N9G6friSGSwuiqZAtbG9M3dEIatOW1dXc6Hh/K6DrEi/oERKbKX1xj3LHnA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "SnZy5VjA": {
+      "filename": "PlayerChains-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Wik6OAVM/versions/SnZy5VjA/PlayerChains-1.0.jar",
+      "hash": "sha512-0PXDyNQOPPRajrT44clQ4cKWn9nIPvGsHQAF/5JP0CBJYtrrCHtp5w9p6c17Xjgh9oIXmCvMDPzj/Ye5cQI1CA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "SnZy5VjA"
+    ],
+    "1.21.1+fabric": [
+      "SnZy5VjA"
+    ],
+    "1.21.8+fabric": [
+      "8mJjUsPC"
+    ]
+  }
+}

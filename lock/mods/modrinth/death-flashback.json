@@ -1,0 +1,108 @@
+{
+  "slug": "death-flashback",
+  "projectId": "F3FpS9qN",
+  "versions": {
+    "8YIfvnBi": {
+      "filename": "DeathFlashback-fabric-1.0.0-mc22w17a.jar",
+      "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.0/DeathFlashback-fabric-1.0.0-mc22w17a.jar",
+      "hash": "sha512-9uTTcRX3V7E//Cq4sgPG44YLsgV0AfMGHvOPdx0EJx+Q2HpLF9nDldP0jkrFmDFgxEQScxlMV8C5newy34TN8A==",
+      "gameVersions": [
+        "22w17a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OiNYht7a": {
+      "filename": "DeathFlashback-fabric-1.0.2-mc22w17a.jar",
+      "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.2/DeathFlashback-fabric-1.0.2-mc22w17a.jar",
+      "hash": "sha512-zfwAQSiwIIyDIeXuteLGCzEBxlZ9jykEF/xiBsxXBtskyMZazRuuu2Rs0ZNmK8e7/iL4+r8BIUvDExVmsmBwjw==",
+      "gameVersions": [
+        "22w17a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mudrock",
+          "projectId": "8abHI823",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YZypson4": {
+      "filename": "DeathFlashback-fabric-1.1.0-mc22w17a.jar",
+      "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.1.0/DeathFlashback-fabric-1.1.0-mc22w17a.jar",
+      "hash": "sha512-xh6O7cwQo4kYUQkRSsuj7bNFiymdKaiSXZ26R2KvqXGvAEZqsZa4SgJpT1Ro9MdQUEukE27TYd+hMEglgkt/vQ==",
+      "gameVersions": [
+        "22w17a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "mudrock",
+          "projectId": "8abHI823",
+          "type": "required"
+        }
+      ]
+    },
+    "buEF4HFe": {
+      "filename": "DeathFlashback-fabric-1.0.1-mc22w17a.jar",
+      "url": "https://cdn.modrinth.com/data/F3FpS9qN/versions/1.0.1/DeathFlashback-fabric-1.0.1-mc22w17a.jar",
+      "hash": "sha512-kDn6Un5appAD5sufQdkrOJuTYUm3PdlcIZXIffzjzDDOybGwjAgiHtobaeVf1EjeI1SoYPaXelGsTdAClH+vxA==",
+      "gameVersions": [
+        "22w17a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "22w17a+fabric": [
+      "YZypson4",
+      "OiNYht7a",
+      "buEF4HFe",
+      "8YIfvnBi"
+    ],
+    "22w17a+quilt": [
+      "YZypson4",
+      "OiNYht7a",
+      "buEF4HFe",
+      "8YIfvnBi"
+    ]
+  }
+}

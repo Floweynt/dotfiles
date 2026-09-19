@@ -1,0 +1,82 @@
+{
+  "slug": "effect-black-list",
+  "projectId": "TdqNMhOn",
+  "versions": {
+    "5VACvTCp": {
+      "filename": "effectblacklist-fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/TdqNMhOn/versions/5VACvTCp/effectblacklist-fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-uTiQWkvsbFOYEfJheXDOy4LDl8Wterm8Ym63N0xnv185L0rRUF2nutW1f/dAuwUmJrvvAVsXR8w/jju/Np8D4A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "5zliH9SY": {
+      "filename": "effectblacklist-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TdqNMhOn/versions/5zliH9SY/effectblacklist-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-nJZPfk5m088gmpF1aEeTZwLugBzD2r0etCeB6zDbTTIKehAgUP7SWkCTJstX4yHPlY+U+wcy8gBbnZlMdfb/Yw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "M5MvWFKT": {
+      "filename": "effectblacklist-neoforge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TdqNMhOn/versions/M5MvWFKT/effectblacklist-neoforge-1.20.1-1.0.0.jar",
+      "hash": "sha512-ggW+i2NlEJNmpAxppjeHnBNdAhkn2ttxXgeu05m9ii09bI1DNNmXH2OYHuyWWK7cHWczMnUbzuVw0pJObRNiBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "rMtddHP3": {
+      "filename": "effectblacklist-neoforge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/TdqNMhOn/versions/rMtddHP3/effectblacklist-neoforge-1.20.1-1.0.1.jar",
+      "hash": "sha512-7lx2LatRGLXXLompUQcPpRRmh9QSl/wAW3QqXOzORiBNOGQLktOrbHyvvX8MfXlQUv6MU6xVfKQrJ2t0URxgsQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5VACvTCp",
+      "5zliH9SY"
+    ],
+    "1.20.1+forge": [
+      "rMtddHP3",
+      "M5MvWFKT"
+    ],
+    "1.20.1+neoforge": [
+      "rMtddHP3"
+    ]
+  }
+}

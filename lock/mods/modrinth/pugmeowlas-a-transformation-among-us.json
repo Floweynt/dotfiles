@@ -1,0 +1,69 @@
+{
+  "slug": "pugmeowlas-a-transformation-among-us",
+  "projectId": "21Jwiymu",
+  "versions": {
+    "DfK0W7wg": {
+      "filename": "ATAU-0.3.jar",
+      "url": "https://cdn.modrinth.com/data/21Jwiymu/versions/DfK0W7wg/ATAU-0.3.jar",
+      "hash": "sha512-4NyMweLCEYrE5m+LWt7EuKpvita9j2qG/YJCcEN1rkKnl2Mhs5Nd0LvPpy6/deLm3ZT2VyjufQe0t2aOzkMRvg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VkRQh8aU": {
+      "filename": "ATAU-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/21Jwiymu/versions/VkRQh8aU/ATAU-1.0.jar",
+      "hash": "sha512-fSd1eYRfwK8U27SNcRYp0drEXHL0Bgr+YGyM9ytVj6YXTSfKrwJIcZ2IKcybXR/P95QPnik7KBmX8Rloziw2fw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "eY50VafJ": {
+      "filename": "ATAU-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/21Jwiymu/versions/eY50VafJ/ATAU-0.2.jar",
+      "hash": "sha512-QbGeRALyVywyMTTX2N/3YZTc4KnTUbxcZKN47zGbGQDIV5uN0TkEQDuZA+ZJF4l3i4GzH1vNm7e6QJVCbAWr9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VkRQh8aU",
+      "DfK0W7wg",
+      "eY50VafJ"
+    ],
+    "1.20.1+forge": [
+      "VkRQh8aU",
+      "DfK0W7wg",
+      "eY50VafJ"
+    ]
+  }
+}

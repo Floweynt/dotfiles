@@ -1,0 +1,120 @@
+{
+  "slug": "killer-bunny-tweaks",
+  "projectId": "cfTpk4Ed",
+  "versions": {
+    "YIa5p6k9": {
+      "filename": "killer_rabbit_transformation-forge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cfTpk4Ed/versions/YIa5p6k9/killer_rabbit_transformation-forge-2.0.0.jar",
+      "hash": "sha512-R7t+m7wnCreFI5+ycftwA6WuKYlrD6E/FGeaOWjsPdxjcto/YxYWlIXhGfavPZZC9Br5pU4/9CTyeYgd6W94hw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "badzyMok": {
+      "filename": "killer_rabbit_transformation-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cfTpk4Ed/versions/badzyMok/killer_rabbit_transformation-fabric-2.0.0.jar",
+      "hash": "sha512-Mqywugdok3YTXYf24UoNRA5aqLlo5QMRSBMnvR6aki6Vwf2kobxcOTCvbmybtaBwBnjZbtxHds3nF6pezaC23w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "c4DaEAVZ": {
+      "filename": "killer_rabbit_transformation-forge-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cfTpk4Ed/versions/c4DaEAVZ/killer_rabbit_transformation-forge-2.0.0.jar",
+      "hash": "sha512-OX6pG8plJQ71QplByV/gyFWOMXwCut2YMdSeJH+k0Ala2O6acR18WLYhRxYh/QfTOHU08+mQ5cfnwFgrhokK9w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "jH099vVi": {
+      "filename": "killer_rabbit_transformation-fabric-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/cfTpk4Ed/versions/jH099vVi/killer_rabbit_transformation-fabric-2.0.0.jar",
+      "hash": "sha512-/trA3w99KNACjjjkf2sBQyg+ZV4en/Ou9Ks0bqrJuANG0UWPsxfTMpu+ZTxC/QPXiLvCsld3N1g9Ivds/gjiLg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "badzyMok"
+    ],
+    "1.19.2+forge": [
+      "c4DaEAVZ"
+    ],
+    "1.20.1+fabric": [
+      "jH099vVi"
+    ],
+    "1.20.1+forge": [
+      "YIa5p6k9"
+    ]
+  }
+}

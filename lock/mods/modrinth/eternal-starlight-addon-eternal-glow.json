@@ -1,0 +1,48 @@
+{
+  "slug": "eternal-starlight-addon-eternal-glow",
+  "projectId": "rS0HL0pw",
+  "versions": {
+    "v0l1ScNt": {
+      "filename": "eternal_glow-1.0.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/rS0HL0pw/versions/v0l1ScNt/eternal_glow-1.0.0-neoforge-1.21.1.jar",
+      "hash": "sha512-xROWKyCL2aflsvoed7tKd1EeD3ZCJSc7oX9V3whCYE0ogjU8bBcbwI04FDxgR4tOZwbOQJ/mh2nNM/SzUIezFA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "eternal-starlight",
+          "projectId": "XvcfUGfB",
+          "type": "required"
+        }
+      ]
+    },
+    "zFsjbRDx": {
+      "filename": "eternalglow-fabric-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/rS0HL0pw/versions/zFsjbRDx/eternalglow-fabric-1.21.1.jar",
+      "hash": "sha512-dSo7irom/dvkdhQdNKEY1oOhXkiDO1O0dZvA7aeLXiO7cjD65PYIIufq93jCi+MelaoAfF+qH/4Gz0sFYRXyEg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "zFsjbRDx"
+    ],
+    "1.21.1+neoforge": [
+      "v0l1ScNt"
+    ]
+  }
+}

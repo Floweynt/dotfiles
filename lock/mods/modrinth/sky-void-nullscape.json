@@ -1,0 +1,172 @@
+{
+  "slug": "sky-void-nullscape",
+  "projectId": "CEQovCIl",
+  "versions": {
+    "5FoUuWbX": {
+      "filename": "sky-void-nullscape-1.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/CEQovCIl/versions/5FoUuWbX/sky-void-nullscape-1.2.8.jar",
+      "hash": "sha512-BUbBY3WK1fAbHoSMbZLL58TlmaM5g48YUjHZ1GQTHc2l6nDaglwvxDtBwIoPFKH2qFE7d2HCI4Ae0L6bomDBsg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "nullscape",
+          "projectId": "LPjGiSO4",
+          "type": "required"
+        }
+      ]
+    },
+    "NZoQQos8": {
+      "filename": "skyvoid_compat_nullscape_v1_2_8-MC_1_21.zip",
+      "url": "https://cdn.modrinth.com/data/CEQovCIl/versions/NZoQQos8/skyvoid_compat_nullscape_v1_2_8-MC_1_21.zip",
+      "hash": "sha512-2d/7e/uAgiIx+izVMWkXTKmC32c/lf1agx6WjkVAOBtyW1pwyqnPHiX0BOy/UQgXmkdQkOCKpQvOyMA6R/KqrQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "nullscape",
+          "projectId": "LPjGiSO4",
+          "type": "required"
+        }
+      ]
+    },
+    "jQEYTzZg": {
+      "filename": "skyvoid_compat_nullscape_v1_0_1+nullscape-1_2_8-MC_1_21.zip",
+      "url": "https://cdn.modrinth.com/data/CEQovCIl/versions/jQEYTzZg/skyvoid_compat_nullscape_v1_0_1%2Bnullscape-1_2_8-MC_1_21.zip",
+      "hash": "sha512-6jkP0GHvRnFeHynq5MvNzr6Ycb5KUmZUZGA8Bs5ALC9GM+UsRlEGUsDk39pN1Qm05cNvcMB2JSqbr66IrcDfHQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "nullscape",
+          "projectId": "LPjGiSO4",
+          "type": "required"
+        }
+      ]
+    },
+    "t0MXi8Xv": {
+      "filename": "sky-void-nullscape-1.0.1+nullscape-1.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/CEQovCIl/versions/t0MXi8Xv/sky-void-nullscape-1.0.1%2Bnullscape-1.2.8.jar",
+      "hash": "sha512-6BKoiSWxYKZnd7HfSIEyBIpLIVoZ73O9Hcg3//jCDRUcZ6lolcjd5P+8eLAwJmYrSkF39JaS4WoIybUNpRBBjQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "nullscape",
+          "projectId": "LPjGiSO4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "jQEYTzZg",
+      "NZoQQos8"
+    ],
+    "1.21+fabric": [
+      "t0MXi8Xv",
+      "5FoUuWbX"
+    ],
+    "1.21+forge": [
+      "t0MXi8Xv",
+      "5FoUuWbX"
+    ],
+    "1.21+neoforge": [
+      "t0MXi8Xv",
+      "5FoUuWbX"
+    ],
+    "1.21+quilt": [
+      "t0MXi8Xv",
+      "5FoUuWbX"
+    ],
+    "1.21.1+datapack": [
+      "jQEYTzZg",
+      "NZoQQos8"
+    ],
+    "1.21.1+fabric": [
+      "t0MXi8Xv",
+      "5FoUuWbX"
+    ],
+    "1.21.1+forge": [
+      "t0MXi8Xv",
+      "5FoUuWbX"
+    ],
+    "1.21.1+neoforge": [
+      "t0MXi8Xv",
+      "5FoUuWbX"
+    ],
+    "1.21.1+quilt": [
+      "t0MXi8Xv",
+      "5FoUuWbX"
+    ],
+    "1.21.2+datapack": [
+      "jQEYTzZg"
+    ],
+    "1.21.2+fabric": [
+      "t0MXi8Xv"
+    ],
+    "1.21.2+forge": [
+      "t0MXi8Xv"
+    ],
+    "1.21.2+neoforge": [
+      "t0MXi8Xv"
+    ],
+    "1.21.2+quilt": [
+      "t0MXi8Xv"
+    ],
+    "1.21.3+datapack": [
+      "jQEYTzZg"
+    ],
+    "1.21.3+fabric": [
+      "t0MXi8Xv"
+    ],
+    "1.21.3+forge": [
+      "t0MXi8Xv"
+    ],
+    "1.21.3+neoforge": [
+      "t0MXi8Xv"
+    ],
+    "1.21.3+quilt": [
+      "t0MXi8Xv"
+    ]
+  }
+}

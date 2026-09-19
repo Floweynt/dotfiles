@@ -1,0 +1,97 @@
+{
+  "slug": "sigma-gigachad-mod",
+  "projectId": "wLqXwxXh",
+  "versions": {
+    "jaiUyTtC": {
+      "filename": "sigmamod-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/wLqXwxXh/versions/jaiUyTtC/sigmamod-1.0.jar",
+      "hash": "sha512-oBdldbuXhS+L93ZFu/S8HVOV8l9p8mFeTwemP2EcVzdhWJN7YxRRYlj9595uqdlaG2UDuRCXHUFh9sLe/6e8zQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "r1zwUWFg": {
+      "filename": "sigmamod-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/wLqXwxXh/versions/r1zwUWFg/sigmamod-1.1.jar",
+      "hash": "sha512-ohrz8KT8GVh3cTsrn/IMtQRIcVUvHojKG6pjyh4uA/AIMx+5I8dLoq0CDLnS46sdtwNvKa4INd/4WIqjTQfeQg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20+quilt": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20.1+fabric": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20.1+quilt": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20.2+fabric": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20.2+quilt": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20.3+fabric": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20.3+quilt": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20.4+fabric": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ],
+    "1.20.4+quilt": [
+      "r1zwUWFg",
+      "jaiUyTtC"
+    ]
+  }
+}

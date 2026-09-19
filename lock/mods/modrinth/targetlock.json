@@ -1,0 +1,43 @@
+{
+  "slug": "targetlock",
+  "projectId": "58GH9Bdk",
+  "versions": {
+    "ixXBDGYj": {
+      "filename": "target-lock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/58GH9Bdk/versions/ixXBDGYj/target-lock-1.0.0.jar",
+      "hash": "sha512-816LWBjf8nsO7ypJ552FWRGWlqDxD7uV2inmhaXAxMaP/VByj/hl3djzrN21a5LTDuDKglIc7bqdtu93SKeSQw==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "ixXBDGYj"
+    ],
+    "1.21.11+fabric": [
+      "ixXBDGYj"
+    ],
+    "1.21.8+fabric": [
+      "ixXBDGYj"
+    ],
+    "1.21.9+fabric": [
+      "ixXBDGYj"
+    ]
+  }
+}

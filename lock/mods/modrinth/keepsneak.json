@@ -1,0 +1,85 @@
+{
+  "slug": "keepsneak",
+  "projectId": "sTAKUQAS",
+  "versions": {
+    "MWqZmovx": {
+      "filename": "keepsneak-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sTAKUQAS/versions/MWqZmovx/keepsneak-1.0.0.jar",
+      "hash": "sha512-lGpUFGwKUBvM31BSRXzRT5ljYcwOVn/pO9L7Uswdy3PXsoMXUWOZUw/C0OaZFeX6sGPRqprxvvTRuMQ0sO8Y7w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d8RPBDg3": {
+      "filename": "keepsneak-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sTAKUQAS/versions/d8RPBDg3/keepsneak-1.0.0.jar",
+      "hash": "sha512-OQaVF6nY+ypUT975HW9Br3h7C8nicISLARtIT1ffGj3K8vIixVzx20TCub9Vt4R8QCwHjDxZVNbBITeN5I6Dgg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "otC8Ww6k": {
+      "filename": "keepsneak-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sTAKUQAS/versions/otC8Ww6k/keepsneak-1.0.0.jar",
+      "hash": "sha512-64KGPcuAuT5U4dTkKuDNFkTgBqREHYR6YAj7UVyV7oiDEtcpAtziinNv+1XZj5nZxCX/TLUnYzVJU/OrnjhcnA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "MWqZmovx"
+    ],
+    "26.1+fabric": [
+      "otC8Ww6k"
+    ],
+    "26.1.1+fabric": [
+      "otC8Ww6k"
+    ],
+    "26.1.2+fabric": [
+      "otC8Ww6k"
+    ],
+    "26.2+fabric": [
+      "d8RPBDg3"
+    ]
+  }
+}

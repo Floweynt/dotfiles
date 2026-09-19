@@ -1,0 +1,78 @@
+{
+  "slug": "auto-pillar-generator",
+  "projectId": "jamfHv4m",
+  "versions": {
+    "OqGMLPdb": {
+      "filename": "auto-pillar-generator-0.1.8-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/jamfHv4m/versions/OqGMLPdb/auto-pillar-generator-0.1.8-1.20.1.jar",
+      "hash": "sha512-4x6lcPDSwn2BLCTKJfMh2xuQqgGpq5D9nEPyWyO5zEF5ww+RXxMTMheDitBjX7zJ0+9crSrPbIcfJwI2AdcEIA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OuEiCd9i": {
+      "filename": "auto-pillar-generator-0.1.8-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/jamfHv4m/versions/OuEiCd9i/auto-pillar-generator-0.1.8-1.19.2.jar",
+      "hash": "sha512-itpN8FfoaliheyhUBSu10GNdfoSgxxEj4iBjQgeqDsIe4OLaxAZkumD6KRq1EYSxjQ8EVw9aY+mjcsbGHVZNZQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "W2LE5G6S": {
+      "filename": "auto_pillar_generator-0.1.6-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/jamfHv4m/versions/W2LE5G6S/auto_pillar_generator-0.1.6-1.19.2.jar",
+      "hash": "sha512-a0lLSWs3fqve/QAPD+6fDjHF/HR+33dq+3V/rbzvktZnwHnLilPQ0kT4bG6VwHcUhjTWSX+Kr2Fg7QJXF8tPPg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "n7Z8GvS7": {
+      "filename": "auto-pillar-generator-0.1.9-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/jamfHv4m/versions/n7Z8GvS7/auto-pillar-generator-0.1.9-1.20.1.jar",
+      "hash": "sha512-G6zlon6iFqAlVNYoxh6b9Mcq24Y4WHTRtM65wwEwMYfLHNvyzxeBdkMWa7406ZCLra40N/iB5authS5pLcAilA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "OuEiCd9i",
+      "W2LE5G6S"
+    ],
+    "1.20.1+fabric": [
+      "n7Z8GvS7",
+      "OqGMLPdb"
+    ]
+  }
+}

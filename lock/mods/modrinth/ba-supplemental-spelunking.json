@@ -1,0 +1,94 @@
+{
+  "slug": "ba-supplemental-spelunking",
+  "projectId": "xinxLhSY",
+  "versions": {
+    "9jOIPUfu": {
+      "filename": "Bug's Alterations - Supplemental Spelunking.zip",
+      "url": "https://cdn.modrinth.com/data/xinxLhSY/versions/9jOIPUfu/Bug%27s%20Alterations%20-%20Supplemental%20Spelunking.zip",
+      "hash": "sha512-slO5v6Vz9vltTDwjhPVDl73YEwv2CRHCHBagdUuwOr9AWbBNLV5sxCweZQ7ldaCxqkD9I/Bv6F7lnSnBGsiDWg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "LqQaSPSM": {
+      "filename": "Bug's Alterations - Supplemental Spelunking.zip",
+      "url": "https://cdn.modrinth.com/data/xinxLhSY/versions/LqQaSPSM/Bug%27s%20Alterations%20-%20Supplemental%20Spelunking.zip",
+      "hash": "sha512-S2Pw/n8wDnW1Sf9SX+CQdr7L+K+D3dmAfXPbGAokmZxDvHH4UjkCCZG0kUM2405kPz6OPf6KJyQOJl8+N+/98A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "supplementaries",
+          "projectId": "fFEIiSDQ",
+          "type": "required"
+        },
+        {
+          "slug": "spelunkery",
+          "projectId": "krskFMfA",
+          "type": "required"
+        }
+      ]
+    },
+    "MbkapLEt": {
+      "filename": "ba-supplemental-spelunking-3.jar",
+      "url": "https://cdn.modrinth.com/data/xinxLhSY/versions/MbkapLEt/ba-supplemental-spelunking-3.jar",
+      "hash": "sha512-JPCYT2WAm1SxWZoorAFLMejHhDAGZDklP6gTWVT2AfmuLQqXFwrHACP0+w9V63Vckz1eycjUzgtrXJUgXbDt3w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "spelunkery",
+          "projectId": "krskFMfA",
+          "type": "required"
+        },
+        {
+          "slug": "supplementaries",
+          "projectId": "fFEIiSDQ",
+          "type": "required"
+        }
+      ]
+    },
+    "mTIRmSVw": {
+      "filename": "Bug's Alterations - Supplemental Spelunking.zip",
+      "url": "https://cdn.modrinth.com/data/xinxLhSY/versions/mTIRmSVw/Bug%27s%20Alterations%20-%20Supplemental%20Spelunking.zip",
+      "hash": "sha512-BIY74q5J/q5zgCScCG+sLLY9JUe5zN1QHR2rBxpxA4ggNRTj9MejcKpUXvTffJmpBoZFqYaQP1gH7I7oIRehaQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "LqQaSPSM",
+      "mTIRmSVw",
+      "9jOIPUfu"
+    ],
+    "1.20.1+fabric": [
+      "MbkapLEt"
+    ]
+  }
+}

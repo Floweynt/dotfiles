@@ -1,0 +1,112 @@
+{
+  "slug": "tabgamemodes",
+  "projectId": "kbDaN0zg",
+  "versions": {
+    "4V3DEqtO": {
+      "filename": "TabGamemode.jar",
+      "url": "https://cdn.modrinth.com/data/kbDaN0zg/versions/4V3DEqtO/TabGamemode.jar",
+      "hash": "sha512-9KDirE1/6QVamkDpwk+G7P+EvvAkhaKTZXwFRmRujSC6aFGs/1X6nZRRoEpC8lcV4CasLyUviPk2l539L6gyvQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "V6FDhkOM": {
+      "filename": "TabGamemode.jar",
+      "url": "https://cdn.modrinth.com/data/kbDaN0zg/versions/V6FDhkOM/TabGamemode.jar",
+      "hash": "sha512-rfZTR/9YlFoZaY1wrsyXXGmS/AHNjUrdfH+N5pxBHuvVZCOOup3iFcQL+gIYASg0rFMG/yJOuX9wTpiLfN07Ow==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Zsp8biQQ": {
+      "filename": "TabGamemodes-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/kbDaN0zg/versions/Zsp8biQQ/TabGamemodes-1.1.1.jar",
+      "hash": "sha512-TB66vIsIIAe1N6tjlwfRrriwDyE7bLreXQOnYDToPqKkv0/ryNwLzukFK+xOFlkWYQYxKAlvn+b8r4Sgw2eJXg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hzpN4X8N": {
+      "filename": "TabGamemodes-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/kbDaN0zg/versions/hzpN4X8N/TabGamemodes-1.1.jar",
+      "hash": "sha512-+AbA2tsBuuDHNMUEi6QFf4QGp4FAQ9MZTfcoSt50DDPJSZXqrsyctOldJyeP3gtvASw0zLPIpcD2QwJIjfloxA==",
+      "gameVersions": [
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "Zsp8biQQ",
+      "4V3DEqtO"
+    ],
+    "1.21.1+fabric": [
+      "Zsp8biQQ",
+      "4V3DEqtO",
+      "V6FDhkOM"
+    ],
+    "1.21.2+fabric": [
+      "Zsp8biQQ"
+    ],
+    "1.21.3+fabric": [
+      "Zsp8biQQ",
+      "hzpN4X8N"
+    ],
+    "1.21.4+fabric": [
+      "Zsp8biQQ"
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "slug": "mindful-eating-fabric",
+  "projectId": "R1cPLs6u",
+  "versions": {
+    "BvAMVUiF": {
+      "filename": "mindful_eating-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/R1cPLs6u/versions/BvAMVUiF/mindful_eating-1.1.1.jar",
+      "hash": "sha512-EAw1nvnQaKMSXCR6Whzj9o7J72F+oKLzDTbDrdLc1doHqwhcIYIvYff/U2S4/+px5z6z56pJNeZlFoLGc70HYQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "diet",
+          "projectId": "SsIkH9rZ",
+          "type": "required"
+        }
+      ]
+    },
+    "HPyVGr2a": {
+      "filename": "mindful_eating-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1cPLs6u/versions/HPyVGr2a/mindful_eating-1.0.0.jar",
+      "hash": "sha512-EVRfPU5dTKbR1CAfEjwVOTq1tKx1CZfdQAAuFK1cx9O8ptcoWaja+Dcw50pu+w6JQs43dP2xQNfoyTxKNts2PQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rJa3zEAj": {
+      "filename": "mindful_eating-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/R1cPLs6u/versions/rJa3zEAj/mindful_eating-1.1.0.jar",
+      "hash": "sha512-zlXlX7xdcQpgUYI+y8jOKEMmkOv+HJQeya0zRIgB9eAHwUboYqTlfKTiUdrUhF16CbNxKWEJAx0o89dNCnt+Ew==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "diet",
+          "projectId": "SsIkH9rZ",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "wbr62bA8": {
+      "filename": "mindful_eating-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/R1cPLs6u/versions/wbr62bA8/mindful_eating-1.1.2.jar",
+      "hash": "sha512-Wfwjgn6rJZxQW4L+/vYqEiQMeIXvPI6F/lmMEyOqMNHv4VKEfC7ts3FwyTBbQQ0AXie0C8/OF3SCqFgEDeKlAg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "diet",
+          "projectId": "SsIkH9rZ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wbr62bA8",
+      "BvAMVUiF",
+      "rJa3zEAj",
+      "HPyVGr2a"
+    ]
+  }
+}

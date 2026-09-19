@@ -1,0 +1,87 @@
+{
+  "slug": "randomizer-plus-plus",
+  "projectId": "HRbHTeKz",
+  "versions": {
+    "DrBhm0DL": {
+      "filename": "rRandomizerPlusPlus-0.0.1+alpha.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/HRbHTeKz/versions/DrBhm0DL/rRandomizerPlusPlus-0.0.1%2Balpha.1-1.20.4.jar",
+      "hash": "sha512-m8Dq8u4+PxaQbfnlTWqziJLjQP/EBRn54njJO0OT+SU+sWazVNns3IU5tSn1u22hg/eaFh74LWxsbBprzR/1Yw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "brrp",
+          "projectId": "JnrDtPAE",
+          "type": "required"
+        }
+      ]
+    },
+    "jx2qS26Y": {
+      "filename": "RandomizerPlusPlus-0.0.2+alpha.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/HRbHTeKz/versions/jx2qS26Y/RandomizerPlusPlus-0.0.2%2Balpha.1-1.20.4.jar",
+      "hash": "sha512-u5SzmrQFevaNoHWdfOipTs6w0Ax9WX85b9D6DGwrlFodBnzqhrCGmNvMDFMbO+dboa21gKQbX4Kx3RRKhJUesA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "brrp",
+          "projectId": "JnrDtPAE",
+          "type": "required"
+        }
+      ]
+    },
+    "mt7FBeXw": {
+      "filename": "RandomizerPlusPlus-0.0.2+alpha.2-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/HRbHTeKz/versions/mt7FBeXw/RandomizerPlusPlus-0.0.2%2Balpha.2-1.20.4.jar",
+      "hash": "sha512-hLN6UFluAueCYCaWwcQGyJLHLzvCXS0Rg8SE78cNdEdKQYXJ2D9oCt0JnCdDJ7sYkT5yMRhLa+VuzQWEfAozdA==",
+      "gameVersions": [
+        "1.20.4",
+        "1.20.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "mt7FBeXw",
+      "jx2qS26Y",
+      "DrBhm0DL"
+    ],
+    "1.20.5+fabric": [
+      "mt7FBeXw"
+    ]
+  }
+}

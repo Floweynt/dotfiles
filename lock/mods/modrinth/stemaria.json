@@ -1,0 +1,82 @@
+{
+  "slug": "stemaria",
+  "projectId": "kxGKqPYr",
+  "versions": {
+    "OZG188cg": {
+      "filename": "[FABRIC]-Stemaria-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/kxGKqPYr/versions/OZG188cg/%5BFABRIC%5D-Stemaria-1.2.1.jar",
+      "hash": "sha512-9mRGc83GNIQIAqu4ox22CYA3RNeEemb5F651nvofpLo8YNrRgAQ4pWVyte6kSBHahrv+GZooXbgNVKbnI6Wtiw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "croparia",
+          "projectId": "OoINVquf",
+          "type": "required"
+        }
+      ]
+    },
+    "TRKX81pk": {
+      "filename": "FABRIC-Stemaria-1.20.2-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/kxGKqPYr/versions/TRKX81pk/FABRIC-Stemaria-1.20.2-2.2.jar",
+      "hash": "sha512-Qo1cSPYt86r1Sw60CJZBetJ5W+vTQ94qHO+YoUfyLupGsmk88pPYB+fc+ZG9cUOrOFBl4R/ZFPS+SbeLWJR+qQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "croparia",
+          "projectId": "OoINVquf",
+          "type": "required"
+        }
+      ]
+    },
+    "zoWzkRDC": {
+      "filename": "FABRIC-Stemaria-2.2.jar",
+      "url": "https://cdn.modrinth.com/data/kxGKqPYr/versions/zoWzkRDC/FABRIC-Stemaria-2.2.jar",
+      "hash": "sha512-qU1lHvtdyUwd7VXNO3Ic3judh1wlGnD4Ea2Eb6cv0KgnwPYqK+zfZq5xWQF/aFxXJRYjjc6nPZpypbXWvPxJSw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "OZG188cg"
+    ],
+    "1.20.1+fabric": [
+      "zoWzkRDC"
+    ],
+    "1.20.2+fabric": [
+      "TRKX81pk"
+    ]
+  }
+}

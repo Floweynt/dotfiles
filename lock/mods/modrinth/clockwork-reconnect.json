@@ -1,0 +1,41 @@
+{
+  "slug": "clockwork-reconnect",
+  "projectId": "83RaQAhq",
+  "versions": {
+    "9rO0yksB": {
+      "filename": "clockwork-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/83RaQAhq/versions/9rO0yksB/clockwork-1.0.jar",
+      "hash": "sha512-7czy7OxzuRZcT/0luiGMdJbb4yi2NdfS5xEiQDKKa2lrsWQemLjlbruRA0iyVLUQuGQyYzSs0fuB1veiqlo9pQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "silk",
+          "projectId": "aTaCgKLW",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "9rO0yksB"
+    ]
+  }
+}

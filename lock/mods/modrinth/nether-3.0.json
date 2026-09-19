@@ -1,0 +1,64 @@
+{
+  "slug": "nether-3.0",
+  "projectId": "NN2zkde6",
+  "versions": {
+    "TOcrY3iS": {
+      "filename": "nether-3-51.zip",
+      "url": "https://cdn.modrinth.com/data/NN2zkde6/versions/TOcrY3iS/nether-3-51.zip",
+      "hash": "sha512-U4fu9aEGq5qQN5V82P2wyvWYgroyC4otybV43xs8Tq2ad5sPZxOmRNuBglEx2DY2/kzFa2yLQGi4kHdC8N5Rkg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "UH6Y80SO": {
+      "filename": "nether-3.0-3.51.jar",
+      "url": "https://cdn.modrinth.com/data/NN2zkde6/versions/UH6Y80SO/nether-3.0-3.51.jar",
+      "hash": "sha512-mlsiSAb1bBFck5wnXn6V7gAJme2GuFSIS8wvMOeu5DqWzwndaRGPpit/gqU7wgFfmmPPZ8LNaa6tgbP/6w/sTg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "TOcrY3iS"
+    ],
+    "1.20+fabric": [
+      "UH6Y80SO"
+    ],
+    "1.20+forge": [
+      "UH6Y80SO"
+    ],
+    "1.20+quilt": [
+      "UH6Y80SO"
+    ],
+    "1.20.1+datapack": [
+      "TOcrY3iS"
+    ],
+    "1.20.1+fabric": [
+      "UH6Y80SO"
+    ],
+    "1.20.1+forge": [
+      "UH6Y80SO"
+    ],
+    "1.20.1+quilt": [
+      "UH6Y80SO"
+    ]
+  }
+}

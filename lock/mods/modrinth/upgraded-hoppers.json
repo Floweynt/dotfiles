@@ -1,0 +1,53 @@
+{
+  "slug": "upgraded-hoppers",
+  "projectId": "VSaJoHs6",
+  "versions": {
+    "Is1gxYCP": {
+      "filename": "upgraded-hoppers-0.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VSaJoHs6/versions/Is1gxYCP/upgraded-hoppers-0.0.0-1.20.1.jar",
+      "hash": "sha512-t+8IalUvfBMRdpqT3IPX1qPJM/oMKDLn3TWrjN3/kDEsb8upNLUEEirjDmMBO72vko60ngQTcyenCCqq1E6R4A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "m3srNDGD": {
+      "filename": "upgraded-hoppers-0.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/VSaJoHs6/versions/m3srNDGD/upgraded-hoppers-0.0.1-1.20.1.jar",
+      "hash": "sha512-0iiOKVbU3XWg69P0zpfyWYbOt/hqiOJERs1iUalNtf5oaFMHGtrPJNcme2/Is0+TH+lac9wgcGFWNlahHHVJmg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "m3srNDGD",
+      "Is1gxYCP"
+    ],
+    "1.20.1+quilt": [
+      "m3srNDGD"
+    ],
+    "1.20.2+fabric": [
+      "m3srNDGD",
+      "Is1gxYCP"
+    ],
+    "1.20.2+quilt": [
+      "m3srNDGD"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "salt-fabric",
+  "projectId": "wf0nnXoC",
+  "versions": {
+    "Q2ehckP3": {
+      "filename": "salt-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/wf0nnXoC/versions/Q2ehckP3/salt-1.0.0.jar",
+      "hash": "sha512-qiUeSF0cuizZeJFX7yOQNtqCuX/mA8cel53Xp4ZD1j0anUMe10OcCExJ6rWWRVBLdOmfwerUftwIJO+GlhLxsw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Q2ehckP3"
+    ]
+  }
+}

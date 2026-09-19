@@ -1,0 +1,87 @@
+{
+  "slug": "crossbow-auto-release",
+  "projectId": "SfZq4F6G",
+  "versions": {
+    "FVgPzLT0": {
+      "filename": "crossbow-release-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/SfZq4F6G/versions/FVgPzLT0/crossbow-release-0.1.jar",
+      "hash": "sha512-QOYNVj3cD4onCaiLRxjVUFQmtM/xYtmiyzKL6KOiwVo2NcnCPbPxqcBH9BjFsq2NN6Vyl+iu+vs9Ci2RKfXEBw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "z0MIh05R": {
+      "filename": "crossbow-release-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/SfZq4F6G/versions/z0MIh05R/crossbow-release-0.2.0.jar",
+      "hash": "sha512-Dp6r5Zr0yMokcq0wCqOLwiJe4Zo39wWWR5SpiXqwD6ElmBBKEoOeQK57pke697j2rHGxPQJS7U3DLVvM2HPMyw==",
+      "gameVersions": [
+        "1.19.4",
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "z0MIh05R"
+    ],
+    "1.20+fabric": [
+      "z0MIh05R"
+    ],
+    "1.20.1+fabric": [
+      "z0MIh05R",
+      "FVgPzLT0"
+    ],
+    "1.20.2+fabric": [
+      "z0MIh05R"
+    ],
+    "1.20.3+fabric": [
+      "z0MIh05R"
+    ],
+    "1.20.4+fabric": [
+      "z0MIh05R"
+    ]
+  }
+}

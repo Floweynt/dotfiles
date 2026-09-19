@@ -1,0 +1,54 @@
+{
+  "slug": "improved-bedrockean",
+  "projectId": "sQDhLh93",
+  "versions": {
+    "BySK7uGL": {
+      "filename": "bedrockean-3.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/sQDhLh93/versions/BySK7uGL/bedrockean-3.0.5.jar",
+      "hash": "sha512-9Zp7w14Wh7fVAbNWIqfu1MBeAoU23k5dbgJJ1eBQZi8GIYfV1k2y0cM7xdIbPC9JuJ+nfWw/Tk/eOjzOPlEuUQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "jilBQNw7": {
+      "filename": "bedrockean-3.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/sQDhLh93/versions/jilBQNw7/bedrockean-3.0.8.jar",
+      "hash": "sha512-Exf4Mbl8leIFV2PjOVcb+fjMDz2o/kQW6yzhy3vv2MYmsA+DzHh1gr2Y8js46ZNbZLmMDvHlLoBaOwPw6ghoLw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "jilBQNw7"
+    ],
+    "1.19+fabric": [
+      "BySK7uGL"
+    ]
+  }
+}

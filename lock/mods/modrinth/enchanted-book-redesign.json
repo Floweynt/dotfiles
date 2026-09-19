@@ -1,0 +1,48 @@
+{
+  "slug": "enchanted-book-redesign",
+  "projectId": "M0M1YYz5",
+  "versions": {
+    "JZB0vO23": {
+      "filename": "enchantedbookredesign-neoforge-1.21.1-0.jar",
+      "url": "https://cdn.modrinth.com/data/M0M1YYz5/versions/JZB0vO23/enchantedbookredesign-neoforge-1.21.1-0.jar",
+      "hash": "sha512-ADnzGOuzdFk31NTR0XODfgVcogPfR0BO25ZAssoanlcFlKiQ4eH3elzQrZUAHzNdOJ7gvG+DoQlgjwyUrKC9EQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "NRvcnZF2": {
+      "filename": "enchantedbookredesign-fabric-1.21.1-0.jar",
+      "url": "https://cdn.modrinth.com/data/M0M1YYz5/versions/NRvcnZF2/enchantedbookredesign-fabric-1.21.1-0.jar",
+      "hash": "sha512-GMcLgk1dYoOnWGcvgeVECrCxpc+mzaHrr+49E7b5VWXbp/l1LdyU4s5lcgNKArg7zUWB0P2NuuaoIL64EqLYgg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "NRvcnZF2"
+    ],
+    "1.21.1+neoforge": [
+      "JZB0vO23"
+    ]
+  }
+}

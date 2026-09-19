@@ -1,0 +1,108 @@
+{
+  "slug": "carpetskyadditions-reborn-2",
+  "projectId": "WR9xYGI8",
+  "versions": {
+    "hCfx7ClA": {
+      "filename": "carpetskyadditions-26.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/WR9xYGI8/versions/hCfx7ClA/carpetskyadditions-26.1-1.0.0.jar",
+      "hash": "sha512-Pkb3s95wks5yaUF9H0K6ZhKTxay67OG0U9nu3hxW55XmPHguuAY38WLGlOoqEOYFKP8Nk4ulCj6iBkHwK0I1Tw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "nv8rTtRI": {
+      "filename": "carpetskyadditions-26.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/WR9xYGI8/versions/nv8rTtRI/carpetskyadditions-26.1-1.0.1.jar",
+      "hash": "sha512-cZejYQFiA7T1H7PVtvBMoN44gSU9Cey41bmzwxBBB27PMzvNHdz94l2tzY7yZzFBw+ir5Uv9N8EoJflpyQGYDw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "wThgVR6H": {
+      "filename": "carpetskyadditions-26.1-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/WR9xYGI8/versions/wThgVR6H/carpetskyadditions-26.1-1.0.3.jar",
+      "hash": "sha512-Odspcu7J5mqV2YN3nIFfjcbFJqwzd5VofK1bLvz1/lfTDQdLPFPZ2KgW1Bek1IWXUixt5Lz7+6MYE5wNeBVL/A==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "carpet",
+          "projectId": "TQTTVgYE",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "wThgVR6H",
+      "nv8rTtRI",
+      "hCfx7ClA"
+    ],
+    "26.1.1+fabric": [
+      "wThgVR6H",
+      "nv8rTtRI"
+    ],
+    "26.1.2+fabric": [
+      "wThgVR6H"
+    ]
+  }
+}

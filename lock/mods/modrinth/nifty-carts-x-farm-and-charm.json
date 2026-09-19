@@ -1,0 +1,76 @@
+{
+  "slug": "nifty-carts-x-farm-and-charm",
+  "projectId": "DDUhwDmz",
+  "versions": {
+    "MVcG96rL": {
+      "filename": "NiftyCarts x Farm & Charm.zip",
+      "url": "https://cdn.modrinth.com/data/DDUhwDmz/versions/MVcG96rL/NiftyCarts%20x%20Farm%20%26%20Charm.zip",
+      "hash": "sha512-cq+TMAhfbUhg1ttTUrh3hAqVsJTNa/tutS/aD8teFxy5E8hn5wi1/lLJTTTkJJpYiHiNJtWP8JsOFOZDO1qqsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "lets-do-farm-charm",
+          "projectId": "HJetCzWo",
+          "type": "required"
+        },
+        {
+          "slug": "niftycarts",
+          "projectId": "CXd6g9xp",
+          "type": "required"
+        }
+      ]
+    },
+    "mqFLmNjZ": {
+      "filename": "nifty-carts-x-farm-and-charm-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DDUhwDmz/versions/mqFLmNjZ/nifty-carts-x-farm-and-charm-1.0.jar",
+      "hash": "sha512-BZT6OxI6kdcbfFcHX9iha5bIz5OuHJ7XUClR5oyiWwXNC+8Wy2BK+J6jvM5slUFaTQjX5XFtAJZLXGW4VBDNlA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "lets-do-farm-charm",
+          "projectId": "HJetCzWo",
+          "type": "required"
+        },
+        {
+          "slug": "niftycarts",
+          "projectId": "CXd6g9xp",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "MVcG96rL"
+    ],
+    "1.20.1+fabric": [
+      "mqFLmNjZ"
+    ],
+    "1.20.1+forge": [
+      "mqFLmNjZ"
+    ],
+    "1.20.1+neoforge": [
+      "mqFLmNjZ"
+    ],
+    "1.20.1+quilt": [
+      "mqFLmNjZ"
+    ]
+  }
+}

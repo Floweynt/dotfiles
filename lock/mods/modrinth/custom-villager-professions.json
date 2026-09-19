@@ -1,0 +1,100 @@
+{
+  "slug": "custom-villager-professions",
+  "projectId": "NHs909GQ",
+  "versions": {
+    "1SrmxWBV": {
+      "filename": "spacecatcustomprofessions-fabric-20.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/NHs909GQ/versions/1SrmxWBV/spacecatcustomprofessions-fabric-20.4.0.jar",
+      "hash": "sha512-t4yCevQivKVA/biL1qEGFazM/HAO9dASIrvVRClHQgn4iLWRLWqsbc5kVsUxfHr4vXJpOFgViMbudD5ah0xqlA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "MvGZDnnV": {
+      "filename": "spacecatcustomprofessions-fabric-19.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/NHs909GQ/versions/MvGZDnnV/spacecatcustomprofessions-fabric-19.3.3.jar",
+      "hash": "sha512-Rp89KdB/CR4wpWc+o8WSmsTRE5f41DA6PRYAfn7gqxjTfSOexLtPk4N7Qh3XzAfuIIBCqSxUDWW5ghmxJ6wCng==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "eKrPYsda": {
+      "filename": "spacecatcustomprofessions-forge-19.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/NHs909GQ/versions/eKrPYsda/spacecatcustomprofessions-forge-19.3.3.jar",
+      "hash": "sha512-sffNMHf/X94jeSnY6fkUBjxmoEd4CPZZcLCzpTRx9yXYssEdK9ZIf6S830k0C7AGWVmbSjIYjyN8Ef9+3Fa9Tg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "riNLfDgp": {
+      "filename": "spacecatcustomprofessions-forge-20.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/NHs909GQ/versions/riNLfDgp/spacecatcustomprofessions-forge-20.4.0.jar",
+      "hash": "sha512-GrNpf77CrZDNgrfVx29tkfydOkbYRujW2Pd9NzNP/stPEb6N329RkYWmfb6yJikbQTKzlyXs+VBu2b3A6jjxeg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "MvGZDnnV"
+    ],
+    "1.19.2+forge": [
+      "eKrPYsda"
+    ],
+    "1.20.1+fabric": [
+      "1SrmxWBV"
+    ],
+    "1.20.1+forge": [
+      "riNLfDgp"
+    ]
+  }
+}

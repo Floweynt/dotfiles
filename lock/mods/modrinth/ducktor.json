@@ -1,0 +1,31 @@
+{
+  "slug": "ducktor",
+  "projectId": "O13dfMdQ",
+  "versions": {
+    "D1yUaVVb": {
+      "filename": "ducktor-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/O13dfMdQ/versions/D1yUaVVb/ducktor-1.0.0%2B1.21.jar",
+      "hash": "sha512-cB38jyhWQDxhAshL7HUsJ/94Pm507Bvel3M1+ICTF4Z4yzCXxdAjnvMFOuj1saowdpjrejrFMxjg15X/69r09A==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "D1yUaVVb"
+    ]
+  }
+}

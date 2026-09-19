@@ -1,0 +1,77 @@
+{
+  "slug": "computer-cartographer",
+  "projectId": "eu7WswDc",
+  "versions": {
+    "SiQvdvSU": {
+      "filename": "computer_cartographer-1.20.1-1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/eu7WswDc/versions/SiQvdvSU/computer_cartographer-1.20.1-1.0-fabric.jar",
+      "hash": "sha512-pPSt/Uwv4l7PtiwaD1GeiBPACZCGRqGk8nE9V7RcWzB76+bgXprumsfBMHWx+mXzLIRfQ/q8OqgopA2OtRLzeQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cc-tweaked",
+          "projectId": "gu7yAYhd",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YbdPiGff": {
+      "filename": "computer_cartographer-1.20.1-1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/eu7WswDc/versions/YbdPiGff/computer_cartographer-1.20.1-1.0-forge.jar",
+      "hash": "sha512-yOIR0gV6E5Fg7JCYQP22/u/w7oloT2om4oU/t53hWNsYkI0e3b2yyZNGlcneM8PJgEWd3BcMwbQ/7wEPTLTzuw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "cc-tweaked",
+          "projectId": "gu7yAYhd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "SiQvdvSU"
+    ],
+    "1.20+forge": [
+      "YbdPiGff"
+    ],
+    "1.20.1+fabric": [
+      "SiQvdvSU"
+    ],
+    "1.20.1+forge": [
+      "YbdPiGff"
+    ]
+  }
+}

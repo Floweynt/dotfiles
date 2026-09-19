@@ -1,0 +1,31 @@
+{
+  "slug": "jumpenchant",
+  "projectId": "kV1rqTfT",
+  "versions": {
+    "pQ1K4zrC": {
+      "filename": "jumpenchanting-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kV1rqTfT/versions/pQ1K4zrC/jumpenchanting-1.0.0.jar",
+      "hash": "sha512-iAe02TOlHy6Xl6DuXQquit4SQWIUfd+FtY40JoEunfFPMQbCaT9bvexrmHndBigodO4nsD6TwLJn0yu8afF7zA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "pQ1K4zrC"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "slug": "machine-gun-blaze",
+  "projectId": "VLO6J38Y",
+  "versions": {
+    "VuKUbOdC": {
+      "filename": "machine_gun_blaze-0.1.2+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/VLO6J38Y/versions/VuKUbOdC/machine_gun_blaze-0.1.2%2B1.21.1.jar",
+      "hash": "sha512-oLBvwZAXhuPX08DxgghtBC4XAwf5rJ5s9P43Ura0wteNLzonCqP1Kh7zuuegUMrLLRTJjYnrznkkbVx5hdDNgA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "VxrRbWcx": {
+      "filename": "machine_gun_blaze-0.1.2+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/VLO6J38Y/versions/VxrRbWcx/machine_gun_blaze-0.1.2%2B1.21.jar",
+      "hash": "sha512-ZVMQOaq7dLhoFC+YoPnMQSAUaCw2+I52nVC3QsDWPcJn4XOaSkRs2AqhIB9XvDXtsbEnnuWGf3PbcQ295RLHsA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "islKlcbZ": {
+      "filename": "machine_gun_blaze-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/VLO6J38Y/versions/islKlcbZ/machine_gun_blaze-0.1.2.jar",
+      "hash": "sha512-lAqXWaMVQuoHWrYupapH1p49VvW7j+mz2jz2FZBqPpEVKj0v8qvzBnArFvs7ptawqucXYeyf3kehWG/RfWaIeg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "islKlcbZ"
+    ],
+    "1.21+fabric": [
+      "VxrRbWcx"
+    ],
+    "1.21.1+fabric": [
+      "VuKUbOdC"
+    ]
+  }
+}

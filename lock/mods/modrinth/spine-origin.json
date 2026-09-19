@@ -1,0 +1,35 @@
+{
+  "slug": "spine-origin",
+  "projectId": "a5mOUB6s",
+  "versions": {
+    "lT1xGrAC": {
+      "filename": "SPINE-1.20.1-V1.1.zip",
+      "url": "https://cdn.modrinth.com/data/a5mOUB6s/versions/lT1xGrAC/SPINE-1.20.1-V1.1.zip",
+      "hash": "sha512-zQAa+UjB+xAN9XVvEw5F6rg5+EWIyFA0g1jHEHh1smmIJkDTz/q3Ku4GCUdgK6njWrRQHJmh44S1n0NdHVZUMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack",
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "lT1xGrAC"
+    ],
+    "1.20.1+fabric": [
+      "lT1xGrAC"
+    ]
+  }
+}

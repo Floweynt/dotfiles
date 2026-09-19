@@ -1,0 +1,50 @@
+{
+  "slug": "no-more-lost-tridents",
+  "projectId": "DRtfxHNQ",
+  "versions": {
+    "MuR9SlZ2": {
+      "filename": "NoMoreLostTridents-forge-1.20-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DRtfxHNQ/versions/MuR9SlZ2/NoMoreLostTridents-forge-1.20-1.0.0.jar",
+      "hash": "sha512-AaDbmH0cf8H8uClc4HDnRE/zOBgGDeG/Vx2NzRCpSlwVd7FRZtvwBe3Ot0QyMXGbNb2uW6X/uQTuBHSm6h7GsQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "raXWImGU": {
+      "filename": "NoMoreLostTridents-fabric-1.20-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DRtfxHNQ/versions/raXWImGU/NoMoreLostTridents-fabric-1.20-1.0.0.jar",
+      "hash": "sha512-5DtaJkY5OOb4r9iRYOgz5wyFx8mRZ4C/eXAl/Z1g8NccBKU73bzj1cogoW06XdOAFmLnCsXewvyM1EkFzJ5KcA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "raXWImGU"
+    ],
+    "1.20+forge": [
+      "MuR9SlZ2"
+    ],
+    "1.20.1+fabric": [
+      "raXWImGU"
+    ],
+    "1.20.1+forge": [
+      "MuR9SlZ2"
+    ]
+  }
+}

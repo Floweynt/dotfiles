@@ -1,0 +1,48 @@
+{
+  "slug": "more_ores",
+  "projectId": "aVf4X1lh",
+  "versions": {
+    "2X2OsOwG": {
+      "filename": "mores-1.jar",
+      "url": "https://cdn.modrinth.com/data/aVf4X1lh/versions/2X2OsOwG/mores-1.jar",
+      "hash": "sha512-NJRJovv3MI3baTgwzgse8qrWgbc6mtVxr5hXPVtfUoLTkXNaWJexK7Mwtx1rzvJ0APurUsRLVQf6lO4hT9/Y/Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "MGI6A2TJ": {
+      "filename": "mores-2.jar",
+      "url": "https://cdn.modrinth.com/data/aVf4X1lh/versions/MGI6A2TJ/mores-2.jar",
+      "hash": "sha512-os104NlPzRy2sudTCeJ7MrcHSxtmkjGIAyrtWWI0AgdX+5SBQ1IC+ikNcQpGlkBQ6o9idL2uaQ5e0OATqRQ5cA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "2X2OsOwG"
+    ],
+    "1.20.1+fabric": [
+      "MGI6A2TJ",
+      "2X2OsOwG"
+    ],
+    "1.20.2+fabric": [
+      "2X2OsOwG"
+    ]
+  }
+}

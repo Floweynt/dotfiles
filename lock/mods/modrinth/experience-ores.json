@@ -1,0 +1,95 @@
+{
+  "slug": "experience-ores",
+  "projectId": "tzmkkrWx",
+  "versions": {
+    "VO0PboiY": {
+      "filename": "xp-ores-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tzmkkrWx/versions/VO0PboiY/xp-ores-1.0.0.jar",
+      "hash": "sha512-2WjT2I9YISH2hZzMpJV8Pe9Wc3zV4CizYUYkjbJv0xqCftCy4SejxNuOOBUYS451zpIueDZPsuMeGNCvJLotIg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "eP9NWDqi": {
+      "filename": "experience_ores-1.21.7-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tzmkkrWx/versions/eP9NWDqi/experience_ores-1.21.7-neoforge-1.0.0.jar",
+      "hash": "sha512-MBxju0wKkdOQ1r3LYoIxfhVNf4CDCU3mhyoTp41X1tsj2KE/yZYdKs9wavp6SZBy0ZYQQlqZgPUK2xvq+pl/hw==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "yQ7fGjGy": {
+      "filename": "experience_ores-1.21.7-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tzmkkrWx/versions/yQ7fGjGy/experience_ores-1.21.7-fabric-1.0.0.jar",
+      "hash": "sha512-/xzu2SvBcvK5aknZoIVGvwP7e1CLqjYyHSHNBZLohS3VMU4/Q4UNwIfibIwh+BHzjagNPbyEDhqbUEF3KvQlzA==",
+      "gameVersions": [
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "VO0PboiY"
+    ],
+    "1.21.7+fabric": [
+      "yQ7fGjGy"
+    ],
+    "1.21.7+neoforge": [
+      "eP9NWDqi"
+    ],
+    "1.21.8+fabric": [
+      "yQ7fGjGy"
+    ],
+    "1.21.8+neoforge": [
+      "eP9NWDqi"
+    ]
+  }
+}

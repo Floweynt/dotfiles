@@ -1,0 +1,121 @@
+{
+  "slug": "armorhud-fabric",
+  "projectId": "bVL2HypO",
+  "versions": {
+    "O7AuX0q2": {
+      "filename": "armorhud-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bVL2HypO/versions/O7AuX0q2/armorhud-1.1.0.jar",
+      "hash": "sha512-dB+NyUO+x0mm7/pSL2IhVLjkbR5oNz50y/0HGPFCk3yZSIE4kvlDNmrLdPuT5OajuFiPANy/c169JcWrniVw0g==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "configlib148",
+          "projectId": "ioNY5Bzp",
+          "type": "required"
+        }
+      ]
+    },
+    "aodQU8rA": {
+      "filename": "armorhud-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/bVL2HypO/versions/aodQU8rA/armorhud-1.1.1.jar",
+      "hash": "sha512-PIzbIFKRl5/ZbUbjdA2sMUbCLQFlUJ6zf3A5vcocphTCqchqr1dFSTNP0qwunlNjD4jGw7zA+Cjr49J/FRX+ww==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "configlib148",
+          "projectId": "ioNY5Bzp",
+          "type": "required"
+        }
+      ]
+    },
+    "mMP12LEk": {
+      "filename": "armorhud-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bVL2HypO/versions/mMP12LEk/armorhud-1.0.0.jar",
+      "hash": "sha512-k8ltpbkcPLXZiI4v8zI6VjMG4Nlu2DfeD/Tzq86ZCxPFfspKcvvvootBcBER9z9TJZ2I32BKkY8qzcKWxy2qNQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "configlib148",
+          "projectId": "ioNY5Bzp",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "O7AuX0q2",
+      "mMP12LEk"
+    ],
+    "1.19.1+fabric": [
+      "O7AuX0q2",
+      "mMP12LEk"
+    ],
+    "1.19.2+fabric": [
+      "aodQU8rA",
+      "O7AuX0q2",
+      "mMP12LEk"
+    ],
+    "1.19.3+fabric": [
+      "aodQU8rA",
+      "O7AuX0q2"
+    ]
+  }
+}

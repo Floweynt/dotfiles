@@ -1,0 +1,54 @@
+{
+  "slug": "randomize-phonk",
+  "projectId": "bbWispoA",
+  "versions": {
+    "iwMpLAkx": {
+      "filename": "randomizerphonk-1.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/bbWispoA/versions/iwMpLAkx/randomizerphonk-1.9.0.jar",
+      "hash": "sha512-EU2UmPyH+oEWjpNe+z4ZVFhyeSnGNkhmQ9AWYcTI23agdNr9bQGuTbmaJ5QUhImswzAqeiwz2YNmMxYxeRUsCA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "zAQfEnhx": {
+      "filename": "randomizerphonk-1.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/bbWispoA/versions/zAQfEnhx/randomizerphonk-1.9.0.jar",
+      "hash": "sha512-tYh9Wswa7CiXcDI+e5gA/bgLwsuAR0lW58J8Fsvx3ZIcQ29C+4ZQOx6+WqM53y+vhdVVI+CH++/sdGsBCMV6eQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "zAQfEnhx"
+    ],
+    "1.18.2+forge": [
+      "iwMpLAkx"
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "neuromon",
+  "projectId": "IF7k8ETX",
+  "versions": {
+    "jm85RS7z": {
+      "filename": "neuromon-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IF7k8ETX/versions/jm85RS7z/neuromon-fabric-1.0.0.jar",
+      "hash": "sha512-7YuHtUbYq8Ghxo6rEO/iJhoz3JAC3Da0IRTc3urH8X/NI3EUBwm8/L5v7c72Djew6JbIwov4Q5tQQJb3i25E5g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wzCTRWo7": {
+      "filename": "neuromon-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/IF7k8ETX/versions/wzCTRWo7/neuromon-neoforge-1.0.0.jar",
+      "hash": "sha512-jCVibWgy2tvpZlYv3RNbFcNRHJYLWLsqnnfANtZzp0nyQgnWZN9Px4kNFgB7rj7wysLk8YBX2xNAw28jvP0PGQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "jm85RS7z"
+    ],
+    "1.21.1+neoforge": [
+      "wzCTRWo7"
+    ]
+  }
+}

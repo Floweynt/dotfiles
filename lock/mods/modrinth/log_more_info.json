@@ -1,0 +1,95 @@
+{
+  "slug": "log_more_info",
+  "projectId": "jYj3IoWo",
+  "versions": {
+    "Axemw631": {
+      "filename": "log_more_info-1.0.0-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/jYj3IoWo/versions/Axemw631/log_more_info-1.0.0-1.20.jar",
+      "hash": "sha512-ZJPVnw6yYsXpXbzq02Oev7wl5FsI71VZDB+O/Wofi4fE9HPsou9xWvUWdrmAGeqxWikGlnUVPrC7e3KrQNmbAA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "RRqVVgl4": {
+      "filename": "log_more_info-1.0.0-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/jYj3IoWo/versions/RRqVVgl4/log_more_info-1.0.0-1.18.2.jar",
+      "hash": "sha512-GGgtJaf615RMUidRfqIcPx4wEYqh0fjVfmEd5qf3zXnhzya6QZs3V9HS4tlK9PSOrHJbTh/I+K+LgY4RbuMkLQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fh2pcVlw": {
+      "filename": "log_more_info-1.0.0-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/jYj3IoWo/versions/fh2pcVlw/log_more_info-1.0.0-1.19.jar",
+      "hash": "sha512-1xSQPLErIx74nry1+/cdpE0eSkpHIGOXJlmg7GIHijBAtMWsywjYDALuald7SPOzHWFRLa7wOrj3prrWGKvq/A==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "RRqVVgl4"
+    ],
+    "1.19+fabric": [
+      "fh2pcVlw"
+    ],
+    "1.19.1+fabric": [
+      "fh2pcVlw"
+    ],
+    "1.19.2+fabric": [
+      "fh2pcVlw"
+    ],
+    "1.20+fabric": [
+      "Axemw631"
+    ],
+    "1.20.1+fabric": [
+      "Axemw631"
+    ],
+    "1.20.2+fabric": [
+      "Axemw631"
+    ],
+    "1.20.3+fabric": [
+      "Axemw631"
+    ],
+    "1.20.4+fabric": [
+      "Axemw631"
+    ]
+  }
+}

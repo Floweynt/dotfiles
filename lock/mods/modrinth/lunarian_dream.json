@@ -1,0 +1,72 @@
+{
+  "slug": "lunarian_dream",
+  "projectId": "f1sNwG96",
+  "versions": {
+    "5r15aNWz": {
+      "filename": "lunarian_dream-0.8.4.jar",
+      "url": "https://cdn.modrinth.com/data/f1sNwG96/versions/5r15aNWz/lunarian_dream-0.8.4.jar",
+      "hash": "sha512-VfZGKiDkiZRG0njQ/QUA/H8Df6AdV7uLCJ/ckSnsOYOS3H8In2oYKytFTYMK2D5FPS02hCMxH2YP7ljPYgLV9w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "blabber",
+          "projectId": "2oRMVFgd",
+          "type": "required"
+        }
+      ]
+    },
+    "F6Y09FtU": {
+      "filename": "lunarian_dream-0.8.5.jar",
+      "url": "https://cdn.modrinth.com/data/f1sNwG96/versions/F6Y09FtU/lunarian_dream-0.8.5.jar",
+      "hash": "sha512-nBao2TOhQfJH8GHgaDFI77FkIF2zSx2LomrHO7JbstVJWJywr/ghw9XDJrfxFhGMymG/mkuUaPj+sz4SgZf+Xw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "blabber",
+          "projectId": "2oRMVFgd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "F6Y09FtU",
+      "5r15aNWz"
+    ]
+  }
+}

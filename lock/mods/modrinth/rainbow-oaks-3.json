@@ -1,0 +1,124 @@
+{
+  "slug": "rainbow-oaks-3",
+  "projectId": "scEt2mrY",
+  "versions": {
+    "Hq8YlJZR": {
+      "filename": "rainbowoaks-forge-1.20-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/scEt2mrY/versions/Hq8YlJZR/rainbowoaks-forge-1.20-1.0.0.jar",
+      "hash": "sha512-/TS8SuWDzzJP+UTzBMesSDSSrQlmzp4I78YV0ffm8bM0EZ28Jva5eklWX5usd6M4dnigQ2QQfrmy0k3xppIt+g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Yboitp9O": {
+      "filename": "rainbowoaks-fabric-1.20-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/scEt2mrY/versions/Yboitp9O/rainbowoaks-fabric-1.20-1.0.0.jar",
+      "hash": "sha512-bWB0Df4wuIsI1ES2MwWNFvX1RsvMyGU7aSxV9DpoaXP1OvzOVHmhw1KbjT1hFbFNRm6+iO2Z2xvBwS6knONApw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mXQX80NE": {
+      "filename": "rainbowoaks-fabric-1.20-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/scEt2mrY/versions/mXQX80NE/rainbowoaks-fabric-1.20-1.0.1.jar",
+      "hash": "sha512-BaZg6fizAqsNEC+6cSHhzrsizyVYHjPYt/YyY4ZU1HgojKhux+2A9Yacb8cmR9mjcbzTMrZKV8IvCdX1q9Llqw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qWNPdRGj": {
+      "filename": "rainbowoaks-forge-1.20-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/scEt2mrY/versions/qWNPdRGj/rainbowoaks-forge-1.20-1.0.1.jar",
+      "hash": "sha512-ZKxesusAWbIvNIdeOmUkp+XrLjcsU7UU+zmUYh9AFPf5JaY9MzNeC6U31hTwBsFWtfh0Q5bxj62YdbRSPDxjiw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "mXQX80NE",
+      "Yboitp9O"
+    ],
+    "1.20+forge": [
+      "Hq8YlJZR"
+    ],
+    "1.20+neoforge": [
+      "qWNPdRGj"
+    ],
+    "1.20+quilt": [
+      "mXQX80NE"
+    ],
+    "1.20.1+fabric": [
+      "mXQX80NE",
+      "Yboitp9O"
+    ],
+    "1.20.1+forge": [
+      "Hq8YlJZR"
+    ],
+    "1.20.1+neoforge": [
+      "qWNPdRGj"
+    ],
+    "1.20.1+quilt": [
+      "mXQX80NE"
+    ],
+    "1.20.2+fabric": [
+      "mXQX80NE",
+      "Yboitp9O"
+    ],
+    "1.20.2+forge": [
+      "Hq8YlJZR"
+    ],
+    "1.20.2+neoforge": [
+      "qWNPdRGj"
+    ],
+    "1.20.2+quilt": [
+      "mXQX80NE"
+    ]
+  }
+}

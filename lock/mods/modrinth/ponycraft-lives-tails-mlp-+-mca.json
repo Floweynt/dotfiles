@@ -1,0 +1,62 @@
+{
+  "slug": "ponycraft-lives-tails-mlp-+-mca",
+  "projectId": "qUWlxCME",
+  "versions": {
+    "YCXeNMfm": {
+      "filename": "LittlePonyComesAlive-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/qUWlxCME/versions/YCXeNMfm/LittlePonyComesAlive-1.1.jar",
+      "hash": "sha512-/4rHMyWn/iza4fWjN8SucgX7HAHGPRCuu1DPXA3DR3pJ/vPbTSET426wrtyNLwdlEFh47+NsIW7UvXWb6n0H8Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mine-little-pony",
+          "projectId": "JBjInUXM",
+          "type": "required"
+        },
+        {
+          "slug": "minecraft-comes-alive-reborn",
+          "projectId": "1W98a849",
+          "type": "required"
+        }
+      ]
+    },
+    "sEaCwz7y": {
+      "filename": "LittlePonyComesAlive-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/qUWlxCME/versions/sEaCwz7y/LittlePonyComesAlive-1.1.jar",
+      "hash": "sha512-6eLTUaksDzrjaUQ0/feNFC2NbKWPVdy6qsR0Zn7Yokp9pjATN4CTcDnlLJ0+ajNRIF1qYtVm7cnrMV6xTdD8Pg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "minecraft-comes-alive-reborn",
+          "projectId": "1W98a849",
+          "type": "required"
+        },
+        {
+          "slug": "mine-little-pony",
+          "projectId": "JBjInUXM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sEaCwz7y",
+      "YCXeNMfm"
+    ]
+  }
+}

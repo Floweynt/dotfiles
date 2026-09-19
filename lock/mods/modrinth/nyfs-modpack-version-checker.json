@@ -1,0 +1,114 @@
+{
+  "slug": "nyfs-modpack-version-checker",
+  "projectId": "PqP9d81Z",
+  "versions": {
+    "3xO7lotw": {
+      "filename": "nmpvc-forge-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/PqP9d81Z/versions/3xO7lotw/nmpvc-forge-1.20.1-1.0.2.jar",
+      "hash": "sha512-rS9Rt5Ggn656BwNfom3OcMnHCNvwtsmF9Pe14zxjM+LJ4m9nzG/DcHtjDNcAm2+FP8Pip/mRmZPoDhbT9MboTA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "A3OLbY7k": {
+      "filename": "nmpvc-fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/PqP9d81Z/versions/A3OLbY7k/nmpvc-fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-OHRCxW+R66V0wwknTFMBxdVLArNe/v+TzU61gOxEF7SymU/1AI8fIUkLETtvgAnXBZrNX5PW6xgVd1DWktIjow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "T6hUmfW0": {
+      "filename": "nmpvc-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PqP9d81Z/versions/T6hUmfW0/nmpvc-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-V5e4E9Bs5pOYLtNVjMXk/Comw9E9zYxkyLI0/K370siM1NLHuBbxKRKZDrtCXL7OQZsqMJZT3W+5QkC9LMauGQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VEz4Vljs": {
+      "filename": "nmpvc-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PqP9d81Z/versions/VEz4Vljs/nmpvc-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-yL4pJjDwIqDpt+vt6IzNfTJbL4TO4A81EGSur7+YengG5Pi0jtgFaOMkF5cWISG45m0WkJW4PKYfeQyBZnsEIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YF8MS0Hw": {
+      "filename": "nmpvc-forge-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/PqP9d81Z/versions/YF8MS0Hw/nmpvc-forge-1.20.1-1.0.1.jar",
+      "hash": "sha512-lM0DCUr8YtOuWePN61kjWOm3QM8+5NVVwKM3gSV3GPn5W26TNUWG9eSnw0GPw5fU6mj0xmwerqUs3zTjbCYpHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "xHrvzKp5": {
+      "filename": "nmpvc-fabric-1.20.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/PqP9d81Z/versions/xHrvzKp5/nmpvc-fabric-1.20.1-1.0.2.jar",
+      "hash": "sha512-2stt+Dk8kpLtIQmOhszu8UtBFHsnbiXrxcgXVHirQU3oQBL+FCnUeLwi0ok//KtXakQ2vCid6aYawRq5LDEg3g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "xHrvzKp5",
+      "A3OLbY7k",
+      "VEz4Vljs"
+    ],
+    "1.20.1+forge": [
+      "3xO7lotw",
+      "YF8MS0Hw",
+      "T6hUmfW0"
+    ]
+  }
+}

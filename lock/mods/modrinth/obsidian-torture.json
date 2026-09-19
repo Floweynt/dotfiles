@@ -1,0 +1,72 @@
+{
+  "slug": "obsidian-torture",
+  "projectId": "uphsgpxe",
+  "versions": {
+    "bW92WQXG": {
+      "filename": "obsidian-torture-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uphsgpxe/versions/bW92WQXG/obsidian-torture-1.0.0.jar",
+      "hash": "sha512-39x0TkLC+pcUnVXFCFaLxVLLfaDiSl/JRl4jAE//ayOpl05oUJGS3bLO0BuM9E9rDG6gw878ICzFPivfKoCncQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "jj5AULT6": {
+      "filename": "ObsidianTorture.zip",
+      "url": "https://cdn.modrinth.com/data/uphsgpxe/versions/jj5AULT6/ObsidianTorture.zip",
+      "hash": "sha512-GL/Tknv9ouzyEXq6yU33oPiiswXOGmUspFzoW2t1oC8Ds3kidGLOg1iNR0ZdcnrU0Lhm91po5mUjIzkM9fcfVw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "farmers-delight",
+          "projectId": "R2OftAxM",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "jj5AULT6"
+    ],
+    "1.20.1+fabric": [
+      "bW92WQXG"
+    ],
+    "1.20.1+forge": [
+      "bW92WQXG"
+    ],
+    "1.20.1+quilt": [
+      "bW92WQXG"
+    ]
+  }
+}

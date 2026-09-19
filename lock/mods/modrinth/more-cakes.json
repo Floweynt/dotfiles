@@ -1,0 +1,91 @@
+{
+  "slug": "more-cakes",
+  "projectId": "U47EGICW",
+  "versions": {
+    "KxGGxUmh": {
+      "filename": "MoreCakes-1.0.1-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/U47EGICW/versions/KxGGxUmh/MoreCakes-1.0.1-1.21.jar",
+      "hash": "sha512-j09N39GFb1qSTuXiQkBCclEw9l9Uf2ZXqLvOnw0/z7DtLS3bxDlQ82PjJgFB62ONks2mbnmS6z2nLhJkVpgySA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rkPBfJ81": {
+      "filename": "MoreCakes-1.0.0-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/U47EGICW/versions/rkPBfJ81/MoreCakes-1.0.0-1.21.jar",
+      "hash": "sha512-L+BXvLiKn2InHumv4PI0bh//gulSM5ALKMc+mwqhLIuCX4BOW5b9F4CDk1P7iS1dUVFeczEdh6NX7cC+jKjMXg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "t7IXX9lQ": {
+      "filename": "MoreCakes-1.0.0-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/U47EGICW/versions/t7IXX9lQ/MoreCakes-1.0.0-1.20.jar",
+      "hash": "sha512-Et4P0M9dqhwcfIgkF9Q3nNLGhOZjFfabUs57xfNsovSDK7ONMdPrLpw1WPjduI0xEX1IJt6bA/M/kD8LVva8SA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "t7IXX9lQ"
+    ],
+    "1.20.1+fabric": [
+      "t7IXX9lQ"
+    ],
+    "1.20.2+fabric": [
+      "t7IXX9lQ"
+    ],
+    "1.20.3+fabric": [
+      "t7IXX9lQ"
+    ],
+    "1.20.4+fabric": [
+      "t7IXX9lQ"
+    ],
+    "1.21+fabric": [
+      "KxGGxUmh",
+      "rkPBfJ81"
+    ]
+  }
+}

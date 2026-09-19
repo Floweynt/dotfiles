@@ -1,0 +1,48 @@
+{
+  "slug": "rank-tag",
+  "projectId": "2oOohYJp",
+  "versions": {
+    "Ii2R7ao8": {
+      "filename": "rank-tag-1.0.0-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/2oOohYJp/versions/Ii2R7ao8/rank-tag-1.0.0-1.21.11.jar",
+      "hash": "sha512-tgveeXxpYYV4D4h9hEyHJ5waWJIP+wQ5jk60zoHFp8bgmmaDBX9ckr1ktLuSspaXQk2tfcPZT4JCb2KhzOYd/A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "YlLhmPZe": {
+      "filename": "rank-tag-1.0.0-1.21.4.jar",
+      "url": "https://cdn.modrinth.com/data/2oOohYJp/versions/YlLhmPZe/rank-tag-1.0.0-1.21.4.jar",
+      "hash": "sha512-7l9SUPNpnwsGeOr+Q4YErV8jKKEKt4JYe335fxOJEB78Kh7FnoUhYlKts1/kwMY+r478rD7mLnyBD4mRaQGQyA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "Ii2R7ao8"
+    ],
+    "1.21.4+fabric": [
+      "YlLhmPZe"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "slug": "lasers-foolmon-pack",
+  "projectId": "F4m8dFvc",
+  "versions": {
+    "Jyb9DSRw": {
+      "filename": "Laser's Foolmon Pack v1.0.zip",
+      "url": "https://cdn.modrinth.com/data/F4m8dFvc/versions/Jyb9DSRw/Laser%27s%20Foolmon%20Pack%20v1.0.zip",
+      "hash": "sha512-Qy+XYyPfYVMVi0HYMXcvS4ilRU38gCUhaIw5qNgVdnpzAimhmo2XTyKbsQ40SZ5RpBzTqRIDRpqPrnkVkC+uOA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack",
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "dlKStcm6": {
+      "filename": "lasers-foolmon-pack-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/F4m8dFvc/versions/dlKStcm6/lasers-foolmon-pack-1.0.jar",
+      "hash": "sha512-iPUTjKWX9CjrBi7i78AETnAsaOIpu7W39eKOUlSgpDalXSbNAvcenVkE/K5936SkoSBdbsVQ8wvcysjBccB+eA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "Jyb9DSRw"
+    ],
+    "1.21.1+fabric": [
+      "dlKStcm6"
+    ],
+    "1.21.1+minecraft": [
+      "Jyb9DSRw"
+    ],
+    "1.21.1+neoforge": [
+      "dlKStcm6"
+    ]
+  }
+}

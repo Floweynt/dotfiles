@@ -1,0 +1,49 @@
+{
+  "slug": "moar-discs",
+  "projectId": "OQ9zRl5g",
+  "versions": {
+    "PTJBUxaE": {
+      "filename": "moar_discs-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/OQ9zRl5g/versions/PTJBUxaE/moar_discs-1.0-1.20.1.jar",
+      "hash": "sha512-4XEiHB8ITv1XiCeeqksSBYyGzNJeqO0SqbhCGf5KQcpnp6ENFBbHoM1iJNVKiIHyo8vXRZsdDxAI+xUy/CgYiA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "PTJBUxaE"
+    ],
+    "1.20+quilt": [
+      "PTJBUxaE"
+    ],
+    "1.20.1+fabric": [
+      "PTJBUxaE"
+    ],
+    "1.20.1+quilt": [
+      "PTJBUxaE"
+    ],
+    "1.20.2+fabric": [
+      "PTJBUxaE"
+    ],
+    "1.20.2+quilt": [
+      "PTJBUxaE"
+    ]
+  }
+}

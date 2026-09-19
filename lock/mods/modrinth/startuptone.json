@@ -1,0 +1,42 @@
+{
+  "slug": "startuptone",
+  "projectId": "Yrq1Kyga",
+  "versions": {
+    "NvYJfgwL": {
+      "filename": "st-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Yrq1Kyga/versions/NvYJfgwL/st-1.0.jar",
+      "hash": "sha512-WGXG4FSq+ImPIBCSotjLBLU+oRaFnC1ZGaPmuNP0CRRVbCENG7bmao9ckB99xxMWb4mcChhND3Swnw0Vxv6wVg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Qrhq94Tb": {
+      "filename": "StartupToneFabric-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Yrq1Kyga/versions/Qrhq94Tb/StartupToneFabric-1.0.jar",
+      "hash": "sha512-TcpC/j92SsCY2m4m/3d7NOwQKMoEaSK++mfDOs7T4Dr6JVnV0Q1fDowB0UiNMkIx4f4c5dqI6VuGK1qfePZYig==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Qrhq94Tb"
+    ],
+    "1.20.1+forge": [
+      "NvYJfgwL"
+    ]
+  }
+}

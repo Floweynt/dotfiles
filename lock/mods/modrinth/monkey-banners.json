@@ -1,0 +1,92 @@
+{
+  "slug": "monkey-banners",
+  "projectId": "oiqIsXbP",
+  "versions": {
+    "88h3C6e9": {
+      "filename": "monkey-banners-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oiqIsXbP/versions/88h3C6e9/monkey-banners-1.0.0.jar",
+      "hash": "sha512-c5KIv9OrTk+YK1fsMuJ6gUn7XVWHLzbzsm28vV7CcJMm5s98Afny5t7vooNaJk1TQH9Ub7OmN6+tgiCmc+t08Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eMSVYdlI": {
+      "filename": "monkey-banners-1.0.0-1.20.4-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/oiqIsXbP/versions/eMSVYdlI/monkey-banners-1.0.0-1.20.4-fabric.jar",
+      "hash": "sha512-yCbc/CrvXTEzoSgRqZ9DBrLiGeTjOGfMGLRDJB/qcsJZaO8Tbe/CTjaAPJKYpLeKvE9ZmBL0REG9IsYe0YeRKg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pxd0AjdI": {
+      "filename": "monkey_banners-1.0.0-1.21(.1).jar",
+      "url": "https://cdn.modrinth.com/data/oiqIsXbP/versions/pxd0AjdI/monkey_banners-1.0.0-1.21%28.1%29.jar",
+      "hash": "sha512-S+GHK77R682gMpSdet75f5PZPitvPp5l7pNHIyWKxG1x1U4zfBeybdsf3sogSzE2gtZf1d2xV2wpirFeVNsjGw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zY42sHFK": {
+      "filename": "monkeybanners-1.0.0-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/oiqIsXbP/versions/zY42sHFK/monkeybanners-1.0.0-1.20.1-forge.jar",
+      "hash": "sha512-2O42s6mf51/Ap2I18Hcf8Mkl69dn6tdHrQ8G+jVUISsZIhvHfOc7xUINZCeMMOtUikUFMb0Xks4PEqmMaN8WZg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "88h3C6e9"
+    ],
+    "1.20.1+forge": [
+      "zY42sHFK"
+    ],
+    "1.20.4+fabric": [
+      "eMSVYdlI"
+    ],
+    "1.21+neoforge": [
+      "pxd0AjdI"
+    ],
+    "1.21.1+neoforge": [
+      "pxd0AjdI"
+    ]
+  }
+}

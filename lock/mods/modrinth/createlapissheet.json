@@ -1,0 +1,95 @@
+{
+  "slug": "createlapissheet",
+  "projectId": "1kLpKkvh",
+  "versions": {
+    "Q7BM91CJ": {
+      "filename": "createlapissheet-fly-0.1.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/1kLpKkvh/versions/Q7BM91CJ/createlapissheet-fly-0.1.0%2B1.21.11.jar",
+      "hash": "sha512-qLY0Msbzpg3bEXbAz/hf0qZd3UPJjQhkMyxEiZLETedA94sLrfV8dCeO1xB7xJRyatRphqiTCSCqRdjJ9jzSUQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "QPSuaEB1": {
+      "filename": "createlapissheet-fly-0.1.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/1kLpKkvh/versions/QPSuaEB1/createlapissheet-fly-0.1.1%2B1.21.11.jar",
+      "hash": "sha512-Wuz3I36aMBhC+nglZK4Tb0NkIIEpX5codQbmZ+0sV3G8GuuBo1lFlu9SvlfnWxlWFM84OLjRfz0bGBG3xFbzMA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "j7NaEc9o": {
+      "filename": "createlapissheet-fly-0.2.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/1kLpKkvh/versions/j7NaEc9o/createlapissheet-fly-0.2.0%2B1.21.11.jar",
+      "hash": "sha512-0x/7wRMs5A6cJUvl5Eoe0lU6yQ4J2ZA3vHR619AbC7KUQYOPo53zQFd52d69KZEz9UtbDROCdIEGujI1doNZhw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fly",
+          "projectId": "dKvj0eNn",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "j7NaEc9o",
+      "QPSuaEB1",
+      "Q7BM91CJ"
+    ],
+    "1.21.11+quilt": [
+      "j7NaEc9o",
+      "QPSuaEB1",
+      "Q7BM91CJ"
+    ]
+  }
+}

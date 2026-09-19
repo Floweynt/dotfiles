@@ -1,0 +1,131 @@
+{
+  "slug": "betterteamchat-openpac",
+  "projectId": "U2SYsmz5",
+  "versions": {
+    "Io1DQU6a": {
+      "filename": "BetterTeamChat-OpenPaC-1.0.0-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/U2SYsmz5/versions/Io1DQU6a/BetterTeamChat-OpenPaC-1.0.0-1.19.2.jar",
+      "hash": "sha512-jQCPoc5J3BSgGIjVfUd8ScqPvRJlYqn+TEjBvrJ5Fl3EL69oOJH8oSMIzC0Qt83cRuOByTQW8CRkugGzP/hraQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        },
+        {
+          "slug": "betterteamchat",
+          "projectId": "2Ll8RHPS",
+          "type": "required"
+        }
+      ]
+    },
+    "QNxLpvWD": {
+      "filename": "BetterTeamChat-OpenPaC-1.0.0-1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/U2SYsmz5/versions/QNxLpvWD/BetterTeamChat-OpenPaC-1.0.0-1.18.2.jar",
+      "hash": "sha512-CJ65X5W+UtvYCLp6NgoARlPkPGy7Fkg7JriVo1GhDZO0BQvyC38WoxPeFd62Ru5IPWdYtteo2WrH5b/gHsdJYw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        },
+        {
+          "slug": "betterteamchat",
+          "projectId": "2Ll8RHPS",
+          "type": "required"
+        }
+      ]
+    },
+    "bweVdh4H": {
+      "filename": "BetterTeamChat-OpenPaC-1.0.0-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/U2SYsmz5/versions/bweVdh4H/BetterTeamChat-OpenPaC-1.0.0-1.20.jar",
+      "hash": "sha512-LQlVuy1o06mAcmnT5LvrkuGpwnDS6TxXNYlv7JzxGM/fIMFQVD6hRdAdddsouLArXaaSkMkz2OYS1dUBj1Xl6A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        },
+        {
+          "slug": "betterteamchat",
+          "projectId": "2Ll8RHPS",
+          "type": "required"
+        }
+      ]
+    },
+    "w5C5ZA5v": {
+      "filename": "BetterTeamChat-OpenPaC-1.0.0-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/U2SYsmz5/versions/w5C5ZA5v/BetterTeamChat-OpenPaC-1.0.0-1.19.3.jar",
+      "hash": "sha512-7LQMf0rofD2QWfVC+L51EvOTYVUPn8hqN2zSEL9bISvlklFJhcNhB2fKb9ZVOu3Sg8h8DUzV+QPjd7QZUQ58WA==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "betterteamchat",
+          "projectId": "2Ll8RHPS",
+          "type": "required"
+        },
+        {
+          "slug": "open-parties-and-claims",
+          "projectId": "gF3BGWvG",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "QNxLpvWD"
+    ],
+    "1.19.2+fabric": [
+      "Io1DQU6a"
+    ],
+    "1.19.3+fabric": [
+      "w5C5ZA5v"
+    ],
+    "1.20+fabric": [
+      "bweVdh4H"
+    ],
+    "1.20+quilt": [
+      "bweVdh4H"
+    ],
+    "1.20.1+fabric": [
+      "bweVdh4H"
+    ],
+    "1.20.1+quilt": [
+      "bweVdh4H"
+    ]
+  }
+}

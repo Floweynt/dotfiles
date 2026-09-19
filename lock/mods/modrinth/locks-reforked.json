@@ -1,0 +1,107 @@
+{
+  "slug": "locks-reforked",
+  "projectId": "tkC1hydn",
+  "versions": {
+    "AgVusIgf": {
+      "filename": "locks-fabric-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/tkC1hydn/versions/AgVusIgf/locks-fabric-1.20.1-1.1.0.jar",
+      "hash": "sha512-hZiV8xPaeuQerh2sE/aJV3AVsdhzFSzVvHyf+qkTrm4/Ned6VhZpTfO5+1Wk79Fu1iwmr5r+/yhze9QpMctuCQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "k1zWNst2": {
+      "filename": "locks-fabric-1.20.1-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/tkC1hydn/versions/k1zWNst2/locks-fabric-1.20.1-1.0.4.jar",
+      "hash": "sha512-T0NAtaIPTKuXMGDM7m36JXA86l7R9sPmJYcHK4x7lITW7y0haE9QWTp0rXn0HGD4VMNn8/a5MCdac1QKMTCssw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oM1gb6sP": {
+      "filename": "locks-fabric-1.20.1-1.2.3.jar",
+      "url": "https://cdn.modrinth.com/data/tkC1hydn/versions/oM1gb6sP/locks-fabric-1.20.1-1.2.3.jar",
+      "hash": "sha512-eUfwinN1zyOs0OZEs5dt+c7OUtONQPbCPBn5o8ApS/PFYnCiANYCxBmkvpxtv5MVtcU+jYPNpc8IxxGfV7it2g==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "oM1gb6sP",
+      "AgVusIgf",
+      "k1zWNst2"
+    ],
+    "1.20.2+fabric": [
+      "oM1gb6sP"
+    ],
+    "1.20.3+fabric": [
+      "oM1gb6sP"
+    ],
+    "1.20.4+fabric": [
+      "oM1gb6sP"
+    ],
+    "1.20.5+fabric": [
+      "oM1gb6sP"
+    ],
+    "1.20.6+fabric": [
+      "oM1gb6sP"
+    ]
+  }
+}

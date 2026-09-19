@@ -1,0 +1,64 @@
+{
+  "slug": "ranged-knights-medieval-boomsticks-and-sharpsticks",
+  "projectId": "bcpDZvXb",
+  "versions": {
+    "OWOsobBy": {
+      "filename": "medieval_boomsticks-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bcpDZvXb/versions/OWOsobBy/medieval_boomsticks-1.0.jar",
+      "hash": "sha512-JcWgnEh8UNH3wnBY6vfwv+7x63wkD5oT8wKXxsQxbTHzlF8Ba2YeNrOsJgTogFIu8GW2ivqKgivQFgz/zech8A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "epic-knights-shields-armor-and-weapons",
+          "projectId": "L6jvzao4",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "loW9c0aK": {
+      "filename": "medieval_boomsticks-fabric.1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/bcpDZvXb/versions/loW9c0aK/medieval_boomsticks-fabric.1.0.1.jar",
+      "hash": "sha512-RsvWGPYUgX/EHIKbDgtygcKN8M1eKZ733QSl99bGdJkJ2zFlPUxWpHmINn9N2TqsIwFsdwaeMwXIAqY2someHw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "epic-knights-shields-armor-and-weapons",
+          "projectId": "L6jvzao4",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "loW9c0aK"
+    ],
+    "1.20.1+forge": [
+      "OWOsobBy"
+    ]
+  }
+}

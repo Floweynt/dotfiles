@@ -1,0 +1,105 @@
+{
+  "slug": "fsit-continued",
+  "projectId": "dF99Qv0b",
+  "versions": {
+    "8AHmqlpS": {
+      "filename": "fsit-3.0.0-beta.1+mc26.1.jar",
+      "url": "https://cdn.modrinth.com/data/dF99Qv0b/versions/8AHmqlpS/fsit-3.0.0-beta.1%2Bmc26.1.jar",
+      "hash": "sha512-L93UgOInGUtSBp3m6tmyU3Av5eTytgHlSsnkzodYpyDGbYMEN0uUyt6l0/KQO+DKf4oeKL3RRphCurQPkCxDSA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "GY1sjesK": {
+      "filename": "fsit-3.0.1-beta.2+mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/dF99Qv0b/versions/GY1sjesK/fsit-3.0.1-beta.2%2Bmc26.2.jar",
+      "hash": "sha512-5arxSmcgDCaLB+WpOOionCVQAY6BFpbXd9ZySy+Z2ygIQBiPsv7glU2Ynui15+q0XFKfTM7+MCaIshDLFOXTaw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "UkPLpAoE": {
+      "filename": "fsit-3.0.1-beta.1+mc26.1.jar",
+      "url": "https://cdn.modrinth.com/data/dF99Qv0b/versions/UkPLpAoE/fsit-3.0.1-beta.1%2Bmc26.1.jar",
+      "hash": "sha512-gZFwrPwsTrk68b6o4Sd00n1jt3mqcYu8BFCvQrePh1fn0B4bq01pOn2SFDhRdo8gCV69gAhhJ9CRtaNqzYhoRw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hOmQRbGy": {
+      "filename": "fsit-3.0.1-beta.2+mc26.1.jar",
+      "url": "https://cdn.modrinth.com/data/dF99Qv0b/versions/hOmQRbGy/fsit-3.0.1-beta.2%2Bmc26.1.jar",
+      "hash": "sha512-ejh+CQ4MBkvN0bzR81UYVaIFZVvzQx4Fxm5HV4DkviijpgOGr/zET5rjPHm1OdriRdbEFqROKzGmYn28AFlP9w==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "hOmQRbGy",
+      "UkPLpAoE",
+      "8AHmqlpS"
+    ],
+    "26.1.1+fabric": [
+      "hOmQRbGy",
+      "UkPLpAoE",
+      "8AHmqlpS"
+    ],
+    "26.1.2+fabric": [
+      "hOmQRbGy",
+      "UkPLpAoE",
+      "8AHmqlpS"
+    ],
+    "26.2+fabric": [
+      "GY1sjesK"
+    ]
+  }
+}

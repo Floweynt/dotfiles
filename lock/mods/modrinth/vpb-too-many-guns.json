@@ -1,0 +1,76 @@
+{
+  "slug": "vpb-too-many-guns",
+  "projectId": "RJJ3EyBt",
+  "versions": {
+    "XT5MjCiy": {
+      "filename": "vpb-too-many-guns-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/RJJ3EyBt/versions/XT5MjCiy/vpb-too-many-guns-1.0.1.jar",
+      "hash": "sha512-1GRVWDV6xt/1UNjkKYTn2HOdIPZ19H9VBwcNcMPUAbVLUqpc5BVJTPDKBnR58r3icVYYvkW9TnvH87RXAGfCGw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "morejs",
+          "projectId": "mo64mR1W",
+          "type": "required"
+        }
+      ]
+    },
+    "jtKr1njo": {
+      "filename": "vpb-too-many-guns-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RJJ3EyBt/versions/jtKr1njo/vpb-too-many-guns-1.0.0.jar",
+      "hash": "sha512-XZIAPtakSnqawemXS8Dl81jM62Nru3E7fgjgu7T3IeMaROt3xEc5+yMoM098p9e2z1ufCgO4bRYX9zwHyBue/w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "morejs",
+          "projectId": "mo64mR1W",
+          "type": "required"
+        },
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "XT5MjCiy"
+    ],
+    "1.20.1+forge": [
+      "XT5MjCiy",
+      "jtKr1njo"
+    ]
+  }
+}

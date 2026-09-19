@@ -1,0 +1,42 @@
+{
+  "slug": "llamarama",
+  "projectId": "6PfoSsEE",
+  "versions": {
+    "FCaBebrN": {
+      "filename": "Llamarama-1.8.4.jar",
+      "url": "https://cdn.modrinth.com/data/6PfoSsEE/versions/1.8.4/Llamarama-1.8.4.jar",
+      "hash": "sha512-oMgKVlrUpQpH5vpKNdxfr6SJsfz0h2cfS6vQD8bNxzkOsi5a7r3mfBpOgkgW5//QsQZ+FyAkeSUGf/n5LctruQ==",
+      "gameVersions": [
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.1+fabric": [
+      "FCaBebrN"
+    ],
+    "1.19.1+quilt": [
+      "FCaBebrN"
+    ],
+    "1.19.2+fabric": [
+      "FCaBebrN"
+    ],
+    "1.19.2+quilt": [
+      "FCaBebrN"
+    ]
+  }
+}

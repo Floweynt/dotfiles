@@ -1,0 +1,31 @@
+{
+  "slug": "jim-mech",
+  "projectId": "di9JxH5m",
+  "versions": {
+    "UHUvQfRA": {
+      "filename": "JimMech.jar",
+      "url": "https://cdn.modrinth.com/data/di9JxH5m/versions/UHUvQfRA/JimMech.jar",
+      "hash": "sha512-NWefGVL1pyafBDU0XUKbAMSchl7h9TrbUnC7yVyUDkMyA0CD1K0sNaW5teo9lud+HgsDLSaifWp6astz1Zetsg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "UHUvQfRA"
+    ]
+  }
+}

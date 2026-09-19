@@ -1,0 +1,52 @@
+{
+  "slug": "hexpats",
+  "projectId": "dmOz7d0b",
+  "versions": {
+    "4wId0HQw": {
+      "filename": "hexpats-0.1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dmOz7d0b/versions/4wId0HQw/hexpats-0.1.1-1.20.1.jar",
+      "hash": "sha512-/P3+sWsOPodwGMatndfXP9cfYZ+6X4H6o5eag3zWcoNCnVCfZipbxmsCduYHTSoCa/1BNQqMm4tX3k3ZTWU4Fw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    },
+    "QAvStP3l": {
+      "filename": "hexpats-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/dmOz7d0b/versions/QAvStP3l/hexpats-0.1-1.20.1.jar",
+      "hash": "sha512-0LiFP4Wm5Czq4ZUwmQTQ67RB1iQ0egD4FNFLjYnlcN3ZVgYcgyqZZ3/QnOhKwyR/svXOVVez/yYXX38Hdz8suQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "hex-casting",
+          "projectId": "nTW3yKrm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "4wId0HQw",
+      "QAvStP3l"
+    ]
+  }
+}

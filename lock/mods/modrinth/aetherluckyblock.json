@@ -1,0 +1,111 @@
+{
+  "slug": "aetherluckyblock",
+  "projectId": "8MrIYNnX",
+  "versions": {
+    "Ahy9Uyib": {
+      "filename": "aetherluckyblock-fabric-1.21-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8MrIYNnX/versions/Ahy9Uyib/aetherluckyblock-fabric-1.21-2.1.0.jar",
+      "hash": "sha512-Yb0L9YD9+d8Torwc8ttXAQqErN03XRtKL8HXJBBLR98Q/sP0y++LUffX1uKmae5nHL/F6CePBzELNNhfkIKTcA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "myluckyblock",
+          "projectId": "fyhTamlR",
+          "type": "required"
+        }
+      ]
+    },
+    "G4Kv08CA": {
+      "filename": "aetherluckyblock-neoforge-1.21-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8MrIYNnX/versions/G4Kv08CA/aetherluckyblock-neoforge-1.21-2.1.0.jar",
+      "hash": "sha512-jQKhCL/ECwtviegmXPB3qFFw1T2zDx20uMyhiUHbK31Q6kfED8GneCn90b8jqu7RPV81VE02aKymXQIO57jTnA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "aether",
+          "projectId": "YhmgMVyu",
+          "type": "required"
+        },
+        {
+          "slug": "myluckyblock",
+          "projectId": "fyhTamlR",
+          "type": "required"
+        }
+      ]
+    },
+    "IiHWNCSu": {
+      "filename": "aetherluckyblock-fabric-1.21-2.7.2.jar",
+      "url": "https://cdn.modrinth.com/data/8MrIYNnX/versions/IiHWNCSu/aetherluckyblock-fabric-1.21-2.7.2.jar",
+      "hash": "sha512-yFnsfhmXbY0pAcrsEr3wG/tlxP5pIDhNRpp2hP4lM1OJn8koJrCPT2v9eLMqvpKbe87Rb5rYdH2sEbWOo7EVIw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "T6mbRIlh": {
+      "filename": "aetherluckyblock-neoforge-1.21-2.7.2.jar",
+      "url": "https://cdn.modrinth.com/data/8MrIYNnX/versions/T6mbRIlh/aetherluckyblock-neoforge-1.21-2.7.2.jar",
+      "hash": "sha512-1lLEbN+BruYw1/IzZN0lrsatK17De6MiuhotRs+V+zkSSA4yo/uxlTOMmcTN+WJI52DSXlkl2r3wG+hAI9Lq7w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "IiHWNCSu",
+      "Ahy9Uyib"
+    ],
+    "1.21+neoforge": [
+      "T6mbRIlh",
+      "G4Kv08CA"
+    ],
+    "1.21.1+fabric": [
+      "IiHWNCSu",
+      "Ahy9Uyib"
+    ],
+    "1.21.1+neoforge": [
+      "T6mbRIlh",
+      "G4Kv08CA"
+    ]
+  }
+}

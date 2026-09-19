@@ -1,0 +1,31 @@
+{
+  "slug": "jcraft",
+  "projectId": "5b1aTRf2",
+  "versions": {
+    "JXGaEG28": {
+      "filename": "blockkey-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5b1aTRf2/versions/JXGaEG28/blockkey-1.0.0.jar",
+      "hash": "sha512-Ycan92LB5bV501DnhtNiHXxwwSuIPcBI9f84zMRVj8xcR8S7QZAUOl5dQ8vvGoSRgnbd2wGWHOo2V7LTSBEPoA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "JXGaEG28"
+    ]
+  }
+}

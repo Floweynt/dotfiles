@@ -1,0 +1,36 @@
+{
+  "slug": "powah-refabric",
+  "projectId": "ZmmmAZp7",
+  "versions": {
+    "U8dtUjDy": {
+      "filename": "Powah-5.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZmmmAZp7/versions/U8dtUjDy/Powah-5.1.0.jar",
+      "hash": "sha512-Bc4Cu3sTpeXaSfFM/BDsq0QkgqTYnRMLKG9dCMI8UD432CGPq2ka661BXVZFcya6XwVjR92PRqn6xgkqWQFjDw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "U8dtUjDy"
+    ]
+  }
+}

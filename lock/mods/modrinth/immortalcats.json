@@ -1,0 +1,105 @@
+{
+  "slug": "immortalcats",
+  "projectId": "avt6YUDN",
+  "versions": {
+    "MDSVrWDs": {
+      "filename": "ImmortalCats-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/avt6YUDN/versions/MDSVrWDs/ImmortalCats-1.0.2.jar",
+      "hash": "sha512-Ncb5BmVsdg/otMLTZCXASS6s0xGFBjQ7My6dPlIVOjFubfrnK1DT/GHwzfgvhj0/qZRSeSqNrvBbpwL3jA311A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "UwHvW6iy": {
+      "filename": "ImmortalCats-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/avt6YUDN/versions/UwHvW6iy/ImmortalCats-1.0.1.jar",
+      "hash": "sha512-3DWgrH9z+vyZ4jWErZRHiC1ubpzqe8+oxlDCp2GDUyVfBk8KYJnUzBQjycuKRTDmXrakjD1nP55kKI1xXBw/7g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "gdtulS1o": {
+      "filename": "ImmortalCats-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/avt6YUDN/versions/gdtulS1o/ImmortalCats-1.0.3.jar",
+      "hash": "sha512-jMVIXHsi86l3uamWPnXYnVJLXnaQo0r3Myoay9Gi1O22qiu6XGqlQQGnDP9NaugQOhXVhKafL0W4U3NxXUE64w==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "hCwuCZa8": {
+      "filename": "ImmortalCats-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/avt6YUDN/versions/hCwuCZa8/ImmortalCats-1.0.4.jar",
+      "hash": "sha512-10LIwyo+hNqdN41PAa/3CfFJ50ZkqMz1/hcPxVYrQjI/SCX1MTCiu9w8aFfNaBnpQzn0g2PvE0WaV841vkiY5Q==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "rTwBWCDX": {
+      "filename": "ImmortalCats-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/avt6YUDN/versions/rTwBWCDX/ImmortalCats-1.0.jar",
+      "hash": "sha512-DYMcjsEBF+oIam9N5qFdpGCW3pzlc3L3iK3ygTHgw3ervFxAioX8VDFNhfjnWPWCOfP3ZFwcoW8LWs9X/LexnA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "rTwBWCDX"
+    ],
+    "1.21+fabric": [
+      "UwHvW6iy"
+    ],
+    "1.21.1+fabric": [
+      "MDSVrWDs"
+    ],
+    "1.21.4+fabric": [
+      "gdtulS1o"
+    ],
+    "1.21.5+fabric": [
+      "hCwuCZa8"
+    ]
+  }
+}

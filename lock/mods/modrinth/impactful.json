@@ -1,0 +1,88 @@
+{
+  "slug": "impactful",
+  "projectId": "SpOsQ3y2",
+  "versions": {
+    "L6YCiOxB": {
+      "filename": "Impactful-2.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/SpOsQ3y2/versions/L6YCiOxB/Impactful-2.1.1.jar",
+      "hash": "sha512-0L1lugC5m0PW8jhjZFbaHaYPu6a0Hlah4bAxzUyH0V6UHXW5eL0VZsei/CLuUvtIG+t8JfL440vIGhWVQ1xVVA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "d9XsuTck": {
+      "filename": "Impactful-2.1.3-(1.21.11).jar",
+      "url": "https://cdn.modrinth.com/data/SpOsQ3y2/versions/d9XsuTck/Impactful-2.1.3-%281.21.11%29.jar",
+      "hash": "sha512-Lzvs9A7epIAt2zn/BJ2l8HMR69HT4jQ2eeeS5kkop9EvCE8ofMqcJ2CJqzTpMdC28VLOKrnsCwliyb0yeupjMw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "pj4lewYf": {
+      "filename": "maceimpact-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/SpOsQ3y2/versions/pj4lewYf/maceimpact-2.1.0.jar",
+      "hash": "sha512-r/VsYY8nDSmDNvWGHAoK6s+Lp92mkwZcQy4ukTAzmLhEeo9Ha3NzCV0Te8A5Jybps5QuMIPA77mpm0LeONKnuA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "d9XsuTck",
+      "L6YCiOxB",
+      "pj4lewYf"
+    ]
+  }
+}

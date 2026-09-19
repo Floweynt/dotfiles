@@ -1,0 +1,106 @@
+{
+  "slug": "twigonometry",
+  "projectId": "rzCcrnEB",
+  "versions": {
+    "4ntQi6yb": {
+      "filename": "twigonometry-neoforge-1.21.1-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/rzCcrnEB/versions/4ntQi6yb/twigonometry-neoforge-1.21.1-0.1.2.jar",
+      "hash": "sha512-9BGrItwamlcBF+GTYGUlBmxVDPj5Dmr8iSMJZqybYbNF2v3SfmxYtaUfT+gcTitkgrpUGfsQDiTmMgPSrvwZLg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "7YoSH0Vu": {
+      "filename": "twigonometry-fabric-1.21.1-0.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/rzCcrnEB/versions/7YoSH0Vu/twigonometry-fabric-1.21.1-0.1.2.jar",
+      "hash": "sha512-ORwaNzewZZ+arqCxBa6EO0ii6B9oKxdl/fpToiFNgznbRnJLoTneUR7d5mrsZycBL9PXJ6qocq7tXXBqOADyyw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "NSsMfDia": {
+      "filename": "twigonometry-fabric-1.21.1-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/rzCcrnEB/versions/NSsMfDia/twigonometry-fabric-1.21.1-0.1.1.jar",
+      "hash": "sha512-sspmO7bzus4EroJKoaty4c3VZ5W+95rxTSeqeLa7KVy/Nyr3mxGEmkdKTSNyjojqBiufTf4dBCN5rPmbrBNhig==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "l7h4cMCv": {
+      "filename": "twigonometry-neoforge-1.21.1-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/rzCcrnEB/versions/l7h4cMCv/twigonometry-neoforge-1.21.1-0.1.1.jar",
+      "hash": "sha512-cED7G+7g6JUizH2iQZ7bitwRFmzK8ao4VgzP5CVhxD+4BiGhmcMwH+lcaq3kSaV+rnoSdzJlHeYsPWBN9hPBew==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "7YoSH0Vu",
+      "NSsMfDia"
+    ],
+    "1.21.1+neoforge": [
+      "4ntQi6yb",
+      "l7h4cMCv"
+    ]
+  }
+}

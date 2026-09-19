@@ -1,0 +1,123 @@
+{
+  "slug": "breadvariants",
+  "projectId": "6mSUxFoC",
+  "versions": {
+    "8WD2Aiii": {
+      "filename": "breadvariants-forge-26.1-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/6mSUxFoC/versions/8WD2Aiii/breadvariants-forge-26.1-1.0.5.jar",
+      "hash": "sha512-/eVI0GghbshcERU2V6WYfZOfV9oOEjx9NdYy5YO3XLCl2pQirhF+OgBsbIfdgizbSp2zFhtVf7UwWsTdTd1vrQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "LgDl12E8": {
+      "filename": "darkbread-forge-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6mSUxFoC/versions/LgDl12E8/darkbread-forge-1.20.1-1.0.0.jar",
+      "hash": "sha512-PiuZALMl59PeGIGjZ8/Ru1oDU7gOMF/HQ83Fe/WS7wbKfQvdbaa5kpr1GlDDAn9jX4nzFc4MmI8vtAmuM1onXw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "siMaEaqu": {
+      "filename": "breadvariants-neoforge-26.1-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/6mSUxFoC/versions/siMaEaqu/breadvariants-neoforge-26.1-1.0.5.jar",
+      "hash": "sha512-kEvV3uG3V6vIquUTnmVDbQm2s/Ivp1j765hvXgI5JCysZmtMg8TagyhVgY9JRnV5Bxj7pgXeYv+IiCyUjDASiQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uKh8z2qB": {
+      "filename": "breadvariants-fabric-26.1-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/6mSUxFoC/versions/uKh8z2qB/breadvariants-fabric-26.1-1.0.5.jar",
+      "hash": "sha512-R4u6FSY1NcHvMSTqgHWDXF/ZD1MskMgPqDUOvJVjaqplq7/mfFswATj9MPR+oqY6g+guQww9qe9dRfNavcdWow==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vj33HXmz": {
+      "filename": "darkbread-fabric-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6mSUxFoC/versions/vj33HXmz/darkbread-fabric-1.20.1-1.0.0.jar",
+      "hash": "sha512-+aot8v5tQJa6bqts5AtvW5FDnNy9jijW4veJGtEZAo0L/dysaCviSeAFpBzGSmJ9kW3jceuVGca+ypPboXxDgA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "vj33HXmz"
+    ],
+    "1.20.1+forge": [
+      "LgDl12E8"
+    ],
+    "26.1+fabric": [
+      "uKh8z2qB"
+    ],
+    "26.1+forge": [
+      "8WD2Aiii"
+    ],
+    "26.1+neoforge": [
+      "siMaEaqu"
+    ],
+    "26.1.1+fabric": [
+      "uKh8z2qB"
+    ],
+    "26.1.1+forge": [
+      "8WD2Aiii"
+    ],
+    "26.1.1+neoforge": [
+      "siMaEaqu"
+    ],
+    "26.1.2+fabric": [
+      "uKh8z2qB"
+    ],
+    "26.1.2+forge": [
+      "8WD2Aiii"
+    ],
+    "26.1.2+neoforge": [
+      "siMaEaqu"
+    ]
+  }
+}

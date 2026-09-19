@@ -1,0 +1,141 @@
+{
+  "slug": "mobrules",
+  "projectId": "e3ZWj3LB",
+  "versions": {
+    "E1GSn3Zo": {
+      "filename": "mobrules-1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/e3ZWj3LB/versions/E1GSn3Zo/mobrules-1.0%2B1.21.1.jar",
+      "hash": "sha512-7SXQEw5vWRXt8JBA0BMNcUmhVK8eJz3F9WX/o4YFLUcLNqs/7+DMsxhWBP+4iER17+9WHUzKUJVXRQXqvWgK+A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "NHUDSpDy": {
+      "filename": "mobrules-1.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/e3ZWj3LB/versions/NHUDSpDy/mobrules-1.1%2B1.21.1.jar",
+      "hash": "sha512-RkhM1a0myvkYx5p6oezLwQ/y1Q/886s7+Nn0mpJZjXTUGLph/dZ8Z3yUTVwLZRrdqERCB2Ewcow12j3K2uDauw==",
+      "gameVersions": [
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Z1Dj6Ynq": {
+      "filename": "mobrules-1.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/e3ZWj3LB/versions/Z1Dj6Ynq/mobrules-1.0-1.21.1.jar",
+      "hash": "sha512-9ixXy5g3e+GCP9x+eFUCGDAxt7rWPhNAFRTzB+wsFuxd585lVeKR+Ud3FqyswSxTrRDfhOX/uch+r6LyRnbqPQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bOthJnA4": {
+      "filename": "mobrules-1.1+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/e3ZWj3LB/versions/bOthJnA4/mobrules-1.1%2B26.2.jar",
+      "hash": "sha512-xXhtgpvCizlykcKbtfCdFZrR/BqBQfsQiugUpcNkFL1atSDLMeFE8ZivnSbY+yX6OR/fW4CF/9iyq6R5Q2mqow==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "c4ikrpPa": {
+      "filename": "mobrules-1.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/e3ZWj3LB/versions/c4ikrpPa/mobrules-1.1-1.21.1.jar",
+      "hash": "sha512-wGxGfgL5fu83NWiecqjNsqlh9yFtA8ItSF3l9CM2E5s6Nkn76vQI+ulkt9Z87daSEaTj/LWaV8ogr0cMjysT6g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "c4ikrpPa",
+      "Z1Dj6Ynq"
+    ],
+    "1.21.1+neoforge": [
+      "NHUDSpDy",
+      "E1GSn3Zo"
+    ],
+    "1.21.10+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.11+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.2+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.3+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.4+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.5+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.6+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.7+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.8+neoforge": [
+      "NHUDSpDy"
+    ],
+    "1.21.9+neoforge": [
+      "NHUDSpDy"
+    ],
+    "26.2+neoforge": [
+      "bOthJnA4"
+    ]
+  }
+}

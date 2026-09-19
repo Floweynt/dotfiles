@@ -1,0 +1,36 @@
+{
+  "slug": "lvlz-armory",
+  "projectId": "H10IKOVT",
+  "versions": {
+    "w01LpM9M": {
+      "filename": "lvlz_armory-1.21.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/H10IKOVT/versions/w01LpM9M/lvlz_armory-1.21.1-1.0.jar",
+      "hash": "sha512-k9KMY2DGe/3bWXHda9af2roetD3i3VOlyKW7OdRmW5s9pYXM5NQxL1uzfo1ePa5Fw4RUslOqdO6/gMrGJI8PvA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "armory-rpg-series",
+          "projectId": "PJvJUdGw",
+          "type": "required"
+        },
+        {
+          "slug": "levelz",
+          "projectId": "EFtixeiF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "w01LpM9M"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "cobblemon-better-pokedex-scanner",
+  "projectId": "lESGhLxI",
+  "versions": {
+    "fvFI487Y": {
+      "filename": "better-pokedex-scanner-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lESGhLxI/versions/fvFI487Y/better-pokedex-scanner-1.0.0.jar",
+      "hash": "sha512-H2CeIx8Goml/CRRciMfO1cUujLFIAc01/pNApSFrAKZ6T65NzyBNyN+Q4D+mq6Dwg7wHoYLS3zNbtDEqkU6BZg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "fvFI487Y"
+    ]
+  }
+}

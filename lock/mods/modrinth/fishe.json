@@ -1,0 +1,52 @@
+{
+  "slug": "fishe",
+  "projectId": "VKkeir95",
+  "versions": {
+    "3VCCKI2j": {
+      "filename": "fishe-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/VKkeir95/versions/3VCCKI2j/fishe-0.1.0.jar",
+      "hash": "sha512-tfe4I5DL5J09C+Na+FvGpjzZHH3C4SG6q9ml5hYB1ns5GleMu5vkfTJo7TW+idbpY382XM0vPM6BZbTwMbUhyA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    },
+    "wvy3ozex": {
+      "filename": "fishe-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/VKkeir95/versions/wvy3ozex/fishe-0.1.1.jar",
+      "hash": "sha512-Fscs4w2mcVIqi6XOc0/KU7N33fAT62zz+ADWkKCv6Kprgs+6L6CT493Gr37CNbCrOIa1LgmW/0ID9mFWFov12g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "patchouli",
+          "projectId": "nU0bVIaL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wvy3ozex",
+      "3VCCKI2j"
+    ]
+  }
+}

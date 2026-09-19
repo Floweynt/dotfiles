@@ -1,0 +1,99 @@
+{
+  "slug": "hunger-overhaul-reborn",
+  "projectId": "ZFjvY7Et",
+  "versions": {
+    "7hpSiaR1": {
+      "filename": "hunger-overhaul-reborn-fabric-0.1.0-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/ZFjvY7Et/versions/7hpSiaR1/hunger-overhaul-reborn-fabric-0.1.0-alpha.jar",
+      "hash": "sha512-Xbx1aRbv4+nceD1vJlfe194lmF0jNcsLh4m01QEP3u3vx8uPfsHnnRdKXF5IE+RfuBOhpZ4CgIJwiB5t2Yr9PA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "A3IUoGF3": {
+      "filename": "hunger-overhaul-reborn-fabric-0.2.0-beta.jar",
+      "url": "https://cdn.modrinth.com/data/ZFjvY7Et/versions/A3IUoGF3/hunger-overhaul-reborn-fabric-0.2.0-beta.jar",
+      "hash": "sha512-/6SfZwlncPFpP3MibRVdUDGivbXju+w301vVU772TYo7dwypBK6ch7GN6zx1qdatXDLKkOsJSSF81eqQoL4/cQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "CdFrTAAy": {
+      "filename": "hunger-overhaul-reborn-forge-0.1.0-alpha.jar",
+      "url": "https://cdn.modrinth.com/data/ZFjvY7Et/versions/CdFrTAAy/hunger-overhaul-reborn-forge-0.1.0-alpha.jar",
+      "hash": "sha512-kN4qI2Yo3/HewaEBJ6/Z0XZEIsLDpJs8dbmNeuktzB6paF15UB/h4CJGb+sgqEpvean6rTA2dcOyIIJLB7i52A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "A3IUoGF3",
+      "7hpSiaR1"
+    ],
+    "1.20.1+forge": [
+      "CdFrTAAy"
+    ],
+    "1.20.1+neoforge": [
+      "CdFrTAAy"
+    ],
+    "1.20.2+fabric": [
+      "A3IUoGF3"
+    ],
+    "1.20.3+fabric": [
+      "A3IUoGF3"
+    ],
+    "1.20.4+fabric": [
+      "A3IUoGF3"
+    ],
+    "1.20.5+fabric": [
+      "A3IUoGF3"
+    ],
+    "1.20.6+fabric": [
+      "A3IUoGF3"
+    ]
+  }
+}

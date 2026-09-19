@@ -1,0 +1,114 @@
+{
+  "slug": "create-stardust",
+  "projectId": "LcRYmA0k",
+  "versions": {
+    "9mrfVqmI": {
+      "filename": "stardust-0.1.7.jar",
+      "url": "https://cdn.modrinth.com/data/LcRYmA0k/versions/9mrfVqmI/stardust-0.1.7.jar",
+      "hash": "sha512-NzW9NkDomEBxQn4pgGbwmFLnpv/S3EtpfVXqHlw0Hf/jZquSg1b8uckyLI+SO05Gly/+6Y9Fb3I2N4rc984jRA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "C4IdWEP8": {
+      "filename": "stardust-0.1.7.jar",
+      "url": "https://cdn.modrinth.com/data/LcRYmA0k/versions/C4IdWEP8/stardust-0.1.7.jar",
+      "hash": "sha512-TfC3xIu2JysvO9V14N6V0/IJiBKfePjXmJzzzh6JmKWpRoLzLaMPBY39qFcDz9am0qyA4vqwDcAtAzDZ4k2rIw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dIbyNTkX": {
+      "filename": "stardust-0.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/LcRYmA0k/versions/dIbyNTkX/stardust-0.1.4.jar",
+      "hash": "sha512-9YnlM3d/dynPrZYFK4SzpYKqRzouYTnpwFn+Paj+LkoZwAFXdrynQUNXL10Kbzjt0fSkfemGH9jHJyrPsR7sIQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "hKZ53rI0": {
+      "filename": "stardust-0.1.8.jar",
+      "url": "https://cdn.modrinth.com/data/LcRYmA0k/versions/hKZ53rI0/stardust-0.1.8.jar",
+      "hash": "sha512-daFhYnTGvFeRU1j2CKJnilFuyCEHu0K52Eg49M3neDn1s4hPAzCzJE7asOcTOW7EopNrvkI2ZtCSkMJIg3j71g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hKZ53rI0",
+      "C4IdWEP8",
+      "9mrfVqmI",
+      "dIbyNTkX"
+    ]
+  }
+}

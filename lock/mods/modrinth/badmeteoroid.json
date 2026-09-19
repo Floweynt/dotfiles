@@ -1,0 +1,106 @@
+{
+  "slug": "badmeteoroid",
+  "projectId": "9T67LoUA",
+  "versions": {
+    "1QL1lONl": {
+      "filename": "BadMeteoroid-neoforge-1.4.jar",
+      "url": "https://cdn.modrinth.com/data/9T67LoUA/versions/1QL1lONl/BadMeteoroid-neoforge-1.4.jar",
+      "hash": "sha512-Hs1+HBwYq4qrSm1emeO7Rp9KQJ2JsR23bYlPG5NBLlLXQgzqfbMINb5AReHdyrFxS4k9G0ES2ICpGlfV+kY6eA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Ni0cn6lt": {
+      "filename": "badmeteoroid-1.3-1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9T67LoUA/versions/Ni0cn6lt/badmeteoroid-1.3-1.21-fabric.jar",
+      "hash": "sha512-7eulhfc4qVtk8GDiS0CVNIwjwm/7TJP3y68yx4TA+CrfAs3lj8XcQbhF94WxjYVSIDR6nBB36VvRCvyqGylPdg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "SI9c9Uqb": {
+      "filename": "badmeteoroid-1.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/9T67LoUA/versions/SI9c9Uqb/badmeteoroid-1.3-1.20.1.jar",
+      "hash": "sha512-d2iPu1ELz/dL43PlY2HcJ3Q1v8JxXXc6ePHWPiIyUcF9kxYeGSK4rdvdWPCFuV59/0jN+ya04xaJRZrekQsZHA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "ae2",
+          "projectId": "XxWD5pD3",
+          "type": "required"
+        }
+      ]
+    },
+    "TW3ohYay": {
+      "filename": "badmeteoroid-1.3-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/9T67LoUA/versions/TW3ohYay/badmeteoroid-1.3-1.21.jar",
+      "hash": "sha512-0qBZWhsojShw9v7TS+juJmuRPO/7mBgtnDiBB5ouKm0zFZGXdqZwSSY48sNv1oop5KozcTix4qo7bLC9y/CkBg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "mAvJ9DNC": {
+      "filename": "BadMeteoroid-neoforge-1.5.jar",
+      "url": "https://cdn.modrinth.com/data/9T67LoUA/versions/mAvJ9DNC/BadMeteoroid-neoforge-1.5.jar",
+      "hash": "sha512-D18+sumzQif5Myye+1R95oSXseGUbY1M8yXK4UaJrbDoDaCGiqtKOTrXocVq2A9cvxvjtWAcEGuKQ2PpJiiQKA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Ni0cn6lt"
+    ],
+    "1.20.1+forge": [
+      "SI9c9Uqb"
+    ],
+    "1.21+forge": [
+      "TW3ohYay"
+    ],
+    "1.21+neoforge": [
+      "TW3ohYay"
+    ],
+    "1.21.1+forge": [
+      "TW3ohYay"
+    ],
+    "1.21.1+neoforge": [
+      "mAvJ9DNC",
+      "1QL1lONl",
+      "TW3ohYay"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "telecreate",
+  "projectId": "ONJHX6hl",
+  "versions": {
+    "FutmZHSf": {
+      "filename": "telecreate-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ONJHX6hl/versions/v1.0.0/telecreate-1.0.0.jar",
+      "hash": "sha512-34vO9K+cRflOa6CkXhkWXu+s2+mmTzB0WALhi23kBXQE3PN5QZLmRzDXhRzGfGpMFTGOoZNKN+COQntpOCHsqw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersiveportals",
+          "projectId": "zJpHMkdD",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "FutmZHSf"
+    ]
+  }
+}

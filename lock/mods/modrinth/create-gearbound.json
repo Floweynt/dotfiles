@@ -1,0 +1,125 @@
+{
+  "slug": "create-gearbound",
+  "projectId": "PCoAJePi",
+  "versions": {
+    "6EkSd2pW": {
+      "filename": "gearbound-1.1.0+forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/PCoAJePi/versions/6EkSd2pW/gearbound-1.1.0%2Bforge-1.20.1.jar",
+      "hash": "sha512-s75ldBcIdT+VMf3pm+1m7aCGTw60fTnQumowYDcESGznA+qXr65YkuxF3m/ThA/7VsqDbcTr1HFjH5SPPl1HeQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "PBRNy5Xg": {
+      "filename": "gearbound-1.1.1+forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/PCoAJePi/versions/PBRNy5Xg/gearbound-1.1.1%2Bforge-1.20.1.jar",
+      "hash": "sha512-i/5rooHp2whm6mPubMJwaFR6McRwj9LMeeX5lUEqdLvfqQUApAzjR89rl3a/yFZtO+UckwWzu2vTCjWG1IYGTA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QosHsNE3": {
+      "filename": "gearbound-0.1.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/PCoAJePi/versions/QosHsNE3/gearbound-0.1.0%2B1.20.1.jar",
+      "hash": "sha512-Oy5jDhzN8lQFFechpjxXeCiG/6CwHbWpzgzoNYij15HQh3CU0Ll76VQJs3FQgl2c51DTe6YRu65bd9D8RgwodA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sY6UESpX": {
+      "filename": "gearbound-1.1.1+fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/PCoAJePi/versions/sY6UESpX/gearbound-1.1.1%2Bfabric-1.20.1.jar",
+      "hash": "sha512-Jcg/8WFPYSeNoYLjh15jmsMSN6xp9ReHw5xvkKqv73KrWrrivlOjCrgLS/y6WXWbyr0vjxk5YdrI+ZWCZPmjLQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yKtVxCIp": {
+      "filename": "gearbound-1.1.0+fabric-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/PCoAJePi/versions/yKtVxCIp/gearbound-1.1.0%2Bfabric-1.20.1.jar",
+      "hash": "sha512-/eJqhzjE2N/TVG5qXMmGOuFULQ9T8Txw6fJXSqwRuHr5w582RD0WYcLBPtgfeUS5OzZ3oQDyce0CjnivxhZojg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sY6UESpX",
+      "yKtVxCIp",
+      "QosHsNE3"
+    ],
+    "1.20.1+forge": [
+      "PBRNy5Xg",
+      "6EkSd2pW"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "komodo-dragons",
+  "projectId": "VtblAIjc",
+  "versions": {
+    "ahdq3Bux": {
+      "filename": "KomodoDragons-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/VtblAIjc/versions/ahdq3Bux/KomodoDragons-1.0.1.jar",
+      "hash": "sha512-C36f37MsgerGpXXplUDqpxK4aFKRv25P6S5a6jYlYEbDaYXKCbHKfedkG+z9m7T3H64xm4Zf7QbTAJ/FKHcJYA==",
+      "gameVersions": [
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "dBPVtXRc": {
+      "filename": "komodo-dragons-1.21.4-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VtblAIjc/versions/dBPVtXRc/komodo-dragons-1.21.4-1.0.0.jar",
+      "hash": "sha512-PjHEVp2nvMz9IEtaomP29GxP9kQP/PSrXAlKDn4oyyeFe/oyYOOD5wjFYWFFNs2BYhKq0Ch8iAo/C1gOjbGesw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "hpC6gcNI": {
+      "filename": "KomodoDragons-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/VtblAIjc/versions/hpC6gcNI/KomodoDragons-1.0.1.jar",
+      "hash": "sha512-r9rsyaGL21joEIFh1BNh2KXg1FyRDcrSGK4PpFeqgV9N6yz22QhGj1BVqCQERTANnn5CY1oiYenF3pE53fIMaw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "hpC6gcNI"
+    ],
+    "1.21+quilt": [
+      "hpC6gcNI"
+    ],
+    "1.21.1+fabric": [
+      "hpC6gcNI"
+    ],
+    "1.21.1+quilt": [
+      "hpC6gcNI"
+    ],
+    "1.21.4+fabric": [
+      "dBPVtXRc"
+    ],
+    "1.21.5+fabric": [
+      "ahdq3Bux"
+    ],
+    "1.21.5+quilt": [
+      "ahdq3Bux"
+    ],
+    "1.21.6+fabric": [
+      "ahdq3Bux"
+    ],
+    "1.21.6+quilt": [
+      "ahdq3Bux"
+    ],
+    "1.21.7+fabric": [
+      "ahdq3Bux"
+    ],
+    "1.21.7+quilt": [
+      "ahdq3Bux"
+    ],
+    "1.21.8+fabric": [
+      "ahdq3Bux"
+    ],
+    "1.21.8+quilt": [
+      "ahdq3Bux"
+    ]
+  }
+}

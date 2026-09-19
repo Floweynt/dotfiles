@@ -1,0 +1,42 @@
+{
+  "slug": "auto-totem-detector",
+  "projectId": "KjEsEKg4",
+  "versions": {
+    "b8iREAqC": {
+      "filename": "anti-auto-totem-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/KjEsEKg4/versions/b8iREAqC/anti-auto-totem-1.0.1.jar",
+      "hash": "sha512-48WYpdsmr3wQNKAFWuYfxc/aZ3onnJip8pMdhsXp2gXg3eh3vCuuM5vVQ9GDuKsGS7kptEtqdaM/VFAmYwu+2w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dOG27S8E": {
+      "filename": "auto-totem-detector-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/KjEsEKg4/versions/dOG27S8E/auto-totem-detector-1.19.2.jar",
+      "hash": "sha512-WByAqfKjFlyXby9EnJ3D5Y2eFBlAAWk/nNNzfrkdB+uyuPxPJTtOLx8SiA+9QJ/Tvl5zG6jlS7cShR8uygQb0g==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "dOG27S8E"
+    ],
+    "1.20.1+fabric": [
+      "b8iREAqC"
+    ]
+  }
+}

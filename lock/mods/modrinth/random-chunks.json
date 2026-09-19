@@ -1,0 +1,97 @@
+{
+  "slug": "random-chunks",
+  "projectId": "8tEKEhi1",
+  "versions": {
+    "7AC0n4eN": {
+      "filename": "randomchunks-forge-1.20-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8tEKEhi1/versions/7AC0n4eN/randomchunks-forge-1.20-1.0.0.jar",
+      "hash": "sha512-tVj5RGFi+qPBlz+56zUzBNNUqW3FntY0vWPIgE5WfLq21zm2UMEFEb6Ezp+XXVzBrvrUgnRNEJb5ZHlwc6dxtg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Iy0xVkqw": {
+      "filename": "randomchunks-fabric-1.20-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8tEKEhi1/versions/Iy0xVkqw/randomchunks-fabric-1.20-1.0.0.jar",
+      "hash": "sha512-0/IddK0iZGXwTIP7ylsVhUYtCXkDkgYvPJ4pjTi+lTnyNyFHcsjeD75SFO/z7+jIlrMt0o1I8J1JAl85KMMxrA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ZDAdbxuI": {
+      "filename": "randomchunks-neoforge-1.21-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8tEKEhi1/versions/ZDAdbxuI/randomchunks-neoforge-1.21-2.0.0.jar",
+      "hash": "sha512-0mPRxtiI96aiE4J51P+n+Hhyw4/y3+RiadpgmdM3wiG1QlfffG0NBujH3VgJMLx0iUyLW+KUAMK6SyDKUalZcg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "yDCbOqI4": {
+      "filename": "randomchunks-fabric-1.21-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8tEKEhi1/versions/yDCbOqI4/randomchunks-fabric-1.21-2.0.0.jar",
+      "hash": "sha512-JJhOdzgy0jNkHJKxbHv0Fo5qVL+pdOvWGAxAG+wWz97Nqd0KocBiLWsgIJsLfcToQlBGwUKVgjQ1WtLVXfYkpA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Iy0xVkqw"
+    ],
+    "1.20+forge": [
+      "7AC0n4eN"
+    ],
+    "1.20+neoforge": [
+      "7AC0n4eN"
+    ],
+    "1.20.1+fabric": [
+      "Iy0xVkqw"
+    ],
+    "1.20.1+forge": [
+      "7AC0n4eN"
+    ],
+    "1.20.1+neoforge": [
+      "7AC0n4eN"
+    ],
+    "1.21+fabric": [
+      "yDCbOqI4"
+    ],
+    "1.21+neoforge": [
+      "ZDAdbxuI"
+    ]
+  }
+}

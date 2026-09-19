@@ -1,0 +1,42 @@
+{
+  "slug": "legacy-resource-pack-adapter",
+  "projectId": "yxxe4YKV",
+  "versions": {
+    "mTiEyUd9": {
+      "filename": "rpa-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yxxe4YKV/versions/mTiEyUd9/rpa-1.0.0.jar",
+      "hash": "sha512-isk96i04fO1ejUvtZ5Gs4GnwO2zjCWE2bSMF7byZU1OCHx7G+SqX8931l0cDn891GeIRMkBMnTTGaZXVUoo0Vw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "snu8F6DF": {
+      "filename": "rpa-1.0.0_1.21.6.jar",
+      "url": "https://cdn.modrinth.com/data/yxxe4YKV/versions/snu8F6DF/rpa-1.0.0_1.21.6.jar",
+      "hash": "sha512-JvwHbm8cilgLzUKLdAbGWx94362oU9/xbNkg+jAidEXM8mqc+bMAh8DbYvDOkG3SJm8gkbur2ZGYNcAIYzxGgg==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "mTiEyUd9"
+    ],
+    "1.21.6+fabric": [
+      "snu8F6DF"
+    ]
+  }
+}

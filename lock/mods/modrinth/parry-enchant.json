@@ -1,0 +1,114 @@
+{
+  "slug": "parry-enchant",
+  "projectId": "2ZNCvWpX",
+  "versions": {
+    "Aemx7q2U": {
+      "filename": "parry-26.2-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ZNCvWpX/versions/Aemx7q2U/parry-26.2-1.0.jar",
+      "hash": "sha512-hkCZlRv9UdUS37d+GHZOPw2/QnGYIs5YRSFQD3nJnTDkmWRTCQkQJiBCQNWTMPUQ1zrwFPmPz98hbHhyu/2Gdw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "Nz3RCFQO": {
+      "filename": "parry-26.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ZNCvWpX/versions/Nz3RCFQO/parry-26.1-1.0.jar",
+      "hash": "sha512-Rh2wJ07s5ajqlwiUG6CHcpzD38USDwG9WBovfaquW1lIZNpZxuFw4iClIo9p6wv1eMBEM/VGaKy0ke7MgtBwUQ==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "S94BzT5S": {
+      "filename": "parry-26.1.1-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ZNCvWpX/versions/S94BzT5S/parry-26.1.1-1.0.jar",
+      "hash": "sha512-MhbrgvOtgMVqY5wsvy6LaQRifGD/sFHuQtBGSxMyOqleIeWMSPKRKwINe4kK90jfl44/LGDGhHBqnCbeNOR8Dw==",
+      "gameVersions": [
+        "26.1.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ajorZjAt": {
+      "filename": "parry-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ZNCvWpX/versions/ajorZjAt/parry-1.0.jar",
+      "hash": "sha512-ynYndSnA/5r915Qs7qIy5pVbqcUiCNIFw5ofWSs0oNDb3WMR/6ZqFLQ4toXFkhDUixGOD3oJqNu7wSgyvemacA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "c1HWZS6t": {
+      "filename": "parry-26.1.2-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2ZNCvWpX/versions/c1HWZS6t/parry-26.1.2-1.0.jar",
+      "hash": "sha512-O0V38WI1EV0B2Cc0didwv8bGzV/fS6PxopjrM7FbSWQoEfibaP+1g3S8dtFLsvLsFNb4gjBEQItGiMF/t11qyQ==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "zsy4APEj": {
+      "filename": "parry-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/2ZNCvWpX/versions/zsy4APEj/parry-1.1.jar",
+      "hash": "sha512-yWijLVN8jZLEe4I/iRFv2h3spEVahqIzR9Y8KJ0fzUGqe2M4PHpVHBHITFH5Cfxhng+H3jX39RRoONZ9CDpctA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "zsy4APEj",
+      "ajorZjAt"
+    ],
+    "26.1+fabric": [
+      "Nz3RCFQO"
+    ],
+    "26.1.1+fabric": [
+      "S94BzT5S"
+    ],
+    "26.1.2+fabric": [
+      "c1HWZS6t"
+    ],
+    "26.2+fabric": [
+      "Aemx7q2U"
+    ]
+  }
+}

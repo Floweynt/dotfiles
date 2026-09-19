@@ -1,0 +1,36 @@
+{
+  "slug": "raid-den-queue",
+  "projectId": "KaygqiY5",
+  "versions": {
+    "vqLdYXOH": {
+      "filename": "raid-den-queue-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KaygqiY5/versions/vqLdYXOH/raid-den-queue-1.0.0.jar",
+      "hash": "sha512-NoyIdWgMG4I453baBwX1Xjj9HVpf4wDjxXSuT3LcFLlAhKUZYPL9TEMGlwLILumr6C2d0/qHmYEHAjor1dJWbA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemonraiddens",
+          "projectId": "GebWh45l",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "vqLdYXOH"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "stacked-blocks-polymer",
+  "projectId": "5WpXj5SO",
+  "versions": {
+    "30gxh5GT": {
+      "filename": "stackedblocks-patch-25.07.04-1.21.5.jar",
+      "url": "https://cdn.modrinth.com/data/5WpXj5SO/versions/30gxh5GT/stackedblocks-patch-25.07.04-1.21.5.jar",
+      "hash": "sha512-uxRrDv4XU0Ck3xUuo3RzhDmo/eX7dIMIMBlZtFpWycRzpr7XdIfBOK5BInbNpCosNoQ1ErEdQTiQFMJh5ZBYkA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "stacked-blocks",
+          "projectId": "UYrNpKJN",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "30gxh5GT"
+    ]
+  }
+}

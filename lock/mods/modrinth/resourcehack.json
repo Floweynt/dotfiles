@@ -1,0 +1,176 @@
+{
+  "slug": "resourcehack",
+  "projectId": "zee5zzqu",
+  "versions": {
+    "7LxVkeIa": {
+      "filename": "resourcehack-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zee5zzqu/versions/7LxVkeIa/resourcehack-fabric-1.0.0.jar",
+      "hash": "sha512-JLvvZ6OBX6hnsqE8N6igASGA5RfaK9C/VDonjPW3mGoFxGk1svyviDZyCYoVZ038H0g8F733ApB/r8rOx+3lrQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "GMMSH9Tx": {
+      "filename": "server-1.0.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/zee5zzqu/versions/GMMSH9Tx/server-1.0.0-all.jar",
+      "hash": "sha512-qrodxJxOVinAUqi6G0R706MLWD44rIM5rM+1Tb5jpuE4JCgH3MtTZzjQsn8IX1eIxR3/uavszD5TH0NVh3dNZw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "paper",
+        "purpur"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "packetevents",
+          "projectId": "HYKaKraK",
+          "type": "required"
+        }
+      ]
+    },
+    "Jdr0WezT": {
+      "filename": "server-1.1.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/zee5zzqu/versions/Jdr0WezT/server-1.1.0-all.jar",
+      "hash": "sha512-ZB5ImpxBiCxeXjtd/r0kItyXcPYMcd/TX/qM3IOpzvBhZfgQ1mEhKORn2NK/yZgQfQZxeNgEWW5CjzwiVXWSoA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "paper",
+        "purpur"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "packetevents",
+          "projectId": "HYKaKraK",
+          "type": "required"
+        }
+      ]
+    },
+    "YVAY8Za2": {
+      "filename": "resourcehack-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zee5zzqu/versions/YVAY8Za2/resourcehack-forge-1.0.0.jar",
+      "hash": "sha512-pZmTY8QFCtg1Ir+3cIeepdzGAOlgGn+CY62gnSG/AexFDkYADVK1Ist74odgbWhzcRdOvVUI35CMpc91eCWY1g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "ZHqIT8fZ": {
+      "filename": "resourcehack-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zee5zzqu/versions/ZHqIT8fZ/resourcehack-fabric-1.1.0.jar",
+      "hash": "sha512-e+SwyK0RLabcc0p+xE9y1vSVOkU8mzA4m2N+sKgBhFuEnxqW1Ce2mC2cbHV5WaiZkxX4uJK46beylWD3uTBmuQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "xfK2RQ2N": {
+      "filename": "resourcehack-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/zee5zzqu/versions/xfK2RQ2N/resourcehack-neoforge-1.1.0.jar",
+      "hash": "sha512-9GYWOGBTtGZW16bnVIz5s0usQyUYZQSTJfd7j4LafdXZ13vZoILJOTVlJPDv4hcloEE25+OGur5PKI+8VpY1lw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+paper": [
+      "GMMSH9Tx"
+    ],
+    "1.20+purpur": [
+      "GMMSH9Tx"
+    ],
+    "1.20.1+fabric": [
+      "7LxVkeIa"
+    ],
+    "1.20.1+forge": [
+      "YVAY8Za2"
+    ],
+    "1.20.1+neoforge": [
+      "YVAY8Za2"
+    ],
+    "1.20.1+paper": [
+      "GMMSH9Tx"
+    ],
+    "1.20.1+purpur": [
+      "GMMSH9Tx"
+    ],
+    "1.20.2+paper": [
+      "GMMSH9Tx"
+    ],
+    "1.20.2+purpur": [
+      "GMMSH9Tx"
+    ],
+    "1.20.3+paper": [
+      "GMMSH9Tx"
+    ],
+    "1.20.3+purpur": [
+      "GMMSH9Tx"
+    ],
+    "1.20.4+paper": [
+      "GMMSH9Tx"
+    ],
+    "1.20.4+purpur": [
+      "GMMSH9Tx"
+    ],
+    "1.20.5+paper": [
+      "GMMSH9Tx"
+    ],
+    "1.20.5+purpur": [
+      "GMMSH9Tx"
+    ],
+    "1.20.6+paper": [
+      "GMMSH9Tx"
+    ],
+    "1.20.6+purpur": [
+      "GMMSH9Tx"
+    ],
+    "1.21.1+fabric": [
+      "ZHqIT8fZ"
+    ],
+    "1.21.1+neoforge": [
+      "xfK2RQ2N"
+    ],
+    "1.21.1+paper": [
+      "Jdr0WezT"
+    ],
+    "1.21.1+purpur": [
+      "Jdr0WezT"
+    ]
+  }
+}

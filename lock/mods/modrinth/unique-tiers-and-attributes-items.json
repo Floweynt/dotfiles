@@ -1,0 +1,143 @@
+{
+  "slug": "unique-tiers-and-attributes-items",
+  "projectId": "H1dtyrlU",
+  "versions": {
+    "4lWOBZ6T": {
+      "filename": "tiered-1.6.jar",
+      "url": "https://cdn.modrinth.com/data/H1dtyrlU/versions/4lWOBZ6T/tiered-1.6.jar",
+      "hash": "sha512-nHabLfBgKj20Ye7plkyAn/wq2t65vzI9i8PCauFTfPb6IyAMO2cip6j0NhfM/P6jcasndfUwdLrD2KWRG1BuWg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "RlJg5H9V": {
+      "filename": "tiered-1.5.jar",
+      "url": "https://cdn.modrinth.com/data/H1dtyrlU/versions/RlJg5H9V/tiered-1.5.jar",
+      "hash": "sha512-FjXAGjqCAH5LNobYwYc6T2KGUhYXxfWQC3XilQKnHncx6JLRWRI3EXZVxv/ATHdwpfZ+OiKql5csJ0UlT7JbIQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "STbjnpNH": {
+      "filename": "tiered-1.4.jar",
+      "url": "https://cdn.modrinth.com/data/H1dtyrlU/versions/STbjnpNH/tiered-1.4.jar",
+      "hash": "sha512-Zj3hZtfZl0zXueRgeH5VZ0HedW7aXw5t6FrSR4GukXY/w3590IthTLoczzengZMSYkYzo9erBHmbzfkLIoctLA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TWd2Bw05": {
+      "filename": "tiered-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/H1dtyrlU/versions/TWd2Bw05/tiered-2.0.jar",
+      "hash": "sha512-4d7GJmKwQYMD2NQGBIrkMogsNvNwS1ubI5FAXXJPkUY+C1gb7eJ6yXkJ1HUxFiJ8Ybp8pdhcI2rL8hwLp9EmsQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "u1X990Cw": {
+      "filename": "tiered-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/H1dtyrlU/versions/u1X990Cw/tiered-2.1.jar",
+      "hash": "sha512-gKSHkmwY15bBy4vwuvrDjrdt7pA+7p8NxOFLnmeyVoR3cFALuxozP5MXkulrBCq/NHObZI2F0b/Y5BkW3MFnCA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "4lWOBZ6T",
+      "RlJg5H9V",
+      "STbjnpNH"
+    ],
+    "26.1+fabric": [
+      "u1X990Cw",
+      "TWd2Bw05"
+    ],
+    "26.1.1+fabric": [
+      "u1X990Cw",
+      "TWd2Bw05"
+    ],
+    "26.1.2+fabric": [
+      "u1X990Cw",
+      "TWd2Bw05"
+    ]
+  }
+}

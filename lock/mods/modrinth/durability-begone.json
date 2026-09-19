@@ -1,0 +1,154 @@
+{
+  "slug": "durability-begone",
+  "projectId": "xIqBLy16",
+  "versions": {
+    "SDgQ0yMs": {
+      "filename": "durability_begone-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/xIqBLy16/versions/SDgQ0yMs/durability_begone-1.0.0%2B1.20.jar",
+      "hash": "sha512-NUk9I2xfom2R6hQ+LGDYYisRxeB3Yl8/AYTz7YnVOvkLa7eZ3MvNkXwYeSKh3/IlmXPJVU6Gr4q1t5GkCoBVtw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Wq6FsiCf": {
+      "filename": "durability_begone-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/xIqBLy16/versions/Wq6FsiCf/durability_begone-1.0.0%2B1.21.jar",
+      "hash": "sha512-WosKXBtRyRcaFYRHQ00w0ZV+i3pjtyfB3Gsfb07hP/k8364ourghmXDFlOe9/xB7JdxyPKh2ITWeMoVHKOmGeQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hgRvk352": {
+      "filename": "durability_begone-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/xIqBLy16/versions/hgRvk352/durability_begone-1.0.0%2B1.21.jar",
+      "hash": "sha512-WosKXBtRyRcaFYRHQ00w0ZV+i3pjtyfB3Gsfb07hP/k8364ourghmXDFlOe9/xB7JdxyPKh2ITWeMoVHKOmGeQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "connector",
+          "projectId": "u58R1TMW",
+          "type": "required"
+        },
+        {
+          "slug": "forgified-fabric-api",
+          "projectId": "Aqlf1Shp",
+          "type": "required"
+        }
+      ]
+    },
+    "iY7pgUCD": {
+      "filename": "durability_begone-1.0.1+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/xIqBLy16/versions/iY7pgUCD/durability_begone-1.0.1%2B1.20.jar",
+      "hash": "sha512-BnyXT5HDNQmLoQaoPa/AgHQtHJ6eQZ+x0MQ7hI/JWi1oFvbkj49CzsVJwTlpc7uI1PkV0s2BuOWH8eV5NIJS2w==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "iY7pgUCD",
+      "SDgQ0yMs"
+    ],
+    "1.20.1+quilt": [
+      "iY7pgUCD",
+      "SDgQ0yMs"
+    ],
+    "1.20.2+fabric": [
+      "iY7pgUCD",
+      "SDgQ0yMs"
+    ],
+    "1.20.2+quilt": [
+      "iY7pgUCD",
+      "SDgQ0yMs"
+    ],
+    "1.20.3+fabric": [
+      "iY7pgUCD",
+      "SDgQ0yMs"
+    ],
+    "1.20.3+quilt": [
+      "iY7pgUCD",
+      "SDgQ0yMs"
+    ],
+    "1.20.4+fabric": [
+      "iY7pgUCD",
+      "SDgQ0yMs"
+    ],
+    "1.20.4+quilt": [
+      "iY7pgUCD",
+      "SDgQ0yMs"
+    ],
+    "1.21+fabric": [
+      "Wq6FsiCf"
+    ],
+    "1.21+neoforge": [
+      "hgRvk352"
+    ],
+    "1.21+quilt": [
+      "Wq6FsiCf"
+    ],
+    "1.21.1+fabric": [
+      "Wq6FsiCf"
+    ],
+    "1.21.1+neoforge": [
+      "hgRvk352"
+    ],
+    "1.21.1+quilt": [
+      "Wq6FsiCf"
+    ]
+  }
+}

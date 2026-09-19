@@ -1,0 +1,80 @@
+{
+  "slug": "moreflowerpots-(fabric)",
+  "projectId": "TSzLgyOO",
+  "versions": {
+    "o2rjL6jr": {
+      "filename": "MoreFlowerPots-3.1-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/TSzLgyOO/versions/o2rjL6jr/MoreFlowerPots-3.1-SNAPSHOT.jar",
+      "hash": "sha512-otW8ZGGachS5ne/BR4QmOWdTqJi6GArca+X33nfDSSfXxqlX0a7iDkNkitMd2LpBvqC4+iWGn1QfieoO70rBMA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "voVE4Ig5": {
+      "filename": "MoreFlowerPots-4.1-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/TSzLgyOO/versions/voVE4Ig5/MoreFlowerPots-4.1-SNAPSHOT.jar",
+      "hash": "sha512-BkKcBwxk5Lkc4bmpFbTsyedRgc+cfi3lJk0MXIurZB+35tjJ3AjEgUZ9PsM0h4DBMhOKv4Ih6gI0/PveuoWgug==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "o2rjL6jr"
+    ],
+    "1.19.1+fabric": [
+      "o2rjL6jr"
+    ],
+    "1.19.2+fabric": [
+      "o2rjL6jr"
+    ],
+    "1.19.3+fabric": [
+      "o2rjL6jr"
+    ],
+    "1.19.4+fabric": [
+      "o2rjL6jr"
+    ],
+    "1.20+fabric": [
+      "voVE4Ig5"
+    ],
+    "1.20.1+fabric": [
+      "voVE4Ig5"
+    ],
+    "1.20.2+fabric": [
+      "voVE4Ig5"
+    ],
+    "1.20.3+fabric": [
+      "voVE4Ig5"
+    ],
+    "1.20.4+fabric": [
+      "voVE4Ig5"
+    ]
+  }
+}

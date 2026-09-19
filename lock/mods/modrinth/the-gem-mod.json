@@ -1,0 +1,100 @@
+{
+  "slug": "the-gem-mod",
+  "projectId": "w9cCbMdC",
+  "versions": {
+    "1VTJnF5e": {
+      "filename": "gem_fabric-1.2-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/w9cCbMdC/versions/1VTJnF5e/gem_fabric-1.2-BETA.jar",
+      "hash": "sha512-Dq/DR+ZhX0BnwM2TineO1/LYWt3mh5aidx5rD0LZECxHRkSCqw0i9U6FlM0VgZ/W0ZhaDTf4oiAIAlHO7fDevA==",
+      "gameVersions": [
+        "1.21.7"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TJHw24Vp": {
+      "filename": "gem_fabric-1.3-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/w9cCbMdC/versions/TJHw24Vp/gem_fabric-1.3-BETA.jar",
+      "hash": "sha512-QLo+S6N8Kk+cT3fzPHgmUXMj+FsrpxNqrbAH6FViBm6y0i6LDUWqIpLWJA6VxRUqkD6KXMDv6A3NXgS7ro+eSw==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aYnL8Ybr": {
+      "filename": "gem_fabric-1.1-BETA.jar",
+      "url": "https://cdn.modrinth.com/data/w9cCbMdC/versions/aYnL8Ybr/gem_fabric-1.1-BETA.jar",
+      "hash": "sha512-NJMLK9jWz0exs6Z1CnjnwjskIFFku+0TKlC7hglZOyXIxOcliuLZsh2yQMzlh9m+WFCMWvS6Fk/pHqc6keF3dw==",
+      "gameVersions": [
+        "1.21.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rCrd6kP0": {
+      "filename": "gem_fabric-1.0-SNAPSHOT.jar",
+      "url": "https://cdn.modrinth.com/data/w9cCbMdC/versions/rCrd6kP0/gem_fabric-1.0-SNAPSHOT.jar",
+      "hash": "sha512-K5cYSYHvYtNhA57EUx9Q9w8Q16FfsnUIH/xokvgdA02NM+rcjpG2HWB3+ZDkVpUOLaQZj4LXtI1/UI5V/UNnUw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.5+fabric": [
+      "rCrd6kP0"
+    ],
+    "1.21.6+fabric": [
+      "aYnL8Ybr"
+    ],
+    "1.21.7+fabric": [
+      "1VTJnF5e"
+    ],
+    "1.21.8+fabric": [
+      "TJHw24Vp"
+    ]
+  }
+}

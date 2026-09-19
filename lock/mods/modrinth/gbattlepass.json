@@ -1,0 +1,31 @@
+{
+  "slug": "gbattlepass",
+  "projectId": "o0Jae2QP",
+  "versions": {
+    "pEvmBTCf": {
+      "filename": "gbattlepass-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/o0Jae2QP/versions/pEvmBTCf/gbattlepass-1.0.jar",
+      "hash": "sha512-NhPP3tiTem8r6m7E6aycDaBBs9Mq63QNORCOeHCeotqcA+9hVsHpLs5uebAAmdeN58XXyzHcKHkN154bYVX4Fw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "pEvmBTCf"
+    ]
+  }
+}

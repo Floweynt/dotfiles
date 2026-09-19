@@ -1,0 +1,118 @@
+{
+  "slug": "mendingless-netherite",
+  "projectId": "Xe6fbA3C",
+  "versions": {
+    "DvNMtdJF": {
+      "filename": "MendinglessNetherite-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Xe6fbA3C/versions/DvNMtdJF/MendinglessNetherite-1.1.jar",
+      "hash": "sha512-gQTdrZP+TOzuA2xL4PJJhWkM1xAzITM/cdfAvZ8w5AAwCQB9xFoIzZSkYNLDPlFwW2khMNxKvwrgnTeYoKjqlw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "JVIFMKAZ": {
+      "filename": "MendinglessNetherite-1.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/Xe6fbA3C/versions/JVIFMKAZ/MendinglessNetherite-1.1%2B1.21.jar",
+      "hash": "sha512-oUdqkYmSoSIfw5RxscDQ/sOzP/Ee0RomgOJAPXeF8tyBKk4vc69hSStsgOVe0y8FcPup4LoCPdjsm5Ct8AAoaw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "oJ3em9pq": {
+      "filename": "MendinglessNetherite-1.1+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/Xe6fbA3C/versions/oJ3em9pq/MendinglessNetherite-1.1%2B1.20.6.jar",
+      "hash": "sha512-+ZrHGx4OHzEg2OcryxB/pzjvhXAUgdFxTLdOqI8Cy4A879qGgve3LrVIm44DUaW9ZmMgoVYxNIizwgUs9oeTPg==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "rv7rcrdc": {
+      "filename": "MendinglessNetherite-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Xe6fbA3C/versions/rv7rcrdc/MendinglessNetherite-1.0.jar",
+      "hash": "sha512-15ltflV4NM/ArPVZGcU3yiCXl6VKcNpAUT8vJkdJ6vvxSeDQrkqB74tEPebSsAhoNStaNL+Osuv1vZjzU/SHvw==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.3+fabric": [
+      "rv7rcrdc"
+    ],
+    "1.20+fabric": [
+      "DvNMtdJF"
+    ],
+    "1.20+quilt": [
+      "DvNMtdJF"
+    ],
+    "1.20.1+fabric": [
+      "DvNMtdJF"
+    ],
+    "1.20.1+quilt": [
+      "DvNMtdJF"
+    ],
+    "1.20.2+fabric": [
+      "DvNMtdJF"
+    ],
+    "1.20.2+quilt": [
+      "DvNMtdJF"
+    ],
+    "1.20.3+fabric": [
+      "DvNMtdJF"
+    ],
+    "1.20.3+quilt": [
+      "DvNMtdJF"
+    ],
+    "1.20.4+fabric": [
+      "DvNMtdJF"
+    ],
+    "1.20.4+quilt": [
+      "DvNMtdJF"
+    ],
+    "1.20.5+fabric": [
+      "oJ3em9pq"
+    ],
+    "1.20.6+fabric": [
+      "oJ3em9pq"
+    ],
+    "1.21+fabric": [
+      "JVIFMKAZ"
+    ]
+  }
+}

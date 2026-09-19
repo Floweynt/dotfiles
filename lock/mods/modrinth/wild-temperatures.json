@@ -1,0 +1,120 @@
+{
+  "slug": "wild-temperatures",
+  "projectId": "ElQgDJsn",
+  "versions": {
+    "C5GlZp3m": {
+      "filename": "wild_temperature-1.0-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/ElQgDJsn/versions/C5GlZp3m/wild_temperature-1.0-1.20.4.jar",
+      "hash": "sha512-1BJt+o0cWRhjWAAtQXOLpbvGc2nOYU/Y0JUVRg0DhRQLhujf56WX8HB8GZw6I0B3sxBKrr25YDzZkYQyt3xebA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "I6ST5cJ7": {
+      "filename": "wild_temperature-1.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ElQgDJsn/versions/I6ST5cJ7/wild_temperature-1.0-1.20.1.jar",
+      "hash": "sha512-oFWyky6bMlari3mM5HVdqRa6zSP+hPWHFcJaIsNCE+EV2rhqUr5boS9yb8Zy618h6BAzGiLU+ymWTq4dBI9wlg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "IGWqdmFB": {
+      "filename": "wild_temperature-1.0.1-1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/ElQgDJsn/versions/IGWqdmFB/wild_temperature-1.0.1-1.20.4.jar",
+      "hash": "sha512-+H5Rt/fQ7vHfG0U+vNTTfbiul39o7fgCfqSz7dBN3Tt6NtUMnPEAyPQuts436g8umBFbuwyzW6LUlGu0lIfgSw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "jsb6NP5f": {
+      "filename": "wild_temperature-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/ElQgDJsn/versions/jsb6NP5f/wild_temperature-1.0.1-1.20.1.jar",
+      "hash": "sha512-chCrzZ+1PwhAwo2GfhmJPsORH1MVqnVyPLtF7/XSR7jPe7JTXEXGaWiKtxeDHJnhPUGcgFv4pPvW1N3qBSu7jg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "jsb6NP5f",
+      "I6ST5cJ7"
+    ],
+    "1.20.1+quilt": [
+      "jsb6NP5f"
+    ],
+    "1.20.4+fabric": [
+      "IGWqdmFB",
+      "C5GlZp3m"
+    ]
+  }
+}

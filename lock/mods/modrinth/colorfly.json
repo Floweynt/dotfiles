@@ -1,0 +1,101 @@
+{
+  "slug": "colorfly",
+  "projectId": "sHGvsSkO",
+  "versions": {
+    "89jzpT5v": {
+      "filename": "colorfly-0.2-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/sHGvsSkO/versions/89jzpT5v/colorfly-0.2-1.19.2.jar",
+      "hash": "sha512-l6kXMBcOGFrfOF/ocfVPxPu8VwjjrB1667hev80s+9zr3rODxMdWheuEzkwezA76qvjaWf7rvjhUS+Yw9HlHPQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "P3P1lqCA": {
+      "filename": "colorfly-0.5-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/sHGvsSkO/versions/P3P1lqCA/colorfly-0.5-1.19.2.jar",
+      "hash": "sha512-5/HKtsvboyz3a8OdYYFJ+vBgg6OSXOGQ95DCrZyCtbt7lEinoNVFD5RXB3lV1s2XMnbR+HEWN+Qb3Cr6dOWgVw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "ZzR3ix0R": {
+      "filename": "colorfly-0.1-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/sHGvsSkO/versions/ZzR3ix0R/colorfly-0.1-1.19.2.jar",
+      "hash": "sha512-KS8gCSWw+HjQ4kusnLYbF6Oj/oA7eOtDLypK0b/1ny79/fEJi1DnD1whLXc7tWLEe0o27mJUB1J+aJOx5l3swg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "vYf2YGPL": {
+      "filename": "colorfly-1.0.0-1.19.3.jar",
+      "url": "https://cdn.modrinth.com/data/sHGvsSkO/versions/vYf2YGPL/colorfly-1.0.0-1.19.3.jar",
+      "hash": "sha512-FbDLXp3D9FDpMa9C7Zx5nP/nB3IeUiNnywmx6xCKMrUPb3CjdQce5PBT4rbXxFc8szC+dGLe1aPS01ixo2enag==",
+      "gameVersions": [
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "P3P1lqCA",
+      "89jzpT5v",
+      "ZzR3ix0R"
+    ],
+    "1.19.3+fabric": [
+      "vYf2YGPL"
+    ]
+  }
+}

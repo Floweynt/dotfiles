@@ -1,0 +1,71 @@
+{
+  "slug": "battle-botanist",
+  "projectId": "gWfASbXM",
+  "versions": {
+    "YOMQTuSt": {
+      "filename": "battlebotanist-0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/gWfASbXM/versions/YOMQTuSt/battlebotanist-0.1-1.20.1.jar",
+      "hash": "sha512-NdTBpVBQm3jEgoKL0HdUj3jUghjgGQEChpzkVRn9VB/MdSPBl7obHiCnSr29RFsMyRrVWNBkSblDSJZAWK4lFg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "cKbqHNqo": {
+      "filename": "battlebotanist-0.2-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/gWfASbXM/versions/cKbqHNqo/battlebotanist-0.2-1.20.1.jar",
+      "hash": "sha512-vvE2ZDvZ4TU4FLpDawHvNV7iR/zJfLDUEjpQRvIM9Q+sC+/pcudepIZbmi/3Vr9IReqVeL9ukMDGTGhZ6jZ/3w==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "yMafbIgN": {
+      "filename": "battlebotanist-0.3-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/gWfASbXM/versions/yMafbIgN/battlebotanist-0.3-1.20.1.jar",
+      "hash": "sha512-dWH4q/jk+2aGQNqPK5fU1aoxLb61PUljnZkPQHAixLzDDHxOMFAVAIEYN4H8w3m3jgxbzyiXm9r/0YFpAvr1Pw==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "yMafbIgN",
+      "cKbqHNqo",
+      "YOMQTuSt"
+    ],
+    "1.20.2+fabric": [
+      "yMafbIgN",
+      "cKbqHNqo",
+      "YOMQTuSt"
+    ],
+    "1.20.3+fabric": [
+      "yMafbIgN"
+    ],
+    "1.20.4+fabric": [
+      "yMafbIgN"
+    ]
+  }
+}

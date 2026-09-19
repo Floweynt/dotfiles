@@ -1,0 +1,66 @@
+{
+  "slug": "ages",
+  "projectId": "pve3iD9g",
+  "versions": {
+    "aOs8Zwah": {
+      "filename": "mystcraft-ages-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/pve3iD9g/versions/aOs8Zwah/mystcraft-ages-0.0.2.jar",
+      "hash": "sha512-hXzRXfQZiNXaBwuLCEgrwKlShketjEqB9cR+Wq8IYEWfP031k7LsFem7f3d0Dlern91S04rH9B/mkyd2nhPdFQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "x5FJOPfK": {
+      "filename": "mystcraft-ages-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pve3iD9g/versions/x5FJOPfK/mystcraft-ages-0.0.1.jar",
+      "hash": "sha512-+0Q6zT92qht0taGHjYlyrtZtfz2b/vPNQviAGwfetNHCeT8HLklTYMx7Vp9ZK514WysDSSLIaxgVbesJqJ855A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "aOs8Zwah",
+      "x5FJOPfK"
+    ],
+    "1.20.1+quilt": [
+      "aOs8Zwah"
+    ]
+  }
+}

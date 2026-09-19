@@ -1,0 +1,36 @@
+{
+  "slug": "what-you-health",
+  "projectId": "TqtXO8O7",
+  "versions": {
+    "XlyjPAtF": {
+      "filename": "whatyouheath-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TqtXO8O7/versions/XlyjPAtF/whatyouheath-1.0.0.jar",
+      "hash": "sha512-cyOUvBBS3qMqkP6JT9jn9BQZnZvRdAqGdNx0hS3tQg2wQbJBstHyfcfVEHPj09VcwAFk0hpogGYnWxl1WzzIbA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "XlyjPAtF"
+    ]
+  }
+}

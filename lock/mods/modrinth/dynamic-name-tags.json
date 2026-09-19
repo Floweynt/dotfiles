@@ -1,0 +1,96 @@
+{
+  "slug": "dynamic-name-tags",
+  "projectId": "fvuBCsyX",
+  "versions": {
+    "7Grl7uUh": {
+      "filename": "dynamicnametags-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fvuBCsyX/versions/7Grl7uUh/dynamicnametags-1.0.0.jar",
+      "hash": "sha512-BStf/R5wX4TnCtn94/FeaousC/JH13+TWCb5ar0W2RAxckq1BMD8gtgkl1EpPIbDVWsZ5+g94RUr0lElK2jfLA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "OqIkYkhb": {
+      "filename": "dynamicnametags-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fvuBCsyX/versions/OqIkYkhb/dynamicnametags-1.0.0.jar",
+      "hash": "sha512-Is2Jc6XTx5rZcPwxr99/8ghbW5imP/Lj8OWy/EfQd7ABHn5BBzcCCjyfFHICi7z2bnhno+1WjE5t+4uWIwMqKA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "i3ls921L": {
+      "filename": "dynamicnametags-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fvuBCsyX/versions/i3ls921L/dynamicnametags-1.1.0.jar",
+      "hash": "sha512-dneTNolaVgKOTuw6X7Qk2anWMlgA//VjvEtVA+MgkpktqrU3WdoaFc/gO/K4snc0HpmoBWDO+6POjcvIN0kAJg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "OqIkYkhb"
+    ],
+    "1.20.1+fabric": [
+      "OqIkYkhb"
+    ],
+    "1.20.1+forge": [
+      "7Grl7uUh"
+    ],
+    "1.20.2+fabric": [
+      "OqIkYkhb"
+    ],
+    "1.20.2+forge": [
+      "7Grl7uUh"
+    ],
+    "1.20.3+fabric": [
+      "OqIkYkhb"
+    ],
+    "1.20.4+fabric": [
+      "OqIkYkhb"
+    ],
+    "1.21+fabric": [
+      "i3ls921L"
+    ],
+    "1.21+quilt": [
+      "i3ls921L"
+    ],
+    "1.21.1+fabric": [
+      "i3ls921L"
+    ],
+    "1.21.1+quilt": [
+      "i3ls921L"
+    ]
+  }
+}

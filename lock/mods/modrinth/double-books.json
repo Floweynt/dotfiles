@@ -1,0 +1,31 @@
+{
+  "slug": "double-books",
+  "projectId": "h986qAGF",
+  "versions": {
+    "9bNOG3DT": {
+      "filename": "doublebooks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/h986qAGF/versions/9bNOG3DT/doublebooks-1.0.0.jar",
+      "hash": "sha512-kWzI1hS6eG3R62QpUMJOYkIppCryOd+PZlhJqszKYLbofhyYrFhrinIT2uKufks+3+wF7X15ktfiWusI7rrZvA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "9bNOG3DT"
+    ]
+  }
+}

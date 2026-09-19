@@ -1,0 +1,90 @@
+{
+  "slug": "create-bluemap",
+  "projectId": "W9e7rf1y",
+  "versions": {
+    "AoHFWwaz": {
+      "filename": "create-bluemap-fabric-1.0.0+fabric-1.20.1-build.32.jar",
+      "url": "https://cdn.modrinth.com/data/W9e7rf1y/versions/AoHFWwaz/create-bluemap-fabric-1.0.0%2Bfabric-1.20.1-build.32.jar",
+      "hash": "sha512-FaCPHPPcZZ6bCICXuRD+XnonDxt5kpY4I0EjENnReG5Txv2DKlWt5QpYtYKpH3+ac09dgCXQhVnvofMTHpVjLQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "fzzy-config",
+          "projectId": "hYykXjDp",
+          "type": "required"
+        }
+      ]
+    },
+    "B1EqQDIC": {
+      "filename": "create_bluemap-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/W9e7rf1y/versions/B1EqQDIC/create_bluemap-1.1.1.jar",
+      "hash": "sha512-uGDcvat5HEvSyMbvEY4X6yvkIsAlGxxsoPLt68t9Mn7diU/FT1/JBy/HuMuTbF0NH+hEttJEkQQxgOOkNj0A2A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "ZX7MzWPc": {
+      "filename": "create_bluemap-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/W9e7rf1y/versions/ZX7MzWPc/create_bluemap-1.1.0.jar",
+      "hash": "sha512-rw+hJrI0qacuC2DypmHlwz2swqmcz78q/RsPDj+Cxlog3daEQAMULg+Uk3W8rHG6MFFTNJTEDlEh/RkFK1Pm+w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "bluemap",
+          "projectId": "swbUV1cr",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "AoHFWwaz"
+    ],
+    "1.21.1+neoforge": [
+      "B1EqQDIC",
+      "ZX7MzWPc"
+    ]
+  }
+}

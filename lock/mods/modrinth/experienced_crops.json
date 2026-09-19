@@ -1,0 +1,119 @@
+{
+  "slug": "experienced_crops",
+  "projectId": "Obi0OZ4c",
+  "versions": {
+    "AhabMJ9Q": {
+      "filename": "experienced_crops-1.19.2-1.0.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/Obi0OZ4c/versions/AhabMJ9Q/experienced_crops-1.19.2-1.0.0-forge.jar",
+      "hash": "sha512-V1Te6+VGix3l0srJGmbjekkdLJQ3DWfmz7L3ymKbikU49hWwRdimHA1/Q/TCgkRjujBhBKWCPoCWCPnq8uLdxA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    },
+    "IYPAlitn": {
+      "filename": "experienced_crops-1.20.1-1.1.0-forge.jar",
+      "url": "https://cdn.modrinth.com/data/Obi0OZ4c/versions/IYPAlitn/experienced_crops-1.20.1-1.1.0-forge.jar",
+      "hash": "sha512-t+yS9bFQQV1AH6+7qncwr2iyMqcVOMPVkZTTjh2yyRJvO+8/+h/gRAkt3qMc1OcHuEh9SAuwbQN3v5xL2H54fg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    },
+    "qTIkJB2G": {
+      "filename": "experienced_crops-1.20.1-1.1.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Obi0OZ4c/versions/qTIkJB2G/experienced_crops-1.20.1-1.1.0-fabric.jar",
+      "hash": "sha512-vubDZ8L5HAz22UFTkSelZWDt3NpBr0jHwpvUvacm6Ot0VH6P7DizcdBtNTlr6g89kABsn5z5JD8mEim012Uncg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    },
+    "rYbw4eT6": {
+      "filename": "experienced_crops-1.19.2-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/Obi0OZ4c/versions/rYbw4eT6/experienced_crops-1.19.2-1.0.0-fabric.jar",
+      "hash": "sha512-fNOhhTXmkQErxgjwNBnuJN7sgFl7xjfaXjMInKKO6dA930lJQya0l/rRg4SZcGkXamFoHKmPshz3qkd6MU7zUA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "moonlight",
+          "projectId": "twkfQtEc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "rYbw4eT6"
+    ],
+    "1.19.2+forge": [
+      "AhabMJ9Q"
+    ],
+    "1.19.2+quilt": [
+      "rYbw4eT6"
+    ],
+    "1.20+fabric": [
+      "qTIkJB2G"
+    ],
+    "1.20+forge": [
+      "IYPAlitn"
+    ],
+    "1.20+quilt": [
+      "qTIkJB2G"
+    ],
+    "1.20.1+fabric": [
+      "qTIkJB2G"
+    ],
+    "1.20.1+forge": [
+      "IYPAlitn"
+    ],
+    "1.20.1+quilt": [
+      "qTIkJB2G"
+    ]
+  }
+}

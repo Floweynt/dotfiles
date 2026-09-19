@@ -1,0 +1,134 @@
+{
+  "slug": "world-templates",
+  "projectId": "mXLZc66w",
+  "versions": {
+    "9XIbBPUX": {
+      "filename": "worldtemplates-26.1-1.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/mXLZc66w/versions/9XIbBPUX/worldtemplates-26.1-1.0.1-fabric.jar",
+      "hash": "sha512-WhFseOk/Vx49PZ/RpEFa8d3kq8tlUxnJ1d8CFoUM4u47Iq7Cpj3I3lCr1NJIsoknItNRzroqo+44M4MeEgcMzw==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JMbdb7Na": {
+      "filename": "worldtemplates-1.21.11-1.0.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/mXLZc66w/versions/JMbdb7Na/worldtemplates-1.21.11-1.0.1-fabric.jar",
+      "hash": "sha512-AOwew+Pb0t4SpI37748mdROrVV/9iWV8YqyA6Vula4f4sE3fNhUgiuZvZQkrJfygHhjEEu8pOE3NoBE/xEoltg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aeCGpqx6": {
+      "filename": "worldtemplates-1.21.11-1.0.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/mXLZc66w/versions/aeCGpqx6/worldtemplates-1.21.11-1.0.1-neoforge.jar",
+      "hash": "sha512-p7fXPuye4VGJdhzkWXshkZoxqct5KGK/IDJW7MjnWHkeXPEhFATulRGhD8uhJMZAdquMeUQxDdhfgsBAWC0ngw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    },
+    "ecXl3z4U": {
+      "filename": "worldtemplates-1.21.11-1.0.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/mXLZc66w/versions/ecXl3z4U/worldtemplates-1.21.11-1.0.0-fabric.jar",
+      "hash": "sha512-cj3kUt+7mGpUbq9FUQzGttfGbjsvX95UOk5/+WcJnCL+kYSMdAuiQzwzCKmBDMqZBaDSEjGSwfUtY2Dm+o2Ihw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "sicyf50E": {
+      "filename": "worldtemplates-26.1-1.0.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/mXLZc66w/versions/sicyf50E/worldtemplates-26.1-1.0.1-neoforge.jar",
+      "hash": "sha512-Le3u3/gwKUB3wYBbp1vuydtIlbKaenOAmsPv/zyuVVnW4z3hhgPFGtMWFm4VUteIYwnsaJ2F92I0aZbD8D7LrA==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    },
+    "w1hnQqVa": {
+      "filename": "worldtemplates-1.21.11-1.0.0-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/mXLZc66w/versions/w1hnQqVa/worldtemplates-1.21.11-1.0.0-neoforge.jar",
+      "hash": "sha512-vmn4FuOfceXXz1ucj9cv/iJhPVHxBFlYOC+deiO2ri0zLMmyfPbaOkcB1eluVIV1sQdsBqd20BR/zk8zzbm0Ag==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "singleplayer_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "JMbdb7Na",
+      "ecXl3z4U"
+    ],
+    "1.21.11+neoforge": [
+      "aeCGpqx6",
+      "w1hnQqVa"
+    ],
+    "1.21.11+quilt": [
+      "JMbdb7Na",
+      "ecXl3z4U"
+    ],
+    "26.1+fabric": [
+      "9XIbBPUX"
+    ],
+    "26.1+neoforge": [
+      "sicyf50E"
+    ],
+    "26.1+quilt": [
+      "9XIbBPUX"
+    ]
+  }
+}

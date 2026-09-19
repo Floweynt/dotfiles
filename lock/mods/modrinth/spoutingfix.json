@@ -1,0 +1,31 @@
+{
+  "slug": "spoutingfix",
+  "projectId": "IDWT6E1F",
+  "versions": {
+    "oQuH1kS7": {
+      "filename": "SpoutingFix-1.jar",
+      "url": "https://cdn.modrinth.com/data/IDWT6E1F/versions/oQuH1kS7/SpoutingFix-1.jar",
+      "hash": "sha512-aN1eU7TmB5nchv3H9qTB5/ynegRcFGrd3IdTjQjzZsUl5NzsYwZnov61EUZNEeg0mA9laYWgQvzChgZTM84SBQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "oQuH1kS7"
+    ]
+  }
+}

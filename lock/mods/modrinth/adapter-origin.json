@@ -1,0 +1,118 @@
+{
+  "slug": "adapter-origin",
+  "projectId": "qM4qYVYB",
+  "versions": {
+    "TGGklJmg": {
+      "filename": "AdapterOriginV1.1.zip",
+      "url": "https://cdn.modrinth.com/data/qM4qYVYB/versions/TGGklJmg/AdapterOriginV1.1.zip",
+      "hash": "sha512-WVNtigJOG0nQRT45ghYrw/hVu1yys+1crgGGkDBOXRVndj7zU96RItqecJvNibAW86EpJjRdFikioz5CsY8W4w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "alpha",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "hMUPQH1T": {
+      "filename": "adapter-origin-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/qM4qYVYB/versions/hMUPQH1T/adapter-origin-1.1.jar",
+      "hash": "sha512-sbJSyBplaR/Zrs0PkYJQTUBWPSiva2orYSPRRfFPMf8sTcfcbzXBzP+Oihv/S36J8HLWJUzxyPtFIMuE2HnllA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "TGGklJmg"
+    ],
+    "1.20+fabric": [
+      "hMUPQH1T"
+    ],
+    "1.20+forge": [
+      "hMUPQH1T"
+    ],
+    "1.20+quilt": [
+      "hMUPQH1T"
+    ],
+    "1.20.1+datapack": [
+      "TGGklJmg"
+    ],
+    "1.20.1+fabric": [
+      "hMUPQH1T"
+    ],
+    "1.20.1+forge": [
+      "hMUPQH1T"
+    ],
+    "1.20.1+quilt": [
+      "hMUPQH1T"
+    ],
+    "1.20.2+datapack": [
+      "TGGklJmg"
+    ],
+    "1.20.2+fabric": [
+      "hMUPQH1T"
+    ],
+    "1.20.2+forge": [
+      "hMUPQH1T"
+    ],
+    "1.20.2+quilt": [
+      "hMUPQH1T"
+    ],
+    "1.20.3+datapack": [
+      "TGGklJmg"
+    ],
+    "1.20.3+fabric": [
+      "hMUPQH1T"
+    ],
+    "1.20.3+forge": [
+      "hMUPQH1T"
+    ],
+    "1.20.3+quilt": [
+      "hMUPQH1T"
+    ],
+    "1.20.4+datapack": [
+      "TGGklJmg"
+    ],
+    "1.20.4+fabric": [
+      "hMUPQH1T"
+    ],
+    "1.20.4+forge": [
+      "hMUPQH1T"
+    ],
+    "1.20.4+quilt": [
+      "hMUPQH1T"
+    ]
+  }
+}

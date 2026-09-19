@@ -1,0 +1,56 @@
+{
+  "slug": "better-combat-conquests-medieval-armors-and-weapons-patch",
+  "projectId": "WOTQYCfU",
+  "versions": {
+    "5qEXEhdU": {
+      "filename": "compat-bettercombat-conquest.jar",
+      "url": "https://cdn.modrinth.com/data/WOTQYCfU/versions/5qEXEhdU/compat-bettercombat-conquest.jar",
+      "hash": "sha512-oyfZHSY4dJSAhXA129cYYyDUs5pEzZLr/y/BN6ABAFoe8qe5QydjqqGIlw51f/QpfkKwhNIc8tcChTIlO39hjg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "conquests-medieval-armors-and-weapons",
+          "projectId": "fYcVkuT5",
+          "type": "required"
+        },
+        {
+          "slug": "better-combat",
+          "projectId": "5sy6g3kz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "5qEXEhdU"
+    ],
+    "1.20.2+fabric": [
+      "5qEXEhdU"
+    ],
+    "1.20.3+fabric": [
+      "5qEXEhdU"
+    ],
+    "1.20.4+fabric": [
+      "5qEXEhdU"
+    ],
+    "1.20.5+fabric": [
+      "5qEXEhdU"
+    ],
+    "1.20.6+fabric": [
+      "5qEXEhdU"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "slug": "orbital-railgun-sounds",
+  "projectId": "1787GXza",
+  "versions": {
+    "gmc1thBQ": {
+      "filename": "orbital_railgun_sounds-1.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/1787GXza/versions/gmc1thBQ/orbital_railgun_sounds-1.4.1.jar",
+      "hash": "sha512-Hq/PlWEsPjwszbQ902sKWDlsWwVUUnSSzjWM4875VamBWUwYror4FIXhrKH+Eh12BFFPBTrryJkhUqOi6RfRBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "orbital-railgun",
+          "projectId": "biNmuvyg",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "tjiwPomW": {
+      "filename": "orbital_railgun_sounds-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/1787GXza/versions/tjiwPomW/orbital_railgun_sounds-1.4.0.jar",
+      "hash": "sha512-l55DyWR10HhhtSjl7hE1m3KOqMMhdCdyApUz2sEX4bRkdvjkQt7MUE8xvqRtb+Zb/jltj+8bpJC75QyGP+Odlg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "orbital-railgun",
+          "projectId": "biNmuvyg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "gmc1thBQ",
+      "tjiwPomW"
+    ]
+  }
+}

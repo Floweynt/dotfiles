@@ -1,0 +1,58 @@
+{
+  "slug": "world-name-generator",
+  "projectId": "iNOl2vfE",
+  "versions": {
+    "bZFjo1d9": {
+      "filename": "world-name-gen-0.1.1+1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/iNOl2vfE/versions/bZFjo1d9/world-name-gen-0.1.1%2B1.19.2.jar",
+      "hash": "sha512-CzZcbc3Ve79dLYTcS8A1thjc5ZBRZ6uCmDvtIVU/Rf/UH5GiITAJ6BMdIP7SefV2S5NWK3IzYpDS+jk/aYCrWQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yxYzkqil": {
+      "filename": "world-name-gen-0.1.2+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/iNOl2vfE/versions/yxYzkqil/world-name-gen-0.1.2%2B1.19.jar",
+      "hash": "sha512-+vxlvcP9bomGpShYwSFJIMLDec1EPDSG09h0z+KnZ/cRkDrqZthB0A1p23MV7AWmWkmhEm4+dpMcBofLzlziLg==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "yxYzkqil",
+      "bZFjo1d9"
+    ],
+    "1.19.3+fabric": [
+      "yxYzkqil",
+      "bZFjo1d9"
+    ]
+  }
+}

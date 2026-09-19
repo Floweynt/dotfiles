@@ -1,0 +1,128 @@
+{
+  "slug": "quicksnad",
+  "projectId": "8LL35qTE",
+  "versions": {
+    "1gANncH0": {
+      "filename": "quicksnad-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8LL35qTE/versions/1.0-1.18.2/quicksnad-1.0.jar",
+      "hash": "sha512-QN5bgZpQCVM3ExinyY6XckJSzO7kpOUoqOEZcw9CA0UxNb5OlNIlIgAdfzCLta/kdzz/lzzTJSzxzYZaWzpmgA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quicksand",
+          "projectId": "1HzX1nfB",
+          "type": "required"
+        }
+      ]
+    },
+    "PUMpT59n": {
+      "filename": "quicksnad-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/8LL35qTE/versions/1.0.1-1.18.2/quicksnad-1.0.1.jar",
+      "hash": "sha512-YG27Bv0m21qXVcBN77bqadVKg6o/RQAbrHgs5RVU51JWKeQTm+xJpWJiNfDJBIydpQ6LSlRD5GbU1JusNOGVaw==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quicksand",
+          "projectId": "1HzX1nfB",
+          "type": "required"
+        }
+      ]
+    },
+    "ni9Ol4vh": {
+      "filename": "quicksnad-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8LL35qTE/versions/1.0/quicksnad-1.0.jar",
+      "hash": "sha512-WVOXjMTSV/HPtXRvlqNsDHWL7AQKFEdAMxa/XkP/4v6l2mIdferq67AWJ73Jot7Z8FZc+eLV2JvCK5Z772pmBA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quicksand",
+          "projectId": "1HzX1nfB",
+          "type": "required"
+        }
+      ]
+    },
+    "tFqkbpAO": {
+      "filename": "quicksnad-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/8LL35qTE/versions/1.0-1.19/quicksnad-1.0.1.jar",
+      "hash": "sha512-x3M6EPKLxV3ASp06cfZjDq6nS9ODM7AspJRWQOmveqBghlApIjbBePgQ8c6GKzpP6fMcvgCVFdH8bDKA+uHgJA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "quicksand",
+          "projectId": "1HzX1nfB",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "PUMpT59n",
+      "1gANncH0"
+    ],
+    "1.18.2+quilt": [
+      "PUMpT59n",
+      "1gANncH0"
+    ],
+    "1.19+fabric": [
+      "tFqkbpAO",
+      "ni9Ol4vh"
+    ],
+    "1.19+quilt": [
+      "tFqkbpAO",
+      "ni9Ol4vh"
+    ],
+    "1.19.1+fabric": [
+      "tFqkbpAO",
+      "ni9Ol4vh"
+    ],
+    "1.19.1+quilt": [
+      "tFqkbpAO",
+      "ni9Ol4vh"
+    ],
+    "1.19.2+fabric": [
+      "tFqkbpAO",
+      "ni9Ol4vh"
+    ],
+    "1.19.2+quilt": [
+      "tFqkbpAO",
+      "ni9Ol4vh"
+    ]
+  }
+}

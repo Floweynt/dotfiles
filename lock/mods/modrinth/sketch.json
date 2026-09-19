@@ -1,0 +1,106 @@
+{
+  "slug": "sketch",
+  "projectId": "4erSrc0h",
+  "versions": {
+    "FIrvx2L9": {
+      "filename": "sketch-1.21.1-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/4erSrc0h/versions/FIrvx2L9/sketch-1.21.1-1.2.1.jar",
+      "hash": "sha512-f+g7Qg9hjRmyFX9a+koN+dnO6QY9nrXYzbHijaUAdgzIgFFH2NSfgZzRFnKWK4EHgzBArLIyoJQeujWVeB0MWQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Hz6O0GuW": {
+      "filename": "sketch-1.20.5-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4erSrc0h/versions/Hz6O0GuW/sketch-1.20.5-1.0.0.jar",
+      "hash": "sha512-QVLzrwSL8p5FvGvBzGOcmN4LNSgWop2TUeW+bKsvIQR89GyRHhO7jqPW2UddM3gBeTa+ICck9TGXZkUE1to+JQ==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "KUt4Qice": {
+      "filename": "sketch-1.20.6-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/4erSrc0h/versions/KUt4Qice/sketch-1.20.6-1.1.0.jar",
+      "hash": "sha512-TzROdUjAIqhOLLuOULfl1co5jGuUokiqxs0kywPyMDV7d9IvlPssfWaO93P4chOBNYh/UGJl1hJA/JiWLMoYvA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QMvLsIHE": {
+      "filename": "sketch-1.21-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/4erSrc0h/versions/QMvLsIHE/sketch-1.21-1.2.0.jar",
+      "hash": "sha512-b+Gjoz1NKS2vsaV0R4PbBX6lXwiFf1xU+UN6XTWf5VCiyPhlqHQuDCQTRa8dSbm84KXA0v36qKkQsQqjPLRAPg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.5+fabric": [
+      "KUt4Qice",
+      "Hz6O0GuW"
+    ],
+    "1.20.6+fabric": [
+      "KUt4Qice",
+      "Hz6O0GuW"
+    ],
+    "1.21+fabric": [
+      "FIrvx2L9",
+      "QMvLsIHE"
+    ],
+    "1.21.1+fabric": [
+      "FIrvx2L9"
+    ]
+  }
+}

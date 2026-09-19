@@ -1,0 +1,132 @@
+{
+  "slug": "scoreboard-stats-import",
+  "projectId": "GpWIEye1",
+  "versions": {
+    "8NJAOJaK": {
+      "filename": "scoreboard-stats-import-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/GpWIEye1/versions/8NJAOJaK/scoreboard-stats-import-1.0.0.jar",
+      "hash": "sha512-/9dPPg7lxPq5k5Fo924VGAOZjcCtRfTXH96mZX2nTdTnmseX+TU5y83HhDSAwoizNtLsqY2BxC/ePdbIOwgA8g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OFOxE7Ax": {
+      "filename": "scoreboard-stats-import-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/GpWIEye1/versions/OFOxE7Ax/scoreboard-stats-import-1.0.2.jar",
+      "hash": "sha512-PBww9/oFOEhb7m07AOgDOlmuhyqQ+t8qSv48xxrHnoGM9jwyHVBpZU37JQchxwryTfEynvnzaNR0w2AFZD9gZQ==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "SAVgkIVU": {
+      "filename": "scoreboard-stats-import-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/GpWIEye1/versions/SAVgkIVU/scoreboard-stats-import-1.0.1.jar",
+      "hash": "sha512-f17yg3aIUcbZFM08mFaF7d1Qbhc7AY3+tp/6L77frkx0Eq4/xKbxQrVf5PxiT/CLPR3HGv6i7KcNoJOdyYxDgw==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1",
+        "24w33a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.3+fabric": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.20.3+quilt": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.20.4+fabric": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.20.4+quilt": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.20.5+fabric": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.20.5+quilt": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.20.6+fabric": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.20.6+quilt": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.21+fabric": [
+      "OFOxE7Ax",
+      "SAVgkIVU",
+      "8NJAOJaK"
+    ],
+    "1.21+quilt": [
+      "OFOxE7Ax",
+      "SAVgkIVU",
+      "8NJAOJaK"
+    ],
+    "1.21.1+fabric": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "1.21.1+quilt": [
+      "OFOxE7Ax",
+      "SAVgkIVU"
+    ],
+    "24w33a+fabric": [
+      "SAVgkIVU"
+    ],
+    "24w33a+quilt": [
+      "SAVgkIVU"
+    ]
+  }
+}

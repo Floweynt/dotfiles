@@ -1,0 +1,63 @@
+{
+  "slug": "more-achievements",
+  "projectId": "fio8iMnP",
+  "versions": {
+    "51fJGBiR": {
+      "filename": "more-achievements_v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fio8iMnP/versions/51fJGBiR/more-achievements_v1.0.0.jar",
+      "hash": "sha512-/l/7JZALk2ni44ZPULjLHUxDtppB3/Lz9I/V0H7jPHt04jcCfN93hbxvO+mG0KL2bTtEdCki2UpwerAcVFC74g==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "MfGgl3wm": {
+      "filename": "more-achievements_v1.0.0-alpha.1.jar",
+      "url": "https://cdn.modrinth.com/data/fio8iMnP/versions/MfGgl3wm/more-achievements_v1.0.0-alpha.1.jar",
+      "hash": "sha512-ILUaxnYDW3Hu32lxJB9jOz9BwFvt5OIOvNmJR04SKOb44ACGJDlrAiSAnqXLga6Hdo6bnX6caT88r5epO/8HDA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "pcqsTs4Z": {
+      "filename": "more-achievements_v1.0.0-beta.1.jar",
+      "url": "https://cdn.modrinth.com/data/fio8iMnP/versions/pcqsTs4Z/more-achievements_v1.0.0-beta.1.jar",
+      "hash": "sha512-/JPRNg5iJr0UKBE3B+Ju+2l+Q+YMna6aqihZW6UOSLV2wUOn0pWAMp1LWyr2q/B/C15Zh+GO3hov3W4QmkvLsA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "pcqsTs4Z",
+      "MfGgl3wm"
+    ],
+    "1.21.11+quilt": [
+      "pcqsTs4Z",
+      "MfGgl3wm"
+    ],
+    "26.1.2+fabric": [
+      "51fJGBiR"
+    ]
+  }
+}

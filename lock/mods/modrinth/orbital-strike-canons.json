@@ -1,0 +1,75 @@
+{
+  "slug": "orbital-strike-canons",
+  "projectId": "ea0Xv0dK",
+  "versions": {
+    "FTaxeH47": {
+      "filename": "orbital-strike-canons-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ea0Xv0dK/versions/FTaxeH47/orbital-strike-canons-1.0.1.jar",
+      "hash": "sha512-TXqYLbB/nSPeLAk+m2L8xdGpGoa8JGZpMDoeX6KpL2tA7Vq1HGkwJKD/9gvlK4IzckljJyyk7NOz4Ka5lsi+CA==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Hl2ltPgL": {
+      "filename": "orbital-strike-canons-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ea0Xv0dK/versions/Hl2ltPgL/orbital-strike-canons-1.0.0.jar",
+      "hash": "sha512-Vl8Lp9uPp2dAEwQnpRZgJH779MpO0BD6l3sg6pfzHlI4D1414ZATKBoG1tf629rwmMVtyP2jqXreN9EIxL5YCg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ajPGvxEH": {
+      "filename": "orbital-strike-canons-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ea0Xv0dK/versions/ajPGvxEH/orbital-strike-canons-1.0.1.jar",
+      "hash": "sha512-2LQg6HMMYGgpFje3+mYqVjpK4e2GOYxfyQH5ZasbVpaHttpujpyGFn9QPOKEKgRKsLngkFsEZ7tRSHxClpdeOA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1.2+fabric": [
+      "FTaxeH47",
+      "Hl2ltPgL"
+    ],
+    "26.2+fabric": [
+      "ajPGvxEH"
+    ]
+  }
+}

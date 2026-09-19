@@ -1,0 +1,108 @@
+{
+  "slug": "sleeping-bag-mod",
+  "projectId": "d7xpjEkv",
+  "versions": {
+    "P2JT9bcl": {
+      "filename": "sleeping_bag-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/d7xpjEkv/versions/P2JT9bcl/sleeping_bag-1.0.1.jar",
+      "hash": "sha512-ZV51I2HZ981T0RWMYIgcS1C9BG+TLQGFaW3oUKRWnf2Zzwp8SgdVJJ/uG2ZEfRG3upwOVolUXeUwgRv900mBGA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "PaYcnZin": {
+      "filename": "sleeping-bag-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/d7xpjEkv/versions/PaYcnZin/sleeping-bag-1.0.1.jar",
+      "hash": "sha512-+1hQZQnX7PB+JtxWslM4MDnv+OcpqnLtBdW3aJnrc3+V8L/MVA0sc0GWBlUf3TVpPFdRaGIVTcJy3zGQv8d7ng==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tNOS2Bxl": {
+      "filename": "neoforge_sleeping_bag-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d7xpjEkv/versions/tNOS2Bxl/neoforge_sleeping_bag-1.0.0.jar",
+      "hash": "sha512-8KtTco3tbNaAqiQLtA4DX0/UBJkgPSogKiFousozt/BAPPuZwff+whoSfdZoHjG7AEbBHwvdKq+/aerOb/Gtsg==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uoK3daER": {
+      "filename": "sleeping-bag-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/d7xpjEkv/versions/uoK3daER/sleeping-bag-1.0.0.jar",
+      "hash": "sha512-w3o/7V+Ow1lNuCZP0S4JIxdVqqAfrndd+6eMoPwfNKjZxa4I04UhbKRkzIRpdStFC+dg7g4gpnQ0NZRskaIfog==",
+      "gameVersions": [
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "PaYcnZin"
+    ],
+    "26.1+neoforge": [
+      "P2JT9bcl"
+    ],
+    "26.1.1+fabric": [
+      "PaYcnZin"
+    ],
+    "26.1.1+neoforge": [
+      "P2JT9bcl"
+    ],
+    "26.1.2+fabric": [
+      "PaYcnZin",
+      "uoK3daER"
+    ],
+    "26.1.2+neoforge": [
+      "P2JT9bcl",
+      "tNOS2Bxl"
+    ],
+    "26.2+fabric": [
+      "PaYcnZin"
+    ],
+    "26.2+neoforge": [
+      "P2JT9bcl"
+    ]
+  }
+}

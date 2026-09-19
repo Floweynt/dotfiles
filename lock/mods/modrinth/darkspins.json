@@ -1,0 +1,171 @@
+{
+  "slug": "darkspins",
+  "projectId": "lKok0HeX",
+  "versions": {
+    "9c0sJwxz": {
+      "filename": "darkspins-forge-1.20.1-1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/lKok0HeX/versions/9c0sJwxz/darkspins-forge-1.20.1-1.0.9.jar",
+      "hash": "sha512-Lq8cSFvzFWcE8eqWdnPgu8EbvrVjgZyskFZlDp3drvOK018MJ77DTehv4A69AalhqKvqM17+h/FbZOJ3d+G1ug==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "P4w2P0NP": {
+      "filename": "darkspins-fabric-26.1-1.2.6.jar",
+      "url": "https://cdn.modrinth.com/data/lKok0HeX/versions/P4w2P0NP/darkspins-fabric-26.1-1.2.6.jar",
+      "hash": "sha512-rU5Ha4cE1FlkoRLxojawzMOvnI1MkR0KRZ8bGP2wI8+hflZC/jzfKO1ouaK1z4ncBirapoXAxt41bTUj7ktMag==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "PipXJKSR": {
+      "filename": "darkspins-neoforge-26.1-1.2.6.jar",
+      "url": "https://cdn.modrinth.com/data/lKok0HeX/versions/PipXJKSR/darkspins-neoforge-26.1-1.2.6.jar",
+      "hash": "sha512-1sbsFvYphsQfhRB7C4xT4qp0G1gBl2oFYMEz4GQipAb7sH30nTgqh/zWgjJt7B3jckWnu9oPuzluvJ/K/vHz6g==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QizsMd3S": {
+      "filename": "darkspins-forge-26.1-1.2.6.jar",
+      "url": "https://cdn.modrinth.com/data/lKok0HeX/versions/QizsMd3S/darkspins-forge-26.1-1.2.6.jar",
+      "hash": "sha512-WILTj+R+VNxNzcrr97klENze+NlpP16O14PbmS7QjSt8SfoNiv4+CrwndGdyPydNSxDiqmzfKEM4n0brTd1ogw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "S7rp7Byf": {
+      "filename": "darkspins-forge-1.20.4-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/lKok0HeX/versions/S7rp7Byf/darkspins-forge-1.20.4-1.1.2.jar",
+      "hash": "sha512-yLFRS7qpLhuUn44sH6vC+llggoDTw0uFvqnc5v6bm2ts4gYlDFel78zsGJutmfcYbE/HFDkb//bD0w92AII0fw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "WpEBNWOm": {
+      "filename": "darkspins-fabric-1.20.4-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/lKok0HeX/versions/WpEBNWOm/darkspins-fabric-1.20.4-1.1.3.jar",
+      "hash": "sha512-c5wmsp2aD98m3CDzVsdo7B832Z6+PMpCUKRek9NDvkbRiInfbFbIvXPXqlPP0mCvNdc1AXsUUanxTMxgY8ZeZg==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uqsNAjIw": {
+      "filename": "darkspins-fabric-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/lKok0HeX/versions/uqsNAjIw/darkspins-fabric-1.20.1-1.1.0.jar",
+      "hash": "sha512-ZqRI+xPXwi31IYTDljDuRpdFYvAJyWyLhJph3fehSKXMQ9aggegbwcVTvpiJHmjq6aqc9UXyHL7400CL1wuM/Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "uqsNAjIw"
+    ],
+    "1.20.1+forge": [
+      "9c0sJwxz"
+    ],
+    "1.20.1+quilt": [
+      "uqsNAjIw"
+    ],
+    "1.20.3+fabric": [
+      "WpEBNWOm"
+    ],
+    "1.20.4+fabric": [
+      "WpEBNWOm"
+    ],
+    "1.20.4+forge": [
+      "S7rp7Byf"
+    ],
+    "26.1+fabric": [
+      "P4w2P0NP"
+    ],
+    "26.1+forge": [
+      "QizsMd3S"
+    ],
+    "26.1+neoforge": [
+      "PipXJKSR"
+    ],
+    "26.1.1+fabric": [
+      "P4w2P0NP"
+    ],
+    "26.1.1+forge": [
+      "QizsMd3S"
+    ],
+    "26.1.1+neoforge": [
+      "PipXJKSR"
+    ],
+    "26.1.2+fabric": [
+      "P4w2P0NP"
+    ],
+    "26.1.2+forge": [
+      "QizsMd3S"
+    ],
+    "26.1.2+neoforge": [
+      "PipXJKSR"
+    ]
+  }
+}

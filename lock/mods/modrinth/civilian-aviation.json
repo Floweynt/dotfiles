@@ -1,0 +1,130 @@
+{
+  "slug": "civilian-aviation",
+  "projectId": "j79fE2us",
+  "versions": {
+    "2Fazoq2v": {
+      "filename": "civilian_aviation-1.0.2-1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/j79fE2us/versions/2Fazoq2v/civilian_aviation-1.0.2-1.21.1-neoforge.jar",
+      "hash": "sha512-J+ET+6ZiSMGSv6TjkDC3rjvwmZzH9r6cFUodt9kAg6ejWVWnVmAhVYS7NEU3PQA1oSyB4qG/Mo2Klcz417unMg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ClkJoKdV": {
+      "filename": "civilian_aviation-1.0.2-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/j79fE2us/versions/ClkJoKdV/civilian_aviation-1.0.2-1.20.1-forge.jar",
+      "hash": "sha512-t4h7/sIHggxbaOG+BC+MLKNmW+QyW35/JsKBQx48cDQMDr7gzqDTEw0KRFrJwrrtQgoV46zRQrexJAAQCTYavA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "clIDNMHE": {
+      "filename": "civilian_aviation-1.0-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/j79fE2us/versions/clIDNMHE/civilian_aviation-1.0-1.20.1-forge.jar",
+      "hash": "sha512-jvJAea0LtM2EWN0K4+5tGcPxXVeXQ4xjuDPrXdKvzP3nC5wVF4borgGhW2OD1u7wLp4gmwUug8+bR2A3HxjAiw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    },
+    "g16kkHu8": {
+      "filename": "civilian_aviation-1.0-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/j79fE2us/versions/g16kkHu8/civilian_aviation-1.0-1.20.1-fabric.jar",
+      "hash": "sha512-i2Xmize65Nz/k5eZw2o8FBhIFLGFwXc/iY43k81rXbI5VEwU3n2A8t3EfOa1D4NEkS4DHHM7mfS2+Z47lFcOFQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    },
+    "jhAYq8Ya": {
+      "filename": "civilian_aviation-1.0-1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/j79fE2us/versions/jhAYq8Ya/civilian_aviation-1.0-1.21.1-fabric.jar",
+      "hash": "sha512-Xw3hrC8wvvax1Dgf7eyPao7vKd0t981GMBvgTzhrtbs8SNFww4YshebGfrIJQhph4h5UizJ5r5OCfUsYEIleYg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    },
+    "sCKHrZBR": {
+      "filename": "civilian_aviation-1.0-1.21.1-neoforge.jar",
+      "url": "https://cdn.modrinth.com/data/j79fE2us/versions/sCKHrZBR/civilian_aviation-1.0-1.21.1-neoforge.jar",
+      "hash": "sha512-fn+flhjhavumb+QCzsMEme0LQvSZMyNO41ivMzMk6aPYGEIgQwTUwmY6CBgPYlDb3QbPfe0fP92x5jsNLz5B+A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "immersive-aircraft",
+          "projectId": "x3HZvrj6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "g16kkHu8"
+    ],
+    "1.20.1+forge": [
+      "ClkJoKdV",
+      "clIDNMHE"
+    ],
+    "1.21.1+fabric": [
+      "jhAYq8Ya"
+    ],
+    "1.21.1+neoforge": [
+      "2Fazoq2v",
+      "sCKHrZBR"
+    ]
+  }
+}

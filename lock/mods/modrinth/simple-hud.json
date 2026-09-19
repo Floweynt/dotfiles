@@ -1,0 +1,122 @@
+{
+  "slug": "simple-hud",
+  "projectId": "yWbMKrgd",
+  "versions": {
+    "ACLaZOus": {
+      "filename": "simple-hud-0.2.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/yWbMKrgd/versions/ACLaZOus/simple-hud-0.2.0-1.21.1.jar",
+      "hash": "sha512-Jmjez9CgFOssD7S2d00g/yo18+ZnJewNcP1g7vY8MTxZDDSvkW7lx+MAI1u/64juQmLkqj2TnjinT+mDzk+mrg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FDq6eOh7": {
+      "filename": "simple-hud-0.1.0-B-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/yWbMKrgd/versions/FDq6eOh7/simple-hud-0.1.0-B-1.21.jar",
+      "hash": "sha512-H5f0u8bqYa/qMeiY5NtjrNOtlp3Ja7wHIch6ZoHAHGCu8ndncyCaiyA8YVhuNc+4niAgZaBurt8sFmoh6zDh/g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TIYxJViU": {
+      "filename": "simple-hud-0.2.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/yWbMKrgd/versions/TIYxJViU/simple-hud-0.2.1-1.21.1.jar",
+      "hash": "sha512-fBO3WRu52xNMqE+/+EGQpQdg1jxeest0nTmRmcRWgJqHwAqLJzRW5muuQCuwjnyZM+LvnYnnzI7oiM1GYt16oQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "xwxGqNf8": {
+      "filename": "simple-hud-0.1.1-B-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/yWbMKrgd/versions/xwxGqNf8/simple-hud-0.1.1-B-1.21.1.jar",
+      "hash": "sha512-3cAYjUaqz0/7BLHFJGfyx0h6ed+Il6C53L/RtIz7Y3bg1lSn26hgmzt7hsxmtzcD82qM8Z77seZCeCWXv70W0g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "TIYxJViU",
+      "ACLaZOus",
+      "xwxGqNf8",
+      "FDq6eOh7"
+    ],
+    "1.21.1+fabric": [
+      "TIYxJViU",
+      "ACLaZOus",
+      "xwxGqNf8"
+    ]
+  }
+}

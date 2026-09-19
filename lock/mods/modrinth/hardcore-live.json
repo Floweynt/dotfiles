@@ -1,0 +1,83 @@
+{
+  "slug": "hardcore-live",
+  "projectId": "vkaK5Wiv",
+  "versions": {
+    "9VQJmgCQ": {
+      "filename": "hardcore-live-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/vkaK5Wiv/versions/9VQJmgCQ/hardcore-live-1.1.jar",
+      "hash": "sha512-2PeH5l62rEHPf1jnmNeWz057UbxL81wZIAuUNqCYXU6eC/6KQSlgAe7YHxSRjv6ZRzud7I+Z0pV4lDIsAJ9M4Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "hardcorelive-texture-pack",
+          "projectId": "Ufg0enEF",
+          "type": "required"
+        }
+      ]
+    },
+    "eNE4gLnl": {
+      "filename": "Hardcore Live Datapack.zip",
+      "url": "https://cdn.modrinth.com/data/vkaK5Wiv/versions/eNE4gLnl/Hardcore%20Live%20Datapack.zip",
+      "hash": "sha512-+Mc7GnxN2LvK67h/T3+CXNjkrfTZQ96mMpLC9lpHX64NxdrtXAZiBJtk/S9r2Jyh+3w/M7/34MaMKC2t6GEfXw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "hardcorelive-texture-pack",
+          "projectId": "Ufg0enEF",
+          "type": "required"
+        }
+      ]
+    },
+    "umXMvp4s": {
+      "filename": "Hardcore Live Datapack.zip",
+      "url": "https://cdn.modrinth.com/data/vkaK5Wiv/versions/umXMvp4s/Hardcore%20Live%20Datapack.zip",
+      "hash": "sha512-xIPcKXsxLFl3Tf84Qd4K2HYfmlEmssE4AIsDGcBdwAMuwpBtdcu3Ma1+0LaCgaUhasZVS8GhtiblN66ZBe1r9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "hardcorelive-texture-pack",
+          "projectId": "Ufg0enEF",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "umXMvp4s",
+      "eNE4gLnl"
+    ],
+    "1.20.1+fabric": [
+      "9VQJmgCQ"
+    ],
+    "1.20.1+forge": [
+      "9VQJmgCQ"
+    ],
+    "1.20.1+quilt": [
+      "9VQJmgCQ"
+    ]
+  }
+}

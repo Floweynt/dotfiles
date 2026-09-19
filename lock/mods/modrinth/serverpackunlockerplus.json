@@ -1,0 +1,63 @@
+{
+  "slug": "serverpackunlockerplus",
+  "projectId": "EacryEFJ",
+  "versions": {
+    "3DIL81MN": {
+      "filename": "spu-1.4.1.jar",
+      "url": "https://cdn.modrinth.com/data/EacryEFJ/versions/3DIL81MN/spu-1.4.1.jar",
+      "hash": "sha512-IW0BfnvhXobHMk5QBJIFNutwfrQQY8HHIminr/IAIjnLHpw0Thx1Y+ARwmV7E463ltcKWI96mHecA51E7yJ3SA==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "8SLrU0u3": {
+      "filename": "spu-1.5.jar",
+      "url": "https://cdn.modrinth.com/data/EacryEFJ/versions/8SLrU0u3/spu-1.5.jar",
+      "hash": "sha512-J3s9dyS/gPLnslTA4IPpWamdfzJ1eIkQ5UOS9VqoemSSp8vFlHWHqIky4lNzZG7aZFokMfIXsh1bk8KxxfkNcw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Sdbd8lkH": {
+      "filename": "spu-1.4.jar",
+      "url": "https://cdn.modrinth.com/data/EacryEFJ/versions/Sdbd8lkH/spu-1.4.jar",
+      "hash": "sha512-qMTqyZUpkAjaIwYjef0eaXstZxxlBbecstRU+a4NkM1H3qlPHOpVESxA0HKf0pVanzns2fZTi9n39musyv+dTw==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "3DIL81MN"
+    ],
+    "1.19.3+fabric": [
+      "8SLrU0u3",
+      "Sdbd8lkH"
+    ],
+    "1.19.4+fabric": [
+      "8SLrU0u3",
+      "Sdbd8lkH"
+    ]
+  }
+}

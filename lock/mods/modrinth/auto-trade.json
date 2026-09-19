@@ -1,0 +1,85 @@
+{
+  "slug": "auto-trade",
+  "projectId": "dvYDnuK6",
+  "versions": {
+    "8mXTt6Uf": {
+      "filename": "auto-trade-1.0.0+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/dvYDnuK6/versions/8mXTt6Uf/auto-trade-1.0.0%2B26.2.jar",
+      "hash": "sha512-zTd2LtlCEPRkc7PXAsEwQcaHxBqEs+cTzNwnXlIA2Qx6kTTF9NEOdpo0SgD+lRkCX1PS5M3rVSC8qqXY3OF+Qg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JjObs0XM": {
+      "filename": "auto-trade-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dvYDnuK6/versions/JjObs0XM/auto-trade-1.0.0.jar",
+      "hash": "sha512-TOwRBLg5byA0Hs4auXu066B1rWH/jiHEdYDlShmCJE64U9e295CUX5srRxpHmwyEIh1ozn8AfYie/QyZptOQtQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "MpaBpDEJ": {
+      "filename": "auto-trade-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/dvYDnuK6/versions/MpaBpDEJ/auto-trade-1.0.0.jar",
+      "hash": "sha512-5DzO3qSMlm5kCHk56iPFVlKHi6t99gfBJjwR16lgr+wNGH8D0bILuWymXmqGkxIk2X6SAbiUWO2kw248zCZE3Q==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "JjObs0XM"
+    ],
+    "26.1+fabric": [
+      "MpaBpDEJ"
+    ],
+    "26.1.1+fabric": [
+      "MpaBpDEJ"
+    ],
+    "26.1.2+fabric": [
+      "MpaBpDEJ"
+    ],
+    "26.2+fabric": [
+      "8mXTt6Uf"
+    ]
+  }
+}

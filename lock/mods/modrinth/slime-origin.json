@@ -1,0 +1,36 @@
+{
+  "slug": "slime-origin",
+  "projectId": "pMI1EfEh",
+  "versions": {
+    "DlvipCn9": {
+      "filename": "slimeorigin-0.1.0-alpha+mc.1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/pMI1EfEh/versions/DlvipCn9/slimeorigin-0.1.0-alpha%2Bmc.1.21.1.jar",
+      "hash": "sha512-ZJDjw1KteXpWjfeocLrT9nAzagqbwpdcujYCjJstvDo9erun3tXZ5Slxe0WxaJV9xq3Pbir5jHFRGgEH9w8Fog==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "DlvipCn9"
+    ]
+  }
+}

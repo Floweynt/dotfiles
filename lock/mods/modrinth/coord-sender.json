@@ -1,0 +1,103 @@
+{
+  "slug": "coord-sender",
+  "projectId": "PPvwHobM",
+  "versions": {
+    "7eLaseNt": {
+      "filename": "coord-sender-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/PPvwHobM/versions/7eLaseNt/coord-sender-1.1.0.jar",
+      "hash": "sha512-ApZlC5syWfG7c4qDme1F90taxy/FXH5eRUoBbn7RkwrSdnTcrDZ6saCmvxUxfkV73E0JgqMmM9GhsAFJr+weYw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "DjwglDlx": {
+      "filename": "coord-sender-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/PPvwHobM/versions/DjwglDlx/coord-sender-1.0.0.jar",
+      "hash": "sha512-i82VxWciCZSo6iZdlX4fMSdaXAnVkMBzHS3BaosTQ6aPhj6u6DeujZ9LarA/IY7ADQuuHlkWuYvLl82WtOzdCA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "wuCIYcNK": {
+      "filename": "coord-sender-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/PPvwHobM/versions/wuCIYcNK/coord-sender-1.21.11.jar",
+      "hash": "sha512-/1LigtYaDFpbzQB1dF2aWzOtzlxJlQ/YDBuazwiku91vSRJY6pIAChiQbZLqtUInnQuEZZ8N77oH/XqqLFYNeA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "7eLaseNt",
+      "DjwglDlx"
+    ],
+    "1.21.1+fabric": [
+      "7eLaseNt",
+      "DjwglDlx"
+    ],
+    "1.21.11+fabric": [
+      "wuCIYcNK"
+    ],
+    "1.21.2+fabric": [
+      "7eLaseNt",
+      "DjwglDlx"
+    ],
+    "1.21.3+fabric": [
+      "7eLaseNt",
+      "DjwglDlx"
+    ],
+    "1.21.4+fabric": [
+      "7eLaseNt",
+      "DjwglDlx"
+    ]
+  }
+}

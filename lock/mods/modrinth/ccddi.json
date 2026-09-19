@@ -1,0 +1,150 @@
+{
+  "slug": "ccddi",
+  "projectId": "UC1012jj",
+  "versions": {
+    "5KdVv81S": {
+      "filename": "CCDDI-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UC1012jj/versions/5KdVv81S/CCDDI-1.1.0.jar",
+      "hash": "sha512-xC3vC4i93QE711bYhWJr5RY3IA2oMEzHD1XjuWs+JjOVfxzUsED+Xv5Jadpi3qCuDpSkG5JeEf91rD99vhEaNw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "BmUgPqfy": {
+      "filename": "CCDDI-1.1.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/UC1012jj/versions/BmUgPqfy/CCDDI-1.1.1-1.21.1.jar",
+      "hash": "sha512-h12YPgRfT6pMEGjzSivJxn3JzsD7GU3QLHIBcbzbIlWuv+Q4HES2Udl25OuOcQQ0lTYhXfD6yHRMsbSmxLeM9A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "Ooq7cFTt": {
+      "filename": "CCDDI-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UC1012jj/versions/Ooq7cFTt/CCDDI-1.0.0.jar",
+      "hash": "sha512-IehD8sBGWV9jkuEvxmE1MOCoavL8iMU/aplZ11G98frbLqtT7NjsEN9MSztJBhsuI+2BfHCyTIOpT5/ZI4+ymQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "RZKo40a6": {
+      "filename": "CCDDI-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UC1012jj/versions/RZKo40a6/CCDDI-1.0.1.jar",
+      "hash": "sha512-eAj2BqFzO/9ZwBiGGtRA/FX700qT8JPhTl4CqREuXHnbmnXgrCAcA4gCtlQubkK9P9nmvFx439dR/vWKJRFQ9g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "VyCKfYYC": {
+      "filename": "CCDDI-1.1.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/UC1012jj/versions/VyCKfYYC/CCDDI-1.1.1-1.20.1.jar",
+      "hash": "sha512-1E+93MVZPEPXM6b7NAhEwZIvuefYHUqbcFjPdtMmFWxkcdqthGjVaQIu5hnDvlmtpoEGarW33wEvbAEBcOecUQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "VyCKfYYC"
+    ],
+    "1.21+fabric": [
+      "BmUgPqfy",
+      "5KdVv81S",
+      "RZKo40a6"
+    ],
+    "1.21.1+fabric": [
+      "BmUgPqfy",
+      "5KdVv81S",
+      "RZKo40a6",
+      "Ooq7cFTt"
+    ]
+  }
+}

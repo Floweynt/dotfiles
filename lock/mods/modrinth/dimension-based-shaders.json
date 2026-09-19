@@ -1,0 +1,129 @@
+{
+  "slug": "dimension-based-shaders",
+  "projectId": "382qMt6Y",
+  "versions": {
+    "Yxs2gyKT": {
+      "filename": "DimensionBasedShaders-1.0+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/382qMt6Y/versions/Yxs2gyKT/DimensionBasedShaders-1.0%2B1.21.11.jar",
+      "hash": "sha512-MJsXbhwYD0XEarzMBYFShP+CdnakJRd8C15YNlnYN7q3Y+QQbf96kjU8t/Phyry1enmA5kf+CmzU4swxnwSU6Q==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "fOhpKPIP": {
+      "filename": "DimensionBasedShaders-1.2+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/382qMt6Y/versions/fOhpKPIP/DimensionBasedShaders-1.2%2B1.21.11.jar",
+      "hash": "sha512-9LZgFMPwHLZb1D/PgKn65WITRBekxNISJwt0hMEaBRnENaAnhuO3W5blnPkSw01i63/FA75+kyTmPsFs6uZCsQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "j5bXj6e7": {
+      "filename": "DimensionBasedShaders-1.1+1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/382qMt6Y/versions/j5bXj6e7/DimensionBasedShaders-1.1%2B1.21.11.jar",
+      "hash": "sha512-VNvvmSSo8W4DDp1ku+WCh+s8xpvukwwLYYgjAG8CDEt6/c8lk7hyNjDR8XNta8NayQlkfZhLc0rwnwg8/H7C1A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "o4c0nqdM": {
+      "filename": "DimensionBasedShaders-1.4+26.2.jar",
+      "url": "https://cdn.modrinth.com/data/382qMt6Y/versions/o4c0nqdM/DimensionBasedShaders-1.4%2B26.2.jar",
+      "hash": "sha512-hmzg3I7R0YSlx5WQ/6Mmn8NKgVC8+RW11F0nQStNbxq/1dz+PC7LQEg0V+qojIdHJTtDYba3SlKdaMPUXfxahg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        },
+        {
+          "slug": "iris",
+          "projectId": "YL57xq9U",
+          "type": "required"
+        }
+      ]
+    },
+    "pcd3FEz6": {
+      "filename": "DimensionBasedShaders-1.3+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/382qMt6Y/versions/pcd3FEz6/DimensionBasedShaders-1.3%2B26.1.jar",
+      "hash": "sha512-WGWKaj2VkCUUgLVkpJaMrxeJRY3p7ibKSSHHHb/TiJ/sLzVkb4WPY3PYOfndOT3ufmdhgJ4zkV98uMZ8QCX4OA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "fOhpKPIP",
+      "j5bXj6e7",
+      "Yxs2gyKT"
+    ],
+    "26.1+fabric": [
+      "pcd3FEz6"
+    ],
+    "26.1.1+fabric": [
+      "pcd3FEz6"
+    ],
+    "26.1.2+fabric": [
+      "pcd3FEz6"
+    ],
+    "26.2+fabric": [
+      "o4c0nqdM"
+    ]
+  }
+}

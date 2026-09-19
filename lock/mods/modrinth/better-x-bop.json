@@ -1,0 +1,116 @@
+{
+  "slug": "better-x-bop",
+  "projectId": "o220W1SK",
+  "versions": {
+    "Ddmsu7xo": {
+      "filename": "Better-X-BOP_1.1_1.21.1.zip",
+      "url": "https://cdn.modrinth.com/data/o220W1SK/versions/Ddmsu7xo/Better-X-BOP_1.1_1.21.1.zip",
+      "hash": "sha512-ukXvO4cpToGwkJBqVYOekh2CcQR9n5e6XFcQfcTQLXd3LzvoBlr7wZU0ApnwiSySA8rzYj3IwoDObROJY4951A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "worldweaver",
+          "projectId": "RiN8rDVs",
+          "type": "required"
+        },
+        {
+          "slug": "bclib",
+          "projectId": "BgNRHReB",
+          "type": "required"
+        },
+        {
+          "slug": "biomes-o-plenty",
+          "projectId": "HXF82T3G",
+          "type": "required"
+        },
+        {
+          "slug": "betternether",
+          "projectId": "MpzVLzy5",
+          "type": "required"
+        }
+      ]
+    },
+    "WFJONPgw": {
+      "filename": "better-x-bop-1.1_1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/o220W1SK/versions/WFJONPgw/better-x-bop-1.1_1.20.1.jar",
+      "hash": "sha512-1F6eS05zsXe9TTcr4WftRLQ96yqCImj8FfHT3meFLeDKi7y79Aw0oevNKS8S9zlTt/j+wPYC4JmDrJrLma39nw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "betternether",
+          "projectId": "MpzVLzy5",
+          "type": "required"
+        },
+        {
+          "slug": "biomes-o-plenty",
+          "projectId": "HXF82T3G",
+          "type": "required"
+        },
+        {
+          "slug": "bclib",
+          "projectId": "BgNRHReB",
+          "type": "required"
+        }
+      ]
+    },
+    "xdkClPuv": {
+      "filename": "Better-X-BOP_1.1_1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/o220W1SK/versions/xdkClPuv/Better-X-BOP_1.1_1.20.1.zip",
+      "hash": "sha512-q099mz0LrEz+Gpw0btPD8SzQ240my2OSC8u+THYDVeIhC7g3B8uJm6lPjJvyraCerhcm083Kfyx6KYXWeS9iGg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "biomes-o-plenty",
+          "projectId": "HXF82T3G",
+          "type": "required"
+        },
+        {
+          "slug": "bclib",
+          "projectId": "BgNRHReB",
+          "type": "required"
+        },
+        {
+          "slug": "betternether",
+          "projectId": "MpzVLzy5",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "xdkClPuv"
+    ],
+    "1.20.1+fabric": [
+      "WFJONPgw"
+    ],
+    "1.21+datapack": [
+      "Ddmsu7xo"
+    ],
+    "1.21.1+datapack": [
+      "Ddmsu7xo"
+    ]
+  }
+}

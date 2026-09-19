@@ -1,0 +1,613 @@
+{
+  "slug": "visual-overhaul",
+  "projectId": "YQnwl5Vv",
+  "versions": {
+    "1N6fR5J3": {
+      "filename": "visualoverhaul-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/4.0.0/visualoverhaul-4.0.0.jar",
+      "hash": "sha512-el6Gmfgvdlanmxlhykp5KZxyCpVBLxCkPpecqtiGLei7E8Zns+nrp6rB5jrxNlB3IbQWOTgWqVFuBGa1wS5QeA==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "2evcQb3y": {
+      "filename": "visualoverhaul-fabric-5.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/2evcQb3y/visualoverhaul-fabric-5.1.0.jar",
+      "hash": "sha512-1OPZwCgJUgMQ47wHwUfpl16NBI4fmb6CBx4tFPYLlTwAPDtvUOvczjfW8MecSDiIcWkfBbZ2qdhvD2dwqzygeQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "2hskTr6k": {
+      "filename": "visualoverhaul-neoforge-5.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/2hskTr6k/visualoverhaul-neoforge-5.1.0.jar",
+      "hash": "sha512-YMZ7lplbPM0s9kooD0gB0gebwi+fq1sYuFaLDQCQY1sgN3izBMOXiJIS5yMcYkB21YvOI6FeXtIEdVUBQHuIyQ==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "4nC7lhgG": {
+      "filename": "visualoverhaul-fabric-5.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/4nC7lhgG/visualoverhaul-fabric-5.2.0.jar",
+      "hash": "sha512-uxddUfOgRiFazlbr/yTWZz5dThFrbpuotWrStPhjrxBqKXzWbUtHlNlvQVxA36wu56apW1vS9dbSQ00ttJg0uw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "76fbCyTt": {
+      "filename": "visualoverhaul-neoforge-5.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/76fbCyTt/visualoverhaul-neoforge-5.2.0.jar",
+      "hash": "sha512-EaV0VPw3JkAyLr/g+HyeORTB2yzlJFQK6yfrbxKa612wtIDdhQJlVeCmbQ8bKMeoncRdP2L71b/T3kvzPck/Bw==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "GngqTZ0E": {
+      "filename": "visualoverhaul-fabric-5.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/GngqTZ0E/visualoverhaul-fabric-5.2.1.jar",
+      "hash": "sha512-NVCiEpmBp4TESuRI16KmPzpewb0At7k0kQqn2utV/yePNZQQhgV12wSJEnzp5MOaQUPFYO49b6R82JjhO13h8A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "GuYuJjdK": {
+      "filename": "visualoverhaul-fabric-6.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/GuYuJjdK/visualoverhaul-fabric-6.0.0.jar",
+      "hash": "sha512-RT3MAVa9vXqRyBiivJGVPBMG6LUOrLX1xjm4C87qqHVisINEFOe7vTTCxoo/e8/5VAuJU+SjUmJtG+8adH/eQg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "JhRfkHGc": {
+      "filename": "visualoverhaul-3.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/3.3.0/visualoverhaul-3.3.0.jar",
+      "hash": "sha512-SAR9A+A1NKDdOk2f+gJp8Zpfl5u3DA7GVDY7bpBD3p/k39nbk/KNenBSu0JmroyJlab4O5eQIQMnRL8Eq0PEsQ==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "Jte5pWQ7": {
+      "filename": "visualoverhaul-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/3.0.0/visualoverhaul-3.0.0.jar",
+      "hash": "sha512-AP/0z/2ujsMzfMPxZ0JtFnWuDBJnvXmD4MgcIP7IxOe/OuVMP08GYvmBySQypzrZWH6yJkvpozO+2orLcn+/yg==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "MUk2Z2Zv": {
+      "filename": "visualoverhaul-4.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/4.1.0/visualoverhaul-4.1.0.jar",
+      "hash": "sha512-bdCDrjVzx6h/vQdDy30UO3Bypon7+kaIh+FKwpocCeA+0axqHBSk707xpNQ9FfC6ZN7vWyiJxMGbbIMi5Zt2zQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "OXBkbR1M": {
+      "filename": "visualoverhaul-4.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/4.1.1/visualoverhaul-4.1.1.jar",
+      "hash": "sha512-Tb2LV6cMYEIfMRjVMpII4RovvxdjGtaGCh7uFlxBVs4QvYefDrgfOzxkw/xI1dHaGCxrPIFo5NF9xqch0U28sA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2",
+        "22w42a"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "QE4IlQoJ": {
+      "filename": "visualoverhaul-fabric-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/QE4IlQoJ/visualoverhaul-fabric-5.0.0.jar",
+      "hash": "sha512-chG3foYPdjWi1ALbTws6qLH7CCPm6kLXvGBcRFI9gXouzgoKKaWCiR1/GrWog6zAC2zjbxiSZlgpKffkyHTfsw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "QHceqD2V": {
+      "filename": "visualoverhaul-quilt-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/QHceqD2V/visualoverhaul-quilt-5.0.0.jar",
+      "hash": "sha512-NkVTtLggFPkzElzezjGk2ziBRIq5+kt9MdAefqCk2kiXhZbZ/07MbGskP5zXprqZ7+trm2ZVTHRQR3NsQgvIig==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    },
+    "RneCYQS9": {
+      "filename": "visualoverhaul-3.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/3.1.0/visualoverhaul-3.1.0.jar",
+      "hash": "sha512-c+aj9WOOOviBI/hHVnIDIki2xFEA+nXBIqX2t7AWht0qkLuhnGuiuhcup2t3unvZJ/7HDjbgmZ1MSyLpXITZ/A==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "TMOdQHDi": {
+      "filename": "visualoverhaul-neoforge-5.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/TMOdQHDi/visualoverhaul-neoforge-5.2.1.jar",
+      "hash": "sha512-kBYE9RxuTQ973GgbXC4QlzKnuOit00HTTtEFb2gzF0ggJb4uJHoxayB3qo8D7UHo4XUPntQQJxBmh374JnnncQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "WisLIPQ9": {
+      "filename": "visualoverhaul-fabric-5.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/WisLIPQ9/visualoverhaul-fabric-5.0.1.jar",
+      "hash": "sha512-6pfhnPidDh1OthSdiY04hrRsWPY94/N0NJVeo2K7euzVSRHInGyQQqSO5vhoUf0FShVGlNJvbUhba3FuUQVd4g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "dRqQqDV3": {
+      "filename": "visualoverhaul-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/2.0.1/visualoverhaul-2.0.1.jar",
+      "hash": "sha512-Zl0rW6dOYZZRDj3D8mpGWN2nAACNNVu3xY58+CmNbnvTPsTDUew0DrPMDAT7D/mMJHoaSnPNXvFyRCW2ITiNyg==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "ebyijdsw": {
+      "filename": "visualoverhaul-forge-5.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/ebyijdsw/visualoverhaul-forge-5.0.1.jar",
+      "hash": "sha512-U1F1ti68aAsMvGq2RH+IxAccAsYa/6b/tTRJcqko9p2D7oFvEiC+mnbeeKK+Tlli8s24y4yu9BZBcrP3Lb5IBg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "hQwGudVp": {
+      "filename": "visualoverhaul-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/1.0.0/visualoverhaul-1.0.0.jar",
+      "hash": "sha512-zJTS/hBgMFXJXCqXmTxen3RGcIQxawFQtzfQU/UNRAwnY0nGLbOnIMWZ33waaVoeO+RqS6VGfxquVhZfrJos6w==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "htd4BGhg": {
+      "filename": "visualoverhaul-3.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/3.2.0/visualoverhaul-3.2.0.jar",
+      "hash": "sha512-FG+fm7t2lMmLFKEU6QAVO1cdw1uSQP9n3wqDaK4iGEGoiIk47L0ytBJf6ozG2xBA57Sx02bsUrmEbmlNM2uj7g==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "lqH98CUx": {
+      "filename": "visualoverhaul-quilt-5.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/lqH98CUx/visualoverhaul-quilt-5.0.1.jar",
+      "hash": "sha512-mK+5ss9uvqbBnV2Uc988h+zwKsypCy+Ykr+j3Fa6jynjXvF3KZfkndOmx/BjQAR0L19biS8t7nqVfSoc2G9qUQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "z8qd9WuG": {
+      "filename": "visualoverhaul-forge-5.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/z8qd9WuG/visualoverhaul-forge-5.0.0.jar",
+      "hash": "sha512-UCodHax+wuq/WU1ubxpSkKRT9/DPGgJdpf8aZo5U8rXfl7UCk5nlHskdCKPl8DxT+IWQ92M/9YffUNf3OiWwkw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "zLwvzM9F": {
+      "filename": "visualoverhaul-neoforge-6.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/YQnwl5Vv/versions/zLwvzM9F/visualoverhaul-neoforge-6.0.0.jar",
+      "hash": "sha512-0G4HKIjr3VCT5rBpq3ST++Q6r4etQRFnXfbrao4KlVqBRpIHVyKOrdMoXqLeLGFH01Eop2+7/06I+9PSO9S2ZQ==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16+fabric": [
+      "htd4BGhg",
+      "RneCYQS9",
+      "Jte5pWQ7",
+      "dRqQqDV3",
+      "hQwGudVp"
+    ],
+    "1.16.1+fabric": [
+      "htd4BGhg",
+      "RneCYQS9",
+      "Jte5pWQ7",
+      "dRqQqDV3",
+      "hQwGudVp"
+    ],
+    "1.16.2+fabric": [
+      "htd4BGhg",
+      "RneCYQS9",
+      "Jte5pWQ7",
+      "dRqQqDV3",
+      "hQwGudVp"
+    ],
+    "1.16.3+fabric": [
+      "htd4BGhg",
+      "RneCYQS9",
+      "Jte5pWQ7",
+      "dRqQqDV3",
+      "hQwGudVp"
+    ],
+    "1.16.4+fabric": [
+      "htd4BGhg",
+      "RneCYQS9",
+      "Jte5pWQ7",
+      "dRqQqDV3",
+      "hQwGudVp"
+    ],
+    "1.16.5+fabric": [
+      "htd4BGhg",
+      "RneCYQS9",
+      "Jte5pWQ7",
+      "dRqQqDV3"
+    ],
+    "1.17+fabric": [
+      "JhRfkHGc"
+    ],
+    "1.17.1+fabric": [
+      "JhRfkHGc"
+    ],
+    "1.18+fabric": [
+      "1N6fR5J3"
+    ],
+    "1.18.1+fabric": [
+      "1N6fR5J3"
+    ],
+    "1.18.2+fabric": [
+      "MUk2Z2Zv"
+    ],
+    "1.18.2+quilt": [
+      "MUk2Z2Zv"
+    ],
+    "1.19+fabric": [
+      "OXBkbR1M"
+    ],
+    "1.19+quilt": [
+      "OXBkbR1M"
+    ],
+    "1.19.1+fabric": [
+      "OXBkbR1M"
+    ],
+    "1.19.1+quilt": [
+      "OXBkbR1M"
+    ],
+    "1.19.2+fabric": [
+      "OXBkbR1M"
+    ],
+    "1.19.2+quilt": [
+      "OXBkbR1M"
+    ],
+    "1.19.4+fabric": [
+      "QE4IlQoJ"
+    ],
+    "1.19.4+forge": [
+      "z8qd9WuG"
+    ],
+    "1.19.4+quilt": [
+      "QHceqD2V"
+    ],
+    "1.20+fabric": [
+      "WisLIPQ9"
+    ],
+    "1.20+forge": [
+      "ebyijdsw"
+    ],
+    "1.20+quilt": [
+      "lqH98CUx"
+    ],
+    "1.20.1+fabric": [
+      "WisLIPQ9"
+    ],
+    "1.20.1+forge": [
+      "ebyijdsw"
+    ],
+    "1.20.1+quilt": [
+      "lqH98CUx"
+    ],
+    "1.20.4+fabric": [
+      "2evcQb3y"
+    ],
+    "1.20.4+neoforge": [
+      "2hskTr6k"
+    ],
+    "1.20.4+quilt": [
+      "2evcQb3y"
+    ],
+    "1.21+fabric": [
+      "GngqTZ0E",
+      "4nC7lhgG"
+    ],
+    "1.21+neoforge": [
+      "TMOdQHDi",
+      "76fbCyTt"
+    ],
+    "1.21+quilt": [
+      "GngqTZ0E",
+      "4nC7lhgG"
+    ],
+    "1.21.1+fabric": [
+      "GngqTZ0E"
+    ],
+    "1.21.1+neoforge": [
+      "TMOdQHDi"
+    ],
+    "1.21.1+quilt": [
+      "GngqTZ0E"
+    ],
+    "1.21.4+fabric": [
+      "GuYuJjdK"
+    ],
+    "1.21.4+neoforge": [
+      "zLwvzM9F"
+    ],
+    "1.21.4+quilt": [
+      "GuYuJjdK"
+    ],
+    "22w42a+fabric": [
+      "OXBkbR1M"
+    ],
+    "22w42a+quilt": [
+      "OXBkbR1M"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "clockwork-additions",
+  "projectId": "cjtNBuoS",
+  "versions": {
+    "9zYX9xan": {
+      "filename": "ClockworkAdditions-1.18.2-0.0.6-multiloader.jar",
+      "url": "https://cdn.modrinth.com/data/cjtNBuoS/versions/9zYX9xan/ClockworkAdditions-1.18.2-0.0.6-multiloader.jar",
+      "hash": "sha512-w+MUgQ3oR3EEGnPYI7K2V+hxWtpgAcHhBm8Z69/FjzML90bQK5jvWDMBQSRkUqmjLmdMIUbTfuzXnGq8QU1QSg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "create-clockwork",
+          "projectId": "84USeAvk",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "DMppmhST": {
+      "filename": "ClockworkAdditions-forge-1.20.1-0.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/cjtNBuoS/versions/DMppmhST/ClockworkAdditions-forge-1.20.1-0.0.7.jar",
+      "hash": "sha512-vk5EyD3+cESMst+zbQ7ozc8o7Bvtwkmffyx8PGrDCQ6lIOAXfs/uhilc8EsfBTFwK3qvAMOF69xi4nXWx+68Fw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "create-clockwork",
+          "projectId": "84USeAvk",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "M6DNu3LO": {
+      "filename": "ClockworkAdditions-1.20.1-0.0.6-multiloader.jar",
+      "url": "https://cdn.modrinth.com/data/cjtNBuoS/versions/M6DNu3LO/ClockworkAdditions-1.20.1-0.0.6-multiloader.jar",
+      "hash": "sha512-4G0lDNfCZ7CUfkt7SPhdGmZbuAu0R8Fktlz5CCUg+jiYjpfYyA9cYcef1TmKI/dW+nmGiBYTQSx8bgcdwx4clA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "create-clockwork",
+          "projectId": "84USeAvk",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "9zYX9xan"
+    ],
+    "1.18.2+forge": [
+      "9zYX9xan"
+    ],
+    "1.20.1+fabric": [
+      "M6DNu3LO"
+    ],
+    "1.20.1+forge": [
+      "DMppmhST",
+      "M6DNu3LO"
+    ]
+  }
+}

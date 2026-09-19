@@ -1,0 +1,127 @@
+{
+  "slug": "registry-dumper-3000",
+  "projectId": "TrVqGBB2",
+  "versions": {
+    "12Ei0u6Q": {
+      "filename": "registry_dumper_3000-forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TrVqGBB2/versions/12Ei0u6Q/registry_dumper_3000-forge-1.1.0.jar",
+      "hash": "sha512-gbpEpaAEbnaz0vgHwfoPZDzK7JhutObRC36rh2jK8RFscISosM+qyAhCum8WO+nbU/2GHr/bMo0Vo1lUnKShbg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "RRpcszVP": {
+      "filename": "registry_dumper_3000-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TrVqGBB2/versions/RRpcszVP/registry_dumper_3000-fabric-1.1.0.jar",
+      "hash": "sha512-VpoTGKfiEOa1E5IEsU2o9rh5hm/YeNCO3XZA1O5TJv7rNs2MeNDOHKp3SSyt0uLpRIbrdCcHhaqU4YIIWjBB9w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "hkwqyLMW": {
+      "filename": "registry_dumper_3000-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TrVqGBB2/versions/hkwqyLMW/registry_dumper_3000-fabric-1.1.0.jar",
+      "hash": "sha512-gBGEJafNcLXNu9HZAFXyOfHKzILdrEYPxjc1B5U5j8T7/15061QNLqbtTlXzyy2HNPIk38O//al9zJ4Rcw9LqA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "n7r6EVFv": {
+      "filename": "registry_dumper_3000-neoforge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TrVqGBB2/versions/n7r6EVFv/registry_dumper_3000-neoforge-1.1.0.jar",
+      "hash": "sha512-0Gyh8mJSC462knfabzOfDNQ8Nl5PMH8+xSx7/qPEhadnxFLPs/szvO5K0iJzkK5Afpn4LEKu7zAqaO5hUSGAWQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "ntib6O2W": {
+      "filename": "registry_dumper_3000-quilt-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TrVqGBB2/versions/ntib6O2W/registry_dumper_3000-quilt-1.1.0.jar",
+      "hash": "sha512-yyKsqw/6hvtgTjTLEUHnp93eGZrnf19z8PRQ+rmAfnxgIT8MarcOfbw2F+VuDFGQu3G/CXsuWksN+XJ4Dta0+Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hkwqyLMW"
+    ],
+    "1.20.1+forge": [
+      "12Ei0u6Q"
+    ],
+    "1.20.1+neoforge": [
+      "12Ei0u6Q"
+    ],
+    "1.20.1+quilt": [
+      "ntib6O2W"
+    ],
+    "1.21.1+fabric": [
+      "RRpcszVP"
+    ],
+    "1.21.1+neoforge": [
+      "n7r6EVFv"
+    ]
+  }
+}

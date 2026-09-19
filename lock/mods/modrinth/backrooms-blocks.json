@@ -1,0 +1,60 @@
+{
+  "slug": "backrooms-blocks",
+  "projectId": "UMBmfQrX",
+  "versions": {
+    "L41ZU95F": {
+      "filename": "backroomsblocks-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/UMBmfQrX/versions/L41ZU95F/backroomsblocks-1.0.0.jar",
+      "hash": "sha512-GszPj5/OCSrd9qEWhcOnNbFupAuyufvZ8HblO++Jj7fNVJEljSgHyAAwCVIzKWx7EVTGVDfrTJtOF+pYCMSdkw==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hV5bYmmS": {
+      "filename": "backroomsblocks-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/UMBmfQrX/versions/hV5bYmmS/backroomsblocks-1.1.0.jar",
+      "hash": "sha512-dd519qLB0cxe3w7jZ7brmlpTmZo/v9MagLu8lkN3jOz6fD3l0WtPmq3JDPLe6xrePPpCOTIdXvso1RNHAVIBNQ==",
+      "gameVersions": [
+        "1.19.2",
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "hV5bYmmS",
+      "L41ZU95F"
+    ],
+    "1.19.3+fabric": [
+      "hV5bYmmS"
+    ],
+    "1.19.4+fabric": [
+      "hV5bYmmS"
+    ]
+  }
+}

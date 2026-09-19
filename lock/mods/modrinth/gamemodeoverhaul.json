@@ -1,0 +1,568 @@
+{
+  "slug": "gamemodeoverhaul",
+  "projectId": "a6oRhHOA",
+  "versions": {
+    "164CK2i7": {
+      "filename": "GamemodeOverhaul-forge-2.1.0+1.19.1.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.1.0%2B1.19.1-forge/GamemodeOverhaul-forge-2.1.0%2B1.19.1.jar",
+      "hash": "sha512-xrXJIxcRikwvTkIK1c+3X3Pu9nTKTAxTY6X8FlEquLa2Dq1z1PshKqmR0R4ti9/Vj63ZWAMwDgHhZ602fC353w==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "1fSGK2At": {
+      "filename": "gamemodeoverhaul-neoforge-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/1fSGK2At/gamemodeoverhaul-neoforge-4.0.0.jar",
+      "hash": "sha512-AyGU0MDNSz0IsA1VL7Z+ScHJnNFo+QcE36+FpQR9xv3U6NP869xiIHQx0sJsoi072xnRhLx9fZc/LtN75CrXVg==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "2tLRnuVp": {
+      "filename": "gamemodeoverhaul-fabric-2.2.0+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2tLRnuVp/gamemodeoverhaul-fabric-2.2.0%2B1.20.6.jar",
+      "hash": "sha512-hmofCI4ky5vIskKRZoZjapjw96QcfYlvF6ReoeC5Tjkg1z97UUJLm5fatM9j+r8lq+PH43EiqecUWA10SlwNXA==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "3c1DpSyg": {
+      "filename": "GamemodeOverhaul-fabric-2.0.1+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.1%2B1.19-fabric/GamemodeOverhaul-fabric-2.0.1%2B1.19.jar",
+      "hash": "sha512-1F8l94hj63BN0QZoO3YxyX0s2tw7U0q+9wxOyiA0cAjY0ZYbMrPPPigjZ+ql16lXsJFZJYFppXfZ+amQTz7BhQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "4H160Lp7": {
+      "filename": "GamemodeOverhaul-fabric-2.1.0+1.19.1.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.1.0%2B1.19.1-fabric/GamemodeOverhaul-fabric-2.1.0%2B1.19.1.jar",
+      "hash": "sha512-7b9t2n4pxjRSNfewLVfBcb57zm67YdKtBFSf9hLn5Cbp9H2CXxMP/mmDxtNUvJn6AF/uSFVw4Jjr6LnqPuG01Q==",
+      "gameVersions": [
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "6fMPDeDp": {
+      "filename": "GamemodeOverhaul-forge-2.0.2+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.2%2B1.19-forge/GamemodeOverhaul-forge-2.0.2%2B1.19.jar",
+      "hash": "sha512-U7dgCnf4Ve1AZgrM4Y7wlcr1NoIHs2YwuGnvO1LlP2aTwa3or2Ae/cvMIMe3IM6UnOMW9qyVhvrMhFBZq6WjUQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "7Chdeik5": {
+      "filename": "gamemodeoverhaul-fabric-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/7Chdeik5/gamemodeoverhaul-fabric-4.0.0.jar",
+      "hash": "sha512-omtkFhxGlgv4nw9ttUeS9FB/iTwyMfFlCOKkGVVXa4ta03P041dQjNlq9g5QyFqWjK45maIYl05HNznDQH/iDg==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "9glHtuh3": {
+      "filename": "GamemodeOverhaul-fabric-1.18.2-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.0-fabric/GamemodeOverhaul-fabric-1.18.2-2.0.0.jar",
+      "hash": "sha512-rcEISoe6jScJg7kOaBMhOtl7SffkHhqBKV41X7OLQGJTYDOxRz6ZqNEmctAOzN2zUImXWraU3lFvgcG+TcIi5w==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "EZD81mtD": {
+      "filename": "GamemodeOverhaul-forge-2.0.3+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.3%2B1.19-forge/GamemodeOverhaul-forge-2.0.3%2B1.19.jar",
+      "hash": "sha512-IHdoNThCuuqiMrckCK1Vpi6hqNtZbXE3qs+cCKL8u+i76jly00YXr8P1L5dGNcbA1cszOU/uABkKlwWcsBCzrw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "FtI1H5Ae": {
+      "filename": "gamemodeoverhaul-fabric-2.2.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/FtI1H5Ae/gamemodeoverhaul-fabric-2.2.0%2B1.20.1.jar",
+      "hash": "sha512-rSe1zEfDj0FkxTMhG4hb8V0hAUI65z2jI/hy4bRDXqOyYgTVawTPPYgjgB6pv+qBr6M0OpRxaVMXkaNPUQcsYw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "PbqGXTEL": {
+      "filename": "gamemodeoverhaul-neoforge-4.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/PbqGXTEL/gamemodeoverhaul-neoforge-4.1.0.jar",
+      "hash": "sha512-ZilEY/SpeTD4v49nyjoRkbEMxOzO2vHr4DfuhnzVp0ZN7CbM02PGHIlurX6ekxQQtz1D6yGTes4O2KtK7fBe2w==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "RG40EMvR": {
+      "filename": "gamemodeoverhaul-forge-2.2.0+1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/RG40EMvR/gamemodeoverhaul-forge-2.2.0%2B1.20.6.jar",
+      "hash": "sha512-XXlh8BEMG/4Ke02TlxeRnSa75aSv2qz8fUoFd0DZn5JE+a18b95wToBM+BlJpBNGLubcfIvpMBMBnMvdHRB+cQ==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "UtQ7FeFJ": {
+      "filename": "GamemodeOverhaul-forge-1.18.2-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.0%2Bforge/GamemodeOverhaul-forge-1.18.2-2.0.0.jar",
+      "hash": "sha512-899RhCUFOPc/lRarLDbbFJuZYXTDdjf99e9b2oMDQj6RDD5r7FGUXgBo/Ic8DvL8K3Ba+cSb0ABRuaVtyf5gDA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "WRrhqrK1": {
+      "filename": "GamemodeOverhaul-forge-2.0.2+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.2%2B1.18.2-forge/GamemodeOverhaul-forge-2.0.2%2B1.18.2.jar",
+      "hash": "sha512-pQ5I6QXpDc74DjiUDquRlIHSQOHtTEBauHS7zp35kpnE4Kyh0veIszX6JYTXE2OyK1GJXsm67yvgKvrUFZyHaA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "XYmehB9g": {
+      "filename": "GamemodeOverhaul-fabric-2.0.2+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.2%2B1.19-fabric/GamemodeOverhaul-fabric-2.0.2%2B1.19.jar",
+      "hash": "sha512-6uQgcSEjRXYvDfI+PmayQNXJkW+gfBjH+yzPxH/jxKbfP7tRCsqHiKgbOMHYFS4JK2DwU1GLaYzu0tAa2lFw+Q==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "YSLBmXzd": {
+      "filename": "gamemodeoverhaul-forge-2.2.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/YSLBmXzd/gamemodeoverhaul-forge-2.2.0%2B1.21.jar",
+      "hash": "sha512-hEopMEI3Njg+lzhMkUcyHnNZfbVxsArtzJLrQ6c8BkfhRCuqcS3pksrCRKNFr7XsA56nxFrWkmCENVN9u9+bzA==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "ZmG0F2Rn": {
+      "filename": "GamemodeOverhaul-fabric-2.0.2+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.2%2B1.18.2-fabric/GamemodeOverhaul-fabric-2.0.2%2B1.18.2.jar",
+      "hash": "sha512-901pfWga6PSiJmf+qWGrS8xXxHz376+xlQbA2EZXX4oLtO7ap2QHLWg24EWPCTmJYwhaTZsnI3ckJdXZJ7gJOg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "b1UIh9wb": {
+      "filename": "gamemodeoverhaul-fabric-2.2.0+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/b1UIh9wb/gamemodeoverhaul-fabric-2.2.0%2B1.20.2.jar",
+      "hash": "sha512-UyESzYdLNtA3b3jG79GEFe3mgtd3pssKEATCS3YVLtWuo6Sl2zokVpJPjLxNGLG1I69QxfIQorC4qmFuWhZrdg==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bJt8U5B8": {
+      "filename": "GamemodeOverhaul-fabric-2.0.3+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.3%2B1.19-fabric/GamemodeOverhaul-fabric-2.0.3%2B1.19.jar",
+      "hash": "sha512-m48EQI3BLT0dzmjf77LtLi2ywedDrlMGgqojt6Rh2bAuO/dVkZuUbJ8eNXECVJaKUHQuqJnQdzjL7D7vGLPF1A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dMwK7hsi": {
+      "filename": "gamemodeoverhaul-fabric-2.2.0+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/dMwK7hsi/gamemodeoverhaul-fabric-2.2.0%2B1.19.4.jar",
+      "hash": "sha512-3Zwa32C+6d8MHgPtp3MdPfd6zIpNvOQeE17amgO/BIwlavI1OVbC3abNRGm/P6Y7AJk0R4MToBgQfagRqdDhvw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "f0Zo49Rb": {
+      "filename": "gamemodeoverhaul-forge-2.2.0+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/f0Zo49Rb/gamemodeoverhaul-forge-2.2.0%2B1.19.4.jar",
+      "hash": "sha512-1llkitEyNeMM37fzTyZNB0jZBus047rKNjCDoagkaQTduRFkqAk8jfqsL/Tb/O63X+sHPL3O/mVZl4S25jtbjQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "iURfE0qA": {
+      "filename": "gamemodeoverhaul-fabric-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/iURfE0qA/gamemodeoverhaul-fabric-3.0.0.jar",
+      "hash": "sha512-vgy1fwwuSypnU5iVmwfrWY1kyN2KcTzzFYoLoeBKK0x1fc6FjGkIBY5ZEITmvKZE2cDxl2+ge3LQVun4wpfsWA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "l6GWajp8": {
+      "filename": "gamemodeoverhaul-forge-2.2.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/l6GWajp8/gamemodeoverhaul-forge-2.2.0%2B1.20.1.jar",
+      "hash": "sha512-VVnga9dPm/q9CJPaquA5TkuoZzDZlUO/AklEjmrrofL4vX5RXc95gGfzwp5IZfRL18p2eqcZbFtmaThKDCxbYg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "n4MoisKi": {
+      "filename": "gamemodeoverhaul-fabric-4.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/n4MoisKi/gamemodeoverhaul-fabric-4.1.0.jar",
+      "hash": "sha512-3fUu7vt4xTx7dxyCAeAMDHl1aX8eoIPS/BN+QusaFvwRYi7yUoywv8a2r0/tNu/SkdUn/Hq5H0xkmZZa/FNZbQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "pStg2YqA": {
+      "filename": "GamemodeOverhaul-forge-2.0.1+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/2.0.1%2B1.19-forge/GamemodeOverhaul-forge-2.0.1%2B1.19.jar",
+      "hash": "sha512-IKDlyxzwiIwlJ7MinLDRnJSl08Y4hgmlGe8DGd4k1+S+TQ0qIOnlWcFmyf33J99fXLXK3CuJ9Z5Y/saSaciUjQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "pa05ysqe": {
+      "filename": "gamemodeoverhaul-neoforge-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/pa05ysqe/gamemodeoverhaul-neoforge-3.0.0.jar",
+      "hash": "sha512-HOypoUoMn17oah3rcSoq1gz2YrrKlVeGl7p95XnxhZMPyypr2nglC0yKTjXDBx3ethqHixBJ8YV1HRYMq/GKdw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "ppipfXIH": {
+      "filename": "gamemodeoverhaul-fabric-2.2.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/ppipfXIH/gamemodeoverhaul-fabric-2.2.0%2B1.21.jar",
+      "hash": "sha512-gm15ps4McW1DhGlvYHr99BqgT1Ccb07jWGAi+EPFl7ro1pz6wvo2nKED6RAY1ZomgXOKc75jXuXAUyyyiJXndg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uRy8nw0c": {
+      "filename": "gamemodeoverhaul-forge-2.2.0+1.20.2.jar",
+      "url": "https://cdn.modrinth.com/data/a6oRhHOA/versions/uRy8nw0c/gamemodeoverhaul-forge-2.2.0%2B1.20.2.jar",
+      "hash": "sha512-MhoNk8bIuEWj3+vUFvQoTA/xsuYmyujB5k5hILmEhMAoBwyRHAj5Qv/uS6ZT8/bDjJuG64+QL3Hh0OMuciwrpw==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "ZmG0F2Rn",
+      "9glHtuh3"
+    ],
+    "1.18.2+forge": [
+      "WRrhqrK1",
+      "UtQ7FeFJ"
+    ],
+    "1.19+fabric": [
+      "bJt8U5B8",
+      "XYmehB9g",
+      "3c1DpSyg"
+    ],
+    "1.19+forge": [
+      "EZD81mtD",
+      "6fMPDeDp",
+      "pStg2YqA"
+    ],
+    "1.19.1+fabric": [
+      "4H160Lp7"
+    ],
+    "1.19.1+forge": [
+      "164CK2i7"
+    ],
+    "1.19.4+fabric": [
+      "dMwK7hsi"
+    ],
+    "1.19.4+forge": [
+      "f0Zo49Rb"
+    ],
+    "1.20.1+fabric": [
+      "FtI1H5Ae"
+    ],
+    "1.20.1+forge": [
+      "l6GWajp8"
+    ],
+    "1.20.2+fabric": [
+      "b1UIh9wb"
+    ],
+    "1.20.2+forge": [
+      "uRy8nw0c"
+    ],
+    "1.20.6+fabric": [
+      "2tLRnuVp"
+    ],
+    "1.20.6+neoforge": [
+      "RG40EMvR"
+    ],
+    "1.21+fabric": [
+      "ppipfXIH"
+    ],
+    "1.21+neoforge": [
+      "YSLBmXzd"
+    ],
+    "1.21.1+fabric": [
+      "iURfE0qA"
+    ],
+    "1.21.1+neoforge": [
+      "pa05ysqe"
+    ],
+    "26.1+fabric": [
+      "n4MoisKi",
+      "7Chdeik5"
+    ],
+    "26.1+neoforge": [
+      "PbqGXTEL",
+      "1fSGK2At"
+    ],
+    "26.1.1+fabric": [
+      "n4MoisKi"
+    ],
+    "26.1.1+neoforge": [
+      "PbqGXTEL"
+    ],
+    "26.1.2+fabric": [
+      "n4MoisKi"
+    ],
+    "26.1.2+neoforge": [
+      "PbqGXTEL"
+    ]
+  }
+}

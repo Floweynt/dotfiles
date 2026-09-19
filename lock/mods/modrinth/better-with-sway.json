@@ -1,0 +1,62 @@
+{
+  "slug": "better-with-sway",
+  "projectId": "bEDEfDCX",
+  "versions": {
+    "Gcj5BfLB": {
+      "filename": "sway-mod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bEDEfDCX/versions/Gcj5BfLB/sway-mod-1.0.0.jar",
+      "hash": "sha512-awKRVAgam0/SgfoT2i2MPXx7xGqrkNP2EfOORwMK3llpbjyNKvuKsrCisi+iEEtSWSKjZFDG1Si1hmPl5L61Lw==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        },
+        {
+          "slug": "mod-menu-bta",
+          "projectId": "BnSCrq6A",
+          "type": "required"
+        }
+      ]
+    },
+    "vMvEqLbL": {
+      "filename": "sway-mod-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/bEDEfDCX/versions/vMvEqLbL/sway-mod-1.0.1.jar",
+      "hash": "sha512-/0c+tjc/oeD281Tbl1Leumxdwrq/WNRjEh4+XZunq7/JNfQ+siKH9zTTMvFwAOHcnjbKr/oFOtfhefFvRYyJJA==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "mod-menu-bta",
+          "projectId": "BnSCrq6A",
+          "type": "required"
+        },
+        {
+          "slug": "halplibe",
+          "projectId": "IIu8YulV",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "b1.7.3+fabric": [
+      "vMvEqLbL",
+      "Gcj5BfLB"
+    ]
+  }
+}

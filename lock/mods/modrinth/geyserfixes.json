@@ -1,0 +1,31 @@
+{
+  "slug": "geyserfixes",
+  "projectId": "lFuGHOE0",
+  "versions": {
+    "QZXI6TQ6": {
+      "filename": "GeyserFixes-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/lFuGHOE0/versions/QZXI6TQ6/GeyserFixes-1.0.1.jar",
+      "hash": "sha512-rR0BMcyy9k9FJcvrFkpj1bKm1jLnbO9QaiYPD9oHHClmPZb8EuR/oKdZcWoP9AaMQz23oAKJY1gJPpHqCtwKMA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "areed-corelib",
+          "projectId": "AMbmkZAM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "QZXI6TQ6"
+    ]
+  }
+}

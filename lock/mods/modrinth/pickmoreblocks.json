@@ -1,0 +1,79 @@
+{
+  "slug": "pickmoreblocks",
+  "projectId": "Yyt4WQU9",
+  "versions": {
+    "9wMsAbiu": {
+      "filename": "pickmoreblocks-1.0.2+1.20.3.jar",
+      "url": "https://cdn.modrinth.com/data/Yyt4WQU9/versions/9wMsAbiu/pickmoreblocks-1.0.2%2B1.20.3.jar",
+      "hash": "sha512-CPc8ZfrqNcxcZ8c8lUujtvZDGQrAZp7F9DiGiRjk4I0ZIX94RHI+mN2PraKlvrdvMaw4AATaY0Q+KosyyaeihA==",
+      "gameVersions": [
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZQy26wsR": {
+      "filename": "pickmoreblocks-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Yyt4WQU9/versions/ZQy26wsR/pickmoreblocks-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-ucUBHo35ZHCUsCXvyDh74aTqYoBLmXn2mm8hqkk+w0EHj6nMkn74woC8PAnDVVLjNg7Z5WEQq4I51uSIZEr9RA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "mXXZV7Vp": {
+      "filename": "pickmoreblocks-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/Yyt4WQU9/versions/mXXZV7Vp/pickmoreblocks-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-XOIHQapNG8nWcEcSbY4DId50gVOR7zsSk1a2lvmCNeBWPjr/x8JwiA/u9c8KoltzYtjsJqX6VIVzcntq1MqL8A==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ZQy26wsR",
+      "mXXZV7Vp"
+    ],
+    "1.20.2+fabric": [
+      "ZQy26wsR",
+      "mXXZV7Vp"
+    ],
+    "1.20.3+fabric": [
+      "9wMsAbiu"
+    ],
+    "1.20.4+fabric": [
+      "9wMsAbiu"
+    ]
+  }
+}

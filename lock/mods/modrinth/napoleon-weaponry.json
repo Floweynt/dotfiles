@@ -1,0 +1,146 @@
+{
+  "slug": "napoleon-weaponry",
+  "projectId": "1wQbtNIN",
+  "versions": {
+    "FC2PPNU3": {
+      "filename": "napoleonarmory-0.4-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/1wQbtNIN/versions/FC2PPNU3/napoleonarmory-0.4-1.20.1-forge.jar",
+      "hash": "sha512-agN383vCMJv9UIhD/8qaDydVu5MO/EIvZdC+YbTsJ8mH+IEYQSWWwDjfvmi1mSmlZ22Vq62M8FlECLadULsPnA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "crxAEGNL": {
+      "filename": "napoleonarmory-0.4-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1wQbtNIN/versions/crxAEGNL/napoleonarmory-0.4-1.20.1-fabric.jar",
+      "hash": "sha512-E+Grv9JsaOiUhFppCrENsifIrxHz4Tk32Wzm3bMfFWOWqpVrbCb2cblstdlywi0o8CBPL1doY6H/JRr8SPWPpg==",
+      "gameVersions": [
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "dlu3l7i2": {
+      "filename": "napoleonarmory-0.3-1.20.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1wQbtNIN/versions/dlu3l7i2/napoleonarmory-0.3-1.20.1-fabric.jar",
+      "hash": "sha512-9rVP/5A7QQ36wc0bSW3osZ6pvE25ylJXgheQq5p9sGNY7YWA4357ZKVPm4U4v8hKsc8KA/IxHCjMgODCw5Y6XA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "vZRpKkcy": {
+      "filename": "napoleonarmory-0.3-1.20.1-forge.jar",
+      "url": "https://cdn.modrinth.com/data/1wQbtNIN/versions/vZRpKkcy/napoleonarmory-0.3-1.20.1-forge.jar",
+      "hash": "sha512-CUTuCjxe9TlwqJBI9Hl80stcaKkFNKnoO4OqPM6yaQTyWH0HYKDgwB43G8I9bZfky4bXha6kkiBkL3JL1LDFrw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "crxAEGNL",
+      "dlu3l7i2"
+    ],
+    "1.20.1+forge": [
+      "FC2PPNU3",
+      "vZRpKkcy"
+    ],
+    "1.20.2+fabric": [
+      "crxAEGNL"
+    ],
+    "1.20.2+forge": [
+      "FC2PPNU3"
+    ],
+    "1.20.3+fabric": [
+      "crxAEGNL"
+    ],
+    "1.20.3+forge": [
+      "FC2PPNU3"
+    ],
+    "1.20.4+fabric": [
+      "crxAEGNL"
+    ],
+    "1.20.4+forge": [
+      "FC2PPNU3"
+    ],
+    "1.20.5+fabric": [
+      "crxAEGNL"
+    ],
+    "1.20.5+forge": [
+      "FC2PPNU3"
+    ],
+    "1.20.6+fabric": [
+      "crxAEGNL"
+    ],
+    "1.20.6+forge": [
+      "FC2PPNU3"
+    ]
+  }
+}

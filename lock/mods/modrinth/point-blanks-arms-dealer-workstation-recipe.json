@@ -1,0 +1,66 @@
+{
+  "slug": "point-blanks-arms-dealer-workstation-recipe",
+  "projectId": "22EL1NbU",
+  "versions": {
+    "JPNq327q": {
+      "filename": "Point Blank's Arms Dealer Workstation Recipe.jar",
+      "url": "https://cdn.modrinth.com/data/22EL1NbU/versions/JPNq327q/Point%20Blank%27s%20Arms%20Dealer%20Workstation%20Recipe.jar",
+      "hash": "sha512-y4vbVm0JnwMvjlmAIbQz68mXZvIwlKPcnfETLZ7qH1qFVNJ5n1CYfPvv4lJs0d0J2tV9RO5vKCi70SILEBmqmw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    },
+    "Sif2LFQo": {
+      "filename": "Point Blank's Arms Dealer Workstation Recipe.zip",
+      "url": "https://cdn.modrinth.com/data/22EL1NbU/versions/Sif2LFQo/Point%20Blank%27s%20Arms%20Dealer%20Workstation%20Recipe.zip",
+      "hash": "sha512-v5TZg+4ceHEPwdsuYWghLNiXpCFTCgD/Gj+iKnXafsujU9LC5xhG2OKKpmUKOeSrIdhxhKz0E9uDz1EOwlaeVQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "vics-point-blank",
+          "projectId": "og4KPYmA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "Sif2LFQo"
+    ],
+    "1.20.1+fabric": [
+      "JPNq327q"
+    ],
+    "1.20.1+forge": [
+      "JPNq327q"
+    ],
+    "1.20.1+neoforge": [
+      "JPNq327q"
+    ],
+    "1.20.1+quilt": [
+      "JPNq327q"
+    ]
+  }
+}

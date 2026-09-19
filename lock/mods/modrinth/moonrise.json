@@ -1,0 +1,46 @@
+{
+  "slug": "moonrise",
+  "projectId": "93a3SOn8",
+  "versions": {
+    "Dys1Pyys": {
+      "filename": "moonrise-1.0.1-R.jar",
+      "url": "https://cdn.modrinth.com/data/93a3SOn8/versions/Dys1Pyys/moonrise-1.0.1-R.jar",
+      "hash": "sha512-KUAq/zWF6kln1z/bUn7LS00QVMiHM5Br57Mc1fFUSzUZM2Ic76c4xkVPAY/jUlyOV8DOjYaNph0t0zKg0tcCkw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "FbllYDtE": {
+      "filename": "moonrise-1.0.0-R.jar",
+      "url": "https://cdn.modrinth.com/data/93a3SOn8/versions/FbllYDtE/moonrise-1.0.0-R.jar",
+      "hash": "sha512-wXVMaJ+Szsnx9DqBeqaHNtkWkCG8NuqUsGqL4b5Q0lGwVWnlWBgAY94rglrZxGjZ0Ed2S1htBI/5SHcYrIyRUA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "Dys1Pyys",
+      "FbllYDtE"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "easy-sit-anywhere",
+  "projectId": "Wctcwjby",
+  "versions": {
+    "2yWX5ieV": {
+      "filename": "easy-sit-anywhere-1dp.jar",
+      "url": "https://cdn.modrinth.com/data/Wctcwjby/versions/2yWX5ieV/easy-sit-anywhere-1dp.jar",
+      "hash": "sha512-sFrdoS07tkNCcO0Q7SmsC6/U+FmdRAy5P3zX3AoAbSCx4V3bEPGOdYGVBwRJKIW8f3IS526Pbgg9OqrsPhra8A==",
+      "gameVersions": [
+        "23w03a"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "cchGvdvb": {
+      "filename": "SitAnywhere.zip",
+      "url": "https://cdn.modrinth.com/data/Wctcwjby/versions/cchGvdvb/SitAnywhere.zip",
+      "hash": "sha512-9w5Hvgm7AELz5I17FRiBNLB2RWS2iIJWqahBEypd6UWTsmCIcvnTfD9kWwgTv6KbSV3GuuzeLoWE5qZqcaDaew==",
+      "gameVersions": [
+        "23w03a"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "23w03a+datapack": [
+      "cchGvdvb"
+    ],
+    "23w03a+fabric": [
+      "2yWX5ieV"
+    ],
+    "23w03a+forge": [
+      "2yWX5ieV"
+    ],
+    "23w03a+quilt": [
+      "2yWX5ieV"
+    ]
+  }
+}

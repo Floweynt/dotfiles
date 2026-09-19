@@ -1,0 +1,58 @@
+{
+  "slug": "beyond-helper",
+  "projectId": "udpqWvcC",
+  "versions": {
+    "2sp8LT3F": {
+      "filename": "beyond-helper-cursed-v2-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/udpqWvcC/versions/1.0.1/beyond-helper-cursed-v2-1.0.1.jar",
+      "hash": "sha512-ECpHpaSQ4SyOVCr8KXQHw+e6uTuVec0a2MBhg2kgcIcZVQCu8DmuqlsOs1tE7JDQN36XPFTkZdzB8svcNEhDcA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UryiZZxn": {
+      "filename": "beyondhelper-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/udpqWvcC/versions/UryiZZxn/beyondhelper-2.0.0.jar",
+      "hash": "sha512-LuKyIUDrI3b3gl0KRP/vPOPTGcjop9WX7x5YBnS4w3Negj1Ga4Qzeev5R7i2GTUVuWd0QgwgVuI0KZGDJNH32w==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "UryiZZxn"
+    ],
+    "1.18+quilt": [
+      "UryiZZxn"
+    ],
+    "1.18.1+fabric": [
+      "UryiZZxn"
+    ],
+    "1.18.1+quilt": [
+      "UryiZZxn"
+    ],
+    "1.18.2+fabric": [
+      "UryiZZxn"
+    ],
+    "1.18.2+quilt": [
+      "UryiZZxn",
+      "2sp8LT3F"
+    ]
+  }
+}

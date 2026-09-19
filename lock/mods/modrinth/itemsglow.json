@@ -1,0 +1,36 @@
+{
+  "slug": "itemsglow",
+  "projectId": "KReBi3NJ",
+  "versions": {
+    "uGYkM9pt": {
+      "filename": "itemsglow-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/KReBi3NJ/versions/uGYkM9pt/itemsglow-1.0.0.jar",
+      "hash": "sha512-kj8OV33/zzn1vFM97Fho2deis/TP0tWuvR68lO5houPjOiKelGQvzXoSew5GXgXICS86U0VmyWdLQquoa0zsBw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "uGYkM9pt"
+    ]
+  }
+}

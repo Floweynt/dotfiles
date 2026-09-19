@@ -1,0 +1,56 @@
+{
+  "slug": "hotkey-chat-messages",
+  "projectId": "Sx9mtqXq",
+  "versions": {
+    "JGuDuH92": {
+      "filename": "hotkeychat-1.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/Sx9mtqXq/versions/JGuDuH92/hotkeychat-1.0.6.jar",
+      "hash": "sha512-3dpZKtmRcw+aOgDPMuhwSj4OkWSSd17VQ2z5sMCShXTriHFlGmbYagfaIbMuqyN3Vo4AC2AnfL3xJXQN5nuNUw==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "SFNFufBz": {
+      "filename": "hotkeychat-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/Sx9mtqXq/versions/SFNFufBz/hotkeychat-1.0.3.jar",
+      "hash": "sha512-m/YKyBiUFBGlIKpzVDiAA3ijXChHoo7FkR6qNQ59TysRS3fCobAaOkRZmmAXyObebOpO2wXMnf8xG0GPMt5j7A==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "JGuDuH92",
+      "SFNFufBz"
+    ],
+    "1.21.11+fabric": [
+      "JGuDuH92"
+    ]
+  }
+}

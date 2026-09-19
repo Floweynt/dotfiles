@@ -1,0 +1,54 @@
+{
+  "slug": "better-apples",
+  "projectId": "X1541rHZ",
+  "versions": {
+    "qoZ6Bmta": {
+      "filename": "betterapple-1.0.0_1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/X1541rHZ/versions/qoZ6Bmta/betterapple-1.0.0_1.20.4.jar",
+      "hash": "sha512-zvK7PES0nfHpXaGw143vTWtjuo5qBH15DoMaih0caoQGed6EIjmujmMvnXUp80DW1rjkQbEbns90Wi0g+samFA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "xVqDgNPk": {
+      "filename": "betterapple-1.1.0_1.21.jar",
+      "url": "https://cdn.modrinth.com/data/X1541rHZ/versions/xVqDgNPk/betterapple-1.1.0_1.21.jar",
+      "hash": "sha512-ygxXH3Spj+OMDpP9vK9ARLL8b358Sib8R7Yb9NkZnbc23ohIEJ0mCU/FiqfZ5zWUEl3As9xfl70zDkSHaq2+hg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "qoZ6Bmta"
+    ],
+    "1.21+fabric": [
+      "xVqDgNPk"
+    ]
+  }
+}

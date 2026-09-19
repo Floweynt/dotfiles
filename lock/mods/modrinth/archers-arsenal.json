@@ -1,0 +1,48 @@
+{
+  "slug": "archers-arsenal",
+  "projectId": "d2LMW0pw",
+  "versions": {
+    "YwlHnY21": {
+      "filename": "archarsenal-1.18.2-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/d2LMW0pw/versions/YwlHnY21/archarsenal-1.18.2-1.1.jar",
+      "hash": "sha512-MQaeiskXNmqK2BuqKKQWGTI0bO/ZoNL3VsBNssoiPBaWzmvLw8q1S5DbZIz1JMrJ1o8W+bOuwG7NNRJPEffwTQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "knightcore",
+          "projectId": "83kfiVeL",
+          "type": "required"
+        }
+      ]
+    },
+    "iUpKxFjh": {
+      "filename": "archarsenal-1.19.2-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/d2LMW0pw/versions/iUpKxFjh/archarsenal-1.19.2-1.0.jar",
+      "hash": "sha512-hhr3uxumjIzhqGv2UXC4SHtdulB5k8IVLbtbhdEmgrHMUW9hSikjhcvtbroCgONwNYtKhVu6olqE/JJwAm3xsg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+forge": [
+      "YwlHnY21"
+    ],
+    "1.19.2+forge": [
+      "iUpKxFjh"
+    ]
+  }
+}

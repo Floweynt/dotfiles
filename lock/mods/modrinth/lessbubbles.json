@@ -1,0 +1,70 @@
+{
+  "slug": "lessbubbles",
+  "projectId": "CWJu1ApR",
+  "versions": {
+    "1EoimEr4": {
+      "filename": "bubble-render-workaround-1.1.0+mc1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/CWJu1ApR/versions/1.1.0/bubble-render-workaround-1.1.0%2Bmc1.18.2.jar",
+      "hash": "sha512-oJ16it6asBTVgNQ247Bs28xCCKPnuxOiaMjHQSHMZAH/18BBD5DDYENrHV6Yz9UJjxFZNwI16xklORnCpkhpTQ==",
+      "gameVersions": [
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "H4NrVIvo": {
+      "filename": "bubble-render-workaround-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/CWJu1ApR/versions/1.0.1/bubble-render-workaround-1.0.1.jar",
+      "hash": "sha512-51fdDc9j0R1/nWSCehoAvcbCRUCs1VOqHUXsWHjomH5Ustcr12kbdELXX8w5a6fbrIfV8dXnmo+G7ztPC3Vxsw==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nP9ASkDT": {
+      "filename": "bubble-render-workaround-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/CWJu1ApR/versions/1.0.0/bubble-render-workaround-1.0.0.jar",
+      "hash": "sha512-yd/UswgLc2ibpWBa+r0RlKbbP/EqLsBrzbDmhcK/ZcYOYspuLcI90s+7jbC7WAfJKsLzx70pGzMwxuKq4/WU2w==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.1+fabric": [
+      "1EoimEr4",
+      "H4NrVIvo"
+    ],
+    "1.18.1+quilt": [
+      "1EoimEr4",
+      "H4NrVIvo"
+    ],
+    "1.18.2+fabric": [
+      "1EoimEr4",
+      "nP9ASkDT"
+    ],
+    "1.18.2+quilt": [
+      "1EoimEr4",
+      "nP9ASkDT"
+    ]
+  }
+}

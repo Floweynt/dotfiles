@@ -1,0 +1,46 @@
+{
+  "slug": "simplestructure-bewitchment",
+  "projectId": "52eCkt38",
+  "versions": {
+    "RBnveH15": {
+      "filename": "Simple Structure Bewitchment 1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/52eCkt38/versions/RBnveH15/Simple%20Structure%20Bewitchment%201.20.1.jar",
+      "hash": "sha512-EkzqPzYQDn5IixrwmOINU1Z9QxI/QZKHTvX6NKe+8xx68y+deWVz3lelGzl0+c9S7cJZS2kkL+5ALbIuI6YYhg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "biV6ZtCR": {
+      "filename": "SimpleStructure_Bewitchment_1.20.1.zip",
+      "url": "https://cdn.modrinth.com/data/52eCkt38/versions/biV6ZtCR/SimpleStructure_Bewitchment_1.20.1.zip",
+      "hash": "sha512-y6e2ejlgR3QSe0liPSMWSiiRDx6eUhWXsw/cFUoUskgj5KCAZBxfpN2C/nuxBCRLAJSTap+zq8czCLC+Ov+DWA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+datapack": [
+      "biV6ZtCR"
+    ],
+    "1.20.1+datapack": [
+      "biV6ZtCR"
+    ],
+    "1.20.1+fabric": [
+      "RBnveH15"
+    ]
+  }
+}

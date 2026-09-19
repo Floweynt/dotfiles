@@ -1,0 +1,54 @@
+{
+  "slug": "crazy-diamond-jcraft",
+  "projectId": "Fsr6udVd",
+  "versions": {
+    "16bKdote": {
+      "filename": "crazy-diamond-jcraft-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/Fsr6udVd/versions/16bKdote/crazy-diamond-jcraft-0.1.jar",
+      "hash": "sha512-iLAbHBEvwdgFU25MarAnLZBTZ7UBk2wyJeAH2z3gigiqolU9e7LGs8HwphDBOlcnQCPanL+MPjHgRtjE/UNyLw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "iAcAcQdf": {
+      "filename": "cddatapack.zip",
+      "url": "https://cdn.modrinth.com/data/Fsr6udVd/versions/iAcAcQdf/cddatapack.zip",
+      "hash": "sha512-VqM3Pbb8lhjMjSIU+tXIMzAWVffnmgTCNVrw6rpCAb8D8eE2IOZcWQn6X7/Tr5Vrl0qcEfeZBW74HQzD+uXmag==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "alpha",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "iAcAcQdf"
+    ],
+    "1.20.1+fabric": [
+      "16bKdote"
+    ],
+    "1.20.1+forge": [
+      "16bKdote"
+    ],
+    "1.20.1+neoforge": [
+      "16bKdote"
+    ],
+    "1.20.1+quilt": [
+      "16bKdote"
+    ]
+  }
+}

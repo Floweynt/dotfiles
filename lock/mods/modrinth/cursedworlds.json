@@ -1,0 +1,93 @@
+{
+  "slug": "cursedworlds",
+  "projectId": "UAhPj8MH",
+  "versions": {
+    "Tk7lYbES": {
+      "filename": "cursedworlds-0.11.jar",
+      "url": "https://cdn.modrinth.com/data/UAhPj8MH/versions/Tk7lYbES/cursedworlds-0.11.jar",
+      "hash": "sha512-OhD6y39rXsedN2emgNiEZUY/x9Dxy0fUVxmYXfvJrsoO4QZqmNaNoZMRj7DF4GUXCIHJ8LnhWFfBKXXXriXHRA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "cCWGq4mr": {
+      "filename": "cursedworlds-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/UAhPj8MH/versions/cCWGq4mr/cursedworlds-0.1.jar",
+      "hash": "sha512-x5oFkl2dP5YLQZSfj5ymYsv5u3JifUVb6o0GlySOnzjvHRK5igpni04Vwcvi8dJHSY7D61qOiJ8oVIJ07vjdQw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "nnM02kI5": {
+      "filename": "cursedworlds-0.12+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/UAhPj8MH/versions/nnM02kI5/cursedworlds-0.12%2B1.21.1.jar",
+      "hash": "sha512-ZdNH8AntuswJSDAD6zCheWf6GW91r2AirMqhRaSzsWDNNWeqzK2C/kGhlj2wvO/2PLDECaSeAyALFJWZ7n5XLw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4",
+        "1.20.5",
+        "1.20.6",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "nnM02kI5"
+    ],
+    "1.20.1+fabric": [
+      "nnM02kI5"
+    ],
+    "1.20.2+fabric": [
+      "nnM02kI5"
+    ],
+    "1.20.3+fabric": [
+      "nnM02kI5"
+    ],
+    "1.20.4+fabric": [
+      "nnM02kI5",
+      "Tk7lYbES",
+      "cCWGq4mr"
+    ],
+    "1.20.5+fabric": [
+      "nnM02kI5"
+    ],
+    "1.20.6+fabric": [
+      "nnM02kI5"
+    ],
+    "1.21+fabric": [
+      "nnM02kI5"
+    ],
+    "1.21.1+fabric": [
+      "nnM02kI5"
+    ]
+  }
+}

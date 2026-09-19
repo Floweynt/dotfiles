@@ -1,0 +1,149 @@
+{
+  "slug": "bikes-are-pain",
+  "projectId": "J5maEpWu",
+  "versions": {
+    "9D2aV0mV": {
+      "filename": "bikesarepain-neoforge-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/J5maEpWu/versions/9D2aV0mV/bikesarepain-neoforge-0.0.1.jar",
+      "hash": "sha512-54+fXYCFBnrPoLYXG3+bFU05z7sa8y7Z8/J3HlKuLQyJj0UATE/qou64/9S0ZloPDlrXAYkgZ4CngbQiZA3oig==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "Cd2B2LFd": {
+      "filename": "bikesarepain-fabric-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/J5maEpWu/versions/Cd2B2LFd/bikesarepain-fabric-0.0.1.jar",
+      "hash": "sha512-9bV2ziABE+KjhbfXWpMxw66ZiLzRfjV6AtO3h0gmgjMzAvv7THh/HDr4D8kEgQ36skCurycqyttxh0H6hG6MGw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "Y3DirtF3": {
+      "filename": "bikesarepain-fabric-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/J5maEpWu/versions/Y3DirtF3/bikesarepain-fabric-0.1.0.jar",
+      "hash": "sha512-orecNqTWwOe2oeXfavWgnWmwhv1OcO4zFsb2BtJoi5A+/L3aMAjCrsIp1MrRDCW9+KJZtQaWcWnW6Di9PuyfGA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "buigB3eI": {
+      "filename": "bikesarepain-neoforge-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/J5maEpWu/versions/buigB3eI/bikesarepain-neoforge-0.1.0.jar",
+      "hash": "sha512-XzlreY/qUAELxfJLkcwOhEGtpDs1/erFEiulb7pj9tXjD3oix7zmYSQop/4aQlsRKu1/YNX2U94eQYGcnmhJ3Q==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "Cd2B2LFd"
+    ],
+    "1.21+neoforge": [
+      "9D2aV0mV"
+    ],
+    "1.21.1+fabric": [
+      "Y3DirtF3",
+      "Cd2B2LFd"
+    ],
+    "1.21.1+neoforge": [
+      "buigB3eI",
+      "9D2aV0mV"
+    ]
+  }
+}

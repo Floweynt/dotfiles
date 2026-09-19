@@ -1,0 +1,123 @@
+{
+  "slug": "better-falling-block-particles",
+  "projectId": "S8CIQa7N",
+  "versions": {
+    "FMx59sZB": {
+      "filename": "falling-block-particles-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/S8CIQa7N/versions/FMx59sZB/falling-block-particles-1.0.0.jar",
+      "hash": "sha512-2+4y6o9mDHt2GnBScn9ZH6bP9NQmPl7UR5OajOc1LTUBfs3cCZgGt2s7NpZ/ZfmrcChIcBwBnd5RXA4TXHGNNw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "balOmlet": {
+      "filename": "falling-block-particles-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/S8CIQa7N/versions/balOmlet/falling-block-particles-1.0.1.jar",
+      "hash": "sha512-xAGfPtyzsU7Oxvn31r6hdtRbXjU45JgEYAP8q4TQMl+x1nNJms3AcxqtD1WecVG5WoBtaL08TKqZDIF3Hc8yxA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "vce9c6RL": {
+      "filename": "falling-block-particles-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/S8CIQa7N/versions/vce9c6RL/falling-block-particles-1.0.2.jar",
+      "hash": "sha512-MEXy+Z97kZLlOEBn1hUmL6kDAS/GOx1nvPF5BsVnDuIr3hsIaZjUlT1PJfrvMelvEW0eJtAcRC8AUFtzHBdTfA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "balOmlet",
+      "FMx59sZB"
+    ],
+    "1.20.1+fabric": [
+      "balOmlet",
+      "FMx59sZB"
+    ],
+    "1.20.2+fabric": [
+      "balOmlet",
+      "FMx59sZB"
+    ],
+    "1.20.3+fabric": [
+      "balOmlet",
+      "FMx59sZB"
+    ],
+    "1.20.4+fabric": [
+      "balOmlet",
+      "FMx59sZB"
+    ],
+    "1.21+fabric": [
+      "vce9c6RL"
+    ],
+    "1.21.1+fabric": [
+      "vce9c6RL"
+    ]
+  }
+}

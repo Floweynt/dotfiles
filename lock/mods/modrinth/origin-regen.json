@@ -1,0 +1,115 @@
+{
+  "slug": "origin-regen",
+  "projectId": "ysjMirEi",
+  "versions": {
+    "DbenDDM4": {
+      "filename": "originregen-1.0.0+forge.jar",
+      "url": "https://cdn.modrinth.com/data/ysjMirEi/versions/DbenDDM4/originregen-1.0.0%2Bforge.jar",
+      "hash": "sha512-d4nEMgeGLoSva8q+wLso+/CD5s3+5zDvDsQKdqLCo++LcB9a4WwIODH7Z+i986qTz2aRFxRyLHR6Nlk9k7ivJQ==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UATbK3sn": {
+      "filename": "originregen-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ysjMirEi/versions/UATbK3sn/originregen-1.1.0.jar",
+      "hash": "sha512-G2St4eI99LxbNdh/BrHoQJNI4DU2B6DtV8EUdE4EIjaO+PqbkfaRhzdr2YC7tXguiqtJ+9V0YThoJeQJrM+1aA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "regeneration",
+          "projectId": "8gkWtwQu",
+          "type": "required"
+        },
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "VDAamf7u": {
+      "filename": "originregen-1.0.0+fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ysjMirEi/versions/VDAamf7u/originregen-1.0.0%2Bfabric.jar",
+      "hash": "sha512-DrjVeGVJ+v6GOCchFy3E7f1vSHwi2YTEht5fcRiaAgw6IJYzlGWcv+KVtQ3TICGrctiLp6mXor0Wdw3BpEePtg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "diomf0jL": {
+      "filename": "originregen-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/ysjMirEi/versions/diomf0jL/originregen-1.2.0.jar",
+      "hash": "sha512-splctqsJI4XvEv7C6/v/JQBmpWru647jCAjtfva3eg2QjlghXDfIs6XYaG92fabQ3U9OigH1S1tP6owfTcdMSA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "regeneration",
+          "projectId": "8gkWtwQu",
+          "type": "required"
+        }
+      ]
+    },
+    "h8OjoBUk": {
+      "filename": "origin-regen-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ysjMirEi/versions/h8OjoBUk/origin-regen-1.0.0.jar",
+      "hash": "sha512-MnApqQD/ScwF3nMxq6c3rGmi49wYE5TQOygbf4L3uv9b2AVXE4QSfu1n+cc9QMjFbPOarJoKXkYaEyVdMYsNzQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "regeneration",
+          "projectId": "8gkWtwQu",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.16.5+forge": [
+      "DbenDDM4"
+    ],
+    "1.20.1+fabric": [
+      "VDAamf7u",
+      "diomf0jL",
+      "UATbK3sn",
+      "h8OjoBUk"
+    ]
+  }
+}

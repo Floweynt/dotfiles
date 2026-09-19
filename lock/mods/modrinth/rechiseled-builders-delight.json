@@ -1,0 +1,76 @@
+{
+  "slug": "rechiseled-builders-delight",
+  "projectId": "QdC5mhPm",
+  "versions": {
+    "NNMVwRdQ": {
+      "filename": "rechiseled-builders-delight-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/QdC5mhPm/versions/NNMVwRdQ/rechiseled-builders-delight-1.0.1.jar",
+      "hash": "sha512-XHNCcdLq3K4cCmkputqWLEhNBakRXrS48hJx36nVzI8RYNqc5F7xhxEOZcfX+Mz2grnAYlWiDscoQ3QlVkWtBQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "rechiseled",
+          "projectId": "B0g2vT6l",
+          "type": "required"
+        },
+        {
+          "slug": "builders-delight",
+          "projectId": "CAASGC7r",
+          "type": "required"
+        }
+      ]
+    },
+    "Ney29eEe": {
+      "filename": "rechiseled-builders-delight-1.0.1.zip",
+      "url": "https://cdn.modrinth.com/data/QdC5mhPm/versions/Ney29eEe/rechiseled-builders-delight-1.0.1.zip",
+      "hash": "sha512-o7EJaCBgu2MBfRreCtZ78yg4UPzlglHK6JrGUaZKnvT+CrsVods197ot7ZtpX1Vg1GsgjRzBS3JzdNbDFgNBEA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "builders-delight",
+          "projectId": "CAASGC7r",
+          "type": "required"
+        },
+        {
+          "slug": "rechiseled",
+          "projectId": "B0g2vT6l",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "Ney29eEe"
+    ],
+    "1.20.1+fabric": [
+      "NNMVwRdQ"
+    ],
+    "1.20.1+forge": [
+      "NNMVwRdQ"
+    ],
+    "1.20.1+neoforge": [
+      "NNMVwRdQ"
+    ],
+    "1.20.1+quilt": [
+      "NNMVwRdQ"
+    ]
+  }
+}

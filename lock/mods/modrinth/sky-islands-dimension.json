@@ -1,0 +1,67 @@
+{
+  "slug": "sky-islands-dimension",
+  "projectId": "Uzdf49qv",
+  "versions": {
+    "E4bElWju": {
+      "filename": "sky-islands-dimension-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Uzdf49qv/versions/E4bElWju/sky-islands-dimension-1.0.0.jar",
+      "hash": "sha512-3m6cSWuBmjMFjst2g6oNJrb8ne7AQuqVWI4yhSOM2ZV0r9oIzBvHFTGHqFToSDl3gPmnqzDi8vHv18dgIPm54Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "jVRn283Q": {
+      "filename": "sky_islands_new.zip",
+      "url": "https://cdn.modrinth.com/data/Uzdf49qv/versions/jVRn283Q/sky_islands_new.zip",
+      "hash": "sha512-MWsLEK8RFvyk470YBBVy8iwXbyRFy5WjmtQPY8nbXuH67sPpohvg5ADEgQSg0+0o4pegX49HB9Pg/fBLboUA2A==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "alpha",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "yxnf0aZl": {
+      "filename": "skydimension.zip",
+      "url": "https://cdn.modrinth.com/data/Uzdf49qv/versions/yxnf0aZl/skydimension.zip",
+      "hash": "sha512-s++FMJCJRd+hr/yahkJUMdv2lQWimhfkqG8AnwpUd2sG44FfmJdK9/3L+uucRA2VSeUQuN2QtC3bi9f+KSftVA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "yxnf0aZl"
+    ],
+    "1.20.1+fabric": [
+      "E4bElWju"
+    ],
+    "1.20.1+forge": [
+      "E4bElWju"
+    ],
+    "1.20.1+quilt": [
+      "E4bElWju"
+    ],
+    "1.21.11+datapack": [
+      "jVRn283Q"
+    ]
+  }
+}

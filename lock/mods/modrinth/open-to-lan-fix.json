@@ -1,0 +1,44 @@
+{
+  "slug": "open-to-lan-fix",
+  "projectId": "ANSlOs03",
+  "versions": {
+    "nslOIDFz": {
+      "filename": "OpenToLANFix-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ANSlOs03/versions/nslOIDFz/OpenToLANFix-1.0.0.jar",
+      "hash": "sha512-sdrWjFsR4xXWdCoR3CYp6gqdyQcBq3Cd4DqTjoTTSFEzHLivM+ZQ5RJZtzEkMqkJkfiWAgrgScpFIgvwwEU0+A==",
+      "gameVersions": [
+        "26.2-rc-1",
+        "26.2-rc-2",
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "nslOIDFz"
+    ],
+    "26.2-rc-1+fabric": [
+      "nslOIDFz"
+    ],
+    "26.2-rc-2+fabric": [
+      "nslOIDFz"
+    ]
+  }
+}

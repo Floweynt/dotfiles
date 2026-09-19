@@ -1,0 +1,69 @@
+{
+  "slug": "pack-presets",
+  "projectId": "tUBi8rsx",
+  "versions": {
+    "ZYPyX6O8": {
+      "filename": "PackPresets-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/tUBi8rsx/versions/ZYPyX6O8/PackPresets-1.2.0.jar",
+      "hash": "sha512-5YzC0yzpvivgv8kgIx4m06Y5l6okG4TMspRREq5s5nR66alMxUZS5P6WjktxF28vWryHpUSk+0j48gjl2twwyA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "dF5FBvr9": {
+      "filename": "PackPresets-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/tUBi8rsx/versions/dF5FBvr9/PackPresets-1.1.0.jar",
+      "hash": "sha512-xLNY4rMmtCVh/Y2feuxzqiA7MEjzG0wnYTd02eh1/a1WX00m2H/d0+WF9/cHethNupDi/gVOyII/eKwnn0g6XQ==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vLEI0izz": {
+      "filename": "PackPresets-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/tUBi8rsx/versions/vLEI0izz/PackPresets-1.0.0.jar",
+      "hash": "sha512-EZVtpDBbG79MgfGhkoL0d/Xz7rZHteHYSM0Pr4HjtIYqavDne915yooNbHSZ3rWRcEoqfz6V36EhrrAGmHc8KA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "vLEI0izz"
+    ],
+    "1.20.6+fabric": [
+      "dF5FBvr9"
+    ],
+    "1.21+fabric": [
+      "ZYPyX6O8"
+    ],
+    "1.21.1+fabric": [
+      "ZYPyX6O8"
+    ]
+  }
+}

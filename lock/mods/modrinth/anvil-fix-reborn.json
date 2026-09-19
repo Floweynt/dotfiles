@@ -1,0 +1,178 @@
+{
+  "slug": "anvil-fix-reborn",
+  "projectId": "oIoAucDh",
+  "versions": {
+    "FsukaVqM": {
+      "filename": "AnvilFix-19.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/oIoAucDh/versions/FsukaVqM/AnvilFix-19.2.1.jar",
+      "hash": "sha512-5yxvc5mvmWNgxqEWNSvLA9YhhIqUv9prjrWtQGn9ZuirPzCooIuBQdCEw4FwWfeSxM8J2YUTzya4OpjsPPN6KA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "QkxwJFlI": {
+      "filename": "AnvilFix-20.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/oIoAucDh/versions/QkxwJFlI/AnvilFix-20.0.1.jar",
+      "hash": "sha512-AREnYX6XcDlc2eIvDORDU6/Kcmg6PiNBphlyqbFATf1VKG5PSWbzhi2Jri/KZOZPWH6SsgetrwR1+HQlz/+DTw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "UaIdndlz": {
+      "filename": "AnvilFix-1.19.jar",
+      "url": "https://cdn.modrinth.com/data/oIoAucDh/versions/UaIdndlz/AnvilFix-1.19.jar",
+      "hash": "sha512-jL4/y8HxIqLrprsT2UrKhpjwWid8604DTmIKIRoIk84ZlzIGbW2sKKNPOHJnWhijbugM2DqyFkZ7gXVFKCe9DA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "vkec7BTH": {
+      "filename": "AnvilFix-development+20230626064221-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/oIoAucDh/versions/vkec7BTH/AnvilFix-development%2B20230626064221-1.20.1.jar",
+      "hash": "sha512-uNXi4aVYGPXBzsrqKRbcEkGUM+XOMIoMBeVV9yitHVDaVrcIQNmj+knB/NPCUbbu8KwjEz30HLBt2FLIUJrnaw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "zlveZ6Ye": {
+      "filename": "AnvilFix-19.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/oIoAucDh/versions/zlveZ6Ye/AnvilFix-19.0.2.jar",
+      "hash": "sha512-bxwHJWJSiiy4SZPNFf3qJS3dxDAxHJr4l3r3oPhvfimpU++XzUYECSRf2BbxE0ougxI3S3HW99MlZNIK21XcZQ==",
+      "gameVersions": [
+        "1.19.3",
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "FsukaVqM",
+      "UaIdndlz"
+    ],
+    "1.19.1+fabric": [
+      "FsukaVqM",
+      "UaIdndlz"
+    ],
+    "1.19.2+fabric": [
+      "FsukaVqM",
+      "UaIdndlz"
+    ],
+    "1.19.3+fabric": [
+      "zlveZ6Ye"
+    ],
+    "1.19.4+fabric": [
+      "zlveZ6Ye"
+    ],
+    "1.20+fabric": [
+      "QkxwJFlI",
+      "vkec7BTH"
+    ],
+    "1.20.1+fabric": [
+      "QkxwJFlI",
+      "vkec7BTH"
+    ],
+    "1.20.2+fabric": [
+      "QkxwJFlI"
+    ],
+    "1.20.3+fabric": [
+      "QkxwJFlI"
+    ],
+    "1.20.4+fabric": [
+      "QkxwJFlI"
+    ]
+  }
+}

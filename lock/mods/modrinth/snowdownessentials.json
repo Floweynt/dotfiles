@@ -1,0 +1,62 @@
+{
+  "slug": "snowdownessentials",
+  "projectId": "uxWNBRG8",
+  "versions": {
+    "IrEhcU4o": {
+      "filename": "snowdownessentails-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uxWNBRG8/versions/IrEhcU4o/snowdownessentails-1.0.0.jar",
+      "hash": "sha512-YZ/jWSsRR0hS2MX3A+mCewuWclqQq5gqldi/aKTVFvdgk5ykrkCBOyJ437OoHmDyWpnLgCyLvcQ824mIPagCKg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    },
+    "xNWUYiBM": {
+      "filename": "snowdownessentails-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/uxWNBRG8/versions/xNWUYiBM/snowdownessentails-1.0.1.jar",
+      "hash": "sha512-9Dv5cGCfiHIWCun72cxjTv1CIZZ5OyIPGseshLJjWnSW1hMWRuB5yUIagz1RZE871yQyCDaSaoG4HlsSwCLaQQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "xNWUYiBM",
+      "IrEhcU4o"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "animated-apricorn-doors-compat",
+  "projectId": "wKV1pm0g",
+  "versions": {
+    "CW4EjJhU": {
+      "filename": "animated-apricorn-doors-compat-1.7.jar",
+      "url": "https://cdn.modrinth.com/data/wKV1pm0g/versions/CW4EjJhU/animated-apricorn-doors-compat-1.7.jar",
+      "hash": "sha512-L4c2ndOt/Z5Fvfj0VGN/efF5sU7euQW72dKvRiOelteYUghgSKHEYiKS5Ty1kA0EYFEjvc778vwJNjLfP6+adA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "smooth-doors",
+          "projectId": "SFrRaocz",
+          "type": "required"
+        },
+        {
+          "slug": "animated-doors",
+          "projectId": "EuloLapn",
+          "type": "required"
+        }
+      ]
+    },
+    "XIKmKtA2": {
+      "filename": "AnimatedCobblemonDoorsCompat[1.7].zip",
+      "url": "https://cdn.modrinth.com/data/wKV1pm0g/versions/XIKmKtA2/AnimatedCobblemonDoorsCompat%5B1.7%5D.zip",
+      "hash": "sha512-WXAEqlIuh/rEr9t8gZ4u7AT46ydh4S/0pZhsy2hRHu2cRW2jxDM9Q7Ki9k1aVwWSbEkANXL9xgywYm7mPvpo1Q==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "animated-doors",
+          "projectId": "EuloLapn",
+          "type": "required"
+        },
+        {
+          "slug": "smooth-doors",
+          "projectId": "SFrRaocz",
+          "type": "required"
+        }
+      ]
+    },
+    "ezosF4Kk": {
+      "filename": "AnimatedApricornDoorsCompat[1.0].zip",
+      "url": "https://cdn.modrinth.com/data/wKV1pm0g/versions/ezosF4Kk/AnimatedApricornDoorsCompat%5B1.0%5D.zip",
+      "hash": "sha512-v5lw4fX86mAu6iZrK8AG5NdhnrHi7+7MwqAqN0UtbtRPa/33qY3kyLp67h8demU4lYI509cgNiDxSz/giBoCCQ==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack",
+        "minecraft"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "smooth-doors",
+          "projectId": "SFrRaocz",
+          "type": "required"
+        },
+        {
+          "slug": "animated-doors",
+          "projectId": "EuloLapn",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "ezosF4Kk"
+    ],
+    "1.20.1+minecraft": [
+      "ezosF4Kk"
+    ],
+    "1.21+datapack": [
+      "XIKmKtA2"
+    ],
+    "1.21+fabric": [
+      "CW4EjJhU"
+    ],
+    "1.21+forge": [
+      "CW4EjJhU"
+    ],
+    "1.21+neoforge": [
+      "CW4EjJhU"
+    ],
+    "1.21+quilt": [
+      "CW4EjJhU"
+    ],
+    "1.21.1+datapack": [
+      "XIKmKtA2",
+      "ezosF4Kk"
+    ],
+    "1.21.1+fabric": [
+      "CW4EjJhU"
+    ],
+    "1.21.1+forge": [
+      "CW4EjJhU"
+    ],
+    "1.21.1+minecraft": [
+      "ezosF4Kk"
+    ],
+    "1.21.1+neoforge": [
+      "CW4EjJhU"
+    ],
+    "1.21.1+quilt": [
+      "CW4EjJhU"
+    ]
+  }
+}

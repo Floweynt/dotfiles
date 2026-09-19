@@ -1,0 +1,54 @@
+{
+  "slug": "create-shalz-elytra-recipe",
+  "projectId": "Cn1bCBRf",
+  "versions": {
+    "rJp0BnAi": {
+      "filename": "create-shalz-elytra-recipe-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Cn1bCBRf/versions/rJp0BnAi/create-shalz-elytra-recipe-1.0.0.jar",
+      "hash": "sha512-enlQ3GTM8MTsM/YtmsTze4y5VZewADk7g6YsuKW5CvnDyIRIt+IYdj1ZPyC63B0UhwMwlq/eGdzVDo4xh6l6zQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "u5WUqqDh": {
+      "filename": "Shalz_Elytra_Recipe.zip",
+      "url": "https://cdn.modrinth.com/data/Cn1bCBRf/versions/u5WUqqDh/Shalz_Elytra_Recipe.zip",
+      "hash": "sha512-tNOOu0pWZeap3SpvuYD3UEFpIjyrrD8xOihNMrc9X005+hXJi0n6gjT0r+eeRVPY/hNymqetpiOirnnuUflgcg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "u5WUqqDh"
+    ],
+    "1.20.1+fabric": [
+      "rJp0BnAi"
+    ]
+  }
+}

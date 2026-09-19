@@ -1,0 +1,69 @@
+{
+  "slug": "swordblock",
+  "projectId": "x6oowomZ",
+  "versions": {
+    "Y8BHc7Rp": {
+      "filename": "swordblock-2.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/x6oowomZ/versions/Y8BHc7Rp/swordblock-2.0.1.jar",
+      "hash": "sha512-471GFPaPaPcHQPj4bpGe30mJpoO9NU7hTRe8wcEKymIC3qStCZeX/BRDJGK053JEkLmVax2/UjQy1ewmctlSug==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "b99bxB2Q": {
+      "filename": "swordblock-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/x6oowomZ/versions/b99bxB2Q/swordblock-1.0.0.jar",
+      "hash": "sha512-2Pwdygvyn2Y0KpHVn7a16nNDDBXqrtEVPPGfYZWlFxFdUH+/h785G7vRqb1yf0hIvG8Cy2plpNTX6WL4oByhPQ==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "oGgTW1y6": {
+      "filename": "swordblock-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/x6oowomZ/versions/oGgTW1y6/swordblock-2.0.0.jar",
+      "hash": "sha512-z3vSzVWB3FTlSZOrRtDFTG0WRDtg9EHfsBt+UVxAgdlQvH11XjVeyn761sqYtloUcammxEawHcNcf2qV8CA22A==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "Y8BHc7Rp",
+      "oGgTW1y6",
+      "b99bxB2Q"
+    ],
+    "1.21.11+fabric": [
+      "Y8BHc7Rp",
+      "oGgTW1y6",
+      "b99bxB2Q"
+    ]
+  }
+}

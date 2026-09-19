@@ -1,0 +1,52 @@
+{
+  "slug": "rewoven-origins-blessings",
+  "projectId": "ixGjuXv3",
+  "versions": {
+    "A8fvad2d": {
+      "filename": "rewovenblessings-1.20.1-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/ixGjuXv3/versions/A8fvad2d/rewovenblessings-1.20.1-0.0.1.jar",
+      "hash": "sha512-Uj4D1f3qNo20hZRdO7js1o1z5he1zbb/8VT3lzSgFbzeEWh5x3tsEC0z9oPa79vjdTuoKvJKC9Ejh5hnSKeIPA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    },
+    "TYYNmICM": {
+      "filename": "rewovenblessings-1.20.1-0.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/ixGjuXv3/versions/TYYNmICM/rewovenblessings-1.20.1-0.0.2.jar",
+      "hash": "sha512-qkiF8VxAAzCIaHSILJ71OjP9xS8gDCXvT+itVUQoiEiBUHONrBRj1j1OJpxn8Ac7TUJMtsniTx5CC4giUxch1g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "TYYNmICM",
+      "A8fvad2d"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "minecraft-countryball-mod",
+  "projectId": "SiHMkDDh",
+  "versions": {
+    "qwe06KPr": {
+      "filename": "countryballmod-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SiHMkDDh/versions/qwe06KPr/countryballmod-1.21.1.jar",
+      "hash": "sha512-yHw01rEpY3PDg8IVYFI77PZ26b93+5ZFpBtTyvmMw0pJEROrMTUvj3LLdh59hQ3bESULUoinpkQdwricIfDfAw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "qwe06KPr"
+    ]
+  }
+}

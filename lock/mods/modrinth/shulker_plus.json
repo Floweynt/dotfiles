@@ -1,0 +1,56 @@
+{
+  "slug": "shulker_plus",
+  "projectId": "4bGbCiIj",
+  "versions": {
+    "9reagLqc": {
+      "filename": "shulker-slots-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4bGbCiIj/versions/9reagLqc/shulker-slots-1.0.0.jar",
+      "hash": "sha512-p2HW/NWnuDQ5xI7j6FP3/rejhgy3pi0hH2aPHXysRlF0YuRorEM7LzcBQ6mIIZXao6jD1krWp3PskMqmhdhMzg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "as3C2bdv": {
+      "filename": "shulker-slots-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/4bGbCiIj/versions/as3C2bdv/shulker-slots-1.0.0.jar",
+      "hash": "sha512-iusPW9LkP+sm545yfXAMokdoUj3RxG+1kXPhuFoyiXdCQ1o2jlK45Ai9Hi+L3mmTHxC+U+W8UNlRRnNuGMB+Mg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "9reagLqc"
+    ],
+    "26.1+fabric": [
+      "as3C2bdv"
+    ],
+    "26.1.1+fabric": [
+      "as3C2bdv"
+    ],
+    "26.1.2+fabric": [
+      "as3C2bdv"
+    ]
+  }
+}

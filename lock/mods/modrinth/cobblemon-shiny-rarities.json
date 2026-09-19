@@ -1,0 +1,75 @@
+{
+  "slug": "cobblemon-shiny-rarities",
+  "projectId": "jYjYV1Jb",
+  "versions": {
+    "63zIdAEI": {
+      "filename": "cobblemon_shiny_rarities-0.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/jYjYV1Jb/versions/63zIdAEI/cobblemon_shiny_rarities-0.2.0.jar",
+      "hash": "sha512-HOsDJsMtxnqCDDJRiVq4HqCpbdTBkfRD6NcqIFeGxtcriCezdDIqRV2XXe2wVdaI+bmL5cF/eCNOyGp205XWmw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "forge-config-api-port",
+          "projectId": "ohNO6lps",
+          "type": "required"
+        }
+      ]
+    },
+    "T3B5ZVMs": {
+      "filename": "cobblemon_shiny_rarities-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/jYjYV1Jb/versions/T3B5ZVMs/cobblemon_shiny_rarities-0.2.1.jar",
+      "hash": "sha512-3CI9DCfOXXzsDxIDPcLGV1GV0o4vAcYP0a95eLO/WK7kkvttuhM3JoxhOh0t7jVmWlmyWZWcxrgtKUNSP8s/SA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wCC23eYr": {
+      "filename": "CobblemonShinyRarities-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/jYjYV1Jb/versions/wCC23eYr/CobblemonShinyRarities-0.1.0.jar",
+      "hash": "sha512-JBnHfcdghJWkYfmHKANSqOn/2dAyBr28oGFe4f9kVcieF+KiSeTi/WEZbn79A9ixzYzA5LMv18sGTCzu9tx7wA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "T3B5ZVMs",
+      "63zIdAEI",
+      "wCC23eYr"
+    ],
+    "1.21.1+neoforge": [
+      "T3B5ZVMs",
+      "63zIdAEI",
+      "wCC23eYr"
+    ]
+  }
+}

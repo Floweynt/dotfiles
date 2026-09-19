@@ -1,0 +1,35 @@
+{
+  "slug": "furynace",
+  "projectId": "uFckcpKs",
+  "versions": {
+    "YT7374h6": {
+      "filename": "furynace-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/uFckcpKs/versions/YT7374h6/furynace-1.0.0.jar",
+      "hash": "sha512-Xdee/jMS35mapPEmJOV3auutEhWmBk9xvZe8Iv3taPyD/OO2F7bxt61MOSD1yAz0W8FOW0stv/A9JbY1JvA7ZQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "YT7374h6"
+    ],
+    "1.20.1+quilt": [
+      "YT7374h6"
+    ]
+  }
+}

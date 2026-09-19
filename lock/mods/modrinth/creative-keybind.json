@@ -1,0 +1,102 @@
+{
+  "slug": "creative-keybind",
+  "projectId": "zNy7PmuU",
+  "versions": {
+    "5VDCijbs": {
+      "filename": "creative-keybind-1.0.3+1.19.x.jar",
+      "url": "https://cdn.modrinth.com/data/zNy7PmuU/versions/5VDCijbs/creative-keybind-1.0.3%2B1.19.x.jar",
+      "hash": "sha512-qJFgH0aIr+SmFGX6OrTS/k/XT+eFFWzsuDXH/Cj5DHdpCxWoQkdKvLDxw9w9sWxFkHukNG4T+/MaJebGVpHHUQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DGcud7yF": {
+      "filename": "creative-keybind-1.0.5+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/zNy7PmuU/versions/DGcud7yF/creative-keybind-1.0.5%2B1.19.4.jar",
+      "hash": "sha512-kxX0PD7qrWJSbF06GStdpbWM5gEHxANqjFvZDla/DhUMMsUrq5O5CA0iKdAFLEsxweQz2/eopH8eiU0XzSXYYA==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "DkSoCW8w": {
+      "filename": "creative-keybind-1.18.1-fabric-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/zNy7PmuU/versions/1.0.2/creative-keybind-1.18.1-fabric-1.0.2.jar",
+      "hash": "sha512-My9IWrEp4FgxPomYuotNOe6iO643OtXliukDoM64VppCGUnjMlXapxDYGZrb/GSjPIuLZCLZ8OrJxmHqIfO/Qg==",
+      "gameVersions": [
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "H3tNZ203": {
+      "filename": "creative-keybind-1.0.4+1.19.x.jar",
+      "url": "https://cdn.modrinth.com/data/zNy7PmuU/versions/H3tNZ203/creative-keybind-1.0.4%2B1.19.x.jar",
+      "hash": "sha512-QwkxI/P0pX2aEdbnaBebyDzbTcRW6qAxm3PIgsgI+KbXzNCPvJjmN2BF1G0BCZykCfg3rM8w6UDIFnOwtqIT3Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.18.1+fabric": [
+      "DkSoCW8w"
+    ],
+    "1.19.2+fabric": [
+      "H3tNZ203",
+      "5VDCijbs"
+    ],
+    "1.19.2+quilt": [
+      "H3tNZ203",
+      "5VDCijbs"
+    ],
+    "1.19.4+fabric": [
+      "DGcud7yF"
+    ],
+    "1.19.4+quilt": [
+      "DGcud7yF"
+    ]
+  }
+}

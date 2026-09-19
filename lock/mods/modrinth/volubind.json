@@ -1,0 +1,185 @@
+{
+  "slug": "volubind",
+  "projectId": "kfEow3K7",
+  "versions": {
+    "KyDWFbHv": {
+      "filename": "volubind-3.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/kfEow3K7/versions/KyDWFbHv/volubind-3.0.0%2B1.20.1.jar",
+      "hash": "sha512-3BP3JZyK73J1+sCneLHRtYbfbmiqIldav1UjODpVCIUhZA7pmscqJocBlquxAsTXKbF+j52wNEobiMpoKPqs6A==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "VmkZR2rn": {
+      "filename": "volubind-3.1.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/kfEow3K7/versions/VmkZR2rn/volubind-3.1.0%2B1.21.1.jar",
+      "hash": "sha512-ThhGAv6K4YQUg5hnnlvi160TcM4HBLhX47l+RIkAkMmVWEqTcHE1w2UASxL9Sn2bYsfAv79Du//gqlwOsZ8PJA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "ZyBVqgqm": {
+      "filename": "volubind-1.0.0+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/kfEow3K7/versions/1.0.0%2B1.19/volubind-1.0.0%2B1.19.jar",
+      "hash": "sha512-uwdjKwzdhEBIMOIX+Eq51RkA0UZ2M9eblrHCGCF9xmNvLcnz4IihTwWA5vgjU2tyDsVe5vysyZzf/YawnbThFQ==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "qdFuMrQB": {
+      "filename": "volubind-2.1.0+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/kfEow3K7/versions/qdFuMrQB/volubind-2.1.0%2B1.19.jar",
+      "hash": "sha512-7p/QNNX6vchqXs39Iu5kqVCP2ebiCFOF8h+DyXz4ve76J9ce73/scIPr168kRMgimg6Zh0Tu5cIUx9ryz/CB0w==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "qkl",
+          "projectId": "lwVhp9o5",
+          "type": "required"
+        }
+      ]
+    },
+    "xjT7xZ5v": {
+      "filename": "volubind-2.0.0+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/kfEow3K7/versions/xjT7xZ5v/volubind-2.0.0%2B1.19.jar",
+      "hash": "sha512-zOqM+aBCgHgf78/HIns4X7x3qusvY+ZWh4L5eW3VDAdJL3uRdWxbAvSt6CArKT31vOfLfUv90Mktm2PeLb/59Q==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "qkl",
+          "projectId": "lwVhp9o5",
+          "type": "required"
+        },
+        {
+          "slug": "qsl",
+          "projectId": "qvIfYCYJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "ZyBVqgqm"
+    ],
+    "1.19.2+quilt": [
+      "qdFuMrQB",
+      "xjT7xZ5v"
+    ],
+    "1.20+fabric": [
+      "KyDWFbHv"
+    ],
+    "1.20+quilt": [
+      "KyDWFbHv"
+    ],
+    "1.20.1+fabric": [
+      "KyDWFbHv"
+    ],
+    "1.20.1+quilt": [
+      "KyDWFbHv"
+    ],
+    "1.20.2+fabric": [
+      "KyDWFbHv"
+    ],
+    "1.20.2+quilt": [
+      "KyDWFbHv"
+    ],
+    "1.21+fabric": [
+      "VmkZR2rn"
+    ],
+    "1.21+quilt": [
+      "VmkZR2rn"
+    ],
+    "1.21.1+fabric": [
+      "VmkZR2rn"
+    ],
+    "1.21.1+quilt": [
+      "VmkZR2rn"
+    ]
+  }
+}

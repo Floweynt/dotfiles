@@ -1,0 +1,53 @@
+{
+  "slug": "oritech-steel-tools",
+  "projectId": "lYiulGnT",
+  "versions": {
+    "2mK5RKvE": {
+      "filename": "oritech_steel_tools-neoforge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lYiulGnT/versions/2mK5RKvE/oritech_steel_tools-neoforge-1.0.0.jar",
+      "hash": "sha512-83GVPdng7Cb5fj8APokHAGoQ3gQg7r4TabgXedYwMJFdSkZMUvmypYFCWVHOaCSe/flJjeKtlW1RgX0psCjImw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "b3KldfTC": {
+      "filename": "oritech_steel_tools-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lYiulGnT/versions/b3KldfTC/oritech_steel_tools-fabric-1.0.0.jar",
+      "hash": "sha512-0vuMpKGUwOJpHU43Tn3pgU9GqPQVZM/hU0ZXnIElVO7LnYBci6Tj60V8cJhtCRDKUT/Vg4UeADqKWjzi8odkFw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "oritech",
+          "projectId": "4sYI62kA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "b3KldfTC"
+    ],
+    "1.21.1+neoforge": [
+      "2mK5RKvE"
+    ]
+  }
+}

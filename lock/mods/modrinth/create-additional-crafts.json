@@ -1,0 +1,54 @@
+{
+  "slug": "create-additional-crafts",
+  "projectId": "gRRWEPnB",
+  "versions": {
+    "2sV2p4tm": {
+      "filename": "createcrafts-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/gRRWEPnB/versions/2sV2p4tm/createcrafts-1.0.0.jar",
+      "hash": "sha512-VZsz7HQJtez9Qet2+27mRBCvJRfC1HYMaQP9JggCOb+HRy+Lek5vNVUb4BJebJqbxY2JP9yKqY8UMfjrVdStCg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "Rf5HcDvf": {
+      "filename": "createcrafts-1.0.0-neoforge-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/gRRWEPnB/versions/Rf5HcDvf/createcrafts-1.0.0-neoforge-1.21.1.jar",
+      "hash": "sha512-eaylYhMT4SWU6JsTsVTONd/SAnGo3ppPDgycaxCdU00B+n1U6PGYgsuXGm/2zARwXicLYQ+zVCmzZQRVBxPOBg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2sV2p4tm"
+    ],
+    "1.21.1+neoforge": [
+      "Rf5HcDvf"
+    ]
+  }
+}

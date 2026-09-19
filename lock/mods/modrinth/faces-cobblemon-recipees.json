@@ -1,0 +1,94 @@
+{
+  "slug": "faces-cobblemon-recipees",
+  "projectId": "kL3PXirO",
+  "versions": {
+    "bc5L2ATx": {
+      "filename": "Faces-Recipes-1.4-NM.jar",
+      "url": "https://cdn.modrinth.com/data/kL3PXirO/versions/bc5L2ATx/Faces-Recipes-1.4-NM.jar",
+      "hash": "sha512-f1FKVXzbQFaKiXtlwkV9ZR3sq2h+fTjpz2kI4uCiRZJAOfWw2beWkYS8rwXaqAosoFbHYmmrRZojONINq/5qRg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        }
+      ]
+    },
+    "rAuOrWeK": {
+      "filename": "facerecipe.jar",
+      "url": "https://cdn.modrinth.com/data/kL3PXirO/versions/rAuOrWeK/facerecipe.jar",
+      "hash": "sha512-qdhmhyQWwpeY3eA+sRu37LcDuSQkwV9hItmXQukXOt3XEnvqD4DGYWCTo3QAu0okaHk0xCfq4XcL2B9m1bSo6A==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "rBp7MzHx": {
+      "filename": "Faces-Recipes-1.4.jar",
+      "url": "https://cdn.modrinth.com/data/kL3PXirO/versions/rBp7MzHx/Faces-Recipes-1.4.jar",
+      "hash": "sha512-CDJETUcMs8w1OTx8BV5HQEpy9QFYE8lbkyej3IZW/zLJFnrvl6yGNgI8Ik4q+8eSL31nvMN2GgPWS13dDHORGg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon-myths-and-legends-sidemod",
+          "projectId": "CaOWby9K",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon-mega-showdown",
+          "projectId": "SszvX85I",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "bc5L2ATx",
+      "rBp7MzHx",
+      "rAuOrWeK"
+    ],
+    "1.21.1+forge": [
+      "bc5L2ATx",
+      "rBp7MzHx",
+      "rAuOrWeK"
+    ],
+    "1.21.1+neoforge": [
+      "bc5L2ATx",
+      "rBp7MzHx",
+      "rAuOrWeK"
+    ],
+    "1.21.1+quilt": [
+      "bc5L2ATx",
+      "rBp7MzHx"
+    ]
+  }
+}

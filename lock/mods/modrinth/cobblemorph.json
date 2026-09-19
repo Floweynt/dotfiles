@@ -1,0 +1,36 @@
+{
+  "slug": "cobblemorph",
+  "projectId": "hWEys3l3",
+  "versions": {
+    "vTUNDkmA": {
+      "filename": "cobblemorph-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/hWEys3l3/versions/vTUNDkmA/cobblemorph-1.0.5.jar",
+      "hash": "sha512-XG0pIc3BvTQCx92KtvBlgoGxUDilLNjvGD039k0z3MQyG/GNEVBfZdgSug+FyBsV0mOw6GyUgt/xaVeZD+mPYQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only_server_optional",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "vTUNDkmA"
+    ]
+  }
+}

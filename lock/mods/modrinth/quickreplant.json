@@ -1,0 +1,122 @@
+{
+  "slug": "quickreplant",
+  "projectId": "QgwydtQc",
+  "versions": {
+    "Ch0d45et": {
+      "filename": "quickreplant-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QgwydtQc/versions/0.1/quickreplant-1.0.0.jar",
+      "hash": "sha512-dwAOzwPBzN4ruOAti0jfc9rHOs7HJJZyTz4Orb7jsl6ceIki1UuC1kCf20/yU8KeKnZu2wJ9YQ6T9/8RtbYQGA==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "fAssL4rS": {
+      "filename": "quickreplant-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QgwydtQc/versions/1.18-1.1.0/quickreplant-1.1.0.jar",
+      "hash": "sha512-86bnSVTwEp4LL+ll9UqOm4QgHy9tnNMHJwbRFxAoFbqk/vc9/VvoAViNX5Me6WWOjnFnFmyDrL6dZOaCEV0G+w==",
+      "gameVersions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kbjrc3zH": {
+      "filename": "quickreplant-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/QgwydtQc/versions/1.19-1.1.1/quickreplant-1.1.1.jar",
+      "hash": "sha512-bUerVszE/Z6rfF0nVSHnANdKUM6/SX5AUXudUJItHsd++75z4kNsIvRwJGNMjboOXcl58gkw38k4keHQ6lSBDg==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "uh6o2KSe": {
+      "filename": "quickreplant-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QgwydtQc/versions/1.1.0/quickreplant-1.1.0.jar",
+      "hash": "sha512-Hr1kvXdrbqCq2LqaNTqcA3gB/nrvVmo6EaLJI5Lbqpb4/YUGuzYDZ8i0i9/6opCRBQxaBPZENd1UaBbqYlQFqw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "vYwasHgl": {
+      "filename": "quickreplant-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/QgwydtQc/versions/0.1-1.18/quickreplant-1.0.0.jar",
+      "hash": "sha512-/46kU/lWHMFyQLMGz0H6gKQ344d8e1D19uy138x87Q0Yo5eZnMeaqVZfiOePs92d4w40ghRt8dBNlVU07BXLLQ==",
+      "gameVersions": [
+        "1.18"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.5+fabric": [
+      "Ch0d45et"
+    ],
+    "1.18+fabric": [
+      "fAssL4rS",
+      "vYwasHgl"
+    ],
+    "1.19+fabric": [
+      "kbjrc3zH",
+      "uh6o2KSe"
+    ]
+  }
+}

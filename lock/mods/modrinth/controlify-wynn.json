@@ -1,0 +1,103 @@
+{
+  "slug": "controlify-wynn",
+  "projectId": "30a9CaQe",
+  "versions": {
+    "NM13LmMK": {
+      "filename": "controlifywynn-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/30a9CaQe/versions/NM13LmMK/controlifywynn-1.1.1.jar",
+      "hash": "sha512-W9Axn/wzmEwKXGKKK9xotLnpJMamdhXzlVzc2rux3k5w+iU5DaVolnxR7NB1z9gs52GUvB116twzzNpTKWTXzQ==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "controlify",
+          "projectId": "DOUdJVEm",
+          "type": "required"
+        },
+        {
+          "slug": "wynntils",
+          "projectId": "dU5Gb9Ab",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "SYYPq32f": {
+      "filename": "controlifywynn-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/30a9CaQe/versions/SYYPq32f/controlifywynn-1.0.0.jar",
+      "hash": "sha512-oriRytKm6wWpbij14O93xavyK1IVdHtY5dXY2QAlPrzu3gfo7CpFOrJGI6+LvVkNxUOOhKufvQD8tv7LlXlTrA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "wynntils",
+          "projectId": "dU5Gb9Ab",
+          "type": "required"
+        },
+        {
+          "slug": "controlify",
+          "projectId": "DOUdJVEm",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aM0dosZN": {
+      "filename": "controlifywynn-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/30a9CaQe/versions/aM0dosZN/controlifywynn-1.1.0.jar",
+      "hash": "sha512-O//LA5tIEGWPyTbJamL0+aTFxaLwJh7XbCuGw92+JANUlHKmIz8JzbmwCcTOAQxBz1zrhY+A8ztQedJVFSSrpA==",
+      "gameVersions": [
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "wynntils",
+          "projectId": "dU5Gb9Ab",
+          "type": "required"
+        },
+        {
+          "slug": "controlify",
+          "projectId": "DOUdJVEm",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.2+fabric": [
+      "NM13LmMK",
+      "aM0dosZN",
+      "SYYPq32f"
+    ]
+  }
+}

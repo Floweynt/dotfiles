@@ -1,0 +1,50 @@
+{
+  "slug": "no-directional-damage-tilt",
+  "projectId": "nCQZynHB",
+  "versions": {
+    "ZrsLp6g6": {
+      "filename": "nodamagetilt-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/nCQZynHB/versions/ZrsLp6g6/nodamagetilt-1.1.1.jar",
+      "hash": "sha512-ItYWgawMNptrVJz5qfj4Ff1mflJFUhdOyYn/zWvDP9yl0Vu18EWanLTRPY8KlAj4ENHDj/576KtWlGuAFiM4cQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "vBNAsh9j": {
+      "filename": "nodamagetilt-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/nCQZynHB/versions/vBNAsh9j/nodamagetilt-1.1.jar",
+      "hash": "sha512-6ombHrfkh3htrkeA48Xdj+JSU3lh8LQY8xQPB+8CF3fs9WYRRb68dzcSr6cdYUaa/jTtiH3zJUeZ0LRluK50yw==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "vBNAsh9j"
+    ],
+    "1.20+fabric": [
+      "ZrsLp6g6"
+    ],
+    "1.20.1+fabric": [
+      "ZrsLp6g6"
+    ],
+    "1.20.2+fabric": [
+      "ZrsLp6g6"
+    ]
+  }
+}

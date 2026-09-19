@@ -1,0 +1,31 @@
+{
+  "slug": "daot-giants-on-grass",
+  "projectId": "KFpF92pF",
+  "versions": {
+    "joCzb9e8": {
+      "filename": "DAOT-Giants-on-Grass-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/KFpF92pF/versions/joCzb9e8/DAOT-Giants-on-Grass-1.0.jar",
+      "hash": "sha512-Y8OoDFAzpthp4GnpsAc8YoTV0woPoHPGRzrEyEL0aUShoaG+85OVqSoJkYGNn7wHDgGP27yEjWMyw14VtdW/ug==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "dannys-aot",
+          "projectId": "7x3oDLDY",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "joCzb9e8"
+    ]
+  }
+}

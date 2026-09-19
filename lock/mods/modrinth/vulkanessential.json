@@ -1,0 +1,51 @@
+{
+  "slug": "vulkanessential",
+  "projectId": "zwgqflwh",
+  "versions": {
+    "AeVcjwHi": {
+      "filename": "vulkanessentials-0.9.5+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/zwgqflwh/versions/AeVcjwHi/vulkanessentials-0.9.5%2Bmc1.21.11.jar",
+      "hash": "sha512-Dr5YnSeag7w1YLyqmd5PsIP+lksuea+3x0C96CUcCeVBJrJ+yMJGTBRb0MPtp+u9QRVoYEQ9r11rivdq5e+03w==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "essential",
+          "projectId": "k2ZPuTBm",
+          "type": "required"
+        },
+        {
+          "slug": "vulkanmod",
+          "projectId": "JYQhtZtO",
+          "type": "required"
+        }
+      ]
+    },
+    "clFzpR7a": {
+      "filename": "vulkanessentials-0.9.31+mc1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/zwgqflwh/versions/clFzpR7a/vulkanessentials-0.9.31%2Bmc1.21.11.jar",
+      "hash": "sha512-NWVCSSioZeZw6ygHCfGHrdgHHDRFN48TmdEKVVxCLeqYzwPXNomGHxE6U1v8w/3pqtMg+T1RCaWk9sLD3vg7Uw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "clFzpR7a",
+      "AeVcjwHi"
+    ]
+  }
+}

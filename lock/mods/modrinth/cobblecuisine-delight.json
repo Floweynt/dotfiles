@@ -1,0 +1,100 @@
+{
+  "slug": "cobblecuisine-delight",
+  "projectId": "F9kN1Ue1",
+  "versions": {
+    "B9E1VVaV": {
+      "filename": "CobbleCuisineDelight1.0.zip",
+      "url": "https://cdn.modrinth.com/data/F9kN1Ue1/versions/B9E1VVaV/CobbleCuisineDelight1.0.zip",
+      "hash": "sha512-LvVo5i+yCfOwIuTlIzmc0AvU7tP6MqHNFjd0VoE5kp29NXCGbUdraW07dcE6ka2zniJbs+xZBGGAXS9lTyWyfA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "cobblecuisine",
+          "projectId": "dlx62Wp3",
+          "type": "required"
+        }
+      ]
+    },
+    "pI9b1ybD": {
+      "filename": "CobbleCuisineDelight1.1.zip",
+      "url": "https://cdn.modrinth.com/data/F9kN1Ue1/versions/pI9b1ybD/CobbleCuisineDelight1.1.zip",
+      "hash": "sha512-tpjZ/PRzhJJXczsbe2ae+WVy0WUV9UxWzL3n2qfdUk+rCQ+7hqMQcJ3IBwxgqBwDa6AjPQ/8eivM99r693druw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblecuisine",
+          "projectId": "dlx62Wp3",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "wxK9ZcMf": {
+      "filename": "cobblecuisine-delight-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/F9kN1Ue1/versions/wxK9ZcMf/cobblecuisine-delight-1.1.jar",
+      "hash": "sha512-BLDrnduWqYm5EtsscTs+jp6u1hj2rqkqGzxhDvqWEDzUgc9pGeQXtjVj828bfLICumJ4GaglAvRnVRmycDnzwA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "cobblecuisine",
+          "projectId": "dlx62Wp3",
+          "type": "required"
+        },
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+datapack": [
+      "pI9b1ybD",
+      "B9E1VVaV"
+    ],
+    "1.21.1+fabric": [
+      "wxK9ZcMf"
+    ]
+  }
+}

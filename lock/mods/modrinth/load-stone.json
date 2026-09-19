@@ -1,0 +1,101 @@
+{
+  "slug": "load-stone",
+  "projectId": "2UT1ynXh",
+  "versions": {
+    "4mJcxDua": {
+      "filename": "loadstone-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/2UT1ynXh/versions/4mJcxDua/loadstone-2.0.jar",
+      "hash": "sha512-tcKpppNj4YHxxBfN6yMi16XxO7vK7wKbKa+MFk9xaH8mPv5LlkUO5xQlVLF8qLo3/O8knzQIdewWcLvJ1imqpw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "QzVxn3gw": {
+      "filename": "loadstone-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/2UT1ynXh/versions/QzVxn3gw/loadstone-2.1.jar",
+      "hash": "sha512-1V5UhJZc24R4tsWX/2eTM20IYE2CDGBqmNI+tqmZ3YyGB9WYf3TDTvClSBLk3+Bz9UqtZvEK8MsoaD3SwSKtuA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "UFUmBDEQ": {
+      "filename": "loadstone-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/2UT1ynXh/versions/UFUmBDEQ/loadstone-1.0.jar",
+      "hash": "sha512-Q/T3oKPtm7GFaCLwV391dLGRhffbar+gewEExkHmgWx0Zat+X9d1ypuQ3MxOkSpc/Qxb8QXfbAS/spnS2B4O3g==",
+      "gameVersions": [
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "sikTvnjB": {
+      "filename": "loadstone-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/2UT1ynXh/versions/sikTvnjB/loadstone-3.0.jar",
+      "hash": "sha512-+TRSaNqnq7Hl1ZWUEkP+9NrrLkDz80zqTNuAAXSvAXaOXT/X1CQWkvu1JsNq6fxFz0nWZjbyCKfh3QWU9W24Lw==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zv1YHjYm": {
+      "filename": "loadstone-2.1.jar",
+      "url": "https://cdn.modrinth.com/data/2UT1ynXh/versions/zv1YHjYm/loadstone-2.1.jar",
+      "hash": "sha512-68keTc+TH1J6cThrVnCCt2fYTkAUXUchF1AA5vBE8Pq9M13crPMRLqCheMfuu1d4P9gmpJbNKKNPfM5qwACfVA==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "UFUmBDEQ"
+    ],
+    "1.21.11+fabric": [
+      "4mJcxDua",
+      "UFUmBDEQ"
+    ],
+    "26.1+fabric": [
+      "zv1YHjYm"
+    ],
+    "26.1.1+fabric": [
+      "zv1YHjYm"
+    ],
+    "26.1.2+fabric": [
+      "zv1YHjYm"
+    ],
+    "26.2+fabric": [
+      "sikTvnjB",
+      "QzVxn3gw"
+    ]
+  }
+}

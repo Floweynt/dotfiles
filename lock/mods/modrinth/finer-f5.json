@@ -1,0 +1,52 @@
+{
+  "slug": "finer-f5",
+  "projectId": "Akl1OwOb",
+  "versions": {
+    "58qHjWij": {
+      "filename": "finerf5-0.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/Akl1OwOb/versions/58qHjWij/finerf5-0.2.1.jar",
+      "hash": "sha512-f+7tb95vV8QG935AMi9wxe8joBEQfqjhpz/v49UiUiLswFBLm1bMNNfo8fBNRbxYLa5zEB0nwmSsJVUmrjqjUQ==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ihmnhldO": {
+      "filename": "finerf5-0.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/Akl1OwOb/versions/ihmnhldO/finerf5-0.5.1.jar",
+      "hash": "sha512-T9xAaHt4UPTEgl64MLdFzILN/HwBEkuwPByRWGH8CQZf02/Dm3muJPYIV/EYzs1UuoUo1f3C9RkDO7NdiudtWg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "ihmnhldO",
+      "58qHjWij"
+    ]
+  }
+}

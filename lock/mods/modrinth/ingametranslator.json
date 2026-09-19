@@ -1,0 +1,90 @@
+{
+  "slug": "ingametranslator",
+  "projectId": "MiVBndzB",
+  "versions": {
+    "FT3nXZ0x": {
+      "filename": "chatranslator-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/MiVBndzB/versions/FT3nXZ0x/chatranslator-1.1.3.jar",
+      "hash": "sha512-6UhAClFOSEjU6q5Uyc748fbGqF8kO8Bc8gVtsp6i9eDSx/q+pPRwg+U7Hp2ovNZHzDdyhdBnVybifY8mvLDXNg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "Up23QRbd": {
+      "filename": "chatranslator-1.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/MiVBndzB/versions/Up23QRbd/chatranslator-1.1.4.jar",
+      "hash": "sha512-ue0AhQOwPq9hQDCHl+w/NzyZI3pSJ8k2b+HSLne7jl7g0CCC8COFfu+JAY1x+9QpVg+UxnVDGIPnJ9DxSrUCow==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "ZJP36CJr": {
+      "filename": "chatranslator-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/MiVBndzB/versions/ZJP36CJr/chatranslator-1.1.3.jar",
+      "hash": "sha512-HUMbEG/WWNZ5HJupJoIwMOMH6c+QH+L0arI7scxrCnaR4OhPuJTgp+DBR42rweLXMyOFO2GKTVPkqPwovkx08w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "ZJP36CJr",
+      "FT3nXZ0x"
+    ],
+    "1.21.4+fabric": [
+      "Up23QRbd"
+    ]
+  }
+}

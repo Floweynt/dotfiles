@@ -1,0 +1,62 @@
+{
+  "slug": "no-trade-cooldown",
+  "projectId": "zK1V8oDR",
+  "versions": {
+    "GHODLkrQ": {
+      "filename": "NoTradeCooldown-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zK1V8oDR/versions/GHODLkrQ/NoTradeCooldown-1.0.0.jar",
+      "hash": "sha512-H4uZale07CRnBWZPpct6sseW4/S3Ephv0YT1r/ec+fEDqDr3lli2uKUUFVYNdwJ/xAt9zBmCBlF4RXRgRZQk6Q==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ntzDsDFG": {
+      "filename": "NoTradeCooldown-1.0.0-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/zK1V8oDR/versions/ntzDsDFG/NoTradeCooldown-1.0.0-1.21.11.jar",
+      "hash": "sha512-CPX1vFdak0C7tKiqxA1hTj+ujLMoRJJxlJ+Sd/L0Mx4EQWPDiNg5jBtjctmpgRT0NOaqSySegfy9oGbamI19Bw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "ntzDsDFG"
+    ],
+    "26.1+fabric": [
+      "GHODLkrQ"
+    ],
+    "26.1.1+fabric": [
+      "GHODLkrQ"
+    ],
+    "26.1.2+fabric": [
+      "GHODLkrQ"
+    ]
+  }
+}

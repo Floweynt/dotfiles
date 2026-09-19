@@ -1,0 +1,100 @@
+{
+  "slug": "spyglass-trinket-slot",
+  "projectId": "cbbgh5gR",
+  "versions": {
+    "2lG9F58p": {
+      "filename": "spyglass-trinket-slot.jar",
+      "url": "https://cdn.modrinth.com/data/cbbgh5gR/versions/2lG9F58p/spyglass-trinket-slot.jar",
+      "hash": "sha512-klR1Xw7TgJcUsvuDwMo6kFq7X/HfZBeYEi5NMqfqzZwbT8hAcRDAVkGAt6spL/bXW+BLgMWtBNAphUva8MSMpA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "OVzJRn9W": {
+      "filename": "Spyglass_Trinket_Slot-1.21+.jar",
+      "url": "https://cdn.modrinth.com/data/cbbgh5gR/versions/OVzJRn9W/Spyglass_Trinket_Slot-1.21%2B.jar",
+      "hash": "sha512-AWdrBLKIWvy+CdDEhvzGwtVIUmvgPlHDVROzJW+qeTxTwmfOWT+o11NpDS7KKFRIiJgDjNmZJmaEJJu0OXPH7A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        }
+      ]
+    },
+    "lE8hJnol": {
+      "filename": "Spyglass-Trinket-Slot.jar",
+      "url": "https://cdn.modrinth.com/data/cbbgh5gR/versions/lE8hJnol/Spyglass-Trinket-Slot.jar",
+      "hash": "sha512-FBpWqdk5FppkQZBW/HGDTvFhfH4MxhT0vQGAalU+M3FmkeVA6aTJfhuX5dnqthYK3Qesf62QRgNNl+SaJoCmvQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "trinkets-updated",
+          "projectId": "XaT8sLP6",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "2lG9F58p"
+    ],
+    "1.20.1+quilt": [
+      "2lG9F58p"
+    ],
+    "1.21+fabric": [
+      "OVzJRn9W"
+    ],
+    "1.21+quilt": [
+      "OVzJRn9W"
+    ],
+    "1.21.1+fabric": [
+      "OVzJRn9W"
+    ],
+    "1.21.1+quilt": [
+      "OVzJRn9W"
+    ],
+    "26.1+fabric": [
+      "lE8hJnol"
+    ],
+    "26.1.1+fabric": [
+      "lE8hJnol"
+    ],
+    "26.1.2+fabric": [
+      "lE8hJnol"
+    ]
+  }
+}

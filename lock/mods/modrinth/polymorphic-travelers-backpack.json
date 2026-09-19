@@ -1,0 +1,36 @@
+{
+  "slug": "polymorphic-travelers-backpack",
+  "projectId": "T7RS2PHh",
+  "versions": {
+    "9tOabOhU": {
+      "filename": "PolymorphicTravelersBackpack-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/T7RS2PHh/versions/9tOabOhU/PolymorphicTravelersBackpack-1.0.1.jar",
+      "hash": "sha512-pUtcU507Ky+Vc+uGw7V1lFiH4fiMk5j9GVNTdcB0fDWWPjFrEE9Bjb0R3GibMTT8usAG+ywgOnZtrUsijJBYgw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "travelersbackpack",
+          "projectId": "rlloIFEV",
+          "type": "required"
+        },
+        {
+          "slug": "polymorph",
+          "projectId": "tagwiZkJ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "9tOabOhU"
+    ]
+  }
+}

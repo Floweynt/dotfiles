@@ -1,0 +1,52 @@
+{
+  "slug": "boomrun",
+  "projectId": "em0q8QkV",
+  "versions": {
+    "bKvHBMPg": {
+      "filename": "boomrun-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/em0q8QkV/versions/bKvHBMPg/boomrun-1.0.0.jar",
+      "hash": "sha512-rgIrmFTqiEYLiEHetpY1jmOqC0nnRIFi/tjWpPIyrAII0DheuKZ5KxSZlDYmTYwqaVKftw6ArBDE/ZmiRrEYIg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "hipHKggA": {
+      "filename": "boomrun-1.0.0+1.20.jar",
+      "url": "https://cdn.modrinth.com/data/em0q8QkV/versions/hipHKggA/boomrun-1.0.0%2B1.20.jar",
+      "hash": "sha512-+7iX67OciveLix+6RDPcM9MtTniFUHEGxF6I22Me24g1lz9UIyQBALxZb5XFCxVzuK456U9Kc1vLenZyHtMvGg==",
+      "gameVersions": [
+        "1.20"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "bKvHBMPg"
+    ],
+    "1.20+fabric": [
+      "hipHKggA"
+    ],
+    "1.20+quilt": [
+      "hipHKggA"
+    ]
+  }
+}

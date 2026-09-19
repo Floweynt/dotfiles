@@ -1,0 +1,76 @@
+{
+  "slug": "aequitas",
+  "projectId": "yoBiijZt",
+  "versions": {
+    "1jYCKwXR": {
+      "filename": "aequitas-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yoBiijZt/versions/1jYCKwXR/aequitas-1.0.0.jar",
+      "hash": "sha512-7Y0zJy7dr5Id8so65oF+6EmmFfYHvtV/oSEmeLtutG1G56xdK+Qp/GHNpmv3AeIPMXTD4Y1zZuSV/DYpWWtEJA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "M3xhHFZt": {
+      "filename": "aequitas-1.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/yoBiijZt/versions/M3xhHFZt/aequitas-1.0.0%2B1.21.1.jar",
+      "hash": "sha512-BhWHn5FTLQjQgstxs2LGdC6OwyFhiETLfpkVBKPyhaxLONQZSYHwAjMhG9/gsrc/FWnmyPJ8FY0l41iz/2O5/g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "1jYCKwXR"
+    ],
+    "1.20+quilt": [
+      "1jYCKwXR"
+    ],
+    "1.20.1+fabric": [
+      "1jYCKwXR"
+    ],
+    "1.20.1+quilt": [
+      "1jYCKwXR"
+    ],
+    "1.21+fabric": [
+      "M3xhHFZt"
+    ],
+    "1.21+quilt": [
+      "M3xhHFZt"
+    ],
+    "1.21.1+fabric": [
+      "M3xhHFZt"
+    ],
+    "1.21.1+quilt": [
+      "M3xhHFZt"
+    ]
+  }
+}

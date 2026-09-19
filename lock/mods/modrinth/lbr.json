@@ -1,0 +1,54 @@
+{
+  "slug": "lbr",
+  "projectId": "bnWTE1T8",
+  "versions": {
+    "rDOT3T8X": {
+      "filename": "lbr-1.jar",
+      "url": "https://cdn.modrinth.com/data/bnWTE1T8/versions/rDOT3T8X/lbr-1.jar",
+      "hash": "sha512-PetlDnOIlTKSJnt+GbeErv+0EdRMUq1qLtY00kq8Zz+NoqcSFNnwTW5Lb1YVbHGpz8L56QPrCCU1x3gEb1zvEA==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": []
+    },
+    "yAEK6PjO": {
+      "filename": "LuckyBlock_DP.zip",
+      "url": "https://cdn.modrinth.com/data/bnWTE1T8/versions/yAEK6PjO/LuckyBlock_DP.zip",
+      "hash": "sha512-oe88N2QL1TPK78243Gj5MFM30kYSUxCXWFqdrYsfdOq8HTs6p+Kb6zMqPKaVEHmvDnL6oFMKEbjbxnwfkq0RZw==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.4+datapack": [
+      "yAEK6PjO"
+    ],
+    "1.21.4+fabric": [
+      "rDOT3T8X"
+    ],
+    "1.21.4+forge": [
+      "rDOT3T8X"
+    ],
+    "1.21.4+neoforge": [
+      "rDOT3T8X"
+    ],
+    "1.21.4+quilt": [
+      "rDOT3T8X"
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "slug": "cinematic-smoothness",
+  "projectId": "RuZUMRP3",
+  "versions": {
+    "2JpJVrIs": {
+      "filename": "cinematic-smoothness-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/RuZUMRP3/versions/2JpJVrIs/cinematic-smoothness-1.1.jar",
+      "hash": "sha512-/DBKwkPkx8A/ERrbGJ7ZpFMW14efRhvVP2XdAI5dNBTwUJMRFqwZXw1cbgIg97wMidGsei+HxqW1AyHAcuuYJQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "CXcbFCI5": {
+      "filename": "cinematic-smoothness-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/RuZUMRP3/versions/CXcbFCI5/cinematic-smoothness-1.0.jar",
+      "hash": "sha512-8gknj62cea/xdWdml0AsnOE67aGe/IP1Jqkp30TIMRdto1DT4XOYei6O1o9EOJJ6wlFVZm3a9epJBN4bYzVBWg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FkeIfFSs": {
+      "filename": "cinematic-smoothness-1.1+26.1.jar",
+      "url": "https://cdn.modrinth.com/data/RuZUMRP3/versions/FkeIfFSs/cinematic-smoothness-1.1%2B26.1.jar",
+      "hash": "sha512-Npkt8D1zL5CjqhFv5LuWIzuUE8HzjxC2duLHB3bK6dopGGiX8zBOlWAl2DHIB1bvnAGCQL3whonmqntiiqRn3A==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "2JpJVrIs",
+      "CXcbFCI5"
+    ],
+    "26.1+fabric": [
+      "FkeIfFSs"
+    ],
+    "26.1.1+fabric": [
+      "FkeIfFSs"
+    ],
+    "26.1.2+fabric": [
+      "FkeIfFSs"
+    ]
+  }
+}

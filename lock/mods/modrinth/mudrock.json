@@ -1,0 +1,54 @@
+{
+  "slug": "mudrock",
+  "projectId": "8abHI823",
+  "versions": {
+    "5WouP9aA": {
+      "filename": "mudrock-mc1.18.2-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/8abHI823/versions/0.1.1/mudrock-mc1.18.2-0.1.1.jar",
+      "hash": "sha512-C0ZVAFrQH3l6+vBQ9PN7O5a8TjkGV3StoHS9Q9YilSlRCLODWKUflq2u7sO2sDqIv6cjsRGmpiyca5DKzNgrgA==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "7Zdf7HQe": {
+      "filename": "mudrock-mc1.18.2-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/8abHI823/versions/0.1.0/mudrock-mc1.18.2-0.1.0.jar",
+      "hash": "sha512-/farOu9rLB5xY/3hYR0n1lsz38TAHS15psyk7ENHfdn8U0DFeLfkPzplBuSMpVVHUGhrNrVjcz5sCKMqvUfw+Q==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "5WouP9aA"
+    ],
+    "1.18.1+fabric": [
+      "5WouP9aA"
+    ],
+    "1.18.2+fabric": [
+      "5WouP9aA",
+      "7Zdf7HQe"
+    ]
+  }
+}

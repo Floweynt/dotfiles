@@ -1,0 +1,104 @@
+{
+  "slug": "parrier",
+  "projectId": "z4IfAkkn",
+  "versions": {
+    "ZnjK8H9M": {
+      "filename": "parrier-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/z4IfAkkn/versions/ZnjK8H9M/parrier-1.2.jar",
+      "hash": "sha512-O8LSCoBzpPG/1+hbAxu1uKfx9Mfc6KETAdffeDIIGCCCTJAikX7/LU5f9ajKPc/Wavk8yxXv0gmSsJNeYje0Tg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "cNkeFJqm": {
+      "filename": "parrier-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/z4IfAkkn/versions/cNkeFJqm/parrier-1.1.jar",
+      "hash": "sha512-Z4Wcz74CvY7XY7wnkGWjuk/s+/bNGeG17XXYgd6GbD3bjA5vIWyoxNYzmSTGaJskcc6cB5MgV4Suq7JXxnAAcg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "dS44vmcs": {
+      "filename": "parrier-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/z4IfAkkn/versions/dS44vmcs/parrier-1.0.jar",
+      "hash": "sha512-ejmEuAwuL0fnKu78KgsincxKMAd6cNhM60X9J05pQpfeRLL6Pp4owPRLYgdTGdcjRhogK2nQlePFXt1pDUa0nA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "hBDywcWI": {
+      "filename": "parrier-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/z4IfAkkn/versions/hBDywcWI/parrier-1.3.jar",
+      "hash": "sha512-4VOUcwL/pXbMqktb1JPoGEXhJdjyQEz11x+rqxbvYcS5sZ6w0Uo/RDy8oG3q/eCYj4Nc68f9ddP7X2hFQNpu4g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "hBDywcWI",
+      "ZnjK8H9M",
+      "cNkeFJqm",
+      "dS44vmcs"
+    ],
+    "1.20.1+quilt": [
+      "hBDywcWI",
+      "ZnjK8H9M",
+      "cNkeFJqm",
+      "dS44vmcs"
+    ]
+  }
+}

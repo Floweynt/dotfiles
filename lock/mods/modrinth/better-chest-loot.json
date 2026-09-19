@@ -1,0 +1,94 @@
+{
+  "slug": "better-chest-loot",
+  "projectId": "sxExjWaP",
+  "versions": {
+    "4nd8S1Pu": {
+      "filename": "better-loot-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/sxExjWaP/versions/4nd8S1Pu/better-loot-1.21.1.jar",
+      "hash": "sha512-SjsV0WLYeMiH6+9PRf1cNRcNLPsG2q5tXBKgIyScUo1HdRAr1d+e+eWXPBt3ZEyE9fzV09M+VKONtuYxtrfEdw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "H7ZTE8TG": {
+      "filename": "better-loot-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sxExjWaP/versions/H7ZTE8TG/better-loot-1.0.0.jar",
+      "hash": "sha512-lOyz0y2JT5FFM5g4MFXnoqNUr3xgeFHKEM6rVhzC4ZbRVgkyP3NsFFoHlYGVJEFS/QYEsJyAvKBONGz/PJX+mw==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    },
+    "f3ozYX6E": {
+      "filename": "better-chest-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/sxExjWaP/versions/f3ozYX6E/better-chest-1.0.0.jar",
+      "hash": "sha512-asWxBN1MU6Qh2mF0zF/LHyJSamIrBj+FYmK31nIgqVBpdHnvsu3pyW8pDQCmHYGUU9hKH5dO7xQ7PHe3HNGjIg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "zqI3a5vn": {
+      "filename": "better-loot-1.21.10.jar",
+      "url": "https://cdn.modrinth.com/data/sxExjWaP/versions/zqI3a5vn/better-loot-1.21.10.jar",
+      "hash": "sha512-g0GFKS2ZEzoA1f8VweW3jk8rLZEPytcD4OW+E0IoLKAY11i5488TXy8SJ0sJBuMbH4msK5i/cMpj+u9XIruRdg==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "4nd8S1Pu"
+    ],
+    "1.21.10+fabric": [
+      "zqI3a5vn",
+      "f3ozYX6E"
+    ],
+    "26.1+fabric": [
+      "H7ZTE8TG"
+    ],
+    "26.1.1+fabric": [
+      "H7ZTE8TG"
+    ],
+    "26.1.2+fabric": [
+      "H7ZTE8TG"
+    ]
+  }
+}

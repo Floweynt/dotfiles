@@ -1,0 +1,64 @@
+{
+  "slug": "vanity-twilight-zone",
+  "projectId": "5NWxEL7g",
+  "versions": {
+    "dAVS8Fv8": {
+      "filename": "vanity_twilight_zone-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/5NWxEL7g/versions/dAVS8Fv8/vanity_twilight_zone-1.20.1-1.0.0.jar",
+      "hash": "sha512-oTqx1wtxN034RoDBisDiwe4mZZWvbHPLzX8kKImLsZsDD1V/xWuD3NIVvQiWKQdpdPVHbv4skL3/wFcdLMiBSg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    },
+    "wtXzpWqd": {
+      "filename": "vanity_twilight_zone-1.20.1-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/5NWxEL7g/versions/wtXzpWqd/vanity_twilight_zone-1.20.1-1.0.5.jar",
+      "hash": "sha512-0HDkAWP+mTYfIecoJH6Bw6PvoPVAh8MHaR12XlUSqG5PW0MGQNdrOZl1C39kX8wFQtSQDP9wmHotIgCpUJQy3Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "vanity-core",
+          "projectId": "kEcg2xYc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wtXzpWqd",
+      "dAVS8Fv8"
+    ],
+    "1.20.1+forge": [
+      "wtXzpWqd",
+      "dAVS8Fv8"
+    ],
+    "1.20.1+neoforge": [
+      "wtXzpWqd",
+      "dAVS8Fv8"
+    ]
+  }
+}

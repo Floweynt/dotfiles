@@ -1,0 +1,77 @@
+{
+  "slug": "fluid-tick-structure-processor",
+  "projectId": "wDthKAmn",
+  "versions": {
+    "7h7ZfiXA": {
+      "filename": "fluid-tick-structure-processor-0.1.0.dirty-forge-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/wDthKAmn/versions/7h7ZfiXA/fluid-tick-structure-processor-0.1.0.dirty-forge-1.20.1.jar",
+      "hash": "sha512-ySHc+AqRuOqUHV1SvASZQ6cxcJ5uHts65QNgoJieeQ7nriKuJ5gy6QmTRscUASRuv/qW5UTBrh1lOO2jS/1Kwg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        }
+      ]
+    },
+    "MLmIhFxQ": {
+      "filename": "fluid-tick-structure-processor-0.1.0.dirty.jar",
+      "url": "https://cdn.modrinth.com/data/wDthKAmn/versions/MLmIhFxQ/fluid-tick-structure-processor-0.1.0.dirty.jar",
+      "hash": "sha512-MB/EEeqP1g9ZcV0VD8DSPkiQK+E3BXk+E+q/RDq24xCcpikqwuXJo3OGN+Av6dcUcFB2FOulA9dkCovKqcnafA==",
+      "gameVersions": [
+        "1.20.1",
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "kotlin-for-forge",
+          "projectId": "ordsPcFz",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "MLmIhFxQ"
+    ],
+    "1.20.1+forge": [
+      "7h7ZfiXA"
+    ],
+    "1.20.1+neoforge": [
+      "MLmIhFxQ"
+    ],
+    "1.21+fabric": [
+      "MLmIhFxQ"
+    ],
+    "1.21+neoforge": [
+      "MLmIhFxQ"
+    ],
+    "1.21.1+fabric": [
+      "MLmIhFxQ"
+    ],
+    "1.21.1+neoforge": [
+      "MLmIhFxQ"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "no-more-structures",
+  "projectId": "ROr9v7rP",
+  "versions": {
+    "lVir0QM4": {
+      "filename": "no_more_structures-1.0.0[(NEO)FORGE].jar",
+      "url": "https://cdn.modrinth.com/data/ROr9v7rP/versions/lVir0QM4/no_more_structures-1.0.0%5B%28NEO%29FORGE%5D.jar",
+      "hash": "sha512-5xRR3j12A7fYvzKwX0NUVZZBqN4xcD8FdF9PkJfwTy+wNtEQaPm58/HErSu9Kpx9hQJKbmLXPoZLOJXgLivOMg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "uISGnMVz": {
+      "filename": "no_more_structures-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ROr9v7rP/versions/uISGnMVz/no_more_structures-1.0.0.jar",
+      "hash": "sha512-SxN7ov0RevOgcvnTJrQFSKsOVyuxSh0vu1dpcw9Z0dv61h0D7QqX1m7vH7ppJ54iG/SLgXtyd+ntIlUzlUO2TA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "uISGnMVz"
+    ],
+    "1.20.1+fabric": [
+      "uISGnMVz"
+    ],
+    "1.20.1+forge": [
+      "lVir0QM4"
+    ],
+    "1.20.1+neoforge": [
+      "lVir0QM4"
+    ],
+    "1.20.2+fabric": [
+      "uISGnMVz"
+    ],
+    "1.20.3+fabric": [
+      "uISGnMVz"
+    ],
+    "1.20.4+fabric": [
+      "uISGnMVz"
+    ]
+  }
+}

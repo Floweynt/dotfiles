@@ -1,0 +1,90 @@
+{
+  "slug": "gravitychanger-(banana-fork)",
+  "projectId": "fWMBqScj",
+  "versions": {
+    "7u4VfJzf": {
+      "filename": "gravity-changer-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/fWMBqScj/versions/7u4VfJzf/gravity-changer-1.3.0.jar",
+      "hash": "sha512-ROfPrJcGlqX1WOhtcjUgZ+rcu8pJrthezgAOxO9Ek7VkbAAWNQG0DXbGG7sYpurJ6sV3pmUObardufR1Mjcuaw==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "L8gjAq4q": {
+      "filename": "gravity-changer-1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/fWMBqScj/versions/L8gjAq4q/gravity-changer-1.3.3.jar",
+      "hash": "sha512-QHWHT+TijwNDg3BdgKkl9eVGCn6okPNB+wT/KKA6jPa548IjqXZsqD0FU3GM5IwxS83mUiTwmYmgltkILaQpWw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kTIX7Be2": {
+      "filename": "gravity-changer-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/fWMBqScj/versions/kTIX7Be2/gravity-changer-1.3.2.jar",
+      "hash": "sha512-rrAAATZcufLdVkw+41u/+UaQ0qhXfIwTg8nhae4wWlTFIIUr4m7kW039m3ZOK1BSHzONfpaxuGK/k1niqfy8pA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.6+fabric": [
+      "7u4VfJzf"
+    ],
+    "1.21.1+fabric": [
+      "L8gjAq4q",
+      "kTIX7Be2"
+    ]
+  }
+}

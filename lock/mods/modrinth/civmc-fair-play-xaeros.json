@@ -1,0 +1,104 @@
+{
+  "slug": "civmc-fair-play-xaeros",
+  "projectId": "96mSgoMB",
+  "versions": {
+    "O5JwMEpO": {
+      "filename": "civmc-fair-play-xaeros-1.0.0-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/96mSgoMB/versions/O5JwMEpO/civmc-fair-play-xaeros-1.0.0-1.21.x.jar",
+      "hash": "sha512-oKB1EBOh11zgIGHbi5bvL6wKKtNyP3hXycUrf4x5h95vjafY8HAK3qzEhP7HoAUXM4FbfkR7Rwl/LFAhYMZk5A==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kyuofoYV": {
+      "filename": "civmc-fair-play-xaeros-1.1.0-1.21.x.jar",
+      "url": "https://cdn.modrinth.com/data/96mSgoMB/versions/kyuofoYV/civmc-fair-play-xaeros-1.1.0-1.21.x.jar",
+      "hash": "sha512-m92cm0NR7hwabznQCWFy80y0T+qD1wUmsvhjULQeutMU0lJLY6Lgl58yaLdHKmTKtvmRsw3zmNLrMDsLIs9Oug==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3",
+        "1.21.4",
+        "1.21.5",
+        "1.21.6",
+        "1.21.7",
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "xaeros-minimap",
+          "projectId": "1bokaNcj",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "kyuofoYV",
+      "O5JwMEpO"
+    ],
+    "1.21.1+fabric": [
+      "kyuofoYV",
+      "O5JwMEpO"
+    ],
+    "1.21.10+fabric": [
+      "kyuofoYV"
+    ],
+    "1.21.11+fabric": [
+      "kyuofoYV"
+    ],
+    "1.21.2+fabric": [
+      "kyuofoYV"
+    ],
+    "1.21.3+fabric": [
+      "kyuofoYV",
+      "O5JwMEpO"
+    ],
+    "1.21.4+fabric": [
+      "kyuofoYV",
+      "O5JwMEpO"
+    ],
+    "1.21.5+fabric": [
+      "kyuofoYV",
+      "O5JwMEpO"
+    ],
+    "1.21.6+fabric": [
+      "kyuofoYV",
+      "O5JwMEpO"
+    ],
+    "1.21.7+fabric": [
+      "kyuofoYV",
+      "O5JwMEpO"
+    ],
+    "1.21.8+fabric": [
+      "kyuofoYV",
+      "O5JwMEpO"
+    ],
+    "1.21.9+fabric": [
+      "kyuofoYV"
+    ]
+  }
+}

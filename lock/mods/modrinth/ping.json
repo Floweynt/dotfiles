@@ -1,0 +1,67 @@
+{
+  "slug": "ping",
+  "projectId": "lp1S4OVU",
+  "versions": {
+    "BiEjn9L8": {
+      "filename": "ping-1.2.0-dev.jar",
+      "url": "https://cdn.modrinth.com/data/lp1S4OVU/versions/1.2.0/ping-1.2.0-dev.jar",
+      "hash": "sha512-28vdOJPe2xOf/MbaB5B5/9BCDBMipDhASgMEChbogfRow75i8vXa81EPAvMs91vr0a/Gm7NASLDLCh37+ArrTA==",
+      "gameVersions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "VCbthFog": {
+      "filename": "ping-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/lp1S4OVU/versions/1.2.1/ping-1.2.1.jar",
+      "hash": "sha512-ojwoNUub7OwNsnTQmaFtqw8HNRrxSvvh8oHlXidJDEdIQlo2BlY1UzOCaFk+FC8jDT/bRXgiGm4gHW2JDZ80Uw==",
+      "gameVersions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "evM734m1": {
+      "filename": "ping-1.1.0-dev.jar",
+      "url": "https://cdn.modrinth.com/data/lp1S4OVU/versions/1.1.0/ping-1.1.0-dev.jar",
+      "hash": "sha512-fLdiiTbaBIUnjFgtEXLfGc2qLqdynI7QO6VwSCipX6hPqAk3aH5PiVOu60/BfffcXLN2SHGkYWhOVjNLkW+bxQ==",
+      "gameVersions": [
+        "1.16.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.2+fabric": [
+      "VCbthFog",
+      "BiEjn9L8"
+    ],
+    "1.16.3+fabric": [
+      "VCbthFog",
+      "BiEjn9L8",
+      "evM734m1"
+    ],
+    "1.16.4+fabric": [
+      "VCbthFog",
+      "BiEjn9L8"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "omni-evo-aliens",
+  "projectId": "3FqmsBUy",
+  "versions": {
+    "KbEJ0B11": {
+      "filename": "omni_evo_aliens-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3FqmsBUy/versions/KbEJ0B11/omni_evo_aliens-1.0.0.jar",
+      "hash": "sha512-MtYqQAW6Rg7KT6Qpz46vkGnp244fiGGNnis+Q4P9dcO1RwRKi4jyIHVlWChqglIIwMqcz9rqRbF5TF7P9fS32Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "packet-fixer",
+          "projectId": "c7m1mi73",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        }
+      ]
+    },
+    "fLNkVr2A": {
+      "filename": "omni_evo_aliens-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/3FqmsBUy/versions/fLNkVr2A/omni_evo_aliens-1.0.1.jar",
+      "hash": "sha512-Y5hkX9VkmEARPAKPFkw2nEEu7DP1a3MSiYzjLlmLPW76JAjZ9u7XYMjYlFt4g1S0U/6GXQlaWgoK/LJt6arQWw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "packet-fixer",
+          "projectId": "c7m1mi73",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "fLNkVr2A",
+      "KbEJ0B11"
+    ],
+    "1.20.1+forge": [
+      "fLNkVr2A",
+      "KbEJ0B11"
+    ]
+  }
+}

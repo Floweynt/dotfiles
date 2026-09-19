@@ -1,0 +1,35 @@
+{
+  "slug": "dev-tools-unlocker",
+  "projectId": "O75ELOK6",
+  "versions": {
+    "R70pDVsY": {
+      "filename": "devtools-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/O75ELOK6/versions/R70pDVsY/devtools-1.0.0.jar",
+      "hash": "sha512-BZQpMsrL/ZFhayohXTCMuH/M+CKGG4nWIO9MqkMh/9Hk/G+SbkWLmLJjq6xwgyHXUsLMIYsoEj5vlweMt3nNYA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "R70pDVsY"
+    ],
+    "1.21.1+fabric": [
+      "R70pDVsY"
+    ]
+  }
+}

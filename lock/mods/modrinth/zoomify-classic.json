@@ -1,0 +1,52 @@
+{
+  "slug": "zoomify-classic",
+  "projectId": "OwBtqW8w",
+  "versions": {
+    "5edsTOnU": {
+      "filename": "ZoomifyClassic-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/OwBtqW8w/versions/0.2/ZoomifyClassic-0.2.jar",
+      "hash": "sha512-qJeQppA1XdlBc4JBajymmBYQf84m/1fymKsL9+LBHGfk2JLFofogvJiaMhgzCr7w6bisqX9araVYtydT0WnPPA==",
+      "gameVersions": [
+        "c0.30_01c"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "WLqO9skz": {
+      "filename": "ZoomifyClassic-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/OwBtqW8w/versions/0.1/ZoomifyClassic-0.1.jar",
+      "hash": "sha512-feJ/mr1W2/6PcepKsZYGSG6tfRSFq2xNPhPN7wMrYmMgwwS5KlKsdXiKY5ApdGDc2Iof7u5mKMuCsXLWd0X9mQ==",
+      "gameVersions": [
+        "c0.30_01c"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "c0.30_01c+fabric": [
+      "5edsTOnU",
+      "WLqO9skz"
+    ]
+  }
+}

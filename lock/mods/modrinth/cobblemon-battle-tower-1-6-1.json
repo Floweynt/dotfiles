@@ -1,0 +1,116 @@
+{
+  "slug": "cobblemon-battle-tower-1-6-1",
+  "projectId": "KENLdmFF",
+  "versions": {
+    "28IN8muL": {
+      "filename": "cobblemon_battle_tower-neoforge-1.7.12+1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/KENLdmFF/versions/28IN8muL/cobblemon_battle_tower-neoforge-1.7.12%2B1.6.1.jar",
+      "hash": "sha512-NMtTQqh1KbnQtnDcBgHc5a005CgK1QgkoVsviRplNl9X6ZVbTYuIT5d8e/H1HJklYZBczG4Cxmq0Hiizt1SnIg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        }
+      ]
+    },
+    "NRBIX8Ty": {
+      "filename": "cobblemon_battle_tower-fabric-1.7.11+1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/KENLdmFF/versions/NRBIX8Ty/cobblemon_battle_tower-fabric-1.7.11%2B1.6.1.jar",
+      "hash": "sha512-oLziLfYfXyrIH2hVCZyYjY6Rqy75RLkjVPVJFflmsTx9NU9BCQaGsZtOb9ee7iZHux9XSZefm87t8u34jZZNiQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "RSdNeIBT": {
+      "filename": "cobblemon_battle_tower-neoforge-1.7.11+1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/KENLdmFF/versions/RSdNeIBT/cobblemon_battle_tower-neoforge-1.7.11%2B1.6.1.jar",
+      "hash": "sha512-tWHJu3F5PMhIoH3mEsOSv1oUn+S5wpTpgOuknX+JJxc7vtKt9Nn7m/PfrOtTxQCEMZy3DWcbenH3P3FY2ofvjQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "USdK1ABl": {
+      "filename": "cobblemon_battle_tower-fabric-1.7.12+1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/KENLdmFF/versions/USdK1ABl/cobblemon_battle_tower-fabric-1.7.12%2B1.6.1.jar",
+      "hash": "sha512-wHlmNXDZDnVziS/aseaw5/QDupFMVLrxGCh4ZsDmOyiYwM0Ylujqgnl9UkuqExL4bdcR5dOaDyrjeNuJ+2NhdA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "rctapi",
+          "projectId": "CBfM2yw7",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "USdK1ABl",
+      "NRBIX8Ty"
+    ],
+    "1.21.1+neoforge": [
+      "28IN8muL",
+      "RSdNeIBT"
+    ]
+  }
+}

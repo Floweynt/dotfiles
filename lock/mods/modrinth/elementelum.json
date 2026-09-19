@@ -1,0 +1,83 @@
+{
+  "slug": "elementelum",
+  "projectId": "R8TytBGA",
+  "versions": {
+    "2OB8Jej9": {
+      "filename": "Elementelum [DP] v0.1.6.1.zip",
+      "url": "https://cdn.modrinth.com/data/R8TytBGA/versions/2OB8Jej9/Elementelum%20%5BDP%5D%20v0.1.6.1.zip",
+      "hash": "sha512-7x3gqo3H2LueTBqP+xV3CFMPerP1/t1l6tqq9qg9EypRNUR6HcDpRXb4TO2T9fkvnBouNju9mdGaScrMIw4udQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "vreds-dp-lib",
+          "projectId": "n0NYEIzQ",
+          "type": "required"
+        }
+      ]
+    },
+    "b3gOIgH5": {
+      "filename": "elementelum-0.1.6.1.jar",
+      "url": "https://cdn.modrinth.com/data/R8TytBGA/versions/b3gOIgH5/elementelum-0.1.6.1.jar",
+      "hash": "sha512-27T8PXpxICnd1NFnZBi6CNEYdBS4virLGfAkXh+GZSQJGEFdePk0l49iaLgBDYkVdTXUSXfGC3+nGsVsTOlT8g==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "vreds-dp-lib",
+          "projectId": "n0NYEIzQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+datapack": [
+      "2OB8Jej9"
+    ],
+    "1.21+fabric": [
+      "b3gOIgH5"
+    ],
+    "1.21+forge": [
+      "b3gOIgH5"
+    ],
+    "1.21+neoforge": [
+      "b3gOIgH5"
+    ],
+    "1.21+quilt": [
+      "b3gOIgH5"
+    ],
+    "1.21.1+datapack": [
+      "2OB8Jej9"
+    ],
+    "1.21.1+fabric": [
+      "b3gOIgH5"
+    ],
+    "1.21.1+forge": [
+      "b3gOIgH5"
+    ],
+    "1.21.1+neoforge": [
+      "b3gOIgH5"
+    ],
+    "1.21.1+quilt": [
+      "b3gOIgH5"
+    ]
+  }
+}

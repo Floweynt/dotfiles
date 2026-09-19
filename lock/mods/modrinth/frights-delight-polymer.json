@@ -1,0 +1,71 @@
+{
+  "slug": "frights-delight-polymer",
+  "projectId": "pk6WTmf2",
+  "versions": {
+    "ogbgM1wB": {
+      "filename": "frightsdelight-patch-1.4.1+1.21.8.jar",
+      "url": "https://cdn.modrinth.com/data/pk6WTmf2/versions/ogbgM1wB/frightsdelight-patch-1.4.1%2B1.21.8.jar",
+      "hash": "sha512-UUbB13l3S+OmciBN7kDb8SzZm+s/ttQeZ7q45wHuH6BszhDhtEMfy/Q/NcsdGhvVanu5WLoY/02RUPfEmcaEhg==",
+      "gameVersions": [
+        "1.21.8",
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        },
+        {
+          "slug": "farmers-delight-refabricated",
+          "projectId": "7vxePowz",
+          "type": "required"
+        },
+        {
+          "slug": "polymer",
+          "projectId": "xGdtZczs",
+          "type": "required"
+        },
+        {
+          "slug": "frights-delight",
+          "projectId": "awWvXlb2",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "ogbgM1wB"
+    ],
+    "1.21.10+quilt": [
+      "ogbgM1wB"
+    ],
+    "1.21.11+fabric": [
+      "ogbgM1wB"
+    ],
+    "1.21.11+quilt": [
+      "ogbgM1wB"
+    ],
+    "1.21.8+fabric": [
+      "ogbgM1wB"
+    ],
+    "1.21.8+quilt": [
+      "ogbgM1wB"
+    ],
+    "1.21.9+fabric": [
+      "ogbgM1wB"
+    ],
+    "1.21.9+quilt": [
+      "ogbgM1wB"
+    ]
+  }
+}

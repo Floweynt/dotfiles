@@ -1,0 +1,116 @@
+{
+  "slug": "weightless",
+  "projectId": "7BImiRxt",
+  "versions": {
+    "9MkOkOpg": {
+      "filename": "weightless-1.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/7BImiRxt/versions/9MkOkOpg/weightless-1.0.1-1.20.1.jar",
+      "hash": "sha512-zJzvQiLYUfklA6PtJDBsE56qIqPw4HxXZRoj06C92syDJsKYbzp09TTLHSAD0zisIqhEGc7p1LHB+Ph3pPQMSw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "MULb7M1E": {
+      "filename": "weightless-1.0.0-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/7BImiRxt/versions/MULb7M1E/weightless-1.0.0-1.20.1.jar",
+      "hash": "sha512-h0C+Qc6sj/lH3xgLQ+ET9XFulWmQnMfUZNRVwCd6ccbTFDP6eUa7xvr9hX1RBsRc+R7WRgsOY503d7U2LcXTig==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        },
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        }
+      ]
+    },
+    "mQp8xFeG": {
+      "filename": "weightless-1.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/7BImiRxt/versions/mQp8xFeG/weightless-1.0.1-1.21.1.jar",
+      "hash": "sha512-LtZWY1QznzA1S1wE00lDQeP4fwiEeXoYa4F/L10114iTnl21G+AieRmmxYYKC4Yz4eTxg+6t81AUSngOQwVrHg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        }
+      ]
+    },
+    "sgVdxYk4": {
+      "filename": "weightless-1.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/7BImiRxt/versions/sgVdxYk4/weightless-1.0.0-1.21.1.jar",
+      "hash": "sha512-YG7+xqeqFcfqdqUHTomje7FuiLnjUoItwlqK1Owixn3G4cqZsOEEjZmc3vI/pwk6qHXqp+wi9vr4u9ckZeLQSg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cardinal-components-api",
+          "projectId": "K01OU20C",
+          "type": "required"
+        },
+        {
+          "slug": "satin-api",
+          "projectId": "fRbqPLg4",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "9MkOkOpg",
+      "MULb7M1E"
+    ],
+    "1.21.1+fabric": [
+      "mQp8xFeG",
+      "sgVdxYk4"
+    ]
+  }
+}

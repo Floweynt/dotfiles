@@ -1,0 +1,42 @@
+{
+  "slug": "ciif",
+  "projectId": "ugdIcPlt",
+  "versions": {
+    "Dd3HbRCH": {
+      "filename": "ciif-1.0.0+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/ugdIcPlt/versions/1.0.0%2B1.19/ciif-1.0.0%2B1.19.jar",
+      "hash": "sha512-DMGbGsXMCBOCcVpmCWKtAmlzwkmDw7bGN0uzZ8148wpYEfIAeW/JU8pPKSf/nGzvZlthAAACnzRAj1xdUA0T8Q==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    },
+    "my3AayFR": {
+      "filename": "ciif-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ugdIcPlt/versions/1.0.0/ciif-1.0.0.jar",
+      "hash": "sha512-jBOfMf8AMNoSsTDcT5jU7oxvjyIN/YgPNb+vdj5Mih/bcsowNTTi2v2RHxgSp5oDmDHl9l4eB14HC3xuDLrOCA==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "my3AayFR"
+    ],
+    "1.19+fabric": [
+      "Dd3HbRCH"
+    ]
+  }
+}

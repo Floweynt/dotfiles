@@ -1,0 +1,59 @@
+{
+  "slug": "item-deleter",
+  "projectId": "3UZPlpEE",
+  "versions": {
+    "JC3skdlZ": {
+      "filename": "itemdeleter-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3UZPlpEE/versions/JC3skdlZ/itemdeleter-1.0.0.jar",
+      "hash": "sha512-d7WFzzOMRVrUjYvZbA6aAtNnGq2gHCXftdM5Vr12CT+6mPuHGCYtosEKo+3B6ORweNyEKyWeFWXtchMnAIhcTQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "SvuymIgO": {
+      "filename": "itemdeleter-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/3UZPlpEE/versions/SvuymIgO/itemdeleter-1.0.0.jar",
+      "hash": "sha512-rjXTI7wnkT6dS10t7ZMy7NCkCFy9i3QfqjYbP9LaFEPSl8+oEa2WAnf1cTiyUA3fH1XhbKPC57+SZj9CGhJ3dA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "JC3skdlZ"
+    ],
+    "1.21.1+fabric": [
+      "SvuymIgO"
+    ]
+  }
+}

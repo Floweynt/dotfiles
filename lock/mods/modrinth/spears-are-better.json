@@ -1,0 +1,50 @@
+{
+  "slug": "spears-are-better",
+  "projectId": "ZsyZuTcQ",
+  "versions": {
+    "8KEMo7RF": {
+      "filename": "heart-displacement-26.1.jar",
+      "url": "https://cdn.modrinth.com/data/ZsyZuTcQ/versions/8KEMo7RF/heart-displacement-26.1.jar",
+      "hash": "sha512-WKMEV1R9w6Vd9ek8HYwqOXpCiemMDs6ONblKky4XM0zgR67WuIMr39ec+OO6cUG8AUB0eeK7i0RQRd+pQcbpBg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ic5DNmqe": {
+      "filename": "heart-displacement-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/ZsyZuTcQ/versions/ic5DNmqe/heart-displacement-1.0.0.jar",
+      "hash": "sha512-UoRfolVF9YL7KhaDOFYRRX5JrxONhiFOMNYJY+G8bkPtO56FpPK4XIphDR0sOr3Bh6hmJ+OjV21kFFc6vsovMw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "ic5DNmqe"
+    ],
+    "26.1+fabric": [
+      "8KEMo7RF"
+    ],
+    "26.1.1+fabric": [
+      "8KEMo7RF"
+    ],
+    "26.1.2+fabric": [
+      "8KEMo7RF"
+    ]
+  }
+}

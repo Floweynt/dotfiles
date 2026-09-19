@@ -1,0 +1,58 @@
+{
+  "slug": "copper-cauldron",
+  "projectId": "7tZNLHmT",
+  "versions": {
+    "bMpkBe7i": {
+      "filename": "copper-cauldron-1.0.0-beta.2.jar",
+      "url": "https://cdn.modrinth.com/data/7tZNLHmT/versions/bMpkBe7i/copper-cauldron-1.0.0-beta.2.jar",
+      "hash": "sha512-gWLgFkBLNXwByXsRLOwHH+0mvgKi1/cxAc9TPtIoyj2GhF/QMVLU/u5wAmNbeCLZBAvvDsMS1LcD+2mJ7VdAaA==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "n9P5lECc": {
+      "filename": "copper-cauldron-1.0.0-beta.1.jar",
+      "url": "https://cdn.modrinth.com/data/7tZNLHmT/versions/n9P5lECc/copper-cauldron-1.0.0-beta.1.jar",
+      "hash": "sha512-1hNa7phbK5S1lpAu5Rx9D/cjmWpcsTZK83JaFxQsk6hmmPJpycxeAFsY2vC6wivEQdIO1Q+ip9EfuV1bGF3TtQ==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.8+fabric": [
+      "bMpkBe7i",
+      "n9P5lECc"
+    ],
+    "1.21.8+quilt": [
+      "bMpkBe7i",
+      "n9P5lECc"
+    ]
+  }
+}

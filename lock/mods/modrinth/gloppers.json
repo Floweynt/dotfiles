@@ -1,0 +1,120 @@
+{
+  "slug": "gloppers",
+  "projectId": "yz1kFKTL",
+  "versions": {
+    "20bUGnNL": {
+      "filename": "gloppers-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/yz1kFKTL/versions/20bUGnNL/gloppers-1.0.3.jar",
+      "hash": "sha512-VmXyultoYgIZznZw91tQ69N8uS+4AaeLh5Ll5nQW8/7K5BrLa6p7myzRAOa4/ni58+uXHRGXEKjz9gclVxu1Tg==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "MxPQJUKp": {
+      "filename": "gloppers-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/yz1kFKTL/versions/MxPQJUKp/gloppers-1.0.2.jar",
+      "hash": "sha512-utJO8m0H6Ed5wqupa/OHoZnwRFK4R8bqvPH3ywB9h8uWBGBnsC0iZY1DMgkaNFf74kA0clfuQgj4/ZR6/GTVig==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "aEzEf9Sh": {
+      "filename": "gloppers-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/yz1kFKTL/versions/aEzEf9Sh/gloppers-1.0.1.jar",
+      "hash": "sha512-aZqzNJwIFSM97RXtZyASpQDYAT/+0qSaiqH+d4SUQXQEDlIvq18on8k4ojBWoMmHiiks8JaIv67iAgqriuCARQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "bURuz9iP": {
+      "filename": "gloppers-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/yz1kFKTL/versions/bURuz9iP/gloppers-1.0.0.jar",
+      "hash": "sha512-9cS7tzgprC7lBMZd7PgPTxWRafroWIgw8U8+JyNcSAHk1DNrRiiIsbs2dCI3M23RHLuG3aNwEUZZO1Pso8k0mQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "aEzEf9Sh",
+      "bURuz9iP"
+    ],
+    "1.20+quilt": [
+      "aEzEf9Sh",
+      "bURuz9iP"
+    ],
+    "1.20.1+fabric": [
+      "aEzEf9Sh",
+      "bURuz9iP"
+    ],
+    "1.20.1+quilt": [
+      "aEzEf9Sh",
+      "bURuz9iP"
+    ],
+    "1.20.4+fabric": [
+      "MxPQJUKp"
+    ],
+    "1.20.4+quilt": [
+      "MxPQJUKp"
+    ],
+    "1.21+fabric": [
+      "20bUGnNL"
+    ],
+    "1.21+quilt": [
+      "20bUGnNL"
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "slug": "nogravity",
+  "projectId": "NpjL6EKK",
+  "versions": {
+    "6d5ulnog": {
+      "filename": "nogravity-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/NpjL6EKK/versions/6d5ulnog/nogravity-1.1.jar",
+      "hash": "sha512-oJGpj8+pC5bLfbcgTDNarSkNYVmqQAm4M8ct6nkXww/m7lW1/oepxL7lvKNa3ME59mYsmWZaBRIf4ajagKZetg==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "CQ1D21Gt": {
+      "filename": "nogravity-mod-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/NpjL6EKK/versions/CQ1D21Gt/nogravity-mod-1.1.1.jar",
+      "hash": "sha512-6qVCsYYBslk4D4Yet++NIhX2RR4IX8/6nBklnvtYTv2ydMRt325bT+9sElkApiY36z/6jj0/UhnTArgtalqBaQ==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "T2PyOftZ": {
+      "filename": "nogravity-mod-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/NpjL6EKK/versions/T2PyOftZ/nogravity-mod-1.1.2.jar",
+      "hash": "sha512-vLwNf/0+dc+RyiOKZQpKP5K7mMAqBqofHmBJWFH1TgRSyfG7ms8hiXEnZRMKxNsyrypi91jiEzQ+yFNqRs+Liw==",
+      "gameVersions": [
+        "1.16",
+        "1.16.1",
+        "1.16.2",
+        "1.16.3",
+        "1.16.4",
+        "1.16.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "WE9NnIS9": {
+      "filename": "nogravity-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/NpjL6EKK/versions/WE9NnIS9/nogravity-1.1.jar",
+      "hash": "sha512-LhGRsNioSkWOBdBIG/JDQj4tJHMZlvetAJ9zFuOgILEYiilf6ZfNgos4RdrjdHEanJDp2s1Qmdj7oeJeoH19sw==",
+      "gameVersions": [
+        "1.12.2"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "aaoYLOK6": {
+      "filename": "nogravity-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/NpjL6EKK/versions/aaoYLOK6/nogravity-1.2.jar",
+      "hash": "sha512-jtClyXzCDmQBdn+PvNvKHEZb3PnzK4zSscLhdrUsrd+iSvXYyImz36NyKaY4FCXVR6UZ3yhM1zdUOCOZnkcXRA==",
+      "gameVersions": [
+        "1.16.5"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.12.2+forge": [
+      "WE9NnIS9"
+    ],
+    "1.16+fabric": [
+      "T2PyOftZ",
+      "CQ1D21Gt"
+    ],
+    "1.16.1+fabric": [
+      "T2PyOftZ",
+      "CQ1D21Gt"
+    ],
+    "1.16.2+fabric": [
+      "T2PyOftZ",
+      "CQ1D21Gt"
+    ],
+    "1.16.3+fabric": [
+      "T2PyOftZ",
+      "CQ1D21Gt"
+    ],
+    "1.16.4+fabric": [
+      "T2PyOftZ",
+      "CQ1D21Gt"
+    ],
+    "1.16.5+fabric": [
+      "T2PyOftZ",
+      "CQ1D21Gt"
+    ],
+    "1.16.5+forge": [
+      "aaoYLOK6",
+      "6d5ulnog"
+    ]
+  }
+}

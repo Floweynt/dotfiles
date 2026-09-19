@@ -1,0 +1,58 @@
+{
+  "slug": "campfried-egg",
+  "projectId": "X9RYCN8m",
+  "versions": {
+    "OipP7q9q": {
+      "filename": "campfriedegg-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/X9RYCN8m/versions/OipP7q9q/campfriedegg-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-NVwzyjkQMh1tazmSP6Nbmur/gACflTY0uglpfvc8qLan4tAsMRmw98Tsmb22mjZK4Dx54KXe+V4TSaXfyXgKZg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Sxh84Njw": {
+      "filename": "campfriedegg-1.0.1+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/X9RYCN8m/versions/Sxh84Njw/campfriedegg-1.0.1%2B1.20.1.jar",
+      "hash": "sha512-OEI/wGMQMtbTDQolQdCnCasu8xRVpDRF6t0yucPzQYUNyOuWfRvJKzpFUY6SH8bFni+JpdRfyHe4gMdoP57ueg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "Sxh84Njw",
+      "OipP7q9q"
+    ],
+    "1.20.1+fabric": [
+      "Sxh84Njw",
+      "OipP7q9q"
+    ]
+  }
+}

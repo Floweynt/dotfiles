@@ -1,0 +1,65 @@
+{
+  "slug": "combocounter",
+  "projectId": "JnP8itgk",
+  "versions": {
+    "3jJ3ZvHW": {
+      "filename": "combocounter-1.21.9-1.21.11.jar",
+      "url": "https://cdn.modrinth.com/data/JnP8itgk/versions/3jJ3ZvHW/combocounter-1.21.9-1.21.11.jar",
+      "hash": "sha512-TdSNlk/k8GmB7TubbCW3TYBzlKVAI4BjIEAbOirD+lKaVsTXvnLv6fca5btah60Pq6Lfvr4SXmvN1Vz59xzIZg==",
+      "gameVersions": [
+        "1.21.9",
+        "1.21.10",
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "kgZAcTUd": {
+      "filename": "combocounter-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/JnP8itgk/versions/kgZAcTUd/combocounter-1.1.0.jar",
+      "hash": "sha512-m5IqEHYnHgj1sR1CgKgeWb4onvsBkWUCiHEoOhQI+5ydnEyy4js8porXcufNRsiSdEeC+Is1bXOtfLlLIxVNBg==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+fabric": [
+      "3jJ3ZvHW"
+    ],
+    "1.21.11+fabric": [
+      "3jJ3ZvHW"
+    ],
+    "1.21.4+fabric": [
+      "kgZAcTUd"
+    ],
+    "1.21.8+fabric": [
+      "kgZAcTUd"
+    ],
+    "1.21.9+fabric": [
+      "3jJ3ZvHW"
+    ]
+  }
+}

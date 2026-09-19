@@ -1,0 +1,46 @@
+{
+  "slug": "mage-hand",
+  "projectId": "RuI8q4lz",
+  "versions": {
+    "feTaUSTF": {
+      "filename": "magehand-1.1.3-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/RuI8q4lz/versions/feTaUSTF/magehand-1.1.3-1.19.2.jar",
+      "hash": "sha512-KHsSO8wdKg00h0PWIMYRzU5WzRsNfq3/wO6QePeD2Z8HoBe7JQpJA+YDsE4Lexf6ZlXRJc99DTBEt92FQi/khg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "skylib",
+          "projectId": "SXYcZO3i",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "feTaUSTF"
+    ]
+  }
+}

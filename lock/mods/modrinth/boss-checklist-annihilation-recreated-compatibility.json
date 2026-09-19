@@ -1,0 +1,104 @@
+{
+  "slug": "boss-checklist-annihilation-recreated-compatibility",
+  "projectId": "og8I66rZ",
+  "versions": {
+    "Ui0lyMCF": {
+      "filename": "Boss Checklist - Annihilation Recreated Compatibility 1.20.1 1.0.0 Forge & NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/og8I66rZ/versions/Ui0lyMCF/Boss%20Checklist%20-%20Annihilation%20Recreated%20Compatibility%201.20.1%201.0.0%20Forge%20%26%20NeoForge.jar",
+      "hash": "sha512-O3SR3ecSvC/nbHZ5aWH5NaoRcQPi87cSmWNWpQ85NEdnjny4momfjPD2ncl7DUhZJ/ZUynjDzdGPynR9K4a/+g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "annihilation-recreated",
+          "projectId": "ZMHa3gsI",
+          "type": "required"
+        },
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        }
+      ]
+    },
+    "WT1C1vTN": {
+      "filename": "Boss Checklist - Annihilation Recreated Compatibility 1.21.1 1.0.0 Forge & NeoForge.jar",
+      "url": "https://cdn.modrinth.com/data/og8I66rZ/versions/WT1C1vTN/Boss%20Checklist%20-%20Annihilation%20Recreated%20Compatibility%201.21.1%201.0.0%20Forge%20%26%20NeoForge.jar",
+      "hash": "sha512-Bj2BaevcwUaOeUMxdOGyeE2RkbWzjhip0Xn8wJL8udkn+IHtj/EqfdgjRa8gI8kgLtDd6WKMGfGP1h6zWdcqfg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "annihilation-recreated",
+          "projectId": "ZMHa3gsI",
+          "type": "required"
+        },
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        }
+      ]
+    },
+    "dg9P0NeD": {
+      "filename": "Boss Checklist - Annihilation Recreated Compatibility 1.20.1 1.0.0 Fabric & Quilt.jar",
+      "url": "https://cdn.modrinth.com/data/og8I66rZ/versions/dg9P0NeD/Boss%20Checklist%20-%20Annihilation%20Recreated%20Compatibility%201.20.1%201.0.0%20Fabric%20%26%20Quilt.jar",
+      "hash": "sha512-0AwsaHqc3unT2cjJP8bGHMqwJKVBSkfv5v9TFFdis52QmZ4GmIPl39xGatxhDxGWJEgVMVWW0Zk41OIaI6Gvxw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "boss-checklist",
+          "projectId": "z1Dv56jq",
+          "type": "required"
+        },
+        {
+          "slug": "annihilation-recreated",
+          "projectId": "ZMHa3gsI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "dg9P0NeD"
+    ],
+    "1.20.1+forge": [
+      "Ui0lyMCF"
+    ],
+    "1.20.1+neoforge": [
+      "Ui0lyMCF"
+    ],
+    "1.20.1+quilt": [
+      "dg9P0NeD"
+    ],
+    "1.21+neoforge": [
+      "WT1C1vTN"
+    ],
+    "1.21.1+neoforge": [
+      "WT1C1vTN"
+    ]
+  }
+}

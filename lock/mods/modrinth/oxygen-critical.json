@@ -1,0 +1,58 @@
+{
+  "slug": "oxygen-critical",
+  "projectId": "ixnDqyV7",
+  "versions": {
+    "bcf6RCoM": {
+      "filename": "oxygen-critical-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/ixnDqyV7/versions/bcf6RCoM/oxygen-critical-1.0.jar",
+      "hash": "sha512-fHj9+b90a6KQ0iwhQYDyguYFw4flWQuv7XPM7ns4jX5ei4wg76z3g7VZd2DUpuDDm1ntAXowN5i/38QJniUoug==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    },
+    "h6uAotSK": {
+      "filename": "oxygen-critical-1.1.jar",
+      "url": "https://cdn.modrinth.com/data/ixnDqyV7/versions/h6uAotSK/oxygen-critical-1.1.jar",
+      "hash": "sha512-RVLB4w9NKwQamfzQ1hRMRau16mBwIlZSbfXkkgOkcj5iA6IuDZrikrX3pr9mVcXcc1IzfqpTPwyOL7ukvsm0Gw==",
+      "gameVersions": [
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "midnightlib",
+          "projectId": "codAaoxh",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "bcf6RCoM"
+    ],
+    "1.20.1+quilt": [
+      "bcf6RCoM"
+    ],
+    "1.21.5+fabric": [
+      "h6uAotSK"
+    ]
+  }
+}

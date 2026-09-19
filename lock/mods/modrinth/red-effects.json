@@ -1,0 +1,62 @@
+{
+  "slug": "red-effects",
+  "projectId": "iktHefsG",
+  "versions": {
+    "5yGVQeyD": {
+      "filename": "red_effetcs-v1.1.jar",
+      "url": "https://cdn.modrinth.com/data/iktHefsG/versions/5yGVQeyD/red_effetcs-v1.1.jar",
+      "hash": "sha512-O1Sb0kX6szNRdMfNi3G/5gAcLWwzZsX/dFDtl7G/hZZu0jo/8qEK5zB6Xp9UxQDq6KUFTGa3W+IF74F10nmVUg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    },
+    "h2GlblFd": {
+      "filename": "red_effects_v1.0.jar",
+      "url": "https://cdn.modrinth.com/data/iktHefsG/versions/h2GlblFd/red_effects_v1.0.jar",
+      "hash": "sha512-rKQFnU8a0bVYZFiCM6fQkkZysGiqgeoBDaGc6PZH+50wYy+0FgGwmdrS/azq/Y0112+GkcdT2nS7rYEGb4erKw==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "5yGVQeyD",
+      "h2GlblFd"
+    ]
+  }
+}

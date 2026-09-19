@@ -1,0 +1,104 @@
+{
+  "slug": "terrablenderfix",
+  "projectId": "t2pgJYye",
+  "versions": {
+    "J365UgXC": {
+      "filename": "terrablenderfix-fabric-1.21.1-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/t2pgJYye/versions/J365UgXC/terrablenderfix-fabric-1.21.1-0.0.1.jar",
+      "hash": "sha512-RKZ+PkzSfnMQ9Vqvve0tOe3muP9sMiD+13A23RluDyIyU3eA0MJ6CtHGIEJA7IPAsQcMiDhpVzmtXdwKTS2TWw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "dVHEmnF2": {
+      "filename": "terrablenderfix-forge-1.20.1-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/t2pgJYye/versions/dVHEmnF2/terrablenderfix-forge-1.20.1-0.0.1.jar",
+      "hash": "sha512-w32v64HQItmqDK/D8dVaZXdjk3QVvU+VeVR6MoxZ4P/XdjmfHvF4Xtuneku88qYRpoKofOLl3c3JZ6c3soZaTQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "mj0Dc8K5": {
+      "filename": "terrablenderfix-neoforge-1.21.1-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/t2pgJYye/versions/mj0Dc8K5/terrablenderfix-neoforge-1.21.1-0.0.1.jar",
+      "hash": "sha512-tU3nQt7A2SJ7GsgF90mFA3al74n8PXNwq4XslsUJ5j4A/CbJTrVrkcvdRAigGsg7SxVxCAx9+l+ysKcf5qBcLQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    },
+    "v9qr2Vsl": {
+      "filename": "terrablenderfix-fabric-1.20.1-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/t2pgJYye/versions/v9qr2Vsl/terrablenderfix-fabric-1.20.1-0.0.1.jar",
+      "hash": "sha512-2qVQTVW+E1HE3tons7v07sa/5FivblWszOKl48/njOsNkAf7fG/KR2mrBfikWO1Sqr2hMF6w4JKs3C0Hd4EfTQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "terrablender",
+          "projectId": "kkmrDlKT",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "v9qr2Vsl"
+    ],
+    "1.20.1+forge": [
+      "dVHEmnF2"
+    ],
+    "1.21+neoforge": [
+      "mj0Dc8K5"
+    ],
+    "1.21.1+fabric": [
+      "J365UgXC"
+    ],
+    "1.21.1+neoforge": [
+      "mj0Dc8K5"
+    ]
+  }
+}

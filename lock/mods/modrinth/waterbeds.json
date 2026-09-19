@@ -1,0 +1,31 @@
+{
+  "slug": "waterbeds",
+  "projectId": "VPcEJQoF",
+  "versions": {
+    "lCTOgDkt": {
+      "filename": "waterbeds-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/VPcEJQoF/versions/lCTOgDkt/waterbeds-1.0.0.jar",
+      "hash": "sha512-UoUR0wwB/6ctNz2Pn/sa5r9QifaTn33tP6hYruGBdfPM5kOoHGcZ2wa99G6e0BapBrkApR6VRjwNzYuSlgCjwg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "lCTOgDkt"
+    ]
+  }
+}

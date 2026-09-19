@@ -1,0 +1,44 @@
+{
+  "slug": "power-strike",
+  "projectId": "SNVLVAgJ",
+  "versions": {
+    "WiQQvOPk": {
+      "filename": "powerstrike-1.20.1-v0.1.jar",
+      "url": "https://cdn.modrinth.com/data/SNVLVAgJ/versions/WiQQvOPk/powerstrike-1.20.1-v0.1.jar",
+      "hash": "sha512-Vby9RGrAw6MXU+6pOcFJ30mdDC/wH9FrShed1i/6KobVtFMpkcHEsbUOiVVlVj/D+lbWQAVM5V29yDWtkNQXig==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rhuBY1M3": {
+      "filename": "powerstrike-1.20.1-v0.2.jar",
+      "url": "https://cdn.modrinth.com/data/SNVLVAgJ/versions/rhuBY1M3/powerstrike-1.20.1-v0.2.jar",
+      "hash": "sha512-0wovt0fvZWBugCt6xegumVQqfd2K/SqSZM9k80xcLsGSEXBsqC3NgdtceQ7h5mHO7mX5TQz/BOMDddv8VXKygA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "rhuBY1M3"
+    ],
+    "1.20.1+fabric": [
+      "rhuBY1M3",
+      "WiQQvOPk"
+    ]
+  }
+}

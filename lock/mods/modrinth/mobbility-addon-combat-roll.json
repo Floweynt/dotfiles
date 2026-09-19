@@ -1,0 +1,74 @@
+{
+  "slug": "mobbility-addon-combat-roll",
+  "projectId": "JKye4yiT",
+  "versions": {
+    "1MGL8AGM": {
+      "filename": "mobbility-addon-combat-roll-fabric-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JKye4yiT/versions/1MGL8AGM/mobbility-addon-combat-roll-fabric-1.0.0.jar",
+      "hash": "sha512-UePBg4xPg4CN/Rokomj0/uyvz38HCxGAdJNvdZi/lVnM2DKrZmE7RZ3NPQTyMnZAyULCrKYePC3U8j6v1ujRVA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "mobbility",
+          "projectId": "Es8xro21",
+          "type": "required"
+        },
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        }
+      ]
+    },
+    "yYHSKwtV": {
+      "filename": "mobbility-addon-combat-roll-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JKye4yiT/versions/yYHSKwtV/mobbility-addon-combat-roll-forge-1.0.0.jar",
+      "hash": "sha512-Eaxg43vLKBImbzXvSRiTHYAyYhytPnxcKyC3mli37yBbYKd+fjvRK8obRkaL5rXMGabbX+7Kq7UAp7BEtfVxeQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "mobbility",
+          "projectId": "Es8xro21",
+          "type": "required"
+        },
+        {
+          "slug": "combat-roll",
+          "projectId": "wGKYL7st",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "1MGL8AGM"
+    ],
+    "1.20.1+forge": [
+      "yYHSKwtV"
+    ]
+  }
+}

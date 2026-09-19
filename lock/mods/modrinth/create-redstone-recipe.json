@@ -1,0 +1,123 @@
+{
+  "slug": "create-redstone-recipe",
+  "projectId": "CYSgjm6s",
+  "versions": {
+    "45QqyfYO": {
+      "filename": "create-redstone-recipe-1.jar",
+      "url": "https://cdn.modrinth.com/data/CYSgjm6s/versions/45QqyfYO/create-redstone-recipe-1.jar",
+      "hash": "sha512-6uB68VtncFOkchDov2TZqfd4SG0O8VgK6KafP2k/TdtxaCdG2RofglP63yda8jF7LX14jsCgzqa7NsRxOWTXgw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "HKnZQ6QA": {
+      "filename": "redstone.zip",
+      "url": "https://cdn.modrinth.com/data/CYSgjm6s/versions/HKnZQ6QA/redstone.zip",
+      "hash": "sha512-Fz+PX/HqMDFbjYvsinfK6h6RYVkIw20zheXcsVWt6eMe83CfosqmJjyVWi2pLfuhkDQsLK2vlMxN2UfAJtxfHw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "QZfHuLs0": {
+      "filename": "Create_Redstone_Recipe.zip",
+      "url": "https://cdn.modrinth.com/data/CYSgjm6s/versions/QZfHuLs0/Create_Redstone_Recipe.zip",
+      "hash": "sha512-D5+e9X+EXpZMwJcO9wVZm2bLqRhefFUurA3TryRWxlZexK0lKfesVDyvGjGbQHlhj39y7kD7jMmVDPNwqV5DVQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "fwgphbRy": {
+      "filename": "create-redstone-recipe-1.jar",
+      "url": "https://cdn.modrinth.com/data/CYSgjm6s/versions/fwgphbRy/create-redstone-recipe-1.jar",
+      "hash": "sha512-b7YFmMqqrSN9/jqdgoWjuGm0meFiHfs3WC9i1fA/FaeqlGdRa4hWPoL9o4AnyPfNkYkph3QmwVJbUHmr65UulA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "ykGQ505W": {
+      "filename": "create-redstone-recipe-1.jar",
+      "url": "https://cdn.modrinth.com/data/CYSgjm6s/versions/ykGQ505W/create-redstone-recipe-1.jar",
+      "hash": "sha512-BdOOWOCA/v6vYpnJQ+jbxS2JfMI+JRnLHwO15jcU+Ix0ceszgUxnVnHkRqc0O9zlilXUH+VTPeLtAVrcpB4mhw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+datapack": [
+      "HKnZQ6QA"
+    ],
+    "1.20.1+fabric": [
+      "45QqyfYO"
+    ],
+    "1.20.1+forge": [
+      "ykGQ505W"
+    ],
+    "1.21.1+datapack": [
+      "QZfHuLs0"
+    ],
+    "1.21.1+neoforge": [
+      "fwgphbRy"
+    ]
+  }
+}

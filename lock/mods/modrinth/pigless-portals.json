@@ -1,0 +1,79 @@
+{
+  "slug": "pigless-portals",
+  "projectId": "Gwafw3jL",
+  "versions": {
+    "6vgnhyhv": {
+      "filename": "piglessportals-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/Gwafw3jL/versions/1.1.0/piglessportals-1.1.0.jar",
+      "hash": "sha512-61t6Yea4t1/nbYPWoJMOensnSp/ilmCB3V+lAGMjD/gyFZZGw8vfyLW82Cy4C48QKL9b5qcfjDB8W8km9IjHUw==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "ESgOmkRZ": {
+      "filename": "piglessportals-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Gwafw3jL/versions/1.1.1-fabric/piglessportals-1.1.1.jar",
+      "hash": "sha512-8NUdENFcDje70PidGwpH4ouKcjpcTkn2QnaPfkSH9k5yCknauKYjE2nfivYsFlR+X4Yu3+umNr5DRLr533tqQA==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Up7qkohC": {
+      "filename": "piglessportals-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/Gwafw3jL/versions/1.1.1/piglessportals-1.1.1.jar",
+      "hash": "sha512-nrmYIQTPLkTnUdXxx/eMcMqTzcapl+jRRWS5UQmNabrvbbphLFdlICkoEkt6wrHIUVZDWwuu8joUFBQzv59wrw==",
+      "gameVersions": [
+        "1.17.1",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "6vgnhyhv"
+    ],
+    "1.17.1+fabric": [
+      "Up7qkohC",
+      "6vgnhyhv"
+    ],
+    "1.18.1+fabric": [
+      "Up7qkohC"
+    ],
+    "1.18.2+fabric": [
+      "Up7qkohC"
+    ],
+    "1.19+fabric": [
+      "ESgOmkRZ"
+    ],
+    "1.19.1+fabric": [
+      "ESgOmkRZ"
+    ]
+  }
+}

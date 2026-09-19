@@ -1,0 +1,42 @@
+{
+  "slug": "randomspawn",
+  "projectId": "DXAEhodj",
+  "versions": {
+    "9JeHcTQK": {
+      "filename": "randomspawn-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DXAEhodj/versions/9JeHcTQK/randomspawn-1.0.jar",
+      "hash": "sha512-Vl81riwK1u2gpzz54e1t2XMYf0yW1yHjnKWFlk8n+upr4CpcpH1+7pQDbcInQMTQGB56DWympl4+Wx1zxAflbw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    },
+    "SMNnpliG": {
+      "filename": "randomspawn-0.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/DXAEhodj/versions/SMNnpliG/randomspawn-0.1.1.jar",
+      "hash": "sha512-LJzKj9hxKXst96T17U2R6RU2AW+trmbDIuiS1X8Rv6ks1e5asn7CriKmYP0DiBBgChO7kqe08kluvXR3bLbStg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "dedicated_server_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "SMNnpliG"
+    ],
+    "1.21.1+fabric": [
+      "9JeHcTQK"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "slug": "stratagems",
+  "projectId": "L6a2K50V",
+  "versions": {
+    "H9Y3BB9Y": {
+      "filename": "Stratagems-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/L6a2K50V/versions/H9Y3BB9Y/Stratagems-1.0.0.jar",
+      "hash": "sha512-lcwrQBr/BerXNj6pTP/a7UkK/VvZsYUSFTjWxpO7hsuTeh+ScHJY5+OBY6GIYDKhL/1t3dqb4Zg2b8YQoCFuMw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "OitfwjL0": {
+      "filename": "Stratagems-forge-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/L6a2K50V/versions/OitfwjL0/Stratagems-forge-1.0.0.jar",
+      "hash": "sha512-x3RFtrFlcbpb5dMTLnWWbnrlKHy0C+lxo6ArzBzsA84qTfZNScjVfOa1PlzeWeSpaeCWbo0JJ3MtwPTr7dzktg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ht3hrbdQ": {
+      "filename": "stratagems-fabric-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L6a2K50V/versions/ht3hrbdQ/stratagems-fabric-1.1.0.jar",
+      "hash": "sha512-FrRyEngCVmWGEFt+r8ajVFKvkDYpo6fhr5OGOv8l4pMVmcP7GwFodKR9QNhzUO8LKBv+oMZkyTm9IfYmduoR/g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "wZaz5YrV": {
+      "filename": "stratagems-forge-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/L6a2K50V/versions/wZaz5YrV/stratagems-forge-1.1.0.jar",
+      "hash": "sha512-AQ2r5DMEzq8VwQBEWxo12BgTbDTUTbqwQOoPzTN4kktvjSH5tJaLbFswAzYgCW7YReG/fs8L7WH9vZnhH4JIDw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "ht3hrbdQ",
+      "H9Y3BB9Y"
+    ],
+    "1.20.1+forge": [
+      "wZaz5YrV",
+      "OitfwjL0"
+    ]
+  }
+}

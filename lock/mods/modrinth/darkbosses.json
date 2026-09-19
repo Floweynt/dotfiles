@@ -1,0 +1,106 @@
+{
+  "slug": "darkbosses",
+  "projectId": "4MxFpxyi",
+  "versions": {
+    "a7K9rg2u": {
+      "filename": "darkbosses-fabric-1.18.2-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/4MxFpxyi/versions/a7K9rg2u/darkbosses-fabric-1.18.2-1.0.2.jar",
+      "hash": "sha512-620awIxoVaYZHnn307L71Wlj9xqqkH4EbHEQPMAlInJCnLIaoCrZpZkGnKe8BCdJpR8mIEBHx86rBDcR9AqnIQ==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "bosses-of-mass-destruction",
+          "projectId": "du3UfiLL",
+          "type": "required"
+        },
+        {
+          "slug": "mariums-soulslike-weaponry",
+          "projectId": "oX6SohLj",
+          "type": "required"
+        }
+      ]
+    },
+    "c11W2tDB": {
+      "filename": "darkbosses-fabric-1.20.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/4MxFpxyi/versions/c11W2tDB/darkbosses-fabric-1.20.1-1.0.1.jar",
+      "hash": "sha512-qJV6EXbc2eOcGDgVpSbkQ2HtxXILxpS0ZZx/mS1Ek0MRlpFAy/vvXE3H0BAAWdR/fpCFaJ2j9SXdxODo5/C2tQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "the-graveyard-fabric",
+          "projectId": "QivVPB8W",
+          "type": "required"
+        },
+        {
+          "slug": "bosses-of-mass-destruction",
+          "projectId": "du3UfiLL",
+          "type": "required"
+        },
+        {
+          "slug": "mariums-soulslike-weaponry",
+          "projectId": "oX6SohLj",
+          "type": "required"
+        },
+        {
+          "slug": "spellblades-and-such",
+          "projectId": "VJkx9nDN",
+          "type": "required"
+        }
+      ]
+    },
+    "gECOA0Lf": {
+      "filename": "darkbosses-fabric-1.20.1-1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/4MxFpxyi/versions/gECOA0Lf/darkbosses-fabric-1.20.1-1.0.4.jar",
+      "hash": "sha512-BdcvF+D8CZJ8Icn5Zkx/8JXLkUNXNfCMnEZI9Jgr4gSjgeNZmqMNLzQ3FiYgke8l2BhDs2Pvj46H4XYORBrENw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "s1nJ41Be": {
+      "filename": "darkbosses-fabric-1.21.1-1.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/4MxFpxyi/versions/s1nJ41Be/darkbosses-fabric-1.21.1-1.0.5.jar",
+      "hash": "sha512-8OKgKgZzPQMqhYfCBQA73M+GACEK+2mIFO6MUK7V0cQMkMTHP2C3aAhY84DUn+Zs4WLIhh6DdWAfcg9/NMBGcA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18.2+fabric": [
+      "a7K9rg2u"
+    ],
+    "1.20.1+fabric": [
+      "gECOA0Lf",
+      "c11W2tDB"
+    ],
+    "1.21.1+fabric": [
+      "s1nJ41Be"
+    ]
+  }
+}

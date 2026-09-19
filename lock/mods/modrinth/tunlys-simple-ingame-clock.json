@@ -1,0 +1,45 @@
+{
+  "slug": "tunlys-simple-ingame-clock",
+  "projectId": "8gx5neTt",
+  "versions": {
+    "SMUuXPGF": {
+      "filename": "tcs-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/8gx5neTt/versions/SMUuXPGF/tcs-1.0.0.jar",
+      "hash": "sha512-LcfgmXbmWJ8A9kEUS79lDdsMmRqPOh8djZnqQb+oB8U2XqnqV/GXs0mGM9TXX3jfycXVpuUmEYaT47IZ+dXNgA==",
+      "gameVersions": [
+        "1.21.4",
+        "1.21.5"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "SMUuXPGF"
+    ],
+    "1.21.5+fabric": [
+      "SMUuXPGF"
+    ]
+  }
+}

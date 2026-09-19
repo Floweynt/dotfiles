@@ -1,0 +1,54 @@
+{
+  "slug": "cobblemon-evonotify",
+  "projectId": "JCkt9KNl",
+  "versions": {
+    "UT6wWCXL": {
+      "filename": "evonotify-fabric-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JCkt9KNl/versions/UT6wWCXL/evonotify-fabric-1.21.1-1.0.0.jar",
+      "hash": "sha512-9HHJKGSt/D7BCav5IHIjcb5oISvQ01vwELOE24BW0fE7xRNRjatiYPbUXw2t4amFFGgWdLU21dzh0lG2M3SnEA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    },
+    "wtqmxW2B": {
+      "filename": "evonotify-neoforge-1.21.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/JCkt9KNl/versions/wtqmxW2B/evonotify-neoforge-1.21.1-1.0.0.jar",
+      "hash": "sha512-aXln3hawIdAvrIlRDQIKrdqikiFqY7Z8UuVulPZLjl23w8pxclVDw8LtM+zqcgDvvfluUJVAdzADD1Mp/uHbCg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cobblemon",
+          "projectId": "MdwFAVRL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "UT6wWCXL"
+    ],
+    "1.21.1+neoforge": [
+      "wtqmxW2B"
+    ]
+  }
+}

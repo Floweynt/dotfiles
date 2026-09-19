@@ -1,0 +1,71 @@
+{
+  "slug": "dillon-lib",
+  "projectId": "bClkejk5",
+  "versions": {
+    "2jgQRxXd": {
+      "filename": "dillonlib-1.0_fabric-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/bClkejk5/versions/2jgQRxXd/dillonlib-1.0_fabric-mc26.2.jar",
+      "hash": "sha512-onyfWC/ovymsy9z6AwuyB2hnZzC/Yjs6nkMDxmvVldKxitE37zMHe7swgmYjOb6QduQChdevyxrzEEcVLZRwQA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "3kBjZpl2": {
+      "filename": "dillonlib-1.0_neoforge-mc26.2.jar",
+      "url": "https://cdn.modrinth.com/data/bClkejk5/versions/3kBjZpl2/dillonlib-1.0_neoforge-mc26.2.jar",
+      "hash": "sha512-Pz3m8hy19b/LBLD1H1DMQcYY29cQNp0+IXfbIaNrgw1RsoYi7siqw8XaAx1Qe7lqhTB8Z6MdmgYGxXCgKtDnfA==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "XmUOVSdO": {
+      "filename": "dillonlib-1.1_fabric-mc26.3-snapshot-9.jar",
+      "url": "https://cdn.modrinth.com/data/bClkejk5/versions/XmUOVSdO/dillonlib-1.1_fabric-mc26.3-snapshot-9.jar",
+      "hash": "sha512-CzhT94LfzARmhRXDZ5dERVM+u2hMdpk/7fyUHCNZ/z+m1qffdK3c0LH8/YcsHgq5Xcg5+PLselwiil+wocAI4g==",
+      "gameVersions": [
+        "26.3-snapshot-9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "unknown",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "2jgQRxXd"
+    ],
+    "26.2+neoforge": [
+      "3kBjZpl2"
+    ],
+    "26.3-snapshot-9+fabric": [
+      "XmUOVSdO"
+    ]
+  }
+}

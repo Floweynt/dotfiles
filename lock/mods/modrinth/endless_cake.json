@@ -1,0 +1,81 @@
+{
+  "slug": "endless_cake",
+  "projectId": "AX79Xm7k",
+  "versions": {
+    "BZEYeNoa": {
+      "filename": "endless_cake-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/AX79Xm7k/versions/1.0.0/endless_cake-1.0.0.jar",
+      "hash": "sha512-ZIARCQEGrcT2jCbqAUtvEsJGCvnyQXmCOmMwQ/6p5+LQAU0h6zaC1+uXsSNDdfDsO/ITGuXQd3Err5GJ7FRzHA==",
+      "gameVersions": [
+        "1.17",
+        "1.17.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Cl50TLyq": {
+      "filename": "endless_cake-1.0.2+1.19.jar",
+      "url": "https://cdn.modrinth.com/data/AX79Xm7k/versions/1.0.2/endless_cake-1.0.2%2B1.19.jar",
+      "hash": "sha512-NI6rehT82Cte2VKoZbYmApBWTxzEe2hotea3zlAEEcmyDNsJliRHuk5H8b7915uOKIBERH/pBrxKNgCYE91bBw==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "FXXj1y0J": {
+      "filename": "endless_cake-1.0.1+1.18.2.jar",
+      "url": "https://cdn.modrinth.com/data/AX79Xm7k/versions/1.0.1/endless_cake-1.0.1%2B1.18.2.jar",
+      "hash": "sha512-+714QCsUJDFTpVPJ+KNLXuDNcVJnTD+myipgWXC5p07A4BfrFLUgj35+ezjkAVYNP2XA6Z2VW+mPJbvJdpczCg==",
+      "gameVersions": [
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.17+fabric": [
+      "BZEYeNoa"
+    ],
+    "1.17.1+fabric": [
+      "BZEYeNoa"
+    ],
+    "1.18.2+fabric": [
+      "FXXj1y0J"
+    ],
+    "1.19+fabric": [
+      "Cl50TLyq"
+    ]
+  }
+}

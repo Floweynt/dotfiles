@@ -1,0 +1,54 @@
+{
+  "slug": "quick-commands",
+  "projectId": "Ez55UzLK",
+  "versions": {
+    "QHPXEaHC": {
+      "filename": "quickcommands-1.0.0-beta-2.jar",
+      "url": "https://cdn.modrinth.com/data/Ez55UzLK/versions/QHPXEaHC/quickcommands-1.0.0-beta-2.jar",
+      "hash": "sha512-Qiv7GN7SqrAHzhMfss+yPYKX78WtfBvnBq+e3BLT5DRwYFXHH9Se70gFxO6pv7rK8muFSFslSDW35EeQugB8vg==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "i75F3qr5": {
+      "filename": "quickcommands-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Ez55UzLK/versions/i75F3qr5/quickcommands-1.0.0.jar",
+      "hash": "sha512-puGFNsZUWN2mTThm1j5erHZrjK58pX8hAdRsW5BndIT5jwW2gtHSSmmnlZO3sCvds/d5If35TJHgkIzA2HxQpw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "QHPXEaHC"
+    ],
+    "1.21.1+fabric": [
+      "i75F3qr5"
+    ]
+  }
+}

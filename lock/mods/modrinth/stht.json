@@ -1,0 +1,36 @@
+{
+  "slug": "stht",
+  "projectId": "T934yH3s",
+  "versions": {
+    "r7xSLDaK": {
+      "filename": "stht-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/T934yH3s/versions/r7xSLDaK/stht-1.0.0.jar",
+      "hash": "sha512-ilhWa88jNzPnN/LrCqGDxMfsQQ8qB529H0B85/+Oq2073Go2UhhQOcM1V0QyfJS/2VRul8Euy98GYjaL/p3fxg==",
+      "gameVersions": [
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "modmenu",
+          "projectId": "mOgUt4GM",
+          "type": "required"
+        },
+        {
+          "slug": "yacl",
+          "projectId": "1eAoo2KR",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.4+fabric": [
+      "r7xSLDaK"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "slug": "no-xp",
+  "projectId": "PY14M25k",
+  "versions": {
+    "Z2QbXt0o": {
+      "filename": "no_xp-2.0+mc26.1.jar",
+      "url": "https://cdn.modrinth.com/data/PY14M25k/versions/Z2QbXt0o/no_xp-2.0%2Bmc26.1.jar",
+      "hash": "sha512-UBuOpxaaAnOfxwckE+uQGF/5OMLu/P44RDjK3rNDZJzH0v2/lr1WLjr5MWi8DTXllubU5WvAapf3bbK7KVj0mg==",
+      "gameVersions": [
+        "26.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "n7fvOF1J": {
+      "filename": "no_xp-2.0+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/PY14M25k/versions/n7fvOF1J/no_xp-2.0%2Bmc1.21.1.jar",
+      "hash": "sha512-ZsV89Jv32gMBztqC1wWlqc0dqikrL23QO2xXqUSwGXhnywOjbqUjScW1vEm6/G1Wd8NLfJLulwhzplBQDC9lRw==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "rSHj2dtd": {
+      "filename": "no_xp-2.0+mc26.1.jar",
+      "url": "https://cdn.modrinth.com/data/PY14M25k/versions/rSHj2dtd/no_xp-2.0%2Bmc26.1.jar",
+      "hash": "sha512-MRKLLt3sqEFym4JqFmwSo2LlVTxL3xRd7T099qvMTQ5H0ZTnmZjdqdv3Hn1gty0JOsILQKqc0Fbr76Iwp19Fug==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    },
+    "u8IH2eEY": {
+      "filename": "no_xp-1.0+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/PY14M25k/versions/u8IH2eEY/no_xp-1.0%2Bmc1.21.1.jar",
+      "hash": "sha512-2xwNrAhluL6ATunyqcu32+tm1MbSippVQyN5QcS2NH+eUCMg7bZqykBV5uG1oJhY7+V24iGCymThHZSziYrVrQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "n7fvOF1J",
+      "u8IH2eEY"
+    ],
+    "26.1+fabric": [
+      "rSHj2dtd",
+      "Z2QbXt0o"
+    ],
+    "26.1.1+fabric": [
+      "rSHj2dtd"
+    ],
+    "26.1.2+fabric": [
+      "rSHj2dtd"
+    ]
+  }
+}

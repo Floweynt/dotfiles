@@ -1,0 +1,54 @@
+{
+  "slug": "null-movement",
+  "projectId": "pLyvZSF4",
+  "versions": {
+    "QO1RCBfK": {
+      "filename": "nullmovement-1.19.4-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pLyvZSF4/versions/QO1RCBfK/nullmovement-1.19.4-0.0.1.jar",
+      "hash": "sha512-cuqqHzQhdyoFhxtDSeFR4e0Pgtfj+Q3R3lcaYsNxmIbrgl46G7exR4TxuNbx/R713Vq4Z+JhGa7P1alCSk26Fg==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "TYvRVkZG": {
+      "filename": "nullmovement-1.20.1-0.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/pLyvZSF4/versions/TYvRVkZG/nullmovement-1.20.1-0.0.1.jar",
+      "hash": "sha512-NEaR2mvDyDZXjaXgArThWh7OGPrs4lrWEtIZMYkOPYu3Kv2f0fgY4VZOL/2ZCwlNvebWe3SOVW61a231SucC7Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "QO1RCBfK"
+    ],
+    "1.20.1+fabric": [
+      "TYvRVkZG"
+    ]
+  }
+}

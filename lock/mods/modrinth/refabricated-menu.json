@@ -1,0 +1,64 @@
+{
+  "slug": "refabricated-menu",
+  "projectId": "RQi4V0mB",
+  "versions": {
+    "Z2taK2g7": {
+      "filename": "ref-menu-fabric-26.X-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/RQi4V0mB/versions/Z2taK2g7/ref-menu-fabric-26.X-1.0.1.jar",
+      "hash": "sha512-Lx3wzOiPZwkEl62tw7bKtpASDWk76g9QdTKuPmuSV6Aoy0PgBIlfP+smDtaCD2yzBJY3Ubm10w1QTfAzXBherg==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "aP66WWC4": {
+      "filename": "ref-menu-fabric-26.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/RQi4V0mB/versions/aP66WWC4/ref-menu-fabric-26.1-1.0.0.jar",
+      "hash": "sha512-cUdKw5n+kD0vAmfu0L2Rvr4iyUCoVdX7k9CyUufEjQcs/gyyKhVdLfOvKKT+Z0RD7jLtIQC8zd+FkBJmBq8sSQ==",
+      "gameVersions": [
+        "26.1",
+        "26.1.1",
+        "26.1.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.1+fabric": [
+      "Z2taK2g7",
+      "aP66WWC4"
+    ],
+    "26.1.1+fabric": [
+      "Z2taK2g7",
+      "aP66WWC4"
+    ],
+    "26.1.2+fabric": [
+      "Z2taK2g7",
+      "aP66WWC4"
+    ]
+  }
+}

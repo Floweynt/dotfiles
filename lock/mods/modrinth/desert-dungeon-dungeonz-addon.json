@@ -1,0 +1,54 @@
+{
+  "slug": "desert-dungeon-dungeonz-addon",
+  "projectId": "zun2vT3k",
+  "versions": {
+    "BHSd1fQe": {
+      "filename": "desert-dungeon-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/zun2vT3k/versions/BHSd1fQe/desert-dungeon-1.0.1.jar",
+      "hash": "sha512-CKxQY1qsgDaRuc9SnZoYwCvqgXxizRfAMtCDIWjeBr/pe1Ie9cJSlqwPRhJd5UQ3uhUEFxIuzWccL7ze1nvJVg==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dungeonz",
+          "projectId": "11jwniuC",
+          "type": "required"
+        }
+      ]
+    },
+    "dGOSSdyX": {
+      "filename": "desert-dungeon-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/zun2vT3k/versions/dGOSSdyX/desert-dungeon-1.0.0.jar",
+      "hash": "sha512-JZBeUzOtmus3nPwmzMHsKNlZ43M0XAp+P2Gei0Seua8U0bYTCnDhc9PQVKGpWQqCbsiWEYKeINZ2cBujk8ANOw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dungeonz",
+          "projectId": "11jwniuC",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "dGOSSdyX"
+    ],
+    "1.21.1+fabric": [
+      "BHSd1fQe"
+    ]
+  }
+}

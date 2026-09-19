@@ -1,0 +1,125 @@
+{
+  "slug": "craftable-elytra-simple-additions-series",
+  "projectId": "KlHF32LT",
+  "versions": {
+    "1uSMCmuH": {
+      "filename": "craftbleelytra-0.0.1-1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/KlHF32LT/versions/1uSMCmuH/craftbleelytra-0.0.1-1.20.1.jar",
+      "hash": "sha512-+nAQGzXyTPMsMTIOqaZQFfRTBBsUp6r2/Z6GcflNdWqckregtQFej8igjjyhd0ar0onfK6ZWS1nOyKDSb2MRHg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dragon-scale",
+          "projectId": "6I7NK0fd",
+          "type": "required"
+        }
+      ]
+    },
+    "MQKSncbK": {
+      "filename": "craftbleelytra-0.0.1-1.19.2.jar",
+      "url": "https://cdn.modrinth.com/data/KlHF32LT/versions/MQKSncbK/craftbleelytra-0.0.1-1.19.2.jar",
+      "hash": "sha512-/bG5QfjaEGNCrv970ZGPHVKg/jULHijEx6d0YkTjTD3YC34bSZC0TubrLAmFcw3+0lcTiGulEwmJXHKNuWqYZQ==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dragon-scale",
+          "projectId": "6I7NK0fd",
+          "type": "required"
+        }
+      ]
+    },
+    "ev3vjw9F": {
+      "filename": "craftbleelytra-0.0.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/KlHF32LT/versions/ev3vjw9F/craftbleelytra-0.0.1-1.21.1.jar",
+      "hash": "sha512-YfETSJsBd7Y8RLuwPt0CiDYuUttAE1QnW+bT+3PcetzBzlt7WpjbMkg6wIBoJWkuJgkQ/3cwemgcD9SAhwTDQA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dragon-scale",
+          "projectId": "6I7NK0fd",
+          "type": "required"
+        }
+      ]
+    },
+    "mR6u2yWY": {
+      "filename": "craftbleelytra-0.0.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/KlHF32LT/versions/mR6u2yWY/craftbleelytra-0.0.2-1.21.1.jar",
+      "hash": "sha512-sWxMCcsePnHjKvkobtzvD6yLex3C8jsPNIzxBkljezsmcitaWq2aMm3P4pft8GUxq06NQAtrdCG6zeyN5kMp/w==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dragon-scale",
+          "projectId": "6I7NK0fd",
+          "type": "required"
+        }
+      ]
+    },
+    "qwdi82SZ": {
+      "filename": "craftbleelytra-nf-0.0.2-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/KlHF32LT/versions/qwdi82SZ/craftbleelytra-nf-0.0.2-1.21.1.jar",
+      "hash": "sha512-6dGobXieCkxueCelNJJcVqKm/Q878ZtGlklTvbold8svUt0BYG6G6BU9sTMfTN+p+r5NYcVGVDmTCbrRdTDCew==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "dragon-scale",
+          "projectId": "6I7NK0fd",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "MQKSncbK"
+    ],
+    "1.20.1+fabric": [
+      "1uSMCmuH"
+    ],
+    "1.21+fabric": [
+      "mR6u2yWY"
+    ],
+    "1.21.1+fabric": [
+      "mR6u2yWY",
+      "ev3vjw9F"
+    ],
+    "1.21.1+neoforge": [
+      "qwdi82SZ"
+    ]
+  }
+}

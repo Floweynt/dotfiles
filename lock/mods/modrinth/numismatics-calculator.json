@@ -1,0 +1,125 @@
+{
+  "slug": "numismatics-calculator",
+  "projectId": "MI9E0Mar",
+  "versions": {
+    "C0z4oKQX": {
+      "filename": "numismaticscalculator-neoforge-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/MI9E0Mar/versions/C0z4oKQX/numismaticscalculator-neoforge-1.2.0.jar",
+      "hash": "sha512-2REqh49T6n1/MtXoLF8WBA3ozSHpanWsmZlhq61+UrY4wMpQ6xqYlOEjN/n7aRrzUJJYxISYM4N5WFyyTp0i1g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "numismatics",
+          "projectId": "Jdbbtt0i",
+          "type": "required"
+        }
+      ]
+    },
+    "Illlj7r6": {
+      "filename": "numismaticscalculator-fabric-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/MI9E0Mar/versions/Illlj7r6/numismaticscalculator-fabric-1.2.0.jar",
+      "hash": "sha512-u56CC+0g3WZeTUOUOPmcB8sbd/dd8vHjQTExl1TAHKM+9esg6U3Y+qYE30HB2TaUWwZw+Pca6KMcLtL8hKvTdw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "numismatics",
+          "projectId": "Jdbbtt0i",
+          "type": "required"
+        }
+      ]
+    },
+    "cIJnQgiy": {
+      "filename": "numismaticscalculator-1.0.0-all.jar",
+      "url": "https://cdn.modrinth.com/data/MI9E0Mar/versions/cIJnQgiy/numismaticscalculator-1.0.0-all.jar",
+      "hash": "sha512-tm5mDscvK85Q7rxZwjIAiPYzcTPeMkh5GTkzFr423zeOIwgdilCzQ98dtYJ94yNbLw3MlAZRsfU6ssd1OKrqFg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "numismatics",
+          "projectId": "Jdbbtt0i",
+          "type": "required"
+        }
+      ]
+    },
+    "gJZZt25q": {
+      "filename": "numismaticscalculator-forge-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/MI9E0Mar/versions/gJZZt25q/numismaticscalculator-forge-1.2.0.jar",
+      "hash": "sha512-RpDH1DgVBnjaRTGK9pHN2bRQtqqd9u1CzbSOUT3EFx01KLx6t/oriHPKgkwKwJT74I9lc/DvlZgvTu1gBc2Mwg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "numismatics",
+          "projectId": "Jdbbtt0i",
+          "type": "required"
+        }
+      ]
+    },
+    "tPh899R1": {
+      "filename": "numismaticscalculator-fabric-1.2.1.jar",
+      "url": "https://cdn.modrinth.com/data/MI9E0Mar/versions/tPh899R1/numismaticscalculator-fabric-1.2.1.jar",
+      "hash": "sha512-elLR6pe5XYwrewBGk4aYjtvowNjyc3P5C3Hje7eLfxGvbDm0BYfE0fXmkJ8ozBRr/NJRbsYLBDRii8mXL6w7hg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "numismatics",
+          "projectId": "Jdbbtt0i",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "tPh899R1",
+      "Illlj7r6"
+    ],
+    "1.20.1+forge": [
+      "gJZZt25q",
+      "cIJnQgiy"
+    ],
+    "1.20.1+quilt": [
+      "tPh899R1",
+      "Illlj7r6"
+    ],
+    "1.21.1+neoforge": [
+      "C0z4oKQX"
+    ]
+  }
+}

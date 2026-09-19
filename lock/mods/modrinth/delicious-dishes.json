@@ -1,0 +1,68 @@
+{
+  "slug": "delicious-dishes",
+  "projectId": "FiCfuPPS",
+  "versions": {
+    "24SGGYTu": {
+      "filename": "dishes-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/FiCfuPPS/versions/24SGGYTu/dishes-2.1.0.jar",
+      "hash": "sha512-uf8M/Avn7gDX6xaJ0A2oDPSZ9jw7o/kQyrwzMBiRrpixeAiddnggGk2oCkkcYjf95AHcI8ZgcQdE4SUme3BOFQ==",
+      "gameVersions": [
+        "1.19",
+        "1.19.1",
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "OfLCxa54": {
+      "filename": "dishes-2.0.0-1.16.4.jar",
+      "url": "https://cdn.modrinth.com/data/FiCfuPPS/versions/2.0.0/dishes-2.0.0-1.16.4.jar",
+      "hash": "sha512-hBSDrUE+Siu4u5/+AqAzauZ0nWcTLcjSb+Pg9Q+bi1JRWMslae/XM9XPU5QvW1lnTOkL7zRQ9gL9nOEnIkSCEg==",
+      "gameVersions": [
+        "1.16.2",
+        "1.16.3",
+        "1.16.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.16.2+fabric": [
+      "OfLCxa54"
+    ],
+    "1.16.3+fabric": [
+      "OfLCxa54"
+    ],
+    "1.16.4+fabric": [
+      "OfLCxa54"
+    ],
+    "1.19+fabric": [
+      "24SGGYTu"
+    ],
+    "1.19+quilt": [
+      "24SGGYTu"
+    ],
+    "1.19.1+fabric": [
+      "24SGGYTu"
+    ],
+    "1.19.1+quilt": [
+      "24SGGYTu"
+    ],
+    "1.19.2+fabric": [
+      "24SGGYTu"
+    ],
+    "1.19.2+quilt": [
+      "24SGGYTu"
+    ]
+  }
+}

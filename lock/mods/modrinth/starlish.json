@@ -1,0 +1,147 @@
+{
+  "slug": "starlish",
+  "projectId": "XDBDQnHz",
+  "versions": {
+    "4OvLOAYj": {
+      "filename": "starlish-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/XDBDQnHz/versions/4OvLOAYj/starlish-1.0.0.jar",
+      "hash": "sha512-og08fM44BrM/risblE4yNrCSvMnjt2Pscx/4XBDrNs4B4bstBHt9eGzNBaaXJS/SRer70qI2WjHAz3lSG3pl6Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "HL6azLUA": {
+      "filename": "starlish-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XDBDQnHz/versions/HL6azLUA/starlish-1.1.0.jar",
+      "hash": "sha512-yNkWbNL2ry+GV907n2TFx72WwvUHqudPAwVq62HexHxUgYIEILCr7TgH7nxIZiOC4fr8SLWMc/YdLHFUcNuW1g==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "VljFhmxK": {
+      "filename": "starlish-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/XDBDQnHz/versions/VljFhmxK/starlish-1.0.1.jar",
+      "hash": "sha512-oQCK9UEavqlMivXZtAYd5FzQp9TNFdZoNsi5HEXEfJAceO7XdBN1Q5HNE7q7Z1Df3Y+axSpZlfWS3/EjUr731w==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    },
+    "aGnyDLAN": {
+      "filename": "starlish-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/XDBDQnHz/versions/aGnyDLAN/starlish-1.1.0.jar",
+      "hash": "sha512-gKrLRPuhTMy9K9u34nbvHoyuvJSzgou9htAFHksqshQlUWX4FcvU9kbJ/KAzZjHQ8X2Ydgx8RiZ+k9AZqMC+mA==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "cloth-config",
+          "projectId": "9s6osm5g",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "HL6azLUA",
+      "VljFhmxK",
+      "4OvLOAYj"
+    ],
+    "1.20.1+fabric": [
+      "HL6azLUA",
+      "VljFhmxK",
+      "4OvLOAYj"
+    ],
+    "1.20.2+fabric": [
+      "HL6azLUA",
+      "VljFhmxK",
+      "4OvLOAYj"
+    ],
+    "1.20.3+fabric": [
+      "VljFhmxK",
+      "4OvLOAYj"
+    ],
+    "1.20.4+fabric": [
+      "VljFhmxK",
+      "4OvLOAYj"
+    ],
+    "1.21.2+fabric": [
+      "aGnyDLAN"
+    ],
+    "1.21.3+fabric": [
+      "aGnyDLAN"
+    ],
+    "1.21.4+fabric": [
+      "aGnyDLAN"
+    ]
+  }
+}

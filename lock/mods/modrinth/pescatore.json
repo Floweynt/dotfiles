@@ -1,0 +1,62 @@
+{
+  "slug": "pescatore",
+  "projectId": "uxaMjp3X",
+  "versions": {
+    "X6Nwdhrz": {
+      "filename": "pescatore-1.0.0-beta.rel+1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/uxaMjp3X/versions/X6Nwdhrz/pescatore-1.0.0-beta.rel%2B1.20.4.jar",
+      "hash": "sha512-B0pUAH1ThC3kt+uaZC4ncetdEgOyEF6y0g5AyLRM3lz9WlOHoB2UzR1zg0LojipV1laL0ZNZIV2ZZO4KzDHbDw==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "eev7frMZ": {
+      "filename": "pescatore-1.0.0+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/uxaMjp3X/versions/eev7frMZ/pescatore-1.0.0%2B1.20.1.jar",
+      "hash": "sha512-vEXY+RTgvwxFGVFCdoXmcVdRy6fKy5e3UKyRzQl4OISYJAbFywjaoE1byWTZuavoOqTPdA/LE/FruZ96sCv7MA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "eev7frMZ"
+    ],
+    "1.20.1+quilt": [
+      "eev7frMZ"
+    ],
+    "1.20.4+fabric": [
+      "X6Nwdhrz"
+    ],
+    "1.20.4+quilt": [
+      "X6Nwdhrz"
+    ]
+  }
+}

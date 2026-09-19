@@ -1,0 +1,52 @@
+{
+  "slug": "realistic-torchesbt",
+  "projectId": "SuKsZUzU",
+  "versions": {
+    "XlFt7NmD": {
+      "filename": "torchesbt-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/SuKsZUzU/versions/XlFt7NmD/torchesbt-1.0.1.jar",
+      "hash": "sha512-QXM/MqD1qhLEY9Lg9Wex62wuk0YoqL4S0jz18yo6b68jfYqw3hjCR9l12AVIo1OH/ClE9+yMRISPiyYD23rQlg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "h2fLlgud": {
+      "filename": "torchesbt-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/SuKsZUzU/versions/h2fLlgud/torchesbt-1.0.0.jar",
+      "hash": "sha512-WrynSVHQ9sNLOUTQBjgaKNY1eNXRfIhlXyyT67GVWc8DaXukdIvw8PQeAT36I7MrzQ/xgW7D5TqnLQuCfITI+w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "XlFt7NmD",
+      "h2fLlgud"
+    ]
+  }
+}

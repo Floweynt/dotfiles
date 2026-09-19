@@ -1,0 +1,86 @@
+{
+  "slug": "frogilib",
+  "projectId": "q6d3kUS6",
+  "versions": {
+    "4WJwbhx6": {
+      "filename": "frogi-lib-1.0.0 1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/q6d3kUS6/versions/4WJwbhx6/frogi-lib-1.0.0%201.20.1.jar",
+      "hash": "sha512-opyU3gH+B7adXQ/b43xpBNWi+VEkrqcHLNFzW/iaWZZ+W/dT0al9ETfNsdoXcxjjT2LIvVj5+OdPmJGerqLU/A==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "EMOOeU4z": {
+      "filename": "frogi-lib-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/q6d3kUS6/versions/EMOOeU4z/frogi-lib-1.1.0.jar",
+      "hash": "sha512-CiNDfpfZRwl3cG8Em+HjJjJqMjk8KCjmDfFMOln05hlm0HjZ09CuLNv9SwUmkTE1zFIRMKorCqjVZNjLzhwIsA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Jz43VGqC": {
+      "filename": "forge frogi_lib-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/q6d3kUS6/versions/Jz43VGqC/forge%20frogi_lib-1.1.0.jar",
+      "hash": "sha512-xKVx/4WXt5xMfn8GKYpIVhEevvo0Cpe75jwtIhqrizbdh/MyvVcfYsYUOuXnM7f0JNX2DcwwTUUhdZJKDrH9jw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ootjlNTi": {
+      "filename": "frogi-lib-1.0.0 1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/q6d3kUS6/versions/ootjlNTi/frogi-lib-1.0.0%201.21.1.jar",
+      "hash": "sha512-N6B2kOs0Ibegy2XfDtazpUn0xrCbY6vG6PUxBpYUqDJccpnYYLKuWVcGvRrrtsLUdJuvDngoulFWzsKhU5YglA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "EMOOeU4z",
+      "4WJwbhx6"
+    ],
+    "1.20.1+forge": [
+      "Jz43VGqC"
+    ],
+    "1.21.1+fabric": [
+      "ootjlNTi"
+    ]
+  }
+}

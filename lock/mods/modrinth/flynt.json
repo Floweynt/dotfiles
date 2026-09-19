@@ -1,0 +1,121 @@
+{
+  "slug": "flynt",
+  "projectId": "zJFBOvvE",
+  "versions": {
+    "7c7BJYFp": {
+      "filename": "flyntfabric_1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/zJFBOvvE/versions/7c7BJYFp/flyntfabric_1.0.2.jar",
+      "hash": "sha512-7sxMRRoqGcBVpXwJJsnmeD8OjmW12pNUmN1I1gDVv4ERWXUNg8eMWL2KudNgH3rFSgZSkPZIXfW7Uq1otSg6kA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "9UbHwXqk": {
+      "filename": "flyntfabric_1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/zJFBOvvE/versions/9UbHwXqk/flyntfabric_1.0.3.jar",
+      "hash": "sha512-8PvejmCc5GQzyg+sXVk2hjGsyM9vIxUNm46vkgL3ldzl9GAnFl3T3slfHKJndimPmXV5odh3NdZyHpgqnVCBPQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "AIhgseEn": {
+      "filename": "flyntfabric1.jar",
+      "url": "https://cdn.modrinth.com/data/zJFBOvvE/versions/AIhgseEn/flyntfabric1.jar",
+      "hash": "sha512-OPKuC6/nSVrHMZC9fQh9LEz7LIweu5tvT/7HebdOG7Xn1kZtguclKVCrwnKGEoJ/6pq5+TmuhqwYgENNeDnjiQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "kdAAUOrs": {
+      "filename": "flyntforge1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/zJFBOvvE/versions/kdAAUOrs/flyntforge1.0.4.jar",
+      "hash": "sha512-TCdlxuGP666YG0lMr9dpw8qUZ7VeeB1G7ipPn225IvNz+KAlaz9FndZh5TL9FWW81ryijB4Vhk8pBHFps65diw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "nG3KfgzJ": {
+      "filename": "flynt1.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/zJFBOvvE/versions/nG3KfgzJ/flynt1.0.4.jar",
+      "hash": "sha512-Ieek+BPVWtN6ChBrKFDx4dzvnXYN3WWuod8MzBnG0qGVrAt5p3M0CDUooPgDqLzjOutgXuHDCmwhKQaIz3SKow==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "9UbHwXqk",
+      "7c7BJYFp",
+      "AIhgseEn"
+    ],
+    "1.20.1+fabric": [
+      "nG3KfgzJ",
+      "9UbHwXqk",
+      "7c7BJYFp",
+      "AIhgseEn"
+    ],
+    "1.20.1+forge": [
+      "kdAAUOrs"
+    ],
+    "1.20.2+fabric": [
+      "9UbHwXqk",
+      "7c7BJYFp",
+      "AIhgseEn"
+    ]
+  }
+}

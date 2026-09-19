@@ -1,0 +1,64 @@
+{
+  "slug": "oritechnical-add-on-for-oritech",
+  "projectId": "6qnZv5A4",
+  "versions": {
+    "BaTOH7hC": {
+      "filename": "oritechnical-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6qnZv5A4/versions/BaTOH7hC/oritechnical-1.0.0.jar",
+      "hash": "sha512-rteD79KlYjP+kURu1fiGUqVzGNHpoKNh53wVUa5/5ntq7ijy4T5fQKxeIe3fHmC1BasHHs3tutJAx4RT2hlmVQ==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "uDZWPsyT": {
+      "filename": "oritechnical-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/6qnZv5A4/versions/uDZWPsyT/oritechnical-1.0.0.jar",
+      "hash": "sha512-taLVD5yXieysWX/+TxCoRUAeQt32oWRtzWI0aoVpKtO19JkXmWEizTmECszig/qMTyOM7fqpTwJ+hHwd6VFHEg==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1",
+        "1.21.2",
+        "1.21.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "oritech",
+          "projectId": "4sYI62kA",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "uDZWPsyT",
+      "BaTOH7hC"
+    ],
+    "1.21.1+fabric": [
+      "uDZWPsyT",
+      "BaTOH7hC"
+    ],
+    "1.21.2+fabric": [
+      "uDZWPsyT",
+      "BaTOH7hC"
+    ],
+    "1.21.3+fabric": [
+      "uDZWPsyT",
+      "BaTOH7hC"
+    ]
+  }
+}

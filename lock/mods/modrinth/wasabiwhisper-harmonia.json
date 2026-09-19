@@ -1,0 +1,64 @@
+{
+  "slug": "wasabiwhisper-harmonia",
+  "projectId": "GdS8zuZT",
+  "versions": {
+    "Ij1bwLBQ": {
+      "filename": "Harmonia-fabric-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/GdS8zuZT/versions/Ij1bwLBQ/Harmonia-fabric-1.2.0.jar",
+      "hash": "sha512-3+1gJ1jNYfmirFmjLQezbHJ/tAw4uX7pO/eTBZ46WAetMeOQ3NMmnw2HpCnLnMBIOfRoOEYc3NWwNLvS0UMPuA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "odyssey-claims",
+          "projectId": "fEWKxVzh",
+          "type": "required"
+        },
+        {
+          "slug": "xaeros-world-map",
+          "projectId": "NcUtCpym",
+          "type": "required"
+        }
+      ]
+    },
+    "ePbrJ8o1": {
+      "filename": "Harmonia-forge-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/GdS8zuZT/versions/ePbrJ8o1/Harmonia-forge-1.2.0.jar",
+      "hash": "sha512-aVZZPRUlMirJRiT0Pl+sA4dpq4zCAEcPg7jJtyCFgFL/vRy8V8NKgTrhhVQymIsYYS3kZGGnX8DwcF4gNNZrrA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "odyssey-claims",
+          "projectId": "fEWKxVzh",
+          "type": "required"
+        },
+        {
+          "slug": "xaeros-world-map",
+          "projectId": "NcUtCpym",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Ij1bwLBQ"
+    ],
+    "1.20.1+forge": [
+      "ePbrJ8o1"
+    ]
+  }
+}

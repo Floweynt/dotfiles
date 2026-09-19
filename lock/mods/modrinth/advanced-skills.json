@@ -1,0 +1,62 @@
+{
+  "slug": "advanced-skills",
+  "projectId": "fgE29Asl",
+  "versions": {
+    "qXMAq4os": {
+      "filename": "AdvancedSkills-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/fgE29Asl/versions/qXMAq4os/AdvancedSkills-1.0.0.jar",
+      "hash": "sha512-/R+VT9ZU4CanwAdsHSqSVZUnrnOxWCNDNByLTZ9zEDpeq95PqBAJx/hSC5xTmBrfDEDNhFp7+KkqBH6pXojU3Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        },
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        }
+      ]
+    },
+    "wuMxIfh1": {
+      "filename": "AdvancedSkills-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/fgE29Asl/versions/wuMxIfh1/AdvancedSkills-1.0.1.jar",
+      "hash": "sha512-LuUTL/bSzbbNg0oaAomz7Jjs19BTjCEGVcxBzi6e0QmffdDa18rt4aFwaak1EpWvMlXRg+7IHIahPVWDBvE5/Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "malilib",
+          "projectId": "GcWjdA9I",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-language-kotlin",
+          "projectId": "Ha28R6CL",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "wuMxIfh1",
+      "qXMAq4os"
+    ]
+  }
+}

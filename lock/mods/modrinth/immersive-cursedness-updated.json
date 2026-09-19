@@ -1,0 +1,42 @@
+{
+  "slug": "immersive-cursedness-updated",
+  "projectId": "aCkoEaRG",
+  "versions": {
+    "ruf3b0YU": {
+      "filename": "immersive-cursedness-1.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/aCkoEaRG/versions/ruf3b0YU/immersive-cursedness-1.5.0.jar",
+      "hash": "sha512-Xi6K/ymdX1Colhst0uncZKKJh2yb7EowRcJmQIoHA3LAjTiwfYK9anJktAcJM8P1f4oJykn6KA0X+uQc82uCsA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "ruf3b0YU"
+    ],
+    "1.20+quilt": [
+      "ruf3b0YU"
+    ],
+    "1.20.1+fabric": [
+      "ruf3b0YU"
+    ],
+    "1.20.1+quilt": [
+      "ruf3b0YU"
+    ]
+  }
+}

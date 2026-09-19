@@ -1,0 +1,92 @@
+{
+  "slug": "globalenderchest",
+  "projectId": "hY0D1UJi",
+  "versions": {
+    "8h3N0CZy": {
+      "filename": "globalenderchest-1.0.0+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/hY0D1UJi/versions/8h3N0CZy/globalenderchest-1.0.0%2B1.19.4.jar",
+      "hash": "sha512-ScSe6BbW2PxFsGhHecayEBQ8BLJFnzGpZPYIzRqtLLpAnImGYAzbGPDeVfWdn9OFGL4DUdiULagpodvIzWiZeQ==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Vtdmtn0K": {
+      "filename": "globalenderchest-1.0.1+1.19.4.jar",
+      "url": "https://cdn.modrinth.com/data/hY0D1UJi/versions/Vtdmtn0K/globalenderchest-1.0.1%2B1.19.4.jar",
+      "hash": "sha512-xG45umIto+v9NnsIPH6MP/bh77ueFYbEAot5qbXDJWVtx653BPHXYi9PgzmZeaiP4f0gVo8q6dBy/xf3jwCK3w==",
+      "gameVersions": [
+        "1.19.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "Y7SL8beU": {
+      "filename": "globalenderchest-1.0.2+1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/hY0D1UJi/versions/Y7SL8beU/globalenderchest-1.0.2%2B1.20.1.jar",
+      "hash": "sha512-I0XlhZlQ5MQjj0X19FnWxQZ7kdK/5aZhqQpeHTVCKKlB78kbnT1RZZIZDF7+8RPqORk9zqil+3hWaIaAPW5+lA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19.4+fabric": [
+      "Vtdmtn0K",
+      "8h3N0CZy"
+    ],
+    "1.19.4+quilt": [
+      "Vtdmtn0K",
+      "8h3N0CZy"
+    ],
+    "1.20+fabric": [
+      "Y7SL8beU"
+    ],
+    "1.20+quilt": [
+      "Y7SL8beU"
+    ],
+    "1.20.1+fabric": [
+      "Y7SL8beU"
+    ],
+    "1.20.1+quilt": [
+      "Y7SL8beU"
+    ]
+  }
+}

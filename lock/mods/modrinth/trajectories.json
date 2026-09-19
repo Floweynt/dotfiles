@@ -1,0 +1,121 @@
+{
+  "slug": "trajectories",
+  "projectId": "aoaGAMoK",
+  "versions": {
+    "FNkqWOAw": {
+      "filename": "twajectories-0.1-Beta.jar",
+      "url": "https://cdn.modrinth.com/data/aoaGAMoK/versions/FNkqWOAw/twajectories-0.1-Beta.jar",
+      "hash": "sha512-1/j6dv7QrMp4nJBFgcFtvmEuxg7plm/nG2K2Nlkoukb6c13Vb5jLQVAjwatnegNaYnFF0Jqnjaa6kV8PtO+zwA==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "bukkit",
+        "paper"
+      ],
+      "versionType": "beta",
+      "environment": "unknown",
+      "dependencies": []
+    },
+    "bSDq5QTv": {
+      "filename": "trajectories-1.21.10-Beta.jar",
+      "url": "https://cdn.modrinth.com/data/aoaGAMoK/versions/bSDq5QTv/trajectories-1.21.10-Beta.jar",
+      "hash": "sha512-ie/ndd5I6NEbevbEq+Uw+nJF8vkvaaIGkvUxFo/9Xxz679x9A9CXEY8KO/uSYxeiYgXffQtnGbBSYDV3lrUk5g==",
+      "gameVersions": [
+        "1.21.10"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "dZvSTYWw": {
+      "filename": "trajectories-0.1-Beta.jar",
+      "url": "https://cdn.modrinth.com/data/aoaGAMoK/versions/dZvSTYWw/trajectories-0.1-Beta.jar",
+      "hash": "sha512-nsqWI78+HYy1s5nX1lDrykyyfTuoz2bA2lEbDvYNN4mZEaNRneALNLkMidTcCscwtE0QLwwlsBK8v081gYqCxQ==",
+      "gameVersions": [
+        "1.21.9"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "k6hCkvU0": {
+      "filename": "trajectories-1.21.8-Beta.jar",
+      "url": "https://cdn.modrinth.com/data/aoaGAMoK/versions/k6hCkvU0/trajectories-1.21.8-Beta.jar",
+      "hash": "sha512-MAN3tsCdsKeZiy4H0J2V/w0LzcUnI/7I0EaHp+E3TS2AZhafHLw941BAKZC8OnupVr60Xpo67IseHREyPPAV8w==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "st38DijD": {
+      "filename": "trajectories-0.1-Beta.jar",
+      "url": "https://cdn.modrinth.com/data/aoaGAMoK/versions/st38DijD/trajectories-0.1-Beta.jar",
+      "hash": "sha512-iXlW1504d8sKuG6X6HaTKvn7rqohLZ12vLv1j/SOLGW03lyi9fnQjcH7AnXVVxiT6Ll7dI9/M0/7jMqPscNzoQ==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_or_server_prefers_both",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.10+bukkit": [
+      "FNkqWOAw"
+    ],
+    "1.21.10+fabric": [
+      "bSDq5QTv"
+    ],
+    "1.21.10+paper": [
+      "FNkqWOAw"
+    ],
+    "1.21.11+fabric": [
+      "st38DijD"
+    ],
+    "1.21.8+fabric": [
+      "k6hCkvU0"
+    ],
+    "1.21.9+fabric": [
+      "dZvSTYWw"
+    ]
+  }
+}

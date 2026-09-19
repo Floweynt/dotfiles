@@ -1,0 +1,76 @@
+{
+  "slug": "slashstring-fabric",
+  "projectId": "EVIVN8A9",
+  "versions": {
+    "TI25JxT2": {
+      "filename": "stringmod-2.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/EVIVN8A9/versions/TI25JxT2/stringmod-2.1.1.jar",
+      "hash": "sha512-COOmL2Ra76Sw7y4hTsM4OtbHc1OERjFazuSqKxiX54UQK3hUkvzWVyk2prRuQ5PQz3UJrRI+tLC93vqlUpkr9g==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "cXkIGjGJ": {
+      "filename": "stringmod-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EVIVN8A9/versions/cXkIGjGJ/stringmod-2.0.0.jar",
+      "hash": "sha512-5Mz8lNotx+PjfD49Hg+IwZ6HRR4E5T1mjscsnioIw30aMki5jSviaNnPz8FuIVvnn8K+MuApV5pJuEZN7WryPA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "vXYv8WoG": {
+      "filename": "stringmod-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/EVIVN8A9/versions/vXYv8WoG/stringmod-1.0.0.jar",
+      "hash": "sha512-F6o/GDP7ovU57tpeyYiIkw7y78vhPwT+FrsmGVmE9uZyYNPsbyqUc2QeZUlHwWqCQGI3WO2p4HQKmo0J9QqibA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "z5ZfDWaC": {
+      "filename": "stringmod-2.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/EVIVN8A9/versions/z5ZfDWaC/stringmod-2.1.0.jar",
+      "hash": "sha512-It4zSjhS9h5v8/apw5NbiOODi/KlelWm67FOWGHkwbuiEY1Fc3g3hFi7W+qkU6QI/jZ5jEbkxJaPL+l1+u9uDg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.11+fabric": [
+      "TI25JxT2",
+      "z5ZfDWaC",
+      "cXkIGjGJ",
+      "vXYv8WoG"
+    ]
+  }
+}

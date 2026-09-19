@@ -1,0 +1,40 @@
+{
+  "slug": "minecon-ruins",
+  "projectId": "iaFRY0rC",
+  "versions": {
+    "oqr9EHBh": {
+      "filename": "minecon_ruins-1.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/iaFRY0rC/versions/oqr9EHBh/minecon_ruins-1.0.0%2B1.21.jar",
+      "hash": "sha512-eVSmJBjhSDoBIV9U1drqWXWSy34rPU86j0nfpPf4XNOMynjsU1tU6aMZveRZtDYepjODsJAG9sdQsG/AYWq1lA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "trinkets",
+          "projectId": "5aaWibi9",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "oqr9EHBh"
+    ],
+    "1.21.1+fabric": [
+      "oqr9EHBh"
+    ]
+  }
+}

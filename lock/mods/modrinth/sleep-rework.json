@@ -1,0 +1,125 @@
+{
+  "slug": "sleep-rework",
+  "projectId": "kNEVW1RJ",
+  "versions": {
+    "JEB7gVhT": {
+      "filename": "sleeprework-FORGE-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kNEVW1RJ/versions/JEB7gVhT/sleeprework-FORGE-1.20.1-1.1.0.jar",
+      "hash": "sha512-flxbze86FnlqeMSonbaAF5GWPy4n6i94oCpRLs9lJmmrDuCwGuEqijXDPeTXdHYWUB1mlEFQlegb41ritt2dAw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "KI7mjOH2": {
+      "filename": "sleeprework-FABRIC-beta-1.20.1-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/kNEVW1RJ/versions/KI7mjOH2/sleeprework-FABRIC-beta-1.20.1-1.1.0.jar",
+      "hash": "sha512-XhsCgMGJePspkcrho50qRXisefMU3urJvBMqBC2HIiZiFHjtCWRguzA5VNK70VaeWVyLg86K0XfggqoQXGVnOA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "marviVyH": {
+      "filename": "sleeprework-FORGE-beta-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kNEVW1RJ/versions/marviVyH/sleeprework-FORGE-beta-1.20.1-1.0.0.jar",
+      "hash": "sha512-cN5F2f50/A4CGlWl3R/AGKRxRsXlGWGa+Rf2vGdoXqjwlHhuRkuPx+Xcd2663T5VpOgYSqhSeEEfCNl6lSZuLQ==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    },
+    "xbxliJfJ": {
+      "filename": "sleeprework-FABRIC-beta-1.20.1-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/kNEVW1RJ/versions/xbxliJfJ/sleeprework-FABRIC-beta-1.20.1-1.0.0.jar",
+      "hash": "sha512-gB8S8Ys4EMzml1NCzBaskoTT3QhRsBXNDso7Yu16QcRvb0pqTgZCjg13oD+qSxavnxc6mw3N5UkiaNnfibin4Q==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "KI7mjOH2",
+      "xbxliJfJ"
+    ],
+    "1.20+forge": [
+      "JEB7gVhT",
+      "marviVyH"
+    ],
+    "1.20+neoforge": [
+      "JEB7gVhT"
+    ],
+    "1.20.1+fabric": [
+      "KI7mjOH2",
+      "xbxliJfJ"
+    ],
+    "1.20.1+forge": [
+      "JEB7gVhT",
+      "marviVyH"
+    ],
+    "1.20.1+neoforge": [
+      "JEB7gVhT"
+    ]
+  }
+}

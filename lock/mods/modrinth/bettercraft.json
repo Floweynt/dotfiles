@@ -1,0 +1,110 @@
+{
+  "slug": "bettercraft",
+  "projectId": "gxu29FuF",
+  "versions": {
+    "FSRiFiA3": {
+      "filename": "BetterCraft-0.7.0-dev3.zip",
+      "url": "https://cdn.modrinth.com/data/gxu29FuF/versions/FSRiFiA3/BetterCraft-0.7.0-dev3.zip",
+      "hash": "sha512-xXiqzZNxoBRmtR0NlIVR92/xAjNir+Ortui36OV3c9s/d99CI6ZA7a5t64j3QIIJ9RyjsB5wEFdWagucHm339A==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "modloader"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "FqQt7BHg": {
+      "filename": "bettercraft-0.8.0-mapgentest.jar",
+      "url": "https://cdn.modrinth.com/data/gxu29FuF/versions/FqQt7BHg/bettercraft-0.8.0-mapgentest.jar",
+      "hash": "sha512-c/17et2Y6lWS2/+u9cArzKrYMss4l2XE5Oz81UuLyKATdf6nJXImeT7QYW+X/G+5jHOOsojBBA4y/h/+IwuITA==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "cursed-legacy-api",
+          "projectId": "TdYBMSau",
+          "type": "required"
+        }
+      ]
+    },
+    "SwQgs6lf": {
+      "filename": "BetterCraft-6.6.6.zip",
+      "url": "https://cdn.modrinth.com/data/gxu29FuF/versions/SwQgs6lf/BetterCraft-6.6.6.zip",
+      "hash": "sha512-VmvMrbjqQONxWXA4PAc1FPM2ChVGDHPkYBE4OJTa9zNWW14bFoAuKFmpmM1dIT4M64YxhdgLbO+3EwLaiEZpfg==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "modloader"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "sPRbB41L": {
+      "filename": "bettercraft-0.1.0-test.jar",
+      "url": "https://cdn.modrinth.com/data/gxu29FuF/versions/sPRbB41L/bettercraft-0.1.0-test.jar",
+      "hash": "sha512-/3mes0wWX8jLxbRHTeGHzvF+9Fn7ztNyFjpAq6I2Oese5XaZrF2gp9E6v3vbkirvrwCxqlswqqqAHK1WLB/XAg==",
+      "gameVersions": [
+        "1.19.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "w02wuRve": {
+      "filename": "BetterCraft-0.6.1.zip",
+      "url": "https://cdn.modrinth.com/data/gxu29FuF/versions/w02wuRve/BetterCraft-0.6.1.zip",
+      "hash": "sha512-DTq1zaXsfosBXmseKh6lhSKoMeA5fRxJ0pxgkCrQLk3QN+pD9RrajeegB8wFz5x6X+vvSs6vW1W3D+ExK84w8Q==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "modloader"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "ydmIh3Wg": {
+      "filename": "BetterCraft-0.6.0.zip",
+      "url": "https://cdn.modrinth.com/data/gxu29FuF/versions/ydmIh3Wg/BetterCraft-0.6.0.zip",
+      "hash": "sha512-04DU1hjpeCUlsWul16s3paHAEbIkDM0zMr2CN5eK8T0pjZDpPEZJigzYqm9tEKHhwK/2lNOSW+R2eaXpy3ql+Q==",
+      "gameVersions": [
+        "b1.7.3"
+      ],
+      "loaders": [
+        "modloader"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.19.2+fabric": [
+      "sPRbB41L"
+    ],
+    "b1.7.3+fabric": [
+      "FqQt7BHg"
+    ],
+    "b1.7.3+modloader": [
+      "SwQgs6lf",
+      "FSRiFiA3",
+      "w02wuRve",
+      "ydmIh3Wg"
+    ]
+  }
+}

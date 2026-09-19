@@ -1,0 +1,109 @@
+{
+  "slug": "soldisco",
+  "projectId": "z5skOi6f",
+  "versions": {
+    "TmotCM0s": {
+      "filename": "soldisco-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/z5skOi6f/versions/TmotCM0s/soldisco-1.1.0.jar",
+      "hash": "sha512-h2GvZhTqf38Nl80QAFVlZaYJXZz7gWtyF8R8mjQOILYSSM5DTuDHUS0tvpTjblugoXif+4E1ZysHvh+5dP/ThQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "UMdN3XOu": {
+      "filename": "soldisco-1.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/z5skOi6f/versions/UMdN3XOu/soldisco-1.2.2.jar",
+      "hash": "sha512-papghNe9GMqgQ6O6SYKYyJ6+GcBjKGqTK3a6XuV6kzF8PSvCiCTdnAZBqP792Uw3sqQ2/JtvYLX8vzJts+qybA==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ejQ1vj15": {
+      "filename": "soldisco-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/z5skOi6f/versions/ejQ1vj15/soldisco-1.0.0.jar",
+      "hash": "sha512-ozPLXP4blgKCxhAM4EtOtPTzd9jlCzZDxXl6HekmmhFIASeSiR/WsLMzYSiEwO/ll63ZEKjSgDniOYNJ2zxwgQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    },
+    "h25srFk8": {
+      "filename": "soldisco-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/z5skOi6f/versions/h25srFk8/soldisco-1.3.0.jar",
+      "hash": "sha512-Up/a4g+xQvqOO2DfpNcuywYiSfH8p/K/VMl7y5gLn4k5ze4mohZEfpaEwag67NZhd7U04N0BkDq7KNHkjeetSQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only_client_optional",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "owo-lib",
+          "projectId": "ccKDOlHs",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21.1+fabric": [
+      "h25srFk8",
+      "UMdN3XOu",
+      "TmotCM0s",
+      "ejQ1vj15"
+    ]
+  }
+}

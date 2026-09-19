@@ -1,0 +1,138 @@
+{
+  "slug": "create-beamline",
+  "projectId": "ZmrUepY5",
+  "versions": {
+    "TLMa6YtW": {
+      "filename": "create-beamline_fabric-1.0.0+mc-1.20.1-create-6.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/ZmrUepY5/versions/TLMa6YtW/create-beamline_fabric-1.0.0%2Bmc-1.20.1-create-6.0.7.jar",
+      "hash": "sha512-G6iRv2QbrKn87MVcsNmoSMZmhkb5qulKMW91UzxudnSfj2EhJywhRcbUORVEdcLBmTSUhypBkPEStnTBqSkBWg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ZLOhhwru": {
+      "filename": "create-beamline_forge-1.0.0+mc-1.20.1-create-6.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/ZmrUepY5/versions/ZLOhhwru/create-beamline_forge-1.0.0%2Bmc-1.20.1-create-6.0.7.jar",
+      "hash": "sha512-XVYXJUlRG0uU1zsDJpRBMz/OWJdZIUoWkTx7v76V1SiaUz903h94LBLKw6NguJG2DYhAnYM69PFa8ksgv96FIg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "i4C0o56s": {
+      "filename": "create-beamline_neoforge-1.0.1+nfg_mc-1.21.1-cr-6.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/ZmrUepY5/versions/i4C0o56s/create-beamline_neoforge-1.0.1%2Bnfg_mc-1.21.1-cr-6.0.8.jar",
+      "hash": "sha512-zcUf1EvjYsrfbgCchsFz16LIvMMSQPQkhPg3Zi3FLDMajBYMZrhpBfta5wUhSczzCJrQepcXa4y4cHfcSaVnoQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "s5vZV59E": {
+      "filename": "create-beamline_neoforge-1.0.0+nfg_mc-1.21.1-cr-6.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/ZmrUepY5/versions/s5vZV59E/create-beamline_neoforge-1.0.0%2Bnfg_mc-1.21.1-cr-6.0.8.jar",
+      "hash": "sha512-Wk87ldwGPy7AyZF0SOPLAG/q7r9fac1YcnsIjZLNkVa4vIKh0huhaCsXy0XmMsb4SfUgg+pn3oW8qmkt9x9e2w==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    },
+    "vm92tsuo": {
+      "filename": "create-beamline_neoforge-1.0.2+nfg_mc-1.21.1-cr-6.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/ZmrUepY5/versions/vm92tsuo/create-beamline_neoforge-1.0.2%2Bnfg_mc-1.21.1-cr-6.0.8.jar",
+      "hash": "sha512-JVim44g8+pGaJulvrfdnu3nzqpUi+JuDYMhefs8/sT6Emo++xQPzwmXQZ6C5pN3Pms9DoFJjQ0+n0dBQhNdu/g==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create",
+          "projectId": "LNytGWDc",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "TLMa6YtW"
+    ],
+    "1.20.1+forge": [
+      "ZLOhhwru"
+    ],
+    "1.20.1+quilt": [
+      "TLMa6YtW"
+    ],
+    "1.21.1+neoforge": [
+      "vm92tsuo",
+      "i4C0o56s",
+      "s5vZV59E"
+    ]
+  }
+}

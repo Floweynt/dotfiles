@@ -1,0 +1,104 @@
+{
+  "slug": "better-totem-counter",
+  "projectId": "fsDp8XL8",
+  "versions": {
+    "AdFRHsRE": {
+      "filename": "bettertotemcounter-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fsDp8XL8/versions/AdFRHsRE/bettertotemcounter-0.1.0.jar",
+      "hash": "sha512-UFFSIq/GlT6sqwwnHlOn4mZKAWQEvWCRpPA4MOpe64dj8oYc+5sY64DjG8XmNEVu8lK1GispXty5Hl2t5hinAw==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "dtslib",
+          "projectId": "7Etwo97z",
+          "type": "required"
+        }
+      ]
+    },
+    "W86hKUKV": {
+      "filename": "bettertotemcounter-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fsDp8XL8/versions/W86hKUKV/bettertotemcounter-0.1.0.jar",
+      "hash": "sha512-ckrkSRd/fnAM3eY6HO4gWYtJAetGjvxfwe5C7hre0wp+vhsFfVS6LsH122T4N6CyTWdgeNiu3i9CnMDIoHeBdg==",
+      "gameVersions": [
+        "1.21.2",
+        "1.21.3",
+        "1.21.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "dtslib",
+          "projectId": "7Etwo97z",
+          "type": "required"
+        }
+      ]
+    },
+    "f1aWRKqv": {
+      "filename": "bettertotemcounter-0.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/fsDp8XL8/versions/f1aWRKqv/bettertotemcounter-0.1.0.jar",
+      "hash": "sha512-Yp8nJtRIkL0HPK5Fzc6uq6Q6BGIfS70GI0wMLHfYyJMN2boF7wv5S1UF4GVnaLYA43xugJdhM1tNe0dWXDjraA==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "dtslib",
+          "projectId": "7Etwo97z",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "AdFRHsRE"
+    ],
+    "1.21.1+fabric": [
+      "AdFRHsRE"
+    ],
+    "1.21.11+fabric": [
+      "f1aWRKqv"
+    ],
+    "1.21.2+fabric": [
+      "W86hKUKV"
+    ],
+    "1.21.3+fabric": [
+      "W86hKUKV"
+    ],
+    "1.21.4+fabric": [
+      "W86hKUKV"
+    ]
+  }
+}

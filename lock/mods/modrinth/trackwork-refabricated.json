@@ -1,0 +1,88 @@
+{
+  "slug": "trackwork-refabricated",
+  "projectId": "mwafJvtx",
+  "versions": {
+    "Mh7IDZZC": {
+      "filename": "trackwork-fabric-1.2.2+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mwafJvtx/versions/Mh7IDZZC/trackwork-fabric-1.2.2%2Bmc1.20.1.jar",
+      "hash": "sha512-91bZ/KW1IQP3L/Fk0kY+hTaWy4BmFTiS30hVNKpqZa392zola9pdEgcbKA9iBHARRDU+RaLsxO2kdZndNBX/oA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    },
+    "Q3qF5i32": {
+      "filename": "trackwork-fabric-1.0.1-beta+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mwafJvtx/versions/Q3qF5i32/trackwork-fabric-1.0.1-beta%2Bmc1.20.1.jar",
+      "hash": "sha512-oTJZO1D3sL5yLPFWL/y9xripEUhM1jbZofv4M7rc3yUAI52CgXJO2OG31XoKOg4IicGDnDg5FDrdmvhRtfnT7w==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        },
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        }
+      ]
+    },
+    "hcZOKExq": {
+      "filename": "trackwork-1.1.1b+mc1.20.1.jar",
+      "url": "https://cdn.modrinth.com/data/mwafJvtx/versions/hcZOKExq/trackwork-1.1.1b%2Bmc1.20.1.jar",
+      "hash": "sha512-Z7d8achg9ELbBk70ojMmMz5D85UX6QL/+jCaTlTUEgHngYuWkcf/RobzRgLySpldw0dUzl7JQGgOecNcyq9OFQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "valkyrien-skies",
+          "projectId": "V5ujR2yw",
+          "type": "required"
+        },
+        {
+          "slug": "create-fabric",
+          "projectId": "Xbc0uyRg",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Mh7IDZZC",
+      "hcZOKExq",
+      "Q3qF5i32"
+    ]
+  }
+}

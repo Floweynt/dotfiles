@@ -1,0 +1,54 @@
+{
+  "slug": "impulse-grapple",
+  "projectId": "oNRsp3qV",
+  "versions": {
+    "Jyx801M8": {
+      "filename": "impulse-grapple-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/oNRsp3qV/versions/Jyx801M8/impulse-grapple-1.0.0.jar",
+      "hash": "sha512-hvmUxjMBglEMSPTEnEklxgeI1Ns31KIqFTqRMk9ukymszLFNrBh88fYIF8zOTnwmunCT5Z5ZIFpJbKv9M2YDAg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "NF7MgyhD": {
+      "filename": "Impulse Grapple v1.0.0.zip",
+      "url": "https://cdn.modrinth.com/data/oNRsp3qV/versions/NF7MgyhD/Impulse%20Grapple%20v1.0.0.zip",
+      "hash": "sha512-ZKU6a/KfvwiwJkRtGytXtYVLvlRSU1Q5NtQW9xgSLOXhBtqoeOHVd1dhksSjmHZcTbbXgO1Jh5dl4c2sKeUAqg==",
+      "gameVersions": [
+        "1.21.11"
+      ],
+      "loaders": [
+        "datapack"
+      ],
+      "versionType": "release",
+      "environment": "unknown",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21.11+datapack": [
+      "NF7MgyhD"
+    ],
+    "1.21.11+fabric": [
+      "Jyx801M8"
+    ],
+    "1.21.11+forge": [
+      "Jyx801M8"
+    ],
+    "1.21.11+neoforge": [
+      "Jyx801M8"
+    ],
+    "1.21.11+quilt": [
+      "Jyx801M8"
+    ]
+  }
+}

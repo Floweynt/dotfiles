@@ -1,0 +1,108 @@
+{
+  "slug": "astralisorigins",
+  "projectId": "9rFWezeL",
+  "versions": {
+    "QGw5cAxZ": {
+      "filename": "Astralis 3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9rFWezeL/versions/QGw5cAxZ/Astralis%203.0.0.jar",
+      "hash": "sha512-myJNH4ZDT3gUx/ucwj4qxPQdVDhRmLG6dDapB2cTtTuiUHiRwYf/rmn1pdBqSORPDnJEzm6MFWOkkJ++vimlIQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": []
+    },
+    "YzcBINNs": {
+      "filename": "Eclipsebound 2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/9rFWezeL/versions/YzcBINNs/Eclipsebound%202.0.0.jar",
+      "hash": "sha512-/+BhZMo3SKhOLl7Mp87bxSsl11Ols8iZa3iNqfuYrXrs8+kxMHEc5IsB5H7dWzN7y2g5zIBim28XIF79/vPQ9Q==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        }
+      ]
+    },
+    "bb8fosce": {
+      "filename": "astralis 3.5.0 (fabric).jar",
+      "url": "https://cdn.modrinth.com/data/9rFWezeL/versions/bb8fosce/astralis%203.5.0%20%28fabric%29.jar",
+      "hash": "sha512-O6ahjcU9CtaWfprORicUYLAr579mF8N8N033tNuoJK6zO/UviipZhNI/gqp1i3CvwIVebQhT0d34YWioQvg2JA==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "origins",
+          "projectId": "3BeIrqZR",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "vVE2Or4g": {
+      "filename": "astralis 3.5.0.jar",
+      "url": "https://cdn.modrinth.com/data/9rFWezeL/versions/vVE2Or4g/astralis%203.5.0.jar",
+      "hash": "sha512-a2l+D51xdjRU0PhKYXzXP+xXr/pVzuBSN4a68dN4lQfKzBoKE3HX8eA5WqrWVmgEdIVdrV+jCSAPNxHtBVdcaw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "origins-forge",
+          "projectId": "jl3m2lR9",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "bb8fosce"
+    ],
+    "1.20+forge": [
+      "vVE2Or4g"
+    ],
+    "1.20.1+fabric": [
+      "bb8fosce"
+    ],
+    "1.20.1+forge": [
+      "vVE2Or4g",
+      "QGw5cAxZ",
+      "YzcBINNs"
+    ]
+  }
+}

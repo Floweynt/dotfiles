@@ -1,0 +1,116 @@
+{
+  "slug": "offline-player-teleport",
+  "projectId": "TxE1gqsh",
+  "versions": {
+    "GHrqaHkS": {
+      "filename": "offlineplayerteleport-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/TxE1gqsh/versions/GHrqaHkS/offlineplayerteleport-1.0.0.jar",
+      "hash": "sha512-YWfi81ZK9yPvCt5jFHqry/ObJ+GRZD/ft9mWP4C+xW70v9CeWKvFRnDhhBxJdB7T6XYb7Of9imTr9JZ80TVTbw==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1",
+        "1.20.2",
+        "1.20.3",
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        }
+      ]
+    },
+    "Q8XAKZDf": {
+      "filename": "offlineplayerteleport-1.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/TxE1gqsh/versions/Q8XAKZDf/offlineplayerteleport-1.2.0.jar",
+      "hash": "sha512-uDAU8L19RbQtXzYOz80XpcvSbgOLIgKupXTVKO8FmCc2BjLcc+linTRG6MGk6Im2Oeft1BfLgIs83wgEh+Y3SA==",
+      "gameVersions": [
+        "1.21",
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "ekmQM8JW": {
+      "filename": "offlineplayerteleport-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/TxE1gqsh/versions/ekmQM8JW/offlineplayerteleport-1.1.0.jar",
+      "hash": "sha512-T3jqhugONmoVNeAKrDF4hzXXufdco+OFqiQsDWtTMaRPkdQWeOpPJRuOXf61/ubsrps2X7tg3lx9ieejKjhQUA==",
+      "gameVersions": [
+        "1.20.5",
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "server_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        },
+        {
+          "slug": "fabric-permissions-api",
+          "projectId": "lzVo0Dll",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20+fabric": [
+      "GHrqaHkS"
+    ],
+    "1.20.1+fabric": [
+      "GHrqaHkS"
+    ],
+    "1.20.2+fabric": [
+      "GHrqaHkS"
+    ],
+    "1.20.3+fabric": [
+      "GHrqaHkS"
+    ],
+    "1.20.4+fabric": [
+      "GHrqaHkS"
+    ],
+    "1.20.5+fabric": [
+      "ekmQM8JW"
+    ],
+    "1.20.6+fabric": [
+      "ekmQM8JW"
+    ],
+    "1.21+fabric": [
+      "Q8XAKZDf"
+    ],
+    "1.21.1+fabric": [
+      "Q8XAKZDf"
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "gaht-mod",
+  "projectId": "mHCp97rc",
+  "versions": {
+    "PO9Xzf6b": {
+      "filename": "gahtmod-1.1.2-mc1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/mHCp97rc/versions/PO9Xzf6b/gahtmod-1.1.2-mc1.20.6.jar",
+      "hash": "sha512-KxaMgIztW4aRaVJHfeZm0VFoK+o7yaMK/bgnmHW1FpX9tVKWkUCMqXY+Xek1cudDuZEF39XWFCUhOABqCUOM2Q==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "Xe2ysi2W": {
+      "filename": "gahtmod-1.1.2-mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/mHCp97rc/versions/Xe2ysi2W/gahtmod-1.1.2-mc1.21.jar",
+      "hash": "sha512-yzM7Ac1rTxOPo0xr7oOkWgsJUdnhJpwf5EOydCDUb/CN7kYAbgb1mwtOgX7KD7ICYTDjFY+61LhkHLUooIGp7g==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "aGxfhjdm": {
+      "filename": "gahtmod-1.0.0-mc1.20.4.jar",
+      "url": "https://cdn.modrinth.com/data/mHCp97rc/versions/aGxfhjdm/gahtmod-1.0.0-mc1.20.4.jar",
+      "hash": "sha512-9QUoIXBI4xHpjyvubXnXvRlJFNAnHUKPX3AaQBSfJn7hJj+D9FP/MmQn1GPSvRftHbnEs7CGrP/OXGoxX5WkjA==",
+      "gameVersions": [
+        "1.20.4"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "m3gLmM7c": {
+      "filename": "gahtmod-1.1.1-mc1.20.6.jar",
+      "url": "https://cdn.modrinth.com/data/mHCp97rc/versions/m3gLmM7c/gahtmod-1.1.1-mc1.20.6.jar",
+      "hash": "sha512-8IXL4oiY24AxRrgLyb67lo0SlUdkXE1i2eBqK7q3sD/SNppD4LkMMnKslrVWRvjAK1tO0ra0iYeA8Urqs7X7tg==",
+      "gameVersions": [
+        "1.20.6"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "q6GP4XxT": {
+      "filename": "gahtmod-1.1.2-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/mHCp97rc/versions/q6GP4XxT/gahtmod-1.1.2-mc1.21.1.jar",
+      "hash": "sha512-wkZnvC71fn03HApMfzed4BgJHrT/LaB3oO5DA4ode3Vx00fOnP0iQBzLpQTFuCfx78Cx6sI+PDktPO/SyS2anQ==",
+      "gameVersions": [
+        "1.21.1"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.4+fabric": [
+      "aGxfhjdm"
+    ],
+    "1.20.4+quilt": [
+      "aGxfhjdm"
+    ],
+    "1.20.6+fabric": [
+      "PO9Xzf6b",
+      "m3gLmM7c"
+    ],
+    "1.20.6+quilt": [
+      "PO9Xzf6b",
+      "m3gLmM7c"
+    ],
+    "1.21+fabric": [
+      "Xe2ysi2W"
+    ],
+    "1.21+quilt": [
+      "Xe2ysi2W"
+    ],
+    "1.21.1+fabric": [
+      "q6GP4XxT"
+    ],
+    "1.21.1+quilt": [
+      "q6GP4XxT"
+    ]
+  }
+}

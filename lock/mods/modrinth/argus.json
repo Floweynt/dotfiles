@@ -1,0 +1,63 @@
+{
+  "slug": "argus",
+  "projectId": "viF0ufHN",
+  "versions": {
+    "OgwfbFBA": {
+      "filename": "argus-neoforge-0.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/viF0ufHN/versions/OgwfbFBA/argus-neoforge-0.9.0.jar",
+      "hash": "sha512-9qft3NKIC57hMtORBmXwh4/phpS+O+HeaAasO5xn0ZxVJiQeMPiUf5aVI+E+HrG3c3T6Ma+LCUXVuvP/MErXrg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "VHRK8YDW": {
+      "filename": "argus-fabric-0.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/viF0ufHN/versions/VHRK8YDW/argus-fabric-0.9.0.jar",
+      "hash": "sha512-ZOruxOPcesym/I2DQJ0Ml0pHU0XV4v5AWyFUzrDzwIBMfWxW3EWll4Zh/kVdgEgiUSyEYukBYLCjIc5PDKErwQ==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "Y60RdIFa": {
+      "filename": "argus-fabric-0.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/viF0ufHN/versions/Y60RdIFa/argus-fabric-0.8.0.jar",
+      "hash": "sha512-JvVO3w7JPvBPb2ZSibNDGpcAOQtPI+t+oVH4HoJ35tFsjPSj5DNEHW1H6nGGYUeCLshca3NzAK6cmhNfE6QOXg==",
+      "gameVersions": [
+        "26.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "sodium",
+          "projectId": "AANobbMI",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "26.2+fabric": [
+      "VHRK8YDW",
+      "Y60RdIFa"
+    ],
+    "26.2+neoforge": [
+      "OgwfbFBA"
+    ]
+  }
+}

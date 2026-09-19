@@ -1,0 +1,85 @@
+{
+  "slug": "delta-evolution",
+  "projectId": "n5RT5KhM",
+  "versions": {
+    "DQYjmmXY": {
+      "filename": "deltaevolution_v0_1_HOTFIXweresosorry.jar",
+      "url": "https://cdn.modrinth.com/data/n5RT5KhM/versions/DQYjmmXY/deltaevolution_v0_1_HOTFIXweresosorry.jar",
+      "hash": "sha512-NRhZNnWVeO1AhX1vQAutbDrOhVBqpnxKkkmE1e6CZxR20tKNx7qGCPFhINUsmp/Bxooqv+jvYgE9rjbL9B59IQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        },
+        {
+          "slug": "alexs-caves",
+          "projectId": "U6GY0xp0",
+          "type": "required"
+        }
+      ]
+    },
+    "L9trQpWw": {
+      "filename": "deltaevolution_v0_1_hotfix2.jar",
+      "url": "https://cdn.modrinth.com/data/n5RT5KhM/versions/L9trQpWw/deltaevolution_v0_1_hotfix2.jar",
+      "hash": "sha512-qIHBgVUDboJ3TVAwMwPchNrgQlKPqsxVWNNVudfV5Thgqrxj5igHmNMbgVVYnzLhrA8zc/NcGiaGYk6mUDBSBw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vrLfWzuH": {
+      "filename": "deltaevolution_v0_1.jar",
+      "url": "https://cdn.modrinth.com/data/n5RT5KhM/versions/vrLfWzuH/deltaevolution_v0_1.jar",
+      "hash": "sha512-U2/obJsIdj21vxYaBfiZmO7R1kpwNIOFAeuE6pgewDrRI96cPo6p3zOL9w98cmeWU1fMq+z8G4aXfDxDWzGjSA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "alexs-caves",
+          "projectId": "U6GY0xp0",
+          "type": "required"
+        },
+        {
+          "slug": "alienevo",
+          "projectId": "ZeVD5ZBy",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "L9trQpWw",
+      "DQYjmmXY",
+      "vrLfWzuH"
+    ],
+    "1.20.1+forge": [
+      "L9trQpWw",
+      "DQYjmmXY",
+      "vrLfWzuH"
+    ]
+  }
+}

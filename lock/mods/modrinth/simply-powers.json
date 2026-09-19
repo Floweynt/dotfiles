@@ -1,0 +1,108 @@
+{
+  "slug": "simply-powers",
+  "projectId": "bihikWLt",
+  "versions": {
+    "5Mpp3OqO": {
+      "filename": "Simply Powers v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/bihikWLt/versions/5Mpp3OqO/Simply%20Powers%20v1.0.0.jar",
+      "hash": "sha512-KL6puN6Iq1Pw3Em8qfVklfm8Ee4Xgk4C6F687/nWyhyTHbtySgkyNquK1IHmddEP71fVQyVC4KPCcqmKgBUoog==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        }
+      ]
+    },
+    "Wa92GOI9": {
+      "filename": "Simply Powers v1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/bihikWLt/versions/Wa92GOI9/Simply%20Powers%20v1.1.0.jar",
+      "hash": "sha512-odcZvFR6wZajUu6C61DqI5iom3wuzDvE3lC9JTv8uOiyRFcEZO1PewtXheS1Zw+OOmCmHvNr1wVkGI3m7XSlXw==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric",
+        "forge"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "rhino",
+          "projectId": "sk9knFPE",
+          "type": "required"
+        },
+        {
+          "slug": "threetag-palladium",
+          "projectId": "lt2zd42r",
+          "type": "required"
+        },
+        {
+          "slug": "pehkui",
+          "projectId": "t5W7Jfwy",
+          "type": "required"
+        },
+        {
+          "slug": "kubejs",
+          "projectId": "umyGl7zF",
+          "type": "required"
+        },
+        {
+          "slug": "architectury-api",
+          "projectId": "lhGA9TYQ",
+          "type": "required"
+        },
+        {
+          "slug": "geckolib",
+          "projectId": "8BmcQJ2H",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "Wa92GOI9",
+      "5Mpp3OqO"
+    ],
+    "1.20.1+forge": [
+      "Wa92GOI9",
+      "5Mpp3OqO"
+    ]
+  }
+}

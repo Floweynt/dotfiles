@@ -1,0 +1,52 @@
+{
+  "slug": "backported-discs",
+  "projectId": "W4vtjnfp",
+  "versions": {
+    "sS2WG0Ea": {
+      "filename": "backported-discs-2.0.jar",
+      "url": "https://cdn.modrinth.com/data/W4vtjnfp/versions/sS2WG0Ea/backported-discs-2.0.jar",
+      "hash": "sha512-MBmfgKtWSqDDAy7FMFqnfGirsdzEuj2a4vc2c89xgvdDxWo7AUInxPsD5pbe5En/qUu5KzEA/Gt/P+Tl75aInA==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "tiGFuVyc": {
+      "filename": "backported-discs-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/W4vtjnfp/versions/tiGFuVyc/backported-discs-1.0.jar",
+      "hash": "sha512-g3YJe70JAyp0UKGnaz1mBzaUoQbwdKhX2PPYQWImKjVpGrwYBTgMzqyRVLE6yMSwaxOThtuBtvQS5UPNxHdMDg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "beta",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "sS2WG0Ea",
+      "tiGFuVyc"
+    ]
+  }
+}

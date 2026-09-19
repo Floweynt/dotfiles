@@ -1,0 +1,67 @@
+{
+  "slug": "can-you-trash-it",
+  "projectId": "Y9vogxIg",
+  "versions": {
+    "ltI3U9bF": {
+      "filename": "cyti-2.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Y9vogxIg/versions/2.0.0/cyti-2.0.0.jar",
+      "hash": "sha512-LOLelR830DwDSRqMfMXWK1h4j0gsTkqZ9WlgDXFfY8DO+gt9257GHmSdbq5ACkYT+PQo1sPiUHWcLt0dRxCJ5A==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vcM5OegO": {
+      "filename": "cyti-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Y9vogxIg/versions/1.0.0/cyti-1.0.0.jar",
+      "hash": "sha512-0qC0BxXXZIgjzx7+iLaT9UtaEL8c51ilDJLwkBhX7vFHNogVojybei4biuysyv/8VfmsJ3NOxA+Th6j/QqDtTw==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "wwpfyy4d": {
+      "filename": "cyti-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/Y9vogxIg/versions/1.0.3/cyti-1.0.3.jar",
+      "hash": "sha512-RpEt9tH55TmHh85VUm7+mtGIRqb/BjW9SLSQO82xAcx2TbDrXnAMGsV8aWECYvqEO3I8IbfoYVQ0QlQe6mbLpw==",
+      "gameVersions": [
+        "1.18",
+        "1.18.1",
+        "1.18.2"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.18+fabric": [
+      "wwpfyy4d",
+      "vcM5OegO"
+    ],
+    "1.18.1+fabric": [
+      "wwpfyy4d",
+      "vcM5OegO"
+    ],
+    "1.18.2+fabric": [
+      "wwpfyy4d"
+    ],
+    "1.19+fabric": [
+      "ltI3U9bF"
+    ]
+  }
+}

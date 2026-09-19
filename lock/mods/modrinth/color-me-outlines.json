@@ -1,0 +1,58 @@
+{
+  "slug": "color-me-outlines",
+  "projectId": "LpD5NoYs",
+  "versions": {
+    "8t6KRJoB": {
+      "filename": "wraith-colormeoutlines-1.1.1.jar",
+      "url": "https://cdn.modrinth.com/data/LpD5NoYs/versions/1.1.1/wraith-colormeoutlines-1.1.1.jar",
+      "hash": "sha512-mrLU3/9BOonb0S/1cF6YdTSPQqqXuXnexDFdJljd0RXqYuP2Zv9BI1BPaiZDF7WOIOkAJYqaIQEEI2cLymjoQA==",
+      "gameVersions": [
+        "1.19"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "yg6WMdVk": {
+      "filename": "wraith-colormeoutlines-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/LpD5NoYs/versions/yg6WMdVk/wraith-colormeoutlines-1.1.2.jar",
+      "hash": "sha512-wNOWNB+F/7xLHitm1/wzPe3VpKxc4Blszkw6Q98CTQjIPn46/GBhy51UOgDGpphTt5f9oM3Dksc0uJmfF839Xg==",
+      "gameVersions": [
+        "1.20",
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.19+fabric": [
+      "8t6KRJoB"
+    ],
+    "1.20+fabric": [
+      "yg6WMdVk"
+    ],
+    "1.20.1+fabric": [
+      "yg6WMdVk"
+    ]
+  }
+}

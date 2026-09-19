@@ -1,0 +1,67 @@
+{
+  "slug": "advancedchatlog-next",
+  "projectId": "IWLTSCQS",
+  "versions": {
+    "aNLwSCg9": {
+      "filename": "AdvancedChatLog-1.21-1.2.4-beta1.jar",
+      "url": "https://cdn.modrinth.com/data/IWLTSCQS/versions/aNLwSCg9/AdvancedChatLog-1.21-1.2.4-beta1.jar",
+      "hash": "sha512-J9Vpkyyz8cj9uK89SQoM0kqaT4kVjmCj0q/hiBChG5C6EaAvWTz1yI+KlaDwa2F7bHb5DwIpZQ0phwEd96Rk3w==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "beta",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "nPwZxFdu": {
+      "filename": "AdvancedChatLog-1.21-1.2.4.jar",
+      "url": "https://cdn.modrinth.com/data/IWLTSCQS/versions/nPwZxFdu/AdvancedChatLog-1.21-1.2.4.jar",
+      "hash": "sha512-59GsmralHwhBT4aUTTZ1r5yVmJePkbr/DMnEDvov39KJkk+SWKpBBG6owwVZobzFIM3SsuITkH5fbzM6s5K68Q==",
+      "gameVersions": [
+        "1.21"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    },
+    "rfewIWWw": {
+      "filename": "AdvancedChatLog-1.21.8-1.2.5.jar",
+      "url": "https://cdn.modrinth.com/data/IWLTSCQS/versions/rfewIWWw/AdvancedChatLog-1.21.8-1.2.5.jar",
+      "hash": "sha512-K+QBQI4hYFscHKqpQ0FzN1/9MLD9w6npC1ihfAI9G4sCf9tv42XOEKOOUCyIUF2nRBlzZOJMTx0dNxhxuS73+w==",
+      "gameVersions": [
+        "1.21.8"
+      ],
+      "loaders": [
+        "fabric",
+        "quilt"
+      ],
+      "versionType": "release",
+      "environment": "client_only",
+      "dependencies": []
+    }
+  },
+  "byTarget": {
+    "1.21+fabric": [
+      "nPwZxFdu",
+      "aNLwSCg9"
+    ],
+    "1.21+quilt": [
+      "nPwZxFdu",
+      "aNLwSCg9"
+    ],
+    "1.21.8+fabric": [
+      "rfewIWWw"
+    ],
+    "1.21.8+quilt": [
+      "rfewIWWw"
+    ]
+  }
+}

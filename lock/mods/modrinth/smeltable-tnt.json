@@ -1,0 +1,67 @@
+{
+  "slug": "smeltable-tnt",
+  "projectId": "lVIBjGtR",
+  "versions": {
+    "62yl9CUb": {
+      "filename": "furnacetntexplode-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/lVIBjGtR/versions/62yl9CUb/furnacetntexplode-1.0.jar",
+      "hash": "sha512-h3Ti7IAe3yx7Aw6TnP1l1ZM9Hq1oZkA/s0sFo170Ymxizq+HTlipBhjv/1hL7SaF6eZl5fYuM8yYSZ7zYqgMAg==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "release",
+      "environment": "client_and_server",
+      "dependencies": []
+    },
+    "vODBfFyZ": {
+      "filename": "furnacetntexplode-0.2.jar",
+      "url": "https://cdn.modrinth.com/data/lVIBjGtR/versions/vODBfFyZ/furnacetntexplode-0.2.jar",
+      "hash": "sha512-nbQi+PBEJWa55StruYRP/tmOWy1ipF5H/8fWPK9qkJcT6Hs0HEKSWmGjeIu/9ayrtpwPTLkpX4As0kH+hVPADQ==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    },
+    "z3HhyTTX": {
+      "filename": "furnacetntexplode-0.1.jar",
+      "url": "https://cdn.modrinth.com/data/lVIBjGtR/versions/z3HhyTTX/furnacetntexplode-0.1.jar",
+      "hash": "sha512-nrHgitNGHzUHRBulskVBJqg0WZE47RsyNO0AKe8ZUtEvAYjJ/j3DMShZ0QQA/0lONgj1FaKF0dstzmjrIj/R7g==",
+      "gameVersions": [
+        "1.20.1"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "versionType": "alpha",
+      "environment": "client_and_server",
+      "dependencies": [
+        {
+          "slug": "fabric-api",
+          "projectId": "P7dR8mSH",
+          "type": "required"
+        }
+      ]
+    }
+  },
+  "byTarget": {
+    "1.20.1+fabric": [
+      "62yl9CUb",
+      "vODBfFyZ",
+      "z3HhyTTX"
+    ]
+  }
+}
