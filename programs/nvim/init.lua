@@ -25,8 +25,9 @@ require("latex");
 vim.api.nvim_create_autocmd('FileType', {
     pattern = { '*' },
     callback = function()
-        if vim.bo.filetype ~= 'tex' then
-            pcall(vim.treesitter.start)
+        local lang = vim.treesitter.language.get_lang(vim.bo.filetype)
+        if lang and pcall(vim.treesitter.language.inspect, lang) then
+            vim.treesitter.start()
         end
     end,
 })
