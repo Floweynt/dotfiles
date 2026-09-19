@@ -26,6 +26,7 @@ let
     name = "quickshell";
     paths = [ clangPkgs.quickshell ];
     nativeBuildInputs = [ pkgs.makeWrapper ];
+    meta.mainProgram = "quickshell";
     postBuild = ''
       wrapProgram $out/bin/quickshell \
           --prefix PATH : ${
@@ -44,11 +45,16 @@ let
   };
 in
 {
-  users.users."${user}".packages = [
-    quickshellWrapped
-    clangPkgs.kdePackages.qtdeclarative
-  ];
+  users.users."${user}".packages = [ clangPkgs.kdePackages.qtdeclarative ];
 
   environment.etc."quickshell/pci.ids".source = "${pkgs.hwdata}/share/hwdata/pci.ids";
   environment.etc."quickshell/usb.ids".source = "${pkgs.hwdata}/share/hwdata/usb.ids";
+
+  home-manager.users."${user}".programs.quickshell = {
+    enable = true;
+    package = quickshellWrapped;
+    configs.floweyshell = ./src;
+    activeConfig = "floweyshell";
+    systemd.enable = true;
+  };
 }

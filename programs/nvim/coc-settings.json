@@ -82,7 +82,7 @@
         "color": "rbg",
         "snippet": "snip",
         "text": "txt",
-        "constructor": "ctor",
+        "constructor": "Cn",
         "value": "val",
         "enumMember": "E::X"
     },
@@ -100,6 +100,27 @@
             "filetypes": [
                 "qml"
             ]
+        },
+        "fstar": {
+            "command": "fstar-vsca-lsp-server",
+            "args": [
+                "--stdio"
+            ],
+            "filetypes": [
+                "fstar"
+            ],
+            "rootPatterns": [
+                ".git"
+            ],
+            "settings": {
+                "fstarVSCodeAssistant": {
+                    "debug": false,
+                    "verifyOnOpen": false,
+                    "verifyOnSave": true,
+                    "flyCheck": true,
+                    "showLightCheckIcon": false
+                }
+            }
         },
         "nix": {
             "command": "nixd",
@@ -121,7 +142,9 @@
         },
         "svls": {
             "command": "svls",
-            "rootPatterns": [".svls.toml"],
+            "rootPatterns": [
+                ".svls.toml"
+            ],
             "filetypes": [
                 "systemverilog",
                 "verilog"
@@ -143,13 +166,22 @@
                 "texlab": {
                     "build": {
                         "executable": "latexmk",
-                        "args": ["-pdf", "-interaction=nonstopmode", "-synctex=1", "%f"],
+                        "args": [
+                            "-pdf",
+                            "-interaction=nonstopmode",
+                            "-synctex=1",
+                            "%f"
+                        ],
                         "onSave": true,
                         "forwardSearchAfter": true
                     },
                     "forwardSearch": {
                         "executable": "zathura",
-                        "args": ["--synctex-forward", "%l:1:%f", "%p"]
+                        "args": [
+                            "--synctex-forward",
+                            "%l:1:%f",
+                            "%p"
+                        ]
                     },
                     "chktex": {
                         "onOpenAndSave": true

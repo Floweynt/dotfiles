@@ -1,7 +1,7 @@
 {
   pkgs,
   lib,
-  config,
+  self,
   ...
 }:
 let
@@ -9,13 +9,7 @@ let
   clangPkgs = pkgs;
   # clangPkgs = import ./clang-pkgs.nix (args // { inherit machine; });
   user = "flowey";
-  userPackages = builtins.mapAttrs (
-    name: value:
-    pkgs.callPackage value {
-      kernel = config.boot.kernelPackages.kernel;
-      inherit util;
-    }
-  ) (util.loadDir ./packages "package");
+  userPackages = self.packages.${pkgs.system};
 in
 {
   imports = [
@@ -42,6 +36,11 @@ in
     "flakes"
   ];
 
+  nixpkgs.config.permittedInsecurePackages = [
+    "idea-oss-with-plugins-2025.3.4"
+    "idea-oss-2025.3.4"
+  ];
+
   programs.ccache.enable = true;
 
   services = {
@@ -63,6 +62,7 @@ in
       wifi.powersave = true;
       plugins = lib.mkForce [ ];
       logLevel = "INFO";
+      settings.connection."wifi.bgscan" = "simple:30:-80:3600";
     };
   };
 
@@ -119,9 +119,11 @@ in
         userPackages.view-dot
         userPackages.gen-cdb
         userPackages.claude-sandboxed
+        userPackages.codex-sandboxed
         clang_22
         llvmPackages_22.clang-tools
         ccache
+        fstar
       ];
     };
   };

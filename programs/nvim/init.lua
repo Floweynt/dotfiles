@@ -25,7 +25,6 @@ require("latex");
 vim.api.nvim_create_autocmd('FileType', {
     pattern = { '*' },
     callback = function()
-        -- vimtex owns tex syntax (needed for concealment); skip treesitter for it
         if vim.bo.filetype ~= 'tex' then
             pcall(vim.treesitter.start)
         end
@@ -37,6 +36,7 @@ vim.filetype.add({
         leg = "leg",
         lds = "ld",
         vl = "systemverilog",
-        v = "systemverilog"
+        v = "systemverilog",
+        fst = "fstar"
     }
 })

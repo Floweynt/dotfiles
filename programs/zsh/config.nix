@@ -1,4 +1,5 @@
 {
+  self,
   clangPkgs,
   user,
   lib,
@@ -27,10 +28,8 @@
       shellAliases = {
         update = "sudo nixos-rebuild switch --flake /home/${user}/dotfiles#${machine.hostname}";
         cat = "bat";
-        shell = "nix-shell --run $SHELL";
         develop = "nix develop --command $SHELL";
-        env-c = "nix-shell --run $SHELL ${./env-c.nix}";
-        env-rs = "nix-shell --run $SHELL ${./env-rs.nix}";
+        develop-llvm = "nix develop path:${self}#llvm --command $SHELL";
       };
       initContent = lib.mkAfter (builtins.readFile ./rc.zsh);
       syntaxHighlighting = {

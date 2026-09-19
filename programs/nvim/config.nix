@@ -37,6 +37,7 @@
         hologram-nvim
         diffview-nvim
         vimtex
+        userPackages.vim-fstar
 
         # lsp
         coc-clangd
@@ -62,14 +63,12 @@
         texlab
         zathura
         neovim-remote
-        (texlive.combine {
-          inherit (texlive)
-            scheme-small
-            latexmk
-            minted
-            fvextra
-            ;
-        })
+        userPackages.fstar-lsp
+        (texliveSmall.withPackages (ps: [
+          ps.latexmk
+          ps.minted
+          ps.fvextra
+        ]))
       ];
     };
 

@@ -10,7 +10,9 @@ let
     - The current project directory (read-write).
     - /nix (read-only) - full Nix store, daemon socket.
     - /run/current-system, /run/booted-system (read-only) - NixOS profile.
-    - A fresh empty $HOME (writable tmpfs, discarded on exit).
+    - A fresh empty $HOME (writable tmpfs, discarded on exit) - except
+      `~/.claude`, which is bind-mounted from the real one and persists
+      (memory, settings, API key).
     - A handful of /etc files needed for DNS, certs, user lookup.
     - /tmp is a private tmpfs.
 
@@ -38,6 +40,102 @@ let
     ## What you cannot do
     - Write outside the project directory and the ephemeral $HOME.
     - Load kernel modules, change hostnames, acquire new privileges.
+
+    # Code standards
+
+    IT IS VERY IMPORTANT THAT YOU ADHERE TO THESE STANDARDS, ALWAYS, UNLESS EXPLICITLY
+    PROMPTED BY THE USER OTHERWISE.
+
+    You are encouraged to write reusable, modular, and clean code. This means that:
+
+    1) functions should do one thing (usually)
+    2) functions should be pure if possible
+    3) functions should not be verbose
+    4) do NOT reinvent the wheel if possible
+
+    ## Abstraction
+
+    Abstraction hides details, which is bad when it hides things you need to see and good when it
+    hides things you'd rather not think about - consider which case applies. Do NOT copy blocks of
+    code just to change one thing - abstract instead. Do NOT abstract over one or two cases - that's
+    premature.
+
+    ## Commenting
+
+    You are heavily discouraged from writing comments. A comment is justified only when:
+
+    1) something is done in a genuinely counterintuitive way, and that way isn't already a
+       well-known pattern or standard (counterintuitive-but-standard needs no comment)
+    2) there's important context that cannot be inferred from the codebase alone
+    3) the comment is for documentation purposes
+
+    Otherwise, write NO comments.
+
+    If semantics can be inferred from the type, the variable/function name, and surrounding context,
+    drop the comment. Never leave a comment asserting that code works, was tested, or was verified
+    ("verified this works", "tested and confirmed") - correctness is the default assumption, not
+    something to announce. Don't empirically justify a claim in prose ("75ms vs 35ms, verified by
+    benchmark") - state the conclusion ("this impl is faster") and drop the receipts.
+
+    Comments must be "WHY" comments, not "HOW" or "WHAT." Keep them terse, direct, and technical -
+    no fluff words ("genuinely", "honestly"), no negatives (say what is, not what isn't), no fancy
+    box characters (plain ASCII only). Sentence fragments are fine if intent is obvious. Avoid
+    em-dashes, since those can almost always be replaced with more trivial constructs (even '-' is
+    better, no one cares about comment grammar).
+
+    Good places for a comment:
+    - a dense optimized routine (e.g. hand-rolled SIMD) - briefly explain the algorithm and loosely
+      justify correctness and a few edge cases
+    - a workaround that looks broken but works for some obscure reason - explain the reason
+
+    Further discipline, learned from practice:
+    - Even a justified comment states the bare fact, not the reasoning chain that produced it.
+      State the conclusion, drop the walkthrough - the benchmark rule above applies to any comment,
+      not just performance claims.
+    - Never justify a design decision in a comment ("we did X instead of Y because Z"), even when Y
+      would cause a real bug (crash, infinite recursion). That's process history - a commit
+      message's job, not the code's. If an operative constraint matters, state it as a fact on its
+      own, never as a decision narrative.
+    - Don't explain a gotcha the code already signals as deliberate by its own shape (an unusual
+      option path, a call that's clearly not the default). Do comment a setting that looks removable
+      or accidental on its face (e.g. a lone boolean flag on an otherwise-plain block) - someone
+      could plausibly "simplify" it away without the comment.
+    - Keep a runnable example command verbatim even when trimming everything around it.
+    - A detailed workaround comment (named tool + concrete broken behavior + concrete fix) earns its
+      length. The terseness push is for reasoning chains that collapse to one fact, not for comments
+      where the detail is the payload.
+    - If two comments say the same thing, drop one - identical comments on adjacent near-duplicate
+      lines, or a doc-comment and an inline comment covering the same ground, don't need saying
+      twice.
+    - Prefer fixing the code over documenting a workaround, when the workaround itself is cheap to
+      remove (e.g. add a missing trailing newline instead of commenting why it's missing).
+    - Doc comments (a function's `/** ... */` API block) stay API-only: types, inputs, behavior
+      contract. Implementation rationale doesn't belong there either - inline it near the code
+      under the rules above, or drop it.
+    - Don't write a comment purely to distinguish two similarly-named variables - trust the reader
+      to read the code.
+    - Write like a person talks: short, blunt, plain sentences. No formal subordinate clauses
+      ("since it depends on...", "which doesn't page on its own without...").
+
+    Bad:
+    ```
+    Tried -Oz (clang's more-aggressive-than-Os size level) here and measured
+    it *larger* in practice (1801 vs 1424 bytes) -- its stricter anti-inlining
+    heuristic stops inlining small few-call-site helpers (e.g. deflate.c's
+    br_get_byte out of bootstrap_postcar), and for a codebase this small the
+    call/ret+prologue overhead that costs is bigger than what it saves.
+    Sticking with -Os.
+    ```
+
+    Good:
+    ```
+    -Oz produces larger binary because clang doesn't like inlining functions
+    ```
+
+    ## Modernization
+
+    You are encouraged to use the most modern constructs in the language as permitted by the buildsystem's specification of the
+    language version.
   '';
 in
 pkgs.writeShellApplication {
@@ -87,8 +185,6 @@ pkgs.writeShellApplication {
 
     USER_RUNTIME="/run/user/$(id -u)"
 
-    # Ensure ~/.claude/CLAUDE.md exists with the sandbox context description.
-    # ~/.claude is not persisted across reboots (darling erasure), so initialize it on first use.
     mkdir -p "$HOME/.claude"
     if [[ ! -f "$HOME/.claude/CLAUDE.md" ]]; then
       cp ${claudeMd} "$HOME/.claude/CLAUDE.md"
@@ -126,7 +222,7 @@ pkgs.writeShellApplication {
 
       --property=TemporaryFileSystem="$USER_RUNTIME"
       --property=TemporaryFileSystem="$HOME"
-      --property=BindPaths="$HOME/.claude"  # global Claude state (memory, settings, API key)
+      --property=BindPaths="$HOME/.claude"
       --property=BindPaths="$PROJECT_DIR"
 
       --property=ProtectKernelTunables=yes
@@ -141,7 +237,7 @@ pkgs.writeShellApplication {
       --property=RestrictSUIDSGID=yes
       --property=NoNewPrivileges=yes
       --property=RemoveIPC=yes
-      --property=MemoryDenyWriteExecute=no  # Bun needs JIT pages
+      --property=MemoryDenyWriteExecute=no
 
       --property=Environment=NIX_REMOTE=daemon
       --property=Environment=HOME="$HOME"

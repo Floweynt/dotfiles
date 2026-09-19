@@ -64,6 +64,7 @@
       # home
       "dev/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@home/dev/";
       "dotfiles/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@home/dotfiles/";
+      "games/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@home/games/";
       "files/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@home/files/";
       ".ssh/".source = config.lib.file.mkOutOfStoreSymlink "/persist/@home/ssh/";
       "Passwords.kdbx".source = config.lib.file.mkOutOfStoreSymlink "/persist/@home/Passwords.kdbx";
